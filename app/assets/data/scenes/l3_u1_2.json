@@ -22,7 +22,7 @@
       "restaurant",
       "worked",
       "years",
-      "back"
+      "home"
      ],
      "suggestion": "Yes, I worked in a restaurant back home for two years.",
      "suggestionFa": "آره، تو کشور خودم دو سال تو یه رستوران کار کردم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "found",
       "have",
-      "far",
-      "how"
+      "how",
+      "far"
      ],
      "suggestion": "How have you found it so far?",
      "suggestionFa": "تا حالا چطور بوده؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "anyone",
-      "need",
       "else",
-      "they"
+      "they",
+      "need"
      ],
      "suggestion": "Do they need anyone else?",
      "suggestionFa": "کس دیگه‌ای هم لازم دارن؟",
@@ -133,8 +133,8 @@
      "keywords": [
       "actually",
       "barista",
-      "before",
-      "worked"
+      "worked",
+      "before"
      ],
      "suggestion": "I've worked as a barista before, actually.",
      "suggestionFa": "راستش قبلاً باریستا بودم.",

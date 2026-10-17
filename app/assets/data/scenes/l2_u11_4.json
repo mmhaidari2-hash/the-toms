@@ -69,7 +69,7 @@
      "keywords": [
       "nearly",
       "c",
-      "e",
+      "b",
       "s"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
@@ -119,8 +119,8 @@
    "branches": [
     {
      "keywords": [
-      "letters",
       "because",
+      "letters",
       "that's",
       "clever"
      ],
@@ -176,9 +176,9 @@
    "branches": [
     {
      "keywords": [
+      "d",
       "r",
       "f",
-      "d",
       "n"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "except",
       "before",
+      "except",
       "after",
       "c"
      ],
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
+      "count",
       "seven",
       "start",
-      "count",
       "five"
      ],
      "suggestion": "Start at seven and count up five.",
@@ -332,9 +332,9 @@
    "branches": [
     {
      "keywords": [
+      "lovely",
       "nicola",
       "that's",
-      "lovely",
       "aw"
      ],
      "suggestion": "Aw, that's lovely, Nicola.",
@@ -382,10 +382,10 @@
    "branches": [
     {
      "keywords": [
-      "well",
       "done",
-      "mum",
-      "ask"
+      "well",
+      "ask",
+      "mum"
      ],
      "suggestion": "Ask your mum. Well done!",
      "suggestionFa": "از مامانت بپرس. آفرین!",
@@ -397,8 +397,8 @@
      "keywords": [
       "first",
       "book",
-      "put",
-      "bag"
+      "bag",
+      "put"
      ],
      "suggestion": "First, put your book in your bag.",
      "suggestionFa": "اول، کتابت را بذار تو کیفت.",

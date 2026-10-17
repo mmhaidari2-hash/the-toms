@@ -31,8 +31,8 @@
     {
      "keywords": [
       "vitamin",
-      "that's",
       "should",
+      "that's",
       "relief"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
@@ -75,7 +75,7 @@
       "prescription",
       "chemist",
       "need",
-      "buy"
+      "can"
      ],
      "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
      "suggestionFa": "نسخه لازمه، یا می‌تونم از داروخونه بخرم؟",
@@ -85,10 +85,10 @@
     },
     {
      "keywords": [
-      "feeling",
       "explain",
-      "would",
-      "tired"
+      "feeling",
+      "tired",
+      "would"
      ],
      "suggestion": "Would that explain why I've been feeling so tired?",
      "suggestionFa": "این می‌تونه توضیح بده چرا این‌قدر خسته‌ام؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "night",
       "great",
+      "night",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "reasonable",
-      "mornings",
       "struggle",
-      "but"
+      "mornings",
+      "get"
      ],
      "suggestion": "Reasonable, but I struggle to get up in the mornings.",
      "suggestionFa": "معقول، ولی صبح‌ها به‌زور بیدار می‌شم.",
@@ -197,7 +197,7 @@
       "evenings",
       "really",
       "think",
-      "dark"
+      "just"
      ],
      "suggestion": "Not really — I think it's just the dark evenings.",
      "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "therapy",
-      "about",
       "think",
+      "about",
       "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "back",
+      "pain",
       "from",
-      "pain"
+      "back"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -349,8 +349,8 @@
    "branches": [
     {
      "keywords": [
-      "stone",
       "birds",
+      "stone",
       "then",
       "one"
      ],
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "outside",
-      "i'll",
       "more",
-      "get"
+      "i'll",
+      "try"
      ],
      "suggestion": "I'll try to get outside more.",
      "suggestionFa": "سعی می‌کنم بیشتر برم بیرون.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "okafor",
+      "thanks",
       "will",
       "dr"
      ],
@@ -410,9 +410,9 @@
     {
      "keywords": [
       "supplement",
-      "before",
       "should",
-      "test"
+      "before",
+      "stop"
      ],
      "suggestion": "Should I stop the supplement before the test?",
      "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",

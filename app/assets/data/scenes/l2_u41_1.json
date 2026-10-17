@@ -1,0 +1,462 @@
+{
+ "id": "l2_u41_1",
+ "characterId": "hughes",
+ "title": "A check-up",
+ "titleFa": "وقت معاینه",
+ "setting": "Making appointments · Level 2",
+ "settingFa": "گرفتن وقت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Good morning, Smile Dental Practice, Mrs Hughes speaking. Our receptionist's on holiday, so it's just me. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، مطب دندان‌پزشکی اسمایل، هیوز هستم. منشی‌مون مرخصیه، پس فقط خودمم. چه کمکی می‌تونم بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "morning",
+      "check",
+      "book"
+     ],
+     "suggestion": "Good morning. I'd like to book a check-up for Ryan Thompson.",
+     "suggestionFa": "صبح بخیر. می‌خوام برای رایان تامپسون وقت معاینه بگیرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reminder",
+      "hughes",
+      "letter",
+      "hello"
+     ],
+     "suggestion": "Hello, Mrs Hughes. We got a reminder letter for Ryan.",
+     "suggestionFa": "سلام خانم هیوز. برای رایان یه نامهٔ یادآوری گرفتیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receptionist",
+     "fa": "منشی"
+    },
+    {
+     "word": "on holiday",
+     "fa": "مرخصی ؛ تعطیلات"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    },
+    {
+     "word": "check-up",
+     "fa": "معاینهٔ دوره‌ای"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآوری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "Ah, young Ryan. Six months already! Time flies. Are you his dad? No — you must be the lodger. Nicola talks about you.",
+   "translations": {
+    "fa": "آه، رایان جوون. شش ماه گذشت! زمان مثل برق می‌گذره. باباشید؟ نه — حتماً مستأجرید. نیکولا دربارهٔ شما حرف می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lodger",
+      "asked",
+      "call"
+     ],
+     "suggestion": "Yes, I'm the lodger. Leslie asked me to call.",
+     "suggestionFa": "آره، من مستأجرم. لزلی ازم خواست زنگ بزنم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flies",
+      "time",
+      "work"
+     ],
+     "suggestion": "Time flies! Yes, Leslie is at work.",
+     "suggestionFa": "زمان می‌گذره! آره، لزلی سر کاره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "young",
+     "fa": "جوان"
+    },
+    {
+     "word": "time flies",
+     "fa": "زمان زود می‌گذرد"
+    },
+    {
+     "word": "lodger",
+     "fa": "مستأجر"
+    },
+    {
+     "word": "at work",
+     "fa": "سر کار"
+    }
+   ],
+   "cultureNote": {
+    "en": "NHS dentists usually see patients every 6–24 months. Many practices send a reminder letter or text when a check-up is due.",
+    "fa": "دندان‌پزشکان NHS معمولاً هر ۶ تا ۲۴ ماه بیمار را می‌بینند و یادآوری می‌فرستند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Lovely. He's at school, so after school is best? I've got Tuesday the twentieth at four, or Thursday at half three.",
+   "translations": {
+    "fa": "عالی. مدرسه‌ست، پس بعد از مدرسه بهتره؟ سه‌شنبه بیستم ساعت چهار دارم، یا پنج‌شنبه ساعت سه و نیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "friday",
+      "have",
+      "got"
+     ],
+     "suggestion": "Have you got anything on Friday?",
+     "suggestionFa": "جمعه چیزی دارید؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thursday",
+      "football",
+      "tuesday",
+      "suits"
+     ],
+     "suggestion": "Tuesday at four suits him. He has football on Thursday.",
+     "suggestionFa": "سه‌شنبه ساعت چهار براش مناسبه. پنج‌شنبه فوتبال داره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after school",
+     "fa": "بعد از مدرسه"
+    },
+    {
+     "word": "twentieth",
+     "fa": "بیستم"
+    },
+    {
+     "word": "half three",
+     "fa": "سه و نیم"
+    },
+    {
+     "word": "suits",
+     "fa": "مناسب است"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "have you anything on friday",
+      "do you have something in friday"
+     ],
+     "echo": "Anything on Friday? Let me look.",
+     "better": "Have you got anything on Friday?",
+     "betterFa": "جمعه وقتی دارید؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "Fridays I'm fully booked, I'm afraid. Everyone wants Friday! Shall I put him down for Tuesday at four?",
+   "translations": {
+    "fa": "جمعه‌ها متأسفانه کاملاً پره. همه جمعه می‌خوان! براش سه‌شنبه ساعت چهار بذارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twentieth",
+      "tuesday",
+      "please",
+      "four"
+     ],
+     "suggestion": "Yes please. Tuesday the twentieth at four.",
+     "suggestionFa": "لطفاً بله. سه‌شنبه بیستم ساعت چهار.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "suits",
+      "ryan",
+      "mean"
+     ],
+     "suggestion": "That suits me. I mean, it suits Ryan!",
+     "suggestionFa": "برام مناسبه. یعنی برای رایان مناسبه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fully booked",
+     "fa": "کاملاً پر"
+    },
+    {
+     "word": "put him down",
+     "fa": "اسمش را بنویسم"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "Done. Can I just check his date of birth? For the records. And is his address still the same?",
+   "translations": {
+    "fa": "انجام شد. میشه تاریخ تولدش را چک کنم؟ برای پرونده. و آدرسش هنوز همونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "address",
+      "forget",
+      "same"
+     ],
+     "suggestion": "Yes, the same address. Sorry, I forget his birthday!",
+     "suggestionFa": "آره، همون آدرس. ببخشید، تولدش یادم نیست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "birth",
+      "don't",
+      "text"
+     ],
+     "suggestion": "Sorry, I don't know his date of birth. Can Leslie text you?",
+     "suggestionFa": "ببخشید، تاریخ تولدش را نمی‌دونم. لزلی می‌تونه بهتون پیام بده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "records",
+     "fa": "پرونده‌ها"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "Don't worry, it's on the system. I just like to check. And the mobile for reminders — is it Leslie's number?",
+   "translations": {
+    "fa": "نگران نباشید، تو سیستم هست. فقط دوست دارم چک کنم. و موبایل برای یادآوری — شمارهٔ لزلیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reminder",
+      "before",
+      "could",
+      "day"
+     ],
+     "suggestion": "Yes. Could you send a reminder the day before?",
+     "suggestionFa": "بله. میشه یه روز قبلش یادآوری بفرستید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan's",
+      "phone",
+      "can"
+     ],
+     "suggestion": "Can you send it to Ryan's phone too?",
+     "suggestionFa": "میشه به گوشی رایان هم بفرستید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "system",
+     "fa": "سیستم"
+    },
+    {
+     "word": "mobile",
+     "fa": "موبایل"
+    },
+    {
+     "word": "the day before",
+     "fa": "یک روز قبل"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "We text the day before automatically. Only one number, though — Leslie's. Ryan might \"forget\" to read it. Teenagers!",
+   "translations": {
+    "fa": "ما خودکار یه روز قبل پیام می‌دیم. ولی فقط به یه شماره — مال لزلی. رایان ممکنه «یادش بره» بخونه. نوجوون‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "should",
+      "bring",
+      "there"
+     ],
+     "suggestion": "Ha! True. Is there anything he should bring?",
+     "suggestionFa": "ها! درسته. چیزی باید با خودش بیاره؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "he's",
+      "free",
+      "him"
+     ],
+     "suggestion": "Is it free for him? He's fifteen.",
+     "suggestionFa": "براش مجانیه؟ پونزده سالشه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "automatically",
+     "fa": "به‌طور خودکار"
+    },
+    {
+     "word": "though",
+     "fa": "البته"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    },
+    {
+     "word": "teenagers",
+     "fa": "نوجوان‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "NHS dental treatment is free for under-18s, pregnant women and some people on benefits. Adults usually pay a fixed band price.",
+    "fa": "درمان دندان NHS برای زیر ۱۸ ساله‌ها رایگان است؛ بزرگسالان معمولاً مبلغ ثابتی می‌پردازند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "hughes",
+   "text": "Free under eighteen, yes. Just bring Ryan — with clean teeth, please! Last time he came straight from football. Mud everywhere.",
+   "translations": {
+    "fa": "زیر هجده رایگانه، آره. فقط رایان را بیارید — با دندون‌های تمیز لطفاً! دفعهٔ قبل مستقیم از فوتبال اومد. همه‌جا گل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teeth",
+      "clean",
+      "tell",
+      "i'll"
+     ],
+     "suggestion": "I'll tell him. Clean teeth, no mud!",
+     "suggestionFa": "بهش میگم. دندون تمیز، بدون گل!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "goodbye",
+      "hughes",
+      "thank",
+      "mrs"
+     ],
+     "suggestion": "Thank you, Mrs Hughes. Goodbye!",
+     "suggestionFa": "ممنون خانم هیوز. خداحافظ!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clean teeth",
+     "fa": "دندان تمیز"
+    },
+    {
+     "word": "straight",
+     "fa": "مستقیم"
+    },
+    {
+     "word": "mud",
+     "fa": "گل"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "hughes",
+   "text": "Perfect. Tuesday at four. And tell Nicola her sticker's still on my wall. The unicorn. Bye now!",
+   "translations": {
+    "fa": "عالی. سه‌شنبه ساعت چهار. و به نیکولا بگید برچسبش هنوز رو دیوار منه. همون تک‌شاخ. فعلاً خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

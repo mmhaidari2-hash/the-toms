@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "check",
+      "shall",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "calling",
-      "order",
       "about",
+      "order",
       "late"
      ],
      "suggestion": "Hi. I'm calling about order 2479. It's very late.",
@@ -182,8 +182,8 @@
      "keywords": [
       "minutes",
       "driver",
-      "he's",
-      "away"
+      "lost",
+      "he's"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "coming",
-      "sorry",
       "pizza",
+      "sorry",
       "now"
      ],
      "suggestion": "They said sorry. The pizza is coming now.",
@@ -230,10 +230,10 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "should",
-      "back",
-      "call"
+      "didn't",
+      "call",
+      "back"
      ],
      "suggestion": "No, I didn't. Should I call back?",
      "suggestionFa": "نه، نخواستم. دوباره زنگ بزنم؟",
@@ -347,8 +347,8 @@
      "keywords": [
       "cookies",
       "added",
-      "free",
-      "they"
+      "they",
+      "free"
      ],
      "suggestion": "It's hot! And they added free cookies.",
      "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",

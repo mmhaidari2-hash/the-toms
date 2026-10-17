@@ -91,7 +91,7 @@
      "keywords": [
       "monday",
       "night",
-      "out",
+      "did",
       "put"
      ],
      "suggestion": "Did you put it out on Monday night?",
@@ -148,9 +148,9 @@
     {
      "keywords": [
       "mondays",
-      "put",
+      "out",
       "can",
-      "out"
+      "put"
      ],
      "suggestion": "I can put it out for you on Mondays.",
      "suggestionFa": "دوشنبه‌ها می‌تونم برات بذارمش بیرون.",
@@ -249,10 +249,10 @@
    "branches": [
     {
      "keywords": [
-      "they'll",
       "collect",
+      "they'll",
       "within",
-      "done"
+      "days"
      ],
      "suggestion": "Done. They'll collect it within two days.",
      "suggestionFa": "تموم. ظرف دو روز می‌برنش.",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
-      "need",
+      "help",
       "take",
-      "from",
-      "door"
+      "door",
+      "they"
      ],
      "suggestion": "They take the bin from your door, if you need help.",
      "suggestionFa": "اگه کمک لازم داشته باشی، سطل را از دم در می‌برن.",
@@ -317,8 +317,8 @@
      "keywords": [
       "people",
       "can't",
-      "read",
-      "move"
+      "move",
+      "read"
      ],
      "suggestion": "Let me read it… it's for people who can't move the bin.",
      "suggestionFa": "بذار بخونم… برای کسانیه که نمی‌تونن سطل را جابه‌جا کنن.",

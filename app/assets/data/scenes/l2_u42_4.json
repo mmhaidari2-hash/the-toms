@@ -1,0 +1,451 @@
+{
+ "id": "l2_u42_4",
+ "characterId": "leslie",
+ "title": "Family resemblance",
+ "titleFa": "شباهت خانوادگی",
+ "setting": "Describing people · Level 2",
+ "settingFa": "توصیف آدم‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Look at this photo on my phone. Tom at five years old, in this park. Doesn't Nicola look like him?",
+   "translations": {
+    "fa": "این عکس رو گوشیم را ببین. تام تو پنج سالگی، تو همین پارک. نیکولا شبیهش نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "just",
+      "like",
+      "she"
+     ],
+     "suggestion": "Wow! Yes, she looks just like him.",
+     "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "small",
+      "was",
+      "tom"
+     ],
+     "suggestion": "That's Tom? He was so small!",
+     "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photo",
+     "fa": "عکس"
+    },
+    {
+     "word": "look like",
+     "fa": "شبیه بودن"
+    },
+    {
+     "word": "just like",
+     "fa": "دقیقاً مثل"
+    },
+    {
+     "word": "so small",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "cheeky",
+     "fa": "شیطون ؛ بامزه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Small and cheeky! Yes, same smile, same ears that stick out. Nicola's got her dad's ears. Poor girl!",
+   "translations": {
+    "fa": "کوچیک و شیطون! آره، همون لبخند، همون گوش‌هایی که بیرون زده. نیکولا گوش‌های باباش را داره. دختر بیچاره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ryan",
+      "cute",
+      "look",
+      "like"
+     ],
+     "suggestion": "Her ears are cute! And who does Ryan look like?",
+     "suggestionFa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "that's",
+      "smile",
+      "same"
+     ],
+     "suggestion": "Same smile. That's lovely.",
+     "suggestionFa": "همون لبخند. قشنگه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same",
+     "fa": "همان"
+    },
+    {
+     "word": "ears",
+     "fa": "گوش‌ها"
+    },
+    {
+     "word": "stick out",
+     "fa": "بیرون زدن"
+    },
+    {
+     "word": "cute",
+     "fa": "بانمک"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ryan looks like me — dark hair, brown eyes. But he takes after his dad. Football, jokes, and he's always hungry.",
+   "translations": {
+    "fa": "رایان شبیه منه — موی تیره، چشم قهوه‌ای. ولی اخلاقش به باباش رفته. فوتبال، شوخی، و همیشه گرسنه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "after",
+      "takes",
+      "mean"
+     ],
+     "suggestion": "What does \"takes after\" mean?",
+     "suggestionFa": "«تیکس آفتر» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looks",
+      "he's",
+      "like",
+      "but"
+     ],
+     "suggestion": "So he looks like you, but he's like Tom.",
+     "suggestionFa": "پس شبیه توئه، ولی مثل تامه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dark",
+     "fa": "تیره"
+    },
+    {
+     "word": "brown eyes",
+     "fa": "چشم قهوه‌ای"
+    },
+    {
+     "word": "takes after",
+     "fa": "به … رفته ؛ مثل … است"
+    },
+    {
+     "word": "hungry",
+     "fa": "گرسنه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Look like\" is about the face and body. \"Take after\" usually means a child is similar to a parent in personality or habits.",
+    "fa": "«look like» دربارهٔ ظاهر و «take after» معمولاً دربارهٔ شخصیت و عادت‌هاست."
+   },
+   "recasts": [
+    {
+     "match": [
+      "he takes after from his dad",
+      "he takes his dad after"
+     ],
+     "echo": "He takes after his dad? Totally!",
+     "better": "He takes after his dad.",
+     "betterFa": "به پدرش رفته."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "\"Takes after\" means he's similar to someone in his family — usually in character. And William? Total mystery!",
+   "translations": {
+    "fa": "«تیکس آفتر» یعنی به یکی از خانواده‌اش شبیهه — معمولاً تو اخلاق. و ویلیام؟ کاملاً معماست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie's",
+      "think",
+      "nana",
+      "eyes"
+     ],
+     "suggestion": "William has Nana Maggie's eyes, I think.",
+     "suggestionFa": "فکر کنم ویلیام چشم‌های نانا مگی را داره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nobody",
+      "he's",
+      "just",
+      "like"
+     ],
+     "suggestion": "William is like nobody! He's just William.",
+     "suggestionFa": "ویلیام مثل هیچ‌کس نیست! فقط ویلیامه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "similar",
+     "fa": "شبیه ؛ مشابه"
+    },
+    {
+     "word": "character",
+     "fa": "اخلاق ؛ شخصیت"
+    },
+    {
+     "word": "total mystery",
+     "fa": "کاملاً معما"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "You're right — Maggie's blue eyes! And George's stubbornness. Do you look like your mum or your dad?",
+   "translations": {
+    "fa": "راست میگی — چشم‌های آبی مگی! و لجبازی جورج. تو شبیه مامانتی یا بابات؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "we've",
+      "same",
+      "nose",
+      "got"
+     ],
+     "suggestion": "I look like my dad. We've got the same nose.",
+     "suggestionFa": "شبیه بابامم. دماغمون یه شکله.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "says",
+      "mum"
+     ],
+     "suggestion": "Everyone says I look like my mum.",
+     "suggestionFa": "همه میگن شبیه مامانمم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stubbornness",
+     "fa": "لجبازی"
+    },
+    {
+     "word": "nose",
+     "fa": "بینی"
+    },
+    {
+     "word": "everyone",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Do you have a photo? Oh, look at him! Yes — same nose, same eyebrows. And very handsome. Like father, like son!",
+   "translations": {
+    "fa": "عکس داری؟ اوه، نگاهش کن! آره — همون دماغ، همون ابروها. و خیلی خوش‌تیپ. پسر کو ندارد نشان از پدر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "father",
+      "thank",
+      "like",
+      "say"
+     ],
+     "suggestion": "Thank you! \"Like father, like son.\" We say that too.",
+     "suggestionFa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patient",
+      "she's",
+      "after",
+      "take"
+     ],
+     "suggestion": "And I take after my mum. She's very patient.",
+     "suggestionFa": "و اخلاقم به مامانم رفته. خیلی صبوره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eyebrows",
+     "fa": "ابروها"
+    },
+    {
+     "word": "handsome",
+     "fa": "خوش‌تیپ ؛ خوش‌قیافه"
+    },
+    {
+     "word": "like father, like son",
+     "fa": "پسر کو ندارد نشان از پدر"
+    },
+    {
+     "word": "patient",
+     "fa": "صبور"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Patient, yes. You have to be, in our house! Oh, here's Nicola. Nicola, who do you look like?",
+   "translations": {
+    "fa": "صبور، آره. تو خونهٔ ما باید باشی! اوه، نیکولا اومد. نیکولا، تو شبیه کی هستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mummy",
+      "daddy",
+      "look",
+      "like"
+     ],
+     "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
+     "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "photos",
+      "we're",
+      "hello"
+     ],
+     "suggestion": "Hello, Nicola! We're looking at old photos.",
+     "suggestionFa": "سلام نیکولا! داریم عکس‌های قدیمی می‌بینیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in our house",
+     "fa": "در خانهٔ ما"
+    },
+    {
+     "word": "old photos",
+     "fa": "عکس‌های قدیمی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "I look like ME! And Goldie. Goldie has big eyes too.",
+   "translations": {
+    "fa": "من شبیه خودمم! و گلدی. گلدی هم چشم‌های بزرگ داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goldfish",
+      "like",
+      "ha"
+     ],
+     "suggestion": "Like your goldfish? Ha!",
+     "suggestionFa": "مثل ماهی قرمزت؟ ها!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "you've",
+      "dad's",
+      "smile"
+     ],
+     "suggestion": "You've got your dad's smile, Nicola.",
+     "suggestionFa": "تو لبخند بابات را داری نیکولا.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goldfish",
+     "fa": "ماهی قرمز"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "smile",
+     "fa": "لبخند"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "There you are. The truth from a five-year-old. She looks like a goldfish. I'll tell Tom tonight!",
+   "translations": {
+    "fa": "بفرما. حقیقت از زبون یه بچهٔ پنج ساله. شبیه ماهی قرمزه. امشب به تام میگم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

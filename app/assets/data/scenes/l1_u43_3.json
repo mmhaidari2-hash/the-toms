@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "we're",
       "going",
+      "we're",
       "hold"
      ],
      "suggestion": "Hold on, we're going!",
@@ -116,8 +116,8 @@
      "keywords": [
       "bakery",
       "past",
-      "left",
-      "then"
+      "then",
+      "left"
      ],
      "suggestion": "Past the bakery, then left.",
      "suggestionFa": "بعد از نونوایی، بعد چپ.",
@@ -164,7 +164,7 @@
       "three",
       "four",
       "code",
-      "two"
+      "one"
      ],
      "suggestion": "A code? OK, one-two-three-four.",
      "suggestionFa": "رمز؟ باشه، یک-دو-سه-چهار.",
@@ -176,8 +176,8 @@
      "keywords": [
       "changing",
       "there",
-      "room",
-      "baby"
+      "baby",
+      "room"
      ],
      "suggestion": "Is there a baby-changing room too?",
      "suggestionFa": "اتاق تعویض بچه هم هست؟",
@@ -314,8 +314,8 @@
     {
      "keywords": [
       "here's",
-      "towel",
-      "paper"
+      "paper",
+      "towel"
      ],
      "suggestion": "Yes, here's a paper towel.",
      "suggestionFa": "آره، بفرما دستمال کاغذی.",

@@ -1,0 +1,503 @@
+{
+ "id": "l2_u43_2",
+ "characterId": "william",
+ "title": "Our street",
+ "titleFa": "خیابان ما",
+ "setting": "Describing places · Level 2",
+ "settingFa": "توصیف مکان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "william",
+   "text": "Look! My drawing! It's our street!",
+   "translations": {
+    "fa": "ببین! نقاشیم! خیابون ماست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "about",
+      "tell",
+      "wow"
+     ],
+     "suggestion": "Wow, William! Tell me about it.",
+     "suggestionFa": "وای ویلیام! برام تعریف کن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "house",
+      "our",
+      "one",
+      "red"
+     ],
+     "suggestion": "Is that our house? The red one?",
+     "suggestionFa": "اون خونهٔ ماست؟ قرمزه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drawing",
+     "fa": "نقاشی"
+    },
+    {
+     "word": "street",
+     "fa": "خیابان"
+    },
+    {
+     "word": "house",
+     "fa": "خانه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "That's our house. Red door. Mehdi's window!",
+   "translations": {
+    "fa": "این خونهٔ ماست. در قرمز. پنجرهٔ مهدی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "window",
+      "next",
+      "who"
+     ],
+     "suggestion": "My window! And who is that next to it?",
+     "suggestionFa": "پنجرهٔ من! و اون کیه کنارش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "outside",
+      "there's",
+      "tree",
+      "big"
+     ],
+     "suggestion": "There's a big tree. Is that the tree outside?",
+     "suggestionFa": "یه درخت بزرگ هست. درخت بیرونه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "door",
+     "fa": "در"
+    },
+    {
+     "word": "window",
+     "fa": "پنجره"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    },
+    {
+     "word": "tree",
+     "fa": "درخت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "That's Mrs Khan! And Tiger the cat.",
+   "translations": {
+    "fa": "این خانم خانه! و گربه‌اش تایگر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lives",
+      "khan",
+      "next",
+      "mrs"
+     ],
+     "suggestion": "Mrs Khan lives next to us. And Tiger too!",
+     "suggestionFa": "خانم خان کنار ما زندگی می‌کنه. تایگر هم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drawing",
+      "big"
+     ],
+     "suggestion": "Tiger is very big in your drawing!",
+     "suggestionFa": "تایگر تو نقاشیت خیلی بزرگه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cat",
+     "fa": "گربه"
+    },
+    {
+     "word": "lives",
+     "fa": "زندگی می‌کند"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Prepositions of place: next to, opposite (facing), between, at the end of the street, on the corner.",
+    "fa": "حروف اضافهٔ مکان: next to، opposite، between، at the end of، on the corner."
+   },
+   "recasts": [
+    {
+     "match": [
+      "mrs khan live next us",
+      "mrs khan lives next of us"
+     ],
+     "echo": "Mrs Khan lives next to us? Yes!",
+     "better": "Mrs Khan lives next to us.",
+     "betterFa": "خانم خان کنار ما زندگی می‌کند."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Tiger is a TIGER. Grrr! And the shop!",
+   "translations": {
+    "fa": "تایگر یه ببره. غرررر! و مغازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "corner",
+      "street",
+      "end"
+     ],
+     "suggestion": "The corner shop. It's at the end of the street.",
+     "suggestionFa": "سوپری سر کوچه. ته خیابونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "opposite",
+      "what's",
+      "blue",
+      "box"
+     ],
+     "suggestion": "What's the blue box opposite the shop?",
+     "suggestionFa": "جعبهٔ آبی روبه‌روی مغازه چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tiger",
+     "fa": "ببر"
+    },
+    {
+     "word": "shop",
+     "fa": "مغازه"
+    },
+    {
+     "word": "corner shop",
+     "fa": "سوپری سر کوچه"
+    },
+    {
+     "word": "at the end of",
+     "fa": "انتهای ؛ ته"
+    },
+    {
+     "word": "opposite",
+     "fa": "روبه‌رو"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "The bus stop! Daddy's bus! Number 38!",
+   "translations": {
+    "fa": "ایستگاه اتوبوس! اتوبوس بابایی! شمارهٔ ۳۸!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opposite",
+      "course",
+      "stop",
+      "shop"
+     ],
+     "suggestion": "Opposite the shop. The bus stop. Of course!",
+     "suggestionFa": "روبه‌روی مغازه. ایستگاه اتوبوس. البته!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "driving",
+      "daddy"
+     ],
+     "suggestion": "Is Daddy driving the bus?",
+     "suggestionFa": "بابایی داره اتوبوس را می‌رونه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bus stop",
+     "fa": "ایستگاه اتوبوس"
+    },
+    {
+     "word": "driving",
+     "fa": "رانندگی کردن"
+    },
+    {
+     "word": "number",
+     "fa": "شماره"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Yes! Daddy waves. Beep beep!",
+   "translations": {
+    "fa": "آره! بابایی دست تکون میده. بوق بوق!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "between",
+      "houses",
+      "what's",
+      "beep"
+     ],
+     "suggestion": "Beep beep! What's this, between the houses?",
+     "suggestionFa": "بوق بوق! این چیه، بین خونه‌ها؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pavement",
+      "person",
+      "small",
+      "who's"
+     ],
+     "suggestion": "Who's that small person on the pavement?",
+     "suggestionFa": "اون آدم کوچولو رو پیاده‌رو کیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waves",
+     "fa": "دست تکان می‌دهد"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    },
+    {
+     "word": "pavement",
+     "fa": "پیاده‌رو"
+    },
+    {
+     "word": "person",
+     "fa": "آدم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "That's ME. With my scooter. Fast!",
+   "translations": {
+    "fa": "اون منم. با اسکوترم. سریع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nursery",
+      "ride",
+      "fast"
+     ],
+     "suggestion": "You're very fast! Do you ride it to nursery?",
+     "suggestionFa": "خیلی سریعی! باهاش میری مهدکودک؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "william",
+      "near",
+      "road"
+     ],
+     "suggestion": "Be careful near the road, William!",
+     "suggestionFa": "نزدیک خیابون مواظب باش ویلیام!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scooter",
+     "fa": "اسکوتر ؛ روروک"
+    },
+    {
+     "word": "fast",
+     "fa": "سریع"
+    },
+    {
+     "word": "ride",
+     "fa": "سوار شدن"
+    },
+    {
+     "word": "road",
+     "fa": "خیابان ؛ جاده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Mummy says stop at the kerb.",
+   "translations": {
+    "fa": "مامانی میگه سر جدول وایسا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "listen",
+      "good",
+      "look",
+      "stop"
+     ],
+     "suggestion": "Good boy. Stop, look, listen.",
+     "suggestionFa": "پسر خوب. وایسا، نگاه کن، گوش کن.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kerb",
+      "show"
+     ],
+     "suggestion": "What is the kerb? Show me.",
+     "suggestionFa": "جدول چیه؟ نشونم بده.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kerb",
+     "fa": "لبهٔ پیاده‌رو ؛ جدول"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستادن"
+    },
+    {
+     "word": "look",
+     "fa": "نگاه کردن"
+    },
+    {
+     "word": "listen",
+     "fa": "گوش دادن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "william",
+   "text": "Stop, look, listen! For you. Present!",
+   "translations": {
+    "fa": "وایسا، نگاه کن، گوش کن! برای تو. کادو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "wall",
+      "i'll",
+      "put"
+     ],
+     "suggestion": "For me? Thank you! I'll put it on my wall.",
+     "suggestionFa": "برای من؟ ممنون! رو دیوارم می‌زنمش.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "william",
+      "street",
+      "our"
+     ],
+     "suggestion": "It's beautiful, William. Our street!",
+     "suggestionFa": "قشنگه ویلیام. خیابون ما!",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "present",
+     "fa": "کادو ؛ هدیه"
+    },
+    {
+     "word": "wall",
+     "fa": "دیوار"
+    },
+    {
+     "word": "beautiful",
+     "fa": "زیبا"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "william",
+   "text": "Next to your bed. Night night!",
+   "translations": {
+    "fa": "کنار تختت. شب بخیر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

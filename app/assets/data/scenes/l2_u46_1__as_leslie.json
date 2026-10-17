@@ -1,0 +1,257 @@
+{
+ "id": "l2_u46_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Running late for school",
+ "titleFa": "(در نقش Leslie) دیر رسیدن به مدرسه",
+ "setting": "The school run · Level 2",
+ "settingFa": "رساندن بچه به مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u46_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classroom",
+      "thirty",
+      "twenty",
+      "nicola",
+      "close"
+     ],
+     "suggestion": "Eight-twenty! The gates close at eight-forty-five, and I have to be in my classroom by eight-thirty-five. Nicola! SHOES!",
+     "suggestionFa": "هشت و بیست! درها هشت و چهل و پنج بسته میشه، و من باید تا هشت و سی و پنج سر کلاسم باشم. نیکولا! کفش!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'll help. Where are her shoes?",
+   "translations": {
+    "fa": "کمک می‌کنم. کفش‌هاش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "morning",
+      "nicola",
+      "knows",
+      "other"
+     ],
+     "suggestion": "One's by the door. The other one… who knows? Every morning! Nicola, where's your other shoe?",
+     "suggestionFa": "یکی دم دره. اون یکی… کی می‌دونه؟ هر روز صبح! نیکولا، اون لنگهٔ کفشت کجاست؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Nicola! Where's your other shoe?",
+   "translations": {
+    "fa": "نیکولا! اون لنگهٔ کفشت کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "nicola",
+   "text": "Goldie's looking after it. It's under the fish tank.",
+   "translations": {
+    "fa": "گلدی داره ازش مراقبت می‌کنه. زیر آکواریومه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the other one",
+     "fa": "آن یکی"
+    },
+    {
+     "word": "looking after",
+     "fa": "مراقبت کردن"
+    },
+    {
+     "word": "fish tank",
+     "fa": "آکواریوم ؛ تنگ ماهی"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Got it! Under the fish tank. Here.",
+   "translations": {
+    "fa": "پیداش کردم! زیر آکواریوم. بفرما."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reading",
+      "bottle",
+      "water",
+      "right",
+      "don't"
+     ],
+     "suggestion": "Don't ask. Right — have you got your book bag? Water bottle? Reading book?",
+     "suggestionFa": "نپرس. خب — کیف کتابت را برداشتی؟ بطری آب؟ کتاب خوندن؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Book bag, yes. Where's her water bottle?",
+   "translations": {
+    "fa": "کیف کتاب، آره. بطری آبش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "bottle's",
+      "pyjamas",
+      "twenty",
+      "fridge"
+     ],
+     "suggestion": "Water bottle's in the fridge. Thank you. Eight-twenty-six. We're going to be late. And William's still in his pyjamas!",
+     "suggestionFa": "بطری آب تو یخچاله. ممنون. هشت و بیست و شش. دیر می‌رسیم. و ویلیام هنوز لباس خوابشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I can take William to nursery. You go!",
+   "translations": {
+    "fa": "من می‌تونم ویلیام را ببرم مهدکودک. تو برو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "nursery",
+      "you'd",
+      "shift",
+      "opens"
+     ],
+     "suggestion": "Tom left at six for the early shift. You'd take William? You're a star. His bag is on the hook. Nursery opens at nine.",
+     "suggestionFa": "تام ساعت شش برای شیفت صبح رفت. ویلیام را می‌بری؟ تو یه ستاره‌ای. کیفش رو آویزه. مهدکودک ساعت نه باز میشه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "No problem. Nine o'clock. I'll walk with him.",
+   "translations": {
+    "fa": "مشکلی نیست. ساعت نه. باهاش پیاده میرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unicorn",
+      "raining",
+      "nicola",
+      "thank",
+      "never"
+     ],
+     "suggestion": "Nicola, coat! Coat! Not the unicorn wings! It's raining! Oh, never mind — wings AND coat. Bye! Thank you!",
+     "suggestionFa": "نیکولا، کاپشن! کاپشن! نه بال تک‌شاخ! بارون میاد! اوه، بی‌خیال — بال و کاپشن با هم. خداحافظ! ممنون!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Bye! Good luck!",
+   "translations": {
+    "fa": "خداحافظ! موفق باشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lifesaver",
+      "unicorn",
+      "thirty",
+      "nicola",
+      "we'll"
+     ],
+     "suggestion": "Lunch box! You're a lifesaver. Right — eight-thirty-one. If we run, we'll make it. Nicola, run like a unicorn!",
+     "suggestionFa": "ظرف ناهار! نجاتم دادی. خب — هشت و سی و یک. اگه بدوییم می‌رسیم. نیکولا، مثل تک‌شاخ بدو!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

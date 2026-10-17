@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "moving"
+      "moving",
+      "that's"
      ],
      "suggestion": "That's very moving.",
      "suggestionFa": "خیلی تأثیرگذاره.",
@@ -80,10 +80,10 @@
     },
     {
      "keywords": [
-      "family",
       "george",
+      "family",
       "fight",
-      "war"
+      "did"
      ],
      "suggestion": "George, did your family fight in the war?",
      "suggestionFa": "جورج، خانواده‌تون تو جنگ جنگیدن؟",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "brave",
-      "been",
       "have",
+      "been",
       "must"
      ],
      "suggestion": "He must have been very brave.",
@@ -244,8 +244,8 @@
     },
     {
      "keywords": [
-      "course",
       "asking",
+      "course",
       "thank"
      ],
      "suggestion": "Yes, of course. Thank you for asking me.",

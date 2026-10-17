@@ -1,0 +1,225 @@
+{
+ "id": "l2_u39_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) The launderette",
+ "titleFa": "(در نقش Leslie) خشک‌شویی سکه‌ای",
+ "setting": "Clothes and laundry · Level 2",
+ "settingFa": "لباس و رخت‌شویی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u39_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "launderette",
+      "everywhere",
+      "machine's",
+      "engineer",
+      "washing"
+     ],
+     "suggestion": "Bad news. The washing machine's broken. Water everywhere. The engineer can't come till Friday. Launderette it is!",
+     "suggestionFa": "خبر بد. ماشین لباسشویی خراب شده. همه‌جا آب. تعمیرکار تا جمعه نمی‌تونه بیاد. پس خشک‌شویی سکه‌ای!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "A launderette? I've never used one.",
+   "translations": {
+    "fa": "خشک‌شویی سکه‌ای؟ تا حالا ازش استفاده نکردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "adventure",
+      "already",
+      "there's",
+      "mopped",
+      "thanks"
+     ],
+     "suggestion": "Already mopped, thanks. There's one on Mare Street, next to the chip shop. Grab those two bags. It's an adventure!",
+     "suggestionFa": "قبلاً تی کشیدم، مرسی. یکی تو خیابون مِیر هست، کنار ماهی‌وچیپس‌فروشی. اون دو تا کیسه را بردار. یه ماجراجوییه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Two bags. They're heavy!",
+   "translations": {
+    "fa": "دو تا کیسه. سنگینن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "clothes",
+      "minutes",
+      "powder",
+      "takes"
+     ],
+     "suggestion": "Easy. Put your clothes in a machine, add powder, pay, press start. A wash takes about forty minutes.",
+     "suggestionFa": "آسونه. لباس‌ها را تو یه ماشین بذار، پودر بریز، پول بده، شروع را بزن. یه شست‌وشو حدود چهل دقیقه طول می‌کشه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Forty minutes. And the dryer?",
+   "translations": {
+    "fa": "چهل دقیقه. و خشک‌کن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machines",
+      "machine",
+      "there's",
+      "change",
+      "tenner"
+     ],
+     "suggestion": "There's a little machine for powder. One pound. Oh — the machines take coins only. Have you got change? I've only got a tenner.",
+     "suggestionFa": "یه دستگاه کوچیک برای پودر هست. یه پوند. اوه — ماشین‌ها فقط سکه قبول می‌کنن. پول خرد داری؟ من فقط یه ده‌پوندی دارم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I've got some pound coins. Here.",
+   "translations": {
+    "fa": "چند تا سکهٔ یک‌پوندی دارم. بفرمایید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicates",
+      "perfect",
+      "setting",
+      "there's",
+      "thirty"
+     ],
+     "suggestion": "There's one, but it's always broken. Your coins are perfect. Which setting? Forty for most things. Thirty for the delicates.",
+     "suggestionFa": "یکی هست، ولی همیشه خرابه. سکه‌هات عالین. کدوم تنظیم؟ چهل درجه برای بیشتر چیزها. سی برای لباس‌های ظریف.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Forty for these. Ryan's hoodie at thirty!",
+   "translations": {
+    "fa": "این‌ها چهل. هودی رایان سی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicates",
+      "learned",
+      "started",
+      "lesson",
+      "blouse"
+     ],
+     "suggestion": "Ha! You learned that lesson. Delicates are soft things — silk, wool, my best blouse. Right, it's started. Now we wait.",
+     "suggestionFa": "ها! اون درس را یاد گرفتی. «دلیکیتس» چیزای نرمن — ابریشم، پشم، بهترین بلوز من. خب، شروع شد. حالا صبر می‌کنیم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What do people do while they wait?",
+   "translations": {
+    "fa": "مردم موقع صبر کردن چی کار می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "thursday",
+      "hackney",
+      "that's",
+      "okoye"
+     ],
+     "suggestion": "Read, chat, go to the café. That's Mr Okoye — he's here every Thursday. Hello! He knows everything about Hackney.",
+     "suggestionFa": "می‌خونن، گپ می‌زنن، میرن کافه. اون آقای اوکویه‌ست — هر پنج‌شنبه اینجاست. سلام! همه‌چی را دربارهٔ هکنی می‌دونه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Let's get a coffee. Forty minutes is long!",
+   "translations": {
+    "fa": "بیا قهوه بگیریم. چهل دقیقه زیاده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "minutes",
+      "clothes",
+      "spirit",
+      "pounds"
+     ],
+     "suggestion": "That's the spirit. Then the dryer: two pounds for twenty minutes. Clean clothes and a new friend. Not bad for a broken machine!",
+     "suggestionFa": "همینه. بعد خشک‌کن: دو پوند برای بیست دقیقه. لباس تمیز و یه دوست جدید. برای یه ماشین خراب بد نیست!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

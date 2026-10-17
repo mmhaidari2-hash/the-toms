@@ -22,8 +22,8 @@
     {
      "keywords": [
       "today",
-      "love",
       "look",
+      "love",
       "down",
       "bit"
      ],
@@ -49,8 +49,8 @@
       "homesick",
       "normal",
       "that's",
-      "from",
-      "home"
+      "home",
+      "long"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
      "suggestionFa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟",
@@ -148,7 +148,7 @@
       "persian",
       "amazing",
       "sounds",
-      "there"
+      "let's"
      ],
      "suggestion": "It sounds amazing. Let's go to the Persian shop on Saturday. Is there one near here?",
      "suggestionFa": "خیلی عالی به نظر میاد. بیا شنبه بریم مغازهٔ ایرانی. اینجا نزدیک هست؟",
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "perfect",
-      "fresh",
-      "let's",
       "helps",
+      "let's",
+      "fresh",
       "walk"
      ],
      "suggestion": "Perfect. Now let's go for a walk. Fresh air helps.",
@@ -194,9 +194,9 @@
    "branches": [
     {
      "keywords": [
+      "you've",
       "course",
       "family",
-      "you've",
       "cheer",
       "we'll"
      ],

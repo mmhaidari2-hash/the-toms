@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
+      "top",
       "can",
       "bus",
-      "top",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -120,7 +120,7 @@
       "should",
       "thanks",
       "much",
-      "put"
+      "how"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -131,9 +131,9 @@
     {
      "keywords": [
       "didn't",
-      "free",
       "cash",
-      "know"
+      "know",
+      "free"
      ],
      "suggestion": "Cash-free? I didn't know that.",
      "suggestionFa": "بدون پول نقد؟ نمی‌دونستم.",
@@ -183,9 +183,9 @@
     },
     {
      "keywords": [
+      "enough",
       "twenty",
       "pounds",
-      "enough",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -245,8 +245,8 @@
      "keywords": [
       "different",
       "within",
-      "even",
-      "hour"
+      "hour",
+      "even"
      ],
      "suggestion": "Within one hour? Even a different bus?",
      "suggestionFa": "تو یه ساعت؟ حتی یه اتوبوس دیگه؟",
@@ -280,8 +280,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twenty",
+      "pounds",
       "please",
       "hello"
      ],
@@ -340,8 +340,8 @@
      "keywords": [
       "happens",
       "oyster",
-      "lose",
-      "card"
+      "card",
+      "lose"
      ],
      "suggestion": "What happens if I lose my Oyster card?",
      "suggestionFa": "اگه کارتم را گم کنم چی میشه؟",

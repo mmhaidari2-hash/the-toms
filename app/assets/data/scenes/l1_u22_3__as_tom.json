@@ -23,8 +23,8 @@
      "keywords": [
       "snowing",
       "window",
-      "wake",
       "look",
+      "wake",
       "out"
      ],
      "suggestion": "Wake up! Look out of the window! It's snowing!",
@@ -50,7 +50,7 @@
       "everything",
       "that's",
       "london",
-      "about"
+      "stops"
      ],
      "suggestion": "About ten centimetres! In London that's a lot. Everything stops!",
      "suggestionFa": "حدود ده سانتی‌متر! تو لندن این زیاده. همه چی متوقف میشه!",
@@ -73,9 +73,9 @@
      "keywords": [
       "school",
       "happy",
-      "snow",
       "text",
-      "sent"
+      "sent",
+      "kids"
      ],
      "suggestion": "Yes! The school sent a text. It's a snow day! The kids are so happy.",
      "suggestionFa": "آره! مدرسه پیامک داد. روز برفیه! بچه‌ها خیلی خوشحالن.",
@@ -100,7 +100,7 @@
       "slowly",
       "starts",
       "today",
-      "build"
+      "let's"
      ],
      "suggestion": "My bus starts at ten today. Slowly, slowly! Let's build a snowman first.",
      "suggestionFa": "اتوبوسم امروز ساعت ده شروع می‌کنه. یواش یواش! بیا اول یه آدم‌برفی بسازیم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "snowball",
       "small",
-      "then",
       "roll",
-      "head"
+      "body",
+      "then"
      ],
      "suggestion": "Roll a big snowball for the body. Then a small one for the head.",
      "suggestionFa": "یه گلوله برفی بزرگ برای بدن بغلتون. بعد یه کوچیک برای سر.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "bringing",
       "nicola's",
+      "bringing",
       "daddy's",
       "stones",
       "carrot"

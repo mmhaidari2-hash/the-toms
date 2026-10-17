@@ -22,10 +22,10 @@
     {
      "keywords": [
       "morning",
-      "night",
       "tired",
-      "last",
-      "look"
+      "night",
+      "look",
+      "last"
      ],
      "suggestion": "Morning. You look tired. What did you do last night?",
      "suggestionFa": "صبح بخیر. خسته به نظر میای. دیشب چی کار کردی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "shouted",
       "played",
-      "twice",
       "enjoy",
-      "till"
+      "twice",
+      "film"
      ],
      "suggestion": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
      "suggestionFa": "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "saturday",
-      "minging",
       "cleaned",
+      "minging",
       "helped",
       "enough"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "played",
-      "guitar",
       "really",
-      "dad's",
-      "found"
+      "guitar",
+      "dirty",
+      "badly"
      ],
      "suggestion": "It means really dirty. We found Dad's old guitar! He played it for us. Badly.",
      "suggestionFa": "یعنی خیلی کثیف. گیتار قدیمی بابا را پیدا کردیم! برامون زد. افتضاح.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "covered",
       "visited",
+      "covered",
       "sunday",
       "nicola",
       "tried"
@@ -174,8 +174,8 @@
       "homework",
       "started",
       "don't",
-      "yeah",
-      "tell"
+      "tell",
+      "yeah"
      ],
      "suggestion": "Homework? Er… I started it. Don't tell Mum, yeah?",
      "suggestionFa": "تکلیف؟ اِم… شروعش کردم. به مامان نگی، باشه؟",

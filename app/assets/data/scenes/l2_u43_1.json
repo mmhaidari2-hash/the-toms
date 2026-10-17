@@ -1,0 +1,430 @@
+{
+ "id": "l2_u43_1",
+ "characterId": "leslie",
+ "title": "My home town",
+ "titleFa": "زادگاهم",
+ "setting": "Describing places · Level 2",
+ "settingFa": "توصیف مکان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The kids are asleep, finally. Tea? Tell me about Tehran. I only know it from the news. What's it like?",
+   "translations": {
+    "fa": "بچه‌ها بالاخره خوابیدن. چای؟ از تهران بهم بگو. فقط از اخبار می‌شناسمش. چه جور جاییه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "million",
+      "people",
+      "about",
+      "huge"
+     ],
+     "suggestion": "It's huge. About nine million people.",
+     "suggestionFa": "خیلی بزرگه. حدود نه میلیون نفر.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "noisy",
+      "love",
+      "busy",
+      "but"
+     ],
+     "suggestion": "It's busy and noisy, but I love it.",
+     "suggestionFa": "شلوغ و پرسروصداست، ولی دوستش دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "finally",
+     "fa": "بالاخره"
+    },
+    {
+     "word": "news",
+     "fa": "اخبار"
+    },
+    {
+     "word": "what's it like",
+     "fa": "چه جور جایی است"
+    },
+    {
+     "word": "huge",
+     "fa": "خیلی بزرگ"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Nine million! That's more than London. Is it near the sea? I imagine deserts and camels. Sorry — that's silly.",
+   "translations": {
+    "fa": "نه میلیون! از لندن بیشتره. نزدیک دریاست؟ تصورم بیابون و شتره. ببخشید — احمقانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surrounded",
+      "mountains",
+      "there's",
+      "winter"
+     ],
+     "suggestion": "No, it's surrounded by mountains. There's snow on them in winter.",
+     "suggestionFa": "نه، کوه دورش را گرفته. زمستون روشون برف هست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "deserts",
+      "tehran",
+      "there",
+      "iran"
+     ],
+     "suggestion": "There are deserts in Iran, but not in Tehran.",
+     "suggestionFa": "تو ایران بیابون هست، ولی تو تهران نه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "imagine",
+     "fa": "تصور کردن"
+    },
+    {
+     "word": "deserts",
+     "fa": "بیابان‌ها"
+    },
+    {
+     "word": "camels",
+     "fa": "شترها"
+    },
+    {
+     "word": "silly",
+     "fa": "احمقانه"
+    },
+    {
+     "word": "surrounded by",
+     "fa": "احاطه شده با"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it surrounded by mountains",
+      "it's surround with mountains"
+     ],
+     "echo": "It's surrounded by mountains? Beautiful!",
+     "better": "It's surrounded by mountains.",
+     "betterFa": "کوه دورش را گرفته است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Mountains with snow! I'd never have guessed. Can you ski? Is that a silly question too?",
+   "translations": {
+    "fa": "کوه با برف! هیچ‌وقت حدس نمی‌زدم. اسکی هم میشه کرد؟ این سؤال هم احمقانه‌ست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "resorts",
+      "there",
+      "silly",
+      "hour"
+     ],
+     "suggestion": "Not silly! There are ski resorts one hour from the city.",
+     "suggestionFa": "احمقانه نیست! پیست‌های اسکی یه ساعت از شهر فاصله دارن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learned",
+      "when",
+      "ten",
+      "was"
+     ],
+     "suggestion": "Yes! I learned to ski when I was ten.",
+     "suggestionFa": "آره! ده سالم بود اسکی یاد گرفتم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guessed",
+     "fa": "حدس زدم"
+    },
+    {
+     "word": "ski",
+     "fa": "اسکی کردن"
+    },
+    {
+     "word": "ski resorts",
+     "fa": "پیست‌های اسکی"
+    },
+    {
+     "word": "from the city",
+     "fa": "از شهر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Describing a place: \"It's famous for…\", \"It's surrounded by…\", \"There are lots of…\". Use \"it's\" for the place, not \"he\" or \"she\".",
+    "fa": "برای توصیف مکان: «It's famous for…»، «It's surrounded by…»."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Amazing. And the people? What is Tehran famous for? Food? I bet it's the food.",
+   "translations": {
+    "fa": "معرکه‌ست. و مردم؟ تهران به چی معروفه؟ غذا؟ شرط می‌بندم غذاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "famous",
+      "bazaar",
+      "food",
+      "its"
+     ],
+     "suggestion": "It's famous for its bazaar. And yes — the food!",
+     "suggestionFa": "به بازارش معروفه. و آره — غذا!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "friendly",
+      "guests",
+      "people"
+     ],
+     "suggestion": "People are very friendly. Guests are very important.",
+     "suggestionFa": "مردم خیلی خونگرمن. مهمون خیلی مهمه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "famous for",
+     "fa": "معروف به"
+    },
+    {
+     "word": "bazaar",
+     "fa": "بازار"
+    },
+    {
+     "word": "friendly",
+     "fa": "خونگرم ؛ دوستانه"
+    },
+    {
+     "word": "guests",
+     "fa": "مهمان‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "The bazaar! Like a big indoor market? We've got Spitalfields, but I bet it's nothing like it.",
+   "translations": {
+    "fa": "بازار! مثل یه بازار سرپوشیدهٔ بزرگ؟ ما اسپیتالفیلدز داریم، ولی شرط می‌بندم اصلاً شبیهش نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bigger",
+      "hours",
+      "lost",
+      "much"
+     ],
+     "suggestion": "It's much bigger. You can get lost for hours!",
+     "suggestionFa": "خیلی بزرگ‌تره. می‌تونی ساعت‌ها گم بشی!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carpets",
+      "spices",
+      "there",
+      "gold"
+     ],
+     "suggestion": "There are lots of carpets, spices and gold.",
+     "suggestionFa": "کلی فرش، ادویه و طلا هست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "indoor",
+     "fa": "سرپوشیده"
+    },
+    {
+     "word": "market",
+     "fa": "بازار"
+    },
+    {
+     "word": "get lost",
+     "fa": "گم شدن"
+    },
+    {
+     "word": "carpets",
+     "fa": "فرش‌ها"
+    },
+    {
+     "word": "spices",
+     "fa": "ادویه‌ها"
+    },
+    {
+     "word": "gold",
+     "fa": "طلا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Lost for hours among carpets and spices. That sounds like heaven. Do you miss it?",
+   "translations": {
+    "fa": "ساعت‌ها گم شدن بین فرش‌ها و ادویه‌ها. بهشت به نظر میاد. دلت براش تنگ میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "food",
+      "miss",
+      "most"
+     ],
+     "suggestion": "Yes. I miss my family and the food most.",
+     "suggestionFa": "آره. بیشتر از همه دلم برای خانواده و غذا تنگ میشه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "hackney",
+      "home",
+      "now"
+     ],
+     "suggestion": "Sometimes. But Hackney is home now too.",
+     "suggestionFa": "گاهی. ولی الان هکنی هم خونه‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "among",
+     "fa": "میان ؛ بین"
+    },
+    {
+     "word": "heaven",
+     "fa": "بهشت"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    },
+    {
+     "word": "most",
+     "fa": "بیشتر از همه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Aw. You're part of the family now, you know. One day I'd love to visit. You can show me the bazaar.",
+   "translations": {
+    "fa": "آخی. می‌دونی، الان جزو خانواده‌ای. یه روز خیلی دوست دارم بیام. می‌تونی بازار را نشونم بدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "would",
+      "cook",
+      "week",
+      "i'd"
+     ],
+     "suggestion": "I'd love that. My mum would cook for a week!",
+     "suggestionFa": "خیلی دوست دارم. مامانم یه هفته آشپزی می‌کنه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mountains",
+      "you'll"
+     ],
+     "suggestion": "You'll love it. And the mountains too.",
+     "suggestionFa": "عاشقش میشی. و کوه‌ها هم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "part of",
+     "fa": "جزوی از"
+    },
+    {
+     "word": "visit",
+     "fa": "دیدن کردن"
+    },
+    {
+     "word": "show",
+     "fa": "نشان دادن"
+    },
+    {
+     "word": "cook",
+     "fa": "آشپزی کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "A week of your mum's cooking! Tom would never come home. Right — show me photos. I want to see these mountains.",
+   "translations": {
+    "fa": "یه هفته آشپزی مامانت! تام دیگه هیچ‌وقت برنمی‌گرده خونه. خب — عکس نشونم بده. می‌خوام این کوه‌ها را ببینم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

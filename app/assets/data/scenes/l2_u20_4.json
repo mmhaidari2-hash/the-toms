@@ -21,7 +21,7 @@
      "keywords": [
       "that's",
       "great",
-      "news",
+      "wait",
       "long"
      ],
      "suggestion": "That's great news! How long do we wait?",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "makes",
       "sense",
+      "makes",
       "else",
       "they"
      ],
@@ -254,10 +254,10 @@
    "branches": [
     {
      "keywords": [
-      "without",
       "persian",
-      "tasty",
-      "herbs"
+      "without",
+      "herbs",
+      "tasty"
      ],
      "suggestion": "Persian food uses lots of herbs. It's tasty without salt!",
      "suggestionFa": "غذای ایرانی پر از سبزیه. بی‌نمک هم خوشمزه‌ست!",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "pharmacy",
-      "now",
       "ask",
+      "now",
       "go"
      ],
      "suggestion": "I'll go and ask the pharmacy now.",

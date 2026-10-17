@@ -1,0 +1,465 @@
+{
+ "id": "l2_u45_3",
+ "characterId": "coach",
+ "title": "Football practice",
+ "titleFa": "تمرین فوتبال",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "coach",
+   "text": "Morning! You're Ryan's… lodger? Excellent. I'm Mr Grant, the PE teacher. I'm one coach short today. Can you help?",
+   "translations": {
+    "fa": "صبح بخیر! تو… مستأجر رایانی؟ عالیه. من آقای گرانت‌ام، معلم ورزش. امروز یه مربی کم دارم. میشه کمک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "need"
+     ],
+     "suggestion": "Me? Of course. What do I need to do?",
+     "suggestionFa": "من؟ البته. چی کار باید بکنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "football",
+      "coach",
+      "love",
+      "but"
+     ],
+     "suggestion": "I'm not a coach, but I love football.",
+     "suggestionFa": "مربی نیستم، ولی عاشق فوتبالم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lodger",
+     "fa": "مستأجر"
+    },
+    {
+     "word": "PE teacher",
+     "fa": "معلم ورزش"
+    },
+    {
+     "word": "coach",
+     "fa": "مربی"
+    },
+    {
+     "word": "one short",
+     "fa": "یک نفر کم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "coach",
+   "text": "Brilliant. Just hold the cones and shout encouraging things. Right, boys! Warm-up! Two laps of the pitch. Go!",
+   "translations": {
+    "fa": "عالی. فقط مخروط‌ها را نگه دار و جمله‌های تشویقی داد بزن. خب پسرها! گرم کردن! دو دور زمین. برید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "come",
+      "boys",
+      "run"
+     ],
+     "suggestion": "Come on, boys! Run!",
+     "suggestionFa": "یالا پسرها! بدوید!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "encouraging",
+      "things"
+     ],
+     "suggestion": "What are \"encouraging things\"?",
+     "suggestionFa": "«جمله‌های تشویقی» چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cones",
+     "fa": "مخروط‌ها"
+    },
+    {
+     "word": "encouraging",
+     "fa": "تشویق‌کننده"
+    },
+    {
+     "word": "warm-up",
+     "fa": "گرم کردن"
+    },
+    {
+     "word": "laps",
+     "fa": "دورها"
+    },
+    {
+     "word": "pitch",
+     "fa": "زمین فوتبال"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "coach",
+   "text": "\"Good effort!\", \"Keep going!\", \"Well played!\" Positive stuff. Not \"Ryan, you're slow\". Even if he is. Ryan! Pick it up!",
+   "translations": {
+    "fa": "«تلاش خوبی بود!»، «ادامه بده!»، «خوب بازی کردی!» چیزای مثبت. نه «رایان، تو کندی». حتی اگه باشه. رایان! تندتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "effort",
+      "going",
+      "keep",
+      "good"
+     ],
+     "suggestion": "Keep going, Ryan! Good effort!",
+     "suggestionFa": "ادامه بده رایان! تلاش خوبی بود!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "always",
+      "slow",
+      "ha"
+     ],
+     "suggestion": "Ha! Ryan is always slow in the morning.",
+     "suggestionFa": "ها! رایان صبح‌ها همیشه کنده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "effort",
+     "fa": "تلاش"
+    },
+    {
+     "word": "keep going",
+     "fa": "ادامه بده"
+    },
+    {
+     "word": "well played",
+     "fa": "خوب بازی کردی"
+    },
+    {
+     "word": "positive",
+     "fa": "مثبت"
+    },
+    {
+     "word": "pick it up",
+     "fa": "تندتر کن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British coaches use lots of short encouraging phrases: \"Good effort!\", \"Unlucky!\" (nearly, but not quite), \"Man on!\" (someone is behind you).",
+    "fa": "مربی‌های بریتانیایی عبارت‌های تشویقی کوتاه زیادی به کار می‌برند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "coach",
+   "text": "Now passing drills. You stand here and feed the ball. Tell them: keep your head up, and use the inside of your foot.",
+   "translations": {
+    "fa": "حالا تمرین پاس. تو اینجا وایسا و توپ بده. بهشون بگو: سرتون را بالا نگه دارید، و از داخل پا استفاده کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "inside",
+      "foot",
+      "keep",
+      "head"
+     ],
+     "suggestion": "Keep your head up! Use the inside of your foot!",
+     "suggestionFa": "سرتون را بالا نگه دارید! از داخل پا استفاده کنید!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "passes",
+      "pass",
+      "back",
+      "like"
+     ],
+     "suggestion": "Like this? I pass, he passes back?",
+     "suggestionFa": "اینجوری؟ من پاس میدم، اون پاس میده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "passing drills",
+     "fa": "تمرین پاس"
+    },
+    {
+     "word": "feed",
+     "fa": "دادن (توپ)"
+    },
+    {
+     "word": "head up",
+     "fa": "سر بالا"
+    },
+    {
+     "word": "inside of your foot",
+     "fa": "داخل پا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "keep the head up",
+      "keep up your head"
+     ],
+     "echo": "Keep your head up! Good!",
+     "better": "Keep your head up!",
+     "betterFa": "سرت را بالا نگه دار!"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "coach",
+   "text": "Exactly. Oh — that boy. Jamal. He keeps using his toes. Tell him what to do. Kindly.",
+   "translations": {
+    "fa": "دقیقاً. اوه — اون پسر. جمال. مدام با نوک پا می‌زنه. بهش بگو چی کار کنه. با مهربونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "inside",
+      "like",
+      "foot",
+      "try"
+     ],
+     "suggestion": "Jamal, try to use the inside of your foot. Like this.",
+     "suggestionFa": "جمال، سعی کن از داخل پا استفاده کنی. اینجوری.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "toes"
+     ],
+     "suggestion": "Jamal! Don't use your toes!",
+     "suggestionFa": "جمال! با نوک پا نزن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toes",
+     "fa": "انگشتان پا ؛ نوک پا"
+    },
+    {
+     "word": "kindly",
+     "fa": "با مهربانی"
+    },
+    {
+     "word": "try to",
+     "fa": "سعی کن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "coach",
+   "text": "\"Try to\" is perfect — gentle. \"Don't\" is OK, but add what TO do. Look, he's doing it now. Well done, Jamal!",
+   "translations": {
+    "fa": "«سعی کن» عالیه — ملایم. «نکن» اشکالی نداره، ولی بگو چی کار بکنه. ببین، الان داره درست می‌زنه. آفرین جمال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "jamal",
+      "much",
+      "well"
+     ],
+     "suggestion": "Well done, Jamal! Much better!",
+     "suggestionFa": "آفرین جمال! خیلی بهتر!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "grant",
+      "good",
+      "mr"
+     ],
+     "suggestion": "You're a good teacher, Mr Grant.",
+     "suggestionFa": "معلم خوبی هستید آقای گرانت.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gentle",
+     "fa": "ملایم"
+    },
+    {
+     "word": "add",
+     "fa": "اضافه کردن"
+    },
+    {
+     "word": "much better",
+     "fa": "خیلی بهتر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "coach",
+   "text": "Thirty years of practice! Right, little match to finish. You can be the referee. Here's my whistle.",
+   "translations": {
+    "fa": "سی سال تمرین! خب، یه مسابقهٔ کوچیک برای آخرش. تو می‌تونی داور باشی. اینم سوتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "referee",
+      "ok"
+     ],
+     "suggestion": "Me? The referee? OK!",
+     "suggestionFa": "من؟ داور؟ باشه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "argue",
+      "they",
+      "if"
+     ],
+     "suggestion": "What if they argue with me?",
+     "suggestionFa": "اگه باهام بحث کنن چی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "practice",
+     "fa": "تمرین ؛ تجربه"
+    },
+    {
+     "word": "match",
+     "fa": "مسابقه"
+    },
+    {
+     "word": "referee",
+     "fa": "داور"
+    },
+    {
+     "word": "whistle",
+     "fa": "سوت"
+    },
+    {
+     "word": "argue",
+     "fa": "بحث کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "coach",
+   "text": "They will — they're fifteen. Be firm. Blow the whistle, point, and say \"Free kick, blue\". No discussion.",
+   "translations": {
+    "fa": "بحث می‌کنن — پونزده سالشونه. قاطع باش. سوت بزن، اشاره کن، و بگو «ضربهٔ آزاد، آبی». بدون بحث."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discussion",
+      "blue"
+     ],
+     "suggestion": "Free kick, blue! No discussion!",
+     "suggestionFa": "ضربهٔ آزاد، آبی! بدون بحث!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "ryan",
+      "foul"
+     ],
+     "suggestion": "Ryan, that's a foul! Free kick!",
+     "suggestionFa": "رایان، این خطاست! ضربهٔ آزاد!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "firm",
+     "fa": "قاطع"
+    },
+    {
+     "word": "blow",
+     "fa": "فوت کردن ؛ زدن (سوت)"
+    },
+    {
+     "word": "point",
+     "fa": "اشاره کردن"
+    },
+    {
+     "word": "free kick",
+     "fa": "ضربهٔ آزاد"
+    },
+    {
+     "word": "foul",
+     "fa": "خطا"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "coach",
+   "text": "Ha! Even against Ryan. Fair and firm. Good effort today. Same time next Saturday? I'll get you a whistle of your own.",
+   "translations": {
+    "fa": "ها! حتی علیه رایان. منصف و قاطع. امروز خوب کار کردی. شنبهٔ بعد همین ساعت؟ یه سوت مخصوص خودت برات می‌گیرم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

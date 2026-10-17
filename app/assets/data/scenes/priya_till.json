@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "that's",
+      "thanks",
       "all"
      ],
      "suggestion": "Yes, that's all, thanks.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "please",
-      "some",
-      "eggs"
+      "eggs",
+      "some"
      ],
      "suggestion": "And some eggs, please.",
      "suggestionFa": "و چند تا تخم‌مرغ، لطفاً.",
@@ -307,10 +307,10 @@
     },
     {
      "keywords": [
-      "that's",
       "twenty",
+      "that's",
       "years",
-      "long"
+      "time"
      ],
      "suggestion": "Twenty years! That's a long time.",
      "suggestionFa": "بیست سال! مدت زیادیه.",

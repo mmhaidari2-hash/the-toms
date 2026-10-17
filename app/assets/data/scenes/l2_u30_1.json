@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "current",
       "account",
-      "like",
-      "open"
+      "current",
+      "open",
+      "like"
      ],
      "suggestion": "Yes. I'd like to open a current account.",
      "suggestionFa": "بله. می‌خوام یه حساب جاری باز کنم.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "letter",
-      "i've",
       "from",
+      "i've",
       "got"
      ],
      "suggestion": "I've got a letter from my GP. Is that OK?",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "thompson",
-      "family",
       "that's",
+      "family",
       "right"
      ],
      "suggestion": "Yes, that's right. With the Thompson family.",
@@ -205,9 +205,9 @@
     },
     {
      "keywords": [
+      "open",
       "long",
       "take",
-      "open",
       "how"
      ],
      "suggestion": "Yes. How long does it take to open?",
@@ -256,8 +256,8 @@
     {
      "keywords": [
       "what's",
-      "world",
       "debit",
+      "world",
       "small"
      ],
      "suggestion": "Small world! What's a debit card?",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "great",
-      "pin",
       "how",
+      "pin",
       "get"
      ],
      "suggestion": "Great. And how do I get my PIN?",

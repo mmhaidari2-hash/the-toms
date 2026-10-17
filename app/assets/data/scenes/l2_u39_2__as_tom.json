@@ -1,0 +1,275 @@
+{
+ "id": "l2_u39_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Ironing a shirt",
+ "titleFa": "(در نقش Tom) اتو کردن پیراهن",
+ "setting": "Clothes and laundry · Level 2",
+ "settingFa": "لباس و رخت‌شویی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u39_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interview",
+      "disaster",
+      "training",
+      "shirt",
+      "looks"
+     ],
+     "suggestion": "Disaster! I've got a job interview for the training role in an hour, and my shirt looks like I slept in it. Can you iron?",
+     "suggestionFa": "فاجعه! یه ساعت دیگه برای نقش آموزشی مصاحبهٔ کاری دارم، و پیرهنم انگار توش خوابیدم. اتو بلدی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I can iron. Give it to me.",
+   "translations": {
+    "fa": "آره، اتو بلدم. بدش به من."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lifesaver",
+      "cupboard",
+      "ironing",
+      "kitchen",
+      "squeaks"
+     ],
+     "suggestion": "You're a lifesaver. The iron's in the cupboard, and the ironing board is behind the kitchen door. It squeaks.",
+     "suggestionFa": "نجات‌دهنده‌ای. اتو تو کابینته، و میز اتو پشت در آشپزخونه‌ست. جیرجیر می‌کنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Got it. Is the iron hot yet?",
+   "translations": {
+    "fa": "فهمیدم. اتو داغ شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cotton",
+      "needs",
+      "check",
+      "label",
+      "noisy"
+     ],
+     "suggestion": "It works, just noisy. Like me. Check the label first. Cotton? It needs a hot iron. Look for the three dots.",
+     "suggestionFa": "کار می‌کنه، فقط پرسروصداست. مثل من. اول برچسب را ببین. نخیه؟ اتوی داغ لازم داره. دنبال سه تا نقطه بگرد.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Three dots. Yes, it's cotton.",
+   "translations": {
+    "fa": "سه تا نقطه. آره، نخیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "creases",
+      "cotton",
+      "steam",
+      "water",
+      "helps"
+     ],
+     "suggestion": "More dots, more heat. One dot for silk, three for cotton. Have you got any water in it? Steam helps with creases.",
+     "suggestionFa": "نقطهٔ بیشتر، گرمای بیشتر. یه نقطه برای ابریشم، سه تا برای نخ. توش آب ریختی؟ بخار به چروک‌ها کمک می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Not yet. I'll fill it now.",
+   "translations": {
+    "fa": "هنوز نه. الان پرش می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "champion",
+      "ironing",
+      "sleeves",
+      "maggie",
+      "that's"
+     ],
+     "suggestion": "Collar first, then the cuffs, then the sleeves, then the back. That's what my mum taught me. Nana Maggie, the ironing champion.",
+     "suggestionFa": "اول یقه، بعد سرآستین‌ها، بعد آستین‌ها، بعد پشت. اینو مامانم یادم داد. نانا مگی، قهرمان اتو.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Collar, cuffs, sleeves, back. OK!",
+   "translations": {
+    "fa": "یقه، سرآستین، آستین، پشت. باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "jumper",
+      "school",
+      "burned",
+      "secret"
+     ],
+     "suggestion": "All mums know the secret! Mind your fingers. And don't leave the iron face down. Ryan burned a hole in his school jumper.",
+     "suggestionFa": "همهٔ مامان‌ها راز را می‌دونن! مواظب انگشتات باش. و اتو را رو به پایین ول نکن. رایان یه سوراخ تو بلوز مدرسه‌اش سوزوند.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "A hole? Poor Ryan!",
+   "translations": {
+    "fa": "سوراخ؟ رایان بیچاره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "already",
+      "manager",
+      "shirt's",
+      "jumper",
+      "better"
+     ],
+     "suggestion": "Poor jumper, more like. Look at that — the shirt's nearly done. That's much better! I look like a manager already.",
+     "suggestionFa": "بلوز بیچاره بهتره بگی. اینو ببین — پیرهن تقریباً تموم شد. خیلی بهتر شد! همین الان شبیه مدیرها شدم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Do you need a tie too?",
+   "translations": {
+    "fa": "کراوات هم لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "company",
+      "brings",
+      "leslie",
+      "bought",
+      "think"
+     ],
+     "suggestion": "A tie? Do you think? It's a bus company, not the bank. Hmm. The blue one. Leslie bought it. She says it \"brings out my eyes\".",
+     "suggestionFa": "کراوات؟ به نظرت؟ شرکت اتوبوسه، نه بانک. هوم. اون آبیه. لزلی خریده. میگه «چشم‌هام را بیشتر نشون میده».",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, the blue tie. Very professional.",
+   "translations": {
+    "fa": "آره، کراوات آبی. خیلی حرفه‌ای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "drivers",
+      "pigeon",
+      "twenty",
+      "train"
+     ],
+     "suggestion": "\"Why do you want to train new drivers?\" Because I've done it for twenty years and I've never hit a pigeon!",
+     "suggestionFa": "«چرا می‌خوای رانندهٔ جدید آموزش بدی؟» چون بیست ساله این کار را می‌کنم و هیچ‌وقت به یه کبوتر هم نزدم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Maybe don't say the pigeon part.",
+   "translations": {
+    "fa": "شاید قسمت کبوتر را نگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patient",
+      "pigeons",
+      "thanks",
+      "loves",
+      "right"
+     ],
+     "suggestion": "Patient, loves the job, no pigeons. Got it. Right — wish me luck! And thanks, mate. I owe you a pint.",
+     "suggestionFa": "صبور، عاشق کار، بدون کبوتر. فهمیدم. خب — برام آرزوی موفقیت کن! و مرسی رفیق. یه لیوان آبجو بهت بدهکارم.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

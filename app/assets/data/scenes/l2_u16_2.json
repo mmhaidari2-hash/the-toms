@@ -70,7 +70,7 @@
       "price",
       "bogof",
       "bags",
-      "two"
+      "one"
      ],
      "suggestion": "Bogof! So two bags for one price?",
      "suggestionFa": "باگاف! پس دو بسته به قیمت یکی؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "price",
-      "good",
       "deal",
-      "half"
+      "half",
+      "good"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "price"
+      "price",
+      "where"
      ],
      "suggestion": "Price per kilo? Where is it?",
      "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "alone",
       "small",
+      "alone",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -331,7 +331,7 @@
       "pence",
       "seven",
       "back",
-      "i'll"
+      "come"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",
@@ -393,10 +393,10 @@
     },
     {
      "keywords": [
-      "don't",
       "pasta",
-      "just",
-      "much"
+      "don't",
+      "much",
+      "just"
      ],
      "suggestion": "Just one. I don't eat much pasta.",
      "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",

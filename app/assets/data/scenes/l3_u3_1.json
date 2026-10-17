@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "signals",
+      "problem",
       "there",
       "why"
      ],
@@ -35,7 +35,7 @@
       "leeds",
       "seven",
       "need",
-      "oh"
+      "by"
      ],
      "suggestion": "Oh no! I need to be in Leeds by seven.",
      "suggestionFa": "ای وای! باید تا هفت لیدز باشم.",
@@ -131,9 +131,9 @@
     {
      "keywords": [
       "tickets",
+      "same",
       "good",
-      "idea",
-      "same"
+      "idea"
      ],
      "suggestion": "Good idea. Can we use the same tickets?",
      "suggestionFa": "فکر خوبیه. می‌تونیم از همین بلیت‌ها استفاده کنیم؟",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "what's",
-      "delay",
-      "repay"
+      "repay",
+      "delay"
      ],
      "suggestion": "What's Delay Repay?",
      "suggestionFa": "Delay Repay چیه؟",
@@ -197,8 +197,8 @@
      "keywords": [
       "ticket",
       "keep",
-      "i'll",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "I'll keep my ticket, then.",
      "suggestionFa": "پس بلیتم را نگه می‌دارم.",
@@ -253,8 +253,8 @@
      "keywords": [
       "packed",
       "might",
-      "try",
-      "but"
+      "but",
+      "try"
      ],
      "suggestion": "It might be packed, but I'll try.",
      "suggestionFa": "شاید خیلی شلوغ باشه، ولی امتحان می‌کنم.",

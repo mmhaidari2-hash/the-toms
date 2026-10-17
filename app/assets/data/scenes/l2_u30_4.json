@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "code",
-      "sort"
+      "sort",
+      "code"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -180,10 +180,10 @@
    "branches": [
     {
      "keywords": [
-      "seventy",
       "account",
+      "seventy",
       "twenty",
-      "three"
+      "forty"
      ],
      "suggestion": "Twenty, forty-five, seventy-seven. Account four one three six…",
      "suggestionFa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "repeat",
       "slowly",
-      "sorry",
-      "could"
+      "repeat",
+      "could",
+      "sorry"
      ],
      "suggestion": "Sorry, could you repeat that slowly?",
      "suggestionFa": "ببخشید، میشه آروم تکرارش کنی؟",
@@ -307,8 +307,8 @@
     },
     {
      "keywords": [
-      "eighth",
       "twenty",
+      "eighth",
       "paid",
       "get"
      ],

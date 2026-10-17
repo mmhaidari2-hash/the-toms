@@ -1,0 +1,465 @@
+{
+ "id": "l2_u44_4",
+ "characterId": "maya",
+ "title": "Holiday photos",
+ "titleFa": "عکس‌های تعطیلات",
+ "setting": "Past holidays · Level 2",
+ "settingFa": "تعطیلات گذشته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Quiet train today. I'm on my break. Go on, show me your Cornwall photos. I need a holiday!",
+   "translations": {
+    "fa": "امروز قطار خلوته. استراحتمه. یالا، عکس‌های کورنوالت را نشونم بده. به یه تعطیلات احتیاج دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beach",
+      "ives",
+      "st",
+      "ok"
+     ],
+     "suggestion": "OK! This is me on the beach at St Ives.",
+     "suggestionFa": "باشه! این منم تو ساحل سنت آیوز.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "station",
+      "that's",
+      "here's",
+      "train"
+     ],
+     "suggestion": "Here's the first one. That's the train station.",
+     "suggestionFa": "اینم اولی. اون ایستگاه قطاره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet",
+     "fa": "خلوت ؛ آرام"
+    },
+    {
+     "word": "break",
+     "fa": "استراحت"
+    },
+    {
+     "word": "go on",
+     "fa": "یالا ؛ بفرما"
+    },
+    {
+     "word": "beach",
+     "fa": "ساحل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Look at that sand! And the sea's so blue. Is that really Cornwall? It looks like Greece.",
+   "translations": {
+    "fa": "اون شن را ببین! و دریا انقدر آبیه. واقعاً کورنواله؟ شبیه یونانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "first",
+      "taken",
+      "day"
+     ],
+     "suggestion": "Really! That was taken on the first day.",
+     "suggestionFa": "واقعاً! این عکس روز اول گرفته شد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lucky",
+      "sunny",
+      "hour",
+      "only"
+     ],
+     "suggestion": "It was only sunny for one hour. I was lucky!",
+     "suggestionFa": "فقط یه ساعت آفتابی بود. شانس آوردم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sand",
+     "fa": "شن"
+    },
+    {
+     "word": "Greece",
+     "fa": "یونان"
+    },
+    {
+     "word": "taken",
+     "fa": "گرفته شد"
+    },
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "this photo took on first day",
+      "that was took on the first day"
+     ],
+     "echo": "That was taken on the first day? Lovely!",
+     "better": "That was taken on the first day.",
+     "betterFa": "این عکس روز اول گرفته شد."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Ha! The one sunny hour. And this one? Who's that in the background with the ice cream?",
+   "translations": {
+    "fa": "ها! همون یه ساعت آفتابی. و این یکی؟ اون کیه تو پس‌زمینه با بستنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "background",
+      "stranger"
+     ],
+     "suggestion": "In the background? That's a stranger!",
+     "suggestionFa": "تو پس‌زمینه؟ اون یه غریبه‌ست!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seagull",
+      "stole",
+      "cream",
+      "ice"
+     ],
+     "suggestion": "That's a seagull! It stole my ice cream.",
+     "suggestionFa": "اون یه مرغ دریاییه! بستنیم را دزدید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "background",
+     "fa": "پس‌زمینه"
+    },
+    {
+     "word": "stranger",
+     "fa": "غریبه"
+    },
+    {
+     "word": "seagull",
+     "fa": "مرغ دریایی"
+    },
+    {
+     "word": "stole",
+     "fa": "دزدید"
+    }
+   ],
+   "cultureNote": {
+    "en": "Seagulls in British seaside towns are famous for stealing chips and ice cream. Many towns have signs: \"Don't feed the gulls!\"",
+    "fa": "مرغ‌های دریایی شهرهای ساحلی بریتانیا به دزدیدن چیپس و بستنی معروف‌اند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Oh, the seagulls! They're gangsters. One took a whole pasty from my mum's hand. Next!",
+   "translations": {
+    "fa": "اوه، مرغ‌های دریایی! گانگسترن. یکیشون یه پیراشکی کامل از دست مامانم قاپید. بعدی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "harbour",
+      "seals",
+      "those"
+     ],
+     "suggestion": "This is the harbour. And those are the seals.",
+     "suggestionFa": "این بندره. و اون‌ها فک‌ها هستن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "island",
+      "castle"
+     ],
+     "suggestion": "This is a castle on an island.",
+     "suggestionFa": "این یه قلعه رو یه جزیره‌ست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gangsters",
+     "fa": "گانگسترها ؛ تبهکاران"
+    },
+    {
+     "word": "whole",
+     "fa": "کامل"
+    },
+    {
+     "word": "harbour",
+     "fa": "بندر"
+    },
+    {
+     "word": "castle",
+     "fa": "قلعه"
+    },
+    {
+     "word": "island",
+     "fa": "جزیره"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "St Michael's Mount! You can walk there when the tide is out. Did you walk across?",
+   "translations": {
+    "fa": "سنت مایکلز مانت! وقتی آب پایینه میشه پیاده رفت اونجا. پیاده رد شدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "walked",
+      "across",
+      "came",
+      "then"
+     ],
+     "suggestion": "Yes, we walked across. Then the tide came in!",
+     "suggestionFa": "آره، پیاده رد شدیم. بعد آب بالا اومد!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mean",
+      "out"
+     ],
+     "suggestion": "What does \"the tide is out\" mean?",
+     "suggestionFa": "«آب پایینه» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tide",
+     "fa": "جزر و مد"
+    },
+    {
+     "word": "tide is out",
+     "fa": "آب پایین است (جزر)"
+    },
+    {
+     "word": "walk across",
+     "fa": "پیاده رد شدن"
+    },
+    {
+     "word": "came in",
+     "fa": "بالا آمد (مد)"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Low tide — the sea goes back and there's a path. At high tide, the path's underwater. You need a boat!",
+   "translations": {
+    "fa": "جزر — دریا عقب میره و یه مسیر پیدا میشه. موقع مد، مسیر زیر آبه. قایق لازم داری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "came",
+      "boat",
+      "back",
+      "was"
+     ],
+     "suggestion": "We came back by boat! It was fun.",
+     "suggestionFa": "با قایق برگشتیم! جالب بود.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "amazing",
+      "didn't",
+      "know",
+      "sea"
+     ],
+     "suggestion": "I didn't know that. The sea is amazing.",
+     "suggestionFa": "اینو نمی‌دونستم. دریا عجیبه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "low tide",
+     "fa": "جزر"
+    },
+    {
+     "word": "path",
+     "fa": "مسیر"
+    },
+    {
+     "word": "high tide",
+     "fa": "مد"
+    },
+    {
+     "word": "underwater",
+     "fa": "زیر آب"
+    },
+    {
+     "word": "boat",
+     "fa": "قایق"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "And this last one — a group photo? Who are all these people?",
+   "translations": {
+    "fa": "و این آخری — عکس دسته‌جمعی؟ این همه آدم کی‌ان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "friends",
+      "english",
+      "class"
+     ],
+     "suggestion": "My friends from my English class. We went together.",
+     "suggestionFa": "دوستام از کلاس زبانم. با هم رفتیم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "hostel",
+      "great",
+      "time"
+     ],
+     "suggestion": "People from the hostel. We had a great time.",
+     "suggestionFa": "آدم‌های مسافرخونه. خیلی خوش گذشت.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "group photo",
+     "fa": "عکس دسته‌جمعی"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "had a great time",
+     "fa": "خیلی خوش گذشت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "maya",
+   "text": "Look at you, all smiling. That's a proper holiday. You know what — I'm booking Cornwall tonight. You've convinced me.",
+   "translations": {
+    "fa": "ببین، همه دارید می‌خندید. این یه تعطیلات واقعیه. می‌دونی چیه — امشب کورنوال را رزرو می‌کنم. قانعم کردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "train",
+      "take"
+     ],
+     "suggestion": "Do it! Take the train. It's beautiful.",
+     "suggestionFa": "انجامش بده! با قطار برو. قشنگه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seagulls",
+      "watch",
+      "out"
+     ],
+     "suggestion": "Watch out for the seagulls!",
+     "suggestionFa": "مواظب مرغ‌های دریایی باش!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smiling",
+     "fa": "خندان"
+    },
+    {
+     "word": "booking",
+     "fa": "رزرو کردن"
+    },
+    {
+     "word": "convinced",
+     "fa": "قانع کردی"
+    },
+    {
+     "word": "watch out",
+     "fa": "مواظب باش"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "maya",
+   "text": "The train, of course — staff discount! And I'll guard my pasty with my life. Thanks for the holiday, even just for ten minutes.",
+   "translations": {
+    "fa": "قطار البته — تخفیف کارمندی! و از پیراشکیم با جونم محافظت می‌کنم. ممنون بابت تعطیلات، حتی فقط برای ده دقیقه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

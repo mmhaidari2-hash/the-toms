@@ -1,0 +1,282 @@
+{
+ "id": "l2_u45_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Rainbows and Brownies",
+ "titleFa": "(در نقش Nicola) رینبوز و براونیز",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u45_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbows",
+      "uniform",
+      "mondays",
+      "please",
+      "badge"
+     ],
+     "suggestion": "Mia goes to Rainbows! On Mondays! She's got a uniform and a badge. Can I join? PLEASE?",
+     "suggestionFa": "میا میره رینبوز! دوشنبه‌ها! یونیفرم و نشان داره. منم می‌تونم عضو بشم؟ لطفاً!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What's Rainbows?",
+   "translations": {
+    "fa": "رینبوز چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brownies",
+      "rainbows",
+      "camping",
+      "scouts",
+      "guides"
+     ],
+     "suggestion": "Rainbows is for little girls. Then Brownies, then Guides. Ryan did Scouts. He loved the camping!",
+     "suggestionFa": "رینبوز برای دخترهای کوچیکه. بعد براونیز، بعد گایدز. رایان پیشاهنگ بود. عاشق کمپینگ بود!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ryan loves camping? Even in the rain?",
+   "translations": {
+    "fa": "رایان عاشق کمپینگه؟ حتی زیر بارون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "waiting",
+      "what's",
+      "mummy",
+      "list"
+     ],
+     "suggestion": "You have to be four. I'm FIVE! But Mummy says there's a waiting list. What's that?",
+     "suggestionFa": "باید چهار سالت باشه. من پنج سالمه! ولی مامانی میگه لیست انتظار داره. اون چیه؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "A list of children waiting for a place.",
+   "translations": {
+    "fa": "یه فهرست از بچه‌هایی که منتظر جان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "waiting",
+      "boring",
+      "long",
+      "till"
+     ],
+     "suggestion": "I HATE waiting. It's so boring. How long? Till Christmas? Till I'm six?",
+     "suggestionFa": "من از صبر کردن متنفرم. خیلی کسل‌کننده‌ست. چقدر؟ تا کریسمس؟ تا شش سالگیم؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I don't know. We can ask the leader.",
+   "translations": {
+    "fa": "نمی‌دونم. می‌تونیم از رهبر گروه بپرسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "crafts",
+      "games",
+      "trips",
+      "songs"
+     ],
+     "suggestion": "Crafts, games and songs. And trips! Mia went to a farm and held a chicken.",
+     "suggestionFa": "کاردستی، بازی و آواز. و گردش! میا رفت مزرعه و یه مرغ بغل کرد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "She held a chicken! Was it scary?",
+   "translations": {
+    "fa": "یه مرغ بغل کرد! ترسناک بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "brushing",
+      "chicken",
+      "badges",
+      "teeth"
+     ],
+     "suggestion": "The chicken did a poo on her! And there are badges for everything. Even brushing teeth!",
+     "suggestionFa": "مرغه روش پی‌پی کرد! و برای همه‌چی نشان هست. حتی مسواک زدن!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "A badge for brushing teeth? Easy!",
+   "translations": {
+    "fa": "نشان برای مسواک زدن؟ آسونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sprinkles",
+      "baking",
+      "badge",
+      "cakes",
+      "lots"
+     ],
+     "suggestion": "The baking badge. I want to make cakes. With sprinkles. Lots and lots of sprinkles.",
+     "suggestionFa": "نشان شیرینی‌پزی. می‌خوام کیک درست کنم. با ترافل رنگی. کلی کلی ترافل.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "A baking badge! Can I taste the cakes?",
+   "translations": {
+    "fa": "نشان شیرینی‌پزی! می‌تونم کیک‌ها را بچشم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "leslie",
+   "text": "Good news, Nicola! The Rainbows leader just emailed. There's a space from next Monday!",
+   "translations": {
+    "fa": "خبر خوب نیکولا! رهبر رینبوز همین الان ایمیل زد. از دوشنبهٔ بعد جا هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "email",
+     "fa": "ایمیل"
+    },
+    {
+     "word": "space",
+     "fa": "جا ؛ ظرفیت"
+    },
+    {
+     "word": "soon",
+     "fa": "زود"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Did you hear that, Nicola?",
+   "translations": {
+    "fa": "شنیدی نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbow",
+      "goldie",
+      "tell",
+      "nana",
+      "need"
+     ],
+     "suggestion": "YES! I'm a Rainbow! I need to tell Mia! And Goldie! And Nana!",
+     "suggestionFa": "آره! من رینبو شدم! باید به میا بگم! و گلدی! و نانا!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

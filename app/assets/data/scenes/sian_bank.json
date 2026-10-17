@@ -80,7 +80,7 @@
       "agreement",
       "address",
       "tenancy",
-      "okay"
+      "i've"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "thousand",
-      "salary",
       "pounds",
+      "salary",
       "about"
      ],
      "suggestion": "About two thousand pounds, from my salary.",
@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "first",
       "month",
+      "first",
       "sure",
       "yet"
      ],
@@ -214,7 +214,7 @@
       "monthly",
       "avoid",
       "there",
-      "i'll"
+      "then"
      ],
      "suggestion": "I'll avoid it, then. Is there a monthly fee?",
      "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
@@ -225,9 +225,9 @@
     {
      "keywords": [
       "later",
-      "know",
       "good",
-      "need"
+      "need",
+      "know"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "what's",
-      "code",
-      "sort"
+      "sort",
+      "code"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "abroad",
-      "money",
       "great",
+      "money",
       "send"
      ],
      "suggestion": "Great. Can I send money abroad too?",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "thanks",
-      "scams",
-      "about",
-      "those"
+      "heard",
+      "those",
+      "scams"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -376,9 +376,9 @@
     {
      "keywords": [
       "careful",
-      "know",
       "good",
-      "i'll"
+      "i'll",
+      "know"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",

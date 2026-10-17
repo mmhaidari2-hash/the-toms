@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "morning",
+      "problem",
       "sleep",
       "well"
      ],
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "thanks",
-      "write",
       "toast",
+      "write",
       "snack"
      ],
      "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
@@ -88,8 +88,8 @@
      "keywords": [
       "might",
       "today",
-      "need",
-      "dear"
+      "dear",
+      "need"
      ],
      "suggestion": "Oh dear. He might need a nap today.",
      "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "thanks",
-      "good",
       "have",
+      "good",
       "day"
      ],
      "suggestion": "Thanks. Have a good day too!",
@@ -235,9 +235,9 @@
     {
      "keywords": [
       "daddy's",
-      "trains",
       "coming",
-      "let's"
+      "trains",
+      "later"
      ],
      "suggestion": "Daddy's coming back later. Let's find the trains.",
      "suggestionFa": "بابا بعداً برمی‌گرده. بیا قطارها را پیدا کنیم.",
@@ -247,9 +247,9 @@
     },
     {
      "keywords": [
+      "hold",
       "hand",
       "know",
-      "hold",
       "want"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",

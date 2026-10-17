@@ -1,0 +1,459 @@
+{
+ "id": "l2_u37_4",
+ "characterId": "doris",
+ "title": "Weather forecast",
+ "titleFa": "پیش‌بینی هوا",
+ "setting": "Weather talk · Level 2",
+ "settingFa": "صحبت دربارهٔ هوا",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "I always watch the forecast after the news. Did you see it last night? The weather lady had a lovely dress on.",
+   "translations": {
+    "fa": "من همیشه بعد از اخبار پیش‌بینی هوا را می‌بینم. دیشب دیدی؟ خانم هواشناس یه لباس قشنگ پوشیده بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missed",
+      "say",
+      "did",
+      "she"
+     ],
+     "suggestion": "No, I missed it. What did she say?",
+     "suggestionFa": "نه، از دستش دادم. چی گفت؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weather",
+      "check",
+      "phone",
+      "app"
+     ],
+     "suggestion": "I check the weather app on my phone.",
+     "suggestionFa": "من اپ هواشناسی گوشیم را چک می‌کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forecast",
+     "fa": "پیش‌بینی هوا"
+    },
+    {
+     "word": "weather lady",
+     "fa": "خانم هواشناس"
+    },
+    {
+     "word": "dress",
+     "fa": "لباس"
+    },
+    {
+     "word": "missed",
+     "fa": "از دست دادم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "An app! Clever. She said it's going to be wet and windy today. Then tomorrow, sunny spells and highs of fourteen.",
+   "translations": {
+    "fa": "اپ! زرنگی. گفت امروز قراره بارونی و بادی باشه. بعد فردا، آفتاب گاه‌به‌گاه و حداکثر چهارده درجه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spells",
+      "sunny"
+     ],
+     "suggestion": "What are \"sunny spells\"?",
+     "suggestionFa": "«سانی اسپلز» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fourteen",
+      "october",
+      "that's",
+      "quite"
+     ],
+     "suggestion": "Highs of fourteen. That's quite warm for October.",
+     "suggestionFa": "حداکثر چهارده. برای اکتبر نسبتاً گرمه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wet",
+     "fa": "خیس ؛ بارانی"
+    },
+    {
+     "word": "windy",
+     "fa": "بادی"
+    },
+    {
+     "word": "sunny spells",
+     "fa": "آفتاب گاه‌به‌گاه"
+    },
+    {
+     "word": "highs",
+     "fa": "حداکثر دما"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Sunny spells means the sun comes and goes. Little bits of sun between the clouds. Very British weather word.",
+   "translations": {
+    "fa": "«سانی اسپلز» یعنی خورشید میاد و میره. تیکه‌های کوچیک آفتاب بین ابرها. یه کلمهٔ هواشناسی خیلی بریتانیایی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seventy",
+      "chance",
+      "check",
+      "rain"
+     ],
+     "suggestion": "Let me check my app. It says a seventy per cent chance of rain.",
+     "suggestionFa": "بذار اپم را ببینم. میگه هفتاد درصد احتمال بارون.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weather",
+      "words",
+      "other",
+      "there"
+     ],
+     "suggestion": "What other weather words are there?",
+     "suggestionFa": "دیگه چه کلمه‌های هواشناسی هست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comes and goes",
+     "fa": "می‌آید و می‌رود"
+    },
+    {
+     "word": "bits",
+     "fa": "تکه‌ها"
+    },
+    {
+     "word": "clouds",
+     "fa": "ابرها"
+    },
+    {
+     "word": "chance",
+     "fa": "احتمال"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is seventy percent chance for rain",
+      "seventy percent rain chance"
+     ],
+     "echo": "Seventy per cent chance of rain? Brolly time!",
+     "better": "There's a seventy per cent chance of rain.",
+     "betterFa": "هفتاد درصد احتمال باران هست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Oh, lots! Drizzle — light rain. Showers — short bursts. Downpour — buckets! And \"close\" means warm and sticky.",
+   "translations": {
+    "fa": "اوه، کلی! «دریزل» — بارون نم‌نم. «شاورز» — رگبار کوتاه. «داون‌پور» — سیل‌آسا! و «کلوز» یعنی گرم و شرجی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "showers",
+      "write",
+      "down",
+      "them"
+     ],
+     "suggestion": "Drizzle, showers, downpour. I'll write them down.",
+     "suggestionFa": "دریزل، شاورز، داون‌پور. یادداشتشون می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "today"
+     ],
+     "suggestion": "So today is drizzle or a downpour?",
+     "suggestionFa": "پس امروز دریزله یا داون‌پور؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drizzle",
+     "fa": "نم‌نم باران"
+    },
+    {
+     "word": "showers",
+     "fa": "رگبار"
+    },
+    {
+     "word": "bursts",
+     "fa": "فوران ؛ لحظه"
+    },
+    {
+     "word": "downpour",
+     "fa": "باران سیل‌آسا"
+    },
+    {
+     "word": "sticky",
+     "fa": "شرجی"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK forecasts use special words: \"sunny spells\", \"scattered showers\", \"drizzle\". \"Close\" or \"muggy\" means warm and humid.",
+    "fa": "پیش‌بینی‌های بریتانیا کلمه‌های خاص دارند؛ «muggy» یعنی گرم و مرطوب."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "This morning, drizzle. This afternoon, heavy showers. But it'll clear up by the evening. Then a frost tonight.",
+   "translations": {
+    "fa": "امروز صبح، نم‌نم. بعدازظهر، رگبارهای شدید. ولی تا عصر صاف میشه. بعد امشب یخ‌بندون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "evening",
+      "clear",
+      "going",
+      "it'll"
+     ],
+     "suggestion": "It'll clear up by the evening. Good — I'm going to the park.",
+     "suggestionFa": "تا عصر صاف میشه. خوبه — دارم میرم پارک.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seasons",
+      "frost",
+      "again",
+      "rain"
+     ],
+     "suggestion": "Rain, then sun, then frost. Four seasons again!",
+     "suggestionFa": "بارون، بعد آفتاب، بعد یخ. باز چهار فصل!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heavy",
+     "fa": "شدید"
+    },
+    {
+     "word": "clear up",
+     "fa": "صاف شدن"
+    },
+    {
+     "word": "by the evening",
+     "fa": "تا عصر"
+    },
+    {
+     "word": "tonight",
+     "fa": "امشب"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Four seasons, you've learned it! And at the weekend, they say it's going to snow in Scotland. Never here, though.",
+   "translations": {
+    "fa": "چهار فصل، یادش گرفتی! و آخر هفته میگن قراره تو اسکاتلند برف بیاد. ولی اینجا هیچ‌وقت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forecast",
+      "usually",
+      "right"
+     ],
+     "suggestion": "Is the forecast usually right?",
+     "suggestionFa": "پیش‌بینی معمولاً درسته؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "london",
+      "snow",
+      "love",
+      "i'd"
+     ],
+     "suggestion": "I'd love to see snow in London.",
+     "suggestionFa": "خیلی دوست دارم برف لندن را ببینم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Scotland",
+     "fa": "اسکاتلند"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Usually! Except in 1987. The weatherman said no hurricane — and that night, the trees fell down all over London!",
+   "translations": {
+    "fa": "معمولاً! جز سال ۱۹۸۷. هواشناس گفت طوفان نمیاد — و همون شب، درخت‌ها همه‌جای لندن افتادن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hurricane",
+      "london",
+      "that's",
+      "scary"
+     ],
+     "suggestion": "A hurricane in London? That's scary!",
+     "suggestionFa": "طوفان تو لندن؟ ترسناکه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doris",
+      "were",
+      "ok"
+     ],
+     "suggestion": "Were you OK, Doris?",
+     "suggestionFa": "حالتون خوب بود دوریس؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "except",
+     "fa": "به‌جز"
+    },
+    {
+     "word": "weatherman",
+     "fa": "هواشناس"
+    },
+    {
+     "word": "hurricane",
+     "fa": "طوفان ؛ تندباد"
+    },
+    {
+     "word": "fell down",
+     "fa": "افتادند"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "I was fine, love. My Ron slept through it! Snoring like a train. Now, open my umbrella for me? The drizzle's starting.",
+   "translations": {
+    "fa": "خوب بودم عزیزم. رانِ من خواب موند! مثل قطار خروپف می‌کرد. حالا، چترم را برام باز می‌کنی؟ نم‌نم شروع شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doris",
+      "stay",
+      "here",
+      "dry"
+     ],
+     "suggestion": "Here you are. Stay dry, Doris!",
+     "suggestionFa": "بفرمایید. خیس نشید دوریس!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drizzle",
+      "right",
+      "knee",
+      "now"
+     ],
+     "suggestion": "It's drizzle now. Your knee was right!",
+     "suggestionFa": "الان نم‌نمه. زانوتون درست گفت!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slept through",
+     "fa": "بیدار نشد"
+    },
+    {
+     "word": "snoring",
+     "fa": "خروپف"
+    },
+    {
+     "word": "stay dry",
+     "fa": "خشک بمان"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "doris",
+   "text": "My knee is never wrong. The weather lady should ask my knee! Ta-ra, love. See you next Tuesday, rain or shine.",
+   "translations": {
+    "fa": "زانوی من هیچ‌وقت اشتباه نمی‌کنه. خانم هواشناس باید از زانوی من بپرسه! خداحافظ عزیزم. سه‌شنبهٔ بعد می‌بینمت، بارون باشه یا آفتاب."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

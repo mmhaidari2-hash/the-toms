@@ -33,9 +33,9 @@
     {
      "keywords": [
       "return",
-      "need",
+      "code",
       "i've",
-      "code"
+      "need"
      ],
      "suggestion": "I need to return this. I've got a QR code.",
      "suggestionFa": "باید اینو پس بفرستم. کیوآرکد دارم.",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "strong",
+      "didn't",
       "sorry",
       "have"
      ],
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "until",
       "money",
-      "back",
-      "long"
+      "until",
+      "long",
+      "back"
      ],
      "suggestion": "How long until I get my money back?",
      "suggestionFa": "چقدر طول می‌کشه پولم برگرده؟",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "receipt",
-      "keep",
+      "days",
       "i'll",
-      "days"
+      "keep"
      ],
      "suggestion": "Ten days? I'll keep the receipt.",
      "suggestionFa": "ده روز؟ رسید را نگه می‌دارم.",
@@ -310,7 +310,7 @@
       "parcels",
       "shops",
       "good",
-      "idea"
+      "lose"
      ],
      "suggestion": "Good idea. Shops can lose parcels!",
      "suggestionFa": "فکر خوبیه. فروشگاه‌ها ممکنه بسته گم کنن!",

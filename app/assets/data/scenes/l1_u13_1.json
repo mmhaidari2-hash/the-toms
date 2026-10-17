@@ -111,8 +111,8 @@
     {
      "keywords": [
       "seven",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "I can see seven ducks.",
      "suggestionFa": "هفت تا اردک می‌بینم.",
@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "there",
       "think",
+      "there",
       "ten"
      ],
      "suggestion": "There are ten ducks, I think.",
@@ -173,9 +173,9 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "stay",
       "here",
+      "i'll",
       "ok"
      ],
      "suggestion": "OK, I'll stay here.",
@@ -274,9 +274,9 @@
     {
      "keywords": [
       "many",
-      "she",
       "how",
-      "got"
+      "has",
+      "she"
      ],
      "suggestion": "How many babies has she got?",
      "suggestionFa": "چند تا بچه داره؟",
@@ -329,9 +329,9 @@
     },
     {
      "keywords": [
-      "call",
       "baby",
-      "swan"
+      "swan",
+      "call"
      ],
      "suggestion": "What do you call a baby swan?",
      "suggestionFa": "به بچه قو چی می‌گن؟",

@@ -1,0 +1,225 @@
+{
+ "id": "l2_u42_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Lost child",
+ "titleFa": "(در نقش Leslie) بچهٔ گمشده",
+ "setting": "Describing people · Level 2",
+ "settingFa": "توصیف آدم‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u42_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anywhere",
+      "swings",
+      "little",
+      "crying",
+      "let's"
+     ],
+     "suggestion": "Look — that little boy by the swings. He's crying. I can't see his mum or dad anywhere. Let's go and help.",
+     "suggestionFa": "ببین — اون پسر کوچولو کنار تاب‌ها. داره گریه می‌کنه. هیچ‌جا مامان یا باباش را نمی‌بینم. بریم کمک کنیم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, quickly. Hello! Are you OK?",
+   "translations": {
+    "fa": "آره، سریع. سلام! خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweetheart",
+      "teacher",
+      "where's",
+      "what's",
+      "leslie"
+     ],
+     "suggestion": "Hello, sweetheart. I'm Leslie. I'm a teacher. What's your name? Leo? Hello, Leo. Where's Mummy?",
+     "suggestionFa": "سلام عزیزم. من لزلی‌ام. معلمم. اسمت چیه؟ لئو؟ سلام لئو. مامانی کجاست؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "He says he doesn't know. He's very scared.",
+   "translations": {
+    "fa": "میگه نمی‌دونه. خیلی ترسیده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "describe",
+      "people",
+      "about",
+      "stay",
+      "he's"
+     ],
+     "suggestion": "Stay here with me, Leo. Can you ask the people near the café? Describe him. He's about four.",
+     "suggestionFa": "پیش من بمون لئو. میشه از آدم‌های نزدیک کافه بپرسی؟ توصیفش کن. حدوداً چهار سالشه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Excuse me! Have you seen this boy's mum?",
+   "translations": {
+    "fa": "ببخشید! مامان این پسر را دیدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raincoat",
+      "dinosaur",
+      "wellies",
+      "wearing",
+      "brown"
+     ],
+     "suggestion": "He's wearing a red raincoat and blue wellies. Curly brown hair. And he's got a toy dinosaur. A green one.",
+     "suggestionFa": "یه بارونی قرمز و چکمه‌های لاستیکی آبی پوشیده. موی قهوه‌ای فرفری. و یه دایناسور اسباب‌بازی داره. سبز.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A little boy, about four, red raincoat. Is he yours?",
+   "translations": {
+    "fa": "یه پسر کوچولو، حدوداً چهار ساله، بارونی قرمز. مال شماست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone's",
+      "shouting",
+      "running",
+      "yellow",
+      "jacket"
+     ],
+     "suggestion": "Good, loud and clear. Oh — someone's running. A woman in a yellow jacket. Long dark hair. She's shouting \"Leo!\"",
+     "suggestionFa": "خوبه، بلند و واضح. اوه — یکی داره می‌دوه. یه خانم با کاپشن زرد. موی بلند تیره. داره داد می‌زنه «لئو!»",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Is that your mum, Leo?",
+   "translations": {
+    "fa": "اون مامانته لئو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crying",
+      "turned",
+      "second",
+      "round",
+      "she's"
+     ],
+     "suggestion": "Look at his face — yes! \"MUMMY!\" Oh, she's crying now too. She says she turned round for one second at the ice cream van.",
+     "suggestionFa": "صورتش را ببین — آره! «مامانی!» اوه، حالا اونم داره گریه می‌کنه. میگه یه لحظه کنار ون بستنی برگشته.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's OK. He's safe now.",
+   "translations": {
+    "fa": "اشکالی نداره. الان در امانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grateful",
+      "insists",
+      "flavour",
+      "choose",
+      "she's"
+     ],
+     "suggestion": "She's so grateful. She wants to buy us an ice cream. I said no, but she insists. You choose — what flavour?",
+     "suggestionFa": "خیلی ممنونه. می‌خواد برامون بستنی بخره. گفتم نه، ولی اصرار می‌کنه. تو انتخاب کن — چه طعمی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Just a small one, please. Vanilla.",
+   "translations": {
+    "fa": "فقط یه کوچیک، لطفاً. وانیلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "anyway",
+      "that's",
+      "ninety",
+      "bought"
+     ],
+     "suggestion": "Ha — she bought you a ninety-nine anyway, with a flake. Well done today. Calm and clear. That's exactly what to do.",
+     "suggestionFa": "ها — به هر حال برات یه نود و نه خرید، با شکلات. امروز آفرین. آروم و واضح. دقیقاً کاری که باید کرد.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

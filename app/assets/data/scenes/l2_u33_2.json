@@ -22,7 +22,7 @@
       "plasters",
       "leslie",
       "cream",
-      "sent"
+      "some"
      ],
      "suggestion": "Leslie sent me. We need plasters and some cream.",
      "suggestionFa": "لزلی فرستادم. چسب زخم و یه پماد لازم داریم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "things",
       "first",
-      "aid",
-      "box"
+      "box",
+      "aid"
      ],
      "suggestion": "I need things for a first-aid box.",
      "suggestionFa": "برای جعبهٔ کمک‌های اولیه وسایل لازم دارم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "touched",
       "small",
-      "oven",
-      "burn"
+      "burn",
+      "oven"
      ],
      "suggestion": "For a small burn. Tom touched the oven.",
      "suggestionFa": "برای یه سوختگی کوچیک. تام به فر دست زد.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "william",
-      "over",
+      "park",
       "fell",
-      "park"
+      "over"
      ],
      "suggestion": "For William. He fell over in the park.",
      "suggestionFa": "برای ویلیام. تو پارک زمین خورد.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "people",
       "butter",
+      "people",
       "some",
       "use"
      ],
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "children",
       "suitable",
+      "children",
       "gel",
       "ok"
      ],
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "paracetamol",
       "thermometer",
+      "paracetamol",
       "children's",
       "some"
      ],
@@ -301,8 +301,8 @@
      "keywords": [
       "strawberry",
       "nicola",
-      "love",
-      "will"
+      "will",
+      "love"
      ],
      "suggestion": "Strawberry? Nicola will love it.",
      "suggestionFa": "توت‌فرنگی؟ نیکولا عاشقش میشه.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "tell",
+      "i'll",
       "him"
      ],
      "suggestion": "Ha! I'll tell him. Thank you!",

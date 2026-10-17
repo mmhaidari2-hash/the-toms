@@ -1,0 +1,412 @@
+{
+ "id": "l2_u42_1",
+ "characterId": "leslie",
+ "title": "What does he look like?",
+ "titleFa": "چه شکلی است؟",
+ "setting": "Describing people · Level 2",
+ "settingFa": "توصیف آدم‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You'll never guess. A man handed in my purse at the café! Everything's still in it. I want to thank him. Did you see him?",
+   "translations": {
+    "fa": "باورت نمیشه. یه آقا کیف پولم را تو کافه تحویل داده! همه‌چی هنوز توشه. می‌خوام ازش تشکر کنم. دیدیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minute",
+      "here",
+      "ago",
+      "was"
+     ],
+     "suggestion": "Yes! He was here a minute ago.",
+     "suggestionFa": "آره! یه دقیقه پیش اینجا بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "like",
+      "look"
+     ],
+     "suggestion": "No, I didn't. What does he look like?",
+     "suggestionFa": "نه، ندیدم. چه شکلیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    },
+    {
+     "word": "handed in",
+     "fa": "تحویل داد"
+    },
+    {
+     "word": "purse",
+     "fa": "کیف پول"
+    },
+    {
+     "word": "thank",
+     "fa": "تشکر کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Callum said \"older man, beard\". That's half of Hackney! You were by the gate. What did he look like?",
+   "translations": {
+    "fa": "کالوم گفت «یه آقای مسن، ریش‌دار». این نصف هکنیه! تو کنار در بودی. چه شکلی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beard",
+      "short",
+      "white",
+      "grey"
+     ],
+     "suggestion": "He's got grey hair and a short white beard.",
+     "suggestionFa": "موهاش خاکستریه و یه ریش کوتاه سفید داره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seventy",
+      "about",
+      "think",
+      "quite"
+     ],
+     "suggestion": "He's quite tall and thin. About seventy, I think.",
+     "suggestionFa": "نسبتاً قدبلند و لاغره. فکر کنم حدود هفتاد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "older",
+     "fa": "مسن‌تر"
+    },
+    {
+     "word": "beard",
+     "fa": "ریش"
+    },
+    {
+     "word": "gate",
+     "fa": "در ورودی"
+    },
+    {
+     "word": "grey",
+     "fa": "خاکستری"
+    },
+    {
+     "word": "thin",
+     "fa": "لاغر"
+    }
+   ],
+   "cultureNote": {
+    "en": "In English, \"hair\" (on your head) is uncountable: \"He's got grey hair\", not \"grey hairs\".",
+    "fa": "در انگلیسی «hair» (موی سر) غیرقابل‌شمارش است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "he has got grey hairs",
+      "he's grey hair"
+     ],
+     "echo": "He's got grey hair? Good!",
+     "better": "He's got grey hair.",
+     "betterFa": "موهایش خاکستری است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Grey hair, white beard, tall and thin. Good. What was he wearing? There are three old men by the pond.",
+   "translations": {
+    "fa": "موی خاکستری، ریش سفید، قدبلند و لاغر. خوبه. چی پوشیده بود؟ سه تا آقای مسن کنار برکه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wearing",
+      "green",
+      "coat",
+      "flat"
+     ],
+     "suggestion": "He was wearing a green coat and a flat cap.",
+     "suggestionFa": "یه کت سبز و کلاه کپ پوشیده بود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "brown",
+      "dog",
+      "one"
+     ],
+     "suggestion": "He had a brown dog with him. A small one.",
+     "suggestionFa": "یه سگ قهوه‌ای کوچیک همراهش بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wearing",
+     "fa": "پوشیده"
+    },
+    {
+     "word": "pond",
+     "fa": "برکه"
+    },
+    {
+     "word": "coat",
+     "fa": "کت ؛ پالتو"
+    },
+    {
+     "word": "flat cap",
+     "fa": "کلاه کپ"
+    },
+    {
+     "word": "dog",
+     "fa": "سگ"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "A flat cap! Very Hackney grandad. And glasses? Some of them have glasses.",
+   "translations": {
+    "fa": "کلاه کپ! خیلی پدربزرگ‌های هکنی. و عینک؟ بعضی‌هاشون عینک دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "round",
+      "smile",
+      "big"
+     ],
+     "suggestion": "Yes, round glasses. And a big smile.",
+     "suggestionFa": "آره، عینک گرد. و یه لبخند بزرگ.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "about",
+      "sure"
+     ],
+     "suggestion": "I'm not sure about glasses. Sorry.",
+     "suggestionFa": "دربارهٔ عینک مطمئن نیستم. ببخشید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grandad",
+     "fa": "پدربزرگ"
+    },
+    {
+     "word": "glasses",
+     "fa": "عینک"
+    },
+    {
+     "word": "round",
+     "fa": "گرد"
+    },
+    {
+     "word": "smile",
+     "fa": "لبخند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Look — on the bench. Green coat, flat cap, round glasses, little brown dog. That must be him!",
+   "translations": {
+    "fa": "ببین — رو نیمکت. کت سبز، کلاه کپ، عینک گرد، سگ کوچیک قهوه‌ای. حتماً خودشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "let's",
+      "say"
+     ],
+     "suggestion": "Yes, that's him! Let's go and say thank you.",
+     "suggestionFa": "آره، خودشه! بریم تشکر کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "looks",
+      "sure",
+      "now"
+     ],
+     "suggestion": "Are you sure? He looks different now.",
+     "suggestionFa": "مطمئنی؟ الان یه جور دیگه‌ست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bench",
+     "fa": "نیمکت"
+    },
+    {
+     "word": "must be",
+     "fa": "حتماً … است"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Oh! It's Mr Jenkins from next door! I didn't recognise him in the cap. He always wears a hat to the park.",
+   "translations": {
+    "fa": "اوه! آقای جنکینزه، همسایه! با کلاه نشناختمش. همیشه برای پارک کلاه سرش می‌ذاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jenkins",
+      "stripes",
+      "wonky",
+      "man"
+     ],
+     "suggestion": "Mr Jenkins! The man with the wonky stripes!",
+     "suggestionFa": "آقای جنکینز! همون که راه‌راه‌هاش کجه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "recognise",
+      "neighbour",
+      "didn't"
+     ],
+     "suggestion": "You didn't recognise your neighbour?",
+     "suggestionFa": "همسایه‌ات را نشناختی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recognise",
+     "fa": "شناختن"
+    },
+    {
+     "word": "hat",
+     "fa": "کلاه"
+    },
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    },
+    {
+     "word": "wonky",
+     "fa": "کج"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ha! Shh! He was so kind. I'll bake him a cake. What does he like? You talk to him more than I do.",
+   "translations": {
+    "fa": "ها! هیس! خیلی مهربون بود. براش کیک می‌پزم. چی دوست داره؟ تو بیشتر از من باهاش حرف می‌زنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lemon",
+      "week",
+      "last",
+      "told"
+     ],
+     "suggestion": "He likes lemon cake. He told me last week.",
+     "suggestionFa": "کیک لیمو دوست داره. هفتهٔ پیش بهم گفت.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "more",
+      "than",
+      "his"
+     ],
+     "suggestion": "He likes his dog more than cake, I think!",
+     "suggestionFa": "فکر کنم سگش را بیشتر از کیک دوست داره!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "bake",
+     "fa": "پختن (در فر)"
+    },
+    {
+     "word": "lemon",
+     "fa": "لیمو"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Lemon cake it is. And look — he's waving. \"Leslie! Your purse!\" Yes, Mr Jenkins! Thank you SO much!",
+   "translations": {
+    "fa": "پس کیک لیمو. و ببین — داره دست تکون میده. «لزلی! کیف پولت!» آره آقای جنکینز! خیلی خیلی ممنون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

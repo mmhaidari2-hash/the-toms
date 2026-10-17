@@ -37,8 +37,8 @@
      "keywords": [
       "children",
       "today",
-      "lots",
-      "same"
+      "same",
+      "lots"
      ],
      "suggestion": "Lots of children feel the same today.",
      "suggestionFa": "خیلی از بچه‌ها امروز همین حس را دارن.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
+      "here",
       "will",
-      "both",
-      "here"
+      "both"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Can I see it?",
      "suggestionFa": "می‌تونم ببینمش؟",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "well",
       "star",
-      "gold",
-      "done"
+      "done",
+      "well",
+      "gold"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "you've",
       "earned",
+      "you've",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "use",
-      "how"
+      "how",
+      "use"
      ],
      "suggestion": "Yes, please. How do I use it?",
      "suggestionFa": "آره، لطفاً. چطوری ازش استفاده کنم؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "inside",
       "thirty",
-      "look",
-      "says"
+      "inside",
+      "door",
+      "look"
      ],
      "suggestion": "Inside the door? Let me look. It says thirty-two.",
      "suggestionFa": "داخل در؟ بذار ببینم. نوشته سی و دو.",
@@ -131,8 +131,8 @@
      "keywords": [
       "taken",
       "i've",
-      "now",
-      "off"
+      "off",
+      "now"
      ],
      "suggestion": "I've taken it off. Now what?",
      "suggestionFa": "برداشتمش. حالا چی؟",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "where's",
-      "valve",
       "can't",
+      "valve",
       "see"
      ],
      "suggestion": "Where's the valve? I can't see it.",
@@ -249,7 +249,7 @@
       "minutes",
       "better",
       "four",
-      "run"
+      "i'd"
      ],
      "suggestion": "Four minutes? I'd better run!",
      "suggestionFa": "چهار دقیقه؟ بهتره بدوم!",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "puncture",
-      "i'll",
       "tell",
+      "i'll",
       "now"
      ],
      "suggestion": "A puncture. I'll tell Tom now.",

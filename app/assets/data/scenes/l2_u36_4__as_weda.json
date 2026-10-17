@@ -25,7 +25,7 @@
       "household",
       "enquiry",
       "letter",
-      "lives"
+      "every"
      ],
      "suggestion": "Look at this letter, dear. \"Household enquiry — who lives here?\" They send it every year. Are you registered?",
      "suggestionFa": "این نامه را ببین عزیزم. «استعلام خانوار — چه کسانی اینجا زندگی می‌کنند؟» هر سال می‌فرستنش. ثبت‌نام کردی؟",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "residents",
       "electoral",
       "elections",
-      "residents",
       "register",
-      "voters"
+      "abroad"
      ],
      "suggestion": "The electoral register — the list of voters. Some residents from abroad can vote in local elections. Let's ask Ms Ward.",
      "suggestionFa": "فهرست رأی‌دهندگان. بعضی ساکنان خارجی می‌تونن تو انتخابات محلی رأی بدن. بیا از خانم وارد بپرسیم.",
@@ -336,8 +336,8 @@
    "branches": [
     {
      "keywords": [
-      "together",
       "thrilled",
+      "together",
       "slowly",
       "aren't",
       "he'll"

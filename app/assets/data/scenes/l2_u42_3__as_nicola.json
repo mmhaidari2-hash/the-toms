@@ -1,0 +1,225 @@
+{
+ "id": "l2_u42_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) My best friend",
+ "titleFa": "(در نقش Nicola) بهترین دوستم",
+ "setting": "Describing people · Level 2",
+ "settingFa": "توصیف آدم‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u42_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friend",
+      "coming",
+      "guess",
+      "who's",
+      "whole"
+     ],
+     "suggestion": "Guess who's coming to the park! My best friend in the WHOLE world. Mia!",
+     "suggestionFa": "حدس بزن کی داره میاد پارک! بهترین دوستم تو کل دنیا. میا!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Mia! Tell me about her.",
+   "translations": {
+    "fa": "میا! دربارهٔ‌ش بهم بگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reception",
+      "plaits",
+      "brown",
+      "she's",
+      "every"
+     ],
+     "suggestion": "She sits next to me in Reception. She's got long brown hair. In two plaits, every day!",
+     "suggestionFa": "تو کلاس کنار من می‌شینه. موهای بلند قهوه‌ای داره. هر روز دو تا گیس بافته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Two plaits! And what colour are her eyes?",
+   "translations": {
+    "fa": "دو تا گیس! و چشم‌هاش چه رنگیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "because",
+      "taller",
+      "brown",
+      "she's"
+     ],
+     "suggestion": "Her eyes are brown, like chocolate. And she's a tiny bit taller. Only because of her shoes!",
+     "suggestionFa": "چشم‌هاش قهوه‌ایه، مثل شکلات. و یه ذره بلندتره. فقط به‌خاطر کفش‌هاش!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Only her shoes? Ha! What's she like?",
+   "translations": {
+    "fa": "فقط کفش‌هاش؟ ها! چه جور آدمیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "glitter",
+      "strong",
+      "really",
+      "funny",
+      "views"
+     ],
+     "suggestion": "She's really funny. And kind. And she's got strong views on glitter. Glitter is the BEST.",
+     "suggestionFa": "خیلی بامزه‌ست. و مهربون. و دربارهٔ اکلیل نظرات محکمی داره. اکلیل بهترینه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Strong views on glitter! What do you both like?",
+   "translations": {
+    "fa": "نظرات محکم دربارهٔ اکلیل! هر دوتون چی دوست دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "disgusting",
+      "unicorns",
+      "swings",
+      "love",
+      "hate"
+     ],
+     "suggestion": "We both love unicorns. And the swings. And we both hate peas. Peas are disgusting.",
+     "suggestionFa": "هر دومون عاشق تک‌شاخیم. و تاب. و هر دومون از نخودفرنگی متنفریم. نخودفرنگی حال‌به‌هم‌زنه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I like peas! Sorry, Nicola.",
+   "translations": {
+    "fa": "من نخودفرنگی دوست دارم! ببخشید نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friend",
+      "twins",
+      "look",
+      "best",
+      "tell"
+     ],
+     "suggestion": "Twins! I'll tell her! Do you have a best friend? What does he look like?",
+     "suggestionFa": "دوقلو! بهش میگم! تو بهترین دوست داری؟ چه شکلیه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "My best friend is in Tehran. He's got black hair and a big laugh.",
+   "translations": {
+    "fa": "بهترین دوستم تو تهرانه. موهاش مشکیه و بلند می‌خنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "tehran",
+      "went",
+      "here",
+      "i'd"
+     ],
+     "suggestion": "Is he sad because you're here? I'd be sad if Mia went to Tehran.",
+     "suggestionFa": "ناراحته چون تو اینجایی؟ اگه میا بره تهران من ناراحت میشم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "A bit. But we talk on video every Sunday.",
+   "translations": {
+    "fa": "یه کم. ولی هر یکشنبه تصویری حرف می‌زنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unicorn",
+      "there's",
+      "sunday",
+      "hello",
+      "reza"
+     ],
+     "suggestion": "Next Sunday, can I say hello to Reza? I'll show him my unicorn. Look, there's Mia! MIA!",
+     "suggestionFa": "یکشنبهٔ بعد میشه به رضا سلام کنم؟ تک‌شاخم را بهش نشون میدم. ببین، میا اومد! میا!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

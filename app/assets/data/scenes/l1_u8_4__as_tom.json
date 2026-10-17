@@ -23,8 +23,8 @@
      "keywords": [
       "putting",
       "shelf",
-      "give",
       "hand",
+      "give",
       "can"
      ],
      "suggestion": "Can you give me a hand? I'm putting up a shelf.",
@@ -74,8 +74,8 @@
       "toolbox",
       "drill",
       "pass",
-      "can",
-      "hmm"
+      "hmm",
+      "can"
      ],
      "suggestion": "Hmm. Can you pass me the drill? It's in the toolbox.",
      "suggestionFa": "هوم. می‌تونی دریل را بدی؟ توی جعبه ابزاره.",
@@ -98,9 +98,9 @@
      "keywords": [
       "drilling",
       "that's",
-      "drill",
+      "cover",
       "right",
-      "cover"
+      "drill"
      ],
      "suggestion": "That's the drill. Right — I'm drilling now. Cover your ears!",
      "suggestionFa": "اون دریله. خب — دارم دریل می‌کنم. گوش‌هات را بگیر!",
@@ -149,8 +149,8 @@
       "perfect",
       "falling",
       "there",
-      "four",
-      "look"
+      "look",
+      "down"
      ],
      "suggestion": "Four. There! Look at that! Is it falling down? No! It's perfect!",
      "suggestionFa": "چهارتا. ایناهاش! ببین! داره می‌افته؟ نه! عالیه!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "moving",
-      "falls",
+      "before",
       "cuppa",
+      "falls",
       "let's"
      ],
      "suggestion": "Moving? No, no. It's fine. Let's get a cuppa before it falls down!",

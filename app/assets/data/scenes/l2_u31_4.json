@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "don't",
       "worry",
+      "don't",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "freya",
       "wrong",
-      "they",
-      "look"
+      "freya",
+      "look",
+      "they"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "magic",
       "chair",
+      "magic",
       "look"
      ],
      "suggestion": "Look, Nicola! A magic chair!",
@@ -149,8 +149,8 @@
      "keywords": [
       "hughes",
       "hello",
-      "mrs",
-      "say"
+      "say",
+      "mrs"
      ],
      "suggestion": "Say hello to Mrs Hughes, Nicola.",
      "suggestionFa": "به خانم هیوز سلام کن نیکولا.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "nicola",
-      "magic",
       "chair",
+      "magic",
       "sit"
      ],
      "suggestion": "Go on, Nicola. Sit on the magic chair!",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "think",
-      "goes",
-      "high"
+      "high",
+      "goes"
      ],
      "suggestion": "I think it goes very high!",
      "suggestionFa": "فکر کنم خیلی بالا میره!",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "count",
+      "let's",
       "four",
       "five"
      ],
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
+      "lion",
       "like",
       "roar",
-      "lion",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -322,9 +322,9 @@
    "branches": [
     {
      "keywords": [
-      "fairy",
-      "tooth",
       "bring",
+      "tooth",
+      "fairy",
       "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
@@ -336,8 +336,8 @@
     {
      "keywords": [
       "pillow",
-      "under",
       "falls",
+      "under",
       "maybe"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
@@ -380,8 +380,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "nicola",
+      "leslie",
       "sweets",
       "eats"
      ],
@@ -393,8 +393,8 @@
     },
     {
      "keywords": [
-      "clean",
       "teeth",
+      "clean",
       "look",
       "her"
      ],
@@ -447,8 +447,8 @@
     {
      "keywords": [
       "choose",
-      "good",
       "girl",
+      "good",
       "one"
      ],
      "suggestion": "Good girl, Nicola. Choose one!",
@@ -482,8 +482,8 @@
     },
     {
      "keywords": [
-      "william",
       "jealous",
+      "william",
       "will"
      ],
      "suggestion": "William will be so jealous!",

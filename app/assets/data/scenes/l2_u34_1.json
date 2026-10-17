@@ -146,7 +146,7 @@
       "taken",
       "seven",
       "fifty",
-      "left"
+      "most"
      ],
      "suggestion": "Most are taken. Only seven-fifty is left.",
      "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
@@ -197,8 +197,8 @@
      "keywords": [
       "thirty",
       "ellis",
-      "six",
-      "has"
+      "has",
+      "six"
      ],
      "suggestion": "Ms Ellis has six-thirty. Is that OK?",
      "suggestionFa": "خانم الیس شش و نیم داره. خوبه؟",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "change",
-      "patel",
       "later",
+      "patel",
       "time"
      ],
      "suggestion": "Can we change Mr Patel to a later time?",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "parent",
       "person",
-      "can",
-      "one"
+      "parent",
+      "one",
+      "can"
      ],
      "suggestion": "Can one parent go in person and one online?",
      "suggestionFa": "میشه یه والد حضوری بیاد و یکی آنلاین؟",
@@ -303,8 +303,8 @@
      "keywords": [
       "william",
       "after",
-      "look",
-      "will"
+      "come",
+      "look"
      ],
      "suggestion": "Will you come too? I can look after William.",
      "suggestionFa": "تو هم میای؟ من می‌تونم مراقب ویلیام باشم.",
@@ -356,8 +356,8 @@
     {
      "keywords": [
       "question",
-      "first",
       "doing",
+      "first",
       "good"
      ],
      "suggestion": "Good idea. First question: \"How is he doing?\"",

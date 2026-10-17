@@ -22,7 +22,7 @@
       "william",
       "can't",
       "three",
-      "he's"
+      "find"
      ],
      "suggestion": "I can't find William! He's three.",
      "suggestionFa": "ویلیام را پیدا نمی‌کنم! سه سالشه.",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "minutes",
-      "five",
       "shop",
-      "toy"
+      "five",
+      "ago"
      ],
      "suggestion": "Five minutes ago, at the toy shop.",
      "suggestionFa": "پنج دقیقه پیش، تو مغازهٔ اسباب‌بازی.",
@@ -152,9 +152,9 @@
     {
      "keywords": [
       "escalator",
-      "around",
       "turned",
-      "gone"
+      "around",
+      "near"
      ],
      "suggestion": "Near the escalator. I turned around, and he was gone.",
      "suggestionFa": "نزدیک پله‌برقی. برگشتم دیدم نیست.",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "code",
+      "adam",
       "mean",
-      "adam"
+      "code"
      ],
      "suggestion": "What does Code Adam mean?",
      "suggestionFa": "کد آدام یعنی چی؟",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "should",
-      "back",
       "shop",
+      "back",
       "toy"
      ],
      "suggestion": "Should I go back to the toy shop?",
@@ -264,8 +264,8 @@
      "keywords": [
       "driving",
       "he's",
-      "bus",
-      "dad"
+      "his",
+      "bus"
      ],
      "suggestion": "His dad is Tom. He's driving the bus.",
      "suggestionFa": "باباش تامه. داره اتوبوس می‌رونه.",
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "course",
       "sweets",
+      "course",
       "loves",
       "he"
      ],

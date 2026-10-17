@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "warm",
-      "fine"
+      "fine",
+      "warm"
      ],
      "suggestion": "It's warm. It's fine.",
      "suggestionFa": "گرمه. خوبه.",
@@ -33,7 +33,7 @@
       "water",
       "some",
       "cold",
-      "add"
+      "bit"
      ],
      "suggestion": "It's a bit hot. Add some cold water.",
      "suggestionFa": "یه کم داغه. یه کم آب سرد اضافه کن.",
@@ -76,8 +76,8 @@
     {
      "keywords": [
       "enough",
-      "nicola",
       "that's",
+      "nicola",
       "stop"
      ],
      "suggestion": "Stop, Nicola! That's enough!",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "all",
       "wet",
+      "all",
       "oh"
      ],
      "suggestion": "Oh! I'm all wet!",
@@ -299,8 +299,8 @@
    "branches": [
     {
      "keywords": [
-      "towel",
-      "which"
+      "which",
+      "towel"
      ],
      "suggestion": "Yes. Which towel?",
      "suggestionFa": "آره. کدوم حوله؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "blue",
-      "old",
-      "one"
+      "one",
+      "old"
      ],
      "suggestion": "The old blue one?",
      "suggestionFa": "اون آبی قدیمیه؟",

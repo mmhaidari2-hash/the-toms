@@ -46,8 +46,8 @@
     {
      "keywords": [
       "that's",
-      "name",
       "nice",
+      "name",
       "old",
       "how"
      ],
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "friend",
-      "from",
+      "london",
       "best",
-      "he's"
+      "he's",
+      "from"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
      "suggestionFa": "آره! بهترین دوستمه. اهل لندنی؟",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "always",
-      "there",
       "mummy",
+      "there",
       "cold",
-      "says"
+      "here"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
      "suggestionFa": "وای! اونجا گرمه؟ مامان می‌گه اینجا همیشه سرده.",
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "teacher",
+      "name's",
       "that's",
       "leslie",
-      "name's",
       "she's"
      ],
      "suggestion": "Look, that's my mum. Her name's Leslie. She's a teacher.",

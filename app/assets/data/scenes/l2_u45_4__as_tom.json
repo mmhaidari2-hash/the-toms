@@ -1,0 +1,250 @@
+{
+ "id": "l2_u45_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Ballet class",
+ "titleFa": "(در نقش Tom) کلاس باله",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u45_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "william",
+      "nothing",
+      "ballet",
+      "taking"
+     ],
+     "suggestion": "Help. Leslie's taking William to a party, so I'm on ballet duty. I know nothing about ballet. Come with me? Please?",
+     "suggestionFa": "کمک. لزلی ویلیام را برده مهمونی، پس نوبت بالهٔ منه. هیچی دربارهٔ باله نمی‌دونم. با من میای؟ لطفاً؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Ha! OK, I'll come. What time does it start?",
+   "translations": {
+    "fa": "ها! باشه، میام. ساعت چند شروع میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "change",
+      "starts",
+      "church",
+      "leslie"
+     ],
+     "suggestion": "Since last week! It starts at ten, in the church hall. We have to be there ten minutes early to change. Leslie wrote a list.",
+     "suggestionFa": "از هفتهٔ پیش! ساعت ده شروع میشه، تو سالن کلیسا. باید ده دقیقه زودتر اونجا باشیم که لباس عوض کنه. لزلی یه فهرست نوشته.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What's on the list?",
+   "translations": {
+    "fa": "تو فهرست چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ponytail",
+      "leotard",
+      "ballet",
+      "tights",
+      "shoes"
+     ],
+     "suggestion": "\"Pink leotard, tights, ballet shoes, hair in a bun.\" A bun! I can do a ponytail, but a bun? Can you do a bun?",
+     "suggestionFa": "«لباس بالهٔ صورتی، جوراب‌شلواری، کفش باله، موی گوجه‌ای.» گوجه! من دم‌اسبی بلدم، ولی گوجه؟ تو گوجه بلدی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "No idea! Let's watch a video.",
+   "translations": {
+    "fa": "هیچ ایده‌ای ندارم! بیا یه ویدیو ببینیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "youtube",
+      "wobbly",
+      "later",
+      "right",
+      "we're"
+     ],
+     "suggestion": "Ten pins and one YouTube video later… it's a bun. A wobbly bun. Right, we're here. Where do I take her?",
+     "suggestionFa": "ده تا سنجاق و یه ویدیوی یوتیوب بعد… گوجه شد. یه گوجهٔ لق. خب، رسیدیم. کجا ببرمش؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ask that lady at the door.",
+   "translations": {
+    "fa": "از اون خانم دم در بپرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "allowed",
+      "change",
+      "excuse",
+      "nicola"
+     ],
+     "suggestion": "Excuse me, where do I take Nicola? Ah — she says the children change in the side room, then go in alone. Am I allowed to watch?",
+     "suggestionFa": "ببخشید، نیکولا را کجا ببرم؟ آه — میگه بچه‌ها تو اتاق کناری لباس عوض می‌کنن، بعد تنها میرن تو. اجازه دارم تماشا کنم؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "She says no. Only on the last day of term.",
+   "translations": {
+    "fa": "میگه نه. فقط روز آخر ترم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watching",
+      "minutes",
+      "parents",
+      "ballet",
+      "bacon"
+     ],
+     "suggestion": "No watching. Parents wait in the café next door. Forty-five minutes. Fancy a bacon roll? This is the best bit of ballet.",
+     "suggestionFa": "تماشا ممنوع. والدین تو کافهٔ بغلی صبر می‌کنن. چهل و پنج دقیقه. ساندویچ بیکن می‌خوری؟ این بهترین قسمت باله‌ست.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ha! Yes please. I'm hungry.",
+   "translations": {
+    "fa": "ها! آره لطفاً. گرسنه‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "elephants",
+      "thumping",
+      "dancers",
+      "listen"
+     ],
+     "suggestion": "Listen — piano music. And thumping. Twelve little dancers, thumping. It sounds like elephants. Beautiful elephants.",
+     "suggestionFa": "گوش کن — موسیقی پیانو. و صدای کوبیدن. دوازده رقصندهٔ کوچولو، می‌کوبن. شبیه فیل‌هاست. فیل‌های قشنگ.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Elephants! Don't tell Nicola that.",
+   "translations": {
+    "fa": "فیل! اینو به نیکولا نگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "totally",
+      "time's",
+      "bun's",
+      "comes"
+     ],
+     "suggestion": "Time's up! Here she comes. And… the bun's gone. Totally gone. Hair everywhere. \"Daddy, my bun fell out in the first spin!\"",
+     "suggestionFa": "وقت تموم شد! ایناهاش داره میاد. و… گوجه رفت. کاملاً رفت. مو همه‌جا. «بابایی، گوجه‌ام تو اولین چرخش باز شد!»",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Did you have fun, Nicola?",
+   "translations": {
+    "fa": "خوش گذشت نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ballerina",
+      "ponytail",
+      "leslie",
+      "famous",
+      "she's"
+     ],
+     "suggestion": "She says it was \"the best day ever\" and she's going to be a famous ballerina. With a ponytail. Leslie can do the bun next week.",
+     "suggestionFa": "میگه «بهترین روز عمرش» بود و قراره یه بالرین معروف بشه. با دم‌اسبی. لزلی هفتهٔ بعد گوجه را درست می‌کنه.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

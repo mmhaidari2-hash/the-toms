@@ -1,0 +1,554 @@
+{
+ "id": "l2_u38_1__as_tom",
+ "characterId": "ryan",
+ "title": "(As Tom) Washing the car",
+ "titleFa": "(در نقش Tom) شستن ماشین",
+ "setting": "Weekend jobs · Level 2",
+ "settingFa": "کارهای آخر هفته",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u38_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "ryan",
+   "text": "Dad says he'll pay me ten quid to wash the car. Ten quid! It takes ages. Want to help? We split it.",
+   "translations": {
+    "fa": "بابا میگه ده پوند میده ماشین را بشورم. ده پوند! کلی طول می‌کشه. کمک می‌کنی؟ نصف‌نصف."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "ages",
+     "fa": "کلی وقت"
+    },
+    {
+     "word": "split",
+     "fa": "تقسیم کردن"
+    },
+    {
+     "word": "each",
+     "fa": "هر کدام"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Fifty-fifty? Five pounds each.",
+   "translations": {
+    "fa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "ryan",
+   "text": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
+   "translations": {
+    "fa": "ها، میگه نه. بابا خسیسه. باشه، سطل و اسفنج‌ها را دارم. میشه سطل را با آب گرم پر کنی؟ صابون هم بریز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tight",
+     "fa": "خسیس"
+    },
+    {
+     "word": "bucket",
+     "fa": "سطل"
+    },
+    {
+     "word": "sponges",
+     "fa": "اسفنج‌ها"
+    },
+    {
+     "word": "fill",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "soap",
+     "fa": "صابون"
+    },
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Where's the tap? In the kitchen?",
+   "translations": {
+    "fa": "شیر آب کجاست؟ تو آشپزخونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "ryan",
+   "text": "Kitchen tap, yeah. Just a squirt of soap. Not too much, or Mum goes mad about the bubbles on the pavement.",
+   "translations": {
+    "fa": "شیر آشپزخونه، آره. فقط یه فشار صابون. زیاد نه، وگرنه مامان سر کف‌ها رو پیاده‌رو عصبانی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squirt",
+     "fa": "فشار ؛ یه کم"
+    },
+    {
+     "word": "goes mad",
+     "fa": "عصبانی می‌شود"
+    },
+    {
+     "word": "bubbles",
+     "fa": "کف‌ها ؛ حباب‌ها"
+    },
+    {
+     "word": "pavement",
+     "fa": "پیاده‌رو"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "OK, I've filled the bucket. Where do I start?",
+   "translations": {
+    "fa": "باشه، سطل را پر کردم. از کجا شروع کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "ryan",
+   "text": "Start at the top — roof first, then the windows, then the sides. Dirty water runs down. I'll do the wheels. They're disgusting.",
+   "translations": {
+    "fa": "از بالا شروع کن — اول سقف، بعد شیشه‌ها، بعد بغل‌ها. آب کثیف میره پایین. من چرخ‌ها را می‌شورم. حال‌به‌هم‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roof",
+     "fa": "سقف"
+    },
+    {
+     "word": "sides",
+     "fa": "کناره‌ها"
+    },
+    {
+     "word": "runs down",
+     "fa": "پایین می‌رود"
+    },
+    {
+     "word": "wheels",
+     "fa": "چرخ‌ها"
+    },
+    {
+     "word": "disgusting",
+     "fa": "حال‌به‌هم‌زن"
+    },
+    {
+     "word": "reach",
+     "fa": "رسیدن"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Top to bottom. That's clever.",
+   "translations": {
+    "fa": "از بالا به پایین. هوشمندانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "ryan",
+   "text": "There's a step in the hallway. William uses it for the sink. Right — have you finished the roof? Oi! You've missed a bit!",
+   "translations": {
+    "fa": "تو راهرو یه چارپایه هست. ویلیام برای روشویی ازش استفاده می‌کنه. خب — سقف را تموم کردی؟ هی! یه جا را جا انداختی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hallway",
+     "fa": "راهرو"
+    },
+    {
+     "word": "sink",
+     "fa": "روشویی"
+    },
+    {
+     "word": "finished",
+     "fa": "تمام کردی"
+    },
+    {
+     "word": "missed a bit",
+     "fa": "یک جا را جا انداختی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"You've missed a bit!\" is a classic joke shouted at people cleaning cars or windows. Most of the time, there's no bit!",
+    "fa": "«یه جا را جا انداختی!» شوخی معروفی است که به کسی که ماشین یا پنجره می‌شوید می‌گویند."
+   }
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Where? I can't see it.",
+   "translations": {
+    "fa": "کجا؟ نمی‌بینمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "ryan",
+   "text": "Ha, there's no bit. It's what Dad always says. Gets me every time. Now — the hose. Rinse it all off. Careful… CAREFUL!",
+   "translations": {
+    "fa": "ها، هیچ جایی نیست. بابا همیشه همینو میگه. هر بار گولم می‌زنه. حالا — شلنگ. همه‌ش را آب بکش. مواظب… مواظب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gets me",
+     "fa": "گولم می‌زند"
+    },
+    {
+     "word": "hose",
+     "fa": "شلنگ"
+    },
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن"
+    },
+    {
+     "word": "spray",
+     "fa": "پاشیدن ؛ خیس کردن"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Sorry! Did I spray you?",
+   "translations": {
+    "fa": "ببخشید! خیست کردم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "ryan",
+   "text": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
+   "translations": {
+    "fa": "خیس آب شدم! خب. جنگه. سطل دیگه کجاست؟ الان نوبت توئه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "soaked",
+     "fa": "خیس آب"
+    },
+    {
+     "word": "war",
+     "fa": "جنگ"
+    },
+    {
+     "word": "peace",
+     "fa": "صلح"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "No, no! Peace! I'm sorry!",
+   "translations": {
+    "fa": "نه نه! صلح! ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "dirty",
+      "still",
+      "going",
+      "been"
+     ],
+     "suggestion": "What's going on out here? Why are you two wet? And why is the car still dirty? It's been an hour!",
+     "suggestionFa": "اینجا چه خبره؟ چرا شما دو تا خیسید؟ و چرا ماشین هنوز کثیفه؟ یه ساعت گذشته!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "It was an accident, Tom. Honestly!",
+   "translations": {
+    "fa": "تصادفی بود تام. راست میگم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "ryan",
+   "text": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
+   "translations": {
+    "fa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر ؛ تقریباً"
+    },
+    {
+     "word": "worked hard",
+     "fa": "زحمت کشیدیم"
+    },
+    {
+     "word": "team",
+     "fa": "تیم"
+    }
+   ]
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "Yes, Tom. We worked as a team!",
+   "translations": {
+    "fa": "آره تام. تیمی کار کردیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "pounds",
+      "you've",
+      "missed",
+      "total"
+     ],
+     "suggestion": "Nice try. Ten pounds total, and a bacon sandwich each. And — oh, look. You've missed a bit!",
+     "suggestionFa": "تلاش خوبی بود. جمعاً ده پوند، و برای هر کدوم یه ساندویچ بیکن. و — اوه، ببین. یه جا را جا انداختید!",
+     "trustDelta": 5,
+     "next": "r18",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r18": {
+   "id": "r18",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

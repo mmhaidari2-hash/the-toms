@@ -1,0 +1,415 @@
+{
+ "id": "l2_u46_3",
+ "characterId": "ellis",
+ "title": "Forgotten PE kit",
+ "titleFa": "لباس ورزش جاافتاده",
+ "setting": "The school run · Level 2",
+ "settingFa": "رساندن بچه به مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ellis",
+   "text": "Oh, hello! You're Nicola's friend — the lodger. Leslie's teaching, so I thought I'd catch you. Have you got a minute?",
+   "translations": {
+    "fa": "اوه، سلام! شما دوست نیکولا هستید — مستأجر. لزلی سر کلاسه، پس گفتم شما را ببینم. یه دقیقه وقت دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "course",
+      "ellis",
+      "mrs"
+     ],
+     "suggestion": "Of course, Mrs Ellis. Is everything OK?",
+     "suggestionFa": "البته خانم الیس. همه‌چی خوبه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "nicola",
+      "there"
+     ],
+     "suggestion": "Yes. Is there a problem with Nicola?",
+     "suggestionFa": "بله. با نیکولا مشکلی پیش اومده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lodger",
+     "fa": "مستأجر"
+    },
+    {
+     "word": "catch",
+     "fa": "دیدن ؛ گیر آوردن"
+    },
+    {
+     "word": "have you got a minute",
+     "fa": "یه دقیقه وقت داری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "Nothing serious! It's PE this afternoon, and I'm afraid Nicola's forgotten her PE kit. Again! Third time this term.",
+   "translations": {
+    "fa": "چیز جدی نیست! امروز بعدازظهر ورزش داریم، و متأسفانه نیکولا لباس ورزشش را جا گذاشته. باز! سومین بار این ترم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bring",
+      "could",
+      "home",
+      "from"
+     ],
+     "suggestion": "Oh no. Could I bring it from home?",
+     "suggestionFa": "وای نه. می‌تونم از خونه بیارمش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ellis",
+      "sorry",
+      "third",
+      "time"
+     ],
+     "suggestion": "Third time! Sorry, Mrs Ellis.",
+     "suggestionFa": "سومین بار! ببخشید خانم الیس.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "serious",
+     "fa": "جدی"
+    },
+    {
+     "word": "PE",
+     "fa": "ورزش مدرسه"
+    },
+    {
+     "word": "PE kit",
+     "fa": "لباس ورزش"
+    },
+    {
+     "word": "forgotten",
+     "fa": "فراموش کرده ؛ جا گذاشته"
+    },
+    {
+     "word": "term",
+     "fa": "ترم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children in English primary schools change for PE into a \"PE kit\": usually a white T-shirt, shorts and pumps or trainers, in a named bag.",
+    "fa": "بچه‌های ابتدایی برای ورزش «PE kit» می‌پوشند: تی‌شرت سفید، شلوارک و کفش ورزشی در کیسهٔ اسم‌دار."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ellis",
+   "text": "That would be wonderful. PE starts at one-thirty. Bring it to the school office before one. Mrs Price will sign it in.",
+   "translations": {
+    "fa": "عالی میشه. ورزش ساعت یک و نیم شروع میشه. قبل از یک بیاریدش دفتر مدرسه. خانم پرایس تحویلش می‌گیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "school",
+      "before",
+      "one"
+     ],
+     "suggestion": "Before one. To the school office. OK.",
+     "suggestionFa": "قبل از یک. دفتر مدرسه. باشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "what's",
+      "forget",
+      "don't"
+     ],
+     "suggestion": "What's in the PE kit? I don't want to forget anything.",
+     "suggestionFa": "تو لباس ورزش چیه؟ نمی‌خوام چیزی جا بندازم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wonderful",
+     "fa": "عالی"
+    },
+    {
+     "word": "school office",
+     "fa": "دفتر مدرسه"
+    },
+    {
+     "word": "sign it in",
+     "fa": "ثبت ورود کردن ؛ تحویل گرفتن"
+    },
+    {
+     "word": "anything",
+     "fa": "هر چیزی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "could i bring it to school before one",
+      "can i to bring it"
+     ],
+     "echo": "Could you bring it before one? Perfect!",
+     "better": "Could I bring it before one?",
+     "betterFa": "می‌توانم قبل از ساعت یک بیاورمش؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "White T-shirt, navy shorts, black pumps. All in the blue drawstring bag with her name on. Leslie says it's on her peg.",
+   "translations": {
+    "fa": "تی‌شرت سفید، شلوارک سرمه‌ای، کفش پارچه‌ای مشکی. همه تو کیسهٔ بندی آبی که اسمش روشه. لزلی میگه رو آویزشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shorts",
+      "shirt",
+      "black",
+      "pumps"
+     ],
+     "suggestion": "White T-shirt, navy shorts, black pumps. Got it.",
+     "suggestionFa": "تی‌شرت سفید، شلوارک سرمه‌ای، کفش مشکی. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "spare",
+      "can't",
+      "find"
+     ],
+     "suggestion": "And if I can't find it? Is there a spare kit?",
+     "suggestionFa": "و اگه پیداش نکردم؟ لباس اضافه هست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "navy",
+     "fa": "سرمه‌ای"
+    },
+    {
+     "word": "pumps",
+     "fa": "کفش پارچه‌ای ورزشی"
+    },
+    {
+     "word": "drawstring bag",
+     "fa": "کیسهٔ بندی"
+    },
+    {
+     "word": "peg",
+     "fa": "آویز ؛ گیرهٔ دیواری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "There's a spare box, but the shorts are… let's say, well loved. Nicola refused them last time. \"They smell of cheese!\"",
+   "translations": {
+    "fa": "یه جعبهٔ اضافه هست، ولی شلوارک‌هاش… بگیم، خیلی استفاده شده. نیکولا دفعهٔ قبل قبولشون نکرد. «بوی پنیر میدن!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "find",
+      "then",
+      "her"
+     ],
+     "suggestion": "Ha! Then I'll definitely find her kit.",
+     "suggestionFa": "ها! پس حتماً لباسش را پیدا می‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "home",
+      "poor",
+      "now"
+     ],
+     "suggestion": "Poor Nicola. I'll go home now.",
+     "suggestionFa": "نیکولای بیچاره. الان میرم خونه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spare",
+     "fa": "اضافه ؛ یدکی"
+    },
+    {
+     "word": "well loved",
+     "fa": "خیلی استفاده‌شده"
+    },
+    {
+     "word": "refused",
+     "fa": "رد کرد"
+    },
+    {
+     "word": "smell of",
+     "fa": "بوی … می‌دهد"
+    },
+    {
+     "word": "definitely",
+     "fa": "حتماً"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "Thank you. And maybe — a little idea — keep the kit at school all week? Lots of parents do that. Take it home on Friday to wash.",
+   "translations": {
+    "fa": "ممنون. و شاید — یه ایدهٔ کوچیک — لباس را کل هفته مدرسه نگه دارید؟ خیلی از والدین این کار را می‌کنن. جمعه ببریدش خونه بشورید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "leslie",
+      "great",
+      "tell"
+     ],
+     "suggestion": "That's a great idea. I'll tell Leslie.",
+     "suggestionFa": "ایدهٔ عالی‌ایه. به لزلی میگم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "happen",
+      "again",
+      "won't"
+     ],
+     "suggestion": "It won't happen again. I promise.",
+     "suggestionFa": "دیگه تکرار نمیشه. قول میدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "idea",
+     "fa": "ایده"
+    },
+    {
+     "word": "all week",
+     "fa": "کل هفته"
+    },
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "Lovely. Funny — Leslie tells her own Year 4 class that every September. \"Leave your kit at school!\" Teachers' children, eh?",
+   "translations": {
+    "fa": "عالی. جالبه — لزلی هر سپتامبر همینو به کلاس چهار خودش میگه. «لباستون را مدرسه بذارید!» بچه‌های معلم‌ها، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shoemaker's",
+      "children",
+      "shoes",
+      "have"
+     ],
+     "suggestion": "The shoemaker's children have no shoes!",
+     "suggestionFa": "کوزه‌گر از کوزه شکسته آب می‌خوره!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "laughed",
+      "don't",
+      "tell",
+      "her"
+     ],
+     "suggestion": "Ha! Don't tell her I laughed.",
+     "suggestionFa": "ها! بهش نگید خندیدم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "own",
+     "fa": "خودش"
+    },
+    {
+     "word": "September",
+     "fa": "سپتامبر"
+    },
+    {
+     "word": "teachers' children",
+     "fa": "بچه‌های معلم‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ellis",
+   "text": "\"The shoemaker's children\"! Exactly. Our secret. See you before one — and thank you. Nicola's lucky to have you.",
+   "translations": {
+    "fa": "«بچه‌های کفاش»! دقیقاً. راز ما. قبل از یک می‌بینمتون — و ممنون. نیکولا خوش‌شانسه که شما را داره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

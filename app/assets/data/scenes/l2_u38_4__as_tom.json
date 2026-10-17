@@ -1,0 +1,250 @@
+{
+ "id": "l2_u38_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Painting the fence",
+ "titleFa": "(در نقش Tom) رنگ کردن نرده",
+ "setting": "Weekend jobs · Level 2",
+ "settingFa": "کارهای آخر هفته",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u38_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "overalls",
+      "whisper",
+      "called",
+      "forest",
+      "leslie"
+     ],
+     "suggestion": "Right, overalls on. Today we paint the fence. Leslie chose the colour. It's called \"Forest Whisper\". It's green.",
+     "suggestionFa": "خب، لباس کار تن کن. امروز نرده را رنگ می‌کنیم. لزلی رنگ را انتخاب کرده. اسمش «زمزمهٔ جنگل»ـه. سبزه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Forest Whisper! What a funny name.",
+   "translations": {
+    "fa": "زمزمهٔ جنگل! چه اسم بامزه‌ای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plants",
+      "flakes",
+      "cover",
+      "sheet",
+      "brush"
+     ],
+     "suggestion": "First, you brush off the dirt and the old flakes. Then we put the dust sheet down. Make sure you cover the plants.",
+     "suggestionFa": "اول، خاک و پوسته‌های قدیمی را با برس پاک کن. بعد پارچهٔ محافظ را پهن می‌کنیم. مطمئن شو که گیاه‌ها را بپوشونی.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "OK. Brush first, then the sheet.",
+   "translations": {
+    "fa": "باشه. اول برس، بعد پارچه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "properly",
+      "sleeping",
+      "because",
+      "minutes"
+     ],
+     "suggestion": "Because if Leslie's roses turn Forest Whisper, I'm sleeping in the shed. Next, stir the paint. Properly — two minutes.",
+     "suggestionFa": "چون اگه رزهای لزلی «زمزمهٔ جنگل» بشن، باید تو انباری بخوابم. بعد، رنگ را هم بزن. درست — دو دقیقه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Two minutes. My arm is tired already!",
+   "translations": {
+    "fa": "دو دقیقه. دستم همین الان خسته شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "bottom",
+      "along",
+      "brush",
+      "paint"
+     ],
+     "suggestion": "Thick is good. Then dip the brush — just the tip. Paint along the wood, top to bottom. Be careful not to drip.",
+     "suggestionFa": "غلیظ خوبه. بعد قلم‌مو را فرو کن — فقط نوکش را. در جهت چوب رنگ بزن، از بالا به پایین. مواظب باش چکه نکنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Along the wood. Like this?",
+   "translations": {
+    "fa": "در جهت چوب. اینجوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fashionable",
+      "remember",
+      "perfect",
+      "whisper",
+      "shoe's"
+     ],
+     "suggestion": "Like that, perfect. Your shoe's Forest Whisper now. Very fashionable. Two coats, remember. Then let it dry for four hours.",
+     "suggestionFa": "همینجوری، عالیه. کفشت الان زمزمهٔ جنگله. خیلی مُد روز. دو لایه، یادت باشه. بعد چهار ساعت بذار خشک بشه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Two coats? The whole fence twice?",
+   "translations": {
+    "fa": "دو لایه؟ کل نرده را دو بار؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patchy",
+      "that's",
+      "admire",
+      "looks",
+      "twice"
+     ],
+     "suggestion": "Twice, mate. One coat looks patchy. Until then? Cup of tea, sit, admire our work. That's the best part of DIY.",
+     "suggestionFa": "دو بار رفیق. یه لایه لکه‌دار به نظر میاد. تا اون موقع؟ یه فنجون چای، بشینیم، کارمون را تحسین کنیم. این بهترین قسمت «خودت انجامش بده»ـه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What does DIY mean?",
+   "translations": {
+    "fa": "«دی‌آی‌وای» یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "building",
+      "painting",
+      "yourself",
+      "british",
+      "without"
+     ],
+     "suggestion": "Do It Yourself. Fixing, painting, building — at home, without paying a pro. Every British dad thinks he's an expert.",
+     "suggestionFa": "«خودت انجامش بده». تعمیر، رنگ کردن، ساختن — تو خونه، بدون پول دادن به متخصص. هر پدر بریتانیایی فکر می‌کنه متخصصه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Are you an expert, Tom?",
+   "translations": {
+    "fa": "تو متخصصی تام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bathroom",
+      "william",
+      "leslie",
+      "expert",
+      "don't"
+     ],
+     "suggestion": "Me? Expert? Ask Leslie about the shelf in the bathroom. It fell down twice. Hey — William! No! Don't touch the fence!",
+     "suggestionFa": "من؟ متخصص؟ از لزلی دربارهٔ قفسهٔ حموم بپرس. دو بار افتاد. هی — ویلیام! نه! به نرده دست نزن!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Too late. His hands are green!",
+   "translations": {
+    "fa": "دیر شد. دستاش سبز شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "leslie",
+      "wipes",
+      "green",
+      "shoes"
+     ],
+     "suggestion": "Green hands, green shoes, green dog — wait, we haven't got a dog. Good. Get the wipes. And not a word to Leslie.",
+     "suggestionFa": "دست سبز، کفش سبز، سگ سبز — صبر کن، ما سگ نداریم. خوبه. دستمال مرطوب بیار. و یه کلمه هم به لزلی نگو.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

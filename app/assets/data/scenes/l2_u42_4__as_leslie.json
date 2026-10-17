@@ -1,0 +1,282 @@
+{
+ "id": "l2_u42_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Family resemblance",
+ "titleFa": "(در نقش Leslie) شباهت خانوادگی",
+ "setting": "Describing people · Level 2",
+ "settingFa": "توصیف آدم‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u42_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "nicola",
+      "phone",
+      "photo",
+      "years"
+     ],
+     "suggestion": "Look at this photo on my phone. Tom at five years old, in this park. Doesn't Nicola look like him?",
+     "suggestionFa": "این عکس رو گوشیم را ببین. تام تو پنج سالگی، تو همین پارک. نیکولا شبیهش نیست؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wow! Yes, she looks just like him.",
+   "translations": {
+    "fa": "وای! آره، دقیقاً شبیهشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "cheeky",
+      "small",
+      "stick",
+      "smile"
+     ],
+     "suggestion": "Small and cheeky! Yes, same smile, same ears that stick out. Nicola's got her dad's ears. Poor girl!",
+     "suggestionFa": "کوچیک و شیطون! آره، همون لبخند، همون گوش‌هایی که بیرون زده. نیکولا گوش‌های باباش را داره. دختر بیچاره!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Her ears are cute! And who does Ryan look like?",
+   "translations": {
+    "fa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "hungry",
+      "always",
+      "takes",
+      "looks"
+     ],
+     "suggestion": "Ryan looks like me — dark hair, brown eyes. But he takes after his dad. Football, jokes, and he's always hungry.",
+     "suggestionFa": "رایان شبیه منه — موی تیره، چشم قهوه‌ای. ولی اخلاقش به باباش رفته. فوتبال، شوخی، و همیشه گرسنه‌ست.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What does \"takes after\" mean?",
+   "translations": {
+    "fa": "«تیکس آفتر» یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "character",
+      "william",
+      "someone",
+      "similar",
+      "mystery"
+     ],
+     "suggestion": "\"Takes after\" means he's similar to someone in his family — usually in character. And William? Total mystery!",
+     "suggestionFa": "«تیکس آفتر» یعنی به یکی از خانواده‌اش شبیهه — معمولاً تو اخلاق. و ویلیام؟ کاملاً معماست!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "William has Nana Maggie's eyes, I think.",
+   "translations": {
+    "fa": "فکر کنم ویلیام چشم‌های نانا مگی را داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stubbornness",
+      "maggie's",
+      "george's",
+      "right",
+      "look"
+     ],
+     "suggestion": "You're right — Maggie's blue eyes! And George's stubbornness. Do you look like your mum or your dad?",
+     "suggestionFa": "راست میگی — چشم‌های آبی مگی! و لجبازی جورج. تو شبیه مامانتی یا بابات؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I look like my dad. We've got the same nose.",
+   "translations": {
+    "fa": "شبیه بابامم. دماغمون یه شکله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eyebrows",
+      "handsome",
+      "father",
+      "photo",
+      "look"
+     ],
+     "suggestion": "Do you have a photo? Oh, look at him! Yes — same nose, same eyebrows. And very handsome. Like father, like son!",
+     "suggestionFa": "عکس داری؟ اوه، نگاهش کن! آره — همون دماغ، همون ابروها. و خیلی خوش‌تیپ. پسر کو ندارد نشان از پدر!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thank you! \"Like father, like son.\" We say that too.",
+   "translations": {
+    "fa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patient",
+      "here's",
+      "nicola",
+      "house",
+      "look"
+     ],
+     "suggestion": "Patient, yes. You have to be, in our house! Oh, here's Nicola. Nicola, who do you look like?",
+     "suggestionFa": "صبور، آره. تو خونهٔ ما باید باشی! اوه، نیکولا اومد. نیکولا، تو شبیه کی هستی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Nicola, who do you look like? Mummy or Daddy?",
+   "translations": {
+    "fa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "nicola",
+   "text": "I look like ME! And Goldie. Goldie has big eyes too.",
+   "translations": {
+    "fa": "من شبیه خودمم! و گلدی. گلدی هم چشم‌های بزرگ داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goldfish",
+     "fa": "ماهی قرمز"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "smile",
+     "fa": "لبخند"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Like your goldfish? Ha!",
+   "translations": {
+    "fa": "مثل ماهی قرمزت؟ ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goldfish",
+      "tonight",
+      "truth",
+      "looks",
+      "there"
+     ],
+     "suggestion": "There you are. The truth from a five-year-old. She looks like a goldfish. I'll tell Tom tonight!",
+     "suggestionFa": "بفرما. حقیقت از زبون یه بچهٔ پنج ساله. شبیه ماهی قرمزه. امشب به تام میگم!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

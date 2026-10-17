@@ -21,8 +21,8 @@
      "keywords": [
       "qualifications",
       "finding",
-      "uses",
-      "help"
+      "help",
+      "uses"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
      "suggestionFa": "کمک می‌خوام کاری پیدا کنم که از مدارکم استفاده کنه.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "interviews",
-      "getting",
       "applied",
-      "jobs"
+      "getting",
+      "lots"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
      "suggestionFa": "برای کلی کار درخواست دادم، ولی مصاحبه نمی‌گیرم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "statement",
-      "waiting",
       "applied",
+      "waiting",
       "i've"
      ],
      "suggestion": "I've applied, but I'm waiting for the statement.",
@@ -350,10 +350,10 @@
     },
     {
      "keywords": [
-      "part",
+      "full",
       "time",
-      "work",
-      "full"
+      "part",
+      "work"
      ],
      "suggestion": "Is it full-time? I work part-time in a café.",
      "suggestionFa": "تمام‌وقته؟ پاره‌وقت تو یه کافه کار می‌کنم.",

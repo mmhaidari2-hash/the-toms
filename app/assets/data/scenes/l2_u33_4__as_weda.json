@@ -23,9 +23,9 @@
      "keywords": [
       "prescription",
       "george's",
-      "collect",
+      "tablets",
       "tonight",
-      "tablets"
+      "collect"
      ],
      "suggestion": "Dear, could you collect George's prescription today? My knees are bad, and he needs his heart tablets tonight.",
      "suggestionFa": "عزیزم، میشه امروز نسخهٔ جورج را بگیری؟ زانوهام اذیت می‌کنن و امشب قرص‌های قلبش را لازم داره.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "thompson",
       "dawson's",
+      "thompson",
       "address",
-      "george",
-      "fourth"
+      "fourth",
+      "george"
      ],
      "suggestion": "Yes, Dawson's. You need his name, address and date of birth. George Edward Thompson, born the fourth of March, 1950.",
      "suggestionFa": "آره، داوسون. اسم، آدرس و تاریخ تولدش را لازم داری. جورج ادوارد تامپسون، متولد چهارم مارس ۱۹۵۰.",
@@ -391,9 +391,9 @@
      "keywords": [
       "victoria",
       "morning",
-      "fridge",
-      "earned",
-      "sponge"
+      "you've",
+      "sponge",
+      "earned"
      ],
      "suggestion": "Two in the morning — I'll put a note on the fridge. Now sit down. I've made a Victoria sponge. You've earned a slice.",
      "suggestionFa": "صبح دو تا — یه یادداشت رو یخچال می‌ذارم. حالا بشین. یه کیک ویکتوریا درست کردم. یه برش حقته.",

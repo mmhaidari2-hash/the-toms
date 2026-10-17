@@ -21,8 +21,8 @@
      "keywords": [
       "content",
       "would",
-      "hear",
-      "kind"
+      "kind",
+      "make"
      ],
      "suggestion": "I hear you. What kind of content would you make?",
      "suggestionFa": "می‌فهمم. چه نوع محتوایی درست می‌کنی؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "engineering",
       "changed",
-      "what's",
-      "before"
+      "before",
+      "what's"
      ],
      "suggestion": "Before we argue, can I ask what's changed? You loved engineering.",
      "suggestionFa": "قبل از بحث، می‌تونم بپرسم چی عوض شده؟ عاشق مهندسی بودی.",
@@ -85,7 +85,7 @@
       "differently",
       "student",
       "normal",
-      "point"
+      "about"
      ],
      "suggestion": "Fair point about debt. But student loans work differently from normal debt.",
      "suggestionFa": "دربارهٔ بدهی حرف درستیه. ولی وام دانشجویی با بدهی معمولی فرق داره.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "content",
       "channel",
+      "content",
       "profile",
       "degree"
      ],

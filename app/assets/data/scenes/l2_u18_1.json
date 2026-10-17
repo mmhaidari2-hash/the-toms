@@ -71,8 +71,8 @@
      "keywords": [
       "paying",
       "phone",
-      "ok",
-      "by"
+      "by",
+      "ok"
      ],
      "suggestion": "I'm paying by phone. Is that OK?",
      "suggestionFa": "با گوشی پرداخت می‌کنم. اشکالی نداره؟",
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "street",
-      "upper",
       "which",
+      "upper",
       "best"
      ],
      "suggestion": "Which stop is best for Upper Street?",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "town",
-      "sure",
+      "near",
       "hall",
-      "near"
+      "sure",
+      "town"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
      "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "minutes",
-      "that's",
       "twenty",
+      "that's",
       "fine"
      ],
      "suggestion": "Twenty-five minutes. That's fine.",
@@ -289,8 +289,8 @@
      "keywords": [
       "coming",
       "right",
-      "back",
-      "side"
+      "side",
+      "back"
      ],
      "suggestion": "OK. Is this the right side for coming back?",
      "suggestionFa": "باشه. برای برگشتن همین طرفه؟",

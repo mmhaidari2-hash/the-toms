@@ -20,8 +20,8 @@
     {
      "keywords": [
       "happened",
-      "hello",
-      "doris"
+      "doris",
+      "hello"
      ],
      "suggestion": "Hello, Doris! What happened?",
      "suggestionFa": "سلام دوریس! چی شد؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "tell",
-      "us",
-      "go"
+      "go",
+      "us"
      ],
      "suggestion": "Go on, tell us!",
      "suggestionFa": "بگو دیگه!",
@@ -210,8 +210,8 @@
     {
      "keywords": [
       "stop",
-      "bus",
-      "did"
+      "did",
+      "bus"
      ],
      "suggestion": "Did the bus stop?",
      "suggestionFa": "اتوبوس وایساد؟",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "biscuit",
       "perfect",
+      "biscuit",
       "name"
      ],
      "suggestion": "Biscuit is a perfect name.",

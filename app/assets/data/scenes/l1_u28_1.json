@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "hello",
-      "who's"
+      "who's",
+      "hello"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "moment",
+      "please",
       "here",
       "one"
      ],
@@ -143,8 +143,8 @@
      "keywords": [
       "hands",
       "busy",
-      "his",
-      "wet"
+      "wet",
+      "his"
      ],
      "suggestion": "He's busy. His hands are wet!",
      "suggestionFa": "سرش شلوغه. دستاش خیسه!",
@@ -190,9 +190,9 @@
     },
     {
      "keywords": [
-      "get",
+      "let",
       "pen",
-      "let"
+      "get"
      ],
      "suggestion": "Yes. Let me get a pen.",
      "suggestionFa": "آره. بذار یه خودکار بیارم.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "i'll",
-      "ask",
-      "tom"
+      "tom",
+      "ask"
      ],
      "suggestion": "I'll ask Tom.",
      "suggestionFa": "از تام می‌پرسم.",
@@ -330,8 +330,8 @@
      "keywords": [
       "number",
       "have",
-      "he",
-      "ok"
+      "ok",
+      "he"
      ],
      "suggestion": "OK. Does he have your number?",
      "suggestionFa": "باشه. شماره‌تون را داره؟",
@@ -366,8 +366,8 @@
     {
      "keywords": [
       "maggie",
-      "take",
-      "care"
+      "care",
+      "take"
      ],
      "suggestion": "Bye, Maggie! Take care!",
      "suggestionFa": "خداحافظ مگی! مراقب خودتون باشید!",

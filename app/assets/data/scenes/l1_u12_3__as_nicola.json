@@ -23,9 +23,9 @@
      "keywords": [
       "kitchen",
       "circle",
-      "shape",
       "let's",
-      "play"
+      "shape",
+      "game"
      ],
      "suggestion": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
      "suggestionFa": "بیا یه بازی کنیم! یه شکل تو آشپزخونه پیدا کن. من یه دایره می‌بینم!",
@@ -49,8 +49,8 @@
       "circle",
       "clock",
       "find",
-      "one",
-      "now"
+      "now",
+      "one"
      ],
      "suggestion": "Yes! The clock is a circle. Now you find one.",
      "suggestionFa": "آره! ساعت دایره‌ست. حالا تو یکی پیدا کن.",
@@ -73,9 +73,9 @@
      "keywords": [
       "triangle",
       "sandwich",
-      "well",
+      "turn",
       "done",
-      "turn"
+      "well"
      ],
      "suggestion": "Well done! My turn. The sandwich is a triangle!",
      "suggestionFa": "آفرین! نوبت من. ساندویچ مثلثه!",
@@ -98,9 +98,9 @@
      "keywords": [
       "sandwich",
       "ryan's",
-      "shape",
       "cross",
-      "table"
+      "table",
+      "shape"
      ],
      "suggestion": "No! It's Ryan's sandwich. He gets cross. What shape is the table?",
      "suggestionFa": "نه! ساندویچ رایانه. عصبانی می‌شه. میز چه شکلیه؟",
@@ -125,7 +125,7 @@
       "biscuits",
       "that's",
       "about",
-      "word"
+      "hard"
      ],
      "suggestion": "A rectangle! That's a hard word. What about the biscuits?",
      "suggestionFa": "مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟",
@@ -150,7 +150,7 @@
       "please",
       "just",
       "have",
-      "one"
+      "can"
      ],
      "suggestion": "Can I have a biscuit? Just one? Please?",
      "suggestionFa": "می‌تونم یه بیسکویت بخورم؟ فقط یکی؟ لطفاً؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "mummy",
       "round",
+      "mummy",
       "star",
       "says",
-      "one"
+      "can"
      ],
      "suggestion": "Mummy says yes! A round one. Now, a star! Can you see a star?",
      "suggestionFa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "reading",
-      "fridge",
       "school",
+      "fridge",
       "star",
       "gold"
      ],
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "thank",
+      "again",
       "after",
       "let's",
-      "again",
-      "good"
+      "thank",
+      "play"
      ],
      "suggestion": "Thank you! You're good at this game. Let's play again after tea!",
      "suggestionFa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!",

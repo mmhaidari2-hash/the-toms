@@ -25,7 +25,7 @@
       "things",
       "can't",
       "list",
-      "help"
+      "sent"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
      "suggestionFa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "walked",
-      "can't",
+      "round",
       "twice",
-      "first",
-      "round"
+      "can't",
+      "first"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
      "suggestionFa": "اول شیر. شیر را پیدا نمی‌کنم! دو بار دور زدم!",
@@ -74,7 +74,7 @@
       "skimmed",
       "never",
       "green",
-      "says",
+      "semi",
       "blue"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
@@ -225,11 +225,11 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "lifesaver",
+      "something",
       "thing",
-      "last",
-      "mean"
+      "mean",
+      "nice"
      ],
      "suggestion": "You're a lifesaver. Last thing: \"something nice for Mum\". What does that mean?",
      "suggestionFa": "تو نجات‌دهنده‌ای. آخرین چیز: «یه چیز خوب برای مامان». یعنی چی؟",
@@ -253,8 +253,8 @@
       "chocolate",
       "flowers",
       "forget",
-      "remote",
-      "she'll"
+      "she'll",
+      "remote"
      ],
      "suggestion": "Flowers AND chocolate. Then she'll forget I broke the remote. Don't tell her!",
      "suggestionFa": "گل و شکلات. اون وقت یادش میره کنترل را شکستم. بهش نگو!",

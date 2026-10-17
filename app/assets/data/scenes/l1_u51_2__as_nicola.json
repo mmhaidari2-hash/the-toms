@@ -60,8 +60,8 @@
    "branches": [
     {
      "keywords": [
-      "hurts",
       "tummy",
+      "hurts",
       "ow"
      ],
      "suggestion": "My tummy hurts! Ow!",
@@ -83,8 +83,8 @@
    "branches": [
     {
      "keywords": [
-      "wobbly",
       "middle",
+      "wobbly",
       "here",
       "all"
      ],
@@ -160,10 +160,10 @@
     {
      "keywords": [
       "sorry",
-      "nana",
       "only",
-      "five",
-      "will"
+      "will",
+      "nana",
+      "five"
      ],
      "suggestion": "Only five… or six. Sorry, Nana. Will I be OK?",
      "suggestionFa": "فقط پنج تا… یا شیش تا. ببخشید نانا. خوب میشم؟",
@@ -267,8 +267,8 @@
      "keywords": [
       "better",
       "sweets",
+      "again",
       "never",
-      "don't",
       "maybe"
      ],
      "suggestion": "A bit better. I don't want ANY sweets. Never again! … Well, maybe next week.",

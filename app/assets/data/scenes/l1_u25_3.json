@@ -63,8 +63,8 @@
    "branches": [
     {
      "keywords": [
-      "idea",
-      "nice"
+      "nice",
+      "idea"
      ],
      "suggestion": "What a nice idea!",
      "suggestionFa": "چه فکر قشنگی!",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "socks",
-      "why",
-      "odd"
+      "odd",
+      "why"
      ],
      "suggestion": "Why odd socks?",
      "suggestionFa": "چرا جوراب لنگه به لنگه؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "except",
-      "today",
-      "socks"
+      "socks",
+      "today"
      ],
      "suggestion": "Except for the socks today!",
      "suggestionFa": "به جز جوراب‌ها امروز!",
@@ -306,10 +306,10 @@
    "branches": [
     {
      "keywords": [
-      "never",
       "every",
-      "pair",
-      "find"
+      "never",
+      "find",
+      "pair"
      ],
      "suggestion": "Every day! I can never find a pair.",
      "suggestionFa": "هر روز! هیچ‌وقت یه جفت پیدا نمی‌کنم.",

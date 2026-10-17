@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "plumber",
-      "message"
+      "message",
+      "plumber"
      ],
      "suggestion": "Hello, this is a message for the plumber.",
      "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "double",
-      "three",
       "seven",
+      "three",
       "nine"
      ],
      "suggestion": "Oh seven seven double oh, nine double oh, one two three.",

@@ -24,8 +24,8 @@
       "tomorrow",
       "rubbish",
       "worst",
-      "help",
-      "sort"
+      "sort",
+      "help"
      ],
      "suggestion": "Bin day tomorrow! The worst job. Can you help me sort the rubbish?",
      "suggestionFa": "فردا روز سطل‌هاست! بدترین کار. کمکم می‌کنی زباله‌ها را جدا کنیم؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "recycling",
-      "black",
-      "green",
       "caddy",
-      "brown"
+      "brown",
+      "black",
+      "green"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "rinse",
-      "paper"
+      "clean",
+      "rinse"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "leaves",
       "garden",
+      "leaves",
       "brown",
-      "grass",
-      "which"
+      "which",
+      "grass"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
      "suggestionFa": "سطل قهوه‌ای برای باغچه‌ست. چمن و برگ. حالا، کدوم روز میان؟",
@@ -175,7 +175,7 @@
       "forget",
       "always",
       "black",
-      "week"
+      "swap"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "already",
       "legend",
-      "she's",
       "never",
-      "right"
+      "right",
+      "she's"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",
      "suggestionFa": "اسطوره‌ای! خب، ببریمشون بیرون. خانم خان سطل‌هاش را گذاشته. هیچ‌وقت دیر نمی‌کنه!",

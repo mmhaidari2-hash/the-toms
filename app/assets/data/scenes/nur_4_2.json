@@ -70,8 +70,8 @@
     {
      "keywords": [
       "seconds",
-      "had",
-      "all"
+      "all",
+      "had"
      ],
      "suggestion": "Yes, he ate all of it and had seconds!",
      "suggestionFa": "آره، همه‌ش را خورد و دوباره هم گرفت!",
@@ -84,7 +84,7 @@
       "lunch",
       "most",
       "peas",
-      "his"
+      "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
      "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
@@ -118,10 +118,10 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "hour",
-      "one",
-      "two"
+      "from",
+      "two",
+      "one"
      ],
      "suggestion": "Yes, he slept for an hour, from one to two.",
      "suggestionFa": "آره، یه ساعت خوابید، از یک تا دو.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "really",
-      "lunch",
       "after",
+      "lunch",
       "well"
      ],
      "suggestion": "Yes, he slept really well after lunch.",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "because",
-      "green",
-      "chose"
+      "william",
+      "chose",
+      "green"
      ],
      "suggestion": "Because William chose green!",
      "suggestionFa": "چون ویلیام سبز را انتخاب کرد!",
@@ -237,7 +237,7 @@
       "painted",
       "himself",
       "nicola",
-      "hi"
+      "he"
      ],
      "suggestion": "Hi, Nicola! He painted it himself.",
      "suggestionFa": "سلام نیکولا! خودش رنگش کرد.",
@@ -277,8 +277,8 @@
      "keywords": [
       "accidents",
       "every",
-      "told",
-      "time"
+      "time",
+      "told"
      ],
      "suggestion": "No accidents — he told us every time.",
      "suggestionFa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت.",

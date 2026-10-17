@@ -24,8 +24,8 @@
       "sprouts",
       "they're",
       "smelly",
-      "don't",
-      "green"
+      "green",
+      "don't"
      ],
      "suggestion": "Yuck! Sprouts! I don't like sprouts. They're green and smelly!",
      "suggestionFa": "ایش! کلم بروکسل! کلم بروکسل دوست ندارم. سبزه و بوی بد می‌ده!",
@@ -188,8 +188,8 @@
       "doesn't",
       "either",
       "daddy",
-      "like",
-      "give"
+      "them",
+      "mine"
      ],
      "suggestion": "See! Mehdi doesn't like them either. Can I give mine to Daddy?",
      "suggestionFa": "دیدی! {you} هم دوستشون نداره. می‌شه مال منو بدم بابا؟",
@@ -270,7 +270,7 @@
       "cabbage",
       "like",
       "bit",
-      "bad",
+      "hmm",
       "mmm"
      ],
      "suggestion": "Mmm… hmm… It's not bad! It's a bit like cabbage.",
@@ -343,10 +343,10 @@
    "branches": [
     {
      "keywords": [
-      "sprouts",
-      "custard",
-      "crumble",
       "hundred",
+      "crumble",
+      "custard",
+      "sprouts",
       "points"
      ],
      "suggestion": "Hot crumble with cold custard! The best! Sprouts — one. Nicola — one hundred points!",

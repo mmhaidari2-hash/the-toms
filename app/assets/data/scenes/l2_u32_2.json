@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "towel",
       "where",
+      "towel",
       "start",
       "we"
      ],
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "ready",
       "unfit",
+      "ready",
       "bit"
      ],
      "suggestion": "I'm ready. I'm a bit unfit!",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "make",
       "sure",
+      "make",
       "ok"
      ],
      "suggestion": "Make sure I clip it. OK!",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
-      "speed"
+      "speed",
+      "right"
      ],
      "suggestion": "Is this speed right?",
      "suggestionFa": "این سرعت درسته؟",
@@ -135,8 +135,8 @@
      "keywords": [
       "walking",
       "easy",
-      "run",
-      "can"
+      "can",
+      "run"
      ],
      "suggestion": "Walking is easy. Can I run?",
      "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
@@ -199,8 +199,8 @@
      "keywords": [
       "every",
       "time",
-      "i'll",
-      "wipe"
+      "wipe",
+      "i'll"
      ],
      "suggestion": "I'll wipe it. Every time.",
      "suggestionFa": "تمیزش می‌کنم. هر بار.",
@@ -255,8 +255,8 @@
     },
     {
      "keywords": [
-      "someone",
       "machine",
+      "someone",
       "share",
       "can"
      ],
@@ -361,8 +361,8 @@
     },
     {
      "keywords": [
-      "useful",
       "really",
+      "useful",
       "thank",
       "jade"
      ],

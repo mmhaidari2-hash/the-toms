@@ -1,0 +1,415 @@
+{
+ "id": "l2_u37_1",
+ "characterId": "doris",
+ "title": "Small talk at the bus stop",
+ "titleFa": "گپ در ایستگاه اتوبوس",
+ "setting": "Weather talk · Level 2",
+ "settingFa": "صحبت دربارهٔ هوا",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Morning, love! Lovely day, isn't it? Bit nippy, mind. I've got my thermal vest on. Don't tell anyone.",
+   "translations": {
+    "fa": "صبح بخیر عزیزم! روز قشنگیه، نه؟ البته یه کم سوزدار. زیرپوش گرمم را پوشیدم. به کسی نگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "lovely",
+      "doris",
+      "cold"
+     ],
+     "suggestion": "Morning, Doris! Yes, lovely, but cold.",
+     "suggestionFa": "صبح بخیر دوریس! آره قشنگه، ولی سرده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nippy",
+      "mean"
+     ],
+     "suggestion": "What does \"nippy\" mean?",
+     "suggestionFa": "«نیپی» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lovely day",
+     "fa": "روز قشنگ"
+    },
+    {
+     "word": "nippy",
+     "fa": "سوزدار ؛ سرد"
+    },
+    {
+     "word": "mind",
+     "fa": "البته"
+    },
+    {
+     "word": "thermal vest",
+     "fa": "زیرپوش گرم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Nippy means a bit cold. Sharp, like a little bite. In Tehran it's hot all the time, isn't it?",
+   "translations": {
+    "fa": "«نیپی» یعنی یه کم سرد. تیز، مثل یه گاز کوچیک. تو تهران همیشه گرمه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tehran",
+      "winter",
+      "always",
+      "snow"
+     ],
+     "suggestion": "Not always! Tehran has snow in winter.",
+     "suggestionFa": "نه همیشه! تهران زمستون برف داره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "summer",
+      "hot",
+      "dry"
+     ],
+     "suggestion": "In summer, yes. Very hot and dry.",
+     "suggestionFa": "تابستون آره. خیلی گرم و خشک.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sharp",
+     "fa": "تیز"
+    },
+    {
+     "word": "bite",
+     "fa": "گاز ؛ نیش"
+    },
+    {
+     "word": "snow",
+     "fa": "برف"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک"
+    }
+   ],
+   "cultureNote": {
+    "en": "The British talk about the weather all the time. It's a safe, friendly way to start a chat with a stranger.",
+    "fa": "بریتانیایی‌ها مدام دربارهٔ هوا حرف می‌زنند؛ راهی امن برای شروع گفت‌وگو با غریبه است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Snow in Tehran! Well I never. Here it just rains. It's supposed to rain later. My knee always knows.",
+   "translations": {
+    "fa": "برف تو تهران! باورم نمیشه. اینجا فقط بارون میاد. قراره بعداً بارون بیاد. زانوم همیشه می‌فهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weather",
+      "tell",
+      "knee",
+      "can"
+     ],
+     "suggestion": "Your knee can tell the weather?",
+     "suggestionFa": "زانوتون هوا را پیش‌بینی می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "umbrella",
+      "didn't",
+      "bring"
+     ],
+     "suggestion": "I didn't bring my umbrella!",
+     "suggestionFa": "چترم را نیاوردم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "well I never",
+     "fa": "باورم نمی‌شود"
+    },
+    {
+     "word": "supposed to",
+     "fa": "قرار است"
+    },
+    {
+     "word": "later",
+     "fa": "بعداً"
+    },
+    {
+     "word": "knee",
+     "fa": "زانو"
+    },
+    {
+     "word": "umbrella",
+     "fa": "چتر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it supposed to rain",
+      "it is suppose to rain"
+     ],
+     "echo": "It's supposed to rain? Oh dear.",
+     "better": "It's supposed to rain later.",
+     "betterFa": "قرار است بعداً باران بیاید."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Better than the Met Office, my knee. Oh, no umbrella? Take my spare one. I always carry two. Just in case.",
+   "translations": {
+    "fa": "زانوی من از ادارهٔ هواشناسی بهتره. اوه، چتر نداری؟ چتر اضافه‌ام را بگیر. همیشه دو تا دارم. محض احتیاط."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday",
+      "that's",
+      "kind",
+      "give"
+     ],
+     "suggestion": "That's very kind. I'll give it back on Tuesday.",
+     "suggestionFa": "خیلی لطف دارید. سه‌شنبه پسش میدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "umbrellas",
+      "prepared",
+      "two"
+     ],
+     "suggestion": "Two umbrellas? You're very prepared!",
+     "suggestionFa": "دو تا چتر؟ خیلی آماده‌اید!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Met Office",
+     "fa": "ادارهٔ هواشناسی بریتانیا"
+    },
+    {
+     "word": "spare",
+     "fa": "اضافه ؛ یدکی"
+    },
+    {
+     "word": "carry",
+     "fa": "همراه داشتن"
+    },
+    {
+     "word": "just in case",
+     "fa": "محض احتیاط"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "You have to be, in this country. Four seasons in one day! Sunshine, then hail, then sunshine again.",
+   "translations": {
+    "fa": "تو این کشور باید باشی. چهار فصل در یک روز! آفتاب، بعد تگرگ، بعد دوباره آفتاب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "october",
+      "hail"
+     ],
+     "suggestion": "Hail? In October?",
+     "suggestionFa": "تگرگ؟ تو اکتبر؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seasons",
+      "phrase",
+      "four",
+      "love"
+     ],
+     "suggestion": "Four seasons in one day. I love that phrase.",
+     "suggestionFa": "چهار فصل در یک روز. این عبارت را دوست دارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seasons",
+     "fa": "فصل‌ها"
+    },
+    {
+     "word": "sunshine",
+     "fa": "آفتاب"
+    },
+    {
+     "word": "hail",
+     "fa": "تگرگ"
+    },
+    {
+     "word": "phrase",
+     "fa": "عبارت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Oh yes. Hail, wind, the lot. Still — mustn't grumble. At least it's not foggy. Here comes the 38! Is that Tom driving?",
+   "translations": {
+    "fa": "اوه آره. تگرگ، باد، همه‌چی. با این حال — نباید غر زد. حداقل مه نیست. اتوبوس ۳۸ اومد! تام رانندگی می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waving",
+      "he's",
+      "tom"
+     ],
+     "suggestion": "Yes, it's Tom! He's waving.",
+     "suggestionFa": "آره، تامه! داره دست تکون میده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grumble",
+      "mustn't",
+      "mean"
+     ],
+     "suggestion": "What does \"mustn't grumble\" mean?",
+     "suggestionFa": "«نباید غر زد» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the lot",
+     "fa": "همه‌چیز"
+    },
+    {
+     "word": "grumble",
+     "fa": "غر زدن"
+    },
+    {
+     "word": "at least",
+     "fa": "حداقل"
+    },
+    {
+     "word": "foggy",
+     "fa": "مه‌آلود"
+    },
+    {
+     "word": "waving",
+     "fa": "دست تکان دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Mustn't grumble\" means \"I shouldn't complain\". It's a typical, modest British answer to \"How are you?\"",
+    "fa": "«نباید غر زد» یعنی نباید شکایت کنم؛ جوابی متواضعانه و رایج به «چطوری؟»."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "It means \"life's OK, I won't complain\". Very British. Now, help me up the step, love. And say \"lovely day\" to Tom. He'll laugh.",
+   "translations": {
+    "fa": "یعنی «زندگی خوبه، شکایت نمی‌کنم». خیلی بریتانیایی. حالا کمکم کن از پله بالا برم عزیزم. و به تام بگو «روز قشنگیه». می‌خنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "here",
+      "take",
+      "arm"
+     ],
+     "suggestion": "Here, take my arm. Careful!",
+     "suggestionFa": "بفرمایید، بازوم را بگیرید. مواظب باشید!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "nippy",
+      "mind",
+      "bit"
+     ],
+     "suggestion": "Lovely day, Tom! Bit nippy, mind!",
+     "suggestionFa": "روز قشنگیه تام! البته یه کم سوزدار!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "step",
+     "fa": "پله"
+    },
+    {
+     "word": "arm",
+     "fa": "بازو"
+    },
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Ha! Listen to you! Six months here and you sound like my late husband. Here's your flapjack, Tom. And one for the lodger.",
+   "translations": {
+    "fa": "ها! گوش کن! شش ماهه اینجایی و مثل شوهر خدابیامرزم حرف می‌زنی. اینم فلپ‌جکت تام. یکی هم برای مستأجر."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

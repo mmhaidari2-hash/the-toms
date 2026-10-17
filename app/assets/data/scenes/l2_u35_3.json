@@ -130,8 +130,8 @@
     {
      "keywords": [
       "brighton",
-      "thank",
-      "train"
+      "train",
+      "thank"
      ],
      "suggestion": "Thank you! Is this the train to Brighton?",
      "suggestionFa": "ممنون! این قطار به برایتونه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "change",
-      "why",
-      "did"
+      "did",
+      "why"
      ],
      "suggestion": "Why did it change?",
      "suggestionFa": "چرا عوض شد؟",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "happens",
       "coaches",
+      "happens",
       "other"
      ],
      "suggestion": "What happens to the other coaches?",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "front",
-      "i'll",
       "move",
+      "i'll",
       "now"
      ],
      "suggestion": "Oh no! I'll move to the front now.",

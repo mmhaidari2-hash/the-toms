@@ -81,9 +81,9 @@
     {
      "keywords": [
       "everything",
+      "shops",
       "money",
-      "buses",
-      "shops"
+      "buses"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
      "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "wrong",
+      "first",
       "took",
       "bus"
      ],
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "anyone",
+      "didn't",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -238,7 +238,7 @@
       "great",
       "chips",
       "fish",
-      "ate"
+      "was"
      ],
      "suggestion": "I ate fish and chips. It was great!",
      "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
@@ -250,8 +250,8 @@
      "keywords": [
       "didn't",
       "cooked",
-      "shops",
-      "every"
+      "every",
+      "shops"
      ],
      "suggestion": "I cooked rice every day. I didn't know the shops.",
      "suggestionFa": "هر روز برنج پختم. مغازه‌ها را نمی‌شناختم.",
@@ -345,8 +345,8 @@
      "keywords": [
       "invited",
       "they",
-      "mum",
-      "tea"
+      "tea",
+      "mum"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
      "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",

@@ -69,7 +69,7 @@
       "chocolate",
       "please",
       "like",
-      "one"
+      "i'd"
      ],
      "suggestion": "I'd like a chocolate one, please.",
      "suggestionFa": "یه شکلاتی می‌خوام، لطفاً.",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "shall",
-      "help",
-      "ryan"
+      "ryan",
+      "help"
      ],
      "suggestion": "Shall I help you, Ryan?",
      "suggestionFa": "کمکت کنم رایان؟",
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "please",
-      "just",
       "more",
+      "just",
       "one"
      ],
      "suggestion": "Just one more, please.",

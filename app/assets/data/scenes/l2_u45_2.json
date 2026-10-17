@@ -1,0 +1,446 @@
+{
+ "id": "l2_u45_2",
+ "characterId": "nicola",
+ "title": "Rainbows and Brownies",
+ "titleFa": "رینبوز و براونیز",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Mia goes to Rainbows! On Mondays! She's got a uniform and a badge. Can I join? PLEASE?",
+   "translations": {
+    "fa": "میا میره رینبوز! دوشنبه‌ها! یونیفرم و نشان داره. منم می‌تونم عضو بشم؟ لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbows",
+      "what's"
+     ],
+     "suggestion": "What's Rainbows?",
+     "suggestionFa": "رینبوز چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "asked",
+      "mummy",
+      "have"
+     ],
+     "suggestion": "Have you asked Mummy?",
+     "suggestionFa": "از مامانی پرسیدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Rainbows",
+     "fa": "رینبوز (گروه دختران خردسال)"
+    },
+    {
+     "word": "uniform",
+     "fa": "یونیفرم ؛ لباس فرم"
+    },
+    {
+     "word": "badge",
+     "fa": "نشان"
+    },
+    {
+     "word": "join",
+     "fa": "عضو شدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Rainbows is for little girls. Then Brownies, then Guides. Ryan did Scouts. He loved the camping!",
+   "translations": {
+    "fa": "رینبوز برای دخترهای کوچیکه. بعد براونیز، بعد گایدز. رایان پیشاهنگ بود. عاشق کمپینگ بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "camping",
+      "loves",
+      "ryan",
+      "rain"
+     ],
+     "suggestion": "Ryan loves camping? Even in the rain?",
+     "suggestionFa": "رایان عاشق کمپینگه؟ حتی زیر بارون؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rainbows",
+      "brownies",
+      "first",
+      "then"
+     ],
+     "suggestion": "So Rainbows first, then Brownies.",
+     "suggestionFa": "پس اول رینبوز، بعد براونیز.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little girls",
+     "fa": "دختر بچه‌ها"
+    },
+    {
+     "word": "Brownies",
+     "fa": "براونیز"
+    },
+    {
+     "word": "Guides",
+     "fa": "گایدز"
+    },
+    {
+     "word": "Scouts",
+     "fa": "پیشاهنگی"
+    },
+    {
+     "word": "loved",
+     "fa": "عاشق بود"
+    }
+   ],
+   "cultureNote": {
+    "en": "Girlguiding has Rainbows (4–7), Brownies (7–10) and Guides (10–14). Scouts has Beavers, Cubs and Scouts for all children.",
+    "fa": "گروه‌های دخترانه: رینبوز ۴ تا ۷، براونیز ۷ تا ۱۰، گایدز ۱۰ تا ۱۴ سال."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "You have to be four. I'm FIVE! But Mummy says there's a waiting list. What's that?",
+   "translations": {
+    "fa": "باید چهار سالت باشه. من پنج سالمه! ولی مامانی میگه لیست انتظار داره. اون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "waiting",
+      "place",
+      "list"
+     ],
+     "suggestion": "A list of children waiting for a place.",
+     "suggestionFa": "یه فهرست از بچه‌هایی که منتظر جان.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "means",
+      "have",
+      "wait"
+     ],
+     "suggestion": "It means you have to wait a little bit.",
+     "suggestionFa": "یعنی باید یه کم صبر کنی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiting list",
+     "fa": "فهرست انتظار"
+    },
+    {
+     "word": "place",
+     "fa": "جا ؛ جایگاه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you have be four",
+      "you must to be four"
+     ],
+     "echo": "You have to be four? Yes, at least!",
+     "better": "You have to be four.",
+     "betterFa": "باید چهار ساله باشی."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "I HATE waiting. It's so boring. How long? Till Christmas? Till I'm six?",
+   "translations": {
+    "fa": "من از صبر کردن متنفرم. خیلی کسل‌کننده‌ست. چقدر؟ تا کریسمس؟ تا شش سالگیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leader",
+      "don't",
+      "know",
+      "ask"
+     ],
+     "suggestion": "I don't know. We can ask the leader.",
+     "suggestionFa": "نمی‌دونم. می‌تونیم از رهبر گروه بپرسیم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rainbows",
+      "maybe",
+      "long",
+      "they"
+     ],
+     "suggestion": "Maybe not long. What do they do at Rainbows?",
+     "suggestionFa": "شاید نه زیاد. تو رینبوز چی کار می‌کنن؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boring",
+     "fa": "کسل‌کننده"
+    },
+    {
+     "word": "how long",
+     "fa": "چقدر ؛ چه مدت"
+    },
+    {
+     "word": "leader",
+     "fa": "رهبر ؛ سرپرست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Crafts, games and songs. And trips! Mia went to a farm and held a chicken.",
+   "translations": {
+    "fa": "کاردستی، بازی و آواز. و گردش! میا رفت مزرعه و یه مرغ بغل کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "scary",
+      "held",
+      "was"
+     ],
+     "suggestion": "She held a chicken! Was it scary?",
+     "suggestionFa": "یه مرغ بغل کرد! ترسناک بود؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "crafts",
+      "songs",
+      "fun"
+     ],
+     "suggestion": "Crafts and songs. That sounds fun.",
+     "suggestionFa": "کاردستی و آواز. جالبه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crafts",
+     "fa": "کاردستی"
+    },
+    {
+     "word": "games",
+     "fa": "بازی‌ها"
+    },
+    {
+     "word": "songs",
+     "fa": "آوازها"
+    },
+    {
+     "word": "trips",
+     "fa": "گردش‌ها"
+    },
+    {
+     "word": "held",
+     "fa": "بغل کرد ؛ گرفت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "The chicken did a poo on her! And there are badges for everything. Even brushing teeth!",
+   "translations": {
+    "fa": "مرغه روش پی‌پی کرد! و برای همه‌چی نشان هست. حتی مسواک زدن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brushing",
+      "teeth",
+      "easy"
+     ],
+     "suggestion": "A badge for brushing teeth? Easy!",
+     "suggestionFa": "نشان برای مسواک زدن؟ آسونه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "want"
+     ],
+     "suggestion": "What badge do you want first?",
+     "suggestionFa": "اول کدوم نشان را می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poo",
+     "fa": "پی‌پی"
+    },
+    {
+     "word": "badges",
+     "fa": "نشان‌ها"
+    },
+    {
+     "word": "brushing teeth",
+     "fa": "مسواک زدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "The baking badge. I want to make cakes. With sprinkles. Lots and lots of sprinkles.",
+   "translations": {
+    "fa": "نشان شیرینی‌پزی. می‌خوام کیک درست کنم. با ترافل رنگی. کلی کلی ترافل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "baking",
+      "cakes",
+      "badge",
+      "taste"
+     ],
+     "suggestion": "A baking badge! Can I taste the cakes?",
+     "suggestionFa": "نشان شیرینی‌پزی! می‌تونم کیک‌ها را بچشم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "practise",
+      "mummy",
+      "home"
+     ],
+     "suggestion": "You can practise with Mummy at home.",
+     "suggestionFa": "می‌تونی تو خونه با مامانی تمرین کنی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "baking",
+     "fa": "شیرینی‌پزی ؛ پخت"
+    },
+    {
+     "word": "sprinkles",
+     "fa": "ترافل رنگی"
+    },
+    {
+     "word": "taste",
+     "fa": "چشیدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Good news, Nicola! The Rainbows leader just emailed. There's a space from next Monday!",
+   "translations": {
+    "fa": "خبر خوب نیکولا! رهبر رینبوز همین الان ایمیل زد. از دوشنبهٔ بعد جا هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "hear",
+      "did"
+     ],
+     "suggestion": "Did you hear that, Nicola?",
+     "suggestionFa": "شنیدی نیکولا؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "monday",
+      "soon",
+      "next"
+     ],
+     "suggestion": "Next Monday! That's very soon!",
+     "suggestionFa": "دوشنبهٔ بعد! خیلی زوده!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "email",
+     "fa": "ایمیل"
+    },
+    {
+     "word": "space",
+     "fa": "جا ؛ ظرفیت"
+    },
+    {
+     "word": "soon",
+     "fa": "زود"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "YES! I'm a Rainbow! I need to tell Mia! And Goldie! And Nana!",
+   "translations": {
+    "fa": "آره! من رینبو شدم! باید به میا بگم! و گلدی! و نانا!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "scarf",
       "photo",
+      "scarf",
       "book",
       "tea"
      ],
@@ -137,9 +137,9 @@
     {
      "keywords": [
       "pounds",
+      "forty",
       "about",
-      "worth",
-      "forty"
+      "worth"
      ],
      "suggestion": "How much is it worth? About forty pounds.",
      "suggestionFa": "چقدر ارزش داره؟ حدود چهل پوند.",
@@ -177,9 +177,9 @@
    "branches": [
     {
      "keywords": [
+      "tick",
       "gift",
-      "i'll",
-      "tick"
+      "i'll"
      ],
      "suggestion": "It's a gift. I'll tick \"gift\".",
      "suggestionFa": "هدیه‌ست. «هدیه» را تیک می‌زنم.",
@@ -293,7 +293,7 @@
       "birthday",
       "weeks",
       "three",
-      "two"
+      "her"
      ],
      "suggestion": "Three weeks? Her birthday is in two weeks!",
      "suggestionFa": "سه هفته؟ تولدش دو هفتهٔ دیگه‌ست!",
@@ -303,9 +303,9 @@
     },
     {
      "keywords": [
-      "pounds",
-      "that's",
       "twenty",
+      "that's",
+      "pounds",
       "four"
      ],
      "suggestion": "Twenty-four pounds. That's OK.",

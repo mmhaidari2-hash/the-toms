@@ -1,0 +1,461 @@
+{
+ "id": "l2_u44_2",
+ "characterId": "tom",
+ "title": "A rainy camping trip",
+ "titleFa": "سفر کمپینگ بارانی",
+ "setting": "Past holidays · Level 2",
+ "settingFa": "تعطیلات گذشته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Did I ever tell you about our camping trip in Wales? The worst holiday of my life. And the best story.",
+   "translations": {
+    "fa": "تا حالا ماجرای سفر کمپینگمون تو ولز را بهت گفتم؟ بدترین تعطیلات عمرم. و بهترین داستان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "tell"
+     ],
+     "suggestion": "No! Tell me. What happened?",
+     "suggestionFa": "نه! بگو. چی شد؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holiday",
+      "worst",
+      "why"
+     ],
+     "suggestion": "The worst holiday? Why?",
+     "suggestionFa": "بدترین تعطیلات؟ چرا؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "camping trip",
+     "fa": "سفر کمپینگ ؛ چادرزنی"
+    },
+    {
+     "word": "Wales",
+     "fa": "ولز"
+    },
+    {
+     "word": "worst",
+     "fa": "بدترین"
+    },
+    {
+     "word": "happened",
+     "fa": "اتفاق افتاد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "So, it was Ryan's sixth birthday. We took the train to Wales with a tent, three sleeping bags and a lot of hope.",
+   "translations": {
+    "fa": "خب، تولد شش‌سالگی رایان بود. با یه چادر، سه تا کیسه‌خواب و کلی امید سوار قطار شدیم رفتیم ولز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "think",
+      "know",
+      "next"
+     ],
+     "suggestion": "A lot of hope! I think I know what happened next.",
+     "suggestionFa": "کلی امید! فکر کنم می‌دونم بعدش چی شد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "easily",
+      "tent",
+      "did",
+      "put"
+     ],
+     "suggestion": "Did you put up the tent easily?",
+     "suggestionFa": "چادر را راحت برپا کردید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tent",
+     "fa": "چادر"
+    },
+    {
+     "word": "sleeping bags",
+     "fa": "کیسه‌خواب‌ها"
+    },
+    {
+     "word": "hope",
+     "fa": "امید"
+    },
+    {
+     "word": "put up",
+     "fa": "برپا کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Easily? It took two hours. The instructions were in Swedish. Then, at nine o'clock, it started to rain.",
+   "translations": {
+    "fa": "راحت؟ دو ساعت طول کشید. دستورالعمل سوئدی بود. بعد، ساعت نه، بارون شروع شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "long",
+      "rain",
+      "how",
+      "oh"
+     ],
+     "suggestion": "Oh no! How long did it rain for?",
+     "suggestionFa": "وای نه! چقدر بارون اومد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tent",
+      "stay",
+      "dry"
+     ],
+     "suggestion": "Did the tent stay dry?",
+     "suggestionFa": "چادر خشک موند؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "instructions",
+     "fa": "دستورالعمل"
+    },
+    {
+     "word": "Swedish",
+     "fa": "سوئدی"
+    },
+    {
+     "word": "started to",
+     "fa": "شروع کرد به"
+    },
+    {
+     "word": "rain",
+     "fa": "باران آمدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it started rain",
+      "it was start to rain"
+     ],
+     "echo": "It started to rain? Of course it did!",
+     "better": "It started to rain.",
+     "betterFa": "باران شروع شد."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "It rained for three days. Non-stop. At two in the morning, water came into the tent. We had to sleep in the car. Oh wait — no car!",
+   "translations": {
+    "fa": "سه روز بارون اومد. یکسره. ساعت دو صبح، آب اومد تو چادر. مجبور شدیم تو ماشین بخوابیم. اوه صبر کن — ماشین نداشتیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleep",
+      "where",
+      "car"
+     ],
+     "suggestion": "No car! So where did you sleep?",
+     "suggestionFa": "ماشین نداشتید! پس کجا خوابیدید؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "home",
+      "days",
+      "go"
+     ],
+     "suggestion": "Three days! Did you go home?",
+     "suggestionFa": "سه روز! برگشتید خونه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "non-stop",
+     "fa": "یکسره"
+    },
+    {
+     "word": "came into",
+     "fa": "وارد شد"
+    },
+    {
+     "word": "had to",
+     "fa": "مجبور شدیم"
+    },
+    {
+     "word": "sleep",
+     "fa": "خوابیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Had to\" is the past of \"must\" and \"have to\": \"We had to sleep in the toilet block.\"",
+    "fa": "«had to» گذشتهٔ «must» و «have to» است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "In the toilet block! Me, Leslie and little Ryan on the floor, with the hand dryer for heat. Luckily, Ryan loved it.",
+   "translations": {
+    "fa": "تو سرویس بهداشتی کمپ! لزلی، من و رایان کوچولو، رو زمین، با دست‌خشک‌کن برای گرما. خوشبختانه، رایان عاشقش شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "clever",
+      "dryer",
+      "hand"
+     ],
+     "suggestion": "The hand dryer for heat! That's very clever.",
+     "suggestionFa": "دست‌خشک‌کن برای گرما! خیلی زرنگی بود.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "did",
+      "say"
+     ],
+     "suggestion": "What did Leslie say?",
+     "suggestionFa": "لزلی چی گفت؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toilet block",
+     "fa": "ساختمان سرویس بهداشتی"
+    },
+    {
+     "word": "floor",
+     "fa": "زمین ؛ کف"
+    },
+    {
+     "word": "hand dryer",
+     "fa": "دست‌خشک‌کن"
+    },
+    {
+     "word": "heat",
+     "fa": "گرما"
+    },
+    {
+     "word": "luckily",
+     "fa": "خوشبختانه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Leslie didn't speak to me for two days. Then a farmer saw us. He was a lovely old man called Gwyn. He invited us to his farm.",
+   "translations": {
+    "fa": "لزلی دو روز باهام حرف نزد. بعد یه کشاورز ما را دید. یه پیرمرد نازنین به اسم گوین. ما را به مزرعه‌اش دعوت کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kind",
+      "stay",
+      "farm",
+      "did"
+     ],
+     "suggestion": "What a kind man! Did you stay on the farm?",
+     "suggestionFa": "چه مرد مهربونی! تو مزرعه موندید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "speaking",
+      "without",
+      "poor",
+      "days"
+     ],
+     "suggestion": "Two days without speaking? Poor Tom!",
+     "suggestionFa": "دو روز بدون حرف زدن؟ تام بیچاره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "farmer",
+     "fa": "کشاورز"
+    },
+    {
+     "word": "invited",
+     "fa": "دعوت کرد"
+    },
+    {
+     "word": "farm",
+     "fa": "مزرعه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "We stayed in his barn, with the sheep. Dry and warm. His wife made us Welsh cakes and tea every morning.",
+   "translations": {
+    "fa": "تو انبار علوفه‌اش موندیم، با گوسفندها. خشک و گرم. زنش هر روز صبح برامون کیک ولزی و چای درست می‌کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "lovely",
+      "sounds",
+      "tent"
+     ],
+     "suggestion": "That sounds lovely. Better than the tent!",
+     "suggestionFa": "قشنگ به نظر میاد. بهتر از چادر!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "welsh",
+      "cakes"
+     ],
+     "suggestion": "What are Welsh cakes?",
+     "suggestionFa": "کیک ولزی چیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "barn",
+     "fa": "انبار علوفه ؛ طویله"
+    },
+    {
+     "word": "sheep",
+     "fa": "گوسفندها"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک"
+    },
+    {
+     "word": "Welsh cakes",
+     "fa": "کیک‌های ولزی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Little flat cakes with raisins, cooked on a hot stone. In the end, it was the best holiday ever. We still send Gwyn a card.",
+   "translations": {
+    "fa": "کیک‌های کوچیک صاف با کشمش، پخته رو سنگ داغ. در آخر، بهترین تعطیلات عمرمون شد. هنوز برای گوین کارت می‌فرستیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ending",
+      "happy",
+      "end"
+     ],
+     "suggestion": "In the end, a happy ending!",
+     "suggestionFa": "در آخر، یه پایان خوش!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "camping",
+      "again",
+      "ever",
+      "did"
+     ],
+     "suggestion": "And did you ever go camping again?",
+     "suggestionFa": "و دیگه هیچ‌وقت کمپینگ رفتید؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "raisins",
+     "fa": "کشمش"
+    },
+    {
+     "word": "stone",
+     "fa": "سنگ"
+    },
+    {
+     "word": "in the end",
+     "fa": "در پایان"
+    },
+    {
+     "word": "ever",
+     "fa": "تا حالا ؛ هرگز"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Camping again? Never. Leslie says, \"Hotels only.\" But Ryan wants to go back. With a better tent. And a waterproof dad.",
+   "translations": {
+    "fa": "دوباره کمپینگ؟ هرگز. لزلی میگه «فقط هتل». ولی رایان می‌خواد برگرده. با یه چادر بهتر. و یه بابای ضدآب."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "id": "l2_u43_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A busy city",
+ "titleFa": "(در نقش Leslie) یک شهر شلوغ",
+ "setting": "Describing places · Level 2",
+ "settingFa": "توصیف مکان‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u43_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "documentary",
+      "watching",
+      "london",
+      "cities",
+      "about"
+     ],
+     "suggestion": "Tom's watching a documentary about cities. He says London is the best city in the world. What do you think?",
+     "suggestionFa": "تام داره یه مستند دربارهٔ شهرها می‌بینه. میگه لندن بهترین شهر دنیاست. نظر تو چیه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It's great, but it's very expensive.",
+   "translations": {
+    "fa": "عالیه، ولی خیلی گرونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "heartbroken",
+      "compare",
+      "busier",
+      "tehran",
+      "london"
+     ],
+     "suggestion": "Ha! He'll be heartbroken. OK — compare them. Is London busier than Tehran?",
+     "suggestionFa": "ها! دلش می‌شکنه. باشه — مقایسه‌شون کن. لندن از تهران شلوغ‌تره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No. Tehran is busier and the traffic is worse.",
+   "translations": {
+    "fa": "نه. تهران شلوغ‌تره و ترافیکش بدتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "transport",
+      "traffic",
+      "imagine",
+      "public",
+      "london"
+     ],
+     "suggestion": "Worse than London traffic? I can't imagine! And the public transport? Our Tube is old and hot.",
+     "suggestionFa": "از ترافیک لندن بدتر؟ تصورش را هم نمی‌تونم بکنم! و حمل‌ونقل عمومی؟ متروی ما قدیمی و گرمه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Tehran's metro is newer and cheaper.",
+   "translations": {
+    "fa": "متروی تهران جدیدتر و ارزون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "london",
+      "again",
+      "thing",
+      "about"
+     ],
+     "suggestion": "The 38! Tom will love you again. What's the best thing about London for you?",
+     "suggestionFa": "۳۸! تام دوباره عاشقت میشه. برای تو بهترین چیز لندن چیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "The parks. There are so many green spaces.",
+   "translations": {
+    "fa": "پارک‌ها. کلی فضای سبز هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "museums",
+      "britain",
+      "honest",
+      "things",
+      "london"
+     ],
+     "suggestion": "True. Free museums are one of the best things about Britain. And the worst thing about London? Be honest!",
+     "suggestionFa": "درسته. موزه‌های مجانی یکی از بهترین چیزهای بریتانیاست. و بدترین چیز لندن؟ صادق باش!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "The rent! It's much more expensive than Tehran.",
+   "translations": {
+    "fa": "اجاره! خیلی از تهران گرون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "londoner",
+      "weather",
+      "prefer",
+      "which",
+      "every"
+     ],
+     "suggestion": "The rent and the weather. Every Londoner says the same! So, which do you prefer? You can't say both.",
+     "suggestionFa": "اجاره و هوا. همهٔ لندنی‌ها همینو میگن! خب، کدوم را ترجیح میدی؟ نمی‌تونی بگی هر دو.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I prefer Tehran for food, London for parks.",
+   "translations": {
+    "fa": "برای غذا تهران را ترجیح میدم، برای پارک لندن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diplomatic",
+      "hackney",
+      "prefers",
+      "london",
+      "hear"
+     ],
+     "suggestion": "Hackney! Very diplomatic. Tom! Did you hear? He prefers Hackney to all of London!",
+     "suggestionFa": "هکنی! خیلی دیپلماتیک. تام! شنیدی؟ هکنی را به کل لندن ترجیح میده!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Shh, Leslie! It's a secret!",
+   "translations": {
+    "fa": "هیس لزلی! رازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "tom",
+   "text": "Hackney's the best bit! Good man. You've got taste. I'll give you a free ride on the 38.",
+   "translations": {
+    "fa": "هکنی بهترین قسمته! آفرین. سلیقه داری. یه سواری مجانی رو ۳۸ بهت میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "diplomatic",
+     "fa": "دیپلماتیک ؛ سیاستمدارانه"
+    },
+    {
+     "word": "taste",
+     "fa": "سلیقه"
+    },
+    {
+     "word": "ride",
+     "fa": "سواری"
+    },
+    {
+     "word": "hold you to that",
+     "fa": "سر حرفت می‌مانی"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! I'll hold you to that.",
+   "translations": {
+    "fa": "ممنون تام! یادم می‌مونه‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diplomatic",
+      "already",
+      "english",
+      "polite",
+      "better"
+     ],
+     "suggestion": "See? Your English is better than his already. More polite, more diplomatic, and much less noisy!",
+     "suggestionFa": "دیدی؟ انگلیسیت همین الان از اون بهتره. مؤدب‌تر، دیپلماتیک‌تر، و خیلی کم‌سروصداتر!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

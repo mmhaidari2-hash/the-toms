@@ -56,9 +56,9 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
       "grapes",
       "please",
+      "fridge",
       "snack",
       "there"
      ],
@@ -81,10 +81,10 @@
    "branches": [
     {
      "keywords": [
-      "grapes",
-      "little",
       "please",
+      "little",
       "aren't",
+      "grapes",
       "whole"
      ],
      "suggestion": "Whole grapes aren't safe for little ones. And yes — milk in his blue cup, please.",
@@ -160,9 +160,9 @@
      "keywords": [
       "everything",
       "green",
-      "week",
-      "last",
-      "want"
+      "blue",
+      "want",
+      "week"
      ],
      "suggestion": "Everything has to be blue this week. Last week it was green! Do you want to sit with him?",
      "suggestionFa": "این هفته همه چی باید آبی باشه. هفتهٔ پیش سبز بود! می‌خوای کنارش بشینی؟",
@@ -235,8 +235,8 @@
    "branches": [
     {
      "keywords": [
-      "cracker",
       "instead",
+      "cracker",
       "won't",
       "more",
       "give"

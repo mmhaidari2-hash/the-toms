@@ -1,0 +1,407 @@
+{
+ "id": "l2_u46_4",
+ "characterId": "ellis",
+ "title": "After-school club",
+ "titleFa": "کلاس بعد از مدرسه",
+ "setting": "The school run · Level 2",
+ "settingFa": "رساندن بچه به مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ellis",
+   "text": "Hello again! Leslie said you wanted to ask about after-school clubs for Nicola? On the days she has staff meetings?",
+   "translations": {
+    "fa": "باز سلام! لزلی گفت می‌خواید دربارهٔ کلاس‌های بعد از مدرسه برای نیکولا بپرسید؟ برای روزهایی که جلسهٔ کارکنان داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "clubs",
+      "there"
+     ],
+     "suggestion": "Yes please. What clubs are there?",
+     "suggestionFa": "بله لطفاً. چه کلاس‌هایی هست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wednesdays",
+      "meetings",
+      "leslie",
+      "has"
+     ],
+     "suggestion": "Yes. Leslie has meetings on Wednesdays.",
+     "suggestionFa": "بله. لزلی چهارشنبه‌ها جلسه داره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after-school club",
+     "fa": "کلاس بعد از مدرسه"
+    },
+    {
+     "word": "staff meetings",
+     "fa": "جلسه‌های کارکنان"
+    },
+    {
+     "word": "Wednesdays",
+     "fa": "چهارشنبه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "For Reception, there's Art Club on Mondays, Little Movers — dance and games — on Wednesdays, and Wraparound Care every day.",
+   "translations": {
+    "fa": "برای پیش‌دبستانی، دوشنبه‌ها کلاس هنر هست، چهارشنبه‌ها «جنبنده‌های کوچولو» — رقص و بازی — و مراقبت تکمیلی هر روز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesdays",
+      "perfect",
+      "that's",
+      "movers"
+     ],
+     "suggestion": "Little Movers on Wednesdays. That's perfect!",
+     "suggestionFa": "جنبنده‌های کوچولو چهارشنبه‌ها. عالیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wraparound",
+      "what's",
+      "care"
+     ],
+     "suggestion": "What's \"Wraparound Care\"?",
+     "suggestionFa": "«مراقبت تکمیلی» چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Reception",
+     "fa": "کلاس پیش‌دبستانی"
+    },
+    {
+     "word": "art",
+     "fa": "هنر"
+    },
+    {
+     "word": "dance",
+     "fa": "رقص"
+    },
+    {
+     "word": "wraparound care",
+     "fa": "مراقبت پیش و پس از مدرسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Wraparound care\" means breakfast club before school and after-school care until about 6 pm, for working parents. It usually costs extra.",
+    "fa": "«wraparound care» یعنی مراقبت قبل و بعد از مدرسه برای والدین شاغل؛ معمولاً هزینه دارد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ellis",
+   "text": "Breakfast club before school, and care after school until six. Snacks, games, homework. For working parents.",
+   "translations": {
+    "fa": "باشگاه صبحانه قبل از مدرسه، و مراقبت بعد از مدرسه تا ساعت شش. خوراکی، بازی، تکلیف. برای والدین شاغل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "movers",
+      "space",
+      "there"
+     ],
+     "suggestion": "Is there a space in Little Movers?",
+     "suggestionFa": "تو جنبنده‌های کوچولو جای خالی هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "useful",
+      "that's",
+      "until",
+      "six"
+     ],
+     "suggestion": "Until six! That's very useful.",
+     "suggestionFa": "تا شش! خیلی کاربردیه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "breakfast club",
+     "fa": "باشگاه صبحانه"
+    },
+    {
+     "word": "snacks",
+     "fa": "خوراکی‌ها"
+    },
+    {
+     "word": "homework",
+     "fa": "تکلیف"
+    },
+    {
+     "word": "working parents",
+     "fa": "والدین شاغل"
+    },
+    {
+     "word": "useful",
+     "fa": "کاربردی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is there space in little movers",
+      "there is a space?"
+     ],
+     "echo": "Is there a space? Let me check!",
+     "better": "Is there a space in Little Movers?",
+     "betterFa": "در کلاس جنبنده‌های کوچولو جای خالی هست؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "Let me check. Yes — two spaces left. Mia's in it too, so Nicola will be thrilled. It runs from three-fifteen to four-fifteen.",
+   "translations": {
+    "fa": "بذار ببینم. آره — دو تا جا مونده. میا هم توشه، پس نیکولا خیلی ذوق می‌کنه. از سه و ربع تا چهار و ربعه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is it?",
+     "suggestionFa": "چقدره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "she'll",
+      "mia's",
+      "happy"
+     ],
+     "suggestion": "Mia's in it! She'll be so happy.",
+     "suggestionFa": "میا توشه! خیلی خوشحال میشه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spaces left",
+     "fa": "جای باقی‌مانده"
+    },
+    {
+     "word": "thrilled",
+     "fa": "خیلی هیجان‌زده"
+    },
+    {
+     "word": "runs",
+     "fa": "برگزار می‌شود"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "Four pounds a session, or forty for the whole term. You pay on the school app. Now — who picks her up at four-fifteen?",
+   "translations": {
+    "fa": "جلسه‌ای چهار پوند، یا چهل برای کل ترم. تو اپ مدرسه پرداخت می‌کنید. حالا — ساعت چهار و ربع کی میاد دنبالش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "meeting",
+      "leslie",
+      "after"
+     ],
+     "suggestion": "Leslie, after her meeting.",
+     "suggestionFa": "لزلی، بعد از جلسه‌اش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finish",
+      "work",
+      "four",
+      "pick"
+     ],
+     "suggestion": "Can I pick her up? I finish work at four.",
+     "suggestionFa": "من می‌تونم بیام دنبالش؟ ساعت چهار کارم تموم میشه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "session",
+     "fa": "جلسه"
+    },
+    {
+     "word": "whole term",
+     "fa": "کل ترم"
+    },
+    {
+     "word": "school app",
+     "fa": "اپ مدرسه"
+    },
+    {
+     "word": "picks up",
+     "fa": "دنبال کسی آمدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "You can, but you need to be on her collection list. Leslie fills in a form and gives us a password. We're very strict about that.",
+   "translations": {
+    "fa": "می‌تونید، ولی باید تو فهرست تحویل‌گیرنده‌هاش باشید. لزلی یه فرم پر می‌کنه و بهمون یه رمز میده. ما در این مورد خیلی سخت‌گیریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "password",
+      "like",
+      "spy"
+     ],
+     "suggestion": "A password? Like a spy!",
+     "suggestionFa": "رمز؟ مثل جاسوس‌ها!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "safety",
+      "that's",
+      "good"
+     ],
+     "suggestion": "That's good. Safety is important.",
+     "suggestionFa": "خوبه. امنیت مهمه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "collection list",
+     "fa": "فهرست افراد مجاز به بردن بچه"
+    },
+    {
+     "word": "form",
+     "fa": "فرم"
+    },
+    {
+     "word": "password",
+     "fa": "رمز"
+    },
+    {
+     "word": "strict",
+     "fa": "سخت‌گیر"
+    },
+    {
+     "word": "safety",
+     "fa": "امنیت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Schools only let children leave with adults on their approved list. A password is often used when a new adult collects.",
+    "fa": "مدارس فقط به بزرگسالان فهرست مجاز اجازهٔ بردن بچه را می‌دهند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "Exactly like a spy. Last year one dad's password was \"banana\". Nicola will probably choose \"unicorn\". Don't tell anyone!",
+   "translations": {
+    "fa": "دقیقاً مثل جاسوس. پارسال رمز یه بابا «موز» بود. نیکولا احتمالاً «تک‌شاخ» را انتخاب می‌کنه. به کسی نگید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sealed",
+      "lips"
+     ],
+     "suggestion": "My lips are sealed.",
+     "suggestionFa": "لبام دوخته‌ست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "leslie",
+      "fill",
+      "i'll"
+     ],
+     "suggestion": "I'll ask Leslie to fill in the form tonight.",
+     "suggestionFa": "از لزلی می‌خوام امشب فرم را پر کنه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "probably",
+     "fa": "احتمالاً"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    },
+    {
+     "word": "my lips are sealed",
+     "fa": "لبم دوخته است ؛ به کسی نمی‌گویم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ellis",
+   "text": "Perfect. Little Movers, Wednesdays, from next week. Bring a water bottle and comfy clothes. And her PE kit stays at school!",
+   "translations": {
+    "fa": "عالی. جنبنده‌های کوچولو، چهارشنبه‌ها، از هفتهٔ بعد. یه بطری آب و لباس راحت بیارید. و لباس ورزشش مدرسه می‌مونه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

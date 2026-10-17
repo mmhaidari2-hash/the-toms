@@ -20,8 +20,8 @@
     {
      "keywords": [
       "fifty",
-      "bags",
       "many",
+      "bags",
       "why"
      ],
      "suggestion": "Fifty bags? Why so many?",
@@ -82,10 +82,10 @@
     },
     {
      "keywords": [
-      "usually",
       "plastic",
-      "bags",
-      "free"
+      "usually",
+      "free",
+      "bags"
      ],
      "suggestion": "In Iran, plastic bags are usually free.",
      "suggestionFa": "تو ایران، کیسه پلاستیکی معمولاً مجانیه.",
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "things",
-      "we've",
       "let's",
-      "two"
+      "we've",
+      "lot"
      ],
      "suggestion": "Let's get two. We've got a lot of things.",
      "suggestionFa": "دو تا بگیریم. چیزای زیادی داریم.",
@@ -236,9 +236,9 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "bring",
-      "i'll",
+      "thank",
+      "time",
       "next"
      ],
      "suggestion": "Thank you! Next time I'll bring my own bag.",
@@ -286,9 +286,9 @@
     {
      "keywords": [
       "shall",
+      "home",
       "good",
-      "idea",
-      "home"
+      "idea"
      ],
      "suggestion": "Good idea. Shall we go home now?",
      "suggestionFa": "فکر خوبیه. بریم خونه؟",

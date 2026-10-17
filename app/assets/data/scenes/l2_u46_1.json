@@ -1,0 +1,398 @@
+{
+ "id": "l2_u46_1",
+ "characterId": "leslie",
+ "title": "Running late for school",
+ "titleFa": "دیر رسیدن به مدرسه",
+ "setting": "The school run · Level 2",
+ "settingFa": "رساندن بچه به مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Eight-twenty! The gates close at eight-forty-five, and I have to be in my classroom by eight-thirty-five. Nicola! SHOES!",
+   "translations": {
+    "fa": "هشت و بیست! درها هشت و چهل و پنج بسته میشه، و من باید تا هشت و سی و پنج سر کلاسم باشم. نیکولا! کفش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "help",
+      "i'll",
+      "her"
+     ],
+     "suggestion": "I'll help. Where are her shoes?",
+     "suggestionFa": "کمک می‌کنم. کفش‌هاش کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "hurry",
+      "up"
+     ],
+     "suggestion": "Nicola, hurry up! Shoes on!",
+     "suggestionFa": "نیکولا، عجله کن! کفش‌ها پات!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gates",
+     "fa": "درهای ورودی"
+    },
+    {
+     "word": "close",
+     "fa": "بسته می‌شوند"
+    },
+    {
+     "word": "classroom",
+     "fa": "کلاس"
+    },
+    {
+     "word": "hurry up",
+     "fa": "عجله کن"
+    },
+    {
+     "word": "shoes",
+     "fa": "کفش‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "One's by the door. The other one… who knows? Every morning! Nicola, where's your other shoe?",
+   "translations": {
+    "fa": "یکی دم دره. اون یکی… کی می‌دونه؟ هر روز صبح! نیکولا، اون لنگهٔ کفشت کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "other",
+      "shoe"
+     ],
+     "suggestion": "Nicola! Where's your other shoe?",
+     "suggestionFa": "نیکولا! اون لنگهٔ کفشت کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "upstairs",
+      "help",
+      "look",
+      "i'll"
+     ],
+     "suggestion": "I'll look upstairs. Nicola, help me!",
+     "suggestionFa": "من طبقهٔ بالا را می‌گردم. نیکولا، کمکم کن!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "every morning",
+     "fa": "هر صبح"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Goldie's looking after it. It's under the fish tank.",
+   "translations": {
+    "fa": "گلدی داره ازش مراقبت می‌کنه. زیر آکواریومه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "got"
+     ],
+     "suggestion": "Got it! Under the fish tank. Here.",
+     "suggestionFa": "پیداش کردم! زیر آکواریوم. بفرما.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shoe",
+      "why"
+     ],
+     "suggestion": "Why is your shoe under the fish tank?",
+     "suggestionFa": "چرا کفشت زیر آکواریومه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the other one",
+     "fa": "آن یکی"
+    },
+    {
+     "word": "looking after",
+     "fa": "مراقبت کردن"
+    },
+    {
+     "word": "fish tank",
+     "fa": "آکواریوم ؛ تنگ ماهی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Don't ask. Right — have you got your book bag? Water bottle? Reading book?",
+   "translations": {
+    "fa": "نپرس. خب — کیف کتابت را برداشتی؟ بطری آب؟ کتاب خوندن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "bottle",
+      "water",
+      "bag"
+     ],
+     "suggestion": "Book bag, yes. Where's her water bottle?",
+     "suggestionFa": "کیف کتاب، آره. بطری آبش کجاست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reading",
+      "table",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can see the reading book on the table.",
+     "suggestionFa": "کتاب خوندن را رو میز می‌بینم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب"
+    },
+    {
+     "word": "water bottle",
+     "fa": "بطری آب"
+    },
+    {
+     "word": "reading book",
+     "fa": "کتاب خواندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK primary children carry a \"book bag\" with their reading book and letters for parents. Schools also ask children to bring a named water bottle.",
+    "fa": "بچه‌های ابتدایی بریتانیا یک «کیف کتاب» با کتاب خواندن و نامه‌های والدین همراه دارند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "have you your book bag",
+      "you have got your book bag?"
+     ],
+     "echo": "Have you got your book bag? Yes!",
+     "better": "Have you got your book bag?",
+     "betterFa": "کیف کتابت را برداشتی؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Water bottle's in the fridge. Thank you. Eight-twenty-six. We're going to be late. And William's still in his pyjamas!",
+   "translations": {
+    "fa": "بطری آب تو یخچاله. ممنون. هشت و بیست و شش. دیر می‌رسیم. و ویلیام هنوز لباس خوابشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nursery",
+      "take",
+      "go"
+     ],
+     "suggestion": "I can take William to nursery. You go!",
+     "suggestionFa": "من می‌تونم ویلیام را ببرم مهدکودک. تو برو!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "dress",
+      "tom"
+     ],
+     "suggestion": "Tom can dress William. Where is Tom?",
+     "suggestionFa": "تام می‌تونه لباس ویلیام را بپوشونه. تام کجاست؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fridge",
+     "fa": "یخچال"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    },
+    {
+     "word": "pyjamas",
+     "fa": "لباس خواب"
+    },
+    {
+     "word": "nursery",
+     "fa": "مهدکودک"
+    },
+    {
+     "word": "dress",
+     "fa": "لباس پوشاندن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Tom left at six for the early shift. You'd take William? You're a star. His bag is on the hook. Nursery opens at nine.",
+   "translations": {
+    "fa": "تام ساعت شش برای شیفت صبح رفت. ویلیام را می‌بری؟ تو یه ستاره‌ای. کیفش رو آویزه. مهدکودک ساعت نه باز میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "o'clock",
+      "walk",
+      "nine"
+     ],
+     "suggestion": "No problem. Nine o'clock. I'll walk with him.",
+     "suggestionFa": "مشکلی نیست. ساعت نه. باهاش پیاده میرم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hook",
+      "got",
+      "go"
+     ],
+     "suggestion": "On the hook. Got it. Go, go, go!",
+     "suggestionFa": "رو آویز. فهمیدم. برو، برو، برو!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early shift",
+     "fa": "شیفت صبح"
+    },
+    {
+     "word": "star",
+     "fa": "ستاره ؛ آدم فوق‌العاده"
+    },
+    {
+     "word": "hook",
+     "fa": "آویز ؛ قلاب"
+    },
+    {
+     "word": "opens",
+     "fa": "باز می‌شود"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Nicola, coat! Coat! Not the unicorn wings! It's raining! Oh, never mind — wings AND coat. Bye! Thank you!",
+   "translations": {
+    "fa": "نیکولا، کاپشن! کاپشن! نه بال تک‌شاخ! بارون میاد! اوه، بی‌خیال — بال و کاپشن با هم. خداحافظ! ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "luck",
+      "bye"
+     ],
+     "suggestion": "Bye! Good luck!",
+     "suggestionFa": "خداحافظ! موفق باشید!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "still",
+      "lunch",
+      "wait",
+      "here"
+     ],
+     "suggestion": "Wait — her lunch box! It's still here!",
+     "suggestionFa": "صبر کن — ظرف ناهارش! هنوز اینجاست!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coat",
+     "fa": "کاپشن ؛ پالتو"
+    },
+    {
+     "word": "wings",
+     "fa": "بال‌ها"
+    },
+    {
+     "word": "never mind",
+     "fa": "بی‌خیال ؛ مهم نیست"
+    },
+    {
+     "word": "lunch box",
+     "fa": "ظرف ناهار"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Lunch box! You're a lifesaver. Right — eight-thirty-one. If we run, we'll make it. Nicola, run like a unicorn!",
+   "translations": {
+    "fa": "ظرف ناهار! نجاتم دادی. خب — هشت و سی و یک. اگه بدوییم می‌رسیم. نیکولا، مثل تک‌شاخ بدو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

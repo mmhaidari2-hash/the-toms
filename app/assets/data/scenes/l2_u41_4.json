@@ -1,0 +1,413 @@
+{
+ "id": "l2_u41_4",
+ "characterId": "hughes",
+ "title": "Running late",
+ "titleFa": "دیر رسیدن",
+ "setting": "Making appointments · Level 2",
+ "settingFa": "گرفتن وقت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, Mehdi?",
+   "translations": {
+    "fa": "دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید مهدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "running",
+      "mehdi",
+      "sorry",
+      "late"
+     ],
+     "suggestion": "Yes, it's Mehdi. I'm so sorry — I'm running late.",
+     "suggestionFa": "بله، مهدی‌ام. خیلی ببخشید — دارم دیر می‌کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "traffic",
+      "stuck",
+      "hello",
+      "bus"
+     ],
+     "suggestion": "Hello! The bus is stuck in traffic.",
+     "suggestionFa": "سلام! اتوبوس تو ترافیک گیر کرده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    },
+    {
+     "word": "running late",
+     "fa": "دیر کردن"
+    },
+    {
+     "word": "stuck",
+     "fa": "گیر کرده"
+    },
+    {
+     "word": "traffic",
+     "fa": "ترافیک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "Oh dear. Your appointment's at eight. It's five to eight now. How long do you think you'll be?",
+   "translations": {
+    "fa": "ای وای. وقتتون ساعت هشته. الان پنج دقیقه به هشته. فکر می‌کنید چقدر طول بکشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "minutes",
+      "about",
+      "there"
+     ],
+     "suggestion": "I'll be there in about fifteen minutes.",
+     "suggestionFa": "حدود پونزده دقیقهٔ دیگه اونجام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "accident",
+      "there's",
+      "road",
+      "been"
+     ],
+     "suggestion": "I'm not sure. There's been an accident on the road.",
+     "suggestionFa": "مطمئن نیستم. تو جاده تصادف شده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oh dear",
+     "fa": "ای وای"
+    },
+    {
+     "word": "five to eight",
+     "fa": "پنج دقیقه به هشت"
+    },
+    {
+     "word": "how long",
+     "fa": "چقدر طول"
+    },
+    {
+     "word": "accident",
+     "fa": "تصادف"
+    }
+   ],
+   "cultureNote": {
+    "en": "For future time, say \"in\": \"I'll be there in ten minutes\" — not \"after ten minutes\".",
+    "fa": "برای زمان آینده از «in» استفاده کنید، نه «after»."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i will be there after fifteen minutes",
+      "i'm there in fifteen minute"
+     ],
+     "echo": "In fifteen minutes? OK!",
+     "better": "I'll be there in fifteen minutes.",
+     "betterFa": "پانزده دقیقهٔ دیگر آنجا هستم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Fifteen minutes. Hmm. That only leaves ten minutes for the check-up. But it's a quick one. Is that still OK with you?",
+   "translations": {
+    "fa": "پونزده دقیقه. هوم. اون‌وقت فقط ده دقیقه برای معاینه می‌مونه. ولی معاینهٔ سریعیه. هنوز براتون اشکالی نداره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waiting",
+      "that's",
+      "thank",
+      "fine"
+     ],
+     "suggestion": "Yes, that's fine. Thank you for waiting.",
+     "suggestionFa": "آره، خوبه. ممنون که صبر می‌کنید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "another",
+      "rebook",
+      "should",
+      "day"
+     ],
+     "suggestion": "Or should I rebook for another day?",
+     "suggestionFa": "یا برای یه روز دیگه وقت بگیرم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaves",
+     "fa": "باقی می‌گذارد"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "waiting",
+     "fa": "منتظر ماندن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "No, come in. Thanks for ringing — most people just turn up late. Which bus are you on?",
+   "translations": {
+    "fa": "نه، بیاید. ممنون که زنگ زدید — بیشتر مردم فقط دیر میان. سوار کدوم اتوبوسید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "today",
+      "tom",
+      "but"
+     ],
+     "suggestion": "The 38. But it's not Tom driving today!",
+     "suggestionFa": "۳۸. ولی امروز تام رانندگی نمی‌کنه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "minutes",
+      "number",
+      "moved"
+     ],
+     "suggestion": "The number 38. We haven't moved for five minutes.",
+     "suggestionFa": "شمارهٔ ۳۸. پنج دقیقه‌ست تکون نخوردیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ringing",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "turn up",
+     "fa": "حاضر شدن ؛ آمدن"
+    },
+    {
+     "word": "moved",
+     "fa": "حرکت کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "The 38? Get off at the stop after the library and walk. It's faster — three minutes. The traffic at the lights is awful.",
+   "translations": {
+    "fa": "۳۸؟ ایستگاه بعد از کتابخونه پیاده شید و پیاده بیاید. سریع‌تره — سه دقیقه. ترافیک سر چراغ وحشتناکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "good",
+      "idea",
+      "now"
+     ],
+     "suggestion": "Good idea. I'm getting off now.",
+     "suggestionFa": "فکر خوبیه. دارم پیاده میشم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "after",
+      "thank",
+      "ok"
+     ],
+     "suggestion": "After the library. OK, thank you!",
+     "suggestionFa": "بعد از کتابخونه. باشه، ممنون!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستگاه"
+    },
+    {
+     "word": "faster",
+     "fa": "سریع‌تر"
+    },
+    {
+     "word": "lights",
+     "fa": "چراغ راهنمایی"
+    },
+    {
+     "word": "awful",
+     "fa": "وحشتناک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "There you are! Out of breath, bless you. Sit down, catch your breath. Seven minutes late — not bad at all.",
+   "translations": {
+    "fa": "ایناهاش! نفس‌نفس می‌زنید، خدا حفظتون کنه. بشینید، نفستون جا بیاد. هفت دقیقه دیر — اصلاً بد نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hughes",
+      "delay",
+      "sorry",
+      "mrs"
+     ],
+     "suggestion": "Sorry for the delay, Mrs Hughes.",
+     "suggestionFa": "ببخشید بابت تأخیر خانم هیوز.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "from",
+      "all",
+      "ran"
+     ],
+     "suggestion": "I ran all the way from the library!",
+     "suggestionFa": "از کتابخونه تا اینجا دویدم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "out of breath",
+     "fa": "نفس‌نفس‌زنان"
+    },
+    {
+     "word": "bless you",
+     "fa": "خدا حفظت کند"
+    },
+    {
+     "word": "catch your breath",
+     "fa": "نفس تازه کردن"
+    },
+    {
+     "word": "delay",
+     "fa": "تأخیر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "Don't apologise. You rang, that's what matters. Now — open wide. Hmm. Lovely. All good. You're a model patient.",
+   "translations": {
+    "fa": "عذرخواهی نکنید. زنگ زدید، این مهمه. حالا — دهنتون را باز کنید. هوم. عالی. همه‌چی خوبه. یه بیمار نمونه‌اید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problems",
+      "really"
+     ],
+     "suggestion": "Really? No problems?",
+     "suggestionFa": "واقعاً؟ هیچ مشکلی نیست؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quick",
+      "thank",
+      "was"
+     ],
+     "suggestion": "That was quick! Thank you.",
+     "suggestionFa": "چه سریع بود! ممنون.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "apologise",
+     "fa": "عذرخواهی کردن"
+    },
+    {
+     "word": "matters",
+     "fa": "اهمیت دارد"
+    },
+    {
+     "word": "open wide",
+     "fa": "کامل باز کنید"
+    },
+    {
+     "word": "model patient",
+     "fa": "بیمار نمونه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "hughes",
+   "text": "No problems at all. See you in a year. And next time, take the earlier bus! Have a lovely day.",
+   "translations": {
+    "fa": "اصلاً مشکلی نیست. سال دیگه می‌بینمتون. و دفعهٔ بعد اتوبوس زودتر را بگیرید! روز خوبی داشته باشید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

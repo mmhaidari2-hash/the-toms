@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "absence",
+      "calling",
       "report",
       "won't"
      ],
@@ -117,8 +117,8 @@
      "keywords": [
       "temperature",
       "night",
-      "sick",
-      "been"
+      "been",
+      "sick"
      ],
      "suggestion": "She's been sick in the night and has a temperature.",
      "suggestionFa": "شب استفراغ کرده و تب داره.",
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -171,8 +171,8 @@
      "keywords": [
       "thursday",
       "she'll",
-      "eight",
-      "hours"
+      "forty",
+      "eight"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "asked",
-      "call",
-      "sure"
+      "sure",
+      "call"
      ],
      "suggestion": "I'm not sure. Leslie asked me to call.",
      "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
@@ -338,8 +338,8 @@
     {
      "keywords": [
       "online",
-      "she",
-      "can"
+      "can",
+      "she"
      ],
      "suggestion": "Can she sign it online?",
      "suggestionFa": "می‌تونه آنلاین امضاش کنه؟",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "thank",
-      "great"
+      "great",
+      "would"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

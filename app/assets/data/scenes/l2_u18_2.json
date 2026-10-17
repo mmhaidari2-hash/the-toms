@@ -20,8 +20,8 @@
     {
      "keywords": [
       "person",
-      "real",
       "posh",
+      "real",
       "she"
      ],
      "suggestion": "Very posh! Is she a real person?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "screen",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "I can see it on the screen too.",
      "suggestionFa": "روی صفحه هم می‌بینمش.",
@@ -136,8 +136,8 @@
      "keywords": [
       "terminates",
       "sounds",
-      "don't",
-      "scary"
+      "scary",
+      "don't"
      ],
      "suggestion": "I don't know. \"Terminates\" sounds scary!",
      "suggestionFa": "نمی‌دونم. «ترمینیتس» ترسناک به نظر میاد!",
@@ -231,8 +231,8 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
       "central",
+      "hackney",
       "now",
       "ok"
      ],
@@ -247,7 +247,7 @@
       "that's",
       "ticket",
       "fair",
-      "good"
+      "same"
      ],
      "suggestion": "Same ticket? Good. That's fair.",
      "suggestionFa": "همون بلیت؟ خوبه. منصفانه‌ست.",
@@ -283,8 +283,8 @@
      "keywords": [
       "stopping",
       "pressed",
-      "says",
-      "sign"
+      "sign",
+      "says"
      ],
      "suggestion": "I pressed it. The sign says \"Bus stopping\".",
      "suggestionFa": "زدم. تابلو نوشته «اتوبوس می‌ایستد».",

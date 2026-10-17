@@ -23,8 +23,8 @@
      "keywords": [
       "starving",
       "o'clock",
-      "lunch",
       "shall",
+      "lunch",
       "have"
      ],
      "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "british",
+      "beans",
       "quick",
-      "lunch",
-      "beans"
+      "toast"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
      "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "opener",
       "drawer",
       "you'll",
-      "opener",
-      "open",
-      "love"
+      "love",
+      "open"
      ],
      "suggestion": "You'll love it. Can you open the tin? The tin opener is in the drawer.",
      "suggestionFa": "عاشقش می‌شی. قوطی را باز می‌کنی؟ دربازکن تو کشوئه.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "please",
-      "don't",
       "beans",
+      "don't",
       "them",
-      "stir"
+      "burn"
      ],
      "suggestion": "Stir the beans, please. Don't let them burn!",
      "suggestionFa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!",
@@ -149,8 +149,8 @@
       "toast's",
       "butter",
       "cheese",
-      "yours",
-      "beans"
+      "beans",
+      "yours"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "secret",
       "cheese",
+      "secret",
       "brown",
       "sauce",
       "bit"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "minutes",
+      "cooking",
       "that's",
-      "wash",
-      "kind"
+      "only",
+      "five"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

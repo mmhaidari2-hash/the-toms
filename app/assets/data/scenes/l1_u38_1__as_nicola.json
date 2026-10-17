@@ -24,8 +24,8 @@
       "tomorrow",
       "birthday",
       "daddy's",
-      "secret",
-      "making"
+      "making",
+      "secret"
      ],
      "suggestion": "It's Daddy's birthday tomorrow! I'm making him a card. It's a secret!",
      "suggestionFa": "فردا تولد باباست! دارم براش کارت درست می‌کنم. رازه!",
@@ -48,8 +48,8 @@
      "keywords": [
       "daddy's",
       "drawing",
-      "words",
       "front",
+      "words",
       "help"
      ],
      "suggestion": "I'm drawing a bus on the front. Daddy's bus! Can you help me with the words?",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "birthday",
+      "spell",
       "daddy",
       "happy",
-      "spell",
       "then"
      ],
      "suggestion": "\"To Daddy\". Then \"Happy Birthday\". How do you spell \"birthday\"?",
@@ -98,8 +98,8 @@
      "keywords": [
       "writes",
       "mummy",
+      "done",
       "then",
-      "from",
       "love"
      ],
      "suggestion": "Done! Then what? Mummy writes \"Love from\" at the end.",
@@ -123,9 +123,9 @@
      "keywords": [
       "kisses",
       "should",
-      "daddy",
       "loves",
-      "jokes"
+      "daddy",
+      "write"
      ],
      "suggestion": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
      "suggestionFa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه.",
@@ -148,8 +148,8 @@
      "keywords": [
       "favourite",
       "driver's",
-      "what's",
       "ghetti",
+      "what's",
       "made"
      ],
      "suggestion": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
@@ -173,9 +173,9 @@
      "keywords": [
       "he'll",
       "write",
-      "from",
-      "name",
-      "love"
+      "know",
+      "love",
+      "name"
      ],
      "suggestion": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
      "suggestionFa": "می‌دونم! عاشقش میشه! اسم خودت را هم می‌نویسی؟ از طرف هر دومونه.",
@@ -199,7 +199,7 @@
       "envelope",
       "promise",
       "hiding",
-      "don't",
+      "under",
       "daddy"
      ],
      "suggestion": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",

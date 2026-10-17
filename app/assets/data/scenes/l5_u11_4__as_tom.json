@@ -23,9 +23,9 @@
      "keywords": [
       "someone's",
       "account",
-      "listen",
       "bank's",
-      "trying"
+      "trying",
+      "listen"
      ],
      "suggestion": "My phone says it's the bank's fraud team. They say someone's trying to take money from my account. You're good at this — listen with me.",
      "suggestionFa": "گوشیم می‌گه تیم کلاهبرداری بانکه. می‌گن یکی داره سعی می‌کنه از حسابم پول برداره. تو تو این کار خوبی — باهام گوش بده.",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "account",
       "savings",
-      "before",
+      "account",
       "called",
+      "before",
       "today"
      ],
      "suggestion": "They called me. The man says I need to move my savings to a \"safe account\" today, before it's too late.",
@@ -75,7 +75,7 @@
       "getting",
       "should",
       "angry",
-      "says"
+      "lose"
      ],
      "suggestion": "He's getting angry. He says if I hang up, I'll lose everything. Should I?",
      "suggestionFa": "داره عصبانی میشه. می‌گه اگه قطع کنم، همه چی را از دست می‌دم. قطع کنم؟",
@@ -99,7 +99,7 @@
       "clappers",
       "heart's",
       "going",
-      "like",
+      "done",
       "hung"
      ],
      "suggestion": "Done. I hung up. My heart's going like the clappers. What now?",
@@ -352,7 +352,7 @@
       "ringing",
       "answers",
       "twenty",
-      "grand",
+      "right",
       "queen"
      ],
      "suggestion": "Thank God you were here. Twenty grand, gone, just like that. Right — I'm ringing Dad. He answers every call like it's the Queen.",

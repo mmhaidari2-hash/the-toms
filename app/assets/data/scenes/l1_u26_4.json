@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "feet",
       "hurt",
+      "feet",
       "but"
      ],
      "suggestion": "Yes, but my feet hurt.",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "puddle",
       "jumped",
+      "puddle",
       "every"
      ],
      "suggestion": "She jumped in every puddle!",
@@ -261,9 +261,9 @@
    "branches": [
     {
      "keywords": [
-      "was",
       "how",
-      "day"
+      "day",
+      "was"
      ],
      "suggestion": "Yes, how was your day?",
      "suggestionFa": "آره، روزت چطور بود؟",

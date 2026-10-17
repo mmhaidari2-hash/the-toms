@@ -23,9 +23,9 @@
      "keywords": [
       "breakfast",
       "cereal",
-      "would",
-      "we've",
-      "toast"
+      "toast",
+      "right",
+      "would"
      ],
      "suggestion": "Right, breakfast! We've got toast, cereal and eggs. What would you like?",
      "suggestionFa": "خب، صبحانه! نان تست، غلات و تخم‌مرغ داریم. چی میل داری؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "people",
+      "orange",
       "nicola",
       "would",
       "juice"
@@ -155,8 +155,8 @@
      "keywords": [
       "here's",
       "nicola",
-      "knife",
       "spoon",
+      "knife",
       "plate"
      ],
      "suggestion": "Here's a plate and a knife. Can you pass Nicola a spoon?",
@@ -260,9 +260,9 @@
      "keywords": [
       "breakfast",
       "british",
+      "proper",
       "that's",
-      "school",
-      "proper"
+      "school"
      ],
      "suggestion": "Well done! That's a proper British breakfast. Off to school, Nicola!",
      "suggestionFa": "آفرین! این یه صبحانهٔ واقعی بریتانیایی بود. نیکولا، برو مدرسه!",

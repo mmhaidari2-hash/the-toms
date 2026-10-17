@@ -66,8 +66,8 @@
      "keywords": [
       "that's",
       "dear",
-      "day",
-      "bad"
+      "bad",
+      "day"
      ],
      "suggestion": "Oh dear. That's a bad day!",
      "suggestionFa": "ای وای. روز بدیه!",
@@ -167,8 +167,8 @@
      "keywords": [
       "where",
       "last",
-      "did",
-      "see"
+      "see",
+      "did"
      ],
      "suggestion": "Where did you last see it?",
      "suggestionFa": "آخرین بار کجا دیدیش؟",
@@ -315,8 +315,8 @@
    "branches": [
     {
      "keywords": [
-      "ouch",
       "five",
+      "ouch",
       "nil"
      ],
      "suggestion": "Five–nil? Ouch!",

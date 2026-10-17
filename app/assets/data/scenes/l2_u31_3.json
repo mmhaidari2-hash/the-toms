@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "nervous",
       "needles",
+      "nervous",
       "hate"
      ],
      "suggestion": "Yes, I'm very nervous. I hate needles.",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "little",
+      "will",
       "long",
-      "take",
-      "will"
+      "take"
      ],
      "suggestion": "A little. Will it take long?",
      "suggestionFa": "یه‌کم. طول می‌کشه؟",
@@ -193,10 +193,10 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "feels",
-      "feel",
-      "numb"
+      "can't",
+      "numb",
+      "feel"
      ],
      "suggestion": "No, I can't feel it. It feels numb.",
      "suggestionFa": "نه، حسش نمی‌کنم. بی‌حسه.",
@@ -369,8 +369,8 @@
      "keywords": [
       "british",
       "that's",
-      "hard",
-      "home"
+      "home",
+      "hard"
      ],
      "suggestion": "No hot tea? That's hard for a British home!",
      "suggestionFa": "چای داغ نه؟ برای یه خونهٔ بریتانیایی سخته!",

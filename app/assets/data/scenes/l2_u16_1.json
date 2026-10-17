@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "need",
-      "many",
       "eggs",
+      "many",
+      "need",
       "how"
      ],
      "suggestion": "How many eggs do we need?",
@@ -151,7 +151,7 @@
       "enough",
       "check",
       "text",
-      "mum"
+      "six"
      ],
      "suggestion": "Six is enough. Text your mum to check.",
      "suggestionFa": "شش تا کافیه. به مامانت پیام بده چک کن.",
@@ -244,8 +244,8 @@
      "keywords": [
       "green",
       "pints",
-      "four",
-      "then"
+      "then",
+      "four"
      ],
      "suggestion": "Green top, then. Four pints?",
      "suggestionFa": "پس درِ سبز. چهار پینت؟",
@@ -374,9 +374,9 @@
     {
      "keywords": [
       "what's",
-      "wait",
+      "ryan",
       "hand",
-      "ryan"
+      "wait"
      ],
      "suggestion": "Wait, Ryan. What's in your hand?",
      "suggestionFa": "صبر کن رایان. تو دستت چیه؟",
@@ -413,7 +413,7 @@
       "share",
       "only",
       "but",
-      "if"
+      "ok"
      ],
      "suggestion": "OK, but only if you share.",
      "suggestionFa": "باشه، ولی فقط اگه شریکی بخوریم.",
@@ -425,8 +425,8 @@
      "keywords": [
       "back",
       "ryan",
-      "put",
-      "way"
+      "way",
+      "put"
      ],
      "suggestion": "No way! Put it back, Ryan.",
      "suggestionFa": "به هیچ وجه! برش گردون رایان.",

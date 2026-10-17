@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "school",
+      "before",
       "every",
       "walk",
-      "dog"
+      "day"
      ],
      "suggestion": "See! I can walk the dog every day. Before school!",
      "suggestionFa": "دیدی! هر روز می‌تونم سگ را ببرم بیرون. قبل از مدرسه!",
@@ -265,11 +265,11 @@
    "branches": [
     {
      "keywords": [
-      "muffin",
-      "fluffy",
       "called",
-      "small",
-      "brown"
+      "fluffy",
+      "muffin",
+      "brown",
+      "small"
      ],
      "suggestion": "A small, brown, fluffy one. Called Muffin!",
      "suggestionFa": "یه کوچیک، قهوه‌ای، پشمالو. به اسم مافین!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "goldfish",
-      "don't",
       "scare",
+      "don't",
       "then",
       "nana"
      ],
@@ -424,8 +424,8 @@
     {
      "keywords": [
       "goldfish",
-      "muffin",
       "called",
+      "muffin",
       "daddy",
       "thank"
      ],

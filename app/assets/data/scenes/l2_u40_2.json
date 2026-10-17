@@ -1,0 +1,420 @@
+{
+ "id": "l2_u40_2",
+ "characterId": "callum",
+ "title": "Wrong change",
+ "titleFa": "باقی پول اشتباه",
+ "setting": "Simple complaints · Level 2",
+ "settingFa": "شکایت‌های ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "That's a latte and a cheese toastie. Seven pounds twenty, please. Cash? Lovely. And… two eighty change. Ta!",
+   "translations": {
+    "fa": "یه لاته و یه ساندویچ پنیر تست. هفت پوند و بیست، لطفاً. نقد؟ عالی. و… دو و هشتاد باقی. مرسی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "mistake",
+      "callum",
+      "sorry"
+     ],
+     "suggestion": "Sorry, Callum. I think there's a mistake.",
+     "suggestionFa": "ببخشید کالوم. فکر کنم اشتباهی شده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "gave",
+      "wait",
+      "ten"
+     ],
+     "suggestion": "Wait — I gave you a twenty, not a ten.",
+     "suggestionFa": "صبر کن — من بیست دادم، نه ده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "latte",
+     "fa": "لاته"
+    },
+    {
+     "word": "toastie",
+     "fa": "ساندویچ تست"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    },
+    {
+     "word": "change",
+     "fa": "باقی پول"
+    },
+    {
+     "word": "ta",
+     "fa": "مرسی (عامیانه)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "A mistake? Let me see. You gave me… a ten? That's ten minus seven twenty — two eighty. Correct, isn't it?",
+   "translations": {
+    "fa": "اشتباه؟ بذار ببینم. تو… ده دادی؟ ده منهای هفت و بیست — دو و هشتاد. درسته، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pound",
+      "gave",
+      "note"
+     ],
+     "suggestion": "No, I gave you a twenty-pound note.",
+     "suggestionFa": "نه، من یه اسکناس بیست پوندی دادم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "purple",
+      "sure",
+      "was"
+     ],
+     "suggestion": "I'm sure it was twenty. It was purple.",
+     "suggestionFa": "مطمئنم بیست بود. بنفش بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "minus",
+     "fa": "منهای"
+    },
+    {
+     "word": "correct",
+     "fa": "درست"
+    },
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    },
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "sure",
+     "fa": "مطمئن"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK notes: £5 is blue-green, £10 orange-brown, £20 purple, £50 red. All have the King or the Queen on them.",
+    "fa": "اسکناس‌های بریتانیا: ۵ سبزآبی، ۱۰ نارنجی، ۲۰ بنفش، ۵۰ قرمز."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i gave to you twenty",
+      "i was give you twenty"
+     ],
+     "echo": "I gave you twenty? Let me check.",
+     "better": "I gave you a twenty.",
+     "betterFa": "من به شما یک بیست پوندی دادم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Purple's a twenty, yeah. Oh no. Hang on, let me check the till. Ah — there it is, right on top. A twenty. Sorry!",
+   "translations": {
+    "fa": "بنفش بیست پونده، آره. وای نه. صبر کن، بذار صندوق را چک کنم. آه — ایناهاش، درست بالای همه. یه بیست. ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "easily",
+      "done"
+     ],
+     "suggestion": "No problem. It's easily done.",
+     "suggestionFa": "مشکلی نیست. پیش میاد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worried",
+      "phew",
+      "bit",
+      "was"
+     ],
+     "suggestion": "Phew. I was a bit worried.",
+     "suggestionFa": "وای. یه کم نگران بودم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hang on",
+     "fa": "صبر کن"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "on top",
+     "fa": "روی همه ؛ بالا"
+    },
+    {
+     "word": "easily done",
+     "fa": "راحت پیش می‌آید"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Easily done when you've had four coffees and no sleep. So that's twelve eighty change. Ten, two, and eighty pence.",
+   "translations": {
+    "fa": "راحت پیش میاد وقتی چهار تا قهوه خوردی و نخوابیدی. پس دوازده و هشتاد باقیته. ده، دو و هشتاد پنس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "right",
+      "now"
+     ],
+     "suggestion": "Thank you. That's right now.",
+     "suggestionFa": "ممنون. الان درسته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coffees",
+      "wonder",
+      "tired",
+      "four"
+     ],
+     "suggestion": "Four coffees? No wonder you're tired!",
+     "suggestionFa": "چهار تا قهوه؟ تعجبی نداره خسته‌ای!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no sleep",
+     "fa": "بی‌خوابی"
+    },
+    {
+     "word": "pence",
+     "fa": "پنس"
+    },
+    {
+     "word": "no wonder",
+     "fa": "تعجبی ندارد"
+    },
+    {
+     "word": "tired",
+     "fa": "خسته"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "My band played till two last night. My flatmate's band, I mean. I'm just the drummer now. Anyway — sorry again.",
+   "translations": {
+    "fa": "گروهم دیشب تا دو اجرا کرد. گروه هم‌خونه‌ام، منظورم. الان فقط درامرم. به هر حال — باز ببخشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drums",
+      "cool",
+      "play"
+     ],
+     "suggestion": "You play the drums? Cool!",
+     "suggestionFa": "درام می‌زنی؟ باحاله!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "mistakes",
+      "worry",
+      "don't"
+     ],
+     "suggestion": "Don't worry. Everyone makes mistakes.",
+     "suggestionFa": "نگران نباش. همه اشتباه می‌کنن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "band",
+     "fa": "گروه موسیقی"
+    },
+    {
+     "word": "flatmate",
+     "fa": "هم‌خانه"
+    },
+    {
+     "word": "drummer",
+     "fa": "درامر ؛ نوازندهٔ درام"
+    },
+    {
+     "word": "mistakes",
+     "fa": "اشتباه‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Drums, yeah. Badly! Hey, honest people deserve a reward. Your toastie comes with extra cheese. Don't argue.",
+   "translations": {
+    "fa": "درام، آره. افتضاح! هی، آدم‌های صادق جایزه می‌خوان. ساندویچت با پنیر اضافه میاد. بحث نکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheese",
+      "won't",
+      "argue",
+      "extra"
+     ],
+     "suggestion": "I won't argue with extra cheese!",
+     "suggestionFa": "با پنیر اضافه بحث نمی‌کنم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "thanks",
+      "need",
+      "but"
+     ],
+     "suggestion": "Thanks, but there's no need.",
+     "suggestionFa": "ممنون، ولی لازم نیست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "honest",
+     "fa": "صادق"
+    },
+    {
+     "word": "deserve",
+     "fa": "سزاوار بودن"
+    },
+    {
+     "word": "reward",
+     "fa": "جایزه"
+    },
+    {
+     "word": "argue",
+     "fa": "بحث کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "There's always a need for cheese. And next time, say it louder. Some customers leave and never come back.",
+   "translations": {
+    "fa": "همیشه پنیر لازمه. و دفعهٔ بعد بلندتر بگو. بعضی مشتری‌ها میرن و دیگه برنمی‌گردن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "coffee",
+      "best",
+      "back"
+     ],
+     "suggestion": "I'll always come back. Your coffee is the best.",
+     "suggestionFa": "من همیشه برمی‌گردم. قهوهٔ تو بهترینه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "front",
+      "count",
+      "time",
+      "next"
+     ],
+     "suggestion": "Next time I'll count it in front of you.",
+     "suggestionFa": "دفعهٔ بعد جلوی خودت می‌شمرمش.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customers",
+     "fa": "مشتری‌ها"
+    },
+    {
+     "word": "leave",
+     "fa": "رفتن"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "in front of",
+     "fa": "جلوی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "callum",
+   "text": "Best in Hackney! Tell your mates. Here's your toastie. Careful — the cheese is lava.",
+   "translations": {
+    "fa": "بهترین تو هکنی! به دوستات بگو. اینم ساندویچت. مواظب باش — پنیرش مثل گدازه‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

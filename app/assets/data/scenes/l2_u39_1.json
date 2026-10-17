@@ -1,0 +1,478 @@
+{
+ "id": "l2_u39_1",
+ "characterId": "leslie",
+ "title": "Hanging out the washing",
+ "titleFa": "پهن کردن لباس‌ها",
+ "setting": "Clothes and laundry · Level 2",
+ "settingFa": "لباس و رخت‌شویی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The sun's out! Quick — washing on the line before it rains. Can you give me a hand? This basket weighs a ton.",
+   "translations": {
+    "fa": "آفتاب دراومد! سریع — لباس‌ها رو بند قبل از اینکه بارون بیاد. میشه کمکم کنی؟ این سبد یه تن وزن داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "course",
+      "line"
+     ],
+     "suggestion": "Of course. Where's the line?",
+     "suggestionFa": "البته. بند کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "before",
+      "sunny",
+      "rains"
+     ],
+     "suggestion": "Before it rains? It's sunny!",
+     "suggestionFa": "قبل از بارون؟ آفتابیه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "washing",
+     "fa": "لباس‌های شسته"
+    },
+    {
+     "word": "line",
+     "fa": "بند رخت"
+    },
+    {
+     "word": "give me a hand",
+     "fa": "کمکم کن"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    },
+    {
+     "word": "weighs a ton",
+     "fa": "خیلی سنگین است"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Sunny now. In an hour? Who knows. The line's in the garden, and the pegs are in the bag. Two pegs for each shirt.",
+   "translations": {
+    "fa": "الان آفتابیه. یه ساعت دیگه؟ کی می‌دونه. بند تو باغچه‌ست، گیره‌ها تو کیسه. برای هر پیرهن دو تا گیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shirts",
+      "upside",
+      "right",
+      "pegs"
+     ],
+     "suggestion": "Two pegs. Shirts upside down or the right way up?",
+     "suggestionFa": "دو تا گیره. پیرهن‌ها سروته یا صاف؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "these",
+      "socks",
+      "whose",
+      "many"
+     ],
+     "suggestion": "So many socks! Whose are these?",
+     "suggestionFa": "چقدر جوراب! این‌ها مال کیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "garden",
+     "fa": "باغچه ؛ حیاط"
+    },
+    {
+     "word": "pegs",
+     "fa": "گیره‌های لباس"
+    },
+    {
+     "word": "upside down",
+     "fa": "سروته"
+    },
+    {
+     "word": "the right way up",
+     "fa": "صاف ؛ درست"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Upside down, by the bottom. No peg marks on the shoulders. The socks? Ryan's. He changes them three times a day. Football.",
+   "translations": {
+    "fa": "سروته، از پایین. جای گیره رو شونه‌ها نمی‌مونه. جوراب‌ها؟ مال رایان. روزی سه بار عوض می‌کنه. فوتبال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washing",
+      "that's",
+      "times",
+      "three"
+     ],
+     "suggestion": "Three times a day! That's a lot of washing.",
+     "suggestionFa": "روزی سه بار! این کلی لباس شستنه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "upside",
+      "like",
+      "down",
+      "ok"
+     ],
+     "suggestion": "OK, upside down. Like this?",
+     "suggestionFa": "باشه، سروته. اینجوری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bottom",
+     "fa": "پایین ؛ لبه"
+    },
+    {
+     "word": "marks",
+     "fa": "جای ؛ نشانه"
+    },
+    {
+     "word": "shoulders",
+     "fa": "شانه‌ها"
+    },
+    {
+     "word": "changes",
+     "fa": "عوض می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British homes have no tumble dryer, so people hang washing outside on a line, or on a clothes horse indoors in winter.",
+    "fa": "خیلی از خانه‌های بریتانیا خشک‌کن ندارند؛ لباس را بیرون روی بند یا در زمستان روی رخت‌آویز داخل خانه پهن می‌کنند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "A load a day, every day. Perfect. Now the bedsheets — you take that end. We fold them in half, then peg them.",
+   "translations": {
+    "fa": "هر روز یه ماشین، هر روز. عالیه. حالا ملافه‌ها — تو اون سرش را بگیر. نصفش می‌کنیم، بعد گیره می‌زنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fold",
+      "half",
+      "end",
+      "ok"
+     ],
+     "suggestion": "This end? OK. Fold in half.",
+     "suggestionFa": "این سرش؟ باشه. نصف کنیم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "double",
+      "sheet",
+      "huge",
+      "bed"
+     ],
+     "suggestion": "The sheet is huge! Is this for a double bed?",
+     "suggestionFa": "ملافه خیلی بزرگه! برای تخت دونفره‌ست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a load",
+     "fa": "یک بار ماشین"
+    },
+    {
+     "word": "bedsheets",
+     "fa": "ملافه‌ها"
+    },
+    {
+     "word": "end",
+     "fa": "سر ؛ انتها"
+    },
+    {
+     "word": "fold",
+     "fa": "تا کردن"
+    },
+    {
+     "word": "in half",
+     "fa": "از وسط"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "King-size. Tom takes up the whole bed. Hmm — is that a cloud? Oh no. That's a big grey cloud.",
+   "translations": {
+    "fa": "کینگ‌سایز. تام کل تخت را می‌گیره. هوم — اون ابره؟ وای نه. اون یه ابر خاکستری بزرگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "bring",
+      "we"
+     ],
+     "suggestion": "Should we bring it in?",
+     "suggestionFa": "بیاریمشون تو؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "maybe",
+      "wait",
+      "pass"
+     ],
+     "suggestion": "Maybe it will pass. Let's wait.",
+     "suggestionFa": "شاید رد بشه. بیا صبر کنیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "takes up",
+     "fa": "اشغال می‌کند"
+    },
+    {
+     "word": "cloud",
+     "fa": "ابر"
+    },
+    {
+     "word": "grey",
+     "fa": "خاکستری"
+    },
+    {
+     "word": "bring in",
+     "fa": "آوردن داخل"
+    },
+    {
+     "word": "pass",
+     "fa": "رد شدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we should bring in it",
+      "should we bring it inside in"
+     ],
+     "echo": "Should we bring it in? Quick!",
+     "better": "Should we bring it in?",
+     "betterFa": "بیاوریمش داخل؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "It passed! Phew. Right, let's leave it for two hours. Ryan's football kit is dry enough to iron already, look.",
+   "translations": {
+    "fa": "رد شد! وای. خب، بذاریم دو ساعت بمونه. لباس فوتبال رایان همین الان به‌اندازهٔ کافی خشکه که اتو بشه، ببین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "already",
+      "strong",
+      "wow",
+      "sun"
+     ],
+     "suggestion": "Wow. Already? The sun is strong.",
+     "suggestionFa": "وای. به این زودی؟ آفتاب قویه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "house",
+      "irons",
+      "who"
+     ],
+     "suggestion": "Who irons in this house?",
+     "suggestionFa": "تو این خونه کی اتو می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phew",
+     "fa": "وای (آسودگی)"
+    },
+    {
+     "word": "football kit",
+     "fa": "لباس فوتبال"
+    },
+    {
+     "word": "dry enough",
+     "fa": "به اندازهٔ کافی خشک"
+    },
+    {
+     "word": "iron",
+     "fa": "اتو کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Who irons? Good question. Nobody, mostly! Tom irons his work shirt on Monday morning, five minutes before his shift.",
+   "translations": {
+    "fa": "کی اتو می‌کنه؟ سؤال خوبیه. بیشتر وقتا هیچ‌کس! تام صبح دوشنبه، پنج دقیقه قبل از شیفتش، پیرهن کارش را اتو می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "fast",
+      "five"
+     ],
+     "suggestion": "Five minutes! That's very fast.",
+     "suggestionFa": "پنج دقیقه! خیلی سریعه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "taught",
+      "iron",
+      "mum",
+      "can"
+     ],
+     "suggestion": "I can iron. My mum taught me.",
+     "suggestionFa": "من اتو بلدم. مامانم یادم داد.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mostly",
+     "fa": "بیشتر وقت‌ها"
+    },
+    {
+     "word": "work shirt",
+     "fa": "پیرهن کار"
+    },
+    {
+     "word": "shift",
+     "fa": "شیفت"
+    },
+    {
+     "word": "taught",
+     "fa": "یاد داد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Wait — I felt a drop. It's raining! Bring it in! Bring it all in! Grab the sheets!",
+   "translations": {
+    "fa": "صبر کن — یه قطره حس کردم. داره بارون میاد! بیارشون تو! همه را بیار تو! ملافه‌ها را بگیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sheets",
+      "i've",
+      "got",
+      "run"
+     ],
+     "suggestion": "I've got the sheets! Run!",
+     "suggestionFa": "ملافه‌ها را گرفتم! بدو!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan's",
+      "socks",
+      "there",
+      "still"
+     ],
+     "suggestion": "The socks! Ryan's socks are still out there!",
+     "suggestionFa": "جوراب‌ها! جوراب‌های رایان هنوز بیرونن!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drop",
+     "fa": "قطره"
+    },
+    {
+     "word": "grab",
+     "fa": "قاپیدن ؛ گرفتن"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "out there",
+     "fa": "اون بیرون"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Leave the socks! Ha! Ugh, everything's still damp. Clothes horse in the living room again. Welcome to British washing!",
+   "translations": {
+    "fa": "جوراب‌ها را ول کن! ها! اَه، همه‌چی هنوز نم داره. باز رخت‌آویز تو پذیرایی. به لباس‌شویی بریتانیایی خوش اومدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

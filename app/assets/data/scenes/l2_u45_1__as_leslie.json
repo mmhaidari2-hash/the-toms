@@ -1,0 +1,307 @@
+{
+ "id": "l2_u45_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Swimming lessons",
+ "titleFa": "(در نقش Leslie) کلاس شنا",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u45_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finishes",
+      "nicola's",
+      "swimming",
+      "william",
+      "minutes"
+     ],
+     "suggestion": "Nicola's swimming lesson finishes in ten minutes. Thanks for coming — I can't watch and hold William at the same time.",
+     "suggestionFa": "کلاس شنای نیکولا ده دقیقه دیگه تموم میشه. ممنون که اومدی — نمی‌تونم هم تماشا کنم هم ویلیام را بغل کنم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No problem. How often is her lesson?",
+   "translations": {
+    "fa": "مشکلی نیست. کلاسش چند وقت یه باره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mornings",
+      "learning",
+      "armbands",
+      "saturday",
+      "months"
+     ],
+     "suggestion": "Once a week, Saturday mornings. She's been learning for six months now. She's in Stage 2 — no armbands!",
+     "suggestionFa": "هفته‌ای یه بار، شنبه صبح‌ها. شش ماهه داره یاد می‌گیره. الان مرحلهٔ ۲ـه — بدون بازوبند!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No armbands! That's great.",
+   "translations": {
+    "fa": "بدون بازوبند! عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "little",
+      "she's",
+      "width",
+      "doing"
+     ],
+     "suggestion": "Fast, yes. She's a little fish. Look — she's doing her width! Come on, Nicola! Kick your legs!",
+     "suggestionFa": "سریع، آره. یه ماهی کوچولوئه. ببین — داره عرض استخر را میره! یالا نیکولا! پاهات را بزن!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Come on, Nicola! You can do it!",
+   "translations": {
+    "fa": "یالا نیکولا! می‌تونی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looking",
+      "across",
+      "length",
+      "she's",
+      "long"
+     ],
+     "suggestion": "Across the pool, from side to side. A length is the long way. She did it! Wave to her — she's looking.",
+     "suggestionFa": "از این طرف استخر به اون طرف. «لنث» راه درازه. انجامش داد! براش دست تکون بده — داره نگاه می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Well done, Nicola! Brilliant!",
+   "translations": {
+    "fa": "آفرین نیکولا! عالی بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "metres",
+      "she'll",
+      "towel",
+      "today",
+      "badge"
+     ],
+     "suggestion": "She'll get her badge today. Ten metres. I'll sew it on her towel. My mum did the same for me.",
+     "suggestionFa": "امروز نشانش را می‌گیره. ده متر. رو حوله‌اش می‌دوزمش. مامانم هم برای من همین کار را کرد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "How much do the lessons cost?",
+   "translations": {
+    "fa": "کلاس‌ها چقدر هزینه داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beginners'",
+      "tuesday",
+      "there's",
+      "leisure",
+      "pounds"
+     ],
+     "suggestion": "Forty-eight pounds a month, at the leisure centre. Adults? Yes! There's an adult beginners' class on Tuesday nights.",
+     "suggestionFa": "ماهی چهل و هشت پوند، تو مرکز تفریحی. بزرگسال‌ها؟ آره! سه‌شنبه شب‌ها یه کلاس مبتدی بزرگسالان هست.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Really? I can't swim very well.",
+   "translations": {
+    "fa": "واقعاً؟ من خیلی خوب شنا بلد نیستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "judges",
+      "nobody",
+      "should",
+      "adult"
+     ],
+     "suggestion": "It's not, but it's important. Every child should learn to swim. And you should try the adult class. Nobody judges!",
+     "suggestionFa": "نیست، ولی مهمه. هر بچه‌ای باید شنا یاد بگیره. و تو باید کلاس بزرگسالان را امتحان کنی. هیچ‌کس قضاوت نمی‌کنه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Maybe I will. Then Nicola can teach me!",
+   "translations": {
+    "fa": "شاید رفتم. بعد نیکولا می‌تونه بهم یاد بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teaching",
+      "nicola",
+      "comes",
+      "she'd",
+      "proud"
+     ],
+     "suggestion": "Nicola, teaching you to swim? She'd love that. Here she comes — wet, cold and very proud.",
+     "suggestionFa": "نیکولا، بهت شنا یاد بده؟ عاشقش میشه. ایناهاش داره میاد — خیس، سرد و خیلی مغرور.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Here she is! Look at her smile.",
+   "translations": {
+    "fa": "ایناهاش! لبخندش را ببین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "nicola",
+   "text": "I did a width! With NO armbands! I'm a mermaid now!",
+   "translations": {
+    "fa": "عرض استخر را رفتم! بدون بازوبند! الان یه پری دریاییم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "proud",
+     "fa": "مغرور ؛ سربلند"
+    },
+    {
+     "word": "mermaid",
+     "fa": "پری دریایی"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "You're a real mermaid! I'm so proud of you.",
+   "translations": {
+    "fa": "یه پری دریایی واقعی هستی! خیلی بهت افتخار می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "saturday",
+      "mermaid",
+      "shower",
+      "that's"
+     ],
+     "suggestion": "A mermaid with a badge! Right, quick shower, then hot chocolate. That's the Saturday deal.",
+     "suggestionFa": "یه پری دریایی با نشان! خب، یه دوش سریع، بعد شکلات داغ. قرار شنبه‌ها اینه.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,458 @@
+{
+ "id": "l2_u41_3",
+ "characterId": "leslie",
+ "title": "Cancelling politely",
+ "titleFa": "لغو مؤدبانه",
+ "setting": "Making appointments · Level 2",
+ "settingFa": "گرفتن وقت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You look worried. What's wrong? Oh — the dentist. Monday at ten past four. And your new job starts on Monday!",
+   "translations": {
+    "fa": "نگران به نظر میای. چی شده؟ اوه — دندون‌پزشکی. دوشنبه چهار و ده. و کار جدیدت دوشنبه شروع میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shift",
+      "can't",
+      "make",
+      "ends"
+     ],
+     "suggestion": "Yes. My shift ends at six. I can't make it.",
+     "suggestionFa": "آره. شیفتم ساعت شش تموم میشه. نمی‌تونم برسم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cancel",
+      "don't",
+      "rude",
+      "want"
+     ],
+     "suggestion": "I don't want to be rude. How do I cancel?",
+     "suggestionFa": "نمی‌خوام بی‌ادب باشم. چطوری لغوش کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "shift",
+     "fa": "شیفت"
+    },
+    {
+     "word": "ends",
+     "fa": "تمام می‌شود"
+    },
+    {
+     "word": "can't make it",
+     "fa": "نمی‌توانم برسم"
+    },
+    {
+     "word": "rude",
+     "fa": "بی‌ادب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "It's not rude! Everyone cancels. The rude thing is not turning up. Some dentists even charge you, or take you off their list.",
+   "translations": {
+    "fa": "بی‌ادبی نیست! همه لغو می‌کنن. بی‌ادبی اینه که نیای. بعضی دندون‌پزشک‌ها حتی پول می‌گیرن، یا اسمت را از فهرستشون خط می‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "serious",
+      "that's",
+      "take",
+      "list"
+     ],
+     "suggestion": "Take me off the list? That's serious!",
+     "suggestionFa": "اسمم را خط بزنن؟ جدیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "should",
+      "soon",
+      "call"
+     ],
+     "suggestion": "So I should call as soon as possible.",
+     "suggestionFa": "پس باید هر چه زودتر زنگ بزنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cancels",
+     "fa": "لغو می‌کند"
+    },
+    {
+     "word": "turning up",
+     "fa": "حاضر شدن ؛ آمدن"
+    },
+    {
+     "word": "charge",
+     "fa": "پول گرفتن"
+    },
+    {
+     "word": "list",
+     "fa": "فهرست"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, many surgeries ask for 24 hours' notice to cancel. Missing an appointment without telling them is called a \"DNA\" — did not attend.",
+    "fa": "خیلی از مطب‌ها برای لغو ۲۴ ساعت قبل را می‌خواهند؛ نرفتن بدون خبر را «DNA» می‌گویند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Exactly. At least twenty-four hours before. Let's practise. I'm Mrs Hughes. Ring ring! \"Smile Dental, Mrs Hughes speaking.\"",
+   "translations": {
+    "fa": "دقیقاً. حداقل بیست و چهار ساعت قبل. بیا تمرین کنیم. من خانم هیوزم. دینگ دینگ! «دندان‌پزشکی اسمایل، هیوز هستم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "monday",
+      "afraid",
+      "can't"
+     ],
+     "suggestion": "Hello. I'm afraid I can't make my appointment on Monday.",
+     "suggestionFa": "سلام. متأسفانه نمی‌تونم به وقتم تو دوشنبه برسم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cancel",
+      "want",
+      "hi"
+     ],
+     "suggestion": "Hi. I want to cancel.",
+     "suggestionFa": "سلام. می‌خوام لغو کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at least",
+     "fa": "حداقل"
+    },
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i'm afraid i can't to make",
+      "i afraid i can't make"
+     ],
+     "echo": "I'm afraid you can't make it? No problem.",
+     "better": "I'm afraid I can't make my appointment.",
+     "betterFa": "متأسفانه نمی‌توانم به وقتم برسم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Good! \"I'm afraid\" is lovely and soft. \"I want to cancel\" is a bit direct. Add a reason and say sorry. Again!",
+   "translations": {
+    "fa": "خوبه! «متأسفانه» قشنگ و نرمه. «می‌خوام لغو کنم» یه کم رکه. یه دلیل اضافه کن و عذرخواهی کن. دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "started",
+      "working",
+      "really",
+      "sorry"
+     ],
+     "suggestion": "I'm really sorry, but I've started a new job and I'm working.",
+     "suggestionFa": "واقعاً متأسفم، ولی کار جدیدی شروع کردم و سر کارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reason",
+      "give",
+      "need"
+     ],
+     "suggestion": "Do I need to give a reason?",
+     "suggestionFa": "باید دلیل بیارم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "soft",
+     "fa": "نرم"
+    },
+    {
+     "word": "direct",
+     "fa": "رُک ؛ مستقیم"
+    },
+    {
+     "word": "reason",
+     "fa": "دلیل"
+    },
+    {
+     "word": "really sorry",
+     "fa": "واقعاً متأسف"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "You don't have to, but it's friendly. Perfect. Now \"Mrs Hughes\" says: \"Oh, congratulations! Would you like to rebook?\"",
+   "translations": {
+    "fa": "لازم نیست، ولی دوستانه‌ست. عالی. حالا «خانم هیوز» میگه: «اوه، تبریک! می‌خواید دوباره وقت بگیرید؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "rebook",
+      "please",
+      "could"
+     ],
+     "suggestion": "Yes please. Could I rebook for a Saturday?",
+     "suggestionFa": "لطفاً بله. میشه برای یه شنبه دوباره رزرو کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "back",
+      "week",
+      "next"
+     ],
+     "suggestion": "Not now, thank you. I'll call back next week.",
+     "suggestionFa": "الان نه، ممنون. هفتهٔ بعد دوباره زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "friendly",
+     "fa": "دوستانه"
+    },
+    {
+     "word": "congratulations",
+     "fa": "تبریک"
+    },
+    {
+     "word": "rebook",
+     "fa": "دوباره رزرو کردن"
+    },
+    {
+     "word": "call back",
+     "fa": "دوباره زنگ زدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Hmm, Smile Dental is closed on Saturdays. \"How about early morning? I've got eight o'clock on the twenty-eighth.\"",
+   "translations": {
+    "fa": "هوم، اسمایل شنبه‌ها تعطیله. «صبح زود چطور؟ بیست و هشتم ساعت هشت دارم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "eight",
+      "great",
+      "thank"
+     ],
+     "suggestion": "Eight o'clock is great. Thank you so much.",
+     "suggestionFa": "ساعت هشت عالیه. خیلی ممنون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "eighth",
+      "check",
+      "rota"
+     ],
+     "suggestion": "The twenty-eighth? Let me check my rota.",
+     "suggestionFa": "بیست و هشتم؟ بذار برنامهٔ شیفتم را چک کنم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "closed",
+     "fa": "تعطیل"
+    },
+    {
+     "word": "how about",
+     "fa": "چطور است"
+    },
+    {
+     "word": "early morning",
+     "fa": "صبح زود"
+    },
+    {
+     "word": "rota",
+     "fa": "برنامهٔ نوبت کاری"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Excellent. And finish nicely: \"Thanks for understanding.\" British people love that. Now do the real call!",
+   "translations": {
+    "fa": "عالی. و قشنگ تمومش کن: «ممنون که درک می‌کنید.» بریتانیایی‌ها عاشق اینن. حالا تماس واقعی را بگیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ringing",
+      "nervous"
+     ],
+     "suggestion": "OK. It's ringing. I'm nervous!",
+     "suggestionFa": "باشه. داره زنگ می‌خوره. مضطربم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understanding",
+      "thanks"
+     ],
+     "suggestion": "Thanks for understanding. Thanks for understanding. OK!",
+     "suggestionFa": "ممنون که درک می‌کنید. ممنون که درک می‌کنید. باشه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "nicely",
+     "fa": "به خوبی"
+    },
+    {
+     "word": "understanding",
+     "fa": "درک ؛ فهم"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ha — it's the answerphone. Leave a message: your name, your appointment, \"I'm afraid I can't make it\", and your number. Slowly!",
+   "translations": {
+    "fa": "ها — پیغام‌گیره. پیام بذار: اسمت، وقتت، «متأسفانه نمی‌تونم برسم»، و شماره‌ات. آروم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monday",
+      "afraid",
+      "mehdi",
+      "sorry"
+     ],
+     "suggestion": "Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry!",
+     "suggestionFa": "سلام، مهدی هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "forgot"
+     ],
+     "suggestion": "I forgot my number! What is it?",
+     "suggestionFa": "شماره‌ام یادم رفت! چنده؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "answerphone",
+     "fa": "پیغام‌گیر"
+    },
+    {
+     "word": "leave a message",
+     "fa": "پیام گذاشتن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Perfect message! Polite, clear, sorry. Mrs Hughes will love it. You'll be cancelling like a native in no time.",
+   "translations": {
+    "fa": "پیام عالی! مؤدب، واضح، با عذرخواهی. خانم هیوز عاشقش میشه. به‌زودی مثل یه بومی لغو می‌کنی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

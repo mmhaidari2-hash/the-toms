@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "cost",
       "much",
+      "cost",
       "how"
      ],
      "suggestion": "No. How much does it cost?",
@@ -196,8 +196,8 @@
      "keywords": [
       "thought",
       "free",
-      "was",
-      "nhs"
+      "nhs",
+      "was"
      ],
      "suggestion": "Not free? I thought the NHS was free.",
      "suggestionFa": "رایگان نیست؟ فکر می‌کردم NHS رایگانه.",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "private",
       "cheaper",
+      "private",
       "that's",
       "isn't"
      ],

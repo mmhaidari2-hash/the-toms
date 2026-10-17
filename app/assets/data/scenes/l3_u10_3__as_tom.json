@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturdays",
+      "council",
       "library",
       "leaflet",
-      "council",
-      "money"
+      "close"
      ],
      "suggestion": "Have you seen this leaflet? The council wants to close the library on Saturdays to save money.",
      "suggestionFa": "این بروشور را دیدی؟ شورای شهر می‌خواد برای صرفه‌جویی، کتابخونه را شنبه‌ها ببنده.",
@@ -74,8 +74,8 @@
       "councillor",
       "closures",
       "proposed",
-      "concern",
-      "library"
+      "library",
+      "express"
      ],
      "suggestion": "\"Dear Councillor Shah, I am writing to express my concern about the proposed library closures.\" Too formal?",
      "suggestionFa": "«عضو محترم شورا، آقای شاه، برای ابراز نگرانی دربارهٔ تعطیلی‌های پیشنهادی کتابخانه می‌نویسم.» زیادی رسمیه؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "resident",
-      "students",
       "families",
+      "students",
+      "resident",
       "library",
-      "fifteen"
+      "believe"
      ],
      "suggestion": "Good. \"As a resident of fifteen years, I believe the library is vital for families, students and older people.\"",
      "suggestionFa": "خوبه. «به عنوان ساکن پانزده‌ساله، معتقدم کتابخانه برای خانواده‌ها، دانشجویان و سالمندان حیاتی است.»",
@@ -150,7 +150,7 @@
       "nobody",
       "maggie",
       "yours",
-      "doris"
+      "right"
      ],
      "suggestion": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Maggie to sign it too. Nobody says no to Doris!",
      "suggestionFa": "«با احترام، تام.» تموم شد. خب — بیا دوریس و مگی هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!",

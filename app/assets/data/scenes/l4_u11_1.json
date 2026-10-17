@@ -87,8 +87,8 @@
     {
      "keywords": [
       "query",
-      "like",
       "bill",
+      "like",
       "i'd"
      ],
      "suggestion": "Yes — PH 0045 7721. I'd like to query a bill.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "right",
-      "he's",
       "over",
-      "i'll"
+      "he's",
+      "pass"
      ],
      "suggestion": "He's right here. I'll pass you over.",
      "suggestionFa": "همین‌جاست. گوشی را بهش می‌دم.",
@@ -176,7 +176,7 @@
       "doesn't",
       "higher",
       "times",
-      "three"
+      "usual"
      ],
      "suggestion": "It's three times higher than usual. That doesn't seem right.",
      "suggestionFa": "سه برابر معمولیه. به نظر درست نمیاد.",
@@ -189,7 +189,7 @@
       "doubled",
       "amount",
       "we've",
-      "used"
+      "same"
      ],
      "suggestion": "We've used the same amount as last year, but it's doubled.",
      "suggestionFa": "همون مقدار پارسال مصرف کردیم، ولی دو برابر شده.",
@@ -235,8 +235,8 @@
     {
      "keywords": [
       "stairs",
-      "under",
       "meter",
+      "under",
       "old"
      ],
      "suggestion": "No, it's an old meter under the stairs.",
@@ -249,8 +249,8 @@
      "keywords": [
       "readings",
       "sending",
-      "don't",
-      "think"
+      "think",
+      "don't"
      ],
      "suggestion": "We do, but I don't think it's sending readings.",
      "suggestionFa": "داریم، ولی فکر نکنم خوانش‌ها را بفرسته.",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "instead",
+      "meter",
       "shall",
-      "photo",
-      "meter"
+      "photo"
      ],
      "suggestion": "Shall I send a photo of the meter instead?",
      "suggestionFa": "به جاش یه عکس از کنتور بفرستم؟",
@@ -348,8 +348,8 @@
      "keywords": [
       "reduced",
       "direct",
-      "could",
-      "debit"
+      "debit",
+      "could"
      ],
      "suggestion": "Could the direct debit be reduced, then?",
      "suggestionFa": "پس می‌شه برداشت مستقیم را کم کرد؟",

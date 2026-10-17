@@ -73,9 +73,9 @@
     {
      "keywords": [
       "entered",
+      "wrong",
       "times",
-      "three",
-      "wrong"
+      "three"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
      "suggestionFa": "آره. سه بار رمز اشتباه زدم.",
@@ -87,8 +87,8 @@
      "keywords": [
       "didn't",
       "come",
-      "put",
-      "out"
+      "out",
+      "put"
      ],
      "suggestion": "No! I put it in and it didn't come out.",
      "suggestionFa": "نه! گذاشتمش تو و بیرون نیومد.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "card",
-      "will",
       "when",
-      "get"
+      "will",
+      "new"
      ],
      "suggestion": "When will I get the new card?",
      "suggestionFa": "کارت جدید را کی می‌گیرم؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "food",
-      "five",
       "days",
+      "five",
       "how"
      ],
      "suggestion": "Five days? How do I buy food?",
@@ -314,8 +314,8 @@
      "keywords": [
       "fifty",
       "take",
-      "can",
-      "out"
+      "out",
+      "can"
      ],
      "suggestion": "Can I take out fifty pounds?",
      "suggestionFa": "می‌تونم پنجاه پوند بردارم؟",
@@ -351,8 +351,8 @@
      "keywords": [
       "changed",
       "forgot",
-      "know",
-      "last"
+      "last",
+      "know"
      ],
      "suggestion": "I know. I changed it last week and forgot!",
      "suggestionFa": "می‌دونم. هفتهٔ پیش عوضش کردم و یادم رفت!",

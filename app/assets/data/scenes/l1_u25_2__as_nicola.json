@@ -73,8 +73,8 @@
       "cardigan",
       "buttons",
       "thank",
-      "yay",
-      "got"
+      "got",
+      "yay"
      ],
      "suggestion": "Yay! Thank you! Now my cardigan. It's got big buttons.",
      "suggestionFa": "هورا! ممنون! حالا ژاکت دکمه‌دارم. دکمه‌های بزرگ داره.",
@@ -95,8 +95,8 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "wrong",
+      "three",
       "one",
       "two",
       "oh"
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "again",
-      "four",
+      "three",
+      "done",
       "five",
-      "done"
+      "four"
      ],
      "suggestion": "Again… one, two, three, four, five! Done!",
      "suggestionFa": "دوباره… یک، دو، سه، چهار، پنج! تموم!",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "velcro",
-      "shoes",
       "stick",
+      "shoes",
       "have",
       "rip"
      ],
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "bunny",
-      "ryan",
-      "says",
       "ears",
-      "show"
+      "ryan",
+      "show",
+      "says"
      ],
      "suggestion": "Not yet. Ryan says \"bunny ears\". Can you show me?",
      "suggestionFa": "هنوز نه. رایان می‌گه «گوش خرگوشی». نشونم می‌دی؟",
@@ -199,7 +199,7 @@
       "loops",
       "pull",
       "like",
-      "did"
+      "bow"
      ],
      "suggestion": "Like this? Two loops… cross… pull! I did a bow!",
      "suggestionFa": "این‌جوری؟ دو تا حلقه… ضربدر… بکش! یه پاپیون درست کردم!",
@@ -222,9 +222,9 @@
      "keywords": [
       "buttons",
       "mummy",
-      "girl",
       "look",
-      "zip"
+      "girl",
+      "bow"
      ],
      "suggestion": "I'm a big girl now! Mummy, look! I did my zip, my buttons and a bow!",
      "suggestionFa": "من الان دختر بزرگی‌ام! مامان، ببین! زیپم، دکمه‌هام و یه پاپیون را خودم بستم!",

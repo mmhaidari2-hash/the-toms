@@ -81,8 +81,8 @@
      "keywords": [
       "minutes",
       "about",
-      "five",
-      "away"
+      "away",
+      "five"
      ],
      "suggestion": "Yes, about five minutes away.",
      "suggestionFa": "بله، حدود پنج دقیقه فاصله.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "will",
+      "from",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "fifteen",
-      "keep",
       "long",
-      "them"
+      "them",
+      "keep"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "lose",
       "book",
+      "lose",
       "if"
      ],
      "suggestion": "What if I lose a book?",

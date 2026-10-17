@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "school",
       "nicola",
-      "don't",
-      "loves"
+      "school",
+      "loves",
+      "worry"
      ],
      "suggestion": "Don't worry. Nicola loves school!",
      "suggestionFa": "نگران نباش. نیکولا عاشق مدرسه‌ست!",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "teacher",
       "nervous",
+      "teacher",
       "why"
      ],
      "suggestion": "Why are you nervous? You're a teacher!",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "hard",
-      "said"
+      "said",
+      "hard"
      ],
      "suggestion": "\"Said\" is hard for me too!",
      "suggestionFa": "«said» برای منم سخته!",
@@ -293,8 +293,8 @@
      "keywords": [
       "practise",
       "list",
-      "can",
-      "her"
+      "her",
+      "can"
      ],
      "suggestion": "Can I practise the list with her?",
      "suggestionFa": "می‌تونم فهرست را باهاش تمرین کنم؟",
@@ -382,9 +382,9 @@
    "branches": [
     {
      "keywords": [
-      "we'll",
-      "thank",
       "every",
+      "thank",
+      "we'll",
       "read"
      ],
      "suggestion": "Thank you. We'll read every day.",
@@ -397,8 +397,8 @@
      "keywords": [
       "william",
       "student",
-      "love",
-      "will"
+      "will",
+      "love"
      ],
      "suggestion": "William will love that. He can be the student!",
      "suggestionFa": "ویلیام عاشقش میشه. اون می‌تونه شاگرد باشه!",

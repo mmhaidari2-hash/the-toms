@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "typical",
+      "british",
       "raining",
       "summer",
-      "third"
+      "again"
      ],
      "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
      "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
@@ -49,8 +49,8 @@
       "afternoon",
       "sometimes",
       "weather",
-      "tehran",
-      "what's"
+      "what's",
+      "tehran"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
      "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "check",
-      "lucky",
-      "going",
       "phone",
-      "here"
+      "check",
+      "going",
+      "lucky",
+      "grey"
      ],
      "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
      "suggestionFa": "گرم و خشک! خوش به حالت. اینجا خاکستری و خیسه. بند میاد؟ بذار با گوشیم ببینم.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "showers",
-      "means",
       "heavy",
-      "then",
-      "says"
+      "means",
+      "rain",
+      "lots"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
      "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "driving",
-      "shower",
       "steamy",
-      "from",
-      "gets"
+      "shower",
+      "gets",
+      "from"
      ],
      "suggestion": "Ha! Yes, a shower from the sky! I'm driving all day. The bus gets so wet and steamy.",
      "suggestionFa": "ها! آره، دوش از آسمون! من کل روز رانندگی می‌کنم. اتوبوس خیلی خیس و بخار گرفته میشه.",
@@ -173,8 +173,8 @@
      "keywords": [
       "exactly",
       "leslie",
-      "watch",
       "comes",
+      "watch",
       "face"
      ],
      "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "umbrella",
-      "perfect",
       "british",
+      "perfect",
       "where's",
       "ryan's"
      ],

@@ -24,8 +24,8 @@
       "trainers",
       "choose",
       "forty",
-      "help",
-      "quid"
+      "quid",
+      "gave"
      ],
      "suggestion": "Mum gave me forty quid for new trainers. Can you help me choose?",
      "suggestionFa": "مامان چهل پوند داد برای کتونی نو. کمکم می‌کنی انتخاب کنم؟",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "think",
       "those",
       "these",
       "there",
+      "think",
       "white"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
@@ -74,8 +74,8 @@
       "thirty",
       "pounds",
       "those",
-      "forty",
-      "these"
+      "these",
+      "forty"
      ],
      "suggestion": "Those are forty-five pounds. These are thirty-five. Hmm.",
      "suggestionFa": "اون‌ها چهل‌وپنج پوندن. این‌ها سی‌وپنج. هوم.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "they're",
-      "bigger",
       "better",
+      "bigger",
       "small",
       "tens"
      ],
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "really",
-      "comfy",
       "chips",
-      "some",
-      "quid"
+      "comfy",
+      "quid",
+      "i've"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",
      "suggestionFa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟",

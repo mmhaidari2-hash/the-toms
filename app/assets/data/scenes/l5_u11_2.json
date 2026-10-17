@@ -138,7 +138,7 @@
       "unnecessary",
       "explain",
       "could",
-      "feels"
+      "shock"
      ],
      "suggestion": "Could you explain what an unnecessary shock feels like?",
      "suggestionFa": "می‌تونید توضیح بدید شوک غیرضروری چه حسی داره؟",
@@ -244,9 +244,9 @@
     {
      "keywords": [
       "needs",
-      "maybe",
       "think",
-      "over"
+      "maybe",
+      "time"
      ],
      "suggestion": "Maybe he needs time to think it over.",
      "suggestionFa": "شاید وقت لازم داره که بهش فکر کنه.",
@@ -291,7 +291,7 @@
       "advise",
       "would",
       "his",
-      "gp"
+      "as"
      ],
      "suggestion": "What would you advise, as his GP?",
      "suggestionFa": "به عنوان پزشکش، شما چه توصیه‌ای می‌کنید؟",
@@ -352,7 +352,7 @@
       "reassure",
       "control",
       "losing",
-      "fears"
+      "might"
      ],
      "suggestion": "That might reassure him. He fears losing control.",
      "suggestionFa": "شاید بهش اطمینان بده. از دست دادن کنترل می‌ترسونش.",
@@ -364,8 +364,8 @@
      "keywords": [
       "appointment",
       "questions",
-      "could",
-      "bring"
+      "bring",
+      "could"
      ],
      "suggestion": "Could we bring a list of questions to that appointment?",
      "suggestionFa": "می‌تونیم یه فهرست سؤال به اون وقت بیاریم؟",
@@ -416,8 +416,8 @@
     },
     {
      "keywords": [
-      "same",
       "will",
+      "same",
       "as"
      ],
      "suggestion": "Is that the same as a will?",
@@ -469,8 +469,8 @@
     {
      "keywords": [
       "exactly",
-      "advice",
       "needed",
+      "advice",
       "thank"
      ],
      "suggestion": "Thank you. That's exactly the advice we needed.",

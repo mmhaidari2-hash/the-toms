@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "should",
-      "today",
-      "ready"
+      "please",
+      "ready",
+      "today"
      ],
      "suggestion": "Yes please. It should be ready today.",
      "suggestionFa": "آره لطفاً. باید امروز آماده باشه.",
@@ -35,7 +35,7 @@
       "thompson",
       "behalf",
       "george",
-      "i've"
+      "come"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
      "suggestionFa": "آره. از طرف جورج تامپسون اومدم.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "course",
-      "same",
       "mine",
+      "same",
       "as"
      ],
      "suggestion": "Of course. It's the same as mine.",
@@ -118,9 +118,9 @@
    "branches": [
     {
      "keywords": [
-      "missing",
-      "mistake",
       "there's",
+      "mistake",
+      "missing",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "should",
-      "takes",
       "every",
-      "day"
+      "takes",
+      "but"
      ],
      "suggestion": "But he takes it every day. What should we do?",
      "suggestionFa": "ولی هر روز می‌خوره. چی کار کنیم؟",
@@ -277,8 +277,8 @@
    "branches": [
     {
      "keywords": [
-      "isn't",
       "ready",
+      "isn't",
       "time",
       "if"
      ],
@@ -382,8 +382,8 @@
      "keywords": [
       "tonight",
       "we'll",
-      "app",
-      "set"
+      "set",
+      "app"
      ],
      "suggestion": "We'll set up the app tonight.",
      "suggestionFa": "امشب اپ را راه‌اندازی می‌کنیم.",

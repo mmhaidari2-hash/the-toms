@@ -22,7 +22,7 @@
       "inviting",
       "thanks",
       "tom",
-      "hi"
+      "us"
      ],
      "suggestion": "Hi, Tom. Thanks for inviting us.",
      "suggestionFa": "سلام تام. ممنون که دعوتمون کردی.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "we're",
       "sorry",
+      "we're",
       "hello",
       "late"
      ],
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "umbrella",
-      "shall",
       "where",
+      "shall",
       "put"
      ],
      "suggestion": "Where shall I put my umbrella?",
@@ -129,10 +129,10 @@
     },
     {
      "keywords": [
-      "brought",
       "persian",
+      "brought",
       "sweets",
-      "from"
+      "shop"
      ],
      "suggestion": "I brought some sweets from the Persian shop.",
      "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
@@ -236,7 +236,7 @@
      "keywords": [
       "george",
       "chair",
-      "own",
+      "has",
       "his"
      ],
      "suggestion": "George has his own chair?",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "awake",
-      "think"
+      "think",
+      "awake"
      ],
      "suggestion": "I think he's awake.",
      "suggestionFa": "فکر کنم بیداره.",

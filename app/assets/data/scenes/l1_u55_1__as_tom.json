@@ -73,9 +73,9 @@
      "keywords": [
       "traffic",
       "exactly",
-      "where",
-      "don't",
-      "about"
+      "about",
+      "drive",
+      "where"
      ],
      "suggestion": "Traffic! Don't talk to me about traffic. I drive the 38 bus! Where is Iran, exactly?",
      "suggestionFa": "ترافیک! از ترافیک برام نگو. من اتوبوس ۳۸ را می‌رونم! ایران دقیقاً کجاست؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "never",
       "there",
-      "july",
+      "well",
       "here",
-      "well"
+      "july"
      ],
      "suggestion": "Ah, I see. Is it hot there? It's never hot here. Well, one day in July.",
      "suggestionFa": "آها. اونجا گرمه؟ اینجا هیچ‌وقت گرم نیست. خب، یه روز تو ژوئیه.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "mountains",
+      "brilliant",
       "famous",
-      "iran",
-      "snow"
+      "snow",
+      "iran"
      ],
      "suggestion": "Snow and mountains? Brilliant. What is Iran famous for?",
      "suggestionFa": "برف و کوه؟ عالیه. ایران به چی معروفه؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "breakfast",
       "drink",
-      "milk",
       "same",
+      "milk",
       "tea"
      ],
      "suggestion": "Tea for breakfast! Same as us. Do you drink it with milk?",
@@ -198,8 +198,8 @@
      "keywords": [
       "british",
       "she'll",
+      "glass",
       "don't",
-      "faint",
       "style"
      ],
      "suggestion": "In a glass? No milk? Don't tell my mum. She'll faint! Here — one tea, British style. Try it.",
@@ -224,8 +224,8 @@
       "pistachios",
       "persian",
       "leslie",
-      "bring",
-      "don't"
+      "don't",
+      "bring"
      ],
      "suggestion": "Deal! Persian tea next time. And bring pistachios. Don't tell Leslie!",
      "suggestionFa": "قبول! دفعهٔ بعد چای ایرانی. و پسته بیار. به لزلی نگو!",

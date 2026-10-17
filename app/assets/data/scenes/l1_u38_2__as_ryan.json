@@ -23,8 +23,8 @@
      "keywords": [
       "present",
       "bought",
-      "can't",
       "looks",
+      "can't",
       "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "world's",
-      "cheesy",
       "driver",
-      "says",
+      "cheesy",
+      "know",
       "best"
      ],
      "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "scissors",
-      "where",
       "small",
       "paper",
+      "where",
       "first"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
@@ -98,8 +98,8 @@
      "keywords": [
       "genius",
       "easier",
-      "now",
-      "box"
+      "box",
+      "now"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -148,8 +148,8 @@
       "triangles",
       "better",
       "right",
-      "like",
-      "them"
+      "them",
+      "ends"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "write",
-      "nice",
       "gift",
-      "top",
-      "now"
+      "nice",
+      "now",
+      "tag"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "soppy",
       "mates",
-      "ryan",
-      "fine"
+      "don't",
+      "tell",
+      "love"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

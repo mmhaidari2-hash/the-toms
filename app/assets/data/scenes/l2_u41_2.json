@@ -1,0 +1,463 @@
+{
+ "id": "l2_u41_2",
+ "characterId": "hughes",
+ "title": "Changing an appointment",
+ "titleFa": "تغییر وقت",
+ "setting": "Making appointments · Level 2",
+ "settingFa": "گرفتن وقت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Smile Dental, Mrs Hughes. Oh, hello again! Is it about Ryan's appointment on Tuesday?",
+   "translations": {
+    "fa": "دندان‌پزشکی اسمایل، هیوز. اوه، باز سلام! دربارهٔ وقت سه‌شنبهٔ رایانه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "change",
+      "sorry",
+      "need",
+      "but"
+     ],
+     "suggestion": "Yes. I'm sorry, but I need to change it.",
+     "suggestionFa": "بله. ببخشید، ولی باید عوضش کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "another",
+      "move",
+      "day"
+     ],
+     "suggestion": "Yes. Is it possible to move it to another day?",
+     "suggestionFa": "بله. ممکنه به یه روز دیگه منتقلش کنیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "appointment",
+     "fa": "وقت ؛ قرار"
+    },
+    {
+     "word": "change",
+     "fa": "تغییر دادن"
+    },
+    {
+     "word": "move",
+     "fa": "جابه‌جا کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "Of course, no problem at all. What's happened? Not another football match?",
+   "translations": {
+    "fa": "البته، اصلاً مشکلی نیست. چی شده؟ نکنه باز مسابقهٔ فوتباله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "match",
+      "game",
+      "got",
+      "cup"
+     ],
+     "suggestion": "Yes! He's got a match on Tuesday. A cup game.",
+     "suggestionFa": "آره! سه‌شنبه مسابقه داره. یه بازی جام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "museum",
+      "going",
+      "trip"
+     ],
+     "suggestion": "His school has a trip on Tuesday. He's going to a museum.",
+     "suggestionFa": "مدرسه‌اش سه‌شنبه اردو داره. میره موزه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what's happened",
+     "fa": "چه شده"
+    },
+    {
+     "word": "match",
+     "fa": "مسابقه"
+    },
+    {
+     "word": "cup game",
+     "fa": "بازی جام"
+    },
+    {
+     "word": "trip",
+     "fa": "اردو ؛ سفر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Ha! I knew it. That boy. Right, let me look. I've got Monday at four, or Wednesday at eight-thirty in the morning.",
+   "translations": {
+    "fa": "ها! می‌دونستم. این پسر. خب، بذار ببینم. دوشنبه ساعت چهار دارم، یا چهارشنبه ساعت هشت و نیم صبح."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finishes",
+      "better",
+      "thirty",
+      "monday"
+     ],
+     "suggestion": "Would Monday be better? He finishes school at three-thirty.",
+     "suggestionFa": "دوشنبه بهتره؟ مدرسه‌اش سه و نیم تموم میشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wednesday",
+      "morning",
+      "misses",
+      "then"
+     ],
+     "suggestion": "Wednesday morning? Then he misses school.",
+     "suggestionFa": "چهارشنبه صبح؟ اون‌وقت مدرسه را از دست میده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I knew it",
+     "fa": "می‌دانستم"
+    },
+    {
+     "word": "finishes",
+     "fa": "تمام می‌کند"
+    },
+    {
+     "word": "misses",
+     "fa": "از دست می‌دهد"
+    },
+    {
+     "word": "morning",
+     "fa": "صبح"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is it possible change it",
+      "is possible to change"
+     ],
+     "echo": "Is it possible to change it? Of course!",
+     "better": "Is it possible to change it?",
+     "betterFa": "ممکن است تغییرش دهیم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "Monday's better. Missing school is a big no from Mr Patel. So: Monday the nineteenth at four, instead of Tuesday.",
+   "translations": {
+    "fa": "دوشنبه بهتره. غیبت از مدرسه از نظر آقای پاتل نه بزرگه. پس: دوشنبه نوزدهم ساعت چهار، به‌جای سه‌شنبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nineteenth",
+      "perfect",
+      "tuesday",
+      "instead"
+     ],
+     "suggestion": "Monday the nineteenth, instead of Tuesday. Perfect.",
+     "suggestionFa": "دوشنبه نوزدهم، به‌جای سه‌شنبه. عالی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "o'clock",
+      "check",
+      "four"
+     ],
+     "suggestion": "Can I check — is it four o'clock exactly?",
+     "suggestionFa": "میشه چک کنم — دقیقاً ساعت چهاره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big no",
+     "fa": "نه قاطع"
+    },
+    {
+     "word": "nineteenth",
+     "fa": "نوزدهم"
+    },
+    {
+     "word": "instead of",
+     "fa": "به‌جای"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Instead of\" means \"in place of\": \"Monday instead of Tuesday\". It's very useful when you change plans.",
+    "fa": "«instead of» یعنی به‌جای؛ برای تغییر برنامه خیلی کاربردی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "Four on the dot. Changed on the system. You'll get a new text tonight. Is there anything else I can do for you?",
+   "translations": {
+    "fa": "دقیقاً ساعت چهار. تو سیستم عوض شد. امشب یه پیام جدید می‌گیرید. کار دیگه‌ای از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "actually",
+      "book",
+      "can"
+     ],
+     "suggestion": "Actually, can I book an appointment for me too?",
+     "suggestionFa": "راستش، میشه برای خودم هم وقت بگیرم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "No, that's everything. Thank you!",
+     "suggestionFa": "نه، همین بود. ممنون!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on the dot",
+     "fa": "رأس ساعت ؛ دقیقاً"
+    },
+    {
+     "word": "changed",
+     "fa": "تغییر کرد"
+    },
+    {
+     "word": "tonight",
+     "fa": "امشب"
+    },
+    {
+     "word": "anything else",
+     "fa": "چیز دیگری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "For you? Lovely. Are you registered with us? You came for a filling last month, didn't you? The brave one!",
+   "translations": {
+    "fa": "برای خودتون؟ عالی. پیش ما ثبت‌نام کردید؟ ماه پیش برای پر کردن دندون اومدید، نه؟ همون شجاعه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brave",
+      "was"
+     ],
+     "suggestion": "Yes, that was me. Not very brave!",
+     "suggestionFa": "آره، من بودم. نه خیلی شجاع!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "filling",
+      "thank",
+      "fine",
+      "now"
+     ],
+     "suggestion": "Yes. The filling is fine now, thank you.",
+     "suggestionFa": "آره. پرکردگی الان خوبه، ممنون.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام شده"
+    },
+    {
+     "word": "filling",
+     "fa": "پر کردن دندان"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "You were very brave. You only squeezed my hand a little. When would suit you? Mornings or afternoons?",
+   "translations": {
+    "fa": "خیلی شجاع بودید. فقط یه کم دستم را فشار دادید. کی براتون مناسبه؟ صبح یا بعدازظهر؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mornings",
+      "better",
+      "before",
+      "work"
+     ],
+     "suggestion": "Mornings are better. Before work.",
+     "suggestionFa": "صبح‌ها بهتره. قبل از کار.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monday",
+      "could",
+      "ryan",
+      "same"
+     ],
+     "suggestion": "Could I come with Ryan on Monday? Same time?",
+     "suggestionFa": "میشه دوشنبه با رایان بیام؟ همون ساعت؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squeezed",
+     "fa": "فشار دادید"
+    },
+    {
+     "word": "suit",
+     "fa": "مناسب بودن"
+    },
+    {
+     "word": "mornings",
+     "fa": "صبح‌ها"
+    },
+    {
+     "word": "same time",
+     "fa": "همان ساعت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "hughes",
+   "text": "Clever! I'll put you at ten past four, straight after Ryan. Then you can make sure he actually comes. Two birds, one stone!",
+   "translations": {
+    "fa": "زرنگ! شما را ساعت چهار و ده می‌ذارم، درست بعد از رایان. اون‌وقت مطمئن میشید که واقعاً میاد. با یه تیر دو نشون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stone",
+      "birds",
+      "know",
+      "one"
+     ],
+     "suggestion": "Two birds, one stone. I know that one!",
+     "suggestionFa": "با یه تیر دو نشون. اینو بلدم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "myself",
+      "bring",
+      "i'll"
+     ],
+     "suggestion": "Perfect. I'll bring him myself.",
+     "suggestionFa": "عالی. خودم میارمش.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "straight after",
+     "fa": "درست بعد از"
+    },
+    {
+     "word": "make sure",
+     "fa": "مطمئن شدن"
+    },
+    {
+     "word": "actually",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "two birds, one stone",
+     "fa": "با یک تیر دو نشان"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "hughes",
+   "text": "There we are. Two appointments, one bus journey. Tell Tom I said hello. And no fizzy drinks for Ryan before Monday!",
+   "translations": {
+    "fa": "ایناهاش. دو تا وقت، یه سفر اتوبوس. به تام سلام برسونید. و تا دوشنبه نوشابهٔ گازدار برای رایان ممنوع!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "id": "l2_u39_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) A shrunk jumper",
+ "titleFa": "(در نقش Ryan) بلوزی که آب رفت",
+ "setting": "Clothes and laundry · Level 2",
+ "settingFa": "لباس و رخت‌شویی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u39_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "william",
+      "hoodie",
+      "look",
+      "fits"
+     ],
+     "suggestion": "Bro. Look at this. Look at my hoodie. It was my favourite. Now it fits William!",
+     "suggestionFa": "داداش. اینو ببین. هودیم را ببین. مورد علاقه‌ام بود. الان اندازهٔ ویلیامه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no! It's shrunk!",
+   "translations": {
+    "fa": "وای نه! آب رفته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "degrees",
+      "nana's",
+      "towels",
+      "washed",
+      "sixty"
+     ],
+     "suggestion": "I washed it with the towels. At sixty degrees. Then I put it in the dryer at Nana's. On high.",
+     "suggestionFa": "با حوله‌ها شستمش. تو شصت درجه. بعد گذاشتمش تو خشک‌کن خونهٔ نانا. رو زیاد.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Sixty and the dryer? That's why!",
+   "translations": {
+    "fa": "شصت و خشک‌کن؟ برای همینه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty",
+      "tumble",
+      "labels",
+      "reads",
+      "label"
+     ],
+     "suggestion": "The label? Who reads labels? Er… \"Wash at thirty. Do not tumble dry.\" Oh. Oops.",
+     "suggestionFa": "برچسب؟ کی برچسب می‌خونه؟ اِ… «در سی درجه بشویید. در خشک‌کن نگذارید.» اوه. اوپس.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thirty, not sixty. And no dryer.",
+   "translations": {
+    "fa": "سی، نه شصت. و بدون خشک‌کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "supposed",
+      "forty",
+      "mum's",
+      "going"
+     ],
+     "suggestion": "Mum's going to kill me. It was supposed to last till Christmas. It was forty-five quid! Can you fix it?",
+     "suggestionFa": "مامان منو می‌کشه. قرار بود تا کریسمس دووم بیاره. چهل و پنج پوند بود! می‌تونی درستش کنی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'm not sure. Maybe soak it in water with conditioner?",
+   "translations": {
+    "fa": "مطمئن نیستم. شاید تو آب با نرم‌کننده خیسش کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conditioner",
+      "anything",
+      "youtube",
+      "stretch",
+      "stuff"
+     ],
+     "suggestion": "Conditioner? Like hair stuff? Does that work? I'll try anything. Even YouTube says it might stretch back.",
+     "suggestionFa": "نرم‌کننده؟ مثل وسیلهٔ مو؟ جواب میده؟ هر کاری می‌کنم. حتی یوتیوب میگه شاید دوباره کش بیاد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Soak it for thirty minutes, then stretch it gently.",
+   "translations": {
+    "fa": "سی دقیقه خیسش کن، بعد آروم کشش بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "soaking",
+      "minutes",
+      "stretch",
+      "thirty",
+      "sleeve"
+     ],
+     "suggestion": "OK, it's soaking. Thirty minutes… Right. Stretch. Pull that sleeve, I'll pull this one. Gently! GENTLY!",
+     "suggestionFa": "باشه، داره خیس می‌خوره. سی دقیقه… خب. کش بده. اون آستین را بکش، منم اینو. آروم! آروم!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sorry! It's a bit longer now.",
+   "translations": {
+    "fa": "ببخشید! الان یه کم بلندتر شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whatever",
+      "better",
+      "before",
+      "pirate",
+      "should"
+     ],
+     "suggestion": "Ha! I look like a pirate. Whatever. Better than before. What should I do now? Tell Mum, or hide it?",
+     "suggestionFa": "ها! شبیه دزد دریایی شدم. مهم نیست. از قبل بهتره. حالا چی کار کنم؟ به مامان بگم یا قایمش کنم؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Tell her. Honesty is best.",
+   "translations": {
+    "fa": "بهش بگو. صداقت بهترینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "leslie",
+   "text": "What are you two doing with that hoodie? Ryan… is that your new one? Why is it tiny?",
+   "translations": {
+    "fa": "شما دو تا با اون هودی چی کار می‌کنید؟ رایان… اون هودی جدیدته؟ چرا انقدر کوچیکه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tiny",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "fault",
+     "fa": "تقصیر"
+    },
+    {
+     "word": "check",
+     "fa": "چک کردن"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "It's my fault too. I didn't check it.",
+   "translations": {
+    "fa": "تقصیر منم هست. چکش نکردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washed",
+      "tumble",
+      "bakery",
+      "sixty",
+      "money"
+     ],
+     "suggestion": "OK, OK. I washed it at sixty. And tumble dried it. I'm sorry. I'll pay for a new one. From my bakery money.",
+     "suggestionFa": "باشه باشه. تو شصت شستمش. و خشک‌کن زدم. ببخشید. پول یه جدید را میدم. از پول نونوایی.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "That's very grown-up, Ryan.",
+   "translations": {
+    "fa": "این خیلی بزرگ‌منشانه‌ست رایان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "leslie",
+   "text": "Good lad, for telling the truth. And from now on, you read the labels. William — come here! Ryan's got a present for you!",
+   "translations": {
+    "fa": "آفرین پسر، که راستش را گفتی. و از حالا به بعد برچسب‌ها را بخون. ویلیام — بیا اینجا! رایان یه کادو برات داره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

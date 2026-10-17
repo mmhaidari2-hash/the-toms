@@ -1,0 +1,404 @@
+{
+ "id": "l2_u40_4",
+ "characterId": "callum",
+ "title": "Missing chips",
+ "titleFa": "چیپس‌های جاافتاده",
+ "setting": "Simple complaints · Level 2",
+ "settingFa": "شکایت‌های ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Lunch special! Soup of the day — tomato — and a tuna melt. There you go. Anything else, give me a shout.",
+   "translations": {
+    "fa": "ناهار ویژه! سوپ روز — گوجه — و ساندویچ تن ماهی با پنیر آب‌شده. بفرمایید. چیز دیگه‌ای خواستی صدام کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "chips",
+      "er"
+     ],
+     "suggestion": "Thanks. Er… I ordered chips too.",
+     "suggestionFa": "ممنون. اِ… من چیپس هم سفارش دادم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wanted",
+      "burger",
+      "isn't"
+     ],
+     "suggestion": "This isn't what I ordered. I wanted a burger.",
+     "suggestionFa": "این چیزی نیست که سفارش دادم. من برگر می‌خواستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lunch special",
+     "fa": "ناهار ویژه"
+    },
+    {
+     "word": "soup of the day",
+     "fa": "سوپ روز"
+    },
+    {
+     "word": "tuna melt",
+     "fa": "ساندویچ تن و پنیر"
+    },
+    {
+     "word": "give me a shout",
+     "fa": "صدام کن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Chips? Let me check the ticket. Tuna melt, soup… and yep, \"side of chips\". My fault. They're still in the kitchen.",
+   "translations": {
+    "fa": "چیپس؟ بذار فیش را چک کنم. ساندویچ تن، سوپ… و آره، «یه پرس چیپس کنار». تقصیر من. هنوز تو آشپزخونه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "wait"
+     ],
+     "suggestion": "No problem. I can wait.",
+     "suggestionFa": "مشکلی نیست. صبر می‌کنم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "price",
+      "check",
+      "extra"
+     ],
+     "suggestion": "Can I check the price too? Is it extra?",
+     "suggestionFa": "میشه قیمت را هم چک کنم؟ جداست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ticket",
+     "fa": "فیش سفارش"
+    },
+    {
+     "word": "side",
+     "fa": "کنار ؛ پرس جانبی"
+    },
+    {
+     "word": "my fault",
+     "fa": "تقصیر من"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه ؛ جدا"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, \"chips\" are thick fried potatoes. Thin ones are \"fries\". Crisps are the ones in a packet!",
+    "fa": "در بریتانیا «chips» سیب‌زمینی سرخ‌کردهٔ کلفت است؛ «crisps» چیپس بسته‌ای است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Chips are two fifty extra. Nothing for you though, for the wait. Hang on — I'll chase them. Marco! CHIPS!",
+   "translations": {
+    "fa": "چیپس دو و پنجاه جداست. ولی برای تو مجانی، بابت معطلی. صبر کن — پیگیری می‌کنم. مارکو! چیپس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "kind"
+     ],
+     "suggestion": "Thank you. That's very kind.",
+     "suggestionFa": "ممنون. خیلی لطف داری.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "marco",
+      "chef"
+     ],
+     "suggestion": "Marco is the chef?",
+     "suggestionFa": "مارکو آشپزه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "for the wait",
+     "fa": "بابت معطلی"
+    },
+    {
+     "word": "chase",
+     "fa": "پیگیری کردن ؛ دنبال کردن"
+    },
+    {
+     "word": "chef",
+     "fa": "آشپز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i still wait for my chips",
+      "i'm still waiting my chips"
+     ],
+     "echo": "Still waiting for your chips? Coming!",
+     "better": "I'm still waiting for my chips.",
+     "betterFa": "هنوز منتظر چیپس‌هایم هستم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Marco's our chef, yeah. Brilliant cook, terrible ears. Five minutes, he says. How's the soup?",
+   "translations": {
+    "fa": "مارکو آشپزمونه، آره. آشپز فوق‌العاده، گوش‌های افتضاح. میگه پنج دقیقه. سوپ چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "needs",
+      "soup",
+      "salt"
+     ],
+     "suggestion": "The soup is lovely, but it needs a bit of salt.",
+     "suggestionFa": "سوپ عالیه، ولی یه کم نمک لازم داره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "delicious",
+      "homemade"
+     ],
+     "suggestion": "Delicious. Is it homemade?",
+     "suggestionFa": "خوشمزه‌ست. خونگیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cook",
+     "fa": "آشپز"
+    },
+    {
+     "word": "ears",
+     "fa": "گوش‌ها"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    },
+    {
+     "word": "homemade",
+     "fa": "خانگی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Homemade every morning. Salt and pepper are on the table, in the little pots. Ah — here we go. Your chips, sir!",
+   "translations": {
+    "fa": "هر روز صبح خونگی. نمک و فلفل رو میزه، تو ظرف‌های کوچیک. آه — ایناهاش. چیپس‌هاتون قربان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "portion",
+      "big",
+      "wow"
+     ],
+     "suggestion": "Wow, a big portion!",
+     "suggestionFa": "وای، یه پرس بزرگ!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "afraid",
+      "these",
+      "chips",
+      "cold"
+     ],
+     "suggestion": "These chips are a bit cold, I'm afraid.",
+     "suggestionFa": "متأسفانه این چیپس‌ها یه کم سردن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pepper",
+     "fa": "فلفل"
+    },
+    {
+     "word": "pots",
+     "fa": "ظرف‌های کوچک"
+    },
+    {
+     "word": "portion",
+     "fa": "پرس ؛ سهم"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Big portion to say sorry. Hot from the fryer — careful. Malt vinegar? Ketchup? Or are you a mayo man?",
+   "translations": {
+    "fa": "پرس بزرگ برای عذرخواهی. داغ از سرخ‌کن — مواظب باش. سرکهٔ مالت؟ سس گوجه؟ یا اهل مایونزی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vinegar",
+      "normal",
+      "chips"
+     ],
+     "suggestion": "Vinegar on chips? Is that normal?",
+     "suggestionFa": "سرکه رو چیپس؟ عادیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ketchup",
+      "little",
+      "please",
+      "just"
+     ],
+     "suggestion": "Ketchup, please. Just a little.",
+     "suggestionFa": "سس گوجه، لطفاً. فقط یه کم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fryer",
+     "fa": "سرخ‌کن"
+    },
+    {
+     "word": "malt vinegar",
+     "fa": "سرکهٔ مالت"
+    },
+    {
+     "word": "ketchup",
+     "fa": "سس گوجه"
+    },
+    {
+     "word": "mayo",
+     "fa": "مایونز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Vinegar on chips is the law in Britain! Try it once. If you hate it, I'll get you more ketchup.",
+   "translations": {
+    "fa": "سرکه رو چیپس تو بریتانیا قانونه! یه بار امتحان کن. اگه بدت اومد، سس گوجهٔ بیشتری برات میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "good",
+      "i'll",
+      "hmm"
+     ],
+     "suggestion": "OK, I'll try it. Hmm… it's actually good!",
+     "suggestionFa": "باشه، امتحان می‌کنم. هوم… راستش خوبه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ketchup",
+      "please",
+      "more",
+      "sour"
+     ],
+     "suggestion": "Too sour for me! More ketchup, please.",
+     "suggestionFa": "برای من زیادی ترشه! سس گوجهٔ بیشتر لطفاً.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "law",
+     "fa": "قانون"
+    },
+    {
+     "word": "hate",
+     "fa": "متنفر بودن"
+    },
+    {
+     "word": "actually",
+     "fa": "راستش"
+    },
+    {
+     "word": "sour",
+     "fa": "ترش"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "callum",
+   "text": "See? Now you're British. Next step: a chip butty. Chips in buttered bread. Don't look at me like that — it's amazing.",
+   "translations": {
+    "fa": "دیدی؟ حالا بریتانیایی شدی. قدم بعدی: ساندویچ چیپس. چیپس تو نون کره‌ای. اونجوری نگاهم نکن — معرکه‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

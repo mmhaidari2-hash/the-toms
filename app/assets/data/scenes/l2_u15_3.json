@@ -33,8 +33,8 @@
     {
      "keywords": [
       "going",
-      "late",
-      "work"
+      "work",
+      "late"
      ],
      "suggestion": "Yes. I'm going to be late for work.",
      "suggestionFa": "آره. دیرم میشه سر کار.",
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "minutes",
-      "says",
       "more",
-      "ten"
+      "says",
+      "but"
      ],
      "suggestion": "Yes, but it says ten more minutes.",
      "suggestionFa": "آره، ولی نوشته ده دقیقهٔ دیگه.",
@@ -282,7 +282,7 @@
       "message",
       "sorry",
       "late",
-      "i'll"
+      "send"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
      "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
@@ -293,8 +293,8 @@
     {
      "keywords": [
       "minutes",
-      "should",
       "twenty",
+      "should",
       "maybe"
      ],
      "suggestion": "Maybe I should walk. It's only twenty minutes.",
@@ -333,8 +333,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "doris",
+      "right",
       "were"
      ],
      "suggestion": "You were right, Doris!",
@@ -346,9 +346,9 @@
     {
      "keywords": [
       "shall",
-      "three",
       "which",
-      "buses"
+      "buses",
+      "three"
      ],
      "suggestion": "Three buses! Which one shall we take?",
      "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",

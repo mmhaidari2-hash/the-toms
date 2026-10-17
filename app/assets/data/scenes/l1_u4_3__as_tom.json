@@ -22,10 +22,10 @@
     {
      "keywords": [
       "morning",
-      "can't",
       "watch",
-      "time",
-      "find"
+      "can't",
+      "find",
+      "time"
      ],
      "suggestion": "Morning! What time is it? I can't find my watch.",
      "suggestionFa": "صبح بخیر! ساعت چنده؟ ساعتم را پیدا نمی‌کنم.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "quick",
-      "where",
       "table",
-      "keys",
-      "they"
+      "where",
+      "they",
+      "keys"
      ],
      "suggestion": "Where are my keys? Quick — are they on the table?",
      "suggestionFa": "کلیدهام کجان؟ زود — روی میزن؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "finish",
       "thanks",
+      "finish",
       "today",
-      "time",
-      "them"
+      "them",
+      "time"
      ],
      "suggestion": "Got them, thanks! What time do you finish today?",
      "suggestionFa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "shepherd's",
+      "nana's",
       "lovely",
       "making",
-      "nana's",
       "don't"
      ],
      "suggestion": "Lovely. Tea is at six, then. Don't be late — Nana's making shepherd's pie!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "right",
-      "six",
       "bye",
-      "see",
-      "off"
+      "off",
+      "six",
+      "see"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
      "suggestionFa": "خب، من رفتم. ساعت شش می‌بینمت! خداحافظ!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "time's",
       "cheers",
+      "time's",
       "silly",
       "clock",
       "oven"

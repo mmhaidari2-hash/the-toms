@@ -24,8 +24,8 @@
       "carrots",
       "potato",
       "roast",
-      "i'll",
-      "give"
+      "swap",
+      "i'll"
      ],
      "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
      "suggestionFa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟",
@@ -49,8 +49,8 @@
       "carrots",
       "that's",
       "three",
-      "good",
-      "swap"
+      "swap",
+      "good"
      ],
      "suggestion": "Three carrots! Three! That's a good swap!",
      "suggestionFa": "سه تا هویج! سه تا! معاملهٔ خوبیه!",
@@ -200,7 +200,7 @@
       "carrots",
       "what's",
       "cream",
-      "i'll"
+      "five"
      ],
      "suggestion": "What's for pudding? If it's ice cream, I'll eat five carrots!",
      "suggestionFa": "دسر چیه؟ اگه بستنی باشه، پنج تا هویج می‌خورم!",

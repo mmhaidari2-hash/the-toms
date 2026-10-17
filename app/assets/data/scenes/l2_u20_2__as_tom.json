@@ -24,8 +24,8 @@
       "hospitals",
       "homerton",
       "parking",
-      "check",
-      "lunch"
+      "costs",
+      "check"
      ],
      "suggestion": "Here we are, Homerton. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
      "suggestionFa": "رسیدیم، هومرتون. از بیمارستان متنفرم — پارکینگش از ناهارم گرون‌تره. بابا، بشین. می‌تونی پذیرشمون را انجام بدی؟",
@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "thompson",
       "nineteen",
+      "thompson",
       "surname",
-      "fifty",
-      "wants"
+      "march",
+      "third"
      ],
      "suggestion": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
      "suggestionFa": "فامیل و تاریخ تولدش را می‌خواد. تامسون، سوم مارس، هزار و نهصد و پنجاه.",
@@ -212,11 +212,11 @@
    "branches": [
     {
      "keywords": [
-      "running",
       "minutes",
+      "running",
       "course",
       "screen",
-      "forty"
+      "calls"
      ],
      "suggestion": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
      "suggestionFa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره.",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "nothing",
-      "before",
       "sugars",
+      "before",
       "blood",
       "right"
      ],

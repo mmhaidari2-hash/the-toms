@@ -1,0 +1,225 @@
+{
+ "id": "l2_u37_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Heatwave!",
+ "titleFa": "(در نقش Tom) موج گرما!",
+ "setting": "Weather talk · Level 2",
+ "settingFa": "صحبت دربارهٔ هوا",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u37_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conditioning",
+      "tuesday",
+      "degrees",
+      "melting",
+      "thirty"
+     ],
+     "suggestion": "Thirty-two degrees! On my bus! No air conditioning since Tuesday. I'm melting. Come and sit by the window, mate.",
+     "suggestionFa": "سی و دو درجه! تو اتوبوس من! از سه‌شنبه کولر نداره. دارم آب میشم. بیا کنار پنجره بشین رفیق.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Thirty-two? That's not hot for me!",
+   "translations": {
+    "fa": "سی و دو؟ برای من گرم نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "emergency",
+      "londoners",
+      "cheating",
+      "national",
+      "thirty"
+     ],
+     "suggestion": "Not hot? You're from Tehran, that's cheating. For Londoners, thirty-two is a national emergency. It's all over the news.",
+     "suggestionFa": "گرم نیست؟ تو از تهرانی، تقلب می‌کنی. برای لندنی‌ها سی و دو یعنی وضعیت اضطراری ملی. همهٔ اخبار دربارهٔ همینه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Really? What do they say on the news?",
+   "translations": {
+    "fa": "واقعاً؟ اخبار چی میگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbours",
+      "because",
+      "elderly",
+      "trains",
+      "water"
+     ],
+     "suggestion": "\"Drink water, stay out of the sun, check on elderly neighbours.\" And the trains are slow because the rails get too hot.",
+     "suggestionFa": "«آب بخورید، از آفتاب دور بمونید، به همسایه‌های سالمند سر بزنید.» و قطارها کندن چون ریل‌ها زیادی داغ میشن.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "The rails get too hot? Amazing.",
+   "translations": {
+    "fa": "ریل‌ها زیادی داغ میشن؟ عجیبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thinking",
+      "british",
+      "doesn't",
+      "counts",
+      "enough"
+     ],
+     "suggestion": "Good thinking. Mum doesn't drink enough. She says tea counts. It's too hot to drink tea! Mind you, the British still drink it.",
+     "suggestionFa": "فکر خوبیه. مامانم به‌اندازهٔ کافی آب نمی‌خوره. میگه چای حساب میشه. خیلی گرمه که چای بخوری! البته بریتانیایی‌ها بازم می‌خورن.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "In Iran we drink hot tea in summer too.",
+   "translations": {
+    "fa": "تو ایران هم تابستون چای داغ می‌خوریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "having",
+      "ryan's",
+      "nicola",
+      "lolly"
+     ],
+     "suggestion": "Hot tea in summer! You lot are mad. Here, Ryan's having a water fight in the park. Nicola wants an ice lolly every hour.",
+     "suggestionFa": "چای داغ تو تابستون! شماها دیوونه‌اید. اینجا، رایان تو پارک آب‌بازی می‌کنه. نیکولا هر ساعت بستنی یخی می‌خواد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "What's an ice lolly?",
+   "translations": {
+    "fa": "«آیس لالی» چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "everyone",
+      "sandals",
+      "frozen",
+      "shorts"
+     ],
+     "suggestion": "Frozen juice on a stick. Fab. And everyone in shorts and sandals with socks. Pink faces everywhere. No sun cream, you see.",
+     "suggestionFa": "آبمیوهٔ یخ‌زده رو چوب. عالی. و همه با شلوارک و صندل با جوراب. همه‌جا صورت‌های صورتی. ضدآفتاب نزدن دیگه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sandals with socks? Really?",
+   "translations": {
+    "fa": "صندل با جوراب؟ واقعاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driver's",
+      "lobster",
+      "window",
+      "leslie",
+      "water"
+     ],
+     "suggestion": "Driver's arm! Only the right one, by the window. Leslie calls me \"half a lobster\". Last stop. Have you got any water left?",
+     "suggestionFa": "بازوی راننده! فقط راستی، کنار پنجره. لزلی بهم میگه «نصف خرچنگ». خب، آخرین ایستگاه. آب برات مونده؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, take my bottle. I've got another.",
+   "translations": {
+    "fa": "آره، بطریم را بگیر. یکی دیگه دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thunderstorms",
+      "tomorrow",
+      "everyone",
+      "degrees",
+      "legend"
+     ],
+     "suggestion": "Legend. And tomorrow? Rain, they say. Thunderstorms. Then twenty degrees and everyone will say, \"Bit chilly, isn't it?\"",
+     "suggestionFa": "عالی هستی. فردا؟ میگن بارون. رعد و برق. بعد بیست درجه و همه میگن «یه کم خنکه، نه؟»",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

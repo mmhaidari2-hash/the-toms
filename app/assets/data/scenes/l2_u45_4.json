@@ -1,0 +1,469 @@
+{
+ "id": "l2_u45_4",
+ "characterId": "tom",
+ "title": "Ballet class",
+ "titleFa": "کلاس باله",
+ "setting": "Kids' activities · Level 2",
+ "settingFa": "فعالیت‌های بچه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Help. Leslie's taking William to a party, so I'm on ballet duty. I know nothing about ballet. Come with me? Please?",
+   "translations": {
+    "fa": "کمک. لزلی ویلیام را برده مهمونی، پس نوبت بالهٔ منه. هیچی دربارهٔ باله نمی‌دونم. با من میای؟ لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "start",
+      "time",
+      "come",
+      "i'll"
+     ],
+     "suggestion": "Ha! OK, I'll come. What time does it start?",
+     "suggestionFa": "ها! باشه، میام. ساعت چند شروع میشه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ballet",
+      "nicola",
+      "since",
+      "when"
+     ],
+     "suggestion": "Ballet? For Nicola? Since when?",
+     "suggestionFa": "باله؟ برای نیکولا؟ از کی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "party",
+     "fa": "مهمانی"
+    },
+    {
+     "word": "on duty",
+     "fa": "نوبت … ؛ مسئول"
+    },
+    {
+     "word": "ballet",
+     "fa": "باله"
+    },
+    {
+     "word": "since when",
+     "fa": "از کی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Since last week! It starts at ten, in the church hall. We have to be there ten minutes early to change. Leslie wrote a list.",
+   "translations": {
+    "fa": "از هفتهٔ پیش! ساعت ده شروع میشه، تو سالن کلیسا. باید ده دقیقه زودتر اونجا باشیم که لباس عوض کنه. لزلی یه فهرست نوشته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "list"
+     ],
+     "suggestion": "What's on the list?",
+     "suggestionFa": "تو فهرست چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "leave",
+      "now",
+      "far"
+     ],
+     "suggestion": "Is it far? We should leave now.",
+     "suggestionFa": "دوره؟ باید الان راه بیفتیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "church hall",
+     "fa": "سالن کلیسا"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "change",
+     "fa": "لباس عوض کردن"
+    },
+    {
+     "word": "list",
+     "fa": "فهرست"
+    },
+    {
+     "word": "far",
+     "fa": "دور"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "\"Pink leotard, tights, ballet shoes, hair in a bun.\" A bun! I can do a ponytail, but a bun? Can you do a bun?",
+   "translations": {
+    "fa": "«لباس بالهٔ صورتی، جوراب‌شلواری، کفش باله، موی گوجه‌ای.» گوجه! من دم‌اسبی بلدم، ولی گوجه؟ تو گوجه بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "watch",
+      "video",
+      "idea"
+     ],
+     "suggestion": "No idea! Let's watch a video.",
+     "suggestionFa": "هیچ ایده‌ای ندارم! بیا یه ویدیو ببینیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ponytail",
+      "round",
+      "twist",
+      "make"
+     ],
+     "suggestion": "Make a ponytail, then twist it round.",
+     "suggestionFa": "دم‌اسبی کن، بعد بپیچونش دورش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leotard",
+     "fa": "لباس یکسرهٔ باله"
+    },
+    {
+     "word": "tights",
+     "fa": "جوراب‌شلواری"
+    },
+    {
+     "word": "bun",
+     "fa": "موی جمع‌شدهٔ گرد (گوجه‌ای)"
+    },
+    {
+     "word": "ponytail",
+     "fa": "دم‌اسبی"
+    },
+    {
+     "word": "twist",
+     "fa": "پیچاندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Ballet classes for small children are often in church halls or community centres. Parents usually wait outside or in a waiting area.",
+    "fa": "کلاس‌های باله برای بچه‌های کوچک اغلب در سالن کلیسا یا مرکز محله برگزار می‌شوند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Ten pins and one YouTube video later… it's a bun. A wobbly bun. Right, we're here. Where do I take her?",
+   "translations": {
+    "fa": "ده تا سنجاق و یه ویدیوی یوتیوب بعد… گوجه شد. یه گوجهٔ لق. خب، رسیدیم. کجا ببرمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lady",
+      "ask"
+     ],
+     "suggestion": "Ask that lady at the door.",
+     "suggestionFa": "از اون خانم دم در بپرس.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "through",
+      "think",
+      "go"
+     ],
+     "suggestion": "I think the children go through that door.",
+     "suggestionFa": "فکر کنم بچه‌ها از اون در میرن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pins",
+     "fa": "سنجاق‌ها"
+    },
+    {
+     "word": "wobbly",
+     "fa": "لق ؛ لرزان"
+    },
+    {
+     "word": "through",
+     "fa": "از میان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Excuse me, where do I take Nicola? Ah — she says the children change in the side room, then go in alone. Am I allowed to watch?",
+   "translations": {
+    "fa": "ببخشید، نیکولا را کجا ببرم؟ آه — میگه بچه‌ها تو اتاق کناری لباس عوض می‌کنن، بعد تنها میرن تو. اجازه دارم تماشا کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "only",
+      "last",
+      "term",
+      "says"
+     ],
+     "suggestion": "She says no. Only on the last day of term.",
+     "suggestionFa": "میگه نه. فقط روز آخر ترم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wait",
+      "hall",
+      "here",
+      "can"
+     ],
+     "suggestion": "Can we wait here, in the hall?",
+     "suggestionFa": "میشه همین‌جا تو سالن صبر کنیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "side room",
+     "fa": "اتاق کناری"
+    },
+    {
+     "word": "alone",
+     "fa": "تنها"
+    },
+    {
+     "word": "allowed",
+     "fa": "مجاز"
+    },
+    {
+     "word": "last day of term",
+     "fa": "روز آخر ترم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "am i allow to watch",
+      "i am allowed watch"
+     ],
+     "echo": "Are you allowed to watch? Not today!",
+     "better": "Am I allowed to watch?",
+     "betterFa": "اجازه دارم تماشا کنم؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "No watching. Parents wait in the café next door. Forty-five minutes. Fancy a bacon roll? This is the best bit of ballet.",
+   "translations": {
+    "fa": "تماشا ممنوع. والدین تو کافهٔ بغلی صبر می‌کنن. چهل و پنج دقیقه. ساندویچ بیکن می‌خوری؟ این بهترین قسمت باله‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hungry",
+      "please",
+      "ha"
+     ],
+     "suggestion": "Ha! Yes please. I'm hungry.",
+     "suggestionFa": "ها! آره لطفاً. گرسنه‌ام.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "music",
+      "from",
+      "hear",
+      "here"
+     ],
+     "suggestion": "Can you hear the music from here?",
+     "suggestionFa": "از اینجا صدای موسیقی میاد؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next door",
+     "fa": "بغلی ؛ کناری"
+    },
+    {
+     "word": "fancy",
+     "fa": "دلت می‌خواهد"
+    },
+    {
+     "word": "bacon roll",
+     "fa": "ساندویچ نان گرد و بیکن"
+    },
+    {
+     "word": "best bit",
+     "fa": "بهترین قسمت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Listen — piano music. And thumping. Twelve little dancers, thumping. It sounds like elephants. Beautiful elephants.",
+   "translations": {
+    "fa": "گوش کن — موسیقی پیانو. و صدای کوبیدن. دوازده رقصندهٔ کوچولو، می‌کوبن. شبیه فیل‌هاست. فیل‌های قشنگ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "elephants",
+      "nicola",
+      "don't",
+      "tell"
+     ],
+     "suggestion": "Elephants! Don't tell Nicola that.",
+     "suggestionFa": "فیل! اینو به نیکولا نگو.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "elephant",
+      "starts",
+      "dancer",
+      "every"
+     ],
+     "suggestion": "Every dancer starts like an elephant!",
+     "suggestionFa": "هر رقصنده‌ای مثل فیل شروع می‌کنه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "piano",
+     "fa": "پیانو"
+    },
+    {
+     "word": "thumping",
+     "fa": "صدای کوبیدن"
+    },
+    {
+     "word": "dancers",
+     "fa": "رقصنده‌ها"
+    },
+    {
+     "word": "elephants",
+     "fa": "فیل‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Time's up! Here she comes. And… the bun's gone. Totally gone. Hair everywhere. \"Daddy, my bun fell out in the first spin!\"",
+   "translations": {
+    "fa": "وقت تموم شد! ایناهاش داره میاد. و… گوجه رفت. کاملاً رفت. مو همه‌جا. «بابایی، گوجه‌ام تو اولین چرخش باز شد!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "have",
+      "did",
+      "fun"
+     ],
+     "suggestion": "Did you have fun, Nicola?",
+     "suggestionFa": "خوش گذشت نیکولا؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pins",
+      "time",
+      "more",
+      "next"
+     ],
+     "suggestion": "Ha! Next time, more pins!",
+     "suggestionFa": "ها! دفعهٔ بعد سنجاق بیشتر!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "time's up",
+     "fa": "وقت تمام شد"
+    },
+    {
+     "word": "totally",
+     "fa": "کاملاً"
+    },
+    {
+     "word": "fell out",
+     "fa": "باز شد ؛ افتاد"
+    },
+    {
+     "word": "spin",
+     "fa": "چرخش"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "She says it was \"the best day ever\" and she's going to be a famous ballerina. With a ponytail. Leslie can do the bun next week.",
+   "translations": {
+    "fa": "میگه «بهترین روز عمرش» بود و قراره یه بالرین معروف بشه. با دم‌اسبی. لزلی هفتهٔ بعد گوجه را درست می‌کنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

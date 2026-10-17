@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "let's",
-      "use",
-      "now"
+      "don't",
+      "now",
+      "use"
      ],
      "suggestion": "Yes, let's go now. Don't use it!",
      "suggestionFa": "آره، بیا الان بریم. ازش استفاده نکن!",
@@ -141,9 +141,9 @@
     },
     {
      "keywords": [
+      "will",
       "long",
-      "take",
-      "will"
+      "take"
      ],
      "suggestion": "How long will it take?",
      "suggestionFa": "چقدر طول می‌کشه؟",
@@ -236,8 +236,8 @@
     {
      "keywords": [
       "ryan",
-      "must",
       "tell",
+      "must",
       "dad"
      ],
      "suggestion": "Ryan, you must tell your dad.",
@@ -248,9 +248,9 @@
     },
     {
      "keywords": [
+      "fine",
       "text",
       "i'll",
-      "fine",
       "tom"
      ],
      "suggestion": "Fine. I'll text Tom.",
@@ -338,8 +338,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twenty",
+      "pounds",
       "great",
       "only"
      ],

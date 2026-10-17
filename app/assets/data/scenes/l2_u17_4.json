@@ -66,8 +66,8 @@
     {
      "keywords": [
       "veggie",
-      "since",
       "asked",
+      "since",
       "when"
      ],
      "suggestion": "You asked for veggie? Since when?",
@@ -81,7 +81,7 @@
       "terrible",
       "that's",
       "rings",
-      "onion"
+      "there"
      ],
      "suggestion": "There are no onion rings. That's terrible!",
      "suggestionFa": "حلقهٔ پیاز نیست. افتضاحه!",
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
+      "photo",
       "click",
       "taken",
-      "photo",
       "ok"
      ],
      "suggestion": "OK. Click! Photo taken.",
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "please",
-      "could",
+      "wrong",
       "order",
-      "wrong"
+      "could"
      ],
      "suggestion": "\"Hi. Our order was wrong. Could you help, please?\"",
      "suggestionFa": "«سلام. سفارش ما اشتباه بود. لطفاً کمک می‌کنید؟»",

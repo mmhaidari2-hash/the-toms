@@ -35,7 +35,7 @@
       "questions",
       "depends",
       "follow",
-      "ask"
+      "did"
      ],
      "suggestion": "It depends. Did she ask any follow-up questions?",
      "suggestionFa": "بستگی داره. سؤال بعدی هم پرسید؟",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "clincher",
       "changing",
+      "clincher",
       "subject",
       "afraid"
      ],
@@ -138,7 +138,7 @@
      "keywords": [
       "suggest",
       "option",
-      "small",
+      "lower",
       "vegan"
      ],
      "suggestion": "Suggest a small trial, like one vegan option for a month. Lower risk.",
@@ -179,8 +179,8 @@
      "keywords": [
       "follow",
       "leave",
-      "says",
-      "week"
+      "week",
+      "says"
      ],
      "suggestion": "And if she says \"leave it with me\", follow up in a week.",
      "suggestionFa": "و اگه گفت «بسپارش به من»، یه هفته بعد پیگیری کن.",
@@ -190,10 +190,10 @@
     },
     {
      "keywords": [
-      "problem",
       "solving",
-      "frame",
-      "yours"
+      "problem",
+      "yours",
+      "frame"
      ],
      "suggestion": "Frame it as solving her problem, not yours.",
      "suggestionFa": "طوری مطرحش کن که انگار مشکل اون را حل می‌کنه، نه مال خودت.",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "understand",
-      "didn't",
       "notice",
-      "why"
+      "didn't",
+      "did"
      ],
      "suggestion": "Oh no. I did notice, but I didn't understand why.",
      "suggestionFa": "ای وای. متوجه شدم، ولی نفهمیدم چرا.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "mentioned",
-      "because",
       "thought",
+      "because",
       "first"
      ],
      "suggestion": "I thought it was fine because she mentioned it first.",
@@ -125,7 +125,7 @@
       "exactly",
       "that's",
       "foot",
-      "put"
+      "did"
      ],
      "suggestion": "\"Put my foot in it\" — that's exactly what I did!",
      "suggestionFa": "«پام را تو اون کردم» — دقیقاً همون کاری بود که کردم!",
@@ -137,8 +137,8 @@
      "keywords": [
       "earlier",
       "spotted",
-      "could",
-      "signs"
+      "signs",
+      "could"
      ],
      "suggestion": "How could I have spotted the signs earlier?",
      "suggestionFa": "چطوری می‌تونستم زودتر نشونه‌ها را ببینم؟",

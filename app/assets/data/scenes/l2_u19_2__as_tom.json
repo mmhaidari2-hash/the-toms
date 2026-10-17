@@ -25,7 +25,7 @@
       "british",
       "museum",
       "isn't",
-      "we're"
+      "right"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
+      "tunnels",
       "there's",
       "quicker",
-      "tunnels",
       "lesson",
       "about"
      ],
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "eastbound",
       "westbound",
+      "eastbound",
       "central",
-      "circus",
+      "follow",
       "lesson"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
@@ -148,9 +148,9 @@
      "keywords": [
       "tottenham",
       "minutes'",
-      "museum",
+      "follow",
       "london",
-      "follow"
+      "museum"
      ],
      "suggestion": "Forty-two years of London! Here we are — Tottenham Court Road. Mind the gap… and follow me. Five minutes' walk to the museum.",
      "suggestionFa": "چهل و دو سال تو لندن! رسیدیم — تاتنهام کورت رود. مراقب فاصله باش… و دنبالم بیا. پنج دقیقه پیاده تا موزه.",
@@ -175,7 +175,7 @@
       "londoner",
       "about",
       "every",
-      "then"
+      "exit"
      ],
      "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
      "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",

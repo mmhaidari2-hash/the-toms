@@ -187,8 +187,8 @@
     {
      "keywords": [
       "hackney",
-      "street",
       "what's",
+      "street",
       "mare"
      ],
      "suggestion": "10 Mare Street, Hackney. What's the postcode?",
@@ -251,9 +251,9 @@
     {
      "keywords": [
       "centre",
-      "once",
       "only",
-      "walk"
+      "walk",
+      "once"
      ],
      "suggestion": "Only once, at a walk-in centre.",
      "suggestionFa": "فقط یه بار، تو یه مرکز بدون وقت قبلی.",
@@ -336,9 +336,9 @@
    "branches": [
     {
      "keywords": [
+      "drink",
       "smoke",
-      "don't",
-      "drink"
+      "don't"
      ],
      "suggestion": "I don't smoke, and I don't drink.",
      "suggestionFa": "سیگار نمی‌کشم، الکل هم نمی‌خورم.",
@@ -351,7 +351,7 @@
       "stopped",
       "smoked",
       "before",
-      "last"
+      "year"
      ],
      "suggestion": "I smoked before, but I stopped last year.",
      "suggestionFa": "قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "market",
-      "need",
       "stop",
+      "need",
       "oh"
      ],
      "suggestion": "Oh no. I need the market stop!",
@@ -73,8 +73,8 @@
      "keywords": [
       "leslie",
       "market",
-      "need",
-      "fish"
+      "fish",
+      "need"
      ],
      "suggestion": "To the market. I need fish for Leslie.",
      "suggestionFa": "بازار. برای لزلی ماهی لازم دارم.",
@@ -86,8 +86,8 @@
      "keywords": [
       "street",
       "number",
-      "mare",
-      "home"
+      "home",
+      "mare"
      ],
      "suggestion": "Home. Number ten, Mare Street.",
      "suggestionFa": "خونه. پلاک ده، مِر استریت.",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "fault",
-      "whose"
+      "whose",
+      "fault"
      ],
      "suggestion": "Not your fault? Whose fault is it?",
      "suggestionFa": "تقصیر تو نیست؟ تقصیر کیه؟",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "diversion",
-      "long",
       "time",
+      "long",
       "ha"
      ],
      "suggestion": "Ha! Is the diversion for a long time?",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "check",
-      "tfl",
       "app",
-      "can"
+      "can",
+      "tfl"
      ],
      "suggestion": "Can I check on the TfL Go app too?",
      "suggestionFa": "تو اپ TfL Go هم می‌تونم چک کنم؟",
@@ -261,8 +261,8 @@
      "keywords": [
       "street",
       "weeks",
-      "mare",
-      "poor"
+      "poor",
+      "mare"
      ],
      "suggestion": "Six weeks! Poor Mare Street.",
      "suggestionFa": "شش هفته! بیچاره مِر استریت.",

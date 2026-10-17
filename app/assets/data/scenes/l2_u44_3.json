@@ -1,0 +1,475 @@
+{
+ "id": "l2_u44_3",
+ "characterId": "tom",
+ "title": "The airport delay",
+ "titleFa": "تأخیر در فرودگاه",
+ "setting": "Past holidays · Level 2",
+ "settingFa": "تعطیلات گذشته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "You're flying to Tehran at Christmas? Check the airport news. Last summer our flight to Spain was delayed for nine hours!",
+   "translations": {
+    "fa": "کریسمس پرواز داری تهران؟ اخبار فرودگاه را چک کن. تابستون پارسال پرواز ما به اسپانیا نه ساعت تأخیر داشت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delayed",
+      "hours",
+      "nine",
+      "was"
+     ],
+     "suggestion": "Nine hours! Why was it delayed?",
+     "suggestionFa": "نه ساعت! چرا تأخیر داشت؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flying",
+      "where",
+      "were",
+      "from"
+     ],
+     "suggestion": "Where were you flying from?",
+     "suggestionFa": "از کجا پرواز می‌کردید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flying",
+     "fa": "پرواز کردن"
+    },
+    {
+     "word": "airport",
+     "fa": "فرودگاه"
+    },
+    {
+     "word": "flight",
+     "fa": "پرواز"
+    },
+    {
+     "word": "delayed",
+     "fa": "تأخیر داشت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "We flew from Gatwick. First, there was a problem with the plane. Then the crew ran out of hours. Then a storm in Spain!",
+   "translations": {
+    "fa": "از گتویک پرواز کردیم. اول، هواپیما مشکل داشت. بعد ساعت کاری خدمه تموم شد. بعد یه طوفان تو اسپانیا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problems",
+      "unlucky",
+      "that's",
+      "three"
+     ],
+     "suggestion": "Three problems! That's very unlucky.",
+     "suggestionFa": "سه تا مشکل! خیلی بدشانسی بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hours",
+      "mean",
+      "crew",
+      "out"
+     ],
+     "suggestion": "What does \"the crew ran out of hours\" mean?",
+     "suggestionFa": "«ساعت کاری خدمه تموم شد» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plane",
+     "fa": "هواپیما"
+    },
+    {
+     "word": "crew",
+     "fa": "خدمه"
+    },
+    {
+     "word": "ran out of",
+     "fa": "تمام شد"
+    },
+    {
+     "word": "storm",
+     "fa": "طوفان"
+    },
+    {
+     "word": "unlucky",
+     "fa": "بدشانس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Pilots and cabin crew can only work a fixed number of hours. If a delay is too long, a new crew is needed.",
+    "fa": "خلبان‌ها و خدمه فقط تعداد ساعت مشخصی می‌توانند کار کنند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "They can only work a certain number of hours. Safety rules. So we waited for a new crew. Four kids, nine hours, one airport.",
+   "translations": {
+    "fa": "فقط تعداد مشخصی ساعت می‌تونن کار کنن. قوانین ایمنی. پس منتظر خدمهٔ جدید موندیم. چهار تا بچه، نه ساعت، یه فرودگاه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "have",
+      "four",
+      "wait"
+     ],
+     "suggestion": "Wait, you have three children, not four!",
+     "suggestionFa": "صبر کن، تو سه تا بچه داری، نه چهار تا!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "survive",
+      "hours",
+      "kids",
+      "nine"
+     ],
+     "suggestion": "Nine hours with three kids. How did you survive?",
+     "suggestionFa": "نه ساعت با سه تا بچه. چطوری دووم آوردید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "certain",
+     "fa": "مشخص"
+    },
+    {
+     "word": "safety",
+     "fa": "ایمنی"
+    },
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    },
+    {
+     "word": "waited for",
+     "fa": "منتظر ماندیم"
+    },
+    {
+     "word": "survive",
+     "fa": "دوام آوردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we waited the new crew",
+      "we wait for new crew"
+     ],
+     "echo": "You waited for a new crew? For hours!",
+     "better": "We waited for a new crew.",
+     "betterFa": "منتظر خدمهٔ جدید ماندیم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Three! But it felt like four. William counts as two. The airline gave us food vouchers. Twelve pounds each.",
+   "translations": {
+    "fa": "سه تا! ولی حس چهار تا را داشت. ویلیام دو تا حساب میشه. شرکت هواپیمایی بهمون کوپن غذا داد. هر نفر دوازده پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "airport",
+      "that's",
+      "pounds",
+      "twelve"
+     ],
+     "suggestion": "Twelve pounds? That's not much at an airport.",
+     "suggestionFa": "دوازده پوند؟ تو فرودگاه زیاد نیست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "money",
+      "later",
+      "back",
+      "did"
+     ],
+     "suggestion": "Did you get any money back later?",
+     "suggestionFa": "بعداً پولی پس گرفتید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "felt like",
+     "fa": "حسش مثل … بود"
+    },
+    {
+     "word": "counts as",
+     "fa": "حساب می‌شود"
+    },
+    {
+     "word": "airline",
+     "fa": "شرکت هواپیمایی"
+    },
+    {
+     "word": "vouchers",
+     "fa": "کوپن‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Twelve pounds buys one sandwich and a sad coffee at Gatwick. But yes — later we claimed compensation. Over a thousand pounds!",
+   "translations": {
+    "fa": "با دوازده پوند تو گتویک یه ساندویچ و یه قهوهٔ غمگین می‌خری. ولی آره — بعداً غرامت درخواست کردیم. بیشتر از هزار پوند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "pounds",
+      "how",
+      "did"
+     ],
+     "suggestion": "A thousand pounds! How did you do that?",
+     "suggestionFa": "هزار پوند! چطوری؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holiday",
+      "delay",
+      "paid"
+     ],
+     "suggestion": "So the delay paid for the holiday!",
+     "suggestionFa": "پس تأخیر پول تعطیلات را داد!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "claimed",
+     "fa": "درخواست کردیم"
+    },
+    {
+     "word": "compensation",
+     "fa": "غرامت"
+    },
+    {
+     "word": "paid for",
+     "fa": "پولش را داد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Under UK rules, if your flight from a UK airport arrives more than 3 hours late, you can often claim compensation from the airline.",
+    "fa": "طبق قوانین بریتانیا، اگر پرواز بیش از ۳ ساعت تأخیر داشته باشد، اغلب می‌توان غرامت گرفت."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Leslie found a form on the airline website. You fill it in, send your booking number, and wait. Keep your boarding pass!",
+   "translations": {
+    "fa": "لزلی یه فرم تو سایت شرکت هواپیمایی پیدا کرد. پرش می‌کنی، شمارهٔ رزروت را می‌فرستی، و صبر می‌کنی. کارت پروازت را نگه دار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "boarding",
+      "good",
+      "pass",
+      "i'll"
+     ],
+     "suggestion": "I'll keep my boarding pass. Good tip!",
+     "suggestionFa": "کارت پروازم را نگه می‌دارم. نکتهٔ خوبیه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hours",
+      "kids",
+      "nine",
+      "did"
+     ],
+     "suggestion": "What did the kids do for nine hours?",
+     "suggestionFa": "بچه‌ها نه ساعت چی کار کردن؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "form",
+     "fa": "فرم"
+    },
+    {
+     "word": "fill in",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "booking number",
+     "fa": "شمارهٔ رزرو"
+    },
+    {
+     "word": "boarding pass",
+     "fa": "کارت پرواز"
+    },
+    {
+     "word": "tip",
+     "fa": "نکته"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Ryan played FIFA. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
+   "translations": {
+    "fa": "رایان فیفا بازی کرد. نیکولا با یه خانوادهٔ کامل از لیدز دوست شد. ویلیام رو چرخ چمدون خوابید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "luggage",
+      "trolley",
+      "ha"
+     ],
+     "suggestion": "Ha! On the luggage trolley!",
+     "suggestionFa": "ها! رو چرخ چمدون!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "arrived",
+      "time",
+      "by"
+     ],
+     "suggestion": "And by the time you arrived?",
+     "suggestionFa": "و تا وقتی رسیدید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "made friends",
+     "fa": "دوست شد"
+    },
+    {
+     "word": "whole",
+     "fa": "کامل"
+    },
+    {
+     "word": "luggage trolley",
+     "fa": "چرخ چمدان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "By the time we arrived, it was four in the morning. The hotel had given our room to someone else! But that's another story.",
+   "translations": {
+    "fa": "تا وقتی رسیدیم، ساعت چهار صبح بود. هتل اتاقمون را به یکی دیگه داده بود! ولی اون یه داستان دیگه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "story",
+      "have",
+      "tell"
+     ],
+     "suggestion": "Another story? You have to tell me!",
+     "suggestionFa": "یه داستان دیگه؟ باید بهم بگی!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holiday",
+      "stories",
+      "family",
+      "best"
+     ],
+     "suggestion": "Your family has the best holiday stories.",
+     "suggestionFa": "خانوادهٔ شما بهترین داستان‌های تعطیلات را داره.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by the time",
+     "fa": "تا وقتی که"
+    },
+    {
+     "word": "arrived",
+     "fa": "رسیدیم"
+    },
+    {
+     "word": "someone else",
+     "fa": "کس دیگری"
+    },
+    {
+     "word": "another story",
+     "fa": "داستان دیگری"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Next time, mate. Over a pint. For Tehran, take snacks, a charger and lots of patience. And maybe a trolley for napping.",
+   "translations": {
+    "fa": "دفعهٔ بعد رفیق. سر یه لیوان آبجو. برای تهران، خوراکی، شارژر و کلی صبر ببر. و شاید یه چرخ چمدون برای چرت زدن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

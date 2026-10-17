@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "service",
       "there's",
+      "service",
       "scissor",
-      "bird's",
-      "choose"
+      "choose",
+      "bird's"
      ],
      "suggestion": "Fine? It's like a bird's nest. OK — \"Choose a service\". There's \"Skin fade\", \"Scissor cut\", \"Kids' cut\". Which one?",
      "suggestionFa": "خوب؟ مثل لونهٔ پرنده‌ست. خب — «یک سرویس انتخاب کنید». «فید کامل»، «کوتاهی با قیچی»، «کوتاهی بچه». کدوم؟",
@@ -74,8 +74,8 @@
       "everyone's",
       "longer",
       "twenty",
-      "sides",
-      "short"
+      "short",
+      "sides"
      ],
      "suggestion": "Skin fade is short at the sides — down to the skin — and longer on top. Everyone's got one. Twenty quid.",
      "suggestionFa": "فید یعنی بغل‌ها کوتاه — تا پوست — و بالا بلندتر. همه دارن. بیست پوند.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "wednesday",
-      "anything",
       "thursday",
+      "anything",
       "booked",
       "paying"
      ],
@@ -124,8 +124,8 @@
       "football",
       "tuesday",
       "fifteen",
-      "four",
-      "till"
+      "have",
+      "i've"
      ],
      "suggestion": "Tuesday… four-fifteen! One slot left. But I've got football till four. I'll have to run.",
      "suggestionFa": "سه‌شنبه… چهار و ربع! یه وقت مونده. ولی تا چهار فوتبال دارم. مجبورم بدوم.",
@@ -149,8 +149,8 @@
       "cancellations",
       "minutes",
       "booked",
-      "what's",
-      "notice"
+      "notice",
+      "what's"
      ],
      "suggestion": "Booked! \"Please arrive five minutes early. Cancellations need 24 hours' notice.\" What's notice?",
      "suggestionFa": "رزرو شد! «لطفاً پنج دقیقه زودتر بیایید. لغو نیاز به ۲۴ ساعت اطلاع قبلی دارد.» «نوتیس» چیه؟",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "sounding",
-      "without",
       "missing",
       "nothing",
+      "without",
       "explain"
      ],
      "suggestion": "Pay for nothing? No way. I'm not missing it. Thanks, legend. Now I just need to explain the fade to Sal without sounding stupid.",

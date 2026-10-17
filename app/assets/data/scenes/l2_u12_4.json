@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
+      "poor",
       "i'll",
-      "call",
-      "poor"
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "isn't",
-      "hello"
+      "hello",
+      "isn't"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "sickness",
       "drinking",
+      "sickness",
       "little",
       "she's"
      ],
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "morning",
-      "once",
       "sick",
+      "once",
       "was"
      ],
      "suggestion": "She was sick once this morning.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",
@@ -341,7 +341,7 @@
       "neighbour",
       "belongs",
       "sure",
-      "our"
+      "she"
      ],
      "suggestion": "I'm not sure. She belongs to our neighbour.",
      "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",

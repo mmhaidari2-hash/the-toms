@@ -34,8 +34,8 @@
      "keywords": [
       "never",
       "show",
-      "i've",
-      "done"
+      "done",
+      "i've"
      ],
      "suggestion": "I've never done it in the UK. Show me?",
      "suggestionFa": "تا حالا تو بریتانیا این کار را نکردم. نشونم میدی؟",
@@ -194,8 +194,8 @@
      "keywords": [
       "hundred",
       "pounds",
-      "ouch",
-      "four"
+      "four",
+      "ouch"
      ],
      "suggestion": "Four hundred pounds? Ouch!",
      "suggestionFa": "چهارصد پوند؟ آخ!",
@@ -246,10 +246,10 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "drive",
-      "long",
-      "fill"
+      "let's",
+      "fill",
+      "long"
      ],
      "suggestion": "Let's fill it up. It's a long drive.",
      "suggestionFa": "پرش کنیم. راه طولانیه.",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "enough",
-      "thirty",
-      "pounds"
+      "pounds",
+      "thirty"
      ],
      "suggestion": "Thirty pounds is enough.",
      "suggestionFa": "سی پوند کافیه.",
@@ -313,8 +313,8 @@
      "keywords": [
       "fifty",
       "pump",
-      "two",
-      "pay"
+      "pay",
+      "two"
      ],
      "suggestion": "Fifty-two! Can I pay at the pump?",
      "suggestionFa": "پنجاه و دو! می‌تونم کنار پمپ پرداخت کنم؟",
@@ -348,9 +348,9 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "four",
       "pump",
+      "four",
+      "i'll",
       "pay"
      ],
      "suggestion": "Pump four. I'll go and pay.",

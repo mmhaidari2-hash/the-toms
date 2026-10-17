@@ -74,8 +74,8 @@
      "keywords": [
       "excuse",
       "would",
-      "like",
-      "down"
+      "down",
+      "like"
      ],
      "suggestion": "Excuse me. Would you like to sit down?",
      "suggestionFa": "ببخشید. می‌خواید بشینید؟",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "please",
-      "seat",
       "take",
-      "here"
+      "here",
+      "seat"
      ],
      "suggestion": "Hi. Here, please take my seat.",
      "suggestionFa": "سلام. بفرمایید، جای من بشینید.",
@@ -133,8 +133,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "buggy",
+      "where",
       "go"
      ],
      "suggestion": "Where does the buggy go?",
@@ -197,7 +197,7 @@
       "everyone",
       "that's",
       "fair",
-      "good"
+      "rule"
      ],
      "suggestion": "That's a good rule. Fair for everyone.",
      "suggestionFa": "قانون خوبیه. برای همه منصفانه‌ست.",
@@ -237,8 +237,8 @@
      "keywords": [
       "there's",
       "hello",
-      "hand",
-      "need"
+      "here",
+      "hand"
      ],
      "suggestion": "Hello, sir. Do you need a hand? There's a seat here.",
      "suggestionFa": "سلام آقا. کمک لازم دارید؟ اینجا یه صندلی هست.",
@@ -290,9 +290,9 @@
     {
      "keywords": [
       "standing",
-      "don't",
       "feels",
-      "mind"
+      "don't",
+      "good"
      ],
      "suggestion": "It feels good. I don't mind standing.",
      "suggestionFa": "حس خوبی داره. وایسادن برام مهم نیست.",
@@ -303,8 +303,8 @@
     {
      "keywords": [
       "young",
-      "legs",
-      "fine"
+      "fine",
+      "legs"
      ],
      "suggestion": "My legs are young. It's fine!",
      "suggestionFa": "پاهام جوونن. اشکالی نداره!",

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "saturday",
       "brighton",
+      "saturday",
       "advance",
       "cheaper",
-      "ticket"
+      "lovely"
      ],
      "suggestion": "So you're going to Brighton on Saturday? Lovely. Let's buy the ticket now — it's cheaper in advance. Single or return?",
      "suggestionFa": "پس شنبه میری برایتون؟ عالیه. بیا بلیت را الان بخریم — از قبل ارزون‌تره. یک‌طرفه یا رفت‌وبرگشت؟",
@@ -50,7 +50,7 @@
       "return",
       "single",
       "funny",
-      "there"
+      "thing"
      ],
      "suggestion": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
      "suggestionFa": "یک‌طرفه یعنی فقط رفت. رفت‌وبرگشت یعنی رفتن و برگشتن. نکتهٔ جالب — تو بریتانیا، رفت‌وبرگشت اغلب فقط یه‌کم گرون‌تر از یک‌طرفه‌ست.",
@@ -99,8 +99,8 @@
       "flexible",
       "return",
       "train",
-      "then",
-      "more"
+      "peak",
+      "come"
      ],
      "suggestion": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
      "suggestionFa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "advance",
-      "single",
-      "twenty",
       "pounds",
-      "train"
+      "twenty",
+      "single",
+      "again"
      ],
      "suggestion": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
      "suggestionFa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "return's",
-      "allowed",
       "advance",
+      "allowed",
       "cheaper",
       "thirty"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "barriers",
-      "ticket",
       "charge",
+      "ticket",
       "phone",
       "means"
      ],
@@ -198,8 +198,8 @@
      "keywords": [
       "brighton",
       "seagulls",
-      "collect",
       "machine",
+      "collect",
       "braces"
      ],
      "suggestion": "You can collect paper ones from the machine. Belt and braces! Enjoy Brighton — and watch out for the seagulls. They steal chips.",

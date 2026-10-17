@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "happy",
       "first",
-      "line",
-      "read"
+      "happy",
+      "read",
+      "line"
      ],
      "suggestion": "Happy to. Read me the first line.",
      "suggestionFa": "با کمال میل. خط اول را برام بخونید.",
@@ -75,8 +75,8 @@
      "keywords": [
       "consistently",
       "participants",
-      "significant",
-      "improvement"
+      "improvement",
+      "significant"
      ],
      "suggestion": "Try: \"Attendance has been consistently high, and participants have shown significant improvement.\"",
      "suggestionFa": "امتحان کنید: «حضور به‌طور مداوم بالا بوده، و شرکت‌کنندگان پیشرفت چشمگیری نشان داده‌اند.»",
@@ -197,9 +197,9 @@
    "branches": [
     {
      "keywords": [
-      "letters",
       "reading",
-      "taught",
+      "letters",
+      "decode",
       "mostly"
      ],
      "suggestion": "Reading HMRC letters, mostly! Arthur taught me to decode them.",
@@ -212,7 +212,7 @@
      "keywords": [
       "language",
       "english",
-      "within",
+      "emails",
       "second"
      ],
      "suggestion": "From years of emails at work. Formal is like a second language within English.",

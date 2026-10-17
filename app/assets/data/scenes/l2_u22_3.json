@@ -34,7 +34,7 @@
      "keywords": [
       "never",
       "first",
-      "i've",
+      "show",
       "used"
      ],
      "suggestion": "I've never used one. Show me first?",
@@ -76,7 +76,7 @@
       "apples",
       "fruit",
       "look",
-      "item"
+      "done"
      ],
      "suggestion": "Look up item… fruit… apples. Done!",
      "suggestionFa": "جستجوی کالا… میوه… سیب. تموم!",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "stopped",
-      "green",
       "light",
+      "green",
       "has"
      ],
      "suggestion": "Yes, it has stopped. The light is green.",
@@ -303,8 +303,8 @@
      "keywords": [
       "scanned",
       "apples",
-      "thank",
-      "twice"
+      "twice",
+      "think"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
      "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "card",
-      "put",
-      "tap"
+      "tap",
+      "put"
      ],
      "suggestion": "Card. Do I put it in or tap?",
      "suggestionFa": "کارت. واردش کنم یا بزنمش؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "thank",
+      "paid",
       "i've",
-      "says",
-      "paid"
+      "says"
      ],
      "suggestion": "I've paid! It says \"Thank you\".",
      "suggestionFa": "پرداخت کردم! نوشته «متشکریم».",

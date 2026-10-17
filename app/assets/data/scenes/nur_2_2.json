@@ -80,8 +80,8 @@
     {
      "keywords": [
       "oscar",
-      "i'll",
       "next",
+      "i'll",
       "sit"
      ],
      "suggestion": "OK, I'll sit next to Oscar.",
@@ -113,9 +113,9 @@
     {
      "keywords": [
       "that's",
-      "can",
       "pea",
-      "one"
+      "one",
+      "can"
      ],
      "suggestion": "That's OK. Can you try one pea?",
      "suggestionFa": "اشکالی نداره. یه دونه نخود امتحان می‌کنی؟",
@@ -215,9 +215,9 @@
    "branches": [
     {
      "keywords": [
+      "none",
       "most",
       "some",
-      "none",
       "all"
      ],
      "suggestion": "All, most, some or none. OK.",
@@ -228,8 +228,8 @@
     },
     {
      "keywords": [
-      "where",
       "write",
+      "where",
       "we"
      ],
      "suggestion": "Where do we write it?",

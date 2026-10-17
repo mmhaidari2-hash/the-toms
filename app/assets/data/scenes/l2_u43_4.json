@@ -1,0 +1,411 @@
+{
+ "id": "l2_u43_4",
+ "characterId": "leslie",
+ "title": "A quiet village",
+ "titleFa": "یک روستای آرام",
+ "setting": "Describing places · Level 2",
+ "settingFa": "توصیف مکان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "My sister's just moved from Leeds to a tiny village in the Yorkshire Dales. Look at these photos she sent.",
+   "translations": {
+    "fa": "خواهرم تازه از لیدز به یه روستای کوچیک تو یورکشایر دیلز رفته. این عکس‌هایی که فرستاده را ببین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sheep",
+      "green",
+      "look",
+      "all"
+     ],
+     "suggestion": "It's so green! And look at all the sheep!",
+     "suggestionFa": "خیلی سبزه! و این همه گوسفند را ببین!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yorkshire",
+      "dales",
+      "where"
+     ],
+     "suggestion": "Where are the Yorkshire Dales?",
+     "suggestionFa": "یورکشایر دیلز کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sister",
+     "fa": "خواهر"
+    },
+    {
+     "word": "moved",
+     "fa": "نقل مکان کرد"
+    },
+    {
+     "word": "tiny",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "village",
+     "fa": "روستا"
+    },
+    {
+     "word": "sheep",
+     "fa": "گوسفندها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "In the north of England. Hills, stone walls, and more sheep than people. Literally! The village has two hundred people.",
+   "translations": {
+    "fa": "تو شمال انگلستان. تپه، دیوارهای سنگی، و گوسفند بیشتر از آدم. واقعاً! روستا دویست نفر جمعیت داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "that's",
+      "small",
+      "two"
+     ],
+     "suggestion": "Two hundred people! That's very small.",
+     "suggestionFa": "دویست نفر! خیلی کوچیکه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sheep",
+      "more",
+      "than",
+      "ha"
+     ],
+     "suggestion": "More sheep than people? Ha!",
+     "suggestionFa": "گوسفند بیشتر از آدم؟ ها!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "north",
+     "fa": "شمال"
+    },
+    {
+     "word": "hills",
+     "fa": "تپه‌ها"
+    },
+    {
+     "word": "stone walls",
+     "fa": "دیوارهای سنگی"
+    },
+    {
+     "word": "literally",
+     "fa": "واقعاً ؛ به معنای واقعی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many English villages have a church, a pub, a village green and a small shop. Some have a post office inside the shop.",
+    "fa": "بیشتر روستاهای انگلیس یک کلیسا، یک میخانه، یک چمن عمومی و یک مغازهٔ کوچک دارند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "There's only one shop, one pub and one church. The bus comes twice a day. Twice! Tom would cry.",
+   "translations": {
+    "fa": "فقط یه مغازه، یه میخانه و یه کلیسا هست. اتوبوس روزی دو بار میاد. دو بار! تام گریه‌اش می‌گیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twice",
+      "work",
+      "how",
+      "get"
+     ],
+     "suggestion": "Only twice a day? How does she get to work?",
+     "suggestionFa": "فقط روزی دو بار؟ چطوری میره سر کار؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "closed",
+      "shop",
+      "one"
+     ],
+     "suggestion": "There's only one shop? What if it's closed?",
+     "suggestionFa": "فقط یه مغازه هست؟ اگه بسته باشه چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "only one",
+     "fa": "فقط یک"
+    },
+    {
+     "word": "pub",
+     "fa": "میخانه ؛ پاب"
+    },
+    {
+     "word": "church",
+     "fa": "کلیسا"
+    },
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is only one shops",
+      "there are only one shop"
+     ],
+     "echo": "There's only one shop? Yes, just one!",
+     "better": "There's only one shop.",
+     "betterFa": "فقط یک مغازه هست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "She works from home now. Her internet is terrible, though. She says nothing much happens. The big news is a lost sheep.",
+   "translations": {
+    "fa": "الان از خونه کار می‌کنه. ولی اینترنتش افتضاحه. میگه اتفاق خاصی نمی‌افته. خبر بزرگ یه گوسفند گمشده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sheep",
+      "lost",
+      "news",
+      "love"
+     ],
+     "suggestion": "A lost sheep is the big news? I love it!",
+     "suggestionFa": "گوسفند گمشده خبر بزرگه؟ عاشقشم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lonely",
+      "happy",
+      "there",
+      "she"
+     ],
+     "suggestion": "Is she happy there? Is it lonely?",
+     "suggestionFa": "اونجا خوشحاله؟ احساس تنهایی نمی‌کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "works from home",
+     "fa": "دورکاری می‌کند"
+    },
+    {
+     "word": "internet",
+     "fa": "اینترنت"
+    },
+    {
+     "word": "nothing much",
+     "fa": "چیز خاصی نه"
+    },
+    {
+     "word": "lonely",
+     "fa": "تنها ؛ دلگیر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "She's very happy. She says it's so peaceful. No sirens, no traffic. You can hear the birds in the morning.",
+   "translations": {
+    "fa": "خیلی خوشحاله. میگه خیلی آرومه. نه آژیر، نه ترافیک. صبح‌ها صدای پرنده‌ها را میشه شنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "lovely",
+      "sounds",
+      "buses"
+     ],
+     "suggestion": "That sounds lovely. In Hackney I hear the buses.",
+     "suggestionFa": "قشنگ به نظر میاد. تو هکنی من صدای اتوبوس‌ها را می‌شنوم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grandparents",
+      "village",
+      "live",
+      "iran"
+     ],
+     "suggestion": "In Iran, my grandparents live in a village too.",
+     "suggestionFa": "تو ایران، پدربزرگ و مادربزرگم هم تو روستا زندگی می‌کنن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peaceful",
+     "fa": "آرام ؛ آسوده"
+    },
+    {
+     "word": "sirens",
+     "fa": "آژیرها"
+    },
+    {
+     "word": "birds",
+     "fa": "پرنده‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Really? Tell me about their village. Is it like this?",
+   "translations": {
+    "fa": "واقعاً؟ از روستاشون بهم بگو. شبیه اینه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "mountains",
+      "trees",
+      "fruit"
+     ],
+     "suggestion": "It's near the mountains. There are fruit trees everywhere.",
+     "suggestionFa": "نزدیک کوه‌هاست. همه‌جا درخت میوه‌ست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "walnuts",
+      "drier",
+      "lots"
+     ],
+     "suggestion": "It's drier, but very beautiful. There are lots of walnuts.",
+     "suggestionFa": "خشک‌تره، ولی خیلی قشنگه. کلی گردو داره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fruit trees",
+     "fa": "درختان میوه"
+    },
+    {
+     "word": "everywhere",
+     "fa": "همه‌جا"
+    },
+    {
+     "word": "drier",
+     "fa": "خشک‌تر"
+    },
+    {
+     "word": "walnuts",
+     "fa": "گردوها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Fruit trees and mountains. Sounds perfect. My sister's invited us for the Easter holidays. You should come!",
+   "translations": {
+    "fa": "درخت میوه و کوه. عالی به نظر میاد. خواهرم ما را برای تعطیلات عید پاک دعوت کرده. تو هم باید بیای!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hills",
+      "walk",
+      "i'd",
+      "can"
+     ],
+     "suggestion": "I'd love to! Can I walk in the hills?",
+     "suggestionFa": "خیلی دوست دارم! میشه تو تپه‌ها پیاده‌روی کنم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "nicola",
+      "sheep",
+      "will"
+     ],
+     "suggestion": "Yes please. Nicola will love the sheep.",
+     "suggestionFa": "لطفاً بله. نیکولا عاشق گوسفندها میشه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "invited",
+     "fa": "دعوت کرد"
+    },
+    {
+     "word": "Easter holidays",
+     "fa": "تعطیلات عید پاک"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده‌روی کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Bring your walking boots — and your patience. Five hours in the car with William! But the hills are worth it.",
+   "translations": {
+    "fa": "کفش کوهت را بیار — و صبرت را. پنج ساعت تو ماشین با ویلیام! ولی تپه‌ها ارزشش را دارن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

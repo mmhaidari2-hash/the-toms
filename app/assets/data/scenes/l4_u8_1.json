@@ -20,9 +20,9 @@
     {
      "keywords": [
       "careful",
-      "claim",
       "where",
-      "read"
+      "claim",
+      "kind"
      ],
      "suggestion": "Where did you read that? I'd be careful with that kind of claim.",
      "suggestionFa": "کجا خوندی؟ با این جور ادعاها محتاط باش.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "generalisation",
-      "eligible",
       "migrants",
+      "eligible",
       "that's"
      ],
      "suggestion": "That's a bit of a generalisation, Dave. Most migrants aren't eligible at first.",
@@ -94,10 +94,10 @@
     },
     {
      "keywords": [
-      "problem",
       "decades",
-      "enough",
-      "houses"
+      "problem",
+      "houses",
+      "enough"
      ],
      "suggestion": "The real problem is that not enough houses have been built for decades.",
      "suggestionFa": "مشکل واقعی اینه که دهه‌هاست خونهٔ کافی ساخته نشده.",
@@ -154,8 +154,8 @@
      "keywords": [
       "understand",
       "people",
-      "aimed",
-      "wrong"
+      "wrong",
+      "aimed"
      ],
      "suggestion": "I understand the anger. But it's aimed at the wrong people.",
      "suggestionFa": "خشم را می‌فهمم. ولی به سمت آدم‌های اشتباهیه.",
@@ -195,8 +195,8 @@
      "keywords": [
       "thanks",
       "being",
-      "dave",
-      "open"
+      "open",
+      "dave"
      ],
      "suggestion": "Thanks for being open to it, Dave.",
      "suggestionFa": "ممنون که پذیرا بودی دیو.",
@@ -208,8 +208,8 @@
      "keywords": [
       "honestly",
       "about",
-      "good",
-      "talk"
+      "talk",
+      "good"
      ],
      "suggestion": "It's good we can talk about it honestly.",
      "suggestionFa": "خوبه که می‌تونیم صادقانه دربارهٔ اون حرف بزنیم.",

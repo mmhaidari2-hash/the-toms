@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "register",
       "everyone",
+      "register",
       "hackney",
       "surgery",
       "should"
@@ -105,9 +105,9 @@
      "keywords": [
       "surname",
       "that's",
-      "birth",
+      "let's",
       "paper",
-      "first"
+      "birth"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
      "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "previous",
-      "before",
       "doctor",
+      "before",
       "boxes",
       "seen"
      ],
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "number",
-      "leave",
-      "don't",
       "blank",
-      "write"
+      "leave",
+      "write",
+      "don't"
      ],
      "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
      "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
@@ -204,8 +204,8 @@
     {
      "keywords": [
       "questions",
-      "drinking",
       "register",
+      "drinking",
       "smoking",
       "number"
      ],

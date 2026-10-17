@@ -1,0 +1,418 @@
+{
+ "id": "l2_u40_1",
+ "characterId": "callum",
+ "title": "Cold coffee",
+ "titleFa": "قهوهٔ سرد",
+ "setting": "Simple complaints · Level 2",
+ "settingFa": "شکایت‌های ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "All right? One flat white, extra hot, for table four. There you go, pal. Enjoy.",
+   "translations": {
+    "fa": "چطوری؟ یه فلت وایت، خیلی داغ، برای میز چهار. بفرمایید رفیق. نوش جان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "callum"
+     ],
+     "suggestion": "Thanks, Callum.",
+     "suggestionFa": "مرسی کالوم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "thank"
+     ],
+     "suggestion": "Lovely. Thank you.",
+     "suggestionFa": "عالی. ممنون.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flat white",
+     "fa": "فلت وایت (نوعی قهوه)"
+    },
+    {
+     "word": "extra hot",
+     "fa": "خیلی داغ"
+    },
+    {
+     "word": "there you go",
+     "fa": "بفرمایید"
+    },
+    {
+     "word": "pal",
+     "fa": "رفیق"
+    },
+    {
+     "word": "enjoy",
+     "fa": "لذت ببر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Everything all right with your coffee? You've got a funny face on. Is it the milk?",
+   "translations": {
+    "fa": "قهوه‌ات همه‌چی خوبه؟ قیافه‌ات یه جوریه. شیرشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bother",
+      "sorry",
+      "but",
+      "bit"
+     ],
+     "suggestion": "Sorry to bother you, but it's a bit cold.",
+     "suggestionFa": "ببخشید مزاحم میشم، ولی یه کم سرده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "fine",
+      "well"
+     ],
+     "suggestion": "It's fine, thanks. Well… it's cold.",
+     "suggestionFa": "خوبه، مرسی. خب… سرده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everything all right",
+     "fa": "همه‌چیز خوب است"
+    },
+    {
+     "word": "funny face",
+     "fa": "قیافهٔ عجیب"
+    },
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "a bit",
+     "fa": "یه کم"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people often apologise when they complain: \"Sorry, but…\", \"I'm afraid…\". A small polite complaint is normal and welcome.",
+    "fa": "بریتانیایی‌ها موقع شکایت معمولاً عذرخواهی می‌کنند؛ شکایت کوچک و مؤدبانه عادی است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "sorry for bother you",
+      "sorry to bothering you"
+     ],
+     "echo": "Sorry to bother you? No bother!",
+     "better": "Sorry to bother you, but it's cold.",
+     "betterFa": "ببخشید مزاحم می‌شوم، ولی سرد است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Cold? I asked for extra hot! Oh no — I bet I gave you the one for table six. She wanted it lukewarm. Weird, but OK.",
+   "translations": {
+    "fa": "سرده؟ من گفتم خیلی داغ! وای نه — شرط می‌بندم مال میز شش را بهت دادم. اون ولرم می‌خواست. عجیبه، ولی باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "that's",
+      "please",
+      "could"
+     ],
+     "suggestion": "That's OK. Could I have another one, please?",
+     "suggestionFa": "اشکالی نداره. میشه یکی دیگه بدید لطفاً؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lukewarm",
+      "coffee",
+      "drinks",
+      "who"
+     ],
+     "suggestion": "Lukewarm? Who drinks lukewarm coffee?",
+     "suggestionFa": "ولرم؟ کی قهوهٔ ولرم می‌خوره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "asked for",
+     "fa": "خواسته بودم"
+    },
+    {
+     "word": "I bet",
+     "fa": "شرط می‌بندم"
+    },
+    {
+     "word": "lukewarm",
+     "fa": "ولرم"
+    },
+    {
+     "word": "weird",
+     "fa": "عجیب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Course! Give me two minutes. Sorry, mate. The new machine's been a nightmare all week. Steam everywhere.",
+   "translations": {
+    "fa": "حتماً! دو دقیقه وقت بده. ببخشید رفیق. دستگاه جدید کل هفته کابوس بوده. همه‌جا بخار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "worries",
+      "coffee",
+      "new"
+     ],
+     "suggestion": "No worries. Is it a new coffee machine?",
+     "suggestionFa": "مشکلی نیست. دستگاه قهوهٔ جدیده؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worry",
+      "don't",
+      "hurry"
+     ],
+     "suggestion": "Don't worry, I'm not in a hurry.",
+     "suggestionFa": "نگران نباش، عجله ندارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "course",
+     "fa": "حتماً (عامیانه)"
+    },
+    {
+     "word": "nightmare",
+     "fa": "کابوس"
+    },
+    {
+     "word": "steam",
+     "fa": "بخار"
+    },
+    {
+     "word": "no worries",
+     "fa": "مشکلی نیست"
+    },
+    {
+     "word": "hurry",
+     "fa": "عجله"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Brand new. Italian. It's got more buttons than a spaceship. The boss spent a fortune. Here — extra, extra hot this time.",
+   "translations": {
+    "fa": "کاملاً نو. ایتالیایی. از سفینهٔ فضایی دکمه‌های بیشتری داره. رئیس کلی پول داده. بفرما — این دفعه خیلی خیلی داغ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "better",
+      "that's",
+      "thanks"
+     ],
+     "suggestion": "Perfect. That's much better, thanks.",
+     "suggestionFa": "عالی. خیلی بهتره، مرسی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "hot",
+      "now",
+      "ha"
+     ],
+     "suggestion": "Careful! It's very hot now. Ha!",
+     "suggestionFa": "مواظب باش! الان خیلی داغه. ها!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brand new",
+     "fa": "کاملاً نو"
+    },
+    {
+     "word": "buttons",
+     "fa": "دکمه‌ها"
+    },
+    {
+     "word": "spaceship",
+     "fa": "سفینهٔ فضایی"
+    },
+    {
+     "word": "spent a fortune",
+     "fa": "کلی پول خرج کرد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "And a little shortbread on the house. To say sorry. Don't tell the boss. Five out of five on Google, yeah?",
+   "translations": {
+    "fa": "و یه شیرینی کره‌ای مهمون ما. برای عذرخواهی. به رئیس نگو. تو گوگل پنج از پنج، باشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "stars",
+      "kind",
+      "five"
+     ],
+     "suggestion": "That's very kind. Five stars!",
+     "suggestionFa": "خیلی لطف داری. پنج ستاره!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "thank",
+      "have",
+      "but"
+     ],
+     "suggestion": "You don't have to. But thank you!",
+     "suggestionFa": "لازم نبود. ولی ممنون!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shortbread",
+     "fa": "بیسکویت کره‌ای اسکاتلندی"
+    },
+    {
+     "word": "on the house",
+     "fa": "مهمان ما (مجانی)"
+    },
+    {
+     "word": "stars",
+     "fa": "ستاره‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"On the house\" means free, paid by the café. It's a common way to say sorry for a mistake.",
+    "fa": "«on the house» یعنی مجانی و مهمان کافه؛ راه رایجی برای عذرخواهی است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "You're a gent. Most people just sit there and say nothing, then write a mean review. Better to tell me.",
+   "translations": {
+    "fa": "تو یه آقایی. بیشتر مردم فقط می‌شینن و هیچی نمیگن، بعد یه نظر بد می‌نویسن. بهتره به خودم بگید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complain",
+      "loudly",
+      "people",
+      "more"
+     ],
+     "suggestion": "In Iran, people complain more loudly!",
+     "suggestionFa": "تو ایران، مردم بلندتر شکایت می‌کنن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "complaint",
+      "better",
+      "agree",
+      "small"
+     ],
+     "suggestion": "I agree. A small complaint is better.",
+     "suggestionFa": "موافقم. یه شکایت کوچیک بهتره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gent",
+     "fa": "آقا ؛ جنتلمن"
+    },
+    {
+     "word": "mean",
+     "fa": "بدجنس ؛ بد"
+    },
+    {
+     "word": "review",
+     "fa": "نظر ؛ نقد"
+    },
+    {
+     "word": "complain",
+     "fa": "شکایت کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "callum",
+   "text": "Loudly? Ha! In Manchester too. My nan once sent back soup three times. Right, enjoy that. Shout if it's cold!",
+   "translations": {
+    "fa": "بلندتر؟ ها! تو منچستر هم. مادربزرگم یه بار سه دفعه سوپ را پس فرستاد. خب، نوش جان. اگه سرد بود داد بزن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

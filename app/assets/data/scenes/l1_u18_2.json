@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "there",
       "isn't",
+      "there",
       "any"
      ],
      "suggestion": "No, there isn't any bread.",
@@ -138,8 +138,8 @@
      "keywords": [
       "apple",
       "have",
-      "she",
-      "can"
+      "can",
+      "she"
      ],
      "suggestion": "She can have an apple.",
      "suggestionFa": "می‌تونه یه سیب بخوره.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "sticks",
       "carrot",
+      "sticks",
       "some"
      ],
      "suggestion": "Some carrot sticks?",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "best",
-      "trip"
+      "trip",
+      "best"
      ],
      "suggestion": "Water is best for a trip.",
      "suggestionFa": "برای اردو آب بهتره.",
@@ -277,9 +277,9 @@
     {
      "keywords": [
       "bottle",
-      "she",
       "got",
-      "has"
+      "has",
+      "she"
      ],
      "suggestion": "Has she got a water bottle?",
      "suggestionFa": "بطری آب داره؟",
@@ -321,9 +321,9 @@
     {
      "keywords": [
       "done",
+      "n",
       "c",
-      "o",
-      "l"
+      "o"
      ],
      "suggestion": "N-I-C-O-L-A. Done!",
      "suggestionFa": "ن-ی-ک-و-ل-ا. تموم!",

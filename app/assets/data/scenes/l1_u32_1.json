@@ -74,9 +74,9 @@
     },
     {
      "keywords": [
-      "big",
       "how",
-      "one"
+      "one",
+      "big"
      ],
      "suggestion": "How big is the large one?",
      "suggestionFa": "بزرگه چقدره؟",
@@ -125,10 +125,10 @@
     },
     {
      "keywords": [
-      "family",
       "please",
-      "i've",
-      "next"
+      "family",
+      "next",
+      "door"
      ],
      "suggestion": "The big one, please. I've got a big family next door!",
      "suggestionFa": "بزرگه، لطفاً. همسایه‌م خانوادهٔ بزرگی داره!",
@@ -162,8 +162,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "sliced"
+      "sliced",
+      "please"
      ],
      "suggestion": "Sliced, please.",
      "suggestionFa": "برش‌خورده، لطفاً.",

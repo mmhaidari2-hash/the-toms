@@ -30,8 +30,8 @@
     {
      "keywords": [
       "about",
-      "talks",
       "doris",
+      "talks",
       "tom"
      ],
      "suggestion": "Hello, Doris! Tom talks about you too.",
@@ -53,10 +53,10 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "didn't",
+      "maggie",
       "nana",
-      "why"
+      "tap"
      ],
      "suggestion": "Why didn't you tap, Nana Maggie?",
      "suggestionFa": "چرا کارت نزدی ننه مگی؟",
@@ -118,10 +118,10 @@
     },
     {
      "keywords": [
-      "can",
-      "age",
       "one",
-      "get"
+      "can",
+      "get",
+      "age"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -176,7 +176,7 @@
      "keywords": [
       "years",
       "must",
-      "use",
+      "lot",
       "ten"
      ],
      "suggestion": "Ten years! You must use it a lot.",
@@ -228,8 +228,8 @@
      "keywords": [
       "that's",
       "years",
-      "long",
-      "time"
+      "time",
+      "long"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -241,8 +241,8 @@
      "keywords": [
       "maggie",
       "yours",
-      "nana",
-      "when"
+      "when",
+      "nana"
      ],
      "suggestion": "Nana Maggie, when does yours run out?",
      "suggestionFa": "ننه مگی، مال تو کی تموم میشه؟",
@@ -271,7 +271,7 @@
       "maggie",
       "online",
       "renew",
-      "nana"
+      "help"
      ],
      "suggestion": "I can help you renew it online, Nana Maggie.",
      "suggestionFa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی.",
@@ -388,9 +388,9 @@
     {
      "keywords": [
       "maggie",
+      "home",
       "take",
-      "nana",
-      "home"
+      "nana"
      ],
      "suggestion": "Nana Maggie, we can take it at home.",
      "suggestionFa": "ننه مگی، می‌تونیم تو خونه بگیریمش.",

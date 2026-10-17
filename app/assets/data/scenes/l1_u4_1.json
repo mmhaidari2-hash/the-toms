@@ -224,10 +224,10 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "let's",
-      "mum",
-      "ask"
+      "first",
+      "ask",
+      "mum"
      ],
      "suggestion": "Let's ask your mum first.",
      "suggestionFa": "بیا اول از مامانت بپرسیم.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "shall",
+      "make",
       "good",
-      "idea",
       "many"
      ],
      "suggestion": "Good idea! How many shall we make?",
@@ -285,8 +285,8 @@
     },
     {
      "keywords": [
-      "enough",
       "twelve",
+      "enough",
       "maybe"
      ],
      "suggestion": "Maybe twelve is enough.",

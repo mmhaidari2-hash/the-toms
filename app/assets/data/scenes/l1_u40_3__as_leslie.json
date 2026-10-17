@@ -23,8 +23,8 @@
      "keywords": [
       "making",
       "potato",
-      "hands",
       "could",
+      "hands",
       "full"
      ],
      "suggestion": "I'm making leek and potato soup for tea. Could you help me? My hands are full!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "butter",
-      "onions",
       "please",
-      "green",
-      "could"
+      "onions",
+      "onion",
+      "green"
      ],
      "suggestion": "It's like a big green onion. Could you stir the butter and onions, please?",
      "suggestionFa": "شبیه یه پیاز سبز بزرگه. لطفاً کره و پیازها را هم می‌زنی؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "wooden",
-      "leeks",
-      "don't",
       "spoon",
+      "don't",
+      "leeks",
       "them"
      ],
      "suggestion": "Yes, the wooden spoon. Don't let them burn. Can you pass me the leeks?",
@@ -100,7 +100,7 @@
       "they're",
       "inside",
       "please",
-      "muddy"
+      "after"
      ],
      "suggestion": "Oh, yes please. Wash them first — they're often muddy inside. Could you peel the potatoes after?",
      "suggestionFa": "آه، آره لطفاً. اول بشورشون — داخلشون معمولاً گلیه. بعدش سیب‌زمینی‌ها را پوست می‌کنی؟",
@@ -125,7 +125,7 @@
       "drawer",
       "water",
       "some",
-      "told"
+      "boil"
      ],
      "suggestion": "Told you! The peeler's in the drawer. Can you boil some water too?",
      "suggestionFa": "گفتم که! پوست‌کن تو کشوئه. یه کم آب هم جوش میاری؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "kettle",
       "faster",
+      "kettle",
       "first",
       "stock",
-      "then"
+      "cube"
      ],
      "suggestion": "Yes, kettle first. It's faster. Then pour it in with a stock cube.",
      "suggestionFa": "آره، اول کتری. سریع‌تره. بعد با یه عصارهٔ مرغ بریزش تو.",
@@ -173,9 +173,9 @@
      "keywords": [
       "minutes",
       "twenty",
-      "blend",
+      "timer",
       "about",
-      "timer"
+      "blend"
      ],
      "suggestion": "About twenty minutes. Then we blend it. Could you set a timer?",
      "suggestionFa": "حدود بیست دقیقه. بعد میکسش می‌کنیم. می‌شه یه تایمر بذاری؟",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "there's",
-      "lovely",
       "crusty",
+      "lovely",
       "plenty",
-      "thank"
+      "bread"
      ],
      "suggestion": "Lovely. Thank you! Could you stay for tea? There's plenty, with crusty bread. You did half the work!",
      "suggestionFa": "عالی. ممنون! شام می‌مونی؟ زیاده، با نون برشته. نصف کار را تو کردی!",

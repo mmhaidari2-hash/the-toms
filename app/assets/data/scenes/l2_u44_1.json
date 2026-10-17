@@ -1,0 +1,484 @@
+{
+ "id": "l2_u44_1",
+ "characterId": "maya",
+ "title": "Where did you go?",
+ "titleFa": "کجا رفتی؟",
+ "setting": "Past holidays · Level 2",
+ "settingFa": "تعطیلات گذشته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Tickets, please! Oh, it's you again. My favourite passenger. You've got a tan! Have you been away?",
+   "translations": {
+    "fa": "بلیت‌ها لطفاً! اوه، باز تویی. مسافر محبوبم. برنزه شدی! جایی رفته بودی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cornwall",
+      "went",
+      "week"
+     ],
+     "suggestion": "Yes, I went to Cornwall for a week.",
+     "suggestionFa": "آره، یه هفته رفتم کورنوال.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holiday",
+      "hello",
+      "maya",
+      "was"
+     ],
+     "suggestion": "Hello, Maya! Yes, I was on holiday.",
+     "suggestionFa": "سلام مایا! آره، تعطیلات بودم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "passenger",
+     "fa": "مسافر"
+    },
+    {
+     "word": "tan",
+     "fa": "برنزه"
+    },
+    {
+     "word": "been away",
+     "fa": "جایی رفته بودی"
+    },
+    {
+     "word": "holiday",
+     "fa": "تعطیلات"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Cornwall! Lucky you. Where did you stay? Please say a little cottage by the sea.",
+   "translations": {
+    "fa": "کورنوال! خوش به حالت. کجا موندی؟ لطفاً بگو یه کلبهٔ کوچیک کنار دریا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cottage",
+      "little",
+      "ives",
+      "we"
+     ],
+     "suggestion": "We stayed in a little cottage in St Ives.",
+     "suggestionFa": "تو یه کلبهٔ کوچیک تو سنت آیوز موندیم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hostel",
+      "youth",
+      "cheap",
+      "was"
+     ],
+     "suggestion": "I stayed in a youth hostel. It was cheap.",
+     "suggestionFa": "تو یه مسافرخونهٔ جوانان موندم. ارزون بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky you",
+     "fa": "خوش به حالت"
+    },
+    {
+     "word": "stay",
+     "fa": "ماندن"
+    },
+    {
+     "word": "cottage",
+     "fa": "کلبه ؛ خانهٔ روستایی"
+    },
+    {
+     "word": "youth hostel",
+     "fa": "مسافرخانهٔ جوانان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Past simple for finished holidays: we went, we stayed, it was. Many verbs are irregular: go → went, eat → ate, swim → swam.",
+    "fa": "برای تعطیلات تمام‌شده از گذشتهٔ ساده استفاده کنید؛ بسیاری از فعل‌ها بی‌قاعده‌اند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "we stayed at little cottage",
+      "we were stay in a cottage"
+     ],
+     "echo": "You stayed in a cottage? Lovely!",
+     "better": "We stayed in a little cottage.",
+     "betterFa": "در یک کلبهٔ کوچک ماندیم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "St Ives! I went there as a kid. Did you go on the train? It's the most beautiful line in the country.",
+   "translations": {
+    "fa": "سنت آیوز! بچه که بودم رفتم. با قطار رفتی؟ قشنگ‌ترین خط کشوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "train",
+      "along",
+      "went"
+     ],
+     "suggestion": "Yes! The train went along the sea. Amazing.",
+     "suggestionFa": "آره! قطار کنار دریا رفت. معرکه بود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drove",
+      "hours",
+      "seven",
+      "took"
+     ],
+     "suggestion": "No, we drove. It took seven hours!",
+     "suggestionFa": "نه، با ماشین رفتیم. هفت ساعت طول کشید!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "as a kid",
+     "fa": "بچه که بودم"
+    },
+    {
+     "word": "line",
+     "fa": "خط (قطار)"
+    },
+    {
+     "word": "along",
+     "fa": "در امتداد"
+    },
+    {
+     "word": "drove",
+     "fa": "رانندگی کردیم"
+    },
+    {
+     "word": "took",
+     "fa": "طول کشید"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Seven hours! The A30 in August — a nightmare. And what was the weather like? Be honest. It's Cornwall.",
+   "translations": {
+    "fa": "هفت ساعت! جادهٔ A30 تو اوت — کابوس. و هوا چطور بود؟ صادق باش. کورنواله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rained",
+      "sunny",
+      "three",
+      "then"
+     ],
+     "suggestion": "It was sunny for three days, then it rained.",
+     "suggestionFa": "سه روز آفتابی بود، بعد بارون اومد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "windy",
+      "flew",
+      "away"
+     ],
+     "suggestion": "It was windy every day! My hat flew away.",
+     "suggestionFa": "هر روز باد میومد! کلاهم پرید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nightmare",
+     "fa": "کابوس"
+    },
+    {
+     "word": "weather",
+     "fa": "هوا"
+    },
+    {
+     "word": "honest",
+     "fa": "صادق"
+    },
+    {
+     "word": "windy",
+     "fa": "بادی"
+    },
+    {
+     "word": "flew away",
+     "fa": "پرواز کرد ؛ پرید"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Ha! Classic. And what did you do? Did you swim in the sea? It's freezing, even in summer.",
+   "translations": {
+    "fa": "ها! معمولیه. و چی کار کردی؟ تو دریا شنا کردی؟ حتی تابستون هم یخه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "only",
+      "swam",
+      "once"
+     ],
+     "suggestion": "I swam once. Only for two minutes!",
+     "suggestionFa": "یه بار شنا کردم. فقط دو دقیقه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "walked",
+      "beach",
+      "cold"
+     ],
+     "suggestion": "No, I didn't. It was too cold. I walked on the beach.",
+     "suggestionFa": "نه، نکردم. خیلی سرد بود. ساحل قدم زدم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "classic",
+     "fa": "معمولی ؛ کلاسیک"
+    },
+    {
+     "word": "swim",
+     "fa": "شنا کردن"
+    },
+    {
+     "word": "once",
+     "fa": "یک بار"
+    },
+    {
+     "word": "beach",
+     "fa": "ساحل"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Two minutes! You're braver than me. Did you eat a proper Cornish pasty? That's the law down there.",
+   "translations": {
+    "fa": "دو دقیقه! از من شجاع‌تری. یه پیراشکی کورنیشی درست‌حسابی خوردی؟ اونجا قانونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "three",
+      "they",
+      "were"
+     ],
+     "suggestion": "Yes, I ate three. They were delicious!",
+     "suggestionFa": "آره، سه تا خوردم. خوشمزه بودن!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cornish",
+      "what's",
+      "pasty"
+     ],
+     "suggestion": "What's a Cornish pasty?",
+     "suggestionFa": "پیراشکی کورنیشی چیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "braver",
+     "fa": "شجاع‌تر"
+    },
+    {
+     "word": "proper",
+     "fa": "درست و حسابی"
+    },
+    {
+     "word": "Cornish pasty",
+     "fa": "پیراشکی کورنیشی"
+    },
+    {
+     "word": "law",
+     "fa": "قانون"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Cornish pasty is a pastry filled with beef, potato, swede and onion. It was a lunch for tin miners in Cornwall.",
+    "fa": "پیراشکی کورنیشی خمیری پر از گوشت، سیب‌زمینی و پیاز است؛ ناهار معدنچیان کورنوال بود."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Three pasties! Proper holiday. So — best moment? Everybody has one.",
+   "translations": {
+    "fa": "سه تا پیراشکی! تعطیلات واقعی. خب — بهترین لحظه؟ همه یکی دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "harbour",
+      "seals",
+      "near",
+      "saw"
+     ],
+     "suggestion": "I saw seals near the harbour!",
+     "suggestionFa": "نزدیک بندر فک دیدم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "sunset",
+      "night",
+      "last"
+     ],
+     "suggestion": "The sunset on the last night. It was beautiful.",
+     "suggestionFa": "غروب آخرین شب. خیلی قشنگ بود.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moment",
+     "fa": "لحظه"
+    },
+    {
+     "word": "seals",
+     "fa": "فک‌ها"
+    },
+    {
+     "word": "harbour",
+     "fa": "بندر"
+    },
+    {
+     "word": "sunset",
+     "fa": "غروب آفتاب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "maya",
+   "text": "Seals and sunsets. Perfect. Right, I need your ticket really. Ah — you've got a railcard now. Good lad!",
+   "translations": {
+    "fa": "فک و غروب. عالی. خب، واقعاً بلیتت را لازم دارم. آه — الان کارت تخفیف قطار داری. آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "time",
+      "last",
+      "told"
+     ],
+     "suggestion": "Yes! You told me about it last time.",
+     "suggestionFa": "آره! دفعهٔ قبل تو بهم گفتی.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cornwall",
+      "thirty",
+      "pounds",
+      "saved"
+     ],
+     "suggestion": "It saved me thirty pounds on the Cornwall trip.",
+     "suggestionFa": "تو سفر کورنوال سی پوند برام صرفه‌جویی کرد.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "railcard",
+     "fa": "کارت تخفیف قطار"
+    },
+    {
+     "word": "saved",
+     "fa": "صرفه‌جویی کرد"
+    },
+    {
+     "word": "trip",
+     "fa": "سفر"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "maya",
+   "text": "Thirty quid! See, always listen to Maya. Enjoy your day — and send me a postcard next time!",
+   "translations": {
+    "fa": "سی پوند! دیدی، همیشه به حرف مایا گوش کن. روز خوبی داشته باشی — و دفعهٔ بعد برام کارت‌پستال بفرست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

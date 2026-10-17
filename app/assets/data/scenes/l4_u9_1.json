@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "working",
-      "bought",
-      "kettle"
+      "stopped",
+      "kettle",
+      "bought"
      ],
      "suggestion": "I bought this kettle two weeks ago and it's stopped working.",
      "suggestionFa": "دو هفته پیش این کتری را خریدم و از کار افتاده.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "refund",
       "please",
+      "refund",
       "don't",
       "trust"
      ],
@@ -138,8 +138,8 @@
      "keywords": [
       "replacement",
       "different",
-      "fine",
-      "long"
+      "long",
+      "fine"
      ],
      "suggestion": "A replacement is fine, as long as it's a different model.",
      "suggestionFa": "تعویض خوبه، به شرطی که مدل دیگه‌ای باشه.",
@@ -181,9 +181,9 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "morning",
       "heating",
+      "stopped",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "i've",
       "used",
+      "i've",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

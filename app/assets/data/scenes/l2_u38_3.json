@@ -1,0 +1,468 @@
+{
+ "id": "l2_u38_3",
+ "characterId": "leslie",
+ "title": "Car-boot sale",
+ "titleFa": "بازار دست‌دوم از صندوق ماشین",
+ "setting": "Weekend jobs · Level 2",
+ "settingFa": "کارهای آخر هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The hallway is full of boxes! Old toys, books, Tom's terrible shirts. Tomorrow we're doing a car-boot sale. Fancy coming?",
+   "translations": {
+    "fa": "راهرو پر از جعبه‌ست! اسباب‌بازی‌های قدیمی، کتاب‌ها، پیرهن‌های افتضاح تام. فردا بازار دست‌دوم داریم. میای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "sale",
+      "boot",
+      "car"
+     ],
+     "suggestion": "What's a car-boot sale?",
+     "suggestionFa": "«کار بوت سیل» چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "things",
+      "some",
+      "sell",
+      "can"
+     ],
+     "suggestion": "Yes! Can I sell some things too?",
+     "suggestionFa": "آره! منم می‌تونم چیزی بفروشم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boxes",
+     "fa": "جعبه‌ها"
+    },
+    {
+     "word": "terrible",
+     "fa": "افتضاح"
+    },
+    {
+     "word": "car-boot sale",
+     "fa": "بازار دست‌دوم از صندوق ماشین"
+    },
+    {
+     "word": "fancy",
+     "fa": "دلت می‌خواهد ؛ میای"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "People park in a big field and sell old things from the boot of their car. Cheap! Fifty pence, a pound. Start at seven.",
+   "translations": {
+    "fa": "مردم تو یه زمین بزرگ پارک می‌کنن و وسایل قدیمی را از صندوق عقب ماشینشون می‌فروشن. ارزون! پنجاه پنس، یه پوند. ساعت هفت شروع میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "sunday",
+      "seven"
+     ],
+     "suggestion": "Seven in the morning? On a Sunday?",
+     "suggestionFa": "هفت صبح؟ یکشنبه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "markets",
+      "market",
+      "love",
+      "like"
+     ],
+     "suggestion": "Like a market? I love markets.",
+     "suggestionFa": "مثل بازار؟ من عاشق بازارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "field",
+     "fa": "زمین ؛ مزرعه"
+    },
+    {
+     "word": "boot",
+     "fa": "صندوق عقب"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    },
+    {
+     "word": "pence",
+     "fa": "پنس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Car-boot sales happen in fields and car parks on weekend mornings. Sellers pay about £10 for a space. Haggling is normal.",
+    "fa": "بازارهای «کار بوت» آخر هفته‌ها در زمین‌ها برگزار می‌شوند و چانه زدن عادی است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Seven, yes. The early buyers are the serious ones. They're looking for antiques. Now, help me price things. This lamp?",
+   "translations": {
+    "fa": "هفت، آره. خریدارهای اول جدی‌ترن. دنبال عتیقه‌ان. حالا کمکم کن قیمت بذاریم. این چراغ؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "quite",
+      "two",
+      "old"
+     ],
+     "suggestion": "Two pounds? It's quite old.",
+     "suggestionFa": "دو پوند؟ نسبتاً قدیمیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "antique",
+      "maybe",
+      "worth",
+      "lot"
+     ],
+     "suggestion": "Is it an antique? Maybe it's worth a lot!",
+     "suggestionFa": "عتیقه‌ست؟ شاید خیلی ارزش داره!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "buyers",
+     "fa": "خریداران"
+    },
+    {
+     "word": "serious",
+     "fa": "جدی"
+    },
+    {
+     "word": "antiques",
+     "fa": "عتیقه‌ها"
+    },
+    {
+     "word": "price",
+     "fa": "قیمت گذاشتن"
+    },
+    {
+     "word": "lamp",
+     "fa": "چراغ"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Ha, it's from IKEA. Two pounds. Now the next day — you're at the table. A man's looking at the lamp. Ready?",
+   "translations": {
+    "fa": "ها، از ایکیاست. دو پوند. حالا روز بعد — تو پشت میزی. یه آقا داره به چراغ نگاه می‌کنه. آماده‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "ready",
+      "hello",
+      "lamp"
+     ],
+     "suggestion": "Ready. Hello! The lamp is two pounds.",
+     "suggestionFa": "آماده‌ام. سلام! چراغ دو پونده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haggles",
+      "nervous",
+      "he",
+      "if"
+     ],
+     "suggestion": "I'm nervous. What if he haggles?",
+     "suggestionFa": "مضطربم. اگه چونه بزنه چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next day",
+     "fa": "روز بعد"
+    },
+    {
+     "word": "table",
+     "fa": "میز"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "haggles",
+     "fa": "چانه می‌زند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "He will! Watch. He says, \"Would you take a pound?\" You say, \"One fifty?\" Then you shake hands. It's a little dance.",
+   "translations": {
+    "fa": "می‌زنه! ببین. میگه «یه پوند قبول می‌کنید؟» تو میگی «یک و پنجاه؟» بعد دست میدید. یه رقص کوچیکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifty",
+      "would",
+      "take",
+      "one"
+     ],
+     "suggestion": "Would you take one fifty?",
+     "suggestionFa": "یک و پنجاه قبول می‌کنید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haggle",
+      "good",
+      "iran",
+      "lot"
+     ],
+     "suggestion": "In Iran we haggle a lot. I'm good at this!",
+     "suggestionFa": "تو ایران کلی چونه می‌زنیم. تو این کار واردم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "would you take",
+     "fa": "قبول می‌کنید"
+    },
+    {
+     "word": "shake hands",
+     "fa": "دست دادن"
+    },
+    {
+     "word": "dance",
+     "fa": "رقص"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "would you take for one pound",
+      "you take one pound?"
+     ],
+     "echo": "Would you take a pound? Let's see!",
+     "better": "Would you take a pound?",
+     "betterFa": "یک پوند قبول می‌کنید؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "An expert from the bazaar! Brilliant. Then you're in charge of the toys. People always haggle for toys.",
+   "translations": {
+    "fa": "یه کارشناس بازار! عالیه. پس مسئول اسباب‌بازی‌ها تو باش. مردم همیشه سر اسباب‌بازی چونه می‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "toys",
+      "how",
+      "ok"
+     ],
+     "suggestion": "OK. How much are the toys?",
+     "suggestionFa": "باشه. اسباب‌بازی‌ها چندن؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shirts",
+      "tom's",
+      "about",
+      "them"
+     ],
+     "suggestion": "What about Tom's shirts? Who will buy them?",
+     "suggestionFa": "پیرهن‌های تام چی؟ کی می‌خرشون؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expert",
+     "fa": "کارشناس"
+    },
+    {
+     "word": "bazaar",
+     "fa": "بازار"
+    },
+    {
+     "word": "in charge of",
+     "fa": "مسئول"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Toys fifty pence each. Shirts — a pound, or free, honestly. Just make them go. Shh! Don't tell Tom. He loves the parrot one.",
+   "translations": {
+    "fa": "اسباب‌بازی‌ها هر کدوم پنجاه پنس. پیرهن‌ها — یه پوند، یا راستش مجانی. فقط بره. هیس! به تام نگو. عاشق اون طوطی‌داره‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bargain",
+      "that's",
+      "pound"
+     ],
+     "suggestion": "A parrot shirt? That's a bargain at a pound!",
+     "suggestionFa": "پیرهن طوطی‌دار؟ یه پوند مفته!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "secret",
+      "first",
+      "sell",
+      "i'll"
+     ],
+     "suggestion": "Our secret. I'll sell the parrot shirt first.",
+     "suggestionFa": "راز ما. اول پیرهن طوطی‌دار را می‌فروشم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free",
+     "fa": "مجانی"
+    },
+    {
+     "word": "honestly",
+     "fa": "راستش"
+    },
+    {
+     "word": "parrot",
+     "fa": "طوطی"
+    },
+    {
+     "word": "bargain",
+     "fa": "معامله‌ٔ خوب ؛ مفت"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Perfect. Oh, and Nicola wants to sell her drawings. Twenty pence each. Be nice if people buy one.",
+   "translations": {
+    "fa": "عالی. اوه، و نیکولا می‌خواد نقاشی‌هاش را بفروشه. هر کدوم بیست پنس. خوب میشه اگه مردم یکی بخرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "i'll",
+      "one",
+      "buy"
+     ],
+     "suggestion": "I'll buy the first one!",
+     "suggestionFa": "من اولی را می‌خرم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "that's",
+      "pence",
+      "cheap"
+     ],
+     "suggestion": "Twenty pence. That's cheap for art!",
+     "suggestionFa": "بیست پنس. برای هنر ارزونه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drawings",
+     "fa": "نقاشی‌ها"
+    },
+    {
+     "word": "art",
+     "fa": "هنر"
+    },
+    {
+     "word": "nice",
+     "fa": "خوب ؛ قشنگ"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Aw, you're sweet. Right — alarm at six. Bring a flask of tea and your warmest coat. Car-boot sales are always freezing.",
+   "translations": {
+    "fa": "آخی، چه نازی. خب — زنگ ساعت شش. یه فلاسک چای و گرم‌ترین کاپشنت را بیار. بازارهای دست‌دوم همیشه یخ‌بندونن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

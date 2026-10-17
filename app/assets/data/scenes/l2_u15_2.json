@@ -20,8 +20,8 @@
     {
      "keywords": [
       "street",
-      "mare",
       "live",
+      "mare",
       "new"
      ],
      "suggestion": "Yes, I'm new. I live on Mare Street.",
@@ -71,8 +71,8 @@
      "keywords": [
       "have",
       "when",
-      "tap",
-      "off"
+      "off",
+      "get"
      ],
      "suggestion": "Do I have to tap out when I get off?",
      "suggestionFa": "وقتی پیاده می‌شم هم باید کارت بزنم؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "tube",
       "have",
-      "out",
-      "tap"
+      "tube",
+      "tap",
+      "out"
      ],
      "suggestion": "So on the Tube I have to tap out?",
      "suggestionFa": "پس تو مترو باید موقع خروج کارت بزنم؟",
@@ -348,8 +348,8 @@
     },
     {
      "keywords": [
-      "once",
-      "just"
+      "just",
+      "once"
      ],
      "suggestion": "Just once?",
      "suggestionFa": "فقط یه بار؟",

@@ -1,0 +1,225 @@
+{
+ "id": "l2_u40_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A dirty table",
+ "titleFa": "(در نقش Leslie) میز کثیف",
+ "setting": "Simple complaints · Level 2",
+ "settingFa": "شکایت‌های ساده",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u40_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swimming",
+      "saturday",
+      "lessons",
+      "minutes",
+      "morning"
+     ],
+     "suggestion": "Ah, Saturday morning. Twenty minutes of peace before swimming lessons. Ugh — look at this table. Sticky. Crumbs. Is that jam?",
+     "suggestionFa": "آه، صبح شنبه. بیست دقیقه آرامش قبل از کلاس شنا. اَه — این میز را ببین. چسبناک. خرده‌نون. اون مربائه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, it's jam. And there's a coffee ring.",
+   "translations": {
+    "fa": "آره، مرباست. و یه جای حلقهٔ قهوه هم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practise",
+      "callum's",
+      "english",
+      "polite",
+      "please"
+     ],
+     "suggestion": "Please. You ask — practise your polite English. Callum's busy, but that girl with the cloth is new. Go on.",
+     "suggestionFa": "لطفاً. تو بپرس — انگلیسی مؤدبانه‌ات را تمرین کن. کالوم سرش شلوغه، ولی اون دختری که دستمال دستشه جدیده. برو.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Excuse me, could you wipe this table, please?",
+   "translations": {
+    "fa": "ببخشید، میشه این میز را پاک کنید لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "backwards",
+      "british",
+      "english",
+      "polite"
+     ],
+     "suggestion": "Very polite! She said, \"Not at all!\" — and she's coming. See? That means yes. British English is backwards sometimes.",
+     "suggestionFa": "خیلی مؤدبانه! گفت «اصلاً!» — و داره میاد. دیدی؟ یعنی بله. انگلیسی بریتانیایی بعضی وقتا برعکسه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "\"Not at all\" means yes? That's confusing!",
+   "translations": {
+    "fa": "«اصلاً» یعنی بله؟ گیج‌کننده‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "window",
+      "sticky",
+      "chair",
+      "table"
+     ],
+     "suggestion": "Hmm. She wiped it, but it's still sticky. And the chair is wet. Is there another table? By the window, maybe?",
+     "suggestionFa": "هوم. پاکش کرد، ولی هنوز چسبناکه. و صندلی خیسه. میز دیگه‌ای هست؟ شاید کنار پنجره؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "The window table is free. Let's move.",
+   "translations": {
+    "fa": "میز کنار پنجره خالیه. بیا جابه‌جا شیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complain",
+      "british",
+      "that's",
+      "let's",
+      "bring"
+     ],
+     "suggestion": "Let's just move. No fuss. That's the British way — complain once, then move. Bring my cup? I'll take the bags.",
+     "suggestionFa": "بیا فقط جابه‌جا شیم. بی‌دردسر. این روش بریتانیاییه — یه بار شکایت کن، بعد جابه‌جا شو. فنجونم را میاری؟ من کیف‌ها را میارم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here's your cup. This table is much better.",
+   "translations": {
+    "fa": "اینم فنجونت. این میز خیلی بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "callum's",
+      "worried",
+      "better",
+      "coming",
+      "leslie"
+     ],
+     "suggestion": "Much better. And look — the sun. Oh, Callum's coming over. He looks worried. \"Was the table dirty? Sorry, Leslie!\"",
+     "suggestionFa": "خیلی بهتره. و ببین — آفتاب. اوه، کالوم داره میاد. نگران به نظر میاد. «میز کثیف بود؟ ببخشید لزلی!»",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's fine, Callum. The new girl was very nice.",
+   "translations": {
+    "fa": "اشکالی نداره کالوم. دختر جدید خیلی خوب بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swimming",
+      "nicola's",
+      "training",
+      "minutes",
+      "starts"
+     ],
+     "suggestion": "That's kind. He'll give her a little training. And now — oh no. My phone. Nicola's swimming starts in ten minutes!",
+     "suggestionFa": "لطف داری. یه کم آموزشش میده. و حالا — وای نه. گوشیم. کلاس شنای نیکولا ده دقیقه دیگه شروع میشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ten minutes! Drink fast!",
+   "translations": {
+    "fa": "ده دقیقه! سریع بخور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "motherhood",
+      "minutes",
+      "twenty",
+      "that's",
+      "time's"
+     ],
+     "suggestion": "You're an angel. Next time's on me. Twenty minutes of peace — I got eight. That's motherhood!",
+     "suggestionFa": "تو فرشته‌ای. دفعهٔ بعد مهمون من. بیست دقیقه آرامش — هشت دقیقه‌اش گیرم اومد. مادری یعنی همین!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

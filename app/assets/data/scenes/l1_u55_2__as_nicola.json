@@ -22,10 +22,10 @@
     {
      "keywords": [
       "languages",
-      "speak",
       "hello",
+      "speak",
       "mummy",
-      "says"
+      "true"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -75,7 +75,7 @@
       "school",
       "hello",
       "learn",
-      "how"
+      "say"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
      "suggestionFa": "تو مدرسه یاد می‌گیریم. «سلام» را فارسی چی میگن؟",
@@ -99,8 +99,8 @@
       "persian",
       "salaam",
       "about",
-      "thank",
-      "speak"
+      "speak",
+      "thank"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
      "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "persian",
       "english",
-      "that's",
       "french",
+      "that's",
       "merci"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
@@ -173,8 +173,8 @@
      "keywords": [
       "spelling",
       "nobody",
-      "knife",
       "knows",
+      "knife",
       "ellis"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",

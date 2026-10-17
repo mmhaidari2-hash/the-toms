@@ -34,8 +34,8 @@
      "keywords": [
       "again",
       "mine",
-      "take",
-      "here"
+      "here",
+      "take"
      ],
      "suggestion": "Yes. I have to take mine again here.",
      "suggestionFa": "آره. من هم اینجا باید دوباره امتحان بدم.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "months",
+      "twelve",
       "after",
-      "need"
+      "only"
      ],
      "suggestion": "Only for twelve months. After that, I need to get a UK one.",
      "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
+      "country",
       "doesn't",
       "depends",
-      "country",
       "count"
      ],
      "suggestion": "It depends on the country. Mine doesn't count.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "questions",
-      "answer",
       "hazard",
+      "answer",
       "fifty"
      ],
      "suggestion": "You have to answer fifty questions and do a hazard test.",
@@ -178,8 +178,8 @@
      "keywords": [
       "automatic",
       "manual",
-      "can't",
-      "drive"
+      "drive",
+      "can't"
      ],
      "suggestion": "If you pass in an automatic, you can't drive a manual.",
      "suggestionFa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی.",

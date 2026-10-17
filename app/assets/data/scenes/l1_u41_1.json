@@ -116,9 +116,9 @@
     {
      "keywords": [
       "postcode",
-      "what's",
       "street",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Number ten, Mare Street. What's the postcode?",
      "suggestionFa": "پلاک ده، خیابون مر. کد پستی چیه؟",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "starts",
+      "number",
       "phone"
      ],
      "suggestion": "My phone number starts with 07.",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "email",
-      "need",
-      "they"
+      "they",
+      "need"
      ],
      "suggestion": "Do they need my email?",
      "suggestionFa": "ایمیلم را لازم دارن؟",
@@ -345,8 +345,8 @@
      "keywords": [
       "doctor",
       "when",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "When can I see a doctor?",
      "suggestionFa": "کی می‌تونم دکتر را ببینم؟",

@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "eats",
       "ryan",
-      "five"
+      "five",
+      "eats"
      ],
      "suggestion": "Ryan eats five!",
      "suggestionFa": "رایان پنج تا می‌خوره!",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "don't",
-      "eat",
-      "tom"
+      "tom",
+      "eat"
      ],
      "suggestion": "I don't eat pork, Tom.",
      "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "that's",
-      "meat",
-      "much"
+      "much",
+      "meat"
      ],
      "suggestion": "Yes, that's too much meat!",
      "suggestionFa": "آره، گوشت زیادیه!",
@@ -297,8 +297,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
-      "corn"
+      "corn",
+      "good"
      ],
      "suggestion": "Corn is good.",
      "suggestionFa": "ذرت خوبه.",

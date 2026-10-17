@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dinner's",
-      "telly",
       "shall",
       "watch",
-      "time"
+      "telly",
+      "done"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -49,8 +49,8 @@
       "football",
       "arsenal",
       "playing",
-      "boring",
-      "rather"
+      "rather",
+      "boring"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "what's",
-      "people",
       "baking",
+      "people",
+      "what's",
       "loves",
       "cakes"
      ],
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "spoilers",
-      "record",
       "snacks",
-      "don't",
-      "score"
+      "record",
+      "score",
+      "shall"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
+      "starting",
       "cartoons",
       "remote's",
-      "starting",
       "vinegar",
       "crisps"
      ],

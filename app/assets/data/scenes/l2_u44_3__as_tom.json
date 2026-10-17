@@ -1,0 +1,250 @@
+{
+ "id": "l2_u44_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) The airport delay",
+ "titleFa": "(در نقش Tom) تأخیر در فرودگاه",
+ "setting": "Past holidays · Level 2",
+ "settingFa": "تعطیلات گذشته",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u44_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "airport",
+      "delayed",
+      "summer",
+      "flight"
+     ],
+     "suggestion": "You're flying to Tehran at Christmas? Check the airport news. Last summer our flight to Spain was delayed for nine hours!",
+     "suggestionFa": "کریسمس پرواز داری تهران؟ اخبار فرودگاه را چک کن. تابستون پارسال پرواز ما به اسپانیا نه ساعت تأخیر داشت!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Nine hours! Why was it delayed?",
+   "translations": {
+    "fa": "نه ساعت! چرا تأخیر داشت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gatwick",
+      "problem",
+      "hours",
+      "spain",
+      "plane"
+     ],
+     "suggestion": "We flew from Gatwick. First, there was a problem with the plane. Then the crew ran out of hours. Then a storm in Spain!",
+     "suggestionFa": "از گتویک پرواز کردیم. اول، هواپیما مشکل داشت. بعد ساعت کاری خدمه تموم شد. بعد یه طوفان تو اسپانیا!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Three problems! That's very unlucky.",
+   "translations": {
+    "fa": "سه تا مشکل! خیلی بدشانسی بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "airport",
+      "certain",
+      "safety",
+      "waited",
+      "number"
+     ],
+     "suggestion": "They can only work a certain number of hours. Safety rules. So we waited for a new crew. Four kids, nine hours, one airport.",
+     "suggestionFa": "فقط تعداد مشخصی ساعت می‌تونن کار کنن. قوانین ایمنی. پس منتظر خدمهٔ جدید موندیم. چهار تا بچه، نه ساعت، یه فرودگاه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Wait, you have three children, not four!",
+   "translations": {
+    "fa": "صبر کن، تو سه تا بچه داری، نه چهار تا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vouchers",
+      "william",
+      "airline",
+      "counts",
+      "pounds"
+     ],
+     "suggestion": "Three! But it felt like four. William counts as two. The airline gave us food vouchers. Twelve pounds each.",
+     "suggestionFa": "سه تا! ولی حس چهار تا را داشت. ویلیام دو تا حساب میشه. شرکت هواپیمایی بهمون کوپن غذا داد. هر نفر دوازده پوند.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Twelve pounds? That's not much at an airport.",
+   "translations": {
+    "fa": "دوازده پوند؟ تو فرودگاه زیاد نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "compensation",
+      "thousand",
+      "sandwich",
+      "gatwick",
+      "claimed"
+     ],
+     "suggestion": "Twelve pounds buys one sandwich and a sad coffee at Gatwick. But yes — later we claimed compensation. Over a thousand pounds!",
+     "suggestionFa": "با دوازده پوند تو گتویک یه ساندویچ و یه قهوهٔ غمگین می‌خری. ولی آره — بعداً غرامت درخواست کردیم. بیشتر از هزار پوند!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "A thousand pounds! How did you do that?",
+   "translations": {
+    "fa": "هزار پوند! چطوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "boarding",
+      "booking",
+      "website",
+      "airline",
+      "leslie"
+     ],
+     "suggestion": "Leslie found a form on the airline website. You fill it in, send your booking number, and wait. Keep your boarding pass!",
+     "suggestionFa": "لزلی یه فرم تو سایت شرکت هواپیمایی پیدا کرد. پرش می‌کنی، شمارهٔ رزروت را می‌فرستی، و صبر می‌کنی. کارت پروازت را نگه دار!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'll keep my boarding pass. Good tip!",
+   "translations": {
+    "fa": "کارت پروازم را نگه می‌دارم. نکتهٔ خوبیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "trolley",
+      "luggage",
+      "friends",
+      "played"
+     ],
+     "suggestion": "Ryan played FIFA. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
+     "suggestionFa": "رایان فیفا بازی کرد. نیکولا با یه خانوادهٔ کامل از لیدز دوست شد. ویلیام رو چرخ چمدون خوابید.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! On the luggage trolley!",
+   "translations": {
+    "fa": "ها! رو چرخ چمدون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "arrived",
+      "another",
+      "morning",
+      "that's"
+     ],
+     "suggestion": "By the time we arrived, it was four in the morning. The hotel had given our room to someone else! But that's another story.",
+     "suggestionFa": "تا وقتی رسیدیم، ساعت چهار صبح بود. هتل اتاقمون را به یکی دیگه داده بود! ولی اون یه داستان دیگه‌ست.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Another story? You have to tell me!",
+   "translations": {
+    "fa": "یه داستان دیگه؟ باید بهم بگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patience",
+      "trolley",
+      "charger",
+      "napping",
+      "snacks"
+     ],
+     "suggestion": "Next time, mate. Over a pint. For Tehran, take snacks, a charger and lots of patience. And maybe a trolley for napping.",
+     "suggestionFa": "دفعهٔ بعد رفیق. سر یه لیوان آبجو. برای تهران، خوراکی، شارژر و کلی صبر ببر. و شاید یه چرخ چمدون برای چرت زدن.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

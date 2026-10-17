@@ -22,7 +22,7 @@
       "indian",
       "what's",
       "don't",
-      "know"
+      "good"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "please",
       "medium",
+      "please",
       "have",
       "one"
      ],
@@ -197,7 +197,7 @@
       "persian",
       "please",
       "pilau",
-      "rice"
+      "like"
      ],
      "suggestion": "Pilau rice, please. Like Persian rice!",
      "suggestionFa": "برنج پلو، لطفاً. مثل برنج ایرانی!",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
-      "buy",
       "but",
-      "let"
+      "let",
+      "buy"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

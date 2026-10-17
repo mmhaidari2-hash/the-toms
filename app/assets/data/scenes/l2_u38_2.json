@@ -1,0 +1,472 @@
+{
+ "id": "l2_u38_2",
+ "characterId": "tom",
+ "title": "Mowing the lawn",
+ "titleFa": "زدن چمن",
+ "setting": "Weekend jobs · Level 2",
+ "settingFa": "کارهای آخر هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "The sun's out. You know what that means. The lawn. It's like a jungle back there. Nicola lost a shoe in it yesterday.",
+   "translations": {
+    "fa": "آفتاب دراومده. می‌دونی یعنی چی. چمن. اون پشت مثل جنگله. نیکولا دیروز یه کفشش را توش گم کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cutting",
+      "jungle",
+      "need"
+     ],
+     "suggestion": "A jungle! Does it need cutting?",
+     "suggestionFa": "جنگل! باید کوتاه بشه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "mow",
+      "can"
+     ],
+     "suggestion": "Can I help you mow it?",
+     "suggestionFa": "می‌تونم کمکت کنم چمن را بزنی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lawn",
+     "fa": "چمن ؛ چمنزار"
+    },
+    {
+     "word": "jungle",
+     "fa": "جنگل"
+    },
+    {
+     "word": "lost",
+     "fa": "گم کرد"
+    },
+    {
+     "word": "mow",
+     "fa": "چمن زدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It needs cutting badly. Could you get the mower from the shed? It's behind the bikes. Mind the spiders.",
+   "translations": {
+    "fa": "خیلی باید کوتاه بشه. میشه ماشین چمن‌زنی را از انباری بیاری؟ پشت دوچرخه‌هاست. مواظب عنکبوت‌ها باش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spiders",
+      "they",
+      "how",
+      "big"
+     ],
+     "suggestion": "Spiders? How big are they?",
+     "suggestionFa": "عنکبوت؟ چقدر بزرگن؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "electric",
+      "mower",
+      "heavy"
+     ],
+     "suggestion": "The mower is heavy! Is it electric?",
+     "suggestionFa": "ماشین چمن‌زنی سنگینه! برقیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "badly",
+     "fa": "به شدت"
+    },
+    {
+     "word": "mower",
+     "fa": "ماشین چمن‌زنی"
+    },
+    {
+     "word": "shed",
+     "fa": "انباری حیاط"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "spiders",
+     "fa": "عنکبوت‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Electric, yes. British spiders are small, don't worry. Well — mostly. Right, first job: pick up the toys. Don't forget the ball.",
+   "translations": {
+    "fa": "برقیه، آره. عنکبوت‌های بریتانیا کوچیکن، نگران نباش. خب — بیشترشون. خب، کار اول: اسباب‌بازی‌ها را جمع کن. توپ را یادت نره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaur",
+      "there's",
+      "cars",
+      "ball"
+     ],
+     "suggestion": "There's a dinosaur, two cars, a ball and a shoe!",
+     "suggestionFa": "یه دایناسور، دو تا ماشین، یه توپ و یه کفش هست!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "pick",
+      "toys",
+      "why"
+     ],
+     "suggestion": "Why do we pick up the toys first?",
+     "suggestionFa": "چرا اول اسباب‌بازی‌ها را جمع می‌کنیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "electric",
+     "fa": "برقی"
+    },
+    {
+     "word": "first job",
+     "fa": "کار اول"
+    },
+    {
+     "word": "pick up",
+     "fa": "جمع کردن"
+    },
+    {
+     "word": "toys",
+     "fa": "اسباب‌بازی‌ها"
+    },
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Nicola's shoe! Found it. Good man. If the mower hits a toy, it breaks. I've eaten three of William's cars this year.",
+   "translations": {
+    "fa": "کفش نیکولا! پیداش کردی. آفرین. اگه ماشین چمن‌زنی به اسباب‌بازی بخوره، می‌شکنه. امسال سه تا از ماشین‌های ویلیام را خوردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clear",
+      "grass",
+      "poor",
+      "cars"
+     ],
+     "suggestion": "Poor cars! OK, the grass is clear now.",
+     "suggestionFa": "ماشین‌های بیچاره! باشه، الان چمن خالیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "could",
+      "start",
+      "show",
+      "how"
+     ],
+     "suggestion": "Could you show me how to start it?",
+     "suggestionFa": "میشه نشونم بدی چطوری روشنش کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hits",
+     "fa": "برخورد می‌کند"
+    },
+    {
+     "word": "breaks",
+     "fa": "می‌شکند"
+    },
+    {
+     "word": "grass",
+     "fa": "علف ؛ چمن"
+    },
+    {
+     "word": "clear",
+     "fa": "خالی ؛ پاک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "could you show me how start it",
+      "could you show me how to starting"
+     ],
+     "echo": "Could you show me how to start it? Sure!",
+     "better": "Could you show me how to start it?",
+     "betterFa": "می‌شود نشانم بدهی چطور روشنش کنم؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Plug it in, hold the bar, press the green button. Keep the cable behind you — never run over the cable!",
+   "translations": {
+    "fa": "بزنش به برق، دسته را بگیر، دکمهٔ سبز را بزن. سیم را پشت سرت نگه دار — هیچ‌وقت از روی سیم رد نشو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "loud",
+      "got"
+     ],
+     "suggestion": "Behind me. Got it. It's very loud!",
+     "suggestionFa": "پشت سرم. فهمیدم. خیلی بلنده!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happens",
+      "cable",
+      "over",
+      "run"
+     ],
+     "suggestion": "What happens if I run over the cable?",
+     "suggestionFa": "اگه از روی سیم رد بشم چی میشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plug in",
+     "fa": "به برق زدن"
+    },
+    {
+     "word": "bar",
+     "fa": "دسته"
+    },
+    {
+     "word": "cable",
+     "fa": "سیم ؛ کابل"
+    },
+    {
+     "word": "run over",
+     "fa": "رد شدن از روی"
+    }
+   ],
+   "cultureNote": {
+    "en": "On weekends, mowing the lawn is a classic British job. Many people avoid mowing early on Sunday morning — it's too noisy for neighbours.",
+    "fa": "چمن زدن کار کلاسیک آخر هفته در بریتانیاست؛ بیشتر مردم صبح زود یکشنبه چمن نمی‌زنند چون پر سروصداست."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Bang, no power, and a new cable from B&Q. Straight lines, like stripes. The bag fills up fast — empty it in the green bin.",
+   "translations": {
+    "fa": "بنگ، برق قطع، و یه سیم جدید از بی‌اندکیو. خط‌های صاف، مثل راه‌راه. کیسه زود پر میشه — تو سطل سبز خالیش کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "stripes",
+      "pitch",
+      "like"
+     ],
+     "suggestion": "Stripes! Like a football pitch.",
+     "suggestionFa": "راه‌راه! مثل زمین فوتبال.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "already",
+      "where's",
+      "green",
+      "full"
+     ],
+     "suggestion": "The bag is full already. Where's the green bin?",
+     "suggestionFa": "کیسه همین الان پر شد. سطل سبز کجاست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "power",
+     "fa": "برق"
+    },
+    {
+     "word": "straight",
+     "fa": "صاف ؛ مستقیم"
+    },
+    {
+     "word": "stripes",
+     "fa": "راه‌راه"
+    },
+    {
+     "word": "empty",
+     "fa": "خالی کردن"
+    },
+    {
+     "word": "green bin",
+     "fa": "سطل سبز (زبالهٔ باغ)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "By the side gate. Don't forget to empty the bag every few lines. You're a natural! Mr Jenkins next door is watching you.",
+   "translations": {
+    "fa": "کنار در بغلی. یادت نره هر چند خط کیسه را خالی کنی. استعداد ذاتی داری! آقای جنکینز همسایه داره نگاهت می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "angry",
+      "loud",
+      "he"
+     ],
+     "suggestion": "Is he angry? Is it too loud?",
+     "suggestionFa": "عصبانیه؟ خیلی بلنده؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jenkins",
+      "lovely",
+      "hello",
+      "day"
+     ],
+     "suggestion": "Hello, Mr Jenkins! Lovely day!",
+     "suggestionFa": "سلام آقای جنکینز! روز قشنگیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "side gate",
+     "fa": "در بغلی"
+    },
+    {
+     "word": "every few",
+     "fa": "هر چند"
+    },
+    {
+     "word": "natural",
+     "fa": "استعداد ذاتی"
+    },
+    {
+     "word": "watching",
+     "fa": "نگاه کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "No, he's jealous! His stripes are always wonky. Right, it's done. Look at that. Better than Wembley. Cup of tea?",
+   "translations": {
+    "fa": "نه، حسودیش میشه! راه‌راه‌های اون همیشه کجن. خب، تموم شد. اینو ببین. بهتر از ومبلی. یه فنجون چای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "earned",
+      "i've"
+     ],
+     "suggestion": "Yes please. I've earned it!",
+     "suggestionFa": "آره لطفاً. حقمه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "football",
+      "wembley",
+      "play",
+      "now"
+     ],
+     "suggestion": "Wembley! Can I play football on it now?",
+     "suggestionFa": "ومبلی! حالا می‌تونم روش فوتبال بازی کنم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jealous",
+     "fa": "حسود"
+    },
+    {
+     "word": "wonky",
+     "fa": "کج ؛ نامرتب"
+    },
+    {
+     "word": "earned",
+     "fa": "به دست آوردم ؛ حقم است"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Football? Over my dead body! Not for a week. Let it look nice for one day. Then William can destroy it.",
+   "translations": {
+    "fa": "فوتبال؟ از روی جنازهٔ من! یه هفته نه. بذار یه روز قشنگ بمونه. بعد ویلیام می‌تونه داغونش کنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

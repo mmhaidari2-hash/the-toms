@@ -71,9 +71,9 @@
     {
      "keywords": [
       "should",
-      "white",
       "shirt",
-      "then",
+      "white",
+      "wear",
       "good"
      ],
      "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
@@ -97,9 +97,9 @@
      "keywords": [
       "relaxed",
       "ironed",
-      "smart",
+      "shirt",
       "these",
-      "shirt"
+      "smart"
      ],
      "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
      "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "cupboard",
+      "jumper",
       "chilly",
       "iron's",
-      "jumper",
       "today"
      ],
      "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "trainers",
-      "shoes",
       "smart",
+      "shoes",
       "good",
       "navy"
      ],
@@ -172,9 +172,9 @@
      "keywords": [
       "interview",
       "perfect",
-      "shoes",
+      "clean",
       "black",
-      "first"
+      "shoes"
      ],
      "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
      "suggestionFa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!",
@@ -198,7 +198,7 @@
       "brilliant",
       "you'll",
       "smart",
-      "good",
+      "look",
       "luck"
      ],
      "suggestion": "Look at you! Very smart. Good luck! You'll be brilliant.",
@@ -223,8 +223,8 @@
       "everyone's",
       "yourself",
       "nervous",
-      "smile",
-      "hello"
+      "hello",
+      "smile"
      ],
      "suggestion": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",
      "suggestionFa": "همه استرس دارن. لبخند بزن، سلام کن، و خودت باش. بعدش بهم پیام بده!",

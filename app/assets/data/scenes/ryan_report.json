@@ -24,8 +24,8 @@
      "keywords": [
       "pleased",
       "that's",
-      "we're",
-      "great"
+      "great",
+      "we're"
      ],
      "suggestion": "That's great news — we're really pleased.",
      "suggestionFa": "خبر خیلی خوبیه — واقعاً خوشحالیم.",
@@ -36,9 +36,9 @@
     {
      "keywords": [
       "school",
-      "talks",
+      "never",
       "about",
-      "never"
+      "talks"
      ],
      "suggestion": "Really? He never talks about school at home.",
      "suggestionFa": "واقعاً؟ تو خونه هیچ‌وقت دربارهٔ مدرسه حرف نمی‌زنه.",
@@ -123,9 +123,9 @@
     {
      "keywords": [
       "improve",
-      "help",
       "home",
-      "him"
+      "help",
+      "can"
      ],
      "suggestion": "What can we do at home to help him improve?",
      "suggestionFa": "تو خونه چی کار کنیم که کمکش کنیم بهتر بشه؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "least",
-      "time",
       "hand",
+      "time",
       "he"
      ],
      "suggestion": "Does he hand it in on time, at least?",
@@ -180,7 +180,7 @@
       "magazines",
       "football",
       "comics",
-      "would"
+      "count"
      ],
      "suggestion": "Would comics or football magazines count?",
      "suggestionFa": "کمیک یا مجلهٔ فوتبال حساب میشه؟",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "reading",
-      "after",
       "we'll",
+      "after",
       "time"
      ],
      "suggestion": "We'll set up a reading time after tea.",

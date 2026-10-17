@@ -32,8 +32,8 @@
     {
      "keywords": [
       "vegetables",
-      "fruit",
       "every",
+      "fruit",
       "five"
      ],
      "suggestion": "Five fruit and vegetables every day!",
@@ -158,9 +158,9 @@
     {
      "keywords": [
       "them",
-      "why",
       "she",
-      "cut"
+      "cut",
+      "why"
      ],
      "suggestion": "Why does she cut them?",
      "suggestionFa": "چرا نصفشون می‌کنه؟",
@@ -370,9 +370,9 @@
     {
      "keywords": [
       "three",
-      "need",
+      "more",
       "i've",
-      "more"
+      "need"
      ],
      "suggestion": "I've got three. I need two more.",
      "suggestionFa": "سه تا دارم. دو تای دیگه لازم دارم.",

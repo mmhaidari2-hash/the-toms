@@ -87,9 +87,9 @@
     {
      "keywords": [
       "after",
-      "half",
       "peak",
-      "nine"
+      "nine",
+      "half"
      ],
      "suggestion": "So after half nine, I buy off-peak?",
      "suggestionFa": "پس بعد از نه و نیم، بلیت ساعات خلوت بخرم؟",
@@ -153,10 +153,10 @@
     },
     {
      "keywords": [
-      "don't",
       "think",
-      "cost",
-      "much"
+      "don't",
+      "much",
+      "cost"
      ],
      "suggestion": "I don't think so. How much does it cost?",
      "suggestionFa": "فکر نکنم. چقدر هزینه داره؟",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "thirty",
       "pounds",
+      "thirty",
       "worth",
       "five"
      ],
@@ -297,8 +297,8 @@
      "keywords": [
       "valid",
       "time",
-      "day",
-      "any"
+      "any",
+      "day"
      ],
      "suggestion": "Is it valid at any time of day?",
      "suggestionFa": "هر ساعتی از روز معتبره؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "always",
-      "print",
-      "small"
+      "small",
+      "print"
      ],
      "suggestion": "The small print! Always the small print.",
      "suggestionFa": "ریزنوشته‌ها! همیشه ریزنوشته‌ها.",

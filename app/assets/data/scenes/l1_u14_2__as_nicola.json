@@ -22,8 +22,8 @@
     {
      "keywords": [
       "garden",
-      "hands",
       "dirty",
+      "hands",
       "look",
       "mud"
      ],
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "reach",
+      "can't",
       "help",
-      "can",
-      "tap"
+      "tap",
+      "can"
      ],
      "suggestion": "Can you help me? I can't reach the tap.",
      "suggestionFa": "کمکم می‌کنی؟ دستم به شیر آب نمی‌رسه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "water",
+      "warm",
       "cold",
       "want",
-      "warm",
       "brr"
      ],
      "suggestion": "Brr! It's cold! I want warm water.",
@@ -98,8 +98,8 @@
      "keywords": [
       "seconds",
       "twenty",
-      "mummy",
       "water",
+      "mummy",
       "first"
      ],
      "suggestion": "First water, then soap. Mummy says twenty seconds.",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "before",
-      "lunch",
       "hands",
-      "wash",
-      "them"
+      "lunch",
+      "them",
+      "wash"
      ],
      "suggestion": "When do you wash your hands? I wash them before lunch.",
      "suggestionFa": "تو کِی دستات را می‌شوری؟ من قبل از ناهار می‌شورم.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "biscuit",
-      "touch",
       "tiger",
+      "touch",
       "after",
       "have"
      ],
@@ -223,8 +223,8 @@
       "chocolate",
       "biscuit",
       "mummy",
-      "says",
-      "have"
+      "have",
+      "says"
      ],
      "suggestion": "Mummy! Can I have a biscuit? She says yes! A chocolate one!",
      "suggestionFa": "مامان! می‌تونم بیسکویت بخورم؟ می‌گه آره! یه شکلاتی!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "circus",
       "oxford",
+      "circus",
       "missed",
       "sorry"
      ],
@@ -34,8 +34,8 @@
      "keywords": [
       "finished",
       "party",
-      "late",
-      "fine"
+      "fine",
+      "late"
      ],
      "suggestion": "I'm fine. The party finished late.",
      "suggestionFa": "خوبم. مهمونی دیر تموم شد.",
@@ -191,10 +191,10 @@
    "branches": [
     {
      "keywords": [
-      "driver",
       "should",
+      "driver",
       "near",
-      "why"
+      "sit"
      ],
      "suggestion": "Why should I sit near the driver?",
      "suggestionFa": "چرا نزدیک راننده بشینم؟",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "drunk",
       "merry",
+      "drunk",
       "mean"
      ],
      "suggestion": "Merry? You mean drunk?",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
-      "i'll",
       "text",
       "when",
+      "i'll",
       "get"
      ],
      "suggestion": "OK. I'll text you when I get on.",

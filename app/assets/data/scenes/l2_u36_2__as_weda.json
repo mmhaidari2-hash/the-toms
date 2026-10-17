@@ -50,7 +50,7 @@
       "tuesday",
       "report",
       "else's",
-      "green"
+      "menus"
      ],
      "suggestion": "Tuesday. Green bin this week. They took everyone else's, but not mine. Can you help me report it? I hate the phone menus.",
      "suggestionFa": "سه‌شنبه. این هفته سطل سبز. مال همه را بردن، ولی مال منو نه. میشه کمکم کنی گزارشش بدم؟ از منوهای تلفنی متنفرم.",
@@ -73,9 +73,9 @@
      "keywords": [
       "pavement",
       "george",
-      "before",
-      "always",
-      "course"
+      "course",
+      "closed",
+      "always"
      ],
      "suggestion": "Of course I did! On the pavement, lid closed, like always. George did it before he got ill. Now it's my job.",
      "suggestionFa": "معلومه که گذاشتم! رو پیاده‌رو، در بسته، مثل همیشه. قبل از اینکه جورج مریض بشه، اون این کار را می‌کرد. حالا کار منه.",
@@ -125,7 +125,7 @@
       "resident",
       "elderly",
       "please",
-      "there"
+      "write"
      ],
      "suggestion": "Say the fox! They need to know. Is there a box for comments? Write: \"Elderly resident. Please come soon.\"",
      "suggestionFa": "روباه را بگو! باید بدونن. جایی برای توضیحات هست؟ بنویس: «ساکن سالمند. لطفاً زود بیایید.»",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "george's",
-      "window",
       "clever",
+      "window",
       "watch",
       "apply"
      ],

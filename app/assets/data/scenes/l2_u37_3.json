@@ -1,0 +1,420 @@
+{
+ "id": "l2_u37_3",
+ "characterId": "tom",
+ "title": "Frost on the car",
+ "titleFa": "یخ روی ماشین",
+ "setting": "Weather talk · Level 2",
+ "settingFa": "صحبت دربارهٔ هوا",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning! It's freezing. Minus three! Look at the car — covered in frost. I can't see a thing through the windscreen.",
+   "translations": {
+    "fa": "صبح بخیر! یخ‌بندونه. منفی سه! ماشین را ببین — پر از یخ. از شیشهٔ جلو هیچی نمی‌بینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "minus",
+      "help"
+     ],
+     "suggestion": "Minus three! Can I help?",
+     "suggestionFa": "منفی سه! می‌تونم کمک کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "hot",
+      "use"
+     ],
+     "suggestion": "Can you use hot water on it?",
+     "suggestionFa": "میشه آب داغ روش بریزی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "freezing",
+     "fa": "یخ‌بندان ؛ خیلی سرد"
+    },
+    {
+     "word": "minus",
+     "fa": "منفی"
+    },
+    {
+     "word": "frost",
+     "fa": "یخ‌زدگی ؛ برفک"
+    },
+    {
+     "word": "windscreen",
+     "fa": "شیشهٔ جلوی ماشین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "No! Never hot water. The glass can crack. That's an expensive lesson. Can you pass me the scraper? It's in the door.",
+   "translations": {
+    "fa": "نه! هیچ‌وقت آب داغ. شیشه ممکنه ترک برداره. درس گرونیه. میشه کاردک یخ را بهم بدی؟ تو دره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plastic",
+      "thing",
+      "here"
+     ],
+     "suggestion": "This plastic thing? Here you are.",
+     "suggestionFa": "این وسیلهٔ پلاستیکی؟ بفرمایید.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "crack",
+      "glass",
+      "know"
+     ],
+     "suggestion": "The glass can crack? I didn't know that.",
+     "suggestionFa": "شیشه ترک برمی‌داره؟ نمی‌دونستم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glass",
+     "fa": "شیشه"
+    },
+    {
+     "word": "crack",
+     "fa": "ترک برداشتن"
+    },
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "scraper",
+     "fa": "کاردک یخ"
+    },
+    {
+     "word": "door",
+     "fa": "در"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "can you pass to me the scraper",
+      "can you give me scraper"
+     ],
+     "echo": "Can you pass me the scraper? Here!",
+     "better": "Can you pass me the scraper?",
+     "betterFa": "می‌شود کاردک یخ را به من بدهی؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Cheers. You scrape the back window, I'll do the front. And turn the engine on — heater on, fan on the windscreen.",
+   "translations": {
+    "fa": "مرسی. تو شیشهٔ عقب را بتراش، من جلو را. و موتور را روشن کن — بخاری روشن، فن رو شیشهٔ جلو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "heater",
+      "button",
+      "ok"
+     ],
+     "suggestion": "OK. Where's the button for the heater?",
+     "suggestionFa": "باشه. دکمهٔ بخاری کجاست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "windows",
+      "side",
+      "can"
+     ],
+     "suggestion": "Can I do the side windows too?",
+     "suggestionFa": "می‌تونم شیشه‌های بغل را هم بزنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scrape",
+     "fa": "تراشیدن"
+    },
+    {
+     "word": "back window",
+     "fa": "شیشهٔ عقب"
+    },
+    {
+     "word": "engine",
+     "fa": "موتور"
+    },
+    {
+     "word": "heater",
+     "fa": "بخاری"
+    },
+    {
+     "word": "fan",
+     "fa": "فن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you must clear all ice and snow from your windows before driving. You can be fined if you can't see properly.",
+    "fa": "در بریتانیا باید قبل از رانندگی همهٔ یخ و برف شیشه‌ها را پاک کنی؛ وگرنه ممکن است جریمه شوی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Red button, top right. Yes, the side windows too, and the mirrors. Mrs Khan next door just pours a kettle on hers. Every year!",
+   "translations": {
+    "fa": "دکمهٔ قرمز، بالا سمت راست. آره، شیشه‌های بغل هم، و آینه‌ها. خانم خان همسایه هر سال یه کتری آب جوش روی ماشینش می‌ریزه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "windscreen",
+      "cracked",
+      "her",
+      "has"
+     ],
+     "suggestion": "Has her windscreen cracked?",
+     "suggestionFa": "شیشه‌اش ترک برداشته؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fingers",
+      "frozen"
+     ],
+     "suggestion": "My fingers are frozen!",
+     "suggestionFa": "انگشتام یخ زده!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top right",
+     "fa": "بالا سمت راست"
+    },
+    {
+     "word": "mirrors",
+     "fa": "آینه‌ها"
+    },
+    {
+     "word": "pours",
+     "fa": "می‌ریزد"
+    },
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Not yet — she's lucky! Frozen fingers? Here, my spare gloves. You need proper ones. Woolly ones from Nana, ideally.",
+   "translations": {
+    "fa": "هنوز نه — خوش‌شانسه! انگشت یخ‌زده؟ بیا، دستکش اضافهٔ من. باید دستکش درست‌حسابی داشته باشی. ترجیحاً پشمی از نانا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "knitting",
+      "thanks",
+      "scarf"
+     ],
+     "suggestion": "Thanks. Nana is knitting me a scarf, actually.",
+     "suggestionFa": "ممنون. راستش نانا داره برام شال گردن می‌بافه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gloves",
+      "didn't",
+      "think",
+      "why"
+     ],
+     "suggestion": "Gloves! Why didn't I think of that?",
+     "suggestionFa": "دستکش! چرا به فکرم نرسید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    },
+    {
+     "word": "gloves",
+     "fa": "دستکش"
+    },
+    {
+     "word": "proper",
+     "fa": "درست و حسابی"
+    },
+    {
+     "word": "woolly",
+     "fa": "پشمی"
+    },
+    {
+     "word": "ideally",
+     "fa": "ترجیحاً"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "She knits for everyone. Arthur at the post office has three scarves. Right, done. Mind the ice on the path — it's like glass.",
+   "translations": {
+    "fa": "برای همه می‌بافه. آرتور تو پستخونه سه تا شال گردن داره. خب، تموم شد. مواظب یخ رو پیاده‌رو باش — مثل شیشه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "slipped",
+      "nearly",
+      "tom"
+     ],
+     "suggestion": "Careful, Tom! You nearly slipped!",
+     "suggestionFa": "مواظب باش تام! نزدیک بود لیز بخوری!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "path",
+      "salt",
+      "put"
+     ],
+     "suggestion": "Should we put salt on the path?",
+     "suggestionFa": "رو پیاده‌رو نمک بریزیم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "path",
+     "fa": "مسیر ؛ پیاده‌رو"
+    },
+    {
+     "word": "slipped",
+     "fa": "لیز خورد"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Whoa! Nearly. Yes, grab the salt from under the stairs. Grit, we call it. The council puts it on the roads, we do the path.",
+   "translations": {
+    "fa": "اوه! نزدیک بود. آره، نمک را از زیر پله‌ها بیار. بهش میگیم «گریت». شهرداری رو جاده‌ها می‌ریزه، ما رو پیاده‌رو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "path",
+      "grit",
+      "i'll",
+      "now"
+     ],
+     "suggestion": "Grit. Got it. I'll do the path now.",
+     "suggestionFa": "گریت. فهمیدم. الان پیاده‌رو را می‌ریزم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "snow"
+     ],
+     "suggestion": "Is it going to snow too?",
+     "suggestionFa": "قراره برف هم بیاد؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grab",
+     "fa": "برداشتن"
+    },
+    {
+     "word": "under the stairs",
+     "fa": "زیر پله‌ها"
+    },
+    {
+     "word": "grit",
+     "fa": "نمک یخ‌زدایی"
+    },
+    {
+     "word": "roads",
+     "fa": "جاده‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Snow? Maybe, at the weekend. Then London stops completely. Two centimetres and no buses! Don't laugh — you'll see.",
+   "translations": {
+    "fa": "برف؟ شاید آخر هفته. اون‌وقت لندن کاملاً می‌خوابه. دو سانت برف و هیچ اتوبوسی نیست! نخند — می‌بینی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

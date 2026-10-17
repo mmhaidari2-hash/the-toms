@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "sides",
       "short",
+      "sides",
       "back"
      ],
      "suggestion": "Short back and sides, please.",
@@ -33,7 +33,7 @@
      "keywords": [
       "little",
       "just",
-      "top",
+      "bit",
       "off"
      ],
      "suggestion": "Just a little bit off the top, please.",
@@ -113,8 +113,8 @@
      "keywords": [
       "started",
       "busy",
-      "job",
-      "new"
+      "new",
+      "job"
      ],
      "suggestion": "Yes, very busy. I started a new job.",
      "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "thanks",
-      "long",
-      "like"
+      "like",
+      "long"
      ],
      "suggestion": "No thanks, I like it long.",
      "suggestionFa": "نه ممنون، بلند دوستش دارم.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "shorter",
-      "please",
       "little",
+      "please",
       "left"
      ],
      "suggestion": "A little shorter on the left, please.",

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "parcel",
-      "let's",
+      "office",
       "right",
-      "post"
+      "let's",
+      "test"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
      "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
@@ -74,8 +74,8 @@
       "opposite",
       "chemist",
       "church",
-      "can't",
-      "right"
+      "right",
+      "can't"
      ],
      "suggestion": "Good! It's on the right, opposite the church, next to the chemist. You can't miss it.",
      "suggestionFa": "خوبه! سمت راسته، روبروی کلیسا، کنار داروخونه. نمی‌شه نبینیش.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "means",
       "brits",
+      "means",
       "easy",
       "find",
       "even"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "station",
       "tourist",
-      "where's",
+      "station",
       "minutes",
-      "train"
+      "where's",
+      "about"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
      "suggestionFa": "حدود پنج دقیقه پیاده. حالا تو امتحان کن. من توریستم. ایستگاه قطار کجاست؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "brilliant",
-      "sorry",
       "round",
-      "here",
-      "from"
+      "sorry",
+      "just",
+      "sure"
      ],
      "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
      "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",
@@ -175,7 +175,7 @@
       "natural",
       "office",
       "let's",
-      "post"
+      "come"
      ],
      "suggestion": "You're a natural. Come on, let's actually go to the post office now!",
      "suggestionFa": "تو استعدادشو داری. بیا، حالا واقعاً بریم اداره پست!",

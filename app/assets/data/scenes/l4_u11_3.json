@@ -33,8 +33,8 @@
     {
      "keywords": [
       "morning",
-      "take",
       "long",
+      "take",
       "will"
      ],
      "suggestion": "Morning. How long will the MOT take?",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "sounds",
-      "good",
       "much",
+      "good",
       "how"
      ],
      "suggestion": "Sounds good. How much is it?",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
+      "much",
       "both",
-      "cost",
-      "much"
+      "cost"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "news",
       "good",
+      "news",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -343,7 +343,7 @@
       "advisory",
       "those",
       "mean",
-      "fix"
+      "now"
      ],
      "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
      "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "before",
       "winter",
+      "before",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -417,8 +417,8 @@
      "keywords": [
       "garages",
       "upsell",
-      "thanks",
-      "honest"
+      "honest",
+      "thanks"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

@@ -85,8 +85,8 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "hello",
+      "there",
       "dear",
       "tom",
       "oh"
@@ -112,9 +112,9 @@
      "keywords": [
       "message",
       "never",
-      "give",
       "mind",
-      "can"
+      "give",
+      "him"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "hospital",
       "thursday",
+      "hospital",
       "george",
       "can't"
      ],
@@ -164,7 +164,7 @@
       "friday",
       "check",
       "heart",
-      "just"
+      "come"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
      "suggestionFa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟",
@@ -185,10 +185,10 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "after",
-      "call",
+      "thank",
       "back",
+      "tell",
       "love"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",

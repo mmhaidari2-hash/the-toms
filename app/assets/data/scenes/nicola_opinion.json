@@ -25,7 +25,7 @@
       "point",
       "sleep",
       "need",
-      "but"
+      "see"
      ],
      "suggestion": "I see your point, but you need your sleep for school.",
      "suggestionFa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "really",
+      "you'd",
       "don't",
-      "agree",
       "tired"
      ],
      "suggestion": "I don't agree — you'd be really tired at school.",
@@ -89,7 +89,7 @@
       "always",
       "afraid",
       "isn't",
-      "fair"
+      "life"
      ],
      "suggestion": "Life isn't always fair, I'm afraid.",
      "suggestionFa": "زندگی همیشه عادلانه نیست، متأسفانه.",
@@ -123,7 +123,7 @@
       "that's",
       "reason",
       "good",
-      "but"
+      "one"
      ],
      "suggestion": "That's a reason, but is it a good one?",
      "suggestionFa": "این یه دلیله، ولی دلیل خوبیه؟",
@@ -136,7 +136,7 @@
       "iplayer",
       "watch",
       "next",
-      "day"
+      "can"
      ],
      "suggestion": "You can watch it the next day on iPlayer.",
      "suggestionFa": "می‌تونی روز بعد تو آی‌پلیر ببینیش.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "because",
-      "school",
       "starts",
+      "school",
       "early"
      ],
      "suggestion": "They go to bed early because school starts very early.",
@@ -342,7 +342,7 @@
       "together",
       "let's",
       "dad",
-      "ask"
+      "mum"
      ],
      "suggestion": "Let's ask your mum and dad together.",
      "suggestionFa": "بیا با هم از مامان و بابات بپرسیم.",

@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "red",
-      "one"
+      "one",
+      "red"
      ],
      "suggestion": "Pink? Is this one pink or red?",
      "suggestionFa": "صورتی؟ این صورتیه یا قرمز؟",
@@ -223,8 +223,8 @@
      "keywords": [
       "shall",
       "them",
-      "put",
-      "bin"
+      "bin",
+      "put"
      ],
      "suggestion": "Shall I put them in the bin?",
      "suggestionFa": "بندازمشون سطل آشغال؟",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
-      "under",
-      "don't",
       "table",
+      "don't",
+      "under",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -275,8 +275,8 @@
     },
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "maybe"
      ],
      "suggestion": "Maybe it's in the washing machine.",

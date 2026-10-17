@@ -22,9 +22,9 @@
     {
      "keywords": [
       "tomorrow",
-      "seaside",
       "leaving",
-      "number",
+      "seaside",
+      "bailey",
       "moving"
      ],
      "suggestion": "Did you hear? Mr Bailey at number six is moving to the seaside. He's leaving tomorrow.",
@@ -75,7 +75,7 @@
       "bailey",
       "nicola",
       "hello",
-      "made"
+      "look"
      ],
      "suggestion": "Yes, Nicola made a card. Look — a picture of him and his dog. Hello, Mr Bailey!",
      "suggestionFa": "آره، نیکولا یه کارت درست کرده. ببین — عکس خودش و سگش. سلام آقای بیلی!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "fridge",
-      "years",
-      "forty",
       "he'll",
-      "thank"
+      "forty",
+      "lived",
+      "years"
      ],
      "suggestion": "He says thank you. He'll put it on his new fridge. He's lived here for forty years!",
      "suggestionFa": "می‌گه ممنون. می‌ذارتش رو یخچال جدیدش. چهل ساله اینجا زندگی کرده!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "sweets",
+      "always",
       "about",
-      "ryan",
+      "home",
       "gave"
      ],
      "suggestion": "We will. He always gave Ryan sweets. Ask him about his new home.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "bedroom",
+      "morning",
       "eighty",
       "every",
       "going"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "leaving",
-      "someone",
       "goodbye",
-      "who's",
-      "let's"
+      "someone",
+      "leaving",
+      "right",
+      "who's"
      ],
      "suggestion": "Right. Let's say goodbye. What do you say to someone who's leaving?",
      "suggestionFa": "خب. بیا خداحافظی کنیم. به کسی که داره می‌ره چی می‌گی؟",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "perfect",
-      "street",
       "bucket",
-      "bring",
-      "spade"
+      "street",
+      "won't",
+      "visit"
      ],
      "suggestion": "Perfect. He says, \"Come and visit! Bring a bucket and spade!\" The street won't be the same.",
      "suggestionFa": "عالی. می‌گه «بیاید دیدنم! سطل و بیلچه بیارید!» خیابون دیگه مثل قبل نمی‌شه.",

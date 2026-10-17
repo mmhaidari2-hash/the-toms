@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "sheep",
       "goats",
-      "can",
-      "see"
+      "sheep",
+      "see",
+      "can"
      ],
      "suggestion": "I can see sheep and goats.",
      "suggestionFa": "گوسفند و بز می‌بینم.",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "chickens",
-      "ducks",
       "can't",
+      "ducks",
       "but"
      ],
      "suggestion": "Ducks can fly, but chickens can't.",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "sleeve",
       "eating",
+      "sleeve",
       "he's",
       "oh"
      ],
@@ -380,8 +380,8 @@
      "keywords": [
       "cream",
       "good",
-      "idea",
-      "then"
+      "then",
+      "idea"
      ],
      "suggestion": "Good idea. Then an ice cream?",
      "suggestionFa": "فکر خوبیه. بعد یه بستنی؟",

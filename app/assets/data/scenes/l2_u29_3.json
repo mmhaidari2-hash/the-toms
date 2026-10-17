@@ -35,7 +35,7 @@
       "something",
       "scared",
       "bit",
-      "new"
+      "but"
      ],
      "suggestion": "Something new. But I'm a bit scared!",
      "suggestionFa": "یه چیز جدید. ولی یه‌کم می‌ترسم!",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "shape",
-      "keep",
       "just",
-      "like"
+      "like",
+      "keep"
      ],
      "suggestion": "I'd like to keep my beard. Just shape it.",
      "suggestionFa": "می‌خوام ریشم را نگه دارم. فقط فرمش بده.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "thanks",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "No, thanks. Just the trim.",
      "suggestionFa": "نه، ممنون. فقط اصلاح.",
@@ -317,10 +317,10 @@
     },
     {
      "keywords": [
-      "could",
       "beard",
-      "take",
-      "more"
+      "could",
+      "more",
+      "take"
      ],
      "suggestion": "Could you take a bit more off the beard?",
      "suggestionFa": "میشه یه‌کم بیشتر از ریش کوتاه کنی؟",

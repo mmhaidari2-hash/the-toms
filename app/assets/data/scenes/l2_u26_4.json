@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "let's",
       "seats",
-      "back",
-      "down"
+      "let's",
+      "down",
+      "back"
      ],
      "suggestion": "Let's put the back seats down.",
      "suggestionFa": "بیا صندلی‌های عقب را بخوابونیم.",
@@ -139,8 +139,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "rope",
+      "have",
       "can"
      ],
      "suggestion": "What can we do? Do we have a rope?",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "legal",
-      "boot",
-      "open"
+      "open",
+      "boot"
      ],
      "suggestion": "Is it legal? With the boot open?",
      "suggestionFa": "قانونیه؟ با درِ صندوق باز؟",
@@ -309,8 +309,8 @@
     },
     {
      "keywords": [
-      "right",
       "tools",
+      "right",
       "have"
      ],
      "suggestion": "Do we have the right tools?",
@@ -351,8 +351,8 @@
      "keywords": [
       "building",
       "pizza",
-      "good",
-      "plan"
+      "plan",
+      "good"
      ],
      "suggestion": "Pizza and building? Good plan.",
      "suggestionFa": "پیتزا و ساختن؟ برنامهٔ خوبیه.",

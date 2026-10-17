@@ -1,0 +1,250 @@
+{
+ "id": "l2_u46_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) The lollipop lady",
+ "titleFa": "(در نقش Nicola) خانم راهنمای عبور",
+ "setting": "The school run · Level 2",
+ "settingFa": "رساندن بچه به مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u46_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lollipop",
+      "that's",
+      "she's",
+      "stick",
+      "look"
+     ],
+     "suggestion": "Look! That's Mrs Bell. The lollipop lady! She's got a big stick like a lollipop.",
+     "suggestionFa": "ببین! اون خانم بله. خانم راهنمای عبور! یه چوب بزرگ مثل آب‌نبات چوبی داره.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "A lollipop lady? What does she do?",
+   "translations": {
+    "fa": "خانم آب‌نبات چوبی؟ چی کار می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "friend",
+      "knows",
+      "stops",
+      "cross"
+     ],
+     "suggestion": "She stops the cars so children can cross. She's my friend. She knows my name!",
+     "suggestionFa": "ماشین‌ها را نگه می‌داره که بچه‌ها رد بشن. دوست منه. اسمم را می‌دونه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "She's very important. Let's wait for her.",
+   "translations": {
+    "fa": "خیلی مهمه. بیا منتظرش بمونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "walks",
+      "come",
+      "wait",
+      "then",
+      "kerb"
+     ],
+     "suggestion": "We have to wait at the kerb. Then she walks out. Then she says \"Come on!\"",
+     "suggestionFa": "باید لب جدول وایسیم. بعد اون میره وسط. بعد میگه «بیاید!»",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Wait at the kerb. Good girl.",
+   "translations": {
+    "fa": "لب جدول وایسا. آفرین دختر خوب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "before",
+      "taught",
+      "cross",
+      "right",
+      "mummy"
+     ],
+     "suggestion": "Before we cross, look both ways. Left, right, left! Mummy taught me.",
+     "suggestionFa": "قبل از رد شدن، هر دو طرف را نگاه کن. چپ، راست، چپ! مامانی یادم داد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Left, right, left. Is it safe to cross now?",
+   "translations": {
+    "fa": "چپ، راست، چپ. الان رد شدن امنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pavement",
+      "walking",
+      "she's",
+      "still",
+      "look"
+     ],
+     "suggestion": "Not yet! Mrs Bell is still on the pavement. Look — she's walking out now. Cars stop!",
+     "suggestionFa": "هنوز نه! خانم بل هنوز رو پیاده‌روئه. ببین — الان داره میره وسط. ماشین‌ها وای میسن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Now it's safe to cross. Come on!",
+   "translations": {
+    "fa": "الان رد شدن امنه. بیا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "mehdi",
+      "lives",
+      "good",
+      "iran"
+     ],
+     "suggestion": "Good morning, Mrs Bell! This is Mehdi. He lives with us. He's from Iran!",
+     "suggestionFa": "صبح بخیر خانم بل! این مهدیه. با ما زندگی می‌کنه. از ایرانه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good morning, Mrs Bell. Nice to meet you.",
+   "translations": {
+    "fa": "صبح بخیر خانم بل. از آشنایی‌تون خوشبختم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticker",
+      "lovely",
+      "mehdi",
+      "gave",
+      "star"
+     ],
+     "suggestion": "She said \"Lovely to meet you, Mehdi\". And she gave me a sticker! A star sticker!",
+     "suggestionFa": "گفت «خوشحالم از آشنایی مهدی». و بهم یه برچسب داد! برچسب ستاره!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "A star sticker! Why did she give you that?",
+   "translations": {
+    "fa": "برچسب ستاره! چرا بهت داد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waiting",
+      "waiters",
+      "sticker",
+      "nicely",
+      "friday"
+     ],
+     "suggestion": "For waiting nicely at the kerb. Every Friday, good waiters get a sticker.",
+     "suggestionFa": "به‌خاطر اینکه خوب لب جدول صبر کردم. هر جمعه، اونایی که خوب صبر می‌کنن برچسب می‌گیرن.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "You're the best waiter, Nicola.",
+   "translations": {
+    "fa": "تو بهترین صبرکننده‌ای نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stickers",
+      "children",
+      "there",
+      "only",
+      "have"
+     ],
+     "suggestion": "No! Stickers are only for children. But you can have a hug. There. Bye!",
+     "suggestionFa": "نه! برچسب فقط برای بچه‌هاست. ولی می‌تونی یه بغل داشته باشی. بفرما. خداحافظ!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
