@@ -1,3 +1,12 @@
+          if (!listened)
+            Padding(
+              key: const ValueKey('radio-hint'),
+              padding: const EdgeInsets.only(top: 6),
+              child: Column(children: [
+                const Text('Listen first, without the text. Then answer.', textAlign: TextAlign.center, style: TextStyle(color: Colors.white54, fontSize: 12, fontWeight: FontWeight.w600)),
+                Text('اول بدون متن گوش کن، بعد جواب بده.', textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(12, color: Colors.white38)),
+              ]),
+            ),
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -259,7 +268,10 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
             _chip('radio-slow', Icons.slow_motion_video_rounded, 'Slower', slow, () => ctrl.setPref('radioSlow', slow ? 'off' : 'on')),
           ]),
           const SizedBox(height: 10),
-          if (transcript) for (var i = 0; i < s.lines.length; i++) _row(i) else Text('${s.blurb}\n${s.blurbFa}', key: const ValueKey('radio-blurb'), style: const TextStyle(color: Colors.white54, fontSize: 13, height: 1.5)),
+          if (transcript) for (var i = 0; i < s.lines.length; i++) _row(i) else ...[
+            Text(s.blurb, key: const ValueKey('radio-blurb'), style: const TextStyle(color: Colors.white54, fontSize: 13, height: 1.5)),
+            Text(s.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white38)),
+          ],
         ],
       );
 
