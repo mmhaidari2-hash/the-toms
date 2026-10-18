@@ -8,7 +8,10 @@ class BookSentence {
   final String en, fa;
   /// [surface, glossKey] pairs; glossKey is '' for spaces/punctuation.
   final List<(String, String)> segs;
-  const BookSentence(this.en, this.fa, this.segs);
+  /// Voice id for dialogue (B1+ books: each character reads their own lines); null = narrator.
+  final String? sp, spName;
+  const BookSentence(this.en, this.fa, this.segs, {this.sp, this.spName});
+  String get voice => sp ?? 'narrator';
 }
 
 class BookQuiz {
@@ -48,7 +51,7 @@ class Book {
             BookChapter(
               c['title'],
               c['titleFa'],
-              [for (final s in c['sentences'] as List) BookSentence(s['en'], s['fa'], [for (final g in s['segs'] as List) (g[0] as String, g[1] as String)])],
+              [for (final s in c['sentences'] as List) BookSentence(s['en'], s['fa'], [for (final g in s['segs'] as List) (g[0] as String, g[1] as String)], sp: s['sp'], spName: s['spn'])],
               [for (final q in c['quiz'] as List) BookQuiz(q['q'], List<String>.from(q['options']), q['answer'] ?? 0)],
             ),
         ],

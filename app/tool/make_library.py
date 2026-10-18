@@ -4,6 +4,9 @@ DSL:  # id | level | title | titleFa | cover place | blurb | blurbFa
       English sentence | Persian
       Q: question | correct ; wrong ; wrong
       W: word=fa ; phrase=fa          (book glossary; overrides the base dictionary)
+      speaker> "Quoted line" | Persian  (B1+: dialogue read in that character's British voice;
+                                        speaker = a voice id in render_voices.py, e.g. tom, leslie, weda)
+      tool/library/gloss_<level>.txt: 'word=fa ; word=fa' lines shared by every book of that level
 Every word must resolve to a Persian gloss (book W > BASE > NAMES > course words, with simple
 lemmatising), so tap-to-translate never comes up empty. Fails loudly listing missing words."""
 import json,os,re,sys,glob
@@ -22,16 +25,23 @@ mummy=مامانی ; daddy=بابایی ; mum=مامان ; dad=بابا ; nana=�
 saturday=شنبه ; sunday=یکشنبه ; monday=دوشنبه ; tuesday=سه‌شنبه ; thursday=پنجشنبه ; friday=جمعه ; saturdays=شنبه‌ها ; o'clock=ساعت ; minutes=دقیقه ; hour=ساعت ; year=سال ; years=سال‌ها ; morning=صبح
 full=پر ; ran=دوید ; told=گفت ; took=برداشت ؛ گرفت ؛ طول کشید ; ice cream=بستنی ; bit=کمی ؛ تکه ; last=آخرین ؛ گذشته ; sun=خورشید ؛ آفتاب ; stop=ایستگاه ؛ توقف ; looks=نگاه می‌کند ؛ به نظر می‌رسد ; slowly=آهسته ; has got=دارد ; have got=دارند ؛ دارم ; kitchen=آشپزخانه ; puddle=چالهٔ آب ; comes=می‌آید ; man=مرد ; fell=افتاد ; made=درست کرد ; woke=بیدار شد ; stood=ایستاد ; chip=یک تکه سیب‌زمینی سرخ‌کرده
 '''.replace('\n',' ; ').split(' ; ') if '=' in x)
+BASE.update(dict(x.split('=',1) for x in '''would=(فعل کمکی شرطی) ؛ می‌… ; could=می‌توانست ؛ ممکن است ; know=دانستن ؛ شناختن ; knew=می‌دانست ؛ می‌شناخت ; known=شناخته‌شده ؛ معروف ; knowing=دانستن ; think=فکر کردن ؛ فکر می‌کنم ; time=زمان ؛ بار ؛ وقت ; spent=گذراند ؛ خرج کرد ; come=آمدن ; something=چیزی ; few=چند ؛ کم ; main=اصلی ; story=داستان ؛ ماجرا ; let=اجازه دادن ; rather=نسبتاً ؛ به‌جای ; simply=به‌سادگی ؛ فقط ; public=عمومی ؛ جمع ; led=هدایت کرد ؛ رساند ; spoke=صحبت کرد ; themselves=خودشان ; least=کمترین ؛ حداقل ; luck=شانس ; worry=نگرانی ؛ نگران بودن ; life=زندگی ; car=ماشین ; many=خیلی ؛ بسیاری ; woman=زن ; child=کودک ؛ بچه ; doctor=پزشک ; during=در طول ; felt=احساس کرد ; final=نهایی ؛ آخر ; fire=آتش ؛ شومینه ; hello=سلام ; eye=چشم ; lesson=درس ; university=دانشگاه ; perhaps=شاید ; example=مثال ؛ نمونه ; eleven=یازده ; sixty=شصت ; ninety=نود ; yourself=خودت ; begin=شروع کردن ; began=شروع شد ; given=داده‌شده ; written=نوشته‌شده ; threw=پرت کرد ؛ دور انداخت ; meant=منظور داشت ؛ یعنی ; hung up=قطع کرد (تلفن) ; hung=آویزان کرد ؛ قطع کرد
+i'll=من … خواهم ؛ ـم (آینده) ; i've=من … ام (حال کامل) ; you'll=تو … خواهی ; you've=تو … ای (حال کامل) ; you'd=تو … می‌… (would/had) ; she'd=او … (would/had) ; we'll=ما … خواهیم ; we've=ما … ایم (حال کامل) ; they'll=آن‌ها … خواهند ; hadn't=نداشت ؛ نـ…ـه بود ; wasn't=نبود ; wouldn't=نمی‌… ؛ نمی‌خواست ; haven't=ندارم ؛ نـ…ـه‌ام'''.replace('\n',' ; ').split(' ; ') if '=' in x))
 BASE={k.strip():v.strip() for k,v in BASE.items()}
 NAMES={'William':'ویلیام','Tom':'تام','Leslie':'لزلی','Nicola':'نیکولا','Ryan':'رایان','Maggie':'مگی','Patel':'پاتل','Biscuit':'بیسکویت (اسم گربه)','Gareth':'گرت',
  'Ellis':'الیس','Khan':'خان','Hackney':'هاکنی (محله‌ای در لندن)','Mare':'مِر (اسم خیابان)','Street':'خیابان','Brown':'براون','Thompsons':'تامسون‌ها','Thompson':'تامسون',
- 'Overground':'اورگراند (قطار شهری لندن)','Highbury':'هایبری','Victoria':'ویکتوریا (ایستگاه)','Brighton':'برایتون','King':'پادشاه','Fairy':'پری','Tooth':'دندان','Happy':'مبارک','Birthday':'تولد','London':'لندن','England':'انگلستان','Spain':'اسپانیا','TV':'تلویزیون','L':'ال (حرف)'}
+ 'Overground':'اورگراند (قطار شهری لندن)','Highbury':'هایبری','Victoria':'ویکتوریا (ایستگاه)','Brighton':'برایتون','King':'پادشاه','Fairy':'پری','Tooth':'دندان','Happy':'مبارک','Birthday':'تولد','London':'لندن','England':'انگلستان','Spain':'اسپانیا','TV':'تلویزیون','L':'ال (حرف)',
+ 'Birmingham':'بیرمنگام','Dave':'دیو','Alastair':'آلستر','Know-Nothings':'هیچ‌ندان‌ها (اسم تیم)','Doris':'دوریس','Bradley':'بردلی','George':'جورج','Dover':'داور (شهری ساحلی)',
+ 'France':'فرانسه','Maya':'مایا','Clarke':'کلارک','Hannah':'هانا','Mary':'مری','St':'سنت (قدیس)','Ms':'خانم','Homerton':'هومرتون (بیمارستان)','Leeds':'لیدز','Bennett':'بنت',
+ 'Siân':'شان','Imogen':'ایموجن','Suffolk':'سافک','Acorns':'ایکورنز (اسم مهد)','Harris':'هریس','Jo':'جو','Oscar':'اسکار','Vida':'ویدا','Canada':'کانادا','Hale':'هیل',
+ 'Liverpool':'لیورپول','Margaret':'مارگارت','Montreal':'مونترال','Ontario':'انتاریو','Arthur':'آرتور'}
+NOPREFIX={'Street','King','TV','Happy','Birthday','Fairy','Tooth','London','England','Spain','L','Birmingham','Dover','France','St','Ms','Mary','Homerton','Leeds','Suffolk','Acorns','Canada','Liverpool','Montreal','Ontario','Know-Nothings'}
 COURSE={}
 c=json.load(open(os.path.join(A,'data/course.json')))
 for u in c['units']+[u for p in c.get('packs',[]) for u in p['units']]:
   for l in u['lessons']:
     for w in l.get('words',[]): COURSE.setdefault(w['word'].lower(),w['fa'])
-TOK=re.compile(r"[A-Za-z]+(?:['’-][A-Za-z]+)*")
+TOK=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’-][A-Za-zÀ-ÿ]+)*")
 def variants(w):
   out=[w]
   for suf,rep in [("'s",''),('ies','y'),('es',''),('s',''),('ied','y'),('ed',''),('ed','e'),('d',''),('ing',''),('ing','e'),('ly',''),('er',''),('est','')]:
@@ -43,10 +53,21 @@ def gloss(w,raw,book):
     for d in (book,BASE,COURSE):
       if v in d: return d[v]
   if raw.endswith("'s") and raw[:-2] in NAMES: return 'مالِ '+NAMES[raw[:-2]]+' ('+raw[:-2]+')'
-  if raw in NAMES: return 'اسم: '+NAMES[raw] if raw[0].isupper() and raw not in('Street','King','TV','Happy','Birthday','Fairy','Tooth','London','England','Spain','L') else NAMES[raw]
+  if raw in NAMES: return 'اسم: '+NAMES[raw] if raw[0].isupper() and raw not in NOPREFIX else NAMES[raw]
   return None
-books=[]; missing={}
-for f in sorted(glob.glob(os.path.join(H,'library','*.txt'))):
+VOICES=set(re.findall(r"'([a-z]+)':\('en-",open(os.path.join(H,'render_voices.py')).read()))
+CAST={c['id']:c['name'] for c in json.load(open(os.path.join(A,'data/characters.json')))}
+LEVELG={}
+for gf in glob.glob(os.path.join(H,'library','gloss_*.txt')):
+  lv=os.path.basename(gf)[6:-4].upper(); d=LEVELG.setdefault(lv,{})
+  for ln in open(gf,encoding='utf-8'):
+    ln=ln.strip()
+    if not ln or ln.startswith('#'): continue
+    for kv in ln.split(' ; '):
+      k,v=kv.split('=',1); d[k.strip().lower()]=v.strip()
+SPK=re.compile(r'^([a-z]+)> (.*)$')
+books=[]; missing={}; bad=[]
+for f in sorted(g for g in glob.glob(os.path.join(H,'library','*.txt')) if not os.path.basename(g).startswith('gloss_')):
   bk=ch=None
   for ln in open(f,encoding='utf-8'):
     ln=ln.rstrip('\n').strip()
@@ -63,8 +84,16 @@ for f in sorted(glob.glob(os.path.join(H,'library','*.txt'))):
       for kv in ln[2:].split(' ; '):
         k,v=kv.split('=',1); bk['gloss'][k.strip().lower()]=v.strip()
     else:
-      en,fa=[x.strip() for x in ln.split('|')]; ch['sentences'].append({'en':en,'fa':fa})
+      m=SPK.match(ln); sp=None
+      if m: sp,ln=m.group(1),m.group(2)
+      en,fa=[x.strip() for x in ln.split('|')]; st={'en':en,'fa':fa}
+      if sp:
+        if sp not in VOICES or sp=='narrator': bad.append(f"{bk['id']}: unknown speaker {sp}")
+        st['sp']=sp; st['spn']=CAST.get(sp,sp.title())
+      ch['sentences'].append(st)
+if bad: print('\n'.join(bad)); sys.exit(1)
 for bk in books:
+  bk['gloss']={**LEVELG.get(bk['level'],{}),**bk['gloss']}
   used={}
   phrases=sorted([k for k in list(bk['gloss'])+list(BASE) if ' ' in k],key=lambda k:-len(k.split()))
   for ch in bk['chapters']:

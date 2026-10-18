@@ -12,6 +12,8 @@ import '../../core/platform/voice.dart';
 import '../motivation/motivation_widgets.dart';
 import '../shared/nav.dart';
 import 'library_data.dart';
+import 'library_gate.dart';
+import '../grammar/grammar_data.dart';
 
 /// Reader: narrator reads aloud with sentence highlighting; tap a word for Persian (+ save it);
 /// translation toggle; speed; a short quiz at the end of each chapter (XP, finished badge).
@@ -21,13 +23,57 @@ class ReaderScreen extends ConsumerWidget {
   const ReaderScreen({super.key, required this.bookId, this.chapter = 0});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final books = ref.watch(libraryProvider).value;
-    if (books == null) return const NavLoading();
+    final books = ref.watch(libraryProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
+    ref.watch(progressProvider);
+    if (books == null || topics == null || content == null) return const NavLoading();
     final b = books.where((x) => x.id == bookId).firstOrNull;
     if (b == null) {
       return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/library'), child: const Text('Book not found — back to the Library'))));
     }
+    // Strict lock: a deep link to a book on a shut shelf never opens the reader.
+    final gate = LibraryGate(ref.read(progressProvider.notifier), content, topics, books, unlockAll: ref.read(progressProvider).unlockAll);
+    if (!gate.shelfOpen(b.level)) return BookLocked(book: b);
     return _Reader(key: ValueKey('reader-${b.id}-$chapter'), book: b, chapter: chapter.clamp(0, b.chapters.length - 1));
+  }
+}
+
+/// Shown instead of the reader for a book whose shelf isn't open yet.
+class BookLocked extends StatelessWidget {
+  final Book book;
+  const BookLocked({super.key, required this.book});
+  @override
+  Widget build(BuildContext context) {
+    final (en, fa) = LibraryGate.why(book.level);
+    return Scaffold(
+      key: const ValueKey('book-locked'),
+      backgroundColor: BL.cream,
+      body: SafeArea(
+        child: Column(children: [
+          const Align(alignment: Alignment.centerLeft, child: Padding(padding: EdgeInsets.all(12), child: NavBack(fallback: '/library'))),
+          Expanded(
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 28),
+                child: Column(mainAxisSize: MainAxisSize.min, children: [
+                  const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
+                  const SizedBox(height: 14),
+                  Text(book.title, textAlign: TextAlign.center, style: BL.display(24)),
+                  Text(book.titleFa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
+                  const SizedBox(height: 16),
+                  Text('This book is on the ${book.level} shelf, which is still locked', textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
+                  const SizedBox(height: 10),
+                  Text(en, key: const ValueKey('book-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
+                  const SizedBox(height: 4),
+                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
+                  const SizedBox(height: 22),
+                  TextButton(key: const ValueKey('book-locked-library'), onPressed: () => context.go('/library'), child: const Text('Back to the Library')),
+                ]),
+              ),
+            ),
+          ),
+        ]),
+      ),
+    );
   }
 }
 
@@ -88,11 +134,11 @@ class _ReaderState extends ConsumerState<_Reader> {
       if (ctx != null && ctx.mounted) Scrollable.ensureVisible(ctx, alignment: .3, duration: const Duration(milliseconds: 350));
       final s = c.sentences[i];
       final t0 = DateTime.now();
-      await Voice.say('narrator', s.en, rate: rate);
+      await Voice.say(s.voice, s.en, rate: rate);
       // No clip (or audio blocked): give a reading pause so highlighting still flows.
       final min = Duration(milliseconds: (s.en.split(' ').length * 330 / rate).round());
       final left = min - DateTime.now().difference(t0);
-      if (!Voice.has('narrator', s.en) && left > Duration.zero) await Future.delayed(left);
+      if (!Voice.has(s.voice, s.en) && left > Duration.zero) await Future.delayed(left);
       if (run != _run || !mounted) return;
       await Future.delayed(const Duration(milliseconds: 250));
     }
@@ -157,6 +203,7 @@ class _ReaderState extends ConsumerState<_Reader> {
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
         decoration: BoxDecoration(color: on ? BL.gold.withValues(alpha: .32) : Colors.transparent, borderRadius: BorderRadius.circular(10)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          if (s.spName != null) Text(s.spName!.toUpperCase(), key: ValueKey('spk-$i'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red)),
           Text.rich(TextSpan(children: spans), key: ValueKey('sent-$i'), style: BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0)),
           if (showFa) Text(s.fa, key: ValueKey('fa-$i'), textDirection: TextDirection.rtl, textAlign: TextAlign.right, style: BL.fa(14.5, color: BL.muted)),
         ]),

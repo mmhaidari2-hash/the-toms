@@ -6,6 +6,8 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 import 'library_data.dart';
+import 'library_gate.dart';
+import '../grammar/grammar_data.dart';
 
 const _wall = Color(0xFFF3E9D8), _wood = Color(0xFF8A5A2E), _woodDark = Color(0xFF5E3B1C);
 
@@ -18,8 +20,9 @@ class LibraryScreen extends ConsumerWidget {
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
     final pad = MediaQuery.paddingOf(context);
-    final books = lib.value;
-    if (books == null) return const NavLoading();
+    final books = lib.value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
+    if (books == null || topics == null || content == null) return const NavLoading();
+    final gate = LibraryGate(ctrl, content, topics, books, unlockAll: ref.read(progressProvider).unlockAll);
     return Scaffold(
       backgroundColor: _wall,
       body: ListView(
@@ -37,7 +40,7 @@ class LibraryScreen extends ConsumerWidget {
               Text('${ctrl.booksDone} of ${books.length} books finished  ·  tap any word for its meaning', style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
             ]),
           ),
-          for (final lv in Library.levels) _Shelf(level: lv, books: books.where((b) => b.level == lv.code).toList()),
+          for (final lv in Library.levels) _Shelf(level: lv, books: books.where((b) => b.level == lv.code).toList(), open: gate.shelfOpen(lv.code)),
         ],
       ),
     );
@@ -47,7 +50,9 @@ class LibraryScreen extends ConsumerWidget {
 class _Shelf extends ConsumerWidget {
   final LibraryLevel level;
   final List<Book> books;
-  const _Shelf({required this.level, required this.books});
+  final bool open;
+  const _Shelf({required this.level, required this.books, this.open = true});
+  void _locked(BuildContext context) => _shelfLockedSnack(context, level.code);
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ctrl = ref.read(progressProvider.notifier);
@@ -61,15 +66,26 @@ class _Shelf extends ConsumerWidget {
           child: Row(children: [
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
-              decoration: BoxDecoration(color: empty ? BL.muted : BL.navy, borderRadius: BorderRadius.circular(8)),
-              child: Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+              decoration: BoxDecoration(color: empty || !open ? BL.muted : BL.navy, borderRadius: BorderRadius.circular(8)),
+              child: Row(mainAxisSize: MainAxisSize.min, children: [
+                if (!open && !empty) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
+                Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+              ]),
             ),
             const SizedBox(width: 8),
-            Text(level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+            Expanded(
+              child: Text.rich(
+                TextSpan(children: [
+                  TextSpan(text: level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+                  const TextSpan(text: '  '),
+                  TextSpan(text: level.nameFa, style: BL.fa(13)),
+                ]),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
             const SizedBox(width: 6),
-            Text(level.nameFa, style: BL.fa(13)),
-            const Spacer(),
-            Text(empty ? 'Coming soon · به‌زودی' : '${books.where((b) => ctrl.bookDone(b.id)).length}/${books.length}', style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+            Text(empty ? 'Coming soon · به‌زودی' : !open ? 'Locked · قفل' : '${books.where((b) => ctrl.bookDone(b.id)).length}/${books.length}', key: ValueKey('shelf-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
           ]),
         ),
         const SizedBox(height: 10),
@@ -99,7 +115,12 @@ class _Shelf extends ConsumerWidget {
                   for (final b in books)
                     Padding(
                       padding: const EdgeInsets.only(right: 12),
-                      child: BookCover(b, done: ctrl.bookDone(b.id), onTap: () => showBookSheet(context, ref, b)),
+                      child: open
+                          ? BookCover(b, done: ctrl.bookDone(b.id), onTap: () => showBookSheet(context, ref, b))
+                          : Stack(alignment: Alignment.center, children: [
+                              Opacity(opacity: .45, child: BookCover(b, onTap: () => _locked(context))),
+                              const IgnorePointer(child: Icon(Icons.lock_rounded, color: Colors.white, size: 30)),
+                            ]),
                     ),
               ],
             ),
@@ -108,6 +129,13 @@ class _Shelf extends ConsumerWidget {
       ]),
     );
   }
+}
+
+void _shelfLockedSnack(BuildContext context, String code) {
+  final (en, fa) = LibraryGate.why(code);
+  ScaffoldMessenger.of(context)
+    ..hideCurrentSnackBar()
+    ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa', key: const ValueKey('shelf-locked-snack'))));
 }
 
 /// Placeholder spine for a shelf that is still being written.

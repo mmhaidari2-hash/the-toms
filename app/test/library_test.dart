@@ -8,7 +8,9 @@ import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:british_life/core/platform/voice.dart';
+import 'package:british_life/features/grammar/grammar_data.dart';
 import 'package:british_life/features/library/library_data.dart';
+import 'package:british_life/features/library/library_gate.dart';
 import 'package:british_life/features/shared/nav.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -21,9 +23,12 @@ void main() {
   final books = Library.parse(File('assets/data/library.json').readAsStringSync());
   final audio = (jsonDecode(File('assets/audio/index.json').readAsStringSync()) as List).cast<String>().toSet();
 
-  test('A1 and A2 shelves have 8+ books, each with chapters, quizzes and full glossaries', () {
+  test('A1/A2 shelves have 8+ books, B1/B2/C1 4+; each with chapters, quizzes and full glossaries', () {
     for (final lv in ['A1', 'A2']) {
       expect(books.where((b) => b.level == lv).length, greaterThanOrEqualTo(8), reason: lv);
+    }
+    for (final lv in ['B1', 'B2', 'C1']) {
+      expect(books.where((b) => b.level == lv).length, greaterThanOrEqualTo(4), reason: lv);
     }
     expect(books.map((b) => b.id).toSet().length, books.length, reason: 'unique ids');
     for (final b in books) {
@@ -42,10 +47,61 @@ void main() {
           for (final (w, k) in s.segs) {
             if (k.isNotEmpty) expect(b.gloss[k] ?? '', isNotEmpty, reason: '${b.id}: "$w" has no Persian');
           }
-          expect(audio.contains(Voice.key('narrator', s.en)), isTrue, reason: 'narrator clip for "${s.en}"');
+          expect(audio.contains(Voice.key(s.voice, s.en)), isTrue, reason: '${s.voice} clip for "${s.en}"');
         }
       }
     }
+  });
+
+  test('B1+ books are voiced per character: dialogue lines are pure quotes with a named, known speaker', () {
+    final voices = RegExp(r"'([a-z]+)':\('en-").allMatches(File('tool/render_voices.py').readAsStringSync()).map((m) => m.group(1)!).toSet();
+    for (final b in books.where((b) => !b.level.startsWith('A'))) {
+      final ss = [for (final c in b.chapters) ...c.sentences];
+      final spoken = ss.where((s) => s.sp != null).toList();
+      expect(spoken.map((s) => s.sp).toSet().length, greaterThanOrEqualTo(2), reason: '${b.id} needs 2+ voiced characters');
+      for (final s in spoken) {
+        expect(voices, contains(s.sp), reason: '${b.id}: unknown voice ${s.sp}');
+        expect(s.spName ?? '', isNotEmpty, reason: '${b.id}: ${s.sp} has no display name');
+        expect(s.en.startsWith('"') && s.en.endsWith('"'), isTrue, reason: 'only the quote is voiced: ${s.en}');
+      }
+    }
+  });
+
+  test('shelves unlock with the Grammar School / course level rule', () async {
+    final store = MemoryProgressStore()..data = const UserProgress(onboarded: true).encode();
+    final pc = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(store)]);
+    final ctrl = pc.read(progressProvider.notifier);
+    TestWidgetsFlutterBinding.ensureInitialized();
+    final content = await pc.read(contentProvider.future);
+    final topics = Grammar.parse(File('assets/data/grammar.json').readAsStringSync());
+    LibraryGate gate() => LibraryGate(ctrl, content, topics, books);
+    expect(gate().shelfOpen('A1'), isTrue);
+    for (final lv in ['A2', 'B1', 'B2', 'C1']) {
+      expect(gate().shelfOpen(lv), isFalse, reason: '$lv shut for a new learner');
+    }
+    expect(LibraryGate(ctrl, content, topics, books, unlockAll: true).shelfOpen('C1'), isTrue);
+    // Finishing the A1 shelf opens A2.
+    for (final b in gate().of('A1')) {
+      ctrl.saveChapter(b.id, 0, 100, 2);
+      ctrl.saveChapter(b.id, 1, 100, 2);
+    }
+    expect(gate().shelfOpen('A2'), isTrue);
+    expect(gate().shelfOpen('B1'), isFalse);
+    // Passing Grammar Class A2 opens B1 (A1 already passed opens A2 via grammar too).
+    for (final t in topics.where((t) => t.level == 'A1' || t.level == 'A2')) {
+      ctrl.saveGrammar(t.id, 80);
+    }
+    expect(gate().shelfOpen('B1'), isTrue);
+    expect(gate().shelfOpen('B2'), isFalse);
+    // A book already started keeps its shelf open.
+    ctrl.saveChapter('c1_letters', 0, 30, 2);
+    expect(gate().shelfOpen('C1'), isTrue, reason: 'nobody loses a book they are reading');
+    expect(gate().shelfOpen('B2'), isFalse);
+    for (final t in topics.where((t) => t.level == 'B1')) {
+      ctrl.saveGrammar(t.id, 80);
+    }
+    expect(gate().shelfOpen('B2'), isTrue);
+    expect(LibraryGate.why('B2').$1, contains('Grammar Class B1'));
   });
 
   test('level-appropriate length and British spelling', () {
@@ -119,7 +175,7 @@ void main() {
       await settle();
       expect(find.byKey(const ValueKey('shelf-A1')), findsOneWidget);
       expect(find.byKey(const ValueKey('shelf-A2')), findsOneWidget);
-      expect(find.byKey(const ValueKey('shelf-B1'), skipOffstage: false), findsOneWidget, reason: 'coming-soon shelf');
+      expect(find.byKey(const ValueKey('shelf-B1'), skipOffstage: false), findsOneWidget, reason: 'B1 shelf listed (locked)');
       await t.tap(find.byKey(const ValueKey('book-a1_bus')));
       for (var i = 0; i < 6; i++) {
         await t.pump(const Duration(milliseconds: 200));
