@@ -38,7 +38,7 @@ class RadioScreen extends ConsumerWidget {
           ]),
           const SizedBox(height: 10),
           Text(RadioStation.station, style: BL.display(30, color: Colors.white)),
-          Text('رادیو محلی هاکنی · اخبار، هوا، رفت‌وآمد، برنامهٔ تلفنی و آگهی؛ اول گوش کن', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+          Text('رادیو محلی هاکنی · اول گوش کن، بعد جواب بده', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
           const SizedBox(height: 6),
           Text('$done of ${segs.length} programmes understood  ·  listen, then answer', key: const ValueKey('radio-count'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w600, fontSize: 12.5)),
           for (final lv in Library.levels)
@@ -113,7 +113,7 @@ class _Card extends StatelessWidget {
   const _Card({required this.seg, required this.open, required this.done, required this.onTap});
   @override
   Widget build(BuildContext context) {
-    final (kind, kindFa, icon) = RadioStation.kinds[seg.kind]!;
+    final (kind, _, icon) = RadioStation.kinds[seg.kind]!;
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Material(
@@ -141,7 +141,7 @@ class _Card extends StatelessWidget {
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(seg.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
                     Text(seg.titleFa, maxLines: 1, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white60)),
-                    Text('$kind · $kindFa  ·  ${seg.seconds}s  ·  ${seg.voices.join(', ')}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white54, fontSize: 11, fontWeight: FontWeight.w600)),
+                    Text('$kind  ·  ${seg.seconds}s  ·  ${seg.voices.join(', ')}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white54, fontSize: 11, fontWeight: FontWeight.w600)),
                   ]),
                 ),
                 if (done)

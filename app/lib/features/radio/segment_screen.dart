@@ -207,7 +207,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
         ),
       );
     }
-    final (kind, kindFa, _) = RadioStation.kinds[s.kind]!;
+    final (kind, _, _) = RadioStation.kinds[s.kind]!;
     return Scaffold(
       backgroundColor: radioDark,
       body: Column(children: [
@@ -219,7 +219,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text(s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
-                Text('${s.level}  ·  $kind · $kindFa  ·  ${s.seconds}s', style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
+                Text('${s.level}  ·  $kind  ·  ${s.seconds}s', style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
               ]),
             ),
           ]),
