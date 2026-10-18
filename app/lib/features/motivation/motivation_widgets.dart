@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -108,38 +109,81 @@ class _ConfettiPainter extends CustomPainter {
 }
 
 /// End-of-lesson celebration: XP count-up, streak, daily goal and new badges.
-class Celebration extends StatelessWidget {
+/// When [onNext] is given and the learner passed, a big "Next …" button leads on, and the app moves
+/// there by itself after [autoNext] seconds unless the learner taps "Stay here".
+class Celebration extends StatefulWidget {
   final XpAward award;
   final bool pass, checkpoint;
   final int right, total;
   final VoidCallback onContinue;
   final VoidCallback? onRetry;
+  /// Goes to the next lesson / topic / chapter (only offered on a pass).
+  final VoidCallback? onNext;
+  final String nextLabel;
+  final int autoNext;
   /// Overrides for non-lesson uses (e.g. a Library chapter quiz).
   final String? title, titleFa;
-  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry, this.scoreLabel = 'Score'});
+  /// Tests can switch the timed auto-advance off.
+  static bool autoAdvance = true;
+  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry, this.scoreLabel = 'Score', this.onNext, this.nextLabel = 'Next lesson', this.autoNext = 3});
   /// Label under the percentage stat (e.g. 'Phrases' for a mission check-in).
   final String scoreLabel;
   @override
+  State<Celebration> createState() => _CelebrationState();
+}
+
+class _CelebrationState extends State<Celebration> {
+  Timer? _t;
+  int _left = 0;
+  bool get _hasNext => widget.pass && widget.onNext != null;
+  @override
+  void initState() {
+    super.initState();
+    if (_hasNext && Celebration.autoAdvance && widget.autoNext > 0) {
+      _left = widget.autoNext;
+      _t = Timer.periodic(const Duration(seconds: 1), (_) {
+        if (!mounted) return;
+        if (_left <= 1) {
+          _stop();
+          widget.onNext!();
+        } else {
+          setState(() => _left--);
+        }
+      });
+    }
+  }
+  void _stop() {
+    _t?.cancel();
+    _t = null;
+    if (mounted) setState(() => _left = 0);
+  }
+  @override
+  void dispose() {
+    _t?.cancel();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final pct = (right * 100 / max(total, 1)).round();
+    final pct = (widget.right * 100 / max(widget.total, 1)).round();
     return Stack(children: [
-      if (pass) const Positioned.fill(child: Confetti()),
+      if (widget.pass) const Positioned.fill(child: Confetti()),
       Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Icon(pass ? Icons.emoji_events_rounded : Icons.auto_stories_rounded, size: 64, color: pass ? BL.gold : BL.navy),
+            Icon(widget.pass ? Icons.emoji_events_rounded : Icons.auto_stories_rounded, size: 64, color: widget.pass ? BL.gold : BL.navy),
             const SizedBox(height: 8),
-            Text(title ?? (pass ? (checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!'), key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
-            Text(titleFa ?? (pass ? (checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${checkpoint ? 70 : 60}٪ برسی.'),
+            Text(widget.title ?? (widget.pass ? (widget.checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!'), key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
+            Text(widget.titleFa ?? (widget.pass ? (widget.checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${widget.checkpoint ? 70 : 60}٪ برسی.'),
                 textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
             const SizedBox(height: 16),
             Row(children: [
-              Expanded(child: _Stat(key: const ValueKey('celebrate-xp'), color: BL.gold, icon: Icons.bolt_rounded, label: 'XP', child: TweenAnimationBuilder<int>(tween: IntTween(begin: 0, end: award.xp), duration: const Duration(milliseconds: 900), builder: (_, v, _) => Text('+$v', style: BL.display(24))))),
+              Expanded(child: _Stat(key: const ValueKey('celebrate-xp'), color: BL.gold, icon: Icons.bolt_rounded, label: 'XP', child: TweenAnimationBuilder<int>(tween: IntTween(begin: 0, end: widget.award.xp), duration: const Duration(milliseconds: 900), builder: (_, v, _) => Text('+$v', style: BL.display(24))))),
               const SizedBox(width: 10),
-              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: scoreLabel, child: Text('$pct%', style: BL.display(24)))),
+              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: widget.scoreLabel, child: Text('$pct%', style: BL.display(24)))),
               const SizedBox(width: 10),
-              Expanded(child: _Stat(color: BL.red, icon: Icons.local_fire_department_rounded, label: award.streak == 1 ? 'day' : 'days', child: Text('${award.streak}', style: BL.display(24)))),
+              Expanded(child: _Stat(color: BL.red, icon: Icons.local_fire_department_rounded, label: widget.award.streak == 1 ? 'day' : 'days', child: Text('${widget.award.streak}', style: BL.display(24)))),
             ]),
             const SizedBox(height: 14),
             Container(
@@ -147,42 +191,62 @@ class Celebration extends StatelessWidget {
               decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(18), border: Border.all(color: BL.mist)),
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Row(children: [
-                  Expanded(child: Text(award.today >= award.goal ? 'Daily goal reached!' : 'Daily goal', style: const TextStyle(fontWeight: FontWeight.w800))),
-                  Text('${min(award.today, award.goal)} / ${award.goal} XP', style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
+                  Expanded(child: Text(widget.award.today >= widget.award.goal ? 'Daily goal reached!' : 'Daily goal', style: const TextStyle(fontWeight: FontWeight.w800))),
+                  Text('${min(widget.award.today, widget.award.goal)} / ${widget.award.goal} XP', style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
                 ]),
                 const SizedBox(height: 8),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(99),
                   child: TweenAnimationBuilder<double>(
-                    tween: Tween(begin: max(0, award.today - award.xp) / max(award.goal, 1), end: award.today / max(award.goal, 1)),
+                    tween: Tween(begin: max(0, widget.award.today - widget.award.xp) / max(widget.award.goal, 1), end: widget.award.today / max(widget.award.goal, 1)),
                     duration: const Duration(milliseconds: 900),
-                    builder: (_, v, _) => LinearProgressIndicator(value: v.clamp(0, 1), minHeight: 10, color: award.today >= award.goal ? BL.green : BL.gold, backgroundColor: BL.mist),
+                    builder: (_, v, _) => LinearProgressIndicator(value: v.clamp(0, 1), minHeight: 10, color: widget.award.today >= widget.award.goal ? BL.green : BL.gold, backgroundColor: BL.mist),
                   ),
                 ),
-                if (award.streakUp) ...[
+                if (widget.award.streakUp) ...[
                   const SizedBox(height: 10),
-                  Text(award.freezeUsed ? 'A streak freeze saved your ${award.streak}-day streak.' : (award.streak == 1 ? 'Streak started. Come back tomorrow!' : '${award.streak}-day streak. Keep it going!'),
+                  Text(widget.award.freezeUsed ? 'A streak freeze saved your ${widget.award.streak}-day streak.' : (widget.award.streak == 1 ? 'Streak started. Come back tomorrow!' : '${widget.award.streak}-day streak. Keep it going!'),
                       style: const TextStyle(color: BL.red, fontWeight: FontWeight.w700)),
                 ],
               ]),
             ),
-            if (award.newBadges.isNotEmpty) ...[
+            if (widget.award.newBadges.isNotEmpty) ...[
               const SizedBox(height: 14),
               const Text('NEW BADGE', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w900, color: BL.red)),
               const SizedBox(height: 8),
               Wrap(spacing: 14, runSpacing: 8, alignment: WrapAlignment.center, children: [
-                for (final b in award.newBadges)
+                for (final b in widget.award.newBadges)
                   Column(key: ValueKey('new-badge-${b.id}'), children: [BadgeMedal(b, earned: true, size: 60), const SizedBox(height: 4), Text(b.title, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5))]),
               ]),
             ],
             const SizedBox(height: 20),
-            FilledButton(
-              key: const ValueKey('celebrate-continue'),
-              onPressed: onContinue,
-              style: FilledButton.styleFrom(backgroundColor: BL.red, minimumSize: const Size.fromHeight(52), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
-              child: const Text('Continue', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
-            ),
-            if (onRetry != null) TextButton(onPressed: onRetry, child: const Text('Try again')),
+            if (_hasNext) ...[
+              FilledButton(
+                key: const ValueKey('celebrate-next'),
+                onPressed: () {
+                  _stop();
+                  widget.onNext!();
+                },
+                style: FilledButton.styleFrom(backgroundColor: BL.red, minimumSize: const Size.fromHeight(56), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
+                child: Text('${widget.nextLabel}  →', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800)),
+              ),
+              if (_left > 0)
+                Wrap(alignment: WrapAlignment.center, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                  Text('Opening in $_left…', key: const ValueKey('celebrate-countdown'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700)),
+                  TextButton(key: const ValueKey('celebrate-stay'), onPressed: _stop, child: const Text('Stay here')),
+                ]),
+              TextButton(key: const ValueKey('celebrate-continue'), onPressed: () {
+                _stop();
+                widget.onContinue();
+              }, child: const Text('Back')),
+            ] else
+              FilledButton(
+                key: const ValueKey('celebrate-continue'),
+                onPressed: widget.onContinue,
+                style: FilledButton.styleFrom(backgroundColor: BL.red, minimumSize: const Size.fromHeight(52), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
+                child: const Text('Continue', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+              ),
+            if (widget.onRetry != null) TextButton(onPressed: widget.onRetry, child: const Text('Try again')),
           ]),
         ),
       ),

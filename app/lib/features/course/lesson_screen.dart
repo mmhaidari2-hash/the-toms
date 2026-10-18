@@ -27,7 +27,10 @@ class LessonScreen extends ConsumerWidget {
     final u = c.course.unitOf(l.id)!;
     final pk = c.course.packOf(u);
     if (pk != null && !ctrl.lessonOpen(c.course, l)) return PremiumScreen(pack: pk.id); // Career Pack beyond the free first lesson
-    final img = c.place(l.place)?.image;
+    // Same picture rule as the conversation: a painting of this setting with no main character who isn't in it,
+    // else the setting's blurred (people-free) painting.
+    final art = l.sceneIds.isEmpty ? null : c.artOf(l.sceneIds.first);
+    final img = art == null ? c.place(l.place)?.image : art.img;
     final storyDone = l.sceneIds.every(p.completedScenes.contains);
     final score = ctrl.practiceScore(l.id);
     final pad = MediaQuery.paddingOf(context);
@@ -43,7 +46,12 @@ class LessonScreen extends ConsumerWidget {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      if (img != null) Image.asset(img, fit: BoxFit.cover),
+                      if (img != null)
+                        Image.asset(img, fit: BoxFit.cover)
+                      else if (art?.bg != null)
+                        Image.asset(art!.bg!, key: const ValueKey('lesson-neutral-bg'), fit: BoxFit.cover),
+                      if (img == null && art != null)
+                        Align(alignment: const Alignment(.85, -.2), child: Opacity(opacity: .95, child: Image.asset(art.spot, width: 84, height: 84))),
                       const DecoratedBox(
                         decoration: BoxDecoration(
                           gradient: LinearGradient(

@@ -131,7 +131,10 @@ class _TopicState extends ConsumerState<_Topic> {
     for (var k = 0; k < lines.length; k++) {
       if (run != _run || !mounted) return;
       setState(() => speaking = offset + k);
-      await Voice.say('ellis', lines[k].en);
+      if (!await Voice.say('ellis', lines[k].en)) {
+        if (run == _run && mounted) setState(() => speaking = null);
+        return;
+      }
       if (!Voice.has('ellis', lines[k].en)) await Future.delayed(const Duration(milliseconds: 600));
     }
     if (run == _run && mounted) setState(() => speaking = null);
@@ -183,7 +186,9 @@ class _TopicState extends ConsumerState<_Topic> {
           title: pass ? 'Topic passed!' : 'Nearly there!',
           titleFa: pass ? (next != null ? 'آفرین! موضوع بعدی باز شد: ${next.titleFa}' : 'آفرین! همهٔ موضوع‌های این کلاس را گذراندی.') : 'دوباره تمرین کن و آزمونک را تکرار کن (حداقل ${Grammar.pass}٪).',
           onRetry: pass ? null : () => _start(_Stage.practice),
-          onContinue: () => pass && next != null ? context.pushReplacement('/grammar/${next.id}') : goBack(context, '/school/${t.level}'),
+          onNext: pass && next != null ? () => context.pushReplacement('/grammar/${next.id}') : null,
+          nextLabel: 'Next topic',
+          onContinue: () => goBack(context, '/school/${t.level}'),
         ),
       );
     }

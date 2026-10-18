@@ -248,7 +248,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
     for (final (i, l) in e.lines.indexed) {
       if (!mounted || !all) return;
       setState(() => playing = 'l$i');
-      await Voice.say(l.sp, l.en);
+      if (!await Voice.say(l.sp, l.en)) break;
     }
     if (mounted) setState(() => (all = false, playing = null));
   }

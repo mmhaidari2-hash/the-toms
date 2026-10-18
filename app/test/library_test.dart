@@ -238,7 +238,7 @@ void main() {
       await passQuiz();
       expect(find.text('Chapter complete!'), findsOneWidget);
       expect(ctrl.readScore('a1_bus', 0), 100);
-      await t.tap(find.text('Continue').first);
+      await t.tap(find.byKey(const ValueKey('celebrate-next')));
       await settle();
       expect(find.text('Chapter 2 of 2  ·  A1'), findsOneWidget);
       await passQuiz();

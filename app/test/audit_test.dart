@@ -27,7 +27,8 @@ ContentBundle load() {
   final tiers = [for (final t in j('assets/data/places.json')) Tier.fromJson(t)];
   final moments = [for (final m in j('assets/data/moments.json')) Moment(m['sceneId'], m['cover'])];
   final roles = [for (final r in j('assets/data/roles.json')) RoleDef(r['id'], List<String>.from(r['scenes']))];
-  return ContentBundle(chars, scenes, ms, tiers, moments, roles, Course.fromJson(j('assets/data/course.json')));
+  final art = {for (final e in (j('assets/data/scene_art.json') as Map<String, dynamic>).entries) e.key: SceneArt.fromJson(e.value)};
+  return ContentBundle(chars, scenes, ms, tiers, moments, roles, Course.fromJson(j('assets/data/course.json')), const Timeline([]), art);
 }
 
 
@@ -98,20 +99,37 @@ void main() {
       ..writeAsStringSync(jsonEncode(spoken(c)));
   });
 
-  test('every story (lessons, role-switch variants, explore) opens on a real painting, never a bare avatar', () {
-    final lessonIds = {for (final u in c.course.units) for (final l in u.lessons) ...l.sceneIds};
+  test('every story opens on a picture that matches its setting and people (tool/match_scene_art.py)', () {
+    // Main characters are never painted into a scene they're not in; no painting -> people-free location card.
+    const main = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'mehdi'};
+    final lessonIds = {for (final u in c.course.allUnits) for (final l in u.lessons) ...l.sceneIds};
+    final nursery = {for (final l in c.course.pack('nursery')?.lessons ?? const <Lesson>[]) ...l.sceneIds};
     final bad = <String>[];
     for (final s in c.scenes.values) {
-      final cv = c.coverOf(s.id);
-      final img = cv.image;
-      if (img == null || !File(img).existsSync()) {
-        bad.add('${s.id}: no painting ($img)');
-      } else if (cv.generic && lessonIds.contains(s.baseId ?? s.id)) {
-        bad.add('${s.id}: lesson fell back to a generic painting');
+      final a = c.artOf(s.id);
+      if (a == null) {
+        bad.add('${s.id}: no entry in scene_art.json (run tool/match_scene_art.py)');
+        continue;
       }
+      final base = c.scenes[s.baseId ?? s.id]!;
+      final speakers = {base.characterId, for (final n in base.nodes.values) n.speaker};
+      if (!File(a.spot).existsSync()) bad.add('${s.id}: missing icon ${a.spot}');
+      if (a.bg != null && !File(a.bg!).existsSync()) bad.add('${s.id}: missing backdrop ${a.bg}');
+      final cv = c.coverOf(s.id);
+      if (a.img == null) {
+        if (cv.image != null) bad.add('${s.id}: neutral card expected, got ${cv.image}');
+        continue;
+      }
+      if (!File(a.img!).existsSync()) bad.add('${s.id}: missing painting ${a.img}');
+      final painted = {for (final h in c.place(a.place!)!.hotspots) h.characterId};
+      final wrong = painted.intersection(main).difference(speakers);
+      if (wrong.isNotEmpty) bad.add('${s.id}: painting ${a.place} shows $wrong who are not in the scene');
+      if (nursery.contains(base.id)) bad.add('${s.id}: nursery scene on a painting of ${a.place}');
+      if (cv.image != a.img) bad.add('${s.id}: cover ${cv.image} != art ${a.img}');
     }
     expect(bad, isEmpty, reason: bad.take(20).join('\n'));
     expect(lessonIds.every(c.scenes.containsKey), isTrue);
+    expect(c.artOf('nur_6_4')!.img, isNull, reason: 'the bite-marks talk is in the nursery: no St Mary\'s gate');
   });
 
   test('placement test: every level has listening items with audio + a choice item; answers are among choices', () {
@@ -180,6 +198,29 @@ void main() {
     final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
     final missing = [for (final l in spoken(c)) if (!idx.contains(md5.convert(utf8.encode('${l[0]}|${l[1]}')).toString().substring(0, 16))) l];
     expect(missing, isEmpty, reason: missing.take(10).join('\n'));
+  });
+
+  test('audio sync: every spoken line is ONE clip in ONE voice, its speaker\'s current voice', () {
+    // Voices as configured in tool/render_voices.py; the manifest records which voice rendered each clip.
+    final cfg = File('tool/render_voices.py').readAsStringSync();
+    final v = {for (final m in RegExp(r"'([a-z]+)':\('(en-[A-Za-z-]+)','([+-]\d+Hz)','([+-]\d+%)'\)").allMatches(cfg)) m[1]!: '${m[2]}|${m[3]}|${m[4]}'};
+    final man = (jsonDecode(File('tool/audit/voice_manifest.json').readAsStringSync()) as Map<String, dynamic>);
+    final have = (jsonDecode(File('assets/audio/index.json').readAsStringSync()) as List).cast<String>().toSet();
+    String k(String a, String b) => md5.convert(utf8.encode('$a|$b')).toString().substring(0, 16);
+    final bad = <String>[];
+    var n = 0;
+    for (final l in spoken(c)) {
+      final key = k(l[0], l[1]);
+      if (!have.contains(key)) continue; // missing clips: 'every spoken line has a natural-voice mp3'
+      n++;
+      if (!v.containsKey(l[0])) bad.add('${l[0]} has no voice of its own: "${l[1]}"');
+      final m = man[key] as List?;
+      if (m == null || m[0] != l[0] || m[1] != v[l[0]]) bad.add('${l[0]} "${l[1]}" was rendered as $m, now ${v[l[0]]}');
+    }
+    // Every manifest entry belongs to exactly one speaker+voice, and every clip on disk has one.
+    expect(have.difference(man.keys.toSet()).take(5), isEmpty, reason: 'clips without a recorded voice');
+    expect(n, greaterThan(30000));
+    expect(bad, isEmpty, reason: '${bad.length} drifted:\n${bad.take(15).join('\n')}');
   });
 
   test('every conversation: all nodes reachable, always reaches an end, suggested replies pick their branch', () {

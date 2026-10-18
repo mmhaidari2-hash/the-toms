@@ -222,7 +222,8 @@ void main() {
       final ctrl = ProviderScope.containerOf(t.element(find.byKey(const ValueKey('grammar-celebrate')))).read(progressProvider.notifier);
       expect(ctrl.grammarScore('a1_be'), 100, reason: 'practice mistakes do not count; the mini test does');
       expect(ctrl.xpToday, greaterThanOrEqualTo(15));
-      await t.tap(find.text('Continue').first);
+      expect(find.text('Next topic  →'), findsOneWidget);
+      await t.tap(find.byKey(const ValueKey('celebrate-next')));
       await settle();
       expect(find.byKey(const ValueKey('topic-screen-a1_have')), findsOneWidget, reason: 'goes on to the next topic');
       router.go('/school/A1');

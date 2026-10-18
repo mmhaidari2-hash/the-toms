@@ -211,7 +211,8 @@ class _ChatState extends ConsumerState<_Chat> {
       _panel = _Panel.none;
       _msgs.add(_Msg(speaker, _t(text)));
     });
-    Voice.say(speaker, text, rate: _autoRate, shown: _t(text));
+    // Wait for the whole clip so the next line never cuts this one off mid-sentence.
+    await Voice.say(speaker, text, rate: _autoRate, shown: _t(text));
   }
 
   Future<void> _say(DialogueNode n0, {bool first = false}) async {
@@ -609,10 +610,7 @@ class _ChatState extends ConsumerState<_Chat> {
           bottom: h * .30,
           child: cover != null
               ? _paintingLayer(cover, host, sp)
-              : Container(
-                  decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [ch.color.withValues(alpha: .55), const Color(0xFF1B140F)])),
-                  child: Align(alignment: const Alignment(-.85, -.55), child: Avatar(sp, size: 44)),
-                ),
+              : LocationCard(art: widget.c.artOf(widget.s.id), color: ch.color),
         ),
         Positioned(
           top: 0,

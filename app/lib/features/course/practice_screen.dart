@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../shared/nav.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
@@ -155,7 +156,8 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   void _next() {
     if (_i + 1 >= _items!.length) {
       final pct = (_right * 100 / _items!.length).round();
-      final award = ref.read(progressProvider.notifier).savePractice(widget.id, pct);
+      final c = ref.read(contentProvider).value!;
+      final award = ref.read(progressProvider.notifier).savePractice(widget.id, pct, storyScenes: c.course.lesson(widget.id)?.sceneIds ?? const []);
       setState(() {
         _award = award;
         _i++;
@@ -413,7 +415,15 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   Widget _done(bool checkpoint) {
     final pct = (_right * 100 / _items!.length).round();
     final pass = pct >= (checkpoint ? 70 : 60);
+    final c = ref.read(contentProvider).value!;
+    final ctrl = ref.read(progressProvider.notifier);
+    final next = ProgressController.nextAfter(c.course, widget.id);
+    final canNext = pass && next != null && ctrl.lessonOpen(c.course, next);
     return Celebration(
+      key: const ValueKey('practice-celebrate'),
+      onNext: canNext ? () => context.go('/lesson/${next.id}') : null,
+      nextLabel: 'Next lesson',
+      titleFa: pass && !canNext && next != null ? 'آفرین! درس بعدی هنوز قفل است.' : null,
       award: _award ?? const XpAward(),
       pass: pass,
       checkpoint: checkpoint,

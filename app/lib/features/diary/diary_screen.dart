@@ -199,7 +199,7 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
     setState(() => _playing = true);
     for (var i = 0; i < e.lines.length && _playing && mounted; i++) {
       setState(() => _current = i);
-      await Voice.say(e.lines[i][0], e.lines[i][1], rate: Voice.rates[_speed]);
+      if (!await Voice.say(e.lines[i][0], e.lines[i][1], rate: Voice.rates[_speed])) break;
       await Future.delayed(const Duration(milliseconds: 350));
     }
     if (mounted) setState(() => _playing = false);

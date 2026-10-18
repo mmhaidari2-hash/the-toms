@@ -134,7 +134,11 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
   Future<void> _say(int i) async {
     final l = s.lines[i];
     final sw = Stopwatch()..start();
-    await Voice.say(l.sp, l.en);
+    if (!await Voice.say(l.sp, l.en)) {
+      _token++; // cut short by another clip: stop the scene rather than talk over it
+      if (mounted) setState(() => playing = false);
+      return;
+    }
     final left = l.ms - sw.elapsedMilliseconds;
     if (sw.elapsedMilliseconds < 300 && left > 0) await Future.delayed(Duration(milliseconds: left));
   }

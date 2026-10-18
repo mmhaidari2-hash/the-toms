@@ -115,7 +115,14 @@ if os.path.exists(sea):
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)
-todo=[(k,v) for k,v in items.items() if not os.path.exists(f'{OUT}/{k}.mp3')]
+# One line = one clip in its speaker's own voice. No silent narrator fallback for a speaker without a voice,
+# and a clip whose recorded voice (tool/audit/voice_manifest.json) differs from the speaker's current one is re-rendered.
+nov=sorted({sp for sp,_ in items.values() if sp not in V})
+if nov: sys.exit(f'NO VOICE for speakers {nov}: add them to V')
+def sig(sp): return '|'.join(V[sp])
+MANP=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_manifest.json')
+MAN=json.load(open(MANP)) if os.path.exists(MANP) else {}
+todo=[(k,v) for k,v in items.items() if not os.path.exists(f'{OUT}/{k}.mp3') or (k in MAN and MAN[k]!=[v[0],sig(v[0])])]
 print(len(items),'lines,',len(todo),'to render')
 async def one(k,sp,t,sem):
   v,p,r=V.get(sp,V['narrator'])
@@ -135,3 +142,5 @@ with ThreadPoolExecutor(8) as ex: print(sum(ex.map(compress_audio.one,[f'{k}.mp3
 for f in os.listdir(OUT):
   if f.endswith('.mp3') and f!='silence.mp3' and f[:-4] not in items: os.remove(f'{OUT}/{f}')
 json.dump(sorted(k for k in items if os.path.exists(f'{OUT}/{k}.mp3')),open(f'{OUT}/index.json','w'))
+os.makedirs(os.path.dirname(MANP),exist_ok=True)
+json.dump({k:[sp,sig(sp)] for k,(sp,_) in sorted(items.items()) if os.path.exists(f'{OUT}/{k}.mp3')},open(MANP,'w'),separators=(',',':'))

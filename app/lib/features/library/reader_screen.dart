@@ -134,7 +134,10 @@ class _ReaderState extends ConsumerState<_Reader> {
       if (ctx != null && ctx.mounted) Scrollable.ensureVisible(ctx, alignment: .3, duration: const Duration(milliseconds: 350));
       final s = c.sentences[i];
       final t0 = DateTime.now();
-      await Voice.say(s.voice, s.en, rate: rate);
+      if (!await Voice.say(s.voice, s.en, rate: rate)) {
+        if (run == _run && mounted) setState(() => playing = false);
+        return;
+      }
       // No clip (or audio blocked): give a reading pause so highlighting still flows.
       final min = Duration(milliseconds: (s.en.split(' ').length * 330 / rate).round());
       final left = min - DateTime.now().difference(t0);
@@ -273,13 +276,9 @@ class _ReaderState extends ConsumerState<_Reader> {
           title: pass ? (finished ? 'Book finished!' : 'Chapter complete!') : 'Good effort!',
           titleFa: pass ? (finished ? 'کتاب تمام شد! نشان «تمامش کردم» برای توست.' : 'آفرین! فصل بعد آماده است.') : 'فصل را دوباره بخوان و دوباره امتحان کن.',
           onRetry: pass ? null : () => setState(() => mode = _Mode.read),
-          onContinue: () {
-            if (pass && !last) {
-              context.pushReplacement('/read/${b.id}?ch=${ch + 1}');
-            } else {
-              goBack(context, '/library');
-            }
-          },
+          onNext: pass && !last ? () => context.pushReplacement('/read/${b.id}?ch=${ch + 1}') : null,
+          nextLabel: 'Next chapter',
+          onContinue: () => goBack(context, '/library'),
         ),
       );
     }

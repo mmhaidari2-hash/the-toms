@@ -112,7 +112,12 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
   Future<void> _say(int i) async {
     final l = s.lines[i], rate = slow ? .86 : 1.0;
     final sw = Stopwatch()..start();
-    await Voice.say(l.sp, l.en, rate: rate);
+    if (!await Voice.say(l.sp, l.en, rate: rate)) {
+      _token++; // cut short by another clip: stop rather than talk over it
+      if (mounted) setState(() => playing = false);
+      _eq.stop();
+      return;
+    }
     final left = (l.ms / rate).round() - sw.elapsedMilliseconds;
     if (sw.elapsedMilliseconds < 300 && left > 0) await Future.delayed(Duration(milliseconds: left));
   }

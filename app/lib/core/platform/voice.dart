@@ -36,11 +36,22 @@ class Voice {
 
   static bool has(String speaker, String text) => _find(speaker, text) != null;
 
-  static void stop() => SpeechInput.stopClip();
+  /// Bumped whenever a clip starts or playback is stopped: one clip plays at a time, always to its end
+  /// unless something else replaces it.
+  static int _gen = 0;
 
-  static Future<void> say(String speaker, String text, {double rate = 1, String? shown}) async {
+  static void stop() {
+    _gen++;
+    SpeechInput.stopClip();
+  }
+
+  /// Plays one whole line as one clip in its speaker's voice. Returns false when the clip was cut short by
+  /// another clip or [stop] — "play all" loops must then stop instead of talking over the newer clip.
+  static Future<bool> say(String speaker, String text, {double rate = 1, String? shown}) async {
     final k = _find(speaker, text) ?? (shown == null ? null : _find(speaker, shown));
-    if (k == null) return;
+    if (k == null) return true;
+    final g = ++_gen;
     await SpeechInput.playClip('assets/audio/$k.mp3', rate);
+    return g == _gen;
   }
 }

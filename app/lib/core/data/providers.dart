@@ -141,10 +141,13 @@ class ProgressController extends Notifier<UserProgress> {
   // ---- Course (Level 1…): practice scores live in missionsDone under 'course:<id>' (no schema change).
   int? practiceScore(String id) => int.tryParse(state.missionsDone['course:$id'] ?? '');
   /// Saves the best score and awards XP for every finished practice (replays count too).
-  XpAward savePractice(String id, int pct) {
+  /// [storyScenes]: a passed lesson practice also counts its story as done, so passing always unlocks the
+  /// next lesson straight away (saved before the app moves on).
+  XpAward savePractice(String id, int pct, {Iterable<String> storyScenes = const []}) {
     final old = practiceScore(id) ?? -1;
-    if (pct > old) {
-      state = state.copyWith(missionsDone: {...state.missionsDone, 'course:$id': '$pct'});
+    final addScenes = pct >= 60 ? storyScenes.where((s) => !state.completedScenes.contains(s)).toList() : const <String>[];
+    if (pct > old || addScenes.isNotEmpty) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, if (pct > old) 'course:$id': '$pct'}, completedScenes: {...state.completedScenes, ...addScenes});
       _save();
     }
     return awardXp(Motivation.practiceXp(pct));
@@ -457,6 +460,22 @@ class ProgressController extends Notifier<UserProgress> {
   /// The learner's next lesson: the first unfinished one at or above their starting level.
   Lesson? nextLesson(Course c) =>
       c.lessons.where((l) => c.unitOf(l.id)!.level >= startLevel && !lessonDone(l)).firstOrNull ?? c.lessons.where((l) => !lessonDone(l)).firstOrNull;
+  /// The lesson that follows [id] (a lesson or a unit test) in course order, across unit boundaries.
+  /// Career Pack lessons continue inside their own pack. Null at the very end.
+  static Lesson? nextAfter(Course c, String id) {
+    final unit = c.unit(id);
+    if (unit != null) {
+      final pk = c.packOf(unit);
+      final us = pk?.units ?? c.units;
+      final i = us.indexOf(unit);
+      return us.skip(i + 1).expand((u) => u.lessons).firstOrNull;
+    }
+    final u = c.unitOf(id);
+    if (u == null) return null;
+    final seq = (c.packOf(u)?.lessons ?? c.lessons).toList();
+    final i = seq.indexWhere((l) => l.id == id);
+    return i >= 0 && i + 1 < seq.length ? seq[i + 1] : null;
+  }
   bool lessonOpen(Course c, Lesson l) {
     final u = c.unitOf(l.id)!;
     final ui = c.units.indexOf(u), li = u.lessons.indexOf(l);

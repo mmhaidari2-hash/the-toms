@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import '../../core/data/repository.dart' show SceneArt;
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../app/theme.dart';
@@ -189,4 +190,40 @@ class LevelChip extends StatelessWidget {
       style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, letterSpacing: .5, color: dark ? Colors.white : BL.navy),
     ),
   );
+}
+
+/// Neutral, people-free backdrop for a conversation with no matching painting yet: the setting's painting
+/// blurred beyond recognition (or a plain colour) under its painted map icon and name. Never a wrong person.
+class LocationCard extends StatelessWidget {
+  final SceneArt? art;
+  final Color color;
+  const LocationCard({super.key, required this.art, required this.color});
+  @override
+  Widget build(BuildContext context) {
+    final a = art;
+    return Stack(key: const ValueKey('location-card'), fit: StackFit.expand, children: [
+      if (a?.bg != null)
+        Image.asset(a!.bg!, fit: BoxFit.cover)
+      else
+        DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [color.withValues(alpha: .55), const Color(0xFF1B140F)]))),
+      const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x33000000), Color(0x88000000)]))),
+      if (a != null)
+        Align(
+          alignment: const Alignment(0, -.1),
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(color: const Color(0xFFFBF7F0).withValues(alpha: .92), shape: BoxShape.circle, boxShadow: const [BoxShadow(color: Colors.black38, blurRadius: 18)]),
+              child: Image.asset(a.spot, width: 92, height: 92),
+            ),
+            const SizedBox(height: 12),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Text(a.label, key: const ValueKey('location-label'), textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 8)])),
+            ),
+            if (a.labelFa.isNotEmpty) Text(a.labelFa, textDirection: TextDirection.rtl, style: const TextStyle(color: Colors.white70, fontSize: 14)),
+          ]),
+        ),
+    ]);
+  }
 }

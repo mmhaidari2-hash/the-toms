@@ -24,6 +24,16 @@ class RoleDef {
 }
 
 
+/// The picture a conversation opens on (tool/match_scene_art.py -> assets/data/scene_art.json): a painting that
+/// shows the scene's setting and no main character who isn't in it, or else a neutral, people-free location card.
+class SceneArt {
+  final String? img, place, bg;
+  final String spot, label, labelFa;
+  const SceneArt({this.img, this.place, this.bg, required this.spot, required this.label, this.labelFa = ''});
+  factory SceneArt.fromJson(Map<String, dynamic> j) =>
+      SceneArt(img: j['img'], place: j['place'], bg: j['bg'], spot: j['spot'], label: j['label'] ?? '', labelFa: j['labelFa'] ?? '');
+}
+
 class ContentBundle {
   final List<Character> characters;
   final Map<String, Scene> scenes;
@@ -33,7 +43,15 @@ class ContentBundle {
   final List<RoleDef> roles;
   final Course course;
   final Timeline timeline;
-  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([]), this.timeline = const Timeline([])]);
+  final Map<String, SceneArt> art;
+  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([]), this.timeline = const Timeline([]), this.art = const {}]);
+  /// Art for a scene (role-switch variants use their base scene's).
+  /// Picture for a lesson card or unit banner: its first scene's painting, else that setting's people-free blur.
+  String? lessonPicture(Lesson l) {
+    final a = l.sceneIds.isEmpty ? null : artOf(l.sceneIds.first);
+    return a == null ? place(l.place)?.image : (a.img ?? a.bg);
+  }
+  SceneArt? artOf(String sceneId) => art[scenes[sceneId]?.baseId ?? sceneId.split('__').first];
   /// Role-switch variants of a scene: role id -> variant scene.
   Map<String, Scene> variantsOf(String sceneId) => {for (final s in scenes.values) if (s.baseId == sceneId && s.playAs != null) s.playAs!: s};
   Character? characterOrNull(String id) => characters.where((c) => c.id == id).firstOrNull;
@@ -55,6 +73,8 @@ class ContentBundle {
   }
   /// The painting a story opens on. `generic` is true only when nothing specific matched (last-resort painting).
   ({String? image, Place? host, bool generic}) coverOf(String sceneId) {
+    final a = artOf(sceneId);
+    if (a != null) return (image: a.img, host: a.place == null ? null : place(a.place!), generic: a.img == null);
     final baseId = scenes[sceneId]?.baseId ?? sceneId.split('__').first;
     final direct = hostOf(sceneId);
     if (direct?.image != null) return (image: direct!.image, host: direct, generic: false);
@@ -102,6 +122,10 @@ class ContentRepository {
     try {
       timeline = Timeline.fromJson(await _json('assets/data/timeline.json'));
     } catch (_) {}
-    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course, timeline);
+    var art = const <String, SceneArt>{};
+    try {
+      art = {for (final e in (await _json('assets/data/scene_art.json') as Map<String, dynamic>).entries) e.key: SceneArt.fromJson(e.value)};
+    } catch (_) {}
+    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course, timeline, art);
   }
 }

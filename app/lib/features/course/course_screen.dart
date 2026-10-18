@@ -149,7 +149,7 @@ class _UnitBanner extends StatelessWidget {
   const _UnitBanner({required this.c, required this.u, required this.index, required this.open});
   @override
   Widget build(BuildContext context) {
-    final img = c.place(u.place)?.image;
+    final img = u.lessons.isEmpty ? c.place(u.place)?.image : c.lessonPicture(u.lessons.first);
     return Container(
       height: 150,
       clipBehavior: Clip.antiAlias,
