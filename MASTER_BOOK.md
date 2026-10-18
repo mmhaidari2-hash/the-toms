@@ -395,3 +395,13 @@ Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.
 - **Real video drop-in:** add `video: assets/video/<id>.mp4` under a lesson header in `lessons.txt`, list `assets/video/` in pubspec and rebuild. `DLesson.videoAsset` then plays (LoopVideo, muted) instead of the drawn stage; voices, subtitles and cues stay line-by-line. The test checks the file exists.
 
 **(b) Theory test prep** — `tool/theory/theory.txt` (70 **original** questions, 14 per chapter: attitude, speed, signs, roads, law) → `tool/make_theory.py` → `assets/data/theory.json`. Always open, with the B1+ note and a "Not affiliated with or endorsed by DVSA / not the official test" note. Chapter explanations (voiced by the instructor) + flashcards + 10-question chapter quizzes with explanations and mistakes review; timed mock = 50 questions / 57 minutes / pass 43 (other quizzes use the same ratio, 9 of 10). Hazard perception is described in text only (14 clips, one with two hazards, up to 5 points each, clicking constantly or in a pattern scores 0, pass 44/75, up to a 3-minute break, both parts at one sitting). Facts checked on GOV.UK "Theory test: cars" pages and "Apply for your first provisional driving licence" / "Getting an MOT" on 2026-10-18.
+
+### Conversation screen as a chat transcript (2026-10-18)
+
+The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a WhatsApp-style transcript instead of one line at a time:
+- **Compact header banner** (~128 px): the scene painting (still tappable, people chips top-right) or the compact people-free location card, with title, "playing as", transcript button, and the current speaker + mood + hearts.
+- **Stacked bubbles**, newest at the bottom (reversed list, so the latest line is always in view): other characters on the left with a round face and their name; the learner's lines on the right in green with their role name. Earlier lines stay visible.
+- **Tools** (slow/medium/normal, X-Ray, Persian, culture, shadow) sit under the latest bubble; tap any older bubble to open them there (they replay that bubble's own clip: one clip per bubble).
+- **Feedback** ("Vida warmed to that", recasts, ghost hints, "You remembered!") appears inline in the chat after the reply it is about; × removes it.
+- Hints, pronunciation card, speak mode and the mic stay in the fixed bottom bar. Typing dots show as a bubble.
+- Driving School polish: garage/MOT scenes use the car-repair icon; the driving subtitles sit in a strip under the picture so they never cover the dashboard lights.
