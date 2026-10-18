@@ -66,7 +66,7 @@ class Grammar {
     GClass('A2', 'Elementary', 'مقدماتی', 'past simple, present continuous, comparatives'),
     GClass('B1', 'Intermediate', 'متوسط', 'present perfect, future forms, first conditional, modals'),
     GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'second & third conditionals, passive, reported speech, used to'),
-    GClass('C1', 'Advanced', 'پیشرفته', 'mixed conditionals, inversion, advanced British usage'),
+    GClass('C1', 'Advanced', 'پیشرفته', 'inversion, mixed conditionals, wish, cleft sentences, causative'),
   ];
   static const pass = 60;
   static int courseLevel(String code) => classes.indexWhere((c) => c.code == code) + 1;

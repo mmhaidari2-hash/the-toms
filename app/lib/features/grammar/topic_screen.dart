@@ -26,7 +26,75 @@ class TopicScreen extends ConsumerWidget {
     if (topics == null || content == null) return const NavLoading();
     final t = topics.where((x) => x.id == id).firstOrNull;
     if (t == null) return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/school'), child: const Text('Topic not found — back to school'))));
+    ref.watch(progressProvider);
+    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    // Strict lock: a deep link to a locked topic never shows the lesson.
+    if (!g.topicOpen(t)) return TopicLocked(topic: t, gate: g);
     return _Topic(key: ValueKey('topic-screen-${t.id}'), topic: t, all: topics, content: content);
+  }
+}
+
+/// Shown instead of a topic that isn't open yet: why it's locked and the way to open it.
+class TopicLocked extends StatelessWidget {
+  final GTopic topic;
+  final GrammarGate gate;
+  const TopicLocked({super.key, required this.topic, required this.gate});
+  @override
+  Widget build(BuildContext context) {
+    final classOpen = gate.classOpen(topic.level);
+    final l = gate.of(topic.level), i = l.indexOf(topic);
+    final ci = Grammar.classes.indexWhere((c) => c.code == topic.level);
+    final prevClass = ci > 0 ? Grammar.classes[ci - 1].code : 'A1';
+    final GTopic? next = classOpen ? l.where((x) => gate.topicOpen(x) && !gate.ctrl.grammarPassed(x.id)).firstOrNull : null;
+    final (en, fa) = classOpen
+        ? ('Pass "${l[i - 1].title}" first. Topics open one by one.', 'اول درس قبلی را با موفقیت تمام کنید؛ درس‌ها به ترتیب باز می‌شوند.')
+        : ('Class ${topic.level} opens when you pass Class $prevClass, or reach Level ${Grammar.courseLevel(topic.level)} in the course.', 'کلاس ${topic.level} وقتی باز می‌شود که کلاس $prevClass را تمام کنید یا در دوره به سطح ${Grammar.courseLevel(topic.level)} برسید.');
+    return Scaffold(
+      key: const ValueKey('topic-locked'),
+      backgroundColor: BL.cream,
+      body: SafeArea(
+        child: Column(children: [
+          const Align(alignment: Alignment.centerLeft, child: Padding(padding: EdgeInsets.all(12), child: NavBack(fallback: '/school'))),
+          Expanded(
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 28),
+                child: Column(mainAxisSize: MainAxisSize.min, children: [
+                  const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
+                  const SizedBox(height: 14),
+                  Text(topic.title, textAlign: TextAlign.center, style: BL.display(24)),
+                  Text(topic.titleFa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
+                  const SizedBox(height: 16),
+                  Text('This topic is locked', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, color: BL.ink)),
+                  Text('این درس هنوز قفل است', textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
+                  const SizedBox(height: 10),
+                  Text(en, key: const ValueKey('topic-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
+                  const SizedBox(height: 4),
+                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
+                  const SizedBox(height: 22),
+                  if (next != null)
+                    SizedBox(
+                      width: double.infinity,
+                      child: FilledButton.icon(
+                        key: const ValueKey('topic-locked-next'),
+                        style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14)),
+                        onPressed: () => context.go('/grammar/${next.id}'),
+                        icon: const Icon(Icons.play_arrow_rounded),
+                        label: Text('Go to "${next.title}"', overflow: TextOverflow.ellipsis),
+                      ),
+                    ),
+                  TextButton(
+                    key: const ValueKey('topic-locked-school'),
+                    onPressed: () => context.go(classOpen ? '/school/${topic.level}' : '/school'),
+                    child: Text(classOpen ? 'Back to Class ${topic.level}' : 'Back to the Grammar School'),
+                  ),
+                ]),
+              ),
+            ),
+          ),
+        ]),
+      ),
+    );
   }
 }
 

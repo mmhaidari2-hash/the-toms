@@ -24,11 +24,12 @@ void main() {
   final course = (jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map)['units'] as List;
   final lessonIds = {for (final u in course) for (final l in u['lessons'] as List) l['id'] as String};
 
-  test('Classes A1, A2, B1 and B2 are complete and well formed', () {
+  test('Classes A1 to C1 are complete and well formed', () {
     expect(topics.where((t) => t.level == 'A1').length, greaterThanOrEqualTo(6));
     expect(topics.where((t) => t.level == 'A2').length, greaterThanOrEqualTo(5));
     expect(topics.where((t) => t.level == 'B1').length, greaterThanOrEqualTo(5));
     expect(topics.where((t) => t.level == 'B2').length, greaterThanOrEqualTo(5));
+    expect(topics.where((t) => t.level == 'C1').length, greaterThanOrEqualTo(5));
     expect(topics.map((t) => t.id).toSet().length, topics.length, reason: 'unique ids');
     for (final t in topics) {
       for (final id in t.related) {
@@ -94,7 +95,7 @@ void main() {
     expect(gate().classOpen('A1'), isTrue);
     expect(gate().classOpen('A2'), isFalse);
     expect(gate().classOpen('B1'), isFalse);
-    expect(gate().classOpen('C1'), isFalse, reason: 'coming soon');
+    expect(gate().classOpen('C1'), isFalse);
     expect(gate().topicOpen(a1[0]), isTrue);
     expect(gate().topicOpen(a1[1]), isFalse);
     expect(ctrl.saveGrammar(a1[0].id, 40).xp, 3);
@@ -119,7 +120,13 @@ void main() {
       ctrl.saveGrammar(t.id, 90);
     }
     expect(gate().classOpen('B2'), isTrue);
-    expect(gate().of('C1'), isEmpty, reason: 'C1 is next run');
+    expect(gate().classOpen('C1'), isFalse);
+    for (final t in gate().of('B2')) {
+      ctrl.saveGrammar(t.id, 70);
+    }
+    expect(gate().classOpen('C1'), isTrue);
+    expect(gate().topicOpen(gate().of('C1').first), isTrue);
+    expect(gate().topicOpen(gate().of('C1')[1]), isFalse);
   });
 
   group('screens at 375x667', () {
@@ -223,5 +230,6 @@ void main() {
       expect(find.byKey(const ValueKey('topic-a1_have')), findsOneWidget);
       await t.pump(const Duration(seconds: 3));
     });
+
   });
 }
