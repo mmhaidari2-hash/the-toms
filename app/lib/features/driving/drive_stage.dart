@@ -166,7 +166,7 @@ class RoadPainter extends CustomPainter {
     }
     c.restore();
     // Dashboard and wheel (still: the camera is in the car).
-    final dashTop = h * .78;
+    final dashTop = h * .70;
     c.drawPath(
       Path()
         ..moveTo(0, dashTop + h * .04)
@@ -176,15 +176,15 @@ class RoadPainter extends CustomPainter {
         ..close(),
       Paint()..color = const Color(0xFF1E1E22),
     );
-    final wheel = Offset(w * .3, h * 1.08);
-    c.drawCircle(wheel, h * .3, Paint()
+    final wheel = Offset(w * .3, h * 1.02);
+    c.drawCircle(wheel, h * .26, Paint()
       ..color = const Color(0xFF2C2C31)
       ..style = PaintingStyle.stroke
       ..strokeWidth = h * .05);
     // Instrument glow, indicator arrows and the brake cue.
     final ind = Paint()..color = blinkOn ? const Color(0xFF39D353) : const Color(0xFF2F3A2F);
     for (final dir in [-1, 1]) {
-      final cx = w * .3 + dir * w * .06, cy = dashTop + h * .06;
+      final cx = w * .3 + dir * w * .07, cy = dashTop + h * .035;
       c.drawPath(Path()
         ..moveTo(cx + dir * 9, cy)
         ..lineTo(cx - dir * 3, cy - 7)
@@ -193,7 +193,7 @@ class RoadPainter extends CustomPainter {
     }
     if (brake > 0) c.drawRect(Rect.fromLTWH(0, 0, w, h), Paint()..color = const Color(0xFFB3261E).withValues(alpha: .12 * brake));
     final tp = TextPainter(text: TextSpan(text: speed > .05 ? '${(speed * 28).round()} mph' : 'P', style: const TextStyle(color: Color(0xFFF2C46D), fontSize: 11, fontWeight: FontWeight.w800)), textDirection: TextDirection.ltr)..layout();
-    tp.paint(c, Offset(w * .3 - tp.width / 2, dashTop + h * .085));
+    tp.paint(c, Offset(w * .3 - tp.width / 2, dashTop + h * .035 - tp.height / 2));
   }
 
   @override

@@ -134,7 +134,8 @@ class _Row extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(e.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                      Text(e.title, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                      Text(e.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
                       Text(
                         '${e.level} · ${e.inCar ? 'In the car' : 'Out and about'}',
                         style: const TextStyle(color: BL.muted, fontSize: 12.5),
@@ -142,7 +143,6 @@ class _Row extends StatelessWidget {
                     ],
                   ),
                 ),
-                Flexible(child: Text(e.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted))),
                 const SizedBox(width: 8),
                 if (done)
                   Icon(Icons.check_circle_rounded, key: ValueKey('drv-ev-done-${e.id}'), color: const Color(0xFF2E7D5B), size: 20)
@@ -159,7 +159,8 @@ class _Row extends StatelessWidget {
   );
 }
 
-/// One driving dialogue: the animated scene (or a real video when one exists) with sound cues and subtitles,\n/// the culture note, the lines (voiced), words, and a 3-question quiz.
+/// One driving dialogue: the animated scene (or a real video when one exists) with sound cues and subtitles,
+/// the culture note, the lines (voiced), words, and a 3-question quiz.
 class DrivingLessonScreen extends ConsumerStatefulWidget {
   final String id;
   static int? seed; // tests fix the option order
