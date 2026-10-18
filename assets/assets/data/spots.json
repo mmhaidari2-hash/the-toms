@@ -897,6 +897,22 @@
   ]
  },
  {
+  "id": "missions",
+  "title": "Real-life missions",
+  "titleFa": "مأموریت‌های زندگی واقعی",
+  "icon": "🎯",
+  "x": 0.675,
+  "y": 0.655,
+  "pack": null,
+  "lessons": [
+   "l1_u43_1",
+   "l2_u2_1",
+   "l2_u4_1",
+   "l2_u37_1",
+   "l2_u51_1"
+  ]
+ },
+ {
   "id": "gym",
   "title": "The gym",
   "titleFa": "باشگاه ورزشی",

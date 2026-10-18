@@ -1,0 +1,610 @@
+{
+"missions": [
+{
+"id": "m_a1_flatwhite",
+"level": "A1",
+"spot": "cafe",
+"title": "Order a flat white",
+"titleFa": "یک فلت‌وایت سفارش بده",
+"goal": "Order a drink at a café counter and say please and thank you.",
+"goalFa": "در پیشخوان یک کافه نوشیدنی سفارش بده و «لطفاً» و «ممنون» بگو.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hello! Can I have a flat white, please?",
+"fa": "سلام! می‌شود یک فلت‌وایت بدهید، لطفاً؟",
+"ms": 4176
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Small, please.",
+"fa": "کوچک، لطفاً.",
+"ms": 2136
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "To have here, please.",
+"fa": "برای اینجا، لطفاً.",
+"ms": 2328
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Thank you very much!",
+"fa": "خیلی ممنون!",
+"ms": 2136
+}
+],
+"hear": [
+{
+"sp": "callum",
+"spn": "Barista",
+"en": "Eat in or take away?",
+"fa": "اینجا میل می‌کنید یا می‌برید؟",
+"ms": 2064
+},
+{
+"sp": "callum",
+"spn": "Barista",
+"en": "Anything else?",
+"fa": "چیز دیگری هم می‌خواهید؟",
+"ms": 1920
+}
+],
+"tip": {
+"en": "\"Take away\" means you leave with your drink. \"Eat in\" means you stay.",
+"fa": "«take away» یعنی نوشیدنی را با خودت می‌بری. «eat in» یعنی همان‌جا می‌مانی."
+},
+"safe": null
+},
+{
+"id": "m_a1_bus",
+"level": "A1",
+"spot": "bus",
+"title": "Thank the bus driver",
+"titleFa": "از رانندهٔ اتوبوس تشکر کن",
+"goal": "Get on a bus, say hello, and say thank you when you get off.",
+"goalFa": "سوار اتوبوس شو، سلام کن، و موقع پیاده شدن تشکر کن.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hello!",
+"fa": "سلام!",
+"ms": 1920
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Does this bus go to the station?",
+"fa": "این اتوبوس به ایستگاه قطار می‌رود؟",
+"ms": 2616
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Thank you!",
+"fa": "ممنون!",
+"ms": 1920
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Cheers, have a good day!",
+"fa": "مرسی، روز خوبی داشته باشید!",
+"ms": 2664
+}
+],
+"hear": [
+{
+"sp": "dave",
+"spn": "Bus driver",
+"en": "Yes, mate. Hop on.",
+"fa": "بله، رفیق. سوار شو.",
+"ms": 3480
+},
+{
+"sp": "dave",
+"spn": "Bus driver",
+"en": "No, love. You need the 38.",
+"fa": "نه، عزیزم. باید سوار ۳۸ بشوی.",
+"ms": 4008
+}
+],
+"tip": {
+"en": "Lots of Londoners say \"thank you\" or \"cheers\" to the driver when they get off.",
+"fa": "خیلی از لندنی‌ها موقع پیاده شدن به راننده «ممنون» یا «مرسی» می‌گویند."
+},
+"safe": null
+},
+{
+"id": "m_a2_weather",
+"level": "A2",
+"spot": "park",
+"title": "Weather small talk",
+"titleFa": "گپ کوتاه دربارهٔ هوا",
+"goal": "Say one thing about the weather to someone you already know: a neighbour, a colleague or the person at your local shop.",
+"goalFa": "با کسی که از قبل می‌شناسی یک جمله دربارهٔ هوا بگو: همسایه، همکار یا فروشندهٔ مغازهٔ محله.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Lovely day, isn't it?",
+"fa": "روز قشنگی است، نه؟",
+"ms": 2400
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "It's freezing this morning!",
+"fa": "امروز صبح خیلی سرد است!",
+"ms": 2376
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Looks like rain later.",
+"fa": "به نظر می‌رسد بعداً باران بیاید.",
+"ms": 2256
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Make the most of it!",
+"fa": "تا هست ازش لذت ببر!",
+"ms": 2040
+}
+],
+"hear": [
+{
+"sp": "doris",
+"spn": "Neighbour",
+"en": "I know! It's meant to rain tomorrow, though.",
+"fa": "آره! ولی می‌گویند فردا باران می‌آید.",
+"ms": 5184
+},
+{
+"sp": "doris",
+"spn": "Neighbour",
+"en": "Ooh, I'll need my big coat.",
+"fa": "اوه، باید کت کلفتم را بپوشم.",
+"ms": 3504
+}
+],
+"tip": {
+"en": "Weather talk is a friendly hello, not a real question. Keep it short and smile.",
+"fa": "حرف زدن دربارهٔ هوا یک سلام دوستانه است، نه یک سؤال واقعی. کوتاه بگو و لبخند بزن."
+},
+"safe": null
+},
+{
+"id": "m_a2_directions",
+"level": "A2",
+"spot": "station",
+"title": "Ask for directions",
+"titleFa": "آدرس بپرس",
+"goal": "Ask a member of staff at a station, shop or library how to get somewhere nearby.",
+"goalFa": "از یک کارمند در ایستگاه، مغازه یا کتابخانه بپرس چطور به جایی در همان نزدیکی بروی.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Excuse me, could you help me?",
+"fa": "ببخشید، می‌توانید کمکم کنید؟",
+"ms": 2736
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "How do I get to the post office?",
+"fa": "چطور به ادارهٔ پست بروم؟",
+"ms": 2712
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Is it far from here?",
+"fa": "از اینجا دور است؟",
+"ms": 2208
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Sorry, could you say that again?",
+"fa": "ببخشید، می‌شود دوباره بگویید؟",
+"ms": 2808
+}
+],
+"hear": [
+{
+"sp": "maya",
+"spn": "Staff",
+"en": "Go out of the station and turn left.",
+"fa": "از ایستگاه بیرون بروید و بپیچید سمت چپ.",
+"ms": 2712
+},
+{
+"sp": "maya",
+"spn": "Staff",
+"en": "It's about five minutes' walk.",
+"fa": "حدود پنج دقیقه پیاده‌روی است.",
+"ms": 2208
+}
+],
+"tip": {
+"en": "\"Sorry?\" with a rising voice is the polite way to ask someone to repeat.",
+"fa": "گفتن «Sorry?» با لحن پرسشی، روش مؤدبانهٔ خواستن تکرار است."
+},
+"safe": {
+"en": "Ask staff at a counter or an information desk. Never go anywhere with someone you don't know.",
+"fa": "از کارمند پشت پیشخوان یا میز اطلاعات بپرس. هیچ‌وقت با کسی که نمی‌شناسی جایی نرو."
+}
+},
+{
+"id": "m_b1_pharmacy",
+"level": "B1",
+"spot": "pharmacy",
+"title": "Ask the pharmacist",
+"titleFa": "از داروساز بپرس",
+"goal": "Ask a pharmacist to recommend something for a cold, a cough or hay fever.",
+"goalFa": "از داروساز بخواه برای سرماخوردگی، سرفه یا حساسیت فصلی چیزی پیشنهاد بدهد.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hi, I was wondering if you could recommend something for a cough.",
+"fa": "سلام، می‌خواستم ببینم می‌توانید چیزی برای سرفه پیشنهاد کنید.",
+"ms": 4272
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "It's a dry cough, and I've had it for about three days.",
+"fa": "سرفهٔ خشک است و حدود سه روز است دارمش.",
+"ms": 4008
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Is it all right to take it with other medicine?",
+"fa": "اشکالی ندارد با داروهای دیگر بخورمش؟",
+"ms": 2976
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "How often should I take it?",
+"fa": "هر چند وقت یک بار باید بخورمش؟",
+"ms": 2424
+}
+],
+"hear": [
+{
+"sp": "dawson",
+"spn": "Pharmacist",
+"en": "Are you taking anything else at the moment?",
+"fa": "الان داروی دیگری مصرف می‌کنید؟",
+"ms": 3000
+},
+{
+"sp": "dawson",
+"spn": "Pharmacist",
+"en": "Take two spoonfuls, up to four times a day.",
+"fa": "دو قاشق، حداکثر چهار بار در روز بخورید.",
+"ms": 3984
+}
+],
+"tip": {
+"en": "Pharmacists give free advice about minor illnesses, and you don't need an appointment.",
+"fa": "داروسازها برای بیماری‌های جزئی رایگان مشاوره می‌دهند و وقت قبلی لازم نیست."
+},
+"safe": {
+"en": "For anything serious, call NHS 111 or your GP. In an emergency, call 999.",
+"fa": "برای هر مشکل جدی با NHS 111 یا پزشک عمومی‌ات تماس بگیر. در مواقع اضطراری با ۹۹۹ تماس بگیر."
+}
+},
+{
+"id": "m_b1_library",
+"level": "B1",
+"spot": "library",
+"title": "Join the library",
+"titleFa": "عضو کتابخانه شو",
+"goal": "Ask how to join your local library and what you can borrow.",
+"goalFa": "بپرس چطور می‌توانی عضو کتابخانهٔ محله‌ات بشوی و چه چیزهایی می‌توانی امانت بگیری.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hi, I'd like to join the library. What do I need to bring?",
+"fa": "سلام، می‌خواهم عضو کتابخانه بشوم. چه چیزی باید بیاورم؟",
+"ms": 5064
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Is it free to join?",
+"fa": "عضویت رایگان است؟",
+"ms": 2112
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "How many books can I borrow at once?",
+"fa": "هر بار چند کتاب می‌توانم امانت بگیرم؟",
+"ms": 3024
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Do you run any English conversation groups?",
+"fa": "گروه مکالمهٔ انگلیسی هم دارید؟",
+"ms": 3216
+}
+],
+"hear": [
+{
+"sp": "bennett",
+"spn": "Librarian",
+"en": "You just need proof of address, like a bill or a bank letter.",
+"fa": "فقط مدرک آدرس لازم است، مثل یک قبض یا نامهٔ بانک.",
+"ms": 4752
+},
+{
+"sp": "bennett",
+"spn": "Librarian",
+"en": "You can borrow up to ten books for three weeks.",
+"fa": "می‌توانید تا ده کتاب را برای سه هفته امانت بگیرید.",
+"ms": 3864
+}
+],
+"tip": {
+"en": "Public libraries are free to join, and many run free conversation clubs.",
+"fa": "عضویت در کتابخانه‌های عمومی رایگان است و خیلی‌هایشان باشگاه مکالمهٔ رایگان دارند."
+},
+"safe": null
+},
+{
+"id": "m_b2_return",
+"level": "B2",
+"spot": "shoppingcentre",
+"title": "Return something faulty",
+"titleFa": "یک جنس معیوب را پس بده",
+"goal": "Take back something that doesn't work, explain the problem and ask for a refund or a replacement.",
+"goalFa": "چیزی را که کار نمی‌کند پس ببر، مشکل را توضیح بده و پول یا جنس جایگزین بخواه.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hi, I bought this last week, but unfortunately it's stopped working.",
+"fa": "سلام، این را هفتهٔ پیش خریدم، ولی متأسفانه از کار افتاده.",
+"ms": 4848
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "I've got the receipt here.",
+"fa": "رسیدش اینجاست.",
+"ms": 2328
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Would it be possible to get a refund, or else a replacement?",
+"fa": "امکانش هست پولم را پس بگیرم، یا یک جنس جایگزین؟",
+"ms": 4152
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "I'd rather have a refund, if that's all right.",
+"fa": "اگر اشکالی ندارد، ترجیح می‌دهم پولم را پس بگیرم.",
+"ms": 3600
+}
+],
+"hear": [
+{
+"sp": "jade",
+"spn": "Shop assistant",
+"en": "Have you got the receipt, or the card you paid with?",
+"fa": "رسید یا کارتی که با آن پرداخت کردید را دارید؟",
+"ms": 3504
+},
+{
+"sp": "jade",
+"spn": "Shop assistant",
+"en": "We can offer you an exchange or a credit note.",
+"fa": "می‌توانیم تعویض کنیم یا کارت اعتبار خرید بدهیم.",
+"ms": 3768
+}
+],
+"tip": {
+"en": "If something is faulty within 30 days, you usually have the right to a refund. Stay calm and polite.",
+"fa": "اگر جنسی ظرف ۳۰ روز معیوب شود، معمولاً حق داری پولت را پس بگیری. آرام و مؤدب بمان."
+},
+"safe": null
+},
+{
+"id": "m_b2_parcel",
+"level": "B2",
+"spot": "postoffice",
+"title": "Send a parcel",
+"titleFa": "یک بسته پست کن",
+"goal": "Post a parcel and ask about tracking and delivery times.",
+"goalFa": "یک بسته پست کن و دربارهٔ ردگیری و زمان تحویل بپرس.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hi, I'd like to send this parcel to Manchester, please.",
+"fa": "سلام، می‌خواهم این بسته را به منچستر بفرستم، لطفاً.",
+"ms": 4200
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "What's the cheapest way to send it, and how long will it take?",
+"fa": "ارزان‌ترین روش ارسال چیست و چقدر طول می‌کشد؟",
+"ms": 4056
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Does that include tracking?",
+"fa": "ردگیری هم دارد؟",
+"ms": 2304
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Could I have a receipt with the tracking number, please?",
+"fa": "می‌شود رسید را با شمارهٔ ردگیری بدهید، لطفاً؟",
+"ms": 3576
+}
+],
+"hear": [
+{
+"sp": "receptionist",
+"spn": "Post office clerk",
+"en": "Pop it on the scales for me.",
+"fa": "بگذاریدش روی ترازو.",
+"ms": 2088
+},
+{
+"sp": "receptionist",
+"spn": "Post office clerk",
+"en": "Second class should take two to three working days.",
+"fa": "پست درجه دو باید دو تا سه روز کاری طول بکشد.",
+"ms": 3360
+}
+],
+"tip": {
+"en": "First class is faster and second class is cheaper. Ask for \"signed for\" if it's valuable.",
+"fa": "درجه یک سریع‌تر است و درجه دو ارزان‌تر. اگر باارزش است، ارسال با امضای گیرنده (signed for) بخواه."
+},
+"safe": null
+},
+{
+"id": "m_c1_complaint",
+"level": "C1",
+"spot": "restaurant",
+"title": "Complain politely",
+"titleFa": "مؤدبانه شکایت کن",
+"goal": "Your order is wrong or cold. Raise it calmly and get it sorted, without making a scene.",
+"goalFa": "سفارشت اشتباه یا سرد است. آرام مطرحش کن و درستش کن، بدون اینکه شلوغش کنی.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Sorry to be a pain, but I think there's been a mix-up with my order.",
+"fa": "ببخشید که زحمت می‌دهم، ولی فکر کنم در سفارشم اشتباهی شده.",
+"ms": 4368
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "I asked for it without onions, but it's come with them.",
+"fa": "بدون پیاز خواسته بودم، ولی با پیاز آمده.",
+"ms": 3696
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "It's not a big deal, but would you mind changing it?",
+"fa": "مسئلهٔ بزرگی نیست، ولی ممکن است عوضش کنید؟",
+"ms": 3672
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "That's really kind of you. Thanks for sorting it out.",
+"fa": "خیلی لطف دارید. ممنون که درستش کردید.",
+"ms": 4584
+}
+],
+"hear": [
+{
+"sp": "sophie",
+"spn": "Waiter",
+"en": "Oh, I'm so sorry about that. I'll get it changed straight away.",
+"fa": "وای، واقعاً ببخشید. همین الان عوضش می‌کنم.",
+"ms": 5856
+},
+{
+"sp": "sophie",
+"spn": "Waiter",
+"en": "Can I get you a drink on the house while you wait?",
+"fa": "تا منتظرید، یک نوشیدنی مهمان ما باشید؟",
+"ms": 3288
+}
+],
+"tip": {
+"en": "A British complaint often starts with an apology: \"Sorry to be a pain…\". Soft words, firm request.",
+"fa": "شکایت به سبک بریتانیایی اغلب با عذرخواهی شروع می‌شود: «ببخشید که زحمت می‌دهم…». کلمات نرم، درخواست محکم."
+},
+"safe": null
+},
+{
+"id": "m_c1_local",
+"level": "C1",
+"spot": "library",
+"title": "Speak up about a local issue",
+"titleFa": "دربارهٔ یک مسئلهٔ محلی نظر بده",
+"goal": "At a residents' meeting, a library event or with a neighbour you know, give your view on a local issue and suggest a next step.",
+"goalFa": "در جلسهٔ ساکنان، یک برنامهٔ کتابخانه یا با همسایه‌ای که می‌شناسی، نظرت را دربارهٔ یک مسئلهٔ محلی بگو و قدم بعدی را پیشنهاد کن.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Can I just come in here? The bins on our road are often left overflowing.",
+"fa": "اجازه هست من هم چیزی بگویم؟ سطل‌های خیابان ما اغلب لبریز می‌مانند.",
+"ms": 5616
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "I take your point, but I'm not sure that would solve the problem.",
+"fa": "حرفتان را می‌فهمم، ولی مطمئن نیستم این مشکل را حل کند.",
+"ms": 4152
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "What if we wrote to the council together? It might carry more weight.",
+"fa": "اگر با هم به شهرداری نامه بنویسیم چطور؟ شاید اثر بیشتری داشته باشد.",
+"ms": 5040
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "I'm happy to draft something, if people are up for it.",
+"fa": "اگر بقیه موافق باشند، من حاضرم یک پیش‌نویس آماده کنم.",
+"ms": 3768
+}
+],
+"hear": [
+{
+"sp": "doris",
+"spn": "Neighbour",
+"en": "That's a good shout. I've been meaning to complain for ages.",
+"fa": "فکر خوبی است. خیلی وقت است می‌خواهم شکایت کنم.",
+"ms": 6216
+},
+{
+"sp": "doris",
+"spn": "Neighbour",
+"en": "Count me in, as long as someone else does the writing!",
+"fa": "من هم هستم، به شرطی که نوشتنش با یکی دیگر باشد!",
+"ms": 4944
+}
+],
+"tip": {
+"en": "\"I take your point, but…\" lets you disagree without sounding rude.",
+"fa": "«حرفتان را می‌فهمم، ولی…» کمکت می‌کند مخالفت کنی بدون اینکه بی‌ادب به نظر برسی."
+},
+"safe": null
+}
+]
+}
