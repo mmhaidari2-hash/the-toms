@@ -1,0 +1,975 @@
+{
+"station": "Hackney Hum",
+"segments": [
+{
+"id": "r_a1_weather",
+"level": "A1",
+"kind": "weather",
+"slot": "08:15",
+"title": "Sunny Saturday",
+"titleFa": "شنبهٔ آفتابی",
+"blurb": "Owen has the weekend weather.",
+"blurbFa": "اوون پیش‌بینی هوای آخر هفته را می‌گوید.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Good morning, Hackney! This is Hackney Hum.",
+"fa": "صبح بخیر، هاکنی! اینجا رادیو هاکنی هام است.",
+"ms": 4344
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Here's Owen with the weather.",
+"fa": "این هم اوون با پیش‌بینی هوا.",
+"ms": 2208
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "Thanks, Bex. Today is sunny and warm.",
+"fa": "ممنون، بکس. امروز هوا آفتابی و گرم است.",
+"ms": 4344
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "It's twenty degrees this afternoon.",
+"fa": "امروز بعدازظهر بیست درجه است.",
+"ms": 2760
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "Tonight it's cloudy and cool.",
+"fa": "امشب هوا ابری و خنک است.",
+"ms": 2520
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "Tomorrow it's rainy. Take an umbrella!",
+"fa": "فردا بارانی است. چتر ببرید!",
+"ms": 3744
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Lovely! A good day for the park.",
+"fa": "عالی! روز خوبی برای رفتن به پارک است.",
+"ms": 3432
+}
+],
+"quiz": [
+{
+"q": "What's the weather like today?",
+"options": [
+"Sunny and warm",
+"Rainy",
+"Snowy"
+],
+"answer": 0
+},
+{
+"q": "How warm is it this afternoon?",
+"options": [
+"Twenty degrees",
+"Ten degrees",
+"Thirty degrees"
+],
+"answer": 0
+},
+{
+"q": "What do you need tomorrow?",
+"options": [
+"An umbrella",
+"Sun cream",
+"Sunglasses"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_a1_bakery",
+"level": "A1",
+"kind": "advert",
+"slot": "08:30",
+"title": "Advert: Gareth's Bakery",
+"titleFa": "آگهی: نانوایی گرت",
+"blurb": "A short advert for the bakery on Mare Street.",
+"blurbFa": "یک آگهی کوتاه برای نانوایی خیابان مِر.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Now, a word from Gareth's Bakery.",
+"fa": "حالا چند کلمه از نانوایی گرت.",
+"ms": 3000
+},
+{
+"sp": "baker",
+"spn": "Gareth",
+"en": "Are you hungry? Come to Gareth's Bakery!",
+"fa": "گرسنه‌اید؟ بیایید به نانوایی گرت!",
+"ms": 3936
+},
+{
+"sp": "baker",
+"spn": "Gareth",
+"en": "We've got fresh bread every morning.",
+"fa": "هر روز صبح نان تازه داریم.",
+"ms": 3000
+},
+{
+"sp": "baker",
+"spn": "Gareth",
+"en": "Sausage rolls are one pound fifty.",
+"fa": "رول سوسیس یک پوند و پنجاه پنی است.",
+"ms": 3240
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "And on Saturdays, I'm here too!",
+"fa": "و شنبه‌ها من هم اینجا هستم!",
+"ms": 3000
+},
+{
+"sp": "baker",
+"spn": "Gareth",
+"en": "We're open from seven to five.",
+"fa": "از ساعت هفت تا پنج باز هستیم.",
+"ms": 2760
+},
+{
+"sp": "baker",
+"spn": "Gareth",
+"en": "Gareth's Bakery, on Mare Street. See you soon!",
+"fa": "نانوایی گرت، در خیابان مِر. به‌زودی می‌بینیمتان!",
+"ms": 4608
+}
+],
+"quiz": [
+{
+"q": "How much is a sausage roll?",
+"options": [
+"£1.50",
+"£1.00",
+"£2.50"
+],
+"answer": 0
+},
+{
+"q": "When does the bakery open?",
+"options": [
+"At seven",
+"At nine",
+"At five"
+],
+"answer": 0
+},
+{
+"q": "Who works there on Saturdays?",
+"options": [
+"Ryan",
+"Tom",
+"Nicola"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_a2_travel",
+"level": "A2",
+"kind": "travel",
+"slot": "07:45",
+"title": "Travel: Monday Morning",
+"titleFa": "اخبار رفت‌وآمد: صبح دوشنبه",
+"blurb": "Grace has the morning travel news.",
+"blurbFa": "گریس اخبار رفت‌وآمد صبح را می‌گوید.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "It's quarter to eight. Over to Grace for the travel news.",
+"fa": "ساعت یک ربع به هشت است. برویم سراغ گریس برای اخبار رفت‌وآمد.",
+"ms": 4728
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "Morning, Bex. The roads are very busy this morning.",
+"fa": "صبح بخیر، بکس. امروز صبح جاده‌ها خیلی شلوغ است.",
+"ms": 4896
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "A lorry has broken down on Mare Street, so traffic is slow.",
+"fa": "یک کامیون در خیابان مِر خراب شده، برای همین ترافیک کند است.",
+"ms": 4512
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "The number 38 bus is running about ten minutes late.",
+"fa": "اتوبوس شمارهٔ ۳۸ حدود ده دقیقه تأخیر دارد.",
+"ms": 4008
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Ooh, I hope Tom's not driving it today!",
+"fa": "اوه، امیدوارم امروز تام رانندهٔ آن نباشد!",
+"ms": 3456
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "There are no trains from the station until nine.",
+"fa": "تا ساعت نه هیچ قطاری از ایستگاه حرکت نمی‌کند.",
+"ms": 3240
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "That's because of engineering work on the line.",
+"fa": "این به خاطر کارهای فنی روی خط است.",
+"ms": 3192
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "If you can, walk or cycle today.",
+"fa": "اگر می‌توانید، امروز پیاده بروید یا با دوچرخه.",
+"ms": 2976
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Thanks, Grace. Drive safely, everyone!",
+"fa": "ممنون، گریس. همگی با احتیاط رانندگی کنید!",
+"ms": 4488
+}
+],
+"quiz": [
+{
+"q": "Why is traffic slow on Mare Street?",
+"options": [
+"A lorry has broken down",
+"There's a football match",
+"It's snowing"
+],
+"answer": 0
+},
+{
+"q": "How late is the 38 bus?",
+"options": [
+"About ten minutes",
+"About an hour",
+"It's on time"
+],
+"answer": 0
+},
+{
+"q": "When will the trains start again?",
+"options": [
+"At nine",
+"At eight",
+"Tomorrow"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_a2_parrot",
+"level": "A2",
+"kind": "news",
+"slot": "12:00",
+"title": "News: The Parrot on the Bus",
+"titleFa": "خبر: طوطی در اتوبوس",
+"blurb": "The lunchtime local news, with a very unusual passenger.",
+"blurbFa": "اخبار محلی ظهر، با یک مسافر خیلی عجیب.",
+"lines": [
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Good afternoon. Here is the local news from Hackney Hum.",
+"fa": "عصر بخیر. اخبار محلی از رادیو هاکنی هام.",
+"ms": 5064
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "A parrot called Captain has escaped from a flat on Mare Street.",
+"fa": "طوطی‌ای به اسم کاپیتان از یک آپارتمان در خیابان مِر فرار کرده است.",
+"ms": 4368
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "His owner, Mr Lennox, opened the window yesterday morning.",
+"fa": "صاحبش، آقای لِنوکس، دیروز صبح پنجره را باز کرد.",
+"ms": 4752
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Captain flew out and sat on a bus stop.",
+"fa": "کاپیتان بیرون پرید و روی سقف یک ایستگاه اتوبوس نشست.",
+"ms": 3384
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Then he got on the number 38!",
+"fa": "بعد سوار اتوبوس ۳۸ شد!",
+"ms": 2904
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "The driver, Tom Thompson, found him on the top deck.",
+"fa": "راننده، تام تامسون، او را در طبقهٔ بالا پیدا کرد.",
+"ms": 4272
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "He was very friendly. He said hello to every passenger!",
+"fa": "خیلی خوش‌برخورد بود. به همهٔ مسافرها سلام کرد!",
+"ms": 4968
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Captain is now back home, and the window is closed.",
+"fa": "کاپیتان حالا به خانه برگشته و پنجره بسته است.",
+"ms": 4248
+}
+],
+"quiz": [
+{
+"q": "Where did Captain sit first?",
+"options": [
+"On a bus stop",
+"In a tree",
+"On a car"
+],
+"answer": 0
+},
+{
+"q": "Who found the parrot?",
+"options": [
+"Tom, the bus driver",
+"Mr Lennox",
+"A police officer"
+],
+"answer": 0
+},
+{
+"q": "What did Captain say to the passengers?",
+"options": [
+"Hello",
+"Goodbye",
+"Tickets, please"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_b1_grumbles",
+"level": "B1",
+"kind": "phonein",
+"slot": "10:00",
+"title": "Phone-in: Hackney Grumbles",
+"titleFa": "برنامهٔ تلفنی: گلایه‌های هاکنی",
+"blurb": "Listeners ring in about what's annoying them.",
+"blurbFa": "شنونده‌ها زنگ می‌زنند و از چیزهایی که اذیتشان می‌کند می‌گویند.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "It's ten o'clock, so it's time for the phone-in. Today's question: what's annoying you about Hackney?",
+"fa": "ساعت ده است، پس وقت برنامهٔ تلفنی است. سؤال امروز: چه چیزی در هاکنی اذیتتان می‌کند؟",
+"ms": 7032
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Our first caller is Doris. Morning, Doris!",
+"fa": "اولین تماس‌گیرندهٔ ما دوریس است. صبح بخیر، دوریس!",
+"ms": 4728
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "Morning, love. I've been ringing for twenty minutes, so I'm glad I've finally got through!",
+"fa": "صبح بخیر، عزیزم. بیست دقیقه است زنگ می‌زنم، خوشحالم که بالاخره وصل شدم!",
+"ms": 8448
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "It's the bins on my road. They haven't been collected for two weeks.",
+"fa": "مشکل سطل‌های زبالهٔ خیابان من است. دو هفته است جمع‌شان نکرده‌اند.",
+"ms": 6792
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Two weeks? That's terrible. Have you complained to the council?",
+"fa": "دو هفته؟ خیلی بد است. به شهرداری شکایت کرده‌اید؟",
+"ms": 5640
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "Three times! They keep saying it'll be sorted by Friday, but they never say which Friday.",
+"fa": "سه بار! مدام می‌گویند تا جمعه درست می‌شود، ولی هیچ‌وقت نمی‌گویند کدام جمعه.",
+"ms": 8208
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Thanks, Doris. Next on the line is George. Hello, George!",
+"fa": "ممنون، دوریس. تماس بعدی جورج است. سلام، جورج!",
+"ms": 6528
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "Hello. My grumble is the potholes. There's one on Mare Street that's bigger than my bath.",
+"fa": "سلام. گلایهٔ من چاله‌های خیابان است. یکی در خیابان مِر هست که از وان حمام من بزرگ‌تر است.",
+"ms": 8592
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "I drove the 38 for thirty-one years, and the roads have never been this bad.",
+"fa": "سی و یک سال رانندهٔ اتوبوس ۳۸ بودم و جاده‌ها هیچ‌وقت این‌قدر خراب نبوده‌اند.",
+"ms": 6264
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Well, if the council's listening, Doris's bins and George's pothole are now officially famous!",
+"fa": "خب، اگر شهرداری گوش می‌دهد، سطل‌های دوریس و چالهٔ جورج حالا رسماً مشهور شده‌اند!",
+"ms": 6360
+}
+],
+"quiz": [
+{
+"q": "What is Doris's problem?",
+"options": [
+"Her bins haven't been collected",
+"Her bus is always late",
+"Her neighbour is noisy"
+],
+"answer": 0
+},
+{
+"q": "How many times has Doris complained?",
+"options": [
+"Three times",
+"Once",
+"Never"
+],
+"answer": 0
+},
+{
+"q": "What is George's grumble?",
+"options": [
+"A huge pothole on Mare Street",
+"The price of tea",
+"Noisy buses"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_b1_storm",
+"level": "B1",
+"kind": "weather",
+"slot": "17:50",
+"title": "Weather: Storm Warning",
+"titleFa": "هواشناسی: هشدار طوفان",
+"blurb": "Owen warns listeners about a stormy night.",
+"blurbFa": "اوون دربارهٔ یک شب طوفانی به شنونده‌ها هشدار می‌دهد.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Before the news, let's get the weather with Owen. Is it going to be a wild one?",
+"fa": "قبل از اخبار، برویم سراغ اوون برای وضع هوا. قرار است شب پرسروصدایی باشد؟",
+"ms": 5664
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "It certainly is, Bex. A storm is moving in from the west this evening.",
+"fa": "قطعاً، بکس. امشب یک طوفان از غرب به این سمت می‌آید.",
+"ms": 5640
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "By about nine o'clock, we're expecting heavy rain and very strong winds.",
+"fa": "حدود ساعت نه منتظر باران شدید و بادهای خیلی قوی هستیم.",
+"ms": 4944
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "Gusts could reach sixty miles an hour, so tie down anything in your garden that might blow away.",
+"fa": "تندبادها ممکن است به شصت مایل در ساعت برسند، پس هر چیزی در حیاط که ممکن است باد ببرد را ببندید.",
+"ms": 5928
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "If you're going out tonight, take a proper coat, because an umbrella won't last five minutes.",
+"fa": "اگر امشب بیرون می‌روید، یک کت درست‌وحسابی بپوشید، چون چتر پنج دقیقه هم دوام نمی‌آورد.",
+"ms": 5520
+},
+{
+"sp": "owen",
+"spn": "Owen",
+"en": "Tomorrow will be calmer, but it'll stay cold, with a top temperature of just eight degrees.",
+"fa": "فردا آرام‌تر است، ولی سرد می‌ماند و بیشترین دما فقط هشت درجه است.",
+"ms": 5400
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Right, I'm bringing my plant pots inside. Thanks, Owen!",
+"fa": "خب، من گلدان‌هایم را می‌برم داخل. ممنون، اوون!",
+"ms": 5520
+}
+],
+"quiz": [
+{
+"q": "When will the heavy rain start?",
+"options": [
+"Around nine o'clock",
+"At lunchtime",
+"Tomorrow morning"
+],
+"answer": 0
+},
+{
+"q": "Why shouldn't you take an umbrella?",
+"options": [
+"The wind is too strong",
+"It won't rain",
+"It's too cold"
+],
+"answer": 0
+},
+{
+"q": "What will tomorrow be like?",
+"options": [
+"Calmer but cold",
+"Hot and sunny",
+"Stormy again"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_b2_library",
+"level": "B2",
+"kind": "news",
+"slot": "13:00",
+"title": "News: The Library Vote",
+"titleFa": "خبر: رأی‌گیری دربارهٔ کتابخانه",
+"blurb": "The council's decision on the local library, and a road closure.",
+"blurbFa": "تصمیم شهرداری دربارهٔ کتابخانهٔ محله، و بسته شدن چند خیابان.",
+"lines": [
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Good afternoon. The top story on Hackney Hum: the council has voted to keep the local library open, after a campaign by residents.",
+"fa": "عصر بخیر. خبر اصلی هاکنی هام: شهرداری پس از کارزار ساکنان، به باز ماندن کتابخانهٔ محله رأی داده است.",
+"ms": 9360
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "The library had been facing closure because of budget cuts, but more than four thousand people signed a petition to save it.",
+"fa": "کتابخانه به خاطر کاهش بودجه در خطر تعطیلی بود، اما بیش از چهار هزار نفر طوماری برای نجاتش امضا کردند.",
+"ms": 7200
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Among them was the librarian, Mr Bennett, who has worked there for over twenty years.",
+"fa": "یکی از آن‌ها کتابدار، آقای بِنِت، بود که بیش از بیست سال آنجا کار کرده است.",
+"ms": 5736
+},
+{
+"sp": "bennett",
+"spn": "Mr Bennett",
+"en": "I'm absolutely delighted. A library isn't just a building full of books; it's where people come when they've got nowhere else to go.",
+"fa": "واقعاً خوشحالم. کتابخانه فقط ساختمانی پر از کتاب نیست؛ جایی است که آدم‌ها وقتی جای دیگری ندارند به آن پناه می‌آورند.",
+"ms": 9384
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "However, the council warned that opening hours may be reduced, and volunteers will be needed to run the Saturday sessions.",
+"fa": "با این حال، شهرداری هشدار داد که ساعت کاری ممکن است کم شود و برای برگزاری جلسه‌های شنبه به داوطلب نیاز است.",
+"ms": 7512
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "Anyone interested in volunteering is being asked to contact the library directly.",
+"fa": "از علاقه‌مندان به کار داوطلبانه خواسته شده مستقیماً با کتابخانه تماس بگیرند.",
+"ms": 5280
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "In other news, a charity fun run around London Fields will close several roads on Sunday morning.",
+"fa": "در خبری دیگر، یک دوی خیریه در اطراف لندن فیلدز صبح یکشنبه چند خیابان را می‌بندد.",
+"ms": 6624
+},
+{
+"sp": "malcolm",
+"spn": "Malcolm",
+"en": "That's all from me. Bex will be back after the break.",
+"fa": "از طرف من همین بود. بکس بعد از آگهی‌ها برمی‌گردد.",
+"ms": 4560
+}
+],
+"quiz": [
+{
+"q": "Why was the library going to close?",
+"options": [
+"Budget cuts",
+"A fire",
+"Too few books"
+],
+"answer": 0
+},
+{
+"q": "What might change at the library?",
+"options": [
+"Shorter opening hours",
+"A new librarian",
+"Higher fees"
+],
+"answer": 0
+},
+{
+"q": "What does Mr Bennett say a library is?",
+"options": [
+"Where people go when they've nowhere else",
+"Just a building full of books",
+"A quiet office"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_b2_barbers",
+"level": "B2",
+"kind": "advert",
+"slot": "16:20",
+"title": "Advert: Sal's",
+"titleFa": "آگهی: آرایشگاه سال",
+"blurb": "Sal sells his barber shop, with a discount for listeners.",
+"blurbFa": "سال آرایشگاهش را تبلیغ می‌کند، با تخفیف برای شنونده‌ها.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "This hour of Hackney Hum is brought to you by Sal's, the barber shop that's been cutting Hackney's hair for three generations.",
+"fa": "این ساعت از هاکنی هام با حمایت آرایشگاه سال است؛ آرایشگاهی که سه نسل است موهای مردم هاکنی را کوتاه می‌کند.",
+"ms": 7392
+},
+{
+"sp": "sal",
+"spn": "Sal",
+"en": "Let's be honest: we've all had a haircut we've regretted.",
+"fa": "بیایید رو راست باشیم: همهٔ ما یک بار مدل مویی داشته‌ایم که پشیمانمان کرده.",
+"ms": 3696
+},
+{
+"sp": "sal",
+"spn": "Sal",
+"en": "At Sal's, we take the time to listen, so you walk out looking like yourself, only better.",
+"fa": "در آرایشگاه سال وقت می‌گذاریم و گوش می‌دهیم، تا وقتی بیرون می‌روید شبیه خودتان باشید، فقط بهتر.",
+"ms": 5856
+},
+{
+"sp": "sal",
+"spn": "Sal",
+"en": "No appointment needed, although on Saturdays you might have to queue behind half the Sunday league.",
+"fa": "نوبت لازم نیست، هرچند شنبه‌ها شاید مجبور شوید پشت سر نصف تیم‌های فوتبال یکشنبه صف بایستید.",
+"ms": 5760
+},
+{
+"sp": "sal",
+"spn": "Sal",
+"en": "And if you mention Hackney Hum, you'll get ten per cent off your first visit.",
+"fa": "و اگر اسم هاکنی هام را بیاورید، اولین بار ده درصد تخفیف می‌گیرید.",
+"ms": 4440
+},
+{
+"sp": "sal",
+"spn": "Sal",
+"en": "Sal's, just down from the Red Lion. We'll even tell you what we really think of your team.",
+"fa": "آرایشگاه سال، کمی پایین‌تر از میخانهٔ رد لاین. حتی نظر واقعی‌مان را دربارهٔ تیمتان هم می‌گوییم.",
+"ms": 6288
+}
+],
+"quiz": [
+{
+"q": "How long has Sal's family been cutting hair?",
+"options": [
+"Three generations",
+"Three years",
+"Since last summer"
+],
+"answer": 0
+},
+{
+"q": "How do you get a discount?",
+"options": [
+"Mention Hackney Hum",
+"Book online",
+"Bring a friend"
+],
+"answer": 0
+},
+{
+"q": "Why might you have to queue on Saturdays?",
+"options": [
+"Lots of footballers come in",
+"It's closed on Fridays",
+"There's only one chair"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_c1_carfree",
+"level": "C1",
+"kind": "phonein",
+"slot": "18:30",
+"title": "Phone-in: A Car-free Mare Street?",
+"titleFa": "برنامهٔ تلفنی: خیابان مِر بدون ماشین؟",
+"blurb": "Should cars be banned from Mare Street? Two very different callers.",
+"blurbFa": "آیا باید ورود ماشین به خیابان مِر ممنوع شود؟ دو تماس‌گیرنده با نظرهای خیلی متفاوت.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Tonight's phone-in has certainly got people talking: should cars be banned from Mare Street altogether?",
+"fa": "برنامهٔ تلفنی امشب حسابی سر زبان‌ها افتاده: آیا باید ورود ماشین به خیابان مِر کاملاً ممنوع شود؟",
+"ms": 6096
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "On the line is Mrs Khan, who's lived on the street for thirty years.",
+"fa": "پشت خط خانم خان است که سی سال است در این خیابان زندگی می‌کند.",
+"ms": 4776
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Thank you, dear. I'll be blunt: had the council asked us first, there'd be far less anger now.",
+"fa": "ممنون، عزیزم. رک می‌گویم: اگر شهرداری اول از ما پرسیده بود، الان این‌قدر عصبانیت نبود.",
+"ms": 8712
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Nobody's against cleaner air, but what about those of us who can't walk far, or who rely on a lift to the hospital?",
+"fa": "کسی با هوای پاک‌تر مخالف نیست، ولی تکلیف ما که نمی‌توانیم زیاد راه برویم یا برای رفتن به بیمارستان به کسی وابسته‌ایم که ما را برساند چه می‌شود؟",
+"ms": 8808
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "That's a fair point. Let's hear the other side. Our next caller is Ryan, who's in Year 10.",
+"fa": "حرف منصفانه‌ای است. نظر طرف مقابل را هم بشنویم. تماس‌گیرندهٔ بعدی رایان است که کلاس دهم است.",
+"ms": 7776
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Honestly, it's my generation that'll be living with the pollution, so I think it's worth a bit of inconvenience.",
+"fa": "راستش نسل من است که باید با این آلودگی زندگی کند، پس به نظرم کمی دردسر می‌ارزد.",
+"ms": 6144
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "What I don't get is why the buses have to sit in traffic behind people driving two streets to the shops.",
+"fa": "چیزی که نمی‌فهمم این است که چرا اتوبوس‌ها باید پشت سر کسانی که برای دو خیابان آن‌طرف‌تر تا مغازه رانندگی می‌کنند در ترافیک بمانند.",
+"ms": 5880
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "He's not wrong about that, actually. My nephew drives to the corner shop, and it's two minutes away!",
+"fa": "راستش در این مورد اشتباه نمی‌کند. برادرزادهٔ من تا مغازهٔ سر کوچه با ماشین می‌رود، در حالی که دو دقیقه راه است!",
+"ms": 8592
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "So, a compromise: buses, bikes and blue badge holders only?",
+"fa": "پس یک راه میانه: فقط اتوبوس‌ها، دوچرخه‌ها و دارندگان کارت پارک معلولین؟",
+"ms": 4680
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Now that, I could live with.",
+"fa": "خب، با این یکی می‌توانم کنار بیایم.",
+"ms": 3456
+}
+],
+"quiz": [
+{
+"q": "What is Mrs Khan's main complaint?",
+"options": [
+"The council didn't ask residents first",
+"She hates buses",
+"She wants more parking"
+],
+"answer": 0
+},
+{
+"q": "Why does Ryan support the ban?",
+"options": [
+"His generation will live with the pollution",
+"He wants a new cycle lane",
+"He doesn't like cars"
+],
+"answer": 0
+},
+{
+"q": "What compromise does Bex suggest?",
+"options": [
+"Only buses, bikes and blue badge holders",
+"Cars only at weekends",
+"A new car park"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "r_c1_signals",
+"level": "C1",
+"kind": "travel",
+"slot": "08:10",
+"title": "Travel: Signal Failure",
+"titleFa": "اخبار رفت‌وآمد: خرابی سیگنال",
+"blurb": "A difficult morning on the railway, with a conductor on the line.",
+"blurbFa": "یک صبح سخت در راه‌آهن، با یک مأمور قطار پشت خط.",
+"lines": [
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Grace, I gather it's not been the smoothest of starts for rail passengers this morning.",
+"fa": "گریس، شنیده‌ام امروز صبح شروع خیلی آرامی برای مسافران قطار نبوده.",
+"ms": 5544
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "That's putting it mildly, Bex. A signal failure outside the city has left most morning services either delayed or cancelled outright.",
+"fa": "این که خیلی ملایم گفتنش است، بکس. خرابی سیگنال بیرون از شهر باعث شده بیشتر قطارهای صبح یا تأخیر داشته باشند یا کلاً لغو شوند.",
+"ms": 9480
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "Rail replacement buses are running, but passengers are being warned to allow at least an extra hour.",
+"fa": "اتوبوس‌های جایگزین قطار کار می‌کنند، اما به مسافران هشدار داده شده دست‌کم یک ساعت بیشتر وقت بگذارند.",
+"ms": 6240
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "I've got Maya on the line, a conductor who's been on the platform since five. Maya, what's it like?",
+"fa": "مایا پشت خط است، مأمور قطاری که از ساعت پنج روی سکو بوده. مایا، اوضاع چطور است؟",
+"ms": 7416
+},
+{
+"sp": "maya",
+"spn": "Maya",
+"en": "Frankly, it's chaos, but people have been remarkably patient. What frustrates them most isn't the delay itself; it's not knowing.",
+"fa": "راستش آشوب است، ولی مردم به‌طرز قابل‌توجهی صبور بوده‌اند. چیزی که بیشتر از همه کلافه‌شان می‌کند خود تأخیر نیست؛ بی‌خبری است.",
+"ms": 8424
+},
+{
+"sp": "maya",
+"spn": "Maya",
+"en": "So my advice is simple: check before you travel, and don't trust the departure board until you've heard an announcement.",
+"fa": "پس توصیهٔ من ساده است: قبل از سفر بررسی کنید و تا اطلاعیه را نشنیده‌اید به تابلوی حرکت اعتماد نکنید.",
+"ms": 6672
+},
+{
+"sp": "grace",
+"spn": "Grace",
+"en": "Wise words. Meanwhile, on the roads, the A10 is moving well, which is just as well, given how many people seem to be driving instead.",
+"fa": "حرف عاقلانه‌ای است. در همین حال، در جاده‌ها ترافیک A10 روان است، که با توجه به این‌همه آدمی که به‌جای قطار رانندگی می‌کنند، جای شکرش باقی است.",
+"ms": 10152
+},
+{
+"sp": "bex",
+"spn": "Bex",
+"en": "Thanks, Grace, and thanks, Maya. Hang in there, everyone.",
+"fa": "ممنون، گریس، و ممنون، مایا. همگی تحمل کنید.",
+"ms": 5496
+}
+],
+"quiz": [
+{
+"q": "What caused the problems?",
+"options": [
+"A signal failure",
+"A strike",
+"Snow on the tracks"
+],
+"answer": 0
+},
+{
+"q": "According to Maya, what frustrates passengers most?",
+"options": [
+"Not knowing what's happening",
+"The delay itself",
+"The price of tickets"
+],
+"answer": 0
+},
+{
+"q": "What is Maya's advice?",
+"options": [
+"Check before you travel",
+"Take the A10",
+"Stay at home"
+],
+"answer": 0
+}
+]
+}
+]
+}

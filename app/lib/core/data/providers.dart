@@ -311,6 +311,18 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
   }
 
+  /// Hackney Hum (radio): best questions score per segment (key radio:ID); passed at 60%.
+  int? radioScore(String id) => int.tryParse(state.missionsDone['radio:$id'] ?? '');
+  bool segmentDone(String id) => (radioScore(id) ?? -1) >= 60;
+  int get segmentsDone => state.missionsDone.entries.where((e) => e.key.startsWith('radio:') && (int.tryParse(e.value) ?? 0) >= 60).length;
+  XpAward saveRadioQuiz(String id, int pct) {
+    if (pct > (radioScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'radio:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 60 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
   String pref(String k, [String def = '']) => state.missionsDone['pref:$k'] ?? def;
   void setPref(String k, String v) {
     state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:$k': v});

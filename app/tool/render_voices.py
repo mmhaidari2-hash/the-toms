@@ -39,6 +39,9 @@ V={ # speaker -> (voice, pitch, rate)
  'harris':('en-GB-RyanNeural','-8Hz','-8%'),
  'zara':('en-KE-AsiliaNeural','+0Hz','+2%'),'kai':('en-GB-RyanNeural','+14Hz','+10%'),
  'dev':('en-GB-ThomasNeural','+10Hz','+8%'),'bilal':('en-IN-PrabhatNeural','-16Hz','-8%'),
+ 'bex':('en-GB-LibbyNeural','+4Hz','+10%'),'malcolm':('en-GB-RyanNeural','-10Hz','-2%'),  # Hackney Hum (radio) presenters
+ 'grace':('en-NG-EzinneNeural','+0Hz','+4%'),'owen':('en-GB-ThomasNeural','+0Hz','+4%'),
+ 'mrspatel':('en-IN-NeerjaNeural','-16Hz','-10%'),'oldman':('en-IE-ConnorNeural','-22Hz','-16%'),  # library minor characters
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
@@ -86,6 +89,10 @@ cine=os.path.join(A,'data/cinema.json')  # Cinema & dubbing (tool/make_cinema.py
 if os.path.exists(cine):
   for sc in json.load(open(cine))['scenes']:
     for l in sc['lines']: add(l['sp'],l['en'])
+radio=os.path.join(A,'data/radio.json')  # Hackney Hum (tool/make_radio.py): every segment line in its speaker's voice
+if os.path.exists(radio):
+  for sg in json.load(open(radio))['segments']:
+    for l in sg['lines']: add(l['sp'],l['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

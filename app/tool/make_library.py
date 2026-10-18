@@ -57,6 +57,7 @@ def gloss(w,raw,book):
   return None
 VOICES=set(re.findall(r"'([a-z]+)':\('en-",open(os.path.join(H,'render_voices.py')).read()))
 CAST={c['id']:c['name'] for c in json.load(open(os.path.join(A,'data/characters.json')))}
+CAST.update({'mrspatel':'Mrs Patel','oldman':'The old man'})  # minor library characters (own voices, no portrait)
 LEVELG={}
 for gf in glob.glob(os.path.join(H,'library','gloss_*.txt')):
   lv=os.path.basename(gf)[6:-4].upper(); d=LEVELG.setdefault(lv,{})

@@ -27,7 +27,7 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
 });
 
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
-const featureSpots = {'library', 'school', 'cinema'};
+const featureSpots = {'library', 'school', 'cinema', 'radio'};
 
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
@@ -176,6 +176,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                     Icon(Icons.movie_rounded, color: BL.gold),
                     SizedBox(width: 12),
                     Expanded(child: Text('Now showing · watch & dub scenes', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
+          if (s.id == 'radio') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF14202B),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-radio'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/radio');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.radio_rounded, color: BL.gold),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('On air · listen to Hackney Hum', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
                     Icon(Icons.chevron_right_rounded, color: Colors.white),
                   ]),
                 ),

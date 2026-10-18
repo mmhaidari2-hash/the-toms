@@ -26,6 +26,7 @@ SPOTS=[
  ('hospital','Homerton Hospital','بیمارستان هومرتون','🏥',.30,.24,['doctor'],r'hospital|a&e|triage|outpatient|ward|discharged',None,[]),
  ('museum','Museum','موزه','🏛️',.12,.25,[],r'museum',None,[]),
  ('cinema','Cinema & arena','سینما و سالن','🎬',.75,.21,[],r'cinema|film|movie|popcorn',None,['l2_u8_4']),
+ ('radio','Hackney Hum radio','رادیو هاکنی هام','📻',.40,.165,[],None,None,['l1_u6_1','l2_u37_1','l2_u37_4','l4_u8_2','l4_u8_4']),  # studio in the tower on the skyline
  ('gym','The gym','باشگاه ورزشی','🏋️',.17,.43,['gym'],r'\bgym\b|fitness',None,[]),
  ('pub','The Red Lion pub','میخانهٔ رد لاین','🍺',.39,.55,['pub'],r'\bpub\b|quiz night',None,[]),
  ('garage','Mick\'s Motors & petrol station','تعمیرگاه میک و پمپ بنزین','🚗',.20,.50,['driving','petrol'],r'driving|mot\b|petrol|car\b',None,[]),

@@ -1,0 +1,136 @@
+# Hackney Hum: an invented local radio station for Hackney (not a real station). All segments are original.
+# Header:   # id | level | kind | slot | title | titleFa | blurb | blurbFa
+#   kind = news | weather | travel | phonein | advert ; slot = the on-air time shown in the schedule
+# Lines:    speaker: English | Persian      (speaker = a voice id from tool/render_voices.py)
+# Quiz:     Q: question | correct ; wrong ; wrong
+# Travel news is generic ("the trains", "rail replacement buses", road names): no transport-operator branding.
+
+# r_a1_weather | A1 | weather | 08:15 | Sunny Saturday | شنبهٔ آفتابی | Owen has the weekend weather. | اوون پیش‌بینی هوای آخر هفته را می‌گوید.
+bex: Good morning, Hackney! This is Hackney Hum. | صبح بخیر، هاکنی! اینجا رادیو هاکنی هام است.
+bex: Here's Owen with the weather. | این هم اوون با پیش‌بینی هوا.
+owen: Thanks, Bex. Today is sunny and warm. | ممنون، بکس. امروز هوا آفتابی و گرم است.
+owen: It's twenty degrees this afternoon. | امروز بعدازظهر بیست درجه است.
+owen: Tonight it's cloudy and cool. | امشب هوا ابری و خنک است.
+owen: Tomorrow it's rainy. Take an umbrella! | فردا بارانی است. چتر ببرید!
+bex: Lovely! A good day for the park. | عالی! روز خوبی برای رفتن به پارک است.
+Q: What's the weather like today? | Sunny and warm ; Rainy ; Snowy
+Q: How warm is it this afternoon? | Twenty degrees ; Ten degrees ; Thirty degrees
+Q: What do you need tomorrow? | An umbrella ; Sun cream ; Sunglasses
+
+# r_a1_bakery | A1 | advert | 08:30 | Advert: Gareth's Bakery | آگهی: نانوایی گرت | A short advert for the bakery on Mare Street. | یک آگهی کوتاه برای نانوایی خیابان مِر.
+bex: Now, a word from Gareth's Bakery. | حالا چند کلمه از نانوایی گرت.
+baker: Are you hungry? Come to Gareth's Bakery! | گرسنه‌اید؟ بیایید به نانوایی گرت!
+baker: We've got fresh bread every morning. | هر روز صبح نان تازه داریم.
+baker: Sausage rolls are one pound fifty. | رول سوسیس یک پوند و پنجاه پنی است.
+ryan: And on Saturdays, I'm here too! | و شنبه‌ها من هم اینجا هستم!
+baker: We're open from seven to five. | از ساعت هفت تا پنج باز هستیم.
+baker: Gareth's Bakery, on Mare Street. See you soon! | نانوایی گرت، در خیابان مِر. به‌زودی می‌بینیمتان!
+Q: How much is a sausage roll? | £1.50 ; £1.00 ; £2.50
+Q: When does the bakery open? | At seven ; At nine ; At five
+Q: Who works there on Saturdays? | Ryan ; Tom ; Nicola
+
+# r_a2_travel | A2 | travel | 07:45 | Travel: Monday Morning | اخبار رفت‌وآمد: صبح دوشنبه | Grace has the morning travel news. | گریس اخبار رفت‌وآمد صبح را می‌گوید.
+bex: It's quarter to eight. Over to Grace for the travel news. | ساعت یک ربع به هشت است. برویم سراغ گریس برای اخبار رفت‌وآمد.
+grace: Morning, Bex. The roads are very busy this morning. | صبح بخیر، بکس. امروز صبح جاده‌ها خیلی شلوغ است.
+grace: A lorry has broken down on Mare Street, so traffic is slow. | یک کامیون در خیابان مِر خراب شده، برای همین ترافیک کند است.
+grace: The number 38 bus is running about ten minutes late. | اتوبوس شمارهٔ ۳۸ حدود ده دقیقه تأخیر دارد.
+bex: Ooh, I hope Tom's not driving it today! | اوه، امیدوارم امروز تام رانندهٔ آن نباشد!
+grace: There are no trains from the station until nine. | تا ساعت نه هیچ قطاری از ایستگاه حرکت نمی‌کند.
+grace: That's because of engineering work on the line. | این به خاطر کارهای فنی روی خط است.
+grace: If you can, walk or cycle today. | اگر می‌توانید، امروز پیاده بروید یا با دوچرخه.
+bex: Thanks, Grace. Drive safely, everyone! | ممنون، گریس. همگی با احتیاط رانندگی کنید!
+Q: Why is traffic slow on Mare Street? | A lorry has broken down ; There's a football match ; It's snowing
+Q: How late is the 38 bus? | About ten minutes ; About an hour ; It's on time
+Q: When will the trains start again? | At nine ; At eight ; Tomorrow
+
+# r_a2_parrot | A2 | news | 12:00 | News: The Parrot on the Bus | خبر: طوطی در اتوبوس | The lunchtime local news, with a very unusual passenger. | اخبار محلی ظهر، با یک مسافر خیلی عجیب.
+malcolm: Good afternoon. Here is the local news from Hackney Hum. | عصر بخیر. اخبار محلی از رادیو هاکنی هام.
+malcolm: A parrot called Captain has escaped from a flat on Mare Street. | طوطی‌ای به اسم کاپیتان از یک آپارتمان در خیابان مِر فرار کرده است.
+malcolm: His owner, Mr Lennox, opened the window yesterday morning. | صاحبش، آقای لِنوکس، دیروز صبح پنجره را باز کرد.
+malcolm: Captain flew out and sat on a bus stop. | کاپیتان بیرون پرید و روی سقف یک ایستگاه اتوبوس نشست.
+malcolm: Then he got on the number 38! | بعد سوار اتوبوس ۳۸ شد!
+malcolm: The driver, Tom Thompson, found him on the top deck. | راننده، تام تامسون، او را در طبقهٔ بالا پیدا کرد.
+tom: He was very friendly. He said hello to every passenger! | خیلی خوش‌برخورد بود. به همهٔ مسافرها سلام کرد!
+malcolm: Captain is now back home, and the window is closed. | کاپیتان حالا به خانه برگشته و پنجره بسته است.
+Q: Where did Captain sit first? | On a bus stop ; In a tree ; On a car
+Q: Who found the parrot? | Tom, the bus driver ; Mr Lennox ; A police officer
+Q: What did Captain say to the passengers? | Hello ; Goodbye ; Tickets, please
+
+# r_b1_grumbles | B1 | phonein | 10:00 | Phone-in: Hackney Grumbles | برنامهٔ تلفنی: گلایه‌های هاکنی | Listeners ring in about what's annoying them. | شنونده‌ها زنگ می‌زنند و از چیزهایی که اذیتشان می‌کند می‌گویند.
+bex: It's ten o'clock, so it's time for the phone-in. Today's question: what's annoying you about Hackney? | ساعت ده است، پس وقت برنامهٔ تلفنی است. سؤال امروز: چه چیزی در هاکنی اذیتتان می‌کند؟
+bex: Our first caller is Doris. Morning, Doris! | اولین تماس‌گیرندهٔ ما دوریس است. صبح بخیر، دوریس!
+doris: Morning, love. I've been ringing for twenty minutes, so I'm glad I've finally got through! | صبح بخیر، عزیزم. بیست دقیقه است زنگ می‌زنم، خوشحالم که بالاخره وصل شدم!
+doris: It's the bins on my road. They haven't been collected for two weeks. | مشکل سطل‌های زبالهٔ خیابان من است. دو هفته است جمع‌شان نکرده‌اند.
+bex: Two weeks? That's terrible. Have you complained to the council? | دو هفته؟ خیلی بد است. به شهرداری شکایت کرده‌اید؟
+doris: Three times! They keep saying it'll be sorted by Friday, but they never say which Friday. | سه بار! مدام می‌گویند تا جمعه درست می‌شود، ولی هیچ‌وقت نمی‌گویند کدام جمعه.
+bex: Thanks, Doris. Next on the line is George. Hello, George! | ممنون، دوریس. تماس بعدی جورج است. سلام، جورج!
+george: Hello. My grumble is the potholes. There's one on Mare Street that's bigger than my bath. | سلام. گلایهٔ من چاله‌های خیابان است. یکی در خیابان مِر هست که از وان حمام من بزرگ‌تر است.
+george: I drove the 38 for thirty-one years, and the roads have never been this bad. | سی و یک سال رانندهٔ اتوبوس ۳۸ بودم و جاده‌ها هیچ‌وقت این‌قدر خراب نبوده‌اند.
+bex: Well, if the council's listening, Doris's bins and George's pothole are now officially famous! | خب، اگر شهرداری گوش می‌دهد، سطل‌های دوریس و چالهٔ جورج حالا رسماً مشهور شده‌اند!
+Q: What is Doris's problem? | Her bins haven't been collected ; Her bus is always late ; Her neighbour is noisy
+Q: How many times has Doris complained? | Three times ; Once ; Never
+Q: What is George's grumble? | A huge pothole on Mare Street ; The price of tea ; Noisy buses
+
+# r_b1_storm | B1 | weather | 17:50 | Weather: Storm Warning | هواشناسی: هشدار طوفان | Owen warns listeners about a stormy night. | اوون دربارهٔ یک شب طوفانی به شنونده‌ها هشدار می‌دهد.
+bex: Before the news, let's get the weather with Owen. Is it going to be a wild one? | قبل از اخبار، برویم سراغ اوون برای وضع هوا. قرار است شب پرسروصدایی باشد؟
+owen: It certainly is, Bex. A storm is moving in from the west this evening. | قطعاً، بکس. امشب یک طوفان از غرب به این سمت می‌آید.
+owen: By about nine o'clock, we're expecting heavy rain and very strong winds. | حدود ساعت نه منتظر باران شدید و بادهای خیلی قوی هستیم.
+owen: Gusts could reach sixty miles an hour, so tie down anything in your garden that might blow away. | تندبادها ممکن است به شصت مایل در ساعت برسند، پس هر چیزی در حیاط که ممکن است باد ببرد را ببندید.
+owen: If you're going out tonight, take a proper coat, because an umbrella won't last five minutes. | اگر امشب بیرون می‌روید، یک کت درست‌وحسابی بپوشید، چون چتر پنج دقیقه هم دوام نمی‌آورد.
+owen: Tomorrow will be calmer, but it'll stay cold, with a top temperature of just eight degrees. | فردا آرام‌تر است، ولی سرد می‌ماند و بیشترین دما فقط هشت درجه است.
+bex: Right, I'm bringing my plant pots inside. Thanks, Owen! | خب، من گلدان‌هایم را می‌برم داخل. ممنون، اوون!
+Q: When will the heavy rain start? | Around nine o'clock ; At lunchtime ; Tomorrow morning
+Q: Why shouldn't you take an umbrella? | The wind is too strong ; It won't rain ; It's too cold
+Q: What will tomorrow be like? | Calmer but cold ; Hot and sunny ; Stormy again
+
+# r_b2_library | B2 | news | 13:00 | News: The Library Vote | خبر: رأی‌گیری دربارهٔ کتابخانه | The council's decision on the local library, and a road closure. | تصمیم شهرداری دربارهٔ کتابخانهٔ محله، و بسته شدن چند خیابان.
+malcolm: Good afternoon. The top story on Hackney Hum: the council has voted to keep the local library open, after a campaign by residents. | عصر بخیر. خبر اصلی هاکنی هام: شهرداری پس از کارزار ساکنان، به باز ماندن کتابخانهٔ محله رأی داده است.
+malcolm: The library had been facing closure because of budget cuts, but more than four thousand people signed a petition to save it. | کتابخانه به خاطر کاهش بودجه در خطر تعطیلی بود، اما بیش از چهار هزار نفر طوماری برای نجاتش امضا کردند.
+malcolm: Among them was the librarian, Mr Bennett, who has worked there for over twenty years. | یکی از آن‌ها کتابدار، آقای بِنِت، بود که بیش از بیست سال آنجا کار کرده است.
+bennett: I'm absolutely delighted. A library isn't just a building full of books; it's where people come when they've got nowhere else to go. | واقعاً خوشحالم. کتابخانه فقط ساختمانی پر از کتاب نیست؛ جایی است که آدم‌ها وقتی جای دیگری ندارند به آن پناه می‌آورند.
+malcolm: However, the council warned that opening hours may be reduced, and volunteers will be needed to run the Saturday sessions. | با این حال، شهرداری هشدار داد که ساعت کاری ممکن است کم شود و برای برگزاری جلسه‌های شنبه به داوطلب نیاز است.
+malcolm: Anyone interested in volunteering is being asked to contact the library directly. | از علاقه‌مندان به کار داوطلبانه خواسته شده مستقیماً با کتابخانه تماس بگیرند.
+malcolm: In other news, a charity fun run around London Fields will close several roads on Sunday morning. | در خبری دیگر، یک دوی خیریه در اطراف لندن فیلدز صبح یکشنبه چند خیابان را می‌بندد.
+malcolm: That's all from me. Bex will be back after the break. | از طرف من همین بود. بکس بعد از آگهی‌ها برمی‌گردد.
+Q: Why was the library going to close? | Budget cuts ; A fire ; Too few books
+Q: What might change at the library? | Shorter opening hours ; A new librarian ; Higher fees
+Q: What does Mr Bennett say a library is? | Where people go when they've nowhere else ; Just a building full of books ; A quiet office
+
+# r_b2_barbers | B2 | advert | 16:20 | Advert: Sal's | آگهی: آرایشگاه سال | Sal sells his barber shop, with a discount for listeners. | سال آرایشگاهش را تبلیغ می‌کند، با تخفیف برای شنونده‌ها.
+bex: This hour of Hackney Hum is brought to you by Sal's, the barber shop that's been cutting Hackney's hair for three generations. | این ساعت از هاکنی هام با حمایت آرایشگاه سال است؛ آرایشگاهی که سه نسل است موهای مردم هاکنی را کوتاه می‌کند.
+sal: Let's be honest: we've all had a haircut we've regretted. | بیایید رو راست باشیم: همهٔ ما یک بار مدل مویی داشته‌ایم که پشیمانمان کرده.
+sal: At Sal's, we take the time to listen, so you walk out looking like yourself, only better. | در آرایشگاه سال وقت می‌گذاریم و گوش می‌دهیم، تا وقتی بیرون می‌روید شبیه خودتان باشید، فقط بهتر.
+sal: No appointment needed, although on Saturdays you might have to queue behind half the Sunday league. | نوبت لازم نیست، هرچند شنبه‌ها شاید مجبور شوید پشت سر نصف تیم‌های فوتبال یکشنبه صف بایستید.
+sal: And if you mention Hackney Hum, you'll get ten per cent off your first visit. | و اگر اسم هاکنی هام را بیاورید، اولین بار ده درصد تخفیف می‌گیرید.
+sal: Sal's, just down from the Red Lion. We'll even tell you what we really think of your team. | آرایشگاه سال، کمی پایین‌تر از میخانهٔ رد لاین. حتی نظر واقعی‌مان را دربارهٔ تیمتان هم می‌گوییم.
+Q: How long has Sal's family been cutting hair? | Three generations ; Three years ; Since last summer
+Q: How do you get a discount? | Mention Hackney Hum ; Book online ; Bring a friend
+Q: Why might you have to queue on Saturdays? | Lots of footballers come in ; It's closed on Fridays ; There's only one chair
+
+# r_c1_carfree | C1 | phonein | 18:30 | Phone-in: A Car-free Mare Street? | برنامهٔ تلفنی: خیابان مِر بدون ماشین؟ | Should cars be banned from Mare Street? Two very different callers. | آیا باید ورود ماشین به خیابان مِر ممنوع شود؟ دو تماس‌گیرنده با نظرهای خیلی متفاوت.
+bex: Tonight's phone-in has certainly got people talking: should cars be banned from Mare Street altogether? | برنامهٔ تلفنی امشب حسابی سر زبان‌ها افتاده: آیا باید ورود ماشین به خیابان مِر کاملاً ممنوع شود؟
+bex: On the line is Mrs Khan, who's lived on the street for thirty years. | پشت خط خانم خان است که سی سال است در این خیابان زندگی می‌کند.
+khan: Thank you, dear. I'll be blunt: had the council asked us first, there'd be far less anger now. | ممنون، عزیزم. رک می‌گویم: اگر شهرداری اول از ما پرسیده بود، الان این‌قدر عصبانیت نبود.
+khan: Nobody's against cleaner air, but what about those of us who can't walk far, or who rely on a lift to the hospital? | کسی با هوای پاک‌تر مخالف نیست، ولی تکلیف ما که نمی‌توانیم زیاد راه برویم یا برای رفتن به بیمارستان به کسی وابسته‌ایم که ما را برساند چه می‌شود؟
+bex: That's a fair point. Let's hear the other side. Our next caller is Ryan, who's in Year 10. | حرف منصفانه‌ای است. نظر طرف مقابل را هم بشنویم. تماس‌گیرندهٔ بعدی رایان است که کلاس دهم است.
+ryan: Honestly, it's my generation that'll be living with the pollution, so I think it's worth a bit of inconvenience. | راستش نسل من است که باید با این آلودگی زندگی کند، پس به نظرم کمی دردسر می‌ارزد.
+ryan: What I don't get is why the buses have to sit in traffic behind people driving two streets to the shops. | چیزی که نمی‌فهمم این است که چرا اتوبوس‌ها باید پشت سر کسانی که برای دو خیابان آن‌طرف‌تر تا مغازه رانندگی می‌کنند در ترافیک بمانند.
+khan: He's not wrong about that, actually. My nephew drives to the corner shop, and it's two minutes away! | راستش در این مورد اشتباه نمی‌کند. برادرزادهٔ من تا مغازهٔ سر کوچه با ماشین می‌رود، در حالی که دو دقیقه راه است!
+bex: So, a compromise: buses, bikes and blue badge holders only? | پس یک راه میانه: فقط اتوبوس‌ها، دوچرخه‌ها و دارندگان کارت پارک معلولین؟
+khan: Now that, I could live with. | خب، با این یکی می‌توانم کنار بیایم.
+Q: What is Mrs Khan's main complaint? | The council didn't ask residents first ; She hates buses ; She wants more parking
+Q: Why does Ryan support the ban? | His generation will live with the pollution ; He wants a new cycle lane ; He doesn't like cars
+Q: What compromise does Bex suggest? | Only buses, bikes and blue badge holders ; Cars only at weekends ; A new car park
+
+# r_c1_signals | C1 | travel | 08:10 | Travel: Signal Failure | اخبار رفت‌وآمد: خرابی سیگنال | A difficult morning on the railway, with a conductor on the line. | یک صبح سخت در راه‌آهن، با یک مأمور قطار پشت خط.
+bex: Grace, I gather it's not been the smoothest of starts for rail passengers this morning. | گریس، شنیده‌ام امروز صبح شروع خیلی آرامی برای مسافران قطار نبوده.
+grace: That's putting it mildly, Bex. A signal failure outside the city has left most morning services either delayed or cancelled outright. | این که خیلی ملایم گفتنش است، بکس. خرابی سیگنال بیرون از شهر باعث شده بیشتر قطارهای صبح یا تأخیر داشته باشند یا کلاً لغو شوند.
+grace: Rail replacement buses are running, but passengers are being warned to allow at least an extra hour. | اتوبوس‌های جایگزین قطار کار می‌کنند، اما به مسافران هشدار داده شده دست‌کم یک ساعت بیشتر وقت بگذارند.
+grace: I've got Maya on the line, a conductor who's been on the platform since five. Maya, what's it like? | مایا پشت خط است، مأمور قطاری که از ساعت پنج روی سکو بوده. مایا، اوضاع چطور است؟
+maya: Frankly, it's chaos, but people have been remarkably patient. What frustrates them most isn't the delay itself; it's not knowing. | راستش آشوب است، ولی مردم به‌طرز قابل‌توجهی صبور بوده‌اند. چیزی که بیشتر از همه کلافه‌شان می‌کند خود تأخیر نیست؛ بی‌خبری است.
+maya: So my advice is simple: check before you travel, and don't trust the departure board until you've heard an announcement. | پس توصیهٔ من ساده است: قبل از سفر بررسی کنید و تا اطلاعیه را نشنیده‌اید به تابلوی حرکت اعتماد نکنید.
+grace: Wise words. Meanwhile, on the roads, the A10 is moving well, which is just as well, given how many people seem to be driving instead. | حرف عاقلانه‌ای است. در همین حال، در جاده‌ها ترافیک A10 روان است، که با توجه به این‌همه آدمی که به‌جای قطار رانندگی می‌کنند، جای شکرش باقی است.
+bex: Thanks, Grace, and thanks, Maya. Hang in there, everyone. | ممنون، گریس، و ممنون، مایا. همگی تحمل کنید.
+Q: What caused the problems? | A signal failure ; A strike ; Snow on the tracks
+Q: According to Maya, what frustrates passengers most? | Not knowing what's happening ; The delay itself ; The price of tickets
+Q: What is Maya's advice? | Check before you travel ; Take the A10 ; Stay at home

@@ -6,7 +6,7 @@ H=os.path.dirname(os.path.abspath(__file__)); A=os.path.join(H,'..','assets'); O
 SRC={'home':('kitchen',.5),'playdate':('playdate',.5),'bus':('bus',.35),'nursery':('firstday',.5),'school':('school',.5),'park':('park',.5),
  'station':('train',.5),'cafe':('coffee',.45),'restaurant':('restaurant',.5),'pharmacy':('pharmacy',.5),'shops':('bakery',.5),'barber':('barber',.5),
  'supermarket':('supermarket',.5),'shoppingcentre':('shoppingcentre',.5),'library':('library',.5),'postoffice':('postoffice',.5),'bank':('bank',.5),
- 'gp':('gp',.5),'hospital':('doctor',.5),'museum':(None,0),'cinema':(None,0),'gym':('gym',.5),'pub':('pub',.5),'garage':('petrol',.5),
+ 'gp':('gp',.5),'hospital':('doctor',.5),'museum':(None,0),'cinema':(None,0),'radio':(None,0),'gym':('gym',.5),'pub':('pub',.5),'garage':('petrol',.5),
  'work':('interview',.5),'university':('university',.5)}
 spots=json.load(open(os.path.join(A,'data','spots.json')))
 M=Image.open(os.path.join(A,'places','map.webp')).convert('RGB')
