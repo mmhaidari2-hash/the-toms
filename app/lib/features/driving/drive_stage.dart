@@ -97,7 +97,7 @@ class _DriveStageState extends State<DriveStage> with SingleTickerProviderStateM
       child: ColoredBox(
         color: const Color(0xFF111114),
         child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          AspectRatio(aspectRatio: 16 / 9, child: scene),
+          AspectRatio(aspectRatio: 16 / 9, child: ClipRect(child: scene)),
           Container(
             key: const ValueKey('drv-subtitle'),
             constraints: const BoxConstraints(minHeight: 66),
