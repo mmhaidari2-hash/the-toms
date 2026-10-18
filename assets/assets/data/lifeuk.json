@@ -388,7 +388,10 @@
     "https://www.english-heritage.org.uk/visit/places/stonehenge/",
     "https://www.bl.uk/magna-carta",
     "https://www.parliament.uk/about/living-heritage/",
-    "https://www.nhs.uk/"
+    "https://www.nhs.uk/",
+    "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+    "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/collections-the-vote-and-after/representation-of-the-people-act-1918/",
+    "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/slavetrade/key-dates/"
    ],
    "expl": [
     {
@@ -407,9 +410,9 @@
      "ms": 15648
     },
     {
-     "en": "Women over 30 won the vote in 1918, and women got the vote at the same age as men in 1928. Britain fought in two world wars. The NHS began in 1948, and Margaret Thatcher became the first woman Prime Minister in 1979.",
-     "fa": "زنان بالای ۳۰ سال در ۱۹۱۸ حق رأی گرفتند و در ۱۹۲۸ زنان هم‌سن مردان حق رأی یافتند. بریتانیا در دو جنگ جهانی جنگید. خدمات ملی سلامت در ۱۹۴۸ آغاز شد و مارگارت تاچر در ۱۹۷۹ نخستین نخست‌وزیر زن شد.",
-     "ms": 18792
+     "en": "Many women over 30 won the vote in 1918, and women got the vote at the same age as men in 1928. Britain fought in two world wars. The NHS began in 1948, and Margaret Thatcher became the first woman Prime Minister in 1979.",
+     "fa": "در ۱۹۱۸ بسیاری از زنان بالای ۳۰ سال (با شرط دارایی) حق رأی گرفتند و در ۱۹۲۸ زنان هم‌سن مردان حق رأی یافتند. بریتانیا در دو جنگ جهانی جنگید. خدمات ملی سلامت در ۱۹۴۸ آغاز شد و مارگارت تاچر در ۱۹۷۹ نخستین نخست‌وزیر زن شد.",
+     "ms": 19128
     }
    ],
    "cards": [
@@ -685,8 +688,8 @@
      ],
      "answer": 0,
      "tf": false,
-     "why": "Women over 30 got the vote in 1918; in 1928 women could vote at 21, the same as men.",
-     "whyFa": "زنان بالای ۳۰ سال در ۱۹۱۸ حق رأی گرفتند؛ در ۱۹۲۸ زنان مثل مردان از ۲۱ سالگی رأی دادند."
+     "why": "In 1918 women over 30 who met a property qualification got the vote; in 1928 women could vote at 21, the same as men.",
+     "whyFa": "در ۱۹۱۸ بسیاری از زنان بالای ۳۰ سال (با شرط دارایی) حق رأی گرفتند؛ در ۱۹۲۸ زنان مثل مردان از ۲۱ سالگی رأی دادند."
     },
     {
      "id": "history_16",
@@ -775,8 +778,8 @@
      ],
      "answer": 0,
      "tf": false,
-     "why": "Tim Berners-Lee, a British scientist, created the World Wide Web around 1990.",
-     "whyFa": "تیم برنرز لی، دانشمند بریتانیایی، وب جهان‌گستر را حدود ۱۹۹۰ ساخت."
+     "why": "Tim Berners-Lee, a British scientist, invented the World Wide Web at CERN in 1989; the first website went live in 1990.",
+     "whyFa": "تیم برنرز لی، دانشمند بریتانیایی، وب جهان‌گستر را در ۱۹۸۹ در سرن اختراع کرد؛ نخستین وب‌سایت در ۱۹۹۰ راه افتاد."
     }
    ]
   },
@@ -788,7 +791,9 @@
     "https://www.gov.uk/tv-licence",
     "https://www.gov.uk/driving-lessons-learning-to-drive",
     "https://www.gov.uk/getting-an-mot",
-    "https://www.parliament.uk/bigben"
+    "https://www.parliament.uk/bigben",
+    "https://www.guinnessworldrecords.com/world-records/oldest-surviving-tennis-tournament",
+    "https://www.thejockeyclub.co.uk/the-grand-national/"
    ],
    "expl": [
     {
@@ -1085,8 +1090,8 @@
      ],
      "answer": 0,
      "tf": false,
-     "why": "You can apply for a provisional licence before your birthday and start driving a car at 17.",
-     "whyFa": "می‌توانی گواهی موقت بگیری و از ۱۷ سالگی رانندگی ماشین را شروع کنی."
+     "why": "You can apply for a provisional licence at 15 years and 9 months and usually start driving a car at 17.",
+     "whyFa": "می‌توانی از ۱۵ سال و ۹ ماهگی گواهی موقت بگیری و از ۱۷ سالگی رانندگی ماشین را شروع کنی."
     },
     {
      "id": "society_16",
@@ -1170,6 +1175,7 @@
    "src": [
     "https://www.parliament.uk/about/mps-and-lords/",
     "https://www.parliament.scot/about",
+    "https://www.gov.uk/citizenship-ceremonies",
     "https://senedd.wales/",
     "https://www.niassembly.gov.uk/",
     "https://www.gov.uk/jury-service",
