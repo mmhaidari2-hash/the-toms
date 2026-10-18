@@ -53,18 +53,24 @@ void main() {
     }
   });
 
-  test('B1+ books are voiced per character: dialogue lines are pure quotes with a named, known speaker', () {
+  test('books are voiced per character (A1–C1): dialogue lines are pure quotes with a named, known speaker', () {
     final voices = RegExp(r"'([a-z]+)':\('en-").allMatches(File('tool/render_voices.py').readAsStringSync()).map((m) => m.group(1)!).toSet();
-    for (final b in books.where((b) => !b.level.startsWith('A'))) {
+    var early = 0;
+    for (final b in books) {
       final ss = [for (final c in b.chapters) ...c.sentences];
       final spoken = ss.where((s) => s.sp != null).toList();
-      expect(spoken.map((s) => s.sp).toSet().length, greaterThanOrEqualTo(2), reason: '${b.id} needs 2+ voiced characters');
+      if (b.level.startsWith('A')) {
+        early += spoken.length;
+      } else {
+        expect(spoken.map((s) => s.sp).toSet().length, greaterThanOrEqualTo(2), reason: '${b.id} needs 2+ voiced characters');
+      }
       for (final s in spoken) {
         expect(voices, contains(s.sp), reason: '${b.id}: unknown voice ${s.sp}');
         expect(s.spName ?? '', isNotEmpty, reason: '${b.id}: ${s.sp} has no display name');
         expect(s.en.startsWith('"') && s.en.endsWith('"'), isTrue, reason: 'only the quote is voiced: ${s.en}');
       }
     }
+    expect(early, greaterThanOrEqualTo(40), reason: 'A1/A2 dialogue voiced per character too');
   });
 
   test('shelves unlock with the Grammar School / course level rule', () async {

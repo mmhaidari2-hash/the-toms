@@ -6,8 +6,8 @@ He has got ten toy buses. | او ده اتوبوس اسباب‌بازی دار�
 His favourite bus is red. | اتوبوس محبوبش قرمز است.
 His dad, Tom, is a bus driver. | پدرش، تام، رانندهٔ اتوبوس است.
 Tom drives the number 38 in Hackney. | تام اتوبوس شمارهٔ ۳۸ را در هاکنی می‌راند.
-"Can I go on your bus, Daddy?" asks William. | ویلیام می‌پرسد: «بابایی، می‌توانم سوار اتوبوست بشوم؟»
-"Yes, on Saturday," says Tom. | تام می‌گوید: «بله، شنبه.»
+william> "Can I go on your bus, Daddy?" | «بابایی، می‌توانم سوار اتوبوست بشوم؟»
+tom> "Yes, on Saturday." | «بله، شنبه.»
 Q: What is Tom's job? | He is a bus driver. ; He is a teacher. ; He is a baker.
 Q: What colour is William's favourite bus? | Red ; Blue ; Green
 W: toy=اسباب‌بازی ; favourite=محبوب ; driver=راننده ; drives=می‌راند ; daddy=بابایی ; asks=می‌پرسد ; says=می‌گوید
@@ -18,7 +18,7 @@ A big red bus comes. It is the 38! | یک اتوبوس بزرگ قرمز می‌
 Daddy waves from the window. | بابا از پنجره دست تکان می‌دهد.
 William sits at the front. | ویلیام جلو می‌نشیند.
 He sees shops, trees and a big park. | او مغازه‌ها، درخت‌ها و یک پارک بزرگ را می‌بیند.
-"Ding ding!" says William. "Next stop, please!" | ویلیام می‌گوید: «دینگ دینگ! ایستگاه بعد، لطفاً!»
+william> "Ding ding! Next stop, please!" | «دینگ دینگ! ایستگاه بعد، لطفاً!»
 It is the best day ever. | بهترین روز عمرش است.
 Q: Where does William sit? | At the front ; At the back ; Next to Daddy
 Q: What does William see? | Shops, trees and a park ; The sea ; A train
@@ -32,7 +32,7 @@ His name is Mr Brown. | اسمش آقای براون است.
 Mr Brown is old and soft. | آقای براون قدیمی و نرم است.
 Nicola sleeps with him every night. | نیکولا هر شب با او می‌خوابد.
 But tonight Mr Brown is not in her bed. | اما امشب آقای براون در تختش نیست.
-"Mummy! Where is Mr Brown?" | «مامانی! آقای براون کجاست؟»
+nicola> "Mummy! Where is Mr Brown?" | «مامانی! آقای براون کجاست؟»
 Nicola is very sad. | نیکولا خیلی ناراحت است.
 Q: What is the teddy's name? | Mr Brown ; Mr Bear ; Teddy Red
 Q: How does Nicola feel? | Sad ; Happy ; Hungry
@@ -42,7 +42,7 @@ Leslie looks under the bed. No teddy. | لزلی زیر تخت را نگاه م�
 Tom looks in the kitchen. No teddy. | تام در آشپزخانه را نگاه می‌کند. خرسی نیست.
 Ryan looks in the garden. No teddy. | رایان در باغچه را نگاه می‌کند. خرسی نیست.
 Then William laughs. | بعد ویلیام می‌خندد.
-"Mr Brown is in my bus box!" he says. | می‌گوید: «آقای براون توی جعبهٔ اتوبوس‌های من است!»
+william> "Mr Brown is in my bus box!" | «آقای براون توی جعبهٔ اتوبوس‌های من است!»
 Mr Brown is on a toy bus. He is a passenger! | آقای براون روی یک اتوبوس اسباب‌بازی است. او مسافر است!
 Nicola hugs Mr Brown. | نیکولا آقای براون را بغل می‌کند.
 Now everyone can go to sleep. | حالا همه می‌توانند بخوابند.
@@ -59,19 +59,19 @@ Leslie makes toast. | لزلی نان تست درست می‌کند.
 Nicola wants cereal with milk. | نیکولا غلات صبحانه با شیر می‌خواهد.
 William wants jam on his toast. | ویلیام روی نان تستش مربا می‌خواهد.
 Ryan is still in bed! | رایان هنوز در تخت است!
-"Ryan! Get up!" shouts Tom. | تام داد می‌زند: «رایان! بلند شو!»
+tom> "Ryan! Get up!" | «رایان! بلند شو!»
 Q: What does Leslie make? | Toast ; Tea ; Eggs
 Q: Where is Ryan? | In bed ; At school ; In the garden
 W: o'clock=ساعت (دقیق) ; busy=شلوغ ; makes=درست می‌کند ; toast=نان تست ; cereal=غلات صبحانه ; milk=شیر ; jam=مربا ; still=هنوز ; get up=بلند شدن ; shouts=داد می‌زند
 ## Late again | باز هم دیر
 Ryan comes down at half past seven. | رایان ساعت هفت و نیم پایین می‌آید.
 His hair is a mess. | موهایش به هم ریخته است.
-"Is there any toast?" he asks. | می‌پرسد: «نان تست هست؟»
-"No," says Nicola. "William has got it!" | نیکولا می‌گوید: «نه. ویلیام برداشته!»
+ryan> "Is there any toast?" | «نان تست هست؟»
+nicola> "No. William has got it!" | «نه. ویلیام برداشته!»
 William has got jam on his face. | ویلیام روی صورتش مربا دارد.
 Everyone laughs. | همه می‌خندند.
 Leslie gives Ryan a banana. | لزلی به رایان یک موز می‌دهد.
-"Go! The school bus is here!" | «برو! اتوبوس مدرسه اینجاست!»
+leslie> "Go! The school bus is here!" | «برو! اتوبوس مدرسه اینجاست!»
 Q: What time does Ryan come down? | Half past seven ; Seven o'clock ; Eight o'clock
 Q: What does Leslie give Ryan? | A banana ; Toast ; Cereal
 W: comes down=پایین می‌آید ; half past=و نیم ; hair=مو ; mess=به‌هم‌ریخته ; any=هیچ ؛ کمی ; face=صورت ; gives=می‌دهد ; banana=موز ; school bus=اتوبوس مدرسه ; here=اینجا
@@ -81,11 +81,11 @@ W: comes down=پایین می‌آید ; half past=و نیم ; hair=مو ; mess=
 Mrs Patel lives on Mare Street. | خانم پاتل در خیابان مِر زندگی می‌کند.
 She has got a cat. | او یک گربه دارد.
 The cat is orange and white. | گربه نارنجی و سفید است.
-His name is Biscuit. | اسمش بیسکویت است.
+Her name is Biscuit. | اسمش بیسکویت است.
 Biscuit is very fat and very lazy. | بیسکویت خیلی چاق و خیلی تنبل است.
-He likes fish and sleeping in the sun. | او ماهی و خوابیدن زیر آفتاب را دوست دارد.
-Every morning he visits the Thompsons. | هر صبح به خانهٔ تامسون‌ها سر می‌زند.
-Nicola gives him milk. Shh! Don't tell Mrs Patel! | نیکولا به او شیر می‌دهد. هیس! به خانم پاتل نگویید!
+She likes fish and sleeping in the sun. | او ماهی و خوابیدن زیر آفتاب را دوست دارد.
+Every morning she visits the Thompsons. | هر صبح به خانهٔ تامسون‌ها سر می‌زند.
+Nicola gives her milk. Shh! Don't tell Mrs Patel! | نیکولا به او شیر می‌دهد. هیس! به خانم پاتل نگویید!
 Q: What colour is Biscuit? | Orange and white ; Black ; Grey
 Q: What does Biscuit like? | Fish and sleeping in the sun ; Dogs ; Rain
 W: lives=زندگی می‌کند ; cat=گربه ; orange=نارنجی ; white=سفید ; fat=چاق ; lazy=تنبل ; fish=ماهی ; sun=آفتاب ; visits=سر می‌زند ؛ دیدن می‌کند ; shh=هیس ; tell=گفتن
@@ -95,9 +95,9 @@ Mrs Patel is worried. | خانم پاتل نگران است.
 She knocks on every door. | او در همهٔ خانه‌ها را می‌زند.
 "Have you got my cat?" | «گربه‌ام پیش شماست؟»
 Tom opens his shed. | تام انبارش را باز می‌کند.
-There is Biscuit! He is asleep on an old chair. | بیسکویت آنجاست! روی یک صندلی قدیمی خوابیده است.
+There is Biscuit! She is asleep on an old chair. | بیسکویت آنجاست! روی یک صندلی قدیمی خوابیده است.
 Mrs Patel is very happy. | خانم پاتل خیلی خوشحال است.
-Biscuit is happy too. He has got a new bed! | بیسکویت هم خوشحال است. یک تخت جدید دارد!
+Biscuit is happy too. She has got a new bed! | بیسکویت هم خوشحال است. یک تخت جدید دارد!
 Q: Where is Biscuit? | In Tom's shed ; In the park ; At school
 Q: How does Mrs Patel feel at the end? | Very happy ; Worried ; Angry
 W: one day=یک روز ; come home=به خانه آمدن ; worried=نگران ; knocks=در می‌زند ; door=در ; opens=باز می‌کند ; shed=انبار ؛ آلونک باغ ; asleep=خواب ; chair=صندلی ; happy=خوشحال ; too=هم ; new=جدید
@@ -117,10 +117,10 @@ Q: What time does his alarm ring? | At six ; At seven ; At eight
 W: fifteen=پانزده ; job=کار ; works=کار می‌کند ; bakery=نانوایی ; starts=شروع می‌کند ; mornings=صبح‌ها ; alarm=زنگ ساعت ; rings=زنگ می‌زند ; washes=می‌شوید ; runs=می‌دود ; smells of=بوی … می‌دهد ; bread=نان ; cake=کیک
 ## At the till | پشت صندوق
 Gareth the baker is kind. | گرت نانوا مهربان است.
-"Ryan, you can work at the till," he says. | می‌گوید: «رایان، تو می‌توانی پشت صندوق کار کنی.»
+baker> "Ryan, you can work at the till." | «رایان، تو می‌توانی پشت صندوق کار کنی.»
 The first customer is Nana Maggie! | اولین مشتری نانا مگی است!
-"Two sausage rolls, please," she says. | می‌گوید: «دو تا رول سوسیس، لطفاً.»
-"That's three pounds, please," says Ryan. | رایان می‌گوید: «می‌شود سه پوند، لطفاً.»
+weda> "Two sausage rolls, please." | «دو تا رول سوسیس، لطفاً.»
+ryan> "That's three pounds, please." | «می‌شود سه پوند، لطفاً.»
 Nana gives him three pounds and a big smile. | نانا سه پوند و یک لبخند بزرگ به او می‌دهد.
 At one o'clock Ryan is tired but happy. | ساعت یک رایان خسته اما خوشحال است.
 He has got his first money and a free doughnut. | او اولین پولش و یک دونات مجانی را دارد.
@@ -132,8 +132,8 @@ W: baker=نانوا ; kind=مهربان ; till=صندوق ; first=اولین ; c
 ## Grey sky | آسمان خاکستری
 It is Monday. The sky is grey. | دوشنبه است. آسمان خاکستری است.
 It is raining again. | دوباره باران می‌بارد.
-"Oh no, rain!" says Tom. | تام می‌گوید: «وای نه، باران!»
-"Oh yes, rain!" says Nicola. | نیکولا می‌گوید: «آخ جان، باران!»
+tom> "Oh no, rain!" | «وای نه، باران!»
+nicola> "Oh yes, rain!" | «آخ جان، باران!»
 Nicola has got new wellies. | نیکولا چکمه‌های لاستیکی جدید دارد.
 They are pink with yellow spots. | صورتی با خال‌های زرد هستند.
 She puts on her coat and her wellies. | کت و چکمه‌هایش را می‌پوشد.
@@ -146,23 +146,23 @@ They walk to school. | آن‌ها پیاده به مدرسه می‌روند.
 There are puddles everywhere. | همه‌جا چالهٔ آب هست.
 Nicola jumps in every puddle. Splash! | نیکولا توی هر چاله می‌پرد. شلپ!
 Tom's trousers are wet. | شلوار تام خیس است.
-"Nicola! My trousers!" | «نیکولا! شلوارم!»
+tom> "Nicola! My trousers!" | «نیکولا! شلوارم!»
 At school, Mrs Ellis smiles. | در مدرسه، خانم الیس لبخند می‌زند.
-"Lovely weather for ducks!" she says. | می‌گوید: «هوای عالی برای اردک‌ها!»
+ellis> "Lovely weather for ducks!" | «هوای عالی برای اردک‌ها!»
 Nicola is dry and happy. Tom is wet and cold! | نیکولا خشک و خوشحال است. تام خیس و سرمازده است!
 Q: What does Nicola jump in? | Puddles ; The sea ; A pool
 Q: Who is wet? | Tom ; Nicola ; Mrs Ellis
 W: walk=پیاده رفتن ; puddles=چاله‌های آب ; everywhere=همه‌جا ; jumps=می‌پرد ; splash=شلپ ; trousers=شلوار ; wet=خیس ; smiles=لبخند می‌زند ; weather=هوا ; ducks=اردک‌ها ; dry=خشک ; cold=سرد
 
-# a1_shop | A1 | Mr Patel's Shop | مغازهٔ آقای پاتل | supermarket | Mr Patel's corner shop is open from seven in the morning until midnight. | مغازهٔ سر کوچهٔ آقای پاتل از هفت صبح تا نیمه‌شب باز است.
+# a1_shop | A1 | The Corner Shop | مغازهٔ سر کوچه | supermarket | Priya's corner shop is open from seven in the morning until midnight. | مغازهٔ سر کوچه‌ای که پریا در آن کار می‌کند از هفت صبح تا نیمه‌شب باز است.
 ## The corner shop | مغازهٔ سر کوچه
-Mr Patel has got a small shop. | آقای پاتل یک مغازهٔ کوچک دارد.
+Priya works in a small shop. | پریا در یک مغازهٔ کوچک کار می‌کند.
 It is on the corner of Mare Street. | سر خیابان مِر است.
 The shop sells milk, bread, fruit and sweets. | مغازه شیر، نان، میوه و شیرینی می‌فروشد.
 It opens at seven in the morning. | ساعت هفت صبح باز می‌شود.
 It closes at midnight. | نیمه‌شب بسته می‌شود.
-Mr Patel knows everyone's name. | آقای پاتل اسم همه را می‌داند.
-"Morning, Tom! The usual?" he says. | می‌گوید: «صبح بخیر تام! همیشگی؟»
+Priya knows everyone's name. | پریا اسم همه را می‌داند.
+priya> "Morning, Tom! The usual?" | «صبح بخیر تام! همیشگی؟»
 Tom buys a newspaper and a coffee every day. | تام هر روز یک روزنامه و یک قهوه می‌خرد.
 Q: What time does the shop open? | At seven in the morning ; At nine ; At midnight
 Q: What does Tom buy every day? | A newspaper and a coffee ; Milk and bread ; Sweets
@@ -172,8 +172,8 @@ On Friday Nicola comes with Nana Maggie. | جمعه نیکولا با نانا �
 Nicola has got two pounds. | نیکولا دو پوند دارد.
 It is her pocket money. | پول توجیبی‌اش است.
 She looks at the sweets for a long time. | مدت زیادی به شیرینی‌ها نگاه می‌کند.
-"How much is this chocolate?" she asks. | می‌پرسد: «این شکلات چند است؟»
-"One pound," says Mr Patel. | آقای پاتل می‌گوید: «یک پوند.»
+nicola> "How much is this chocolate?" | «این شکلات چند است؟»
+priya> "One pound." | «یک پوند.»
 Nicola buys the chocolate. She saves one pound. | نیکولا شکلات را می‌خرد. یک پوند پس‌انداز می‌کند.
 She is saving for a toy unicorn! | او برای یک تک‌شاخ اسباب‌بازی پس‌انداز می‌کند!
 Q: How much money has Nicola got? | Two pounds ; Five pounds ; One pound
@@ -184,12 +184,12 @@ W: pocket money=پول توجیبی ; long time=مدت طولانی ; how much=�
 ## Ducks and swings | اردک‌ها و تاب‌ها
 Nana Maggie looks after Nicola and William. | نانا مگی از نیکولا و ویلیام نگهداری می‌کند.
 Today the sun is out. | امروز آفتاب درآمده است.
-"Let's go to the park!" says Nana Maggie. | نانا مگی می‌گوید: «بیایید برویم پارک!»
+weda> "Let's go to the park!" | «بیایید برویم پارک!»
 The park has got a big pond. | پارک یک برکهٔ بزرگ دارد.
 There are ducks and swans on the pond. | روی برکه اردک و قو هست.
 William gives the ducks some peas. | ویلیام به اردک‌ها کمی نخودفرنگی می‌دهد.
 Nicola goes on the swings. | نیکولا تاب‌سواری می‌کند.
-"Higher, Nana! Higher!" she shouts. | داد می‌زند: «بلندتر، نانا! بلندتر!»
+nicola> "Higher, Nana! Higher!" | «بلندتر، نانا! بلندتر!»
 Q: What is on the pond? | Ducks and swans ; Boats ; Fish and frogs
 Q: What does William give the ducks? | Peas ; Bread ; Cake
 W: looks after=نگهداری می‌کند ; sun is out=آفتاب درآمده ; let's=بیایید ; pond=برکه ؛ آبگیر ; swans=قوها ; peas=نخودفرنگی ; goes on=سوار … می‌شود ; swings=تاب‌ها ; higher=بلندتر

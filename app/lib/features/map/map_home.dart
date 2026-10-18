@@ -296,6 +296,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.local_fire_department_rounded, 'Streak, goal, league & badges', 'رکورد، هدف، لیگ و نشان‌ها', '/progress'),
     (Icons.school_rounded, 'Grammar School', 'مدرسهٔ دستور زبان', '/school'),
     (Icons.local_library_rounded, 'Library · graded readers', 'کتابخانه · کتاب‌های داستان', '/library'),
+    (Icons.movie_rounded, 'Cinema & dubbing', 'سینما و دوبله', '/cinema'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
     (Icons.workspace_premium_outlined, 'Premium (free in beta)', 'اشتراک ویژه (رایگان در دورهٔ آزمایشی)', '/premium'),

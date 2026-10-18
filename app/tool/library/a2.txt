@@ -14,7 +14,8 @@ Q: What happened on the train? | He fell asleep ; He lost his phone ; He met a f
 W: last=گذشته ; day off=روز مرخصی ; took=سوار شد ؛ برد ; into town=به مرکز شهر ; present=هدیه ; crowded=شلوغ ; stood=ایستاد ; doors=درها ; checked=نگاه کرد ؛ بررسی کرد ; read=خواند ; news=اخبار ; found=پیدا کرد ; seat=صندلی ؛ جا ; put=گذاشت ; wallet=کیف پول ; knee=زانو ; fell asleep=خوابش برد ; woke up=بیدار شد ; jumped up=از جا پرید ; ran out=بیرون دوید ; later=بعد ; hand=دست ; pocket=جیب
 ## A kind stranger | یک غریبهٔ مهربان
 Tom felt sick. His bank cards and his driving licence were in that wallet. | تام حالش بد شد. کارت‌های بانکی و گواهینامه‌اش در آن کیف بود.
-He phoned Leslie. "Don't panic," she said. "Ring the lost property office." | به لزلی زنگ زد. لزلی گفت: «هول نکن. به دفتر اشیای گمشده زنگ بزن.»
+He phoned Leslie. | به لزلی زنگ زد.
+leslie> "Don't panic. Ring the lost property office." | «هول نکن. به دفتر اشیای گمشده زنگ بزن.»
 He rang them, but nobody had his wallet. | زنگ زد، اما کیف پول او پیش هیچ‌کس نبود.
 That evening there was a knock at the door. | آن شب کسی در زد.
 An old man was standing outside with a brown wallet in his hand. | پیرمردی با یک کیف پول قهوه‌ای در دست بیرون ایستاده بود.
@@ -31,7 +32,7 @@ W: felt sick=حالش بد شد ; bank cards=کارت‌های بانکی ; driv
 Nicola's birthday was on Saturday and she was going to be six. | تولد نیکولا شنبه بود و قرار بود شش ساله شود.
 She wanted a unicorn party with ten friends from school. | او یک جشن تک‌شاخی با ده دوست از مدرسه می‌خواست.
 Leslie made a list: balloons, sandwiches, crisps, games and a cake. | لزلی یک فهرست نوشت: بادکنک، ساندویچ، چیپس، بازی و کیک.
-"I'm going to bake the cake myself," said Tom. | تام گفت: «خودم می‌خواهم کیک را بپزم.»
+tom> "I'm going to bake the cake myself." | «خودم می‌خواهم کیک را بپزم.»
 Everyone looked at him. Tom never baked anything. | همه به او نگاه کردند. تام هیچ‌وقت چیزی نپخته بود.
 On Friday night he made a huge pink cake with a horn on top. | جمعه شب یک کیک صورتی بزرگ با یک شاخ رویش درست کرد.
 It looked a bit strange, but it smelt wonderful. | کمی عجیب به نظر می‌رسید، اما بوی فوق‌العاده‌ای داشت.
@@ -43,7 +44,7 @@ W: going to=قرار است ؛ می‌خواهد ; wanted=می‌خواست ; fr
 On Saturday afternoon the house was full of noisy children. | شنبه بعدازظهر خانه پر از بچه‌های پرسروصدا بود.
 They played musical chairs and pass the parcel. | آن‌ها صندلی موزیکال و «بسته را رد کن» بازی کردند.
 At four o'clock Leslie went to get the cake. The shelf was empty! | ساعت چهار لزلی رفت کیک را بیاورد. طبقه خالی بود!
-"Tom! Where's the cake?" she whispered. | آهسته گفت: «تام! کیک کجاست؟»
+leslie> "Tom! Where's the cake?" | «تام! کیک کجاست؟»
 They looked everywhere. Then they heard a noise in the garden. | همه‌جا را گشتند. بعد صدایی از باغچه شنیدند.
 Biscuit, Mrs Patel's cat, was sitting on the table next to the cake. | بیسکویت، گربهٔ خانم پاتل، روی میز کنار کیک نشسته بود.
 Luckily, he only ate a little bit of the horn. | خوشبختانه فقط کمی از شاخ را خورده بود.
@@ -56,8 +57,10 @@ W: afternoon=بعدازظهر ; full of=پر از ; noisy=پرسروصدا ; chi
 # a2_christmas | A2 | A Very Thompson Christmas | کریسمس به سبک تامسون‌ها | christmas | Crackers, a burnt turkey and the King's speech: Christmas Day with the Thompsons. | ترقه‌های کریسمس، بوقلمون سوخته و سخنرانی پادشاه: روز کریسمس با تامسون‌ها.
 ## Christmas morning | صبح کریسمس
 On Christmas morning William woke up at five o'clock. | صبح کریسمس ویلیام ساعت پنج بیدار شد.
-He ran into Mummy and Daddy's room. "Has Father Christmas been?" | دوید به اتاق مامان و بابا. «بابانوئل آمده؟»
-"Go back to sleep!" said Tom. But it was too late. | تام گفت: «برگرد بخواب!» اما دیگر دیر شده بود.
+He ran into Mummy and Daddy's room. | دوید به اتاق مامان و بابا.
+william> "Has Father Christmas been?" | «بابانوئل آمده؟»
+tom> "Go back to sleep!" | «برگرد بخواب!»
+But it was too late. | اما دیگر دیر شده بود.
 By six, everyone was in the living room in their pyjamas. | تا ساعت شش همه با لباس خواب در اتاق نشیمن بودند.
 The stockings were full of small presents, sweets and a satsuma. | جوراب‌های کریسمس پر از هدیه‌های کوچک، شیرینی و یک نارنگی بود.
 Nicola got a unicorn and William got a new red bus, of course. | نیکولا یک تک‌شاخ گرفت و ویلیام البته یک اتوبوس قرمز جدید.
@@ -70,7 +73,7 @@ W: christmas=کریسمس ; father christmas=بابانوئل ; been=آمده ؛
 At two o'clock the family sat down for Christmas dinner. | ساعت دو خانواده برای شام کریسمس نشستند.
 There were roast potatoes, carrots, sprouts and lots of gravy. | سیب‌زمینی تنوری، هویج، کلم بروکسل و کلی سس گوشت بود.
 The turkey was a bit black on one side. | بوقلمون یک طرفش کمی سیاه شده بود.
-"It's not burnt, it's crispy," said Tom. | تام گفت: «نسوخته، ترد شده.»
+tom> "It's not burnt, it's crispy." | «نسوخته، ترد شده.»
 They pulled the crackers and put on silly paper hats. | ترقه‌های کریسمس را کشیدند و کلاه‌های کاغذی خنده‌دار سرشان گذاشتند.
 Tom read the jokes out loud. Nobody laughed, except Tom. | تام جوک‌ها را بلند خواند. هیچ‌کس نخندید، جز خود تام.
 At three they watched the King's speech on TV. | ساعت سه سخنرانی پادشاه را در تلویزیون تماشا کردند.
@@ -87,7 +90,7 @@ She practised every evening in the garden with a real egg. | هر عصر با ی
 On Monday she dropped three eggs. | دوشنبه سه تا تخم‌مرغ انداخت.
 On Tuesday she dropped two. | سه‌شنبه دو تا انداخت.
 By Thursday she was much faster and she didn't drop any. | تا پنجشنبه خیلی سریع‌تر شده بود و هیچ‌کدام را نینداخت.
-"You're better than me," said Ryan. "I was always the slowest in my class." | رایان گفت: «تو از من بهتری. من همیشه کندترین بچهٔ کلاسم بودم.»
+ryan> "You're better than me. I was always the slowest in my class." | «تو از من بهتری. من همیشه کندترین بچهٔ کلاسم بودم.»
 William watched carefully. He wanted to help his sister. | ویلیام با دقت تماشا کرد. می‌خواست به خواهرش کمک کند.
 Q: What did Nicola use for practice? | A real egg ; A ball ; A potato
 Q: How many eggs did she drop on Monday? | Three ; Two ; None
@@ -99,7 +102,7 @@ Mrs Ellis blew the whistle and the children started walking quickly. | خانم 
 One boy dropped his egg. Then a girl dropped hers. | یک پسر تخم‌مرغش را انداخت. بعد یک دختر.
 Nicola walked slowly and carefully, and she won! | نیکولا آهسته و با دقت راه رفت، و برنده شد!
 After the race she looked at her egg. It was a small potato! | بعد از مسابقه به تخم‌مرغش نگاه کرد. یک سیب‌زمینی کوچک بود!
-"I painted it," said William proudly. "Potatoes don't break." | ویلیام با افتخار گفت: «من رنگش کردم. سیب‌زمینی نمی‌شکند.»
+william> "I painted it. Potatoes don't break." | «من رنگش کردم. سیب‌زمینی نمی‌شکند.»
 Leslie laughed, then she told Mrs Ellis the truth. | لزلی خندید، بعد حقیقت را به خانم الیس گفت.
 Nicola didn't get the medal, but she got the biggest cheer of the day. | نیکولا مدال نگرفت، اما بلندترین تشویق آن روز مال او بود.
 Q: What was Nicola's "egg"? | A painted potato ; A plastic egg ; A real egg
@@ -113,7 +116,7 @@ They caught an early train from Victoria. | آن‌ها یک قطار صبح ز�
 The journey took an hour, and William counted forty-two cows. | سفر یک ساعت طول کشید و ویلیام چهل و دو گاو شمرد.
 When they arrived, the sky was blue and the sea was sparkling. | وقتی رسیدند، آسمان آبی بود و دریا می‌درخشید.
 The beach was full of stones, not sand. | ساحل پر از سنگ‌ریزه بود، نه شن.
-"Ouch! It's harder than our beach in Spain!" said Nicola. | نیکولا گفت: «آخ! از ساحل‌مان در اسپانیا سفت‌تره!»
+nicola> "Ouch! It's harder than our beach in Spain!" | «آخ! از ساحل‌مان در اسپانیا سفت‌تره!»
 Tom and Ryan went in the sea. It was freezing! | تام و رایان رفتند توی دریا. یخ بود!
 Leslie read her book and William built a tower of stones. | لزلی کتابش را خواند و ویلیام یک برج از سنگ‌ریزه ساخت.
 Q: How long was the journey? | An hour ; Three hours ; Ten minutes
@@ -124,10 +127,12 @@ At lunchtime it suddenly started to rain. | ظهر ناگهان باران گر�
 Everyone ran into a little fish and chip shop on the pier. | همه دویدند داخل یک مغازهٔ کوچک ماهی و سیب‌زمینی روی اسکله.
 They ordered five portions of cod and chips and a bowl of mushy peas. | پنج پرس ماهی کاد و سیب‌زمینی و یک کاسه نخود له‌شده سفارش دادند.
 Tom put lots of salt and vinegar on his chips. | تام کلی نمک و سرکه روی سیب‌زمینی‌اش ریخت.
-"These are the best chips in England," he said. He says that every year. | گفت: «این‌ها بهترین چیپس انگلستان است.» هر سال همین را می‌گوید.
+tom> "These are the best chips in England." | «این‌ها بهترین چیپس انگلستان است.»
+He says that every year. | هر سال همین را می‌گوید.
 After lunch the rain stopped and they went back to the beach. | بعد از ناهار باران بند آمد و به ساحل برگشتند.
 Suddenly a seagull flew down and stole Ryan's last chip. | ناگهان یک مرغ دریایی پایین آمد و آخرین سیب‌زمینی رایان را دزدید.
-"Oi! That was mine!" shouted Ryan. Everybody laughed, except Ryan. | رایان داد زد: «هوی! مال من بود!» همه خندیدند، جز رایان.
+ryan> "Oi! That was mine!" | «هوی! مال من بود!»
+Everybody laughed, except Ryan. | همه خندیدند، جز رایان.
 They got home late, tired, sandy and very happy. | دیروقت، خسته، شنی و خیلی خوشحال به خانه رسیدند.
 Q: Where did they eat? | In a fish and chip shop on the pier ; At home ; On the train
 Q: What did the seagull steal? | Ryan's last chip ; Tom's hat ; William's ice cream
@@ -137,9 +142,10 @@ W: lunchtime=وقت ناهار ; suddenly=ناگهان ; fish and chip shop=مغ
 ## Night visitor | مهمان شب
 Every morning the bins in the Thompsons' garden were open. | هر صبح سطل‌های زباله در باغچهٔ تامسون‌ها باز بود.
 There was rubbish all over the grass. | همه‌جای چمن آشغال ریخته بود.
-"It's a rat," said Tom. | تام گفت: «موش صحراییه.»
-"It's Biscuit," said Leslie. | لزلی گفت: «بیسکویته.»
-"It's a monster," said William, and hid behind the sofa. | ویلیام گفت: «هیولاست» و پشت مبل قایم شد.
+tom> "It's a rat." | «موش صحراییه.»
+leslie> "It's Biscuit." | «بیسکویته.»
+william> "It's a monster!" | «هیولاست!»
+William hid behind the sofa. | ویلیام پشت مبل قایم شد.
 Ryan decided to find out. He was going to film the garden at night. | رایان تصمیم گرفت بفهمد. قرار بود شب از باغچه فیلم بگیرد.
 He put his old phone on the shed roof and pressed "record". | گوشی قدیمی‌اش را روی سقف انبار گذاشت و دکمهٔ «ضبط» را زد.
 Then he went to bed. | بعد رفت بخوابد.
@@ -150,9 +156,9 @@ W: bins=سطل‌های زباله ; rubbish=آشغال ؛ زباله ; all over
 The next morning the whole family watched the video at breakfast. | صبح روز بعد کل خانواده سر صبحانه ویدیو را تماشا کردند.
 At two in the morning a shape came over the fence. | ساعت دو بامداد شبحی از روی نرده آمد.
 It had a long orange tail and bright eyes. | دم بلند نارنجی و چشم‌های براق داشت.
-"A fox!" said Nicola. "It's beautiful!" | نیکولا گفت: «روباه! چه قشنگه!»
+nicola> "A fox! It's beautiful!" | «روباه! چه قشنگه!»
 The fox opened the bin with its nose and took out an old chicken leg. | روباه با پوزه‌اش سطل را باز کرد و یک ران مرغ کهنه بیرون آورد.
-"London is full of foxes," said Tom. "They're cleverer than us." | تام گفت: «لندن پر از روباه است. از ما باهوش‌ترند.»
+tom> "London is full of foxes. They're cleverer than us." | «لندن پر از روباه است. از ما باهوش‌ترند.»
 That afternoon Tom bought a bin with a stronger lid. | آن بعدازظهر تام یک سطل با درِ محکم‌تر خرید.
 But Nicola secretly put a few biscuits by the fence every night. | اما نیکولا هر شب یواشکی چند تا بیسکویت کنار نرده گذاشت.
 Q: What was in the garden? | A fox ; A rat ; A monster
@@ -162,12 +168,12 @@ W: next morning=صبح روز بعد ; whole=کل ؛ تمام ; video=ویدیو
 # a2_driving | A2 | Ryan's First Driving Lesson | اولین جلسهٔ رانندگی رایان | driving | Ryan is seventeen and he's got his provisional licence. Tom is more nervous than Ryan. | رایان هفده ساله است و گواهینامهٔ موقتش را گرفته. تام از رایان مضطرب‌تر است.
 ## L plates | پلاک «L»
 On his seventeenth birthday Ryan got his provisional driving licence. | رایان در هفدهمین تولدش گواهینامهٔ موقت رانندگی‌اش را گرفت.
-"Can we go out in the car today, Dad?" he asked. | پرسید: «بابا، امروز می‌توانیم با ماشین برویم بیرون؟»
+ryan> "Can we go out in the car today, Dad?" | «بابا، امروز می‌توانیم با ماشین برویم بیرون؟»
 Tom drives a bus every day, so he is a very good driver. | تام هر روز اتوبوس می‌راند، پس رانندهٔ خیلی خوبی است.
 But he was much more nervous as a passenger. | اما به‌عنوان مسافر خیلی مضطرب‌تر بود.
 They put red L plates on the front and back of the car. | پلاک‌های قرمز L را روی جلو و عقب ماشین زدند.
 They drove to a big empty car park on a Sunday morning. | یک صبح یکشنبه به یک پارکینگ بزرگ و خالی رفتند.
-"Mirror, signal, manoeuvre," said Tom. "Always remember that." | تام گفت: «آینه، راهنما، حرکت. همیشه یادت باشد.»
+tom> "Mirror, signal, manoeuvre. Always remember that." | «آینه، راهنما، حرکت. همیشه یادت باشد.»
 Ryan held the steering wheel very tightly. | رایان فرمان را خیلی محکم گرفت.
 Q: How old is Ryan now? | Seventeen ; Fifteen ; Eighteen
 Q: Where did they go for the first lesson? | An empty car park ; The motorway ; Hackney High Street
@@ -176,12 +182,13 @@ W: seventeenth=هفدهمین ; provisional=موقت ; licence=گواهینام�
 Ryan turned the key and the engine started. | رایان سوئیچ را چرخاند و موتور روشن شد.
 He pressed the clutch and moved the gear stick into first. | کلاچ را فشار داد و دنده را روی یک گذاشت.
 Then he lifted his foot too quickly. The car jumped and stopped. | بعد پایش را خیلی سریع برداشت. ماشین پرید و خاموش شد.
-"You stalled it," said Tom calmly. "Everybody does that. Try again." | تام با آرامش گفت: «خاموشش کردی. همه این کار را می‌کنند. دوباره امتحان کن.»
+tom> "You stalled it. Everybody does that. Try again." | «خاموشش کردی. همه این کار را می‌کنند. دوباره امتحان کن.»
 The second time was better, and the third time was even better. | دفعهٔ دوم بهتر بود و دفعهٔ سوم حتی بهتر.
 After an hour Ryan could drive slowly round the car park and stop safely. | بعد از یک ساعت رایان می‌توانست آهسته دور پارکینگ رانندگی کند و با خیال راحت توقف کند.
-"Well done, son," said Tom. "You're going to be a great driver." | تام گفت: «آفرین پسرم. رانندهٔ فوق‌العاده‌ای می‌شوی.»
-On the way home Ryan asked, "Can I drive on the motorway next week?" | در راه خانه رایان پرسید: «هفتهٔ بعد می‌توانم در بزرگراه برانم؟»
-"Absolutely not," said Tom. | تام گفت: «به‌هیچ‌وجه.»
+tom> "Well done, son. You're going to be a great driver." | «آفرین پسرم. رانندهٔ فوق‌العاده‌ای می‌شوی.»
+On the way home Ryan had a question. | در راه خانه رایان سؤالی داشت.
+ryan> "Can I drive on the motorway next week?" | «هفتهٔ بعد می‌توانم در بزرگراه برانم؟»
+tom> "Absolutely not." | «به‌هیچ‌وجه.»
 Q: What happened the first time? | Ryan stalled the car ; Ryan hit a wall ; The car didn't start
 Q: Can Ryan drive on the motorway next week? | No ; Yes ; Maybe
 W: turned=چرخاند ; key=کلید ؛ سوئیچ ; engine=موتور ; clutch=کلاچ ; moved=جابه‌جا کرد ; gear stick=دسته‌دنده ; first=دندهٔ یک ؛ اول ; lifted=بلند کرد ; foot=پا ; stalled=خاموش کرد (ماشین) ; calmly=با آرامش ; try again=دوباره امتحان کن ; second=دوم ; time=بار ؛ دفعه ; third=سوم ; could=می‌توانست ; round=دور ; safely=با خیال راحت ؛ ایمن ; well done=آفرین ; son=پسرم ; great=عالی ; on the way home=در راه خانه ; motorway=بزرگراه ; next week=هفتهٔ بعد ; absolutely not=به‌هیچ‌وجه
@@ -190,11 +197,12 @@ W: turned=چرخاند ; key=کلید ؛ سوئیچ ; engine=موتور ; clutch
 ## Wobble, wobble | لق، لق
 One morning Nicola's front tooth started to wobble. | یک روز صبح دندان جلوی نیکولا شروع کرد به لق شدن.
 She showed it to everyone at breakfast. | سر صبحانه آن را به همه نشان داد.
-"Don't touch it," said Leslie. "It will come out when it's ready." | لزلی گفت: «دست نزن. وقتی آماده شد خودش می‌افتد.»
+leslie> "Don't touch it. It will come out when it's ready." | «دست نزن. وقتی آماده شد خودش می‌افتد.»
 But Nicola touched it all day. She couldn't stop. | اما نیکولا تمام روز به آن دست زد. نمی‌توانست دست بردارد.
 Ryan told her about the tooth fairy. | رایان دربارهٔ پری دندان برایش تعریف کرد.
-"You put your tooth under your pillow and she brings you a pound," he said. | گفت: «دندانت را زیر بالشت می‌گذاری و او برایت یک پوند می‌آورد.»
-"A whole pound?" said Nicola. Her eyes were as big as saucers. | نیکولا گفت: «یک پوند کامل؟» چشم‌هایش از تعجب گرد شده بود.
+ryan> "You put your tooth under your pillow and she brings you a pound." | «دندانت را زیر بالشت می‌گذاری و او برایت یک پوند می‌آورد.»
+nicola> "A whole pound?" | «یک پوند کامل؟»
+Her eyes were as big as saucers. | چشم‌هایش از تعجب گرد شده بود.
 That evening she ate an apple, and the tooth came out! | آن شب یک سیب خورد و دندان افتاد!
 Q: Which tooth was wobbly? | Her front tooth ; A back tooth ; William's tooth
 Q: What does the tooth fairy bring? | A pound ; A toy ; Sweets
@@ -204,11 +212,14 @@ Nicola put the tiny tooth in an envelope under her pillow. | نیکولا دند
 She wrote "To the Tooth Fairy" on it in her best handwriting. | با بهترین خطش رویش نوشت «برای پری دندان».
 She tried to stay awake, but she fell asleep at eight o'clock. | سعی کرد بیدار بماند، اما ساعت هشت خوابش برد.
 At midnight Tom crept into her room very quietly. | نیمه‌شب تام خیلی آرام یواشکی وارد اتاقش شد.
-He stepped on one of William's toy buses. "Ow!" | پایش روی یکی از اتوبوس‌های اسباب‌بازی ویلیام رفت. «آخ!»
+He stepped on one of William's toy buses. | پایش روی یکی از اتوبوس‌های اسباب‌بازی ویلیام رفت.
+tom> "Ow!" | «آخ!»
 Nicola moved, but she didn't wake up. | نیکولا تکان خورد، اما بیدار نشد.
 Tom took the envelope and left a shiny pound coin. | تام پاکت را برداشت و یک سکهٔ براق یک‌پوندی گذاشت.
-In the morning Nicola ran downstairs. "She came! The tooth fairy came!" | صبح نیکولا دوان‌دوان پایین آمد. «آمد! پری دندان آمد!»
-"Lucky you," said Tom, and rubbed his foot. | تام گفت: «خوش به حالت» و پایش را مالید.
+In the morning Nicola ran downstairs. | صبح نیکولا دوان‌دوان پایین آمد.
+nicola> "She came! The tooth fairy came!" | «آمد! پری دندان آمد!»
+tom> "Lucky you." | «خوش به حالت.»
+He rubbed his foot. | پایش را مالید.
 Q: Where did Nicola put the tooth? | Under her pillow ; In a box ; On the table
 Q: Why did Tom say "Ow!"? | He stepped on a toy bus ; He hit his head ; Biscuit bit him
 W: tiny=خیلی کوچک ; envelope=پاکت ; wrote=نوشت ; handwriting=دست‌خط ; tried=سعی کرد ; stay awake=بیدار ماندن ; crept=یواشکی رفت ; room=اتاق ; quietly=آرام ؛ بی‌صدا ; stepped on=پا گذاشت روی ; ow=آخ ; moved=تکان خورد ; wake up=بیدار شدن ; left=گذاشت ؛ جا گذاشت ; shiny=براق ; coin=سکه ; downstairs=طبقهٔ پایین ; came=آمد ; lucky you=خوش به حالت ; rubbed=مالید

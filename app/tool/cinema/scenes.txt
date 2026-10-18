@@ -1,0 +1,148 @@
+# Cinema & dubbing — original short scenes (no film clips or quotes). Built by tool/make_cinema.py.
+# "# id | level | title | titleFa | still (assets/places/<still>.webp) | blurb | blurbFa | default dub role"
+# "speaker: English | Persian"   (speaker = a voice id in tool/render_voices.py)
+# "Q: question | correct ; wrong ; wrong"
+
+# c_a1_breakfast | A1 | Toast or Cereal? | نان تست یا غلات؟ | kitchen | A busy Monday morning in the Thompsons' kitchen. | یک صبح دوشنبهٔ شلوغ در آشپزخانهٔ تامسون‌ها. | nicola
+leslie: Good morning, Nicola! | صبح بخیر، نیکولا!
+nicola: Morning, Mum. I'm hungry! | صبح بخیر، مامان. گرسنه‌ام!
+leslie: Do you want toast or cereal? | نان تست می‌خواهی یا غلات؟
+nicola: Toast, please. With jam! | نان تست، لطفاً. با مربا!
+tom: Where's my tea? | چای من کجاست؟
+leslie: It's on the table, Tom. | روی میز است، تام.
+tom: Oh! Thank you, love. | اوه! ممنون، عزیزم.
+nicola: Dad, you've got jam on your nose! | بابا، روی دماغت مربا هست!
+Q: What does Nicola want? | Toast with jam ; Cereal ; Eggs
+Q: Where is Tom's tea? | On the table ; In the car ; In the garden
+Q: What is on Tom's nose? | Jam ; Milk ; Butter
+
+# c_a1_bus | A1 | The Number 38 | اتوبوس شمارهٔ ۳۸ | bus | It's Tuesday. Nana Maggie and William catch Daddy's bus to the park. | سه‌شنبه است. نانا مگی و ویلیام سوار اتوبوس بابا می‌شوند تا به پارک بروند. | weda
+weda: Come on, William. Here's our bus! | بیا، ویلیام. اتوبوسمان آمد!
+william: Daddy's bus! Big red bus! | اتوبوس بابا! اتوبوس قرمز بزرگ!
+tom: Morning, you two! Hold on tight. | صبح بخیر، شما دو تا! محکم بگیرید.
+weda: Hello, Doris. It's Tuesday! | سلام، دوریس. امروز سه‌شنبه است!
+doris: Hello, Maggie! Hello, William! Where are you going? | سلام، مگی! سلام، ویلیام! کجا می‌روید؟
+weda: We're going to the park. | داریم به پارک می‌رویم.
+doris: Lovely. It's a sunny day. | چه خوب. روز آفتابی‌ای است.
+william: Ducks! I like ducks! | اردک! من اردک دوست دارم!
+doris: Here you are. Some oats for the ducks! | بفرما. کمی جو دوسر برای اردک‌ها!
+Q: Where are they going? | To the park ; To the shops ; To school
+Q: What does William like? | Ducks ; Cats ; Trains
+Q: Who is driving the bus? | Daddy ; Doris ; Nana Maggie
+
+# c_a2_shop | A2 | Three Pounds Twenty | سه پوند و بیست پنی | supermarket | Ryan runs to the corner shop for Mum, but he hasn't got quite enough money. | رایان برای مامانش به مغازهٔ سر کوچه می‌دود، اما پولش کمی کم است. | ryan
+ryan: Hi, Priya. Have you got any milk? | سلام، پریا. شیر داری؟
+priya: Yes, it's in the fridge at the back. | بله، توی یخچال ته مغازه است.
+ryan: Thanks. And I need some bread for Mum. | ممنون. یک نان هم برای مامانم لازم دارم.
+priya: The bread's next to the newspapers. | نان کنار روزنامه‌هاست.
+ryan: How much is that, please? | لطفاً چقدر می‌شود؟
+priya: That's three pounds twenty. | می‌شود سه پوند و بیست پنی.
+ryan: Oh no, I've only got three pounds! | ای وای، من فقط سه پوند دارم!
+priya: Don't worry. Bring the twenty pence tomorrow. | نگران نباش. بیست پنی را فردا بیاور.
+ryan: Thanks, Priya. You're a star! | ممنون، پریا. تو فوق‌العاده‌ای!
+Q: Where is the milk? | In the fridge at the back ; Next to the newspapers ; Behind the till
+Q: How much does Ryan need to pay? | £3.20 ; £3.00 ; £2.20
+Q: What does Priya tell Ryan? | Bring the 20p tomorrow ; Put the bread back ; Pay by card
+
+# c_a2_cake | A2 | Who Ate the Cake? | کی کیک را خورد؟ | birthday | The birthday cake has disappeared, and nobody knows anything. | کیک تولد ناپدید شده و هیچ‌کس چیزی نمی‌داند. | leslie
+leslie: Right, where's the birthday cake? It was on the table. | خب، کیک تولد کجاست؟ روی میز بود.
+tom: I don't know. I was in the garden. | نمی‌دانم. من توی حیاط بودم.
+nicola: It wasn't me! I was upstairs. | من نبودم! من طبقهٔ بالا بودم.
+leslie: William, were you in the kitchen? | ویلیام، تو توی آشپزخانه بودی؟
+william: No, Mummy. | نه، مامانی.
+leslie: Then why have you got chocolate on your face? | پس چرا روی صورتت شکلات است؟
+william: Biscuit ate it! | بیسکویت خوردش!
+tom: Biscuit is a cat, William. Cats don't eat chocolate cake! | بیسکویت گربه است، ویلیام. گربه‌ها کیک شکلاتی نمی‌خورند!
+Q: Where was Tom? | In the garden ; Upstairs ; In the kitchen
+Q: What is on William's face? | Chocolate ; Jam ; Paint
+Q: Who does William blame? | Biscuit the cat ; Nicola ; Dad
+
+# c_b1_keys | B1 | Have You Seen My Keys? | کلیدهایم را ندیده‌ای؟ | hallway | Tom is about to be late for work, and his car keys have vanished. | تام دارد دیرش می‌شود و کلیدهای ماشینش غیب شده‌اند. | tom
+tom: Les, have you seen my car keys? I've looked everywhere. | لس، کلیدهای ماشینم را ندیده‌ای؟ همه‌جا را گشته‌ام.
+leslie: Have you checked your coat pocket? | جیب کتت را نگاه کرده‌ای؟
+tom: Twice. They're not there. | دو بار. آنجا نیستند.
+leslie: What about the kitchen? You always leave them by the kettle. | آشپزخانه چی؟ همیشه کنار کتری می‌گذاری‌شان.
+tom: I've already looked there. If I don't find them soon, I'll be late for work. | آنجا را هم نگاه کرده‌ام. اگر زود پیدایشان نکنم، دیر سر کار می‌رسم.
+leslie: Calm down. When did you last have them? | آرام باش. آخرین بار کی دستت بودند؟
+tom: Last night. I drove back from the football. | دیشب. از فوتبال رانندگی کردم و برگشتم.
+leslie: Tom, is that them, hanging in the front door? | تام، آن‌ها نیستند که به در ورودی آویزان‌اند؟
+tom: Oh, for goodness' sake. I'll never hear the end of this, will I? | ای بابا. دیگر تا آخر عمر این را به رخم می‌کشی، نه؟
+leslie: Never. | هرگز فراموش نمی‌کنم.
+Q: Where does Tom usually leave his keys? | By the kettle ; In his coat ; In the car
+Q: Why is Tom worried? | He'll be late for work ; He's lost his phone ; He missed the football
+Q: Where were the keys? | In the front door ; In the garden ; In Leslie's bag
+
+# c_b1_surgery | B1 | Ringing the Surgery | تماس با درمانگاه | gp | William has a temperature, and Leslie rings the GP at eight o'clock. | ویلیام تب دارد و لزلی ساعت هشت به پزشک عمومی زنگ می‌زند. | leslie
+receptionist: Good morning, Riverside Surgery, Tracy speaking. | صبح بخیر، درمانگاه ریورساید، تریسی هستم.
+leslie: Hello. I'd like to book an appointment for my son, please. He's had a temperature since Sunday. | سلام. می‌خواهم برای پسرم وقت بگیرم، لطفاً. از یکشنبه تب دارد.
+receptionist: Is that William Thompson? | ویلیام تامسون است؟
+leslie: Yes, that's right. He's three. | بله، درست است. سه سالش است.
+receptionist: We haven't got anything today, I'm afraid, but the doctor could ring you back this afternoon. | متأسفانه امروز وقت خالی نداریم، اما دکتر می‌تواند امروز بعدازظهر با شما تماس بگیرد.
+leslie: That would be great. Will it be before three? I have to pick up my daughter. | عالی می‌شود. قبل از ساعت سه است؟ باید دخترم را از مدرسه بیاورم.
+receptionist: I can't promise, but I'll put a note on it. | قول نمی‌دهم، ولی یادداشتش می‌کنم.
+leslie: Thank you. And if he gets worse? | ممنون. اگر حالش بدتر شد چه؟
+receptionist: Then call one one one, or take him to A&E if you're really worried. | آن‌وقت با ۱۱۱ تماس بگیرید، یا اگر واقعاً نگرانید او را به اورژانس ببرید.
+leslie: Brilliant. Thanks for your help. | عالی. ممنون از کمکتان.
+Q: What's wrong with William? | He's had a temperature ; He's broken his arm ; He's lost a tooth
+Q: What will the doctor do? | Ring back this afternoon ; See him at three ; Visit the house
+Q: Who does Leslie have to pick up? | Her daughter ; Her husband ; Her mum
+
+# c_b2_drums | B2 | A Small Favour | یک خواهش کوچک | living | Mrs Khan pops round with samosas, and Tom needs to mention the late-night drumming next door without sounding rude. | خانم خان با سمبوسه سر می‌زند و تام باید دربارهٔ طبل‌زدن آخر شب در خانهٔ همسایه حرف بزند، بی‌آنکه بی‌ادب به نظر برسد. | tom
+tom: Morning, Mrs Khan! Come in. Lovely day, isn't it? | صبح بخیر، خانم خان! بفرمایید تو. روز قشنگی است، نه؟
+khan: Beautiful. I've brought you some samosas. Is everything all right, Tom? You look shattered. | فوق‌العاده. برایتان سمبوسه آورده‌ام. همه‌چیز روبه‌راه است، تام؟ خیلی خسته به نظر می‌رسی.
+tom: Oh, I'm fine. Just a bit of a late night. Actually, I was wondering if I could ask you something. | اوه، خوبم. فقط دیشب کمی دیر خوابیدم. راستش، می‌خواستم ببینم می‌توانم چیزی از شما بپرسم.
+khan: Of course, love. Go on. | البته، عزیزم. بگو.
+tom: It's only a small thing, but would it be possible for Zayn to finish his drumming before nine? | چیز کوچکی است، اما ممکن است زین طبل‌زدنش را قبل از ساعت نه تمام کند؟
+khan: Oh dear. I had no idea you could hear it. He promised me he was using headphones! | ای وای. اصلاً نمی‌دانستم صدایش را می‌شنوید. به من قول داده بود که هدفون می‌گذارد!
+tom: Honestly, it's not a big deal. He's actually getting rather good. | راستش، چیز مهمی نیست. در واقع دارد خیلی خوب می‌شود.
+khan: You're far too polite, Tom. I'll have a word with him tonight. | تو زیادی مؤدبی، تام. امشب با او حرف می‌زنم.
+tom: Thanks ever so much. And tell him Tuesday's solo was brilliant. | خیلی ممنون. و به او بگویید تک‌نوازی سه‌شنبه عالی بود.
+khan: I'll tell him you said so, but not until he's turned it down! | به او می‌گویم که چنین گفتی، اما نه قبل از اینکه صدایش را کم کند!
+Q: What does Tom really want? | The drumming to stop before nine ; Drum lessons ; Mrs Khan to move house
+Q: Who has been drumming? | Zayn, Mrs Khan's grandson ; Ryan ; Mrs Khan
+Q: Why does Tom say "it's only a small thing"? | To make his request sound polite ; Because he doesn't care ; To end the conversation
+
+# c_b2_kettle | B2 | On the House | مهمان ما | coffee | Saturday brunch at The Copper Kettle, and Sophie brings the wrong breakfast. | صبحانهٔ دیروقت شنبه در کافهٔ کاپر کتل، و سوفی صبحانهٔ اشتباهی می‌آورد. | leslie
+sophie: Here you go, two full English breakfasts. | بفرمایید، دو صبحانهٔ کامل انگلیسی.
+leslie: Oh, sorry, I think there's been a bit of a mix-up. I actually ordered the veggie one. | اوه، ببخشید، فکر کنم کمی اشتباه شده. من در واقع صبحانهٔ گیاهی سفارش داده بودم.
+sophie: Oh no, I'm so sorry! That's completely my fault. | ای وای، خیلی متأسفم! کاملاً تقصیر من است.
+leslie: Honestly, don't worry about it. These things happen. | راستش، نگرانش نباش. این چیزها پیش می‌آید.
+tom: While you're here, would it be possible to get a bit more toast? | حالا که اینجایی، ممکن است کمی نان تست بیشتر بیاوری؟
+sophie: Of course. Is there anything else I can get you? | البته. چیز دیگری هم لازم دارید؟
+leslie: If you had any brown sauce, that would be lovely. | اگر سس قهوه‌ای داشته باشید، خیلی خوب می‌شود.
+sophie: Coming right up. And the veggie breakfast is on the house, to say sorry. | الان می‌آورم. و صبحانهٔ گیاهی مهمان ماست، به‌عنوان عذرخواهی.
+tom: Oh, you really don't have to do that. | اوه، واقعاً لازم نیست این کار را بکنی.
+sophie: I insist. You're our best regulars! | اصرار دارم. شما بهترین مشتری‌های همیشگی ما هستید!
+Q: What went wrong? | Leslie got the wrong breakfast ; The food was cold ; They waited an hour
+Q: What does Tom ask for? | More toast ; The bill ; A cup of tea
+Q: "On the house" means the breakfast is... | free ; upstairs ; to take away
+
+# c_c1_uni | C1 | The Form | فرم | eveningtea | After his GCSEs: sixth form or an apprenticeship? Ryan's form is due on Friday, and Grandad George has opinions. | بعد از امتحانات GCSE: دبیرستان تکمیلی یا کارآموزی؟ فرم رایان باید تا جمعه تحویل شود و پدربزرگ جورج نظر خودش را دارد. | ryan
+ryan: Grandad, can I ask you something? Did you ever regret leaving school at sixteen? | پدربزرگ، می‌توانم چیزی بپرسم؟ هیچ‌وقت پشیمان شدی که شانزده‌سالگی مدرسه را ول کردی؟
+george: Hardly ever. Had I stayed on, I'd never have spent thirty-one years driving the 38, and I loved nearly every day of it. | به‌ندرت. اگر مانده بودم، هرگز سی‌ویک سال اتوبوس ۳۸ را نمی‌راندم، و تقریباً عاشق تک‌تک روزهایش بودم.
+ryan: Everyone at school acts as if sixth form is the only option. I just wish someone would tell me what I actually want. | همه در مدرسه طوری رفتار می‌کنند که انگار دبیرستان تکمیلی تنها راه است. فقط کاش یکی به من می‌گفت واقعاً چه می‌خواهم.
+george: Nobody can tell you that, I'm afraid. It's not the choice that matters so much as what you make of it. | متأسفانه هیچ‌کس نمی‌تواند این را به تو بگوید. مهم خودِ انتخاب نیست، بلکه کاری است که با آن می‌کنی.
+ryan: That's very wise, but it doesn't exactly help me fill in the form by Friday. | خیلی حکیمانه است، اما دقیقاً کمکی نمی‌کند که فرم را تا جمعه پر کنم.
+george: Then apply for both. Not only does it keep the door open, it buys you time to think. | پس برای هر دو درخواست بده. نه‌تنها راه را باز نگه می‌دارد، بلکه به تو وقت فکر کردن می‌دهد.
+ryan: And if I choose the wrong one and hate it? | و اگر اشتباه انتخاب کنم و از آن متنفر باشم؟
+george: Then you'll have learnt something about yourself, which is rarely a waste of time. | آن‌وقت چیزی دربارهٔ خودت یاد گرفته‌ای، که به‌ندرت اتلاف وقت است.
+ryan: You make it sound so simple. | طوری می‌گویی که انگار خیلی ساده است.
+george: It isn't. But I'd rather you chose with your eyes open than drifted along because everyone else did. | نیست. اما ترجیح می‌دهم آگاهانه انتخاب کنی تا اینکه فقط چون همه رفتند، با جریان بروی.
+Q: Why doesn't George regret leaving school at sixteen? | He loved his years driving the 38 ; He hated studying ; He couldn't afford to stay
+Q: What does George advise Ryan to do? | Apply for both, to keep the door open ; Start work straight away ; Ask his teachers
+Q: What worries Ryan? | Choosing the wrong one and hating it ; Leaving his friends ; The cost of books
+
+# c_c1_evening | C1 | Parents' Evening | جلسهٔ اولیا | parentsevening | Leslie is a teacher herself, but tonight she's on the other side of the desk, with Ryan's form tutor, Mr Patel. | لزلی خودش معلم است، اما امشب آن طرف میز نشسته، روبه‌روی آقای پاتل، معلم راهنمای رایان. | leslie
+patel: Mrs Thompson, thanks for coming. Do have a seat. | خانم تامسون، ممنون که آمدید. لطفاً بنشینید.
+leslie: Thank you. I'll be honest, I'm half expecting bad news. | ممنون. راستش را بخواهید، تا حدی منتظر خبر بدم.
+patel: Not at all. If anything, Ryan's been one of the more thoughtful students this term. | اصلاً. اتفاقاً رایان این ترم یکی از متفکرترین دانش‌آموزها بوده.
+leslie: That's a relief. It's just that at home he seems to spend more time on his phone than on his homework. | خیالم راحت شد. فقط اینکه در خانه انگار بیشتر وقتش را با گوشی می‌گذراند تا با تکالیفش.
+patel: Admittedly, he does leave things until the last minute. But what he hands in is genuinely impressive. | قبول دارم که کارها را به لحظهٔ آخر موکول می‌کند. اما چیزی که تحویل می‌دهد واقعاً چشمگیر است.
+leslie: Is there anything we should be doing differently at home? | کاری هست که در خانه باید جور دیگری انجام دهیم؟
+patel: What would help most is a bit of structure. Perhaps an hour a night without the phone. | چیزی که بیشتر از همه کمک می‌کند کمی نظم است. شاید هر شب یک ساعت بدون گوشی.
+leslie: Easier said than done, but we'll give it a go. | گفتنش آسان‌تر از انجامش است، اما امتحانش می‌کنیم.
+patel: And it might be worth him having a chat with the careers adviser before the deadline. | و شاید ارزشش را داشته باشد که قبل از مهلت با مشاور شغلی صحبت کند.
+leslie: Funnily enough, his grandad has been saying exactly the same thing. | جالب اینجاست که پدربزرگش هم دقیقاً همین را می‌گوید.
+Q: How is Ryan doing, according to Mr Patel? | He's thoughtful and his work is impressive ; He's failing most subjects ; He's often absent
+Q: What is Ryan's weak point? | He leaves things until the last minute ; He's rude in class ; He never hands work in
+Q: What does Mr Patel suggest? | An hour a night without the phone ; More football ; Changing schools

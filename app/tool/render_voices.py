@@ -82,6 +82,10 @@ if os.path.exists(lib):
   for b in json.load(open(lib))['books']:
     for c in b['chapters']:
       for st in c['sentences']: add(st.get('sp','narrator'),st['en'])  # B1+: dialogue in the character's voice
+cine=os.path.join(A,'data/cinema.json')  # Cinema & dubbing (tool/make_cinema.py): every line in its character's voice
+if os.path.exists(cine):
+  for sc in json.load(open(cine))['scenes']:
+    for l in sc['lines']: add(l['sp'],l['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

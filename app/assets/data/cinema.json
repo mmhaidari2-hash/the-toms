@@ -1,0 +1,1072 @@
+{
+"scenes": [
+{
+"id": "c_a1_breakfast",
+"level": "A1",
+"title": "Toast or Cereal?",
+"titleFa": "نان تست یا غلات؟",
+"still": "kitchen",
+"blurb": "A busy Monday morning in the Thompsons' kitchen.",
+"blurbFa": "یک صبح دوشنبهٔ شلوغ در آشپزخانهٔ تامسون‌ها.",
+"dub": "nicola",
+"lines": [
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Good morning, Nicola!",
+"fa": "صبح بخیر، نیکولا!",
+"ms": 1968
+},
+{
+"sp": "nicola",
+"spn": "Nicola",
+"en": "Morning, Mum. I'm hungry!",
+"fa": "صبح بخیر، مامان. گرسنه‌ام!",
+"ms": 3912
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Do you want toast or cereal?",
+"fa": "نان تست می‌خواهی یا غلات؟",
+"ms": 2328
+},
+{
+"sp": "nicola",
+"spn": "Nicola",
+"en": "Toast, please. With jam!",
+"fa": "نان تست، لطفاً. با مربا!",
+"ms": 3888
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Where's my tea?",
+"fa": "چای من کجاست؟",
+"ms": 2064
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "It's on the table, Tom.",
+"fa": "روی میز است، تام.",
+"ms": 2232
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Oh! Thank you, love.",
+"fa": "اوه! ممنون، عزیزم.",
+"ms": 3432
+},
+{
+"sp": "nicola",
+"spn": "Nicola",
+"en": "Dad, you've got jam on your nose!",
+"fa": "بابا، روی دماغت مربا هست!",
+"ms": 3240
+}
+],
+"quiz": [
+{
+"q": "What does Nicola want?",
+"options": [
+"Toast with jam",
+"Cereal",
+"Eggs"
+],
+"answer": 0
+},
+{
+"q": "Where is Tom's tea?",
+"options": [
+"On the table",
+"In the car",
+"In the garden"
+],
+"answer": 0
+},
+{
+"q": "What is on Tom's nose?",
+"options": [
+"Jam",
+"Milk",
+"Butter"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_a1_bus",
+"level": "A1",
+"title": "The Number 38",
+"titleFa": "اتوبوس شمارهٔ ۳۸",
+"still": "bus",
+"blurb": "It's Tuesday. Nana Maggie and William catch Daddy's bus to the park.",
+"blurbFa": "سه‌شنبه است. نانا مگی و ویلیام سوار اتوبوس بابا می‌شوند تا به پارک بروند.",
+"dub": "weda",
+"lines": [
+{
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Come on, William. Here's our bus!",
+"fa": "بیا، ویلیام. اتوبوسمان آمد!",
+"ms": 4344
+},
+{
+"sp": "william",
+"spn": "William",
+"en": "Daddy's bus! Big red bus!",
+"fa": "اتوبوس بابا! اتوبوس قرمز بزرگ!",
+"ms": 4008
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Morning, you two! Hold on tight.",
+"fa": "صبح بخیر، شما دو تا! محکم بگیرید.",
+"ms": 4344
+},
+{
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Hello, Doris. It's Tuesday!",
+"fa": "سلام، دوریس. امروز سه‌شنبه است!",
+"ms": 4440
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "Hello, Maggie! Hello, William! Where are you going?",
+"fa": "سلام، مگی! سلام، ویلیام! کجا می‌روید؟",
+"ms": 7104
+},
+{
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "We're going to the park.",
+"fa": "داریم به پارک می‌رویم.",
+"ms": 2520
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "Lovely. It's a sunny day.",
+"fa": "چه خوب. روز آفتابی‌ای است.",
+"ms": 4080
+},
+{
+"sp": "william",
+"spn": "William",
+"en": "Ducks! I like ducks!",
+"fa": "اردک! من اردک دوست دارم!",
+"ms": 3552
+},
+{
+"sp": "doris",
+"spn": "Doris",
+"en": "Here you are. Some oats for the ducks!",
+"fa": "بفرما. کمی جو دوسر برای اردک‌ها!",
+"ms": 4800
+}
+],
+"quiz": [
+{
+"q": "Where are they going?",
+"options": [
+"To the park",
+"To the shops",
+"To school"
+],
+"answer": 0
+},
+{
+"q": "What does William like?",
+"options": [
+"Ducks",
+"Cats",
+"Trains"
+],
+"answer": 0
+},
+{
+"q": "Who is driving the bus?",
+"options": [
+"Daddy",
+"Doris",
+"Nana Maggie"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_a2_shop",
+"level": "A2",
+"title": "Three Pounds Twenty",
+"titleFa": "سه پوند و بیست پنی",
+"still": "supermarket",
+"blurb": "Ryan runs to the corner shop for Mum, but he hasn't got quite enough money.",
+"blurbFa": "رایان برای مامانش به مغازهٔ سر کوچه می‌دود، اما پولش کمی کم است.",
+"dub": "ryan",
+"lines": [
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Hi, Priya. Have you got any milk?",
+"fa": "سلام، پریا. شیر داری؟",
+"ms": 3768
+},
+{
+"sp": "priya",
+"spn": "Priya",
+"en": "Yes, it's in the fridge at the back.",
+"fa": "بله، توی یخچال ته مغازه است.",
+"ms": 3336
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Thanks. And I need some bread for Mum.",
+"fa": "ممنون. یک نان هم برای مامانم لازم دارم.",
+"ms": 3912
+},
+{
+"sp": "priya",
+"spn": "Priya",
+"en": "The bread's next to the newspapers.",
+"fa": "نان کنار روزنامه‌هاست.",
+"ms": 3144
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "How much is that, please?",
+"fa": "لطفاً چقدر می‌شود؟",
+"ms": 2472
+},
+{
+"sp": "priya",
+"spn": "Priya",
+"en": "That's three pounds twenty.",
+"fa": "می‌شود سه پوند و بیست پنی.",
+"ms": 2664
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Oh no, I've only got three pounds!",
+"fa": "ای وای، من فقط سه پوند دارم!",
+"ms": 2952
+},
+{
+"sp": "priya",
+"spn": "Priya",
+"en": "Don't worry. Bring the twenty pence tomorrow.",
+"fa": "نگران نباش. بیست پنی را فردا بیاور.",
+"ms": 4632
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Thanks, Priya. You're a star!",
+"fa": "ممنون، پریا. تو فوق‌العاده‌ای!",
+"ms": 3648
+}
+],
+"quiz": [
+{
+"q": "Where is the milk?",
+"options": [
+"In the fridge at the back",
+"Next to the newspapers",
+"Behind the till"
+],
+"answer": 0
+},
+{
+"q": "How much does Ryan need to pay?",
+"options": [
+"£3.20",
+"£3.00",
+"£2.20"
+],
+"answer": 0
+},
+{
+"q": "What does Priya tell Ryan?",
+"options": [
+"Bring the 20p tomorrow",
+"Put the bread back",
+"Pay by card"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_a2_cake",
+"level": "A2",
+"title": "Who Ate the Cake?",
+"titleFa": "کی کیک را خورد؟",
+"still": "birthday",
+"blurb": "The birthday cake has disappeared, and nobody knows anything.",
+"blurbFa": "کیک تولد ناپدید شده و هیچ‌کس چیزی نمی‌داند.",
+"dub": "leslie",
+"lines": [
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Right, where's the birthday cake? It was on the table.",
+"fa": "خب، کیک تولد کجاست؟ روی میز بود.",
+"ms": 4152
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "I don't know. I was in the garden.",
+"fa": "نمی‌دانم. من توی حیاط بودم.",
+"ms": 3600
+},
+{
+"sp": "nicola",
+"spn": "Nicola",
+"en": "It wasn't me! I was upstairs.",
+"fa": "من نبودم! من طبقهٔ بالا بودم.",
+"ms": 3768
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "William, were you in the kitchen?",
+"fa": "ویلیام، تو توی آشپزخانه بودی؟",
+"ms": 2472
+},
+{
+"sp": "william",
+"spn": "William",
+"en": "No, Mummy.",
+"fa": "نه، مامانی.",
+"ms": 2160
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Then why have you got chocolate on your face?",
+"fa": "پس چرا روی صورتت شکلات است؟",
+"ms": 2928
+},
+{
+"sp": "william",
+"spn": "William",
+"en": "Biscuit ate it!",
+"fa": "بیسکویت خوردش!",
+"ms": 2088
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Biscuit is a cat, William. Cats don't eat chocolate cake!",
+"fa": "بیسکویت گربه است، ویلیام. گربه‌ها کیک شکلاتی نمی‌خورند!",
+"ms": 5160
+}
+],
+"quiz": [
+{
+"q": "Where was Tom?",
+"options": [
+"In the garden",
+"Upstairs",
+"In the kitchen"
+],
+"answer": 0
+},
+{
+"q": "What is on William's face?",
+"options": [
+"Chocolate",
+"Jam",
+"Paint"
+],
+"answer": 0
+},
+{
+"q": "Who does William blame?",
+"options": [
+"Biscuit the cat",
+"Nicola",
+"Dad"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_b1_keys",
+"level": "B1",
+"title": "Have You Seen My Keys?",
+"titleFa": "کلیدهایم را ندیده‌ای؟",
+"still": "hallway",
+"blurb": "Tom is about to be late for work, and his car keys have vanished.",
+"blurbFa": "تام دارد دیرش می‌شود و کلیدهای ماشینش غیب شده‌اند.",
+"dub": "tom",
+"lines": [
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Les, have you seen my car keys? I've looked everywhere.",
+"fa": "لس، کلیدهای ماشینم را ندیده‌ای؟ همه‌جا را گشته‌ام.",
+"ms": 4944
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Have you checked your coat pocket?",
+"fa": "جیب کتت را نگاه کرده‌ای؟",
+"ms": 2376
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Twice. They're not there.",
+"fa": "دو بار. آنجا نیستند.",
+"ms": 3336
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "What about the kitchen? You always leave them by the kettle.",
+"fa": "آشپزخانه چی؟ همیشه کنار کتری می‌گذاری‌شان.",
+"ms": 4200
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "I've already looked there. If I don't find them soon, I'll be late for work.",
+"fa": "آنجا را هم نگاه کرده‌ام. اگر زود پیدایشان نکنم، دیر سر کار می‌رسم.",
+"ms": 5640
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Calm down. When did you last have them?",
+"fa": "آرام باش. آخرین بار کی دستت بودند؟",
+"ms": 3288
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Last night. I drove back from the football.",
+"fa": "دیشب. از فوتبال رانندگی کردم و برگشتم.",
+"ms": 4200
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Tom, is that them, hanging in the front door?",
+"fa": "تام، آن‌ها نیستند که به در ورودی آویزان‌اند؟",
+"ms": 3264
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Oh, for goodness' sake. I'll never hear the end of this, will I?",
+"fa": "ای بابا. دیگر تا آخر عمر این را به رخم می‌کشی، نه؟",
+"ms": 5376
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Never.",
+"fa": "هرگز فراموش نمی‌کنم.",
+"ms": 1920
+}
+],
+"quiz": [
+{
+"q": "Where does Tom usually leave his keys?",
+"options": [
+"By the kettle",
+"In his coat",
+"In the car"
+],
+"answer": 0
+},
+{
+"q": "Why is Tom worried?",
+"options": [
+"He'll be late for work",
+"He's lost his phone",
+"He missed the football"
+],
+"answer": 0
+},
+{
+"q": "Where were the keys?",
+"options": [
+"In the front door",
+"In the garden",
+"In Leslie's bag"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_b1_surgery",
+"level": "B1",
+"title": "Ringing the Surgery",
+"titleFa": "تماس با درمانگاه",
+"still": "gp",
+"blurb": "William has a temperature, and Leslie rings the GP at eight o'clock.",
+"blurbFa": "ویلیام تب دارد و لزلی ساعت هشت به پزشک عمومی زنگ می‌زند.",
+"dub": "leslie",
+"lines": [
+{
+"sp": "receptionist",
+"spn": "Tracy",
+"en": "Good morning, Riverside Surgery, Tracy speaking.",
+"fa": "صبح بخیر، درمانگاه ریورساید، تریسی هستم.",
+"ms": 3840
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Hello. I'd like to book an appointment for my son, please. He's had a temperature since Sunday.",
+"fa": "سلام. می‌خواهم برای پسرم وقت بگیرم، لطفاً. از یکشنبه تب دارد.",
+"ms": 6936
+},
+{
+"sp": "receptionist",
+"spn": "Tracy",
+"en": "Is that William Thompson?",
+"fa": "ویلیام تامسون است؟",
+"ms": 2040
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Yes, that's right. He's three.",
+"fa": "بله، درست است. سه سالش است.",
+"ms": 3144
+},
+{
+"sp": "receptionist",
+"spn": "Tracy",
+"en": "We haven't got anything today, I'm afraid, but the doctor could ring you back this afternoon.",
+"fa": "متأسفانه امروز وقت خالی نداریم، اما دکتر می‌تواند امروز بعدازظهر با شما تماس بگیرد.",
+"ms": 5328
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "That would be great. Will it be before three? I have to pick up my daughter.",
+"fa": "عالی می‌شود. قبل از ساعت سه است؟ باید دخترم را از مدرسه بیاورم.",
+"ms": 5592
+},
+{
+"sp": "receptionist",
+"spn": "Tracy",
+"en": "I can't promise, but I'll put a note on it.",
+"fa": "قول نمی‌دهم، ولی یادداشتش می‌کنم.",
+"ms": 3096
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Thank you. And if he gets worse?",
+"fa": "ممنون. اگر حالش بدتر شد چه؟",
+"ms": 2904
+},
+{
+"sp": "receptionist",
+"spn": "Tracy",
+"en": "Then call one one one, or take him to A&E if you're really worried.",
+"fa": "آن‌وقت با ۱۱۱ تماس بگیرید، یا اگر واقعاً نگرانید او را به اورژانس ببرید.",
+"ms": 4488
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Brilliant. Thanks for your help.",
+"fa": "عالی. ممنون از کمکتان.",
+"ms": 2928
+}
+],
+"quiz": [
+{
+"q": "What's wrong with William?",
+"options": [
+"He's had a temperature",
+"He's broken his arm",
+"He's lost a tooth"
+],
+"answer": 0
+},
+{
+"q": "What will the doctor do?",
+"options": [
+"Ring back this afternoon",
+"See him at three",
+"Visit the house"
+],
+"answer": 0
+},
+{
+"q": "Who does Leslie have to pick up?",
+"options": [
+"Her daughter",
+"Her husband",
+"Her mum"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_b2_drums",
+"level": "B2",
+"title": "A Small Favour",
+"titleFa": "یک خواهش کوچک",
+"still": "living",
+"blurb": "Mrs Khan pops round with samosas, and Tom needs to mention the late-night drumming next door without sounding rude.",
+"blurbFa": "خانم خان با سمبوسه سر می‌زند و تام باید دربارهٔ طبل‌زدن آخر شب در خانهٔ همسایه حرف بزند، بی‌آنکه بی‌ادب به نظر برسد.",
+"dub": "tom",
+"lines": [
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Morning, Mrs Khan! Come in. Lovely day, isn't it?",
+"fa": "صبح بخیر، خانم خان! بفرمایید تو. روز قشنگی است، نه؟",
+"ms": 6528
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Beautiful. I've brought you some samosas. Is everything all right, Tom? You look shattered.",
+"fa": "فوق‌العاده. برایتان سمبوسه آورده‌ام. همه‌چیز روبه‌راه است، تام؟ خیلی خسته به نظر می‌رسی.",
+"ms": 9864
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Oh, I'm fine. Just a bit of a late night. Actually, I was wondering if I could ask you something.",
+"fa": "اوه، خوبم. فقط دیشب کمی دیر خوابیدم. راستش، می‌خواستم ببینم می‌توانم چیزی از شما بپرسم.",
+"ms": 8064
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Of course, love. Go on.",
+"fa": "البته، عزیزم. بگو.",
+"ms": 4128
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "It's only a small thing, but would it be possible for Zayn to finish his drumming before nine?",
+"fa": "چیز کوچکی است، اما ممکن است زین طبل‌زدنش را قبل از ساعت نه تمام کند؟",
+"ms": 5520
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "Oh dear. I had no idea you could hear it. He promised me he was using headphones!",
+"fa": "ای وای. اصلاً نمی‌دانستم صدایش را می‌شنوید. به من قول داده بود که هدفون می‌گذارد!",
+"ms": 8424
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Honestly, it's not a big deal. He's actually getting rather good.",
+"fa": "راستش، چیز مهمی نیست. در واقع دارد خیلی خوب می‌شود.",
+"ms": 5424
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "You're far too polite, Tom. I'll have a word with him tonight.",
+"fa": "تو زیادی مؤدبی، تام. امشب با او حرف می‌زنم.",
+"ms": 5976
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Thanks ever so much. And tell him Tuesday's solo was brilliant.",
+"fa": "خیلی ممنون. و به او بگویید تک‌نوازی سه‌شنبه عالی بود.",
+"ms": 5448
+},
+{
+"sp": "khan",
+"spn": "Mrs Khan",
+"en": "I'll tell him you said so, but not until he's turned it down!",
+"fa": "به او می‌گویم که چنین گفتی، اما نه قبل از اینکه صدایش را کم کند!",
+"ms": 4944
+}
+],
+"quiz": [
+{
+"q": "What does Tom really want?",
+"options": [
+"The drumming to stop before nine",
+"Drum lessons",
+"Mrs Khan to move house"
+],
+"answer": 0
+},
+{
+"q": "Who has been drumming?",
+"options": [
+"Zayn, Mrs Khan's grandson",
+"Ryan",
+"Mrs Khan"
+],
+"answer": 0
+},
+{
+"q": "Why does Tom say \"it's only a small thing\"?",
+"options": [
+"To make his request sound polite",
+"Because he doesn't care",
+"To end the conversation"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_b2_kettle",
+"level": "B2",
+"title": "On the House",
+"titleFa": "مهمان ما",
+"still": "coffee",
+"blurb": "Saturday brunch at The Copper Kettle, and Sophie brings the wrong breakfast.",
+"blurbFa": "صبحانهٔ دیروقت شنبه در کافهٔ کاپر کتل، و سوفی صبحانهٔ اشتباهی می‌آورد.",
+"dub": "leslie",
+"lines": [
+{
+"sp": "sophie",
+"spn": "Sophie",
+"en": "Here you go, two full English breakfasts.",
+"fa": "بفرمایید، دو صبحانهٔ کامل انگلیسی.",
+"ms": 3696
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Oh, sorry, I think there's been a bit of a mix-up. I actually ordered the veggie one.",
+"fa": "اوه، ببخشید، فکر کنم کمی اشتباه شده. من در واقع صبحانهٔ گیاهی سفارش داده بودم.",
+"ms": 5976
+},
+{
+"sp": "sophie",
+"spn": "Sophie",
+"en": "Oh no, I'm so sorry! That's completely my fault.",
+"fa": "ای وای، خیلی متأسفم! کاملاً تقصیر من است.",
+"ms": 5424
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Honestly, don't worry about it. These things happen.",
+"fa": "راستش، نگرانش نباش. این چیزها پیش می‌آید.",
+"ms": 4272
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "While you're here, would it be possible to get a bit more toast?",
+"fa": "حالا که اینجایی، ممکن است کمی نان تست بیشتر بیاوری؟",
+"ms": 3984
+},
+{
+"sp": "sophie",
+"spn": "Sophie",
+"en": "Of course. Is there anything else I can get you?",
+"fa": "البته. چیز دیگری هم لازم دارید؟",
+"ms": 4512
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "If you had any brown sauce, that would be lovely.",
+"fa": "اگر سس قهوه‌ای داشته باشید، خیلی خوب می‌شود.",
+"ms": 3288
+},
+{
+"sp": "sophie",
+"spn": "Sophie",
+"en": "Coming right up. And the veggie breakfast is on the house, to say sorry.",
+"fa": "الان می‌آورم. و صبحانهٔ گیاهی مهمان ماست، به‌عنوان عذرخواهی.",
+"ms": 5976
+},
+{
+"sp": "tom",
+"spn": "Tom",
+"en": "Oh, you really don't have to do that.",
+"fa": "اوه، واقعاً لازم نیست این کار را بکنی.",
+"ms": 3024
+},
+{
+"sp": "sophie",
+"spn": "Sophie",
+"en": "I insist. You're our best regulars!",
+"fa": "اصرار دارم. شما بهترین مشتری‌های همیشگی ما هستید!",
+"ms": 4656
+}
+],
+"quiz": [
+{
+"q": "What went wrong?",
+"options": [
+"Leslie got the wrong breakfast",
+"The food was cold",
+"They waited an hour"
+],
+"answer": 0
+},
+{
+"q": "What does Tom ask for?",
+"options": [
+"More toast",
+"The bill",
+"A cup of tea"
+],
+"answer": 0
+},
+{
+"q": "\"On the house\" means the breakfast is...",
+"options": [
+"free",
+"upstairs",
+"to take away"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_c1_uni",
+"level": "C1",
+"title": "The Form",
+"titleFa": "فرم",
+"still": "eveningtea",
+"blurb": "After his GCSEs: sixth form or an apprenticeship? Ryan's form is due on Friday, and Grandad George has opinions.",
+"blurbFa": "بعد از امتحانات GCSE: دبیرستان تکمیلی یا کارآموزی؟ فرم رایان باید تا جمعه تحویل شود و پدربزرگ جورج نظر خودش را دارد.",
+"dub": "ryan",
+"lines": [
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Grandad, can I ask you something? Did you ever regret leaving school at sixteen?",
+"fa": "پدربزرگ، می‌توانم چیزی بپرسم؟ هیچ‌وقت پشیمان شدی که شانزده‌سالگی مدرسه را ول کردی؟",
+"ms": 6072
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "Hardly ever. Had I stayed on, I'd never have spent thirty-one years driving the 38, and I loved nearly every day of it.",
+"fa": "به‌ندرت. اگر مانده بودم، هرگز سی‌ویک سال اتوبوس ۳۸ را نمی‌راندم، و تقریباً عاشق تک‌تک روزهایش بودم.",
+"ms": 9984
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Everyone at school acts as if sixth form is the only option. I just wish someone would tell me what I actually want.",
+"fa": "همه در مدرسه طوری رفتار می‌کنند که انگار دبیرستان تکمیلی تنها راه است. فقط کاش یکی به من می‌گفت واقعاً چه می‌خواهم.",
+"ms": 7368
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "Nobody can tell you that, I'm afraid. It's not the choice that matters so much as what you make of it.",
+"fa": "متأسفانه هیچ‌کس نمی‌تواند این را به تو بگوید. مهم خودِ انتخاب نیست، بلکه کاری است که با آن می‌کنی.",
+"ms": 8135
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "That's very wise, but it doesn't exactly help me fill in the form by Friday.",
+"fa": "خیلی حکیمانه است، اما دقیقاً کمکی نمی‌کند که فرم را تا جمعه پر کنم.",
+"ms": 4968
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "Then apply for both. Not only does it keep the door open, it buys you time to think.",
+"fa": "پس برای هر دو درخواست بده. نه‌تنها راه را باز نگه می‌دارد، بلکه به تو وقت فکر کردن می‌دهد.",
+"ms": 7272
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "And if I choose the wrong one and hate it?",
+"fa": "و اگر اشتباه انتخاب کنم و از آن متنفر باشم؟",
+"ms": 2904
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "Then you'll have learnt something about yourself, which is rarely a waste of time.",
+"fa": "آن‌وقت چیزی دربارهٔ خودت یاد گرفته‌ای، که به‌ندرت اتلاف وقت است.",
+"ms": 5568
+},
+{
+"sp": "ryan",
+"spn": "Ryan",
+"en": "You make it sound so simple.",
+"fa": "طوری می‌گویی که انگار خیلی ساده است.",
+"ms": 2448
+},
+{
+"sp": "george",
+"spn": "Grandad George",
+"en": "It isn't. But I'd rather you chose with your eyes open than drifted along because everyone else did.",
+"fa": "نیست. اما ترجیح می‌دهم آگاهانه انتخاب کنی تا اینکه فقط چون همه رفتند، با جریان بروی.",
+"ms": 7584
+}
+],
+"quiz": [
+{
+"q": "Why doesn't George regret leaving school at sixteen?",
+"options": [
+"He loved his years driving the 38",
+"He hated studying",
+"He couldn't afford to stay"
+],
+"answer": 0
+},
+{
+"q": "What does George advise Ryan to do?",
+"options": [
+"Apply for both, to keep the door open",
+"Start work straight away",
+"Ask his teachers"
+],
+"answer": 0
+},
+{
+"q": "What worries Ryan?",
+"options": [
+"Choosing the wrong one and hating it",
+"Leaving his friends",
+"The cost of books"
+],
+"answer": 0
+}
+]
+},
+{
+"id": "c_c1_evening",
+"level": "C1",
+"title": "Parents' Evening",
+"titleFa": "جلسهٔ اولیا",
+"still": "parentsevening",
+"blurb": "Leslie is a teacher herself, but tonight she's on the other side of the desk, with Ryan's form tutor, Mr Patel.",
+"blurbFa": "لزلی خودش معلم است، اما امشب آن طرف میز نشسته، روبه‌روی آقای پاتل، معلم راهنمای رایان.",
+"dub": "leslie",
+"lines": [
+{
+"sp": "patel",
+"spn": "Mr Patel",
+"en": "Mrs Thompson, thanks for coming. Do have a seat.",
+"fa": "خانم تامسون، ممنون که آمدید. لطفاً بنشینید.",
+"ms": 5304
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Thank you. I'll be honest, I'm half expecting bad news.",
+"fa": "ممنون. راستش را بخواهید، تا حدی منتظر خبر بدم.",
+"ms": 4584
+},
+{
+"sp": "patel",
+"spn": "Mr Patel",
+"en": "Not at all. If anything, Ryan's been one of the more thoughtful students this term.",
+"fa": "اصلاً. اتفاقاً رایان این ترم یکی از متفکرترین دانش‌آموزها بوده.",
+"ms": 7152
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "That's a relief. It's just that at home he seems to spend more time on his phone than on his homework.",
+"fa": "خیالم راحت شد. فقط اینکه در خانه انگار بیشتر وقتش را با گوشی می‌گذراند تا با تکالیفش.",
+"ms": 6480
+},
+{
+"sp": "patel",
+"spn": "Mr Patel",
+"en": "Admittedly, he does leave things until the last minute. But what he hands in is genuinely impressive.",
+"fa": "قبول دارم که کارها را به لحظهٔ آخر موکول می‌کند. اما چیزی که تحویل می‌دهد واقعاً چشمگیر است.",
+"ms": 8376
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Is there anything we should be doing differently at home?",
+"fa": "کاری هست که در خانه باید جور دیگری انجام دهیم؟",
+"ms": 3504
+},
+{
+"sp": "patel",
+"spn": "Mr Patel",
+"en": "What would help most is a bit of structure. Perhaps an hour a night without the phone.",
+"fa": "چیزی که بیشتر از همه کمک می‌کند کمی نظم است. شاید هر شب یک ساعت بدون گوشی.",
+"ms": 7368
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Easier said than done, but we'll give it a go.",
+"fa": "گفتنش آسان‌تر از انجامش است، اما امتحانش می‌کنیم.",
+"ms": 3216
+},
+{
+"sp": "patel",
+"spn": "Mr Patel",
+"en": "And it might be worth him having a chat with the careers adviser before the deadline.",
+"fa": "و شاید ارزشش را داشته باشد که قبل از مهلت با مشاور شغلی صحبت کند.",
+"ms": 6360
+},
+{
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Funnily enough, his grandad has been saying exactly the same thing.",
+"fa": "جالب اینجاست که پدربزرگش هم دقیقاً همین را می‌گوید.",
+"ms": 4560
+}
+],
+"quiz": [
+{
+"q": "How is Ryan doing, according to Mr Patel?",
+"options": [
+"He's thoughtful and his work is impressive",
+"He's failing most subjects",
+"He's often absent"
+],
+"answer": 0
+},
+{
+"q": "What is Ryan's weak point?",
+"options": [
+"He leaves things until the last minute",
+"He's rude in class",
+"He never hands work in"
+],
+"answer": 0
+},
+{
+"q": "What does Mr Patel suggest?",
+"options": [
+"An hour a night without the phone",
+"More football",
+"Changing schools"
+],
+"answer": 0
+}
+]
+}
+]
+}

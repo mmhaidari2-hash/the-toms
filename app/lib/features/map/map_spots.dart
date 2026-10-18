@@ -155,6 +155,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ),
           ],
+          if (s.id == 'cinema') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF17110F),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-cinema'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/cinema');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.movie_rounded, color: BL.gold),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Now showing · watch & dub scenes', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
           if (s.id == 'school') ...[
             const SizedBox(height: 12),
             Material(

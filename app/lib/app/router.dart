@@ -15,6 +15,8 @@ import '../features/premium/premium_screen.dart';
 import '../features/grammar/school_screen.dart';
 import '../features/grammar/topic_screen.dart';
 import '../features/legal/legal_screen.dart';
+import '../features/cinema/cinema_screen.dart';
+import '../features/cinema/scene_screen.dart';
 import '../features/library/library_screen.dart';
 import '../features/library/reader_screen.dart';
 import '../features/motivation/progress_screen.dart';
@@ -47,6 +49,8 @@ final router = GoRouter(
     GoRoute(path: '/grammar/:id', pageBuilder: (_, s) => _fade(TopicScreen(key: ValueKey('grammar-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),
+    GoRoute(path: '/cinema', pageBuilder: (_, s) => _fade(const CinemaScreen(), s)),
+    GoRoute(path: '/cinema/:id', pageBuilder: (_, s) => _fade(SceneScreen(key: ValueKey('cine-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/progress', pageBuilder: (_, s) => _fade(const ProgressScreen(), s)),
     GoRoute(path: '/premium', pageBuilder: (_, s) => _fade(PremiumScreen(key: ValueKey('premium-${s.uri.queryParameters['pack']}'), pack: s.uri.queryParameters['pack']), s)),
     GoRoute(path: '/certificate/:level', pageBuilder: (_, s) => _fade(CertificateScreen(key: ValueKey('cert-${s.pathParameters['level']}'), level: int.tryParse(s.pathParameters['level']!) ?? 1), s)),

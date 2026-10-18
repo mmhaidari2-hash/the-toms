@@ -290,6 +290,27 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 50 ? (pct >= 100 ? 15 : 10) : 3);
   }
 
+  // ---- Cinema & dubbing: best questions % in 'cine:<scene>', best dub % in 'cine:dub:<scene>'.
+  int? cineScore(String id) => int.tryParse(state.missionsDone['cine:$id'] ?? '');
+  int? dubScore(String id) => int.tryParse(state.missionsDone['cine:dub:$id'] ?? '');
+  bool sceneDone(String id) => (cineScore(id) ?? -1) >= 60;
+  int get scenesDone => state.missionsDone.entries.where((e) => e.key.startsWith('cine:') && !e.key.startsWith('cine:dub:') && (int.tryParse(e.value) ?? 0) >= 60).length;
+  XpAward saveSceneQuiz(String id, int pct) {
+    if (pct > (cineScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'cine:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 60 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
+  XpAward saveDub(String id, int pct) {
+    if (pct > (dubScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'cine:dub:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
+  }
+
   String pref(String k, [String def = '']) => state.missionsDone['pref:$k'] ?? def;
   void setPref(String k, String v) {
     state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:$k': v});
