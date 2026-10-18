@@ -20,6 +20,7 @@ import '../features/cinema/scene_screen.dart';
 import '../features/lifeuk/lifeuk_screen.dart';
 import '../features/lifeuk/luk_quiz_screen.dart';
 import '../features/messages/inbox_screen.dart';
+import '../features/seasons/seasons_screen.dart';
 import '../features/messages/thread_screen.dart';
 import '../features/missions/mission_screen.dart';
 import '../features/park/game_screen.dart';
@@ -68,6 +69,8 @@ final router = GoRouter(
     GoRoute(path: '/park', pageBuilder: (_, s) => _fade(const ParkScreen(), s)),
     GoRoute(path: '/park/:level/:game', pageBuilder: (_, s) => _fade(ParkGameScreen(key: ValueKey('park-${s.pathParameters['level']}-${s.pathParameters['game']}-${s.uri.queryParameters['r']}'), level: s.pathParameters['level']!, game: s.pathParameters['game']!), s)),
     GoRoute(path: '/messages', pageBuilder: (_, s) => _fade(const InboxScreen(), s)),
+    GoRoute(path: '/seasons', pageBuilder: (_, s) => _fade(const SeasonsScreen(), s)),
+    GoRoute(path: '/seasons/:id', pageBuilder: (_, s) => _fade(SeasonEventScreen(key: ValueKey('sea-${s.pathParameters['id']}-${s.uri.queryParameters['r']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/messages/:id', pageBuilder: (_, s) => _fade(ThreadScreen(key: ValueKey('thread-${s.pathParameters['id']}-${s.uri.queryParameters['r']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/missions', pageBuilder: (_, s) => _fade(const MissionsScreen(), s)),
     GoRoute(path: '/missions/:id', pageBuilder: (_, s) => _fade(MissionScreen(key: ValueKey('mission-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),

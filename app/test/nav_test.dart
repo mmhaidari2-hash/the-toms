@@ -58,7 +58,7 @@ void main() {
       '/practice/${units.first['id']}',
       ...places.take(4).map((p) => '/place/$p'),
       '/chat/ep1_morning_table',
-      '/cinema', '/cinema/c_a1_breakfast', '/radio', '/radio/r_a1_weather', '/missions', '/missions/m_a1_flatwhite', '/messages', '/messages/t_a1_milk', '/park', '/park/A1/match', '/park/A1/build', '/lifeuk', '/lifeuk/history', '/lifeuk/law/cards', '/lifeuk/values/quiz', '/lifeuk/mock',
+      '/cinema', '/cinema/c_a1_breakfast', '/radio', '/radio/r_a1_weather', '/missions', '/missions/m_a1_flatwhite', '/messages', '/messages/t_a1_milk', '/park', '/park/A1/match', '/park/A1/build', '/lifeuk', '/lifeuk/history', '/lifeuk/law/cards', '/lifeuk/values/quiz', '/lifeuk/mock', '/seasons', '/seasons/halloween', '/seasons/eid',
     ];
     for (final r in routes) {
       // 1) Opened directly: nothing to pop, Back must still lead to the map within a few taps.

@@ -1,0 +1,286 @@
+# Seasonal events: British celebrations through the Thompsons' year. Original scenes; facts checked (see src:).
+# Header:  # id | level | rule | title | titleFa
+#   rule: fixed:MM-DD · easter:+N (days from Easter Sunday) · nth:MM:weekday:n (weekday 1=Mon..7=Sun, n=-1 last; several joined by ,)
+#         · table:YYYY-MM-DD,... (moon/equinox festivals; add years as they are announced) · approx = a typical date only
+# when: how the date works (English | Persian)
+# note: the culture note (English | Persian)
+# sp: line | Persian           a scene line (sp = characters.json id, or "me" = the learner)
+# word: word = meaning | Persian
+# Q: question | correct ; wrong ; wrong
+# src: a public source the facts were checked against
+
+# halloween | A1 | fixed:10-31 | Halloween | هالووین
+when: Every year on 31 October | هر سال ۳۱ اکتبر
+note: On 31 October children dress up and go trick-or-treating for sweets. A pumpkin outside a house usually means "you can knock here". | در ۳۱ اکتبر بچه‌ها لباس مبدل می‌پوشند و برای گرفتن شکلات در خانه‌ها را می‌زنند. کدوی بیرون خانه معمولاً یعنی «می‌توانی در بزنی».
+nicola: Look, Mummy! I'm a witch! | ببین مامان! من جادوگرم!
+leslie: Very scary! Where's your hat? | خیلی ترسناک! کلاهت کجاست؟
+william: I'm a pumpkin! | من کدو تنبلم!
+tom: Ready? Let's go trick-or-treating! | آماده‌اید؟ بریم در خانه‌ها!
+leslie: Only houses with a pumpkin outside, OK? | فقط خانه‌هایی که بیرونشان کدو هست، باشه؟
+nicola: Trick or treat! | حقه یا خوراکی!
+word: pumpkin = a big orange vegetable | کدو تنبل
+word: costume = special clothes for dressing up | لباس مبدل
+word: trick or treat = what children say at the door | جملهٔ بچه‌ها دم در: «حقه یا خوراکی»
+word: sweets = British English for "candy" | شکلات و آبنبات
+Q: What is Nicola dressed as? | A witch ; A pumpkin ; A ghost
+Q: Which houses do they visit? | Houses with a pumpkin outside ; Every house in the street ; Only Grandad's house
+Q: When is Halloween? | 31 October ; 5 November ; 25 December
+
+# christmas | A1 | fixed:12-25 | Christmas Day | روز کریسمس
+when: Every year on 25 December (a bank holiday) | هر سال ۲۵ دسامبر (تعطیل رسمی)
+note: Christmas Day is 25 December. Families open presents, pull crackers and eat Christmas dinner, often roast turkey with all the trimmings. | کریسمس ۲۵ دسامبر است. خانواده‌ها هدیه باز می‌کنند، کراکر می‌کشند و شام کریسمس می‌خورند؛ اغلب بوقلمون کبابی با مخلفات.
+william: Has Father Christmas been? | بابانوئل آمده؟
+leslie: Yes! Look under the tree. | بله! زیر درخت را نگاه کن.
+nicola: A present for me! | یک هدیه برای من!
+tom: Dinner is at two. Turkey and roast potatoes! | شام ساعت دو است. بوقلمون و سیب‌زمینی تنوری!
+ryan: And Christmas pudding? | پودینگ کریسمس هم هست؟
+george: Pull my cracker, William! Bang! | کراکر من را بکش، ویلیام! بنگ!
+word: Father Christmas = the British name for Santa | نام بریتانیایی بابانوئل
+word: cracker = a paper tube that goes bang, with a hat and a joke inside | لولهٔ کاغذی که صدا می‌دهد و داخلش کلاه و جوک است
+word: Christmas pudding = a dark, rich fruit pudding | پودینگ تیره و پرمیوهٔ کریسمس
+word: present = a gift | هدیه
+Q: What time is dinner? | At two ; At six ; At nine
+Q: Who pulls a cracker with William? | Grandad ; Ryan ; Nicola
+Q: What is "Father Christmas"? | The British name for Santa ; A Christmas cake ; A church
+src: https://www.gov.uk/bank-holidays
+
+# pancake | A1 | easter:-47 | Pancake Day | روز پنکیک
+when: Shrove Tuesday: 47 days before Easter Sunday (February or March) | سه‌شنبهٔ پیش از روزهٔ بزرگ: ۴۷ روز پیش از عید پاک
+note: Pancake Day (Shrove Tuesday) is the day before Lent begins. People make thin pancakes, often with lemon and sugar, and some towns hold pancake races. | روز پنکیک روز پیش از آغاز ایام روزهٔ مسیحیان است. مردم پنکیک نازک می‌پزند، اغلب با لیمو و شکر، و بعضی شهرها مسابقهٔ دوی پنکیک دارند.
+leslie: It's Pancake Day! Who wants pancakes? | روز پنکیک است! کی پنکیک می‌خواهد؟
+william: Me! Me! | من! من!
+tom: Watch this. I can flip it! | نگاه کنید. می‌توانم برش گردانم!
+nicola: Oh no, Daddy! It's on the floor! | وای نه، بابا! افتاد روی زمین!
+leslie: Lemon and sugar, Nicola? | لیمو و شکر، نیکولا؟
+nicola: Yes, please! | بله، لطفاً!
+word: flip = to turn something over in the air | در هوا برگرداندن
+word: Shrove Tuesday = the other name for Pancake Day | نام دیگر روز پنکیک
+word: frying pan = a flat pan for cooking | ماهی‌تابه
+word: lemon and sugar = the classic British pancake topping | لیمو و شکر: رویهٔ کلاسیک بریتانیایی
+Q: Where does Dad's pancake land? | On the floor ; On the plate ; On the ceiling
+Q: What does Nicola have on her pancake? | Lemon and sugar ; Cheese ; Ice cream
+Q: Pancake Day is always on a... | Tuesday ; Sunday ; Friday
+src: https://www.timeanddate.com/holidays/uk/shrove-tuesday
+
+# bonfire | A2 | fixed:11-05 | Bonfire Night | شب آتش‌بازی
+when: Every year on 5 November (not a holiday) | هر سال ۵ نوامبر (تعطیل نیست)
+note: On 5 November people remember the Gunpowder Plot of 1605, when Guy Fawkes and others tried to blow up Parliament. There are bonfires and fireworks, and many towns hold big public displays. | در ۵ نوامبر مردم توطئهٔ باروت ۱۶۰۵ را به یاد می‌آورند که گای فاکس و همدستانش خواستند پارلمان را منفجر کنند. آتش و آتش‌بازی برپاست و بسیاری از شهرها نمایش عمومی بزرگ دارند.
+ryan: Are we going to the fireworks in the park tonight? | امشب می‌رویم آتش‌بازی پارک؟
+tom: Yes, they start at seven. Wrap up warm! | بله، ساعت هفت شروع می‌شود. خوب گرم بپوشید!
+nicola: Can I have a sparkler? | می‌توانم یک فشفشه داشته باشم؟
+leslie: Yes, but wear your gloves and hold it away from you. | بله، ولی دستکش بپوش و از خودت دور نگهش دار.
+george: Remember, remember the fifth of November! | یادت بماند، یادت بماند، پنجم نوامبر!
+william: Ooh! Look at that big one! | اوه! آن بزرگه را ببین!
+word: bonfire = a big fire outside | آتش بزرگ در فضای باز
+word: sparkler = a small firework you hold in your hand | فشفشهٔ دستی
+word: wrap up warm = wear warm clothes | لباس گرم پوشیدن
+word: display = a big public firework show | نمایش عمومی آتش‌بازی
+Q: What time do the fireworks start? | At seven ; At five ; At midnight
+Q: What must Nicola wear with a sparkler? | Gloves ; A hat ; Sunglasses
+Q: What does Bonfire Night remember? | The Gunpowder Plot of 1605 ; The end of the First World War ; The King's birthday
+src: https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/the-gunpowder-plot-of-1605/
+
+# easter | A2 | easter:0 | Easter | عید پاک
+when: A Sunday in March or April: the date changes every year | یکشنبه‌ای در مارس یا آوریل؛ تاریخ هر سال عوض می‌شود
+note: At Easter Christians remember Jesus rising from the dead. Good Friday is a bank holiday across the UK, and Easter Monday is too, except in Scotland. Children hunt for chocolate eggs and people eat hot cross buns. | در عید پاک مسیحیان برخاستن عیسی از مرگ را به یاد می‌آورند. جمعهٔ نیک در سراسر بریتانیا تعطیل است و دوشنبهٔ عید پاک هم، جز در اسکاتلند. بچه‌ها دنبال تخم‌مرغ شکلاتی می‌گردند و مردم نان شیرین صلیبی می‌خورند.
+leslie: The Easter egg hunt starts after breakfast! | تخم‌مرغ‌گردی عید پاک بعد از صبحانه شروع می‌شود!
+nicola: How many eggs are there? | چند تا تخم‌مرغ هست؟
+tom: Ten. They're all hidden in the garden. | ده تا. همه در باغچه قایم شده‌اند.
+william: I found one under the bench! | یکی زیر نیمکت پیدا کردم!
+weda: Don't eat them all before lunch, you two! | شما دو تا، همه را پیش از ناهار نخورید!
+ryan: The hot cross buns are ready, Nana. | نان‌های صلیبی آماده‌اند، مادربزرگ.
+word: egg hunt = a game: children look for hidden eggs | بازی پیدا کردن تخم‌مرغ‌های پنهان
+word: hot cross bun = a sweet spiced bun with a cross on top | نان شیرین ادویه‌دار با صلیب روی آن
+word: bank holiday = a public holiday when many people don't work | تعطیل رسمی
+word: hidden = put where people can't see it | پنهان
+Q: Where are the eggs? | In the garden ; In the car ; At school
+Q: Where did William find an egg? | Under the bench ; In a tree ; In his shoe
+Q: What are hot cross buns? | Sweet spiced buns ; Chocolate eggs ; Roast potatoes
+src: https://www.gov.uk/bank-holidays
+
+# nowruz | A2 | table:2026-03-21,2027-03-21,2028-03-20,2029-03-20,2030-03-21 | Nowruz | نوروز
+when: The spring equinox: 20 or 21 March | اعتدال بهاری: ۲۰ یا ۲۱ مارس
+note: Nowruz, the Persian New Year, begins at the spring equinox. In London, Iranian, Afghan, Kurdish and other families lay a haft-sin table, visit relatives and wish each other a happy new year. | نوروز، سال نو ایرانی، با اعتدال بهاری آغاز می‌شود. در لندن خانواده‌های ایرانی، افغان، کرد و دیگران سفرهٔ هفت‌سین می‌چینند، به دیدن اقوام می‌روند و سال نو را تبریک می‌گویند.
+me: Happy Nowruz! Come in, come in! | نوروز مبارک! بفرمایید، بفرمایید!
+leslie: Happy New Year! What a beautiful table! | سال نو مبارک! چه سفرهٔ قشنگی!
+me: It's a haft-sin. It has seven special things. | هفت‌سین است. هفت چیز ویژه دارد.
+nicola: Why are there goldfish? | چرا ماهی قرمز هست؟
+me: They mean new life for the new year. | یعنی زندگی تازه برای سال نو.
+tom: And what's this green grass? | این سبزه چیست؟
+me: It's sabzeh. It's for spring. | سبزه است. برای بهار است.
+word: haft-sin = a Nowruz table with seven things whose Persian names start with "s" | سفرهٔ هفت‌سین
+word: sabzeh = wheat or lentils grown green for spring | سبزه
+word: equinox = when day and night are the same length | اعتدال
+word: relatives = people in your family | اقوام
+Q: How many special things are on a haft-sin? | Seven ; Three ; Ten
+Q: What do the goldfish mean? | New life ; Good food ; A long journey
+Q: When does Nowruz begin? | At the spring equinox ; On 1 January ; On 31 October
+src: https://www.unesco.org/en/articles/international-day-nowruz
+
+# boxing | B1 | fixed:12-26 | Boxing Day & panto | باکسینگ دی و پانتومیم
+when: Every year on 26 December (a bank holiday) | هر سال ۲۶ دسامبر (تعطیل رسمی)
+note: Boxing Day, 26 December, is a bank holiday. People eat leftovers, watch football and go to the sales. Many families see a pantomime: a funny Christmas show where the audience shouts back. | باکسینگ دی، ۲۶ دسامبر، تعطیل رسمی است. مردم باقی‌ماندهٔ غذا را می‌خورند، فوتبال می‌بینند و به حراجی می‌روند. بسیاری از خانواده‌ها به پانتومیم می‌روند: نمایشی خنده‌دار که تماشاگران در آن داد می‌زنند.
+tom: Turkey sandwiches again! I love Boxing Day leftovers. | باز ساندویچ بوقلمون! عاشق باقی‌ماندهٔ غذای باکسینگ دی‌ام.
+leslie: Don't forget, the panto starts at half past two. | یادتان نرود، پانتومیم ساعت دو و نیم شروع می‌شود.
+ryan: Do I have to come? Pantos are for little kids. | من هم باید بیایم؟ پانتومیم مال بچه‌کوچولوهاست.
+george: Nonsense! I've been every year since I was five. | چرند! من از پنج‌سالگی هر سال رفته‌ام.
+nicola: What's a panto, Grandad? | پانتومیم چیست، پدربزرگ؟
+george: It's a silly show. When the villain hides, everyone shouts, "He's behind you!" | نمایشی بامزه است. وقتی آدم بده قایم می‌شود، همه داد می‌زنند: «پشت سرته!»
+william: Oh no he isn't! | اوه نه، نیست!
+weda: Oh yes he is! | اوه چرا، هست!
+word: leftovers = food that wasn't eaten yesterday | باقی‌ماندهٔ غذا
+word: panto = pantomime: a funny family show at Christmas | نمایش خانوادگی خنده‌دار کریسمس
+word: villain = the bad character in a story | شخصیت بد داستان
+word: the sales = when shops sell things cheaply | حراجی‌ها
+Q: What time does the panto start? | Half past two ; Half past seven ; Two o'clock
+Q: What does Ryan think about pantos? | They're for little kids ; They're too long ; They're too expensive
+Q: What do audiences shout at a panto? | "He's behind you!" ; "Happy New Year!" ; "Trick or treat!"
+src: https://www.gov.uk/bank-holidays
+
+# mothers | B1 | easter:-21 | Mother's Day (Mothering Sunday) | روز مادر
+when: The fourth Sunday of Lent: three weeks before Easter, usually in March | چهارمین یکشنبهٔ ایام روزه: سه هفته پیش از عید پاک، معمولاً در مارس
+note: In the UK, Mother's Day (Mothering Sunday) is three weeks before Easter Sunday, so it is usually in March, not in May as in the USA. People give their mums cards, flowers and breakfast in bed. | در بریتانیا روز مادر سه هفته پیش از عید پاک است، پس معمولاً در مارس است، نه در مه مثل آمریکا. مردم به مادرشان کارت، گل و صبحانه در رختخواب می‌دهند.
+ryan: Psst, Nicola. Did you make your card for Mum? | پیس، نیکولا. کارتت را برای مامان درست کردی؟
+nicola: Yes! It's got glitter and a big heart on it. | آره! اکلیل دارد و یک قلب بزرگ.
+tom: Right, breakfast in bed: tea, toast and a boiled egg. | خب، صبحانه در رختخواب: چای، نان تست و تخم‌مرغ آب‌پز.
+william: Can I carry the flowers? | می‌توانم گل‌ها را بیاورم؟
+tom: Carefully, mate. They're daffodils from the market. | با احتیاط، رفیق. نرگس‌های بازار است.
+leslie: Oh, this is lovely! Thank you, all of you. | وای، چه قشنگ! ممنون، از همه‌تان.
+word: Mothering Sunday = the traditional name for Mother's Day in the UK | نام سنتی روز مادر در بریتانیا
+word: breakfast in bed = breakfast brought to someone in bed as a treat | صبحانه در رختخواب
+word: daffodils = yellow spring flowers | گل نرگس زرد
+word: mate = friend; also a friendly word for a boy or man | رفیق
+Q: What does Tom make for breakfast? | Tea, toast and a boiled egg ; Pancakes and syrup ; A full English
+Q: What flowers do they give Leslie? | Daffodils ; Roses ; Tulips
+Q: When is Mother's Day in the UK? | Three weeks before Easter Sunday ; The second Sunday in May ; 1 March every year
+src: https://www.timeanddate.com/holidays/uk/mothering-sunday
+
+# maybank | B1 | nth:05:1:1,nth:05:1:-1 | May bank holidays | تعطیلات ماه مه
+when: The first and last Mondays in May | نخستین و آخرین دوشنبهٔ ماه مه
+note: The UK has two May bank holidays: the early May bank holiday on the first Monday and the spring bank holiday on the last Monday. For many people that means a long weekend: barbecues, garden centres and traffic jams. | بریتانیا دو تعطیل رسمی در ماه مه دارد: نخستین دوشنبه و آخرین دوشنبهٔ ماه. برای بسیاری یعنی آخر هفتهٔ طولانی: کباب، گلخانه و ترافیک.
+leslie: It's a bank holiday on Monday. Shall we do something? | دوشنبه تعطیل است. کاری بکنیم؟
+tom: Weather permitting, a barbecue in the garden. | اگر هوا اجازه بدهد، کباب در باغچه.
+ryan: Can my mates come round? | دوست‌هایم می‌توانند بیایند؟
+leslie: As long as you help with the washing-up afterwards. | به شرطی که بعدش در شستن ظرف‌ها کمک کنی.
+george: Mark my words, it'll rain. It always rains on bank holidays. | حرفم یادت بماند، باران می‌آید. روزهای تعطیل همیشه باران می‌آید.
+tom: Then we'll have the barbecue under the umbrella, Dad. | پس کباب را زیر چتر درست می‌کنیم، بابا.
+word: long weekend = a weekend with an extra day off | آخر هفتهٔ طولانی
+word: weather permitting = if the weather is good enough | اگر هوا اجازه بدهد
+word: come round = visit someone's home | به خانهٔ کسی آمدن
+word: mark my words = believe me, this will happen | حرفم یادت بماند
+Q: What is Tom planning? | A barbecue ; A trip to the beach ; A film night
+Q: What does Grandad think will happen? | It will rain ; It will be too hot ; Nobody will come
+Q: When is the spring bank holiday? | The last Monday in May ; The first Friday in May ; 1 May every year
+src: https://www.gov.uk/bank-holidays
+
+# remembrance | B2 | nth:11:7:2 | Remembrance Sunday | یکشنبهٔ یادبود
+when: The second Sunday in November; Armistice Day is always 11 November | دومین یکشنبهٔ نوامبر؛ روز آتش‌بس همیشه ۱۱ نوامبر است
+note: On Armistice Day, 11 November, and on Remembrance Sunday, the second Sunday in November, there is a two-minute silence at 11 am, the time the fighting of the First World War stopped in 1918. Wreaths are laid at war memorials and people wear red poppies. | در روز آتش‌بس، ۱۱ نوامبر، و یکشنبهٔ یادبود، دومین یکشنبهٔ نوامبر، ساعت ۱۱ صبح دو دقیقه سکوت می‌شود؛ ساعتی که جنگ جهانی اول در ۱۹۱۸ متوقف شد. تاج گل بر بنای یادبود جنگ گذاشته می‌شود و مردم گل خشخاش قرمز می‌زنند.
+william: Why is everyone wearing a red flower, Daddy? | بابا، چرا همه گل قرمز زده‌اند؟
+tom: It's a poppy. We wear them to remember the people who died in wars. | گل خشخاش است. می‌زنیمش تا کسانی را که در جنگ‌ها جان دادند به یاد بیاوریم.
+george: My grandad fought in the First World War. He was only nineteen when he went. | پدربزرگم در جنگ جهانی اول جنگید. وقتی رفت فقط نوزده سالش بود.
+leslie: At eleven o'clock everyone will be quiet for two minutes. | ساعت یازده همه دو دقیقه ساکت می‌مانند.
+ryan: We do the silence at school as well, on Armistice Day itself. | ما هم در مدرسه، درست در روز آتش‌بس، سکوت می‌کنیم.
+george: Afterwards we'll lay a wreath at the war memorial by the church. | بعدش یک تاج گل کنار بنای یادبود جنگ نزدیک کلیسا می‌گذاریم.
+word: poppy = a red flower worn to remember people who died in wars | گل خشخاش قرمز
+word: two-minute silence = two minutes when everyone stops and stays quiet | دو دقیقه سکوت
+word: wreath = a ring of flowers or leaves | تاج گل
+word: war memorial = a monument with the names of people who died in wars | بنای یادبود جنگ
+Q: Who in George's family fought in the First World War? | His grandad ; His dad ; His brother
+Q: How long is the silence? | Two minutes ; Ten minutes ; One hour
+Q: When is the silence on Armistice Day? | At 11 am on 11 November ; At midnight on 31 December ; At noon on 5 November
+src: https://www.britishlegion.org.uk/get-involved/remembrance/two-minute-silence
+
+# fete | B2 | nth:07:6:2 approx | Summer fete | جشن تابستانی محله
+when: Summer weekends, June to August (each school or village picks its own day) | آخر هفته‌های تابستان، ژوئن تا اوت (هر مدرسه یا روستا روز خودش را دارد)
+note: In summer, schools, churches and villages hold fetes to raise money: a tombola, a cake stall, a raffle and old-fashioned games like the tug of war, and sometimes a dog show. | در تابستان مدرسه‌ها، کلیساها و روستاها برای جمع کردن پول جشن برگزار می‌کنند: قرعه‌کشی، غرفهٔ کیک، بخت‌آزمایی و بازی‌های قدیمی مثل طناب‌کشی، و گاهی نمایش سگ.
+leslie: I've baked forty cupcakes for the cake stall at the school fete. | برای غرفهٔ کیک جشن مدرسه چهل کاپ‌کیک پخته‌ام.
+tom: Forty? I'll be eating the ones that don't sell, then. | چهل تا؟ پس آن‌هایی که فروش نروند را من می‌خورم.
+nicola: Can I have a go on the tombola? I want to win the giant teddy. | می‌توانم قرعه‌کشی را امتحان کنم؟ می‌خواهم خرس بزرگه را ببرم.
+leslie: It's fifty pence a ticket, and every penny goes to the new library. | هر بلیت پنجاه پنس است و همهٔ پولش برای کتابخانهٔ جدید است.
+george: In my day we had a coconut shy and a tug of war. | زمان ما نارگیل‌زنی و طناب‌کشی داشتیم.
+ryan: They've still got the tug of war, Grandad. It's the teachers against the dads. | هنوز طناب‌کشی دارند، پدربزرگ. معلم‌ها در برابر باباها.
+tom: Right, that's me, then. Pass the sun cream. | خب، پس نوبت من است. کرم ضدآفتاب را بده.
+word: fete = an outdoor summer event to raise money | جشن بیرونی تابستانی برای جمع کردن پول
+word: tombola = a prize draw: you pick tickets from a turning drum | قرعه‌کشی با بلیت از طبلک چرخان
+word: have a go = try something | امتحان کردن
+word: raise money = collect money for a good cause | جمع کردن پول برای کار خیر
+Q: How much is a tombola ticket? | Fifty pence ; A pound ; Five pounds
+Q: What is the money for? | The new library ; A school trip ; New football kits
+Q: Why do schools and churches hold fetes? | To raise money ; To choose a mayor ; To sell houses
+
+# diwali | B2 | table:2026-11-08,2027-10-29,2028-10-17,2029-11-05,2030-10-26 | Diwali | دیوالی
+when: October or November: it follows the Hindu lunar calendar | اکتبر یا نوامبر، بر پایهٔ تقویم قمری هندو
+note: Diwali, the festival of lights, is celebrated by Hindus, Sikhs and Jains. Families light diyas (small oil lamps), share sweets and watch fireworks, and London often holds a free celebration in Trafalgar Square. | دیوالی، جشن نورها، را هندوها، سیک‌ها و جین‌ها جشن می‌گیرند. خانواده‌ها چراغ‌های کوچک روغنی روشن می‌کنند، شیرینی پخش می‌کنند و آتش‌بازی می‌بینند، و لندن اغلب جشنی رایگان در میدان ترافالگار برگزار می‌کند.
+priya: Happy Diwali! I've brought you a box of sweets from my mum. | دیوالی مبارک! از طرف مادرم یک جعبه شیرینی برایتان آورده‌ام.
+leslie: Oh, how kind of her! What are these orange ones called? | وای، چه لطفی! اسم این نارنجی‌ها چیست؟
+priya: Jalebi. They're incredibly sweet, so maybe just have one or two. | جلبی. خیلی شیرین‌اند، پس شاید فقط یکی دو تا بخورید.
+nicola: Why are there little lamps on your doorstep? | چرا جلوی درتان چراغ‌های کوچک هست؟
+priya: They're diyas. The light means good wins over evil, and it welcomes everyone home. | دیاها هستند. نور یعنی پیروزی خوبی بر بدی، و به همه خوشامد می‌گوید.
+tom: Will there be fireworks tonight? | امشب آتش‌بازی هست؟
+priya: Definitely, and there's a big celebration in Trafalgar Square at the weekend. | حتماً، و آخر هفته جشن بزرگی در میدان ترافالگار هست.
+word: festival of lights = another name for Diwali | جشن نورها
+word: diya = a small clay oil lamp | چراغ کوچک سفالی روغنی
+word: doorstep = the step outside the front door | جلوی در
+word: jalebi = a very sweet, bright orange Indian sweet | جلبی، شیرینی نارنجی هندی
+Q: Who are the sweets from? | Priya's mum ; The corner shop ; Nana Maggie
+Q: What does the light of the diyas mean? | Good wins over evil ; It's going to rain ; The shop is open
+Q: Diwali is known as the festival of... | Lights ; Flowers ; Harvest
+src: https://www.london.gov.uk/events/diwali-square
+
+# eid | C1 | table:2026-03-20,2027-03-10,2028-02-26,2029-02-14,2030-02-04 approx | Eid al-Fitr | عید فطر
+when: The end of Ramadan: it follows the moon, so it is about 11 days earlier each year (dates after 2026 are expected dates) | پایان رمضان؛ بر پایهٔ ماه، پس هر سال حدود ۱۱ روز زودتر است (تاریخ‌های پس از ۲۰۲۶ پیش‌بینی‌اند)
+note: Eid al-Fitr marks the end of Ramadan, the month when many Muslims fast from dawn to sunset. Because it depends on seeing the new moon, communities can celebrate a day apart. Families pray, wear new clothes, visit relatives and give to charity. | عید فطر پایان رمضان است، ماهی که بسیاری از مسلمانان از سحر تا غروب روزه می‌گیرند. چون به دیدن هلال ماه بستگی دارد، ممکن است جوامع با یک روز فاصله جشن بگیرند. خانواده‌ها نماز می‌خوانند، لباس نو می‌پوشند، به دیدن اقوام می‌روند و صدقه می‌دهند.
+bilal: Eid Mubarak, Tom! Excuse the queue, everyone's popping in on their way to see family. | عید مبارک، تام! صف را ببخش، همه سر راه دیدن خانواده سری می‌زنند.
+tom: Eid Mubarak, Bilal! You look very smart. Is that a new suit? | عید مبارک، بلال! خیلی شیک شده‌ای. کت‌وشلوار نو است؟
+bilal: My wife insisted. We were at the mosque at half seven for Eid prayers, so I've been up since the crack of dawn. | همسرم اصرار کرد. ساعت هفت و نیم برای نماز عید در مسجد بودیم، پس از سپیده‌دم بیدارم.
+tom: After a month of fasting, I bet you're looking forward to a proper lunch. | بعد از یک ماه روزه، حتماً منتظر یک ناهار حسابی هستی.
+bilal: You're not wrong. Mum's been cooking since yesterday; there's enough biryani to feed the whole of Hackney. | بی‌راه نمی‌گویی. مادرم از دیروز آشپزی می‌کند؛ آن‌قدر بریانی هست که کل هاکنی را سیر کند.
+leslie: Is it true that children get money at Eid? | راست است که بچه‌ها در عید پول می‌گیرند؟
+bilal: It is. It's called Eidi, and my nephews have already worked out exactly how much they're owed! | بله. اسمش عیدی است، و برادرزاده‌هایم دقیقاً حساب کرده‌اند چقدر طلب دارند!
+word: Eid Mubarak = "blessed Eid": the usual greeting | عید مبارک
+word: fast = to eat and drink nothing for a time | روزه گرفتن
+word: the crack of dawn = very early in the morning | سپیده‌دم
+word: pop in = visit for a short time | سری زدن
+word: Eidi = money or gifts given to children at Eid | عیدی
+Q: Why is there a queue at the kiosk? | People are popping in on the way to family ; The petrol pumps are broken ; There's a sale on
+Q: What time were they at the mosque? | Half past seven ; Half past six ; Seven o'clock
+Q: Why does the date of Eid move every year? | It follows the moon ; The government chooses it ; It is always the first Monday in spring
+src: https://www.timeanddate.com/holidays/uk/eid-al-fitr
+
+# carnival | C1 | nth:08:1:-1 | Notting Hill Carnival | کارناوال ناتینگ هیل
+when: The August bank holiday weekend: the Sunday and Monday (the last Monday in August) | آخر هفتهٔ تعطیل اوت: یکشنبه و دوشنبه (آخرین دوشنبهٔ اوت)
+note: Every August bank holiday weekend, Notting Hill Carnival fills west London with steel bands, sound systems and costumed parades. It grew from the Caribbean community in the 1960s and is one of the biggest street festivals in Europe. | هر سال در آخر هفتهٔ تعطیل اوت، کارناوال ناتینگ هیل غرب لندن را با گروه‌های استیل‌درام، سیستم‌های صوتی و رژه‌های پرزرق‌وبرق پر می‌کند. در دههٔ ۱۹۶۰ از دل جامعهٔ کارائیبی شکل گرفت و از بزرگ‌ترین جشنواره‌های خیابانی اروپاست.
+ryan: Dad, me and the lads are heading to Carnival on Monday. Is that alright? | بابا، من و بچه‌ها دوشنبه می‌رویم کارناوال. اشکالی ندارد؟
+tom: Go on, then, but keep your phone charged and stick together; it gets absolutely rammed. | باشه برو، ولی گوشی‌ات را شارژ نگه دار و با هم بمانید؛ حسابی شلوغ می‌شود.
+leslie: And agree on a meeting point in case you lose each other. The signal's dreadful in those crowds. | یک جای قرار هم بگذارید که اگر هم را گم کردید. آنتن در آن شلوغی افتضاح است.
+ryan: Sorted. We're meeting by the station and grabbing some jerk chicken first. | ردیف است. دم ایستگاه قرار داریم و اول مرغ جرک می‌گیریم.
+george: I went back in the seventies. The steel bands were something else; I can still hear them. | من دههٔ هفتاد رفتم. گروه‌های استیل‌درام بی‌نظیر بودند؛ هنوز صدایشان در گوشم است.
+tom: Just don't come home covered in paint like last year, please. | فقط مثل پارسال رنگی‌رنگی برنگرد خانه، لطفاً.
+word: rammed = extremely crowded (informal) | خیلی شلوغ (عامیانه)
+word: stick together = stay in a group | با هم ماندن
+word: sorted = done, organised (informal) | ردیف، حل شده (عامیانه)
+word: steel band = a band playing drums made from oil barrels | گروه نوازندگان استیل‌درام
+word: something else = amazing (informal) | بی‌نظیر (عامیانه)
+Q: What does Leslie suggest? | Agreeing on a meeting point ; Taking a taxi home ; Leaving before lunch
+Q: What does "rammed" mean? | Extremely crowded ; Very cheap ; Badly organised
+Q: Which community did Notting Hill Carnival grow from? | The Caribbean community ; The Royal Family ; Football supporters
+src: https://www.gov.uk/bank-holidays
+
+# newyear | C1 | fixed:12-31 | New Year's Eve & Hogmanay | شب سال نو و هاگمنی
+when: Every year on 31 December; 1 January is a bank holiday (and 2 January in Scotland) | هر سال ۳۱ دسامبر؛ یکم ژانویه تعطیل رسمی است (و در اسکاتلند دوم ژانویه هم)
+note: On New Year's Eve crowds watch the fireworks over the Thames as Big Ben chimes midnight, and people link arms to sing "Auld Lang Syne". In Scotland it is Hogmanay, and "first-footing" means being the first visitor of the new year. | در شب سال نو جمعیت آتش‌بازی روی رود تیمز را هنگام نواختن نیمه‌شب بیگ‌بن تماشا می‌کنند و دست در دست «اولد لنگ ساین» می‌خوانند. در اسکاتلند به آن هاگمنی می‌گویند و «فرست‌فوتینگ» یعنی نخستین مهمان سال نو بودن.
+nicola: Can I stay up till midnight this year? Please? Pretty please? | امسال می‌توانم تا نیمه‌شب بیدار بمانم؟ لطفاً؟ خواهش می‌کنم؟
+leslie: We'll see. If you're fast asleep by ten, I'm not waking you up. | ببینیم. اگر تا ساعت ده خوابت برد، بیدارت نمی‌کنم.
+tom: We'll watch the fireworks over the Thames on the telly; the tickets sold out ages ago. | آتش‌بازی روی تیمز را از تلویزیون می‌بینیم؛ بلیت‌ها خیلی وقت پیش تمام شد.
+weda: My Scottish friend always first-foots us with shortbread and a lump of coal for luck. | دوست اسکاتلندی‌ام همیشه با شیرینی شورت‌بِرد و یک تکه زغال برای شانس، نخستین مهمان سال نوی ما می‌شود.
+george: So, has anyone made a New Year's resolution, then? | خب، کسی برای سال نو تصمیمی گرفته؟
+ryan: Mine's to spend less time on my phone. Starting tomorrow. Probably. | تصمیم من این است که کمتر با گوشی‌ام وقت بگذرانم. از فردا. احتمالاً.
+word: resolution = a promise to yourself to change something | تصمیم سال نو
+word: first-footing = being the first visitor in someone's home in the new year | نخستین مهمان سال نو بودن
+word: telly = TV (informal) | تلویزیون (عامیانه)
+word: stay up = not go to bed | بیدار ماندن
+Q: How will the family watch the fireworks? | On TV ; From a boat ; From Big Ben
+Q: What is Ryan's resolution? | To spend less time on his phone ; To get fit ; To save money
+Q: What is New Year's Eve called in Scotland? | Hogmanay ; Burns Night ; Boxing Day
+src: https://www.gov.uk/bank-holidays

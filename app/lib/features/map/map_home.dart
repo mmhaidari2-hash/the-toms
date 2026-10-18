@@ -299,6 +299,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.movie_rounded, 'Cinema & dubbing', 'سینما و دوبله', '/cinema'),
     (Icons.radio_rounded, 'Hackney Hum radio', 'رادیو هاکنی هام', '/radio'),
     (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
+    (Icons.calendar_month_rounded, 'Seasonal events', 'جشن‌ها و مناسبت‌ها', '/seasons'),
     (Icons.sports_esports_rounded, 'Park games', 'بازی‌های پارک', '/park'),
     (Icons.account_balance_rounded, 'Life in the UK test prep', 'آمادگی آزمون زندگی در بریتانیا', '/lifeuk'),
     (Icons.hiking_rounded, 'Real-life missions', 'مأموریت‌های زندگی واقعی', '/missions'),

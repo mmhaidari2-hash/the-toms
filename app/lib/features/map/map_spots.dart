@@ -8,6 +8,7 @@ import 'package:go_router/go_router.dart';
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
+import '../seasons/seasons_data.dart';
 import '../shared/widgets.dart';
 
 /// A building / object on the town map and the lessons set there (index built by tool/make_spots.py).
@@ -318,6 +319,41 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                         ),
                       ),
                       Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF8A3B2E),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-seasons'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/seasons');
+                },
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(
+                    children: [
+                      const Icon(Icons.calendar_month_rounded, color: Colors.white),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Consumer(
+                          builder: (_, r, _) {
+                            final f = r.watch(seasonsProvider).whenOrNull(data: Seasons.featured);
+                            return Text(
+                              f == null ? 'Family calendar · British celebrations' : 'Family calendar · ${f.$1.title}: ${Seasons.countdown(f.$2).toLowerCase()}',
+                              key: const ValueKey('spot-seasons-next'),
+                              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                            );
+                          },
+                        ),
+                      ),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.white),
                     ],
                   ),
                 ),

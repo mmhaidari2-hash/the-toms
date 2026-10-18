@@ -238,6 +238,25 @@ Profession-specific English tracks led by a family member who does that job, bui
 - **Listening first:** the transcript is hidden every time a programme opens. There is an "ON AIR" radio set with the speaker's name, an equaliser, play/stop, progress and a "Slower" toggle. "Show transcript" and then "فارسی" are optional. The Questions button turns red once you've listened all the way through. Progress is stored in `radio:<id>` (best score; 60% passes; XP 15/10/3).
 - **Level gate = Library/Cinema/Grammar rule** (`RadioGate`). Locked programmes explain why, and deep links show a locked page.
 
+### Seasonal events — run 1 (2026-10-18)
+- **Where:** a "Family calendar" button in the `home` spot's sheet (the calendar on the Thompsons' kitchen wall). The button shows the next celebration (for example "Halloween: in 13 days"). There is also a menu item and no new map marker. Routes are `/seasons` and `/seasons/:id`.
+- **Content:** tool/seasons/events.txt, built by tool/make_seasons.py into assets/data/seasons.json. There are 15 celebrations, 3 per level:
+  - A1: Halloween, Christmas Day, Pancake Day.
+  - A2: Bonfire Night, Easter, Nowruz.
+  - B1: Boxing Day & panto, Mother's Day (Mothering Sunday), May bank holidays.
+  - B2: Remembrance Sunday, summer fete, Diwali.
+  - C1: Eid al-Fitr, Notting Hill Carnival, New Year's Eve & Hogmanay.
+  - Each has a "when" line and a culture note (EN+FA), a Thompson-family scene of 6 to 8 lines in British voices with Persian, 4 or 5 words (voiced) and a 3-question quiz.
+- **Dates:** computed in the app.
+  - Fixed dates, Easter-relative dates (Pancake Day is Easter minus 47 days; Mothering Sunday is Easter minus 21 days), and nth-weekday rules (May bank holidays, Remembrance Sunday, Carnival Monday).
+  - A dated table for moon and equinox festivals: Nowruz (Tehran rule), Diwali, and Eid (expected dates after 2026, marked approximate).
+  - The fete is a typical date only.
+  - The **nearest upcoming event is featured** at the top with a countdown. The list runs in date order, grouped by month.
+- **Scoring:** 2 of 3 right = done (`season:ID`, best score kept). XP is 15 for 3 of 3, 10 for a pass and 3 otherwise.
+- **Gate:** the same rule as every other section (A2 stays locked for a new learner). Locked events still show their dates.
+- **Tests:** test/seasons_test.dart and test/seasons_flow_test.dart.
+- **To refresh each year:** add new Diwali, Eid and Nowruz dates to the tables.
+
 ### Life in the UK test prep — run 1 (2026-10-18)
 - **Where:** a "Life in the UK test prep · study corner" button in the **Library** sheet, plus a menu item. Libraries are where many people study for the test, and this keeps the council building free for Forms. Routes: `/lifeuk`, `/lifeuk/:ch`, `/lifeuk/:ch/cards`, `/lifeuk/:ch/quiz` and `/lifeuk/mock`.
 - **Content:** tool/lifeuk/lifeuk.txt, built by tool/make_lifeuk.py into assets/data/lifeuk.json. There are 4 chapters on the handbook topics: values & principles, history, modern society, and government & law. In total: 81 ORIGINAL questions (multiple choice plus true/false), 40 flashcards and 16 explanations, all with Persian. The explanations are voiced by `tutor` (Ryan voice). Each chapter lists its `src:` URLs, which are shown in the app under "Sources we checked".
@@ -308,7 +327,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder. — **Run 1 shipped 2026-10-18: phone Messages inbox, 10 threads A1–C1 (19 voice notes), texting-talk glossary, quick check, reply by pick/type/say.**
 6. **Park games**: matching, find-the-object in a painting, speed rounds. — **Run 1 shipped 2026-10-18: 5 replayable games per level (word match vs clock, listen & tap, spelling bee, odd one out, phrase builder) from the learner's own lesson words, best scores + XP.**
 7. **Life in the UK test prep** — **Run 1 shipped 2026-10-18: 4 chapters, 81 original questions, 40 flashcards, 16 voiced explanations, chapter quizzes, 24-question / 45-minute mock with mistake review.** (in the Library; premium pack candidate; **not affiliated with or endorsed by the Home Office**; original summaries and questions only, no copying or translating handbook text; point users to the official handbook and GOV.UK booking).
-8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons.
+8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons. — **Run 1 shipped 2026-10-18: family calendar (home sheet), 15 celebrations A1–C1, nearest featured, voiced scenes, words, quiz.**
 9. **Driving School** (premium candidate; **not affiliated with or endorsed by DVSA**; original questions only, each logged against a Highway Code rule; OGL attribution for the Highway Code and sign images; no DVSA questions, hazard clips, logos or "official" claims without a DVSA licence; call it "hazard awareness practice"): instructor English (mirror-signal-manoeuvre, roundabouts, test day) tied to Ryan at 17; Theory Test prep with Highway Code vocabulary, road signs, **original** practice questions (never DVSA's bank), mock tests, Hazard Perception explainer.
 10. **London Tour** (red sightseeing-bus spot): Big Ben/Elizabeth Tower, Parliament, Westminster Abbey, Buckingham Palace, Tower of London, Tower Bridge, London Bridge, St Paul's, London Eye, British Museum, Trafalgar Square, Camden, Greenwich…; guide narration with web-verified history, Persian, saveable words, quiz, XP; the family tags along; A2–B2 versions.
 11. **UK accents** (Cockney, Scouse, Geordie, Scottish, Welsh, Brummie…) listening with comprehension.

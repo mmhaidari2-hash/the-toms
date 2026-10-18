@@ -107,6 +107,11 @@ luk=os.path.join(A,'data/lifeuk.json')  # Life in the UK prep (tool/make_lifeuk.
 if os.path.exists(luk):
   for c in json.load(open(luk))['chapters']:
     for e in c['expl']: add('tutor',e['en'])
+sea=os.path.join(A,'data/seasons.json')  # Seasonal events (tool/make_seasons.py): scene lines in each speaker's voice + vocab
+if os.path.exists(sea):
+  for e in json.load(open(sea))['events']:
+    for l in e['lines']: add(l['sp'],l['en'])
+    for w in e['words']: add('narrator',w['w'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

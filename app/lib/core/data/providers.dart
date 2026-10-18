@@ -348,6 +348,17 @@ class ProgressController extends Notifier<UserProgress> {
     return (awardXp(pct >= 90 ? 10 : pct >= 60 ? 6 : 2), best);
   }
 
+  /// Seasonal events: best quiz score per event ('season:ID'); 67% (2 of 3) = done.
+  int? seasonScore(String id) => int.tryParse(state.missionsDone['season:$id'] ?? '');
+  bool seasonDone(String id) => (seasonScore(id) ?? -1) >= 67;
+  XpAward saveSeason(String id, int pct) {
+    if (pct > (seasonScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'season:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 67 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
   /// Family voice messages: best thread score ('msg:ID'); 60% = done.
   int? threadScore(String id) => int.tryParse(state.missionsDone['msg:$id'] ?? '');
   bool threadDone(String id) => (threadScore(id) ?? -1) >= 60;
