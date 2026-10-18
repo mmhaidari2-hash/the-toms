@@ -1,0 +1,1393 @@
+{
+"lessons": [
+{
+"id": "cockpit",
+"level": "A1",
+"title": "Your first lesson",
+"titleFa": "اولین جلسهٔ رانندگی",
+"scene": "car",
+"video": null,
+"note": "Before you drive off, instructors teach the \"cockpit drill\": doors, seat, steering, seat belt and mirrors. Learner cars show red L plates front and back.",
+"noteFa": "پیش از حرکت، مربی «چک داخل کابین» را یاد می‌دهد: درها، صندلی، فرمان، کمربند و آینه‌ها. ماشین هنرجو جلو و عقب پلاک قرمز L دارد.",
+"lines": [
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Hello, Ryan. I'm Bev, your instructor.",
+"fa": "سلام رایان. من بِو هستم، مربی‌ات.",
+"ms": 4872,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Hi, Bev. I'm a bit nervous.",
+"fa": "سلام بِو. یک کم استرس دارم.",
+"ms": 3648,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "That's fine. First, move your seat.",
+"fa": "اشکالی ندارد. اول صندلی‌ات را تنظیم کن.",
+"ms": 4416,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Now put your seat belt on.",
+"fa": "حالا کمربندت را ببند.",
+"ms": 2664,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Done. Seat belt on.",
+"fa": "انجام شد. کمربند بسته است.",
+"ms": 3024,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Good. Now check your mirrors.",
+"fa": "خوب است. حالا آینه‌ها را چک کن.",
+"ms": 3648,
+"fx": "engine"
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "I can see the road behind.",
+"fa": "جادهٔ پشت سر را می‌بینم.",
+"ms": 2544,
+"fx": null
+}
+],
+"words": [
+{
+"w": "instructor",
+"en": "a driving teacher",
+"fa": "مربی رانندگی"
+},
+{
+"w": "seat belt",
+"en": "the belt that keeps you in your seat",
+"fa": "کمربند ایمنی"
+},
+{
+"w": "mirror",
+"en": "glass that shows the road behind",
+"fa": "آینه"
+},
+{
+"w": "L plates",
+"en": "red L signs on a learner's car",
+"fa": "پلاک L ماشین هنرجو"
+}
+],
+"qs": [
+{
+"q": "Who is Bev?",
+"options": [
+"Ryan's driving instructor",
+"Ryan's teacher at school",
+"Ryan's aunt"
+],
+"answer": 0
+},
+{
+"q": "How does Ryan feel?",
+"options": [
+"A bit nervous",
+"Very bored",
+"Angry"
+],
+"answer": 0
+},
+{
+"q": "What does Ryan do after the seat belt?",
+"options": [
+"He checks the mirrors",
+"He turns on the radio",
+"He opens the window"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/driving-lessons-learning-to-drive/practising-with-family-or-friends"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "petrol",
+"level": "A1",
+"title": "At the petrol station",
+"titleFa": "در پمپ بنزین",
+"scene": "petrol",
+"video": null,
+"note": "In Britain you usually fill up first, then go into the kiosk and pay. Tell them your pump number.",
+"noteFa": "در بریتانیا معمولاً اول بنزین می‌زنی، بعد داخل فروشگاه می‌روی و پول می‌دهی. شمارهٔ پمپت را بگو.",
+"lines": [
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Hello, Bilal. Pump four, please.",
+"fa": "سلام بلال. پمپ چهار، لطفاً.",
+"ms": 4464,
+"fx": null
+},
+{
+"sp": "bilal",
+"name": "Bilal",
+"avatar": "assets/portraits/bilal.webp",
+"en": "That's forty pounds, please.",
+"fa": "می‌شود چهل پوند، لطفاً.",
+"ms": 3168,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Can I pay by card?",
+"fa": "می‌توانم با کارت بپردازم؟",
+"ms": 2328,
+"fx": null
+},
+{
+"sp": "bilal",
+"name": "Bilal",
+"avatar": "assets/portraits/bilal.webp",
+"en": "Yes. Just tap it here.",
+"fa": "بله. فقط اینجا بزنش.",
+"ms": 3864,
+"fx": null
+},
+{
+"sp": "bilal",
+"name": "Bilal",
+"avatar": "assets/portraits/bilal.webp",
+"en": "Do you want a receipt?",
+"fa": "رسید می‌خواهی؟",
+"ms": 2472,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "No, thanks. And a coffee, please.",
+"fa": "نه، ممنون. یک قهوه هم لطفاً.",
+"ms": 4488,
+"fx": null
+},
+{
+"sp": "bilal",
+"name": "Bilal",
+"avatar": "assets/portraits/bilal.webp",
+"en": "Sure. Two pounds fifty more.",
+"fa": "حتماً. دو پوند و پنجاه پنس دیگر.",
+"ms": 4056,
+"fx": null
+}
+],
+"words": [
+{
+"w": "pump",
+"en": "the machine that puts fuel in the car",
+"fa": "پمپ سوخت"
+},
+{
+"w": "petrol",
+"en": "fuel for most cars",
+"fa": "بنزین"
+},
+{
+"w": "receipt",
+"en": "a paper that shows what you paid",
+"fa": "رسید"
+},
+{
+"w": "tap",
+"en": "touch your card on the reader",
+"fa": "کارت را نزدیک دستگاه ببر"
+}
+],
+"qs": [
+{
+"q": "Which pump did Tom use?",
+"options": [
+"Pump four",
+"Pump two",
+"Pump nine"
+],
+"answer": 0
+},
+{
+"q": "How much is the petrol?",
+"options": [
+"Forty pounds",
+"Fourteen pounds",
+"Four pounds"
+],
+"answer": 0
+},
+{
+"q": "What else does Tom buy?",
+"options": [
+"A coffee",
+"A newspaper",
+"A sandwich"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+],
+"img": "assets/places/petrol.webp",
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "directions",
+"level": "A2",
+"title": "Pull up on the left",
+"titleFa": "کنار سمت چپ بایست",
+"scene": "road",
+"video": null,
+"note": "Instructors and examiners say \"pull up on the left\" when they want you to stop safely at the side of the road. They give directions early, so you have time to check and signal.",
+"noteFa": "مربی و ممتحن وقتی می‌خواهند با ایمنی کنار جاده بایستی می‌گویند «pull up on the left». مسیر را زود می‌گویند تا وقت چک کردن و راهنما زدن داشته باشی.",
+"lines": [
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "At the end of the road, turn left, please.",
+"fa": "سر خیابان، لطفاً به چپ بپیچ.",
+"ms": 3768,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Left. Mirrors, signal... and turn.",
+"fa": "چپ. آینه، راهنما... و پیچیدن.",
+"ms": 4032,
+"fx": "indicator"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Good. Now follow the road ahead.",
+"fa": "خوب است. حالا جاده را مستقیم ادامه بده.",
+"ms": 3960,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Take the second road on the right.",
+"fa": "خیابان دوم سمت راست را برو.",
+"ms": 2904,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Is it this one, after the post box?",
+"fa": "همین است، بعد از صندوق پست؟",
+"ms": 3048,
+"fx": "indicator"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Yes. Now pull up on the left, behind the blue car.",
+"fa": "بله. حالا سمت چپ پشت ماشین آبی بایست.",
+"ms": 5136,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Am I too far from the kerb?",
+"fa": "از جدول خیلی دورم؟",
+"ms": 2448,
+"fx": "brake"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "A little. Next time, a bit closer.",
+"fa": "کمی. دفعهٔ بعد کمی نزدیک‌تر.",
+"ms": 4296,
+"fx": null
+}
+],
+"words": [
+{
+"w": "pull up",
+"en": "stop at the side of the road",
+"fa": "کنار جاده ایستادن"
+},
+{
+"w": "kerb",
+"en": "the edge of the pavement",
+"fa": "لبهٔ پیاده‌رو، جدول"
+},
+{
+"w": "ahead",
+"en": "straight in front of you",
+"fa": "جلوتر، مستقیم"
+},
+{
+"w": "signal",
+"en": "show where you are going with your indicator",
+"fa": "راهنما زدن"
+}
+],
+"qs": [
+{
+"q": "Where does Bev ask Ryan to stop?",
+"options": [
+"Behind the blue car",
+"Next to the post box",
+"At the traffic lights"
+],
+"answer": 0
+},
+{
+"q": "Which road does Ryan take?",
+"options": [
+"The second road on the right",
+"The first road on the left",
+"The third road on the right"
+],
+"answer": 0
+},
+{
+"q": "What does Bev say about the kerb?",
+"options": [
+"Get a bit closer next time",
+"It was perfect",
+"He hit the kerb"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/driving-test/what-happens-during-test"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "provisional",
+"level": "A2",
+"title": "Getting a provisional licence",
+"titleFa": "گرفتن گواهینامهٔ موقت",
+"scene": "home",
+"video": null,
+"note": "You need a provisional licence before you can learn. You can apply from 15 years and 9 months old and drive a car from 17. It costs £34 online.",
+"noteFa": "پیش از یادگیری باید گواهینامهٔ موقت بگیری. از ۱۵ سال و ۹ ماهگی می‌شود درخواست داد و از ۱۷ سالگی ماشین راند. آنلاین ۳۴ پوند است.",
+"lines": [
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Dad, can I apply for my provisional licence yet?",
+"fa": "بابا، می‌توانم برای گواهینامهٔ موقت درخواست بدهم؟",
+"ms": 3696,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "You can apply from fifteen years and nine months.",
+"fa": "از پانزده سال و نه ماهگی می‌توانی درخواست بدهی.",
+"ms": 3744,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "How much does it cost?",
+"fa": "چقدر هزینه دارد؟",
+"ms": 2160,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Thirty-four pounds online. You'll need your passport.",
+"fa": "آنلاین سی‌وچهار پوند. پاسپورتت لازم است.",
+"ms": 4992,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Do I need to check my eyes?",
+"fa": "باید چشمم را بسنجم؟",
+"ms": 2376,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "You must read a number plate from twenty metres.",
+"fa": "باید پلاک ماشین را از بیست متری بخوانی.",
+"ms": 3456,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Easy! When can I start driving?",
+"fa": "آسان است! کی می‌توانم رانندگی را شروع کنم؟",
+"ms": 3624,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "On your seventeenth birthday, with L plates on.",
+"fa": "روز تولد هفده‌سالگی، با پلاک L.",
+"ms": 3744,
+"fx": null
+}
+],
+"words": [
+{
+"w": "provisional licence",
+"en": "the licence you need to learn to drive",
+"fa": "گواهینامهٔ موقت"
+},
+{
+"w": "apply",
+"en": "ask officially, often with a form",
+"fa": "درخواست دادن"
+},
+{
+"w": "number plate",
+"en": "the sign with a car's letters and numbers",
+"fa": "پلاک ماشین"
+},
+{
+"w": "online",
+"en": "on the internet",
+"fa": "آنلاین، اینترنتی"
+}
+],
+"qs": [
+{
+"q": "How much does the licence cost online?",
+"options": [
+"Thirty-four pounds",
+"Forty-three pounds",
+"Twenty-three pounds"
+],
+"answer": 0
+},
+{
+"q": "What document does Tom mention?",
+"options": [
+"Ryan's passport",
+"Ryan's school report",
+"Ryan's bus pass"
+],
+"answer": 0
+},
+{
+"q": "How far away must Ryan read a number plate?",
+"options": [
+"Twenty metres",
+"Two metres",
+"Fifty metres"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/apply-first-provisional-driving-licence",
+"https://www.gov.uk/driving-eyesight-rules"
+],
+"img": null,
+"bg": "assets/places/blur/kitchen.webp",
+"icon": "home"
+},
+{
+"id": "roundabout",
+"level": "B1",
+"title": "Roundabouts: mirror, signal, manoeuvre",
+"titleFa": "میدان‌ها: آینه، راهنما، مانور",
+"scene": "road",
+"video": null,
+"note": "\"Mirror, signal, manoeuvre\" (MSM) is the routine for every turn. At a roundabout you normally give way to traffic from your right. For an exit to the right, approach in the right-hand lane and signal right.",
+"noteFa": "«آینه، راهنما، مانور» روال هر پیچیدن است. در میدان معمولاً به ماشین‌هایی که از راست می‌آیند راه می‌دهی. برای خروجی سمت راست، از خط راست نزدیک شو و راهنمای راست بزن.",
+"lines": [
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "There's a roundabout coming up. We're taking the third exit, so we're going right. Which lane?",
+"fa": "یک میدان جلوست. خروجی سوم را می‌رویم، یعنی به راست. کدام خط؟",
+"ms": 8280,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "The right-hand lane, and I signal right.",
+"fa": "خط سمت راست، و راهنمای راست می‌زنم.",
+"ms": 3192,
+"fx": "indicator"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Exactly. Remember: mirrors, signal, then manoeuvre. Check your right mirror first.",
+"fa": "دقیقاً. یادت باشد: آینه، راهنما، بعد مانور. اول آینهٔ راست را چک کن.",
+"ms": 8208,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "There's a van coming from the right. Do I wait?",
+"fa": "یک ون از راست می‌آید. صبر کنم؟",
+"ms": 4056,
+"fx": "brake"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Yes, give way to traffic from the right... Right, there's a gap. Off you go.",
+"fa": "بله، به ماشین‌های سمت راست راه بده... خب، فاصله هست. برو.",
+"ms": 7392,
+"fx": "engine"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Now, once you pass the second exit, check your left mirror and signal left.",
+"fa": "حالا وقتی از خروجی دوم رد شدی، آینهٔ چپ را چک کن و راهنمای چپ بزن.",
+"ms": 5952,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Signalling left... and out. That wasn't as bad as I thought!",
+"fa": "راهنمای چپ... و خارج شدم. آن‌قدر که فکر می‌کردم بد نبود!",
+"ms": 5160,
+"fx": "indicator"
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Nicely done. You didn't rush it.",
+"fa": "آفرین. عجله نکردی.",
+"ms": 4104,
+"fx": null
+}
+],
+"words": [
+{
+"w": "exit",
+"en": "a road where you leave the roundabout",
+"fa": "خروجی"
+},
+{
+"w": "give way",
+"en": "let other traffic go first",
+"fa": "راه دادن"
+},
+{
+"w": "gap",
+"en": "a safe space in the traffic",
+"fa": "فاصلهٔ امن بین ماشین‌ها"
+},
+{
+"w": "manoeuvre",
+"en": "a planned movement, like turning or changing lane",
+"fa": "مانور، حرکت برنامه‌ریزی‌شده"
+}
+],
+"qs": [
+{
+"q": "Which lane does Ryan choose?",
+"options": [
+"The right-hand lane",
+"The left-hand lane",
+"The middle of the road"
+],
+"answer": 0
+},
+{
+"q": "Why does Ryan wait?",
+"options": [
+"A van is coming from the right",
+"The lights are red",
+"A cyclist is crossing"
+],
+"answer": 0
+},
+{
+"q": "When does he signal left?",
+"options": [
+"After passing the second exit",
+"Before he enters the roundabout",
+"He doesn't signal"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "mot",
+"level": "B1",
+"title": "Booking an MOT",
+"titleFa": "رزرو معاینهٔ فنی",
+"scene": "garage",
+"video": null,
+"note": "Most cars need an MOT test every year once they are three years old. The maximum fee for a car is £54.85.",
+"noteFa": "بیشتر ماشین‌ها از سه‌سالگی هر سال معاینهٔ فنی (MOT) لازم دارند. حداکثر هزینه برای سواری ۵۴٫۸۵ پوند است.",
+"lines": [
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Morning, Mick. The car's MOT runs out next month. Can I book it in?",
+"fa": "صبح بخیر میک. معاینهٔ فنی ماشین ماه بعد تمام می‌شود. می‌توانم نوبت بگیرم؟",
+"ms": 7152,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "Course you can. How's Thursday? Drop it off at half eight.",
+"fa": "معلوم است. پنجشنبه چطور است؟ ساعت هشت و نیم بیاورش.",
+"ms": 6216,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Perfect. How long does it take?",
+"fa": "عالی. چقدر طول می‌کشد؟",
+"ms": 3744,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "About an hour, if nothing's wrong. You can wait in the office with a cuppa.",
+"fa": "حدود یک ساعت، اگر ایرادی نباشد. می‌توانی با یک چای در دفتر منتظر بمانی.",
+"ms": 6072,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "And how much is it?",
+"fa": "و هزینه‌اش چقدر است؟",
+"ms": 2040,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "Fifty-four eighty-five. That's the most a garage can charge for a car.",
+"fa": "پنجاه‌وچهار پوند و هشتادوپنج پنس. این بیشترین مبلغی است که تعمیرگاه برای سواری می‌گیرد.",
+"ms": 5952,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "If anything fails, I'll ring you before I do any work.",
+"fa": "اگر چیزی رد شد، پیش از هر کاری زنگت می‌زنم.",
+"ms": 4296,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Brilliant. Thanks, Mick.",
+"fa": "عالی. ممنون میک.",
+"ms": 3792,
+"fx": null
+}
+],
+"words": [
+{
+"w": "MOT",
+"en": "the yearly safety test for cars over three years old",
+"fa": "معاینهٔ فنی سالانه"
+},
+{
+"w": "book it in",
+"en": "make an appointment for the car",
+"fa": "برای ماشین نوبت گرفتن"
+},
+{
+"w": "drop off",
+"en": "leave something somewhere",
+"fa": "تحویل دادن، گذاشتن"
+},
+{
+"w": "ring",
+"en": "phone (British English)",
+"fa": "زنگ زدن"
+}
+],
+"qs": [
+{
+"q": "When does the MOT run out?",
+"options": [
+"Next month",
+"Next week",
+"Next year"
+],
+"answer": 0
+},
+{
+"q": "When should Tom bring the car?",
+"options": [
+"Thursday at half past eight",
+"Tuesday at eight",
+"Thursday at half past nine"
+],
+"answer": 0
+},
+{
+"q": "What will Mick do if something fails?",
+"options": [
+"Phone Tom first",
+"Fix it straight away",
+"Keep the car for a week"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/getting-an-mot/mot-test-fees",
+"https://www.gov.uk/getting-an-mot"
+],
+"img": null,
+"bg": "assets/places/blur/petrol.webp",
+"icon": "garage"
+},
+{
+"id": "parallel",
+"level": "B2",
+"title": "Parallel parking and \"show me, tell me\"",
+"titleFa": "پارک دوبل و «نشانم بده، بگو»",
+"scene": "road",
+"video": null,
+"note": "In the driving test you do one manoeuvre (for example parallel parking) and answer two vehicle safety questions: a \"tell me\" question before you drive and a \"show me\" question while you drive. These questions here are our own examples, not the official list.",
+"noteFa": "در امتحان رانندگی یک مانور (مثلاً پارک دوبل) انجام می‌دهی و به دو سؤال ایمنی خودرو جواب می‌دهی: سؤال «بگو» پیش از حرکت و سؤال «نشانم بده» حین رانندگی. این سؤال‌ها نمونه‌های خودمان است، نه فهرست رسمی.",
+"lines": [
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Right, let's practise parallel parking behind the silver hatchback. Pull up alongside it, about a metre away.",
+"fa": "خب، پارک دوبل را پشت آن هاچ‌بک نقره‌ای تمرین کنیم. کنارش با حدود یک متر فاصله بایست.",
+"ms": 8736,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Check all around, reverse slowly, and when its back bumper is level with your rear window, steer left.",
+"fa": "دور تا دور را نگاه کن، آرام دنده‌عقب برو، و وقتی سپر عقبش هم‌تراز شیشهٔ عقب تو شد، فرمان را به چپ بچرخان.",
+"ms": 7512,
+"fx": "brake"
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Like this? Oh, I'm getting really close to the kerb.",
+"fa": "این‌طوری؟ اوه، خیلی به جدول نزدیک شدم.",
+"ms": 4440,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Straighten up now, a full turn to the right. Lovely, that's parked, more or less.",
+"fa": "حالا صاف کن، یک دور کامل به راست. عالی، کم‌وبیش پارک شد.",
+"ms": 7176,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Now a \"tell me\" question, test-style: tell me how you'd check the tyres are safe to use.",
+"fa": "حالا یک سؤال «بگو» مثل امتحان: بگو چطور مطمئن می‌شوی تایرها سالم‌اند.",
+"ms": 6648,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Check the tread is at least one point six millimetres, and look for cuts or bulges.",
+"fa": "بررسی می‌کنم آج دست‌کم یک ممیز شش میلی‌متر باشد و دنبال بریدگی یا برآمدگی می‌گردم.",
+"ms": 5040,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Good. And a \"show me\": show me how you'd wash the windscreen while you're driving.",
+"fa": "خوب است. و یک «نشانم بده»: نشانم بده حین رانندگی چطور شیشهٔ جلو را می‌شویی.",
+"ms": 6504,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "I'd pull this lever towards me... like that?",
+"fa": "این اهرم را به طرف خودم می‌کشم... این‌طوری؟",
+"ms": 3216,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Spot on.",
+"fa": "دقیقاً درست.",
+"ms": 1920,
+"fx": null
+}
+],
+"words": [
+{
+"w": "parallel park",
+"en": "park in a gap next to the kerb, in line with other cars",
+"fa": "پارک دوبل"
+},
+{
+"w": "straighten up",
+"en": "make the car straight again",
+"fa": "صاف کردن ماشین"
+},
+{
+"w": "tread",
+"en": "the pattern of grooves on a tyre",
+"fa": "آج تایر"
+},
+{
+"w": "spot on",
+"en": "exactly right (British English)",
+"fa": "کاملاً درست"
+}
+],
+"qs": [
+{
+"q": "Where do they practise parking?",
+"options": [
+"Behind a silver hatchback",
+"Behind a blue van",
+"In a supermarket car park"
+],
+"answer": 0
+},
+{
+"q": "What does Ryan say about the tyre tread?",
+"options": [
+"At least 1.6 millimetres",
+"At least 3 millimetres",
+"Any amount is fine"
+],
+"answer": 0
+},
+{
+"q": "What does \"spot on\" mean?",
+"options": [
+"Exactly right",
+"Too slow",
+"Try again"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/driving-test/what-happens-during-test",
+"https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "motfail",
+"level": "B2",
+"title": "A failed MOT",
+"titleFa": "رد شدن در معاینهٔ فنی",
+"scene": "garage",
+"video": null,
+"note": "An MOT can pass, fail, or pass with \"advisories\": problems that are legal now but will need fixing soon. A car needs at least 1.6 mm of tread on its tyres.",
+"noteFa": "معاینهٔ فنی ممکن است قبول، رد، یا قبول با «توصیه» باشد: ایرادهایی که فعلاً قانونی‌اند ولی به‌زودی باید درست شوند. تایر سواری دست‌کم ۱٫۶ میلی‌متر آج لازم دارد.",
+"lines": [
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "I'm afraid it's failed, Tom. The front tyres are below the legal limit, and a brake light's out.",
+"fa": "متأسفانه رد شد، تام. تایرهای جلو زیر حد قانونی‌اند و یک چراغ ترمز خاموش است.",
+"ms": 7344,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Oh no. Is it expensive to sort out?",
+"fa": "ای وای. درست کردنش گران است؟",
+"ms": 4032,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "The bulb's a fiver. Two tyres, about a hundred and twenty quid, fitted.",
+"fa": "لامپ پنج پوند است. دو تایر، با نصب حدود صدوبیست پوند.",
+"ms": 6360,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "Go on, then. Anything else I should know?",
+"fa": "باشد، انجامش بده. چیز دیگری هست که بدانم؟",
+"ms": 4248,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "There's an advisory on the brake pads. They're fine for now, but they'll need doing in a few months.",
+"fa": "برای لنت ترمز یک توصیه هست. فعلاً خوب‌اند ولی چند ماه دیگر باید عوض شوند.",
+"ms": 7104,
+"fx": null
+},
+{
+"sp": "tom",
+"name": "Tom",
+"avatar": "assets/portraits/tom.webp",
+"en": "So can I drive it home today?",
+"fa": "پس امروز می‌توانم با آن به خانه بروم؟",
+"ms": 2664,
+"fx": null
+},
+{
+"sp": "mechanic",
+"name": "Big Mick",
+"avatar": "assets/portraits/mechanic.webp",
+"en": "Once the tyres are on, I'll retest it this afternoon.",
+"fa": "وقتی تایرها نصب شد، بعدازظهر دوباره آزمایشش می‌کنم.",
+"ms": 4392,
+"fx": null
+}
+],
+"words": [
+{
+"w": "advisory",
+"en": "a warning about something to fix soon",
+"fa": "توصیه، هشدار برای تعمیر آینده"
+},
+{
+"w": "sort out",
+"en": "fix or deal with",
+"fa": "درست کردن، رسیدگی کردن"
+},
+{
+"w": "a fiver",
+"en": "five pounds (informal)",
+"fa": "پنج پوند (محاوره)"
+},
+{
+"w": "quid",
+"en": "pounds (informal)",
+"fa": "پوند (محاوره)"
+}
+],
+"qs": [
+{
+"q": "Why did the car fail?",
+"options": [
+"Worn tyres and a broken brake light",
+"A problem with the engine",
+"Dirty windows"
+],
+"answer": 0
+},
+{
+"q": "What is an advisory?",
+"options": [
+"Something to fix soon",
+"A reason to fail",
+"A fine from the police"
+],
+"answer": 0
+},
+{
+"q": "How much is the bulb?",
+"options": [
+"Five pounds",
+"Fifteen pounds",
+"Fifty pounds"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/getting-an-mot/after-the-test",
+"https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"
+],
+"img": null,
+"bg": "assets/places/blur/petrol.webp",
+"icon": "garage"
+},
+{
+"id": "debrief",
+"level": "C1",
+"title": "Mock test debrief",
+"titleFa": "جمع‌بندی امتحان آزمایشی",
+"scene": "car",
+"video": null,
+"note": "In the real test you pass with no serious or dangerous faults and no more than 15 driving faults (\"minors\"). Instructors often run a mock test first and talk you through the faults.",
+"noteFa": "در امتحان واقعی با هیچ خطای جدی یا خطرناک و حداکثر ۱۵ خطای جزئی قبول می‌شوی. مربی‌ها اغلب اول یک امتحان آزمایشی می‌گیرند و خطاها را توضیح می‌دهند.",
+"lines": [
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Overall, not bad at all. You picked up four minors, but there was one serious fault, I'm afraid.",
+"fa": "در کل اصلاً بد نبود. چهار خطای جزئی داشتی، ولی متأسفانه یک خطای جدی هم بود.",
+"ms": 8232,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Go on, what did I do?",
+"fa": "بگو، چه کار کردم؟",
+"ms": 2280,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "At the zebra crossing on Mare Street, a lady was waiting to cross and you sailed straight past her.",
+"fa": "سر خط عابر پیادهٔ خیابان مِر، خانمی منتظر عبور بود و تو بی‌توقف از کنارش رد شدی.",
+"ms": 6624,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "I honestly didn't see her. I was looking at the lights further up.",
+"fa": "راستش ندیدمش. داشتم چراغ‌های جلوتر را نگاه می‌کردم.",
+"ms": 4896,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "That's the thing: planning ahead means scanning the pavements as well as the road. On the day, that would be a fail.",
+"fa": "نکته همین است: برنامه‌ریزی جلوتر یعنی پیاده‌روها را هم مثل جاده نگاه کنی. روز امتحان، این یعنی رد شدن.",
+"ms": 8352,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Fair enough. And the minors?",
+"fa": "حق با توست. و خطاهای جزئی؟",
+"ms": 3336,
+"fx": null
+},
+{
+"sp": "instructor",
+"name": "Bev (instructor)",
+"avatar": "",
+"en": "Mostly hesitation at junctions, and you crept forward at the lights. Nothing a couple more lessons won't fix.",
+"fa": "بیشتر مکث در تقاطع‌ها، و پشت چراغ کم‌کم جلو رفتی. چیزی نیست که با دو جلسهٔ دیگر درست نشود.",
+"ms": 8448,
+"fx": null
+}
+],
+"words": [
+{
+"w": "minor",
+"en": "a driving fault that is not serious (informal)",
+"fa": "خطای جزئی"
+},
+{
+"w": "serious fault",
+"en": "a fault that could be dangerous; it fails the test",
+"fa": "خطای جدی"
+},
+{
+"w": "sail past",
+"en": "go past easily without stopping",
+"fa": "بی‌توقف رد شدن"
+},
+{
+"w": "fair enough",
+"en": "I accept your point",
+"fa": "قبول دارم، حق با توست"
+}
+],
+"qs": [
+{
+"q": "How many minor faults did Ryan get?",
+"options": [
+"Four",
+"Fifteen",
+"None"
+],
+"answer": 0
+},
+{
+"q": "What was the serious fault?",
+"options": [
+"He didn't stop for a lady waiting at a zebra crossing",
+"He drove too fast on Mare Street",
+"He stalled at the lights"
+],
+"answer": 0
+},
+{
+"q": "What does \"fair enough\" show?",
+"options": [
+"Ryan accepts the point",
+"Ryan is angry",
+"Ryan is confused"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/driving-test/driving-test-faults-result",
+"https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+},
+{
+"id": "testday",
+"level": "C1",
+"title": "Test day: independent driving",
+"titleFa": "روز امتحان: رانندگی مستقل",
+"scene": "car",
+"video": null,
+"note": "The test starts with an eyesight check (reading a number plate from 20 metres). It includes about 20 minutes of independent driving, usually following a sat nav; going the wrong way is not a fault in itself. You may be asked to pull up on the right and reverse about two car lengths.",
+"noteFa": "امتحان با سنجش بینایی شروع می‌شود (خواندن پلاک از ۲۰ متری). حدود ۲۰ دقیقه رانندگی مستقل دارد، معمولاً با مسیریاب؛ اشتباه رفتن مسیر به‌خودی‌خود خطا نیست. ممکن است بخواهند سمت راست بایستی و حدود دو طول ماشین دنده‌عقب بروی.",
+"lines": [
+{
+"sp": "examiner",
+"name": "The examiner",
+"avatar": "",
+"en": "Morning, Ryan. Before we set off, could you read the number plate on that white van for me?",
+"fa": "صبح بخیر رایان. پیش از حرکت، پلاک آن ون سفید را برایم می‌خوانی؟",
+"ms": 7104,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Yes, I can read it clearly.",
+"fa": "بله، واضح می‌خوانمش.",
+"ms": 2616,
+"fx": null
+},
+{
+"sp": "examiner",
+"name": "The examiner",
+"avatar": "",
+"en": "Thanks. For about twenty minutes, please follow the sat nav. If you go the wrong way, don't worry: that's not a fault on its own.",
+"fa": "ممنون. حدود بیست دقیقهٔ بعد، دنبال مسیریاب برو. اگر مسیر را اشتباه رفتی نگران نباش؛ این به‌خودی‌خود خطا نیست.",
+"ms": 10440,
+"fx": "engine"
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "OK. And if I miss an instruction?",
+"fa": "باشد. اگر دستوری را از دست بدهم چه؟",
+"ms": 3696,
+"fx": null
+},
+{
+"sp": "examiner",
+"name": "The examiner",
+"avatar": "",
+"en": "I'll help you back onto the route. Now, when it's safe, pull up on the right, reverse about two car lengths, and rejoin the traffic.",
+"fa": "کمکت می‌کنم به مسیر برگردی. حالا وقتی امن بود، سمت راست بایست، حدود دو طول ماشین دنده‌عقب برو و دوباره وارد ترافیک شو.",
+"ms": 9840,
+"fx": "indicator"
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Pulling up on the right... reversing now... checking my blind spot before I move off.",
+"fa": "سمت راست می‌ایستم... دنده‌عقب... پیش از حرکت نقطهٔ کور را چک می‌کنم.",
+"ms": 5424,
+"fx": "brake"
+},
+{
+"sp": "examiner",
+"name": "The examiner",
+"avatar": "",
+"en": "That's the end of the test. I'm pleased to tell you that you've passed.",
+"fa": "امتحان تمام شد. خوشحالم بگویم قبول شدی.",
+"ms": 5472,
+"fx": null
+},
+{
+"sp": "ryan",
+"name": "Ryan",
+"avatar": "assets/portraits/ryan.webp",
+"en": "Seriously? Brilliant! Can I ring my dad?",
+"fa": "جدی؟ عالی! می‌توانم به بابام زنگ بزنم؟",
+"ms": 4920,
+"fx": null
+}
+],
+"words": [
+{
+"w": "examiner",
+"en": "the person who marks your driving test",
+"fa": "ممتحن، افسر امتحان"
+},
+{
+"w": "sat nav",
+"en": "satellite navigation, a device that gives directions",
+"fa": "مسیریاب ماهواره‌ای"
+},
+{
+"w": "blind spot",
+"en": "an area you can't see in your mirrors",
+"fa": "نقطهٔ کور"
+},
+{
+"w": "rejoin the traffic",
+"en": "drive back into the moving traffic",
+"fa": "دوباره وارد ترافیک شدن"
+}
+],
+"qs": [
+{
+"q": "What does Ryan read before driving?",
+"options": [
+"A number plate on a white van",
+"A road sign",
+"A text message"
+],
+"answer": 0
+},
+{
+"q": "What happens if he goes the wrong way?",
+"options": [
+"It isn't a fault on its own, and the examiner helps",
+"He fails straight away",
+"The test stops"
+],
+"answer": 0
+},
+{
+"q": "Which manoeuvre is he asked to do?",
+"options": [
+"Pull up on the right and reverse two car lengths",
+"Parallel park behind a car",
+"An emergency stop"
+],
+"answer": 0
+}
+],
+"src": [
+"https://www.gov.uk/driving-test/what-happens-during-test",
+"https://www.gov.uk/driving-eyesight-rules"
+],
+"img": null,
+"bg": null,
+"icon": "garage"
+}
+]
+}
