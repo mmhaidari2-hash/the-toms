@@ -213,20 +213,23 @@ Widget _progress(int i, int n, int right) => Row(
 
 Widget _tile(String key, String text, {Color? color, Color fg = BL.ink, VoidCallback? onTap, bool fa = false}) => Padding(
   padding: const EdgeInsets.only(bottom: 8),
-  child: Material(
-    color: color ?? Colors.white,
-    borderRadius: BorderRadius.circular(14),
-    child: InkWell(
-      key: ValueKey(key),
+  child: SizedBox(
+    width: double.infinity,
+    child: Material(
+      color: color ?? Colors.white,
       borderRadius: BorderRadius.circular(14),
-      onTap: onTap,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
-        child: Text(
-          text,
-          textAlign: TextAlign.center,
-          textDirection: fa ? TextDirection.rtl : null,
-          style: fa ? BL.fa(14.5, color: fg) : TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700, color: fg),
+      child: InkWell(
+        key: ValueKey(key),
+        borderRadius: BorderRadius.circular(14),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
+          child: Text(
+            text,
+            textAlign: TextAlign.center,
+            textDirection: fa ? TextDirection.rtl : null,
+            style: fa ? BL.fa(14.5, color: fg) : TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700, color: fg),
+          ),
         ),
       ),
     ),
