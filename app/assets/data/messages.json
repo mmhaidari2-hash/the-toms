@@ -1,0 +1,749 @@
+{
+"threads": [
+{
+"id": "t_a1_milk",
+"level": "A1",
+"from": "leslie",
+"title": "Milk, please!",
+"titleFa": "شیر، لطفاً!",
+"time": "16:42",
+"msgs": [
+{
+"kind": "voice",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Hi love! Can you pick up some milk, please?",
+"fa": "سلام عزیزم! می‌شود لطفاً کمی شیر بگیری؟",
+"ms": 3600
+},
+{
+"kind": "text",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Semi-skimmed pls x",
+"fa": "نیم‌چرب لطفاً x"
+}
+],
+"gloss": [
+{
+"term": "pls",
+"en": "please",
+"fa": "لطفاً"
+},
+{
+"term": "x",
+"en": "a kiss: a friendly way to end a message",
+"fa": "یک بوس: روشی دوستانه برای تمام کردن پیام"
+}
+],
+"quiz": {
+"q": "What does Leslie want?",
+"options": [
+"Milk",
+"Bread",
+"Tea"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Yes, no problem! x",
+"No milk, thank you.",
+"I like the park."
+],
+"answer": 0,
+"fa": "بله، مشکلی نیست! x",
+"say": "Yes, no problem!"
+},
+"fromName": "Leslie",
+"avatar": "assets/portraits/leslie.webp"
+},
+{
+"id": "t_a1_dino",
+"level": "A1",
+"from": "william",
+"title": "William's dinosaur",
+"titleFa": "دایناسور ویلیام",
+"time": "08:05",
+"msgs": [
+{
+"kind": "voice",
+"sp": "william",
+"spn": "William",
+"en": "Hello! It's William. I've got a new dinosaur!",
+"fa": "سلام! ویلیام هستم. یک دایناسور جدید دارم!",
+"ms": 5784
+},
+{
+"kind": "voice",
+"sp": "william",
+"spn": "William",
+"en": "He's green. His name is Spike.",
+"fa": "سبز است. اسمش اسپایک است.",
+"ms": 4008
+},
+{
+"kind": "text",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Sorry! He grabbed my phone 🙈 L x",
+"fa": "ببخشید! گوشی‌ام را برداشت 🙈 ل x"
+}
+],
+"gloss": [
+{
+"term": "🙈",
+"en": "oops, a bit embarrassed",
+"fa": "اوه، کمی خجالت‌زده"
+},
+{
+"term": "L x",
+"en": "Leslie, with a kiss: Brits often sign texts with a letter",
+"fa": "لزلی، با یک بوس: بریتانیایی‌ها اغلب پیام را با حرف اول اسمشان امضا می‌کنند"
+}
+],
+"quiz": {
+"q": "What colour is the dinosaur?",
+"options": [
+"Green",
+"Red",
+"Blue"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Wow! Spike is brilliant!",
+"Yes, it's Monday.",
+"Sorry, I'm late."
+],
+"answer": 0,
+"fa": "وای! اسپایک فوق‌العاده است!",
+"say": "Wow! Spike is brilliant!"
+},
+"fromName": "William",
+"avatar": "assets/portraits/william.webp"
+},
+{
+"id": "t_a2_match",
+"level": "A2",
+"from": "ryan",
+"title": "Saturday's match",
+"titleFa": "مسابقهٔ شنبه",
+"time": "21:13",
+"msgs": [
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "u coming to the match sat?",
+"fa": "شنبه میای مسابقه؟"
+},
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "kick off at 3, meet at the bus stop at 2",
+"fa": "شروع ساعت ۳، ساعت ۲ ایستگاه اتوبوس"
+},
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "bring ur scarf lol",
+"fa": "شال‌گردنت را بیاور lol"
+},
+{
+"kind": "voice",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Oh, and Dad says don't be late, yeah?",
+"fa": "آهان، بابا هم می‌گوید دیر نکنی، باشه؟",
+"ms": 3240
+}
+],
+"gloss": [
+{
+"term": "u / ur",
+"en": "you / your",
+"fa": "تو / مالِ تو"
+},
+{
+"term": "sat",
+"en": "Saturday",
+"fa": "شنبه"
+},
+{
+"term": "lol",
+"en": "laugh out loud: \"that's funny\"",
+"fa": "بلند خندیدن: «خنده‌دار است»"
+},
+{
+"term": "kick off",
+"en": "when a football match starts",
+"fa": "زمان شروع مسابقهٔ فوتبال"
+},
+{
+"term": "cheers",
+"en": "thanks (and sometimes \"bye\"), very British",
+"fa": "مرسی (و گاهی «خداحافظ»)، خیلی بریتانیایی"
+}
+],
+"quiz": {
+"q": "Where are they meeting?",
+"options": [
+"At the bus stop",
+"At the stadium",
+"At home"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Yeah, see you at 2! Cheers",
+"No, it's on Sunday morning.",
+"I haven't got a scarf, sorry."
+],
+"answer": 0,
+"fa": "آره، ساعت ۲ می‌بینمت! مرسی",
+"say": "Yeah, see you at 2! Cheers"
+},
+"fromName": "Ryan",
+"avatar": "assets/portraits/ryan.webp"
+},
+{
+"id": "t_a2_lunch",
+"level": "A2",
+"from": "george",
+"title": "Grandad's voicemail",
+"titleFa": "پیام صوتی پدربزرگ",
+"time": "10:30",
+"msgs": [
+{
+"kind": "voice",
+"sp": "george",
+"spn": "Grandad George",
+"en": "Hello, it's Grandad. I'm ringing about Sunday lunch.",
+"fa": "سلام، پدربزرگ هستم. دربارهٔ ناهار یکشنبه زنگ می‌زنم.",
+"ms": 5808
+},
+{
+"kind": "voice",
+"sp": "george",
+"spn": "Grandad George",
+"en": "Nana's making a roast, so come at one o'clock.",
+"fa": "ننه کباب تنوری درست می‌کند، پس ساعت یک بیا.",
+"ms": 4464
+},
+{
+"kind": "voice",
+"sp": "george",
+"spn": "Grandad George",
+"en": "Can you bring some custard? Right, ta-ra!",
+"fa": "می‌توانی کمی کاستارد بیاوری؟ خب، خداحافظ!",
+"ms": 5112
+}
+],
+"gloss": [
+{
+"term": "ta-ra",
+"en": "goodbye (friendly, a bit old-fashioned)",
+"fa": "خداحافظ (دوستانه، کمی قدیمی)"
+},
+{
+"term": "a roast",
+"en": "the traditional Sunday lunch: roast meat and vegetables",
+"fa": "ناهار سنتی یکشنبه: گوشت تنوری و سبزیجات"
+}
+],
+"quiz": {
+"q": "What time is lunch?",
+"options": [
+"One o'clock",
+"Twelve o'clock",
+"Three o'clock"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Lovely! I'll bring the custard. See you Sunday x",
+"Sorry, I don't like Tuesdays.",
+"Yes, it's raining today."
+],
+"answer": 0,
+"fa": "عالی! کاستارد را می‌آورم. یکشنبه می‌بینمت x",
+"say": "Lovely! I'll bring the custard. See you Sunday"
+},
+"fromName": "Grandad George",
+"avatar": "assets/portraits/george.webp"
+},
+{
+"id": "t_b1_jumper",
+"level": "B1",
+"from": "weda",
+"title": "Nana Maggie's voicemail",
+"titleFa": "پیام صوتی ننه مگی",
+"time": "11:52",
+"msgs": [
+{
+"kind": "voice",
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Hello, darling, it's Nana. I don't know if this thing is recording... is it? Oh, it is.",
+"fa": "سلام عزیزم، ننه هستم. نمی‌دانم این دستگاه ضبط می‌کند یا نه... می‌کند؟ آهان، می‌کند.",
+"ms": 9072
+},
+{
+"kind": "voice",
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Anyway, I was at the market this morning and I bumped into Doris, you know, from the bus.",
+"fa": "خلاصه، امروز صبح بازار بودم و به دوریس برخوردم، همان که در اتوبوس است.",
+"ms": 7128
+},
+{
+"kind": "voice",
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "She's had her hip done, bless her, and she's walking better than your grandad now!",
+"fa": "لگنش را عمل کرده، طفلکی، و الان از پدربزرگت هم بهتر راه می‌رود!",
+"ms": 6072
+},
+{
+"kind": "voice",
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Oh, what was I ringing about? Yes! Your jumper's finished. Pop round whenever you like.",
+"fa": "آه، برای چه زنگ زده بودم؟ آهان! ژاکتت تمام شد. هر وقت خواستی سر بزن.",
+"ms": 9408
+},
+{
+"kind": "voice",
+"sp": "weda",
+"spn": "Nana Maggie",
+"en": "Right, I'll let you go. Lots of love. Bye, bye, bye, bye.",
+"fa": "خب، دیگر وقتت را نمی‌گیرم. خیلی دوستت دارم. خداحافظ، خداحافظ.",
+"ms": 7560
+}
+],
+"gloss": [
+{
+"term": "bless her",
+"en": "a kind way to show sympathy",
+"fa": "طفلکی (برای ابراز همدردی)"
+},
+{
+"term": "pop round",
+"en": "visit someone's home for a short time",
+"fa": "سری به خانهٔ کسی زدن"
+},
+{
+"term": "bye, bye, bye",
+"en": "Brits often say \"bye\" several times at the end of a call",
+"fa": "بریتانیایی‌ها اغلب آخر تماس چند بار «بای» می‌گویند"
+}
+],
+"quiz": {
+"q": "Why did Nana ring?",
+"options": [
+"Your jumper is finished",
+"Doris is in hospital",
+"Grandad is ill"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Thanks, Nana! I'll pop round on Saturday. Lots of love x",
+"Please stop ringing me.",
+"Yes, I'm at the market now."
+],
+"answer": 0,
+"fa": "ممنون، ننه! شنبه سر می‌زنم. خیلی دوستت دارم x",
+"say": "Thanks, Nana! I'll pop round on Saturday. Lots of love"
+},
+"fromName": "Nana Maggie",
+"avatar": "assets/portraits/weda.webp"
+},
+{
+"id": "t_b1_late",
+"level": "B1",
+"from": "tom",
+"title": "Running late",
+"titleFa": "دیر می‌کنم",
+"time": "17:20",
+"msgs": [
+{
+"kind": "text",
+"sp": "tom",
+"spn": "Tom",
+"en": "Bus has broken down on Mare St 🙄 Running about 40 mins late",
+"fa": "اتوبوس در خیابان مِر خراب شده 🙄 حدود ۴۰ دقیقه دیر می‌کنم"
+},
+{
+"kind": "text",
+"sp": "tom",
+"spn": "Tom",
+"en": "Could you put the oven on at 6? Gas mark 5. Ta",
+"fa": "می‌شود ساعت ۶ فر را روشن کنی؟ درجهٔ ۵. مرسی"
+},
+{
+"kind": "voice",
+"sp": "tom",
+"spn": "Tom",
+"en": "Sorry, mate. The passengers aren't happy, I can tell you. See you in a bit!",
+"fa": "ببخشید رفیق. مسافرها اصلاً راضی نیستند، مطمئن باش. کمی بعد می‌بینمت!",
+"ms": 7200
+}
+],
+"gloss": [
+{
+"term": "mins / St",
+"en": "minutes / Street",
+"fa": "دقیقه / خیابان"
+},
+{
+"term": "ta",
+"en": "thanks (informal)",
+"fa": "مرسی (خودمانی)"
+},
+{
+"term": "in a bit",
+"en": "soon",
+"fa": "کمی بعد"
+},
+{
+"term": "gas mark 5",
+"en": "a UK oven setting, about 190°C",
+"fa": "یکی از درجه‌های فر در بریتانیا، حدود ۱۹۰ درجه"
+}
+],
+"quiz": {
+"q": "What does Tom ask you to do?",
+"options": [
+"Put the oven on at 6",
+"Buy him a bus ticket",
+"Ring the bus company"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"No worries! Oven on at 6. See you soon",
+"Sorry, I can't drive a bus.",
+"Lovely weather today!"
+],
+"answer": 0,
+"fa": "نگران نباش! ساعت ۶ فر روشن. به‌زودی می‌بینمت",
+"say": "No worries! Oven on at 6. See you soon"
+},
+"fromName": "Tom",
+"avatar": "assets/portraits/tom.webp"
+},
+{
+"id": "t_b2_trip",
+"level": "B2",
+"from": "leslie",
+"title": "The class group chat",
+"titleFa": "گروه چت کلاس",
+"time": "20:15",
+"msgs": [
+{
+"kind": "text",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Quick one: the class group chat has gone into meltdown over the school trip 🙈",
+"fa": "یک سؤال کوتاه: گروه چت کلاس سر اردوی مدرسه به هم ریخته 🙈"
+},
+{
+"kind": "text",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Apparently the coach leaves at 7.30, not 8.30. Can you double-check the letter on the fridge?",
+"fa": "ظاهراً اتوبوس ساعت ۷:۳۰ حرکت می‌کند، نه ۸:۳۰. می‌شود نامهٔ روی یخچال را دوباره چک کنی؟"
+},
+{
+"kind": "voice",
+"sp": "leslie",
+"spn": "Leslie",
+"en": "Honestly, forty-two messages about packed lunches. I'm going to mute it. Let me know as soon as you can, thanks!",
+"fa": "راستش چهل و دو پیام دربارهٔ ناهار بسته‌بندی‌شده. می‌خواهم بی‌صدایش کنم. هرچه زودتر خبرم کن، ممنون!",
+"ms": 8424
+}
+],
+"gloss": [
+{
+"term": "Quick one",
+"en": "\"I've got a short question\"",
+"fa": "«یک سؤال کوتاه دارم»"
+},
+{
+"term": "gone into meltdown",
+"en": "everyone is panicking (informal)",
+"fa": "همه به هم ریخته‌اند (خودمانی)"
+},
+{
+"term": "coach",
+"en": "a comfortable bus for trips and long journeys",
+"fa": "اتوبوس راحت برای گردش و سفرهای طولانی"
+},
+{
+"term": "ASAP",
+"en": "as soon as possible (Leslie says it in full)",
+"fa": "هرچه زودتر"
+}
+],
+"quiz": {
+"q": "What does Leslie want you to check?",
+"options": [
+"The time on the school letter",
+"The packed lunch menu",
+"Nicola's homework"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Just checked: it says 7.30. The group chat was right for once! x",
+"The coach is red, I think.",
+"Can you mute me, please?"
+],
+"answer": 0,
+"fa": "الان چک کردم: نوشته ۷:۳۰. این بار گروه چت درست می‌گفت! x",
+"say": "Just checked: it says seven thirty. The group chat was right for once!"
+},
+"fromName": "Leslie",
+"avatar": "assets/portraits/leslie.webp"
+},
+{
+"id": "t_b2_pint",
+"level": "B2",
+"from": "al",
+"title": "An old friend",
+"titleFa": "یک دوست قدیمی",
+"time": "22:40",
+"msgs": [
+{
+"kind": "voice",
+"sp": "al",
+"spn": "Alastair",
+"en": "Alright? It's Al. Long time no speak! I'm down in London for a conference next week.",
+"fa": "چطوری؟ اَل هستم. خیلی وقت است حرف نزده‌ایم! هفتهٔ بعد برای یک کنفرانس می‌آیم لندن.",
+"ms": 7152
+},
+{
+"kind": "voice",
+"sp": "al",
+"spn": "Alastair",
+"en": "Fancy a pint on Thursday? Tell Tom he's not getting out of it this time.",
+"fa": "پنجشنبه پایه‌ای برویم یک نوشیدنی بخوریم؟ به تام بگو این بار نمی‌تواند در برود.",
+"ms": 5664
+},
+{
+"kind": "text",
+"sp": "al",
+"spn": "Alastair",
+"en": "Also, does the Red Lion still do that quiz? Asking for a friend 😂",
+"fa": "راستی، رد لاین هنوز آن مسابقهٔ اطلاعات عمومی را دارد؟ برای یک دوست می‌پرسم 😂"
+}
+],
+"gloss": [
+{
+"term": "Alright?",
+"en": "\"Hi, how are you?\" (no real answer needed)",
+"fa": "سلام، چطوری؟ (جواب واقعی لازم نیست)"
+},
+{
+"term": "Fancy a pint?",
+"en": "would you like to go for a drink?",
+"fa": "پایه‌ای برویم یک نوشیدنی بخوریم؟"
+},
+{
+"term": "asking for a friend",
+"en": "a joke: you're really asking for yourself",
+"fa": "شوخی: در واقع برای خودت می‌پرسی"
+}
+],
+"quiz": {
+"q": "Why is Al coming to London?",
+"options": [
+"For a conference",
+"For a football match",
+"To see a doctor"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Brilliant! Thursday works. The quiz is still on, by the way 😉",
+"I don't drink coffee.",
+"The conference was last year."
+],
+"answer": 0,
+"fa": "عالی! پنجشنبه خوب است. راستی مسابقه هنوز برقرار است 😉",
+"say": "Brilliant! Thursday works. The quiz is still on, by the way"
+},
+"fromName": "Alastair",
+"avatar": "assets/portraits/al.webp"
+},
+{
+"id": "t_c1_favour",
+"level": "C1",
+"from": "priya",
+"title": "A favour from Priya",
+"titleFa": "خواهش پریا",
+"time": "13:05",
+"msgs": [
+{
+"kind": "voice",
+"sp": "priya",
+"spn": "Priya",
+"en": "Hiya, it's Priya from the shop. Sorry to bother you, I know it's really short notice.",
+"fa": "سلام، پریا از مغازه هستم. ببخشید مزاحم شدم، می‌دانم خیلی دیر خبر می‌دهم.",
+"ms": 7464
+},
+{
+"kind": "voice",
+"sp": "priya",
+"spn": "Priya",
+"en": "My delivery's been bumped to tomorrow morning and I've got the dentist at nine. Any chance you could be there to sign for it?",
+"fa": "تحویل جنس‌هایم به فردا صبح افتاده و ساعت نه دندانپزشکی دارم. امکانش هست آنجا باشی و تحویلش بگیری؟",
+"ms": 8928
+},
+{
+"kind": "text",
+"sp": "priya",
+"spn": "Priya",
+"en": "No pressure at all if you're busy! I'll owe you one. Free crisps for life 😄",
+"fa": "اگر سرت شلوغ است اصلاً فشار نیست! یکی طلبت. چیپس مجانی تا آخر عمر 😄"
+}
+],
+"gloss": [
+{
+"term": "Hiya",
+"en": "hi (friendly)",
+"fa": "سلام (دوستانه)"
+},
+{
+"term": "short notice",
+"en": "very little warning",
+"fa": "خبرِ دیرهنگام"
+},
+{
+"term": "bumped to",
+"en": "moved to a later time",
+"fa": "به زمان دیگری منتقل شدن"
+},
+{
+"term": "I'll owe you one",
+"en": "I'll do you a favour back",
+"fa": "یکی طلبت"
+}
+],
+"quiz": {
+"q": "Why can't Priya sign for the delivery?",
+"options": [
+"She's at the dentist",
+"She's on holiday",
+"The shop is closed"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Course I can! I'll be there from half eight. Good luck at the dentist x",
+"No thanks, I don't like crisps.",
+"Could you deliver it yesterday?"
+],
+"answer": 0,
+"fa": "البته که می‌توانم! از هشت و نیم آنجا هستم. دندانپزشکی موفق باشی x",
+"say": "Course I can! I'll be there from half eight. Good luck at the dentist"
+},
+"fromName": "Priya",
+"avatar": "assets/portraits/priya.webp"
+},
+{
+"id": "t_c1_choice",
+"level": "C1",
+"from": "ryan",
+"title": "Ryan's big decision",
+"titleFa": "تصمیم بزرگ رایان",
+"time": "23:47",
+"msgs": [
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "u awake?",
+"fa": "بیداری؟"
+},
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "been thinking about the sixth form vs apprenticeship thing. mum n dad think I'm mad",
+"fa": "دارم به موضوع کالج یا کارآموزی فکر می‌کنم. مامان و بابا فکر می‌کنند دیوانه‌ام"
+},
+{
+"kind": "voice",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "Look, I'm not saying sixth form's pointless, but the apprenticeship pays, and I'd actually be learning on the job. Be honest: would you think less of me?",
+"fa": "ببین، نمی‌گویم کالج بی‌فایده است، ولی کارآموزی پول می‌دهد و در واقع سر کار یاد می‌گیرم. رک بگو: نظرت دربارهٔ من بد می‌شود؟",
+"ms": 9624
+},
+{
+"kind": "text",
+"sp": "ryan",
+"spn": "Ryan",
+"en": "sorry for the essay lol. no rush",
+"fa": "ببخشید که این‌قدر طولانی شد lol. عجله‌ای نیست"
+}
+],
+"gloss": [
+{
+"term": "u awake?",
+"en": "a late-night \"can we talk?\"",
+"fa": "پیامِ آخر شب یعنی «می‌شود حرف بزنیم؟»"
+},
+{
+"term": "n",
+"en": "and",
+"fa": "و"
+},
+{
+"term": "sorry for the essay",
+"en": "sorry this message is so long",
+"fa": "ببخشید پیام این‌قدر طولانی شد"
+},
+{
+"term": "sixth form",
+"en": "the last two years of school, from 16 to 18",
+"fa": "دو سال آخر مدرسه، از ۱۶ تا ۱۸ سالگی"
+}
+],
+"quiz": {
+"q": "What is Ryan worried about?",
+"options": [
+"What you'll think of his choice",
+"Failing his driving test",
+"Losing his phone"
+],
+"answer": 0
+},
+"reply": {
+"options": [
+"Not at all! Sounds like you've really thought it through. Fancy a chat tomorrow?",
+"Go to sleep, it's not important.",
+"I think you're mad too lol"
+],
+"answer": 0,
+"fa": "اصلاً! به نظر می‌رسد حسابی فکرهایت را کرده‌ای. فردا حرف بزنیم؟",
+"say": "Not at all! Sounds like you've really thought it through. Fancy a chat tomorrow?"
+},
+"fromName": "Ryan",
+"avatar": "assets/portraits/ryan.webp"
+}
+]
+}

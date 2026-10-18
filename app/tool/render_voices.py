@@ -97,6 +97,11 @@ mis=os.path.join(A,'data/missions.json')  # Real-life missions (tool/make_missio
 if os.path.exists(mis):
   for x in json.load(open(mis))['missions']:
     for l in x['say']+x['hear']: add(l['sp'],l['en'])
+msg=os.path.join(A,'data/messages.json')  # Family voice messages (tool/make_messages.py): voice notes in the sender's voice
+if os.path.exists(msg):
+  for t in json.load(open(msg))['threads']:
+    for m in t['msgs']:
+      if m['kind']=='voice': add(m['sp'],m['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

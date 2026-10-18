@@ -1,0 +1,113 @@
+# Family voice messages: the Thompsons and friends text and send voice notes to the learner. All original.
+# Header:  # id | level | from | title | titleFa | time        (from = the thread's contact, a characters.json id)
+# voice sp: English | Persian     a voice note (rendered audio; transcript hidden until asked)
+# text sp: English | Persian      a text message (texting style is the point: x, ta, lol, pls...)
+# gloss: term = meaning | Persian a texting / British convention used in the thread
+# Q: question | correct ; wrong ; wrong
+# reply: best reply | Persian ; wrong ; wrong      (pick it, type it or say it)
+
+# t_a1_milk | A1 | leslie | Milk, please! | شیر، لطفاً! | 16:42
+voice leslie: Hi love! Can you pick up some milk, please? | سلام عزیزم! می‌شود لطفاً کمی شیر بگیری؟
+text leslie: Semi-skimmed pls x | نیم‌چرب لطفاً x
+gloss: pls = please | لطفاً
+gloss: x = a kiss: a friendly way to end a message | یک بوس: روشی دوستانه برای تمام کردن پیام
+Q: What does Leslie want? | Milk ; Bread ; Tea
+reply: Yes, no problem! x | بله، مشکلی نیست! x ; No milk, thank you. ; I like the park.
+
+# t_a1_dino | A1 | william | William's dinosaur | دایناسور ویلیام | 08:05
+voice william: Hello! It's William. I've got a new dinosaur! | سلام! ویلیام هستم. یک دایناسور جدید دارم!
+voice william: He's green. His name is Spike. | سبز است. اسمش اسپایک است.
+text leslie: Sorry! He grabbed my phone 🙈 L x | ببخشید! گوشی‌ام را برداشت 🙈 ل x
+gloss: 🙈 = oops, a bit embarrassed | اوه، کمی خجالت‌زده
+gloss: L x = Leslie, with a kiss: Brits often sign texts with a letter | لزلی، با یک بوس: بریتانیایی‌ها اغلب پیام را با حرف اول اسمشان امضا می‌کنند
+Q: What colour is the dinosaur? | Green ; Red ; Blue
+reply: Wow! Spike is brilliant! | وای! اسپایک فوق‌العاده است! ; Yes, it's Monday. ; Sorry, I'm late.
+
+# t_a2_match | A2 | ryan | Saturday's match | مسابقهٔ شنبه | 21:13
+text ryan: u coming to the match sat? | شنبه میای مسابقه؟
+text ryan: kick off at 3, meet at the bus stop at 2 | شروع ساعت ۳، ساعت ۲ ایستگاه اتوبوس
+text ryan: bring ur scarf lol | شال‌گردنت را بیاور lol
+voice ryan: Oh, and Dad says don't be late, yeah? | آهان، بابا هم می‌گوید دیر نکنی، باشه؟
+gloss: u / ur = you / your | تو / مالِ تو
+gloss: sat = Saturday | شنبه
+gloss: lol = laugh out loud: "that's funny" | بلند خندیدن: «خنده‌دار است»
+gloss: kick off = when a football match starts | زمان شروع مسابقهٔ فوتبال
+gloss: cheers = thanks (and sometimes "bye"), very British | مرسی (و گاهی «خداحافظ»)، خیلی بریتانیایی
+Q: Where are they meeting? | At the bus stop ; At the stadium ; At home
+reply: Yeah, see you at 2! Cheers | آره، ساعت ۲ می‌بینمت! مرسی ; No, it's on Sunday morning. ; I haven't got a scarf, sorry.
+
+# t_a2_lunch | A2 | george | Grandad's voicemail | پیام صوتی پدربزرگ | 10:30
+voice george: Hello, it's Grandad. I'm ringing about Sunday lunch. | سلام، پدربزرگ هستم. دربارهٔ ناهار یکشنبه زنگ می‌زنم.
+voice george: Nana's making a roast, so come at one o'clock. | ننه کباب تنوری درست می‌کند، پس ساعت یک بیا.
+voice george: Can you bring some custard? Right, ta-ra! | می‌توانی کمی کاستارد بیاوری؟ خب، خداحافظ!
+gloss: ta-ra = goodbye (friendly, a bit old-fashioned) | خداحافظ (دوستانه، کمی قدیمی)
+gloss: a roast = the traditional Sunday lunch: roast meat and vegetables | ناهار سنتی یکشنبه: گوشت تنوری و سبزیجات
+Q: What time is lunch? | One o'clock ; Twelve o'clock ; Three o'clock
+reply: Lovely! I'll bring the custard. See you Sunday x | عالی! کاستارد را می‌آورم. یکشنبه می‌بینمت x ; Sorry, I don't like Tuesdays. ; Yes, it's raining today.
+
+# t_b1_jumper | B1 | weda | Nana Maggie's voicemail | پیام صوتی ننه مگی | 11:52
+voice weda: Hello, darling, it's Nana. I don't know if this thing is recording... is it? Oh, it is. | سلام عزیزم، ننه هستم. نمی‌دانم این دستگاه ضبط می‌کند یا نه... می‌کند؟ آهان، می‌کند.
+voice weda: Anyway, I was at the market this morning and I bumped into Doris, you know, from the bus. | خلاصه، امروز صبح بازار بودم و به دوریس برخوردم، همان که در اتوبوس است.
+voice weda: She's had her hip done, bless her, and she's walking better than your grandad now! | لگنش را عمل کرده، طفلکی، و الان از پدربزرگت هم بهتر راه می‌رود!
+voice weda: Oh, what was I ringing about? Yes! Your jumper's finished. Pop round whenever you like. | آه، برای چه زنگ زده بودم؟ آهان! ژاکتت تمام شد. هر وقت خواستی سر بزن.
+voice weda: Right, I'll let you go. Lots of love. Bye, bye, bye, bye. | خب، دیگر وقتت را نمی‌گیرم. خیلی دوستت دارم. خداحافظ، خداحافظ.
+gloss: bless her = a kind way to show sympathy | طفلکی (برای ابراز همدردی)
+gloss: pop round = visit someone's home for a short time | سری به خانهٔ کسی زدن
+gloss: bye, bye, bye = Brits often say "bye" several times at the end of a call | بریتانیایی‌ها اغلب آخر تماس چند بار «بای» می‌گویند
+Q: Why did Nana ring? | Your jumper is finished ; Doris is in hospital ; Grandad is ill
+reply: Thanks, Nana! I'll pop round on Saturday. Lots of love x | ممنون، ننه! شنبه سر می‌زنم. خیلی دوستت دارم x ; Please stop ringing me. ; Yes, I'm at the market now.
+
+# t_b1_late | B1 | tom | Running late | دیر می‌کنم | 17:20
+text tom: Bus has broken down on Mare St 🙄 Running about 40 mins late | اتوبوس در خیابان مِر خراب شده 🙄 حدود ۴۰ دقیقه دیر می‌کنم
+text tom: Could you put the oven on at 6? Gas mark 5. Ta | می‌شود ساعت ۶ فر را روشن کنی؟ درجهٔ ۵. مرسی
+voice tom: Sorry, mate. The passengers aren't happy, I can tell you. See you in a bit! | ببخشید رفیق. مسافرها اصلاً راضی نیستند، مطمئن باش. کمی بعد می‌بینمت!
+gloss: mins / St = minutes / Street | دقیقه / خیابان
+gloss: ta = thanks (informal) | مرسی (خودمانی)
+gloss: in a bit = soon | کمی بعد
+gloss: gas mark 5 = a UK oven setting, about 190°C | یکی از درجه‌های فر در بریتانیا، حدود ۱۹۰ درجه
+Q: What does Tom ask you to do? | Put the oven on at 6 ; Buy him a bus ticket ; Ring the bus company
+reply: No worries! Oven on at 6. See you soon | نگران نباش! ساعت ۶ فر روشن. به‌زودی می‌بینمت ; Sorry, I can't drive a bus. ; Lovely weather today!
+
+# t_b2_trip | B2 | leslie | The class group chat | گروه چت کلاس | 20:15
+text leslie: Quick one: the class group chat has gone into meltdown over the school trip 🙈 | یک سؤال کوتاه: گروه چت کلاس سر اردوی مدرسه به هم ریخته 🙈
+text leslie: Apparently the coach leaves at 7.30, not 8.30. Can you double-check the letter on the fridge? | ظاهراً اتوبوس ساعت ۷:۳۰ حرکت می‌کند، نه ۸:۳۰. می‌شود نامهٔ روی یخچال را دوباره چک کنی؟
+voice leslie: Honestly, forty-two messages about packed lunches. I'm going to mute it. Let me know as soon as you can, thanks! | راستش چهل و دو پیام دربارهٔ ناهار بسته‌بندی‌شده. می‌خواهم بی‌صدایش کنم. هرچه زودتر خبرم کن، ممنون!
+gloss: Quick one = "I've got a short question" | «یک سؤال کوتاه دارم»
+gloss: gone into meltdown = everyone is panicking (informal) | همه به هم ریخته‌اند (خودمانی)
+gloss: coach = a comfortable bus for trips and long journeys | اتوبوس راحت برای گردش و سفرهای طولانی
+gloss: ASAP = as soon as possible (Leslie says it in full) | هرچه زودتر
+Q: What does Leslie want you to check? | The time on the school letter ; The packed lunch menu ; Nicola's homework
+reply: Just checked: it says 7.30. The group chat was right for once! x | الان چک کردم: نوشته ۷:۳۰. این بار گروه چت درست می‌گفت! x ; The coach is red, I think. ; Can you mute me, please?
+
+# t_b2_pint | B2 | al | An old friend | یک دوست قدیمی | 22:40
+voice al: Alright? It's Al. Long time no speak! I'm down in London for a conference next week. | چطوری؟ اَل هستم. خیلی وقت است حرف نزده‌ایم! هفتهٔ بعد برای یک کنفرانس می‌آیم لندن.
+voice al: Fancy a pint on Thursday? Tell Tom he's not getting out of it this time. | پنجشنبه پایه‌ای برویم یک نوشیدنی بخوریم؟ به تام بگو این بار نمی‌تواند در برود.
+text al: Also, does the Red Lion still do that quiz? Asking for a friend 😂 | راستی، رد لاین هنوز آن مسابقهٔ اطلاعات عمومی را دارد؟ برای یک دوست می‌پرسم 😂
+gloss: Alright? = "Hi, how are you?" (no real answer needed) | سلام، چطوری؟ (جواب واقعی لازم نیست)
+gloss: Fancy a pint? = would you like to go for a drink? | پایه‌ای برویم یک نوشیدنی بخوریم؟
+gloss: asking for a friend = a joke: you're really asking for yourself | شوخی: در واقع برای خودت می‌پرسی
+Q: Why is Al coming to London? | For a conference ; For a football match ; To see a doctor
+reply: Brilliant! Thursday works. The quiz is still on, by the way 😉 | عالی! پنجشنبه خوب است. راستی مسابقه هنوز برقرار است 😉 ; I don't drink coffee. ; The conference was last year.
+
+# t_c1_favour | C1 | priya | A favour from Priya | خواهش پریا | 13:05
+voice priya: Hiya, it's Priya from the shop. Sorry to bother you, I know it's really short notice. | سلام، پریا از مغازه هستم. ببخشید مزاحم شدم، می‌دانم خیلی دیر خبر می‌دهم.
+voice priya: My delivery's been bumped to tomorrow morning and I've got the dentist at nine. Any chance you could be there to sign for it? | تحویل جنس‌هایم به فردا صبح افتاده و ساعت نه دندانپزشکی دارم. امکانش هست آنجا باشی و تحویلش بگیری؟
+text priya: No pressure at all if you're busy! I'll owe you one. Free crisps for life 😄 | اگر سرت شلوغ است اصلاً فشار نیست! یکی طلبت. چیپس مجانی تا آخر عمر 😄
+gloss: Hiya = hi (friendly) | سلام (دوستانه)
+gloss: short notice = very little warning | خبرِ دیرهنگام
+gloss: bumped to = moved to a later time | به زمان دیگری منتقل شدن
+gloss: I'll owe you one = I'll do you a favour back | یکی طلبت
+Q: Why can't Priya sign for the delivery? | She's at the dentist ; She's on holiday ; The shop is closed
+reply: Course I can! I'll be there from half eight. Good luck at the dentist x | البته که می‌توانم! از هشت و نیم آنجا هستم. دندانپزشکی موفق باشی x ; No thanks, I don't like crisps. ; Could you deliver it yesterday?
+
+# t_c1_choice | C1 | ryan | Ryan's big decision | تصمیم بزرگ رایان | 23:47
+text ryan: u awake? | بیداری؟
+text ryan: been thinking about the sixth form vs apprenticeship thing. mum n dad think I'm mad | دارم به موضوع کالج یا کارآموزی فکر می‌کنم. مامان و بابا فکر می‌کنند دیوانه‌ام
+voice ryan: Look, I'm not saying sixth form's pointless, but the apprenticeship pays, and I'd actually be learning on the job. Be honest: would you think less of me? | ببین، نمی‌گویم کالج بی‌فایده است، ولی کارآموزی پول می‌دهد و در واقع سر کار یاد می‌گیرم. رک بگو: نظرت دربارهٔ من بد می‌شود؟
+text ryan: sorry for the essay lol. no rush | ببخشید که این‌قدر طولانی شد lol. عجله‌ای نیست
+gloss: u awake? = a late-night "can we talk?" | پیامِ آخر شب یعنی «می‌شود حرف بزنیم؟»
+gloss: n = and | و
+gloss: sorry for the essay = sorry this message is so long | ببخشید پیام این‌قدر طولانی شد
+gloss: sixth form = the last two years of school, from 16 to 18 | دو سال آخر مدرسه، از ۱۶ تا ۱۸ سالگی
+Q: What is Ryan worried about? | What you'll think of his choice ; Failing his driving test ; Losing his phone
+reply: Not at all! Sounds like you've really thought it through. Fancy a chat tomorrow? | اصلاً! به نظر می‌رسد حسابی فکرهایت را کرده‌ای. فردا حرف بزنیم؟ ; Go to sleep, it's not important. ; I think you're mad too lol

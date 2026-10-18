@@ -313,6 +313,18 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
   }
 
+  /// Family voice messages: best thread score ('msg:ID'); 60% = done.
+  int? threadScore(String id) => int.tryParse(state.missionsDone['msg:$id'] ?? '');
+  bool threadDone(String id) => (threadScore(id) ?? -1) >= 60;
+  int get threadsDone => state.missionsDone.entries.where((e) => e.key.startsWith('msg:') && (int.tryParse(e.value) ?? 0) >= 60).length;
+  XpAward saveThread(String id, int pct) {
+    if (pct > (threadScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'msg:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 60 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
   /// Real-life missions: 'mission:ID' = rating:phrasesUsed (best kept); 'mission:go:ID' = day the learner set off.
   /// rating 2 = went well, 1 = did it (hard), 0 = didn't happen this time. Done = rating >= 1.
   int? missionRating(String id) => int.tryParse((state.missionsDone['mission:$id'] ?? '').split(':').first);

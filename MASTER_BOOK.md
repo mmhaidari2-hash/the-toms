@@ -217,6 +217,25 @@ Profession-specific English tracks led by a family member who does that job, bui
 - **Listening first:** the transcript is hidden every time a programme opens. There is an "ON AIR" radio set with the speaker's name, an equaliser, play/stop, progress and a "Slower" toggle. "Show transcript" and then "فارسی" are optional. The Questions button turns red once you've listened all the way through. Progress is stored in `radio:<id>` (best score; 60% passes; XP 15/10/3).
 - **Level gate = Library/Cinema/Grammar rule** (`RadioGate`). Locked programmes explain why, and deep links show a locked page.
 
+### Family messages — run 1 (2026-10-18)
+- **Where:** a "Messages" button in the `home` spot's sheet (the Thompsons' house), plus a menu item. Routes are `/messages` (a phone-style inbox) and `/messages/:id` (a chat).
+- **Content:** tool/messages/threads.txt, built by tool/make_messages.py into assets/data/messages.json. There are 10 threads, 2 per level:
+  - A1: Leslie's milk run; William's dinosaur.
+  - A2: Ryan's slangy match texts; Grandad George's "ta-ra" voicemail.
+  - B1: Nana Maggie's rambling voicemail; Tom running late ("Ta", gas mark 5).
+  - B2: Leslie's class group chat; an old friend's "Fancy a pint?".
+  - C1: Priya's favour; Ryan's late-night decision.
+  - Voices are rendered by tool/render_voices.py.
+- **Flow:**
+  1. Voice notes play first (play button and waveform); the transcript stays hidden until asked for. Texts are always readable. A Persian toggle (pref `msgFa`) shows translations.
+  2. A "Texting talk" card explains x, pls, lol, u/ur, cheers, ta, ta-ra, ASAP and more.
+  3. A one-question quick check.
+  4. The learner replies by **Pick**, **Type** (accepted at a score of 70 or more against the spoken version) or **Say** (browser speech-to-text, scored with `Pronunciation.bestOf`, accepted at 70 or more).
+- **Scoring:** 40 for the quick check right first time, plus 60 for the reply (30 if a wrong reply was picked first). 60% or more counts as done. Stored as `msg:ID` (best score kept). XP is 15 for 100%, 10 for a pass and 3 otherwise.
+- **Privacy:** the app never records, stores or uploads the learner's voice; Messages does not use MediaRecorder. A note under the mic says the browser turns speech into text, and the browser's speech service may process the audio, as already disclosed in speech_web.dart.
+- **Gate:** the same rule as every other section.
+- **Tests:** test/messages_test.dart and test/messages_flow_test.dart.
+
 ### Real-life missions — run 1 (2026-10-18)
 - **Map:** spot `missions` ("Real-life missions", 🎯, 0.675/0.655): the pavement where the high street meets the park path. It's open for new learners, has a sheet button and a menu item, and links to 5 directions, café and small-talk lessons. Routes: `/missions` and `/missions/:id`.
 - **Content:** `app/tool/missions/missions.txt` (`# id | level | spot | title | titleFa | goal | goalFa`, then `say:` / `hear role:` / `tip:` / `safe:` lines) → `tool/make_missions.py` → `assets/data/missions.json`. There are 10 missions, 2 per level:
@@ -240,7 +259,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 2. **Cinema**: short scenes with bilingual subtitles, tap-to-translate, "dub it" mode with a speech score (paintings + audio now; real video later). — **Run 1 shipped 2026-10-18: 10 scenes A1–C1, watch / dub / questions.**
 3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian. — **Run 1 shipped 2026-10-18: Hackney Hum, 10 programmes A1–C1 (news, weather, travel, phone-in, adverts), listening first, questions.**
 4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges. — **Run 1 shipped 2026-10-18: 10 missions A1–C1 with prep audio, Ready? Go!, check-in, XP and 2 badges, safety rules.**
-5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder.
+5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder. — **Run 1 shipped 2026-10-18: phone Messages inbox, 10 threads A1–C1 (19 voice notes), texting-talk glossary, quick check, reply by pick/type/say.**
 6. **Park games**: matching, find-the-object in a painting, speed rounds.
 7. **Life in the UK test prep** (in the Library; premium pack candidate; **not affiliated with or endorsed by the Home Office**; original summaries and questions only, no copying or translating handbook text; point users to the official handbook and GOV.UK booking).
 8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons.

@@ -206,6 +206,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ),
           ],
+          if (s.id == 'home') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF2E7D5B),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-messages'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/messages');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.chat_rounded, color: Colors.white),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Messages · voice notes from the family', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
           if (s.id == 'missions') ...[
             const SizedBox(height: 12),
             Material(

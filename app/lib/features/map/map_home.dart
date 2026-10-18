@@ -298,6 +298,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.local_library_rounded, 'Library · graded readers', 'کتابخانه · کتاب‌های داستان', '/library'),
     (Icons.movie_rounded, 'Cinema & dubbing', 'سینما و دوبله', '/cinema'),
     (Icons.radio_rounded, 'Hackney Hum radio', 'رادیو هاکنی هام', '/radio'),
+    (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
     (Icons.hiking_rounded, 'Real-life missions', 'مأموریت‌های زندگی واقعی', '/missions'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
