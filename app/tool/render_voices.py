@@ -42,6 +42,7 @@ V={ # speaker -> (voice, pitch, rate)
  'bex':('en-GB-LibbyNeural','+4Hz','+10%'),'malcolm':('en-GB-RyanNeural','-10Hz','-2%'),  # Hackney Hum (radio) presenters
  'grace':('en-NG-EzinneNeural','+0Hz','+4%'),'owen':('en-GB-ThomasNeural','+0Hz','+4%'),
  'mrspatel':('en-IN-NeerjaNeural','-16Hz','-10%'),'oldman':('en-IE-ConnorNeural','-22Hz','-16%'),  # library minor characters
+ 'tutor':('en-GB-RyanNeural','-4Hz','-6%'),  # Life in the UK prep explanations
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
@@ -102,6 +103,10 @@ if os.path.exists(msg):
   for t in json.load(open(msg))['threads']:
     for m in t['msgs']:
       if m['kind']=='voice': add(m['sp'],m['en'])
+luk=os.path.join(A,'data/lifeuk.json')  # Life in the UK prep (tool/make_lifeuk.py): chapter explanations in the tutor's voice
+if os.path.exists(luk):
+  for c in json.load(open(luk))['chapters']:
+    for e in c['expl']: add('tutor',e['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

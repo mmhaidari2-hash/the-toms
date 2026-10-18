@@ -48,7 +48,19 @@ class SpotIcon extends StatelessWidget {
   const SpotIcon(this.s, {super.key, this.size = 36, this.dim = false});
   @override
   Widget build(BuildContext context) {
-    Widget img = Image.asset('assets/spots/${s.id}.webp', width: size, height: size, fit: BoxFit.cover, errorBuilder: (_, _, _) => SizedBox(width: size, height: size, child: Center(child: Text(s.icon, style: TextStyle(fontSize: size * .55)))));
+    Widget img = Image.asset(
+      'assets/spots/${s.id}.webp',
+      width: size,
+      height: size,
+      fit: BoxFit.cover,
+      errorBuilder: (_, _, _) => SizedBox(
+        width: size,
+        height: size,
+        child: Center(
+          child: Text(s.icon, style: TextStyle(fontSize: size * .55)),
+        ),
+      ),
+    );
     if (dim) img = ColorFiltered(colorFilter: const ColorFilter.matrix([.33, .33, .33, 0, 0, .33, .33, .33, 0, 0, .33, .33, .33, 0, 0, 0, 0, 0, .75, 0]), child: img);
     return ClipOval(child: img);
   }
@@ -66,29 +78,41 @@ class SpotMarker extends StatelessWidget {
     onTap: onTap,
     child: SizedBox(
       width: 92,
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Container(
-          width: 40,
-          height: 40,
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: open ? const Color(0xF7FBF3E4) : const Color(0xE6201813),
-            shape: BoxShape.circle,
-            border: Border.all(color: open ? BL.gold : Colors.white30, width: 1.6),
-            boxShadow: BL.shadow(.35),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            width: 40,
+            height: 40,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: open ? const Color(0xF7FBF3E4) : const Color(0xE6201813),
+              shape: BoxShape.circle,
+              border: Border.all(color: open ? BL.gold : Colors.white30, width: 1.6),
+              boxShadow: BL.shadow(.35),
+            ),
+            child: Stack(
+              clipBehavior: Clip.none,
+              children: [
+                SpotIcon(s, size: 36, dim: !open),
+                if (!open) const Positioned(right: -8, bottom: -6, child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
+              ],
+            ),
           ),
-          child: Stack(clipBehavior: Clip.none, children: [
-            SpotIcon(s, size: 36, dim: !open),
-            if (!open) const Positioned(right: -8, bottom: -6, child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
-          ]),
-        ),
-        const SizedBox(height: 2),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-          decoration: BoxDecoration(color: const Color(0xD9140E0A), borderRadius: BorderRadius.circular(8)),
-          child: Text(_short(s.title), maxLines: 1, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w700)),
-        ),
-      ]),
+          const SizedBox(height: 2),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+            decoration: BoxDecoration(color: const Color(0xD9140E0A), borderRadius: BorderRadius.circular(8)),
+            child: Text(
+              _short(s.title),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w700),
+            ),
+          ),
+        ],
+      ),
     ),
   );
   static String _short(String t) => t.split(' — ').first.split(' & ').first;
@@ -121,19 +145,32 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
         controller: sc,
         padding: EdgeInsets.fromLTRB(18, 0, 18, MediaQuery.paddingOf(context).bottom + 18),
         children: [
-          Row(children: [
-            Container(
-              decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: BL.gold, width: 2), boxShadow: BL.shadow(.25)),
-              child: SpotIcon(s, size: 52),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(s.title, style: BL.display(22)),
-                Text(s.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
-              ]),
-            ),
-          ]),
+          Row(
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  border: Border.all(color: BL.gold, width: 2),
+                  boxShadow: BL.shadow(.25),
+                ),
+                child: SpotIcon(s, size: 52),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(s.title, style: BL.display(22)),
+                    Text(
+                      s.titleFa,
+                      textDirection: TextDirection.rtl,
+                      style: BL.fa(14, color: BL.muted),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
           if (s.id == 'library') ...[
             const SizedBox(height: 12),
             Material(
@@ -148,12 +185,48 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.local_library_rounded, color: BL.gold),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Browse the shelves · graded readers', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.local_library_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Browse the shelves · graded readers',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Material(
+              color: const Color(0xFF1F3A68),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-lifeuk'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/lifeuk');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(
+                    children: [
+                      Icon(Icons.account_balance_rounded, color: Colors.white),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Life in the UK test prep · study corner',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -172,12 +245,19 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.movie_rounded, color: BL.gold),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Now showing · watch & dub scenes', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.movie_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Now showing · watch & dub scenes',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -196,12 +276,19 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.radio_rounded, color: BL.gold),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('On air · listen to Hackney Hum', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.radio_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'On air · listen to Hackney Hum',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -220,12 +307,19 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.chat_rounded, color: Colors.white),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Messages · voice notes from the family', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.chat_rounded, color: Colors.white),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Messages · voice notes from the family',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -244,12 +338,19 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.sports_esports_rounded, color: Colors.white),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Park games · quick word games', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.sports_esports_rounded, color: Colors.white),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Park games · quick word games',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -268,12 +369,19 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.hiking_rounded, color: Colors.white),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Real-life missions · try it out there', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.hiking_rounded, color: Colors.white),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Real-life missions · try it out there',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -292,43 +400,69 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  child: Row(children: [
-                    Icon(Icons.school_rounded, color: BL.gold),
-                    SizedBox(width: 12),
-                    Expanded(child: Text('Grammar School · Mrs Ellis\'s classrooms', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
-                    Icon(Icons.chevron_right_rounded, color: Colors.white),
-                  ]),
+                  child: Row(
+                    children: [
+                      Icon(Icons.school_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Grammar School · Mrs Ellis\'s classrooms',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
                 ),
               ),
             ),
           ],
           const SizedBox(height: 6),
-          Text('${ls.length} lessons here  ·  $done done', style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 13)),
+          Text(
+            '${ls.length} lessons here  ·  $done done',
+            style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 13),
+          ),
           const SizedBox(height: 12),
           FilledButton.icon(
             key: const ValueKey('spot-start'),
             onPressed: next == null ? null : () => open(sheet, next),
-            style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+            style: FilledButton.styleFrom(
+              backgroundColor: BL.red,
+              padding: const EdgeInsets.symmetric(vertical: 14),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+            ),
             icon: const Icon(Icons.play_arrow_rounded),
-            label: Text(next == null ? 'Locked for now — keep going on the course' : 'Start: ${next.title}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+            label: Text(
+              next == null ? 'Locked for now — keep going on the course' : 'Start: ${next.title}',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
+            ),
           ),
           const SizedBox(height: 10),
           for (final l in ls)
-            Builder(builder: (_) {
-              final isOpen = ctrl.lessonOpen(c.course, l), isDone = ctrl.lessonDone(l);
-              return ListTile(
-                key: ValueKey('spot-lesson-${l.id}'),
-                contentPadding: const EdgeInsets.symmetric(horizontal: 4),
-                leading: Opacity(opacity: isOpen ? 1 : .45, child: Avatar(c.character(l.lead), size: 40)),
-                title: Text(l.title, style: TextStyle(fontWeight: FontWeight.w700, color: isOpen ? BL.ink : BL.muted)),
-                subtitle: Text('${lessonWhere(c.course, l)}  ·  ${l.titleFa}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12)),
-                trailing: Icon(isDone ? Icons.check_circle_rounded : (isOpen ? Icons.play_circle_fill_rounded : Icons.lock_rounded), color: isDone ? BL.green : (isOpen ? BL.red : BL.muted)),
-                onTap: () {
-                  if (isOpen) return open(sheet, l);
-                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text('"${l.title}" unlocks as you go — ${lessonWhere(c.course, l)}.')));
-                },
-              );
-            }),
+            Builder(
+              builder: (_) {
+                final isOpen = ctrl.lessonOpen(c.course, l), isDone = ctrl.lessonDone(l);
+                return ListTile(
+                  key: ValueKey('spot-lesson-${l.id}'),
+                  contentPadding: const EdgeInsets.symmetric(horizontal: 4),
+                  leading: Opacity(opacity: isOpen ? 1 : .45, child: Avatar(c.character(l.lead), size: 40)),
+                  title: Text(
+                    l.title,
+                    style: TextStyle(fontWeight: FontWeight.w700, color: isOpen ? BL.ink : BL.muted),
+                  ),
+                  subtitle: Text('${lessonWhere(c.course, l)}  ·  ${l.titleFa}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12)),
+                  trailing: Icon(isDone ? Icons.check_circle_rounded : (isOpen ? Icons.play_circle_fill_rounded : Icons.lock_rounded), color: isDone ? BL.green : (isOpen ? BL.red : BL.muted)),
+                  onTap: () {
+                    if (isOpen) return open(sheet, l);
+                    ScaffoldMessenger.of(
+                      context,
+                    ).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text('"${l.title}" unlocks as you go — ${lessonWhere(c.course, l)}.')));
+                  },
+                );
+              },
+            ),
         ],
       ),
     ),

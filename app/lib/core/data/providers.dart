@@ -313,6 +313,29 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
   }
 
+  /// Life in the UK prep: best chapter quiz % ('luk:q:CH'), cards known ('luk:cards:CH'), best mock % ('luk:mock'), mocks taken.
+  int? lukQuizBest(String ch) => int.tryParse(state.missionsDone['luk:q:$ch'] ?? '');
+  int lukCardsKnown(String ch) => int.tryParse(state.missionsDone['luk:cards:$ch'] ?? '') ?? 0;
+  int? get lukMockBest => int.tryParse(state.missionsDone['luk:mock'] ?? '');
+  int get lukMocks => int.tryParse(state.missionsDone['luk:mocks'] ?? '') ?? 0;
+  XpAward saveLukQuiz(String ch, int pct) {
+    if (pct > (lukQuizBest(ch) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'luk:q:$ch': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 75 ? 15 : 5);
+  }
+  void saveLukCards(String ch, int known) {
+    if (known <= lukCardsKnown(ch)) return;
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'luk:cards:$ch': '$known'});
+    _save();
+  }
+  XpAward saveLukMock(int pct) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, if (pct > (lukMockBest ?? -1)) 'luk:mock': '$pct', 'luk:mocks': '${lukMocks + 1}'});
+    _save();
+    return awardXp(pct >= 75 ? 30 : 5);
+  }
+
   /// Park games: best score per level and game ('park:LEVEL:GAME'); 60% = cleared. Replayable: XP every play.
   int? parkBest(String level, String game) => int.tryParse(state.missionsDone['park:$level:$game'] ?? '');
   bool parkCleared(String level, String game) => (parkBest(level, game) ?? -1) >= 60;

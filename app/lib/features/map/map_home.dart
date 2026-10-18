@@ -300,6 +300,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.radio_rounded, 'Hackney Hum radio', 'رادیو هاکنی هام', '/radio'),
     (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
     (Icons.sports_esports_rounded, 'Park games', 'بازی‌های پارک', '/park'),
+    (Icons.account_balance_rounded, 'Life in the UK test prep', 'آمادگی آزمون زندگی در بریتانیا', '/lifeuk'),
     (Icons.hiking_rounded, 'Real-life missions', 'مأموریت‌های زندگی واقعی', '/missions'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
