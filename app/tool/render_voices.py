@@ -43,6 +43,7 @@ V={ # speaker -> (voice, pitch, rate)
  'grace':('en-NG-EzinneNeural','+0Hz','+4%'),'owen':('en-GB-ThomasNeural','+0Hz','+4%'),
  'mrspatel':('en-IN-NeerjaNeural','-16Hz','-10%'),'oldman':('en-IE-ConnorNeural','-22Hz','-16%'),  # library minor characters
  'tutor':('en-GB-RyanNeural','-4Hz','-6%'),  # Life in the UK prep explanations
+ 'instructor':('en-GB-LibbyNeural','-6Hz','+0%'),'examiner':('en-GB-ThomasNeural','-8Hz','-6%'),  # Driving School (Bev the instructor; the examiner)
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
@@ -110,6 +111,15 @@ if os.path.exists(luk):
 sea=os.path.join(A,'data/seasons.json')  # Seasonal events (tool/make_seasons.py): scene lines in each speaker's voice + vocab
 if os.path.exists(sea):
   for e in json.load(open(sea))['events']:
+    for l in e['lines']: add(l['sp'],l['en'])
+    for w in e['words']: add('narrator',w['w'])
+thy=os.path.join(A,'data/theory.json')  # Driving theory prep (tool/make_theory.py): explanations in the instructor's voice
+if os.path.exists(thy):
+  for c in json.load(open(thy))['chapters']:
+    for e in c['expl']: add('instructor',e['en'])
+drv=os.path.join(A,'data/driving.json')  # Driving School dialogues (tool/make_driving.py): lines in each speaker's voice + vocab
+if os.path.exists(drv):
+  for e in json.load(open(drv))['lessons']:
     for l in e['lines']: add(l['sp'],l['en'])
     for w in e['words']: add('narrator',w['w'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)

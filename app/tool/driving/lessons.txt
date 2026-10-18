@@ -1,0 +1,226 @@
+# Driving School: English for learning to drive in Britain. Original scenes with Ryan, his instructor Bev, Tom, Bilal and Big Mick.
+# Facts checked against GOV.UK and The Highway Code (see src:).
+# Header:  # id | level | title | titleFa
+# scene: car (starts parked) · road (starts moving) · petrol · garage · home   the animated stage
+# video: assets/video/<id>.mp4   optional: a real video drops in here and plays instead of the animated stage
+# fx: engine | indicator | brake   a sound + motion cue played with the NEXT line (engine = drive off, brake = stop)
+# note: the culture note (English | Persian)
+# sp: line | Persian       (sp = characters.json id, or instructor / examiner)
+# word: word = meaning | Persian
+# Q: question | correct ; wrong ; wrong
+# src: a public source the facts were checked against
+
+# cockpit | A1 | Your first lesson | اولین جلسهٔ رانندگی
+scene: car
+note: Before you drive off, instructors teach the "cockpit drill": doors, seat, steering, seat belt and mirrors. Learner cars show red L plates front and back. | پیش از حرکت، مربی «چک داخل کابین» را یاد می‌دهد: درها، صندلی، فرمان، کمربند و آینه‌ها. ماشین هنرجو جلو و عقب پلاک قرمز L دارد.
+instructor: Hello, Ryan. I'm Bev, your instructor. | سلام رایان. من بِو هستم، مربی‌ات.
+ryan: Hi, Bev. I'm a bit nervous. | سلام بِو. یک کم استرس دارم.
+instructor: That's fine. First, move your seat. | اشکالی ندارد. اول صندلی‌ات را تنظیم کن.
+instructor: Now put your seat belt on. | حالا کمربندت را ببند.
+ryan: Done. Seat belt on. | انجام شد. کمربند بسته است.
+fx: engine
+instructor: Good. Now check your mirrors. | خوب است. حالا آینه‌ها را چک کن.
+ryan: I can see the road behind. | جادهٔ پشت سر را می‌بینم.
+word: instructor = a driving teacher | مربی رانندگی
+word: seat belt = the belt that keeps you in your seat | کمربند ایمنی
+word: mirror = glass that shows the road behind | آینه
+word: L plates = red L signs on a learner's car | پلاک L ماشین هنرجو
+Q: Who is Bev? | Ryan's driving instructor ; Ryan's teacher at school ; Ryan's aunt
+Q: How does Ryan feel? | A bit nervous ; Very bored ; Angry
+Q: What does Ryan do after the seat belt? | He checks the mirrors ; He turns on the radio ; He opens the window
+src: https://www.gov.uk/driving-lessons-learning-to-drive/practising-with-family-or-friends
+
+# petrol | A1 | At the petrol station | در پمپ بنزین
+scene: petrol
+note: In Britain you usually fill up first, then go into the kiosk and pay. Tell them your pump number. | در بریتانیا معمولاً اول بنزین می‌زنی، بعد داخل فروشگاه می‌روی و پول می‌دهی. شمارهٔ پمپت را بگو.
+tom: Hello, Bilal. Pump four, please. | سلام بلال. پمپ چهار، لطفاً.
+bilal: That's forty pounds, please. | می‌شود چهل پوند، لطفاً.
+tom: Can I pay by card? | می‌توانم با کارت بپردازم؟
+bilal: Yes. Just tap it here. | بله. فقط اینجا بزنش.
+bilal: Do you want a receipt? | رسید می‌خواهی؟
+tom: No, thanks. And a coffee, please. | نه، ممنون. یک قهوه هم لطفاً.
+bilal: Sure. Two pounds fifty more. | حتماً. دو پوند و پنجاه پنس دیگر.
+word: pump = the machine that puts fuel in the car | پمپ سوخت
+word: petrol = fuel for most cars | بنزین
+word: receipt = a paper that shows what you paid | رسید
+word: tap = touch your card on the reader | کارت را نزدیک دستگاه ببر
+Q: Which pump did Tom use? | Pump four ; Pump two ; Pump nine
+Q: How much is the petrol? | Forty pounds ; Fourteen pounds ; Four pounds
+Q: What else does Tom buy? | A coffee ; A newspaper ; A sandwich
+src: https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security
+
+# directions | A2 | Pull up on the left | کنار سمت چپ بایست
+scene: road
+note: Instructors and examiners say "pull up on the left" when they want you to stop safely at the side of the road. They give directions early, so you have time to check and signal. | مربی و ممتحن وقتی می‌خواهند با ایمنی کنار جاده بایستی می‌گویند «pull up on the left». مسیر را زود می‌گویند تا وقت چک کردن و راهنما زدن داشته باشی.
+instructor: At the end of the road, turn left, please. | سر خیابان، لطفاً به چپ بپیچ.
+fx: indicator
+ryan: Left. Mirrors, signal... and turn. | چپ. آینه، راهنما... و پیچیدن.
+instructor: Good. Now follow the road ahead. | خوب است. حالا جاده را مستقیم ادامه بده.
+instructor: Take the second road on the right. | خیابان دوم سمت راست را برو.
+fx: indicator
+ryan: Is it this one, after the post box? | همین است، بعد از صندوق پست؟
+instructor: Yes. Now pull up on the left, behind the blue car. | بله. حالا سمت چپ پشت ماشین آبی بایست.
+fx: brake
+ryan: Am I too far from the kerb? | از جدول خیلی دورم؟
+instructor: A little. Next time, a bit closer. | کمی. دفعهٔ بعد کمی نزدیک‌تر.
+word: pull up = stop at the side of the road | کنار جاده ایستادن
+word: kerb = the edge of the pavement | لبهٔ پیاده‌رو، جدول
+word: ahead = straight in front of you | جلوتر، مستقیم
+word: signal = show where you are going with your indicator | راهنما زدن
+Q: Where does Bev ask Ryan to stop? | Behind the blue car ; Next to the post box ; At the traffic lights
+Q: Which road does Ryan take? | The second road on the right ; The first road on the left ; The third road on the right
+Q: What does Bev say about the kerb? | Get a bit closer next time ; It was perfect ; He hit the kerb
+src: https://www.gov.uk/driving-test/what-happens-during-test
+
+# provisional | A2 | Getting a provisional licence | گرفتن گواهینامهٔ موقت
+scene: home
+note: You need a provisional licence before you can learn. You can apply from 15 years and 9 months old and drive a car from 17. It costs £34 online. | پیش از یادگیری باید گواهینامهٔ موقت بگیری. از ۱۵ سال و ۹ ماهگی می‌شود درخواست داد و از ۱۷ سالگی ماشین راند. آنلاین ۳۴ پوند است.
+ryan: Dad, can I apply for my provisional licence yet? | بابا، می‌توانم برای گواهینامهٔ موقت درخواست بدهم؟
+tom: You can apply from fifteen years and nine months. | از پانزده سال و نه ماهگی می‌توانی درخواست بدهی.
+ryan: How much does it cost? | چقدر هزینه دارد؟
+tom: Thirty-four pounds online. You'll need your passport. | آنلاین سی‌وچهار پوند. پاسپورتت لازم است.
+ryan: Do I need to check my eyes? | باید چشمم را بسنجم؟
+tom: You must read a number plate from twenty metres. | باید پلاک ماشین را از بیست متری بخوانی.
+ryan: Easy! When can I start driving? | آسان است! کی می‌توانم رانندگی را شروع کنم؟
+tom: On your seventeenth birthday, with L plates on. | روز تولد هفده‌سالگی، با پلاک L.
+word: provisional licence = the licence you need to learn to drive | گواهینامهٔ موقت
+word: apply = ask officially, often with a form | درخواست دادن
+word: number plate = the sign with a car's letters and numbers | پلاک ماشین
+word: online = on the internet | آنلاین، اینترنتی
+Q: How much does the licence cost online? | Thirty-four pounds ; Forty-three pounds ; Twenty-three pounds
+Q: What document does Tom mention? | Ryan's passport ; Ryan's school report ; Ryan's bus pass
+Q: How far away must Ryan read a number plate? | Twenty metres ; Two metres ; Fifty metres
+src: https://www.gov.uk/apply-first-provisional-driving-licence
+src: https://www.gov.uk/driving-eyesight-rules
+
+# roundabout | B1 | Roundabouts: mirror, signal, manoeuvre | میدان‌ها: آینه، راهنما، مانور
+scene: road
+note: "Mirror, signal, manoeuvre" (MSM) is the routine for every turn. At a roundabout you normally give way to traffic from your right. For an exit to the right, approach in the right-hand lane and signal right. | «آینه، راهنما، مانور» روال هر پیچیدن است. در میدان معمولاً به ماشین‌هایی که از راست می‌آیند راه می‌دهی. برای خروجی سمت راست، از خط راست نزدیک شو و راهنمای راست بزن.
+instructor: There's a roundabout coming up. We're taking the third exit, so we're going right. Which lane? | یک میدان جلوست. خروجی سوم را می‌رویم، یعنی به راست. کدام خط؟
+fx: indicator
+ryan: The right-hand lane, and I signal right. | خط سمت راست، و راهنمای راست می‌زنم.
+instructor: Exactly. Remember: mirrors, signal, then manoeuvre. Check your right mirror first. | دقیقاً. یادت باشد: آینه، راهنما، بعد مانور. اول آینهٔ راست را چک کن.
+fx: brake
+ryan: There's a van coming from the right. Do I wait? | یک ون از راست می‌آید. صبر کنم؟
+fx: engine
+instructor: Yes, give way to traffic from the right... Right, there's a gap. Off you go. | بله، به ماشین‌های سمت راست راه بده... خب، فاصله هست. برو.
+instructor: Now, once you pass the second exit, check your left mirror and signal left. | حالا وقتی از خروجی دوم رد شدی، آینهٔ چپ را چک کن و راهنمای چپ بزن.
+fx: indicator
+ryan: Signalling left... and out. That wasn't as bad as I thought! | راهنمای چپ... و خارج شدم. آن‌قدر که فکر می‌کردم بد نبود!
+instructor: Nicely done. You didn't rush it. | آفرین. عجله نکردی.
+word: exit = a road where you leave the roundabout | خروجی
+word: give way = let other traffic go first | راه دادن
+word: gap = a safe space in the traffic | فاصلهٔ امن بین ماشین‌ها
+word: manoeuvre = a planned movement, like turning or changing lane | مانور، حرکت برنامه‌ریزی‌شده
+Q: Which lane does Ryan choose? | The right-hand lane ; The left-hand lane ; The middle of the road
+Q: Why does Ryan wait? | A van is coming from the right ; The lights are red ; A cyclist is crossing
+Q: When does he signal left? | After passing the second exit ; Before he enters the roundabout ; He doesn't signal
+src: https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203
+
+# mot | B1 | Booking an MOT | رزرو معاینهٔ فنی
+scene: garage
+note: Most cars need an MOT test every year once they are three years old. The maximum fee for a car is £54.85. | بیشتر ماشین‌ها از سه‌سالگی هر سال معاینهٔ فنی (MOT) لازم دارند. حداکثر هزینه برای سواری ۵۴٫۸۵ پوند است.
+tom: Morning, Mick. The car's MOT runs out next month. Can I book it in? | صبح بخیر میک. معاینهٔ فنی ماشین ماه بعد تمام می‌شود. می‌توانم نوبت بگیرم؟
+mechanic: Course you can. How's Thursday? Drop it off at half eight. | معلوم است. پنجشنبه چطور است؟ ساعت هشت و نیم بیاورش.
+tom: Perfect. How long does it take? | عالی. چقدر طول می‌کشد؟
+mechanic: About an hour, if nothing's wrong. You can wait in the office with a cuppa. | حدود یک ساعت، اگر ایرادی نباشد. می‌توانی با یک چای در دفتر منتظر بمانی.
+tom: And how much is it? | و هزینه‌اش چقدر است؟
+mechanic: Fifty-four eighty-five. That's the most a garage can charge for a car. | پنجاه‌وچهار پوند و هشتادوپنج پنس. این بیشترین مبلغی است که تعمیرگاه برای سواری می‌گیرد.
+mechanic: If anything fails, I'll ring you before I do any work. | اگر چیزی رد شد، پیش از هر کاری زنگت می‌زنم.
+tom: Brilliant. Thanks, Mick. | عالی. ممنون میک.
+word: MOT = the yearly safety test for cars over three years old | معاینهٔ فنی سالانه
+word: book it in = make an appointment for the car | برای ماشین نوبت گرفتن
+word: drop off = leave something somewhere | تحویل دادن، گذاشتن
+word: ring = phone (British English) | زنگ زدن
+Q: When does the MOT run out? | Next month ; Next week ; Next year
+Q: When should Tom bring the car? | Thursday at half past eight ; Tuesday at eight ; Thursday at half past nine
+Q: What will Mick do if something fails? | Phone Tom first ; Fix it straight away ; Keep the car for a week
+src: https://www.gov.uk/getting-an-mot/mot-test-fees
+src: https://www.gov.uk/getting-an-mot
+
+# parallel | B2 | Parallel parking and "show me, tell me" | پارک دوبل و «نشانم بده، بگو»
+scene: road
+note: In the driving test you do one manoeuvre (for example parallel parking) and answer two vehicle safety questions: a "tell me" question before you drive and a "show me" question while you drive. These questions here are our own examples, not the official list. | در امتحان رانندگی یک مانور (مثلاً پارک دوبل) انجام می‌دهی و به دو سؤال ایمنی خودرو جواب می‌دهی: سؤال «بگو» پیش از حرکت و سؤال «نشانم بده» حین رانندگی. این سؤال‌ها نمونه‌های خودمان است، نه فهرست رسمی.
+instructor: Right, let's practise parallel parking behind the silver hatchback. Pull up alongside it, about a metre away. | خب، پارک دوبل را پشت آن هاچ‌بک نقره‌ای تمرین کنیم. کنارش با حدود یک متر فاصله بایست.
+fx: brake
+instructor: Check all around, reverse slowly, and when its back bumper is level with your rear window, steer left. | دور تا دور را نگاه کن، آرام دنده‌عقب برو، و وقتی سپر عقبش هم‌تراز شیشهٔ عقب تو شد، فرمان را به چپ بچرخان.
+ryan: Like this? Oh, I'm getting really close to the kerb. | این‌طوری؟ اوه، خیلی به جدول نزدیک شدم.
+instructor: Straighten up now, a full turn to the right. Lovely, that's parked, more or less. | حالا صاف کن، یک دور کامل به راست. عالی، کم‌وبیش پارک شد.
+instructor: Now a "tell me" question, test-style: tell me how you'd check the tyres are safe to use. | حالا یک سؤال «بگو» مثل امتحان: بگو چطور مطمئن می‌شوی تایرها سالم‌اند.
+ryan: Check the tread is at least one point six millimetres, and look for cuts or bulges. | بررسی می‌کنم آج دست‌کم یک ممیز شش میلی‌متر باشد و دنبال بریدگی یا برآمدگی می‌گردم.
+instructor: Good. And a "show me": show me how you'd wash the windscreen while you're driving. | خوب است. و یک «نشانم بده»: نشانم بده حین رانندگی چطور شیشهٔ جلو را می‌شویی.
+ryan: I'd pull this lever towards me... like that? | این اهرم را به طرف خودم می‌کشم... این‌طوری؟
+instructor: Spot on. | دقیقاً درست.
+word: parallel park = park in a gap next to the kerb, in line with other cars | پارک دوبل
+word: straighten up = make the car straight again | صاف کردن ماشین
+word: tread = the pattern of grooves on a tyre | آج تایر
+word: spot on = exactly right (British English) | کاملاً درست
+Q: Where do they practise parking? | Behind a silver hatchback ; Behind a blue van ; In a supermarket car park
+Q: What does Ryan say about the tyre tread? | At least 1.6 millimetres ; At least 3 millimetres ; Any amount is fine
+Q: What does "spot on" mean? | Exactly right ; Too slow ; Try again
+src: https://www.gov.uk/driving-test/what-happens-during-test
+src: https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security
+
+# motfail | B2 | A failed MOT | رد شدن در معاینهٔ فنی
+scene: garage
+note: An MOT can pass, fail, or pass with "advisories": problems that are legal now but will need fixing soon. A car needs at least 1.6 mm of tread on its tyres. | معاینهٔ فنی ممکن است قبول، رد، یا قبول با «توصیه» باشد: ایرادهایی که فعلاً قانونی‌اند ولی به‌زودی باید درست شوند. تایر سواری دست‌کم ۱٫۶ میلی‌متر آج لازم دارد.
+mechanic: I'm afraid it's failed, Tom. The front tyres are below the legal limit, and a brake light's out. | متأسفانه رد شد، تام. تایرهای جلو زیر حد قانونی‌اند و یک چراغ ترمز خاموش است.
+tom: Oh no. Is it expensive to sort out? | ای وای. درست کردنش گران است؟
+mechanic: The bulb's a fiver. Two tyres, about a hundred and twenty quid, fitted. | لامپ پنج پوند است. دو تایر، با نصب حدود صدوبیست پوند.
+tom: Go on, then. Anything else I should know? | باشد، انجامش بده. چیز دیگری هست که بدانم؟
+mechanic: There's an advisory on the brake pads. They're fine for now, but they'll need doing in a few months. | برای لنت ترمز یک توصیه هست. فعلاً خوب‌اند ولی چند ماه دیگر باید عوض شوند.
+tom: So can I drive it home today? | پس امروز می‌توانم با آن به خانه بروم؟
+mechanic: Once the tyres are on, I'll retest it this afternoon. | وقتی تایرها نصب شد، بعدازظهر دوباره آزمایشش می‌کنم.
+word: advisory = a warning about something to fix soon | توصیه، هشدار برای تعمیر آینده
+word: sort out = fix or deal with | درست کردن، رسیدگی کردن
+word: a fiver = five pounds (informal) | پنج پوند (محاوره)
+word: quid = pounds (informal) | پوند (محاوره)
+Q: Why did the car fail? | Worn tyres and a broken brake light ; A problem with the engine ; Dirty windows
+Q: What is an advisory? | Something to fix soon ; A reason to fail ; A fine from the police
+Q: How much is the bulb? | Five pounds ; Fifteen pounds ; Fifty pounds
+src: https://www.gov.uk/getting-an-mot/after-the-test
+src: https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security
+
+# debrief | C1 | Mock test debrief | جمع‌بندی امتحان آزمایشی
+scene: car
+note: In the real test you pass with no serious or dangerous faults and no more than 15 driving faults ("minors"). Instructors often run a mock test first and talk you through the faults. | در امتحان واقعی با هیچ خطای جدی یا خطرناک و حداکثر ۱۵ خطای جزئی قبول می‌شوی. مربی‌ها اغلب اول یک امتحان آزمایشی می‌گیرند و خطاها را توضیح می‌دهند.
+instructor: Overall, not bad at all. You picked up four minors, but there was one serious fault, I'm afraid. | در کل اصلاً بد نبود. چهار خطای جزئی داشتی، ولی متأسفانه یک خطای جدی هم بود.
+ryan: Go on, what did I do? | بگو، چه کار کردم؟
+instructor: At the zebra crossing on Mare Street, a lady was waiting to cross and you sailed straight past her. | سر خط عابر پیادهٔ خیابان مِر، خانمی منتظر عبور بود و تو بی‌توقف از کنارش رد شدی.
+ryan: I honestly didn't see her. I was looking at the lights further up. | راستش ندیدمش. داشتم چراغ‌های جلوتر را نگاه می‌کردم.
+instructor: That's the thing: planning ahead means scanning the pavements as well as the road. On the day, that would be a fail. | نکته همین است: برنامه‌ریزی جلوتر یعنی پیاده‌روها را هم مثل جاده نگاه کنی. روز امتحان، این یعنی رد شدن.
+ryan: Fair enough. And the minors? | حق با توست. و خطاهای جزئی؟
+instructor: Mostly hesitation at junctions, and you crept forward at the lights. Nothing a couple more lessons won't fix. | بیشتر مکث در تقاطع‌ها، و پشت چراغ کم‌کم جلو رفتی. چیزی نیست که با دو جلسهٔ دیگر درست نشود.
+word: minor = a driving fault that is not serious (informal) | خطای جزئی
+word: serious fault = a fault that could be dangerous; it fails the test | خطای جدی
+word: sail past = go past easily without stopping | بی‌توقف رد شدن
+word: fair enough = I accept your point | قبول دارم، حق با توست
+Q: How many minor faults did Ryan get? | Four ; Fifteen ; None
+Q: What was the serious fault? | He didn't stop for a lady waiting at a zebra crossing ; He drove too fast on Mare Street ; He stalled at the lights
+Q: What does "fair enough" show? | Ryan accepts the point ; Ryan is angry ; Ryan is confused
+src: https://www.gov.uk/driving-test/driving-test-faults-result
+src: https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203
+
+# testday | C1 | Test day: independent driving | روز امتحان: رانندگی مستقل
+scene: car
+note: The test starts with an eyesight check (reading a number plate from 20 metres). It includes about 20 minutes of independent driving, usually following a sat nav; going the wrong way is not a fault in itself. You may be asked to pull up on the right and reverse about two car lengths. | امتحان با سنجش بینایی شروع می‌شود (خواندن پلاک از ۲۰ متری). حدود ۲۰ دقیقه رانندگی مستقل دارد، معمولاً با مسیریاب؛ اشتباه رفتن مسیر به‌خودی‌خود خطا نیست. ممکن است بخواهند سمت راست بایستی و حدود دو طول ماشین دنده‌عقب بروی.
+examiner: Morning, Ryan. Before we set off, could you read the number plate on that white van for me? | صبح بخیر رایان. پیش از حرکت، پلاک آن ون سفید را برایم می‌خوانی؟
+ryan: Yes, I can read it clearly. | بله، واضح می‌خوانمش.
+fx: engine
+examiner: Thanks. For about twenty minutes, please follow the sat nav. If you go the wrong way, don't worry: that's not a fault on its own. | ممنون. حدود بیست دقیقهٔ بعد، دنبال مسیریاب برو. اگر مسیر را اشتباه رفتی نگران نباش؛ این به‌خودی‌خود خطا نیست.
+ryan: OK. And if I miss an instruction? | باشد. اگر دستوری را از دست بدهم چه؟
+fx: indicator
+examiner: I'll help you back onto the route. Now, when it's safe, pull up on the right, reverse about two car lengths, and rejoin the traffic. | کمکت می‌کنم به مسیر برگردی. حالا وقتی امن بود، سمت راست بایست، حدود دو طول ماشین دنده‌عقب برو و دوباره وارد ترافیک شو.
+fx: brake
+ryan: Pulling up on the right... reversing now... checking my blind spot before I move off. | سمت راست می‌ایستم... دنده‌عقب... پیش از حرکت نقطهٔ کور را چک می‌کنم.
+examiner: That's the end of the test. I'm pleased to tell you that you've passed. | امتحان تمام شد. خوشحالم بگویم قبول شدی.
+ryan: Seriously? Brilliant! Can I ring my dad? | جدی؟ عالی! می‌توانم به بابام زنگ بزنم؟
+word: examiner = the person who marks your driving test | ممتحن، افسر امتحان
+word: sat nav = satellite navigation, a device that gives directions | مسیریاب ماهواره‌ای
+word: blind spot = an area you can't see in your mirrors | نقطهٔ کور
+word: rejoin the traffic = drive back into the moving traffic | دوباره وارد ترافیک شدن
+Q: What does Ryan read before driving? | A number plate on a white van ; A road sign ; A text message
+Q: What happens if he goes the wrong way? | It isn't a fault on its own, and the examiner helps ; He fails straight away ; The test stops
+Q: Which manoeuvre is he asked to do? | Pull up on the right and reverse two car lengths ; Parallel park behind a car ; An emergency stop
+src: https://www.gov.uk/driving-test/what-happens-during-test
+src: https://www.gov.uk/driving-eyesight-rules

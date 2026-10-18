@@ -362,6 +362,40 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 67 ? (pct >= 100 ? 15 : 10) : 3);
   }
 
+  /// Driving School dialogues: best quiz % ('drive:ID'); 67% = done.
+  int? driveScore(String id) => int.tryParse(state.missionsDone['drive:$id'] ?? '');
+  bool driveDone(String id) => (driveScore(id) ?? -1) >= 67;
+  XpAward saveDrive(String id, int pct) {
+    if (pct > (driveScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'drive:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 67 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
+  /// Driving theory prep: best chapter quiz % ('thy:q:CH'), cards known ('thy:cards:CH'), best mock % ('thy:mock'), mocks taken.
+  int? thyQuizBest(String ch) => int.tryParse(state.missionsDone['thy:q:$ch'] ?? '');
+  int thyCardsKnown(String ch) => int.tryParse(state.missionsDone['thy:cards:$ch'] ?? '') ?? 0;
+  int? get thyMockBest => int.tryParse(state.missionsDone['thy:mock'] ?? '');
+  int get thyMocks => int.tryParse(state.missionsDone['thy:mocks'] ?? '') ?? 0;
+  XpAward saveThyQuiz(String ch, int pct) {
+    if (pct > (thyQuizBest(ch) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'thy:q:$ch': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 86 ? 15 : 5);
+  }
+  void saveThyCards(String ch, int known) {
+    if (known <= thyCardsKnown(ch)) return;
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'thy:cards:$ch': '$known'});
+    _save();
+  }
+  XpAward saveThyMock(int pct) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, if (pct > (thyMockBest ?? -1)) 'thy:mock': '$pct', 'thy:mocks': '${thyMocks + 1}'});
+    _save();
+    return awardXp(pct >= 86 ? 30 : 5);
+  }
+
   /// Family voice messages: best thread score ('msg:ID'); 60% = done.
   int? threadScore(String id) => int.tryParse(state.missionsDone['msg:$id'] ?? '');
   bool threadDone(String id) => (threadScore(id) ?? -1) >= 60;

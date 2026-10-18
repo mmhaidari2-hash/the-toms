@@ -301,6 +301,8 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
     (Icons.calendar_month_rounded, 'Seasonal events', 'جشن‌ها و مناسبت‌ها', '/seasons'),
     (Icons.sports_esports_rounded, 'Park games', 'بازی‌های پارک', '/park'),
+    (Icons.directions_car_rounded, 'Driving School', 'آموزشگاه رانندگی', '/driving'),
+    (Icons.quiz_rounded, 'Driving theory test prep', 'آمادگی آزمون تئوری رانندگی', '/theory'),
     (Icons.account_balance_rounded, 'Life in the UK test prep', 'آمادگی آزمون زندگی در بریتانیا', '/lifeuk'),
     (Icons.hiking_rounded, 'Real-life missions', 'مأموریت‌های زندگی واقعی', '/missions'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),

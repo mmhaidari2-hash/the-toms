@@ -191,6 +191,15 @@ class SpeechInput {
     web.document.addEventListener('pointerdown', h);
   }
 
+  /// Sound effects on their own channel, so they never cut a voice clip.
+  static final web.HTMLAudioElement _fx = web.HTMLAudioElement()..preload = 'auto';
+  static void playFx(String asset, {double volume = .5}) {
+    _fx.src = ui_web.assetManager.getAssetUrl(asset);
+    _fx.volume = volume;
+    _fx.play().toDart.then((_) {}, onError: (_) {});
+  }
+  static void stopFx() => _fx.pause();
+
   static void stopClip() {
     _el.pause();
     final old = _pending;

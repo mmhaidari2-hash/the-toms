@@ -13,5 +13,7 @@ class SpeechInput {
   static void play(String url) {}
   static Future<bool> playClip(String asset, double rate) async => false;
   static void stopClip() {}
+  static void playFx(String asset, {double volume = .5}) {}
+  static void stopFx() {}
   static void unlockOnFirstTap() {}
 }

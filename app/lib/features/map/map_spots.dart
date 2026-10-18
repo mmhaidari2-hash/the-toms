@@ -28,7 +28,7 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
 });
 
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
-const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park'};
+const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park', 'garage'};
 
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
@@ -172,6 +172,66 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ],
           ),
+          if (s.id == 'garage') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: BL.navy,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-driving'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/driving');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(
+                    children: [
+                      Icon(Icons.directions_car_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Driving School · lessons with the instructor',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Material(
+              color: BL.navy,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-theory'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/theory');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(
+                    children: [
+                      Icon(Icons.quiz_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'Theory test prep',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
           if (s.id == 'library') ...[
             const SizedBox(height: 12),
             Material(

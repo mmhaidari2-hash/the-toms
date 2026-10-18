@@ -34,6 +34,10 @@ class Voice {
     return null;
   }
 
+  /// A sound effect (assets/sfx/NAME.mp3) on a separate channel: never interrupts or is interrupted by a voice.
+  static void fx(String name, {double volume = .5}) => SpeechInput.playFx('assets/sfx/$name.mp3', volume: volume);
+  static void stopFx() => SpeechInput.stopFx();
+
   static bool has(String speaker, String text) => _find(speaker, text) != null;
 
   /// Bumped whenever a clip starts or playback is stopped: one clip plays at a time, always to its end
