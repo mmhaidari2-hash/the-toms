@@ -1,12 +1,3 @@
-          if (!listened)
-            Padding(
-              key: const ValueKey('radio-hint'),
-              padding: const EdgeInsets.only(top: 6),
-              child: Column(children: [
-                const Text('Listen first, without the text. Then answer.', textAlign: TextAlign.center, style: TextStyle(color: Colors.white54, fontSize: 12, fontWeight: FontWeight.w600)),
-                Text('اول بدون متن گوش کن، بعد جواب بده.', textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(12, color: Colors.white38)),
-              ]),
-            ),
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -256,9 +247,13 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
             ),
           ]),
           if (!listened)
-            const Padding(
-              padding: EdgeInsets.only(top: 6),
-              child: Text('Listen first, without the text. Then answer.  ·  اول بدون متن گوش کن، بعد جواب بده.', key: ValueKey('radio-hint'), textAlign: TextAlign.center, style: TextStyle(color: Colors.white54, fontSize: 12, fontWeight: FontWeight.w600)),
+            Padding(
+              key: const ValueKey('radio-hint'),
+              padding: const EdgeInsets.only(top: 6),
+              child: Column(children: [
+                const Text('Listen first, without the text. Then answer.', textAlign: TextAlign.center, style: TextStyle(color: Colors.white54, fontSize: 12, fontWeight: FontWeight.w600)),
+                Text('اول بدون متن گوش کن، بعد جواب بده.', textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(12, color: Colors.white38)),
+              ]),
             ),
           const SizedBox(height: 14),
           Row(children: [
