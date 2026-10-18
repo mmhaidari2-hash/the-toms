@@ -20,6 +20,8 @@ import '../features/cinema/scene_screen.dart';
 import '../features/messages/inbox_screen.dart';
 import '../features/messages/thread_screen.dart';
 import '../features/missions/mission_screen.dart';
+import '../features/park/game_screen.dart';
+import '../features/park/park_screen.dart';
 import '../features/missions/missions_screen.dart';
 import '../features/radio/radio_screen.dart';
 import '../features/radio/segment_screen.dart';
@@ -56,6 +58,8 @@ final router = GoRouter(
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),
     GoRoute(path: '/cinema', pageBuilder: (_, s) => _fade(const CinemaScreen(), s)),
+    GoRoute(path: '/park', pageBuilder: (_, s) => _fade(const ParkScreen(), s)),
+    GoRoute(path: '/park/:level/:game', pageBuilder: (_, s) => _fade(ParkGameScreen(key: ValueKey('park-${s.pathParameters['level']}-${s.pathParameters['game']}-${s.uri.queryParameters['r']}'), level: s.pathParameters['level']!, game: s.pathParameters['game']!), s)),
     GoRoute(path: '/messages', pageBuilder: (_, s) => _fade(const InboxScreen(), s)),
     GoRoute(path: '/messages/:id', pageBuilder: (_, s) => _fade(ThreadScreen(key: ValueKey('thread-${s.pathParameters['id']}-${s.uri.queryParameters['r']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/missions', pageBuilder: (_, s) => _fade(const MissionsScreen(), s)),

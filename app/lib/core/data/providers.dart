@@ -313,6 +313,18 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
   }
 
+  /// Park games: best score per level and game ('park:LEVEL:GAME'); 60% = cleared. Replayable: XP every play.
+  int? parkBest(String level, String game) => int.tryParse(state.missionsDone['park:$level:$game'] ?? '');
+  bool parkCleared(String level, String game) => (parkBest(level, game) ?? -1) >= 60;
+  int get parkPlays => int.tryParse(state.missionsDone['park:plays'] ?? '') ?? 0;
+  /// Records a finished game; returns the XP award and whether it beat the previous best.
+  (XpAward, bool) saveParkGame(String level, String game, int pct) {
+    final old = parkBest(level, game), best = old == null || pct > old;
+    state = state.copyWith(missionsDone: {...state.missionsDone, if (best) 'park:$level:$game': '$pct', 'park:plays': '${parkPlays + 1}'});
+    _save();
+    return (awardXp(pct >= 90 ? 10 : pct >= 60 ? 6 : 2), best);
+  }
+
   /// Family voice messages: best thread score ('msg:ID'); 60% = done.
   int? threadScore(String id) => int.tryParse(state.missionsDone['msg:$id'] ?? '');
   bool threadDone(String id) => (threadScore(id) ?? -1) >= 60;

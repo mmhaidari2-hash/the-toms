@@ -217,6 +217,19 @@ Profession-specific English tracks led by a family member who does that job, bui
 - **Listening first:** the transcript is hidden every time a programme opens. There is an "ON AIR" radio set with the speaker's name, an equaliser, play/stop, progress and a "Slower" toggle. "Show transcript" and then "فارسی" are optional. The Questions button turns red once you've listened all the way through. Progress is stored in `radio:<id>` (best score; 60% passes; XP 15/10/3).
 - **Level gate = Library/Cinema/Grammar rule** (`RadioGate`). Locked programmes explain why, and deep links show a locked page.
 
+### Park games — run 1 (2026-10-18)
+- **Where:** the `park` spot is now a feature spot, open for new learners. It has a "Park games" sheet button and a menu item. Routes: `/park` (the hub, with level chips A1–C1) and `/park/:level/:game`.
+- **Words:** they come from the course lessons the learner has opened at that level, kept in course order (`ParkWords.of`). If the learner hasn't opened enough lessons, the level's next lessons top it up: at least 24 words and 8 phrases. The hub shows how many words come from the learner's own lessons and how many are coming up next. All audio is the existing `narrator` word clips; no new audio was rendered.
+- **Games** (each play is shuffled again):
+  - **Word match:** 6 English↔Persian pairs against a 60 s clock, starting on the first tap. Score = % of pairs matched minus 5 per mistake.
+  - **Listen & tap:** 8 rounds. Hear the word, then pick it from 4.
+  - **Spelling bee:** 6 rounds. Hear the word and see the Persian, then type it. British spellings come first, with a "British colour · American color" note (`Park.us`). The hint shows the first letter.
+  - **Odd one out:** 4 rounds from sets hand-made per level (`Park.odd`), each with a reason in English and Persian.
+  - **Phrase builder:** 5 rounds. Persian prompt; tap the English word tiles in order (tap a placed tile to remove it).
+- **Scoring:** best score per level and game is stored as `park:LEVEL:GAME`, with a play count in `park:plays`. Every play earns XP: 10 for 90% or more, 6 for 60% or more, 2 otherwise. A "New best" title shows on the celebration screen.
+- **Gate:** the same rule as everything else. The next level opens when every game on the previous level reaches 60% or more, when the learner has played a game at that level, or through the matching grammar class.
+- **Tests:** test/park_test.dart and test/park_flow_test.dart (all five games played to the end).
+
 ### Family messages — run 1 (2026-10-18)
 - **Where:** a "Messages" button in the `home` spot's sheet (the Thompsons' house), plus a menu item. Routes are `/messages` (a phone-style inbox) and `/messages/:id` (a chat).
 - **Content:** tool/messages/threads.txt, built by tool/make_messages.py into assets/data/messages.json. There are 10 threads, 2 per level:
@@ -260,7 +273,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian. — **Run 1 shipped 2026-10-18: Hackney Hum, 10 programmes A1–C1 (news, weather, travel, phone-in, adverts), listening first, questions.**
 4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges. — **Run 1 shipped 2026-10-18: 10 missions A1–C1 with prep audio, Ready? Go!, check-in, XP and 2 badges, safety rules.**
 5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder. — **Run 1 shipped 2026-10-18: phone Messages inbox, 10 threads A1–C1 (19 voice notes), texting-talk glossary, quick check, reply by pick/type/say.**
-6. **Park games**: matching, find-the-object in a painting, speed rounds.
+6. **Park games**: matching, find-the-object in a painting, speed rounds. — **Run 1 shipped 2026-10-18: 5 replayable games per level (word match vs clock, listen & tap, spelling bee, odd one out, phrase builder) from the learner's own lesson words, best scores + XP.**
 7. **Life in the UK test prep** (in the Library; premium pack candidate; **not affiliated with or endorsed by the Home Office**; original summaries and questions only, no copying or translating handbook text; point users to the official handbook and GOV.UK booking).
 8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons.
 9. **Driving School** (premium candidate; **not affiliated with or endorsed by DVSA**; original questions only, each logged against a Highway Code rule; OGL attribution for the Highway Code and sign images; no DVSA questions, hazard clips, logos or "official" claims without a DVSA licence; call it "hazard awareness practice"): instructor English (mirror-signal-manoeuvre, roundabouts, test day) tied to Ryan at 17; Theory Test prep with Highway Code vocabulary, road signs, **original** practice questions (never DVSA's bank), mock tests, Hazard Perception explainer.

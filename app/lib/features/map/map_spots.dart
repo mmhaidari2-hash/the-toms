@@ -27,7 +27,7 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
 });
 
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
-const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions'};
+const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park'};
 
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
@@ -224,6 +224,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                     Icon(Icons.chat_rounded, color: Colors.white),
                     SizedBox(width: 12),
                     Expanded(child: Text('Messages · voice notes from the family', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
+          if (s.id == 'park') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF3C7A3E),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-park'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/park');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.sports_esports_rounded, color: Colors.white),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Park games · quick word games', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
                     Icon(Icons.chevron_right_rounded, color: Colors.white),
                   ]),
                 ),
