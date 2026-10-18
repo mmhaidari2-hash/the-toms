@@ -192,8 +192,37 @@ class LevelChip extends StatelessWidget {
   );
 }
 
+/// A plain, people-free symbol for a setting (the painted map icons show people, so they can't be used here).
+IconData locationIcon(String spot) => switch (spot.split('/').last.replaceAll('.webp', '')) {
+      'home' => Icons.home_rounded,
+      'school' => Icons.school_rounded,
+      'nursery' => Icons.child_care_rounded,
+      'playdate' => Icons.toys_rounded,
+      'bus' => Icons.directions_bus_rounded,
+      'station' => Icons.train_rounded,
+      'shops' || 'shoppingcentre' => Icons.storefront_rounded,
+      'supermarket' => Icons.shopping_cart_rounded,
+      'gp' || 'hospital' => Icons.local_hospital_rounded,
+      'pharmacy' => Icons.local_pharmacy_rounded,
+      'bank' => Icons.account_balance_rounded,
+      'postoffice' => Icons.local_post_office_rounded,
+      'library' => Icons.local_library_rounded,
+      'park' => Icons.park_rounded,
+      'cafe' => Icons.local_cafe_rounded,
+      'restaurant' => Icons.restaurant_rounded,
+      'pub' => Icons.sports_bar_rounded,
+      'gym' => Icons.fitness_center_rounded,
+      'barber' => Icons.content_cut_rounded,
+      'garage' => Icons.local_gas_station_rounded,
+      'museum' => Icons.museum_rounded,
+      'cinema' => Icons.movie_rounded,
+      'university' => Icons.account_balance_rounded,
+      'work' => Icons.work_rounded,
+      _ => Icons.place_rounded,
+    };
+
 /// Neutral, people-free backdrop for a conversation with no matching painting yet: the setting's painting
-/// blurred beyond recognition (or a plain colour) under its painted map icon and name. Never a wrong person.
+/// blurred beyond recognition (or a plain colour) under a plain symbol and its name. Never a wrong person.
 class LocationCard extends StatelessWidget {
   final SceneArt? art;
   final Color color;
@@ -212,9 +241,9 @@ class LocationCard extends StatelessWidget {
           alignment: const Alignment(0, -.1),
           child: Column(mainAxisSize: MainAxisSize.min, children: [
             Container(
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(22),
               decoration: BoxDecoration(color: const Color(0xFFFBF7F0).withValues(alpha: .92), shape: BoxShape.circle, boxShadow: const [BoxShadow(color: Colors.black38, blurRadius: 18)]),
-              child: Image.asset(a.spot, width: 92, height: 92),
+              child: Icon(locationIcon(a.spot), size: 64, color: const Color(0xFF6B4A2B)),
             ),
             const SizedBox(height: 12),
             Padding(

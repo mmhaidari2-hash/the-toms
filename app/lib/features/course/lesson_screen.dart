@@ -51,7 +51,7 @@ class LessonScreen extends ConsumerWidget {
                       else if (art?.bg != null)
                         Image.asset(art!.bg!, key: const ValueKey('lesson-neutral-bg'), fit: BoxFit.cover),
                       if (img == null && art != null)
-                        Align(alignment: const Alignment(.85, -.2), child: Opacity(opacity: .95, child: Image.asset(art.spot, width: 84, height: 84))),
+                        Align(alignment: const Alignment(.85, -.2), child: Icon(locationIcon(art.spot), size: 72, color: Colors.white.withValues(alpha: .9))),
                       const DecoratedBox(
                         decoration: BoxDecoration(
                           gradient: LinearGradient(

@@ -6,7 +6,7 @@ hospital, museum, Tube...). A painting may be used only if it shows that setting
 every main character painted in it (the family) actually speaks in the scene: never a main character who
 isn't there (a location's own background staff may stay in a painting of that location). Otherwise the
 scene gets a neutral, people-free location card: the setting's painting blurred beyond recognition (no faces)
-under the painted map icon + setting name; plain colour where no painting of the setting exists yet and is listed in
+under a plain symbol + setting name (the painted map icons show people, so they're not used); plain colour where no painting of the setting exists yet and is listed in
 tool/audit/scenes_needing_art.md so new paintings can be commissioned. Run after editing lessons/scenes/places."""
 import json, os, re, collections
 H = os.path.dirname(os.path.abspath(__file__)); A = os.path.join(H, '..', 'assets')
