@@ -127,7 +127,7 @@ class _Row extends StatelessWidget {
                   width: 46,
                   padding: const EdgeInsets.symmetric(vertical: 4),
                   decoration: BoxDecoration(color: seaRed.withValues(alpha: .09), borderRadius: BorderRadius.circular(10)),
-                  child: Icon(e.inCar ? Icons.directions_car_rounded : locationIcon(e.icon), color: seaRed),
+                  child: Icon(e.inCar ? Icons.directions_car_rounded : e.scene == 'garage' ? Icons.car_repair_rounded : locationIcon(e.icon), color: seaRed),
                 ),
                 const SizedBox(width: 12),
                 Expanded(

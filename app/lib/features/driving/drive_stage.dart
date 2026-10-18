@@ -88,31 +88,27 @@ class _DriveStageState extends State<DriveStage> with SingleTickerProviderStateM
     } else {
       scene = Stack(key: const ValueKey('drv-card'), fit: StackFit.expand, children: [
         if (l.bg != null) Image.asset(l.bg!, fit: BoxFit.cover) else const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF5B4636), Color(0xFF1B140F)]))),
-        Align(alignment: const Alignment(0, -.35), child: Container(padding: const EdgeInsets.all(18), decoration: const BoxDecoration(color: Color(0xEEFBF7F0), shape: BoxShape.circle), child: Icon(locationIcon(l.icon), size: 52, color: const Color(0xFF6B4A2B)))),
+        Align(alignment: const Alignment(0, -.35), child: Container(padding: const EdgeInsets.all(18), decoration: const BoxDecoration(color: Color(0xEEFBF7F0), shape: BoxShape.circle), child: Icon(l.scene == 'garage' ? Icons.car_repair_rounded : locationIcon(l.icon), size: 52, color: const Color(0xFF6B4A2B)))),
       ]);
     }
-    return AspectRatio(
-      aspectRatio: 16 / 10,
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(18),
-        child: Stack(fit: StackFit.expand, children: [
-          scene,
-          Positioned(
-            left: 0,
-            right: 0,
-            bottom: 0,
-            child: Container(
-              key: const ValueKey('drv-subtitle'),
-              padding: const EdgeInsets.fromLTRB(12, 18, 12, 10),
-              decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00000000), Color(0xCC000000)])),
-              child: cur == null
-                  ? Text(widget.playing ? '' : 'Press play to start the scene', style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600))
-                  : Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                      Text(cur.name, key: const ValueKey('drv-sub-name'), style: const TextStyle(color: BL.gold, fontSize: 11.5, fontWeight: FontWeight.w800)),
-                      Text(cur.en, key: const ValueKey('drv-sub-en'), maxLines: 3, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 14.5, fontWeight: FontWeight.w700, height: 1.3)),
-                      if (widget.fa) Align(alignment: Alignment.centerRight, child: Text(cur.fa, maxLines: 2, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70))),
-                    ]),
-            ),
+    // Subtitles sit in their own strip under the picture, so they never hide the dashboard lights.
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(18),
+      child: ColoredBox(
+        color: const Color(0xFF111114),
+        child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          AspectRatio(aspectRatio: 16 / 9, child: scene),
+          Container(
+            key: const ValueKey('drv-subtitle'),
+            constraints: const BoxConstraints(minHeight: 66),
+            padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
+            child: cur == null
+                ? Text(widget.playing ? '' : 'Press play to start the scene', style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600))
+                : Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+                    Text(cur.name, key: const ValueKey('drv-sub-name'), style: const TextStyle(color: BL.gold, fontSize: 11.5, fontWeight: FontWeight.w800)),
+                    Text(cur.en, key: const ValueKey('drv-sub-en'), style: const TextStyle(color: Colors.white, fontSize: 14.5, fontWeight: FontWeight.w700, height: 1.3)),
+                    if (widget.fa) Align(alignment: Alignment.centerRight, child: Text(cur.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70))),
+                  ]),
           ),
         ]),
       ),
@@ -166,7 +162,7 @@ class RoadPainter extends CustomPainter {
     }
     c.restore();
     // Dashboard and wheel (still: the camera is in the car).
-    final dashTop = h * .70;
+    final dashTop = h * .76;
     c.drawPath(
       Path()
         ..moveTo(0, dashTop + h * .04)
