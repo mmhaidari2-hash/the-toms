@@ -26,6 +26,9 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
   return [for (final s in j) MapSpot.fromJson(s)];
 });
 
+/// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
+const featureSpots = {'library', 'school', 'cinema'};
+
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
 

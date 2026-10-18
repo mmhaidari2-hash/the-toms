@@ -5,6 +5,14 @@ async def main():
   async with async_playwright() as p:
     b=await p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox','--autoplay-policy=no-user-gesture-required'])
     ctx=await b.new_context(viewport={'width':375,'height':667},is_mobile=True,has_touch=True,device_scale_factor=2)
+    if os.environ.get('FAKEMIC'):
+      # Screenshots only: a stand-in SpeechRecognition (headless Chrome has no microphone). Each start() "hears"
+      # the next phrase in FAKEMIC ('||'-separated), word by word as partial results, then a final result.
+      await ctx.add_init_script("""(()=>{const Q=%s;class R{constructor(){this.onresult=null;this.onend=null;this.onerror=null;this._t=[]}
+        _ev(t,f){const alt={transcript:t,confidence:.92};const res={isFinal:f,length:1,item:()=>alt};return{results:{length:1,item:()=>res}}}
+        start(){const p=Q.length?Q.shift():'';const w=p.split(' ');w.forEach((_,i)=>this._t.push(setTimeout(()=>this.onresult&&this.onresult(this._ev(w.slice(0,i+1).join(' '),false)),350*(i+1))));
+          this._t.push(setTimeout(()=>{this.onresult&&this.onresult(this._ev(p,true));this.onend&&this.onend({})},350*w.length+500))}
+        stop(){}abort(){this._t.forEach(clearTimeout)}}window.SpeechRecognition=R;window.webkitSpeechRecognition=R})()""" % __import__('json').dumps(os.environ['FAKEMIC'].split('||')))
     pg=await ctx.new_page(); pg.on('console', lambda m: print('CONSOLE', m.text[:300])); pg.on('pageerror', lambda e: print('PAGEERR', str(e)[:300])); await pg.goto(BASE); await pg.wait_for_timeout(15000)
     acts=sys.argv[3:]
     if acts and acts[0].startswith('preset='):

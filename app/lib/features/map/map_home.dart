@@ -122,7 +122,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                     left: s.x * w - 46, top: s.y * h - 20,
                     child: SpotMarker(
                       s: s,
-                      open: spotLessons(c.course, s).any((l) => ctrl.lessonOpen(c.course, l)),
+                      open: featureSpots.contains(s.id) || spotLessons(c.course, s).any((l) => ctrl.lessonOpen(c.course, l)),
                       onTap: () {
                         ScaffoldMessenger.of(context).hideCurrentSnackBar();
                         showSpotSheet(context, ref, s, c);
