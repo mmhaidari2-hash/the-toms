@@ -881,6 +881,22 @@
   ]
  },
  {
+  "id": "radio",
+  "title": "Hackney Hum radio",
+  "titleFa": "رادیو هاکنی هام",
+  "icon": "📻",
+  "x": 0.4,
+  "y": 0.165,
+  "pack": null,
+  "lessons": [
+   "l1_u6_1",
+   "l2_u37_1",
+   "l2_u37_4",
+   "l4_u8_2",
+   "l4_u8_4"
+  ]
+ },
+ {
   "id": "gym",
   "title": "The gym",
   "titleFa": "باشگاه ورزشی",
