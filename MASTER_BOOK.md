@@ -46,6 +46,27 @@
 ### Roadmap
 1. Free version tested on iPhone (PWA). 2. AI voice chat + subscription payments. 3. App Store / Play Store release.
 
+#### Legal checklist (from docs/LEGAL_REVIEW.md; see "Legal & compliance")
+**Done in the app**
+- [x] Mic and speech wording corrected (EN+FA): the browser's speech service (Google in Chrome, Apple in Safari) may process audio. The Toms never stores or uploads recordings, and Messages and Missions don't record at all.
+- [x] Certificates read "completing The Toms course content", "aligned to CEFR descriptors" and "Not an accredited qualification".
+- [x] Career Pack disclaimers added, plus the EYFS England-only context and the ratio caveat.
+- [x] Draft Privacy Policy and Terms of Use (EN+FA) at `/legal`, with placeholders still to fill.
+- [x] No logos or roundel in the art prompts. No Duolingo, IELTS or "official" in store keywords or taglines.
+- [x] Life in the UK prep uses original questions only, has a "Not affiliated with the Home Office / not the official test" note and points to GOV.UK for booking.
+- [x] Practice-league bots are disclosed.
+
+**Before charging money, store submission or new features**
+- [ ] Re-render all audio with **licensed voices** (Azure AI Speech, paid S0 tier, same voice names) **before charging**. edge-tts is for personal use only. Keep the invoice and terms as proof.
+- [ ] Pay the **ICO data protection fee** (tier 1).
+- [ ] Do a **DPIA** before **Family Mode**, **AI chat or coach**, accounts or cloud sync, or analytics. Apply Children's Code defaults for child profiles. No user-recording features without a DPIA.
+- [ ] Run a **trade mark clearance search for "The Toms"** (UKIPO/EUIPO, classes 9, 41 and 16; watch out for TOMS footwear), then file.
+- [ ] **Solicitor review of the Terms and Privacy Policy**, then fill in the trader details and publish them at a stable public URL.
+- [ ] **Payments and sanctions:** store billing on mobile, a merchant of record (or OSS) on the web. No payment route for users in sanctioned jurisdictions without legal advice. Free educational access only.
+- [ ] **UK subscription rules (DMCCA) from January 2027:** clear pre-contract information, trial-end and renewal reminders, easy online cancellation, a 14-day cooling-off period after a trial and after renewal, and the CCR waiver step for Career Packs.
+- [ ] **Driving School (DVSA):** original questions only, written from the OGL Highway Code with attribution, and a "Not affiliated with or endorsed by DVSA" note. No DVSA questions or hazard clips without a licence.
+- [ ] **Life in the UK:** keep it original-questions-only, keep the not-affiliated note, and re-check the facts against GOV.UK and Parliament before each content update.
+
 ---
 
 ## Monetisation — 20 ideas
@@ -298,6 +319,19 @@ Profession-specific English tracks led by a family member who does that job, bui
 16. **Family mode**: parents + kids learn together (kids play Nicola/William), parent progress view — home.
 17. **AI coach "My mistakes"** notebook generating personal practice — home.
 Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.
+
+## Legal & compliance
+*Source: docs/LEGAL_REVIEW.md (a research checklist from 17 Oct 2026, **not legal advice**). The roadmap checklist above tracks the status.*
+- **Biggest risks:** (1) AI voices: edge-tts output is personal-use only, so re-render with licensed Azure voices before charging. (2) Microphone and children's data: UK GDPR, the Children's Code and a DPIA before Family Mode or AI chat. (3) Payments: store billing, CCR, DMCCA subscription rules from Jan 2027 and sanctions. (4) Exam prep: DVSA and Life in the UK must use original questions only, with not-affiliated notes.
+- **Standing rules for every run:**
+  - No real logos or emblems in art.
+  - Brands appear in plain text only.
+  - Nothing called "official", "approved" or "guaranteed".
+  - No recording of the learner's voice in new features without a DPIA.
+  - Facts in citizenship and driving content are checked against GOV.UK and Parliament, with sources listed.
+  - Bots stay labelled.
+  - No paid streak pressure.
+- **Needs professionals:** a solicitor for the Terms, Privacy and DMCCA work and for any payment route touching sanctioned jurisdictions; a privacy consultant for the DPIA; a trade mark attorney for clearance of "The Toms"; an accountant for VAT and structure; and a solicitor if a DVSA licence or any reuse of handbook text is ever wanted.
 
 ### Legal fixes (2026-10-17, from docs/LEGAL_REVIEW.md)
 - Mic wording corrected (EN+FA): speech-to-text is done by the browser's service (Google in Chrome, Apple in Safari), which may process audio on its servers; The Toms never stores or sends recordings itself.
