@@ -24,9 +24,18 @@ void main() {
   final course = (jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map)['units'] as List;
   final lessonIds = {for (final u in course) for (final l in u['lessons'] as List) l['id'] as String};
 
-  test('Class A1 (6 topics) and A2 (5 topics) are complete and well formed', () {
+  test('Classes A1, A2, B1 and B2 are complete and well formed', () {
     expect(topics.where((t) => t.level == 'A1').length, greaterThanOrEqualTo(6));
     expect(topics.where((t) => t.level == 'A2').length, greaterThanOrEqualTo(5));
+    expect(topics.where((t) => t.level == 'B1').length, greaterThanOrEqualTo(5));
+    expect(topics.where((t) => t.level == 'B2').length, greaterThanOrEqualTo(5));
+    expect(topics.map((t) => t.id).toSet().length, topics.length, reason: 'unique ids');
+    for (final t in topics) {
+      for (final id in t.related) {
+        final lv = int.parse(id.substring(1, id.indexOf('_')));
+        expect(lv, lessThanOrEqualTo(Grammar.classes.indexWhere((c) => c.code == t.level) + 1), reason: '${t.id} links only to lessons at or below its level');
+      }
+    }
     final us = RegExp(r"\b(color|favorite|mom|apartment|cookie|candy|pants|vacation|soccer|gotten|center|realize|trash|movie)\b", caseSensitive: false);
     for (final t in topics) {
       expect(t.practice.map((e) => e.kind).toSet(), containsAll(['gap', 'choose', 'order', 'transform']), reason: '${t.id} uses every exercise type');
@@ -84,7 +93,8 @@ void main() {
     final a1 = gate().of('A1'), a2 = gate().of('A2');
     expect(gate().classOpen('A1'), isTrue);
     expect(gate().classOpen('A2'), isFalse);
-    expect(gate().classOpen('B1'), isFalse, reason: 'coming soon');
+    expect(gate().classOpen('B1'), isFalse);
+    expect(gate().classOpen('C1'), isFalse, reason: 'coming soon');
     expect(gate().topicOpen(a1[0]), isTrue);
     expect(gate().topicOpen(a1[1]), isFalse);
     expect(ctrl.saveGrammar(a1[0].id, 40).xp, 3);
@@ -98,6 +108,18 @@ void main() {
     expect(gate().classOpen('A2'), isTrue);
     expect(gate().topicOpen(a2[0]), isTrue);
     expect(gate().topicOpen(a2[1]), isFalse);
+    expect(gate().classOpen('B1'), isFalse, reason: 'A2 not passed yet');
+    for (final t in a2) {
+      ctrl.saveGrammar(t.id, 60);
+    }
+    expect(gate().classOpen('B1'), isTrue);
+    expect(gate().topicOpen(gate().of('B1').first), isTrue);
+    expect(gate().classOpen('B2'), isFalse);
+    for (final t in gate().of('B1')) {
+      ctrl.saveGrammar(t.id, 90);
+    }
+    expect(gate().classOpen('B2'), isTrue);
+    expect(gate().of('C1'), isEmpty, reason: 'C1 is next run');
   });
 
   group('screens at 375x667', () {
@@ -138,6 +160,9 @@ void main() {
       await settle();
       expect(find.byKey(const ValueKey('class-A1')), findsOneWidget);
       expect(find.text('Class A1 · مبتدی'), findsOneWidget);
+      await t.scrollUntilVisible(find.byKey(const ValueKey('class-B2')), 200, scrollable: find.byType(Scrollable).first);
+      expect(find.text('0 of 5 topics passed'), findsWidgets, reason: 'B1/B2 have topics now');
+      await t.scrollUntilVisible(find.byKey(const ValueKey('class-A1')), -200, scrollable: find.byType(Scrollable).first);
       await t.tap(find.byKey(const ValueKey('class-A1')));
       await settle();
       expect(find.byKey(const ValueKey('topic-a1_be')), findsOneWidget);

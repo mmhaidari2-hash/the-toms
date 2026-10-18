@@ -64,8 +64,8 @@ class Grammar {
   static const classes = [
     GClass('A1', 'Beginner', 'مبتدی', 'be, have got, a/an/the, plurals, present simple, can'),
     GClass('A2', 'Elementary', 'مقدماتی', 'past simple, present continuous, comparatives'),
-    GClass('B1', 'Intermediate', 'متوسط', 'present perfect, future forms, modals'),
-    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'conditionals, passive, reported speech'),
+    GClass('B1', 'Intermediate', 'متوسط', 'present perfect, future forms, first conditional, modals'),
+    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'second & third conditionals, passive, reported speech, used to'),
     GClass('C1', 'Advanced', 'پیشرفته', 'mixed conditionals, inversion, advanced British usage'),
   ];
   static const pass = 60;

@@ -185,7 +185,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 - Next runs: B1, B2, C1 shelves (8–12 each), audio-synced word highlighting, a Library section in Progress.
 
 ### Feature queue (approved by the user, 2026-10-17) — each a map spot/section, uncluttered, short runs
-1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Mrs Ellis (canon name) explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons. — **Run 1 shipped 2026-10-17: Class A1 + A2.**
+1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Mrs Ellis (canon name) explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons. — **Run 1 shipped 2026-10-17: Class A1 + A2. Run 2: Class B1 + B2.**
 2. **Cinema**: short scenes with bilingual subtitles, tap-to-translate, "dub it" mode with a speech score (paintings + audio now; real video later).
 3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian.
 4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges.
@@ -220,4 +220,6 @@ Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.
 - **Each topic:** Mrs Ellis teaches on a chalkboard (British TTS voice "ellis" + Persian), examples from the Thompsons' life, links to up to 3 related course lessons, 6 practice items (gap / choose / reorder / transform, instant feedback with the right answer), then a 5-question mini test. Pass mark 60%; 10 XP (15 for 100%), 3 XP for a try. Topics unlock in order.
 - **Content pipeline:** `tool/grammar/a1.txt`, `a2.txt` (DSL) → `tool/make_grammar.py` → `assets/data/grammar.json` (validated; related lessons auto-linked by grammar tag). `render_voices.py` walks grammar.json.
 - **Tests:** `test/grammar_test.dart` (content rules, British spelling, audio for every line, answer checking, unlock order, full flow at 375×667).
-- **Next runs:** B1, B2, C1 classes; a teacher portrait in IMAGE_PROMPTS if needed.
+- **Run 2 (2026-10-17): Class B1 (5)** present perfect (ever/never/just/already/yet), present perfect vs past simple, future forms (will / going to / present continuous), first conditional (+ unless), modals (have to / must / mustn't / should / might). **Class B2 (5)** second conditional (If I were you…), third conditional + should have, the passive, reported speech (say/tell, asked if), used to / would / be used to. Same format: 6 practice + 5 test, Mrs Ellis voice, related lessons only at or below the class level. B1 opens when A2 is passed (or the course reaches Level 3); B2 after B1 (or Level 4).
+- **Screenshot tooling:** `/workspace/stage/lib_shots.py` now takes `preset=@file.json` (writes a UserProgress JSON into the Hive IndexedDB box `progress`/`box` key `v1`, then reloads on `#/`) so shots skip onboarding; plus `hscroll=` (pan the town map), `type=`, `dumpdb=`. `preset_new.json` = a fresh, onboarded learner.
+- **Next runs:** C1 class; then Library shelves B1–C1; then Cinema.
