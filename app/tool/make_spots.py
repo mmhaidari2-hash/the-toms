@@ -27,6 +27,7 @@ SPOTS=[
  ('museum','Museum','موزه','🏛️',.12,.25,[],r'museum',None,[]),
  ('cinema','Cinema & arena','سینما و سالن','🎬',.75,.21,[],r'cinema|film|movie|popcorn',None,['l2_u8_4']),
  ('radio','Hackney Hum radio','رادیو هاکنی هام','📻',.55,.235,[],None,None,['l1_u6_1','l2_u37_1','l2_u37_4','l4_u8_2','l4_u8_4']),  # rooftop studio on the glass office block
+ ('missions','Real-life missions','مأموریت‌های زندگی واقعی','🎯',.675,.655,[],None,None,['l1_u43_1','l2_u2_1','l2_u4_1','l2_u37_1','l2_u51_1']),  # the corner where the high street meets the park
  ('gym','The gym','باشگاه ورزشی','🏋️',.17,.43,['gym'],r'\bgym\b|fitness',None,[]),
  ('pub','The Red Lion pub','میخانهٔ رد لاین','🍺',.39,.55,['pub'],r'\bpub\b|quiz night',None,[]),
  ('garage','Mick\'s Motors & petrol station','تعمیرگاه میک و پمپ بنزین','🚗',.20,.50,['driving','petrol'],r'driving|mot\b|petrol|car\b',None,[]),

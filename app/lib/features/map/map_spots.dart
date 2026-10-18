@@ -27,7 +27,7 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
 });
 
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
-const featureSpots = {'library', 'school', 'cinema', 'radio'};
+const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions'};
 
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
@@ -200,6 +200,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                     Icon(Icons.radio_rounded, color: BL.gold),
                     SizedBox(width: 12),
                     Expanded(child: Text('On air · listen to Hackney Hum', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
+          if (s.id == 'missions') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: BL.red,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-missions'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/missions');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.hiking_rounded, color: Colors.white),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Real-life missions · try it out there', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
                     Icon(Icons.chevron_right_rounded, color: Colors.white),
                   ]),
                 ),

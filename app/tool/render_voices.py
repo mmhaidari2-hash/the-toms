@@ -93,6 +93,10 @@ radio=os.path.join(A,'data/radio.json')  # Hackney Hum (tool/make_radio.py): eve
 if os.path.exists(radio):
   for sg in json.load(open(radio))['segments']:
     for l in sg['lines']: add(l['sp'],l['en'])
+mis=os.path.join(A,'data/missions.json')  # Real-life missions (tool/make_missions.py): phrases (voice 'me') + what you might hear
+if os.path.exists(mis):
+  for x in json.load(open(mis))['missions']:
+    for l in x['say']+x['hear']: add(l['sp'],l['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

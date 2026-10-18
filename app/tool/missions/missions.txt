@@ -1,0 +1,99 @@
+# Real-life missions: small offline challenges in everyday UK life. All text is original.
+# Header:  # id | level | spot | title | titleFa | goal | goalFa      (spot = a map spot id: icon + "where")
+# say: English | Persian          a phrase YOU use (voice 'me')
+# hear role: English | Persian    what you might hear (roles in tool/make_missions.py)
+# tip: English | Persian          one culture tip
+# safe: English | Persian         an extra safety note for this mission (optional; general rules are on the Missions screen)
+# Missions are with people doing their job (café, shop, station, library staff) or people you already know.
+
+# m_a1_flatwhite | A1 | cafe | Order a flat white | یک فلت‌وایت سفارش بده | Order a drink at a café counter and say please and thank you. | در پیشخوان یک کافه نوشیدنی سفارش بده و «لطفاً» و «ممنون» بگو.
+say: Hello! Can I have a flat white, please? | سلام! می‌شود یک فلت‌وایت بدهید، لطفاً؟
+say: Small, please. | کوچک، لطفاً.
+say: To have here, please. | برای اینجا، لطفاً.
+say: Thank you very much! | خیلی ممنون!
+hear barista: Eat in or take away? | اینجا میل می‌کنید یا می‌برید؟
+hear barista: Anything else? | چیز دیگری هم می‌خواهید؟
+tip: "Take away" means you leave with your drink. "Eat in" means you stay. | «take away» یعنی نوشیدنی را با خودت می‌بری. «eat in» یعنی همان‌جا می‌مانی.
+
+# m_a1_bus | A1 | bus | Thank the bus driver | از رانندهٔ اتوبوس تشکر کن | Get on a bus, say hello, and say thank you when you get off. | سوار اتوبوس شو، سلام کن، و موقع پیاده شدن تشکر کن.
+say: Hello! | سلام!
+say: Does this bus go to the station? | این اتوبوس به ایستگاه قطار می‌رود؟
+say: Thank you! | ممنون!
+say: Cheers, have a good day! | مرسی، روز خوبی داشته باشید!
+hear driver: Yes, mate. Hop on. | بله، رفیق. سوار شو.
+hear driver: No, love. You need the 38. | نه، عزیزم. باید سوار ۳۸ بشوی.
+tip: Lots of Londoners say "thank you" or "cheers" to the driver when they get off. | خیلی از لندنی‌ها موقع پیاده شدن به راننده «ممنون» یا «مرسی» می‌گویند.
+
+# m_a2_weather | A2 | park | Weather small talk | گپ کوتاه دربارهٔ هوا | Say one thing about the weather to someone you already know: a neighbour, a colleague or the person at your local shop. | با کسی که از قبل می‌شناسی یک جمله دربارهٔ هوا بگو: همسایه، همکار یا فروشندهٔ مغازهٔ محله.
+say: Lovely day, isn't it? | روز قشنگی است، نه؟
+say: It's freezing this morning! | امروز صبح خیلی سرد است!
+say: Looks like rain later. | به نظر می‌رسد بعداً باران بیاید.
+say: Make the most of it! | تا هست ازش لذت ببر!
+hear neighbour: I know! It's meant to rain tomorrow, though. | آره! ولی می‌گویند فردا باران می‌آید.
+hear neighbour: Ooh, I'll need my big coat. | اوه، باید کت کلفتم را بپوشم.
+tip: Weather talk is a friendly hello, not a real question. Keep it short and smile. | حرف زدن دربارهٔ هوا یک سلام دوستانه است، نه یک سؤال واقعی. کوتاه بگو و لبخند بزن.
+
+# m_a2_directions | A2 | station | Ask for directions | آدرس بپرس | Ask a member of staff at a station, shop or library how to get somewhere nearby. | از یک کارمند در ایستگاه، مغازه یا کتابخانه بپرس چطور به جایی در همان نزدیکی بروی.
+say: Excuse me, could you help me? | ببخشید، می‌توانید کمکم کنید؟
+say: How do I get to the post office? | چطور به ادارهٔ پست بروم؟
+say: Is it far from here? | از اینجا دور است؟
+say: Sorry, could you say that again? | ببخشید، می‌شود دوباره بگویید؟
+hear staff: Go out of the station and turn left. | از ایستگاه بیرون بروید و بپیچید سمت چپ.
+hear staff: It's about five minutes' walk. | حدود پنج دقیقه پیاده‌روی است.
+tip: "Sorry?" with a rising voice is the polite way to ask someone to repeat. | گفتن «Sorry?» با لحن پرسشی، روش مؤدبانهٔ خواستن تکرار است.
+safe: Ask staff at a counter or an information desk. Never go anywhere with someone you don't know. | از کارمند پشت پیشخوان یا میز اطلاعات بپرس. هیچ‌وقت با کسی که نمی‌شناسی جایی نرو.
+
+# m_b1_pharmacy | B1 | pharmacy | Ask the pharmacist | از داروساز بپرس | Ask a pharmacist to recommend something for a cold, a cough or hay fever. | از داروساز بخواه برای سرماخوردگی، سرفه یا حساسیت فصلی چیزی پیشنهاد بدهد.
+say: Hi, I was wondering if you could recommend something for a cough. | سلام، می‌خواستم ببینم می‌توانید چیزی برای سرفه پیشنهاد کنید.
+say: It's a dry cough, and I've had it for about three days. | سرفهٔ خشک است و حدود سه روز است دارمش.
+say: Is it all right to take it with other medicine? | اشکالی ندارد با داروهای دیگر بخورمش؟
+say: How often should I take it? | هر چند وقت یک بار باید بخورمش؟
+hear pharmacist: Are you taking anything else at the moment? | الان داروی دیگری مصرف می‌کنید؟
+hear pharmacist: Take two spoonfuls, up to four times a day. | دو قاشق، حداکثر چهار بار در روز بخورید.
+tip: Pharmacists give free advice about minor illnesses, and you don't need an appointment. | داروسازها برای بیماری‌های جزئی رایگان مشاوره می‌دهند و وقت قبلی لازم نیست.
+safe: For anything serious, call NHS 111 or your GP. In an emergency, call 999. | برای هر مشکل جدی با NHS 111 یا پزشک عمومی‌ات تماس بگیر. در مواقع اضطراری با ۹۹۹ تماس بگیر.
+
+# m_b1_library | B1 | library | Join the library | عضو کتابخانه شو | Ask how to join your local library and what you can borrow. | بپرس چطور می‌توانی عضو کتابخانهٔ محله‌ات بشوی و چه چیزهایی می‌توانی امانت بگیری.
+say: Hi, I'd like to join the library. What do I need to bring? | سلام، می‌خواهم عضو کتابخانه بشوم. چه چیزی باید بیاورم؟
+say: Is it free to join? | عضویت رایگان است؟
+say: How many books can I borrow at once? | هر بار چند کتاب می‌توانم امانت بگیرم؟
+say: Do you run any English conversation groups? | گروه مکالمهٔ انگلیسی هم دارید؟
+hear librarian: You just need proof of address, like a bill or a bank letter. | فقط مدرک آدرس لازم است، مثل یک قبض یا نامهٔ بانک.
+hear librarian: You can borrow up to ten books for three weeks. | می‌توانید تا ده کتاب را برای سه هفته امانت بگیرید.
+tip: Public libraries are free to join, and many run free conversation clubs. | عضویت در کتابخانه‌های عمومی رایگان است و خیلی‌هایشان باشگاه مکالمهٔ رایگان دارند.
+
+# m_b2_return | B2 | shoppingcentre | Return something faulty | یک جنس معیوب را پس بده | Take back something that doesn't work, explain the problem and ask for a refund or a replacement. | چیزی را که کار نمی‌کند پس ببر، مشکل را توضیح بده و پول یا جنس جایگزین بخواه.
+say: Hi, I bought this last week, but unfortunately it's stopped working. | سلام، این را هفتهٔ پیش خریدم، ولی متأسفانه از کار افتاده.
+say: I've got the receipt here. | رسیدش اینجاست.
+say: Would it be possible to get a refund, or else a replacement? | امکانش هست پولم را پس بگیرم، یا یک جنس جایگزین؟
+say: I'd rather have a refund, if that's all right. | اگر اشکالی ندارد، ترجیح می‌دهم پولم را پس بگیرم.
+hear assistant: Have you got the receipt, or the card you paid with? | رسید یا کارتی که با آن پرداخت کردید را دارید؟
+hear assistant: We can offer you an exchange or a credit note. | می‌توانیم تعویض کنیم یا کارت اعتبار خرید بدهیم.
+tip: If something is faulty within 30 days, you usually have the right to a refund. Stay calm and polite. | اگر جنسی ظرف ۳۰ روز معیوب شود، معمولاً حق داری پولت را پس بگیری. آرام و مؤدب بمان.
+
+# m_b2_parcel | B2 | postoffice | Send a parcel | یک بسته پست کن | Post a parcel and ask about tracking and delivery times. | یک بسته پست کن و دربارهٔ ردگیری و زمان تحویل بپرس.
+say: Hi, I'd like to send this parcel to Manchester, please. | سلام، می‌خواهم این بسته را به منچستر بفرستم، لطفاً.
+say: What's the cheapest way to send it, and how long will it take? | ارزان‌ترین روش ارسال چیست و چقدر طول می‌کشد؟
+say: Does that include tracking? | ردگیری هم دارد؟
+say: Could I have a receipt with the tracking number, please? | می‌شود رسید را با شمارهٔ ردگیری بدهید، لطفاً؟
+hear clerk: Pop it on the scales for me. | بگذاریدش روی ترازو.
+hear clerk: Second class should take two to three working days. | پست درجه دو باید دو تا سه روز کاری طول بکشد.
+tip: First class is faster and second class is cheaper. Ask for "signed for" if it's valuable. | درجه یک سریع‌تر است و درجه دو ارزان‌تر. اگر باارزش است، ارسال با امضای گیرنده (signed for) بخواه.
+
+# m_c1_complaint | C1 | restaurant | Complain politely | مؤدبانه شکایت کن | Your order is wrong or cold. Raise it calmly and get it sorted, without making a scene. | سفارشت اشتباه یا سرد است. آرام مطرحش کن و درستش کن، بدون اینکه شلوغش کنی.
+say: Sorry to be a pain, but I think there's been a mix-up with my order. | ببخشید که زحمت می‌دهم، ولی فکر کنم در سفارشم اشتباهی شده.
+say: I asked for it without onions, but it's come with them. | بدون پیاز خواسته بودم، ولی با پیاز آمده.
+say: It's not a big deal, but would you mind changing it? | مسئلهٔ بزرگی نیست، ولی ممکن است عوضش کنید؟
+say: That's really kind of you. Thanks for sorting it out. | خیلی لطف دارید. ممنون که درستش کردید.
+hear waiter: Oh, I'm so sorry about that. I'll get it changed straight away. | وای، واقعاً ببخشید. همین الان عوضش می‌کنم.
+hear waiter: Can I get you a drink on the house while you wait? | تا منتظرید، یک نوشیدنی مهمان ما باشید؟
+tip: A British complaint often starts with an apology: "Sorry to be a pain…". Soft words, firm request. | شکایت به سبک بریتانیایی اغلب با عذرخواهی شروع می‌شود: «ببخشید که زحمت می‌دهم…». کلمات نرم، درخواست محکم.
+
+# m_c1_local | C1 | library | Speak up about a local issue | دربارهٔ یک مسئلهٔ محلی نظر بده | At a residents' meeting, a library event or with a neighbour you know, give your view on a local issue and suggest a next step. | در جلسهٔ ساکنان، یک برنامهٔ کتابخانه یا با همسایه‌ای که می‌شناسی، نظرت را دربارهٔ یک مسئلهٔ محلی بگو و قدم بعدی را پیشنهاد کن.
+say: Can I just come in here? The bins on our road are often left overflowing. | اجازه هست من هم چیزی بگویم؟ سطل‌های خیابان ما اغلب لبریز می‌مانند.
+say: I take your point, but I'm not sure that would solve the problem. | حرفتان را می‌فهمم، ولی مطمئن نیستم این مشکل را حل کند.
+say: What if we wrote to the council together? It might carry more weight. | اگر با هم به شهرداری نامه بنویسیم چطور؟ شاید اثر بیشتری داشته باشد.
+say: I'm happy to draft something, if people are up for it. | اگر بقیه موافق باشند، من حاضرم یک پیش‌نویس آماده کنم.
+hear neighbour: That's a good shout. I've been meaning to complain for ages. | فکر خوبی است. خیلی وقت است می‌خواهم شکایت کنم.
+hear neighbour: Count me in, as long as someone else does the writing! | من هم هستم، به شرطی که نوشتنش با یکی دیگر باشد!
+tip: "I take your point, but…" lets you disagree without sounding rude. | «حرفتان را می‌فهمم، ولی…» کمکت می‌کند مخالفت کنی بدون اینکه بی‌ادب به نظر برسی.

@@ -217,11 +217,29 @@ Profession-specific English tracks led by a family member who does that job, bui
 - **Listening first:** the transcript is hidden every time a programme opens. There is an "ON AIR" radio set with the speaker's name, an equaliser, play/stop, progress and a "Slower" toggle. "Show transcript" and then "فارسی" are optional. The Questions button turns red once you've listened all the way through. Progress is stored in `radio:<id>` (best score; 60% passes; XP 15/10/3).
 - **Level gate = Library/Cinema/Grammar rule** (`RadioGate`). Locked programmes explain why, and deep links show a locked page.
 
+### Real-life missions — run 1 (2026-10-18)
+- **Map:** spot `missions` ("Real-life missions", 🎯, 0.675/0.655): the pavement where the high street meets the park path. It's open for new learners, has a sheet button and a menu item, and links to 5 directions, café and small-talk lessons. Routes: `/missions` and `/missions/:id`.
+- **Content:** `app/tool/missions/missions.txt` (`# id | level | spot | title | titleFa | goal | goalFa`, then `say:` / `hear role:` / `tip:` / `safe:` lines) → `tool/make_missions.py` → `assets/data/missions.json`. There are 10 missions, 2 per level:
+  - A1: flat white; thank the bus driver
+  - A2: weather small talk; directions
+  - B1: pharmacist; join the library
+  - B2: return something faulty; send a parcel
+  - C1: polite complaint; speak up about a local issue
+  The "say" phrases use the learner's voice (`me`). "You might hear" lines use role voices (barista, bus driver, staff and so on, voiced by the town's voices).
+- **Flow:** prepare (goal, tappable phrases with audio + Persian, a tip, an optional safety note) → **Ready? Go!** (key phrases; "nothing is recorded") → the mission is pending (`mission:go:ID`, shown as "Check in" on the list, and it reopens on the check-in) → check in: how it went (went well / did it but hard / didn't happen) plus which phrases you used. XP 20/15/3. The best rating is kept in `mission:ID`. Badges: **Out and about** (1 mission) and **Real-life Brit** (5).
+- **Safety (on screen, EN + FA):**
+  - Only with staff doing their job or people you already know.
+  - Busy public places, in daytime. Never go anywhere with a stranger or share your address, phone number or bank details.
+  - No recording or photos of anyone. The app never uses the microphone on a mission.
+  - You can skip and practise at home. Under 18: go with a parent or carer.
+  Directions are asked of staff only. The pharmacy mission points to NHS 111 or a GP, and 999 in an emergency.
+- **Level gate = the same rule as the rest** (`MissionGate`).
+
 ### Feature queue (approved by the user, 2026-10-17) — each a map spot/section, uncluttered, short runs
 1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Mrs Ellis (canon name) explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons. — **Run 1 shipped 2026-10-17: Class A1 + A2. Run 2: Class B1 + B2. Run 3: Class C1 + strict lock — all five classes live.**
 2. **Cinema**: short scenes with bilingual subtitles, tap-to-translate, "dub it" mode with a speech score (paintings + audio now; real video later). — **Run 1 shipped 2026-10-18: 10 scenes A1–C1, watch / dub / questions.**
 3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian. — **Run 1 shipped 2026-10-18: Hackney Hum, 10 programmes A1–C1 (news, weather, travel, phone-in, adverts), listening first, questions.**
-4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges.
+4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges. — **Run 1 shipped 2026-10-18: 10 missions A1–C1 with prep audio, Ready? Go!, check-in, XP and 2 badges, safety rules.**
 5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder.
 6. **Park games**: matching, find-the-object in a painting, speed rounds.
 7. **Life in the UK test prep** (in the Library; premium pack candidate; **not affiliated with or endorsed by the Home Office**; original summaries and questions only, no copying or translating handbook text; point users to the official handbook and GOV.UK booking).

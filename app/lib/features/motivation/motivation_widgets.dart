@@ -16,6 +16,7 @@ IconData badgeIcon(String id) => switch (id) {
       'words50' => Icons.auto_stories_rounded,
       'league' => Icons.military_tech_rounded,
       'book1' || 'book5' => Icons.local_library_rounded,
+      'mission1' || 'mission5' => Icons.hiking_rounded,
       _ => Icons.star_rounded,
     };
 
@@ -115,7 +116,9 @@ class Celebration extends StatelessWidget {
   final VoidCallback? onRetry;
   /// Overrides for non-lesson uses (e.g. a Library chapter quiz).
   final String? title, titleFa;
-  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry});
+  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry, this.scoreLabel = 'Score'});
+  /// Label under the percentage stat (e.g. 'Phrases' for a mission check-in).
+  final String scoreLabel;
   @override
   Widget build(BuildContext context) {
     final pct = (right * 100 / max(total, 1)).round();
@@ -134,7 +137,7 @@ class Celebration extends StatelessWidget {
             Row(children: [
               Expanded(child: _Stat(key: const ValueKey('celebrate-xp'), color: BL.gold, icon: Icons.bolt_rounded, label: 'XP', child: TweenAnimationBuilder<int>(tween: IntTween(begin: 0, end: award.xp), duration: const Duration(milliseconds: 900), builder: (_, v, _) => Text('+$v', style: BL.display(24))))),
               const SizedBox(width: 10),
-              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: 'Score', child: Text('$pct%', style: BL.display(24)))),
+              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: scoreLabel, child: Text('$pct%', style: BL.display(24)))),
               const SizedBox(width: 10),
               Expanded(child: _Stat(color: BL.red, icon: Icons.local_fire_department_rounded, label: award.streak == 1 ? 'day' : 'days', child: Text('${award.streak}', style: BL.display(24)))),
             ]),

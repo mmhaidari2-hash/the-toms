@@ -65,6 +65,8 @@ class Motivation {
     Achievement('league', 'Promoted', 'صعود', 'Reach the Silver league'),
     Achievement('book1', 'Finished!', 'تمامش کردم!', 'Finish a book in the Library'),
     Achievement('book5', 'Bookworm', 'کتاب‌خوان', 'Finish 5 books in the Library'),
+    Achievement('mission1', 'Out and about', 'بیرون از خانه', 'Complete a real-life mission'),
+    Achievement('mission5', 'Real-life Brit', 'بریتانیایی واقعی', 'Complete 5 real-life missions'),
   ];
 }
 

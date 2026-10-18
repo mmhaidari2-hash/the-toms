@@ -251,6 +251,8 @@ class ProgressController extends Notifier<UserProgress> {
       'goal7' => goalDays >= 7,
       'words50' => state.leitnerBox.length >= 50,
       'league' => leagueTier >= 1,
+      'mission1' => missionsCompleted >= 1,
+      'mission5' => missionsCompleted >= 5,
       'book1' => booksDone >= 1,
       'book5' => booksDone >= 5,
       _ => false,
@@ -309,6 +311,26 @@ class ProgressController extends Notifier<UserProgress> {
       _save();
     }
     return awardXp(pct >= 70 ? (pct >= 90 ? 15 : 10) : 3);
+  }
+
+  /// Real-life missions: 'mission:ID' = rating:phrasesUsed (best kept); 'mission:go:ID' = day the learner set off.
+  /// rating 2 = went well, 1 = did it (hard), 0 = didn't happen this time. Done = rating >= 1.
+  int? missionRating(String id) => int.tryParse((state.missionsDone['mission:$id'] ?? '').split(':').first);
+  bool missionDone(String id) => (missionRating(id) ?? -1) >= 1;
+  bool missionPending(String id) => state.missionsDone.containsKey('mission:go:$id');
+  int get missionsCompleted => state.missionsDone.entries.where((e) => e.key.startsWith('mission:') && !e.key.startsWith('mission:go:') && (int.tryParse(e.value.split(':').first) ?? 0) >= 1).length;
+  void startMission(String id) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'mission:go:$id': _day(_now)});
+    _save();
+  }
+
+  XpAward checkInMission(String id, int rating, int used) {
+    final m = {...state.missionsDone}..remove('mission:go:$id');
+    final old = missionRating(id) ?? -1;
+    if (rating >= old) m['mission:$id'] = '$rating:$used';
+    state = state.copyWith(missionsDone: m);
+    _save();
+    return awardXp(switch (rating) { 2 => 20, 1 => 15, _ => 3 });
   }
 
   /// Hackney Hum (radio): best questions score per segment (key radio:ID); passed at 60%.
