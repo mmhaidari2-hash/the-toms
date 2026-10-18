@@ -1,0 +1,1560 @@
+{
+ "chapters": [
+  {
+   "id": "values",
+   "title": "Values and principles",
+   "titleFa": "ارزش‌ها و اصول",
+   "src": [
+    "https://www.gov.uk/life-in-the-uk-test",
+    "https://www.gov.uk/english-language",
+    "https://www.gov.uk/government/publications/life-in-the-united-kingdom-a-guide-for-new-residents"
+   ],
+   "expl": [
+    {
+     "en": "British life is built on shared values: democracy, the rule of law, individual liberty, tolerance of people with different faiths and beliefs, and taking part in community life.",
+     "fa": "زندگی در بریتانیا بر ارزش‌های مشترک بنا شده است: دموکراسی، حاکمیت قانون، آزادی فردی، مدارا با کسانی که دین و باور دیگری دارند و مشارکت در زندگی اجتماعی.",
+     "ms": 11856
+    },
+    {
+     "en": "Everyone who lives here is expected to respect and obey the law, respect the rights of others, treat people fairly, look after themselves and their family, and look after the area they live in.",
+     "fa": "از همهٔ ساکنان انتظار می‌رود به قانون احترام بگذارند و از آن پیروی کنند، به حقوق دیگران احترام بگذارند، با مردم منصفانه رفتار کنند، مراقب خود و خانواده‌شان و محل زندگی‌شان باشند.",
+     "ms": 11664
+    },
+    {
+     "en": "The United Kingdom is England, Scotland, Wales and Northern Ireland. Great Britain means just England, Scotland and Wales. The Isle of Man and the Channel Islands are Crown dependencies, not part of the UK.",
+     "fa": "پادشاهی متحده یعنی انگلستان، اسکاتلند، ولز و ایرلند شمالی. بریتانیای کبیر فقط انگلستان، اسکاتلند و ولز است. جزیرهٔ من و جزایر مانش «وابستگان تاج» هستند و جزو پادشاهی متحده نیستند.",
+     "ms": 15672
+    },
+    {
+     "en": "The Life in the UK test has 24 questions and you have 45 minutes. You need 75 percent to pass, so at least 18 correct answers. Most people applying to settle or become citizens also need to show English at B1 level or above.",
+     "fa": "آزمون زندگی در بریتانیا ۲۴ سؤال دارد و ۴۵ دقیقه وقت داری. برای قبولی ۷۵ درصد لازم است، یعنی دست‌کم ۱۸ پاسخ درست. بیشتر متقاضیان اقامت دائم یا شهروندی باید انگلیسی در سطح B1 یا بالاتر را هم ثابت کنند.",
+     "ms": 17616
+    }
+   ],
+   "cards": [
+    {
+     "front": "The UK",
+     "back": "England, Scotland, Wales and Northern Ireland",
+     "fa": "انگلستان، اسکاتلند، ولز و ایرلند شمالی"
+    },
+    {
+     "front": "Great Britain",
+     "back": "England, Scotland and Wales",
+     "fa": "انگلستان، اسکاتلند و ولز"
+    },
+    {
+     "front": "Crown dependencies",
+     "back": "The Isle of Man and the Channel Islands: linked to the UK but not part of it",
+     "fa": "جزیرهٔ من و جزایر مانش: وابسته به بریتانیا ولی جزو آن نیستند"
+    },
+    {
+     "front": "Fundamental values",
+     "back": "Democracy, the rule of law, individual liberty, tolerance, community participation",
+     "fa": "دموکراسی، حاکمیت قانون، آزادی فردی، مدارا، مشارکت اجتماعی"
+    },
+    {
+     "front": "The test",
+     "back": "24 questions, 45 minutes, 75% to pass",
+     "fa": "۲۴ سؤال، ۴۵ دقیقه، ۷۵٪ برای قبولی"
+    },
+    {
+     "front": "Union Flag",
+     "back": "The crosses of St George, St Andrew and St Patrick",
+     "fa": "صلیب‌های سنت جورج، سنت اندرو و سنت پاتریک"
+    },
+    {
+     "front": "St David's Day",
+     "back": "1 March, Wales",
+     "fa": "یکم مارس، ولز"
+    },
+    {
+     "front": "St Andrew's Day",
+     "back": "30 November, Scotland",
+     "fa": "سی‌ام نوامبر، اسکاتلند"
+    },
+    {
+     "front": "St George's Day",
+     "back": "23 April, England",
+     "fa": "بیست و سوم آوریل، انگلستان"
+    },
+    {
+     "front": "St Patrick's Day",
+     "back": "17 March, Northern Ireland",
+     "fa": "هفدهم مارس، ایرلند شمالی"
+    }
+   ],
+   "qs": [
+    {
+     "id": "values_01",
+     "q": "Which of these is one of the fundamental values of British life?",
+     "fa": "کدام یک از ارزش‌های بنیادین زندگی در بریتانیاست؟",
+     "options": [
+      "The rule of law",
+      "Loyalty to a single political party",
+      "Keeping away from community life",
+      "Following only religious law"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The rule of law means everyone, including the government, must follow the law.",
+     "whyFa": "حاکمیت قانون یعنی همه، حتی دولت، باید از قانون پیروی کنند."
+    },
+    {
+     "id": "values_02",
+     "q": "Which countries make up Great Britain?",
+     "fa": "بریتانیای کبیر از کدام کشورها تشکیل شده است؟",
+     "options": [
+      "England, Scotland and Wales",
+      "England, Scotland, Wales and Northern Ireland",
+      "England and Wales only",
+      "England, Scotland and Northern Ireland"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Great Britain is the island of England, Scotland and Wales. The UK adds Northern Ireland.",
+     "whyFa": "بریتانیای کبیر شامل انگلستان، اسکاتلند و ولز است؛ پادشاهی متحده ایرلند شمالی را هم دارد."
+    },
+    {
+     "id": "values_03",
+     "q": "Which countries make up the United Kingdom?",
+     "fa": "پادشاهی متحده از کدام کشورها تشکیل شده است؟",
+     "options": [
+      "England, Scotland, Wales and Northern Ireland",
+      "England, Scotland and Wales",
+      "England, Wales and Ireland",
+      "England, Scotland, Wales and the Isle of Man"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The UK is four countries: England, Scotland, Wales and Northern Ireland.",
+     "whyFa": "پادشاهی متحده چهار کشور است: انگلستان، اسکاتلند، ولز و ایرلند شمالی."
+    },
+    {
+     "id": "values_04",
+     "q": "The Isle of Man is part of the United Kingdom. True or false?",
+     "fa": "جزیرهٔ من بخشی از پادشاهی متحده است. درست یا نادرست؟",
+     "options": [
+      "FALSE",
+      "TRUE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "The Isle of Man is a Crown dependency with its own government. It is not part of the UK.",
+     "whyFa": "جزیرهٔ من وابستهٔ تاج است و دولت خودش را دارد؛ جزو پادشاهی متحده نیست."
+    },
+    {
+     "id": "values_05",
+     "q": "What are the Channel Islands?",
+     "fa": "جزایر مانش چه هستند؟",
+     "options": [
+      "Crown dependencies with their own governments",
+      "Part of England",
+      "A county of Wales",
+      "Part of Northern Ireland"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Jersey and Guernsey are Crown dependencies, like the Isle of Man.",
+     "whyFa": "جرزی و گرنزی مانند جزیرهٔ من وابستگان تاج هستند."
+    },
+    {
+     "id": "values_06",
+     "q": "Which of these is a British overseas territory?",
+     "fa": "کدام یک از سرزمین‌های فرادریایی بریتانیاست؟",
+     "options": [
+      "The Falkland Islands",
+      "The Isle of Wight",
+      "Jersey",
+      "Anglesey"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Falkland Islands are a British overseas territory in the South Atlantic.",
+     "whyFa": "جزایر فالکلند یکی از سرزمین‌های فرادریایی بریتانیا در جنوب اقیانوس اطلس است."
+    },
+    {
+     "id": "values_07",
+     "q": "Which is a responsibility of everyone living in the UK?",
+     "fa": "کدام وظیفهٔ همهٔ ساکنان بریتانیاست؟",
+     "options": [
+      "To respect and obey the law",
+      "To join a political party",
+      "To go to a place of worship every week",
+      "To vote for the governing party"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Respecting and obeying the law is expected of everyone who lives here.",
+     "whyFa": "احترام به قانون و پیروی از آن از همهٔ ساکنان انتظار می‌رود."
+    },
+    {
+     "id": "values_08",
+     "q": "Tolerance of people with different faiths and beliefs is a fundamental British value. True or false?",
+     "fa": "مدارا با پیروان ادیان و باورهای دیگر یکی از ارزش‌های بنیادین بریتانیاست. درست یا نادرست؟",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "Tolerance of different faiths and beliefs is one of the shared values of British life.",
+     "whyFa": "مدارا با ادیان و باورهای گوناگون از ارزش‌های مشترک زندگی بریتانیایی است."
+    },
+    {
+     "id": "values_09",
+     "q": "Which of these is an example of taking part in community life?",
+     "fa": "کدام نمونه‌ای از مشارکت در زندگی اجتماعی است؟",
+     "options": [
+      "Volunteering for a local charity",
+      "Refusing to speak to neighbours",
+      "Dropping litter in the park",
+      "Ignoring local elections"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Volunteering, helping neighbours and joining local groups are all ways to take part.",
+     "whyFa": "داوطلب شدن، کمک به همسایه‌ها و عضویت در گروه‌های محلی راه‌های مشارکت‌اند."
+    },
+    {
+     "id": "values_10",
+     "q": "How many questions are there in the Life in the UK test?",
+     "fa": "آزمون زندگی در بریتانیا چند سؤال دارد؟",
+     "options": [
+      "24",
+      "20",
+      "30",
+      "50"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The test has 24 questions.",
+     "whyFa": "آزمون ۲۴ سؤال دارد."
+    },
+    {
+     "id": "values_11",
+     "q": "How long do you have to answer the questions in the Life in the UK test?",
+     "fa": "در آزمون زندگی در بریتانیا چقدر وقت داری؟",
+     "options": [
+      "45 minutes",
+      "30 minutes",
+      "1 hour",
+      "2 hours"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "You have 45 minutes to answer the 24 questions.",
+     "whyFa": "برای ۲۴ سؤال ۴۵ دقیقه وقت داری."
+    },
+    {
+     "id": "values_12",
+     "q": "What score do you need to pass the Life in the UK test?",
+     "fa": "برای قبولی در آزمون چه نمره‌ای لازم است؟",
+     "options": [
+      "75%",
+      "50%",
+      "60%",
+      "90%"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "You need 75 percent, which is 18 out of 24.",
+     "whyFa": "۷۵ درصد لازم است، یعنی ۱۸ از ۲۴."
+    },
+    {
+     "id": "values_13",
+     "q": "What level of English do most people need to show when applying to settle or become a citizen?",
+     "fa": "بیشتر متقاضیان اقامت دائم یا شهروندی باید چه سطحی از انگلیسی را ثابت کنند؟",
+     "options": [
+      "B1 or above",
+      "A1",
+      "A2",
+      "Native-speaker level only"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The usual requirement is speaking and listening at B1 level or above, unless you are exempt.",
+     "whyFa": "معمولاً گفتار و شنیدار در سطح B1 یا بالاتر لازم است، مگر اینکه معاف باشی."
+    },
+    {
+     "id": "values_14",
+     "q": "What do new citizens do at a citizenship ceremony?",
+     "fa": "شهروندان تازه در مراسم شهروندی چه می‌کنند؟",
+     "options": [
+      "Make an oath or affirmation and a pledge",
+      "Take a driving test",
+      "Vote in an election",
+      "Sit the Life in the UK test again"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "New citizens swear an oath or make an affirmation of allegiance to the King and make a pledge to respect the UK's rights and freedoms.",
+     "whyFa": "شهروندان تازه سوگند یا تعهد وفاداری به پادشاه می‌خورند و پیمان می‌بندند که به حقوق و آزادی‌های بریتانیا احترام بگذارند."
+    },
+    {
+     "id": "values_15",
+     "q": "Which country's patron saint is NOT shown on the Union Flag?",
+     "fa": "قدیس حامی کدام کشور روی پرچم اتحاد نیامده است؟",
+     "options": [
+      "Wales",
+      "England",
+      "Scotland",
+      "Ireland"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales has its own flag with a red dragon.",
+     "whyFa": "پرچم اتحاد صلیب‌های سنت جورج، سنت اندرو و سنت پاتریک را دارد. ولز پرچم خودش با اژدهای سرخ را دارد."
+    },
+    {
+     "id": "values_16",
+     "q": "What does the cross of St Andrew look like?",
+     "fa": "صلیب سنت اندرو چه شکلی است؟",
+     "options": [
+      "A white diagonal cross on a blue background",
+      "A red cross on a white background",
+      "A red diagonal cross on a white background",
+      "A red dragon on green and white"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St Andrew's cross, the flag of Scotland, is a white diagonal cross on blue.",
+     "whyFa": "صلیب سنت اندرو، پرچم اسکاتلند، صلیب ضربدری سفید روی زمینهٔ آبی است."
+    },
+    {
+     "id": "values_17",
+     "q": "When is St David's Day, the national day of Wales?",
+     "fa": "روز سنت دیوید، روز ملی ولز، چه روزی است؟",
+     "options": [
+      "1 March",
+      "17 March",
+      "23 April",
+      "30 November"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St David's Day is 1 March.",
+     "whyFa": "روز سنت دیوید یکم مارس است."
+    },
+    {
+     "id": "values_18",
+     "q": "Who is the patron saint of England?",
+     "fa": "قدیس حامی انگلستان کیست؟",
+     "options": [
+      "St George",
+      "St Andrew",
+      "St David",
+      "St Patrick"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St George is the patron saint of England; his day is 23 April.",
+     "whyFa": "سنت جورج قدیس حامی انگلستان است و روزش ۲۳ آوریل است."
+    },
+    {
+     "id": "values_19",
+     "q": "When is St Andrew's Day?",
+     "fa": "روز سنت اندرو کی است؟",
+     "options": [
+      "30 November",
+      "1 March",
+      "17 March",
+      "23 April"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St Andrew's Day, Scotland's national day, is 30 November.",
+     "whyFa": "روز سنت اندرو، روز ملی اسکاتلند، سی‌ام نوامبر است."
+    },
+    {
+     "id": "values_20",
+     "q": "In the UK, it is acceptable to treat someone unfairly because of their religion. True or false?",
+     "fa": "در بریتانیا رفتار ناعادلانه با کسی به خاطر دینش پذیرفتنی است. درست یا نادرست؟",
+     "options": [
+      "FALSE",
+      "TRUE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "Treating people unfairly because of their religion is against British values and, in many situations, against the law.",
+     "whyFa": "رفتار ناعادلانه به خاطر دین خلاف ارزش‌های بریتانیا و در بسیاری موارد خلاف قانون است."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "title": "History",
+   "titleFa": "تاریخ",
+   "src": [
+    "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+    "https://www.bl.uk/magna-carta",
+    "https://www.parliament.uk/about/living-heritage/",
+    "https://www.nhs.uk/"
+   ],
+   "expl": [
+    {
+     "en": "People have lived in Britain for thousands of years. Stonehenge in Wiltshire was built in the Stone Age. The Romans invaded in AD 43 and stayed for about 400 years, and the Emperor Hadrian built a wall across the north of England.",
+     "fa": "انسان‌ها هزاران سال است در بریتانیا زندگی می‌کنند. استون‌هنج در ویلتشر در عصر سنگ ساخته شد. رومیان در سال ۴۳ میلادی حمله کردند و حدود ۴۰۰ سال ماندند و امپراتور هادریان دیواری در شمال انگلستان ساخت.",
+     "ms": 16128
+    },
+    {
+     "en": "In 1066 William of Normandy won the Battle of Hastings. In 1215 King John agreed to Magna Carta, which limited the king's power. The Black Death arrived in 1348 and killed a huge part of the population.",
+     "fa": "در سال ۱۰۶۶ ویلیامِ نورماندی در نبرد هستینگز پیروز شد. در ۱۲۱۵ شاه جان «مگنا کارتا» را پذیرفت که قدرت شاه را محدود کرد. مرگ سیاه در ۱۳۴۸ رسید و بخش بزرگی از مردم را کشت.",
+     "ms": 16128
+    },
+    {
+     "en": "Henry the Eighth broke away from the Church of Rome and had six wives. Elizabeth the First's navy defeated the Spanish Armada in 1588. In 1707 England and Scotland were united as the Kingdom of Great Britain.",
+     "fa": "هنری هشتم از کلیسای رم جدا شد و شش همسر داشت. نیروی دریایی الیزابت اول در ۱۵۸۸ ناوگان اسپانیا را شکست داد. در ۱۷۰۷ انگلستان و اسکاتلند به‌صورت پادشاهی بریتانیای کبیر متحد شدند.",
+     "ms": 15648
+    },
+    {
+     "en": "Women over 30 won the vote in 1918, and women got the vote at the same age as men in 1928. Britain fought in two world wars. The NHS began in 1948, and Margaret Thatcher became the first woman Prime Minister in 1979.",
+     "fa": "زنان بالای ۳۰ سال در ۱۹۱۸ حق رأی گرفتند و در ۱۹۲۸ زنان هم‌سن مردان حق رأی یافتند. بریتانیا در دو جنگ جهانی جنگید. خدمات ملی سلامت در ۱۹۴۸ آغاز شد و مارگارت تاچر در ۱۹۷۹ نخستین نخست‌وزیر زن شد.",
+     "ms": 18792
+    }
+   ],
+   "cards": [
+    {
+     "front": "AD 43",
+     "back": "The Romans invade Britain",
+     "fa": "رومیان به بریتانیا حمله می‌کنند"
+    },
+    {
+     "front": "1066",
+     "back": "Battle of Hastings: the Norman Conquest",
+     "fa": "نبرد هستینگز: فتح نورمن‌ها"
+    },
+    {
+     "front": "1215",
+     "back": "Magna Carta limits the king's power",
+     "fa": "مگنا کارتا قدرت شاه را محدود می‌کند"
+    },
+    {
+     "front": "1588",
+     "back": "The Spanish Armada is defeated",
+     "fa": "ناوگان اسپانیا شکست می‌خورد"
+    },
+    {
+     "front": "1707",
+     "back": "England and Scotland unite as Great Britain",
+     "fa": "انگلستان و اسکاتلند به‌صورت بریتانیای کبیر متحد می‌شوند"
+    },
+    {
+     "front": "1807",
+     "back": "The slave trade is abolished in the British Empire",
+     "fa": "تجارت برده در امپراتوری بریتانیا لغو می‌شود"
+    },
+    {
+     "front": "1928",
+     "back": "Women can vote at the same age as men",
+     "fa": "زنان در همان سن مردان حق رأی می‌گیرند"
+    },
+    {
+     "front": "1948",
+     "back": "The NHS is founded",
+     "fa": "خدمات ملی سلامت تأسیس می‌شود"
+    },
+    {
+     "front": "Boudicca",
+     "back": "Queen of the Iceni who fought the Romans",
+     "fa": "ملکهٔ قبیلهٔ آیسنی که با رومیان جنگید"
+    },
+    {
+     "front": "Winston Churchill",
+     "back": "Prime Minister during most of the Second World War",
+     "fa": "نخست‌وزیر در بیشتر دوران جنگ جهانی دوم"
+    }
+   ],
+   "qs": [
+    {
+     "id": "history_01",
+     "q": "Where is Stonehenge?",
+     "fa": "استون‌هنج کجاست؟",
+     "options": [
+      "Wiltshire",
+      "Cornwall",
+      "Kent",
+      "Yorkshire"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Stonehenge stands on Salisbury Plain in Wiltshire.",
+     "whyFa": "استون‌هنج در دشت سالزبری در ویلتشر است."
+    },
+    {
+     "id": "history_02",
+     "q": "In which year did the Romans invade Britain?",
+     "fa": "رومیان در چه سالی به بریتانیا حمله کردند؟",
+     "options": [
+      "AD 43",
+      "AD 410",
+      "1066",
+      "55 BC"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Roman invasion began in AD 43.",
+     "whyFa": "حملهٔ رومیان در سال ۴۳ میلادی آغاز شد."
+    },
+    {
+     "id": "history_03",
+     "q": "Who was Boudicca?",
+     "fa": "بودیکا چه کسی بود؟",
+     "options": [
+      "A queen who fought against the Romans",
+      "A Roman emperor",
+      "A Norman knight",
+      "A Tudor princess"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Boudicca, queen of the Iceni tribe, led a revolt against the Romans.",
+     "whyFa": "بودیکا، ملکهٔ قبیلهٔ آیسنی، شورشی علیه رومیان رهبری کرد."
+    },
+    {
+     "id": "history_04",
+     "q": "Which emperor built a wall across the north of England?",
+     "fa": "کدام امپراتور دیواری در شمال انگلستان ساخت؟",
+     "options": [
+      "Hadrian",
+      "Julius Caesar",
+      "Augustus",
+      "Nero"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Hadrian's Wall was built on the orders of the Emperor Hadrian.",
+     "whyFa": "دیوار هادریان به دستور امپراتور هادریان ساخته شد."
+    },
+    {
+     "id": "history_05",
+     "q": "Which battle in 1066 began the Norman Conquest?",
+     "fa": "کدام نبرد در ۱۰۶۶ فتح نورمن‌ها را آغاز کرد؟",
+     "options": [
+      "The Battle of Hastings",
+      "The Battle of Bannockburn",
+      "The Battle of Waterloo",
+      "The Battle of Trafalgar"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "William of Normandy defeated King Harold at the Battle of Hastings.",
+     "whyFa": "ویلیامِ نورماندی شاه هارولد را در نبرد هستینگز شکست داد."
+    },
+    {
+     "id": "history_06",
+     "q": "What did Magna Carta, agreed in 1215, do?",
+     "fa": "مگنا کارتا در ۱۲۱۵ چه کرد؟",
+     "options": [
+      "It limited the power of the king",
+      "It created the NHS",
+      "It united England and Scotland",
+      "It gave women the vote"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Magna Carta established that even the king was subject to the law.",
+     "whyFa": "مگنا کارتا نشان داد که حتی شاه هم تابع قانون است."
+    },
+    {
+     "id": "history_07",
+     "q": "Which plague arrived in Britain in 1348?",
+     "fa": "کدام بیماری همه‌گیر در ۱۳۴۸ به بریتانیا رسید؟",
+     "options": [
+      "The Black Death",
+      "Smallpox",
+      "Spanish flu",
+      "Cholera"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Black Death killed a large part of the population.",
+     "whyFa": "مرگ سیاه بخش بزرگی از جمعیت را کشت."
+    },
+    {
+     "id": "history_08",
+     "q": "How many wives did Henry VIII have?",
+     "fa": "هنری هشتم چند همسر داشت؟",
+     "options": [
+      "Six",
+      "Two",
+      "Four",
+      "Eight"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Henry VIII married six times.",
+     "whyFa": "هنری هشتم شش بار ازدواج کرد."
+    },
+    {
+     "id": "history_09",
+     "q": "Which fleet did the English navy defeat in 1588?",
+     "fa": "نیروی دریایی انگلستان در ۱۵۸۸ کدام ناوگان را شکست داد؟",
+     "options": [
+      "The Spanish Armada",
+      "The French navy at Trafalgar",
+      "The Viking fleet",
+      "The Dutch East India fleet"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Spanish Armada was defeated during the reign of Elizabeth I.",
+     "whyFa": "ناوگان اسپانیا در دوران الیزابت اول شکست خورد."
+    },
+    {
+     "id": "history_10",
+     "q": "Who wrote Romeo and Juliet and Hamlet?",
+     "fa": "چه کسی رومئو و ژولیت و هملت را نوشت؟",
+     "options": [
+      "William Shakespeare",
+      "Charles Dickens",
+      "Robert Burns",
+      "Jane Austen"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "William Shakespeare (1564 to 1616) was a playwright and poet.",
+     "whyFa": "ویلیام شکسپیر (۱۵۶۴ تا ۱۶۱۶) نمایشنامه‌نویس و شاعر بود."
+    },
+    {
+     "id": "history_11",
+     "q": "In 1707, England and Scotland were united as the Kingdom of Great Britain. True or false?",
+     "fa": "در ۱۷۰۷ انگلستان و اسکاتلند به‌صورت پادشاهی بریتانیای کبیر متحد شدند. درست یا نادرست؟",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "The Act of Union of 1707 created the Kingdom of Great Britain.",
+     "whyFa": "قانون اتحاد ۱۷۰۷ پادشاهی بریتانیای کبیر را پدید آورد."
+    },
+    {
+     "id": "history_12",
+     "q": "When was the slave trade abolished in the British Empire?",
+     "fa": "تجارت برده در امپراتوری بریتانیا کی لغو شد؟",
+     "options": [
+      "1807",
+      "1707",
+      "1918",
+      "1066"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Parliament passed an act to abolish the slave trade in 1807; slavery itself was abolished across the Empire in 1833.",
+     "whyFa": "پارلمان در ۱۸۰۷ تجارت برده را لغو کرد؛ خودِ برده‌داری در ۱۸۳۳ در سراسر امپراتوری لغو شد."
+    },
+    {
+     "id": "history_13",
+     "q": "Who led the British fleet at the Battle of Trafalgar in 1805?",
+     "fa": "چه کسی ناوگان بریتانیا را در نبرد ترافالگار در ۱۸۰۵ رهبری کرد؟",
+     "options": [
+      "Admiral Nelson",
+      "The Duke of Wellington",
+      "Oliver Cromwell",
+      "Sir Francis Drake"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Admiral Nelson won at Trafalgar; his statue stands on Nelson's Column in Trafalgar Square.",
+     "whyFa": "دریاسالار نلسون در ترافالگار پیروز شد؛ مجسمه‌اش بر ستون نلسون در میدان ترافالگار است."
+    },
+    {
+     "id": "history_14",
+     "q": "Who defeated Napoleon at the Battle of Waterloo in 1815?",
+     "fa": "چه کسی ناپلئون را در نبرد واترلو در ۱۸۱۵ شکست داد؟",
+     "options": [
+      "The Duke of Wellington",
+      "Admiral Nelson",
+      "Winston Churchill",
+      "King George III"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Duke of Wellington led the army that defeated Napoleon at Waterloo.",
+     "whyFa": "دوک ولینگتون ارتشی را رهبری کرد که ناپلئون را در واترلو شکست داد."
+    },
+    {
+     "id": "history_15",
+     "q": "In 1918, which women were given the right to vote?",
+     "fa": "در ۱۹۱۸ کدام زنان حق رأی گرفتند؟",
+     "options": [
+      "Women over 30",
+      "All women over 18",
+      "Only married women",
+      "Women over 21"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Women over 30 got the vote in 1918; in 1928 women could vote at 21, the same as men.",
+     "whyFa": "زنان بالای ۳۰ سال در ۱۹۱۸ حق رأی گرفتند؛ در ۱۹۲۸ زنان مثل مردان از ۲۱ سالگی رأی دادند."
+    },
+    {
+     "id": "history_16",
+     "q": "Who was Prime Minister for most of the Second World War?",
+     "fa": "در بیشتر دوران جنگ جهانی دوم چه کسی نخست‌وزیر بود؟",
+     "options": [
+      "Winston Churchill",
+      "Margaret Thatcher",
+      "Clement Attlee",
+      "David Lloyd George"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Winston Churchill became Prime Minister in 1940 and led Britain through most of the war.",
+     "whyFa": "وینستون چرچیل در ۱۹۴۰ نخست‌وزیر شد و بریتانیا را در بیشتر دوران جنگ رهبری کرد."
+    },
+    {
+     "id": "history_17",
+     "q": "On what date did the D-Day landings in Normandy take place?",
+     "fa": "فرود نیروها در نورماندی (روز دی) در چه تاریخی بود؟",
+     "options": [
+      "6 June 1944",
+      "11 November 1918",
+      "1 September 1939",
+      "8 May 1945"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Allied forces landed in Normandy on 6 June 1944.",
+     "whyFa": "نیروهای متفقین در ۶ ژوئن ۱۹۴۴ در نورماندی پیاده شدند."
+    },
+    {
+     "id": "history_18",
+     "q": "In which year was the National Health Service (NHS) founded?",
+     "fa": "خدمات ملی سلامت (NHS) در چه سالی تأسیس شد؟",
+     "options": [
+      "1948",
+      "1918",
+      "1965",
+      "1979"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The NHS began in 1948; Aneurin (Nye) Bevan was the minister who led it.",
+     "whyFa": "NHS در ۱۹۴۸ آغاز شد و آنورین (نای) بوان وزیر مسئول آن بود."
+    },
+    {
+     "id": "history_19",
+     "q": "Who discovered penicillin?",
+     "fa": "چه کسی پنی‌سیلین را کشف کرد؟",
+     "options": [
+      "Alexander Fleming",
+      "Isaac Newton",
+      "Charles Darwin",
+      "John Logie Baird"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Alexander Fleming discovered penicillin in 1928.",
+     "whyFa": "الکساندر فلمینگ پنی‌سیلین را در ۱۹۲۸ کشف کرد."
+    },
+    {
+     "id": "history_20",
+     "q": "Who was the first woman to become Prime Minister of the UK?",
+     "fa": "نخستین زنی که نخست‌وزیر بریتانیا شد که بود؟",
+     "options": [
+      "Margaret Thatcher",
+      "Theresa May",
+      "Emmeline Pankhurst",
+      "Elizabeth Fry"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Margaret Thatcher became Prime Minister in 1979.",
+     "whyFa": "مارگارت تاچر در ۱۹۷۹ نخست‌وزیر شد."
+    },
+    {
+     "id": "history_21",
+     "q": "Who invented the World Wide Web?",
+     "fa": "چه کسی وب جهان‌گستر را اختراع کرد؟",
+     "options": [
+      "Sir Tim Berners-Lee",
+      "John Logie Baird",
+      "Alan Turing",
+      "Frank Whittle"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Tim Berners-Lee, a British scientist, created the World Wide Web around 1990.",
+     "whyFa": "تیم برنرز لی، دانشمند بریتانیایی، وب جهان‌گستر را حدود ۱۹۹۰ ساخت."
+    }
+   ]
+  },
+  {
+   "id": "society",
+   "title": "Modern society",
+   "titleFa": "جامعهٔ امروز",
+   "src": [
+    "https://www.gov.uk/tv-licence",
+    "https://www.gov.uk/driving-lessons-learning-to-drive",
+    "https://www.gov.uk/getting-an-mot",
+    "https://www.parliament.uk/bigben"
+   ],
+   "expl": [
+    {
+     "en": "Each country has its own capital: London for England, Edinburgh for Scotland, Cardiff for Wales and Belfast for Northern Ireland. Ben Nevis in Scotland is the highest mountain in the UK.",
+     "fa": "هر کشور پایتخت خودش را دارد: لندن برای انگلستان، ادینبرو برای اسکاتلند، کاردیف برای ولز و بلفاست برای ایرلند شمالی. بن نویس در اسکاتلند بلندترین کوه بریتانیاست.",
+     "ms": 12696
+    },
+    {
+     "en": "The year has many traditions. Bonfire Night on the fifth of November remembers the Gunpowder Plot of 1605. On Remembrance Day, the eleventh of November, people wear poppies for those who died in wars. In Scotland, New Year's Eve is called Hogmanay.",
+     "fa": "سال پر از سنت است. شب آتش‌بازی در پنجم نوامبر یادآور توطئهٔ باروت ۱۶۰۵ است. در روز یادبود، یازدهم نوامبر، مردم به یاد جان‌باختگان جنگ گل خشخاش می‌زنند. در اسکاتلند شب سال نو را «هاگمنی» می‌نامند.",
+     "ms": 19104
+    },
+    {
+     "en": "Sport matters to many people. Wimbledon is the oldest tennis tournament in the world, the Grand National is a famous horse race at Aintree, and St Andrews in Scotland is known as the home of golf.",
+     "fa": "ورزش برای بسیاری مهم است. ویمبلدون قدیمی‌ترین مسابقهٔ تنیس جهان است، گرند نشنال مسابقهٔ مشهور اسب‌دوانی در اینتری است و سنت اندروز در اسکاتلند خانهٔ گلف شناخته می‌شود.",
+     "ms": 12960
+    },
+    {
+     "en": "Everyday rules matter too. You can start learning to drive a car at seventeen. You need a TV licence to watch live television or BBC iPlayer. In an emergency, call nine nine nine or one one two.",
+     "fa": "قانون‌های روزمره هم مهم‌اند. از هفده سالگی می‌توانی رانندگی ماشین را یاد بگیری. برای تماشای تلویزیون زنده یا بی‌بی‌سی آی‌پلیر مجوز تلویزیون لازم است. در وضعیت اضطراری با ۹۹۹ یا ۱۱۲ تماس بگیر.",
+     "ms": 16152
+    }
+   ],
+   "cards": [
+    {
+     "front": "Edinburgh",
+     "back": "Capital of Scotland",
+     "fa": "پایتخت اسکاتلند"
+    },
+    {
+     "front": "Cardiff",
+     "back": "Capital of Wales",
+     "fa": "پایتخت ولز"
+    },
+    {
+     "front": "Belfast",
+     "back": "Capital of Northern Ireland",
+     "fa": "پایتخت ایرلند شمالی"
+    },
+    {
+     "front": "Ben Nevis",
+     "back": "Highest mountain in the UK, in Scotland",
+     "fa": "بلندترین کوه بریتانیا، در اسکاتلند"
+    },
+    {
+     "front": "Hogmanay",
+     "back": "New Year's Eve in Scotland",
+     "fa": "شب سال نو در اسکاتلند"
+    },
+    {
+     "front": "Bonfire Night",
+     "back": "5 November: remembers the Gunpowder Plot of 1605",
+     "fa": "پنجم نوامبر: یادآور توطئهٔ باروت ۱۶۰۵"
+    },
+    {
+     "front": "Remembrance Day",
+     "back": "11 November: poppies for those who died in wars",
+     "fa": "یازدهم نوامبر: گل خشخاش برای جان‌باختگان جنگ"
+    },
+    {
+     "front": "Wimbledon",
+     "back": "The oldest tennis tournament in the world",
+     "fa": "قدیمی‌ترین مسابقهٔ تنیس جهان"
+    },
+    {
+     "front": "Big Ben",
+     "back": "The nickname of the great bell in the Elizabeth Tower",
+     "fa": "نام خودمانی ناقوس بزرگ برج الیزابت"
+    },
+    {
+     "front": "Eisteddfod",
+     "back": "A Welsh festival of music, poetry and dance",
+     "fa": "جشنوارهٔ ولزی موسیقی، شعر و رقص"
+    }
+   ],
+   "qs": [
+    {
+     "id": "society_01",
+     "q": "What is the capital city of Wales?",
+     "fa": "پایتخت ولز کجاست؟",
+     "options": [
+      "Cardiff",
+      "Swansea",
+      "Belfast",
+      "Edinburgh"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Cardiff is the capital of Wales.",
+     "whyFa": "کاردیف پایتخت ولز است."
+    },
+    {
+     "id": "society_02",
+     "q": "What is the capital city of Northern Ireland?",
+     "fa": "پایتخت ایرلند شمالی کجاست؟",
+     "options": [
+      "Belfast",
+      "Dublin",
+      "Cardiff",
+      "Derry"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Belfast is the capital of Northern Ireland. Dublin is the capital of the Republic of Ireland, a different country.",
+     "whyFa": "بلفاست پایتخت ایرلند شمالی است؛ دوبلین پایتخت جمهوری ایرلند، کشوری دیگر، است."
+    },
+    {
+     "id": "society_03",
+     "q": "What is the capital city of Scotland?",
+     "fa": "پایتخت اسکاتلند کجاست؟",
+     "options": [
+      "Edinburgh",
+      "Glasgow",
+      "Aberdeen",
+      "Dundee"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Edinburgh is Scotland's capital; Glasgow is its largest city.",
+     "whyFa": "ادینبرو پایتخت اسکاتلند است؛ گلاسگو بزرگ‌ترین شهر آن."
+    },
+    {
+     "id": "society_04",
+     "q": "What is the highest mountain in the UK?",
+     "fa": "بلندترین کوه بریتانیا کدام است؟",
+     "options": [
+      "Ben Nevis",
+      "Snowdon",
+      "Scafell Pike",
+      "Slieve Donard"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Ben Nevis, in the Scottish Highlands, is the highest mountain in the UK.",
+     "whyFa": "بن نویس در ارتفاعات اسکاتلند بلندترین کوه بریتانیاست."
+    },
+    {
+     "id": "society_05",
+     "q": "What do people in Scotland call New Year's Eve?",
+     "fa": "مردم اسکاتلند شب سال نو را چه می‌نامند؟",
+     "options": [
+      "Hogmanay",
+      "Burns Night",
+      "Eisteddfod",
+      "Boxing Day"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Hogmanay is the Scottish name for New Year's Eve, 31 December.",
+     "whyFa": "هاگمنی نام اسکاتلندی شب سال نو، ۳۱ دسامبر، است."
+    },
+    {
+     "id": "society_06",
+     "q": "Which event does Bonfire Night on 5 November remember?",
+     "fa": "شب آتش‌بازی در پنجم نوامبر یادآور کدام رویداد است؟",
+     "options": [
+      "The Gunpowder Plot of 1605",
+      "The end of the First World War",
+      "The Battle of Hastings",
+      "The signing of Magna Carta"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "In 1605 a group tried to blow up the Houses of Parliament; the plot failed.",
+     "whyFa": "در ۱۶۰۵ گروهی خواستند ساختمان پارلمان را منفجر کنند؛ این توطئه شکست خورد."
+    },
+    {
+     "id": "society_07",
+     "q": "On Remembrance Day, what flowers do many people wear?",
+     "fa": "در روز یادبود بسیاری از مردم چه گلی به لباس می‌زنند؟",
+     "options": [
+      "Poppies",
+      "Roses",
+      "Daffodils",
+      "Thistles"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Poppies remember people who died in the First World War and later conflicts.",
+     "whyFa": "گل خشخاش یاد جان‌باختگان جنگ جهانی اول و جنگ‌های بعدی را زنده نگه می‌دارد."
+    },
+    {
+     "id": "society_08",
+     "q": "When is Remembrance Day?",
+     "fa": "روز یادبود چه روزی است؟",
+     "options": [
+      "11 November",
+      "5 November",
+      "25 January",
+      "1 March"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Remembrance Day is 11 November, the day the First World War ended in 1918.",
+     "whyFa": "روز یادبود ۱۱ نوامبر است، روزی که جنگ جهانی اول در ۱۹۱۸ پایان یافت."
+    },
+    {
+     "id": "society_09",
+     "q": "Which sport is played at Wimbledon?",
+     "fa": "در ویمبلدون چه ورزشی بازی می‌شود؟",
+     "options": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Rugby"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Wimbledon is the oldest tennis tournament in the world.",
+     "whyFa": "ویمبلدون قدیمی‌ترین مسابقهٔ تنیس جهان است."
+    },
+    {
+     "id": "society_10",
+     "q": "The Grand National is a famous...",
+     "fa": "گرند نشنال یک ... مشهور است.",
+     "options": [
+      "Horse race",
+      "Football cup final",
+      "Golf championship",
+      "Rowing race"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Grand National is a horse race held at Aintree, near Liverpool.",
+     "whyFa": "گرند نشنال مسابقهٔ اسب‌دوانی در اینتری نزدیک لیورپول است."
+    },
+    {
+     "id": "society_11",
+     "q": "Which Scottish town is known as the home of golf?",
+     "fa": "کدام شهر اسکاتلند خانهٔ گلف شناخته می‌شود؟",
+     "options": [
+      "St Andrews",
+      "Inverness",
+      "Stirling",
+      "Perth"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St Andrews is known around the world as the home of golf.",
+     "whyFa": "سنت اندروز در سراسر جهان به خانهٔ گلف معروف است."
+    },
+    {
+     "id": "society_12",
+     "q": "Big Ben is the name of the great bell in the clock tower of the Houses of Parliament. True or false?",
+     "fa": "«بیگ بن» نام ناقوس بزرگ برج ساعت ساختمان پارلمان است. درست یا نادرست؟",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "Big Ben is the nickname of the Great Bell; since 2012 the tower has been called the Elizabeth Tower.",
+     "whyFa": "بیگ بن نام خودمانی ناقوس بزرگ است؛ این برج از ۲۰۱۲ «برج الیزابت» نام دارد."
+    },
+    {
+     "id": "society_13",
+     "q": "When is Burns Night, which celebrates the Scottish poet Robert Burns?",
+     "fa": "شب برنز، جشن شاعر اسکاتلندی رابرت برنز، کی است؟",
+     "options": [
+      "25 January",
+      "30 November",
+      "31 December",
+      "17 March"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Burns Night is 25 January, Robert Burns's birthday.",
+     "whyFa": "شب برنز ۲۵ ژانویه، سالروز تولد رابرت برنز، است."
+    },
+    {
+     "id": "society_14",
+     "q": "What is an Eisteddfod?",
+     "fa": "ایستدفود چیست؟",
+     "options": [
+      "A Welsh festival of music, poetry and dance",
+      "A Scottish New Year party",
+      "A type of Irish dance",
+      "A horse race in England"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Eisteddfodau celebrate Welsh culture, language, music and poetry.",
+     "whyFa": "ایستدفودها فرهنگ، زبان، موسیقی و شعر ولزی را جشن می‌گیرند."
+    },
+    {
+     "id": "society_15",
+     "q": "At what age can you start learning to drive a car in the UK?",
+     "fa": "در بریتانیا از چند سالگی می‌توان رانندگی ماشین را یاد گرفت؟",
+     "options": [
+      "17",
+      "15",
+      "16",
+      "21"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "You can apply for a provisional licence before your birthday and start driving a car at 17.",
+     "whyFa": "می‌توانی گواهی موقت بگیری و از ۱۷ سالگی رانندگی ماشین را شروع کنی."
+    },
+    {
+     "id": "society_16",
+     "q": "What do you need to watch live TV or BBC iPlayer in the UK?",
+     "fa": "برای تماشای تلویزیون زنده یا بی‌بی‌سی آی‌پلیر در بریتانیا چه لازم است؟",
+     "options": [
+      "A TV licence",
+      "A driving licence",
+      "A passport",
+      "A library card"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "A TV licence is needed to watch or record live TV on any channel, or to use BBC iPlayer.",
+     "whyFa": "برای تماشا یا ضبط تلویزیون زنده در هر کانال، یا استفاده از بی‌بی‌سی آی‌پلیر، مجوز تلویزیون لازم است."
+    },
+    {
+     "id": "society_17",
+     "q": "Which number should you call in an emergency?",
+     "fa": "در وضعیت اضطراری با چه شماره‌ای تماس می‌گیری؟",
+     "options": [
+      "999 or 112",
+      "101",
+      "111",
+      "911"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "999 and 112 reach police, fire and ambulance. 101 is for non-emergency police calls, and 111 for non-emergency health advice.",
+     "whyFa": "۹۹۹ و ۱۱۲ به پلیس، آتش‌نشانی و آمبولانس وصل می‌شوند. ۱۰۱ برای پلیسِ غیراضطراری و ۱۱۱ برای مشاورهٔ پزشکیِ غیراضطراری است."
+    },
+    {
+     "id": "society_18",
+     "q": "Cars must usually have their first MOT test when they are three years old. True or false?",
+     "fa": "خودروها معمولاً باید نخستین آزمون فنی (MOT) را در سه‌سالگی بدهند. درست یا نادرست؟",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "In Great Britain the first MOT is due by the third anniversary of registration, then every year.",
+     "whyFa": "در بریتانیای کبیر نخستین MOT تا سومین سالگرد ثبت خودرو و بعد هر سال لازم است."
+    },
+    {
+     "id": "society_19",
+     "q": "Who wrote Oliver Twist?",
+     "fa": "چه کسی الیور توئیست را نوشت؟",
+     "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Thomas Hardy",
+      "Robert Burns"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Charles Dickens wrote Oliver Twist and A Christmas Carol.",
+     "whyFa": "چارلز دیکنز الیور توئیست و سرود کریسمس را نوشت."
+    },
+    {
+     "id": "society_20",
+     "q": "What is the national day of Ireland, also celebrated in Northern Ireland, on 17 March?",
+     "fa": "روز ملی ایرلند که در ایرلند شمالی هم در ۱۷ مارس جشن گرفته می‌شود چیست؟",
+     "options": [
+      "St Patrick's Day",
+      "St David's Day",
+      "St George's Day",
+      "St Andrew's Day"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "St Patrick's Day is 17 March and is a bank holiday in Northern Ireland.",
+     "whyFa": "روز سنت پاتریک ۱۷ مارس و در ایرلند شمالی تعطیل رسمی است."
+    }
+   ]
+  },
+  {
+   "id": "law",
+   "title": "Government and law",
+   "titleFa": "دولت و قانون",
+   "src": [
+    "https://www.parliament.uk/about/mps-and-lords/",
+    "https://www.parliament.scot/about",
+    "https://senedd.wales/",
+    "https://www.niassembly.gov.uk/",
+    "https://www.gov.uk/jury-service",
+    "https://www.gov.uk/make-court-claim-for-money",
+    "https://www.gov.uk/marriages-civil-partnerships",
+    "https://thecommonwealth.org/about-us",
+    "https://www.legislation.gov.uk/ukpga/2026/12"
+   ],
+   "expl": [
+    {
+     "en": "The UK is a parliamentary democracy with a constitutional monarch. The King is head of state, but the elected government runs the country. Parliament has two Houses: the elected House of Commons and the House of Lords, whose members are appointed.",
+     "fa": "بریتانیا دموکراسی پارلمانی با پادشاهی مشروطه است. پادشاه رئیس کشور است ولی دولتِ منتخب کشور را اداره می‌کند. پارلمان دو مجلس دارد: مجلس عوامِ منتخب و مجلس اعیان که اعضایش منصوب می‌شوند.",
+     "ms": 16367
+    },
+    {
+     "en": "There are six hundred and fifty Members of Parliament, one for each constituency. A general election must be held at least every five years. The Prime Minister leads the government and chooses the Cabinet, and the Speaker keeps order in the House of Commons.",
+     "fa": "۶۵۰ نمایندهٔ پارلمان وجود دارد، یکی برای هر حوزه. انتخابات عمومی باید دست‌کم هر پنج سال برگزار شود. نخست‌وزیر دولت را رهبری می‌کند و کابینه را برمی‌گزیند و رئیس مجلس نظم مجلس عوام را حفظ می‌کند.",
+     "ms": 16367
+    },
+    {
+     "en": "Some powers are devolved. The Scottish Parliament sits in Edinburgh, the Senedd, the Welsh Parliament, sits in Cardiff, and the Northern Ireland Assembly sits at Stormont in Belfast.",
+     "fa": "برخی اختیارات واگذار شده‌اند. پارلمان اسکاتلند در ادینبرو، سِنِد یا پارلمان ولز در کاردیف و مجمع ایرلند شمالی در استورمونت بلفاست مستقر است.",
+     "ms": 12216
+    },
+    {
+     "en": "Minor criminal cases go to a magistrates' court. Serious cases go to a Crown Court, where a jury of twelve people decides the verdict in England and Wales. Small money claims can be made online. Discrimination is against the law under the Equality Act 2010.",
+     "fa": "پرونده‌های کیفری کوچک به دادگاه بخش می‌روند. پرونده‌های جدی به دادگاه تاج می‌روند و در انگلستان و ولز هیئت‌منصفهٔ دوازده‌نفره رأی می‌دهد. شکایت‌های مالی کوچک را می‌توان آنلاین ثبت کرد. تبعیض طبق قانون برابری ۲۰۱۰ غیرقانونی است.",
+     "ms": 19512
+    }
+   ],
+   "cards": [
+    {
+     "front": "Head of state",
+     "back": "The King: a constitutional monarch",
+     "fa": "پادشاه: پادشاهی مشروطه"
+    },
+    {
+     "front": "House of Commons",
+     "back": "The elected House: 650 MPs",
+     "fa": "مجلس منتخب: ۶۵۰ نماینده"
+    },
+    {
+     "front": "House of Lords",
+     "back": "Members are appointed, not elected",
+     "fa": "اعضا منصوب می‌شوند، نه انتخاب"
+    },
+    {
+     "front": "The Speaker",
+     "back": "Keeps order in the House of Commons; politically neutral",
+     "fa": "نظم مجلس عوام را حفظ می‌کند؛ بی‌طرف است"
+    },
+    {
+     "front": "Holyrood",
+     "back": "The Scottish Parliament, Edinburgh",
+     "fa": "پارلمان اسکاتلند، ادینبرو"
+    },
+    {
+     "front": "The Senedd",
+     "back": "The Welsh Parliament, Cardiff",
+     "fa": "پارلمان ولز، کاردیف"
+    },
+    {
+     "front": "Stormont",
+     "back": "The Northern Ireland Assembly, Belfast",
+     "fa": "مجمع ایرلند شمالی، بلفاست"
+    },
+    {
+     "front": "Crown Court",
+     "back": "Serious criminal cases, with a jury",
+     "fa": "پرونده‌های کیفری جدی، با هیئت‌منصفه"
+    },
+    {
+     "front": "Magistrates' court",
+     "back": "Minor criminal cases (England, Wales and Northern Ireland)",
+     "fa": "پرونده‌های کیفری کوچک"
+    },
+    {
+     "front": "Equality Act 2010",
+     "back": "Makes discrimination illegal",
+     "fa": "تبعیض را غیرقانونی می‌کند"
+    }
+   ],
+   "qs": [
+    {
+     "id": "law_01",
+     "q": "What type of government does the UK have?",
+     "fa": "بریتانیا چه نوع حکومتی دارد؟",
+     "options": [
+      "A parliamentary democracy with a constitutional monarch",
+      "An absolute monarchy",
+      "A republic with a president",
+      "A one-party state"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The monarch is head of state, but Parliament makes the laws and the elected government runs the country.",
+     "whyFa": "پادشاه رئیس کشور است ولی پارلمان قانون می‌گذارد و دولت منتخب کشور را اداره می‌کند."
+    },
+    {
+     "id": "law_02",
+     "q": "Who is the head of state of the UK?",
+     "fa": "رئیس کشور بریتانیا کیست؟",
+     "options": [
+      "The King",
+      "The Prime Minister",
+      "The Speaker",
+      "The Lord Chancellor"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "King Charles III is the head of state; the Prime Minister is the head of the government.",
+     "whyFa": "پادشاه چارلز سوم رئیس کشور است؛ نخست‌وزیر رئیس دولت است."
+    },
+    {
+     "id": "law_03",
+     "q": "How many Members of Parliament (MPs) are there in the House of Commons?",
+     "fa": "مجلس عوام چند نماینده دارد؟",
+     "options": [
+      "650",
+      "500",
+      "129",
+      "1,000"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "There are 650 MPs, one for each constituency.",
+     "whyFa": "۶۵۰ نماینده وجود دارد، یکی برای هر حوزه."
+    },
+    {
+     "id": "law_04",
+     "q": "How often must a general election be held?",
+     "fa": "انتخابات عمومی هر چند وقت یک بار باید برگزار شود؟",
+     "options": [
+      "At least every five years",
+      "Every year",
+      "Every ten years",
+      "Whenever the King chooses"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "A general election must take place at least every five years.",
+     "whyFa": "انتخابات عمومی باید دست‌کم هر پنج سال یک بار برگزار شود."
+    },
+    {
+     "id": "law_05",
+     "q": "Members of the House of Lords are elected by the public. True or false?",
+     "fa": "اعضای مجلس اعیان با رأی مردم انتخاب می‌شوند. درست یا نادرست؟",
+     "options": [
+      "FALSE",
+      "TRUE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "Members of the House of Lords are not elected; most are appointed as life peers.",
+     "whyFa": "اعضای مجلس اعیان انتخاب نمی‌شوند؛ بیشترشان به‌عنوان اعیان مادام‌العمر منصوب می‌شوند."
+    },
+    {
+     "id": "law_06",
+     "q": "Who keeps order during debates in the House of Commons?",
+     "fa": "چه کسی در مناظره‌های مجلس عوام نظم را حفظ می‌کند؟",
+     "options": [
+      "The Speaker",
+      "The Prime Minister",
+      "The King",
+      "The Leader of the Opposition"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Speaker chairs debates and must stay politically neutral.",
+     "whyFa": "رئیس مجلس مناظره‌ها را اداره می‌کند و باید بی‌طرف بماند."
+    },
+    {
+     "id": "law_07",
+     "q": "Who chooses the members of the Cabinet?",
+     "fa": "چه کسی اعضای کابینه را انتخاب می‌کند؟",
+     "options": [
+      "The Prime Minister",
+      "The Speaker",
+      "The House of Lords",
+      "The voters directly"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Prime Minister appoints the Cabinet, a small group of senior ministers.",
+     "whyFa": "نخست‌وزیر کابینه، یعنی گروه کوچکی از وزیران ارشد، را منصوب می‌کند."
+    },
+    {
+     "id": "law_08",
+     "q": "Which minister is responsible for the economy?",
+     "fa": "کدام وزیر مسئول اقتصاد است؟",
+     "options": [
+      "The Chancellor of the Exchequer",
+      "The Home Secretary",
+      "The Foreign Secretary",
+      "The Lord Chancellor"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Chancellor of the Exchequer is responsible for the economy and taxes.",
+     "whyFa": "وزیر دارایی (چنسلر خزانه) مسئول اقتصاد و مالیات است."
+    },
+    {
+     "id": "law_09",
+     "q": "Where does the Scottish Parliament sit?",
+     "fa": "پارلمان اسکاتلند کجا مستقر است؟",
+     "options": [
+      "Edinburgh",
+      "Glasgow",
+      "London",
+      "Aberdeen"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Scottish Parliament meets at Holyrood in Edinburgh.",
+     "whyFa": "پارلمان اسکاتلند در هالی‌رود ادینبرو تشکیل می‌شود."
+    },
+    {
+     "id": "law_10",
+     "q": "Where does the Senedd, the Welsh Parliament, meet?",
+     "fa": "سِنِد، پارلمان ولز، کجا تشکیل می‌شود؟",
+     "options": [
+      "Cardiff",
+      "Swansea",
+      "London",
+      "Bangor"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Senedd meets in Cardiff Bay.",
+     "whyFa": "سِنِد در خلیج کاردیف تشکیل می‌شود."
+    },
+    {
+     "id": "law_11",
+     "q": "What is the Northern Ireland Assembly often called, after the place where it meets?",
+     "fa": "مجمع ایرلند شمالی را اغلب به نام محل تشکیلش چه می‌نامند؟",
+     "options": [
+      "Stormont",
+      "Holyrood",
+      "Westminster",
+      "Whitehall"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Assembly meets at Parliament Buildings, Stormont, in Belfast.",
+     "whyFa": "این مجمع در ساختمان پارلمان استورمونت در بلفاست تشکیل می‌شود."
+    },
+    {
+     "id": "law_12",
+     "q": "How many members does the Scottish Parliament have?",
+     "fa": "پارلمان اسکاتلند چند عضو دارد؟",
+     "options": [
+      "129",
+      "60",
+      "90",
+      "650"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Scottish Parliament has 129 Members (MSPs).",
+     "whyFa": "پارلمان اسکاتلند ۱۲۹ عضو دارد."
+    },
+    {
+     "id": "law_13",
+     "q": "Which court deals with serious criminal cases in England and Wales, with a jury?",
+     "fa": "کدام دادگاه در انگلستان و ولز پرونده‌های کیفری جدی را با هیئت‌منصفه رسیدگی می‌کند؟",
+     "options": [
+      "The Crown Court",
+      "A magistrates' court",
+      "A youth court",
+      "The small claims court"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Serious criminal cases are tried at the Crown Court before a judge and jury.",
+     "whyFa": "پرونده‌های جدی در دادگاه تاج با قاضی و هیئت‌منصفه رسیدگی می‌شوند."
+    },
+    {
+     "id": "law_14",
+     "q": "How many people sit on a jury in a criminal trial in England and Wales?",
+     "fa": "در انگلستان و ولز هیئت‌منصفهٔ دادگاه کیفری چند نفر است؟",
+     "options": [
+      "12",
+      "6",
+      "15",
+      "20"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "A jury in England and Wales has 12 people. Scotland has its own rules.",
+     "whyFa": "هیئت‌منصفه در انگلستان و ولز ۱۲ نفر است؛ اسکاتلند قواعد خودش را دارد."
+    },
+    {
+     "id": "law_15",
+     "q": "How are people chosen for jury service?",
+     "fa": "افراد چگونه برای عضویت در هیئت‌منصفه انتخاب می‌شوند؟",
+     "options": [
+      "At random from the electoral register",
+      "They volunteer online",
+      "Their employer chooses them",
+      "Only lawyers can be chosen"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Names are chosen at random from the electoral register.",
+     "whyFa": "نام‌ها به‌صورت تصادفی از فهرست رأی‌دهندگان انتخاب می‌شوند."
+    },
+    {
+     "id": "law_16",
+     "q": "Which law makes discrimination illegal in areas such as work and services?",
+     "fa": "کدام قانون تبعیض را در زمینه‌هایی مثل کار و خدمات غیرقانونی می‌کند؟",
+     "options": [
+      "The Equality Act 2010",
+      "Magna Carta",
+      "The Act of Union",
+      "The Bill of Rights 1689"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Equality Act 2010 protects people from discrimination because of things like age, disability, race, religion and sex.",
+     "whyFa": "قانون برابری ۲۰۱۰ مردم را در برابر تبعیض بر پایهٔ سن، معلولیت، نژاد، دین، جنسیت و موارد دیگر حمایت می‌کند."
+    },
+    {
+     "id": "law_17",
+     "q": "In England and Wales, what is the minimum age to get married?",
+     "fa": "در انگلستان و ولز حداقل سن ازدواج چند سال است؟",
+     "options": [
+      "18",
+      "16",
+      "21",
+      "14"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Since February 2023 the minimum age in England and Wales has been 18, even with parental consent. Forcing someone to marry is a crime.",
+     "whyFa": "از فوریهٔ ۲۰۲۳ حداقل سن در انگلستان و ولز ۱۸ است، حتی با رضایت والدین. وادار کردن کسی به ازدواج جرم است."
+    },
+    {
+     "id": "law_18",
+     "q": "Which international organisation does the UK belong to, with 56 member countries?",
+     "fa": "بریتانیا عضو کدام سازمان بین‌المللی با ۵۶ کشور عضو است؟",
+     "options": [
+      "The Commonwealth",
+      "The European Union",
+      "The African Union",
+      "ASEAN"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "The Commonwealth is a voluntary association of 56 independent countries.",
+     "whyFa": "کشورهای مشترک‌المنافع انجمنی داوطلبانه از ۵۶ کشور مستقل است."
+    },
+    {
+     "id": "law_19",
+     "q": "The UK left the European Union on 31 January 2020. True or false?",
+     "fa": "بریتانیا در ۳۱ ژانویهٔ ۲۰۲۰ از اتحادیهٔ اروپا خارج شد. درست یا نادرست؟",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0,
+     "tf": true,
+     "why": "The UK left the EU on 31 January 2020, after the 2016 referendum.",
+     "whyFa": "بریتانیا پس از همه‌پرسی ۲۰۱۶، در ۳۱ ژانویهٔ ۲۰۲۰ از اتحادیهٔ اروپا خارج شد."
+    },
+    {
+     "id": "law_20",
+     "q": "How do people vote in UK elections?",
+     "fa": "مردم در انتخابات بریتانیا چگونه رأی می‌دهند؟",
+     "options": [
+      "By secret ballot",
+      "By a show of hands",
+      "By telling a police officer",
+      "By signing a public list"
+     ],
+     "answer": 0,
+     "tf": false,
+     "why": "Voting is secret: nobody can make you say who you voted for.",
+     "whyFa": "رأی‌گیری مخفی است: هیچ‌کس نمی‌تواند تو را وادار کند بگویی به چه کسی رأی داده‌ای."
+    }
+   ]
+  }
+ ],
+ "mock": {
+  "questions": 24,
+  "minutes": 45,
+  "pass": 75
+ }
+}
