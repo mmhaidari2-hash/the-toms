@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import '../shared/nav.dart';
@@ -91,7 +90,11 @@ class _Msg {
   final String text;
   final DialogueNode? node;
   final String? system;
-  const _Msg(this.speaker, this.text, {this.node, this.system});
+  /// Translation and the unreplaced text (the voice clip key) for replaying this bubble.
+  final String? fa, raw;
+  /// Inline feedback card ("Vida warmed to that") placed in the chat.
+  final _Feedback? fb;
+  const _Msg(this.speaker, this.text, {this.node, this.system, this.fa, this.raw, this.fb});
 }
 
 enum _Panel { none, xray, translate, culture, shadow }
@@ -122,17 +125,20 @@ class _ChatState extends ConsumerState<_Chat> {
   String _lineSpeaker = '';
   Hotspot? _tapped;
   double? _pan; double _curAx = 0; bool _dragging = false;
-  final _sheetKey = GlobalKey();
-  double _sheetH() => (_sheetKey.currentContext?.findRenderObject() as RenderBox?)?.size.height ?? MediaQuery.sizeOf(context).height * .42;
   Offset? _tapAt;
   String _line = '';
   String _raw = '';
   double get _autoRate => const ['A0', 'A1'].contains(widget.s.level) ? Voice.rates[1] : 1.0;
   String? _lineFa;
-  String? _myLast;
   bool _typing = false, _ended = false, _hints = false, _listening = false, _recording = false;
   _Panel _panel = _Panel.none;
-  _Feedback? _fb;
+  // Setting feedback also drops it into the chat, right after the reply it is about.
+  set _fb(_Feedback? f) {
+    if (f != null) _msgs.add(_Msg('', '', fb: f));
+  }
+  /// The bubble whose tools are open (null = the latest line).
+  int? _sel;
+  final _scroll = ScrollController();
   int _misses = 0, _trustGained = 0, _said = 0, _correct = 0, _slips = 0;
   final _perChar = <String, int>{};
   final _recasts = <(String, String, String)>[];
@@ -191,6 +197,7 @@ class _ChatState extends ConsumerState<_Chat> {
     }
     _input.dispose();
     _focus.dispose();
+    _scroll.dispose();
     Voice.stop();
     super.dispose();
   }
@@ -209,7 +216,8 @@ class _ChatState extends ConsumerState<_Chat> {
       _raw = text;
       _lineFa = fa;
       _panel = _Panel.none;
-      _msgs.add(_Msg(speaker, _t(text)));
+      _sel = null;
+      _msgs.add(_Msg(speaker, _t(text), fa: fa, raw: text));
     });
     // Wait for the whole clip so the next line never cuts this one off mid-sentence.
     await Voice.say(speaker, text, rate: _autoRate, shown: _t(text));
@@ -230,7 +238,8 @@ class _ChatState extends ConsumerState<_Chat> {
       _line = _t(n.text);
       _raw = n.text;
       _lineFa = lineTranslation(n.translations, _lang);
-      _msgs.add(_Msg(n.speaker, _t(n.text), node: n));
+      _msgs.add(_Msg(n.speaker, _t(n.text), node: n, fa: lineTranslation(n.translations, _lang), raw: n.text));
+      _sel = null;
       _misses = 0;
       _hints = false;
       _panel = _Panel.none;
@@ -250,7 +259,6 @@ class _ChatState extends ConsumerState<_Chat> {
     _input.clear();
     _said++;
     setState(() {
-      _myLast = text;
       _msgs.add(_Msg('me', text));
     });
     final r = brain is OfflineBrain
@@ -307,9 +315,17 @@ class _ChatState extends ConsumerState<_Chat> {
 
   String _short(String s) => s.length > 28 ? '${s.substring(0, 26)}…' : s;
 
-  Future<void> _speak(Speed sp) => Voice.say(_lineSpeaker, _raw, rate: Voice.rates[sp.index], shown: _line);
+  /// Index of the bubble whose tools are showing: the tapped one, else the latest line from someone else.
+  int get _active => _sel ?? _msgs.lastIndexWhere((m) => m.speaker != 'me' && m.system == null && m.fb == null && m.text.isNotEmpty);
+  _Msg? get _activeMsg => _active < 0 || _active >= _msgs.length ? null : _msgs[_active];
 
-  Future<void> _speakText(String t, double rate) => Voice.say(_lineSpeaker, t, rate: rate);
+  Future<void> _speak(Speed sp) {
+    final m = _activeMsg;
+    if (m == null) return Voice.say(_lineSpeaker, _raw, rate: Voice.rates[sp.index], shown: _line);
+    return Voice.say(m.speaker, m.raw ?? m.text, rate: Voice.rates[sp.index], shown: m.text);
+  }
+
+  Future<void> _speakText(String t, double rate) => Voice.say(_activeMsg?.speaker ?? _lineSpeaker, t, rate: rate);
 
   Future<void> _mic() async {
     if (_listening) {
@@ -600,61 +616,185 @@ class _ChatState extends ConsumerState<_Chat> {
     final host = cv.host;
     final cover = cv.image;
     final pad = MediaQuery.paddingOf(context);
-    final h = MediaQuery.sizeOf(context).height;
     final trust = GrowthEngine.softTrust(p.trustMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
     final sp = _who(_lineSpeaker.isEmpty ? ch.id : _lineSpeaker);
-    return Stack(
-      children: [
-        // The painting is the hero.
-        Positioned.fill(
-          bottom: h * .30,
-          child: cover != null
-              ? _paintingLayer(cover, host, sp)
-              : LocationCard(art: widget.c.artOf(widget.s.id), color: ch.color),
-        ),
-        Positioned(
-          top: 0,
-          left: 0,
-          right: 0,
-          child: Stack(children: [
-            // Gradient is decoration only: it must never swallow taps meant for the painting.
-            Positioned.fill(child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Colors.black.withValues(alpha: .55), Colors.transparent]))))),
-            Padding(
-            padding: EdgeInsets.fromLTRB(8, pad.top + 4, 10, 26),
-            child: Row(
-              children: [
-                const NavButtons(light: true),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(widget.s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
-                      Text('${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
-                    ],
+    final bannerH = pad.top + 128;
+    return CustomPaint(
+      painter: _WoodGrain(),
+      child: DecoratedBox(
+        decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xF22A1D14), Color(0xFA140E0A)])),
+        child: Stack(children: [
+          Column(children: [
+            // Compact header banner: the painting (or a people-free location card) with title, speaker and hearts.
+            SizedBox(
+              key: const ValueKey('chat-banner'),
+              height: bannerH,
+              child: Stack(fit: StackFit.expand, children: [
+                cover != null ? _paintingLayer(cover, host, sp) : LocationCard(art: widget.c.artOf(widget.s.id), color: ch.color, compact: true),
+                IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Colors.black.withValues(alpha: .6), Colors.transparent, Colors.black.withValues(alpha: .55)])))),
+                Positioned(
+                  left: 8,
+                  right: 10,
+                  top: pad.top + 4,
+                  child: Row(children: [
+                    const NavButtons(light: true),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        Text(widget.s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
+                        Text('${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+                      ]),
+                    ),
+                    IconButton(
+                      tooltip: 'Transcript',
+                      onPressed: _transcript,
+                      style: IconButton.styleFrom(backgroundColor: Colors.black26),
+                      icon: const Icon(Icons.menu_book_rounded, color: Colors.white, size: 19),
+                    ),
+                  ]),
+                ),
+                Positioned(
+                  left: 12,
+                  bottom: 8,
+                  child: IgnorePointer(
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(4, 4, 10, 4),
+                      decoration: BoxDecoration(color: Colors.black45, borderRadius: BorderRadius.circular(99)),
+                      child: Row(mainAxisSize: MainAxisSize.min, children: [
+                        Avatar(sp, size: 24, ring: false),
+                        const SizedBox(width: 6),
+                        Text(sp.name, style: const TextStyle(color: Color(0xFFE8C987), fontWeight: FontWeight.w800, fontSize: 13)),
+                        const SizedBox(width: 4),
+                        Text(_mood.emoji, style: const TextStyle(fontSize: 13)),
+                        const SizedBox(width: 6),
+                        _hearts(trust),
+                      ]),
+                    ),
                   ),
                 ),
-                IconButton(
-                  tooltip: 'Transcript',
-                  onPressed: _transcript,
-                  style: IconButton.styleFrom(backgroundColor: Colors.black26),
-                  icon: const Icon(Icons.menu_book_rounded, color: Colors.white, size: 19),
-                ),
-              ],
+              ]),
             ),
-          ),
+            Expanded(child: _chatList()),
+            _bottom(pad),
           ]),
-        ),
-        if (cover != null) Positioned(left: 12, top: pad.top + 58, child: _peopleChips(_tapHost(cover, host))),
-        // The card never covers what was tapped: low taps show it at the top, high taps (faces) just above the sheet.
-        if (_tapped != null)
-          (_tapAt == null ? !_tapped!.isProp : _tapAt!.dy < (h - _sheetH()) / 2)
-              ? Positioned(left: 12, right: 12, bottom: _sheetH() + 10, child: _tapCard(_tapped!))
-              : Positioned(left: 12, right: 12, top: pad.top + (_people(cover == null ? null : _tapHost(cover, host)).length > 1 ? 100 : 64), child: _tapCard(_tapped!)),
-        Positioned(left: 0, right: 0, bottom: 0, child: KeyedSubtree(key: _sheetKey, child: _sheet(sp, trust, pad, h))),
-      ],
+          if (cover != null) Positioned(right: 10, top: pad.top + 58, child: ConstrainedBox(constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width * .5), child: _peopleChips(_tapHost(cover, host)))),
+          if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + 6, child: _tapCard(_tapped!)),
+        ]),
+      ),
     );
   }
+
+  /// WhatsApp-style transcript: everyone else on the left with a face and name, the learner on the right,
+  /// newest at the bottom (a reversed list keeps the latest line in view).
+  Widget _chatList() {
+    final items = <Widget>[
+      if (_typing) Align(key: const ValueKey('typing'), alignment: Alignment.centerLeft, child: Padding(padding: const EdgeInsets.only(left: 42, top: 4, bottom: 4), child: _bubbleBox(const _Dots(), const Color(0xFFFBF3E4), left: true))),
+      for (var i = _msgs.length - 1; i >= 0; i--) _row(i),
+    ];
+    return ListView(key: const ValueKey('chat-list'), controller: _scroll, reverse: true, padding: const EdgeInsets.fromLTRB(10, 10, 10, 8), children: items);
+  }
+
+  Widget _bubbleBox(Widget child, Color color, {required bool left}) => Container(
+    padding: const EdgeInsets.fromLTRB(12, 8, 12, 9),
+    decoration: BoxDecoration(
+      color: color,
+      borderRadius: BorderRadius.only(topLeft: Radius.circular(left ? 4 : 16), topRight: Radius.circular(left ? 16 : 4), bottomLeft: const Radius.circular(16), bottomRight: const Radius.circular(16)),
+      boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 4, offset: Offset(0, 1))],
+    ),
+    child: child,
+  );
+
+  Widget _row(int i) {
+    final m = _msgs[i];
+    final maxW = MediaQuery.sizeOf(context).width * .78;
+    if (m.fb != null) {
+      return Padding(key: ValueKey('fb-$i'), padding: const EdgeInsets.fromLTRB(42, 0, 24, 6), child: _feedback(m.fb!, index: i));
+    }
+    if (m.system != null) {
+      return Center(
+        child: Container(
+          key: ValueKey('sys-$i'),
+          margin: const EdgeInsets.symmetric(vertical: 6),
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+          decoration: BoxDecoration(color: const Color(0x33E9B949), borderRadius: BorderRadius.circular(99)),
+          child: Text(m.system!, textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFF2D891), fontSize: 12, fontWeight: FontWeight.w700)),
+        ),
+      );
+    }
+    if (m.speaker == 'me') {
+      return Align(
+        alignment: Alignment.centerRight,
+        child: Padding(
+          key: ValueKey('bubble-me-$i'),
+          padding: const EdgeInsets.only(left: 48, bottom: 6),
+          child: ConstrainedBox(
+            constraints: BoxConstraints(maxWidth: maxW),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+              Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(_meName, style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
+              _bubbleBox(Text(m.text, style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
+            ]),
+          ),
+        ),
+      );
+    }
+    final who = _who(m.speaker);
+    final active = i == _active && !_typing;
+    return Padding(
+      key: ValueKey('bubble-$i'),
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Padding(padding: const EdgeInsets.only(top: 2, right: 6), child: Avatar(who, size: 34, ring: false)),
+        Flexible(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(maxWidth: maxW),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              if (m.node?.event != null) _eventBanner(m.node!.event!),
+              GestureDetector(
+                onTap: () => setState(() {
+                  _sel = i;
+                  _panel = _Panel.none;
+                }),
+                child: _bubbleBox(
+                  Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(who.name, style: TextStyle(color: Color.lerp(who.color, Colors.black, .25), fontSize: 11.5, fontWeight: FontWeight.w800)),
+                    Text(m.text, style: BL.display(16.5, color: BL.ink, w: FontWeight.w500).copyWith(height: 1.32)),
+                  ]),
+                  active ? const Color(0xFFFFF8EA) : const Color(0xFFEFE6D8),
+                  left: true,
+                ),
+              ),
+              if (active && !_ended) Padding(padding: const EdgeInsets.only(top: 6), child: _tools(m)),
+              if (active) AnimatedSize(duration: const Duration(milliseconds: 240), curve: Curves.easeOutCubic, child: _panelView(m)),
+            ]),
+          ),
+        ),
+      ]),
+    );
+  }
+
+  /// The fixed bottom: hints, pronunciation result, notes and the composer.
+  Widget _bottom(EdgeInsets pad) => Container(
+    padding: EdgeInsets.fromLTRB(14, 6, 14, pad.bottom + 10),
+    decoration: const BoxDecoration(color: Color(0xF5140E0A), border: Border(top: BorderSide(color: Color(0x55C9A45C)))),
+    child: ConstrainedBox(
+      constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * .45),
+      child: SingleChildScrollView(
+        child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+          if ((_hints || _speaking) && !_ended && _pron == null) _hintChips(),
+          if (_pron != null)
+            PronunciationCard(
+              result: _pron!,
+              onRetry: _ended ? null : _mic,
+              onListen: () => Voice.say('me', _pron!.target),
+              onSend: _ended ? null : _sendPron,
+            ),
+          if (_speakNote != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(_speakNote!, key: const ValueKey('speak-note'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 13))),
+          const SizedBox(height: 6),
+          _speaking ? _speakComposer() : _composer(),
+        ]),
+      ),
+    ),
+  );
 
   /// The place whose hotspots match this cover painting (the story's host, or the place that owns a
   /// special story-cover painting), so every painting gets tap areas.
@@ -833,72 +973,6 @@ class _ChatState extends ConsumerState<_Chat> {
     return (cx * 2 - 1).clamp(-1.0, 1.0);
   }
 
-  Widget _sheet(Character sp, double trust, EdgeInsets pad, double h) => ClipRRect(
-    borderRadius: const BorderRadius.vertical(top: Radius.circular(26)),
-    child: BackdropFilter(
-      filter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
-      child: CustomPaint(
-        painter: _WoodGrain(),
-        child: Container(
-          constraints: BoxConstraints(minHeight: h * .34, maxHeight: h * .62),
-          padding: EdgeInsets.fromLTRB(18, 14, 18, pad.bottom + 10),
-          decoration: const BoxDecoration(
-            border: Border(top: BorderSide(color: Color(0xFFC9A45C), width: 1.4)),
-            gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xE62A1D14), Color(0xF5140E0A)]),
-          ),
-          child: SingleChildScrollView(
-            reverse: true,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                if (_node?.event != null && _lineSpeaker == _node!.speaker) _eventBanner(_node!.event!),
-                Row(
-                  children: [
-                    Avatar(sp, size: 34, ring: false),
-                    const SizedBox(width: 10),
-                    Text(sp.name, style: BL.display(16, color: const Color(0xFFE8C987))),
-                    const SizedBox(width: 6),
-                    Text(_mood.emoji, style: const TextStyle(fontSize: 15)),
-                    const Spacer(),
-                    _hearts(trust),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                if (_myLast != null)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 4),
-                    child: Text('$_meName: “$_myLast”', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white38, fontSize: 12.5, fontStyle: FontStyle.italic)),
-                  ),
-                AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 280),
-                  child: _typing
-                      ? const Padding(key: ValueKey('t'), padding: EdgeInsets.symmetric(vertical: 8), child: _Dots())
-                      : Text(_line, key: ValueKey(_line), style: BL.display(18.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500).copyWith(height: 1.35)),
-                ),
-                const SizedBox(height: 8),
-                if (_node != null && !_typing) _tools(),
-                AnimatedSize(duration: const Duration(milliseconds: 240), curve: Curves.easeOutCubic, child: _panelView()),
-                AnimatedSwitcher(duration: const Duration(milliseconds: 300), child: _fb == null ? const SizedBox.shrink() : _feedback(_fb!)),
-                if ((_hints || _speaking) && !_ended && _pron == null) _hintChips(),
-                if (_pron != null)
-                  PronunciationCard(
-                    result: _pron!,
-                    onRetry: _ended ? null : _mic,
-                    onListen: () => Voice.say('me', _pron!.target),
-                    onSend: _ended ? null : _sendPron,
-                  ),
-                if (_speakNote != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(_speakNote!, key: const ValueKey('speak-note'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 13))),
-                const SizedBox(height: 8),
-                _speaking ? _speakComposer() : _composer(),
-              ],
-            ),
-          ),
-        ),
-      ),
-    ),
-  );
-
   Widget _hearts(double trust) => Row(
     children: [
       for (var i = 0; i < 5; i++)
@@ -923,16 +997,17 @@ class _ChatState extends ConsumerState<_Chat> {
     ),
   );
 
-  Widget _tools() {
-    final n = _node!;
-    final onLine = _lineSpeaker == n.speaker && _line == _t(n.text);
+  Widget _tools(_Msg m) {
+    final n = m.node;
+    final onLine = n != null && m.text == _t(n.text);
     return Wrap(
+      key: const ValueKey('bubble-tools'),
       spacing: 6,
       runSpacing: 6,
       children: [
         for (final s in Speed.values) _pill(s == Speed.slow ? Icons.slow_motion_video_rounded : Icons.volume_up_rounded, tr(_lang, s.name), () => _speak(s)),
         if (onLine) _pill(Icons.blur_on_rounded, 'X-Ray', () => _togglePanel(_Panel.xray), on: _panel == _Panel.xray),
-        if (_lineFa != null) _pill(Icons.translate_rounded, langOf(_lang).native, () => _togglePanel(_Panel.translate), on: _panel == _Panel.translate),
+        if (m.fa != null && m.fa!.isNotEmpty) _pill(Icons.translate_rounded, langOf(_lang).native, () => _togglePanel(_Panel.translate), on: _panel == _Panel.translate),
         if (onLine && n.cultureNote != null) _pill(Icons.emoji_objects_outlined, tr(_lang, 'culture'), () => _togglePanel(_Panel.culture), on: _panel == _Panel.culture),
         if (SpeechInput.recordSupported) _pill(Icons.record_voice_over_rounded, tr(_lang, 'shadow'), () => _togglePanel(_Panel.shadow), on: _panel == _Panel.shadow),
       ],
@@ -961,9 +1036,9 @@ class _ChatState extends ConsumerState<_Chat> {
     ),
   );
 
-  Widget _panelView() {
-    final n = _node;
-    if (n == null || _panel == _Panel.none) return const SizedBox(width: double.infinity);
+  Widget _panelView(_Msg m) {
+    final n = m.node;
+    if (_panel == _Panel.none || (n == null && _panel != _Panel.translate && _panel != _Panel.shadow)) return const SizedBox(width: double.infinity);
     Widget box(Widget child) => Container(
       width: double.infinity,
       margin: const EdgeInsets.only(top: 10),
@@ -974,7 +1049,7 @@ class _ChatState extends ConsumerState<_Chat> {
     const label = TextStyle(color: Color(0xFFC9A45C), fontSize: 10, letterSpacing: 1.3, fontWeight: FontWeight.w800);
     switch (_panel) {
       case _Panel.xray:
-        final x = ConnectedSpeech.of(n);
+        final x = ConnectedSpeech.of(n!);
         return box(
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -998,7 +1073,7 @@ class _ChatState extends ConsumerState<_Chat> {
           ),
         );
       case _Panel.translate:
-        return box(SizedBox(width: double.infinity, child: Text(_lineFa ?? '', textDirection: _node!.translations.containsKey(_lang) ? dirOf(_lang) : TextDirection.rtl, style: BL.fa(14.5, color: Colors.white70))));
+        return box(SizedBox(width: double.infinity, child: Text(m.fa ?? '', textDirection: (n?.translations.containsKey(_lang) ?? false) ? dirOf(_lang) : TextDirection.rtl, style: BL.fa(14.5, color: Colors.white70))));
       case _Panel.culture:
         return box(
           Column(
@@ -1006,7 +1081,7 @@ class _ChatState extends ConsumerState<_Chat> {
             children: [
               const Text('🇬🇧  CULTURE NOTE', style: label),
               const SizedBox(height: 4),
-              Text(n.cultureNote!.en, style: const TextStyle(color: Colors.white, fontSize: 13.5)),
+              Text(n!.cultureNote!.en, style: const TextStyle(color: Colors.white, fontSize: 13.5)),
               SizedBox(width: double.infinity, child: Text(n.cultureNote!.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white60))),
             ],
           ),
@@ -1026,7 +1101,7 @@ class _ChatState extends ConsumerState<_Chat> {
     }
   }
 
-  Widget _feedback(_Feedback f) {
+  Widget _feedback(_Feedback f, {int? index}) {
     final (bg, fg, icon) = switch (f.kind) {
       _FbKind.recast => (const Color(0x2E3FAF7A), const Color(0xFF9FE0BC), Icons.tips_and_updates_rounded),
       _FbKind.ghost => (const Color(0x26B9C3FF), const Color(0xFFD3D8FF), Icons.auto_awesome_rounded),
@@ -1056,7 +1131,7 @@ class _ChatState extends ConsumerState<_Chat> {
               ],
             ),
           ),
-          InkWell(onTap: () => setState(() => _fb = null), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
+          InkWell(onTap: () => setState(() { if (index != null && index < _msgs.length) _msgs.removeAt(index); }), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
         ],
       ),
     );

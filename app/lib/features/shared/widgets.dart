@@ -226,7 +226,9 @@ IconData locationIcon(String spot) => switch (spot.split('/').last.replaceAll('.
 class LocationCard extends StatelessWidget {
   final SceneArt? art;
   final Color color;
-  const LocationCard({super.key, required this.art, required this.color});
+  /// Compact: a small icon + label in one row, for header banners.
+  final bool compact;
+  const LocationCard({super.key, required this.art, required this.color, this.compact = false});
   @override
   Widget build(BuildContext context) {
     final a = art;
@@ -236,7 +238,23 @@ class LocationCard extends StatelessWidget {
       else
         DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [color.withValues(alpha: .55), const Color(0xFF1B140F)]))),
       const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x33000000), Color(0x88000000)]))),
-      if (a != null)
+      if (a != null && compact)
+        Align(
+          alignment: const Alignment(.92, .55),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Container(
+              padding: const EdgeInsets.all(7),
+              decoration: BoxDecoration(color: const Color(0xFFFBF7F0).withValues(alpha: .92), shape: BoxShape.circle),
+              child: Icon(locationIcon(a.spot), size: 20, color: const Color(0xFF6B4A2B)),
+            ),
+            const SizedBox(width: 8),
+            ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 170),
+              child: Text(a.label, key: const ValueKey('location-label'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 6)])),
+            ),
+          ]),
+        )
+      else if (a != null)
         Align(
           alignment: const Alignment(0, -.1),
           child: Column(mainAxisSize: MainAxisSize.min, children: [
