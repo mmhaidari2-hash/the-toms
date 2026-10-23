@@ -28,7 +28,8 @@ ContentBundle load() {
   final moments = [for (final m in j('assets/data/moments.json')) Moment(m['sceneId'], m['cover'])];
   final roles = [for (final r in j('assets/data/roles.json')) RoleDef(r['id'], List<String>.from(r['scenes']))];
   final art = {for (final e in (j('assets/data/scene_art.json') as Map<String, dynamic>).entries) e.key: SceneArt.fromJson(e.value)};
-  return ContentBundle(chars, scenes, ms, tiers, moments, roles, Course.fromJson(j('assets/data/course.json')), const Timeline([]), art);
+  return ContentBundle(chars, scenes, ms, tiers, moments, roles, Course.fromJson(j('assets/data/course.json')), const Timeline([]), art,
+      [for (final p in j('assets/data/art_places.json')) Place.fromJson(p)]);
 }
 
 
@@ -122,14 +123,19 @@ void main() {
       if (!File(a.img!).existsSync()) bad.add('${s.id}: missing painting ${a.img}');
       // 2026-10-23: the best painting of the setting is always used, even if it shows someone not in the scene.
       if (speakers.isEmpty) bad.add('${s.id}: no speakers');
-      // No nursery painting yet: nursery scenes borrow the closest room (flagged, so no wrong name tags).
-      if (nursery.contains(base.id) && !a.borrowed) bad.add('${s.id}: nursery scene on an unflagged painting of ${a.place}');
+      // Run 22: the nursery has its own paintings (playroom, front door, staff room); nothing borrows any more.
+      if (nursery.contains(base.id) && !(a.place ?? '').startsWith('nursery')) bad.add('${s.id}: nursery scene on a painting of ${a.place}');
+      if (a.borrowed) bad.add('${s.id}: still borrows ${a.place}');
       if (cv.image != a.img) bad.add('${s.id}: cover ${cv.image} != art ${a.img}');
     }
     expect(bad, isEmpty, reason: bad.take(20).join('\n'));
     expect(lessonIds.every(c.scenes.containsKey), isTrue);
     // Since run 14 every scene opens on a painting; the bite-marks talk borrows an indoor room, never the school gate.
-    expect(c.artOf('nur_6_4')!.borrowed, isTrue);
+    expect(c.artOf('nur_6_4')!.borrowed, isFalse);
+    expect(c.artOf('nur_6_4')!.place, 'nurserydoor');
+    for (final id in ['est_2_1', 'l2_u21_1', 'l2_u20_3', 'l2_u58_3']) {
+      expect(c.coverOf(id).host?.image, c.artOf(id)!.img, reason: '$id: the painting hosts its name tags');
+    }
     expect(c.artOf('nur_6_4')!.img, isNot(anyOf('assets/places/firstday.webp', 'assets/places/school.webp')), reason: 'the bite-marks talk is in the nursery: no St Mary\'s gate');
   });
 

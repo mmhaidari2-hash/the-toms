@@ -937,7 +937,7 @@ class _ChatState extends ConsumerState<_Chat> {
   bool get _borrowed => widget.c.artOf(widget.s.id)?.borrowed ?? false;
 
   Place? _tapHost(String cover, Place? host) =>
-      host?.image == cover ? host : widget.c.places.where((p) => p.image == cover).firstOrNull;
+      host?.image == cover ? host : [...widget.c.places, ...widget.c.artPlaces].where((p) => p.image == cover).firstOrNull;
 
   /// People in the painting the learner can reach (not the role they're playing).
   List<Hotspot> _people(Place? th) {

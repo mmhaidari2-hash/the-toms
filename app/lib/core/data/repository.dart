@@ -44,12 +44,15 @@ class ContentBundle {
   final Map<String, Scene> scenes;
   final Map<String, List<Milestone>> milestones;
   final List<Tier> tiers;
+  /// Paintings of settings that aren't visitable places (nursery, hospital, museum, cinema, estate agent):
+  /// assets/data/art_places.json. They host a scene's painting and its name tags, but never appear as places.
+  final List<Place> artPlaces;
   final List<Moment> moments;
   final List<RoleDef> roles;
   final Course course;
   final Timeline timeline;
   final Map<String, SceneArt> art;
-  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([]), this.timeline = const Timeline([]), this.art = const {}]);
+  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([]), this.timeline = const Timeline([]), this.art = const {}, this.artPlaces = const []]);
   /// Art for a scene (role-switch variants use their base scene's).
   /// Picture for a lesson card or unit banner: its first scene's painting, else that setting's people-free blur.
   String? lessonPicture(Lesson l) {
@@ -91,7 +94,7 @@ class ContentBundle {
     return (image: p?.image, host: p, generic: !specific);
   }
   Iterable<Place> get places => tiers.expand((t) => t.places);
-  Place? place(String id) => places.where((p) => p.id == id).firstOrNull;
+  Place? place(String id) => places.where((p) => p.id == id).firstOrNull ?? artPlaces.where((p) => p.id == id).firstOrNull;
   int tierIndexOfScene(String sceneId) => tiers.indexWhere((t) => t.sceneIds.contains(sceneId));
   int tierIndexOfPlace(String placeId) => tiers.indexWhere((t) => t.places.any((p) => p.id == placeId));
   Character character(String id) => characters.firstWhere((c) => c.id == id);
@@ -131,6 +134,10 @@ class ContentRepository {
     try {
       art = {for (final e in (await _json('assets/data/scene_art.json') as Map<String, dynamic>).entries) e.key: SceneArt.fromJson(e.value)};
     } catch (_) {}
-    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course, timeline, art);
+    var artPlaces = const <Place>[];
+    try {
+      artPlaces = [for (final p in await _json('assets/data/art_places.json')) Place.fromJson(p)];
+    } catch (_) {}
+    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course, timeline, art, artPlaces);
   }
 }
