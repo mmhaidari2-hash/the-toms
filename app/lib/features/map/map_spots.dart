@@ -27,6 +27,12 @@ final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
   return [for (final s in j) MapSpot.fromJson(s)];
 });
 
+/// A place on the map with lessons at the learner's current level: highlighted so the level's places stand out.
+bool spotFocus(ProgressController ctrl, Course c, MapSpot s) {
+  final cur = ctrl.currentLevel(c);
+  return spotLessons(c, s).any((l) => c.unitOf(l.id)?.level == cur);
+}
+
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
 const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park', 'garage'};
 
@@ -70,53 +76,99 @@ class SpotIcon extends StatelessWidget {
 class SpotMarker extends StatelessWidget {
   final MapSpot s;
   final bool open;
+  final bool visited;
+  /// Has lessons at the learner's current level — highlighted with a red glow so the level's places stand out.
+  final bool focus;
   final VoidCallback onTap;
-  const SpotMarker({super.key, required this.s, required this.open, required this.onTap});
+  const SpotMarker({super.key, required this.s, required this.open, this.visited = false, this.focus = false, required this.onTap});
+  static const width = 100.0;
   @override
   Widget build(BuildContext context) => GestureDetector(
     key: ValueKey('spot-${s.id}'),
     behavior: HitTestBehavior.opaque,
     onTap: onTap,
-    child: SizedBox(
-      width: 92,
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Container(
-            width: 40,
-            height: 40,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: open ? const Color(0xF7FBF3E4) : const Color(0xE6201813),
-              shape: BoxShape.circle,
-              border: Border.all(color: open ? BL.gold : Colors.white30, width: 1.6),
-              boxShadow: BL.shadow(.35),
+    child: Opacity(
+      opacity: open ? 1 : .62,
+      child: SizedBox(
+        width: width,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // A 3D glass orb: soft ground shadow, translucent body, gold rim, specular highlight.
+            Container(
+              width: 44,
+              height: 44,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: RadialGradient(
+                  center: const Alignment(-.35, -.45),
+                  radius: .95,
+                  colors: open
+                      ? const [Color(0xFFFFFFFF), Color(0xE6FBF3E4), Color(0xCCE9D7B8)]
+                      : const [Color(0xCC6B6058), Color(0xE0332821), Color(0xF0201813)],
+                ),
+                border: Border.all(color: focus ? BL.red : visited ? const Color(0xFFFFD36B) : (open ? BL.gold : Colors.white38), width: focus ? 2.6 : visited ? 2.2 : 1.6),
+                boxShadow: [
+                  const BoxShadow(color: Color(0x66000000), blurRadius: 6, offset: Offset(0, 5)),
+                  if (focus) const BoxShadow(color: Color(0xCCE8463A), blurRadius: 16, spreadRadius: 3)
+                  else if (visited) const BoxShadow(color: Color(0xAAFFC94D), blurRadius: 14, spreadRadius: 2),
+                ],
+              ),
+              key: focus ? ValueKey('spot-focus-${s.id}') : null,
+              child: Stack(
+                clipBehavior: Clip.none,
+                alignment: Alignment.center,
+                children: [
+                  ClipOval(child: SpotIcon(s, size: 38, dim: !open)),
+                  // Glass gloss on the top half.
+                  Positioned(
+                    top: 3, left: 8, right: 8, height: 15,
+                    child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x99FFFFFF), Color(0x00FFFFFF)]),
+                    ))),
+                  ),
+                  if (!open) const Positioned(right: -6, bottom: -5, child: _Badge(icon: Icons.lock_rounded, color: Color(0xFF3A2E26))),
+                  if (open && visited) const Positioned(right: -6, bottom: -5, child: _Badge(icon: Icons.check_rounded, color: Color(0xFF1F7A4D))),
+                ],
+              ),
             ),
-            child: Stack(
-              clipBehavior: Clip.none,
-              children: [
-                SpotIcon(s, size: 36, dim: !open),
-                if (!open) const Positioned(right: -8, bottom: -6, child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
-              ],
+            const SizedBox(height: 3),
+            // Frosted-glass label (faux frost: translucent gradient + hairline, no per-label blur so phones stay fast).
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(9),
+                gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xC72E241D), Color(0xE0140E0A)]),
+                border: Border.all(color: const Color(0x40FFFFFF), width: .7),
+                boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 4, offset: Offset(0, 2))],
+              ),
+              child: Text(
+                label(s.title),
+                maxLines: 2,
+                softWrap: true,
+                textAlign: TextAlign.center,
+                style: const TextStyle(color: Colors.white, fontSize: 10, height: 1.15, fontWeight: FontWeight.w700),
+              ),
             ),
-          ),
-          const SizedBox(height: 2),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-            decoration: BoxDecoration(color: const Color(0xD9140E0A), borderRadius: BorderRadius.circular(8)),
-            child: Text(
-              _short(s.title),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              textAlign: TextAlign.center,
-              style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w700),
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     ),
   );
-  static String _short(String t) => t.split(' — ').first.split(' & ').first;
+  static String label(String t) => t.split(' — ').first.split(' & ').first;
+}
+
+class _Badge extends StatelessWidget {
+  final IconData icon;
+  final Color color;
+  const _Badge({required this.icon, required this.color});
+  @override
+  Widget build(BuildContext context) => Container(
+    width: 17, height: 17,
+    decoration: BoxDecoration(color: color, shape: BoxShape.circle, border: Border.all(color: Colors.white, width: 1.3)),
+    child: Icon(icon, size: 11, color: Colors.white),
+  );
 }
 
 /// Bottom sheet: the place's name (EN + FA), its lessons (any level; locked ones shown) and a Start button.

@@ -161,7 +161,7 @@ void main() {
       final store = MemoryProgressStore()..data = const UserProgress(onboarded: true, missionsDone: {'pref:chapter': '99'}).encode();
       final scope = ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp());
       await t.pumpWidget(scope);
-      for (var i = 0; i < 40 && find.text('The Toms').evaluate().isEmpty; i++) {
+      for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) {
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
         await t.pump(const Duration(milliseconds: 100));
       }

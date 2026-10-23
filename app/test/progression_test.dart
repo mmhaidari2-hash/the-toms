@@ -6,6 +6,8 @@ import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/models/course.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:british_life/features/map/map_home.dart' show mapRegions, regionOpen;
+import 'package:british_life/features/map/map_spots.dart' show MapSpot, spotFocus;
+import 'package:british_life/features/onboarding/placement_screen.dart' show placementNext, placementLevel, placementPassMark;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -178,5 +180,68 @@ void main() {
     c.setUnlockAll(true);
     expect(all.every((l) => c.lessonOpen(course, l)), isTrue);
     expect(mapRegions.every((r) => regionOpen(c, course, r)), isTrue);
+  });
+
+  group('the chosen level changes the content', () {
+    final spots = [for (final j in jsonDecode(File('assets/data/spots.json').readAsStringSync())) MapSpot.fromJson(j)];
+    test('map highlights, open districts, Continue and My path all follow the level', () {
+      final focusSets = <int, Set<String>>{};
+      for (var level = 1; level <= 5; level++) {
+        final c = ctrlWith(tier: level - 1);
+        expect(c.currentLevel(course), level);
+        expect(course.unitOf(c.nextLesson(course)!.id)!.level, level, reason: 'Continue / recommendation at $level');
+        final focus = {for (final s in spots) if (spotFocus(c, course, s)) s.id};
+        expect(focus, isNotEmpty, reason: 'no highlighted places at level $level');
+        focusSets[level] = focus;
+        for (final r in mapRegions.where((r) => r.pack == null)) {
+          expect(regionOpen(c, course, r), r.level! <= level, reason: '${r.id} at $level');
+        }
+      }
+      for (var a = 1; a < 5; a++) {
+        expect(focusSets[a], isNot(equals(focusSets[a + 1])), reason: 'levels $a and ${a + 1} highlight the same places');
+      }
+    });
+
+    test('passing a level test moves the learner up: next district opens, Continue + My path switch, celebration due once', () {
+      for (var level = 1; level < 5; level++) {
+        final last = course.units.lastWhere((u) => u.level == level);
+        final before = ctrlWith(tier: level - 1, extra: {'pref:lvseen': '$level'});
+        expect(before.pendingLevelUp(course), isNull);
+        final c = ctrlWith(tier: level - 1, extra: {'course:${last.id}': '80', 'pref:lvseen': '$level'});
+        expect(c.levelPassed(course, level), isTrue);
+        expect(c.currentLevel(course), level + 1, reason: 'level test $level passed');
+        expect(c.nextLesson(course)!.id, ProgressController.firstLessonOfLevel(course, level + 1)!.id);
+        expect(c.lessonOpen(course, c.nextLesson(course)!), isTrue);
+        expect(regionOpen(c, course, mapRegions.firstWhere((r) => r.level == level + 1)), isTrue);
+        if (level + 2 <= 5) expect(regionOpen(c, course, mapRegions.firstWhere((r) => r.level == level + 2)), isFalse);
+        expect(c.pendingLevelUp(course), level + 1);
+        c.markLevelSeen(level + 1);
+        expect(c.pendingLevelUp(course), isNull, reason: 'celebrate only once');
+      }
+      // A failed level test (<70%) does not move you up.
+      final last1 = course.units.lastWhere((u) => u.level == 1);
+      expect(ctrlWith(extra: {'course:${last1.id}': '60'}).currentLevel(course), 1);
+    });
+
+    test('changing the level in placement resets the celebration marker (no false level-up)', () {
+      final c = ctrlWith(extra: {'pref:lvseen': '1'});
+      c.setStartTier(3);
+      expect(c.currentLevel(course), 4);
+      expect(c.pendingLevelUp(course), isNull);
+    });
+
+    test('adaptive placement: starts at A2, climbs on a pass, drops to A1 on an A2 fail', () {
+      expect(placementNext({}), 2);
+      expect(placementNext({2: false}), 1);
+      expect(placementNext({2: false, 1: true}), isNull);
+      expect(placementLevel({2: false, 1: true}), 1);
+      expect(placementLevel({2: false, 1: false}), 1);
+      expect(placementNext({2: true}), 3);
+      expect(placementNext({2: true, 3: true, 4: false}), isNull);
+      expect(placementLevel({2: true, 3: true, 4: false}), 3);
+      expect(placementNext({2: true, 3: true, 4: true, 5: true}), isNull);
+      expect(placementLevel({2: true, 3: true, 4: true, 5: true}), 5);
+      expect(placementPassMark(5), 4);
+    });
   });
 }

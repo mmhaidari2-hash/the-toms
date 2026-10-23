@@ -10,7 +10,7 @@ class BritishLifeApp extends StatelessWidget {
   static final bundle = RetryAssetBundle();
   @override
   Widget build(BuildContext context) => MaterialApp.router(
-    title: 'The Toms: British Life Immersion',
+    title: 'New Life UK',
     debugShowCheckedModeBanner: false,
     theme: BL.theme(),
     routerConfig: router,

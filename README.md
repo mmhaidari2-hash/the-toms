@@ -1,4 +1,4 @@
-# The Toms: British Life Immersion
+# New Life UK (formerly "The Toms: British Life Immersion")
 
 Flutter web/PWA for learning British English by living with a painted British family.
 

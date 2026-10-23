@@ -104,8 +104,9 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
+  /// Sets the starting level (placement test, settings). The new level counts as already celebrated.
   void setStartTier(int tier) {
-    state = state.copyWith(startTier: tier);
+    state = state.copyWith(startTier: tier, missionsDone: {...state.missionsDone, 'pref:lvseen': '${levelForTier(tier)}'});
     _save();
   }
 
@@ -483,25 +484,56 @@ class ProgressController extends Notifier<UserProgress> {
 
   bool lessonDone(Lesson l) => l.sceneIds.every(state.completedScenes.contains) && (practiceScore(l.id) ?? 0) >= 60;
   bool unitPassed(Unit u) => (practiceScore(u.id) ?? 0) >= 70;
-  /// Units open in order. Levels below the starting level are fully open; at the starting level only its
+  /// Units open in order. Levels below the learner's current level are fully open; at the current level only its
   /// first unit opens straight away, the rest follow as the previous unit is finished or its test passed.
   /// A unit the learner has already played in never locks again.
   bool unitOpen(Course c, int i) {
     if (state.unlockAll || i == 0) return true;
     final u = c.units[i];
-    if (u.level < startLevel) return true;
-    if (u.level == startLevel && c.units[i - 1].level < startLevel) return true; // first unit of the starting level
+    final cur = currentLevel(c);
+    if (u.level < cur) return true;
+    if (u.level == cur && c.units[i - 1].level < cur) return true; // first unit of the current level
     return unitPassed(c.units[i - 1]) || c.units[i - 1].lessons.every(lessonDone) || u.lessons.any((l) => state.completedScenes.any(l.sceneIds.contains));
   }
+
+  /// A level is passed when its level test (the last unit's test) is passed or every unit is finished.
+  bool levelPassed(Course c, int level) {
+    final us = levelUnits(c, level);
+    return us.isNotEmpty && (unitPassed(us.last) || levelComplete(c, level));
+  }
+  /// The learner's current level (1–5 = A1…C1): the starting level, moved up one for every level passed.
+  int currentLevel(Course c) {
+    var lv = startLevel;
+    while (lv < 5 && levelPassed(c, lv)) {
+      lv++;
+    }
+    return lv;
+  }
+  /// The last level the learner was congratulated on (null before the first check).
+  int? get levelSeen => int.tryParse(state.missionsDone['pref:lvseen'] ?? '');
+  void markLevelSeen(int lv) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:lvseen': '$lv'});
+    _save();
+  }
+  /// Level just reached that hasn't been celebrated yet, or null. First call only records the level.
+  int? pendingLevelUp(Course c) {
+    final cur = currentLevel(c), seen = levelSeen;
+    if (seen == null) return null;
+    return cur > seen ? cur : null;
+  }
+  static const cefr = ['A1', 'A2', 'B1', 'B2', 'C1'];
+  static String cefrOf(int level) => cefr[(level - 1).clamp(0, 4)];
 
   /// Course level (1–5) matching the level picked at onboarding (A0–A1 … C1–C2).
   int get startLevel => levelForTier(state.startTier);
   static int levelForTier(int tier) => const [1, 2, 3, 4, 5, 5][tier.clamp(0, 5)];
   /// First lesson of a course level — each level opens on its own lesson.
   static Lesson? firstLessonOfLevel(Course c, int level) => c.units.where((u) => u.level == level).expand((u) => u.lessons).firstOrNull;
-  /// The learner's next lesson: the first unfinished one at or above their starting level.
-  Lesson? nextLesson(Course c) =>
-      c.lessons.where((l) => c.unitOf(l.id)!.level >= startLevel && !lessonDone(l)).firstOrNull ?? c.lessons.where((l) => !lessonDone(l)).firstOrNull;
+  /// The learner's next lesson: the first unfinished one at or above their current level.
+  Lesson? nextLesson(Course c) {
+    final cur = currentLevel(c);
+    return c.lessons.where((l) => c.unitOf(l.id)!.level >= cur && !lessonDone(l)).firstOrNull ?? c.lessons.where((l) => !lessonDone(l)).firstOrNull;
+  }
   /// The lesson that follows [id] (a lesson or a unit test) in course order, across unit boundaries.
   /// Career Pack lessons continue inside their own pack. Null at the very end.
   static Lesson? nextAfter(Course c, String id) {

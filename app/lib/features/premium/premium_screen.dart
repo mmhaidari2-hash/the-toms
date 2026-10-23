@@ -34,7 +34,7 @@ class PremiumScreen extends ConsumerWidget {
             child: const Icon(Icons.workspace_premium_rounded, size: 36, color: BL.ink),
           )),
           const SizedBox(height: 12),
-          Text('The Toms Premium', textAlign: TextAlign.center, style: BL.display(28)),
+          Text('New Life UK Premium', textAlign: TextAlign.center, style: BL.display(28)),
           Text('اشتراک ویژهٔ تامز', textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
           const SizedBox(height: 14),
           Container(

@@ -49,7 +49,7 @@ class Course {
   Lesson? lesson(String id) => allUnits.expand((u) => u.lessons).where((l) => l.id == id).firstOrNull;
   Unit? unit(String id) => allUnits.where((u) => u.id == id).firstOrNull;
   Unit? unitOf(String lessonId) => allUnits.where((u) => u.lessons.any((l) => l.id == lessonId)).firstOrNull;
-  static const levelInfo = {1: ('A0 → A1', 'Life with the Toms', 'زندگی با تامزها'), 2: ('A1 → A2', 'Out and about', 'بیرون از خانه'), 3: ('A2 → B1', 'Getting things done', 'از پسِ کارها برآمدن'), 4: ('B1 → B2', 'Work & community', 'کار و محله'), 5: ('B2 → C1', 'Sounding British', 'مثل یک بریتانیایی')};
+  static const levelInfo = {1: ('A1', 'Life with the Toms', 'زندگی با تامزها'), 2: ('A2', 'Out and about', 'بیرون از خانه'), 3: ('B1', 'Getting things done', 'از پسِ کارها برآمدن'), 4: ('B2', 'Work & community', 'کار و محله'), 5: ('C1', 'Sounding British', 'مثل یک بریتانیایی')};
   /// 1-based number of a unit inside its own level.
   int numberInLevel(Unit u) => packOf(u) != null ? packOf(u)!.units.indexOf(u) + 1 : units.where((x) => x.level == u.level).toList().indexOf(u) + 1;
   String? placeOfScene(String sceneId) => allUnits.expand((u) => u.lessons).where((l) => l.sceneIds.contains(sceneId)).firstOrNull?.place;

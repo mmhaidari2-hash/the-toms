@@ -1,4 +1,6 @@
-# The Toms: British Life Immersion: UK legal and compliance review
+# New Life UK (formerly "The Toms: British Life Immersion"): UK legal and compliance review
+
+> **App renamed to "New Life UK" (2026-10-23).** The family in the stories is still "the Toms". Quick clearance check done (see below); **a solicitor / trade mark attorney must confirm the name before monetising.**
 
 *Prepared 17 October 2026. Research summary only. Personal and situation-specific details were removed before publishing (18 Oct 2026).*
 
@@ -265,3 +267,10 @@
 - Any payment route that touches **sanctioned jurisdictions**.
 
 *Sources were checked on 17 Oct 2026. Re-check the DMCCA subscription commencement, the AI copyright reform and platform rules before launch.*
+
+
+## New Life UK: quick name clearance (2026-10-23, not legal advice)
+- **UK IPO / EUIPO official search:** the UK IPO search page returned a captcha to automated access, so it was **not** run directly. It must be done by hand at https://www.gov.uk/search-for-trademark (classes 9, 41, 16) and EUIPO eSearch. Third-party register mirrors were checked instead.
+- **Registered marks found (mirrors):** NEWLIFE (UK00004239664, Bamford Bus Company, figurative, classes 12/37); NEW LIFE (EUTM 018656961, TAPMARK, figurative, classes 25/35); MY NEW LIFE THE LOVEVERY PODCAST (UK00801546580, class 41, podcasts on early childhood development); NewLife NUTRITION (class 29). An older EU word mark NEW LIFE (005173612, class 9 among others) expired in 2017. **No "NEW LIFE" or "NEW LIFE UK" mark covering apps or education in classes 9/41 was found.**
+- **Apps with similar names:** "New Life in UK Tests" (Ruby Technologies, iOS, Education, Life in the UK test practice). This is the **closest conflict**: same audience, overlapping words, though it is unregistered as far as we found. Others are unrelated: "New Life" Chinese takeaway (Gravesend, Play/App Store), New Life Teeth (dental community), New Life Eng Boarding School (school ERP), Newlife charity login app.
+- **Assessment:** no serious registered conflict found. Risks: (1) confusion or passing-off with "New Life in UK Tests"; (2) "New Life UK" is fairly descriptive, so it may be **hard to register** as a word mark (a distinctive logo or a longer form helps). **⚖️ A solicitor or trade mark attorney must confirm before monetising.**

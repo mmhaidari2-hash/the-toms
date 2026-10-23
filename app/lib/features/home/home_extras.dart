@@ -296,7 +296,7 @@ class ContinueHero extends ConsumerWidget {
     final pl = c.place(pid)!;
     final playable = ctrl.canPlay(s, c);
     // Learners who started above Level 1 continue their own level, not the Level 1 breakfast episode.
-    final nl = ctrl.startLevel > 1 ? ctrl.nextLesson(c.course) : null;
+    final nl = ctrl.currentLevel(c.course) > 1 ? ctrl.nextLesson(c.course) : null;
     final nu = nl == null ? null : c.course.unitOf(nl.id)!;
     final img = nl == null ? pl.image! : (c.lessonPicture(nl) ?? pl.image!);
     final label = nl == null ? '${i < 0 ? 'PLAY AGAIN' : 'CONTINUE'}  ·  EPISODE ${eps.indexOf((sid, pid)) + 1}' : 'CONTINUE  ·  LEVEL ${nu!.level}  ·  UNIT ${c.course.numberInLevel(nu)}';

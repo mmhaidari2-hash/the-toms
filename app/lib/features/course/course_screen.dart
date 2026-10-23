@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../shared/nav.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../shared/bottom_nav.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
@@ -38,7 +39,8 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
     final course = c.course;
     final done = course.lessons.where(ctrl.lessonDone).length;
     final levels = course.units.map((u) => u.level).toSet().toList()..sort();
-    final target = widget.level ?? (ctrl.startLevel > 1 ? ctrl.startLevel : null);
+    final cur = ctrl.currentLevel(course);
+    final target = widget.level ?? (cur > 1 ? cur : null);
     if (!_jumped && target != null && target > levels.first) {
       _jumped = true;
       // Slivers build lazily: jump near the level first, then settle on its header.
@@ -54,6 +56,8 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
     final pad = MediaQuery.paddingOf(context);
     return Scaffold(
       backgroundColor: BL.cream,
+      extendBody: true,
+      bottomNavigationBar: const TomsBottomNav(current: HomeTab.path),
       body: CustomScrollView(
         primary: true,
         slivers: [
@@ -134,7 +138,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
             SliverPadding(padding: const EdgeInsets.fromLTRB(20, 22, 20, 0), sliver: SliverToBoxAdapter(child: FadeSlideIn(delayMs: 40 * i, child: _UnitBanner(c: c, u: course.units[i], index: i, open: ctrl.unitOpen(course, i))))),
             SliverToBoxAdapter(child: _Stones(c: c, u: course.units[i])),
           ],
-          SliverToBoxAdapter(child: SizedBox(height: 40 + pad.bottom)),
+          SliverToBoxAdapter(child: SizedBox(height: 40 + pad.bottom + bottomNavHeight)),
         ],
       ),
     );

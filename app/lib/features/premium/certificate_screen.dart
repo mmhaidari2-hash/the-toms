@@ -7,11 +7,11 @@ import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 
 const certLevels = {
-  1: ('Home', 'خانه', 'A0 → A1'),
-  2: ('Neighbourhood', 'محله', 'A1 → A2'),
-  3: ('High Street', 'خیابان اصلی', 'A2 → B1'),
-  4: ('Town centre', 'مرکز شهر', 'B1 → B2'),
-  5: ('The city', 'شهر', 'B2 → C1'),
+  1: ('Home', 'خانه', 'A1'),
+  2: ('Neighbourhood', 'محله', 'A2'),
+  3: ('High Street', 'خیابان اصلی', 'B1'),
+  4: ('Town centre', 'مرکز شهر', 'B2'),
+  5: ('The city', 'شهر', 'C1'),
 };
 
 /// A completion certificate for each course level. Locked levels show progress instead.
@@ -99,7 +99,7 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
                         const SizedBox(height: 6),
                         Text(ctrl.certName.isEmpty ? 'Your name' : ctrl.certName, textAlign: TextAlign.center, style: BL.display(26, color: BL.navy)),
                         Container(height: 1, width: 200, color: BL.mist, margin: const EdgeInsets.symmetric(vertical: 6)),
-                        const Text('for completing The Toms course content', style: TextStyle(fontSize: 12, color: BL.muted)),
+                        const Text('for completing New Life UK course content', style: TextStyle(fontSize: 12, color: BL.muted)),
                         const SizedBox(height: 6),
                         Text('Level $lv · $name', textAlign: TextAlign.center, style: BL.display(20)),
                         Text(nameFa, key: const ValueKey('cert-level-fa'), textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),

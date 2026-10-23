@@ -14,14 +14,14 @@ class LegalDoc {
 const legalPlaceholders = '[BUSINESS NAME], [POSTAL ADDRESS], [CONTACT EMAIL]';
 
 const privacyDoc = LegalDoc('privacy', 'Privacy Policy', 'سیاست حریم خصوصی', 'Draft · 17 October 2026', [
-  ('Who we are', 'The Toms: British Life Immersion is run by [BUSINESS NAME], [POSTAL ADDRESS]. Contact: [CONTACT EMAIL]. We are the controller for the little personal data described here.',
-      'اپ The Toms را [BUSINESS NAME] به نشانی [POSTAL ADDRESS] اداره می‌کند. تماس: [CONTACT EMAIL]. ما مسئول (کنترل‌کنندهٔ) همان دادهٔ اندکی هستیم که اینجا توضیح داده شده است.'),
+  ('Who we are', 'New Life UK is run by [BUSINESS NAME], [POSTAL ADDRESS]. Contact: [CONTACT EMAIL]. We are the controller for the little personal data described here.',
+      'اپ New Life UK را [BUSINESS NAME] به نشانی [POSTAL ADDRESS] اداره می‌کند. تماس: [CONTACT EMAIL]. ما مسئول (کنترل‌کنندهٔ) همان دادهٔ اندکی هستیم که اینجا توضیح داده شده است.'),
   ('No account, no analytics, no ads', 'You do not create an account. The app has no analytics, advertising or tracking tools, and fonts are bundled with the app (no calls to Google Fonts).',
       'حساب کاربری نمی‌سازید. اپ هیچ ابزار آمار، تبلیغات یا ردیابی ندارد و فونت‌ها داخل خود اپ هستند (به Google Fonts وصل نمی‌شود).'),
   ('What stays on your device', 'Your progress (lessons, XP, streak, saved words, diary, settings) and any name you type on a certificate are stored only in your browser or app storage on this device. A service-worker cache keeps the app and audio for offline use. This storage is strictly necessary for the features you use, so no cookie consent is needed. Clearing site data or uninstalling deletes it; we cannot recover it.',
       'پیشرفت شما (درس‌ها، امتیاز، رکورد روزانه، واژه‌های ذخیره‌شده، دفتر خاطرات، تنظیمات) و نامی که روی گواهی می‌نویسید فقط در حافظهٔ مرورگر یا اپ روی همین دستگاه ذخیره می‌شود. حافظهٔ پنهان سرویس‌ورکر اپ و صداها را برای استفادهٔ آفلاین نگه می‌دارد. این ذخیره‌سازی برای کارکرد اپ ضروری است و نیاز به رضایت کوکی ندارد. با پاک کردن دادهٔ سایت یا حذف اپ همه‌چیز پاک می‌شود و ما نمی‌توانیم آن را بازگردانیم.'),
-  ('Microphone and speech', 'The microphone is used only when you tap it. Speech-to-text is done by your browser\'s own speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers under its own privacy policy. The Toms does not receive, store or send your recordings itself. "Record" clips for shadowing stay on your device and are discarded when you leave.',
-      'میکروفون فقط وقتی رویش می‌زنید استفاده می‌شود. تبدیل گفتار به متن را سرویس گفتار خود مرورگر انجام می‌دهد (گوگل در کروم، اپل در سافاری) که ممکن است صدای شما را طبق سیاست حریم خصوصی خودش روی سرورهایش پردازش کند. The Toms خودش صدای شما را دریافت، ذخیره یا ارسال نمی‌کند. ضبط‌های «Record» روی دستگاه می‌مانند و با خروج پاک می‌شوند.'),
+  ('Microphone and speech', 'The microphone is used only when you tap it. Speech-to-text is done by your browser\'s own speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers under its own privacy policy. New Life UK does not receive, store or send your recordings itself. "Record" clips for shadowing stay on your device and are discarded when you leave.',
+      'میکروفون فقط وقتی رویش می‌زنید استفاده می‌شود. تبدیل گفتار به متن را سرویس گفتار خود مرورگر انجام می‌دهد (گوگل در کروم، اپل در سافاری) که ممکن است صدای شما را طبق سیاست حریم خصوصی خودش روی سرورهایش پردازش کند. New Life UK خودش صدای شما را دریافت، ذخیره یا ارسال نمی‌کند. ضبط‌های «Record» روی دستگاه می‌مانند و با خروج پاک می‌شوند.'),
   ('Hosting', 'The web app is hosted on GitHub Pages (GitHub, Inc.). Like any web host, GitHub may log your IP address and browser details when you load the app, under GitHub\'s privacy statement. We do not receive these logs.',
       'نسخهٔ وب روی GitHub Pages (شرکت GitHub) میزبانی می‌شود. مثل هر میزبان وب، GitHub ممکن است هنگام باز شدن اپ نشانی IP و مشخصات مرورگر شما را طبق بیانیهٔ حریم خصوصی خودش ثبت کند. این گزارش‌ها به دست ما نمی‌رسد.'),
   ('Reminders', 'Daily reminders use your device\'s notification permission or a calendar file (.ics) you download. Nothing is sent to us.',
@@ -35,16 +35,16 @@ const privacyDoc = LegalDoc('privacy', 'Privacy Policy', 'سیاست حریم خ
 ]);
 
 const termsDoc = LegalDoc('terms', 'Terms of Use', 'شرایط استفاده', 'Draft · 17 October 2026', [
-  ('Agreement', 'These terms are between you and [BUSINESS NAME] ([CONTACT EMAIL]). By using The Toms you agree to them. If you do not agree, please do not use the app.',
-      'این شرایط میان شما و [BUSINESS NAME] ([CONTACT EMAIL]) است. با استفاده از The Toms آن را می‌پذیرید؛ اگر موافق نیستید از اپ استفاده نکنید.'),
+  ('Agreement', 'These terms are between you and [BUSINESS NAME] ([CONTACT EMAIL]). By using New Life UK you agree to them. If you do not agree, please do not use the app.',
+      'این شرایط میان شما و [BUSINESS NAME] ([CONTACT EMAIL]) است. با استفاده از New Life UK آن را می‌پذیرید؛ اگر موافق نیستید از اپ استفاده نکنید.'),
   ('Beta', 'The app is in a free beta. Features and content may change, and things may occasionally break. No payment is taken; prices shown are examples only.',
       'اپ در دورهٔ آزمایشی رایگان است. امکانات و محتوا ممکن است تغییر کند و گاهی خطا رخ دهد. هیچ پولی دریافت نمی‌شود و قیمت‌های نمایش‌داده فقط نمونه‌اند.'),
   ('Licence', 'You may use the app for your own personal learning. Please do not copy, resell or redistribute its lessons, stories, paintings or audio.',
       'می‌توانید از اپ برای یادگیری شخصی خودتان استفاده کنید. لطفاً درس‌ها، داستان‌ها، نقاشی‌ها یا صداهای آن را کپی، فروش یا بازنشر نکنید.'),
-  ('Learning content only', 'The Toms teaches English. It is not legal, medical, immigration, financial or professional advice. Career Packs are language practice, not job training. Certificates show completion of our course content: they are not an accredited qualification, and CEFR levels are an indication only.',
-      'The Toms زبان انگلیسی آموزش می‌دهد و مشاورهٔ حقوقی، پزشکی، مهاجرتی، مالی یا حرفه‌ای نیست. بسته‌های شغلی تمرین زبان‌اند، نه آموزش شغلی. گواهی‌ها فقط پایان محتوای دورهٔ ما را نشان می‌دهند، مدرک معتبر نیستند و سطح CEFR تقریبی است.'),
-  ('Not affiliated', 'The Toms is not affiliated with or endorsed by any government body, charity, company or brand. Shops, clubs, banks, offices and people in the stories are fictional. Real services (gov.uk, the NHS, NHS 111, 999 and 101, Citizens Advice, the DVSA) are named only factually, as places to get real help.',
-      'The Toms هیچ وابستگی یا تأییدی از هیچ نهاد دولتی، خیریه، شرکت یا برندی ندارد. مغازه‌ها، باشگاه‌ها، بانک‌ها، اداره‌ها و آدم‌های داستان‌ها خیالی‌اند. خدمات واقعی (gov.uk، NHS، NHS 111، ۹۹۹ و ۱۰۱، Citizens Advice، DVSA) فقط به‌عنوان جای گرفتن کمک واقعی نام برده می‌شوند.'),
+  ('Learning content only', 'New Life UK teaches English. It is not legal, medical, immigration, financial or professional advice. Career Packs are language practice, not job training. Certificates show completion of our course content: they are not an accredited qualification or a Home Office-approved English test (SELT), and CEFR levels are an indication only.',
+      'New Life UK زبان انگلیسی آموزش می‌دهد و مشاورهٔ حقوقی، پزشکی، مهاجرتی، مالی یا حرفه‌ای نیست. بسته‌های شغلی تمرین زبان‌اند، نه آموزش شغلی. گواهی‌ها فقط پایان محتوای دورهٔ ما را نشان می‌دهند، مدرک معتبر یا آزمون زبانِ مورد تأیید وزارت کشور (SELT) نیستند و سطح CEFR تقریبی است.'),
+  ('Not affiliated', 'New Life UK is not affiliated with or endorsed by any government body, charity, company or brand. Shops, clubs, banks, offices and people in the stories are fictional. Real services (gov.uk, the NHS, NHS 111, 999 and 101, Citizens Advice, the DVSA) are named only factually, as places to get real help.',
+      'New Life UK هیچ وابستگی یا تأییدی از هیچ نهاد دولتی، خیریه، شرکت یا برندی ندارد. مغازه‌ها، باشگاه‌ها، بانک‌ها، اداره‌ها و آدم‌های داستان‌ها خیالی‌اند. خدمات واقعی (gov.uk، NHS، NHS 111، ۹۹۹ و ۱۰۱، Citizens Advice، DVSA) فقط به‌عنوان جای گرفتن کمک واقعی نام برده می‌شوند.'),
   ('Liability', 'We provide the app "as is" during the beta. Nothing in these terms limits liability that cannot be limited by law, or your statutory rights as a consumer.',
       'اپ در دورهٔ آزمایشی «همان‌طور که هست» ارائه می‌شود. هیچ‌چیز در این شرایط مسئولیتی را که قانوناً قابل محدود کردن نیست یا حقوق قانونی شما به‌عنوان مصرف‌کننده را محدود نمی‌کند.'),
   ('Law', 'These terms are governed by the law of England and Wales. We may update them; the date above shows the latest version.',
@@ -52,12 +52,12 @@ const termsDoc = LegalDoc('terms', 'Terms of Use', 'شرایط استفاده', 
 ]);
 
 const aboutDoc = LegalDoc('about', 'About & credits', 'دربارهٔ اپ و منابع', '', [
-  ('The Toms: British Life Immersion', 'British English through the everyday life of a London family. Made by [BUSINESS NAME]. Contact: [CONTACT EMAIL].',
+  ('New Life UK', 'British English through the everyday life of a London family. Made by [BUSINESS NAME]. Contact: [CONTACT EMAIL].',
       'انگلیسی بریتانیایی از دل زندگی روزمرهٔ یک خانوادهٔ لندنی. ساخت [BUSINESS NAME]. تماس: [CONTACT EMAIL].'),
   ('Voices and pictures', 'All voices are synthetic (text-to-speech). Characters and stories are fictional. Paintings are original illustrations made for the app.',
       'همهٔ صداها مصنوعی (تبدیل متن به گفتار) هستند. شخصیت‌ها و داستان‌ها خیالی‌اند. نقاشی‌ها تصویرسازی‌های اختصاصی همین اپ هستند.'),
-  ('Trade marks', 'Brand and place names are used for realistic, descriptive purposes. The Toms is not affiliated with or endorsed by any of them.',
-      'نام برندها و مکان‌ها فقط برای توصیف واقع‌گرایانه آمده‌اند و The Toms با هیچ‌کدام وابستگی یا تأییدی ندارد.'),
+  ('Trade marks', 'Brand and place names are used for realistic, descriptive purposes. New Life UK is not affiliated with or endorsed by any of them.',
+      'نام برندها و مکان‌ها فقط برای توصیف واقع‌گرایانه آمده‌اند و New Life UK با هیچ‌کدام وابستگی یا تأییدی ندارد.'),
   ('Open source', 'Built with Flutter and open-source packages (BSD/MIT licences). Fonts: Fraunces, Inter and Vazirmatn (SIL Open Font Licence).',
       'با Flutter و بسته‌های متن‌باز (مجوزهای BSD/MIT) ساخته شده است. فونت‌ها: Fraunces، Inter و Vazirmatn (مجوز SIL Open Font).'),
 ]);
@@ -104,7 +104,7 @@ class _LegalScreenState extends State<LegalScreen> {
           ],
           if (d.id == 'about') ...[
             const SizedBox(height: 16),
-            OutlinedButton.icon(onPressed: () => showLicensePage(context: context, applicationName: 'The Toms'), icon: const Icon(Icons.description_outlined), label: const Text('Open-source licences')),
+            OutlinedButton.icon(onPressed: () => showLicensePage(context: context, applicationName: 'New Life UK'), icon: const Icon(Icons.description_outlined), label: const Text('Open-source licences')),
           ],
         ],
       ),

@@ -19,7 +19,8 @@ const helperLanguages = [
   Lang('pt', 'Portuguese', 'Português'),
 ];
 
-/// Helper languages with full content today; the rest are shown as 'coming soon'.
+/// Helper languages that fully work today (UI strings + every lesson gloss). Only these are offered;
+/// a language is added here once its translations are complete and audited (test/lang_test.dart).
 const readyLanguages = {'fa'};
 
 Lang langOf(String code) => helperLanguages.firstWhere((l) => l.code == code, orElse: () => helperLanguages.first);
@@ -39,7 +40,7 @@ const _s = <String, Map<String, String>>{
     'replay': 'Replay',
     'replay_sub': 'Re-read with subtitles, or listen at your speed.',
     'play_all': 'Play all',
-    'welcome': 'Welcome to The Toms',
+    'welcome': 'Welcome to New Life UK',
     'welcome_sub': 'Learn English by living with a British family.',
     'pick_lang': 'Which language should we explain things in?',
     'pick_level': 'How good is your English?',
@@ -106,7 +107,7 @@ const _s = <String, Map<String, String>>{
     'replay': 'بازپخش',
     'replay_sub': 'با زیرنویس دوباره بخوان یا با سرعت دلخواه گوش بده.',
     'play_all': 'پخش همه',
-    'welcome': 'به خانهٔ تام‌ها خوش آمدی',
+    'welcome': 'به New Life UK خوش آمدی',
     'welcome_sub': 'انگلیسی را با زندگی کنار یک خانوادهٔ بریتانیایی یاد بگیر.',
     'pick_lang': 'توضیحات به چه زبانی باشد؟',
     'pick_level': 'انگلیسی‌ات در چه سطحی است؟',
@@ -573,3 +574,6 @@ String tr(String lang, String key) {
 /// Dialogue translation in the helper language; dialogue lines are authored in Persian today, so other
 /// helper languages fall back to Persian for story lines while the whole UI is localised.
 String? lineTranslation(Map<String, String> t, String lang) => t[lang] ?? t['fa'];
+
+/// UI keys missing for a helper language (empty = complete). Used by the language audit.
+List<String> missingStrings(String lang) => lang == 'en' ? const [] : [for (final k in _s['en']!.keys) if (!(_s[lang]?.containsKey(k) ?? false)) k];

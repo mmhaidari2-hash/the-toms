@@ -15,9 +15,9 @@ void main() {
   setUp(() => BL.useGoogleFonts = false);
   testWidgets('home renders family and locked birthday story', (t) async {
     await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore()..data = const UserProgress(onboarded: true).encode())], child: const BritishLifeApp()));
-    for (var i = 0; i < 40 && find.text('The Toms').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250))); await t.pump(const Duration(milliseconds: 100)); }
+    for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250))); await t.pump(const Duration(milliseconds: 100)); }
     await t.pump(const Duration(milliseconds: 500));
-    expect(find.text('The Toms'), findsOneWidget);
+    expect(find.text('New Life UK'), findsOneWidget);
     // Decluttered home: the map + one big Continue button; the old home lives behind the menu at /family.
     expect(find.byKey(const ValueKey('continue')), findsOneWidget);
     expect(find.byKey(const ValueKey('pin-home')), findsOneWidget);

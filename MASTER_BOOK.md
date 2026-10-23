@@ -426,3 +426,14 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - Terms → "Not affiliated" now says the app is not affiliated with or endorsed by any government body, charity, company or brand; real services are named only as places to get real help.
 - Planned buildings use generic names: Advice Centre, Job Centre, Visa Help Desk, Police Station, Town Hall, College.
 - App name 'The Toms' (TOMS trademark overlap) not renamed; proposals: Next Door English, Kettle On, Hackney Lane English.
+
+### Levels, placement & helper languages (2026-10-23)
+- **Current level** = starting level (onboarding / placement) moved up one for every level passed. A level is passed when its level test (the last unit's test, ≥70%) is passed or every unit is finished. `ProgressController.currentLevel` drives the map districts, highlighted places (`spotFocus`), Continue / recommendations (`nextLesson`) and My path (jumps to the current level).
+- **Level-up**: the map celebrates once (`pref:lvseen`, `showLevelUp`), the next district opens, path switches. Placement resets the marker so a manual level change is not celebrated.
+- **Map**: districts labelled A1 · Home, A2 · Neighbourhood, B1 · High Street, B2 · Town centre, C1 · The city — level strip chips with status + progress bar, floating zone badges with progress rings, locked districts dimmed, current district outlined gold, places with current-level lessons glow red.
+- **Placement test** (separate section, menu → Placement test, retake any time): adaptive A1–C1, starts at A2, pass a block (4 of 5) to climb, A2 fail drops to A1. Each block: grammar, vocabulary, reading passage, 2 voiced listening items. Result: CEFR level, can-do explanation (EN + FA), per-level scores, per-skill tallies; saved as `pref:placement` (level|date).
+- **Helper languages**: the selector (onboarding + menu → Helper language) lists only languages whose UI strings and every lesson gloss are complete (`readyLanguages`, enforced by test/lang_test.dart). Today that is Persian only; others are added when fully translated — nothing is shown as "coming soon".
+
+### App name: New Life UK (2026-10-23)
+- The user chose **New Life UK**. The display name was changed in the title, PWA manifest, Android label, splash, map title, premium, certificate, legal/about and privacy wording. The repo/URL stays `the-toms` for now, and the family in the stories is still "the Toms".
+- Quick clearance: no registered NEW LIFE (UK) mark for apps or education was found in classes 9/41. The closest app is "New Life in UK Tests" (iOS). Details are in docs/LEGAL_REVIEW.md. **A solicitor must confirm before monetising.**

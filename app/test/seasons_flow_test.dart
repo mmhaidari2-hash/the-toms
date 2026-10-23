@@ -37,7 +37,7 @@ void main() {
       addTearDown(() => (Seasons.debugToday = null, SeasonEventScreen.seed = null));
       final store = MemoryProgressStore()..data = const UserProgress(onboarded: true).encode();
       await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
-      for (var i = 0; i < 40 && find.text('The Toms').evaluate().isEmpty; i++) {
+      for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) {
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
         await t.pump(const Duration(milliseconds: 100));
       }

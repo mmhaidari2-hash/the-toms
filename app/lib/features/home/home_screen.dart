@@ -202,7 +202,7 @@ class _Header extends StatelessWidget {
               const SizedBox(height: 4),
               GestureDetector(
                 onLongPress: onDemo,
-                child: Text('The Toms', style: BL.display(32)),
+                child: Text('New Life UK', style: BL.display(32)),
               ),
             ],
           ),

@@ -6,6 +6,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/i18n/strings.dart';
 import '../shared/widgets.dart';
+import '../shared/lang_bar.dart';
 import 'howto.dart';
 
 const _levels = [
@@ -150,34 +151,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
         style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
       ),
       const SizedBox(height: 12),
-      Wrap(
-        spacing: 8,
-        runSpacing: 8,
-        children: [
-          for (final l in helperLanguages.where((l) => readyLanguages.contains(l.code)))
-            Pressable(
-              onTap: () => setState(() => _lang = l.code),
-              child: AnimatedContainer(
-                duration: const Duration(milliseconds: 200),
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                decoration: BoxDecoration(
-                  color: _lang == l.code ? BL.gold : Colors.white.withValues(alpha: .08),
-                  borderRadius: BorderRadius.circular(99),
-                  border: Border.all(color: _lang == l.code ? BL.gold : Colors.white24),
-                ),
-                child: Text(
-                  '${l.native}  ·  ${l.name}',
-                  style: TextStyle(color: _lang == l.code ? BL.ink : Colors.white, fontWeight: FontWeight.w600),
-                ),
-              ),
-            ),
-        ],
-      ),
-      const SizedBox(height: 8),
-      Text(
-        'Coming soon: ${helperLanguages.where((l) => !readyLanguages.contains(l.code)).map((l) => l.name).join(' · ')}',
-        style: const TextStyle(color: Colors.white38, fontSize: 12),
-      ),
+      HelperLangBar(dark: true, selected: _lang, onPick: (c) => setState(() => _lang = c)),
       const SizedBox(height: 22),
       const Text('What should the family call you?', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
       const SizedBox(height: 8),

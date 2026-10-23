@@ -130,13 +130,19 @@ void main() {
     expect(c.artOf('nur_6_4')!.img, isNull, reason: 'the bite-marks talk is in the nursery: no St Mary\'s gate');
   });
 
-  test('placement test: every level has listening items with audio + a choice item; answers are among choices', () {
+  test('placement test: every level has grammar, vocabulary, reading and audio listening items; answers are among choices', () {
     final pj = j('assets/data/placement.json');
     final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
     for (var lv = 1; lv <= 5; lv++) {
       final its = [for (final i in pj['items']) if (i['level'] == lv) i];
       expect(its.where((i) => i['type'] == 'listen').length, greaterThanOrEqualTo(2), reason: 'level $lv');
-      expect(its.where((i) => i['type'] == 'choice'), isNotEmpty, reason: 'level $lv');
+      for (final t in ['grammar', 'vocab', 'read']) {
+        expect(its.where((i) => i['type'] == t), isNotEmpty, reason: 'level $lv $t');
+      }
+      for (final i in its.where((i) => i['type'] == 'read')) {
+        expect((i['passage'] as String).length, greaterThan(40));
+        expect((i['passageFa'] as String), isNotEmpty);
+      }
       for (final i in its) {
         expect(List<String>.from(i['choices']), contains(i['answer']));
         expect(List<String>.from(i['choices']).toSet().length, i['choices'].length);
