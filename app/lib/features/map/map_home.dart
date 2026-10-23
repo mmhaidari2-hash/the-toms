@@ -63,6 +63,31 @@ class _MapHomeState extends ConsumerState<MapHome> {
   MapSpot? _lensSpot;
   bool _lensTouch = false;
 
+  @override
+  void initState() {
+    super.initState();
+    _scroll.addListener(_onScroll);
+  }
+
+  @override
+  void dispose() {
+    _scroll.removeListener(_onScroll);
+    _scroll.dispose();
+    super.dispose();
+  }
+
+  /// Run 22: the lens is drawn in screen space, so it must follow the scroll offset. A mouse-hover lens
+  /// simply goes away while the map scrolls (wheel / trackpad / drag); a press-and-hold lens repaints in place.
+  void _onScroll() {
+    if (_lens == null) return;
+    setState(() {
+      if (!_lensTouch) {
+        _lens = null;
+        _lensSpot = null;
+      }
+    });
+  }
+
   void _moveLens(Offset? at, List<MapSpot> spots, double w, double h) {
     MapSpot? best;
     if (at != null) {
@@ -82,6 +107,8 @@ class _MapHomeState extends ConsumerState<MapHome> {
         }
       }
     }
+    // Run 22: the mouse only raises the lens over a pin, never over empty map (no lens while just moving across).
+    if (at != null && best == null && !_lensTouch) at = null;
     if (best != null && best != _lensSpot && _lensTouch) HapticFeedback.selectionClick();
     if (at == _lens && best == _lensSpot) return;
     setState(() {
@@ -209,7 +236,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
               gestures: {
                 // Press, hold for a moment, then slide: the loupe follows the finger (a quick swipe still scrolls).
                 LongPressGestureRecognizer: GestureRecognizerFactoryWithHandlers<LongPressGestureRecognizer>(
-                  () => LongPressGestureRecognizer(duration: const Duration(milliseconds: 170)),
+                  () => LongPressGestureRecognizer(duration: const Duration(milliseconds: 260)),
                   (g) => g
                     ..onLongPressStart = (d) {
                       _lensTouch = true;
