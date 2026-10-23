@@ -35,9 +35,9 @@ void main() {
       }
       expect(reach, {0, 1, 2}, reason: r.id);
     }
-    // Same generic names rule as everywhere: no 'mehdi' and no real brand names in the lines.
+    // Same generic names rule as everywhere: no fixed learner name and no real brand names in the lines.
     final all = File('assets/data/roleplays.json').readAsStringSync().toLowerCase();
-    for (final bad in ['mehdi', 'starbucks', 'costa', 'boots', 'barclays', 'lloyds', 'hsbc', 'tesco']) {
+    for (final bad in ['starbucks', 'costa', 'boots', 'barclays', 'lloyds', 'hsbc', 'tesco']) {
       expect(all.contains(bad), isFalse, reason: bad);
     }
   });

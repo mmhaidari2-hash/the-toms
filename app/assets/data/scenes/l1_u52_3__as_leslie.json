@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh dear! How did it happen?",
    "translations": {
     "fa": "ای وای! چطوری شد؟"
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She won't kill you!",
    "translations": {
     "fa": "نمی‌کشتت!"
@@ -160,7 +160,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the dustpan.",
    "translations": {
     "fa": "بفرما خاک‌انداز."
@@ -212,7 +212,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Say \"I'm really sorry, Mum.\"",
    "translations": {
     "fa": "بگو «واقعاً متأسفم مامان.»"
@@ -221,9 +221,9 @@
     {
      "keywords": [
       "noise",
+      "was",
       "mug",
       "cat",
-      "was",
       "oh"
      ],
      "suggestion": "What was that noise? Oh… my cat mug.",
@@ -237,7 +237,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan has something to say.",
    "translations": {
     "fa": "رایان یه چیزی می‌خواد بگه."
@@ -289,7 +289,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's really sorry.",
    "translations": {
     "fa": "واقعاً متأسفه."
@@ -314,7 +314,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "See? She isn't angry.",
    "translations": {
     "fa": "دیدی؟ عصبانی نیست."
@@ -339,7 +339,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

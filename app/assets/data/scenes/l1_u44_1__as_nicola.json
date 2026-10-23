@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! Let's count.",
    "translations": {
     "fa": "البته! بیا بشمریم."
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a penny. One p.",
    "translations": {
     "fa": "اون یه پنیه. یک پی."
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fifty p.",
    "translations": {
     "fa": "اون پنجاه پیه."
@@ -110,7 +110,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a pound. A one-pound coin.",
    "translations": {
     "fa": "اون یه پونده. سکهٔ یک پوندی."
@@ -119,10 +119,10 @@
     {
      "keywords": [
       "purple",
-      "gave",
-      "i've",
       "nana",
-      "note"
+      "gave",
+      "note",
+      "i've"
      ],
      "suggestion": "I've got a note too! Nana gave me it. It's purple. Is it a lot?",
      "suggestionFa": "یه اسکناس هم دارم! نانا بهم داد. بنفشه. زیاده؟",
@@ -135,7 +135,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a twenty-pound note!",
    "translations": {
     "fa": "اون اسکناس بیست پوندیه!"
@@ -145,9 +145,9 @@
      "keywords": [
       "pennies",
       "pounds",
+      "there",
       "piles",
-      "let's",
-      "there"
+      "let's"
      ],
      "suggestion": "Rich! OK, let's put them in piles. Pennies here, pounds there.",
      "suggestionFa": "پولدار! باشه، بیا دسته‌شون کنیم. پنی‌ها اینجا، پوندها اونجا.",
@@ -160,7 +160,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten pennies make ten p.",
    "translations": {
     "fa": "ده تا پنی میشه ده پی."
@@ -185,7 +185,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's twenty-six pounds fifty.",
    "translations": {
     "fa": "نه، بیست و شش پوند و پنجاه پی."
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "unicorn",
-      "twenty",
       "pounds",
+      "twenty",
       "fifty",
       "pony"
      ],
@@ -210,7 +210,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

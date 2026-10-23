@@ -90,7 +90,7 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
                     child: SizedBox(
                       width: 280,
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
-                        const Text('THE TOMS · BRITISH LIFE IMMERSION', textAlign: TextAlign.center, style: TextStyle(fontSize: 9, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red)),
+                        const Text('NEW LIFE UK · BRITISH ENGLISH FOR LIFE', textAlign: TextAlign.center, style: TextStyle(fontSize: 9, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red)),
                         const SizedBox(height: 10),
                         Text('Certificate of Completion', textAlign: TextAlign.center, style: BL.display(24)),
                         Text('گواهی پایان دوره', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),

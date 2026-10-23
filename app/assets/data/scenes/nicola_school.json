@@ -76,7 +76,7 @@
       "promise",
       "three",
       "i'll",
-      "pick"
+      "half"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
+      "here",
       "both",
-      "will",
-      "here"
+      "will"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -138,9 +138,9 @@
     {
      "keywords": [
       "window",
-      "give",
       "from",
-      "wave"
+      "wave",
+      "give"
      ],
      "suggestion": "Give me a big wave from the window!",
      "suggestionFa": "از پنجره برام دست تکون بده!",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "well",
-      "gold",
       "done",
-      "star"
+      "well",
+      "star",
+      "gold"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -330,8 +330,8 @@
     },
     {
      "keywords": [
-      "though",
       "listen",
+      "though",
       "hart",
       "miss"
      ],
@@ -368,8 +368,8 @@
    "branches": [
     {
      "keywords": [
-      "golden",
       "what's",
+      "golden",
       "time"
      ],
      "suggestion": "What's golden time?",

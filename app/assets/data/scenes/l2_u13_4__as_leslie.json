@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"nominated\" mean?",
    "translations": {
     "fa": "«نامینیتد» یعنی چی؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "prescription",
       "computer",
-      "choose",
       "doctor",
-      "paper"
+      "choose",
+      "there"
      ],
      "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
      "suggestionFa": "یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's clever. So I just go and collect it?",
    "translations": {
     "fa": "چه هوشمندانه. پس فقط می‌رم و تحویل می‌گیرم؟"
@@ -73,8 +73,8 @@
      "keywords": [
       "supermarket",
       "dawson's",
-      "there's",
       "exactly",
+      "there's",
       "street"
      ],
      "suggestion": "Exactly. Now, there's Dawson's on the high street, or the big one in the supermarket.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which one is nearer to my house?",
    "translations": {
     "fa": "کدومش به خونه‌ام نزدیک‌تره؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "supermarket",
-      "dawson's",
       "minutes'",
-      "closes",
-      "nearer"
+      "dawson's",
+      "nearer",
+      "closes"
      ],
      "suggestion": "Dawson's is nearer — two minutes' walk. But it closes at six. The supermarket one is open until ten.",
      "suggestionFa": "داوسون نزدیک‌تره — دو دقیقه پیاده. ولی ساعت شش می‌بنده. اونی که تو سوپرمارکته تا ده بازه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I finish work at six. That's a problem.",
    "translations": {
     "fa": "من ساعت شش کارم تموم میشه. این مشکله."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "dawson's",
-      "advice",
       "maggie",
       "lovely",
+      "advice",
       "gives"
      ],
      "suggestion": "Nana Maggie uses Dawson's. Mr Dawson's lovely. He gives good advice — free!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free advice? From a pharmacist?",
    "translations": {
     "fa": "توصیهٔ مجانی؟ از داروساز؟"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "prescriptions",
-      "quicker",
       "they're",
+      "quicker",
       "coughs",
       "rashes"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, but with insurance it's cheaper.",
    "translations": {
     "fa": "آره، ولی با بیمه ارزون‌تره."
@@ -175,7 +175,7 @@
       "england",
       "sixties",
       "pounds",
-      "fixed"
+      "price"
      ],
      "suggestion": "Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free.",
      "suggestionFa": "اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So Nana Maggie doesn't pay?",
    "translations": {
     "fa": "پس نانا مگی پول نمیده؟"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "dawson's",
       "maggie's",
+      "dawson's",
       "george",
-      "about",
-      "right"
+      "thing",
+      "write"
      ],
      "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",
      "suggestionFa": "نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

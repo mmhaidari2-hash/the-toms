@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "nothing",
       "william",
       "taking",
-      "please"
+      "ballet"
      ],
      "suggestion": "Help. Leslie's taking William to a party, so I'm on ballet duty. I know nothing about ballet. Come with me? Please?",
      "suggestionFa": "کمک. لزلی ویلیام را برده مهمونی، پس نوبت بالهٔ منه. هیچی دربارهٔ باله نمی‌دونم. با من میای؟ لطفاً؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! OK, I'll come. What time does it start?",
    "translations": {
     "fa": "ها! باشه، میام. ساعت چند شروع میشه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's on the list?",
    "translations": {
     "fa": "تو فهرست چیه؟"
@@ -73,8 +73,8 @@
      "keywords": [
       "ponytail",
       "leotard",
-      "tights",
       "ballet",
+      "tights",
       "shoes"
      ],
      "suggestion": "\"Pink leotard, tights, ballet shoes, hair in a bun.\" A bun! I can do a ponytail, but a bun? Can you do a bun?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No idea! Let's watch a video.",
    "translations": {
     "fa": "هیچ ایده‌ای ندارم! بیا یه ویدیو ببینیم."
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "videos",
       "wobbly",
+      "online",
       "we're",
-      "video",
+      "where",
       "right"
      ],
      "suggestion": "Ten pins and one online video later… it's a bun. A wobbly bun. Right, we're here. Where do I take her?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask that lady at the door.",
    "translations": {
     "fa": "از اون خانم دم در بپرس."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She says no. Only on the last day of term.",
    "translations": {
     "fa": "میگه نه. فقط روز آخر ترم."
@@ -150,7 +150,7 @@
       "minutes",
       "parents",
       "ballet",
-      "bacon"
+      "forty"
      ],
      "suggestion": "No watching. Parents wait in the café next door. Forty-five minutes. Fancy a bacon roll? This is the best bit of ballet.",
      "suggestionFa": "تماشا ممنوع. والدین تو کافهٔ بغلی صبر می‌کنن. چهل و پنج دقیقه. ساندویچ بیکن می‌خوری؟ این بهترین قسمت باله‌ست.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Yes please. I'm hungry.",
    "translations": {
     "fa": "ها! آره لطفاً. گرسنه‌ام."
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "elephants",
       "beautiful",
+      "elephants",
       "thumping",
       "dancers",
       "sounds"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Elephants! Don't tell Nicola that.",
    "translations": {
     "fa": "فیل! اینو به نیکولا نگو."
@@ -199,7 +199,7 @@
       "everywhere",
       "totally",
       "time's",
-      "first",
+      "daddy",
       "bun's"
      ],
      "suggestion": "Time's up! Here she comes. And… the bun's gone. Totally gone. Hair everywhere. \"Daddy, my bun fell out in the first spin!\"",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Did you have fun, Nicola?",
    "translations": {
     "fa": "خوش گذشت نیکولا؟"
@@ -223,9 +223,9 @@
      "keywords": [
       "ballerina",
       "ponytail",
-      "leslie",
       "famous",
-      "going"
+      "leslie",
+      "she's"
      ],
      "suggestion": "She says it was \"the best day ever\" and she's going to be a famous ballerina. With a ponytail. Leslie can do the bun next week.",
      "suggestionFa": "میگه «بهترین روز عمرش» بود و قراره یه بالرین معروف بشه. با دم‌اسبی. لزلی هفتهٔ بعد گوجه را درست می‌کنه.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

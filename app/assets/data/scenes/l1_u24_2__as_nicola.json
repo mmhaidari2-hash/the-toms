@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "scared",
-      "can't",
       "sleep",
+      "can't",
       "room",
       "dark"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't be scared, Nicola.",
    "translations": {
     "fa": "نترس نیکولا."
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "monsters",
+      "noise",
       "heard",
       "under",
-      "noise",
       "bed"
      ],
      "suggestion": "Of monsters. Under my bed! I heard a noise.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's look under the bed together.",
    "translations": {
     "fa": "بیا با هم زیر تخت را نگاه کنیم."
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only a sock and a teddy.",
    "translations": {
     "fa": "فقط یه جوراب و یه عروسک."
@@ -99,7 +99,7 @@
       "noise",
       "teddy",
       "fell",
-      "off"
+      "was"
      ],
      "suggestion": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
      "suggestionFa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here he is. He's safe now.",
    "translations": {
     "fa": "ایناهاش. حالا در امانه."
@@ -165,7 +165,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She was a bit scared, Maggie.",
    "translations": {
     "fa": "یه کم ترسیده بود مگی."
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a good idea.",
    "translations": {
     "fa": "فکر خوبیه."
@@ -236,7 +236,7 @@
       "little",
       "please",
       "when",
-      "were"
+      "nana"
      ],
      "suggestion": "Yes, please. Nana, were you scared of the dark when you were little?",
      "suggestionFa": "آره، لطفاً. نانا، تو بچگی از تاریکی می‌ترسیدی؟",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a good question!",
    "translations": {
     "fa": "چه سؤال خوبی!"
@@ -302,7 +302,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Sing a song, Maggie.",
    "translations": {
     "fa": "آره! یه آهنگ بخونید مگی."

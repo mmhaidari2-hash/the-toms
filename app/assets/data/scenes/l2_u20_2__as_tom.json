@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "hospitals",
       "riverside",
+      "hospitals",
       "parking",
       "check",
-      "lunch"
+      "costs"
      ],
      "suggestion": "Here we are, Riverside. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
      "suggestionFa": "رسیدیم، ریورساید. از بیمارستان متنفرم — پارکینگش از ناهارم گرون‌تره. بابا، بشین. می‌تونی پذیرشمون را انجام بدی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Where is the reception?",
    "translations": {
     "fa": "حتماً. پذیرش کجاست؟"
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't worry, George. I'll do it for you.",
    "translations": {
     "fa": "نگران نباش جورج. من برات انجامش میدم."
@@ -106,8 +106,8 @@
       "thompson",
       "nineteen",
       "surname",
-      "third",
-      "wants"
+      "wants",
+      "birth"
      ],
      "suggestion": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
      "suggestionFa": "فامیل و تاریخ تولدش را می‌خواد. تامسون، سوم مارس، هزار و نهصد و پنجاه.",
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says \"Please take a seat in Area C\".",
    "translations": {
     "fa": "نوشته «لطفاً در بخش C بنشینید»."
@@ -131,8 +131,8 @@
       "hospitals",
       "coloured",
       "follow",
-      "green",
-      "lines"
+      "lines",
+      "green"
      ],
      "suggestion": "Area C — follow the green line on the floor. Hospitals love coloured lines. Dad, follow the green line!",
      "suggestionFa": "بخش C — خط سبز روی زمین را دنبال کن. بیمارستان‌ها عاشق خطوط رنگی‌ان. بابا، خط سبز را دنبال کن!",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Come on, George. Follow the green line!",
    "translations": {
     "fa": "بیا جورج. خط سبز را دنبال کن!"
@@ -204,7 +204,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! George, take my arm.",
    "translations": {
     "fa": "ها! جورج، بازوم را بگیر."
@@ -216,7 +216,7 @@
       "running",
       "screen",
       "course",
-      "calls"
+      "names"
      ],
      "suggestion": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
      "suggestionFa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره.",
@@ -229,7 +229,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Forty minutes! Shall I get some coffee?",
    "translations": {
     "fa": "چهل دقیقه! قهوه بگیرم؟"
@@ -286,7 +286,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A tea and a biscuit. Tom, what would you like?",
    "translations": {
     "fa": "یه چای و یه بیسکویت. تام، تو چی می‌خوای؟"
@@ -297,8 +297,8 @@
       "nothing",
       "before",
       "sugars",
-      "right",
-      "blood"
+      "blood",
+      "right"
      ],
      "suggestion": "He's right, Dad — nothing before the blood test. Ha! Your face! OK, a tea for me. Milk, two sugars.",
      "suggestionFa": "راست میگه بابا — قبل از آزمایش خون هیچی. ها! قیافه‌ات! باشه، یه چای برای من. شیر، دو تا قند.",
@@ -311,7 +311,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One tea, milk and two sugars. Back soon!",
    "translations": {
     "fa": "یه چای، با شیر و دو تا قند. زود برمی‌گردم!"

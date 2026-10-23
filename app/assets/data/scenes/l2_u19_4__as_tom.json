@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a signal failure?",
    "translations": {
     "fa": "خرابی سیگنال چیه؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "traffic",
-      "minutes",
-      "working",
       "stopped",
-      "trains"
+      "working",
+      "minutes",
+      "traffic",
+      "nobody"
      ],
      "suggestion": "The traffic lights for trains stopped working. Could be ten minutes, could be an hour. Nobody knows.",
      "suggestionFa": "چراغ‌راهنمای قطارها از کار افتاده. ممکنه ده دقیقه باشه، ممکنه یه ساعت. کسی نمی‌دونه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I have an interview at ten!",
    "translations": {
     "fa": "من ساعت ده مصاحبه دارم!"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Suspended? What does that mean?",
    "translations": {
     "fa": "«ساسپندد»؟ یعنی چی؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "suspended",
-      "instead",
       "stopped",
+      "instead",
       "ticket",
-      "still"
+      "valid"
      ],
      "suggestion": "Suspended means stopped. We could take the 73 bus instead. Your ticket on the Tube is still valid on buses today.",
      "suggestionFa": "«ساسپندد» یعنی متوقف. می‌تونیم به جاش اتوبوس ۷۳ بگیریم. بلیت متروت امروز تو اتوبوس هم معتبره.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Great. Where's the bus stop?",
    "translations": {
     "fa": "عالیه. ایستگاه اتوبوس کجاست؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Sorry, there's a signal failure. I might be ten minutes late.\"",
    "translations": {
     "fa": "«ببخشید، سیگنال خراب شده. ممکنه ده دقیقه دیر کنم.»"
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
-      "perfect",
       "delayed",
       "minutes",
+      "perfect",
+      "fifteen",
       "refund"
      ],
      "suggestion": "Perfect. And if you're delayed over fifteen minutes, you can claim a refund.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? How do I do that?",
    "translations": {
     "fa": "واقعاً؟ چطوری؟"
@@ -175,7 +175,7 @@
       "online",
       "driver",
       "worry",
-      "don't"
+      "won't"
      ],
      "suggestion": "Online, later. Now — run! The 73 is coming. Don't worry, it's not my bus, so the driver won't tell jokes. Go, go, go!",
      "suggestionFa": "آنلاین، بعداً. حالا — بدو! ۷۳ داره میاد. نگران نباش، اتوبوس من نیست، پس راننده جوک نمیگه. برو، برو، برو!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

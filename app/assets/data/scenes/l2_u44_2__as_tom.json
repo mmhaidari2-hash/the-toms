@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "holiday",
       "camping",
-      "story",
+      "holiday",
       "worst",
+      "wales",
       "about"
      ],
      "suggestion": "Did I ever tell you about our camping trip in Wales? The worst holiday of my life. And the best story.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No! Tell me. What happened?",
    "translations": {
     "fa": "نه! بگو. چی شد؟"
@@ -49,7 +49,7 @@
       "birthday",
       "sleeping",
       "ryan's",
-      "train",
+      "sixth",
       "three"
      ],
      "suggestion": "So, it was Ryan's sixth birthday. We took the train to Wales with a tent, three sleeping bags and a lot of hope.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A lot of hope! I think I know what happened next.",
    "translations": {
     "fa": "کلی امید! فکر کنم می‌دونم بعدش چی شد."
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "instructions",
-      "swedish",
       "started",
+      "swedish",
       "o'clock",
       "easily"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! How long did it rain for?",
    "translations": {
     "fa": "وای نه! چقدر بارون اومد؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "morning",
       "rained",
-      "three",
+      "water",
       "sleep",
-      "water"
+      "three"
      ],
      "suggestion": "It rained for three days. Non-stop. At two in the morning, water came into the tent. We had to sleep in the car. Oh wait — no car!",
      "suggestionFa": "سه روز بارون اومد. یکسره. ساعت دو صبح، آب اومد تو چادر. مجبور شدیم تو ماشین بخوابیم. اوه صبر کن — ماشین نداشتیم!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No car! So where did you sleep?",
    "translations": {
     "fa": "ماشین نداشتید! پس کجا خوابیدید؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "luckily",
-      "little",
       "toilet",
+      "little",
       "leslie",
-      "floor"
+      "loved"
      ],
      "suggestion": "In the toilet block! Me, Leslie and little Ryan on the floor, with the hand dryer for heat. Luckily, Ryan loved it.",
      "suggestionFa": "تو سرویس بهداشتی کمپ! لزلی، من و رایان کوچولو، رو زمین، با دست‌خشک‌کن برای گرما. خوشبختانه، رایان عاشقش شد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The hand dryer for heat! That's very clever.",
    "translations": {
     "fa": "دست‌خشک‌کن برای گرما! خیلی زرنگی بود."
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "invited",
-      "called",
       "lovely",
       "farmer",
-      "didn't"
+      "leslie",
+      "called"
      ],
      "suggestion": "Leslie didn't speak to me for two days. Then a farmer saw us. He was a lovely old man called Gwyn. He invited us to his farm.",
      "suggestionFa": "لزلی دو روز باهام حرف نزد. بعد یه کشاورز ما را دید. یه پیرمرد نازنین به اسم گوین. ما را به مزرعه‌اش دعوت کرد.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a kind man! Did you stay on the farm?",
    "translations": {
     "fa": "چه مرد مهربونی! تو مزرعه موندید؟"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds lovely. Better than the tent!",
    "translations": {
     "fa": "قشنگ به نظر میاد. بهتر از چادر!"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "holiday",
       "raisins",
-      "little",
+      "holiday",
       "cooked",
-      "cakes"
+      "little",
+      "still"
      ],
      "suggestion": "Little flat cakes with raisins, cooked on a hot stone. In the end, it was the best holiday ever. We still send Gwyn a card.",
      "suggestionFa": "کیک‌های کوچیک صاف با کشمش، پخته رو سنگ داغ. در آخر، بهترین تعطیلات عمرمون شد. هنوز برای گوین کارت می‌فرستیم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In the end, a happy ending!",
    "translations": {
     "fa": "در آخر، یه پایان خوش!"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

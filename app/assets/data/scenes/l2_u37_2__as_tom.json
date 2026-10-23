@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "melting",
       "degrees",
       "tuesday",
-      "window"
+      "thirty"
      ],
      "suggestion": "Thirty-two degrees! On my bus! No air conditioning since Tuesday. I'm melting. Come and sit by the window, mate.",
      "suggestionFa": "سی و دو درجه! تو اتوبوس من! از سه‌شنبه کولر نداره. دارم آب میشم. بیا کنار پنجره بشین رفیق.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thirty-two? That's not hot for me!",
    "translations": {
     "fa": "سی و دو؟ برای من گرم نیست!"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "emergency",
       "londoners",
-      "national",
+      "emergency",
       "cheating",
+      "national",
       "that's"
      ],
      "suggestion": "Not hot? You're from Tehran, that's cheating. For Londoners, thirty-two is a national emergency. It's all over the news.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? What do they say on the news?",
    "translations": {
     "fa": "واقعاً؟ اخبار چی میگه؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "neighbours",
-      "elderly",
       "because",
+      "elderly",
       "trains",
-      "check"
+      "water"
      ],
      "suggestion": "\"Drink water, stay out of the sun, check on elderly neighbours.\" And the trains are slow because the rails get too hot.",
      "suggestionFa": "«آب بخورید، از آفتاب دور بمونید، به همسایه‌های سالمند سر بزنید.» و قطارها کندن چون ریل‌ها زیادی داغ میشن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The rails get too hot? Amazing.",
    "translations": {
     "fa": "ریل‌ها زیادی داغ میشن؟ عجیبه."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran we drink hot tea in summer too.",
    "translations": {
     "fa": "تو ایران هم تابستون چای داغ می‌خوریم."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "having",
+      "summer",
       "ryan's",
       "nicola",
-      "summer",
-      "lolly"
+      "water"
      ],
      "suggestion": "Hot tea in summer! You lot are mad. Here, Ryan's having a water fight in the park. Nicola wants an ice lolly every hour.",
      "suggestionFa": "چای داغ تو تابستون! شماها دیوونه‌اید. اینجا، رایان تو پارک آب‌بازی می‌کنه. نیکولا هر ساعت بستنی یخی می‌خواد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's an ice lolly?",
    "translations": {
     "fa": "«آیس لالی» چیه؟"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sandals with socks? Really?",
    "translations": {
     "fa": "صندل با جوراب؟ واقعاً؟"
@@ -175,7 +175,7 @@
       "lobster",
       "window",
       "leslie",
-      "calls"
+      "water"
      ],
      "suggestion": "Driver's arm! Only the right one, by the window. Leslie calls me \"half a lobster\". Last stop. Have you got any water left?",
      "suggestionFa": "بازوی راننده! فقط راستی، کنار پنجره. لزلی بهم میگه «نصف خرچنگ». خب، آخرین ایستگاه. آب برات مونده؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, take my bottle. I've got another.",
    "translations": {
     "fa": "آره، بطریم را بگیر. یکی دیگه دارم."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "thunderstorms",
-      "everyone",
       "tomorrow",
+      "everyone",
       "degrees",
-      "twenty"
+      "legend"
      ],
      "suggestion": "Legend. And tomorrow? Rain, they say. Thunderstorms. Then twenty degrees and everyone will say, \"Bit chilly, isn't it?\"",
      "suggestionFa": "عالی هستی. فردا؟ میگن بارون. رعد و برق. بعد بیست درجه و همه میگن «یه کم خنکه، نه؟»",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

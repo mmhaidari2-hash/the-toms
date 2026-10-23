@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "tonight",
       "chicken",
-      "videos",
+      "online",
       "curry",
-      "video"
+      "never"
      ],
      "suggestion": "Mum and Dad are out tonight. I said I'd cook. Chicken curry. From a video online. Can you help? I've never made one.",
      "suggestionFa": "مامان و بابا امشب بیرونن. گفتم من آشپزی می‌کنم. کاری مرغ. از یه ویدیوی ویدیوهای اینترنتی. کمکم می‌کنی؟ تا حالا درست نکردم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. I love cooking. Where's the recipe?",
    "translations": {
     "fa": "حتماً. عاشق آشپزی‌ام. دستورش کجاست؟"
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "noodles",
+      "already",
       "onions",
       "crying",
       "toast"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll chop the onions. I'm used to it.",
    "translations": {
     "fa": "من پیازها را خرد می‌کنم. عادت دارم."
@@ -74,8 +74,8 @@
       "lifesaver",
       "they're",
       "minutes",
-      "onions",
-      "golden"
+      "golden",
+      "onions"
      ],
      "suggestion": "Lifesaver. Next: fry the onions in oil until they're soft and golden. About ten minutes. Low heat.",
      "suggestionFa": "نجات‌دهنده‌ای. بعدی: پیازها را تو روغن سرخ کن تا نرم و طلایی بشن. حدود ده دقیقه. حرارت کم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Until golden. Not brown! Keep stirring.",
    "translations": {
     "fa": "تا طلایی. نه قهوه‌ای! هم بزن."
@@ -99,8 +99,8 @@
       "turmeric",
       "chicken",
       "masala",
-      "garlic",
-      "ginger"
+      "spices",
+      "garlic"
      ],
      "suggestion": "The video says ten. Now garlic and ginger. Then the spices: cumin, turmeric, garam masala. Then the chicken.",
      "suggestionFa": "ویدیو میگه ده. حالا سیر و زنجبیل. بعد ادویه‌ها: زیره، زردچوبه، گرم ماسالا. بعد مرغ.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We use turmeric in Iran too! A lot!",
    "translations": {
     "fa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three? William and Nicola are eating too!",
    "translations": {
     "fa": "سه تا؟ ویلیام و نیکولا هم می‌خورن!"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "teaspoon",
       "tomatoes",
+      "teaspoon",
       "coconut",
       "nicola",
-      "pinch"
+      "salsa"
      ],
      "suggestion": "Oh yeah. The kids. Nicola cried at a mild salsa once. OK — one teaspoon. Add a pinch of salt. Then tomatoes and coconut milk.",
      "suggestionFa": "اوه آره. بچه‌ها. نیکولا یه بار سر یه سالسای ملایم گریه کرد. باشه — یه قاشق. یه ذره نمک اضافه کن. بعد گوجه و شیر نارگیل.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It smells amazing already.",
    "translations": {
     "fa": "از همین الان بوی معرکه‌ای میده."
@@ -174,8 +174,8 @@
       "simmering",
       "anything",
       "minutes",
-      "twenty",
-      "honest"
+      "honest",
+      "twenty"
      ],
      "suggestion": "Twenty minutes simmering. Then rice. Taste it — be honest. Does it need anything?",
      "suggestionFa": "بیست دقیقه آروم بجوشه. بعد برنج. بچشش — صادق باش. چیزی کم داره؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It needs a bit more salt. And lemon!",
    "translations": {
     "fa": "یه کم نمک بیشتر می‌خواد. و لیمو!"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "microwave",
-      "usually",
       "doesn't",
-      "video",
-      "lemon"
+      "usually",
+      "lemon",
+      "video"
      ],
      "suggestion": "Lemon. Nice. And now — the rice. How do you make rice? The video doesn't say. I usually get the microwave bag.",
      "suggestionFa": "لیمو. خوبه. و حالا — برنج. برنج را چطوری درست می‌کنی؟ ویدیو نمیگه. من معمولاً کیسهٔ مایکروویوی می‌گیرم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leave the rice to me. Persian rice is the best!",
    "translations": {
     "fa": "برنج را بسپار به من. برنج ایرانی بهترینه!"
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "persian",
-      "genius",
       "bottom",
       "helped",
+      "genius",
       "crispy"
      ],
      "suggestion": "Persian rice with a crispy bottom? The tah-dig thing? YES. Mum's going to think I'm a genius. Don't tell her you helped.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

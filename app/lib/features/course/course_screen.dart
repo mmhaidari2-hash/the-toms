@@ -289,7 +289,15 @@ class _Stones extends ConsumerWidget {
                 return Align(
                   alignment: Alignment(dx, 0),
                   child: Pressable(
-                    onTap: open ? () => context.push(check ? '/practice/${u.id}' : '/lesson/${l.id}') : (ui < 0 && !check ? () => context.push('/premium?pack=${course.packOf(u)?.id ?? ''}') : null),
+                    onTap: open
+                        ? () => context.push(check ? '/practice/${u.id}' : '/lesson/${l.id}')
+                        : (ui < 0 && !check
+                            ? (pack != null && pack.gated && !ctrl.packUnitLevelOpen(course, u)
+                                ? () => ScaffoldMessenger.of(context)
+                                  ..hideCurrentSnackBar()
+                                  ..showSnackBar(SnackBar(content: Text('Opens at Level ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.')))
+                                : () => context.push('/premium?pack=${pack?.id ?? ''}'))
+                            : null),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: Column(

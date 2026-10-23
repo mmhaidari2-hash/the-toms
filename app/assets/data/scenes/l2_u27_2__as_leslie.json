@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Who has priority, the wheelchair or the pushchair?",
    "translations": {
     "fa": "کی اولویت داره، ویلچر یا کالسکه؟"
@@ -120,7 +120,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I help her fold it?",
    "translations": {
     "fa": "می‌تونم کمکش کنم تاش کنه؟"
@@ -131,8 +131,8 @@
       "pushchair",
       "holding",
       "william",
-      "course",
-      "asleep"
+      "asleep",
+      "course"
      ],
      "suggestion": "Oh, of course. Would you mind holding William? He's half asleep. I'll fold the pushchair.",
      "suggestionFa": "آه، البته. اشکالی نداره ویلیام را بغل کنی؟ نیمه‌خوابه. من کالسکه را تا می‌کنم.",
@@ -145,7 +145,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Come here, William.",
    "translations": {
     "fa": "البته. بیا اینجا ویلیام."
@@ -201,7 +201,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We're going home, William.",
    "translations": {
     "fa": "داریم میریم خونه ویلیام."
@@ -257,7 +257,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The bus has a ramp? I didn't know!",
    "translations": {
     "fa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!"
@@ -313,7 +313,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "William! Say \"Hello, sir\".",
    "translations": {
     "fa": "ویلیام! بگو «سلام آقا»."
@@ -322,8 +322,8 @@
     {
      "keywords": [
       "pushchair",
-      "laughing",
       "goodness",
+      "laughing",
       "there's",
       "little"
      ],
@@ -338,7 +338,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. It's heavier than it looks!",
    "translations": {
     "fa": "آره. از ظاهرش سنگین‌تره!"

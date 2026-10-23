@@ -68,8 +68,7 @@
       "passport",
       "here's",
       "evisa",
-      "share",
-      "code"
+      "share"
      ],
      "suggestion": "Here's my passport, and here's my eVisa share code.",
      "suggestionFa": "این پاسپورتمه، اینم کد اشتراک ای‌ویزام.",
@@ -133,8 +132,8 @@
     },
     {
      "keywords": [
-      "first",
       "month",
+      "first",
       "sure",
       "yet"
      ],
@@ -216,7 +215,7 @@
       "monthly",
       "avoid",
       "there",
-      "then"
+      "i'll"
      ],
      "suggestion": "I'll avoid it, then. Is there a monthly fee?",
      "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
@@ -227,9 +226,9 @@
     {
      "keywords": [
       "later",
-      "know",
       "good",
-      "need"
+      "need",
+      "know"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -273,8 +272,8 @@
     {
      "keywords": [
       "abroad",
-      "money",
       "great",
+      "money",
       "send"
      ],
      "suggestion": "Great. Can I send money abroad too?",
@@ -327,8 +326,8 @@
     {
      "keywords": [
       "transfers",
-      "long",
       "take",
+      "long",
       "how"
      ],
      "suggestion": "How long do transfers take?",
@@ -365,9 +364,9 @@
     {
      "keywords": [
       "thanks",
-      "heard",
-      "scams",
-      "about"
+      "those",
+      "about",
+      "scams"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -379,8 +378,8 @@
      "keywords": [
       "careful",
       "know",
-      "good",
-      "i'll"
+      "i'll",
+      "good"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",

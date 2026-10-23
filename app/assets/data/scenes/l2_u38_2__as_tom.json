@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "yesterday",
-      "nicola",
       "jungle",
-      "sun's",
-      "there"
+      "nicola",
+      "there",
+      "means"
      ],
      "suggestion": "The sun's out. You know what that means. The lawn. It's like a jungle back there. Nicola lost a shoe in it yesterday.",
      "suggestionFa": "آفتاب دراومده. می‌دونی یعنی چی. چمن. اون پشت مثل جنگله. نیکولا دیروز یه کفشش را توش گم کرد.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A jungle! Does it need cutting?",
    "translations": {
     "fa": "جنگل! باید کوتاه بشه؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "spiders",
       "cutting",
+      "spiders",
       "behind",
-      "badly",
-      "needs"
+      "mower",
+      "badly"
      ],
      "suggestion": "It needs cutting badly. Could you get the mower from the shed? It's behind the bikes. Mind the spiders.",
      "suggestionFa": "خیلی باید کوتاه بشه. میشه ماشین چمن‌زنی را از انباری بیاری؟ پشت دوچرخه‌هاست. مواظب عنکبوت‌ها باش.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Spiders? How big are they?",
    "translations": {
     "fa": "عنکبوت؟ چقدر بزرگن؟"
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "electric",
-      "spiders",
       "british",
+      "spiders",
       "forget",
       "mostly"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There's a dinosaur, two cars, a ball and a shoe!",
    "translations": {
     "fa": "یه دایناسور، دو تا ماشین، یه توپ و یه کفش هست!"
@@ -99,8 +99,8 @@
       "william's",
       "nicola's",
       "breaks",
-      "three",
-      "found"
+      "found",
+      "mower"
      ],
      "suggestion": "Nicola's shoe! Found it. Good man. If the mower hits a toy, it breaks. I've eaten three of William's cars this year.",
      "suggestionFa": "کفش نیکولا! پیداش کردی. آفرین. اگه ماشین چمن‌زنی به اسباب‌بازی بخوره، می‌شکنه. امسال سه تا از ماشین‌های ویلیام را خوردم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Poor cars! OK, the grass is clear now.",
    "translations": {
     "fa": "ماشین‌های بیچاره! باشه، الان چمن خالیه."
@@ -123,8 +123,8 @@
      "keywords": [
       "behind",
       "button",
+      "never",
       "green",
-      "cable",
       "press"
      ],
      "suggestion": "Plug it in, hold the bar, press the green button. Keep the cable behind you — never run over the cable!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Behind me. Got it. It's very loud!",
    "translations": {
     "fa": "پشت سرم. فهمیدم. خیلی بلنده!"
@@ -148,9 +148,9 @@
      "keywords": [
       "straight",
       "stripes",
+      "fills",
       "lines",
-      "green",
-      "empty"
+      "power"
      ],
      "suggestion": "Bang, no power, and a new cable from B&Q. Straight lines, like stripes. The bag fills up fast — empty it in the green bin.",
      "suggestionFa": "بنگ، برق قطع، و یه سیم جدید از بی‌اندکیو. خط‌های صاف، مثل راه‌راه. کیسه زود پر میشه — تو سطل سبز خالیش کن.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Stripes! Like a football pitch.",
    "translations": {
     "fa": "راه‌راه! مثل زمین فوتبال."
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "watching",
-      "natural",
       "jenkins",
+      "natural",
       "forget",
       "lines"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is he angry? Is it too loud?",
    "translations": {
     "fa": "عصبانیه؟ خیلی بلنده؟"
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
+      "jealous",
       "stripes",
       "wembley",
-      "jealous",
       "always",
       "better"
      ],
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes please. I've earned it!",
    "translations": {
     "fa": "آره لطفاً. حقمه!"
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "football",
-      "destroy",
       "william",
-      "over",
-      "body"
+      "destroy",
+      "body",
+      "nice"
      ],
      "suggestion": "Football? Over my dead body! Not for a week. Let it look nice for one day. Then William can destroy it.",
      "suggestionFa": "فوتبال؟ از روی جنازهٔ من! یه هفته نه. بذار یه روز قشنگ بمونه. بعد ویلیام می‌تونه داغونش کنه.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

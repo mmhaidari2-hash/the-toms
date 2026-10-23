@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a lovely idea.",
    "translations": {
     "fa": "چه فکر قشنگی."
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sunflowers are yellow.",
    "translations": {
     "fa": "آفتابگردون زرده."
@@ -105,11 +105,11 @@
      "keywords": [
       "sunflowers",
       "prefer",
-      "which",
       "roses",
+      "which",
       "hmm"
      ],
-     "suggestion": "Sunflowers or roses? Hmm. Which do you prefer, Mehdi?",
+     "suggestion": "Sunflowers or roses? Hmm. Which do you prefer, {you}?",
      "suggestionFa": "آفتابگردون یا رز؟ هوم. تو کدوم را ترجیح میدی {you}؟",
      "trustDelta": 5,
      "next": "r5",
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I prefer the sunflowers. They're happy.",
    "translations": {
     "fa": "من آفتابگردون را ترجیح میدم. شادن."
@@ -131,8 +131,8 @@
       "sunflowers",
       "maggie's",
       "kitchen",
-      "point",
-      "small"
+      "small",
+      "point"
      ],
      "suggestion": "Good point. But sunflowers are big. Maggie's kitchen is small!",
      "suggestionFa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ مگی کوچیکه!",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then let's get the roses.",
    "translations": {
     "fa": "پس رز بخریم."
@@ -200,7 +200,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Daffodils! Good thinking, Nicola.",
    "translations": {
     "fa": "نرگس! فکر خوبیه نیکولا."
@@ -211,8 +211,8 @@
       "daffodils",
       "they're",
       "pounds",
-      "three",
-      "roses"
+      "let's",
+      "three"
      ],
      "suggestion": "No, they're only three pounds a bunch. Let's get a bunch of daffodils and two roses.",
      "suggestionFa": "نه، دسته‌ای فقط سه پوند. یه دسته نرگس و دو تا رز بخریم.",
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can we wrap them in paper?",
    "translations": {
     "fa": "می‌شه تو کاغذ بپیچیمشون؟"
@@ -282,7 +282,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course you can.",
    "translations": {
     "fa": "البته که می‌تونی."
@@ -293,7 +293,7 @@
       "sweetie",
       "before",
       "course",
-      "going",
+      "happy",
       "tears"
      ],
      "suggestion": "Of course, sweetie. Nana is going to cry happy tears. Let's go before they wilt!",
@@ -307,7 +307,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

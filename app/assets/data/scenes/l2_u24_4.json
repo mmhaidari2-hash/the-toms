@@ -20,8 +20,8 @@
     {
      "keywords": [
       "william",
-      "can't",
       "three",
+      "can't",
       "he's"
      ],
      "suggestion": "I can't find William! He's three.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "wearing",
       "william",
-      "he's",
-      "coat"
+      "wearing",
+      "coat",
+      "he's"
      ],
      "suggestion": "William Tom. He's wearing a red coat.",
      "suggestionFa": "ویلیام تام. یه کت قرمز پوشیده.",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "escalator",
-      "turned",
       "around",
+      "turned",
       "near"
      ],
      "suggestion": "Near the escalator. I turned around, and he was gone.",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "code",
+      "adam",
       "mean",
-      "adam"
+      "code"
      ],
      "suggestion": "What does Code Adam mean?",
      "suggestionFa": "کد آدام یعنی چی؟",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "should",
-      "shop",
       "back",
+      "shop",
       "toy"
      ],
      "suggestion": "Should I go back to the toy shop?",
@@ -264,8 +264,8 @@
      "keywords": [
       "driving",
       "he's",
-      "bus",
-      "his"
+      "dad",
+      "bus"
      ],
      "suggestion": "His dad is Tom. He's driving the bus.",
      "suggestionFa": "باباش تامه. داره اتوبوس می‌رونه.",
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "william",
-      "never",
       "again",
+      "never",
       "away"
      ],
      "suggestion": "William! Never run away again, OK?",
@@ -370,10 +370,10 @@
     },
     {
      "keywords": [
-      "where",
       "lolly",
-      "did",
-      "get"
+      "where",
+      "get",
+      "did"
      ],
      "suggestion": "Where did you get a lolly?",
      "suggestionFa": "آبنبات از کجا آوردی؟",

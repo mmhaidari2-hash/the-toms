@@ -1,0 +1,227 @@
+{
+ "id": "est_1_1",
+ "characterId": "agent",
+ "title": "Booking a viewing",
+ "titleFa": "گرفتن وقت بازدید",
+ "setting": "Finding a flat · Level 0",
+ "settingFa": "پیدا کردن آپارتمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Good morning, Fennick and Rowe Homes, Olivia speaking. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، املاک فنیک اند رو، اولیویا هستم. چه کمکی از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calling",
+      "hello",
+      "about",
+      "bed"
+     ],
+     "suggestion": "Hello. I'm calling about the one-bed flat on Mare Street.",
+     "suggestionFa": "سلام. دربارهٔ آپارتمان یه‌خوابهٔ خیابون میر زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "available",
+      "still",
+      "hi"
+     ],
+     "suggestion": "Hi. Is the flat on Mare Street still available?",
+     "suggestionFa": "سلام. آپارتمان خیابون میر هنوز موجوده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one-bed",
+     "fa": "یک‌خوابه"
+    },
+    {
+     "word": "available",
+     "fa": "موجود ؛ آزاد"
+    },
+    {
+     "word": "calling about",
+     "fa": "زنگ زدن دربارهٔ"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Yes, it's still available. It's twelve hundred pounds a month. Would you like to come and see it?",
+   "translations": {
+    "fa": "بله، هنوز موجوده. ماهی هزار و دویست پونده. دوست دارید بیاید ببینیدش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "week",
+      "see"
+     ],
+     "suggestion": "Yes, please. Can I see it this week?",
+     "suggestionFa": "بله لطفاً. می‌تونم این هفته ببینمش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "come"
+     ],
+     "suggestion": "Yes. When can I come?",
+     "suggestionFa": "آره. کِی می‌تونم بیام؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a month",
+     "fa": "ماهانه ؛ در ماه"
+    },
+    {
+     "word": "see it",
+     "fa": "دیدنش"
+    },
+    {
+     "word": "this week",
+     "fa": "این هفته"
+    }
+   ],
+   "cultureNote": {
+    "en": "Flats in the UK are often advertised \"per calendar month\" (pcm). £1,200 pcm means £1,200 every month.",
+    "fa": "در بریتانیا اجاره اغلب «ماهانه» (pcm) اعلام می‌شود."
+   },
+   "recasts": [
+    {
+     "match": [
+      "I can see",
+      "can see I"
+     ],
+     "echo": "Can I see it this week? Of course.",
+     "better": "Can I see it this week?",
+     "betterFa": "می‌تونم این هفته ببینمش؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Of course. I've got Thursday at half past five or Saturday at ten. Which is better for you?",
+   "translations": {
+    "fa": "حتماً. پنج‌شنبه ساعت پنج و نیم یا شنبه ساعت ده وقت دارم. کدوم براتون بهتره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "perfect",
+      "ten"
+     ],
+     "suggestion": "Saturday at ten is perfect.",
+     "suggestionFa": "شنبه ساعت ده عالیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thursday",
+      "please",
+      "finish",
+      "work"
+     ],
+     "suggestion": "Thursday, please. I finish work at five.",
+     "suggestionFa": "پنج‌شنبه لطفاً. ساعت پنج کارم تموم می‌شه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half past five",
+     "fa": "پنج و نیم"
+    },
+    {
+     "word": "which is better",
+     "fa": "کدام بهتر است"
+    },
+    {
+     "word": "finish work",
+     "fa": "کار را تمام کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "Lovely. Can I take your name and a phone number, please?",
+   "translations": {
+    "fa": "عالیه. می‌شه اسم و یه شماره تلفن‌تون را داشته باشم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "email"
+     ],
+     "suggestion": "Yes, it's {you}. My number is in your email.",
+     "suggestionFa": "بله، {you} هستم. شماره‌م تو ایمیل‌تونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spell",
+      "shall",
+      "sure",
+      "name"
+     ],
+     "suggestion": "Sure. Shall I spell my name for you?",
+     "suggestionFa": "حتماً. اسمم را براتون هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take your name",
+     "fa": "اسم کسی را یادداشت کردن"
+    },
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "Perfect, thank you. I'll send you a text with the address. See you then!",
+   "translations": {
+    "fa": "عالی، ممنون. یه پیام با آدرس براتون می‌فرستم. می‌بینمتون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

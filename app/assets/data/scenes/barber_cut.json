@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "sides",
       "short",
+      "sides",
       "back"
      ],
      "suggestion": "Short back and sides, please.",
@@ -79,8 +79,8 @@
     },
     {
      "keywords": [
-      "short",
-      "three"
+      "three",
+      "short"
      ],
      "suggestion": "A three, please — not too short.",
      "suggestionFa": "سه، لطفاً — نه خیلی کوتاه.",
@@ -113,8 +113,8 @@
      "keywords": [
       "started",
       "busy",
-      "job",
-      "new"
+      "new",
+      "job"
      ],
      "suggestion": "Yes, very busy. I started a new job.",
      "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "actually",
-      "quite",
       "quiet",
+      "quite",
       "bad"
      ],
      "suggestion": "Not bad. Quite quiet, actually.",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "fringe",
       "thanks",
+      "fringe",
       "leave"
      ],
      "suggestion": "No, leave the fringe, thanks.",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "football",
-      "follow",
       "really",
+      "follow",
       "don't"
      ],
      "suggestion": "No, I don't really follow football.",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "please",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "Yes please, just a trim.",
      "suggestionFa": "آره لطفاً، فقط یه کم مرتب.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "thanks",
-      "long",
-      "like"
+      "like",
+      "long"
      ],
      "suggestion": "No thanks, I like it long.",
      "suggestionFa": "نه ممنون، بلند دوستش دارم.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "shorter",
-      "please",
       "little",
+      "please",
       "left"
      ],
      "suggestion": "A little shorter on the left, please.",
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "little",
+      "please",
       "just",
       "wax"
      ],

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "interview",
       "you've",
-      "going",
       "today",
+      "going",
       "wear"
      ],
      "suggestion": "You've got a job interview today! Big day! What are you going to wear?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. Can you help me?",
    "translations": {
     "fa": "نمی‌دونم. کمکم می‌کنی؟"
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, in a big office.",
    "translations": {
     "fa": "آره، تو یه دفتر بزرگ."
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "should",
-      "shirt",
       "white",
-      "wear",
-      "good"
+      "shirt",
+      "then",
+      "wear"
      ],
      "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
      "suggestionFa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Should I wear a tie?",
    "translations": {
     "fa": "کراوات بزنم؟"
@@ -97,9 +97,9 @@
      "keywords": [
       "relaxed",
       "ironed",
+      "smart",
       "these",
-      "shirt",
-      "smart"
+      "shirt"
      ],
      "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
      "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. Can I borrow your iron?",
    "translations": {
     "fa": "نه. می‌تونم اتوت را قرض بگیرم؟"
@@ -124,7 +124,7 @@
       "jumper",
       "chilly",
       "iron's",
-      "about"
+      "today"
      ],
      "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
      "suggestionFa": "اتو تو کمده. و ژاکت چی؟ امروز هوا سرده.",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A dark blue jumper?",
    "translations": {
     "fa": "یه ژاکت سورمه‌ای؟"
@@ -148,8 +148,8 @@
       "trainers",
       "shoes",
       "smart",
-      "good",
-      "navy"
+      "navy",
+      "good"
      ],
      "suggestion": "Good. Navy is smart. Now — shoes! Not trainers.",
      "suggestionFa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی.",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got black shoes.",
    "translations": {
     "fa": "کفش مشکی دارم."
@@ -172,9 +172,9 @@
      "keywords": [
       "interview",
       "perfect",
-      "clean",
       "shoes",
-      "black"
+      "black",
+      "clean"
      ],
      "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
      "suggestionFa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Where's the shoe polish?",
    "translations": {
     "fa": "باشه. واکس کفش کجاست؟"
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Leslie. I'm nervous!",
    "translations": {
     "fa": "ممنون لزلی. استرس دارم!"
@@ -224,7 +224,7 @@
       "yourself",
       "nervous",
       "smile",
-      "after"
+      "hello"
      ],
      "suggestion": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",
      "suggestionFa": "همه استرس دارن. لبخند بزن، سلام کن، و خودت باش. بعدش بهم پیام بده!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -21,8 +21,8 @@
      "keywords": [
       "something",
       "simple",
-      "calls",
-      "video"
+      "video",
+      "calls"
      ],
      "suggestion": "Yes. Something simple, for video calls.",
      "suggestionFa": "آره. یه چیز ساده، برای تماس تصویری.",
@@ -90,9 +90,9 @@
     {
      "keywords": [
       "camera",
-      "calls",
       "video",
-      "front"
+      "front",
+      "needs"
      ],
      "suggestion": "She needs a good front camera for video calls.",
      "suggestionFa": "یه دوربین جلوی خوب برای تماس تصویری لازم داره.",
@@ -199,8 +199,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "honest",
+      "that's",
       "thank",
       "dev"
      ],
@@ -212,9 +212,9 @@
     },
     {
      "keywords": [
-      "iran",
       "work",
-      "will"
+      "will",
+      "iran"
      ],
      "suggestion": "Will it work in Iran?",
      "suggestionFa": "تو ایران کار می‌کنه؟",
@@ -319,8 +319,8 @@
     {
      "keywords": [
       "she'll",
-      "pink",
-      "love"
+      "love",
+      "pink"
      ],
      "suggestion": "Pink! She'll love it.",
      "suggestionFa": "صورتی! عاشقش میشه.",

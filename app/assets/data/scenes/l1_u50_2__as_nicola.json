@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "mushrooms",
-      "don't",
       "there",
+      "don't",
       "pasta",
       "yuck"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Have you tried them?",
    "translations": {
     "fa": "امتحانشون کردی؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "mushrooms",
       "they're",
-      "tried",
       "slimy",
-      "slugs"
+      "slugs",
+      "tried"
      ],
      "suggestion": "I tried them once. They're slimy. Like slugs! Do you like mushrooms?",
      "suggestionFa": "یه بار امتحان کردم. لزجن. مثل حلزون بی‌صدف! تو قارچ دوست داری؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I like mushrooms a lot.",
    "translations": {
     "fa": "آره، خیلی قارچ دوست دارم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "don't",
-      "mine",
       "have",
       "then",
-      "like"
+      "mine",
+      "here"
      ],
      "suggestion": "Then you can have mine! Here! What don't you like?",
      "suggestionFa": "پس مال منو بخور! بیا! تو چی دوست نداری؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't like spicy food.",
    "translations": {
     "fa": "غذای تند دوست ندارم."
@@ -100,7 +100,7 @@
       "doesn't",
       "sprouts",
       "olives",
-      "likes"
+      "daddy"
      ],
      "suggestion": "Olives! They're yucky too! Mummy likes olives. And Daddy doesn't like sprouts.",
      "suggestionFa": "زیتون! اونم بده! مامان زیتون دوست داره. و بابا کلم بروکسل دوست نداره.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are sprouts?",
    "translations": {
     "fa": "اسپراوت چیه؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "cabbages",
       "little",
-      "green",
+      "balls",
       "smell",
-      "balls"
+      "socks"
      ],
      "suggestion": "Little green balls. Like tiny cabbages. They smell like socks!",
      "suggestionFa": "توپ‌های کوچیک سبز. مثل کلم‌های کوچولو. بوی جوراب میدن!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Socks!",
    "translations": {
     "fa": "ها! جوراب!"
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fair, Nicola.",
    "translations": {
     "fa": "منصفانه‌ست نیکولا."
@@ -207,11 +207,11 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "they're",
+      "pudding",
       "what's",
-      "still",
-      "don't"
+      "don't",
+      "still"
      ],
      "suggestion": "Two tiny ones… Mmm. OK, they're not slugs. But I still don't like them. What's for pudding?",
      "suggestionFa": "دو تا کوچولو… ممم. باشه، حلزون نیستن. ولی هنوز دوستشون ندارم. دسر چیه؟",
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

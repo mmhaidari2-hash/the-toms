@@ -69,9 +69,9 @@
     {
      "keywords": [
       "first",
-      "off",
       "bus",
-      "get"
+      "get",
+      "off"
      ],
      "suggestion": "First, we get off the bus.",
      "suggestionFa": "اول از اتوبوس پیاده میشیم.",
@@ -83,8 +83,8 @@
      "keywords": [
       "what's",
       "next",
-      "one",
-      "but"
+      "but",
+      "one"
      ],
      "suggestion": "What's \"next-but-one\"?",
      "suggestionFa": "«بعد از بعدی» یعنی چی؟",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "school",
-      "past",
-      "walk"
+      "walk",
+      "past"
      ],
      "suggestion": "After that, walk past the school.",
      "suggestionFa": "بعد از اون، از جلوی مدرسه رد بشید.",

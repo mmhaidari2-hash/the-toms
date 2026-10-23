@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "pairs",
-      "these",
       "socks",
-      "help",
+      "these",
+      "pairs",
+      "need",
       "look"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. I can help.",
    "translations": {
     "fa": "حتماً. می‌تونم کمک کنم."
@@ -50,7 +50,7 @@
       "stars",
       "sock",
       "blue",
-      "one"
+      "see"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, here it is.",
    "translations": {
     "fa": "آره، ایناهاش."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are two pink socks.",
    "translations": {
     "fa": "این دو تا جوراب صورتی."
@@ -98,9 +98,9 @@
      "keywords": [
       "william's",
       "aren't",
+      "white",
       "sweet",
-      "these",
-      "white"
+      "these"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're so small!",
    "translations": {
     "fa": "خیلی کوچیکن!"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
-      "these",
-      "tom's",
       "socks",
-      "grey"
+      "tom's",
+      "these",
+      "hole"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
      "suggestionFa": "و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Tom needs new socks.",
    "translations": {
     "fa": "ها! تام جوراب نو لازم داره."
@@ -150,7 +150,7 @@
       "green",
       "other",
       "sock",
-      "one"
+      "now"
      ],
      "suggestion": "Yes, in the bin! Now, one green sock. Where's the other green sock?",
      "suggestionFa": "آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. Is it under the table?",
    "translations": {
     "fa": "نمی‌دونم. زیر میزه؟"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In my country, too!",
    "translations": {
     "fa": "تو کشور منم همین‌طوره!"
@@ -198,9 +198,9 @@
      "keywords": [
       "nobody",
       "knows",
-      "pairs",
       "count",
-      "have"
+      "pairs",
+      "many"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
      "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One, two, three… eight pairs!",
    "translations": {
     "fa": "یک، دو، سه… هشت جفت!"
@@ -223,9 +223,9 @@
      "keywords": [
       "drawers",
       "thank",
-      "pairs",
+      "let's",
       "eight",
-      "let's"
+      "pairs"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
      "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

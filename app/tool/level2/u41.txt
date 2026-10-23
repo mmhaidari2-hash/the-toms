@@ -107,14 +107,14 @@ leslie: Excellent. And finish nicely: "Thanks for understanding." British people
 > Thanks for understanding. Thanks for understanding. OK! | ممنون که درک می‌کنید. ممنون که درک می‌کنید. باشه!
 W: finish=تمام کردن ; nicely=به خوبی ; understanding=درک ؛ فهم ; real=واقعی
 leslie: Ha — it's the answerphone. Leave a message: your name, your appointment, "I'm afraid I can't make it", and your number. Slowly! | ها — پیغام‌گیره. پیام بذار: اسمت، وقتت، «متأسفانه نمی‌تونم برسم»، و شماره‌ات. آروم!
-> Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry! | سلام، مهدی هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!
+> Hello, it's {you}. I'm afraid I can't make Monday at ten past four. Sorry! | سلام، {you} هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!
 > I forgot my number! What is it? | شماره‌ام یادم رفت! چنده؟
 W: answerphone=پیغام‌گیر ; leave a message=پیام گذاشتن ; slowly=آرام
 leslie: Perfect message! Polite, clear, sorry. Mrs Hughes will love it. You'll be cancelling like a native in no time. | پیام عالی! مؤدب، واضح، با عذرخواهی. خانم هیوز عاشقش میشه. به‌زودی مثل یه بومی لغو می‌کنی.
 
 # l2_u41_4 | hughes | Running late | دیر رسیدن | I'm running late / I'll be there in… / Is that still OK? / Sorry for the delay | دارم دیر می‌کنم / … دیگر آنجا هستم / هنوز اشکالی ندارد؟ / ببخشید بابت تأخیر | dentist
-hughes: Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, Mehdi? | دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید مهدی؟
-> Yes, it's Mehdi. I'm so sorry — I'm running late. | بله، مهدی‌ام. خیلی ببخشید — دارم دیر می‌کنم.
+hughes: Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, {you}? | دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید {you}؟
+> Yes, it's {you}. I'm so sorry — I'm running late. | بله، {you}‌ام. خیلی ببخشید — دارم دیر می‌کنم.
 > Hello! The bus is stuck in traffic. | سلام! اتوبوس تو ترافیک گیر کرده.
 W: hear=شنیدن ; running late=دیر کردن ; stuck=گیر کرده ; traffic=ترافیک
 hughes: Oh dear. Your appointment's at eight. It's five to eight now. How long do you think you'll be? | ای وای. وقتتون ساعت هشته. الان پنج دقیقه به هشته. فکر می‌کنید چقدر طول بکشه؟

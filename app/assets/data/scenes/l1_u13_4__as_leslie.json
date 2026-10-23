@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
       "welcome",
+      "hackney",
       "right",
       "farm",
       "city"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see sheep and goats.",
    "translations": {
     "fa": "گوسفند و بز می‌بینم."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "that's",
-      "doris",
       "she's",
-      "old",
-      "say"
+      "doris",
+      "say",
+      "pig"
      ],
      "suggestion": "Yes! That's Doris the pig. She's very old. What does a pig say?",
      "suggestionFa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oink oink!",
    "translations": {
     "fa": "خرخر!"
@@ -74,7 +74,7 @@
       "sheep",
       "oink",
       "says",
-      "cow",
+      "say",
       "moo"
      ],
      "suggestion": "Oink! And a cow says \"moo\". What does a sheep say?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Baa! Baa!",
    "translations": {
     "fa": "بع! بع!"
@@ -98,9 +98,9 @@
      "keywords": [
       "chickens",
       "william",
-      "can't",
       "loves",
-      "done"
+      "can't",
+      "well"
      ],
      "suggestion": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
      "suggestionFa": "آفرین! ببین، ویلیام عاشق مرغ‌هاست. مرغ‌ها خوب نمی‌تونن پرواز کنن.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can they fly a little?",
    "translations": {
     "fa": "یه کم می‌تونن پرواز کنن؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "little",
+      "pound",
       "goats",
       "would",
-      "pound",
-      "feed"
+      "just"
      ],
      "suggestion": "Just a little. Would you like to feed the goats? It's one pound for a bag.",
      "suggestionFa": "فقط یه کم. می‌خوای به بزها غذا بدی؟ یه کیسه یه پونده.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Here's a pound.",
    "translations": {
     "fa": "آره، لطفاً. این یه پوند."
@@ -149,8 +149,8 @@
       "everything",
       "don't",
       "watch",
-      "bite",
-      "they"
+      "coat",
+      "bite"
      ],
      "suggestion": "No, they don't bite. But they eat everything! Watch your coat!",
      "suggestionFa": "نه، گاز نمی‌گیرن. ولی همه چی می‌خورن! مواظب کتت باش!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! He's eating my sleeve!",
    "translations": {
     "fa": "وای نه! داره آستینم را می‌خوره!"
@@ -174,8 +174,8 @@
       "horses",
       "horse",
       "there",
-      "over",
-      "look"
+      "look",
+      "over"
      ],
      "suggestion": "Look over there! A horse. Do you like horses?",
      "suggestionFa": "اونجا را ببین! یه اسب. اسب دوست داری؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I love horses.",
    "translations": {
     "fa": "آره، عاشق اسبم."
@@ -198,9 +198,9 @@
      "keywords": [
       "always",
       "hands",
-      "farm",
       "must",
-      "wash"
+      "wash",
+      "farm"
      ],
      "suggestion": "Now we must wash our hands. Always wash your hands at a farm!",
      "suggestionFa": "حالا باید دستامون را بشوریم. تو مزرعه همیشه دستات را بشور!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Where's the sink?",
    "translations": {
     "fa": "باشه. سینک کجاست؟"
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "goodbye",
       "william",
-      "cream",
+      "goodbye",
+      "wants",
       "doris",
-      "wants"
+      "first"
      ],
      "suggestion": "Yes, an ice cream at the café! William wants to say goodbye to Doris the pig first. Bye, Doris!",
      "suggestionFa": "آره، یه بستنی تو کافه! ویلیام اول می‌خواد با دوریس خوکه خداحافظی کنه. خداحافظ دوریس!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

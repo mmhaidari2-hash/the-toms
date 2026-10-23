@@ -188,8 +188,8 @@
     {
      "keywords": [
       "checks",
-      "bins",
       "khan",
+      "bins",
       "mrs"
      ],
      "suggestion": "Mrs Khan checks our bins?",
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "greasy",
-      "green",
+      "black",
       "clean",
-      "black"
+      "green"
      ],
      "suggestion": "Greasy in black, clean in green. Got it.",
      "suggestionFa": "چرب تو مشکی، تمیز تو سبز. فهمیدم.",
@@ -272,7 +272,7 @@
       "khan's",
       "shall",
       "hers",
-      "mrs"
+      "bin"
      ],
      "suggestion": "And Mrs Khan's bin? Shall I put hers out too?",
      "suggestionFa": "و سطل خانم خان؟ مال اون را هم بیرون بذارم؟",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "missed",
-      "us",
-      "we"
+      "we",
+      "us"
      ],
      "suggestion": "Missed us? What do we do?",
      "suggestionFa": "جا انداختن؟ چی کار کنیم؟",
@@ -328,8 +328,8 @@
      "keywords": [
       "khan's",
       "empty",
-      "only",
-      "full"
+      "full",
+      "ours"
      ],
      "suggestion": "Mrs Khan's bin is empty. Only ours is full!",
      "suggestionFa": "سطل خانم خان خالیه. فقط مال ما پره!",
@@ -373,8 +373,8 @@
      "keywords": [
       "maggie",
       "month",
-      "know",
-      "nana"
+      "nana",
+      "know"
      ],
      "suggestion": "I know! I did it for Nana Maggie last month.",
      "suggestionFa": "می‌دونم! ماه پیش برای نانا مگی انجامش دادم.",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. How many people, and what day?",
    "translations": {
     "fa": "حتماً. چند نفر، و چه روزی؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "babysitting",
       "somewhere",
-      "romantic",
       "maggie's",
+      "romantic",
       "toilets"
      ],
      "suggestion": "Friday, seven thirty. Just two of us — Nana Maggie's babysitting. A table for two. Somewhere romantic, not by the toilets!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello. I'd like to book a table for two, please.",
    "translations": {
     "fa": "سلام. می‌خوام یه میز دو نفره رزرو کنم، لطفاً."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "thirty's",
       "anything",
-      "they've",
+      "thirty's",
       "earlier",
+      "they've",
       "saying"
      ],
      "suggestion": "What are they saying? … Seven thirty's full? Ask if they've got anything earlier, or later. Not too late — I fall asleep at ten.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Have you got anything at seven, or eight?",
    "translations": {
     "fa": "ساعت هفت یا هشت جا دارید؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "watching",
-      "eight's",
       "perfect",
+      "eight's",
       "stories",
-      "leslie"
+      "people"
      ],
      "suggestion": "Eight's perfect. Ask for a window table. Leslie loves watching people walk by. She makes up stories about them.",
      "suggestionFa": "هشت عالیه. میز کنار پنجره بخواه. لزلی عاشق تماشای رهگذرهاست. دربارهٔ‌شون داستان می‌سازه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could we have a table by the window, please?",
    "translations": {
     "fa": "میشه یه میز کنار پنجره داشته باشیم، لطفاً؟"
@@ -125,7 +125,7 @@
       "everyone",
       "forgets",
       "enough",
-      "fair"
+      "name"
      ],
      "suggestion": "Fair enough. Now they want a name. Say Thompson. With a P. Everyone forgets the P. \"Thom-P-son\"!",
      "suggestionFa": "باشه. حالا اسم می‌خوان. بگو تامپسون. با پ. همه پ را یادشون میره. «تام-پ-سون»!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
    "translations": {
     "fa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a birthday. Could you put a candle in the dessert?",
    "translations": {
     "fa": "تولده. میشه یه شمع تو دسر بذارید؟"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "brilliant",
-      "waiters",
       "singing",
+      "waiters",
       "she'll",
-      "friday"
+      "bright"
      ],
      "suggestion": "Singing waiters! She'll go bright red. Brilliant. Friday at eight, table for two, candle, singing. You're a star.",
      "suggestionFa": "گارسون‌های آوازخون! حسابی قرمز میشه. عالی. جمعه ساعت هشت، میز دو نفره، شمع، آواز. تو ستاره‌ای.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't forget to tell Nana Maggie!",
    "translations": {
     "fa": "یادت نره به نانا مگی بگی!"
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "forgotten",
+      "something",
       "tomorrow",
       "perfume",
       "present"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

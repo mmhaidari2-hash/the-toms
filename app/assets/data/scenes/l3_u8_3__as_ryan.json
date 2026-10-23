@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow. It looks like a bomb hit it!",
    "translations": {
     "fa": "وای. انگار بمب خورده!"
@@ -48,8 +48,8 @@
      "keywords": [
       "properly",
       "legend",
-      "would",
       "teach",
+      "would",
       "help"
      ],
      "suggestion": "Would you? Legend. If you help me, I'll teach you how to play FIFA properly.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal. But you're doing the dirty socks!",
    "translations": {
     "fa": "قبول. ولی جوراب‌های کثیف با خودت!"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "First, let's put the dirty clothes in the wash basket.",
    "translations": {
     "fa": "اول، بیا لباس‌های کثیف را بذاریم تو سبد رخت‌چرک."
@@ -98,9 +98,9 @@
      "keywords": [
       "headphones",
       "looking",
+      "month",
       "found",
-      "these",
-      "month"
+      "these"
      ],
      "suggestion": "OK. Oh — I found my headphones! I've been looking for these for a month.",
      "suggestionFa": "باشه. آه — هدفونم را پیدا کردم! یه ماهه دنبالشون می‌گردم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "See? Tidying has benefits!",
    "translations": {
     "fa": "دیدی؟ مرتب کردن فایده داره!"
@@ -124,8 +124,8 @@
       "tomorrow",
       "washing",
       "secret",
-      "might",
-      "don't"
+      "don't",
+      "might"
      ],
      "suggestion": "Uh… it might be from last week. Don't tell Mum! If you keep it secret, I'll do the washing up tomorrow.",
      "suggestionFa": "اوه… شاید مال هفتهٔ پیش باشه. به مامان نگو! اگه مخفی نگهش داری، فردا ظرف‌ها را می‌شورم.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fine. But you're washing up for a week.",
    "translations": {
     "fa": "باشه. ولی یه هفته ظرف می‌شوری."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

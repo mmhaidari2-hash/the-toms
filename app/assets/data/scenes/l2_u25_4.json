@@ -73,8 +73,8 @@
      "keywords": [
       "code",
       "get",
-      "pac",
-      "how"
+      "how",
+      "pac"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -85,9 +85,9 @@
     {
      "keywords": [
       "difficult",
-      "them",
+      "have",
       "call",
-      "have"
+      "them"
      ],
      "suggestion": "Is it difficult? Do I have to call them?",
      "suggestionFa": "سخته؟ باید بهشون زنگ بزنم؟",
@@ -145,7 +145,7 @@
       "seven",
       "again",
       "five",
-      "can"
+      "six"
      ],
      "suggestion": "Six-five-oh-seven-five? Can you say it again?",
      "suggestionFa": "شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟",
@@ -194,8 +194,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "three",
+      "seven",
       "eight",
       "nine"
      ],
@@ -262,8 +262,8 @@
      "keywords": [
       "monday",
       "then",
-      "use",
-      "sim"
+      "sim",
+      "new"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
      "suggestionFa": "تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "pounds",
+      "maggie",
       "forty",
       "give"
      ],

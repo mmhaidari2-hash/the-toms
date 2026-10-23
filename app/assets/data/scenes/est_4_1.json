@@ -1,0 +1,241 @@
+{
+ "id": "est_4_1",
+ "characterId": "agent",
+ "title": "Reporting a repair",
+ "titleFa": "گزارش تعمیر",
+ "setting": "Living there and moving out · Level 0",
+ "settingFa": "زندگی در خانه و تخلیه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Fennick and Rowe, Olivia speaking. Oh hi, {you}! How's the flat?",
+   "translations": {
+    "fa": "فنیک اند رو، اولیویا هستم. اوه سلام {you}! آپارتمان چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopped",
+      "working",
+      "boiler",
+      "olivia"
+     ],
+     "suggestion": "Hi Olivia. I'm afraid the boiler has stopped working.",
+     "suggestionFa": "سلام اولیویا. متأسفانه دیگ شوفاژ از کار افتاده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "mostly",
+      "water",
+      "good"
+     ],
+     "suggestion": "Mostly good, but there's no hot water.",
+     "suggestionFa": "بیشتر خوبه، ولی آب گرم نداریم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "boiler",
+     "fa": "دیگ آب گرم ؛ پکیج"
+    },
+    {
+     "word": "hot water",
+     "fa": "آب گرم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Oh no. How long has it been like that?",
+   "translations": {
+    "fa": "ای وای. از کِی این‌طوریه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "since",
+      "night",
+      "been"
+     ],
+     "suggestion": "It's been off since Sunday night.",
+     "suggestionFa": "از یکشنبه شب خاموشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "turning",
+      "minutes",
+      "every",
+      "keeps"
+     ],
+     "suggestion": "It keeps turning off every few minutes.",
+     "suggestionFa": "هر چند دقیقه مدام خاموش می‌شه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how long",
+     "fa": "چه مدت"
+    },
+    {
+     "word": "since",
+     "fa": "از ؛ از وقتی که"
+    },
+    {
+     "word": "keeps turning off",
+     "fa": "مدام خاموش می‌شود"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is off from Sunday",
+      "off since two days"
+     ],
+     "echo": "It's been off since Sunday night? Right.",
+     "better": "It's been off since Sunday night.",
+     "betterFa": "از یکشنبه شب خاموشه."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Right. Heating and hot water are the landlord's job, so we'll send an engineer. Could you email us a photo of the boiler display?",
+   "translations": {
+    "fa": "خب. گرمایش و آب گرم کار صاحبخونه‌ست، پس یه تعمیرکار می‌فرستیم. می‌شه یه عکس از صفحهٔ دیگ برامون ایمیل کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineer",
+      "course",
+      "when",
+      "come"
+     ],
+     "suggestion": "Of course. When can the engineer come?",
+     "suggestionFa": "حتماً. تعمیرکار کِی می‌تونه بیاد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "email",
+      "need",
+      "why"
+     ],
+     "suggestion": "Why do you need it in an email?",
+     "suggestionFa": "چرا ایمیل لازمه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "responsibility",
+     "fa": "مسئولیت"
+    },
+    {
+     "word": "engineer",
+     "fa": "تعمیرکار ؛ مهندس"
+    },
+    {
+     "word": "display",
+     "fa": "صفحه‌نمایش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Always report repairs in writing and keep a copy. Landlords must fix heating, hot water, gas, electrics, the structure and the toilet, sinks and bath.",
+    "fa": "تعمیرات را همیشه کتبی گزارش بده؛ صاحبخانه مسئول گرمایش، آب گرم، گاز، برق، سازه و سرویس‌ها است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "An email gives us a record, so nothing gets lost. The engineer can come tomorrow between eight and twelve. Will someone be in?",
+   "translations": {
+    "fa": "ایمیل یه سابقه برامون می‌سازه، تا چیزی گم نشه. تعمیرکار فردا بین هشت تا دوازده می‌تونه بیاد. کسی خونه هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "i'll",
+      "from",
+      "home"
+     ],
+     "suggestion": "Yes, I'll work from home tomorrow.",
+     "suggestionFa": "آره، فردا از خونه کار می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hours'",
+      "notice",
+      "twenty",
+      "time"
+     ],
+     "suggestion": "Can you give me twenty-four hours' notice next time?",
+     "suggestionFa": "دفعهٔ بعد می‌شه بیست و چهار ساعت قبل خبر بدید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "record",
+     "fa": "سابقه ؛ مدرک"
+    },
+    {
+     "word": "be in",
+     "fa": "خانه بودن"
+    },
+    {
+     "word": "notice",
+     "fa": "اطلاع قبلی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "Perfect. And yes, we always give at least twenty-four hours' notice before visits, unless it's an emergency. Keep warm tonight!",
+   "translations": {
+    "fa": "عالی. و بله، همیشه حداقل بیست و چهار ساعت قبل از بازدید خبر می‌دیم، مگه اینکه اضطراری باشه. امشب گرم بمونید!"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": {
+    "en": "Your landlord or agent should give at least 24 hours' notice before visiting, except in an emergency.",
+    "fa": "صاحبخانه یا بنگاه باید دست‌کم ۲۴ ساعت قبل از بازدید خبر بدهد، مگر در شرایط اضطراری."
+   }
+  }
+ }
+}

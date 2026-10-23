@@ -20,8 +20,8 @@
     {
      "keywords": [
       "ryan's",
-      "phone",
-      "hello"
+      "hello",
+      "phone"
      ],
      "suggestion": "Hello? Ryan's phone.",
      "suggestionFa": "الو؟ گوشی رایان.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "give",
-      "ha",
-      "ok"
+      "ok",
+      "ha"
      ],
      "suggestion": "Ha! OK. Give it to me.",
      "suggestionFa": "ها! باشه. بدش به من.",
@@ -76,8 +76,8 @@
     },
     {
      "keywords": [
-      "number",
       "you've",
+      "number",
       "wrong",
       "think"
      ],
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "happens",
-      "problem"
+      "problem",
+      "happens"
      ],
      "suggestion": "No problem! It happens.",
      "suggestionFa": "مشکلی نیست! پیش میاد.",

@@ -22,7 +22,7 @@
       "yourself",
       "couldn't",
       "please",
-      "blame"
+      "don't"
      ],
      "suggestion": "Please don't blame yourself. You couldn't have known.",
      "suggestionFa": "لطفاً خودت را سرزنش نکن. نمی‌تونستی بدونی.",
@@ -88,8 +88,8 @@
      "keywords": [
       "grandad's",
       "medicine",
-      "simple",
-      "nicola"
+      "nicola",
+      "simple"
      ],
      "suggestion": "Keep it simple for Nicola. Say Grandad's heart is a bit tired and needs medicine.",
      "suggestionFa": "برای نیکولا ساده بگو. بگو قلب پدربزرگ یه کم خسته‌ست و دارو لازم داره.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "sometimes",
-      "opens",
       "you'd",
+      "opens",
       "talk"
      ],
      "suggestion": "I can talk to him, if you'd like. He sometimes opens up to me.",

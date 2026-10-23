@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,9 +23,9 @@
      "keywords": [
       "exciting",
       "monday",
-      "green",
       "night",
-      "black"
+      "black",
+      "green"
      ],
      "suggestion": "Monday night! Bin night! The most exciting night of the week. Is it black bin week or green bin week?",
      "suggestionFa": "دوشنبه شب! شب سطل زباله! هیجان‌انگیزترین شب هفته. هفتهٔ سطل مشکیه یا سطل سبز؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. How do you know which week it is?",
    "translations": {
     "fa": "نمی‌دونم. از کجا می‌فهمی کدوم هفته‌ست؟"
@@ -50,7 +50,7 @@
       "alternate",
       "morning",
       "tuesday",
-      "clever"
+      "before"
      ],
      "suggestion": "Clever. Black and green, alternate weeks. Collection is Tuesday morning, early. So we put the bins out the night before.",
      "suggestionFa": "زرنگی. مشکی و سبز، یه هفته در میون. جمع‌آوری سه‌شنبه صبح، زود. پس سطل‌ها را شب قبل بیرون می‌ذاریم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which bin goes out tonight, then?",
    "translations": {
     "fa": "پس امشب کدوم سطل بیرون میره؟"
@@ -74,7 +74,7 @@
       "everything",
       "recycling",
       "cardboard",
-      "tonight",
+      "bottles",
       "plastic"
      ],
      "suggestion": "Green tonight. Recycling: cans, bottles, paper, cardboard, plastic tubs. Rinsed! No food. Black is for everything else.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is this pizza box recycling?",
    "translations": {
     "fa": "این جعبهٔ پیتزا بازیافتیه؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "greasy",
-      "sounds",
       "checks",
-      "green",
-      "pizza"
+      "sounds",
+      "rinse",
+      "black"
      ],
      "suggestion": "A quick rinse, yeah. Sounds mad, I know. And the pizza box — greasy bit in the black, clean lid in the green. Mrs Khan checks!",
      "suggestionFa": "یه آب‌کشیدن سریع، آره. می‌دونم دیوونگی به نظر میاد. و جعبهٔ پیتزا — قسمت چرب تو مشکی، درِ تمیز تو سبز. خانم خان چک می‌کنه!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mrs Khan checks our bins?",
    "translations": {
     "fa": "خانم خان سطل‌های ما را چک می‌کنه؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "unofficial",
       "inspector",
-      "street's",
       "pavement",
-      "handle"
+      "street's",
+      "that's"
      ],
      "suggestion": "She's the street's unofficial bin inspector. Right — wheel it to the pavement. Handle facing the road. That's how they like it.",
      "suggestionFa": "اون بازرس غیررسمی سطل‌های خیابونه. خب — بکشش تا پیاده‌رو. دسته رو به خیابون. اینجوری دوست دارن.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Handle facing the road. Done.",
    "translations": {
     "fa": "دسته رو به خیابون. انجام شد."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Missed us? What do we do?",
    "translations": {
     "fa": "جا انداختن؟ چی کار کنیم؟"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "council",
       "website",
+      "council",
       "report",
-      "missed",
-      "within"
+      "within",
+      "missed"
      ],
      "suggestion": "Only ours? The cheek! You report it on the council website — \"missed bin\". Ms Ward's lot. Within two days, they come back.",
      "suggestionFa": "فقط مال ما؟ چه پررویی! تو سایت شهرداری گزارش میدی — «سطل جاافتاده». بچه‌های خانم وارد. ظرف دو روز برمی‌گردن.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I know! I did it for Nana Maggie last month.",
    "translations": {
     "fa": "می‌دونم! ماه پیش برای نانا مگی انجامش دادم."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "everything",
-      "council",
       "british",
-      "expert",
-      "report"
+      "council",
+      "report",
+      "kettle"
      ],
      "suggestion": "You're an expert! Bins, council, everything. Mate, you're more British than me. Report it, and I'll put the kettle on.",
      "suggestionFa": "تو متخصصی! سطل، شهرداری، همه‌چی. رفیق، تو از من بریتانیایی‌تری. گزارش بده، منم کتری را می‌ذارم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

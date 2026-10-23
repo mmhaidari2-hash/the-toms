@@ -20,8 +20,8 @@
     {
      "keywords": [
       "afternoon",
-      "showing",
       "morning",
+      "showing",
       "which"
      ],
      "suggestion": "Sure. Which showing? Morning or afternoon?",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "child",
-      "under",
       "adult",
-      "ryan"
+      "under",
+      "child",
+      "says"
      ],
      "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
      "suggestionFa": "نوشته «کودک: زیر ۱۵». پس رایان بزرگساله.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "discount",
       "families",
+      "discount",
       "there"
      ],
      "suggestion": "Is there a discount for families?",
@@ -128,8 +128,8 @@
      "keywords": [
       "ticket",
       "family",
-      "extra",
-      "adult"
+      "adult",
+      "extra"
      ],
      "suggestion": "Yes, a family ticket for four. Plus one extra adult.",
      "suggestionFa": "آره، یه بلیت خانوادگی برای چهار نفر. به‌اضافهٔ یه بزرگسال اضافه.",
@@ -199,8 +199,8 @@
     },
     {
      "keywords": [
-      "middle",
       "toilet",
+      "middle",
       "aisle",
       "near"
      ],
@@ -246,8 +246,8 @@
      "keywords": [
       "seats",
       "need",
-      "only",
-      "five"
+      "five",
+      "only"
      ],
      "suggestion": "Six seats? We only need five.",
      "suggestionFa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم.",

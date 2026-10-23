@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! A rainbow!",
    "translations": {
     "fa": "وای! رنگین‌کمون!"
@@ -58,8 +58,8 @@
      "keywords": [
       "rainbow",
       "colours",
-      "mummy",
       "there",
+      "mummy",
       "many"
      ],
      "suggestion": "A RAINBOW! How many colours are there, Mummy?",
@@ -73,7 +73,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are seven colours.",
    "translations": {
     "fa": "هفت تا رنگ داره."
@@ -96,7 +96,7 @@
   "r4": {
    "id": "r4",
    "speaker": "leslie",
-   "text": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
+   "text": "Seven! Red, orange, yellow, green, blue… Can you say the rest, {you}?",
    "translations": {
     "fa": "هفت تا! قرمز، نارنجی، زرد، سبز، آبی… می‌تونی بقیه را بگی {you}؟"
    },
@@ -133,7 +133,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Indigo and violet.",
    "translations": {
     "fa": "نیلی و بنفش."
@@ -158,7 +158,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a story from Ireland.",
    "translations": {
     "fa": "اون یه قصهٔ ایرلندیه."
@@ -214,7 +214,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a shame!",
    "translations": {
     "fa": "حیف!"
@@ -224,8 +224,8 @@
      "keywords": [
       "daddy",
       "photo",
-      "take",
       "he's",
+      "take",
       "bus"
      ],
      "suggestion": "Can I take a photo for Daddy? He's on the bus!",
@@ -239,7 +239,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's my phone.",
    "translations": {
     "fa": "بیا گوشیم."
@@ -291,7 +291,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Typical!",
    "translations": {
     "fa": "معمولیه دیگه!"

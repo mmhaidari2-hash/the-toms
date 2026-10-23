@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "welcome",
+      "morning",
       "aboard",
       "today",
       "where"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom! Does this bus go to Angel?",
    "translations": {
     "fa": "سلام تام! این اتوبوس میره اِینجل؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm paying by phone. Is that OK?",
    "translations": {
     "fa": "با گوشی پرداخت می‌کنم. اشکالی نداره؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "phone's",
+      "phone",
       "daily",
       "which",
-      "phone",
-      "stop"
+      "same"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which stop is best for Upper Street?",
    "translations": {
     "fa": "برای آپر استریت کدوم ایستگاه بهتره؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "traffic's",
       "islington",
+      "traffic's",
       "minutes",
       "twenty",
-      "green"
+      "there"
      ],
      "suggestion": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
      "suggestionFa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty-five minutes. That's fine.",
    "translations": {
     "fa": "بیست و پنج دقیقه. خوبه."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "kidding",
-      "right",
+      "there's",
       "jokes",
-      "forty"
+      "forty",
+      "front"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Can I ask you something while you drive?",
    "translations": {
     "fa": "ها! وقتی رانندگی می‌کنی می‌تونم یه چیزی بپرسم؟"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Is this the right side for coming back?",
    "translations": {
     "fa": "باشه. برای برگشتن همین طرفه؟"
@@ -175,7 +175,7 @@
       "driving",
       "coming",
       "number",
-      "other"
+      "wrong"
      ],
      "suggestion": "Coming back, cross the road. Same number, other side. Everyone gets that wrong once. I did, in my first week. Driving!",
      "suggestionFa": "برای برگشتن، از خیابون رد شو. همون شماره، طرف مقابل. همه یه بار اشتباه می‌کنن. من هفتهٔ اول اشتباه کردم. وقتی راننده بودم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You got on the wrong side? As the driver?",
    "translations": {
     "fa": "تو طرف اشتباه سوار شدی؟ به‌عنوان راننده؟"
@@ -198,8 +198,8 @@
      "keywords": [
       "roundabout",
       "leslie",
-      "round",
-      "we're",
+      "tight",
+      "wrong",
       "don't"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

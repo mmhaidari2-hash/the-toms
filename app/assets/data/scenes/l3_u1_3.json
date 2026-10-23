@@ -34,8 +34,8 @@
      "keywords": [
       "about",
       "tell",
-      "her",
-      "tom"
+      "tom",
+      "her"
      ],
      "suggestion": "Go on, Tom. Tell her about it.",
      "suggestionFa": "بگو تام. بهش توضیح بده.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "projects",
-      "problem",
-      "depends"
+      "depends",
+      "problem"
      ],
      "suggestion": "It depends on the projects. Is that a problem?",
      "suggestionFa": "بستگی به پروژه‌ها داره. مشکلیه؟",
@@ -163,7 +163,7 @@
       "transfer",
       "clients",
       "hardly",
-      "ever"
+      "most"
      ],
      "suggestion": "Hardly ever. Most clients pay by bank transfer.",
      "suggestionFa": "تقریباً هیچ‌وقت. بیشتر مشتری‌ها با انتقال بانکی پرداخت می‌کنن.",
@@ -213,8 +213,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "take",
+      "long",
       "yet",
       "how"
      ],
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "documents",
-      "here",
       "week",
+      "here",
       "last"
      ],
      "suggestion": "Yes, last week. Here are the documents.",

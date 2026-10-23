@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm free on Wednesday. What time?",
    "translations": {
     "fa": "آره، چهارشنبه آزادم. چه ساعتی؟"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "callum's",
-      "o'clock",
       "quieter",
+      "o'clock",
       "kettle",
-      "finish"
+      "school"
      ],
      "suggestion": "After school. I finish at half three. Shall we say four o'clock? Here, at Callum's? It's quieter than the Kettle.",
      "suggestionFa": "بعد از مدرسه. ساعت سه و نیم تموم می‌کنم. بگیم ساعت چهار؟ اینجا، پیش کالوم؟ از کتل ساکت‌تره.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four o'clock is perfect.",
    "translations": {
     "fa": "ساعت چهار عالیه."
@@ -74,8 +74,8 @@
       "wednesday's",
       "wednesday",
       "parents'",
-      "evening",
-      "perfect"
+      "perfect",
+      "evening"
      ],
      "suggestion": "Perfect. Let's pencil it in. I'll put it in my diary. Wait — Wednesday's parents' evening! No — that's the Wednesday after. Phew.",
      "suggestionFa": "عالی. فعلاً یادداشتش کنیم. تو دفترم می‌نویسمش. صبر کن — چهارشنبه جلسهٔ اولیاست! نه — اون چهارشنبهٔ بعدیه. اوه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Pencil it in\"? Why a pencil?",
    "translations": {
     "fa": "«با مداد بنویسیم»؟ چرا مداد؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "everything's",
       "probably",
-      "pencil",
       "change",
-      "rubbed"
+      "rubbed",
+      "pencil"
      ],
      "suggestion": "A pencil can be rubbed out! It means \"probably, but it might change\". With three kids, everything's in pencil.",
      "suggestionFa": "مداد را میشه پاک کرد! یعنی «احتمالاً، ولی شاید عوض بشه». با سه تا بچه، همه‌چی مدادیه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a useful phrase!",
    "translations": {
     "fa": "عبارت به‌دردبخوریه!"
@@ -125,7 +125,7 @@
       "stress",
       "about",
       "comes",
-      "hear"
+      "week"
      ],
      "suggestion": "Good plan. Oh — and if something comes up, just tell me. No stress. Next week, I'll buy. And I want to hear about the open mic!",
      "suggestionFa": "نقشهٔ خوبیه. اوه — و اگه کاری پیش اومد، فقط بهم بگو. بدون استرس. هفتهٔ بعد مهمون من. و می‌خوام دربارهٔ اوپن میک بشنوم!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal. And I'll bring some Persian sweets.",
    "translations": {
     "fa": "قبول. و یه کم شیرینی ایرانی میارم."
@@ -149,8 +149,8 @@
       "definitely",
       "persian",
       "anymore",
-      "pencil",
-      "sweets"
+      "sweets",
+      "pencil"
      ],
      "suggestion": "Persian sweets! Then it's definitely not in pencil anymore. It's in pen. Big black pen!",
      "suggestionFa": "شیرینی ایرانی! پس دیگه قطعاً مدادی نیست. با خودکاره. خودکار مشکی بزرگ!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

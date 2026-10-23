@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -25,7 +25,7 @@
       "letting",
       "people",
       "thanks",
-      "would"
+      "these"
      ],
      "suggestion": "Thanks for letting me tag along. Dad said a conference would be good for my CV. But I've got no idea how to talk to these people!",
      "suggestionFa": "ممنون که گذاشتی همراهت بیام. بابا گفت کنفرانس برای رزومه‌ام خوبه. ولی هیچ نمی‌دونم با این آدم‌ها چطوری حرف بزنم!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Start simple. Ask them what brought them here.",
    "translations": {
     "fa": "ساده شروع کن. ازشون بپرس چی کشوندتشون اینجا."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Say you're a student interested in renewable energy. That's true, isn't it?",
    "translations": {
     "fa": "بگو یه دانش‌آموزی که به انرژی تجدیدپذیر علاقه داره. درسته دیگه؟"
@@ -74,7 +74,7 @@
       "company",
       "energy",
       "start",
-      "right",
+      "there",
       "works"
      ],
      "suggestion": "True. Right, that woman over there works for a wind energy company. How do I even start?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Something like: \"Hi, I really enjoyed your talk. Could I ask you a quick question?\"",
    "translations": {
     "fa": "یه چیزی مثل: «سلام، از سخنرانیتون خیلی لذت بردم. می‌تونم یه سؤال کوتاه بپرسم؟»"
@@ -99,8 +99,8 @@
       "number",
       "weird",
       "feels",
-      "goes",
-      "well"
+      "well",
+      "goes"
      ],
      "suggestion": "Got it. And if it goes well, do I ask for her number? That feels weird.",
      "suggestionFa": "فهمیدم. و اگه خوب پیش رفت، شماره‌اش را بخوام؟ عجیبه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not her number — ask if you can connect on LinkedIn.",
    "translations": {
     "fa": "شماره نه — بپرس می‌تونی تو لینکدین باهاش ارتباط بگیری."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

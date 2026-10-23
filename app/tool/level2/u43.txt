@@ -38,7 +38,7 @@ william: Look! My drawing! It's our street! | ببین! نقاشیم! خیابو
 > Wow, William! Tell me about it. | وای ویلیام! برام تعریف کن.
 > Is that our house? The red one? | اون خونهٔ ماست؟ قرمزه؟
 W: drawing=نقاشی ; street=خیابان ; house=خانه
-william: That's our house. Red door. Mehdi's window! | این خونهٔ ماست. در قرمز. پنجرهٔ مهدی!
+william: That's our house. Red door. {you}'s window! | این خونهٔ ماست. در قرمز. پنجرهٔ {you}!
 > My window! And who is that next to it? | پنجرهٔ من! و اون کیه کنارش؟
 > There's a big tree. Is that the tree outside? | یه درخت بزرگ هست. درخت بیرونه؟
 W: door=در ; window=پنجره ; next to=کنار ; tree=درخت

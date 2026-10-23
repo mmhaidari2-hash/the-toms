@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "friday",
-      "choose",
       "ryan's",
-      "night",
-      "shall"
+      "choose",
+      "phone",
+      "night"
      ],
      "suggestion": "Friday film night! The kids are in bed — well, Ryan's \"in bed\" with his phone. What shall we watch? You choose.",
      "suggestionFa": "شب فیلم جمعه! بچه‌ها خوابن — خب، رایان با گوشیش «خوابه». چی ببینیم؟ تو انتخاب کن.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What kind of films do you like?",
    "translations": {
     "fa": "چه نوع فیلمی دوست داری؟"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "comedies",
       "anything",
+      "comedies",
       "romcoms",
-      "horror",
+      "chases",
       "action"
      ],
      "suggestion": "Comedies, romcoms, anything with Hugh Grant. Tom likes action — car chases. I'm not keen on horror. I can't sleep after.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm not keen on horror either.",
    "translations": {
     "fa": "منم از ترسناک خوشم نمیاد."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "officially",
-      "notting",
+      "barnaby",
       "joking",
+      "romcom",
       "films"
      ],
      "suggestion": "Ooh, yes. A romcom? Barnaby 2? Barnaby 2 is officially one of the best films ever. I'm not even joking.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Barnaby? Isn't that for children?",
    "translations": {
     "fa": "بارنابی؟ مگه برای بچه‌ها نیست؟"
@@ -99,8 +99,8 @@
       "children",
       "furrier",
       "london",
-      "you'll",
-      "polite"
+      "polite",
+      "you'll"
      ],
      "suggestion": "For children AND grown-ups. He's a polite bear from Peru who lives in London — like you, but furrier. You'll love him.",
      "suggestionFa": "برای بچه‌ها و بزرگ‌ترها. یه خرس مؤدب از پرو که تو لندن زندگی می‌کنه — مثل تو، ولی پشمالوتر. عاشقش میشی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A polite immigrant in London? That's me!",
    "translations": {
     "fa": "یه مهاجر مؤدب تو لندن؟ این منم!"
@@ -124,8 +124,8 @@
       "streaming",
       "services",
       "anything",
-      "streaming",
-      "exactly"
+      "exactly",
+      "never"
      ],
      "suggestion": "Ha! Exactly. Now — which streaming app is it on? We pay for three streaming services and can never find anything.",
      "suggestionFa": "ها! دقیقاً. حالا — تو رو کدوم اپ پخش آنلاینه؟ پول سه تا سرویس پخش آنلاین را میدیم و هیچ‌وقت چیزی پیدا نمی‌کنیم.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me search. It's on the free catch-up app!",
    "translations": {
     "fa": "بذار سرچ کنم. تو اپ پخش رایگانه!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "brilliant",
-      "licence",
       "blanket",
+      "licence",
       "lights",
-      "ready"
+      "might"
      ],
      "suggestion": "Brilliant. The free one. We pay the TV licence, so we might as well use it. Lights off, blanket on, tea in hand. Ready?",
      "suggestionFa": "عالی. همون رایگانه. پول مجوز تلویزیون را میدیم، پس بهتره ازش استفاده کنیم. چراغ خاموش، پتو رو پا، چای تو دست. آماده‌ای؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready! Press play.",
    "translations": {
     "fa": "آماده! پخش را بزن."
@@ -174,8 +174,8 @@
       "actually",
       "biscuit",
       "night",
-      "tin's",
-      "bring"
+      "bring",
+      "tin's"
      ],
      "suggestion": "A biscuit for film night is the law. The tin's on the side. Bring two. Actually — bring the tin.",
      "suggestionFa": "بیسکویت برای شب فیلم قانونه. قوطی رو کابینته. دو تا بیار. اصلاً — قوطی را بیار.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

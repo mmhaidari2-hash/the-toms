@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "cleaning",
       "saturday",
+      "cleaning",
       "hoover",
       "worst",
-      "says"
+      "have"
      ],
      "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
      "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can help you.",
    "translations": {
     "fa": "می‌تونم کمکت کنم."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "vacuum",
-      "chairs",
+      "cleaner",
       "hoover",
-      "brand",
-      "means"
+      "chairs",
+      "vacuum",
+      "brits"
      ],
      "suggestion": "It means vacuum. Brits say \"hoover\" for any vacuum cleaner. Can you move the chairs?",
      "suggestionFa": "یعنی جاروبرقی. بریتانیایی‌ها به هر جاروبرقی میگن هوور. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. I'll move the chairs.",
    "translations": {
     "fa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "everything",
       "everywhere",
+      "everything",
       "william",
       "upside",
       "crumbs"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There's rice under his chair!",
    "translations": {
     "fa": "زیر صندلیش برنجه!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, what? I can't hear you!",
    "translations": {
     "fa": "ببخشید، چی؟ صدات را نمی‌شنوم!"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "stopped",
-      "full",
       "wait",
+      "full",
       "oh"
      ],
      "suggestion": "WHAT? Oh, wait. It's stopped. Is it full?",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think the bag is full.",
    "translations": {
     "fa": "فکر کنم کیسه‌ش پره."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! She's playing a trick.",
    "translations": {
     "fa": "ها! داره سربه‌سرت میذاره."
@@ -172,8 +172,8 @@
      "keywords": [
       "thanks",
       "nearly",
-      "under",
       "arm's",
+      "under",
       "right"
      ],
      "suggestion": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I'll do under the sofa.",
    "translations": {
     "fa": "باشه، زیر مبل را من می‌کشم."
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "cleaning",
-      "isn't",
-      "march",
       "break",
-      "guess"
+      "guess",
+      "march",
+      "isn't"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
      "suggestionFa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

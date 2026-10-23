@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "still",
       "stuck",
+      "still",
       "two",
       "one"
      ],
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "doctor",
-      "see",
-      "she"
+      "should",
+      "she",
+      "see"
      ],
      "suggestion": "Is she OK? Should she see a doctor?",
      "suggestionFa": "خوبه؟ باید دکتر ببینش؟",
@@ -180,7 +180,7 @@
       "happened",
       "time",
       "now",
-      "how"
+      "did"
      ],
      "suggestion": "Yes — time, what happened, what we did and how she is now.",
      "suggestionFa": "آره — ساعت، چی شد، چی کار کردیم و الان حالش چطوره.",

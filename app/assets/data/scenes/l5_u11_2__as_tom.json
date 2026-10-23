@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. I'm here to support Tom and George.",
    "translations": {
     "fa": "ممنون. اینجام که از تام و جورج حمایت کنم."
@@ -108,7 +108,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are the main benefits and risks?",
    "translations": {
     "fa": "مهم‌ترین فواید و خطراتش چیه؟"
@@ -172,7 +172,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What would recovery look like at his age?",
    "translations": {
     "fa": "بهبودی در سن او چه شکلیه؟"
@@ -228,7 +228,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds frightening for someone his age.",
    "translations": {
     "fa": "برای کسی هم‌سن او ترسناک به نظر میاد."
@@ -237,10 +237,10 @@
     {
      "keywords": [
       "hospitals",
-      "innings",
       "doesn't",
+      "innings",
       "hates",
-      "says"
+      "want"
      ],
      "suggestion": "Dad hates hospitals. He says he's had a good innings and doesn't want a fuss.",
      "suggestionFa": "بابا از بیمارستان متنفره. می‌گه عمر خوبی کرده و نمی‌خواد شلوغش کنه.",
@@ -253,7 +253,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's understandable. It's his decision in the end.",
    "translations": {
     "fa": "قابل درکه. در نهایت تصمیم خودشه."
@@ -309,7 +309,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What would you advise, as his GP?",
    "translations": {
     "fa": "به عنوان پزشکش، شما چه توصیه‌ای می‌کنید؟"
@@ -369,7 +369,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That might reassure him. He fears losing control.",
    "translations": {
     "fa": "شاید بهش اطمینان بده. از دست دادن کنترل می‌ترسونش."
@@ -429,7 +429,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How do we start that conversation without upsetting him?",
    "translations": {
     "fa": "چطور اون گفتگو را بدون ناراحت کردنش شروع کنیم؟"
@@ -485,7 +485,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"What matters most to you?\" — that's gentle.",
    "translations": {
     "fa": "«چی برات از همه مهم‌تره؟» — ملایمه."
@@ -494,10 +494,10 @@
     {
      "keywords": [
       "realistic",
-      "three's",
       "already",
-      "united",
-      "nicola"
+      "three's",
+      "league",
+      "garden"
      ],
      "suggestion": "Thanks, Doctor. I think I know his answer already: Nicola, his garden, and seeing United win the league. One out of three's realistic.",
      "suggestionFa": "ممنون دکتر. فکر کنم جوابش را از قبل می‌دونم: نیکولا، باغچه‌اش، و دیدن قهرمانی یونایتد. یکی از سه تا واقع‌بینانه‌ست.",
@@ -510,7 +510,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

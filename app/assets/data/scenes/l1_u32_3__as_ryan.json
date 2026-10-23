@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,7 +24,7 @@
       "nicola's",
       "sweets",
       "party",
-      "sent",
+      "pick",
       "bags"
      ],
      "suggestion": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's pick and mix?",
    "translations": {
     "fa": "پیک اند میکس چیه؟"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "different",
-      "sweets",
       "choose",
+      "sweets",
       "weigh",
-      "them"
+      "bags"
      ],
      "suggestion": "You choose different sweets and they weigh them. We need ten bags.",
      "suggestionFa": "آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten bags is a lot!",
    "translations": {
     "fa": "ده تا کیسه زیاده!"
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A bit more, please.",
    "translations": {
     "fa": "یه کم بیشتر، لطفاً."
@@ -129,9 +129,9 @@
     {
      "keywords": [
       "fizzy",
-      "ones",
-      "says",
       "make",
+      "many",
+      "ones",
       "kids"
      ],
      "suggestion": "Not too many fizzy ones. Mum says they make kids go mad.",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, fewer fizzy sweets.",
    "translations": {
     "fa": "باشه، آبنبات گازدار کمتر."
@@ -156,8 +156,8 @@
       "chocolate",
       "jelly",
       "melts",
-      "less",
-      "bags"
+      "bags",
+      "less"
      ],
      "suggestion": "Chocolate melts in the bags. Less chocolate, more jelly.",
      "suggestionFa": "شکلات تو کیسه‌ها آب میشه. شکلات کمتر، ژله‌ای بیشتر.",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Less chocolate. Got it.",
    "translations": {
     "fa": "شکلات کمتر. فهمیدم."
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, that's enough.",
    "translations": {
     "fa": "آره، کافیه."
@@ -230,10 +230,10 @@
     {
      "keywords": [
       "perfect",
-      "grams",
       "sixty",
       "sound",
-      "like"
+      "grams",
+      "each"
      ],
      "suggestion": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
      "suggestionFa": "ها، مثل مامان حرف می‌زنی. عالیه. هر کیسه شصت گرم.",
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much is it?",
    "translations": {
     "fa": "چنده؟"
@@ -295,7 +295,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you!",
    "translations": {
     "fa": "ممنون!"
@@ -304,10 +304,10 @@
     {
      "keywords": [
       "surprise",
-      "sorted",
-      "nicola",
       "snakes",
-      "about"
+      "nicola",
+      "sorted",
+      "don't"
      ],
      "suggestion": "Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home!",
      "suggestionFa": "تمومه. دربارهٔ مارها به نیکولا نگو. سورپرایزه. و تو راه خونه نخوریشون!",
@@ -320,7 +320,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

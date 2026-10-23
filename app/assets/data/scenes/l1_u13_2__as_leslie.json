@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "hallway",
       "there's",
       "orange",
-      "yours",
-      "white"
+      "white",
+      "yours"
      ],
      "suggestion": "There's a cat in our hallway! It's orange with white paws. Is it yours?",
      "suggestionFa": "یه گربه تو راهرومونه! نارنجیه با پنجه‌های سفید. مال توئه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it isn't my cat.",
    "translations": {
     "fa": "نه، گربهٔ من نیست."
@@ -49,8 +49,8 @@
       "collar",
       "maybe",
       "let's",
-      "from",
-      "look"
+      "door",
+      "next"
      ],
      "suggestion": "Maybe it's from next door. Let's look at the collar. What does it say?",
      "suggestionFa": "شاید مال همسایه‌ست. بیا قلاده‌اش را ببینیم. چی نوشته؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says \"Tiger\".",
    "translations": {
     "fa": "نوشته «تایگر»."
@@ -75,7 +75,7 @@
       "that's",
       "number",
       "khan's",
-      "lives"
+      "tiger"
      ],
      "suggestion": "Tiger! That's Mrs Khan's cat. She lives at number fourteen.",
      "suggestionFa": "تایگر! گربهٔ خانم خانه. پلاک چهارده زندگی می‌کنه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we take him home?",
    "translations": {
     "fa": "ببریمش خونه‌اش؟"
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's OK. He's very friendly.",
    "translations": {
     "fa": "اشکال نداره. خیلی مهربونه."
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, we don't! Well… a little.",
    "translations": {
     "fa": "نه، نمی‌دیم! خب… یه کم."
@@ -257,7 +257,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, but I'd like a dog.",
    "translations": {
     "fa": "نه، ولی دلم یه سگ می‌خواد."
@@ -312,7 +312,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Her name was Pishi.",
    "translations": {
     "fa": "اسمش پیشی بود."
@@ -365,7 +365,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Mrs Khan. See you soon!",
    "translations": {
     "fa": "ممنون خانم خان. به زودی می‌بینمتون!"
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "samosas",
       "amazing",
+      "samosas",
       "makes",
       "khan",
       "must"
@@ -390,7 +390,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

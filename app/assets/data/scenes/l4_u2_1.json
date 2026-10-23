@@ -22,7 +22,7 @@
       "through",
       "agenda",
       "going",
-      "shall"
+      "start"
      ],
      "suggestion": "Sure. Shall we start by going through the agenda?",
      "suggestionFa": "حتماً. با مرور دستور جلسه شروع کنیم؟",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "point",
-      "under",
       "three",
-      "come"
+      "under",
+      "good"
      ],
      "suggestion": "Good point. Let's park that and come back to it under item three.",
      "suggestionFa": "نکتهٔ خوبیه. بیاید فعلاً کنار بذاریمش و تو مورد سه برگردیم سراغش.",
@@ -146,8 +146,8 @@
      "keywords": [
       "agenda",
       "right",
-      "keep",
-      "move"
+      "move",
+      "keep"
      ],
      "suggestion": "You're right. Let's move on and keep to the agenda.",
      "suggestionFa": "حق با توئه. بیاید بریم جلو و به دستور جلسه پایبند باشیم.",
@@ -191,8 +191,8 @@
      "keywords": [
       "extension",
       "tuesday",
-      "until",
-      "could"
+      "could",
+      "tight"
      ],
      "suggestion": "It's tight. Could we ask for an extension until Tuesday?",
      "suggestionFa": "تنگه. می‌تونیم تا سه‌شنبه تمدید بخوایم؟",
@@ -203,8 +203,8 @@
     {
      "keywords": [
       "capacity",
-      "commit",
       "before",
+      "commit",
       "let's"
      ],
      "suggestion": "Let's see who has capacity this week before we commit.",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "circulate",
       "afternoon",
+      "circulate",
       "everyone",
-      "action"
+      "thanks"
      ],
      "suggestion": "Thanks, everyone. I'll circulate the action points this afternoon.",
      "suggestionFa": "ممنون همگی. امروز عصر اقدامات را برای همه می‌فرستم.",

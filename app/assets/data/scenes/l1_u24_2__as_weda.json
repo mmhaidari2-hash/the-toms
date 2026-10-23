@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't be scared, Nicola.",
    "translations": {
     "fa": "نترس نیکولا."
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's look under the bed together.",
    "translations": {
     "fa": "بیا با هم زیر تخت را نگاه کنیم."
@@ -156,7 +156,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only a sock and a teddy.",
    "translations": {
     "fa": "فقط یه جوراب و یه عروسک."
@@ -212,7 +212,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here he is. He's safe now.",
    "translations": {
     "fa": "ایناهاش. حالا در امانه."
@@ -237,7 +237,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She was a bit scared, Maggie.",
    "translations": {
     "fa": "یه کم ترسیده بود مگی."
@@ -248,8 +248,8 @@
       "sweetheart",
       "landing",
       "little",
-      "light",
-      "shall"
+      "shall",
+      "leave"
      ],
      "suggestion": "Oh, sweetheart. Shall I leave the landing light on? And the door open a little?",
      "suggestionFa": "آه، عزیزدلم. چراغ راهروی بالا را روشن بذارم؟ و در را یه کم باز؟",
@@ -262,7 +262,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a good idea.",
    "translations": {
     "fa": "فکر خوبیه."
@@ -314,7 +314,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a good question!",
    "translations": {
     "fa": "چه سؤال خوبی!"
@@ -325,8 +325,8 @@
       "thunder",
       "scared",
       "shall",
-      "sing",
-      "sang"
+      "sang",
+      "sing"
      ],
      "suggestion": "Oh yes. I was scared of thunder too. My mum sang to me. Shall I sing to you?",
      "suggestionFa": "آه آره. از رعد و برق هم می‌ترسیدم. مامانم برام آواز می‌خوند. برات آواز بخونم؟",
@@ -339,7 +339,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Sing a song, Maggie.",
    "translations": {
     "fa": "آره! یه آهنگ بخونید مگی."
@@ -348,10 +348,10 @@
     {
      "keywords": [
       "already",
-      "little",
       "asleep",
-      "thank",
-      "night"
+      "little",
+      "she's",
+      "thank"
      ],
      "suggestion": "\"Hush, little baby, don't say a word…\" Look, she's asleep already. Thank you, love. Night night.",
      "suggestionFa": "«هیس، بچه کوچولو، هیچی نگو…» ببین، خوابش برد. ممنون عزیزم. شب بخیر.",
@@ -364,7 +364,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

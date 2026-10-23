@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "having",
+      "friday",
       "chips",
       "fish",
       "tea"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please! I love fish and chips.",
    "translations": {
     "fa": "بله، لطفاً! عاشق ماهی و سیب‌زمینی‌ام."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "haddock",
-      "friday",
       "chippy",
+      "friday",
       "daddy",
       "every"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the difference?",
    "translations": {
     "fa": "فرقشون چیه؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "haddock",
       "they're",
       "tastier",
-      "don't",
-      "mushy"
+      "haddock",
+      "daddy",
+      "don't"
      ],
      "suggestion": "I don't know! They're both fish. Daddy says haddock is tastier. Do you want mushy peas?",
      "suggestionFa": "نمی‌دونم! هر دوشون ماهی‌ان. بابا میگه هادوک خوشمزه‌تره. نخود له شده می‌خوای؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are mushy peas?",
    "translations": {
     "fa": "نخود له‌شده چیه؟"
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "squishy",
       "vinegar",
-      "green",
+      "squishy",
+      "chips",
       "weird",
       "don't"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Vinegar on chips? Really?",
    "translations": {
     "fa": "سرکه روی سیب‌زمینی؟ واقعاً؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "vinegar",
       "really",
-      "yummy",
       "mouth",
-      "open"
+      "yummy",
+      "here"
      ],
      "suggestion": "Really! It's yummy. Try one with vinegar. Here! Open your mouth!",
      "suggestionFa": "واقعاً! خوشمزه‌ست. یکی با سرکه امتحان کن. بیا! دهنت را باز کن!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! It's sour but nice!",
    "translations": {
     "fa": "ممم! ترشه ولی خوبه!"
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "everything",
-      "bananas",
-      "william",
       "ketchup",
+      "william",
+      "bananas",
       "even"
      ],
      "suggestion": "See! Now ketchup. Ketchup is the best. William puts ketchup on EVERYTHING. Even bananas!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bananas with ketchup? Yuck!",
    "translations": {
     "fa": "موز با سس گوجه؟ ایش!"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "vinegar",
       "ketchup",
+      "vinegar",
+      "chips",
       "funny",
-      "makes",
-      "chips"
+      "makes"
      ],
      "suggestion": "Ketchup! Vinegar makes my nose funny. Do you have chips in Iran?",
      "suggestionFa": "سس گوجه! سرکه دماغم را یه جوری می‌کنه. تو ایران سیب‌زمینی سرخ‌کرده دارید؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, but we eat them with rice sometimes!",
    "translations": {
     "fa": "آره، ولی گاهی با برنج می‌خوریم!"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "amazing",
-      "friday",
-      "that's",
       "please",
-      "daddy"
+      "that's",
+      "friday",
+      "chips"
      ],
      "suggestion": "Chips with RICE? That's amazing! Daddy, can we have chips with rice next Friday? Please, please, please!",
      "suggestionFa": "سیب‌زمینی با برنج؟ معرکه‌ست! بابا، جمعهٔ بعد می‌شه سیب‌زمینی با برنج بخوریم؟ خواهش، خواهش، خواهش!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

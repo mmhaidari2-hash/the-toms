@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "many",
       "need",
       "bags",
+      "many",
       "how"
      ],
      "suggestion": "How many bags do we need?",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "bags",
-      "lot",
-      "ten"
+      "ten",
+      "lot"
      ],
      "suggestion": "Ten bags is a lot!",
      "suggestionFa": "ده تا کیسه زیاده!",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "jelly",
       "let's",
+      "jelly",
       "start",
       "ones"
      ],
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "children",
-      "lot",
-      "ten"
+      "ten",
+      "lot"
      ],
      "suggestion": "A lot more! It's for ten children.",
      "suggestionFa": "خیلی بیشتر! برای ده تا بچه‌ست.",
@@ -285,7 +285,7 @@
       "maybe",
       "sugar",
       "less",
-      "bit"
+      "lot"
      ],
      "suggestion": "Maybe a bit less. It's a lot of sugar!",
      "suggestionFa": "شاید یه کم کمتر. خیلی شکره!",
@@ -326,10 +326,10 @@
     },
     {
      "keywords": [
-      "each",
       "half",
-      "can",
-      "pay"
+      "each",
+      "pay",
+      "can"
      ],
      "suggestion": "Can we pay half each?",
      "suggestionFa": "می‌تونیم نصف‌نصف بدیم؟",

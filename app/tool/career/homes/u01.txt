@@ -1,0 +1,74 @@
+## H1 | Finding a flat | پیدا کردن آپارتمان | hallway | Book a viewing, look round a flat and ask about rent and bills | وقت بازدید بگیری، آپارتمان را ببینی و دربارهٔ اجاره و قبض‌ها بپرسی | A2
+
+# est_1_1 | agent | Booking a viewing | گرفتن وقت بازدید | Can I…? / Is it still available? | می‌تونم…؟ / هنوز موجوده؟ | hallway
+agent: Good morning, Fennick and Rowe Homes, Olivia speaking. How can I help? | صبح بخیر، املاک فنیک اند رو، اولیویا هستم. چه کمکی از دستم برمیاد؟
+> Hello. I'm calling about the one-bed flat on Mare Street. | سلام. دربارهٔ آپارتمان یه‌خوابهٔ خیابون میر زنگ می‌زنم.
+> Hi. Is the flat on Mare Street still available? | سلام. آپارتمان خیابون میر هنوز موجوده؟
+W: one-bed=یک‌خوابه ; available=موجود ؛ آزاد ; calling about=زنگ زدن دربارهٔ
+agent: Yes, it's still available. It's twelve hundred pounds a month. Would you like to come and see it? | بله، هنوز موجوده. ماهی هزار و دویست پونده. دوست دارید بیاید ببینیدش؟
+> Yes, please. Can I see it this week? | بله لطفاً. می‌تونم این هفته ببینمش؟
+> Yes. When can I come? | آره. کِی می‌تونم بیام؟
+W: a month=ماهانه ؛ در ماه ; see it=دیدنش ; this week=این هفته
+X: I can see ; can see I => Can I see it this week? Of course. | Can I see it this week? | می‌تونم این هفته ببینمش؟
+C: Flats in the UK are often advertised "per calendar month" (pcm). £1,200 pcm means £1,200 every month. | در بریتانیا اجاره اغلب «ماهانه» (pcm) اعلام می‌شود.
+agent: Of course. I've got Thursday at half past five or Saturday at ten. Which is better for you? | حتماً. پنج‌شنبه ساعت پنج و نیم یا شنبه ساعت ده وقت دارم. کدوم براتون بهتره؟
+> Saturday at ten is perfect. | شنبه ساعت ده عالیه.
+> Thursday, please. I finish work at five. | پنج‌شنبه لطفاً. ساعت پنج کارم تموم می‌شه.
+W: half past five=پنج و نیم ; which is better=کدام بهتر است ; finish work=کار را تمام کردن
+agent: Lovely. Can I take your name and a phone number, please? | عالیه. می‌شه اسم و یه شماره تلفن‌تون را داشته باشم؟
+> Yes, it's {you}. My number is in your email. | بله، {you} هستم. شماره‌م تو ایمیل‌تونه.
+> Sure. Shall I spell my name for you? | حتماً. اسمم را براتون هجی کنم؟
+W: take your name=اسم کسی را یادداشت کردن ; spell=هجی کردن
+agent: Perfect, thank you. I'll send you a text with the address. See you then! | عالی، ممنون. یه پیام با آدرس براتون می‌فرستم. می‌بینمتون!
+
+# est_1_2 | agent | Looking round the flat | دیدن آپارتمان | Is there…? / Are there…? / How much is…? | آیا … هست؟ / … چقدره؟ | living
+agent: Hi, you must be {you}! I'm Olivia. Come in. This is the living room — lots of light. | سلام، حتماً {you} هستید! من اولیویام. بفرمایید. این اتاق نشیمنه — کلی نور داره.
+> Hi Olivia. Yes, it's very bright. | سلام اولیویا. آره، خیلی روشنه.
+> Nice to meet you. Is it furnished? | خوشبختم. مبله‌ست؟
+W: living room=اتاق نشیمن ; light=نور ; bright=روشن ; furnished=مبله
+agent: It's part-furnished: there's a sofa, a bed and a fridge-freezer. The kitchen is through here. | نیمه‌مبله‌ست: یه مبل، یه تخت و یه یخچال‌فریزر هست. آشپزخونه از این طرفه.
+> Is there a washing machine? | ماشین لباسشویی هست؟
+> Is the oven gas or electric? | اجاق گازیه یا برقی؟
+W: part-furnished=نیمه‌مبله ; fridge-freezer=یخچال‌فریزر ; washing machine=ماشین لباسشویی ; oven=فر ؛ اجاق
+X: there is washing machine ; is washing machine => Is there a washing machine? Yes, there is. | Is there a washing machine? | ماشین لباسشویی هست؟
+agent: Yes, there's a washing machine, and the cooker is electric. The heating is gas central heating. | بله، ماشین لباسشویی هست، و اجاق برقیه. گرمایش، شوفاژ گازیه.
+> Great. Are bills included in the rent? | عالیه. قبض‌ها تو اجاره حساب شده؟
+> How much are the bills, roughly? | قبض‌ها تقریباً چقدره؟
+W: cooker=اجاق ; central heating=شوفاژ ؛ گرمایش مرکزی ; bills=قبض‌ها ; roughly=تقریباً
+agent: No, bills aren't included. You pay gas, electricity, water, broadband and council tax yourself. | نه، قبض‌ها حساب نیست. گاز، برق، آب، اینترنت و مالیات شورا را خودتون می‌دید.
+> OK. What council tax band is it? | باشه. مالیات شوراش چه گروهیه؟
+> That's fine. Is there a lot of noise from the street? | اشکال نداره. سر و صدای خیابون زیاده؟
+W: included=شامل ؛ حساب‌شده ; broadband=اینترنت ؛ پهن‌باند ; council tax=مالیات شورا ; noise=سر و صدا
+C: "Bills included" is rare for a whole flat. Always ask which bills you will pay. | «قبض‌ها شامل» برای کل آپارتمان کم است؛ همیشه بپرس کدام قبض‌ها با توست.
+agent: It's band B, and the windows are double-glazed, so it's quite quiet. What do you think? | گروه B ـه، و پنجره‌ها دوجداره‌ست، پس نسبتاً ساکته. نظرتون چیه؟
+> I really like it. What's the next step? | خیلی خوشم اومده. قدم بعدی چیه؟
+> I like it, but I need to think about it. | دوستش دارم، ولی باید فکر کنم.
+W: double-glazed=دوجداره ; quiet=ساکت ; next step=قدم بعدی
+agent: No problem. And the advertised rent is the rent: since May 2026 we can't take offers above it. No bidding wars! | مشکلی نیست. و اجارهٔ آگهی‌شده همونه: از مه ۲۰۲۶ نمی‌تونیم پیشنهاد بالاتر بگیریم. رقابت قیمتی در کار نیست!
+C: In England, landlords and agents must publish an asking rent and can't ask for or accept offers above it (Renters' Rights Act, from 1 May 2026). | در انگلستان صاحبخانه و بنگاه نباید پیشنهاد بالاتر از اجارهٔ آگهی‌شده بپذیرند (از ۱ مه ۲۰۲۶).
+
+# est_1_3 | agent | The holding deposit | ودیعهٔ نگهداری | Would like to… / How long…? | می‌خواهم… / چقدر طول می‌کشد؟ | hallway
+agent: Hi {you}, it's Olivia from Fennick and Rowe. You wanted to go ahead with the Mare Street flat? | سلام {you}، اولیویا از فنیک اند رو هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟
+> Yes, I'd like to rent it, please. | بله، می‌خوام اجاره‌ش کنم لطفاً.
+> Yes! Is it still free? | آره! هنوز آزاده؟
+W: go ahead=اقدام کردن ؛ ادامه دادن ; rent=اجاره کردن ؛ اجاره
+agent: Great news. To take it off the market, there's a holding deposit of one week's rent. That's two hundred and seventy-six pounds. | خبر خوبیه. برای اینکه از بازار برداریمش، یه ودیعهٔ نگهداری به اندازهٔ اجارهٔ یه هفته هست. یعنی دویست و هفتاد و شش پوند.
+> How do you work that out? | این را چطور حساب می‌کنید؟
+> OK. Is that the maximum you can ask for? | باشه. این حداکثر چیزیه که می‌تونید بخواید؟
+W: holding deposit=ودیعهٔ نگهداری ; take it off the market=از بازار خارج کردن ; work out=حساب کردن
+C: In England a holding deposit can be no more than one week's rent: monthly rent × 12 ÷ 52. £1,200 × 12 ÷ 52 ≈ £276. | در انگلستان ودیعهٔ نگهداری حداکثر اجارهٔ یک هفته است: اجارهٔ ماهانه × ۱۲ ÷ ۵۲.
+agent: It's the monthly rent times twelve, divided by fifty-two. And yes, one week is the legal maximum. | اجارهٔ ماهانه ضربدر دوازده، تقسیم بر پنجاه و دو. و بله، یه هفته حداکثر قانونیه.
+> Do I get it back? | پسش می‌گیرم؟
+> What happens to it if I move in? | اگه اسباب‌کشی کنم چی می‌شه؟
+W: times=ضربدر ; divided by=تقسیم بر ; legal maximum=حداکثر قانونی ; get it back=پس گرفتن
+agent: If you move in, it usually becomes part of your first rent or your deposit. If the landlord pulls out, you get it all back. | اگه اسباب‌کشی کنید، معمولاً بخشی از اولین اجاره یا ودیعه‌تون می‌شه. اگه صاحبخونه منصرف بشه، کاملش را پس می‌گیرید.
+> And if I change my mind? | و اگه نظرم عوض بشه؟
+> When can you keep it? | کِی می‌تونید نگهش دارید؟
+W: pull out=منصرف شدن ؛ کنار کشیدن ; change my mind=نظرم عوض شود ; keep=نگه داشتن
+agent: We can keep it if you pull out, or if you give us false information. We normally agree the tenancy within fifteen days. | اگه شما منصرف بشید، یا اطلاعات نادرست بدید، می‌تونیم نگهش داریم. معمولاً ظرف پونزده روز قرارداد را نهایی می‌کنیم.
+> That's clear. Can you send it to me in writing? | روشنه. می‌شه کتبی برام بفرستید؟
+> Fine. How do I pay it? | باشه. چطور پرداختش کنم؟
+W: false information=اطلاعات نادرست ; in writing=کتبی ; fifteen days=پانزده روز
+X: send me in writing ; write it me => Could you send it to me in writing? Of course. | Can you send it to me in writing? | می‌شه کتبی برام بفرستید؟
+C: The rules are in the Tenant Fees Act 2019. The deadline to agree is normally 15 days unless you both agree another date. | این قوانین در قانون هزینه‌های مستأجر ۲۰۱۹ است؛ مهلت معمولاً ۱۵ روز است.
+agent: Of course. I'll email you a receipt and the details now, and you can pay by bank transfer. | حتماً. همین الان رسید و جزئیات را ایمیل می‌کنم، و می‌تونید با انتقال بانکی پرداخت کنید.

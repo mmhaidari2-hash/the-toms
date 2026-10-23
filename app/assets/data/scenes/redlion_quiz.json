@@ -21,7 +21,7 @@
      "keywords": [
       "edinburgh",
       "reckon",
-      "have",
+      "punt",
       "i'll"
      ],
      "suggestion": "Go on, I'll have a punt — I reckon it's Edinburgh.",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "taught",
       "apples",
+      "taught",
       "pears"
      ],
      "suggestion": "Apples and pears! Tom taught me that.",
@@ -191,10 +191,10 @@
     },
     {
      "keywords": [
-      "eleven",
       "strong",
-      "point",
-      "isn't"
+      "eleven",
+      "isn't",
+      "sport"
      ],
      "suggestion": "Sport isn't my strong point. Eleven?",
      "suggestionFa": "ورزش نقطه‌قوتم نیست. یازده؟",
@@ -271,8 +271,7 @@
    "branches": [
     {
      "keywords": [
-      "shakespeare",
-      "william"
+      "shakespeare"
      ],
      "suggestion": "Shakespeare!",
      "suggestionFa": "شکسپیر!",
@@ -283,8 +282,7 @@
     {
      "keywords": [
       "dickens",
-      "charles",
-      "is"
+      "charles"
      ],
      "suggestion": "Is it Charles Dickens?",
      "suggestionFa": "چارلز دیکنز؟",
@@ -323,9 +321,9 @@
     {
      "keywords": [
       "beginner's",
-      "lucky",
       "guess",
-      "luck"
+      "lucky",
+      "just"
      ],
      "suggestion": "Just a lucky guess — beginner's luck!",
      "suggestionFa": "فقط یه حدس شانسی — شانس تازه‌کار!",
@@ -377,8 +375,8 @@
     {
      "keywords": [
       "second",
-      "behind",
       "points",
+      "behind",
       "place"
      ],
      "suggestion": "Second place, two points behind.",
@@ -391,8 +389,8 @@
      "keywords": [
       "shakespeare",
       "winning",
-      "thanks",
-      "austen"
+      "austen",
+      "thanks"
      ],
      "suggestion": "We're winning, thanks to Austen and Shakespeare!",
      "suggestionFa": "داریم می‌بریم، به لطف آستن و شکسپیر!",

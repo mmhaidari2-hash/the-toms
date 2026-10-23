@@ -106,8 +106,8 @@
      "keywords": [
       "church",
       "behind",
-      "park",
-      "know"
+      "know",
+      "park"
      ],
      "suggestion": "I know it! Behind the church is the park.",
      "suggestionFa": "بلدمش! پشت کلیسا پارکه.",
@@ -117,8 +117,8 @@
     },
     {
      "keywords": [
-      "here",
       "from",
+      "here",
       "far"
      ],
      "suggestion": "Is it far from here?",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "don't",
-      "tell",
       "know",
+      "tell",
       "can"
      ],
      "suggestion": "I don't know. Can you tell me?",
@@ -265,10 +265,10 @@
     },
     {
      "keywords": [
-      "when",
       "know",
-      "off",
-      "how"
+      "when",
+      "get",
+      "off"
      ],
      "suggestion": "How do I know when to get off?",
      "suggestionFa": "از کجا بفهمم کی پیاده شم؟",

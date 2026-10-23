@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -37,8 +37,8 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
-   "text": "My name's Mehdi.",
+   "speaker": "learner",
+   "text": "My name's {you}.",
    "translations": {
     "fa": "اسم من {you} است."
    },
@@ -51,7 +51,7 @@
       "old",
       "how"
      ],
-     "suggestion": "Mehdi! That's a nice name. How old are you?",
+     "suggestion": "{you}! That's a nice name. How old are you?",
      "suggestionFa": "{you}! چه اسم قشنگی. چند سالته؟",
      "trustDelta": 5,
      "next": "r3",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm thirty.",
    "translations": {
     "fa": "سی سالمه."
@@ -73,8 +73,8 @@
       "buttons",
       "name's",
       "teddy",
-      "five",
-      "half"
+      "half",
+      "five"
      ],
      "suggestion": "I'm five. Five and a half! This is my teddy. His name's Mr Buttons.",
      "suggestionFa": "من پنج سالمه. پنج و نیم! این عروسک خرسمه. اسمش آقای دکمه است.",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Mr Buttons!",
    "translations": {
     "fa": "سلام، آقای دکمه!"
@@ -97,8 +97,8 @@
      "keywords": [
       "london",
       "friend",
-      "from",
       "best",
+      "from",
       "he's"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I'm from Iran.",
    "translations": {
     "fa": "نه، من اهل ایرانم."
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "always",
-      "mummy",
       "there",
-      "cold",
-      "says"
+      "mummy",
+      "says",
+      "cold"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
      "suggestionFa": "وای! اونجا گرمه؟ مامان می‌گه اینجا همیشه سرده.",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it's very hot in summer.",
    "translations": {
     "fa": "آره، تابستون خیلی گرمه."
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "teacher",
-      "name's",
       "that's",
+      "name's",
       "leslie",
       "she's"
      ],
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nice! Is she your teacher too?",
    "translations": {
     "fa": "چه خوب! معلم تو هم هست؟"
@@ -219,7 +219,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, she's really sweet.",
    "translations": {
     "fa": "نه، خیلی شیرینه."
@@ -230,7 +230,7 @@
       "friendly",
       "just"
      ],
-     "suggestion": "I'm not! I'm just friendly. Are you friendly too, Mehdi?",
+     "suggestion": "I'm not! I'm just friendly. Are you friendly too, {you}?",
      "suggestionFa": "نه خیر! فقط مهربونم. تو هم مهربونی، {you}؟",
      "trustDelta": 5,
      "next": "r10",
@@ -241,7 +241,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I am!",
    "translations": {
     "fa": "آره، هستم!"
@@ -252,8 +252,8 @@
       "friend",
       "later",
       "good",
-      "see",
-      "bye"
+      "now",
+      "see"
      ],
      "suggestion": "Good! You're my friend now. Bye-bye, see you later!",
      "suggestionFa": "خوبه! حالا تو دوست منی. بای‌بای، بعداً می‌بینمت!",
@@ -266,7 +266,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

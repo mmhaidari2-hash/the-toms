@@ -33,8 +33,8 @@
     {
      "keywords": [
       "have",
-      "can",
-      "egg"
+      "egg",
+      "can"
      ],
      "suggestion": "Can I have an egg, please?",
      "suggestionFa": "می‌شه یه تخم‌مرغ داشته باشم، لطفاً؟",
@@ -99,8 +99,9 @@
     },
     {
      "keywords": [
+      "what's",
       "spread",
-      "what's"
+      "yeast"
      ],
      "suggestion": "What's yeast spread?",
      "suggestionFa": "کرهٔ مخمر چیه؟",
@@ -123,7 +124,7 @@
   "n3": {
    "id": "n3",
    "speaker": "nicola",
-   "text": "Yeast spread is yucky! It's black and salty.",
+   "text": "yeast spread is yucky! It's black and salty.",
    "translations": {
     "fa": "کرهٔ مخمر بدمزه‌ست! سیاه و شوره."
    },
@@ -131,8 +132,8 @@
     {
      "keywords": [
       "yucky",
-      "let",
-      "try"
+      "try",
+      "let"
      ],
      "suggestion": "Yucky? Let me try it!",
      "suggestionFa": "بدمزه؟ بذار امتحانش کنم!",
@@ -143,6 +144,7 @@
     {
      "keywords": [
       "spread",
+      "yeast",
       "then",
       "ok"
      ],
@@ -180,8 +182,8 @@
      "keywords": [
       "orange",
       "please",
-      "glass",
-      "juice"
+      "juice",
+      "glass"
      ],
      "suggestion": "Yes, a glass of orange juice, please.",
      "suggestionFa": "بله، یه لیوان آب پرتقال، لطفاً.",
@@ -227,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
-      "nicola"
+      "nicola",
+      "here's"
      ],
      "suggestion": "Here's a spoon, Nicola.",
      "suggestionFa": "این قاشق، نیکولا.",
@@ -287,8 +289,8 @@
     },
     {
      "keywords": [
-      "prefer",
       "really",
+      "prefer",
       "eggs"
      ],
      "suggestion": "Not really. I prefer eggs.",

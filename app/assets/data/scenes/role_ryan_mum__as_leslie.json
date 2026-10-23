@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "school",
       "hello",
       "love",
-      "any"
+      "was"
      ],
      "suggestion": "Hello, love. How was school? Any homework?",
      "suggestionFa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was fine. I've got a bit of maths homework.",
    "translations": {
     "fa": "خوب بود. یه کم تکلیف ریاضی دارم."
@@ -49,8 +49,8 @@
       "homework",
       "first",
       "deal",
-      "fifa",
-      "then"
+      "then",
+      "fifa"
      ],
      "suggestion": "Homework first, then FIFA. Deal?",
      "suggestionFa": "اول تکلیف، بعد فیفا. قبول؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal. Can Josh come round after?",
    "translations": {
     "fa": "قبول. جاش می‌تونه بعدش بیاد؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Starving! What's for tea?",
    "translations": {
     "fa": "دارم میمیرم! شام چیه؟"
@@ -99,7 +99,7 @@
       "shepherd's",
       "apple",
       "have",
-      "pie",
+      "now",
       "six"
      ],
      "suggestion": "Shepherd's pie at six. Have an apple for now.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "An apple? Can't I have crisps?",
    "translations": {
     "fa": "سیب؟ نمی‌تونم چیپس بخورم؟"
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "project",
+      "history",
       "crisps",
       "after",
       "hand"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I got a merit.",
    "translations": {
     "fa": "آره، نمرهٔ خوب گرفتم."
@@ -148,8 +148,8 @@
      "keywords": [
       "tomorrow",
       "room's",
-      "round",
       "thing",
+      "round",
       "first"
      ],
      "suggestion": "Ryan! Hand it in tomorrow, first thing. Now, Josh can come round — if your room's tidy.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My room is tidy. Ish.",
    "translations": {
     "fa": "اتاقم مرتبه. تقریباً."
@@ -174,8 +174,8 @@
       "enough",
       "shoes",
       "isn't",
-      "sofa",
-      "take"
+      "good",
+      "sofa"
      ],
      "suggestion": "\"Ish\" isn't good enough. And take your shoes off the sofa!",
      "suggestionFa": "«تقریباً» کافی نیست. و کفش‌هات را از رو مبل بردار!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, Mum.",
    "translations": {
     "fa": "ببخشید مامان."
@@ -198,9 +198,9 @@
      "keywords": [
       "never",
       "give",
-      "off",
-      "old",
-      "hug"
+      "now",
+      "hug",
+      "old"
      ],
      "suggestion": "Off! Now, give your mum a hug. You're never too old.",
      "suggestionFa": "بردار! حالا، مامانت را بغل کن. هیچ‌وقت برای این کار پیر نیستی.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mum! Fine. Just a quick one.",
    "translations": {
     "fa": "مامان! باشه. فقط یه کوتاهش."
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

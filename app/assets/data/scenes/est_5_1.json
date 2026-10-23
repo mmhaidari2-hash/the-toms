@@ -1,0 +1,241 @@
+{
+ "id": "est_5_1",
+ "characterId": "graham",
+ "title": "Mortgage in principle",
+ "titleFa": "تأییدیهٔ اولیهٔ وام مسکن",
+ "setting": "Buying a home · Level 0",
+ "settingFa": "خرید خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "So, {you}, you're thinking of buying rather than renting. Have you spoken to a lender yet?",
+   "translations": {
+    "fa": "خب {you}، به فکر خریدید نه اجاره. با وام‌دهنده‌ای صحبت کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "start",
+      "where",
+      "yet"
+     ],
+     "suggestion": "Not yet. Where should I start?",
+     "suggestionFa": "هنوز نه. از کجا شروع کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "principle",
+      "mortgage",
+      "seen",
+      "i've"
+     ],
+     "suggestion": "I've seen the word \"mortgage in principle\". What is it?",
+     "suggestionFa": "کلمهٔ «mortgage in principle» را دیدم. چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lender",
+     "fa": "وام‌دهنده"
+    },
+    {
+     "word": "rather than",
+     "fa": "به جای"
+    },
+    {
+     "word": "mortgage",
+     "fa": "وام مسکن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "A mortgage in principle — some call it an agreement in principle — is a letter from a lender saying roughly how much they might lend you. Sellers take you more seriously with one.",
+   "translations": {
+    "fa": "تأییدیهٔ اولیهٔ وام — بعضی‌ها می‌گن agreement in principle — نامه‌ای از وام‌دهنده‌ست که تقریباً می‌گه چقدر ممکنه بهتون وام بده. فروشنده‌ها با داشتنش شما را جدی‌تر می‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "guarantee",
+      "loan",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "Is it a guarantee that I'll get the loan?",
+     "suggestionFa": "تضمینه که وام را می‌گیرم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "credit",
+      "affect",
+      "score"
+     ],
+     "suggestion": "Does it affect my credit score?",
+     "suggestionFa": "روی امتیاز اعتباری‌ام اثر داره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "agreement in principle",
+     "fa": "تأییدیهٔ اولیه"
+    },
+    {
+     "word": "roughly",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "guarantee",
+     "fa": "تضمین"
+    },
+    {
+     "word": "credit score",
+     "fa": "امتیاز اعتباری"
+    }
+   ],
+   "cultureNote": {
+    "en": "A mortgage in principle is not a guaranteed offer. It usually lasts 30 to 90 days, and many lenders use a \"soft\" credit check that other lenders can't see.",
+    "fa": "تأییدیهٔ اولیه تضمین نیست؛ معمولاً ۳۰ تا ۹۰ روز اعتبار دارد و اغلب با بررسی اعتباری «نرم» انجام می‌شود."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "No, it's not a guarantee — the full application comes later. Many lenders only do a soft credit check at this stage. How much deposit have you saved?",
+   "translations": {
+    "fa": "نه، تضمین نیست — درخواست کامل بعداً می‌آد. خیلی از وام‌دهنده‌ها تو این مرحله فقط بررسی اعتباری نرم انجام می‌دن. چقدر پیش‌پرداخت پس‌انداز کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "pounds",
+      "twenty",
+      "about"
+     ],
+     "suggestion": "About twenty thousand pounds.",
+     "suggestionFa": "حدود بیست هزار پوند.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "could",
+      "rate",
+      "cent"
+     ],
+     "suggestion": "If I put down ten per cent, could I get a better rate?",
+     "suggestionFa": "اگه ده درصد پیش‌پرداخت بدم، نرخ بهتری می‌گیرم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deposit",
+     "fa": "پیش‌پرداخت ؛ ودیعه"
+    },
+    {
+     "word": "saved",
+     "fa": "پس‌انداز کرده"
+    },
+    {
+     "word": "rate",
+     "fa": "نرخ (بهره)"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "if I will put",
+      "if I put down ten I can"
+     ],
+     "echo": "If I put down ten per cent, could I get a better rate? Often, yes.",
+     "better": "If I put down ten per cent, could I get a better rate?",
+     "betterFa": "اگه ده درصد پیش‌پرداخت بدم، نرخ بهتری می‌گیرم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "Generally, the bigger your deposit, the better the rates. With twenty thousand, a two-hundred-thousand-pound flat would be a ten per cent deposit.",
+   "translations": {
+    "fa": "معمولاً هرچه پیش‌پرداخت بیشتر، نرخ‌ها بهتر. با بیست هزار، یه آپارتمان دویست هزار پوندی می‌شه ده درصد پیش‌پرداخت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mortgage",
+      "broker",
+      "should",
+      "bank"
+     ],
+     "suggestion": "Should I go to a bank or a mortgage broker?",
+     "suggestionFa": "برم بانک یا مشاور وام مسکن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "documents",
+      "lender",
+      "will",
+      "want"
+     ],
+     "suggestion": "What documents will the lender want?",
+     "suggestionFa": "وام‌دهنده چه مدارکی می‌خواد؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "generally",
+     "fa": "معمولاً ؛ به طور کلی"
+    },
+    {
+     "word": "mortgage broker",
+     "fa": "مشاور ؛ کارگزار وام مسکن"
+    },
+    {
+     "word": "documents",
+     "fa": "مدارک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "Either is fine — a broker compares many lenders. Have three months' payslips, bank statements and your ID ready. We don't give financial advice ourselves, so do speak to a qualified adviser.",
+   "translations": {
+    "fa": "هر دو خوبه — مشاور وام چند وام‌دهنده را مقایسه می‌کنه. فیش حقوقی سه ماه، صورت‌حساب بانکی و کارت شناسایی‌تون را آماده کنید. ما خودمون مشاورهٔ مالی نمی‌دیم، پس حتماً با یه مشاور واجد صلاحیت صحبت کنید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

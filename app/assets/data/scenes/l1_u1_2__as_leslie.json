@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Tom. Nice to meet you.",
    "translations": {
     "fa": "سلام تام. از آشنایی‌تان خوشوقتم."
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Thank you.",
    "translations": {
     "fa": "بله لطفاً. ممنون."
@@ -105,8 +105,8 @@
      "keywords": [
       "youngest",
       "william",
-      "little",
       "monkey",
+      "little",
       "three"
      ],
      "suggestion": "And this little monkey is William. He's our youngest. He's three.",
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, William! He's so cute.",
    "translations": {
     "fa": "سلام ویلیام! خیلی بامزه‌ست."
@@ -171,7 +171,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, little one!",
    "translations": {
     "fa": "سلام، کوچولو!"
@@ -182,8 +182,8 @@
       "upstairs",
       "fifteen",
       "saying",
-      "hello",
-      "loves"
+      "loves",
+      "hello"
      ],
      "suggestion": "He loves saying hello! Ryan is upstairs. He's our son too. He's fifteen.",
      "suggestionFa": "عاشق سلام کردنه! رایان طبقهٔ بالاست. اونم پسرمونه. پونزده سالشه.",
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So you have two sons and a daughter?",
    "translations": {
     "fa": "پس دو پسر و یه دختر دارید؟"
@@ -205,10 +205,10 @@
     {
      "keywords": [
       "margaret",
-      "maggie",
       "that's",
-      "three",
-      "right"
+      "maggie",
+      "tom's",
+      "three"
      ],
      "suggestion": "That's right — three kids! And this is Margaret, Tom's mum. The kids call her Nana Maggie.",
      "suggestionFa": "درسته — سه تا بچه! و این مارگارته، مامان تام. بچه‌ها صداش می‌کنن نانا مگی.",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Margaret. Nice to meet you.",
    "translations": {
     "fa": "سلام مارگارت. از آشنایی‌تون خوشوقتم."
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A little, yes.",
    "translations": {
     "fa": "یه کم، بله."
@@ -289,8 +289,8 @@
       "questions",
       "that's",
       "family",
-      "right",
-      "whole"
+      "whole",
+      "right"
      ],
      "suggestion": "Right — that's the whole family. Questions? Who is Tom?",
      "suggestionFa": "خب — این کل خانواده‌ست. سؤالی هست؟ تام کیه؟",
@@ -303,7 +303,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tom is your husband.",
    "translations": {
     "fa": "تام شوهر شماست."
@@ -328,7 +328,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

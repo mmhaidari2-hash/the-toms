@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. A tea.",
    "translations": {
     "fa": "آره، لطفاً. یه چای."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "they've",
-      "kind",
+      "time",
       "paid",
       "lots",
-      "time"
+      "kind"
      ],
      "suggestion": "No, no. You paid last time. What kind of tea? They've got lots.",
      "suggestionFa": "نه، نه. دفعهٔ قبل تو حساب کردی. چه نوع چایی؟ کلی دارن.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just a normal tea, please.",
    "translations": {
     "fa": "فقط یه چای معمولی، لطفاً."
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a flat white?",
    "translations": {
     "fa": "فلت وایت چیه؟"
@@ -127,7 +127,7 @@
       "friend",
       "callum",
       "please",
-      "take",
+      "mint",
       "away"
      ],
      "suggestion": "Yes, please, Callum. And a mint tea for my friend. To take away.",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie.",
    "translations": {
     "fa": "ممنون لزلی."
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. That's helpful.",
    "translations": {
     "fa": "آره، لطفاً. کمک می‌کنه."
@@ -207,8 +207,8 @@
       "discount",
       "reusable",
       "have",
-      "got",
-      "cup"
+      "cup",
+      "got"
      ],
      "suggestion": "Oh, have you got a reusable cup? You get a discount!",
      "suggestionFa": "آه، لیوان چندبارمصرف داری؟ تخفیف می‌گیری!",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. I forgot it.",
    "translations": {
     "fa": "نه. یادم رفت."
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall I hold the drinks?",
    "translations": {
     "fa": "نوشیدنی‌ها را نگه دارم؟"
@@ -302,7 +302,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye! Thanks for the tea.",
    "translations": {
     "fa": "خداحافظ! ممنون بابت چای."
@@ -312,9 +312,9 @@
      "keywords": [
       "minutes",
       "school",
-      "right",
       "don't",
-      "spill"
+      "spill",
+      "let's"
      ],
      "suggestion": "Right. Ten minutes to school. Let's walk fast — and don't spill the tea!",
      "suggestionFa": "خب. ده دقیقه تا مدرسه. تند راه بریم — و چای را نریز!",
@@ -327,7 +327,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

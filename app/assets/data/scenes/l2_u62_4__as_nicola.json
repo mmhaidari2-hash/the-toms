@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,11 +23,11 @@
      "keywords": [
       "assembly",
       "ellis",
-      "gold",
       "miss",
+      "star",
       "week"
      ],
-     "suggestion": "Mehdi! Look! A gold star! I'm Star of the Week! Miss Ellis said it in assembly!",
+     "suggestion": "{you}! Look! A gold star! I'm Star of the Week! Miss Ellis said it in assembly!",
      "suggestionFa": "{you}! نگاه کن! یه ستارهٔ طلایی! من ستارهٔ هفته‌ام! خانم الیس سر صف گفت!",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow, Nicola! Star of the Week! Why?",
    "translations": {
     "fa": "وای نیکولا! ستارهٔ هفته! چرا؟"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "english",
-      "there's",
       "doesn't",
-      "nobody",
-      "played"
+      "there's",
+      "played",
+      "nobody"
      ],
      "suggestion": "There's a new girl. Zofia. She doesn't speak much English. Nobody played with her. So I did.",
      "suggestionFa": "یه دختر جدید هست. زوفیا. زیاد انگلیسی بلد نیست. هیچ‌کس باهاش بازی نمی‌کرد. پس من بازی کردم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That was very kind of you, Nicola.",
    "translations": {
     "fa": "خیلی مهربونی کردی نیکولا."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cześć! You're learning Polish!",
    "translations": {
     "fa": "چِشچ! داری لهستانی یاد می‌گیری!"
@@ -99,7 +99,7 @@
       "pasghetti",
       "english",
       "didn't",
-      "words",
+      "first",
       "loads"
      ],
      "suggestion": "Like you! You didn't know English words at first. Now you know loads. Like \"pasghetti\".",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! It's \"spaghetti\", Nicola!",
    "translations": {
     "fa": "ها! «اسپاگتی»یه نیکولا!"
@@ -124,8 +124,8 @@
       "laughed",
       "inside",
       "monday",
-      "today",
-      "happy"
+      "happy",
+      "zofia"
      ],
      "suggestion": "Joke! Zofia was sad on Monday. Today she laughed. That made me feel happy inside.",
      "suggestionFa": "شوخی بود! زوفیا دوشنبه ناراحت بود. امروز خندید. این باعث شد تو دلم خوشحال بشم.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a lovely feeling, isn't it?",
    "translations": {
     "fa": "حس قشنگیه، نه؟"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "they're",
-      "grown",
-      "mummy",
       "cried",
-      "happy"
+      "happy",
+      "mummy",
+      "grown"
      ],
      "suggestion": "Mummy cried when she saw my star. Grown-ups cry a lot. Why do they cry when they're happy?",
      "suggestionFa": "مامانی وقتی ستاره‌ام را دید گریه کرد. بزرگ‌ترها زیاد گریه می‌کنن. چرا وقتی خوشحالن گریه می‌کنن؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy tears! Because she's proud of you.",
    "translations": {
     "fa": "اشک شوق! چون بهت افتخار می‌کنه."
@@ -174,8 +174,8 @@
       "feelings",
       "swings",
       "please",
-      "zofia",
-      "house"
+      "house",
+      "zofia"
      ],
      "suggestion": "Big feelings! Can Zofia come to our house for tea? Please? We can play on the swings!",
      "suggestionFa": "احساس‌های بزرگ! زوفیا می‌تونه برای شام بیاد خونه‌مون؟ لطفاً؟ می‌تونیم تاب بازی کنیم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask Mummy. I'm sure she'll say yes!",
    "translations": {
     "fa": "از مامانی بپرس. مطمئنم میگه آره!"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "everybody",
       "sometimes",
+      "everybody",
       "needs",
-      "card",
-      "make"
+      "make",
+      "star"
      ],
      "suggestion": "Yay! I'll make her a card. With a star on it. Everybody needs a star sometimes!",
      "suggestionFa": "آخ جون! براش یه کارت درست می‌کنم. با یه ستاره روش. همه گاهی یه ستاره لازم دارن!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

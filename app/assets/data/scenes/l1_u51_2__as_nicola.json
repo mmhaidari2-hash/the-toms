@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's wrong, Nicola?",
    "translations": {
     "fa": "البته. چی شده نیکولا؟"
@@ -75,7 +75,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where does it hurt?",
    "translations": {
     "fa": "کجات درد می‌کنه؟"
@@ -83,8 +83,8 @@
    "branches": [
     {
      "keywords": [
-      "wobbly",
       "middle",
+      "wobbly",
       "here",
       "all"
      ],
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you eat today?",
    "translations": {
     "fa": "امروز چی خوردی؟"
@@ -151,7 +151,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten party bags?!",
    "translations": {
     "fa": "ده تا کیسهٔ جشن؟!"
@@ -160,10 +160,10 @@
     {
      "keywords": [
       "sorry",
-      "five",
-      "only",
       "nana",
-      "will"
+      "only",
+      "will",
+      "five"
      ],
      "suggestion": "Only five… or six. Sorry, Nana. Will I be OK?",
      "suggestionFa": "فقط پنج تا… یا شیش تا. ببخشید نانا. خوب میشم؟",
@@ -176,7 +176,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, you'll be fine.",
    "translations": {
     "fa": "آره، خوب میشی."
@@ -232,7 +232,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's some water, Nicola.",
    "translations": {
     "fa": "بیا یه کم آب نیکولا."
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "circles",
-      "stroke",
       "fluffy",
+      "stroke",
       "please",
       "tummy"
      ],
@@ -257,7 +257,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this? In circles?",
    "translations": {
     "fa": "این‌جوری؟ دایره‌ای؟"
@@ -267,9 +267,9 @@
      "keywords": [
       "sweets",
       "better",
+      "never",
       "maybe",
-      "don't",
-      "again"
+      "don't"
      ],
      "suggestion": "A bit better. I don't want ANY sweets. Never again! … Well, maybe next week.",
      "suggestionFa": "یه کم بهتره. هیچ آبنباتی نمی‌خوام. دیگه هیچ‌وقت! … خب، شاید هفتهٔ بعد.",
@@ -282,7 +282,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

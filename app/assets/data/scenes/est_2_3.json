@@ -1,0 +1,290 @@
+{
+ "id": "est_2_3",
+ "characterId": "graham",
+ "title": "Your tenancy agreement",
+ "titleFa": "قرارداد اجاره‌ات",
+ "setting": "Before you move in · Level 0",
+ "settingFa": "پیش از اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "Hello, {you}, I'm Graham Holt, the branch manager. Olivia asked me to go through your tenancy agreement with you.",
+   "translations": {
+    "fa": "سلام {you}، من گراهام هولت هستم، مدیر شعبه. اولیویا ازم خواست قرارداد اجاره را با هم مرور کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "holt",
+      "nice",
+      "meet",
+      "mr"
+     ],
+     "suggestion": "Nice to meet you, Mr Holt.",
+     "suggestionFa": "از آشنایی‌تون خوشحالم، آقای هولت.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shorthold",
+      "tenancy",
+      "assured",
+      "thanks"
+     ],
+     "suggestion": "Thanks. My friend said I'd get an \"assured shorthold\" tenancy.",
+     "suggestionFa": "ممنون. دوستم گفت یه قرارداد «assured shorthold» می‌گیرم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "branch manager",
+     "fa": "مدیر شعبه"
+    },
+    {
+     "word": "go through",
+     "fa": "مرور کردن"
+    },
+    {
+     "word": "tenancy agreement",
+     "fa": "قرارداد اجاره"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "Please, call me Graham. You'll hear the old name a lot, but assured shorthold tenancies have been replaced in England.",
+   "translations": {
+    "fa": "لطفاً گراهام صدام کنید. اسم قدیمی را زیاد می‌شنوید، ولی تو انگلستان قراردادهای assured shorthold جایگزین شدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "replaced"
+     ],
+     "suggestion": "Replaced with what?",
+     "suggestionFa": "با چی جایگزین شدن؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "change",
+      "when",
+      "did"
+     ],
+     "suggestion": "When did that change?",
+     "suggestionFa": "کِی تغییر کرد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "replaced",
+     "fa": "جایگزین شده"
+    },
+    {
+     "word": "old name",
+     "fa": "اسم قدیمی"
+    },
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Since 1 May 2026, private tenancies in England are \"assured periodic tenancies\". Fixed terms and section 21 \"no-fault\" evictions have ended. Scotland, Wales and Northern Ireland have their own rules.",
+    "fa": "از ۱ مه ۲۰۲۶ اجاره‌های خصوصی انگلستان «دوره‌ای» هستند و تخلیهٔ بدون دلیل (بخش ۲۱) حذف شده است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "replace with what",
+      "what replaced"
+     ],
+     "echo": "Replaced with what? Good question.",
+     "better": "What have they been replaced with?",
+     "betterFa": "با چی جایگزین شدن؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "On the first of May 2026 they became assured periodic tenancies. There's no fixed term: it rolls on month by month.",
+   "translations": {
+    "fa": "از اول مه ۲۰۲۶ به قراردادهای دوره‌ای تبدیل شدن. مدت ثابتی نداره: ماه‌به‌ماه ادامه پیدا می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "long",
+      "want",
+      "stay",
+      "as"
+     ],
+     "suggestion": "So I can stay as long as I want?",
+     "suggestionFa": "یعنی هر چقدر بخوام می‌تونم بمونم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "landlord",
+      "leave",
+      "ask"
+     ],
+     "suggestion": "Can the landlord ask me to leave?",
+     "suggestionFa": "صاحبخونه می‌تونه ازم بخواد برم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "periodic",
+     "fa": "دوره‌ای ؛ ماه‌به‌ماه"
+    },
+    {
+     "word": "fixed term",
+     "fa": "مدت ثابت"
+    },
+    {
+     "word": "rolls on",
+     "fa": "ادامه پیدا می‌کند"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "You stay until you give two months' notice. The landlord needs a legal reason, like selling — and can't use that in your first year.",
+   "translations": {
+    "fa": "تا وقتی خودتون دو ماه قبل خبر ندید، می‌مونید. صاحبخونه دلیل قانونی لازم داره، مثل فروش — و تو سال اول نمی‌تونه از این دلیل استفاده کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "after",
+      "they",
+      "want",
+      "sell"
+     ],
+     "suggestion": "And if they want to sell after that?",
+     "suggestionFa": "و اگه بعدش بخواد بفروشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "rent",
+      "can",
+      "up"
+     ],
+     "suggestion": "What about the rent? Can it go up?",
+     "suggestionFa": "اجاره چی؟ می‌تونه بالا بره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "give notice",
+     "fa": "اطلاع دادن ؛ اخطار دادن"
+    },
+    {
+     "word": "legal reason",
+     "fa": "دلیل قانونی"
+    },
+    {
+     "word": "go up",
+     "fa": "بالا رفتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "Then it's four months' notice, and court if needed. Rent can rise once a year with two months' notice, and you can challenge it.",
+   "translations": {
+    "fa": "اون وقت چهار ماه اطلاع قبلی، و اگه لازم بشه دادگاه. اجاره سالی یه بار با دو ماه اطلاع قبلی می‌تونه بالا بره، و می‌تونید اعتراض کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clearer",
+      "that's",
+      "before",
+      "sign"
+     ],
+     "suggestion": "That's much clearer. Can I read it before I sign?",
+     "suggestionFa": "خیلی روشن‌تر شد. می‌تونم قبل از امضا بخونمش؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "pets",
+      "say"
+     ],
+     "suggestion": "What does it say about pets?",
+     "suggestionFa": "دربارهٔ حیوون خونگی چی نوشته؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "court",
+     "fa": "دادگاه"
+    },
+    {
+     "word": "once a year",
+     "fa": "سالی یک بار"
+    },
+    {
+     "word": "challenge",
+     "fa": "اعتراض کردن"
+    },
+    {
+     "word": "tribunal",
+     "fa": "دادگاه ویژه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Rent increases must use a \"section 13\" notice. If you think it's above the market rate, you can apply to the First-tier Tribunal.",
+    "fa": "افزایش اجاره باید با اخطار «بخش ۱۳» باشد و می‌توان به دادگاه ویژه اعتراض کرد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "graham",
+   "text": "Of course — take your time and ask anything. And you can ask to keep a pet; the landlord can't say no without a good reason.",
+   "translations": {
+    "fa": "حتماً — وقت بذارید و هر سؤالی دارید بپرسید. می‌تونید درخواست نگهداری حیوون خونگی بدید؛ صاحبخونه بی‌دلیل موجه نمی‌تونه رد کنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

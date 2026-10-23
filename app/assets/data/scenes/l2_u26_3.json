@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "how",
-      "use"
+      "use",
+      "how"
      ],
      "suggestion": "Yes, please. How do I use it?",
      "suggestionFa": "آره، لطفاً. چطوری ازش استفاده کنم؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
       "inside",
-      "door",
-      "says"
+      "thirty",
+      "says",
+      "door"
      ],
      "suggestion": "Inside the door? Let me look. It says thirty-two.",
      "suggestionFa": "داخل در؟ بذار ببینم. نوشته سی و دو.",
@@ -131,8 +131,8 @@
      "keywords": [
       "taken",
       "i've",
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "I've taken it off. Now what?",
      "suggestionFa": "برداشتمش. حالا چی؟",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "where's",
-      "can't",
       "valve",
+      "can't",
       "see"
      ],
      "suggestion": "Where's the valve? I can't see it.",
@@ -249,7 +249,7 @@
       "minutes",
       "better",
       "four",
-      "i'd"
+      "run"
      ],
      "suggestion": "Four minutes? I'd better run!",
      "suggestionFa": "چهار دقیقه؟ بهتره بدوم!",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "here",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it here?",
      "suggestionFa": "اینجا می‌تونید درستش کنید؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "puncture",
-      "tell",
       "i'll",
+      "tell",
       "now"
      ],
      "suggestion": "A puncture. I'll tell Tom now.",

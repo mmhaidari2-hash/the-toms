@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "william's",
       "cushions",
-      "popcorn",
       "raining",
-      "charge"
+      "popcorn",
+      "cinema"
      ],
      "suggestion": "It's raining, so cinema at home today! Pop the popcorn, I'll do the cushions. William's in charge of the remote. Help!",
      "suggestionFa": "داره بارون میاد، پس امروز سینمای خونگی! پاپ‌کورن را درست کن، من کوسن‌ها را میارم. ویلیام مسئول کنترله. کمک!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK! Sweet or salted popcorn?",
    "translations": {
     "fa": "باشه! پاپ‌کورن شیرین یا شور؟"
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, boss. Which film do you want?",
    "translations": {
     "fa": "باشه رئیس. کدوم فیلم را می‌خوای؟"
@@ -142,7 +142,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Barnaby again? OK!",
    "translations": {
     "fa": "باز بارنابی؟ باشه!"
@@ -152,9 +152,9 @@
      "keywords": [
       "together",
       "popcorn",
-      "answer",
       "salted",
-      "sweet"
+      "answer",
+      "month"
      ],
      "suggestion": "Sixth time this month! Right. Popcorn — sweet or salted? In this house, the answer is \"both, mixed together\".",
      "suggestionFa": "ششمین بار این ماه! خب. پاپ‌کورن — شیرین یا شور؟ تو این خونه، جوابش «هر دو، قاطی» است.",
@@ -167,7 +167,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Both, mixed together? That's strange.",
    "translations": {
     "fa": "هر دو قاطی؟ عجیبه."
@@ -175,11 +175,11 @@
    "branches": [
     {
      "keywords": [
-      "beanbag",
       "william",
-      "you've",
+      "beanbag",
       "nicola",
-      "tried"
+      "you've",
+      "wants"
      ],
      "suggestion": "Don't knock it till you've tried it. Now, seats. Nicola wants the beanbag, William wants my lap, and Tom wants the big chair.",
      "suggestionFa": "تا امتحان نکردی ایراد نگیر. حالا جاها. نیکولا پف را می‌خواد، ویلیام بغل من را، و تام صندلی بزرگه را.",
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I sit next to William on the sofa?",
    "translations": {
     "fa": "می‌تونم کنار ویلیام رو مبل بشینم؟"
@@ -200,11 +200,11 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "pretending",
       "upstairs",
       "minutes",
-      "he'll"
+      "barnaby",
+      "wants"
      ],
      "suggestion": "Ryan? Upstairs, \"too old for Barnaby\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
      "suggestionFa": "رایان؟ طبقهٔ بالا، «برای بارنابی زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار.",
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Typical teenager.",
    "translations": {
     "fa": "ها! نوجوون معمولی."
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shh! Sorry, William.",
    "translations": {
     "fa": "هیس! ببخشید ویلیام."
@@ -287,9 +287,9 @@
     {
      "keywords": [
       "footsteps",
-      "popcorn",
-      "there's",
       "getting",
+      "there's",
+      "popcorn",
       "stairs"
      ],
      "suggestion": "Ha — look. Footsteps on the stairs. \"I'm just getting some water.\" Sit down, Ryan. There's popcorn.",
@@ -303,7 +303,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

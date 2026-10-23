@@ -20,9 +20,9 @@
     {
      "keywords": [
       "missed",
+      "she",
       "did",
-      "say",
-      "she"
+      "say"
      ],
      "suggestion": "No, I missed it. What did she say?",
      "suggestionFa": "نه، از دستش دادم. چی گفت؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "weather",
-      "phone",
       "check",
+      "phone",
       "app"
      ],
      "suggestion": "I check the weather app on my phone.",
@@ -128,7 +128,7 @@
       "seventy",
       "chance",
       "check",
-      "rain"
+      "says"
      ],
      "suggestion": "Let me check my app. It says a seventy per cent chance of rain.",
      "suggestionFa": "بذار اپم را ببینم. میگه هفتاد درصد احتمال بارون.",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "weather",
+      "words",
       "there",
-      "other",
-      "words"
+      "other"
      ],
      "suggestion": "What other weather words are there?",
      "suggestionFa": "دیگه چه کلمه‌های هواشناسی هست؟",
@@ -192,7 +192,7 @@
      "keywords": [
       "showers",
       "write",
-      "down",
+      "i'll",
       "them"
      ],
      "suggestion": "Drizzle, showers, downpour. I'll write them down.",
@@ -251,8 +251,8 @@
      "keywords": [
       "evening",
       "going",
-      "clear",
-      "it'll"
+      "it'll",
+      "clear"
      ],
      "suggestion": "It'll clear up by the evening. Good — I'm going to the park.",
      "suggestionFa": "تا عصر صاف میشه. خوبه — دارم میرم پارک.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "seasons",
-      "frost",
       "again",
+      "frost",
       "then"
      ],
      "suggestion": "Rain, then sun, then frost. Four seasons again!",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "london",
-      "love",
       "snow",
-      "see"
+      "love",
+      "i'd"
      ],
      "suggestion": "I'd love to see snow in London.",
      "suggestionFa": "خیلی دوست دارم برف لندن را ببینم.",
@@ -406,8 +406,8 @@
     {
      "keywords": [
       "doris",
-      "here",
       "stay",
+      "here",
       "dry"
      ],
      "suggestion": "Here you are. Stay dry, Doris!",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, William!",
    "translations": {
     "fa": "آفرین ویلیام!"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "remember",
-      "needs",
       "every",
+      "needs",
       "hour",
       "have"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Every hour? Wow.",
    "translations": {
     "fa": "هر ساعت؟ وای."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! They've got buses on them!",
    "translations": {
     "fa": "وای! روش اتوبوس داره!"
@@ -130,9 +130,9 @@
      "keywords": [
       "bathroom",
       "potty's",
-      "quick",
       "loves",
-      "says"
+      "quick",
+      "have"
      ],
      "suggestion": "He loves them. Now, if he says \"wee\", we have to be quick! The potty's in the bathroom.",
      "suggestionFa": "عاشقشونه. حالا اگه گفت «جیش»، باید سریع باشیم! لگن تو حمومه.",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. I'll be quick.",
    "translations": {
     "fa": "باشه. سریع می‌جنبم."
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Quick! Let's go!",
    "translations": {
     "fa": "زود! بریم!"
@@ -205,10 +205,10 @@
     {
      "keywords": [
       "hands",
-      "phew",
       "need",
       "wash",
-      "our"
+      "phew",
+      "now"
      ],
      "suggestion": "Go, go, go! … Phew, he did it! Now we need to wash our hands.",
      "suggestionFa": "برو، برو، برو! … آخیش، انجامش داد! حالا باید دستامون را بشوریم.",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hooray! Well done, William!",
    "translations": {
     "fa": "هورا! آفرین ویلیام!"
@@ -233,9 +233,9 @@
       "sticker",
       "natural",
       "chart",
-      "five"
+      "gets"
      ],
-     "suggestion": "He gets a sticker for his chart. Five stickers and he gets a toy bus. You're a natural, Mehdi!",
+     "suggestion": "He gets a sticker for his chart. Five stickers and he gets a toy bus. You're a natural, {you}!",
      "suggestionFa": "یه برچسب برای جدولش می‌گیره. پنج برچسب، یه اتوبوس اسباب‌بازی. تو ذاتاً بلدی {you}!",
      "trustDelta": 5,
      "next": "r10",
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -40,7 +40,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi Sal! Ryan has a school photo on Friday.",
    "translations": {
     "fa": "سلام سال! رایان جمعه عکس مدرسه داره."
@@ -49,10 +49,10 @@
     {
      "keywords": [
       "please",
-      "short",
       "photo",
+      "short",
       "fade",
-      "like"
+      "skin"
      ],
      "suggestion": "Er… a skin fade, please. Like this photo. But… not too short.",
      "suggestionFa": "اِ… فید، لطفاً. مثل این عکس. ولی… خیلی کوتاه نه.",
@@ -65,7 +65,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He means short at the sides, longer on top.",
    "translations": {
     "fa": "منظورش بغل‌ها کوتاه، بالا بلندتره."
@@ -125,7 +125,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a number one?",
    "translations": {
     "fa": "شمارهٔ یک چیه؟"
@@ -168,7 +168,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Number two at the sides, then.",
    "translations": {
     "fa": "پس بغل‌ها شمارهٔ دو."
@@ -179,7 +179,7 @@
       "scissors",
       "length",
       "tidy",
-      "yeah",
+      "just",
       "keep"
      ],
      "suggestion": "Yeah, scissors on top. Just tidy it. Keep the length.",
@@ -193,7 +193,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, say \"please\"!",
    "translations": {
     "fa": "رایان، بگو «لطفاً»!"
@@ -253,7 +253,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One inch. OK, that's not much.",
    "translations": {
     "fa": "یه اینچ. باشه، زیاد نیست."
@@ -296,7 +296,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, are you happy with it?",
    "translations": {
     "fa": "رایان، ازش راضی هستی؟"
@@ -305,10 +305,10 @@
     {
      "keywords": [
       "front",
-      "could",
       "still",
+      "could",
       "long",
-      "take"
+      "more"
      ],
      "suggestion": "Could you take a bit more off the top? It's still a bit long at the front.",
      "suggestionFa": "میشه یه‌کم بیشتر از بالا کوتاه کنی؟ جلوش هنوز یه‌کم بلنده.",
@@ -321,7 +321,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It looks great, Ryan!",
    "translations": {
     "fa": "عالی شده رایان!"
@@ -364,7 +364,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, pay Sal, please.",
    "translations": {
     "fa": "رایان، پول سال را بده، لطفاً."
@@ -372,11 +372,11 @@
    "branches": [
     {
      "keywords": [
+      "that's",
       "change",
       "twenty",
-      "that's",
       "right",
-      "five"
+      "keep"
      ],
      "suggestion": "Mum gave me twenty-five. Keep the change, Sal. That's a tip. Right?",
      "suggestionFa": "مامان بیست و پنج داد. باقیش مال خودت سال. انعامه. درسته؟",
@@ -389,7 +389,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. A tip is nice, but not necessary.",
    "translations": {
     "fa": "آره. انعام خوبه، ولی لازم نیست."

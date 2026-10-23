@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a good idea!",
    "translations": {
     "fa": "فکر خوبیه!"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "favourite",
-      "what's",
-      "colour"
+      "colour",
+      "what's"
      ],
      "suggestion": "Yes! What's your favourite colour?",
      "suggestionFa": "آره! رنگ مورد علاقه‌ات چیه؟",
@@ -61,7 +61,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My favourite colour is green.",
    "translations": {
     "fa": "رنگ مورد علاقه‌ام سبزه."
@@ -118,7 +118,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Your bag is pink!",
    "translations": {
     "fa": "کیفت صورتیه!"
@@ -129,8 +129,8 @@
       "favourite",
       "what's",
       "animal",
-      "pink",
-      "love"
+      "love",
+      "pink"
      ],
      "suggestion": "I love pink! Now, what's your favourite animal?",
      "suggestionFa": "من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟",
@@ -143,7 +143,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love horses.",
    "translations": {
     "fa": "عاشق اسبم."
@@ -153,9 +153,9 @@
      "keywords": [
       "they're",
       "penguin",
-      "funny",
+      "white",
       "black",
-      "white"
+      "funny"
      ],
      "suggestion": "Mine is a penguin! They're black and white and very funny.",
      "suggestionFa": "مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان.",
@@ -168,7 +168,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Penguins are funny!",
    "translations": {
     "fa": "پنگوئن‌ها بامزه‌ان!"
@@ -223,7 +223,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My favourite food is rice.",
    "translations": {
     "fa": "غذای مورد علاقه‌ام برنجه."
@@ -233,8 +233,8 @@
      "keywords": [
       "sundays",
       "poster",
-      "makes",
       "write",
+      "makes",
       "nana"
      ],
      "suggestion": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
@@ -248,7 +248,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. R-I-C-E.",
    "translations": {
     "fa": "آره. ر-ا-ی-س."
@@ -259,7 +259,7 @@
       "persian",
       "pretty",
       "right",
-      "goes",
+      "left",
       "from"
      ],
      "suggestion": "Yes! Persian is so pretty. It goes from right to left!",
@@ -273,7 +273,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's right. You're very clever.",
    "translations": {
     "fa": "درسته. خیلی باهوشی."
@@ -281,11 +281,11 @@
    "branches": [
     {
      "keywords": [
-      "penguins",
       "finished",
+      "penguins",
       "purple",
       "poster",
-      "green"
+      "pizza"
      ],
      "suggestion": "Our poster is finished! Pink, purple, green, penguins and pizza. It's the best poster ever!",
      "suggestionFa": "پوسترمون تموم شد! صورتی، بنفش، سبز، پنگوئن و پیتزا. بهترین پوستر دنیاست!",
@@ -298,7 +298,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

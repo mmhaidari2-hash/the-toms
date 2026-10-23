@@ -57,7 +57,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could I have a bloomer and two sausage rolls, please?",
    "translations": {
     "fa": "می‌شه یه نون بلومر و دوتا سوسیس رول بدید، لطفاً؟"
@@ -68,8 +68,8 @@
       "butcher's",
       "hopeless",
       "sunday",
-      "lovely",
-      "please"
+      "please",
+      "lovely"
      ],
      "suggestion": "Lovely. Now, the butcher's — Tom wants a joint for Sunday lunch. Would you ask him, please? I'm hopeless at it.",
      "suggestionFa": "عالی. حالا قصابی — تام برای ناهار یکشنبه یه تکه گوشت کبابی می‌خواد. می‌شه لطفاً تو ازش بپرسی؟ من اصلاً بلد نیستم.",
@@ -82,7 +82,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Course — leave it to me.",
    "translations": {
     "fa": "حتماً — بسپرش به من."
@@ -130,7 +130,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could I get a beef joint for six, please?",
    "translations": {
     "fa": "می‌شه یه تکه گوشت گاو برای شش نفر بدید، لطفاً؟"
@@ -182,7 +182,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's all, thanks. Cheers!",
    "translations": {
     "fa": "همین بود، مرسی. ممنون!"
@@ -234,7 +234,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could I have a sourdough loaf, please?",
    "translations": {
     "fa": "می‌شه یه قرص نان ترش بدید، لطفاً؟"
@@ -290,7 +290,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two pasties, then — lovely.",
    "translations": {
     "fa": "پس دوتا پیراشکی — عالیه."
@@ -342,7 +342,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Card, please — can I tap?",
    "translations": {
     "fa": "کارت لطفاً — می‌تونم کارت بکشم (بی‌تماس)؟"
@@ -398,7 +398,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello! I'm staying with the Toms.",
    "translations": {
     "fa": "سلام! پیش خانوادهٔ تامز می‌مونم."
@@ -454,7 +454,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A chicken, please — enough for six.",
    "translations": {
     "fa": "یه مرغ لطفاً — به اندازهٔ شش نفر."
@@ -465,8 +465,8 @@
       "chatting",
       "butcher",
       "coffee",
-      "fancy",
-      "local"
+      "local",
+      "fancy"
      ],
      "suggestion": "Look at you, chatting to the butcher like a local! Fancy a coffee on the way back?",
      "suggestionFa": "ببین تو را، مثل محلی‌ها با قصاب گپ می‌زنی! سر راه برگشت یه قهوه می‌خوری؟",
@@ -479,7 +479,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love one — my treat!",
    "translations": {
     "fa": "خیلی دوست دارم — مهمون من!"
@@ -488,10 +488,10 @@
     {
      "keywords": [
       "chatting",
-      "butcher",
       "custard",
-      "treat",
-      "local"
+      "butcher",
+      "local",
+      "treat"
      ],
      "suggestion": "Look at you — chatting to the butcher like a local! I'll treat us to a custard tart.",
      "suggestionFa": "ببین تو رو — مثل یه محلی با قصاب گپ می‌زنی! یه تارت کاستارد مهمونت می‌کنم.",
@@ -504,7 +504,7 @@
   },
   "r19": {
    "id": "r19",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

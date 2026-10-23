@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I loved it!",
    "translations": {
     "fa": "آره، عاشقش شدم!"
@@ -108,7 +108,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We went to the park.",
    "translations": {
     "fa": "رفتیم پارک."
@@ -132,7 +132,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We saw lots of boats.",
    "translations": {
     "fa": "کلی قایق دیدیم."
@@ -141,10 +141,10 @@
     {
      "keywords": [
       "narrowboats",
-      "nicola",
       "wanted",
-      "behave",
-      "always"
+      "people",
+      "always",
+      "behave"
      ],
      "suggestion": "Narrowboats! People live on them. I always wanted one. Did Nicola behave?",
      "suggestionFa": "قایق‌های باریک! مردم توشون زندگی می‌کنن. همیشه یکی می‌خواستم. نیکولا خوب رفتار کرد؟",
@@ -157,7 +157,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She was very good.",
    "translations": {
     "fa": "خیلی خوب بود."
@@ -182,7 +182,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, we had a coffee at the café.",
    "translations": {
     "fa": "آره، تو کافه یه قهوه خوردیم."
@@ -234,7 +234,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, how was your day?",
    "translations": {
     "fa": "آره، روزت چطور بود؟"
@@ -245,8 +245,8 @@
       "everyone",
       "morning",
       "potato",
-      "drove",
-      "quiet"
+      "quiet",
+      "drove"
      ],
      "suggestion": "Quiet. I drove the 38 all morning. Then I made soup for everyone! Leek and potato.",
      "suggestionFa": "آروم. کل صبح ۳۸ را روندم. بعد برای همه سوپ درست کردم! تره‌فرنگی و سیب‌زمینی.",
@@ -259,7 +259,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! That smells good.",
    "translations": {
     "fa": "ممم! بوی خوبی میاد."

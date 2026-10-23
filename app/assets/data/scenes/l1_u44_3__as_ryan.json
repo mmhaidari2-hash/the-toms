@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "customer",
       "saturday",
+      "customer",
       "bakery",
-      "first",
-      "guess"
+      "guess",
+      "first"
      ],
      "suggestion": "Guess what? I've got a Saturday job! At the bakery. Will you be my first customer?",
      "suggestionFa": "حدس بزن چی شده؟ کار شنبه‌ها گرفتم! تو نونوایی. اولین مشتری‌م میشی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! I'll buy a loaf.",
    "translations": {
     "fa": "البته! یه نون می‌خرم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a five-pound note.",
    "translations": {
     "fa": "بفرما یه اسکناس پنج پوندی."
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "pounds",
       "change",
       "twenty",
-      "pounds",
       "here",
       "two"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you.",
    "translations": {
     "fa": "ممنون."
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Two doughnuts, please.",
    "translations": {
     "fa": "باشه. دو تا دونات، لطفاً."
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "coffee",
-      "ninety",
       "pounds",
-      "three",
-      "forty"
+      "ninety",
+      "forty",
+      "three"
      ],
      "suggestion": "A cake and a coffee. Three fifty plus two forty… five pounds ninety.",
      "suggestionFa": "یه کیک و یه قهوه. سه و پنجاه به اضافهٔ دو و چهل… پنج پوند و نود.",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a ten-pound note.",
    "translations": {
     "fa": "بفرما یه اسکناس ده پوندی."
@@ -178,9 +178,9 @@
    "branches": [
     {
      "keywords": [
+      "pounds",
       "change",
       "ninety",
-      "pounds",
       "seven",
       "eight"
      ],
@@ -195,7 +195,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Perfect! Four pounds ten.",
    "translations": {
     "fa": "عالی! چهار پوند و ده."
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Smile, Ryan!",
    "translations": {
     "fa": "ها! لبخند بزن رایان!"
@@ -275,7 +275,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

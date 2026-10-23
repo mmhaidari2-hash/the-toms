@@ -181,9 +181,10 @@
    "branches": [
     {
      "keywords": [
-      "sticky",
       "where's",
-      "course"
+      "sticky",
+      "course",
+      "tape"
      ],
      "suggestion": "Of course. Where's the sticky tape?",
      "suggestionFa": "حتماً. چسب کجاست؟",
@@ -251,8 +252,8 @@
     {
      "keywords": [
       "stairs",
-      "shall",
       "under",
+      "shall",
       "hide"
      ],
      "suggestion": "Shall I hide them under the stairs?",

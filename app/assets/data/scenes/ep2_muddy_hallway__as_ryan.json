@@ -57,7 +57,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea — Tom, take the brolly or you'll get soaked.",
    "translations": {
     "fa": "فکر خوبیه — تام، چتر رو بردار وگرنه خیس می‌شی."
@@ -117,7 +117,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's chilly — wrap up warm, Tom.",
    "translations": {
     "fa": "سرده — خودت رو گرم بپوشون، تام."
@@ -125,8 +125,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "where's",
+      "minutes",
       "like",
       "goes",
       "four"
@@ -142,7 +142,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's by the door, Ryan — grab it and go!",
    "translations": {
     "fa": "کنار دره رایان — برش دار و برو!"
@@ -194,7 +194,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure — off you go, you two. Have a good day!",
    "translations": {
     "fa": "حتماً — برید دیگه شما دوتا. روز خوبی داشته باشید!"
@@ -205,7 +205,7 @@
       "where's",
       "william",
       "nicked",
-      "other",
+      "again",
       "right"
      ],
      "suggestion": "Where's my other shoe? It was RIGHT here. Has William nicked it again?",
@@ -219,7 +219,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Check under the coat rack.",
    "translations": {
     "fa": "زیر جالباسی را نگاه کن."
@@ -244,7 +244,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wear your wellies instead!",
    "translations": {
     "fa": "به‌جاش چکمه‌های لاستیکی بپوش!"
@@ -296,7 +296,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Classic! Shall I grab the brolly too?",
    "translations": {
     "fa": "کلاسیک! چتر را هم بیارم؟"
@@ -352,7 +352,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can walk Ryan to the stop.",
    "translations": {
     "fa": "می‌تونم رایان را تا ایستگاه ببرم."
@@ -363,7 +363,7 @@
       "practice",
       "cheers",
       "school",
-      "after",
+      "footy",
       "don't"
      ],
      "suggestion": "Cheers! Mum, I'm off. Don't wait up — footy practice after school.",
@@ -377,7 +377,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't forget your lunch!",
    "translations": {
     "fa": "ناهارت را یادت نره!"
@@ -429,7 +429,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I wouldn't have it any other way.",
    "translations": {
     "fa": "هیچ‌جور دیگه‌ای نمی‌خوامش."

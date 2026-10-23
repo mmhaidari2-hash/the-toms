@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "collect",
       "postman",
-      "parcel",
       "missed",
+      "parcel",
       "sorry"
      ],
      "suggestion": "Nana got a card from the postman. \"Sorry we missed you.\" Can you collect her parcel?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Where do I go?",
    "translations": {
     "fa": "حتماً. کجا برم؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "street",
-      "says",
-      "card",
-      "post"
+      "office",
+      "need",
+      "high",
+      "says"
      ],
      "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
      "suggestionFa": "میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Whose ID? Mine or Nana's?",
    "translations": {
     "fa": "مدرک کی؟ مال من یا نانا؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "signed",
+      "nana",
       "back",
-      "take",
       "card",
-      "nana"
+      "take"
      ],
      "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
      "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She's signed it. Good.",
    "translations": {
     "fa": "امضاش کرده. خوبه."
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the card and my passport.",
    "translations": {
     "fa": "بفرمایید کارت و پاسپورتم."
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! I don't know what it is.",
    "translations": {
     "fa": "ها! نمی‌دونم چیه."
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's my signature.",
    "translations": {
     "fa": "اینم امضام."
@@ -300,7 +300,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I will!",
    "translations": {
     "fa": "حتماً!"
@@ -325,7 +325,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

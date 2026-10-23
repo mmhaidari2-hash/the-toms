@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "boxercise",
       "thursday",
       "doctor",
-      "right",
-      "shall"
+      "shall",
+      "class"
      ],
      "suggestion": "Right, you and me. A class. Doctor says I need to get fit. Shall we book spin on Thursday? Or boxercise?",
      "suggestionFa": "خب، تو و من. یه کلاس. دکتر میگه باید رو فرم بیام. پنج‌شنبه کلاس دوچرخه رزرو کنیم؟ یا بوکسرسایز؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's spin?",
    "translations": {
     "fa": "«اسپین» چیه؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "shouting",
       "someone",
-      "popular",
       "cycling",
+      "popular",
       "don't"
      ],
      "suggestion": "Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app…",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shouting? Why?",
    "translations": {
     "fa": "داد زدن؟ چرا؟"
@@ -74,7 +74,7 @@
       "boxercise",
       "motivate",
       "waiting",
-      "spaces",
+      "booked",
       "people"
      ],
      "suggestion": "To motivate you! Oh — spin is fully booked. \"Join waiting list?\" There are six people on it. Boxercise has two spaces.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's book boxercise, then. Two spaces!",
    "translations": {
     "fa": "پس بوکسرسایز رزرو کنیم. دو تا جا!"
@@ -99,8 +99,8 @@
       "boxercise",
       "energetic",
       "thursday",
-      "nearly",
-      "booked"
+      "booked",
+      "nearly"
      ],
      "suggestion": "Booked! Thursday, seven p.m. Boxercise with… Jade. Oh no. Jade is very… energetic. Last time I nearly died.",
      "suggestionFa": "رزرو شد! پنج‌شنبه، هفت عصر. بوکسرسایز با… جِید. ای وای. جِید خیلی… پرانرژیه. دفعهٔ قبل نزدیک بود بمیرم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Maybe we should do yoga instead.",
    "translations": {
     "fa": "ها! شاید به‌جاش یوگا بریم."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "rather",
-      "filmed",
-      "snored",
+      "boxing",
       "asleep",
-      "boxing"
+      "filmed",
+      "rather",
+      "snored"
      ],
      "suggestion": "Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it.",
      "suggestionFa": "یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You snored in yoga? That's brilliant!",
    "translations": {
     "fa": "تو یوگا خروپف کردی؟ عالیه!"
@@ -148,8 +148,8 @@
      "keywords": [
       "leslie's",
       "forever",
-      "dinner",
       "before",
+      "dinner",
       "gloves"
      ],
      "suggestion": "It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why no big dinner?",
    "translations": {
     "fa": "چرا شام سنگین نه؟"
@@ -174,8 +174,8 @@
       "boxercise",
       "jumping",
       "because",
-      "before",
-      "charge"
+      "midday",
+      "before"
      ],
      "suggestion": "Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No.",
      "suggestionFa": "قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Got it. No curry before class!",
    "translations": {
     "fa": "فهمیدم. قبل از کلاس کاری نه!"
@@ -199,7 +199,7 @@
       "thursday",
       "survive",
       "leslie",
-      "seven",
+      "don't",
       "can't"
      ],
      "suggestion": "Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

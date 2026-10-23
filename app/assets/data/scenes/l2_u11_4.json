@@ -68,9 +68,9 @@
     {
      "keywords": [
       "nearly",
-      "s",
-      "e",
-      "b"
+      "b",
+      "c",
+      "s"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
      "suggestionFa": "تقریباً! بی-ای-سی-ای-یو-اس-ای.",
@@ -119,10 +119,10 @@
    "branches": [
     {
      "keywords": [
-      "letters",
       "because",
-      "clever",
-      "that's"
+      "letters",
+      "that's",
+      "clever"
      ],
      "suggestion": "That's clever! The first letters spell \"because\".",
      "suggestionFa": "باهوشانه‌ست! حرف اول‌ها «because» میشه.",
@@ -178,8 +178,8 @@
      "keywords": [
       "r",
       "d",
-      "n",
-      "f"
+      "f",
+      "n"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
      "suggestionFa": "آره. اف-آر-آی-ای-ان-دی.",
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
-      "count",
       "seven",
       "start",
+      "count",
       "five"
      ],
      "suggestion": "Start at seven and count up five.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "nicola",
+      "that's",
       "lovely",
       "aw"
      ],
@@ -347,8 +347,8 @@
      "keywords": [
       "forget",
       "don't",
-      "full",
-      "stop"
+      "stop",
+      "full"
      ],
      "suggestion": "Don't forget the full stop!",
      "suggestionFa": "نقطهٔ آخر را فراموش نکن!",
@@ -384,8 +384,8 @@
      "keywords": [
       "well",
       "done",
-      "ask",
-      "mum"
+      "mum",
+      "ask"
      ],
      "suggestion": "Ask your mum. Well done!",
      "suggestionFa": "از مامانت بپرس. آفرین!",

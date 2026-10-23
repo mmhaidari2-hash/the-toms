@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,7 +24,7 @@
       "sitting",
       "nicola",
       "school",
-      "today",
+      "quiet",
       "she's"
      ],
      "suggestion": "Nicola came home from school very quiet today. She's sitting on the sofa. Can you talk to her?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Hi, Nicola. Are you OK?",
    "translations": {
     "fa": "البته. سلام نیکولا. خوبی؟"
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh, I'm sorry. That's hard.",
    "translations": {
     "fa": "آه، متأسفم. سخته."
@@ -150,7 +150,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's OK to feel angry.",
    "translations": {
     "fa": "عصبانی بودن اشکال نداره."
@@ -207,7 +207,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Because my family is far away.",
    "translations": {
     "fa": "چون خانواده‌ام خیلی دورن."
@@ -262,7 +262,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Nicola. That makes me happy.",
    "translations": {
     "fa": "ممنون نیکولا. این خوشحالم می‌کنه."
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "together",
       "tomorrow",
+      "together",
       "wanted",
       "maybe",
       "today"
@@ -287,7 +287,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You can all play together!",
    "translations": {
     "fa": "همه‌تون می‌تونید با هم بازی کنید!"
@@ -340,7 +340,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a great idea!",
    "translations": {
     "fa": "فکر عالیه!"
@@ -395,7 +395,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! A big hug!",
    "translations": {
     "fa": "البته! یه بغل بزرگ!"
@@ -407,7 +407,7 @@
       "everyone",
       "thank",
       "think",
-      "good"
+      "love"
      ],
      "suggestion": "Ahh. Thank you, love. You're very good at this. Hot chocolate for everyone, I think!",
      "suggestionFa": "آه. ممنون عزیزم. تو این کار خیلی خوبی. فکر کنم هات چاکلت برای همه!",
@@ -420,7 +420,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shoulders",
-      "touch",
-      "knees",
       "let's",
-      "sing"
+      "knees",
+      "touch",
+      "head"
      ],
      "suggestion": "Let's sing! Head, shoulders, knees and toes! Touch your head!",
      "suggestionFa": "بیا آواز بخونیم! سر، شونه، زانو و انگشت پا! سرت را لمس کن!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm touching my head!",
    "translations": {
     "fa": "دارم سرم را لمس می‌کنم!"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nose, ears… oops, that's my mouth!",
    "translations": {
     "fa": "دماغ، گوش… اوه، این دهنمه!"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "fingers",
-      "i've",
-      "have",
       "many",
+      "have",
+      "i've",
       "got"
      ],
      "suggestion": "Ha ha! How many fingers have you got? I've got ten!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got ten fingers too.",
    "translations": {
     "fa": "منم ده‌تا انگشت دارم."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's William's tummy?",
    "translations": {
     "fa": "شکم ویلیام کجاست؟"
@@ -174,7 +174,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's laughing so much!",
    "translations": {
     "fa": "خیلی داره می‌خنده!"
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me see. Where does it hurt?",
    "translations": {
     "fa": "بذار ببینم. کجات درد می‌کنه؟"
@@ -211,7 +211,7 @@
       "plaster",
       "have",
       "here",
-      "red"
+      "bit"
      ],
      "suggestion": "Here. It's a bit red. Can I have a plaster with a dinosaur on it?",
      "suggestionFa": "اینجا. یه کم قرمزه. می‌شه یه چسب زخم دایناسوری داشته باشم؟",
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a dinosaur plaster. Better?",
    "translations": {
     "fa": "بفرما یه چسب زخم دایناسوری. بهتره؟"
@@ -236,7 +236,7 @@
       "plasters",
       "dinosaur",
       "better",
-      "magic"
+      "again"
      ],
      "suggestion": "All better! Dinosaur plasters are magic. Again! Head, shoulders, knees and toes!",
      "suggestionFa": "خوب شد! چسب‌های دایناسوری جادویی‌ان. دوباره! سر، شونه، زانو و انگشت پا!",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

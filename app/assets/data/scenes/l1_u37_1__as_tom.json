@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "typical",
       "raining",
       "summer",
-      "third"
+      "again"
      ],
      "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
      "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it always like this?",
    "translations": {
     "fa": "همیشه همین‌طوره؟"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "afternoon",
       "sometimes",
+      "afternoon",
       "weather",
-      "tehran",
+      "what's",
       "always"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's hot and dry in summer.",
    "translations": {
     "fa": "تابستون گرم و خشکه."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "check",
-      "lucky",
-      "going",
       "phone",
+      "lucky",
+      "check",
+      "going",
       "stop"
      ],
      "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does the forecast say?",
    "translations": {
     "fa": "پیش‌بینی چی میگه؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "showers",
-      "heavy",
       "means",
-      "lots",
-      "rain"
+      "heavy",
+      "rain",
+      "then"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
      "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Showers? Like in the bathroom?",
    "translations": {
     "fa": "دوش؟ مثل حموم؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Drive carefully, Tom.",
    "translations": {
     "fa": "با احتیاط رانندگی کن تام."
@@ -148,9 +148,9 @@
      "keywords": [
       "everyone's",
       "dripping",
-      "weather",
       "british",
-      "lovely"
+      "weather",
+      "that's"
      ],
      "suggestion": "Loads more! Everyone's dripping. And they all say \"Lovely weather!\" That's British humour.",
      "suggestionFa": "خیلی بیشتر! همه آب ازشون می‌چکه. و همه میگن «چه هوای خوبی!» این شوخ‌طبعی بریتانیاییه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Lovely weather!\" But it isn't!",
    "translations": {
     "fa": "«چه هوای خوبی!» ولی نیست!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Lovely weather, Leslie!\"",
    "translations": {
     "fa": "«چه هوای خوبی لزلی!»"
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "umbrella",
-      "where's",
       "british",
+      "where's",
       "perfect",
       "ryan's"
      ],
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

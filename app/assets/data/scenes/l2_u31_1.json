@@ -22,7 +22,7 @@
       "patients",
       "taking",
       "hello",
-      "new"
+      "nhs"
      ],
      "suggestion": "Hello. Are you taking on new NHS patients?",
      "suggestionFa": "سلام. بیمار جدید NHS می‌پذیرید؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "surgery",
-      "okafor",
       "street",
+      "okafor",
       "mare"
      ],
      "suggestion": "My GP is Dr Okafor, at Mare Street Surgery.",
@@ -196,8 +196,8 @@
      "keywords": [
       "thought",
       "free",
-      "was",
-      "nhs"
+      "nhs",
+      "was"
      ],
      "suggestion": "Not free? I thought the NHS was free.",
      "suggestionFa": "رایگان نیست؟ فکر می‌کردم NHS رایگانه.",
@@ -301,7 +301,7 @@
       "william",
       "nicola",
       "then",
-      "come"
+      "good"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",
@@ -313,8 +313,8 @@
      "keywords": [
       "working",
       "band",
-      "now",
-      "pay"
+      "pay",
+      "now"
      ],
      "suggestion": "I'm working now. So I pay Band 1?",
      "suggestionFa": "الان کار می‌کنم. پس ردهٔ ۱ را می‌پردازم؟",

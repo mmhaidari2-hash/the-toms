@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What would you like?",
    "translations": {
     "fa": "حتماً. چی میل داری؟"
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "please",
+      "orange",
       "squash",
       "water"
      ],
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's squash?",
    "translations": {
     "fa": "شربت چیه؟"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Just a little.",
    "translations": {
     "fa": "آره، لطفاً. فقط یه کم."
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "drinks",
-      "bottle",
       "fridge",
+      "bottle",
       "cross",
       "mummy"
      ],
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! Not from the bottle!",
    "translations": {
     "fa": "ها ها! نه از بطری!"
@@ -147,9 +147,9 @@
      "keywords": [
       "green",
       "which",
-      "blue",
       "milk",
-      "want"
+      "want",
+      "blue"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do the colours mean?",
    "translations": {
     "fa": "رنگ‌ها یعنی چی؟"
@@ -170,10 +170,10 @@
    "branches": [
     {
      "keywords": [
+      "daddy",
       "green",
       "likes",
-      "daddy",
-      "blue",
+      "full",
       "half"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll have the green one.",
    "translations": {
     "fa": "من سبزه را برمی‌دارم."
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "that's",
+      "cheers",
       "grown",
       "ups",
       "say"
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheers, Nicola!",
    "translations": {
     "fa": "به سلامتی نیکولا!"
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

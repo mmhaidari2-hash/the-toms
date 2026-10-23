@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "sunflower",
       "planting",
-      "school",
       "garden",
+      "school",
       "seeds"
      ],
      "suggestion": "Look! My school gave me sunflower seeds. We're planting them in the park garden. Can you help me?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! How many seeds have you got?",
    "translations": {
     "fa": "البته! چند تا دونه داری؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "they're",
-      "stripy",
       "little",
+      "stripy",
       "mummy",
       "seeds"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Dig a little hole. How deep?",
    "translations": {
     "fa": "یه سوراخ کوچیک بکن. چقدر عمیق؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "finger",
       "worry",
+      "won't",
       "don't",
-      "hello",
-      "won't"
+      "hello"
      ],
      "suggestion": "As deep as my finger. Look — a worm! Hello, worm! Don't worry, we won't hurt you.",
      "suggestionFa": "به عمق انگشتم. ببین — یه کرم! سلام کرم! نگران نباش، اذیتت نمی‌کنیم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Worms are good for the soil.",
    "translations": {
     "fa": "کرم‌ها برای خاک خوبن."
@@ -98,9 +98,9 @@
      "keywords": [
       "pointy",
       "cover",
-      "seed",
+      "down",
       "then",
-      "soil"
+      "seed"
      ],
      "suggestion": "Now put the seed in. Pointy end down. Then cover it with soil. Pat, pat!",
      "suggestionFa": "حالا دونه را بذار توش. سر نوک‌تیز پایین. بعد با خاک بپوشونش. آروم بزن، آروم بزن!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pointy end down. Pat, pat. Done!",
    "translations": {
     "fa": "سر نوک‌تیز پایین. آروم بزن. تموم شد!"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "watering",
-      "holes",
-      "seeds",
       "water",
-      "heavy"
+      "holes",
+      "every",
+      "seeds"
      ],
      "suggestion": "Five seeds, five holes! Now water. Water it every day. Can you hold the watering can? It's heavy.",
      "suggestionFa": "پنج تا دونه، پنج تا سوراخ! حالا آب. هر روز آبش بده. میشه آب‌پاش را نگه داری؟ سنگینه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here. Not too much water!",
    "translations": {
     "fa": "بفرما. نه خیلی آب زیاد!"
@@ -148,8 +148,8 @@
      "keywords": [
       "tomorrow",
       "flowers",
-      "silly",
       "rains",
+      "silly",
       "when"
      ],
      "suggestion": "When it rains, the sky does it! Silly. How long will it take? I want flowers tomorrow.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tomorrow? No! About ten days for a little shoot.",
    "translations": {
     "fa": "فردا؟ نه! حدود ده روز برای یه جوونهٔ کوچیک."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "forever",
+      "that's",
       "months",
       "taller",
-      "that's",
-      "three"
+      "daddy"
      ],
      "suggestion": "Three MONTHS? That's forever! Will it be taller than Daddy?",
      "suggestionFa": "سه ماه؟ این یعنی تا ابد! از بابایی بلندتر میشه؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe! Some sunflowers grow two metres tall.",
    "translations": {
     "fa": "شاید! بعضی آفتابگردون‌ها دو متر بلند میشن."
@@ -198,9 +198,9 @@
      "keywords": [
       "sunflower",
       "against",
-      "every",
       "mia's",
-      "mine"
+      "every",
+      "will"
      ],
      "suggestion": "Yes! A sunflower race! Mine against Mia's. Mine will win. I'll sing to it every day.",
      "suggestionFa": "آره! مسابقهٔ آفتابگردون! مال من در برابر مال میا. مال من می‌بره. هر روز براش آواز می‌خونم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "many",
-      "need",
       "eggs",
+      "need",
+      "many",
       "how"
      ],
      "suggestion": "How many eggs do we need?",
@@ -242,8 +242,8 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "pints",
+      "green",
       "then",
       "four"
      ],
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "aren't",
-      "green",
       "there",
+      "green",
       "ones"
      ],
      "suggestion": "There aren't any red ones. Only green.",
@@ -313,9 +313,9 @@
     {
      "keywords": [
       "shall",
-      "many",
       "here",
-      "how"
+      "many",
+      "get"
      ],
      "suggestion": "Yes, here. How many shall I get?",
      "suggestionFa": "آره، اینجا. چند تا بردارم؟",
@@ -360,8 +360,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "let's",
+      "great",
       "till",
       "go"
      ],
@@ -374,8 +374,8 @@
     {
      "keywords": [
       "what's",
-      "hand",
       "wait",
+      "hand",
       "ryan"
      ],
      "suggestion": "Wait, Ryan. What's in your hand?",
@@ -413,7 +413,7 @@
       "share",
       "only",
       "but",
-      "ok"
+      "if"
      ],
      "suggestion": "OK, but only if you share.",
      "suggestionFa": "باشه، ولی فقط اگه شریکی بخوریم.",

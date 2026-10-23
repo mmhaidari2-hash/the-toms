@@ -1,0 +1,274 @@
+{
+ "id": "est_2_2",
+ "characterId": "agent",
+ "title": "References and a guarantor",
+ "titleFa": "معرف و ضامن",
+ "setting": "Before you move in · Level 0",
+ "settingFa": "پیش از اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Now for references. We'll contact your employer and your current landlord, if you have one.",
+   "translations": {
+    "fa": "حالا نوبت معرف‌هاست. با کارفرما و صاحبخونهٔ فعلی‌تون، اگه دارید، تماس می‌گیریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reference",
+      "manager",
+      "happy",
+      "give"
+     ],
+     "suggestion": "My manager is happy to give a reference.",
+     "suggestionFa": "مدیرم با کمال میل معرفی می‌کنه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "months",
+      "only",
+      "been"
+     ],
+     "suggestion": "I've only been in the UK for six months. Is that a problem?",
+     "suggestionFa": "فقط شش ماهه تو بریتانیام. مشکلیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reference",
+     "fa": "معرف ؛ معرفی‌نامه"
+    },
+    {
+     "word": "employer",
+     "fa": "کارفرما"
+    },
+    {
+     "word": "current landlord",
+     "fa": "صاحبخانهٔ فعلی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Not at all. We also do an affordability check. Many landlords look for a yearly income of about thirty times the monthly rent.",
+   "translations": {
+    "fa": "اصلاً. یه بررسی توان پرداخت هم انجام می‌دیم. خیلی از صاحبخونه‌ها دنبال درآمد سالانهٔ حدود سی برابر اجارهٔ ماهانه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "explain",
+      "thirty",
+      "times"
+     ],
+     "suggestion": "Thirty times? Can you explain that?",
+     "suggestionFa": "سی برابر؟ می‌شه توضیح بدید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "sure",
+      "earn"
+     ],
+     "suggestion": "I'm not sure I earn enough. What can I do?",
+     "suggestionFa": "مطمئن نیستم به اندازهٔ کافی درآمد داشته باشم. چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "affordability",
+     "fa": "توان پرداخت"
+    },
+    {
+     "word": "yearly income",
+     "fa": "درآمد سالانه"
+    },
+    {
+     "word": "earn",
+     "fa": "درآمد داشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "The \"30 times the rent\" figure is a common rule of thumb, not the law. £1,200 × 30 = £36,000 a year.",
+    "fa": "«سی برابر اجاره» یک قاعدهٔ رایج است نه قانون."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "For twelve hundred a month, that's thirty-six thousand a year. If it's less, a guarantor can help.",
+   "translations": {
+    "fa": "برای ماهی هزار و دویست، می‌شه سی و شش هزار در سال. اگه کمتر باشه، یه ضامن می‌تونه کمک کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly"
+     ],
+     "suggestion": "What exactly is a guarantor?",
+     "suggestionFa": "ضامن دقیقاً یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cousin",
+      "could"
+     ],
+     "suggestion": "Could my cousin be my guarantor?",
+     "suggestionFa": "پسرخاله‌م می‌تونه ضامنم باشه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guarantor",
+     "fa": "ضامن"
+    },
+    {
+     "word": "less",
+     "fa": "کمتر"
+    },
+    {
+     "word": "cousin",
+     "fa": "پسرخاله/دخترخاله ؛ عموزاده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "A guarantor is someone who agrees to pay the rent if you can't. Usually they live in the UK and earn enough themselves.",
+   "translations": {
+    "fa": "ضامن کسیه که قبول می‌کنه اگه شما نتونستید، اجاره را بده. معمولاً تو بریتانیا زندگی می‌کنه و خودش درآمد کافی داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cousin",
+      "works",
+      "would",
+      "leeds"
+     ],
+     "suggestion": "My cousin works full-time in Leeds. Would that be OK?",
+     "suggestionFa": "پسرخاله‌م تو لیدز تمام‌وقت کار می‌کنه. اشکالی نداره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "universal",
+      "landlord",
+      "because",
+      "credit"
+     ],
+     "suggestion": "I get Universal Credit. Can the landlord say no because of that?",
+     "suggestionFa": "من یونیورسال کردیت می‌گیرم. صاحبخونه می‌تونه به خاطر این رد کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "agrees to pay",
+     "fa": "قبول می‌کند بپردازد"
+    },
+    {
+     "word": "full-time",
+     "fa": "تمام‌وقت"
+    },
+    {
+     "word": "Universal Credit",
+     "fa": "یونیورسال کردیت (کمک‌هزینهٔ دولتی)"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "That should be fine. And no — since May 2026, landlords can't refuse you just because you get benefits or have children.",
+   "translations": {
+    "fa": "باید مشکلی نباشه. و نه — از مه ۲۰۲۶ صاحبخونه‌ها نمی‌تونن فقط چون کمک‌هزینه می‌گیرید یا بچه دارید ردتون کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "know",
+      "good"
+     ],
+     "suggestion": "That's good to know. Thank you.",
+     "suggestionFa": "خوب شد فهمیدم. ممنون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "from",
+      "need",
+      "now"
+     ],
+     "suggestion": "Great. What do you need from me now?",
+     "suggestionFa": "عالیه. الان چی از من لازم دارید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "refuse",
+     "fa": "رد کردن"
+    },
+    {
+     "word": "benefits",
+     "fa": "کمک‌هزینه‌های دولتی"
+    },
+    {
+     "word": "good to know",
+     "fa": "خوب است بدانم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"No DSS\" adverts are now illegal in England. Landlords can still check you can afford the rent.",
+    "fa": "آگهی‌های «بدون کمک‌هزینه» اکنون در انگلستان غیرقانونی است؛ اما بررسی توان پرداخت مجاز است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "agent",
+   "text": "Just your manager's email and the share code. Then I'll draw up the tenancy agreement.",
+   "translations": {
+    "fa": "فقط ایمیل مدیرتون و کد اشتراک. بعد قرارداد اجاره را آماده می‌کنم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "slippers",
-      "bother",
       "fluffy",
+      "bother",
       "ones",
-      "pink"
+      "have"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
      "suggestionFa": "ای بابا! دمپایی‌هام را دیدی عزیزم؟ صورتی پشمالوها.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I haven't. Where did you leave them?",
    "translations": {
     "fa": "نه، ندیدم. کجا گذاشتیدشون؟"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "remember",
       "terrible",
+      "remember",
       "memory",
-      "under",
+      "don't",
       "these"
      ],
      "suggestion": "I don't remember! My memory is terrible these days. Are they under the bath?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, they aren't under the bath.",
    "translations": {
     "fa": "نه، زیر وان نیستن."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "slipper",
       "where's",
-      "other",
+      "slipper",
       "can't",
+      "other",
       "walk"
      ],
      "suggestion": "One! Where's the other one? I can't walk with one slipper!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it in your bedroom?",
    "translations": {
     "fa": "تو اتاق خوابتونه؟"
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "William! You have Nana's slipper!",
    "translations": {
     "fa": "ویلیام! دمپایی نانا دست توئه!"
@@ -165,7 +165,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, he's chewing it!",
    "translations": {
     "fa": "آره، داره می‌جوئدش!"
@@ -176,7 +176,7 @@
       "glasses",
       "thank",
       "never",
-      "mind",
+      "have",
       "seen"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
@@ -190,7 +190,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're on your head, Maggie!",
    "translations": {
     "fa": "رو سرتونه مگی!"
@@ -198,11 +198,11 @@
    "branches": [
     {
      "keywords": [
-      "helpers",
       "without",
+      "helpers",
       "william",
       "little",
-      "would"
+      "silly"
      ],
      "suggestion": "On my head! Oh, silly me. What would I do without you? You and William, my little helpers!",
      "suggestionFa": "رو سرم! آه، چه حواس‌پرتی. بدون تو چی کار می‌کردم؟ تو و ویلیام، کمک‌کارهای کوچولوی من!",
@@ -215,7 +215,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

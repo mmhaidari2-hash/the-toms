@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -24,7 +24,7 @@
       "william's",
       "running",
       "hello",
-      "pass",
+      "duck",
       "bath"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the duck.",
    "translations": {
     "fa": "بفرما اردک."
@@ -49,8 +49,8 @@
       "question",
       "always",
       "check",
-      "right",
-      "elbow"
+      "elbow",
+      "right"
      ],
      "suggestion": "Good question. I always check with my elbow. Like this. It's just right.",
      "suggestionFa": "سؤال خوبیه. من همیشه با آرنجم امتحان می‌کنم. این‌جوری. درست اندازه‌ست.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "With your elbow? Why?",
    "translations": {
     "fa": "با آرنجتون؟ چرا؟"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's splashing!",
    "translations": {
     "fa": "داره آب می‌پاشه!"
@@ -127,8 +127,8 @@
       "splashing",
       "everyone",
       "shampoo",
-      "bottle",
-      "yellow"
+      "yellow",
+      "bottle"
      ],
      "suggestion": "Ha! He's splashing everyone. Can you hand me the baby shampoo? The yellow bottle.",
      "suggestionFa": "ها! داره رو همه آب می‌پاشه. شامپوی بچه را میدی؟ بطری زرده.",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This one?",
    "translations": {
     "fa": "این یکی؟"
@@ -153,7 +153,7 @@
       "washing",
       "thank",
       "hates",
-      "hair"
+      "part"
      ],
      "suggestion": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
      "suggestionFa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!",
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twinkle, twinkle, little star…",
    "translations": {
     "fa": "چشمک بزن، چشمک بزن، ستارهٔ کوچولو…"
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He loves that song.",
    "translations": {
     "fa": "عاشق این آهنگه."
@@ -229,7 +229,7 @@
       "getting",
       "careful",
       "towel",
-      "done"
+      "star"
      ],
      "suggestion": "You're a star. All done! Now I'm getting the towel. Can you hold him? Careful, he's slippery!",
      "suggestionFa": "تو ستاره‌ای. تموم شد! حالا دارم حوله را میارم. می‌تونی نگهش داری؟ مواظب باش، لیزه!",
@@ -242,7 +242,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm holding him.",
    "translations": {
     "fa": "گرفتمش."
@@ -267,7 +267,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,11 +23,11 @@
      "keywords": [
       "question",
       "nicola's",
-      "colours",
       "reading",
+      "colours",
       "yellow"
      ],
-     "suggestion": "Mehdi, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
+     "suggestion": "{you}, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
      "suggestionFa": "{you}، یه سؤال سریع. کتاب خوندن. نیکولا الان رو «زرد»ه. زرد یعنی چی؟ خوبه؟ من فقط رنگ اتوبوس‌ها را بلدم!",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think the colours are reading levels.",
    "translations": {
     "fa": "فکر کنم رنگ‌ها سطح خوندنن."
@@ -50,7 +50,7 @@
       "readers",
       "levels",
       "yellow",
-      "right"
+      "she's"
      ],
      "suggestion": "Right, levels! Pink, then red, then yellow. So she's moved up two levels this year. Yellow's for good readers!",
      "suggestionFa": "آهان، سطح! صورتی، بعد قرمز، بعد زرد. پس امسال دو سطح بالا رفته. زرد برای خواننده‌های خوبه!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two levels! Well done, Nicola!",
    "translations": {
     "fa": "دو سطح! آفرین نیکولا!"
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tricky words? Show me, Nicola!",
    "translations": {
     "fa": "کلمه‌های سخت؟ نشونم بده نیکولا!"
@@ -131,8 +131,8 @@
       "english",
       "phonics",
       "weird",
-      "sound",
-      "isn't"
+      "isn't",
+      "sound"
      ],
      "suggestion": "Phonics! She says each sound — \"c-a-t\", cat. But \"said\" isn't \"s-a-i-d\". English is weird. Even I know that.",
      "suggestionFa": "فونیکس! هر صدا را میگه — «ک-ا-ت»، کت. ولی «سِد» «س-ا-ی-د» نیست. انگلیسی عجیبه. اینو حتی منم می‌دونم.",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "English spelling is very strange!",
    "translations": {
     "fa": "املای انگلیسی خیلی عجیبه!"
@@ -200,7 +200,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten minutes every night. That's easy!",
    "translations": {
     "fa": "هر شب ده دقیقه. آسونه!"
@@ -211,8 +211,8 @@
       "brilliant",
       "comment",
       "little",
-      "night",
-      "wrote"
+      "write",
+      "night"
      ],
      "suggestion": "It's a little book. We write what she read, and one comment. Last week I wrote \"Brilliant!\" every night. Too lazy?",
      "suggestionFa": "یه دفترچهٔ کوچیکه. می‌نویسیم چی خونده، و یه نظر. هفتهٔ پیش هر شب نوشتم «عالی!». زیادی تنبلیه؟",
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe write something different each night!",
    "translations": {
     "fa": "شاید هر شب یه چیز متفاوت بنویس!"
@@ -233,11 +233,11 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
-      "bedtime",
       "herself",
-      "'said'",
-      "nicola"
+      "bedtime",
+      "tonight",
+      "nicola",
+      "nearly"
      ],
      "suggestion": "Good idea. Tonight: \"Nicola read 'said' all by herself. Dad nearly cried.\" True, that. Right — bedtime story, then sign!",
      "suggestionFa": "فکر خوبیه. امشب: «نیکولا خودش تنهایی «سِد» را خوند. بابا نزدیک بود گریه کنه.» راستش همینه. خب — قصهٔ شب، بعد امضا!",
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I listen to her read tonight?",
    "translations": {
     "fa": "می‌تونم امشب گوش بدم بخونه؟"
@@ -273,7 +273,7 @@
   "r11": {
    "id": "r11",
    "speaker": "nicola",
-   "text": "Yes! Mehdi can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
+   "text": "Yes! {you} can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
    "translations": {
     "fa": "آره! {you} می‌تونه گوش بده. «اتوبوس بزرگ» را می‌خونم. یه اتوبوس قرمز توشه!"
    },

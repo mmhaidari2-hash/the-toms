@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "william",
       "water",
-      "bath",
       "time",
+      "bath",
       "hot"
      ],
      "suggestion": "Bath time, William! Is the water too hot?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's nice and warm.",
    "translations": {
     "fa": "نه، خوب و ولرم است."
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bubbles, please!",
    "translations": {
     "fa": "حباب، لطفاً!"
@@ -73,8 +73,8 @@
       "splashes",
       "william",
       "while",
-      "back",
-      "home"
+      "nana",
+      "have"
      ],
      "suggestion": "Now, while William splashes — did you have a nana back home?",
      "suggestionFa": "حالا که ویلیام آب‌بازی می‌کنه — تو هم مادربزرگ داشتی؟",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, she made the best bread.",
    "translations": {
     "fa": "بله، بهترین نان را می‌پخت."
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "flannel",
-      "would",
       "bless",
+      "would",
       "pass",
       "blue"
      ],
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are, the blue flannel.",
    "translations": {
     "fa": "بفرمایید، حولهٔ آبی."
@@ -122,9 +122,9 @@
      "keywords": [
       "distract",
       "washed",
-      "songs",
       "hates",
-      "know"
+      "songs",
+      "sing"
      ],
      "suggestion": "He hates his hair washed. We sing to distract him. Know any songs?",
      "suggestionFa": "از شستن موهاش متنفره. براش آواز می‌خونیم که حواسش پرت شه. آهنگی بلدی؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's sing 'Row, row, row your boat'!",
    "translations": {
     "fa": "بیا «پارو بزن قایقت را» بخونیم!"
@@ -148,8 +148,8 @@
       "giggling",
       "babies",
       "yours",
-      "sing",
-      "look"
+      "tune",
+      "love"
      ],
      "suggestion": "Sing him one of yours — babies love any tune. Oh look, he's giggling!",
      "suggestionFa": "یکی از آهنگ‌های خودت را بخون — بچه‌ها هر آهنگی را دوست دارن. ببین، داره می‌خنده!",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's so cute when he giggles!",
    "translations": {
     "fa": "وقتی می‌خنده خیلی بامزه‌ست!"
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "little",
-      "right",
       "towel",
+      "right",
       "hold",
-      "come"
+      "dear"
      ],
      "suggestion": "Right, out you come, little one. Can you hold the towel open for me, dear?",
      "suggestionFa": "خب، بیا بیرون کوچولو. می‌تونی حوله را برام باز نگه داری عزیزم؟",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course — ready when you are.",
    "translations": {
     "fa": "حتماً — هر وقت آماده‌ای."
@@ -197,9 +197,9 @@
      "keywords": [
       "natural",
       "lovely",
-      "know",
       "snug",
-      "bug"
+      "know",
+      "rug"
      ],
      "suggestion": "Lovely. Snug as a bug in a rug. You're a natural, you know.",
      "suggestionFa": "عالی. گرم و نرم مثل حشره توی فرش. می‌دونی، تو ذاتاً بلدی.",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Maggie — that means a lot.",
    "translations": {
     "fa": "ممنون ویدا — خیلی برام ارزش داره."
@@ -223,8 +223,8 @@
       "pyjamas",
       "lovely",
       "night",
-      "teeth",
-      "towel"
+      "towel",
+      "teeth"
      ],
      "suggestion": "Lovely. Now, towel, pyjamas and teeth. Night night!",
      "suggestionFa": "عالی. حالا حوله، پیژامه و مسواک. شب بخیر!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

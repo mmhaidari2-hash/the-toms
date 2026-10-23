@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much pocket money does she get?",
    "translations": {
     "fa": "چقدر پول توجیبی می‌گیره؟"
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do you want, Nicola?",
    "translations": {
     "fa": "چی می‌خوای نیکولا؟"
@@ -112,10 +112,10 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "unicorn",
-      "sweets",
+      "fifteen",
       "pounds",
+      "sweets",
       "today"
      ],
      "suggestion": "A big unicorn from the toy shop! It's fifteen pounds. And sweets. Today!",
@@ -129,7 +129,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then you need to save up.",
    "translations": {
     "fa": "پس باید پس‌انداز کنی."
@@ -181,7 +181,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fifteen divided by two…",
    "translations": {
     "fa": "پونزده تقسیم بر دو…"
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "forever",
-      "sweets",
       "that's",
+      "sweets",
       "weeks",
       "eight"
      ],
@@ -206,7 +206,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You don't need sweets. You want sweets!",
    "translations": {
     "fa": "آبنبات لازم نداری. آبنبات می‌خوای!"
@@ -258,7 +258,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a fair idea.",
    "translations": {
     "fa": "فکر منصفانه‌ایه."
@@ -267,12 +267,12 @@
     {
      "keywords": [
       "weeks",
-      "money",
       "extra",
+      "money",
       "jobs",
       "help"
      ],
-     "suggestion": "Ten weeks… OK. But can I help Mehdi with jobs? For extra money?",
+     "suggestion": "Ten weeks… OK. But can I help {you} with jobs? For extra money?",
      "suggestionFa": "ده هفته… باشه. ولی می‌تونم تو کارها به {you} کمک کنم؟ برای پول اضافه؟",
      "trustDelta": 5,
      "next": "r11",
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You can water my plants!",
    "translations": {
     "fa": "می‌تونی به گلدون‌هام آب بدی!"

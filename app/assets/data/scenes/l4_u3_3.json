@@ -35,7 +35,7 @@
       "another",
       "parking",
       "nearby",
-      "space"
+      "could"
      ],
      "suggestion": "Could we find you another parking space nearby?",
      "suggestionFa": "می‌تونیم یه جای پارک دیگه نزدیک براتون پیدا کنیم؟",
@@ -146,8 +146,8 @@
      "keywords": [
       "could",
       "join",
-      "how",
-      "run"
+      "run",
+      "say"
      ],
      "suggestion": "You could join the committee and have a say in how it's run.",
      "suggestionFa": "می‌تونید عضو کمیته بشید و تو نحوهٔ اداره‌اش نظر بدید.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "maybe",
-      "after",
       "could",
+      "after",
       "then"
      ],
      "suggestion": "Then maybe we could name a bed after her.",
@@ -200,8 +200,8 @@
      "keywords": [
       "sounds",
       "she'd",
-      "part",
-      "want"
+      "want",
+      "like"
      ],
      "suggestion": "It sounds like she'd want you to be part of it.",
      "suggestionFa": "به نظر میاد دلش می‌خواست شما جزوش باشید.",

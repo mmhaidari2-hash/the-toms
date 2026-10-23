@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "shattered",
       "midnight",
-      "should",
       "laptop",
+      "should",
       "still"
      ],
      "suggestion": "You look shattered, love. You were still on your laptop at midnight. You should have gone to bed.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I know. I shouldn't have left the report until the last minute.",
    "translations": {
     "fa": "می‌دونم. نباید گزارش را تا دقیقهٔ آخر نگه می‌داشتم."
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "brightwell",
+      "started",
       "mistake",
       "weekend",
-      "started",
       "worked"
      ],
      "suggestion": "When Tom started at Brightwell, he made the same mistake. He worked every weekend for a month and ended up poorly.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did he do to change it?",
    "translations": {
     "fa": "برای تغییرش چی کار کرد؟"
@@ -73,8 +73,8 @@
      "keywords": [
       "switching",
       "decision",
-      "started",
       "country",
+      "started",
       "you've"
      ],
      "suggestion": "He started switching off his work phone at six. Best decision he ever made. In this country, you've got a right to proper breaks, you know.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I didn't know that. How many days' holiday do people usually get?",
    "translations": {
     "fa": "نمی‌دونستم. مردم معمولاً چند روز مرخصی دارن؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "including",
-      "managers",
       "holidays",
-      "should",
-      "rather"
+      "managers",
+      "rather",
+      "should"
      ],
      "suggestion": "Twenty-eight days, including bank holidays. And yes — you should have. Managers would rather know early than find out you're burnt out.",
      "suggestionFa": "بیست و هشت روز، با تعطیلات رسمی. و آره — باید این کار را می‌کردی. مدیرها ترجیح می‌دن زود بدونن تا اینکه بفهمن از پا افتادی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're right. I'll talk to her tomorrow.",
    "translations": {
     "fa": "حق با توئه. فردا باهاش صحبت می‌کنم."
@@ -124,8 +124,8 @@
       "spelling",
       "laptop",
       "nicola",
-      "about",
-      "table"
+      "wants",
+      "twice"
      ],
      "suggestion": "Good. Now — no laptop at the table. Tea's ready, and Nicola wants to tell you about her spelling test. Twice.",
      "suggestionFa": "خوبه. حالا — لپ‌تاپ سر میز ممنوع. شام آماده‌ست، و نیکولا می‌خواد دربارهٔ امتحان املاش بهت بگه. دو بار.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

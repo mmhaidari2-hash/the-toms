@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "First a bath, Nicola.",
    "translations": {
     "fa": "اول حموم نیکولا."
@@ -61,10 +61,10 @@
     {
      "keywords": [
       "yesterday",
-      "skip",
       "bath",
-      "had",
-      "but"
+      "skip",
+      "but",
+      "can"
      ],
      "suggestion": "But I had a bath yesterday! Can I skip the bath?",
      "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
@@ -77,7 +77,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, sorry. Bath first.",
    "translations": {
     "fa": "نه، ببخشید. اول حموم."
@@ -129,7 +129,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The unicorns!",
    "translations": {
     "fa": "تک‌شاخی!"
@@ -137,11 +137,11 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "stars",
+      "after",
+      "milk",
       "have",
-      "then",
-      "milk"
+      "then"
      ],
      "suggestion": "The stars! Then after that, can I have milk?",
      "suggestionFa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟",
@@ -154,7 +154,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "First pyjamas, then milk.",
    "translations": {
     "fa": "اول پیژامه، بعد شیر."
@@ -176,7 +176,7 @@
   "r7": {
    "id": "r7",
    "speaker": "leslie",
-   "text": "Good. Then teeth for two minutes. Use the timer. Can you help her, Mehdi?",
+   "text": "Good. Then teeth for two minutes. Use the timer. Can you help her, {you}?",
    "translations": {
     "fa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟"
    },
@@ -206,7 +206,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Where's her toothbrush?",
    "translations": {
     "fa": "حتماً. مسواکش کجاست؟"
@@ -214,11 +214,11 @@
    "branches": [
     {
      "keywords": [
-      "sings",
       "stops",
-      "stop",
-      "song",
-      "when"
+      "sings",
+      "when",
+      "pink",
+      "stop"
      ],
      "suggestion": "The pink one! It sings a song. When the song stops, I stop!",
      "suggestionFa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!",
@@ -231,7 +231,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Up and down, Nicola.",
    "translations": {
     "fa": "بالا و پایین نیکولا."
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can read tonight.",
    "translations": {
     "fa": "امشب من می‌تونم بخونم."
@@ -292,12 +292,12 @@
     {
      "keywords": [
       "story",
-      "real",
+      "tell",
       "from",
       "iran",
-      "book"
+      "real"
      ],
-     "suggestion": "Mehdi! Mehdi! Tell me a story from Iran! Not a book. A real story!",
+     "suggestion": "{you}! {you}! Tell me a story from Iran! Not a book. A real story!",
      "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",
      "trustDelta": 5,
      "next": "r12",
@@ -308,7 +308,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

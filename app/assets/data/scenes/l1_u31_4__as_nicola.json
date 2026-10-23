@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem. It's nice to see the school.",
    "translations": {
     "fa": "مشکلی نیست. دیدن مدرسه خوبه."
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see Nicola!",
    "translations": {
     "fa": "نیکولا را می‌بینم!"
@@ -156,7 +156,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask her what she learnt!",
    "translations": {
     "fa": "ازش بپرس چی یاد گرفت!"
@@ -164,10 +164,10 @@
    "branches": [
     {
      "keywords": [
-      "letter",
       "learnt",
-      "snake",
+      "letter",
       "sssss",
+      "snake",
       "good"
      ],
      "suggestion": "Good! We learnt the letter S. S for snake! Sssss!",
@@ -181,8 +181,8 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
-   "text": "S for Mehdi? No…",
+   "speaker": "learner",
+   "text": "S for {you}? No…",
    "translations": {
     "fa": "S برای {you}؟ نه…"
    },
@@ -229,7 +229,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Was it pizza day?",
    "translations": {
     "fa": "روز پیتزا بود؟"
@@ -240,8 +240,8 @@
       "pleeease",
       "three",
       "pasta",
-      "peas",
-      "park"
+      "park",
+      "peas"
      ],
      "suggestion": "Pasta. And I ate THREE peas! Can we go to the park? Pleeease?",
      "suggestionFa": "پاستا. و سه تا نخود فرنگی خوردم! می‌شه بریم پارک؟ لطفاً؟",
@@ -254,7 +254,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three peas! Well done!",
    "translations": {
     "fa": "سه تا نخود فرنگی! آفرین!"
@@ -306,7 +306,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here it is. I'm carrying it.",
    "translations": {
     "fa": "ایناهاش. من دارمش."

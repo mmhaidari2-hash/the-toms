@@ -21,8 +21,8 @@
      "keywords": [
       "should",
       "please",
-      "today",
-      "ready"
+      "ready",
+      "today"
      ],
      "suggestion": "Yes please. It should be ready today.",
      "suggestionFa": "آره لطفاً. باید امروز آماده باشه.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "thompson",
-      "george",
       "behalf",
+      "george",
       "i've"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
@@ -118,9 +118,9 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
-      "missing",
       "there's",
+      "missing",
+      "mistake",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "expecting",
-      "check",
       "again",
+      "check",
       "could"
      ],
      "suggestion": "Could you check again? We were expecting four.",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "surgery",
       "contact",
+      "surgery",
       "us"
      ],
      "suggestion": "Can you contact the surgery for us?",
@@ -277,8 +277,8 @@
    "branches": [
     {
      "keywords": [
-      "isn't",
       "ready",
+      "isn't",
       "time",
       "if"
      ],
@@ -327,8 +327,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "relief",
+      "number",
       "where",
       "find"
      ],
@@ -382,8 +382,8 @@
      "keywords": [
       "tonight",
       "we'll",
-      "set",
-      "app"
+      "app",
+      "set"
      ],
      "suggestion": "We'll set up the app tonight.",
      "suggestionFa": "امشب اپ را راه‌اندازی می‌کنیم.",
@@ -395,8 +395,8 @@
      "keywords": [
       "download",
       "george",
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "I'll help George download it.",
      "suggestionFa": "به جورج کمک می‌کنم دانلودش کنه.",

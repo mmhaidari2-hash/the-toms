@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,7 +23,7 @@
      "keywords": [
       "fourteen",
       "number",
-      "from",
+      "have",
       "khan",
       "look"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, not yet.",
    "translations": {
     "fa": "نه، هنوز نه."
@@ -48,9 +48,9 @@
      "keywords": [
       "friend",
       "live",
+      "door",
       "khan",
-      "they",
-      "door"
+      "next"
      ],
      "suggestion": "Mrs Khan, this is our friend. They live next door to us.",
      "suggestionFa": "خانم خان، این دوستمونه. بغل خونهٔ ما زندگی می‌کنه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Mrs Khan.",
    "translations": {
     "fa": "سلام خانم خان."
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nice to meet you too, Mrs Khan.",
    "translations": {
     "fa": "منم از آشنایی‌تون خوشبختم خانم خان."
@@ -175,7 +175,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm Iranian.",
    "translations": {
     "fa": "ایرانی‌ام."
@@ -232,7 +232,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just three months.",
    "translations": {
     "fa": "فقط سه ماه."
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like it, but it's very expensive!",
    "translations": {
     "fa": "دوستش دارم، ولی خیلی گرونه!"
@@ -340,7 +340,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's a good doctor's?",
    "translations": {
     "fa": "یه مطب خوب کجاست؟"
@@ -399,7 +399,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. That's really helpful.",
    "translations": {
     "fa": "ممنون. خیلی کمک کرد."
@@ -452,7 +452,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love to. Thank you, Amina.",
    "translations": {
     "fa": "خیلی دوست دارم. ممنون آمینا."
@@ -462,8 +462,8 @@
      "keywords": [
       "everything",
       "everyone",
-      "street",
       "friend",
+      "street",
       "you've"
      ],
      "suggestion": "You've got a friend for life now! Amina knows everyone and everything on this street.",
@@ -477,7 +477,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

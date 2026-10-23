@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "rainbows",
-      "mondays",
       "uniform",
+      "mondays",
       "please",
-      "badge"
+      "she's"
      ],
      "suggestion": "Mia goes to Rainbows! On Mondays! She's got a uniform and a badge. Can I join? PLEASE?",
      "suggestionFa": "میا میره رینبوز! دوشنبه‌ها! یونیفرم و نشان داره. منم می‌تونم عضو بشم؟ لطفاً!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's Rainbows?",
    "translations": {
     "fa": "رینبوز چیه؟"
@@ -49,8 +49,8 @@
       "rainbows",
       "brownies",
       "camping",
-      "little",
-      "scouts"
+      "scouts",
+      "little"
      ],
      "suggestion": "Rainbows is for little girls. Then Brownies, then Guides. Ryan did Scouts. He loved the camping!",
      "suggestionFa": "رینبوز برای دخترهای کوچیکه. بعد براونیز، بعد گایدز. رایان پیشاهنگ بود. عاشق کمپینگ بود!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan loves camping? Even in the rain?",
    "translations": {
     "fa": "رایان عاشق کمپینگه؟ حتی زیر بارون؟"
@@ -75,7 +75,7 @@
       "waiting",
       "what's",
       "mummy",
-      "list"
+      "have"
      ],
      "suggestion": "You have to be four. I'm FIVE! But Mummy says there's a waiting list. What's that?",
      "suggestionFa": "باید چهار سالت باشه. من پنج سالمه! ولی مامانی میگه لیست انتظار داره. اون چیه؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A list of children waiting for a place.",
    "translations": {
     "fa": "یه فهرست از بچه‌هایی که منتظر جان."
@@ -99,8 +99,8 @@
       "christmas",
       "waiting",
       "boring",
-      "hate",
-      "till"
+      "till",
+      "long"
      ],
      "suggestion": "I HATE waiting. It's so boring. How long? Till Christmas? Till I'm six?",
      "suggestionFa": "من از صبر کردن متنفرم. خیلی کسل‌کننده‌ست. چقدر؟ تا کریسمس؟ تا شش سالگیم؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. We can ask the leader.",
    "translations": {
     "fa": "نمی‌دونم. می‌تونیم از رهبر گروه بپرسیم."
@@ -123,9 +123,9 @@
      "keywords": [
       "chicken",
       "crafts",
-      "songs",
+      "trips",
       "games",
-      "trips"
+      "songs"
      ],
      "suggestion": "Crafts, games and songs. And trips! Mia went to a farm and held a chicken.",
      "suggestionFa": "کاردستی، بازی و آواز. و گردش! میا رفت مزرعه و یه مرغ بغل کرد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She held a chicken! Was it scary?",
    "translations": {
     "fa": "یه مرغ بغل کرد! ترسناک بود؟"
@@ -150,7 +150,7 @@
       "brushing",
       "chicken",
       "badges",
-      "teeth"
+      "there"
      ],
      "suggestion": "The chicken did a poo on her! And there are badges for everything. Even brushing teeth!",
      "suggestionFa": "مرغه روش پی‌پی کرد! و برای همه‌چی نشان هست. حتی مسواک زدن!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A badge for brushing teeth? Easy!",
    "translations": {
     "fa": "نشان برای مسواک زدن؟ آسونه!"
@@ -173,9 +173,9 @@
      "keywords": [
       "sprinkles",
       "baking",
-      "cakes",
       "badge",
-      "lots"
+      "cakes",
+      "make"
      ],
      "suggestion": "The baking badge. I want to make cakes. With sprinkles. Lots and lots of sprinkles.",
      "suggestionFa": "نشان شیرینی‌پزی. می‌خوام کیک درست کنم. با ترافل رنگی. کلی کلی ترافل.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A baking badge! Can I taste the cakes?",
    "translations": {
     "fa": "نشان شیرینی‌پزی! می‌تونم کیک‌ها را بچشم؟"
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Did you hear that, Nicola?",
    "translations": {
     "fa": "شنیدی نیکولا؟"
@@ -256,8 +256,8 @@
       "rainbow",
       "goldie",
       "nana",
-      "need",
-      "tell"
+      "tell",
+      "need"
      ],
      "suggestion": "YES! I'm a Rainbow! I need to tell Mia! And Goldie! And Nana!",
      "suggestionFa": "آره! من رینبو شدم! باید به میا بگم! و گلدی! و نانا!",
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "present",
       "bought",
-      "awful",
+      "looks",
       "can't",
-      "looks"
+      "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
      "suggestionFa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you buy him?",
    "translations": {
     "fa": "براش چی خریدی؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "world's",
-      "cheesy",
       "driver",
+      "cheesy",
       "best",
       "know"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's going to love it.",
    "translations": {
     "fa": "عاشقش میشه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "scissors",
-      "where",
       "small",
-      "first",
-      "paper"
+      "paper",
+      "where",
+      "first"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
      "suggestionFa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are the scissors.",
    "translations": {
     "fa": "بفرما قیچی."
@@ -98,8 +98,8 @@
      "keywords": [
       "easier",
       "genius",
-      "box",
-      "now"
+      "now",
+      "box"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fold the paper over the box.",
    "translations": {
     "fa": "کاغذ را رو جعبه تا کن."
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "sticky",
       "fingers",
+      "sticky",
       "stuck",
-      "pass",
-      "ugh"
+      "tape",
+      "pass"
      ],
      "suggestion": "Pass the sticky tape. Ugh, it's stuck to my fingers!",
      "suggestionFa": "چسب را بده. اوف، به انگشتام چسبید!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Let me do it.",
    "translations": {
     "fa": "ها! بذار من انجامش بدم."
@@ -149,7 +149,7 @@
       "better",
       "right",
       "fold",
-      "like"
+      "ends"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, perfect!",
    "translations": {
     "fa": "آره، عالیه!"
@@ -173,8 +173,8 @@
       "write",
       "nice",
       "gift",
-      "bow",
-      "top"
+      "now",
+      "bow"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Happy birthday, Dad. From Ryan.\"",
    "translations": {
     "fa": "«تولدت مبارک بابا. از طرف رایان.»"
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "don't",
-      "soppy",
       "mates",
-      "from",
+      "soppy",
+      "love",
       "just"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

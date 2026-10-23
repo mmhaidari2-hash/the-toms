@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "bad"
      ],
      "suggestion": "Don't worry, Ryan. It's not bad!",
@@ -55,10 +55,10 @@
    "branches": [
     {
      "keywords": [
-      "mostly",
       "wasn't",
-      "ryan",
-      "good"
+      "mostly",
+      "good",
+      "ryan"
      ],
      "suggestion": "It wasn't bad, Ryan. It was mostly good!",
      "suggestionFa": "بد نبود رایان. بیشترش خوب بود!",
@@ -70,8 +70,8 @@
      "keywords": [
       "doing",
       "patel",
-      "said",
-      "well"
+      "well",
+      "said"
      ],
      "suggestion": "Mr Patel said you're doing well.",
      "suggestionFa": "آقای پاتل گفت خوب پیش میری.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "little",
-      "good",
-      "ones"
+      "ones",
+      "good"
      ],
      "suggestion": "You're good with the little ones, Ryan.",
      "suggestionFa": "تو با کوچولوها خوبی، رایان.",
@@ -145,8 +145,8 @@
     {
      "keywords": [
       "algebra",
-      "patel",
       "maths",
+      "patel",
       "need"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "homework",
-      "time",
       "only",
+      "time",
       "ryan"
      ],
      "suggestion": "Ryan, it's only for homework time.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "only",
       "ryan",
+      "only",
       "one"
      ],
      "suggestion": "It's only one hour, Ryan.",
@@ -262,8 +262,8 @@
     },
     {
      "keywords": [
-      "they",
       "wait",
+      "they",
       "can",
       "ok"
      ],
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "help",
       "ryan",
+      "help",
       "can"
      ],
      "suggestion": "Yes, I can help you, Ryan.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "strange",
       "numbers",
+      "strange",
       "just",
       "like"
      ],
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "algebra",
-      "you'll",
       "puzzle",
+      "you'll",
       "like"
      ],
      "suggestion": "Algebra is like a puzzle. You'll like it.",

@@ -123,7 +123,8 @@ void main() {
     expect(course.packs, isNotEmpty);
     expect(PremiumConfig.betaFree, isTrue, reason: 'no real payments yet: the beta must stay free');
     final c = ctrlWith();
-    for (final pk in course.packs) {
+    // Free, level-gated packs (Fennick & Rowe Homes) are covered in homes_test.dart.
+    for (final pk in course.packs.where((p) => !p.gated)) {
       expect(pk.premium, isTrue, reason: pk.id);
       expect(pk.unlocked, isTrue, reason: '${pk.id}: the pack region stays visible (free preview)');
       for (final l in pk.lessons) {
@@ -139,7 +140,7 @@ void main() {
   test('Career Packs after the beta: only the first lesson is a free preview; Premium, a one-off buy or demo mode open the rest', () {
     PremiumConfig.betaFree = false;
     addTearDown(() => PremiumConfig.betaFree = true);
-    for (final pk in course.packs) {
+    for (final pk in course.packs.where((p) => p.premium)) {
       final ls = pk.lessons.toList();
       final free = ctrlWith();
       expect(free.lessonOpen(course, ls.first), isTrue, reason: '${pk.id}: first lesson is the free preview');

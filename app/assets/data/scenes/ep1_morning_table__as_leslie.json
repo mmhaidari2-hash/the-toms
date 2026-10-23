@@ -53,7 +53,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love a cuppa, cheers.",
    "translations": {
     "fa": "یک فنجان چای عالی می‌شه، مرسی."
@@ -63,8 +63,8 @@
      "keywords": [
       "sourdough",
       "passing",
-      "please",
       "crumbs",
+      "please",
       "would"
      ],
      "suggestion": "Would you mind passing the sourdough, please? And mind the crumbs, Ryan.",
@@ -78,7 +78,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course — here you go.",
    "translations": {
     "fa": "حتماً — بفرمایید."
@@ -130,7 +130,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oops! Don't worry, William — I'll grab a cloth.",
    "translations": {
     "fa": "اوه! نگران نباش ویلیام — یه دستمال میارم."
@@ -178,7 +178,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Course you can — there you go.",
    "translations": {
     "fa": "البته که می‌شه — بفرما."
@@ -242,7 +242,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There's a bit left — have mine, mate.",
    "translations": {
     "fa": "یه کم مونده — مال منو بردار رفیق."
@@ -251,10 +251,10 @@
     {
      "keywords": [
       "lunchboxes",
-      "nicola",
       "crisps",
-      "apple",
-      "right"
+      "nicola",
+      "wants",
+      "apple"
      ],
      "suggestion": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
      "suggestionFa": "خب، ظرف ناهار. نیکولا چیپس می‌خواد، من می‌گم سیب. پشتم را می‌گیری؟",
@@ -267,7 +267,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe both — a small bag of crisps?",
    "translations": {
     "fa": "شاید هر دو — یه بستهٔ کوچیک چیپس؟"
@@ -315,7 +315,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only if you eat your apple too.",
    "translations": {
     "fa": "فقط اگه سیبت را هم بخوری."
@@ -323,11 +323,11 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "someone",
+      "weather",
+      "coats",
       "check",
-      "about",
-      "coats"
+      "about"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
      "suggestionFa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه.",
@@ -340,7 +340,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says it'll be chilly with showers.",
    "translations": {
     "fa": "می‌گه سرد با رگبار."
@@ -396,7 +396,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, William — a robin!",
    "translations": {
     "fa": "آره، ویلیام — سینه‌سرخ!"
@@ -421,7 +421,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure, I'll get it now.",
    "translations": {
     "fa": "حتماً، الان میارمش."
@@ -473,7 +473,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pinky promise — see you at three.",
    "translations": {
     "fa": "قول انگشتی — ساعت سه می‌بینمت."

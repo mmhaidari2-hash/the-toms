@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "everyone",
-      "wellies",
       "pouring",
+      "wellies",
       "school",
       "rain"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are wellies?",
    "translations": {
     "fa": "ولی چیه؟"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "raincoat",
-      "please",
-      "rubber",
       "nicola",
+      "rubber",
+      "please",
       "boots"
      ],
      "suggestion": "Rubber boots! Yours are by the door. Nicola, put your raincoat on, please.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nicola, here's your raincoat.",
    "translations": {
     "fa": "نیکولا، اینم بارونیت."
@@ -73,9 +73,9 @@
      "keywords": [
       "william",
       "yellow",
-      "needs",
+      "cover",
       "buggy",
-      "cover"
+      "needs"
      ],
      "suggestion": "Yes, the yellow one with the hood. And William needs his rain cover on the buggy.",
      "suggestionFa": "آره، زرده که کلاه داره. و ویلیام روکش بارونی کالسکه‌اش را لازم داره.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll put the rain cover on.",
    "translations": {
     "fa": "من روکش بارونی را می‌ذارم."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a big one.",
    "translations": {
     "fa": "آره، یه بزرگ."
@@ -124,8 +124,8 @@
       "puddles",
       "stand",
       "tom's",
-      "ready",
-      "let's"
+      "let's",
+      "ready"
      ],
      "suggestion": "Take Tom's. It's in the hall stand. Ready? Let's go! Mind the puddles!",
      "suggestionFa": "مال تام را بردار. تو جاچتریه. آماده‌ای؟ بریم! مواظب چاله‌های آب باش!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nicola is jumping in the puddles!",
    "translations": {
     "fa": "نیکولا داره تو چاله‌ها می‌پره!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "wellies",
-      "here's",
       "that's",
+      "nicola",
       "school",
-      "nicola"
+      "here's"
      ],
      "suggestion": "That's what wellies are for, Nicola! Jump! Here's school. Now, take your wellies off. Put your shoes on.",
      "suggestionFa": "چکمه برای همینه نیکولا! بپر! اینم مدرسه. حالا، چکمه‌هات را دربیار. کفش‌هات را بپوش.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are her school shoes.",
    "translations": {
     "fa": "اینم کفش‌های مدرسه‌اش."
@@ -175,7 +175,7 @@
       "wellies",
       "wellie",
       "rack",
-      "lots"
+      "door"
      ],
      "suggestion": "In the wellie rack, by the classroom door. Lots of wellies in a row!",
      "suggestionFa": "تو جاچکمه‌ای، کنار در کلاس. کلی چکمه تو یه ردیف!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're all different colours!",
    "translations": {
     "fa": "همه رنگای مختلفن!"
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "weather",
-      "wellies",
       "british",
+      "weather",
       "typical",
+      "wellies",
       "raining"
      ],
      "suggestion": "Right, home time for us. Don't take your wellies off yet — it's still raining. Typical British weather!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

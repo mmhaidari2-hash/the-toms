@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "picturehouse",
-      "barnaby",
       "saturday",
+      "barnaby",
+      "website",
       "hackney",
-      "website"
+      "cinema"
      ],
      "suggestion": "The new Barnaby film's out! The Hackney Palace cinema has it on Saturday. Can you help me book? The website hates me.",
      "suggestionFa": "فیلم جدید بارنابی اومده! سینمای هکنی سینما پالاس شنبه داره. کمکم می‌کنی رزرو کنم؟ سایتش ازم متنفره.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Which showing? Morning or afternoon?",
    "translations": {
     "fa": "حتماً. کدوم سانس؟ صبح یا عصر؟"
@@ -50,7 +50,7 @@
       "children",
       "tickets",
       "fifteen",
-      "adults"
+      "before"
      ],
      "suggestion": "The eleven a.m. Before William's nap — or he'll scream. Tickets: two adults and three children. Is Ryan a child? He's fifteen.",
      "suggestionFa": "ساعت یازده صبح. قبل از خواب ویلیام — وگرنه جیغ می‌زنه. بلیت: دو بزرگسال و سه بچه. رایان بچه حساب میشه؟ پونزده سالشه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says \"Child: under 15\". So Ryan is an adult.",
    "translations": {
     "fa": "نوشته «کودک: زیر ۱۵». پس رایان بزرگساله."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "ticket",
       "people",
+      "ticket",
       "family",
-      "he'll",
-      "adult"
+      "adult",
+      "there"
      ],
      "suggestion": "An adult! He'll love that. Ooh — and is there a family ticket? Four people for one price? Have a look.",
      "suggestionFa": "بزرگسال! خوشش میاد. اوه — و بلیت خانوادگی هست؟ چهار نفر با یه قیمت؟ یه نگاه بنداز.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a family ticket for four. Plus one extra adult.",
    "translations": {
     "fa": "آره، یه بلیت خانوادگی برای چهار نفر. به‌اضافهٔ یه بزرگسال اضافه."
@@ -99,8 +99,8 @@
       "ticket",
       "turned",
       "family",
-      "adult",
-      "three"
+      "month",
+      "adult"
      ],
      "suggestion": "He turned three last month, so no! Family ticket plus one adult — Tom or me. Now, seats. Where would you like to sit?",
      "suggestionFa": "ماه پیش سه سالش شد، پس نه! بلیت خانوادگی به‌اضافهٔ یه بزرگسال — تام یا من. حالا جاها. کجا می‌خوای بشینی؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not at the front. It hurts my neck.",
    "translations": {
     "fa": "جلو نه. گردنم درد می‌گیره."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "learning",
       "thirteen",
+      "learning",
       "toilet",
       "nicola",
-      "three"
+      "seats"
      ],
      "suggestion": "The aisle! You're learning. Nicola needs the toilet three times per film. Row G, seats eight to thirteen. Click!",
      "suggestionFa": "راهرو! داری یاد می‌گیری. نیکولا هر فیلم سه بار دستشویی لازم داره. ردیف G، صندلی هشت تا سیزده. کلیک!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Six seats? We only need five.",
    "translations": {
     "fa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم."
@@ -150,7 +150,7 @@
       "obviously",
       "coming",
       "sixth",
-      "card"
+      "hero"
      ],
      "suggestion": "Six — the sixth is for you! You're coming too, obviously. Barnaby's your hero now. Pay with my card.",
      "suggestionFa": "شش تا — ششمی برای توئه! معلومه که تو هم میای. بارنابی الان قهرمانته. با کارت من پرداخت کن.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Me too? Thank you! I'll buy the popcorn.",
    "translations": {
     "fa": "منم؟ ممنون! من پاپ‌کورن را می‌خرم."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "saturday",
+      "barnaby",
       "o'clock",
-      "lovely",
-      "eleven"
+      "eleven",
+      "lovely"
      ],
      "suggestion": "Lovely. Saturday, eleven o'clock, Row G. Now I just need to stop Tom from doing his Barnaby voice the whole way there.",
      "suggestionFa": "عالی. شنبه، ساعت یازده، ردیف G. حالا فقط باید جلوی تام را بگیرم که کل مسیر صدای بارنابی درنیاره.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

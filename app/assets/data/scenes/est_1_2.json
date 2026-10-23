@@ -1,0 +1,302 @@
+{
+ "id": "est_1_2",
+ "characterId": "agent",
+ "title": "Looking round the flat",
+ "titleFa": "دیدن آپارتمان",
+ "setting": "Finding a flat · Level 0",
+ "settingFa": "پیدا کردن آپارتمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Hi, you must be {you}! I'm Olivia. Come in. This is the living room — lots of light.",
+   "translations": {
+    "fa": "سلام، حتماً {you} هستید! من اولیویام. بفرمایید. این اتاق نشیمنه — کلی نور داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "olivia",
+      "bright",
+      "hi"
+     ],
+     "suggestion": "Hi Olivia. Yes, it's very bright.",
+     "suggestionFa": "سلام اولیویا. آره، خیلی روشنه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "furnished",
+      "nice",
+      "meet"
+     ],
+     "suggestion": "Nice to meet you. Is it furnished?",
+     "suggestionFa": "خوشبختم. مبله‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "living room",
+     "fa": "اتاق نشیمن"
+    },
+    {
+     "word": "light",
+     "fa": "نور"
+    },
+    {
+     "word": "bright",
+     "fa": "روشن"
+    },
+    {
+     "word": "furnished",
+     "fa": "مبله"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "It's part-furnished: there's a sofa, a bed and a fridge-freezer. The kitchen is through here.",
+   "translations": {
+    "fa": "نیمه‌مبله‌ست: یه مبل، یه تخت و یه یخچال‌فریزر هست. آشپزخونه از این طرفه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "washing",
+      "there"
+     ],
+     "suggestion": "Is there a washing machine?",
+     "suggestionFa": "ماشین لباسشویی هست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "electric",
+      "oven",
+      "gas"
+     ],
+     "suggestion": "Is the oven gas or electric?",
+     "suggestionFa": "اجاق گازیه یا برقی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "part-furnished",
+     "fa": "نیمه‌مبله"
+    },
+    {
+     "word": "fridge-freezer",
+     "fa": "یخچال‌فریزر"
+    },
+    {
+     "word": "washing machine",
+     "fa": "ماشین لباسشویی"
+    },
+    {
+     "word": "oven",
+     "fa": "فر ؛ اجاق"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is washing machine",
+      "is washing machine"
+     ],
+     "echo": "Is there a washing machine? Yes, there is.",
+     "better": "Is there a washing machine?",
+     "betterFa": "ماشین لباسشویی هست؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Yes, there's a washing machine, and the cooker is electric. The heating is gas central heating.",
+   "translations": {
+    "fa": "بله، ماشین لباسشویی هست، و اجاق برقیه. گرمایش، شوفاژ گازیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "included",
+      "great",
+      "rent"
+     ],
+     "suggestion": "Great. Are bills included in the rent?",
+     "suggestionFa": "عالیه. قبض‌ها تو اجاره حساب شده؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "roughly",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much are the bills, roughly?",
+     "suggestionFa": "قبض‌ها تقریباً چقدره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cooker",
+     "fa": "اجاق"
+    },
+    {
+     "word": "central heating",
+     "fa": "شوفاژ ؛ گرمایش مرکزی"
+    },
+    {
+     "word": "bills",
+     "fa": "قبض‌ها"
+    },
+    {
+     "word": "roughly",
+     "fa": "تقریباً"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "No, bills aren't included. You pay gas, electricity, water, broadband and council tax yourself.",
+   "translations": {
+    "fa": "نه، قبض‌ها حساب نیست. گاز، برق، آب، اینترنت و مالیات شورا را خودتون می‌دید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "council",
+      "band",
+      "tax",
+      "ok"
+     ],
+     "suggestion": "OK. What council tax band is it?",
+     "suggestionFa": "باشه. مالیات شوراش چه گروهیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "that's",
+      "there",
+      "noise"
+     ],
+     "suggestion": "That's fine. Is there a lot of noise from the street?",
+     "suggestionFa": "اشکال نداره. سر و صدای خیابون زیاده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "included",
+     "fa": "شامل ؛ حساب‌شده"
+    },
+    {
+     "word": "broadband",
+     "fa": "اینترنت ؛ پهن‌باند"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شورا"
+    },
+    {
+     "word": "noise",
+     "fa": "سر و صدا"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Bills included\" is rare for a whole flat. Always ask which bills you will pay.",
+    "fa": "«قبض‌ها شامل» برای کل آپارتمان کم است؛ همیشه بپرس کدام قبض‌ها با توست."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "It's band B, and the windows are double-glazed, so it's quite quiet. What do you think?",
+   "translations": {
+    "fa": "گروه B ـه، و پنجره‌ها دوجداره‌ست، پس نسبتاً ساکته. نظرتون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "what's",
+      "step",
+      "next"
+     ],
+     "suggestion": "I really like it. What's the next step?",
+     "suggestionFa": "خیلی خوشم اومده. قدم بعدی چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "about",
+      "need",
+      "but"
+     ],
+     "suggestion": "I like it, but I need to think about it.",
+     "suggestionFa": "دوستش دارم، ولی باید فکر کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "double-glazed",
+     "fa": "دوجداره"
+    },
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    },
+    {
+     "word": "next step",
+     "fa": "قدم بعدی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "agent",
+   "text": "No problem. And the advertised rent is the rent: since May 2026 we can't take offers above it. No bidding wars!",
+   "translations": {
+    "fa": "مشکلی نیست. و اجارهٔ آگهی‌شده همونه: از مه ۲۰۲۶ نمی‌تونیم پیشنهاد بالاتر بگیریم. رقابت قیمتی در کار نیست!"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": {
+    "en": "In England, landlords and agents must publish an asking rent and can't ask for or accept offers above it (Renters' Rights Act, from 1 May 2026).",
+    "fa": "در انگلستان صاحبخانه و بنگاه نباید پیشنهاد بالاتر از اجارهٔ آگهی‌شده بپذیرند (از ۱ مه ۲۰۲۶)."
+   }
+  }
+ }
+}

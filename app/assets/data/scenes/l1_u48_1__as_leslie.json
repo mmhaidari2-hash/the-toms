@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We're having spaghetti bolognese.",
    "translations": {
     "fa": "اسپاگتی بولونز داریم."
@@ -77,7 +77,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll help you, Tom.",
    "translations": {
     "fa": "کمکت می‌کنم تام."
@@ -100,7 +100,7 @@
   "r4": {
    "id": "r4",
    "speaker": "tom",
-   "text": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, Mehdi?",
+   "text": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, {you}?",
    "translations": {
     "fa": "کوتاه‌شدهٔ اسپاگتی بولونز. ما بریتانیایی‌ها همه چی را کوتاه می‌کنیم! روزت چطور بود {you}؟"
    },
@@ -133,7 +133,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was good, thanks. Busy.",
    "translations": {
     "fa": "خوب بود، ممنون. شلوغ."
@@ -189,7 +189,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A pigeon? What happened?",
    "translations": {
     "fa": "کبوتر؟ چی شد؟"
@@ -245,7 +245,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so funny!",
    "translations": {
     "fa": "خیلی بامزه‌ست!"
@@ -255,11 +255,11 @@
      "keywords": [
       "everyone",
       "parmesan",
-      "would",
       "tea's",
+      "would",
       "ready"
      ],
-     "suggestion": "Tea's ready! Everyone sit down. Would you like parmesan, Mehdi?",
+     "suggestion": "Tea's ready! Everyone sit down. Would you like parmesan, {you}?",
      "suggestionFa": "شام آماده‌ست! همه بشینید. پارمزان می‌خوای {you}؟",
      "trustDelta": 5,
      "next": "r10",
@@ -270,7 +270,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Lots!",
    "translations": {
     "fa": "آره، لطفاً. زیاد!"
@@ -322,7 +322,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The green bits are herbs.",
    "translations": {
     "fa": "تیکه‌های سبز سبزیجات معطرن."

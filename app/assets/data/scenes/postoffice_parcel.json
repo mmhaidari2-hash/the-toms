@@ -111,8 +111,8 @@
     {
      "keywords": [
       "clothes",
-      "book",
-      "some"
+      "some",
+      "book"
      ],
      "suggestion": "Some clothes and a book.",
      "suggestionFa": "چند تا لباس و یه کتاب.",
@@ -167,8 +167,8 @@
     {
      "keywords": [
       "there's",
-      "perfume",
       "problem",
+      "perfume",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "cost",
-      "much",
       "will",
+      "much",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "price",
-      "heavy"
+      "heavy",
+      "price"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -323,10 +323,10 @@
     },
     {
      "keywords": [
-      "first",
       "could",
-      "time",
-      "help"
+      "first",
+      "help",
+      "time"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
-      "else",
+      "done",
       "need",
-      "done"
+      "else"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",

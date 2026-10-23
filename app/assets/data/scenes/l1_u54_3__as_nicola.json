@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What's an egg hunt?",
    "translations": {
     "fa": "آره! تخم‌مرغ‌بازی چیه؟"
@@ -108,7 +108,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One under the flowerpot.",
    "translations": {
     "fa": "یکی زیر گلدون."
@@ -168,7 +168,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Behind the shed. Done!",
    "translations": {
     "fa": "پشت انباری. انجام شد!"
@@ -220,7 +220,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Nobody is too old for chocolate.",
    "translations": {
     "fa": "ها! هیچ‌کس برای شکلات زیادی بزرگ نیست."
@@ -245,7 +245,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready, steady, go!",
    "translations": {
     "fa": "حاضر، آماده، برو!"
@@ -253,8 +253,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "another",
+      "there's",
       "behind",
       "found",
       "tree"
@@ -270,7 +270,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, girls!",
    "translations": {
     "fa": "آفرین دخترها!"
@@ -322,7 +322,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, but we paint eggs at Nowruz!",
    "translations": {
     "fa": "نه، ولی تو نوروز تخم‌مرغ رنگ می‌کنیم!"

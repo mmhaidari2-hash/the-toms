@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -25,7 +25,7 @@
       "tonight",
       "tea's",
       "ready",
-      "fish"
+      "down"
      ],
      "suggestion": "Tea's ready! Sit down, everyone. It's fish pie tonight. Do you like fish?",
      "suggestionFa": "شام آماده‌ست! همه بنشینید. امشب پای ماهیه. ماهی دوست داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I love fish!",
    "translations": {
     "fa": "آره، عاشق ماهی‌ام!"
@@ -50,7 +50,7 @@
       "plenty",
       "worry",
       "don't",
-      "food"
+      "love"
      ],
      "suggestion": "Don't worry, there's plenty of mash and peas too. What food do you love?",
      "suggestionFa": "نگران نباش، پورهٔ سیب‌زمینی و نخودفرنگی هم زیاده. چه غذایی را دوست داری؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love rice with saffron.",
    "translations": {
     "fa": "عاشق برنج با زعفرانم."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "saffron",
+      "cooking",
       "lovely",
-      "cook",
-      "must"
+      "must",
+      "cook"
      ],
      "suggestion": "Saffron! Lovely. You must cook for us one day. Do you like cooking?",
      "suggestionFa": "زعفران! چه خوب. باید یه روز برامون آشپزی کنی. آشپزی دوست داری؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I love cooking for friends.",
    "translations": {
     "fa": "آره، عاشق آشپزی برای دوستانم."
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like reading and listening to music.",
    "translations": {
     "fa": "دوست دارم کتاب بخونم و موسیقی گوش بدم."
@@ -204,7 +204,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Doing nothing isn't a hobby, Ryan!",
    "translations": {
     "fa": "هیچ کاری نکردن سرگرمی نیست، رایان!"
@@ -261,7 +261,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can wash up.",
    "translations": {
     "fa": "من می‌تونم ظرف بشورم."
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "treasure",
+      "pudding",
       "custard",
       "crumble",
-      "pudding",
       "though"
      ],
      "suggestion": "What a treasure! Pudding first, though. Apple crumble and custard!",
@@ -286,7 +286,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

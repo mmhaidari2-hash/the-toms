@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "william's",
       "bleeding",
-      "picking",
       "tissues",
-      "quick"
+      "picking",
+      "again"
      ],
      "suggestion": "Oh! William's nose is bleeding! He was picking it again. Quick — tissues! On the side!",
      "suggestionFa": "اوه! دماغ ویلیام داره خون میاد! باز داشت دماغش را می‌گرفت. زود — دستمال! رو کابینت!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here, tissues! What happened?",
    "translations": {
     "fa": "بفرما، دستمال! چی شد؟"
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are the tissues. It's OK, William!",
    "translations": {
     "fa": "اینم دستمال. اشکالی نداره ویلیام!"
@@ -108,10 +108,10 @@
     {
      "keywords": [
       "william",
-      "should",
       "always",
-      "back",
-      "good"
+      "should",
+      "head",
+      "said"
      ],
      "suggestion": "Good. Now, William, sit up. Should he tip his head back? My mum always said head back.",
      "suggestionFa": "خوبه. حالا ویلیام، صاف بشین. سرش را عقب ببره؟ مامانم همیشه می‌گفت سر عقب.",
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No! Lean forward, not back.",
    "translations": {
     "fa": "نه! به جلو خم شه، نه عقب."
@@ -132,11 +132,11 @@
    "branches": [
     {
      "keywords": [
-      "doesn't",
       "forward",
+      "doesn't",
       "throat",
-      "right",
-      "pinch"
+      "pinch",
+      "blood"
      ],
      "suggestion": "Forward. Right — so the blood doesn't go down his throat. Then I pinch the soft part of his nose. Here? Like this?",
      "suggestionFa": "جلو. درسته — که خون تو گلوش نره. بعد قسمت نرم دماغش را فشار میدم. اینجا؟ اینجوری؟",
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, just below the hard bit.",
    "translations": {
     "fa": "آره، درست زیر قسمت سفت."
@@ -208,7 +208,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, there. And breathe through your mouth, William.",
    "translations": {
     "fa": "آره، همون‌جا. و از دهنت نفس بکش ویلیام."
@@ -217,8 +217,8 @@
     {
      "keywords": [
       "minutes",
-      "hundred",
       "william",
+      "hundred",
       "slowly",
       "count"
      ],
@@ -233,7 +233,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Come on, William. Let's count together!",
    "translations": {
     "fa": "یالا ویلیام. بیا با هم بشمریم!"
@@ -290,7 +290,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eleventeen! Great counting, William!",
    "translations": {
     "fa": "یازده‌ده! شمردن عالی ویلیام!"
@@ -299,10 +299,10 @@
     {
      "keywords": [
       "brilliant",
-      "minutes",
       "picking",
       "stopped",
-      "mister"
+      "minutes",
+      "slowly"
      ],
      "suggestion": "Ten minutes. Let's let go… slowly… It's stopped! Brilliant. No more blood. Now — no picking for a while, mister!",
      "suggestionFa": "ده دقیقه. بیا ول کنیم… آروم… بند اومد! عالی. دیگه خون نیست. حالا — یه مدت دماغ‌گیری نه، آقا کوچولو!",
@@ -315,7 +315,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, William. You were very brave.",
    "translations": {
     "fa": "آفرین ویلیام. خیلی شجاع بودی."

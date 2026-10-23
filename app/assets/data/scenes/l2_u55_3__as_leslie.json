@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "mobile's",
       "credit",
       "maggie",
-      "phone",
-      "wants"
+      "doris",
+      "phone"
      ],
      "suggestion": "Maggie just rang from a phone box! Her pay-as-you-go mobile's out of credit. She wants to call Doris. Can you help me top it up?",
      "suggestionFa": "مگی همین الان از کیوسک تلفن زنگ زد! اعتبار موبایل اعتباریش تموم شده. می‌خواد به دوریس زنگ بزنه. کمکم می‌کنی شارژش کنم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Do you know her network?",
    "translations": {
     "fa": "حتماً. اپراتورش را می‌دونی؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "defibrillators",
       "network",
+      "number",
       "inside",
-      "orange",
-      "number"
+      "orange"
      ],
      "suggestion": "Ha! There are still a few. Some have defibrillators inside now! Her network… it's the orange one. I've got her number.",
      "suggestionFa": "ها! هنوز چند تا هست. توی بعضی‌هاشون الان دستگاه شوک قلبی هست! اپراتورش… همون نارنجیه. شماره‌اش را دارم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We can top up online. What's the website?",
    "translations": {
     "fa": "می‌تونیم آنلاین شارژ کنیم. سایتش چیه؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "online's",
       "quicker",
-      "enough",
       "pounds",
-      "number"
+      "number",
+      "enough"
      ],
      "suggestion": "Online's quicker. Here — \"Top up any number\". Put in her number. I'd like to top up ten pounds. Is that enough?",
      "suggestionFa": "آنلاین سریع‌تره. ببین — «شارژ هر شماره». شماره‌اش را بزن. می‌خوام ده پوند شارژ کنم. کافیه؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much does she use a month?",
    "translations": {
     "fa": "ماهی چقدر استفاده می‌کنه؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A bundle with unlimited calls. That's smart.",
    "translations": {
     "fa": "یه بسته با تماس نامحدود. هوشمندانه‌ست."
@@ -123,8 +123,8 @@
      "keywords": [
       "brilliant",
       "through",
-      "twenty",
       "pounds",
+      "twenty",
       "night"
      ],
      "suggestion": "No PIN, just my card. Pay… It's gone through! \"Twenty pounds added to 07…\" Brilliant. Now she can ring Doris all night.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's gone through. Let's tell her.",
    "translations": {
     "fa": "انجام شد. بیا بهش بگیم."
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "instead",
-      "she'll",
+      "pounds",
       "that's",
       "number",
-      "pounds"
+      "twenty"
      ],
      "suggestion": "She can dial a short number. But she won't. She'll ring us instead! Oh — that's her. Hello, Maggie? Yes, it's done! Twenty pounds.",
      "suggestionFa": "می‌تونه یه شمارهٔ کوتاه بگیره. ولی نمی‌گیره. به‌جاش به ما زنگ می‌زنه! اوه — خودشه. الو، مگی؟ آره، انجام شد! بیست پوند.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Say hello from me!",
    "translations": {
     "fa": "از طرف من سلام برسون!"
@@ -173,8 +173,8 @@
      "keywords": [
       "believe",
       "monthly",
+      "she's",
       "thank",
-      "going",
       "don't"
      ],
      "suggestion": "She says thank you, and you're \"a good boy\". And she's going to set up a monthly top-up. Ha! I don't believe it.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A monthly top-up. Then no more phone boxes!",
    "translations": {
     "fa": "شارژ ماهانه. اون‌وقت دیگه کیوسک تلفن نه!"
@@ -200,7 +200,7 @@
       "lessons",
       "trouble",
       "she'll",
-      "you'll"
+      "escape"
      ],
      "suggestion": "Sunday lunch at Maggie's, then phone lessons. She'll make you a cake for your trouble. You'll never escape!",
      "suggestionFa": "ناهار یکشنبه خونهٔ مگی، بعد آموزش تلفن. به‌خاطر زحمتت برات کیک می‌پزه. هیچ‌وقت راه فرار نداری!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

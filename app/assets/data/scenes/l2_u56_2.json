@@ -20,9 +20,9 @@
     {
      "keywords": [
       "everything",
-      "priya",
       "usual",
-      "know"
+      "priya",
+      "same"
      ],
      "suggestion": "Ha! Same as usual. You know everything, Priya.",
      "suggestionFa": "ها! مثل همیشه. تو همه‌چی را می‌دونی پریا.",
@@ -75,8 +75,8 @@
      "keywords": [
       "saffron",
       "have",
-      "got",
-      "any"
+      "any",
+      "got"
      ],
      "suggestion": "Have you got any saffron?",
      "suggestionFa": "زعفرون دارید؟",
@@ -135,10 +135,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "pounds",
-      "five",
-      "tiny"
+      "that's",
+      "same",
+      "iran"
      ],
      "suggestion": "Five pounds for a tiny box. That's the same in Iran!",
      "suggestionFa": "پنج پوند برای یه جعبهٔ کوچیک. تو ایران هم همینه!",
@@ -151,7 +151,7 @@
       "taste",
       "thank",
       "good",
-      "has"
+      "mum"
      ],
      "suggestion": "Thank you. Your mum has good taste!",
      "suggestionFa": "ممنون. مامانت سلیقه‌اش خوبه!",
@@ -219,7 +219,7 @@
       "moving",
       "week",
       "last",
-      "saw"
+      "van"
      ],
      "suggestion": "I saw a moving van last week.",
      "suggestionFa": "هفتهٔ پیش یه ون اسباب‌کشی دیدم.",
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "midnight",
-      "shop",
+      "open",
       "late",
-      "open"
+      "shop"
      ],
      "suggestion": "Midnight! Is the shop open that late?",
      "suggestionFa": "نصف‌شب! مغازه انقدر دیر بازه؟",
@@ -364,7 +364,7 @@
     },
     {
      "keywords": [
-      "card",
+      "i'll",
       "from",
       "take",
       "them"

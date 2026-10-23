@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "welcome",
       "posters",
-      "messy",
       "sorry",
-      "like"
+      "messy",
+      "room"
      ],
      "suggestion": "Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters?",
      "suggestionFa": "بیا تو! به اتاقم خوش اومدی. ببخشید، یه کم به‌هم‌ریخته‌ست. پوسترهام را دوست داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Who's that?",
    "translations": {
     "fa": "آره! اون کیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "footballer",
       "football",
-      "rovers",
+      "hackney",
       "that's",
-      "bukayo"
+      "rovers"
      ],
      "suggestion": "That's Danny Okoro. He's a footballer. He plays for Hackney Rovers. Do you like football?",
      "suggestionFa": "اون دنی اوکوروئه. فوتبالیسته. برای هکنی روورز بازی می‌کنه. فوتبال دوست داری؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I love football.",
    "translations": {
     "fa": "آره، عاشق فوتبالم."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What kind of music is it?",
    "translations": {
     "fa": "چه نوع موسیقی‌ایه؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Lucky you!",
    "translations": {
     "fa": "خوش به حالت!"
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like Lily Rose.",
    "translations": {
     "fa": "من لیلی رز دوست دارم."
@@ -149,7 +149,7 @@
       "what's",
       "games",
       "later",
-      "song"
+      "desk"
      ],
      "suggestion": "Play me a song later! What's that on my desk? Oh, my old games console.",
      "suggestionFa": "بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم.",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Does it still work?",
    "translations": {
     "fa": "هنوز کار می‌کنه؟"
@@ -172,8 +172,8 @@
      "keywords": [
       "clothes",
       "ancient",
-      "under",
       "works",
+      "under",
       "look"
      ],
      "suggestion": "It works, but it's ancient. Look at my bed — it's under all my clothes!",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the bed? I can't see it!",
    "translations": {
     "fa": "تخت کجاست؟ نمی‌بینمش!"
@@ -198,7 +198,7 @@
       "pigsty",
       "means",
       "tidy",
-      "says",
+      "room",
       "home"
      ],
      "suggestion": "Ha! She says my room is a \"pigsty\". That means a home for pigs. Is your room tidy?",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, my room is very tidy.",
    "translations": {
     "fa": "آره، اتاقم خیلی مرتبه."
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "crisps",
       "joking",
+      "crisps",
       "let's",
-      "mine",
-      "tidy"
+      "tidy",
+      "just"
      ],
      "suggestion": "Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps.",
      "suggestionFa": "خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم.",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

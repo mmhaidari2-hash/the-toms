@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "doing",
-      "home",
       "love",
+      "home",
       "hi"
      ],
      "suggestion": "Hi love, it's me. Are you at home? What are you doing?",
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm watching telly.",
    "translations": {
     "fa": "دارم تلویزیون می‌بینم."
@@ -47,8 +47,8 @@
      "keywords": [
       "homework",
       "lovely",
-      "check",
       "doing",
+      "check",
       "ryan"
      ],
      "suggestion": "Lovely. Is Ryan doing his homework? Can you check?",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, he's playing video games.",
    "translations": {
     "fa": "نه، داره بازی ویدیویی می‌کنه."
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She's drawing a picture.",
    "translations": {
     "fa": "داره نقاشی می‌کشه."
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "william",
-      "being",
       "quiet",
+      "being",
       "he's",
       "aw"
      ],
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's sleeping on the sofa.",
    "translations": {
     "fa": "داره روی مبل می‌خوابه."
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "sleeping",
       "goodness",
+      "sleeping",
       "waiting",
       "thank",
       "usual"
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it raining there?",
    "translations": {
     "fa": "اونجا بارون میاد؟"
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "getting",
+      "minutes",
       "twenty",
       "please",
       "love"
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "practises",
-      "guitar",
-      "that's",
       "listen",
-      "every"
+      "that's",
+      "guitar",
+      "plays"
      ],
      "suggestion": "Listen! That's Ryan. He plays the guitar. He practises every day!",
      "suggestionFa": "گوش کن! رایانه. گیتار می‌زنه. هر روز تمرین می‌کنه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is he good?",
    "translations": {
     "fa": "خوب می‌زنه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "getting",
       "better",
-      "songs",
+      "plays",
       "mummy",
-      "plays"
+      "songs"
      ],
      "suggestion": "He's OK. Mummy says he's getting better. He plays loud songs.",
      "suggestionFa": "خوبه. مامان میگه داره بهتر میشه. آهنگ‌های بلند می‌زنه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Does he have lessons?",
    "translations": {
     "fa": "کلاس میره؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mia, do you play an instrument?",
    "translations": {
     "fa": "میا، سازی می‌زنی؟"
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! I played the recorder too.",
    "translations": {
     "fa": "ها! منم ریکوردر می‌زدم."
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "little",
-      "drums",
       "mummy",
-      "says",
-      "play"
+      "drums",
+      "pipe",
+      "blow"
      ],
      "suggestion": "It's a little pipe. You blow it. Does Ryan play the drums? No! Mummy says no drums!",
      "suggestionFa": "یه لوله کوچیکه. فوتش می‌کنی. رایان درام می‌زنه؟ نه! مامان میگه درام نه!",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Drums are very loud.",
    "translations": {
     "fa": "درام خیلی بلنده."
@@ -181,7 +181,7 @@
       "music",
       "play"
      ],
-     "suggestion": "Do you play music, Mehdi?",
+     "suggestion": "Do you play music, {you}?",
      "suggestionFa": "تو موسیقی می‌زنی {you}؟",
      "trustDelta": 5,
      "next": "r8",
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I play the setar a little.",
    "translations": {
     "fa": "یه کم سه‌تار می‌زنم."
@@ -214,7 +214,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's like a small guitar. From Iran.",
    "translations": {
     "fa": "شبیه یه گیتار کوچیکه. از ایران."
@@ -224,9 +224,9 @@
      "keywords": [
       "buttons",
       "dance",
+      "ryan",
       "band",
-      "play",
-      "sing"
+      "play"
      ],
      "suggestion": "Can you play it with Ryan? A band! Mia and me can dance. And Mr Buttons can sing!",
      "suggestionFa": "می‌تونی با رایان بزنیش؟ یه گروه! من و میا می‌رقصیم. و آقای دکمه می‌خونه!",
@@ -239,7 +239,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

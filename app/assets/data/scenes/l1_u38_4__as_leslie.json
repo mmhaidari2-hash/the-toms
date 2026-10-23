@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "tomorrow",
+      "birthday",
       "presents",
       "writing",
       "nicola"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are thank-you notes?",
    "translations": {
     "fa": "یادداشت تشکر چیه؟"
@@ -61,7 +61,7 @@
   "r3": {
    "id": "r3",
    "speaker": "nicola",
-   "text": "Boring! Do I have to? Can Mehdi help me?",
+   "text": "Boring! Do I have to? Can {you} help me?",
    "translations": {
     "fa": "خسته‌کننده‌ست! مجبورم؟ {you} کمکم می‌کنه؟"
    },
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'll help you.",
    "translations": {
     "fa": "آره، کمکت می‌کنم."
@@ -102,8 +102,8 @@
       "nicola",
       "thank",
       "first",
-      "gave",
-      "nana"
+      "nana",
+      "gave"
      ],
      "suggestion": "Thank you! First, Nana. She gave Nicola a book.",
      "suggestionFa": "ممنون! اول، نانا. به نیکولا یه کتاب داد.",
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Dear Nana, thank you for the book.\"",
    "translations": {
     "fa": "«نانای عزیز، ممنون بابت کتاب.»"
@@ -167,7 +167,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good! That's a nice thing to say.",
    "translations": {
     "fa": "خوبه! حرف قشنگیه."
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Thank you for coming to my party.\"",
    "translations": {
     "fa": "«ممنون که اومدی جشنم.»"
@@ -233,10 +233,10 @@
     {
      "keywords": [
       "picture",
-      "lovely",
       "nicola",
-      "sign",
-      "draw"
+      "lovely",
+      "many",
+      "then"
      ],
      "suggestion": "Both! Lovely. Then draw a picture and sign it. How many more, Nicola?",
      "suggestionFa": "هر دو! عالی. بعد یه نقاشی بکش و امضاش کن. چند تای دیگه مونده نیکولا؟",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's count.",
    "translations": {
     "fa": "بیا بشمریم."
@@ -300,7 +300,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A note is better.",
    "translations": {
     "fa": "یادداشت بهتره."
@@ -309,12 +309,12 @@
     {
      "keywords": [
       "helping",
-      "great",
-      "thank",
       "write",
-      "idea"
+      "thank",
+      "great",
+      "year"
      ],
-     "suggestion": "Great idea — one a day! And next year you can write one to Mehdi too. Thank you for helping!",
+     "suggestion": "Great idea — one a day! And next year you can write one to {you} too. Thank you for helping!",
      "suggestionFa": "فکر عالیه — روزی یکی! و سال بعد یکی هم برای {you} می‌نویسی. ممنون بابت کمک!",
      "trustDelta": 5,
      "next": "r13",
@@ -325,7 +325,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

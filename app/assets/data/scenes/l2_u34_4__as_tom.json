@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't worry, Ryan. It's not bad!",
    "translations": {
     "fa": "نگران نباش رایان. بد نیست!"
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It wasn't bad, Ryan. It was mostly good!",
    "translations": {
     "fa": "بد نبود رایان. بیشترش خوب بود!"
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Ryan! A 7 is great.",
    "translations": {
     "fa": "آفرین رایان! ۷ عالیه."
@@ -187,7 +187,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maths. Mr Patel said you need to work on algebra.",
    "translations": {
     "fa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی."
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "homework",
-      "decided",
       "kitchen",
-      "seven",
-      "we've"
+      "decided",
+      "we've",
+      "phone"
      ],
      "suggestion": "Five late, Ryan. \"I did it on the bus,\" you said! So we've decided. From now on: homework seven to eight. Phone in the kitchen.",
      "suggestionFa": "پنج تا دیر، رایان. گفتی «تو اتوبوس انجامش دادم»! پس تصمیم گرفتیم. از حالا به بعد: تکلیف هفت تا هشت. گوشی تو آشپزخونه.",
@@ -212,7 +212,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven to eight. That's a good plan.",
    "translations": {
     "fa": "هفت تا هشت. برنامهٔ خوبیه."
@@ -273,7 +273,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's only one hour, Ryan.",
    "translations": {
     "fa": "فقط یه ساعته رایان."
@@ -282,10 +282,10 @@
     {
      "keywords": [
       "thursdays",
-      "mondays",
-      "algebra",
       "strange",
-      "here's"
+      "algebra",
+      "mondays",
+      "lodger"
      ],
      "suggestion": "One hour. And here's the deal — our lodger likes algebra. Strange man. He can help you on Mondays and Thursdays.",
      "suggestionFa": "یه ساعت. و قرارمون اینه — مستأجرمون جبر دوست داره. آدم عجیبیه. می‌تونه دوشنبه‌ها و پنج‌شنبه‌ها کمکت کنه.",
@@ -298,7 +298,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can help you, Ryan.",
    "translations": {
     "fa": "آره، می‌تونم کمکت کنم رایان."
@@ -357,7 +357,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal. We start on Monday!",
    "translations": {
     "fa": "قبول. از دوشنبه شروع می‌کنیم!"
@@ -367,8 +367,8 @@
      "keywords": [
       "seventeen",
       "summer",
-      "maths",
       "teach",
+      "maths",
       "don't"
      ],
      "suggestion": "And if your Maths goes up to a 5 by summer… I'll teach you to drive in the car park. When you're seventeen. Don't tell your mum.",
@@ -382,7 +382,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tom! Leslie will find out!",
    "translations": {
     "fa": "تام! لزلی می‌فهمه!"
@@ -447,7 +447,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm the witness! I heard it.",
    "translations": {
     "fa": "من شاهدم! شنیدم."
@@ -455,8 +455,8 @@
    "branches": [
     {
      "keywords": [
-      "official",
       "starting",
+      "official",
       "kitchen",
       "signed",
       "lodger"
@@ -472,7 +472,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

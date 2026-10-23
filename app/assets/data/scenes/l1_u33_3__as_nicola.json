@@ -44,7 +44,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a lovely idea.",
    "translations": {
     "fa": "چه فکر قشنگی."
@@ -53,8 +53,8 @@
     {
      "keywords": [
       "favourite",
-      "yellow",
       "colour",
+      "yellow",
       "likes",
       "nana"
      ],
@@ -69,7 +69,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sunflowers are yellow.",
    "translations": {
     "fa": "آفتابگردون زرده."
@@ -92,7 +92,7 @@
   "r4": {
    "id": "r4",
    "speaker": "leslie",
-   "text": "Sunflowers or roses? Hmm. Which do you prefer, Mehdi?",
+   "text": "Sunflowers or roses? Hmm. Which do you prefer, {you}?",
    "translations": {
     "fa": "آفتابگردون یا رز؟ هوم. تو کدوم را ترجیح میدی {you}؟"
    },
@@ -121,7 +121,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I prefer the sunflowers. They're happy.",
    "translations": {
     "fa": "من آفتابگردون را ترجیح میدم. شادن."
@@ -173,7 +173,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then let's get the roses.",
    "translations": {
     "fa": "پس رز بخریم."
@@ -198,7 +198,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Daffodils! Good thinking, Nicola.",
    "translations": {
     "fa": "نرگس! فکر خوبیه نیکولا."
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can we wrap them in paper?",
    "translations": {
     "fa": "می‌شه تو کاغذ بپیچیمشون؟"
@@ -275,7 +275,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course you can.",
    "translations": {
     "fa": "البته که می‌تونی."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "school",
-      "about",
       "today",
       "socks",
-      "know"
+      "about",
+      "says"
      ],
      "suggestion": "Is it \"Odd Socks Day\" at school today? Mum says it is. Do you know about it?",
      "suggestionFa": "امروز تو مدرسه «روز جوراب لنگه به لنگه»ست؟ مامان می‌گه هست. چیزی دربارهش می‌دونی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. What is it?",
    "translations": {
     "fa": "نه. چیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "different",
       "bullying",
-      "match",
       "don't",
-      "socks"
+      "socks",
+      "match"
      ],
      "suggestion": "Odd means they don't match. Two different socks! It's for anti-bullying week.",
      "suggestionFa": "اود یعنی جور نیستن. دو تا جوراب متفاوت! برای هفتهٔ مبارزه با قلدریه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a nice idea!",
    "translations": {
     "fa": "چه فکر قشنگی!"
@@ -73,9 +73,9 @@
      "keywords": [
       "different",
       "because",
-      "choose",
       "that's",
-      "which"
+      "choose",
+      "socks"
      ],
      "suggestion": "Because we're all different. And that's OK! So, which socks? Help me choose.",
      "suggestionFa": "چون همه‌مون فرق داریم. و اشکالی نداره! خب، کدوم جوراب‌ها؟ کمکم کن انتخاب کنم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One red and one with stripes.",
    "translations": {
     "fa": "یکی قرمز و یکی راه‌راه."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's too small for you!",
    "translations": {
     "fa": "برات خیلی کوچیکه!"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "trousers",
-      "stripes",
       "doesn't",
+      "stripes",
       "jumper",
       "match"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, they go well together.",
    "translations": {
     "fa": "آره، با هم جورن."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Except for the socks today!",
    "translations": {
     "fa": "به جز جوراب‌ها امروز!"
@@ -174,8 +174,8 @@
       "sometimes",
       "school",
       "socks",
-      "hate",
-      "wear"
+      "ties",
+      "most"
      ],
      "suggestion": "Most do. My school has a tie too. I hate ties! Do you wear odd socks sometimes?",
      "suggestionFa": "بیشترشون. مدرسهٔ من کراوات هم داره. از کراوات متنفرم! تو گاهی جوراب ناجور می‌پوشی؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Every day! I can never find a pair.",
    "translations": {
     "fa": "هر روز! هیچ‌وقت یه جفت پیدا نمی‌کنم."
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "socks",
       "every",
+      "right",
       "late",
-      "odd"
+      "tie"
      ],
      "suggestion": "Ha! Every day is Odd Socks Day for you! Right, I'm late. Socks on, tie on — bye!",
      "suggestionFa": "ها! هر روز برای تو روز جوراب ناجوره! خب، دیرم شد. جوراب پام، کراوات گردنم — خداحافظ!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "stairs",
       "forgot",
-      "mum's",
-      "about",
-      "under"
+      "stairs",
+      "she's",
+      "under",
+      "about"
      ],
      "suggestion": "Oh no. We forgot the bags. Mum's going to kill me. She's got about fifty under the stairs!",
      "suggestionFa": "ای وای. کیسه‌ها یادمون رفت. مامان منو می‌کشه. حدود پنجاه تا زیر پله‌ها داره!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fifty bags? Why so many?",
    "translations": {
     "fa": "پنجاه تا کیسه؟ چرا این‌قدر زیاد؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! How much is a bag?",
    "translations": {
     "fa": "ها! کیسه چنده؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "strong",
-      "pence",
       "sixty",
       "again",
-      "every"
+      "every",
+      "pence"
      ],
      "suggestion": "Not here. You pay for every bag. A \"bag for life\" is sixty pence. It's strong. You use it again and again.",
      "suggestionFa": "اینجا نه. برای هر کیسه پول میدی. «کیسهٔ دائمی» شصت پنسه. محکمه. بارها و بارها ازش استفاده می‌کنی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's get two. We've got a lot of things.",
    "translations": {
     "fa": "دو تا بگیریم. چیزای زیادی داریم."
@@ -98,9 +98,9 @@
      "keywords": [
       "bottom",
       "really",
-      "stuff",
+      "break",
       "heavy",
-      "break"
+      "stuff"
      ],
      "suggestion": "Two. Eggs at the top! If they break, Mum will REALLY kill me. Put the heavy stuff at the bottom.",
      "suggestionFa": "دو تا. تخم‌مرغ بالا! اگه بشکنن، مامان واقعاً منو می‌کشه. چیزای سنگین را بذار ته.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Milk at the bottom, eggs on top.",
    "translations": {
     "fa": "شیر ته، تخم‌مرغ بالا."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you! Next time I'll bring my own bag.",
    "translations": {
     "fa": "ممنون! دفعهٔ بعد کیسهٔ خودم را میارم."
@@ -149,8 +149,8 @@
       "rucksack",
       "always",
       "today",
-      "from",
-      "keep"
+      "well",
+      "true"
      ],
      "suggestion": "True. Hey — tip: keep a bag in your rucksack. Always. I've got one now. Well — I will have one. From today.",
      "suggestionFa": "راسته. هی — یه نکته: همیشه یه کیسه تو کوله‌ات نگه دار. همیشه. من الان یکی دارم. خب — از امروز خواهم داشت.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Shall we go home now?",
    "translations": {
     "fa": "فکر خوبیه. بریم خونه؟"
@@ -173,9 +173,9 @@
      "keywords": [
       "bringing",
       "she's",
-      "laugh",
       "these",
-      "going"
+      "laugh",
+      "we're"
      ],
      "suggestion": "Yeah. Oh — and we're bringing these bags home. So now Mum has fifty-two. She's going to laugh. Or cry.",
      "suggestionFa": "آره. آهان — و این کیسه‌ها را می‌بریم خونه. پس حالا مامان پنجاه و دو تا داره. یا می‌خنده. یا گریه می‌کنه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "school",
       "called",
+      "school",
       "dinner",
       "lunch"
      ],
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "fingers",
-      "like",
-      "fish"
+      "fish",
+      "like"
      ],
      "suggestion": "I like fish fingers too.",
      "suggestionFa": "منم فیش فینگر دوست دارم.",
@@ -314,9 +314,9 @@
     },
     {
      "keywords": [
-      "ask",
+      "mrs",
       "pat",
-      "mrs"
+      "ask"
      ],
      "suggestion": "Ask Mrs Pat, not me!",
      "suggestionFa": "از خانم پت بپرس، نه از من!",

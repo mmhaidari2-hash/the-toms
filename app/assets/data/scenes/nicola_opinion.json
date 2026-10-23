@@ -22,10 +22,10 @@
    "branches": [
     {
      "keywords": [
-      "point",
       "sleep",
+      "point",
       "need",
-      "see"
+      "but"
      ],
      "suggestion": "I see your point, but you need your sleep for school.",
      "suggestionFa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری.",
@@ -38,7 +38,7 @@
       "really",
       "tired",
       "don't",
-      "agree"
+      "you'd"
      ],
      "suggestion": "I don't agree — you'd be really tired at school.",
      "suggestionFa": "موافق نیستم — تو مدرسه خیلی خسته می‌شی.",
@@ -75,8 +75,8 @@
      "keywords": [
       "fifteen",
       "ryan's",
-      "older",
-      "later"
+      "later",
+      "older"
      ],
      "suggestion": "Ryan's older. When you're fifteen, you can stay up later too.",
      "suggestionFa": "رایان بزرگ‌تره. وقتی پونزده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی.",
@@ -123,7 +123,7 @@
       "reason",
       "that's",
       "good",
-      "but"
+      "one"
      ],
      "suggestion": "That's a reason, but is it a good one?",
      "suggestionFa": "این یه دلیله، ولی دلیل خوبیه؟",
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "catch-up",
+      "catch",
       "watch",
       "next",
-      "can"
+      "day"
      ],
      "suggestion": "You can watch it the next day on catch-up.",
      "suggestionFa": "می‌تونی روز بعد تو اپ پخش مجدد ببینیش.",
@@ -227,7 +227,7 @@
       "especially",
       "children",
       "summer",
-      "stay"
+      "lots"
      ],
      "suggestion": "Lots of children stay up late, especially in summer.",
      "suggestionFa": "خیلی از بچه‌ها دیر می‌خوابن، مخصوصاً تابستون.",
@@ -328,8 +328,8 @@
      "keywords": [
       "compromise",
       "fridays",
-      "eight",
-      "about"
+      "about",
+      "eight"
      ],
      "suggestion": "How about a compromise — half eight on Fridays?",
      "suggestionFa": "یه راه میانه چطوره — جمعه‌ها هشت و نیم؟",
@@ -390,8 +390,8 @@
     {
      "keywords": [
       "that's",
-      "final",
       "offer",
+      "final",
       "just"
      ],
      "suggestion": "Just Fridays. That's my final offer!",

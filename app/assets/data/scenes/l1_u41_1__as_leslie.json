@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "surgery",
       "here's",
       "first",
-      "help"
+      "need"
      ],
      "suggestion": "First, you need to register at the surgery. Here's the form. I'll help you.",
      "suggestionFa": "اول باید تو مطب ثبت‌نام کنی. اینم فرم. کمکت می‌کنم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. What's a surgery?",
    "translations": {
     "fa": "ممنون. «سرجری» چیه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a surname?",
    "translations": {
     "fa": "سرنیم یعنی چی؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "address",
-      "street",
       "number",
+      "street",
       "family",
-      "mare"
+      "name"
      ],
      "suggestion": "Your family name. Then your address. You're at number ten, Mare Street.",
      "suggestionFa": "اسم فامیلت. بعد آدرست. تو پلاک ده، خیابون مر هستی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Number ten, Mare Street. What's the postcode?",
    "translations": {
     "fa": "پلاک ده، خیابون مر. کد پستی چیه؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "postcode",
+      "write",
       "month",
       "birth",
-      "write",
-      "year"
+      "same"
      ],
      "suggestion": "The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year.",
      "suggestionFa": "کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Day first, then month?",
    "translations": {
     "fa": "اول روز، بعد ماه؟"
@@ -125,7 +125,7 @@
       "normal",
       "number",
       "phone",
-      "first"
+      "email"
      ],
      "suggestion": "Use the normal calendar. Day first! Then your phone number and email.",
      "suggestionFa": "از تقویم معمولی استفاده کن. اول روز! بعد شماره تلفن و ایمیلت.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My phone number starts with 07.",
    "translations": {
     "fa": "شماره‌م با ۰۷ شروع میشه."
@@ -191,7 +191,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I don't.",
    "translations": {
     "fa": "نه، ندارم."
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? That's easy.",
    "translations": {
     "fa": "واقعاً؟ آسونه."

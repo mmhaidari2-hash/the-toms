@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,9 +23,9 @@
      "keywords": [
       "learning",
       "tuesday",
-      "monday",
       "what's",
-      "next"
+      "monday",
+      "week"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wednesday!",
    "translations": {
     "fa": "چهارشنبه!"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "wednesday",
-      "funny",
       "there",
+      "funny",
       "word",
       "nes"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nobody knows! You don't say it.",
    "translations": {
     "fa": "هیچ‌کس نمی‌دونه! تلفظش نمی‌کنی."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "saturday",
       "thursday",
+      "saturday",
       "weekend",
       "friday",
       "sunday"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Me too. No school!",
    "translations": {
     "fa": "منم. مدرسه نیست!"
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We visit family and have a big lunch.",
    "translations": {
     "fa": "به خانواده سر می‌زنیم و یه ناهار مفصل می‌خوریم."
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "On Mondays and Wednesdays.",
    "translations": {
     "fa": "دوشنبه‌ها و چهارشنبه‌ها."
@@ -159,7 +159,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Today is Thursday.",
    "translations": {
     "fa": "امروز پنجشنبه‌ست."
@@ -184,7 +184,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Every Friday?",
    "translations": {
     "fa": "هر جمعه؟"
@@ -192,8 +192,8 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "chippy",
+      "friday",
       "daddy",
       "every",
       "from"
@@ -209,7 +209,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! Your daddy is funny.",
    "translations": {
     "fa": "ها ها! بابات بامزه‌ست."
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "wednesday",
-      "saturday",
       "thursday",
+      "saturday",
       "tuesday",
       "friday"
      ],
@@ -234,7 +234,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

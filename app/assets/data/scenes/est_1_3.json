@@ -1,0 +1,283 @@
+{
+ "id": "est_1_3",
+ "characterId": "agent",
+ "title": "The holding deposit",
+ "titleFa": "ودیعهٔ نگهداری",
+ "setting": "Finding a flat · Level 0",
+ "settingFa": "پیدا کردن آپارتمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Hi {you}, it's Olivia from Fennick and Rowe. You wanted to go ahead with the Mare Street flat?",
+   "translations": {
+    "fa": "سلام {you}، اولیویا از فنیک اند رو هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "like",
+      "rent",
+      "i'd"
+     ],
+     "suggestion": "Yes, I'd like to rent it, please.",
+     "suggestionFa": "بله، می‌خوام اجاره‌ش کنم لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "still",
+      "free"
+     ],
+     "suggestion": "Yes! Is it still free?",
+     "suggestionFa": "آره! هنوز آزاده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "go ahead",
+     "fa": "اقدام کردن ؛ ادامه دادن"
+    },
+    {
+     "word": "rent",
+     "fa": "اجاره کردن ؛ اجاره"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Great news. To take it off the market, there's a holding deposit of one week's rent. That's two hundred and seventy-six pounds.",
+   "translations": {
+    "fa": "خبر خوبیه. برای اینکه از بازار برداریمش، یه ودیعهٔ نگهداری به اندازهٔ اجارهٔ یه هفته هست. یعنی دویست و هفتاد و شش پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "work",
+      "out",
+      "how"
+     ],
+     "suggestion": "How do you work that out?",
+     "suggestionFa": "این را چطور حساب می‌کنید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maximum",
+      "can",
+      "ask",
+      "ok"
+     ],
+     "suggestion": "OK. Is that the maximum you can ask for?",
+     "suggestionFa": "باشه. این حداکثر چیزیه که می‌تونید بخواید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "holding deposit",
+     "fa": "ودیعهٔ نگهداری"
+    },
+    {
+     "word": "take it off the market",
+     "fa": "از بازار خارج کردن"
+    },
+    {
+     "word": "work out",
+     "fa": "حساب کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England a holding deposit can be no more than one week's rent: monthly rent × 12 ÷ 52. £1,200 × 12 ÷ 52 ≈ £276.",
+    "fa": "در انگلستان ودیعهٔ نگهداری حداکثر اجارهٔ یک هفته است: اجارهٔ ماهانه × ۱۲ ÷ ۵۲."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "It's the monthly rent times twelve, divided by fifty-two. And yes, one week is the legal maximum.",
+   "translations": {
+    "fa": "اجارهٔ ماهانه ضربدر دوازده، تقسیم بر پنجاه و دو. و بله، یه هفته حداکثر قانونیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "back",
+      "get"
+     ],
+     "suggestion": "Do I get it back?",
+     "suggestionFa": "پسش می‌گیرم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happens",
+      "move",
+      "if"
+     ],
+     "suggestion": "What happens to it if I move in?",
+     "suggestionFa": "اگه اسباب‌کشی کنم چی می‌شه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "times",
+     "fa": "ضربدر"
+    },
+    {
+     "word": "divided by",
+     "fa": "تقسیم بر"
+    },
+    {
+     "word": "legal maximum",
+     "fa": "حداکثر قانونی"
+    },
+    {
+     "word": "get it back",
+     "fa": "پس گرفتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "If you move in, it usually becomes part of your first rent or your deposit. If the landlord pulls out, you get it all back.",
+   "translations": {
+    "fa": "اگه اسباب‌کشی کنید، معمولاً بخشی از اولین اجاره یا ودیعه‌تون می‌شه. اگه صاحبخونه منصرف بشه، کاملش را پس می‌گیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "change",
+      "mind",
+      "if"
+     ],
+     "suggestion": "And if I change my mind?",
+     "suggestionFa": "و اگه نظرم عوض بشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "keep",
+      "when",
+      "can"
+     ],
+     "suggestion": "When can you keep it?",
+     "suggestionFa": "کِی می‌تونید نگهش دارید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pull out",
+     "fa": "منصرف شدن ؛ کنار کشیدن"
+    },
+    {
+     "word": "change my mind",
+     "fa": "نظرم عوض شود"
+    },
+    {
+     "word": "keep",
+     "fa": "نگه داشتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "We can keep it if you pull out, or if you give us false information. We normally agree the tenancy within fifteen days.",
+   "translations": {
+    "fa": "اگه شما منصرف بشید، یا اطلاعات نادرست بدید، می‌تونیم نگهش داریم. معمولاً ظرف پونزده روز قرارداد را نهایی می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "writing",
+      "that's",
+      "clear",
+      "send"
+     ],
+     "suggestion": "That's clear. Can you send it to me in writing?",
+     "suggestionFa": "روشنه. می‌شه کتبی برام بفرستید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fine",
+      "pay",
+      "how"
+     ],
+     "suggestion": "Fine. How do I pay it?",
+     "suggestionFa": "باشه. چطور پرداختش کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "false information",
+     "fa": "اطلاعات نادرست"
+    },
+    {
+     "word": "in writing",
+     "fa": "کتبی"
+    },
+    {
+     "word": "fifteen days",
+     "fa": "پانزده روز"
+    }
+   ],
+   "cultureNote": {
+    "en": "The rules are in the Tenant Fees Act 2019. The deadline to agree is normally 15 days unless you both agree another date.",
+    "fa": "این قوانین در قانون هزینه‌های مستأجر ۲۰۱۹ است؛ مهلت معمولاً ۱۵ روز است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "send me in writing",
+      "write it me"
+     ],
+     "echo": "Could you send it to me in writing? Of course.",
+     "better": "Can you send it to me in writing?",
+     "betterFa": "می‌شه کتبی برام بفرستید؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "agent",
+   "text": "Of course. I'll email you a receipt and the details now, and you can pay by bank transfer.",
+   "translations": {
+    "fa": "حتماً. همین الان رسید و جزئیات را ایمیل می‌کنم، و می‌تونید با انتقال بانکی پرداخت کنید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

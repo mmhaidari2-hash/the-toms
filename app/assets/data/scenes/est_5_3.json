@@ -1,0 +1,235 @@
+{
+ "id": "est_5_3",
+ "characterId": "graham",
+ "title": "Solicitors and surveys",
+ "titleFa": "وکیل و ارزیابی ساختمان",
+ "setting": "Buying a home · Level 0",
+ "settingFa": "خرید خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "Have you found a solicitor or a licensed conveyancer yet? They do all the legal work, called conveyancing.",
+   "translations": {
+    "fa": "وکیل یا مشاور حقوقی انتقال ملک پیدا کردید؟ همهٔ کارهای حقوقی را انجام می‌دن، که بهش می‌گن انتقال ملک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "they",
+      "yet"
+     ],
+     "suggestion": "Not yet. What exactly do they do?",
+     "suggestionFa": "هنوز نه. دقیقاً چی کار می‌کنن؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "conveyancing",
+      "usually",
+      "cost",
+      "much"
+     ],
+     "suggestion": "How much does conveyancing usually cost?",
+     "suggestionFa": "انتقال ملک معمولاً چقدر خرج داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "solicitor",
+     "fa": "وکیل"
+    },
+    {
+     "word": "licensed conveyancer",
+     "fa": "کارشناس مجاز انتقال ملک"
+    },
+    {
+     "word": "conveyancing",
+     "fa": "انتقال حقوقی ملک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "They check the contract, and searches are done with the council — for things like planning and roads. Prices vary, so get a few quotes.",
+   "translations": {
+    "fa": "قرارداد را بررسی می‌کنن، و استعلام‌ها از شورا انجام می‌شه — برای چیزهایی مثل مجوز ساخت و جاده‌ها. قیمت‌ها فرق می‌کنه، پس از چند جا قیمت بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problems",
+      "checked",
+      "flat"
+     ],
+     "suggestion": "Is the flat checked for problems too?",
+     "suggestionFa": "آپارتمان هم از نظر مشکلات بررسی می‌شه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "searches"
+     ],
+     "suggestion": "What are \"searches\"?",
+     "suggestionFa": "«استعلام» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contract",
+     "fa": "قرارداد"
+    },
+    {
+     "word": "searches",
+     "fa": "استعلام‌ها"
+    },
+    {
+     "word": "planning",
+     "fa": "مجوز ساخت ؛ برنامه‌ریزی شهری"
+    },
+    {
+     "word": "quotes",
+     "fa": "برآورد قیمت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the flat is check",
+      "is checked the flat"
+     ],
+     "echo": "Is the flat checked for problems too? That's the survey.",
+     "better": "Is the flat checked for problems too?",
+     "betterFa": "آپارتمان هم از نظر مشکلات بررسی می‌شه؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "That's a separate job: the survey. The lender's valuation only checks the price for the bank — it isn't a survey for you.",
+   "translations": {
+    "fa": "اون یه کار جداست: ارزیابی ساختمان. قیمت‌گذاری وام‌دهنده فقط قیمت را برای بانک بررسی می‌کنه — ارزیابی برای شما نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "which",
+      "get"
+     ],
+     "suggestion": "Which survey should I get?",
+     "suggestionFa": "کدوم ارزیابی را بگیرم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "worth"
+     ],
+     "suggestion": "Is a survey really worth it?",
+     "suggestionFa": "ارزیابی واقعاً می‌ارزه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "survey",
+     "fa": "ارزیابی ساختمان"
+    },
+    {
+     "word": "valuation",
+     "fa": "قیمت‌گذاری"
+    },
+    {
+     "word": "separate",
+     "fa": "جدا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Home surveys in the UK often come in three levels: Level 1 (basic), Level 2 (most common, for standard homes) and Level 3 (detailed, for older or unusual buildings).",
+    "fa": "ارزیابی خانه سه سطح دارد: سطح ۱ ساده، سطح ۲ رایج‌ترین، سطح ۳ دقیق برای ساختمان‌های قدیمی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "For a modern flat, a Level 2 survey is usually enough. For a Victorian house, I'd get a Level 3. It can save you thousands.",
+   "translations": {
+    "fa": "برای یه آپارتمان نوساز، معمولاً ارزیابی سطح ۲ کافیه. برای خونهٔ ویکتوریایی، سطح ۳ می‌گرفتم. می‌تونه هزاران پوند براتون صرفه‌جویی کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "then"
+     ],
+     "suggestion": "And then what happens?",
+     "suggestionFa": "و بعد چی می‌شه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "keys",
+      "when",
+      "get"
+     ],
+     "suggestion": "When do I get the keys?",
+     "suggestionFa": "کِی کلیدها را می‌گیرم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "modern",
+     "fa": "نوساز ؛ مدرن"
+    },
+    {
+     "word": "Victorian",
+     "fa": "ویکتوریایی ؛ قدیمی (قرن ۱۹)"
+    },
+    {
+     "word": "save you thousands",
+     "fa": "هزاران پوند صرفه‌جویی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "When everything is ready, contracts are exchanged and your deposit is paid — now it's binding. Then on completion day, the money is sent and you get the keys.",
+   "translations": {
+    "fa": "وقتی همه چی آماده شد، قراردادها مبادله می‌شن و پیش‌پرداخت‌تون پرداخت می‌شه — حالا الزام‌آوره. بعد روز تکمیل معامله، پول فرستاده می‌شه و کلیدها را می‌گیرید."
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": {
+    "en": "Exchange of contracts makes the sale legally binding. Completion is the day the money moves and you get the keys — often one to four weeks later.",
+    "fa": "مبادلهٔ قرارداد معامله را الزام‌آور می‌کند؛ روز تکمیل پول منتقل و کلید تحویل می‌شود."
+   }
+  }
+ }
+}

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -25,7 +25,7 @@
       "decorate",
       "market",
       "daddy",
-      "from"
+      "tree"
      ],
      "suggestion": "The Christmas tree is here! Daddy got it from the market! Can you help me decorate it?",
      "suggestionFa": "درخت کریسمس رسید! بابا از بازار گرفتش! کمکم می‌کنی تزئینش کنیم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What do we put on it?",
    "translations": {
     "fa": "آره! چی روش می‌ذاریم؟"
@@ -50,7 +50,7 @@
       "lights",
       "daddy",
       "first",
-      "hold"
+      "then"
      ],
      "suggestion": "Daddy says lights first, then baubles. Can you hold this end?",
      "suggestionFa": "بابا میگه اول چراغ، بعد گوی‌ها. می‌تونی این سرش را بگیری؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm holding it.",
    "translations": {
     "fa": "گرفتمش."
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "bottom",
-      "shiny",
-      "balls",
       "small",
+      "balls",
+      "shiny",
       "ones"
      ],
      "suggestion": "The shiny balls! Big ones at the bottom, small ones at the top.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Big ones at the bottom.",
    "translations": {
     "fa": "بزرگا پایین."
@@ -100,7 +100,7 @@
       "tinsel",
       "round",
       "tree",
-      "put"
+      "now"
      ],
      "suggestion": "Now tinsel! It's sparkly! Put it round and round the tree.",
      "suggestionFa": "حالا ریسه! برق می‌زنه! دور تا دور درخت بپیچش.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Round and round. Like this?",
    "translations": {
     "fa": "دور تا دور. این‌جوری؟"
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "snowman",
       "special",
+      "snowman",
       "school",
       "made",
       "one"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's beautiful, Nicola.",
    "translations": {
     "fa": "قشنگه نیکولا."
@@ -148,9 +148,9 @@
      "keywords": [
       "middle",
       "small",
-      "goes",
       "star",
-      "top"
+      "goes",
+      "now"
      ],
      "suggestion": "In the middle! Now the star. It goes on top! But I'm too small.",
      "suggestionFa": "وسط! حالا ستاره. بالای درخت میره! ولی من خیلی کوچیکم.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll lift you up.",
    "translations": {
     "fa": "بلندت می‌کنم."
@@ -173,8 +173,8 @@
      "keywords": [
       "lights",
       "switch",
-      "ready",
       "there",
+      "ready",
       "star"
      ],
      "suggestion": "Up, up! There! The star is on top! Switch on the lights! Ready…",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three, two, one…",
    "translations": {
     "fa": "سه، دو، یک…"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "christmas",
-      "magic",
       "trees",
-      "ooooh",
-      "world"
+      "magic",
+      "world",
+      "ooooh"
      ],
      "suggestion": "Ooooh! It's MAGIC! It's the best tree in the world! Do you have Christmas trees in Iran?",
      "suggestionFa": "اوووه! جادوییه! بهترین درخت دنیاست! تو ایران درخت کریسمس دارید؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

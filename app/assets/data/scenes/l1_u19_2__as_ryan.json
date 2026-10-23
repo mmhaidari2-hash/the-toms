@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -25,7 +25,7 @@
       "minutes",
       "starts",
       "twenty",
-      "match"
+      "socks"
      ],
      "suggestion": "I can't find my football socks! The match starts in twenty minutes!",
      "suggestionFa": "جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What colour are they?",
    "translations": {
     "fa": "چه رنگین؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "under",
       "white",
+      "under",
       "they",
-      "red",
-      "bed"
+      "bed",
+      "red"
      ],
      "suggestion": "Red and white. Are they under the bed?",
      "suggestionFa": "قرمز و سفید. زیر تختن؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, they aren't under the bed.",
    "translations": {
     "fa": "نه، زیر تخت نیستن."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "drawer",
       "that's",
+      "drawer",
       "mine",
       "blue",
       "they"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, the drawer is full of T-shirts.",
    "translations": {
     "fa": "نه، کشو پر از تی‌شرته."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Here they are, in the washing basket.",
    "translations": {
     "fa": "آره! ایناهاشون، تو سبد لباس‌چرک."
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Very smelly!",
    "translations": {
     "fa": "آره. خیلی بو می‌دن!"
@@ -147,9 +147,9 @@
      "keywords": [
       "where's",
       "other",
+      "time",
       "boot",
-      "wear",
-      "i've"
+      "wear"
      ],
      "suggestion": "I've got no time to wash them. I'll wear them! Where's my other boot?",
      "suggestionFa": "وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it behind the door?",
    "translations": {
     "fa": "پشت دره؟"
@@ -174,7 +174,7 @@
       "trophy",
       "bottle",
       "water",
-      "seen"
+      "have"
      ],
      "suggestion": "Next to the trophy! Brilliant. My water bottle? Have you seen it?",
      "suggestionFa": "کنار جام! عالی. بطری آبم؟ دیدیش؟",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's on your desk.",
    "translations": {
     "fa": "رو میزته."
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "thanks",
+      "water",
       "boots",
       "socks",
-      "water",
       "ready"
      ],
      "suggestion": "Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good luck! Score a goal!",
    "translations": {
     "fa": "موفق باشی! گل بزن!"
@@ -221,8 +221,8 @@
     {
      "keywords": [
       "loudest",
-      "cheers",
       "shouts",
+      "cheers",
       "nicola",
       "bring"
      ],
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

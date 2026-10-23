@@ -21,8 +21,8 @@
      "keywords": [
       "minute",
       "here",
-      "was",
-      "ago"
+      "ago",
+      "was"
      ],
      "suggestion": "Yes! He was here a minute ago.",
      "suggestionFa": "آره! یه دقیقه پیش اینجا بود.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "didn't",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "No, I didn't. What does he look like?",
      "suggestionFa": "نه، ندیدم. چه شکلیه؟",
@@ -72,10 +72,10 @@
    "branches": [
     {
      "keywords": [
-      "beard",
-      "short",
       "white",
-      "hair"
+      "short",
+      "beard",
+      "grey"
      ],
      "suggestion": "He's got grey hair and a short white beard.",
      "suggestionFa": "موهاش خاکستریه و یه ریش کوتاه سفید داره.",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "seventy",
-      "about",
       "quite",
-      "think"
+      "think",
+      "about"
      ],
      "suggestion": "He's quite tall and thin. About seventy, I think.",
      "suggestionFa": "نسبتاً قدبلند و لاغره. فکر کنم حدود هفتاد.",
@@ -161,7 +161,7 @@
       "small",
       "brown",
       "him",
-      "had"
+      "dog"
      ],
      "suggestion": "He had a brown dog with him. A small one.",
      "suggestionFa": "یه سگ قهوه‌ای کوچیک همراهش بود.",
@@ -372,9 +372,9 @@
     {
      "keywords": [
       "think",
-      "than",
       "more",
-      "his"
+      "than",
+      "dog"
      ],
      "suggestion": "He likes his dog more than cake, I think!",
      "suggestionFa": "فکر کنم سگش را بیشتر از کیک دوست داره!",

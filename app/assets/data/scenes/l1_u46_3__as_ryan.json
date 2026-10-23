@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,7 +24,7 @@
       "biscuit",
       "would",
       "host",
-      "told",
+      "like",
       "good"
      ],
      "suggestion": "Mum told me to be a good host. Would you like a biscuit?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Thank you.",
    "translations": {
     "fa": "آره، لطفاً. ممنون."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd like a chocolate one, please.",
    "translations": {
     "fa": "یه شکلاتی می‌خوام، لطفاً."
@@ -74,8 +74,8 @@
       "biscuits",
       "vanilla",
       "middle",
-      "would",
-      "cream"
+      "cream",
+      "would"
      ],
      "suggestion": "Two biscuits with vanilla cream in the middle. Would you like a cup of tea with it?",
      "suggestionFa": "دو تا بیسکویت با خامهٔ وانیلی وسطش. با چای میل دارید؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. With milk, no sugar.",
    "translations": {
     "fa": "آره، لطفاً. با شیر، بدون شکر."
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two sugars! Sweet tooth!",
    "translations": {
     "fa": "دو تا قند! شکمو!"
@@ -152,8 +152,8 @@
       "important",
       "question",
       "dunker",
-      "i've",
-      "most"
+      "most",
+      "i've"
      ],
      "suggestion": "Nah, I've got it. Now, the most important question: are you a dunker?",
      "suggestionFa": "نه، خودم می‌تونم. خب، مهم‌ترین سؤال: تو اهل فرو کردنی؟",
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a dunker?",
    "translations": {
     "fa": "«دانکر» چیه؟"
@@ -178,7 +178,7 @@
       "falls",
       "dunk",
       "long",
-      "try"
+      "tea"
      ],
      "suggestion": "You dunk your biscuit in your tea. But not too long, or it falls in! Try it.",
      "suggestionFa": "بیسکویتت را تو چایت فرو می‌کنی. ولی نه زیاد، وگرنه می‌افته! امتحان کن.",
@@ -191,7 +191,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm, that's good!",
    "translations": {
     "fa": "ممم، خوبه!"
@@ -199,9 +199,9 @@
    "branches": [
     {
      "keywords": [
-      "happens",
       "biscuit",
       "another",
+      "happens",
       "would",
       "best"
      ],
@@ -216,7 +216,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No thanks, I'm full.",
    "translations": {
     "fa": "نه ممنون، سیرم."
@@ -225,10 +225,10 @@
     {
      "keywords": [
       "don't",
-      "take",
-      "them",
       "host",
-      "good"
+      "will",
+      "good",
+      "take"
      ],
      "suggestion": "Take two. Dad will eat them all if you don't! Mum, I was a good host — can I go now?",
      "suggestionFa": "دو تا بردار. اگه نخوری بابا همه را می‌خوره! مامان، میزبان خوبی بودم — حالا می‌تونم برم؟",
@@ -241,7 +241,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

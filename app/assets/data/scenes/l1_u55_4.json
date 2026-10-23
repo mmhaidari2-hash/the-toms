@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "driving",
+      "weather",
       "left",
       "food"
      ],
@@ -81,9 +81,9 @@
     {
      "keywords": [
       "everything",
-      "buses",
+      "shops",
       "money",
-      "shops"
+      "buses"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
      "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
@@ -235,8 +235,8 @@
    "branches": [
     {
      "keywords": [
-      "chips",
       "great",
+      "chips",
       "fish",
       "ate"
      ],
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "even",
-      "stop"
+      "stop",
+      "even"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",
@@ -345,8 +345,8 @@
      "keywords": [
       "invited",
       "they",
-      "tea",
-      "dad"
+      "mum",
+      "tea"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
      "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",

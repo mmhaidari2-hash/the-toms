@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "never",
+      "first",
       "time"
      ],
      "suggestion": "No, never. This is my first time.",
@@ -127,9 +127,9 @@
     },
     {
      "keywords": [
-      "after",
       "drink",
       "water",
+      "after",
       "can"
      ],
      "suggestion": "Can I drink water after?",
@@ -221,8 +221,8 @@
      "keywords": [
       "lemonade",
       "though",
-      "love",
-      "i'll"
+      "i'll",
+      "love"
      ],
      "suggestion": "I'll try. I love lemonade, though!",
      "suggestionFa": "سعی می‌کنم. ولی عاشق لیموناتم!",
@@ -234,7 +234,7 @@
      "keywords": [
       "thank",
       "when",
-      "come",
+      "back",
       "must"
      ],
      "suggestion": "Thank you. When must I come back?",

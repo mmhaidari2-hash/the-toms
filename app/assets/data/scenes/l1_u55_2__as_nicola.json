@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "languages",
-      "speak",
-      "mummy",
       "hello",
-      "says"
+      "mummy",
+      "speak",
+      "true"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. I speak Persian and English.",
    "translations": {
     "fa": "آره. فارسی و انگلیسی حرف می‌زنم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bonjour, Nicola! Very good!",
    "translations": {
     "fa": "بونژور نیکولا! خیلی خوب!"
@@ -73,9 +73,9 @@
      "keywords": [
       "persian",
       "school",
-      "hello",
       "learn",
-      "how"
+      "hello",
+      "say"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
      "suggestionFa": "تو مدرسه یاد می‌گیریم. «سلام» را فارسی چی میگن؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We say \"salaam\".",
    "translations": {
     "fa": "میگیم «سلام»."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Merci\". Like French!",
    "translations": {
     "fa": "«مرسی». مثل فرانسوی!"
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "persian",
-      "french",
+      "english",
       "that's",
+      "french",
       "speak"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. I speak Persian to my mum on the phone.",
    "translations": {
     "fa": "نه. پشت تلفن با مامانم فارسی حرف می‌زنم."
@@ -149,8 +149,8 @@
       "football",
       "english",
       "there's",
-      "talks",
-      "daddy"
+      "daddy",
+      "telly"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
      "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a bit. Spelling is very hard!",
    "translations": {
     "fa": "آره، یه‌کم. املاش خیلی سخته!"
@@ -174,8 +174,8 @@
       "spelling",
       "nobody",
       "knows",
-      "knife",
-      "ellis"
+      "ellis",
+      "knife"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "English is a funny language.",
    "translations": {
     "fa": "انگلیسی زبان عجیبیه."
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "persian",
+      "english",
       "salaam",
       "clever",
-      "merci"
+      "teach"
      ],
      "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",
      "suggestionFa": "آره! من بهت انگلیسی یاد میدم، تو بهم فارسی. هر روز! سلام! مرسی! من خیلی باهوشم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

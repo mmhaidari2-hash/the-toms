@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "remembrance",
       "wearing",
-      "sunday",
       "george",
-      "about"
+      "sunday",
+      "today"
      ],
      "suggestion": "George is wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
      "suggestionFa": "جورج امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not really. Why do people wear poppies?",
    "translations": {
     "fa": "نه واقعاً. چرا مردم گل شقایق می‌زنن؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's very moving.",
    "translations": {
     "fa": "خیلی تأثیرگذاره."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He must have been very brave.",
    "translations": {
     "fa": "حتماً خیلی شجاع بوده."
@@ -130,9 +130,9 @@
      "keywords": [
       "generation",
       "service",
-      "didn't",
-      "always",
-      "george"
+      "george",
+      "talked",
+      "always"
      ],
      "suggestion": "He never talked about it, did he, George? A lot of men from that generation didn't. But he would always go to the service every year.",
      "suggestionFa": "هیچ‌وقت دربارهٔ اون حرف نمی‌زد، نه جورج؟ خیلی از مردهای اون نسل حرف نمی‌زدن. ولی همیشه هر سال به مراسم می‌رفت.",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I understand. Some memories are too painful.",
    "translations": {
     "fa": "می‌فهمم. بعضی خاطره‌ها خیلی دردناکن."
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd be honoured to come with you.",
    "translations": {
     "fa": "افتخار می‌کنم باهاتون بیام."
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shopping",
-      "wedding",
       "dresses",
+      "wedding",
       "dress",
-      "hate"
+      "need"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Whose wedding is it?",
    "translations": {
     "fa": "البته. عروسی کیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "cousin's",
       "wedding",
+      "white",
       "wears",
-      "bride",
-      "white"
+      "bride"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What about blue?",
    "translations": {
     "fa": "آبی چطوره؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "twelve",
       "excuse",
-      "size",
-      "blue",
-      "have"
+      "have",
+      "nice",
+      "size"
      ],
      "suggestion": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
      "suggestionFa": "اوه، آبی قشنگه. ببخشید، اینو سایز دوازده دارید؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I hope they've got a twelve.",
    "translations": {
     "fa": "امیدوارم دوازده داشته باشن."
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Try the fourteen?",
    "translations": {
     "fa": "چهارده را امتحان کن؟"
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's try the fourteen first.",
    "translations": {
     "fa": "بیا اول چهارده را امتحان کنیم."
@@ -208,7 +208,7 @@
       "honest",
       "look",
       "i'll",
-      "try"
+      "how"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
      "suggestionFa": "باشه، چهارده را امتحان می‌کنم. چطوره؟ صادق باش!",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a bit big.",
    "translations": {
     "fa": "یه کم بزرگه."
@@ -230,10 +230,10 @@
     {
      "keywords": [
       "twelve",
-      "order",
       "let's",
-      "pay",
-      "now"
+      "order",
+      "now",
+      "can"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
      "suggestionFa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟",
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good choice.",
    "translations": {
     "fa": "انتخاب خوبیه."
@@ -299,7 +299,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Her name is Leslie Thompson.",
    "translations": {
     "fa": "اسمش لزلی تامپسونه."
@@ -324,7 +324,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we have a coffee first?",
    "translations": {
     "fa": "اول یه قهوه بخوریم؟"
@@ -349,7 +349,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

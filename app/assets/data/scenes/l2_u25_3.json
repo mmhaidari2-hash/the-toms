@@ -130,8 +130,8 @@
     {
      "keywords": [
       "much",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it? How much is it?",
      "suggestionFa": "می‌تونی درستش کنی؟ چقدر میشه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "take",
-      "long",
-      "will"
+      "will",
+      "long"
      ],
      "suggestion": "How long will it take?",
      "suggestionFa": "چقدر طول می‌کشه؟",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "text",
-      "i'll",
       "fine",
+      "i'll",
       "tom"
      ],
      "suggestion": "Fine. I'll text Tom.",
@@ -304,7 +304,7 @@
       "lucky",
       "then",
       "much",
-      "how"
+      "pay"
      ],
      "suggestion": "Lucky! How much does he pay then?",
      "suggestionFa": "چه شانسی! پس چقدر می‌پردازه؟",
@@ -387,8 +387,8 @@
     },
     {
      "keywords": [
-      "should",
       "honest",
+      "should",
       "still",
       "but"
      ],

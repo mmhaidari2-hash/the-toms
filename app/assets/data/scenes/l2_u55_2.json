@@ -21,8 +21,8 @@
      "keywords": [
       "contract",
       "needs",
-      "data",
-      "lots"
+      "lots",
+      "ryan"
      ],
      "suggestion": "Yes. Ryan needs a contract with lots of data.",
      "suggestionFa": "آره. رایان یه قرارداد با کلی اینترنت لازم داره.",
@@ -34,8 +34,8 @@
      "keywords": [
       "working",
       "leslie",
-      "she's",
-      "asked"
+      "asked",
+      "she's"
      ],
      "suggestion": "Yes. Leslie asked me to help. She's working.",
      "suggestionFa": "آره. لزلی ازم خواست کمک کنم. سر کاره.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "tell",
       "much",
-      "how",
-      "use"
+      "tell",
+      "use",
+      "dev"
      ],
      "suggestion": "Ryan, tell Dev how much you use.",
      "suggestionFa": "رایان، به دِو بگو چقدر مصرف می‌کنی.",
@@ -111,8 +111,8 @@
     {
      "keywords": [
       "unlimited",
-      "expensive",
       "gigabytes",
+      "expensive",
       "thirty"
      ],
      "suggestion": "Unlimited is expensive. What about thirty gigabytes?",
@@ -174,8 +174,8 @@
      "keywords": [
       "spending",
       "leslie",
-      "there",
-      "wants"
+      "wants",
+      "there"
      ],
      "suggestion": "Is there a spending cap? Leslie wants one.",
      "suggestionFa": "سقف هزینه هست؟ لزلی یکی می‌خواد.",
@@ -328,8 +328,8 @@
      "keywords": [
       "every",
       "april",
-      "goes",
-      "much"
+      "much",
+      "goes"
      ],
      "suggestion": "It goes up every April? How much?",
      "suggestionFa": "هر آوریل میره بالا؟ چقدر؟",
@@ -342,7 +342,7 @@
       "happens",
       "breaks",
       "phone",
-      "he"
+      "if"
      ],
      "suggestion": "What happens if he breaks the phone?",
      "suggestionFa": "اگه گوشی را بشکنه چی میشه؟",
@@ -396,10 +396,10 @@
     },
     {
      "keywords": [
-      "here",
-      "sell",
       "good",
-      "them"
+      "sell",
+      "them",
+      "here"
      ],
      "suggestion": "A good case. Do you sell them here?",
      "suggestionFa": "یه قاب خوب. اینجا می‌فروشید؟",

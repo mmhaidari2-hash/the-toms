@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "check",
       "shall",
+      "check",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -67,9 +67,9 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "course",
-      "what's"
+      "what's",
+      "number"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -117,8 +117,8 @@
      "keywords": [
       "supposed",
       "ordered",
-      "arrive",
-      "thirty"
+      "thirty",
+      "arrive"
      ],
      "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
      "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "calling",
-      "about",
       "order",
+      "about",
       "late"
      ],
      "suggestion": "Hi. I'm calling about order 2479. It's very late.",
@@ -182,8 +182,8 @@
      "keywords": [
       "minutes",
       "driver",
-      "he's",
-      "away"
+      "lost",
+      "he's"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -232,8 +232,8 @@
      "keywords": [
       "should",
       "didn't",
-      "back",
-      "call"
+      "call",
+      "back"
      ],
      "suggestion": "No, I didn't. Should I call back?",
      "suggestionFa": "نه، نخواستم. دوباره زنگ بزنم؟",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "percent",
       "they'll",
+      "percent",
       "give",
-      "off"
+      "ten"
      ],
      "suggestion": "Yes. They'll give us ten percent off.",
      "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",
@@ -347,8 +347,8 @@
      "keywords": [
       "cookies",
       "added",
-      "free",
-      "they"
+      "they",
+      "free"
      ],
      "suggestion": "It's hot! And they added free cookies.",
      "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",

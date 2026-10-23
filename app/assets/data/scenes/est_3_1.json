@@ -1,0 +1,292 @@
+{
+ "id": "est_3_1",
+ "characterId": "agent",
+ "title": "Your deposit and rent in advance",
+ "titleFa": "ودیعه و اجارهٔ پیش‌پرداخت",
+ "setting": "Moving in · Level 0",
+ "settingFa": "اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Welcome back, {you}! Before you get the keys, there's the tenancy deposit and your first month's rent.",
+   "translations": {
+    "fa": "خوش برگشتید {you}! قبل از گرفتن کلیدها، ودیعهٔ اجاره و اجارهٔ ماه اول هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deposit",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the deposit?",
+     "suggestionFa": "ودیعه چقدره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "months",
+      "three",
+      "first",
+      "pay"
+     ],
+     "suggestion": "Can I pay the first three months now?",
+     "suggestionFa": "می‌تونم سه ماه اول را الان بدم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keys",
+     "fa": "کلیدها"
+    },
+    {
+     "word": "tenancy deposit",
+     "fa": "ودیعهٔ اجاره"
+    },
+    {
+     "word": "first month's rent",
+     "fa": "اجارهٔ ماه اول"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "The deposit is five weeks' rent. That's the legal limit when the rent is under fifty thousand a year.",
+   "translations": {
+    "fa": "ودیعه اجارهٔ پنج هفته‌ست. وقتی اجاره زیر پنجاه هزار در ساله، این حد قانونیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "hundred",
+      "pounds",
+      "eighty"
+     ],
+     "suggestion": "So that's about one thousand three hundred and eighty pounds?",
+     "suggestionFa": "پس حدود هزار و سیصد و هشتاد پونده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "month's",
+      "first",
+      "rent",
+      "well"
+     ],
+     "suggestion": "And the first month's rent as well?",
+     "suggestionFa": "و اجارهٔ ماه اول هم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "five weeks' rent",
+     "fa": "اجارهٔ پنج هفته"
+    },
+    {
+     "word": "legal limit",
+     "fa": "حد قانونی"
+    },
+    {
+     "word": "under",
+     "fa": "زیر ؛ کمتر از"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Exactly, and one month's rent. We're not allowed to ask for more than one month in advance any more, so please don't pay three.",
+   "translations": {
+    "fa": "دقیقاً، و اجارهٔ یه ماه. دیگه اجازه نداریم بیشتر از یه ماه پیش‌پرداخت بخوایم، پس لطفاً سه ماه ندید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "change",
+      "know",
+      "when"
+     ],
+     "suggestion": "Oh, I didn't know that. When did it change?",
+     "suggestionFa": "اوه، نمی‌دونستم. کِی عوض شد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "deposit",
+      "where",
+      "good",
+      "kept"
+     ],
+     "suggestion": "Good. Where will my deposit be kept?",
+     "suggestionFa": "خوبه. ودیعه‌م کجا نگه داشته می‌شه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in advance",
+     "fa": "پیش‌پرداخت ؛ از قبل"
+    },
+    {
+     "word": "not allowed",
+     "fa": "مجاز نیست"
+    },
+    {
+     "word": "any more",
+     "fa": "دیگر"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, a landlord can ask for no more than one month's rent after you sign and before you move in (Renters' Rights Act, 2026).",
+    "fa": "در انگلستان صاحبخانه پس از امضا و پیش از ورود حداکثر یک ماه اجاره می‌تواند بخواهد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "The deposit goes into a government-approved scheme within thirty days. There are three: the DPS, mydeposits and TDS.",
+   "translations": {
+    "fa": "ودیعه ظرف سی روز به یه طرح تأییدشدهٔ دولتی می‌ره. سه تا هست: DPS، mydeposits و TDS."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "use",
+      "one"
+     ],
+     "suggestion": "Which one will you use?",
+     "suggestionFa": "شما از کدوم استفاده می‌کنید؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "protected",
+      "know",
+      "how"
+     ],
+     "suggestion": "How will I know it's protected?",
+     "suggestionFa": "از کجا بفهمم حفاظت شده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "government-approved",
+     "fa": "تأییدشده توسط دولت"
+    },
+    {
+     "word": "scheme",
+     "fa": "طرح"
+    },
+    {
+     "word": "within thirty days",
+     "fa": "ظرف سی روز"
+    },
+    {
+     "word": "protected",
+     "fa": "حفاظت‌شده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how I know",
+      "I know how"
+     ],
+     "echo": "How will I know it's protected? We'll send you the details.",
+     "better": "How will I know it's protected?",
+     "betterFa": "از کجا بفهمم حفاظت شده؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "We use the DPS. You'll get an email with the \"prescribed information\": the scheme, the amount and how to get it back. Keep it safe.",
+   "translations": {
+    "fa": "ما از DPS استفاده می‌کنیم. یه ایمیل با «اطلاعات الزامی» می‌گیرید: طرح، مبلغ و روش پس گرفتنش. نگهش دارید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scheme's",
+      "website",
+      "check",
+      "i'll"
+     ],
+     "suggestion": "I'll check it on the scheme's website too.",
+     "suggestionFa": "تو سایت طرح هم چکش می‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "protect",
+      "forget",
+      "if"
+     ],
+     "suggestion": "What if you forget to protect it?",
+     "suggestionFa": "اگه یادتون بره حفاظتش کنید چی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prescribed information",
+     "fa": "اطلاعات الزامی ؛ اطلاعات مقرر"
+    },
+    {
+     "word": "amount",
+     "fa": "مبلغ"
+    },
+    {
+     "word": "keep it safe",
+     "fa": "نگهش دار"
+    }
+   ],
+   "cultureNote": {
+    "en": "If the deposit isn't protected, the landlord can't use most legal reasons to end the tenancy, and a court can order them to pay you compensation.",
+    "fa": "اگر ودیعه حفاظت نشود، صاحبخانه برای بیشتر دلایل تخلیه مشکل دارد و دادگاه می‌تواند حکم غرامت بدهد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "agent",
+   "text": "That won't happen with us! But it's a smart question. Right, let's go and do the inventory.",
+   "translations": {
+    "fa": "با ما چنین اتفاقی نمی‌افته! ولی سؤال هوشمندانه‌ایه. خب، بریم فهرست اموال را انجام بدیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

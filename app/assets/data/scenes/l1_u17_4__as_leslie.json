@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "today",
-      "drink",
       "let's",
-      "cold",
+      "drink",
+      "down",
       "have"
      ],
      "suggestion": "It's so hot today! Let's sit down and have a cold drink.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. I'm really thirsty.",
    "translations": {
     "fa": "فکر خوبیه. واقعاً تشنمه."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could I have a glass of water, please?",
    "translations": {
     "fa": "می‌شه یه لیوان آب داشته باشم، لطفاً؟"
@@ -154,7 +154,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tap water is fine, thanks.",
    "translations": {
     "fa": "آب لوله‌کشی خوبه، ممنون."
@@ -207,7 +207,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Lots of ice!",
    "translations": {
     "fa": "آره، لطفاً. کلی یخ!"
@@ -215,11 +215,11 @@
    "branches": [
     {
      "keywords": [
+      "always",
       "callum",
       "please",
-      "always",
       "latte",
-      "busy"
+      "have"
      ],
      "suggestion": "And I'll have an iced latte, please. Callum, is it always this busy?",
      "suggestionFa": "و من یه لاته سرد می‌خوام، لطفاً. کالوم، همیشه این‌قدر شلوغه؟",
@@ -232,7 +232,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's very busy today!",
    "translations": {
     "fa": "امروز خیلی شلوغه!"
@@ -295,7 +295,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty-five is not hot in Iran!",
    "translations": {
     "fa": "بیست و پنج تو ایران گرم نیست!"
@@ -348,7 +348,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I pay by card?",
    "translations": {
     "fa": "می‌تونم با کارت حساب کنم؟"
@@ -373,7 +373,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Leslie. That's kind.",
    "translations": {
     "fa": "ممنون لزلی. لطف داری."
@@ -382,8 +382,8 @@
     {
      "keywords": [
       "nothing",
-      "cheers",
       "that's",
+      "cheers",
       "better",
       "beats"
      ],
@@ -398,7 +398,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

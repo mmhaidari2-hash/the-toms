@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "william's",
+      "water",
       "check",
       "ready",
-      "water",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's warm. It's fine.",
    "translations": {
     "fa": "گرمه. خوبه."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
-      "bubble",
       "that's",
+      "little",
       "nicola",
-      "bath"
+      "bubble",
+      "just"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Stop, Nicola! That's enough!",
    "translations": {
     "fa": "بسه نیکولا! کافیه!"
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No more bubbles, William!",
    "translations": {
     "fa": "دیگه حباب بسه ویلیام!"
@@ -122,8 +122,8 @@
      "keywords": [
       "where's",
       "william",
-      "can't",
       "there",
+      "can't",
       "see"
      ],
      "suggestion": "Ha! I can't see William. Where's William? There he is!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Peekaboo, William!",
    "translations": {
     "fa": "دالی، ویلیام!"
@@ -147,8 +147,8 @@
      "keywords": [
       "yellow",
       "rubber",
-      "pass",
       "duck",
+      "pass",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the duck. Quack quack!",
    "translations": {
     "fa": "اینم اردک. کوآک کوآک!"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh! I'm all wet!",
    "translations": {
     "fa": "آه! خیس خیس شدم!"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Which towel?",
    "translations": {
     "fa": "آره. کدوم حوله؟"
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "like",
-      "hair"
+      "eyes",
+      "wash"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -263,7 +263,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Close your eyes, William.",
    "translations": {
     "fa": "چشماتو ببند ویلیام."
@@ -271,11 +271,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "clever",
+      "little",
       "clean",
       "isn't",
-      "best"
+      "time"
      ],
      "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
      "suggestionFa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟",
@@ -288,7 +288,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "looks",
-      "like",
       "just",
-      "wow"
+      "like",
+      "she"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "that's",
       "small",
-      "was",
-      "tom"
+      "tom",
+      "was"
      ],
      "suggestion": "That's Tom? He was so small!",
      "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
-      "cute",
+      "look",
       "ears",
-      "look"
+      "cute",
+      "ryan"
      ],
      "suggestion": "Her ears are cute! And who does Ryan look like?",
      "suggestionFa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟",
@@ -146,7 +146,7 @@
       "looks",
       "he's",
       "like",
-      "but"
+      "tom"
      ],
      "suggestion": "So he looks like you, but he's like Tom.",
      "suggestionFa": "پس شبیه توئه، ولی مثل تامه.",
@@ -201,8 +201,8 @@
      "keywords": [
       "maggie's",
       "think",
-      "eyes",
-      "nana"
+      "nana",
+      "eyes"
      ],
      "suggestion": "William has Nana Maggie's eyes, I think.",
      "suggestionFa": "فکر کنم ویلیام چشم‌های نانا مگی را داره.",
@@ -214,8 +214,8 @@
      "keywords": [
       "nobody",
       "he's",
-      "just",
-      "like"
+      "like",
+      "just"
      ],
      "suggestion": "William is like nobody! He's just William.",
      "suggestionFa": "ویلیام مثل هیچ‌کس نیست! فقط ویلیامه.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "we've",
-      "nose",
       "same",
-      "got"
+      "nose",
+      "dad"
      ],
      "suggestion": "I look like my dad. We've got the same nose.",
      "suggestionFa": "شبیه بابامم. دماغمون یه شکله.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "patient",
-      "she's",
       "after",
+      "she's",
       "take"
      ],
      "suggestion": "And I take after my mum. She's very patient.",
@@ -354,8 +354,8 @@
      "keywords": [
       "daddy",
       "mummy",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
      "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",
@@ -367,8 +367,8 @@
      "keywords": [
       "looking",
       "photos",
-      "we're",
-      "hello"
+      "hello",
+      "we're"
      ],
      "suggestion": "Hello, Nicola! We're looking at old photos.",
      "suggestionFa": "سلام نیکولا! داریم عکس‌های قدیمی می‌بینیم.",

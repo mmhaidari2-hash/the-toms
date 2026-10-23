@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "garden",
       "nicola",
       "first",
-      "over"
+      "fell"
      ],
      "suggestion": "Oh no! Nicola fell over in the garden. Her knee is bleeding. Can you get the first aid kit?",
      "suggestionFa": "ای وای! نیکولا تو حیاط افتاد. زانوش داره خون میاد. می‌تونی جعبهٔ کمک‌های اولیه را بیاری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Where is it?",
    "translations": {
     "fa": "آره! کجاست؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the green box.",
    "translations": {
     "fa": "بفرما جعبهٔ سبز."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're very brave, Nicola.",
    "translations": {
     "fa": "خیلی شجاعی نیکولا."
@@ -128,9 +128,9 @@
    "branches": [
     {
      "keywords": [
-      "wipes",
       "water",
       "first",
+      "wipes",
       "pass",
       "wash"
      ],
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are the wipes.",
    "translations": {
     "fa": "بفرما دستمال‌ها."
@@ -153,9 +153,9 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "nicola",
-      "three",
+      "little",
+      "sting",
       "brave",
       "might"
      ],
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done! All clean.",
    "translations": {
     "fa": "آفرین! همه‌ش تمیز شد."
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a dinosaur plaster.",
    "translations": {
     "fa": "بیا یه چسب زخم دایناسوری."
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you feel better now?",
    "translations": {
     "fa": "الان بهتری؟"
@@ -299,7 +299,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Nice try!",
    "translations": {
     "fa": "ها! تلاش خوبی بود!"
@@ -310,8 +310,8 @@
       "running",
       "patio",
       "don't",
-      "being",
-      "brave"
+      "brave",
+      "being"
      ],
      "suggestion": "Just one, for being so brave. And no more running on the patio, OK? Walk, don't run!",
      "suggestionFa": "فقط یکی، برای این‌همه شجاعت. و دیگه رو پاسیو ندو، باشه؟ راه برو، ندو!",
@@ -324,7 +324,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

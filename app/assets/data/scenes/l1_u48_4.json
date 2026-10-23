@@ -20,8 +20,8 @@
     {
      "keywords": [
       "there",
+      "time",
       "once",
-      "bird",
       "upon"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "about",
       "story",
+      "about",
       "want",
       "king"
      ],
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "mountain",
-      "big",
       "she",
+      "big",
       "as"
      ],
      "suggestion": "She was as big as a mountain!",
@@ -122,7 +122,7 @@
       "mountain",
       "lived",
       "high",
-      "top"
+      "she"
      ],
      "suggestion": "She lived on top of a high mountain.",
      "suggestionFa": "بالای یه کوه بلند زندگی می‌کرد.",
@@ -180,8 +180,8 @@
      "keywords": [
       "people",
       "scary",
-      "bad",
-      "but"
+      "but",
+      "bad"
      ],
      "suggestion": "She was kind, but she was scary to bad people!",
      "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
@@ -217,8 +217,8 @@
      "keywords": [
       "little",
       "found",
-      "day",
-      "boy"
+      "boy",
+      "day"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "looked",
-      "after",
-      "years"
+      "years",
+      "after"
      ],
      "suggestion": "Yes. She looked after him for years.",
      "suggestionFa": "آره. سال‌ها ازش مراقبت کرد.",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "warm",
-      "food",
       "kept",
-      "gave"
+      "warm",
+      "gave",
+      "food"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
@@ -324,9 +324,9 @@
     {
      "keywords": [
       "became",
-      "grew",
       "hero",
-      "he"
+      "grew",
+      "up"
      ],
      "suggestion": "He grew up and became a hero.",
      "suggestionFa": "بزرگ شد و قهرمان شد.",

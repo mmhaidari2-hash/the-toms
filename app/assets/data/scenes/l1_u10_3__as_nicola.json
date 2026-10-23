@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -36,7 +36,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy birthday, Nicola!",
    "translations": {
     "fa": "تولدت مبارک، نیکولا!"
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My birthday is in June.",
    "translations": {
     "fa": "تولدم ژوئنه."
@@ -85,7 +85,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a beautiful cake!",
    "translations": {
     "fa": "کیک قشنگیه!"
@@ -95,9 +95,9 @@
      "keywords": [
       "secret",
       "going",
-      "made",
       "wish",
-      "tell"
+      "tell",
+      "made"
      ],
      "suggestion": "I made a wish! I'm not going to tell you. It's a secret!",
      "suggestionFa": "آرزو کردم! بهت نمی‌گم. رازه!",
@@ -110,7 +110,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Keep it secret!",
    "translations": {
     "fa": "فکر خوبیه. رازش را نگه دار!"
@@ -134,7 +134,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, open it!",
    "translations": {
     "fa": "آره، بازش کن!"
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "dinosaurs",
-      "tonight",
       "buttons",
+      "tonight",
       "about",
       "going"
      ],
@@ -159,7 +159,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm glad you like it.",
    "translations": {
     "fa": "خوشحالم که دوستش داری."
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "birthday",
+      "everyone",
       "coming",
       "thank",
       "happy"
@@ -184,7 +184,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

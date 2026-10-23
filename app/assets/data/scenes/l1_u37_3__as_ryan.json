@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,8 +24,8 @@
       "raining",
       "don't",
       "watch",
-      "still",
-      "bored"
+      "bored",
+      "still"
      ],
      "suggestion": "It's still raining. I'm bored. Why don't we watch a film?",
      "suggestionFa": "هنوز داره بارون میاد. حوصله‌م سر رفته. چرا فیلم نبینیم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Which film?",
    "translations": {
     "fa": "فکر خوبیه. کدوم فیلم؟"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "everything",
-      "cheats",
       "action",
+      "nicola",
       "better",
-      "nicola"
+      "cheats"
      ],
      "suggestion": "Board games? Nicola cheats at everything! A film is better. How about an action film?",
      "suggestionFa": "بازی رومیزی؟ نیکولا تو همه چی تقلب می‌کنه! فیلم بهتره. یه فیلم اکشن چطوره؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like action films.",
    "translations": {
     "fa": "فیلم اکشن دوست دارم."
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "fiftieth",
-      "nicola",
       "frozen",
-      "right",
+      "nicola",
+      "wants",
       "again"
      ],
      "suggestion": "Ugh, you're right. Nicola wants Frozen. Again. Fiftieth time!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why don't we watch Barnaby?",
    "translations": {
     "fa": "چرا بارنابی نبینیم؟"
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "everyone",
-      "cries",
+      "barnaby",
       "likes",
+      "cries",
       "even"
      ],
      "suggestion": "Barnaby! Yes. Everyone likes Barnaby. Even Dad cries at the end.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tom cries? Really?",
    "translations": {
     "fa": "تام گریه می‌کنه؟ واقعاً؟"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "popcorn",
+      "shall",
       "salty",
       "sweet",
-      "shall",
       "every"
      ],
      "suggestion": "Every time! Shall we make popcorn? Sweet or salty?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Salty, please.",
    "translations": {
     "fa": "شور، لطفاً."
@@ -148,9 +148,9 @@
      "keywords": [
       "upstairs",
       "genius",
-      "duvet",
       "let's",
-      "from"
+      "duvet",
+      "both"
      ],
      "suggestion": "Both! You're a genius. And let's get the duvet from upstairs. Duvet day!",
      "suggestionFa": "هر دو! نابغه‌ای. و بیا لحاف را از بالا بیاریم. روز لحاف!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a duvet day?",
    "translations": {
     "fa": "روز لحاف یعنی چی؟"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "nicola",
-      "under",
-      "about",
       "thing",
-      "duvet"
+      "duvet",
+      "under",
+      "about"
      ],
      "suggestion": "Lazy day on the sofa, under a duvet. Best thing about rain! Nicola! Film time!",
      "suggestionFa": "روز تنبلی رو مبل، زیر لحاف. بهترین چیز بارون! نیکولا! وقت فیلمه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Turn off the lights!",
    "translations": {
     "fa": "چراغ‌ها را خاموش کن!"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

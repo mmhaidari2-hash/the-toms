@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "missed",
       "circus",
       "oxford",
+      "missed",
       "sorry"
      ],
      "suggestion": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
@@ -98,7 +98,7 @@
       "night",
       "often",
       "come",
-      "how"
+      "all"
      ],
      "suggestion": "All night? How often does it come?",
      "suggestionFa": "تمام شب؟ هر چند وقت یه بار میاد؟",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "merry",
       "drunk",
+      "merry",
       "mean"
      ],
      "suggestion": "Merry? You mean drunk?",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
-      "when",
       "text",
       "i'll",
+      "when",
       "get"
      ],
      "suggestion": "OK. I'll text you when I get on.",

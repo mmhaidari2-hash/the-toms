@@ -115,7 +115,7 @@ adele, arsenal, barclays, calpol, chelsea, esteghlal, greggs, gruffalo, homerton
 - Places and stations: Hackney, London Fields, Mare Street, Paddington Station / London Paddington, Tottenham Court Road, Wembley, Notting Hill Carnival, Tube lines. 'Overground' kept as a lowercase generic word.
 - Historical people in Life in the UK study content (monarchs, Shakespeare, Dickens, Austen, etc.).
 - Browser speech services (Google/Apple) and payment processors in the Privacy text — factual disclosures.
-- Characters: all fictional; the old learner name 'Mehdi' was removed (neutral 'You' / the learner's own name).
+- Characters: all fictional; the old fixed learner name was removed (neutral 'You' / the learner's own name).
 
 ## App name
 

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dressing",
-      "dress",
       "let's",
-      "pink",
-      "i've"
+      "dress",
+      "have",
+      "play"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
      "suggestionFa": "بیا لباس‌بازی کنیم! من یه پیرهن صورتی دارم. تو چی داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got a big blue hat.",
    "translations": {
     "fa": "من یه کلاه آبی بزرگ دارم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here — a little red hat for him.",
    "translations": {
     "fa": "بیا — یه کلاه قرمز کوچولو براش."
@@ -75,7 +75,7 @@
       "purple",
       "shoes",
       "spots",
-      "mine"
+      "have"
      ],
      "suggestion": "Now shoes! Have you got wellies? Mine are purple with spots!",
      "suggestionFa": "حالا کفش! چکمهٔ لاستیکی داری؟ مال من بنفشه با خال‌خال!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I've only got trainers.",
    "translations": {
     "fa": "نه، فقط کتونی دارم."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's too big for me!",
    "translations": {
     "fa": "برام خیلی بزرگه!"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Orange trousers? No way!",
    "translations": {
     "fa": "شلوار نارنجی؟ عمراً!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "smile",
-      "mummy",
       "photo",
-      "take",
-      "look"
+      "mummy",
+      "look",
+      "take"
      ],
      "suggestion": "Ha ha! Mummy, look! Take a photo! Smile!",
      "suggestionFa": "ها ها! مامان، ببین! عکس بگیر! لبخند بزن!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheese!",
    "translations": {
     "fa": "سیب!"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "dressing",
-      "friend",
       "that's",
+      "friend",
       "photo",
       "ever"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

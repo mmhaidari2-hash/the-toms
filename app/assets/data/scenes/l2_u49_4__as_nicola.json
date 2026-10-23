@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -25,7 +25,7 @@
       "scones",
       "cutter",
       "star",
-      "says"
+      "nana"
      ],
      "suggestion": "Nana says scones are easy. Can I do the cutting? I want the star cutter!",
      "suggestionFa": "نانا میگه اسکون آسونه. می‌تونم من ببرم؟ قالب ستاره را می‌خوام!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. First, we need to make the dough.",
    "translations": {
     "fa": "البته. اول باید خمیر را درست کنیم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Squish, squish! Now the sugar?",
    "translations": {
     "fa": "له، له! حالا شکر؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Add a bit more flour. It won't be sticky.",
    "translations": {
     "fa": "یه کم دیگه آرد اضافه کن. چسبناک نمیشه."
@@ -98,9 +98,9 @@
      "keywords": [
       "thick",
       "thumb",
-      "flat",
-      "says",
-      "thin"
+      "nana",
+      "thin",
+      "says"
      ],
      "suggestion": "Now pat it flat. Not too thin! Nana says as thick as my thumb.",
      "suggestionFa": "حالا با دست صافش کن. خیلی نازک نه! نانا میگه به کلفتی انگشت شستم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "As thick as your thumb. Like this?",
    "translations": {
     "fa": "به کلفتی شستت. اینجوری؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eight circles and one star. Brilliant!",
    "translations": {
     "fa": "هشت تا دایره و یه ستاره. عالی!"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "shiny",
-      "brush",
       "don't",
       "twist",
-      "oops"
+      "shiny",
+      "brush",
+      "make"
      ],
      "suggestion": "Oops. Push, don't twist. Then egg on top to make them shiny. Brush, brush. In the oven!",
      "suggestionFa": "اوپس. فشار بده، نچرخون. بعد تخم‌مرغ رو روشون که براق بشن. بزن، بزن. تو فر!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How long do they bake for?",
    "translations": {
     "fa": "چقدر باید بپزن؟"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "argument",
-      "grandad",
       "minutes",
+      "grandad",
       "twelve",
       "about"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "An argument? About scones?",
    "translations": {
     "fa": "دعوا؟ سر اسکون؟"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "grandad",
-      "cream",
       "wrong",
       "first",
-      "says"
+      "cream",
+      "nana"
      ],
      "suggestion": "Nana puts jam first. Grandad puts cream first. He says Nana is WRONG.",
      "suggestionFa": "نانا اول مربا می‌ذاره. پدربزرگ اول خامه. میگه نانا اشتباه می‌کنه.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jam first or cream first? Which is right?",
    "translations": {
     "fa": "اول مربا یا اول خامه؟ کدوم درسته؟"
@@ -224,8 +224,8 @@
       "cornwall",
       "they're",
       "devon",
-      "cream",
-      "ready"
+      "first",
+      "cream"
      ],
      "suggestion": "Cornwall is jam first. Devon is cream first. I'm Cornwall! Ding! They're ready!",
      "suggestionFa": "کورنوال اول مرباست. دوون اول خامه. من کورنوالی‌ام! دینگ! آماده شدن!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're golden and tall! Well done, Nicola!",
    "translations": {
     "fa": "طلایی و بلند شدن! آفرین نیکولا!"
@@ -247,10 +247,10 @@
     {
      "keywords": [
       "first",
-      "then",
       "star",
+      "then",
       "team",
-      "one"
+      "jam"
      ],
      "suggestion": "The star one is for you. Jam first! Then you're on my team.",
      "suggestionFa": "ستاره‌ای مال توئه. اول مربا! اون‌وقت تو تیم منی.",
@@ -263,7 +263,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

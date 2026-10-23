@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "wednesday",
       "remember",
-      "can't",
       "today",
+      "can't",
       "tired"
      ],
      "suggestion": "Is it Wednesday today? I'm so tired, I can't remember!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's Thursday.",
    "translations": {
     "fa": "نه، پنجشنبه‌ست."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "wednesday",
       "yesterday",
+      "wednesday",
       "thursday",
       "what's",
       "today"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's the twelfth of March.",
    "translations": {
     "fa": "دوازدهم مارسه."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What time is it?",
    "translations": {
     "fa": "ساعت چنده؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A party? Whose party?",
    "translations": {
     "fa": "مهمونی؟ مهمونی کی؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "present",
-      "centre",
       "friend",
-      "party",
-      "mia's"
+      "centre",
+      "mia's",
+      "party"
      ],
      "suggestion": "Her friend Mia's party. At the soft play centre. We need a present!",
      "suggestionFa": "مهمونی دوستش میا. تو مرکز بازی سرپوشیده. یه کادو لازم داریم!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we buy it tomorrow?",
    "translations": {
     "fa": "فردا بخریمش؟"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My birthday is on the fifth of May.",
    "translations": {
     "fa": "تولدم پنجم مه‌ست."
@@ -175,7 +175,7 @@
       "write",
       "cake",
       "year",
-      "must"
+      "have"
      ],
      "suggestion": "I'll write it on the calendar! We must have a cake. What day is it this year?",
      "suggestionFa": "رو تقویم می‌نویسمش! باید کیک داشته باشیم. امسال چه روزیه؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. Let's look.",
    "translations": {
     "fa": "نمی‌دونم. بیا نگاه کنیم."
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "perfect",
-      "sunday",
       "joking",
+      "sunday",
       "party",
       "today"
      ],
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

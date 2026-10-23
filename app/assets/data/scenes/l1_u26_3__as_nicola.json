@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "puddles",
       "stopped",
-      "them",
       "rain",
+      "jump",
       "look"
      ],
      "suggestion": "Look! Big puddles! The rain stopped. Can we jump in them?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Have you got your wellies on?",
    "translations": {
     "fa": "چکمه‌هات پاته؟"
@@ -50,7 +50,7 @@
       "splash",
       "three",
       "ready",
-      "one"
+      "two"
      ],
      "suggestion": "Yes! Wellies on! Ready? One, two, three… SPLASH!",
      "suggestionFa": "آره! چکمه پامه! آماده‌ای؟ یک، دو، سه… شلپ!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a big splash!",
    "translations": {
     "fa": "چه شلپ بزرگی!"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "peppa",
-      "like",
+      "cartoon",
       "jump",
-      "one",
-      "big"
+      "like",
+      "now",
+      "pig"
      ],
      "suggestion": "Like the pig in the cartoon! Now you jump! In the big one!",
      "suggestionFa": "مثل کارتون خوکه! حالا تو بپر! تو اون بزرگه!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Here I go… SPLASH!",
    "translations": {
     "fa": "باشه. اومدم… شلپ!"
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Very muddy!",
    "translations": {
     "fa": "وای نه! خیلی گلی!"
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "rainbow",
+      "there",
       "trees",
       "above",
-      "there",
-      "over"
+      "look"
      ],
      "suggestion": "Look! A rainbow! Over there, above the trees!",
      "suggestionFa": "ببین! رنگین‌کمون! اونجا، بالای درخت‌ها!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a beautiful rainbow!",
    "translations": {
     "fa": "چه رنگین‌کمون قشنگی!"
@@ -145,9 +145,9 @@
    "branches": [
     {
      "keywords": [
-      "orange",
-      "yellow",
       "purple",
+      "yellow",
+      "orange",
       "green",
       "blue"
      ],
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are seven colours.",
    "translations": {
     "fa": "هفت تا رنگ هست."
@@ -172,8 +172,8 @@
      "keywords": [
       "wellies",
       "inside",
-      "seven",
       "socks",
+      "seven",
       "brrr"
      ],
      "suggestion": "Seven! Brrr. I'm cold now. My socks are wet inside my wellies.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Let's go home.",
    "translations": {
     "fa": "وای نه! بیا بریم خونه."
@@ -197,8 +197,8 @@
      "keywords": [
       "chocolate",
       "jumped",
-      "silly",
       "let's",
+      "silly",
       "bath"
      ],
      "suggestion": "Yes! I jumped too high! Silly me! Let's go home for a warm bath and hot chocolate!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "voicemail",
       "answering",
+      "voicemail",
       "message",
       "plumber",
-      "isn't"
+      "leave"
      ],
      "suggestion": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
      "suggestionFa": "لوله‌کش جواب نمی‌ده. پیغام‌گیره. تو پیغام می‌ذاری؟ من خیلی تند حرف می‌زنم!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! You don't talk too fast, Leslie!",
    "translations": {
     "fa": "ها! تو تند حرف نمی‌زنی لزلی!"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "problem",
-      "slowly",
       "number",
-      "after",
-      "phone"
+      "slowly",
+      "phone",
+      "after"
      ],
      "suggestion": "Say your name, the problem and my phone number. Slowly! Here — after the beep.",
      "suggestionFa": "اسمت، مشکل و شماره‌ام را بگو. آروم! بیا — بعد از بوق.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, this is a message for the plumber.",
    "translations": {
     "fa": "سلام، این یه پیغام برای لوله‌کشه."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "problem",
-      "kitchen",
       "leaking",
+      "kitchen",
+      "problem",
       "good",
-      "tap"
+      "now"
      ],
      "suggestion": "Good! Now the problem. The kitchen tap is leaking.",
      "suggestionFa": "خوبه! حالا مشکل. شیر آشپزخونه چکه می‌کنه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The kitchen tap is leaking.",
    "translations": {
     "fa": "شیر آشپزخونه چکه می‌کنه."
@@ -98,8 +98,8 @@
      "keywords": [
       "double",
       "number",
-      "seven",
       "three",
+      "seven",
       "nine"
      ],
      "suggestion": "Now the number. Oh seven seven double oh, nine double oh, one two three.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you say it again, please?",
    "translations": {
     "fa": "می‌شه دوباره بگی، لطفاً؟"
@@ -125,7 +125,7 @@
       "slowly",
       "again",
       "today",
-      "back"
+      "call"
      ],
      "suggestion": "Perfect! Say it again, slowly. And ask him to call back today.",
      "suggestionFa": "عالی! دوباره آروم بگو. و ازش بخواه امروز دوباره زنگ بزنه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Please call back today. Thank you!",
    "translations": {
     "fa": "لطفاً امروز دوباره زنگ بزنید. ممنون!"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "goodbye",
-      "lovely",
       "button",
+      "lovely",
       "press",
       "then"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks. Bye!",
    "translations": {
     "fa": "ممنون. خداحافظ!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you! I was nervous.",
    "translations": {
     "fa": "ممنون! استرس داشتم."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "message",
-      "plumber",
-      "ringing",
       "already",
-      "phone's"
+      "ringing",
+      "phone's",
+      "plumber"
      ],
      "suggestion": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",
      "suggestionFa": "آه! گوشیم از الان داره زنگ می‌زنه. خودشه! لوله‌کش. دیدی؟ یه پیغام خوب جواب می‌ده!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

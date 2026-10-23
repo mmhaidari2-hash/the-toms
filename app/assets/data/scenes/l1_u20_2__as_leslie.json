@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A teacher? What do you teach?",
    "translations": {
     "fa": "معلم؟ چی درس می‌دی؟"
@@ -50,7 +50,7 @@
       "reception",
       "nicola's",
       "they're",
-      "eight"
+      "teach"
      ],
      "suggestion": "No, I teach Year Four. They're eight and nine. Nicola's in Reception. I teach everything!",
      "suggestionFa": "نه، من کلاس چهارم درس می‌دم. هشت و نه ساله‌ان. نیکولا تو پیش‌دبستانیه. همه چی درس می‌دم!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds lovely.",
    "translations": {
     "fa": "به نظر خیلی قشنگه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "different",
-      "laugh",
-      "cries",
       "child",
-      "every"
+      "every",
+      "cries",
+      "laugh"
      ],
      "suggestion": "I love them! Every day is different. Some days a child cries, some days they make me laugh.",
      "suggestionFa": "عاشقشونم! هر روز فرق داره. بعضی روزها یه بچه گریه می‌کنه، بعضی روزها منو می‌خندونن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What time do you start?",
    "translations": {
     "fa": "ساعت چند شروع می‌کنی؟"
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "collect",
-      "finish",
       "nicola",
+      "finish",
       "start",
       "three"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's very handy.",
    "translations": {
     "fa": "خیلی راحته."
@@ -125,7 +125,7 @@
       "william",
       "maggie",
       "family",
-      "after"
+      "she's"
      ],
      "suggestion": "Maggie looks after William. She's wonderful. What does your family do?",
      "suggestionFa": "مگی از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My father is a doctor.",
    "translations": {
     "fa": "پدرم دکتره."
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, she likes numbers.",
    "translations": {
     "fa": "آره، اعداد دوست داره."
@@ -172,8 +172,8 @@
       "spellings",
       "tonight",
       "little",
-      "lovely",
-      "twenty"
+      "twenty",
+      "lovely"
      ],
      "suggestion": "Lovely. Oh, I must mark these spellings tonight. Twenty-eight little books!",
      "suggestionFa": "عالی. آه، امشب باید این دیکته‌ها را تصحیح کنم. بیست و هشت تا دفتر کوچولو!",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I help you?",
    "translations": {
     "fa": "می‌تونم کمکت کنم؟"
@@ -195,10 +195,10 @@
     {
      "keywords": [
       "children",
-      "would",
       "stars",
-      "gold",
-      "love"
+      "would",
+      "love",
+      "gold"
      ],
      "suggestion": "Ooh, would you? You can put the gold stars on! The children love gold stars.",
      "suggestionFa": "اوه، واقعاً؟ می‌تونی ستاره‌های طلایی را بچسبونی! بچه‌ها عاشق ستارهٔ طلایی‌ان.",
@@ -211,7 +211,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

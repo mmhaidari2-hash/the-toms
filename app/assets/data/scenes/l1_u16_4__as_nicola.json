@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "they're",
       "sprouts",
       "smelly",
-      "green",
-      "don't"
+      "don't",
+      "green"
      ],
      "suggestion": "Yuck! Sprouts! I don't like sprouts. They're green and smelly!",
      "suggestionFa": "ایش! کلم بروکسل! کلم بروکسل دوست ندارم. سبزه و بوی بد می‌ده!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just try one, Nicola.",
    "translations": {
     "fa": "فقط یکی امتحان کن نیکولا."
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fair. One sprout!",
    "translations": {
     "fa": "منصفانه‌ست. یه دونه!"
@@ -118,7 +118,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me guess. Ice cream?",
    "translations": {
     "fa": "بذار حدس بزنم. بستنی؟"
@@ -140,7 +140,7 @@
   "r6": {
    "id": "r6",
    "speaker": "tom",
-   "text": "Apple crumble and custard! Now, one sprout. What do you like, Mehdi? Do you like sprouts?",
+   "text": "Apple crumble and custard! Now, one sprout. What do you like, {you}? Do you like sprouts?",
    "translations": {
     "fa": "کرامبل سیب با کاستارد! حالا، یه دونه. تو چی دوست داری {you}؟ کلم بروکسل دوست داری؟"
    },
@@ -177,7 +177,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like them with butter.",
    "translations": {
     "fa": "با کره دوستشون دارم."
@@ -191,7 +191,7 @@
       "give",
       "mine"
      ],
-     "suggestion": "See! Mehdi doesn't like them either. Can I give mine to Daddy?",
+     "suggestion": "See! {you} doesn't like them either. Can I give mine to Daddy?",
      "suggestionFa": "دیدی! {you} هم دوستشون نداره. می‌شه مال منو بدم بابا؟",
      "trustDelta": 5,
      "next": "r8",
@@ -202,7 +202,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nice try, Nicola!",
    "translations": {
     "fa": "تلاش خوبی بود نیکولا!"
@@ -259,7 +259,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Half is easy, Nicola!",
    "translations": {
     "fa": "نصفش آسونه نیکولا!"
@@ -270,8 +270,8 @@
       "cabbage",
       "like",
       "hmm",
-      "bad",
-      "bit"
+      "bit",
+      "bad"
      ],
      "suggestion": "Mmm… hmm… It's not bad! It's a bit like cabbage.",
      "suggestionFa": "ممم… هوم… بد نیست! یه کم مثل کلمه.",
@@ -284,7 +284,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Nicola!",
    "translations": {
     "fa": "آفرین نیکولا!"
@@ -306,7 +306,7 @@
   "r12": {
    "id": "r12",
    "speaker": "tom",
-   "text": "Brilliant! Now you can have crumble. What do you think of crumble, Mehdi?",
+   "text": "Brilliant! Now you can have crumble. What do you think of crumble, {you}?",
    "translations": {
     "fa": "عالی! حالا می‌تونی کرامبل بخوری. نظرت دربارهٔ کرامبل چیه {you}؟"
    },
@@ -335,7 +335,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love it! It's delicious.",
    "translations": {
     "fa": "عاشقشم! خوشمزه‌ست."
@@ -343,10 +343,10 @@
    "branches": [
     {
      "keywords": [
-      "custard",
       "hundred",
-      "crumble",
+      "custard",
       "sprouts",
+      "crumble",
       "points"
      ],
      "suggestion": "Hot crumble with cold custard! The best! Sprouts — one. Nicola — one hundred points!",
@@ -360,7 +360,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

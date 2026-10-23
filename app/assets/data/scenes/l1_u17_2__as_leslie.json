@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "kettle",
       "shall",
-      "fancy",
       "cuppa",
+      "fancy",
       "put"
      ],
      "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please! I'd love one.",
    "translations": {
     "fa": "آره، لطفاً! خیلی دوست دارم."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "kettle",
+      "lovely",
       "first",
-      "fill",
-      "full"
+      "full",
+      "fill"
      ],
      "suggestion": "Ooh, lovely! OK, first fill the kettle. Not too full.",
      "suggestionFa": "اوه، عالی! خب، اول کتری را پر کن. نه خیلی پر.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much water?",
    "translations": {
     "fa": "چقدر آب؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "perfect",
-      "teabag",
       "that's",
-      "turn",
-      "each"
+      "teabag",
+      "each",
+      "turn"
      ],
      "suggestion": "That's perfect. Turn it on. Now, a teabag in each mug.",
      "suggestionFa": "عالیه. روشنش کن. حالا، یه چای کیسه‌ای تو هر ماگ.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where are the teabags?",
    "translations": {
     "fa": "چای کیسه‌ای‌ها کجان؟"
@@ -98,8 +98,8 @@
      "keywords": [
       "kettle's",
       "kettle",
-      "teabag",
       "boiled",
+      "teabag",
       "water"
      ],
      "suggestion": "The tin next to the kettle. The kettle's boiled! Pour the water on the teabag.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this? It's very hot.",
    "translations": {
     "fa": "این‌جوری؟ خیلی داغه."
@@ -124,8 +124,8 @@
       "minutes",
       "teabag",
       "three",
-      "take",
-      "wait"
+      "wait",
+      "then"
      ],
      "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
      "suggestionFa": "حالا دو سه دقیقه صبر کن. بعد چای کیسه‌ای را دربیار. چایت را چطوری می‌خوری؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "With milk, please. No sugar.",
    "translations": {
     "fa": "با شیر، لطفاً. بی‌شکر."
@@ -148,9 +148,9 @@
      "keywords": [
       "builder's",
       "strong",
+      "sugar",
       "milky",
-      "likes",
-      "sugar"
+      "likes"
      ],
      "suggestion": "I like mine milky with one sugar. Nana likes it strong — \"builder's tea\"!",
      "suggestionFa": "من مال خودمو پرشیر با یه قند دوست دارم. نانا پررنگ دوست داره — «چای بنّایی»!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's builder's tea?",
    "translations": {
     "fa": "چای بنّایی چیه؟"
@@ -174,7 +174,7 @@
       "strong",
       "sugars",
       "drink",
-      "lots",
+      "milk",
       "iran"
      ],
      "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In small glasses, without milk.",
    "translations": {
     "fa": "تو استکان‌های کوچیک، بدون شیر."
@@ -200,7 +200,7 @@
       "clever",
       "mouth",
       "must",
-      "try"
+      "how"
      ],
      "suggestion": "In your mouth? How clever! I must try that. Biscuit?",
      "suggestionFa": "تو دهن؟ چه هوشمندانه! باید امتحانش کنم. بیسکویت؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. A digestive.",
    "translations": {
     "fa": "آره، لطفاً. یه دایجستیو."
@@ -225,7 +225,7 @@
       "dunking",
       "cheers",
       "course",
-      "sport"
+      "don't"
      ],
      "suggestion": "Of course! Dunking is a national sport here. Don't leave it in too long, or it falls in! Cheers, love!",
      "suggestionFa": "البته! زدن بیسکویت تو چای اینجا ورزش ملیه! زیاد نگهش ندار، وگرنه می‌افته! به سلامتی عزیزم!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "headphones",
       "birthday",
-      "choose",
+      "better",
       "eighty",
-      "better"
+      "choose"
      ],
      "suggestion": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
      "suggestionFa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the difference between them?",
    "translations": {
     "fa": "فرقشون چیه؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "they're",
       "heavier",
       "battery",
-      "they're",
       "lighter",
-      "louder"
+      "longer"
      ],
      "suggestion": "The black ones are louder and the battery lasts longer — thirty hours. But they're heavier. The white ones are lighter.",
      "suggestionFa": "مشکیه صداش بلندتره و باتریش بیشتر دووم میاره — سی ساعت. ولی سنگین‌ترن. سفیده سبک‌ترن.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Lighter is better for your head.",
    "translations": {
     "fa": "سبک‌تر برای سرت بهتره."
@@ -75,7 +75,7 @@
       "cancelling",
       "anything",
       "noise",
-      "can't"
+      "white"
      ],
      "suggestion": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
      "suggestionFa": "درسته. و سفیده حذف نویز داره. تو اتوبوس هیچی نمی‌شنوی. اعلام‌های بابا — رفت!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Is noise cancelling more expensive?",
    "translations": {
     "fa": "ها! حذف نویز گرون‌تره؟"
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
+      "quieter",
       "outside",
       "seventy",
-      "quieter",
       "blocks",
       "noise"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So the black ones are cheaper.",
    "translations": {
     "fa": "پس مشکیه ارزون‌تره."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "reviews",
-      "bakery",
       "that's",
+      "bakery",
       "better",
-      "sound"
+      "white"
      ],
      "suggestion": "Five quid. That's one bakery lunch. Hmm. The reviews say the white ones sound much better. Four point eight stars.",
      "suggestionFa": "پنج پوند. یعنی یه بار نانوایی. هوم. نظرها میگن صدای سفیده خیلی بهتره. چهار و هشت دهم ستاره.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And the black ones?",
    "translations": {
     "fa": "و مشکیه؟"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "trying",
-      "can't",
-      "point",
+      "black",
       "white",
-      "black"
+      "can't",
+      "point"
      ],
      "suggestion": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
      "suggestionFa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "RYAN! Can you hear me now?",
    "translations": {
     "fa": "رایان! الان صدام را می‌شنوی؟"
@@ -173,9 +173,9 @@
      "keywords": [
       "usually",
       "better",
-      "right",
-      "money",
-      "sorry"
+      "sorry",
+      "white",
+      "money"
      ],
      "suggestion": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
      "suggestionFa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not always! But this time, yes.",
    "translations": {
     "fa": "نه همیشه! ولی این دفعه آره."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "cheapest",
-      "sausage",
+      "perfect",
       "shopper",
       "helping",
-      "perfect"
+      "sausage"
      ],
      "suggestion": "Sure. Five quid for a sausage roll. Perfect day. Cheers for helping. You're a better shopper than Dad. He'd buy the cheapest.",
      "suggestionFa": "مطمئن. پنج پوند برای یه سوسیس رول. روز عالی. مرسی که کمک کردی. از بابا خریدار بهتری هستی. اون ارزون‌ترین را می‌خرید.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

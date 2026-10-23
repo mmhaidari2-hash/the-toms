@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -24,8 +24,8 @@
       "mentoring",
       "barely",
       "leslie",
-      "could",
-      "proud"
+      "tells",
+      "young"
      ],
      "suggestion": "Leslie tells me you're mentoring a young lady now. I'm proud of you, love. When you first came, you could barely say \"cup of tea\".",
      "suggestionFa": "لزلی بهم گفت الان منتور یه خانم جوونی. بهت افتخار می‌کنم عزیزم. وقتی اول اومدی، به زور می‌تونستی بگی «یه فنجون چای».",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! And you taught me how to make a proper one.",
    "translations": {
     "fa": "ها! و شما یادم دادید یه چای درست و حسابی درست کنم."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "hardest",
       "looking",
+      "hardest",
       "teabag",
-      "round",
-      "other"
+      "water",
+      "never"
      ],
      "suggestion": "Teabag in first, then the water, milk last. Never the other way round. What was the hardest part, looking back?",
      "suggestionFa": "اول چای کیسه‌ای، بعد آب، شیر آخر. هیچ‌وقت برعکس نه. وقتی به گذشته نگاه می‌کنی، سخت‌ترین قسمت چی بود؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Feeling like an outsider, even when people were kind.",
    "translations": {
     "fa": "حس غریبه بودن، حتی وقتی مردم مهربون بودن."
@@ -73,8 +73,8 @@
      "keywords": [
       "landlords",
       "welcoming",
-      "windows",
       "weren't",
+      "natural",
       "ireland"
      ],
      "suggestion": "That's natural. When I came over from Ireland in 1965, people weren't always welcoming. Some landlords had signs in their windows.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I had no idea you'd moved here too, Maggie.",
    "translations": {
     "fa": "نمی‌دونستم شما هم مهاجرت کردید مگی."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "younger",
       "trained",
-      "belong",
+      "younger",
+      "nurses",
       "george",
-      "people"
+      "church"
      ],
      "suggestion": "I found my people — the church, the nurses I trained with. And I met George, of course. If I could tell my younger self one thing, it'd be: you will belong here. Give it time.",
      "suggestionFa": "آدم‌های خودم را پیدا کردم — کلیسا، پرستارهایی که باهاشون آموزش دیدم. و البته ویلیام را دیدم. اگه می‌تونستم یه چیز به خودِ جوونم بگم، این بود: اینجا جا میفتی. بهش زمان بده.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's exactly what I'll tell Farah.",
    "translations": {
     "fa": "دقیقاً همینو به فرح می‌گم."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "kettle",
       "tissue",
-      "stop",
-      "mind"
+      "you'll",
+      "milk",
+      "pass"
      ],
      "suggestion": "Oh, stop it, you'll set me off. Pass me a tissue. And put the kettle on — milk last, mind!",
      "suggestionFa": "آه، بس کن، گریه‌ام را درمیاری. یه دستمال بده. و کتری را بذار — شیر آخر، یادت باشه!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

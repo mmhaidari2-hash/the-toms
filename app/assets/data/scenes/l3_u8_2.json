@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "that's",
       "making",
+      "that's",
       "white",
       "noise"
      ],
@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "was"
+      "tom"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "today",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it today?",
      "suggestionFa": "امروز می‌تونید درستش کنید؟",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "roughly",
-      "will",
       "cost",
-      "much"
+      "much",
+      "will"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",

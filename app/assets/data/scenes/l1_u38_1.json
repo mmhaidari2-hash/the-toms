@@ -109,10 +109,10 @@
    "branches": [
     {
      "keywords": [
-      "d",
-      "h",
-      "y",
-      "b"
+      "t",
+      "b",
+      "r",
+      "y"
      ],
      "suggestion": "B-I-R-T-H-D-A-Y.",
      "suggestionFa": "بی-آی-آر-تی-اچ-دی-ای-وای.",
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "small",
-      "words",
       "birth",
+      "words",
       "two"
      ],
      "suggestion": "Birth… day. Two small words!",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "here's",
-      "yours",
       "under",
+      "yours",
       "name"
      ],
      "suggestion": "Here's my name, under yours.",

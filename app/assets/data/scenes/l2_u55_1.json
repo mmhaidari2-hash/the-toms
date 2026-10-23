@@ -22,7 +22,7 @@
       "turning",
       "router",
       "tried",
-      "have"
+      "sure"
      ],
      "suggestion": "Sure. Have you tried turning the router off and on?",
      "suggestionFa": "حتماً. امتحان کردی روتر را خاموش و روشن کنی؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "everyone",
-      "just",
-      "down"
+      "down",
+      "just"
      ],
      "suggestion": "Is it down for everyone, or just you?",
      "suggestionFa": "برای همه قطعه، یا فقط تو؟",
@@ -74,8 +74,8 @@
      "keywords": [
       "white",
       "look",
-      "box",
-      "let"
+      "let",
+      "box"
      ],
      "suggestion": "Let me look. It's this white box with the lights.",
      "suggestionFa": "بذار ببینم. همین جعبهٔ سفید با چراغ‌هاست.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "flashing",
-      "lights",
       "orange",
+      "lights",
       "now"
      ],
      "suggestion": "The lights are flashing orange now.",
@@ -194,8 +194,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "problem",
+      "there's",
       "area"
      ],
      "suggestion": "It says: \"There's a problem in your area.\"",
@@ -249,7 +249,7 @@
       "expect",
       "fixed",
       "nine",
-      "we"
+      "by"
      ],
      "suggestion": "\"We expect it to be fixed by nine p.m.\"",
      "suggestionFa": "«انتظار داریم تا ساعت ۹ شب درست شود.»",
@@ -261,8 +261,8 @@
      "keywords": [
       "doesn't",
       "shall",
-      "them",
-      "call"
+      "call",
+      "them"
      ],
      "suggestion": "It doesn't say. Shall I call them?",
      "suggestionFa": "نگفته. بهشون زنگ بزنم؟",
@@ -302,8 +302,8 @@
      "keywords": [
       "unlimited",
       "course",
-      "data",
-      "i've"
+      "i've",
+      "data"
      ],
      "suggestion": "Of course. I've got unlimited data.",
      "suggestionFa": "البته. اینترنت نامحدود دارم.",
@@ -357,8 +357,8 @@
    "branches": [
     {
      "keywords": [
-      "poor",
       "book",
+      "poor",
       "ha"
      ],
      "suggestion": "Ha! A book! Poor Ryan.",
@@ -412,8 +412,8 @@
      "keywords": [
       "working",
       "lights",
-      "green",
-      "again"
+      "again",
+      "green"
      ],
      "suggestion": "Green lights! It's working again.",
      "suggestionFa": "چراغ سبز! دوباره کار می‌کنه.",
@@ -425,8 +425,8 @@
      "keywords": [
       "hotspot",
       "then",
-      "turn",
-      "i'll"
+      "i'll",
+      "turn"
      ],
      "suggestion": "I'll turn my hotspot off, then.",
      "suggestionFa": "پس هات‌اسپاتم را خاموش می‌کنم.",

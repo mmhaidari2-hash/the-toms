@@ -1,0 +1,236 @@
+{
+ "id": "est_2_1",
+ "characterId": "agent",
+ "title": "The Right to Rent check",
+ "titleFa": "بررسی حق اجاره",
+ "setting": "Before you move in · Level 0",
+ "settingFa": "پیش از اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Before we sign anything, I need to do a Right to Rent check. It's the law in England, and we check every adult tenant.",
+   "translations": {
+    "fa": "قبل از امضای هر چیزی، باید بررسی حق اجاره را انجام بدم. تو انگلستان قانونه، و همهٔ مستأجرهای بزرگسال را بررسی می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bring",
+      "need",
+      "ok"
+     ],
+     "suggestion": "OK. What do I need to bring?",
+     "suggestionFa": "باشه. چی باید بیارم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "people",
+      "check"
+     ],
+     "suggestion": "Do you check British people too?",
+     "suggestionFa": "بریتانیایی‌ها را هم بررسی می‌کنید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Right to Rent",
+     "fa": "حق اجاره ؛ مجوز اجاره"
+    },
+    {
+     "word": "the law",
+     "fa": "قانون"
+    },
+    {
+     "word": "adult",
+     "fa": "بزرگسال"
+    },
+    {
+     "word": "tenant",
+     "fa": "مستأجر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Yes, everyone over eighteen, so it's fair. You can show me an original passport, or you can do it online.",
+   "translations": {
+    "fa": "بله، همهٔ بالای هجده سال، تا منصفانه باشه. می‌تونید گذرنامهٔ اصلی را نشونم بدید، یا آنلاین انجامش بدید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "visa",
+      "have",
+      "can"
+     ],
+     "suggestion": "I have a visa. Can I do it online?",
+     "suggestionFa": "ویزا دارم. می‌تونم آنلاین انجامش بدم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "check",
+      "work",
+      "how"
+     ],
+     "suggestion": "How does the online check work?",
+     "suggestionFa": "بررسی آنلاین چطوریه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "original",
+     "fa": "اصلی ؛ اصل"
+    },
+    {
+     "word": "passport",
+     "fa": "گذرنامه ؛ پاسپورت"
+    },
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Yes. Go to GOV.UK, find \"Prove your right to rent\", and you'll get a share code. Send me the code and your date of birth.",
+   "translations": {
+    "fa": "بله. برید GOV.UK، «Prove your right to rent» را پیدا کنید، یه کد اشتراک می‌گیرید. کد و تاریخ تولدتون را برام بفرستید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "share",
+      "valid",
+      "long",
+      "how"
+     ],
+     "suggestion": "How long is the share code valid for?",
+     "suggestionFa": "کد اشتراک تا کِی معتبره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "pay"
+     ],
+     "suggestion": "Do I have to pay for the code?",
+     "suggestionFa": "باید برای کد پول بدم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "share code",
+     "fa": "کد اشتراک"
+    },
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "valid",
+     "fa": "معتبر"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Right to Rent share code is free and starts with R. It lasts 90 days. Only use the official GOV.UK service.",
+    "fa": "کد اشتراک حق اجاره رایگان است، با R شروع می‌شود و ۹۰ روز اعتبار دارد."
+   },
+   "recasts": [
+    {
+     "match": [
+      "I must pay code",
+      "pay for code"
+     ],
+     "echo": "Do I have to pay for the share code? No, it's free.",
+     "better": "Do I have to pay for the share code?",
+     "betterFa": "باید برای کد اشتراک پول بدم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "It's free, and it lasts ninety days. If your visa has a time limit, we may need to check again later.",
+   "translations": {
+    "fa": "رایگانه، و نود روز اعتبار داره. اگه ویزاتون محدودیت زمانی داره، شاید بعداً دوباره بررسی کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "that's",
+      "send",
+      "i'll"
+     ],
+     "suggestion": "That's fine. I'll send it tonight.",
+     "suggestionFa": "اشکالی نداره. امشب می‌فرستم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "details",
+      "will",
+      "copy",
+      "keep"
+     ],
+     "suggestion": "Will you keep a copy of my details?",
+     "suggestionFa": "از اطلاعاتم یه کپی نگه می‌دارید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "time limit",
+     "fa": "محدودیت زمانی"
+    },
+    {
+     "word": "check again",
+     "fa": "دوباره بررسی کردن"
+    },
+    {
+     "word": "keep a copy",
+     "fa": "کپی نگه داشتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "We keep a secure record, yes — that's the rule. Thanks, {you}. Once that's done, we can move on to references.",
+   "translations": {
+    "fa": "بله، یه سابقهٔ امن نگه می‌داریم — قانونش اینه. ممنون {you}. وقتی این تموم شد، می‌ریم سراغ معرف‌ها."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

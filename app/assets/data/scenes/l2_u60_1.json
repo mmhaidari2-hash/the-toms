@@ -22,7 +22,7 @@
       "engineering",
       "engineer",
       "looking",
-      "well"
+      "work"
      ],
      "suggestion": "I'm an engineer. Well, I'm looking for engineering work.",
      "suggestionFa": "مهندسم. خب، دنبال کار مهندسی‌ام.",
@@ -35,7 +35,7 @@
       "studying",
       "english",
       "doing",
-      "part"
+      "time"
      ],
      "suggestion": "I'm studying English and doing a part-time job.",
      "suggestionFa": "دارم انگلیسی می‌خونم و یه کار پاره‌وقت دارم.",
@@ -89,9 +89,9 @@
     {
      "keywords": [
       "about",
-      "been",
+      "year",
       "here",
-      "i've"
+      "been"
      ],
      "suggestion": "I've been here for about a year.",
      "suggestionFa": "حدود یه ساله اینجام.",
@@ -138,8 +138,8 @@
    "branches": [
     {
      "keywords": [
-      "band",
       "play",
+      "band",
       "did"
      ],
      "suggestion": "A band? What did you play?",
@@ -152,8 +152,8 @@
      "keywords": [
       "start",
       "fresh",
-      "here",
-      "came"
+      "came",
+      "here"
      ],
      "suggestion": "Me too — I came here for a fresh start.",
      "suggestionFa": "منم — برای یه شروع تازه اومدم اینجا.",
@@ -204,8 +204,8 @@
      "keywords": [
       "that's",
       "about",
-      "band",
-      "good"
+      "good",
+      "band"
      ],
      "suggestion": "That's sad about the band. But good for us!",
      "suggestionFa": "حیف شد گروه. ولی برای ما خوب شد!",
@@ -259,7 +259,7 @@
       "victoria",
       "walking",
       "cooking",
-      "like"
+      "park"
      ],
      "suggestion": "I like walking in Victoria Park, and cooking.",
      "suggestionFa": "پیاده‌روی تو ویکتوریا پارک و آشپزی را دوست دارم.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "maybe",
-      "shy",
-      "bit"
+      "bit",
+      "shy"
      ],
      "suggestion": "Maybe! I'm a bit shy.",
      "suggestionFa": "شاید! یه کم خجالتی‌ام.",
@@ -315,8 +315,8 @@
      "keywords": [
       "listen",
       "first",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "OK! I'll come and listen first.",
      "suggestionFa": "باشه! اول میام گوش میدم.",

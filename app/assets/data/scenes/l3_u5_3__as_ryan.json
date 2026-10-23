@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "options",
       "friday",
-      "advice",
       "choose",
-      "i've"
+      "advice",
+      "gcse"
      ],
      "suggestion": "I've got to choose my GCSE options by Friday and I've got no idea. Can I ask your advice?",
      "suggestionFa": "باید تا جمعه درس‌های GCSE‌ام را انتخاب کنم و هیچ ایده‌ای ندارم. می‌تونم ازت مشورت بگیرم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What are you interested in?",
    "translations": {
     "fa": "حتماً. به چی علاقه داری؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "compulsory",
       "computing",
-      "choices",
+      "science",
       "english",
-      "science"
+      "choices"
      ],
      "suggestion": "Maths, English and science are compulsory. Then I get four choices. I like computing and PE, but Mum wants me to do French.",
      "suggestionFa": "ریاضی، انگلیسی و علوم اجباریه. بعد چهارتا انتخاب دارم. کامپیوتر و ورزش را دوست دارم، ولی مامان می‌خواد فرانسوی بخونم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "If I were you, I'd definitely choose computing.",
    "translations": {
     "fa": "اگه جای تو بودم، قطعاً کامپیوتر را انتخاب می‌کردم."
@@ -75,7 +75,7 @@
       "languages",
       "rubbish",
       "french",
-      "says"
+      "look"
      ],
      "suggestion": "She says languages look good for university. But I'm rubbish at French.",
      "suggestionFa": "می‌گه زبان برای دانشگاه خوبه. ولی من تو فرانسوی افتضاحم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're learning fast, though. Look at me with English!",
    "translations": {
     "fa": "ولی سریع یاد می‌گیری. منو با انگلیسی ببین!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "If I were you, I'd do design and technology.",
    "translations": {
     "fa": "اگه جای تو بودم، طراحی و فناوری برمی‌داشتم."
@@ -123,9 +123,9 @@
      "keywords": [
       "computing",
       "french",
-      "three",
+      "hours",
       "happy",
-      "hours"
+      "three"
      ],
      "suggestion": "Dad will talk for three hours! OK — computing, D&T, PE and… fine, French. Happy now, Mum?",
      "suggestionFa": "بابا سه ساعت حرف می‌زنه! باشه — کامپیوتر، طراحی، ورزش و… باشه، فرانسوی. حالا خوشحالی مامان؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

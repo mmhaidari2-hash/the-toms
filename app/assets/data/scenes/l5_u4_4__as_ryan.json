@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "engineering",
-      "lecturer",
       "actually",
+      "lecturer",
       "running",
-      "school"
+      "summer"
      ],
      "suggestion": "At the engineering summer school, a lecturer said I'd \"hit the ground running\". I nodded like I knew what it meant. What does it actually mean?",
      "suggestionFa": "تو مدرسهٔ تابستونی مهندسی، یه استاد گفت من «hit the ground running». سر تکون دادم انگار می‌دونستم یعنی چی. واقعاً یعنی چی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It means you started really well and quickly, without needing time to adjust.",
    "translations": {
     "fa": "یعنی خیلی خوب و سریع شروع کردی، بدون اینکه وقت برای تطبیق لازم داشته باشی."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's an obvious problem that everyone avoids talking about.",
    "translations": {
     "fa": "یه مشکل آشکاره که همه از حرف زدن دربارهٔ اون طفره می‌رن."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It means someone who surprises everyone by doing well.",
    "translations": {
     "fa": "یعنی کسی که با موفقیتش همه را غافلگیر می‌کنه."
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "actually",
       "elephant",
+      "actually",
       "running",
       "that's",
       "ground"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Excuse me! I'm nobody's elephant.",
    "translations": {
     "fa": "ببخشید! من فیل هیچ‌کس نیستم."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "seriously",
-      "winding",
       "they'll",
-      "cheers",
-      "genius"
+      "winding",
+      "though",
+      "summer"
      ],
      "suggestion": "Ha! Just winding you up. Seriously though, cheers. When I give my speech at the summer school, I'm using all three. They'll think I'm a genius.",
      "suggestionFa": "ها! فقط سربه‌سرت گذاشتم. ولی جدی، مرسی. وقتی تو مدرسهٔ تابستونی سخنرانی کنم، هر سه را به کار می‌برم. فکر می‌کنن نابغه‌ام.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

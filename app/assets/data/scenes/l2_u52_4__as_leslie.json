@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "sophie's",
-      "morning",
       "packing",
-      "check",
-      "badly"
+      "morning",
+      "badly",
+      "check"
      ],
      "suggestion": "Last morning! Sad. Can you help me check out? Tom's packing the car — badly. Sophie's at the desk.",
      "suggestionFa": "آخرین صبح! غمگینه. کمکم می‌کنی تسویه کنیم؟ تام داره ماشین را می‌چینه — بد. سوفی پشت میزه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Good morning, Sophie. We'd like to check out.",
    "translations": {
     "fa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم."
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. Leslie, can you check the bill?",
    "translations": {
     "fa": "ممنون. لزلی، میشه صورت‌حساب را چک کنی؟"
@@ -95,10 +95,10 @@
    "branches": [
     {
      "keywords": [
-      "hundred",
       "minibar",
-      "ninety",
+      "hundred",
       "pounds",
+      "what's",
       "didn't"
      ],
      "suggestion": "Let me look… Three hundred and ninety pounds. Ah — what's this? \"Minibar, eight pounds\"? We didn't use the minibar.",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could you check the minibar charge, please?",
    "translations": {
     "fa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟"
@@ -122,9 +122,9 @@
      "keywords": [
       "anything",
       "little",
-      "course",
       "fridge",
-      "from"
+      "course",
+      "ryan"
      ],
      "suggestion": "Ryan! Of course. Ryan, did you eat anything from the little fridge?",
      "suggestionFa": "رایان! معلومه. رایان، از یخچال کوچیکه چیزی خوردی؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, come here a minute.",
    "translations": {
     "fa": "رایان، یه لحظه بیا اینجا."
@@ -200,7 +200,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nothing in a minibar is free, Ryan!",
    "translations": {
     "fa": "هیچ‌چیز تو مینی‌بار مجانی نیست رایان!"
@@ -208,8 +208,8 @@
    "branches": [
     {
      "keywords": [
-      "correct",
       "learned",
+      "correct",
       "bill's",
       "lesson",
       "leave"
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I help carry the bags to the desk?",
    "translations": {
     "fa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟"
@@ -290,7 +290,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The seagulls! I know about them.",
    "translations": {
     "fa": "مرغ‌های دریایی! درباره‌شون می‌دونم."
@@ -301,8 +301,8 @@
       "definitely",
       "breakfast",
       "auntie's",
-      "lovely",
-      "sophie"
+      "sophie",
+      "review"
      ],
      "suggestion": "Sophie, it was lovely. Your auntie's breakfast — wow. We'll definitely come back. Can I leave a review?",
      "suggestionFa": "سوفی، عالی بود. صبحانهٔ خاله‌ات — وای. حتماً برمی‌گردیم. می‌تونم یه نظر بنویسم؟",
@@ -315,7 +315,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, let's write a review tonight.",
    "translations": {
     "fa": "آره، بیا امشب یه نظر بنویسیم."
@@ -374,7 +374,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five stars! Thank you for everything.",
    "translations": {
     "fa": "پنج ستاره! ممنون بابت همه‌چی."
@@ -382,11 +382,11 @@
    "branches": [
     {
      "keywords": [
-      "mention",
       "special",
-      "dinner",
+      "mention",
       "sophie",
-      "right"
+      "dinner",
+      "chips"
      ],
      "suggestion": "Five stars, and a special mention for the free dinner. Right — pier, chips, then the long drive home. Bye, Sophie!",
      "suggestionFa": "پنج ستاره، و یه اشارهٔ ویژه به شام مجانی. خب — اسکله، چیپس، بعد رانندگی طولانی تا خونه. خداحافظ سوفی!",
@@ -399,7 +399,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

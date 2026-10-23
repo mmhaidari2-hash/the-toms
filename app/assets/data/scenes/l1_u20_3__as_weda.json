@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "library",
-      "worked",
       "thirty",
+      "worked",
       "years",
       "know"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? Thirty years?",
    "translations": {
     "fa": "واقعاً؟ سی سال؟"
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you do every day?",
    "translations": {
     "fa": "هر روز چی کار می‌کردید؟"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds wonderful.",
    "translations": {
     "fa": "خیلی قشنگ به نظر میاد."
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "saturday",
-      "right",
       "there",
       "chair",
-      "every"
+      "every",
+      "right"
      ],
      "suggestion": "Every Saturday! She sat right there, on that red chair.",
      "suggestionFa": "هر شنبه! درست اونجا، رو اون صندلی قرمز می‌نشست.",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "On that chair? How sweet!",
    "translations": {
     "fa": "رو اون صندلی؟ چه ناز!"
@@ -165,7 +165,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello! Nice to meet you.",
    "translations": {
     "fa": "سلام! از آشنایی‌تون خوشبختم."
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. What happened?",
    "translations": {
     "fa": "نه. چی شد؟"
@@ -231,8 +231,8 @@
       "everywhere",
       "upstairs",
       "carried",
-      "books",
-      "night"
+      "night",
+      "water"
      ],
      "suggestion": "A pipe burst in 1998. Water everywhere! We carried the books upstairs all night.",
      "suggestionFa": "سال ۱۹۹۸ یه لوله ترکید. همه جا آب! تمام شب کتاب‌ها را بردیم طبقهٔ بالا.",
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "All night? You were very brave.",
    "translations": {
     "fa": "تمام شب؟ خیلی شجاع بودید."
@@ -255,9 +255,9 @@
      "keywords": [
       "computers",
       "customer",
-      "read",
       "just",
-      "come"
+      "read",
+      "most"
      ],
      "suggestion": "Most of them! Now I just come here to read and use the computers. I'm a customer now!",
      "suggestionFa": "بیشترشون را! حالا فقط میام اینجا که بخونم و از کامپیوترها استفاده کنم. الان مشتری‌ام!",
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you miss working here?",
    "translations": {
     "fa": "دلتون برای کار اینجا تنگ شده؟"
@@ -282,7 +282,7 @@
       "sometimes",
       "library",
       "shall",
-      "card"
+      "time"
      ],
      "suggestion": "Sometimes. But now I've got time for my grandchildren — and for you! Shall we get you a library card?",
      "suggestionFa": "گاهی. ولی حالا برای نوه‌هام وقت دارم — و برای تو! بریم برات یه کارت کتابخونه بگیریم؟",
@@ -295,7 +295,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

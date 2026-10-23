@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! It's shrunk!",
    "translations": {
     "fa": "وای نه! آب رفته!"
@@ -116,7 +116,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sixty and the dryer? That's why!",
    "translations": {
     "fa": "شصت و خشک‌کن؟ برای همینه!"
@@ -176,7 +176,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thirty, not sixty. And no dryer.",
    "translations": {
     "fa": "سی، نه شصت. و بدون خشک‌کن."
@@ -244,7 +244,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm not sure. Maybe soak it in water with conditioner?",
    "translations": {
     "fa": "مطمئن نیستم. شاید تو آب با نرم‌کننده خیسش کنی؟"
@@ -304,7 +304,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Soak it for thirty minutes, then stretch it gently.",
    "translations": {
     "fa": "سی دقیقه خیسش کن، بعد آروم کشش بده."
@@ -364,7 +364,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! It's a bit longer now.",
    "translations": {
     "fa": "ببخشید! الان یه کم بلندتر شد."
@@ -428,7 +428,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tell her. Honesty is best.",
    "translations": {
     "fa": "بهش بگو. صداقت بهترینه."
@@ -440,7 +440,7 @@
       "doing",
       "ryan",
       "tiny",
-      "one"
+      "two"
      ],
      "suggestion": "What are you two doing with that hoodie? Ryan… is that your new one? Why is it tiny?",
      "suggestionFa": "شما دو تا با اون هودی چی کار می‌کنید؟ رایان… اون هودی جدیدته؟ چرا انقدر کوچیکه؟",
@@ -453,7 +453,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's my fault too. I didn't check it.",
    "translations": {
     "fa": "تقصیر منم هست. چکش نکردم."
@@ -509,7 +509,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's very grown-up, Ryan.",
    "translations": {
     "fa": "این خیلی بزرگ‌منشانه‌ست رایان."
@@ -517,8 +517,8 @@
    "branches": [
     {
      "keywords": [
-      "present",
       "telling",
+      "present",
       "william",
       "ryan's",
       "labels"
@@ -534,7 +534,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

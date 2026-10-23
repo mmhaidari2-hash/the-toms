@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,11 +23,11 @@
      "keywords": [
       "cornwall",
       "plants",
-      "going",
-      "could",
-      "water"
+      "water",
+      "we're",
+      "going"
      ],
-     "suggestion": "Mehdi, we're going to Cornwall for a week. Could you water our plants?",
+     "suggestion": "{you}, we're going to Cornwall for a week. Could you water our plants?",
      "suggestionFa": "{you}، یه هفته میریم کورنوال. می‌تونی به گلدون‌هامون آب بدی؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. How often?",
    "translations": {
     "fa": "البته. هر چند وقت؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Every two days. OK.",
    "translations": {
     "fa": "هر دو روز. باشه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "doesn't",
-      "little",
       "cactus",
-      "don't",
-      "water"
+      "little",
+      "water",
+      "don't"
      ],
      "suggestion": "Just a little. Half a cup each. The cactus doesn't need any. Don't water it!",
      "suggestionFa": "فقط یه کم. هر کدوم نصف لیوان. کاکتوس اصلاً لازم نداره. بهش آب نده!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No water for the cactus.",
    "translations": {
     "fa": "به کاکتوس آب نمیدم."
@@ -99,8 +99,8 @@
       "goldfish",
       "nicola's",
       "feeding",
-      "goldie",
-      "desert"
+      "desert",
+      "goldie"
      ],
      "suggestion": "It's from the desert! Would you mind feeding Goldie too? Nicola's goldfish.",
      "suggestionFa": "از بیابونه! زحمت غذا دادن به گلدی را هم می‌کشی؟ ماهی قرمز نیکولا.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't mind at all.",
    "translations": {
     "fa": "اصلاً زحمتی نیست."
@@ -125,7 +125,7 @@
       "goldie",
       "pinch",
       "just",
-      "more"
+      "once"
      ],
      "suggestion": "Just a pinch, once a day. Not more! Nicola will cry if Goldie gets fat.",
      "suggestionFa": "فقط یه ذره، روزی یه بار. نه بیشتر! اگه گلدی چاق بشه نیکولا گریه می‌کنه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A pinch once a day. Got it.",
    "translations": {
     "fa": "یه ذره روزی یه بار. فهمیدم."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which bin is it this week?",
    "translations": {
     "fa": "این هفته کدوم سطل؟"
@@ -173,9 +173,9 @@
      "keywords": [
       "recycling",
       "cornwall",
+      "bring",
       "green",
-      "fudge",
-      "bring"
+      "fudge"
      ],
      "suggestion": "The green one, recycling. You're an angel. I'll bring you some fudge from Cornwall!",
      "suggestionFa": "سبزه، بازیافت. فرشته‌ای. از کورنوال برات فاج میارم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fudge? Yes, please!",
    "translations": {
     "fa": "فاج؟ آره لطفاً!"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "nicola's",
-      "bedroom",
-      "they're",
       "pyjamas",
+      "they're",
+      "bedroom",
       "bath"
      ],
      "suggestion": "Nicola's out of the bath. Can you find her pyjamas? They're in the bedroom.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where in the bedroom?",
    "translations": {
     "fa": "کجای اتاق خواب؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Got them!",
    "translations": {
     "fa": "پیداشون کردم!"
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are. Snug as a bug!",
    "translations": {
     "fa": "بفرما. مثل یه حشره تو پیله!"
@@ -132,7 +132,7 @@
       "where's",
       "nicola",
       "hair",
-      "dry"
+      "now"
      ],
      "suggestion": "Now dry your hair, Nicola. Where's the hairdryer?",
      "suggestionFa": "حالا موهات را خشک کن نیکولا. سشوار کجاست؟",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it in the drawer?",
    "translations": {
     "fa": "تو کشوئه؟"
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "behind",
-      "socket",
       "mirror",
-      "plug",
-      "door"
+      "socket",
+      "door",
+      "next"
      ],
      "suggestion": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
      "suggestionFa": "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره.",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. It's on now.",
    "translations": {
     "fa": "باشه. حالا روشنه."
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! Is this better?",
    "translations": {
     "fa": "ببخشید! این بهتره؟"
@@ -236,8 +236,8 @@
       "slippers",
       "pyjamas",
       "where",
-      "her",
-      "now"
+      "now",
+      "her"
      ],
      "suggestion": "Now pyjamas on. Where are her slippers?",
      "suggestionFa": "حالا پیژامه بپوش. دمپایی‌هاش کجان؟",
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're by the door.",
    "translations": {
     "fa": "دم درن."
@@ -307,7 +307,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh, Nicola!",
    "translations": {
     "fa": "آه، نیکولا!"
@@ -316,10 +316,10 @@
     {
      "keywords": [
       "pyjamas",
-      "choose",
       "nicola",
-      "story",
-      "thank"
+      "choose",
+      "thank",
+      "clean"
      ],
      "suggestion": "Clean, dry and in pyjamas! Thank you, love. Now, warm milk and a story. You choose the book, Nicola!",
      "suggestionFa": "تمیز، خشک و با پیژامه! ممنون عزیزم. حالا شیر گرم و یه قصه. تو کتاب را انتخاب کن نیکولا!",
@@ -332,7 +332,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

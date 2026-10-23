@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "tomorrow",
+      "terrible",
       "hallway",
-      "coming",
-      "shirts"
+      "shirts",
+      "coming"
      ],
      "suggestion": "The hallway is full of boxes! Old toys, books, Tom's terrible shirts. Tomorrow we're doing a car-boot sale. Fancy coming?",
      "suggestionFa": "راهرو پر از جعبه‌ست! اسباب‌بازی‌های قدیمی، کتاب‌ها، پیرهن‌های افتضاح تام. فردا بازار دست‌دوم داریم. میای؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a car-boot sale?",
    "translations": {
     "fa": "«کار بوت سیل» چیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "things",
       "people",
-      "cheap",
-      "pence",
-      "pound"
+      "start",
+      "pound",
+      "cheap"
      ],
      "suggestion": "People park in a big field and sell old things from the boot of their car. Cheap! Fifty pence, a pound. Start at seven.",
      "suggestionFa": "مردم تو یه زمین بزرگ پارک می‌کنن و وسایل قدیمی را از صندوق عقب ماشینشون می‌فروشن. ارزون! پنجاه پنس، یه پوند. ساعت هفت شروع میشه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven in the morning? On a Sunday?",
    "translations": {
     "fa": "هفت صبح؟ یکشنبه؟"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "antiques",
-      "looking",
       "they're",
       "serious",
+      "looking",
       "things"
      ],
      "suggestion": "Seven, yes. The early buyers are the serious ones. They're looking for antiques. Now, help me price things. This lamp?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two pounds? It's quite old.",
    "translations": {
     "fa": "دو پوند؟ نسبتاً قدیمیه."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready. Hello! The lamp is two pounds.",
    "translations": {
     "fa": "آماده‌ام. سلام! چراغ دو پونده."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "little",
-      "pound",
-      "would",
       "shake",
-      "watch"
+      "pound",
+      "watch",
+      "dance"
      ],
      "suggestion": "He will! Watch. He says, \"Would you take a pound?\" You say, \"One fifty?\" Then you shake hands. It's a little dance.",
      "suggestionFa": "می‌زنه! ببین. میگه «یه پوند قبول می‌کنید؟» تو میگی «یک و پنجاه؟» بعد دست میدید. یه رقص کوچیکه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Would you take one fifty?",
    "translations": {
     "fa": "یک و پنجاه قبول می‌کنید؟"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "brilliant",
-      "expert",
-      "haggle",
       "charge",
-      "bazaar"
+      "bazaar",
+      "haggle",
+      "people"
      ],
      "suggestion": "An expert from the bazaar! Brilliant. Then you're in charge of the toys. People always haggle for toys.",
      "suggestionFa": "یه کارشناس بازار! عالیه. پس مسئول اسباب‌بازی‌ها تو باش. مردم همیشه سر اسباب‌بازی چونه می‌زنن.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. How much are the toys?",
    "translations": {
     "fa": "باشه. اسباب‌بازی‌ها چندن؟"
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "honestly",
-      "parrot",
       "shirts",
-      "pound",
+      "parrot",
+      "don't",
       "loves"
      ],
      "suggestion": "Toys fifty pence each. Shirts — a pound, or free, honestly. Just make them go. Shh! Don't tell Tom. He loves the parrot one.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A parrot shirt? That's a bargain at a pound!",
    "translations": {
     "fa": "پیرهن طوطی‌دار؟ یه پوند مفته!"
@@ -198,9 +198,9 @@
      "keywords": [
       "drawings",
       "perfect",
-      "twenty",
       "people",
-      "nicola"
+      "nicola",
+      "twenty"
      ],
      "suggestion": "Perfect. Oh, and Nicola wants to sell her drawings. Twenty pence each. Be nice if people buy one.",
      "suggestionFa": "عالی. اوه، و نیکولا می‌خواد نقاشی‌هاش را بفروشه. هر کدوم بیست پنس. خوب میشه اگه مردم یکی بخرن.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll buy the first one!",
    "translations": {
     "fa": "من اولی را می‌خرم!"
@@ -225,7 +225,7 @@
       "warmest",
       "always",
       "alarm",
-      "sweet"
+      "sales"
      ],
      "suggestion": "Aw, you're sweet. Right — alarm at six. Bring a flask of tea and your warmest coat. Car-boot sales are always freezing.",
      "suggestionFa": "آخی، چه نازی. خب — زنگ ساعت شش. یه فلاسک چای و گرم‌ترین کاپشنت را بیار. بازارهای دست‌دوم همیشه یخ‌بندونن.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

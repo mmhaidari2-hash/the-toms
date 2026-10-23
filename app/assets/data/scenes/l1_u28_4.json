@@ -115,8 +115,8 @@
    "branches": [
     {
      "keywords": [
-      "leaking",
       "kitchen",
+      "leaking",
       "tap"
      ],
      "suggestion": "The kitchen tap is leaking.",
@@ -129,8 +129,8 @@
      "keywords": [
       "everywhere",
       "there's",
-      "under",
-      "water"
+      "water",
+      "under"
      ],
      "suggestion": "There's water everywhere under the sink.",
      "suggestionFa": "زیر سینک همه جا آبه.",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "double",
-      "seven",
       "three",
+      "seven",
       "nine"
      ],
      "suggestion": "Oh seven seven double oh, nine double oh, one two three.",

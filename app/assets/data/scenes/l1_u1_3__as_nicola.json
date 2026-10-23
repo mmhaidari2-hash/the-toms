@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -26,7 +26,7 @@
       "good",
       "how"
      ],
-     "suggestion": "Good morning, Mehdi! How are you today?",
+     "suggestion": "Good morning, {you}! How are you today?",
      "suggestionFa": "صبح بخیر، {you}! امروز حالت چطوره؟",
      "trustDelta": 5,
      "next": "r2",
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm fine, thanks. And you?",
    "translations": {
     "fa": "خوبم، ممنون. تو چطوری؟"
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm very happy!",
    "translations": {
     "fa": "آره، خیلی خوشحالم!"
@@ -71,7 +71,7 @@
       "pancakes",
       "buttons",
       "though",
-      "yummy",
+      "sugar",
       "lemon"
      ],
      "suggestion": "We eat pancakes with lemon and sugar. Yummy! Mr Buttons is sad, though.",
@@ -85,7 +85,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Why is he sad?",
    "translations": {
     "fa": "ای وای! چرا ناراحته؟"
@@ -109,7 +109,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm starving!",
    "translations": {
     "fa": "آره، دارم از گرسنگی می‌میرم!"
@@ -134,7 +134,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe he's just sleepy.",
    "translations": {
     "fa": "شاید فقط خواب‌آلوده."
@@ -191,7 +191,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Morning, Ryan. Are you OK?",
    "translations": {
     "fa": "صبح بخیر رایان. خوبی؟"
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's great. Everyone is very kind.",
    "translations": {
     "fa": "عالیه. همه خیلی مهربونن."
@@ -258,7 +258,7 @@
       "smiling",
       "happy",
       "even",
-      "look"
+      "ryan"
      ],
      "suggestion": "Everyone is happy now! Even Ryan. Look, he's smiling!",
      "suggestionFa": "حالا همه خوشحالن! حتی رایان. ببین، داره لبخند می‌زنه!",
@@ -271,7 +271,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Yes, he is.",
    "translations": {
     "fa": "ها! آره، داره می‌زنه."
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "pancakes",
-      "table",
       "let's",
+      "table",
       "have",
       "see"
      ],
@@ -296,7 +296,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

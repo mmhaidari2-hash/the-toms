@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "presents",
-      "driver",
       "humble",
+      "driver",
       "cake",
       "only"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy birthday, Tom!",
    "translations": {
     "fa": "تولدت مبارک تام!"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy birthday, dear Tom…",
    "translations": {
     "fa": "تولدت مبارک، تام عزیز…"
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Make a wish, Tom!",
    "translations": {
     "fa": "آرزو کن تام!"
@@ -158,7 +158,7 @@
       "because",
       "breath",
       "won't",
-      "come"
+      "true"
      ],
      "suggestion": "Because then it won't come true! OK… one big breath… Phwoooo!",
      "suggestionFa": "چون اون وقت برآورده نمیشه! باشه… یه نفس عمیق… پوووف!",
@@ -171,7 +171,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done! All of them!",
    "translations": {
     "fa": "آفرین! همه‌شون!"
@@ -179,11 +179,11 @@
    "branches": [
     {
      "keywords": [
-      "candle",
       "that's",
-      "comes",
+      "candle",
       "trick",
-      "back"
+      "comes",
+      "ryan"
      ],
      "suggestion": "That's a trick candle! It comes back! Ha! Who did this? Ryan!",
      "suggestionFa": "این شمع کلکیه! دوباره روشن میشه! ها! کی این کار را کرد؟ رایان!",
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! Good one, Ryan.",
    "translations": {
     "fa": "ها ها! خوب بود رایان."
@@ -205,10 +205,10 @@
     {
      "keywords": [
       "favourite",
-      "driver's",
       "presents",
-      "ghetti",
-      "what's"
+      "driver's",
+      "what's",
+      "ghetti"
      ],
      "suggestion": "Phew, got it! Right, presents. A card! \"What's a bus driver's favourite food? Bus-ghetti!\" Ha! Who wrote this?",
      "suggestionFa": "آخیش، خاموش شد! خب، کادوها. یه کارت! «غذای محبوب راننده اتوبوس چیه؟ باس-گتی!» ها! کی اینو نوشته؟",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nicola did!",
    "translations": {
     "fa": "نیکولا!"
@@ -231,8 +231,8 @@
      "keywords": [
       "world's",
       "driver",
-      "heard",
       "thank",
+      "heard",
       "ever"
      ],
      "suggestion": "It's the best joke I've ever heard! And a mug. \"World's Best Bus Driver\"! Thank you, Ryan.",
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you like it?",
    "translations": {
     "fa": "دوستش داری؟"
@@ -255,12 +255,12 @@
     {
      "keywords": [
       "neighbour",
-      "lovely",
       "family",
+      "lovely",
       "thank",
-      "cake"
+      "love"
      ],
-     "suggestion": "Love it! Thank you for the cake, and my lovely family. And Mehdi, our best neighbour!",
+     "suggestion": "Love it! Thank you for the cake, and my lovely family. And {you}, our best neighbour!",
      "suggestionFa": "عاشقشم! ممنون بابت کیک، و خانوادهٔ نازنینم. و {you}، بهترین همسایه‌مون!",
      "trustDelta": 5,
      "next": "r11",
@@ -271,7 +271,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Tom.",
    "translations": {
     "fa": "ممنون تام."
@@ -280,9 +280,9 @@
     {
      "keywords": [
       "birthday",
-      "where's",
-      "cutting",
       "biggest",
+      "cutting",
+      "where's",
       "leslie"
      ],
      "suggestion": "Yes! Cake! Biggest piece for the birthday boy! Leslie, I'm cutting it. Where's the big knife?",
@@ -296,7 +296,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

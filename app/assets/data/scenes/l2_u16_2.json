@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "labels",
       "yellow",
+      "labels",
       "didn't",
       "know"
      ],
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "bogof",
       "price",
+      "bogof",
       "bags",
       "two"
      ],
@@ -82,8 +82,8 @@
      "keywords": [
       "strange",
       "that's",
-      "word",
-      "rude"
+      "rude",
+      "word"
      ],
      "suggestion": "That's a strange word! Is it rude?",
      "suggestionFa": "کلمهٔ عجیبیه! بی‌ادبیه؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "price",
+      "half",
       "good",
-      "deal",
-      "half"
+      "deal"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "cheaper",
-      "big",
-      "box"
+      "box",
+      "big"
      ],
      "suggestion": "So the big box is cheaper per kilo?",
      "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "small",
       "alone",
+      "small",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "seven",
+      "after",
       "why"
      ],
      "suggestion": "Why after seven?",
@@ -291,8 +291,8 @@
     },
     {
      "keywords": [
-      "stickers",
       "discount",
+      "stickers",
       "yellow",
       "like"
      ],
@@ -330,8 +330,8 @@
      "keywords": [
       "seven",
       "pence",
-      "come",
-      "i'll"
+      "i'll",
+      "back"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",
@@ -393,10 +393,10 @@
     },
     {
      "keywords": [
-      "pasta",
       "don't",
-      "much",
-      "just"
+      "pasta",
+      "just",
+      "much"
      ],
      "suggestion": "Just one. I don't eat much pasta.",
      "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",

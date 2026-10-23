@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "british",
-      "taking",
       "london",
+      "taking",
       "train",
       "right"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, never. Is it expensive?",
    "translations": {
     "fa": "نه، هیچ‌وقت. گرونه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Who's Maya?",
    "translations": {
     "fa": "مایا کیه؟"
@@ -128,7 +128,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does off-peak mean?",
    "translations": {
     "fa": "off-peak یعنی چی؟"
@@ -187,7 +187,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two off-peak returns, please.",
    "translations": {
     "fa": "دوتا بلیت رفت‌وبرگشت غیرپیک لطفاً."
@@ -244,7 +244,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. What's a railcard?",
    "translations": {
     "fa": "نه. railcard چیه؟"
@@ -299,7 +299,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll buy one today.",
    "translations": {
     "fa": "امروز یکی می‌خرم."
@@ -309,8 +309,8 @@
      "keywords": [
       "train's",
       "she's",
-      "mind",
       "best",
+      "mind",
       "told"
      ],
      "suggestion": "Told you she's the best! Come on, the train's in. Mind the gap!",
@@ -324,7 +324,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

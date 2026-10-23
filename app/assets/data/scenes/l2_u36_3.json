@@ -35,7 +35,7 @@
       "ticket",
       "tom's",
       "needs",
-      "car"
+      "got"
      ],
      "suggestion": "Tom's car got a ticket. He needs a new permit.",
      "suggestionFa": "ماشین تام جریمه شد. مجوز جدید لازم داره.",
@@ -76,7 +76,7 @@
       "forgot",
       "week",
       "last",
-      "ran"
+      "out"
      ],
      "suggestion": "Yes. It ran out last week. He forgot!",
      "suggestionFa": "آره. هفتهٔ پیش تموم شد. یادش رفت!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "resident's",
-      "permit",
-      "what's"
+      "what's",
+      "permit"
      ],
      "suggestion": "What's a resident's permit?",
      "suggestionFa": "مجوز ساکنین چیه؟",
@@ -244,8 +244,8 @@
    "branches": [
     {
      "keywords": [
-      "hundred",
       "shocked",
+      "hundred",
       "forty",
       "will"
      ],
@@ -311,8 +311,8 @@
     },
     {
      "keywords": [
-      "visitors",
       "leslie's",
+      "visitors",
       "sister",
       "coming"
      ],
@@ -355,7 +355,7 @@
       "let's",
       "price",
       "half",
-      "now"
+      "pay"
      ],
      "suggestion": "Yes, let's pay it now. Half price!",
      "suggestionFa": "آره، بیا الان پرداخت کنیم. نصف قیمت!",
@@ -368,7 +368,7 @@
       "first",
       "money",
       "i'll",
-      "ask"
+      "tom"
      ],
      "suggestion": "I'll ask Tom first. It's his money.",
      "suggestionFa": "اول از تام می‌پرسم. پول اونه.",

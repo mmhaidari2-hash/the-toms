@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "three",
-      "count",
       "there",
+      "count",
       "let's",
-      "eggs"
+      "three",
+      "many"
      ],
      "suggestion": "Let's count the eggs! One, two, three… how many are there?",
      "suggestionFa": "بیا تخم‌مرغ‌ها را بشمریم! یک، دو، سه… چندتاست؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are six eggs.",
    "translations": {
     "fa": "شش‌تا تخم‌مرغ هست."
@@ -49,8 +49,8 @@
       "spoons",
       "seven",
       "eight",
-      "eggs",
-      "nine"
+      "nine",
+      "eggs"
      ],
      "suggestion": "Yes! Six eggs. Now the spoons. Seven, eight, nine, ten!",
      "suggestionFa": "آره! شش‌تا تخم‌مرغ. حالا قاشق‌ها. هفت، هشت، نه، ده!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten spoons. Well done!",
    "translations": {
     "fa": "ده‌تا قاشق. آفرین!"
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "thirteen",
       "fourteen",
+      "thirteen",
       "fifteen",
       "twelve",
       "eleven"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sixteen, seventeen, eighteen!",
    "translations": {
     "fa": "شانزده، هفده، هجده!"
@@ -100,7 +100,7 @@
       "nineteen",
       "twenty",
       "many",
-      "tin"
+      "did"
      ],
      "suggestion": "Nineteen, twenty! I did it! How many biscuits are in the tin?",
      "suggestionFa": "نوزده، بیست! تونستم! چندتا بیسکویت توی قوطیه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are only two biscuits.",
    "translations": {
     "fa": "فقط دوتا بیسکویت هست."
@@ -123,8 +123,8 @@
      "keywords": [
       "biscuits",
       "always",
-      "bake",
       "ryan",
+      "eats",
       "more"
      ],
      "suggestion": "Ryan ate them! Ryan always eats the biscuits. Can we bake some more?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's ask your mum first.",
    "translations": {
     "fa": "بیا اول از مامانت بپرسیم."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A million is too many!",
    "translations": {
     "fa": "یه میلیون خیلی زیاده!"
@@ -173,8 +173,8 @@
       "buttons",
       "twelve",
       "one",
-      "mr",
-      "ok"
+      "ok",
+      "mr"
      ],
      "suggestion": "OK, twelve. One for me, one for you, one for Mr Buttons…",
      "suggestionFa": "باشه، دوازده‌تا. یکی برای من، یکی برای تو، یکی برای آقای دکمه…",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

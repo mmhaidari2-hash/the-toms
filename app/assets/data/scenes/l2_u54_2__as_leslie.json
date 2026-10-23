@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "nicola's",
       "weekend",
       "garden",
-      "chart"
+      "birds"
      ],
      "suggestion": "Shh! Sit still. It's the Big Garden Birdwatch this weekend. We count the birds we see in one hour. Nicola's got the chart.",
      "suggestionFa": "هیس! تکون نخور. این آخر هفته شمارش بزرگ پرنده‌های باغ‌هاست. پرنده‌هایی که تو یه ساعت می‌بینیم را می‌شمریم. نیکولا جدول را داره.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One hour of counting birds? Fun!",
    "translations": {
     "fa": "یه ساعت شمردن پرنده؟ جالبه!"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think it's a robin!",
    "translations": {
     "fa": "فکر کنم سینه‌سرخه!"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "christmas",
       "britain's",
       "favourite",
-      "cards",
-      "robin"
+      "christmas",
+      "white",
+      "black"
      ],
      "suggestion": "A robin! Britain's favourite bird. He's on our Christmas cards. One robin — tick. Now, up in the tree. Black and white, long tail.",
      "suggestionFa": "سینه‌سرخ! پرندهٔ محبوب بریتانیا. رو کارت‌های کریسمس ماست. یه سینه‌سرخ — تیک. حالا، بالای درخت. سیاه و سفید، دم بلند.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's very noisy! What is it?",
    "translations": {
     "fa": "خیلی سروصدا می‌کنه! چیه؟"
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "magpies",
       "there's",
-      "sorrow",
+      "magpies",
       "nicola",
+      "sorrow",
       "rhyme"
      ],
      "suggestion": "Magpies! Two magpies. There's a rhyme: \"One for sorrow, two for joy.\" Two is good luck. Nicola, write \"two magpies\".",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One for sorrow, two for joy. I like that.",
    "translations": {
     "fa": "یکی برای غم، دو تا برای شادی. دوستش دارم."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tiny blue and yellow birds!",
    "translations": {
     "fa": "پرنده‌های کوچولوی آبی و زرد!"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One robin, two magpies, three blue tits, two sparrows. Eight!",
    "translations": {
     "fa": "یه سینه‌سرخ، دو تا زاغی، سه تا چرخ‌ریسک، دو تا گنجشک. هشت تا!"
@@ -174,7 +174,7 @@
       "brilliant",
       "chocolate",
       "minutes",
-      "landed",
+      "pigeon",
       "twenty"
      ],
      "suggestion": "Eight! Brilliant. Oh — a pigeon just landed. Nine. Twenty minutes left. Who wants hot chocolate from the flask?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Me, please! Birdwatching is cold!",
    "translations": {
     "fa": "من لطفاً! تماشای پرنده سرده!"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
       "special",
+      "tonight",
       "that's",
-      "we'll",
-      "today"
+      "today",
+      "we'll"
      ],
      "suggestion": "A heron! Grey and very tall, like an old man in a coat. That's our special one today. We'll send our list tonight!",
      "suggestionFa": "حواصیل! خاکستری و خیلی بلند، مثل یه پیرمرد با پالتو. اون ویژهٔ امروزمونه. امشب فهرستمون را می‌فرستیم!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

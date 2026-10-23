@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "christmas",
-      "airport",
       "delayed",
-      "flying",
+      "airport",
+      "summer",
       "flight"
      ],
      "suggestion": "You're flying to Tehran at Christmas? Check the airport news. Last summer our flight to Spain was delayed for nine hours!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nine hours! Why was it delayed?",
    "translations": {
     "fa": "نه ساعت! چرا تأخیر داشت؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "gatwick",
       "problem",
-      "spain",
-      "storm",
-      "plane"
+      "first",
+      "there",
+      "hours"
      ],
      "suggestion": "We flew from Gatwick. First, there was a problem with the plane. Then the crew ran out of hours. Then a storm in Spain!",
      "suggestionFa": "از گتویک پرواز کردیم. اول، هواپیما مشکل داشت. بعد ساعت کاری خدمه تموم شد. بعد یه طوفان تو اسپانیا!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three problems! That's very unlucky.",
    "translations": {
     "fa": "سه تا مشکل! خیلی بدشانسی بود."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "airport",
       "certain",
-      "number",
+      "airport",
       "safety",
+      "number",
       "waited"
      ],
      "suggestion": "They can only work a certain number of hours. Safety rules. So we waited for a new crew. Four kids, nine hours, one airport.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wait, you have three children, not four!",
    "translations": {
     "fa": "صبر کن، تو سه تا بچه داری، نه چهار تا!"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "vouchers",
-      "airline",
       "william",
-      "twelve",
-      "pounds"
+      "airline",
+      "pounds",
+      "twelve"
      ],
      "suggestion": "Three! But it felt like four. William counts as two. The airline gave us food vouchers. Twelve pounds each.",
      "suggestionFa": "سه تا! ولی حس چهار تا را داشت. ویلیام دو تا حساب میشه. شرکت هواپیمایی بهمون کوپن غذا داد. هر نفر دوازده پوند.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twelve pounds? That's not much at an airport.",
    "translations": {
     "fa": "دوازده پوند؟ تو فرودگاه زیاد نیست."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A thousand pounds! How did you do that?",
    "translations": {
     "fa": "هزار پوند! چطوری؟"
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "boarding",
+      "website",
       "airline",
       "booking",
-      "website",
       "number"
      ],
      "suggestion": "Leslie found a form on the airline website. You fill it in, send your booking number, and wait. Keep your boarding pass!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll keep my boarding pass. Good tip!",
    "translations": {
     "fa": "کارت پروازم را نگه می‌دارم. نکتهٔ خوبیه!"
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "trolley",
       "luggage",
+      "trolley",
       "william",
       "friends",
       "played"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! On the luggage trolley!",
    "translations": {
     "fa": "ها! رو چرخ چمدون!"
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "morning",
-      "another",
       "someone",
+      "another",
       "arrived",
+      "morning",
       "that's"
      ],
      "suggestion": "By the time we arrived, it was four in the morning. The hotel had given our room to someone else! But that's another story.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Another story? You have to tell me!",
    "translations": {
     "fa": "یه داستان دیگه؟ باید بهم بگی!"
@@ -223,8 +223,8 @@
      "keywords": [
       "patience",
       "trolley",
-      "charger",
       "napping",
+      "charger",
       "snacks"
      ],
      "suggestion": "Next time, mate. Over a pint. For Tehran, take snacks, a charger and lots of patience. And maybe a trolley for napping.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "everywhere",
       "spilled",
-      "juice",
       "sorry",
+      "juice",
       "oops"
      ],
      "suggestion": "Oops! I spilled my juice! It's everywhere! Sorry! Sorry!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't worry. It's only juice.",
    "translations": {
     "fa": "نگران نباش. فقط آبمیوه‌ست."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "buttons",
-      "table",
       "floor",
+      "table",
       "mr"
      ],
      "suggestion": "It's on the table and on the floor. And on Mr Buttons!",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's a cloth?",
    "translations": {
     "fa": "دستمال کجاست؟"
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "kitchen",
-      "sink",
       "roll",
       "help",
+      "sink",
       "can"
      ],
      "suggestion": "The kitchen roll is by the sink. Can I help?",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. You wipe the table.",
    "translations": {
     "fa": "آره. تو میز را پاک کن."
@@ -99,7 +99,7 @@
       "happen",
       "wiping",
       "elbow",
-      "how"
+      "did"
      ],
      "suggestion": "I'm wiping! How did it happen? I knocked it with my elbow!",
      "suggestionFa": "دارم پاک می‌کنم! چطوری شد؟ با آرنجم زدمش!",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Accidents happen.",
    "translations": {
     "fa": "اتفاقه دیگه."
@@ -122,8 +122,8 @@
      "keywords": [
       "sticking",
       "sticky",
-      "floor",
       "socks",
+      "floor",
       "now"
      ],
      "suggestion": "Now the floor is sticky! My socks are sticking! Ew!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's mop the floor.",
    "translations": {
     "fa": "بیا زمین را تی بکشیم."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He needs a bath!",
    "translations": {
     "fa": "حموم لازمه!"
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

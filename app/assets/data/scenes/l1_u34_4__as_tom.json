@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tom's busy driving. Can I help?",
    "translations": {
     "fa": "تام سرش به رانندگی گرمه. می‌تونم کمک کنم؟"
@@ -56,13 +56,13 @@
    "branches": [
     {
      "keywords": [
-      "essex",
       "doris",
-      "stop",
+      "essex",
       "road",
-      "will"
+      "show",
+      "next"
      ],
-     "suggestion": "Essex Road, Doris. Get off at the next-but-one stop. Mehdi will show you.",
+     "suggestion": "Essex Road, Doris. Get off at the next-but-one stop. {you} will show you.",
      "suggestionFa": "اسکس رود، دوریس. ایستگاه بعد از بعدی پیاده شو. {you} نشونت میده.",
      "trustDelta": 5,
      "next": "r3",
@@ -73,7 +73,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "First, we get off the bus.",
    "translations": {
     "fa": "اول از اتوبوس پیاده میشیم."
@@ -129,7 +129,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then go straight on.",
    "translations": {
     "fa": "بعد مستقیم برید."
@@ -181,7 +181,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "After that, it's on your left.",
    "translations": {
     "fa": "بعد از اون، سمت چپتونه."
@@ -233,7 +233,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "About ten minutes.",
    "translations": {
     "fa": "حدود ده دقیقه."
@@ -293,7 +293,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "First, straight on. Then right at the lights.",
    "translations": {
     "fa": "اول، مستقیم. بعد سر چراغ راست."
@@ -304,8 +304,8 @@
       "here's",
       "check",
       "doris",
-      "stop",
-      "mind"
+      "luck",
+      "step"
      ],
      "suggestion": "Here's your stop, Doris! Mind the step. Good luck with the check-up!",
      "suggestionFa": "ایستگاهت رسید دوریس! مواظب پله باش. چکاپت به خیر!",
@@ -318,7 +318,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, Doris!",
    "translations": {
     "fa": "خداحافظ دوریس!"

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "mondays",
       "monday",
-      "hate",
+      "like",
       "best",
-      "like"
+      "hate"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
      "suggestionFa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like Fridays best.",
    "translations": {
     "fa": "جمعه‌ها را بیشتر دوست دارم."
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "wednesdays",
+      "swimming",
       "tuesdays",
       "football",
-      "swimming",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Does she swim well?",
    "translations": {
     "fa": "خوب شنا می‌کنه؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "nursery",
-      "lucky",
+      "william",
       "plays",
-      "goes"
+      "lucky",
+      "sand"
      ],
      "suggestion": "William goes to nursery. He plays with sand all day. Lucky him!",
      "suggestionFa": "ویلیام می‌ره مهدکودک. کل روز با شن بازی می‌کنه. خوش به حالش!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He loves sand!",
    "translations": {
     "fa": "عاشق شنه!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is she a nurse?",
    "translations": {
     "fa": "پرستاره؟"
@@ -121,9 +121,9 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "drinks",
-      "about",
+      "office",
+      "she's",
       "works",
       "nurse"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten cups? That's a lot!",
    "translations": {
     "fa": "ده لیوان؟ خیلیه!"
@@ -150,7 +150,7 @@
       "sundays",
       "roast",
       "comes",
-      "best"
+      "nana"
      ],
      "suggestion": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
      "suggestionFa": "پنجشنبه‌ها نانا برای شام میاد. یکشنبه‌ها کباب یکشنبه داریم. بهترین روز!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a roast?",
    "translations": {
     "fa": "roast چیه؟"
@@ -174,8 +174,8 @@
       "potatoes",
       "chicken",
       "sunday",
-      "roast",
-      "gravy"
+      "won't",
+      "roast"
      ],
      "suggestion": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",
      "suggestionFa": "مرغ کبابی، سیب‌زمینی تنوری، سس. این یکشنبه بیا. مامان ناراحت نمی‌شه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "sweets",
       "trying",
+      "sweets",
       "nicola",
-      "spend",
-      "money"
+      "teach",
+      "wants"
      ],
      "suggestion": "Nicola wants to spend all her money on sweets! I'm trying to teach her to save.",
      "suggestionFa": "نیکولا می‌خواد همهٔ پولش را خرج آبنبات کنه! دارم سعی می‌کنم پس‌انداز کردن را یادش بدم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much pocket money does she get?",
    "translations": {
     "fa": "چقدر پول توجیبی می‌گیره؟"
@@ -49,8 +49,8 @@
       "tidying",
       "pounds",
       "nicola",
-      "week",
-      "room"
+      "room",
+      "week"
      ],
      "suggestion": "Two pounds a week. For tidying her room. Nicola, what do you want to buy?",
      "suggestionFa": "هفته‌ای دو پوند. برای مرتب کردن اتاقش. نیکولا، می‌خوای چی بخری؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do you want, Nicola?",
    "translations": {
     "fa": "چی می‌خوای نیکولا؟"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then you need to save up.",
    "translations": {
     "fa": "پس باید پس‌انداز کنی."
@@ -128,7 +128,7 @@
       "pounds",
       "weeks",
       "every",
-      "week"
+      "many"
      ],
      "suggestion": "Exactly. If you save two pounds every week, how many weeks?",
      "suggestionFa": "دقیقاً. اگه هر هفته دو پوند پس‌انداز کنی، چند هفته میشه؟",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fifteen divided by two…",
    "translations": {
     "fa": "پونزده تقسیم بر دو…"
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You don't need sweets. You want sweets!",
    "translations": {
     "fa": "آبنبات لازم نداری. آبنبات می‌خوای!"
@@ -205,10 +205,10 @@
     {
      "keywords": [
       "sweets",
-      "about",
       "pound",
+      "about",
       "point",
-      "piggy"
+      "fifty"
      ],
      "suggestion": "Good point! What about this: fifty p for sweets, one pound fifty in the piggy bank?",
      "suggestionFa": "نکتهٔ خوبیه! این چطوره: پنجاه پی برای آبنبات، یک پوند و پنجاه تو قلک؟",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a fair idea.",
    "translations": {
     "fa": "فکر منصفانه‌ایه."
@@ -244,7 +244,7 @@
   "r10": {
    "id": "r10",
    "speaker": "nicola",
-   "text": "Ten weeks… OK. But can I help Mehdi with jobs? For extra money?",
+   "text": "Ten weeks… OK. But can I help {you} with jobs? For extra money?",
    "translations": {
     "fa": "ده هفته… باشه. ولی می‌تونم تو کارها به {you} کمک کنم؟ برای پول اضافه؟"
    },
@@ -274,7 +274,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You can water my plants!",
    "translations": {
     "fa": "می‌تونی به گلدون‌هام آب بدی!"
@@ -299,7 +299,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

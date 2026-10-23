@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
+      "strange",
       "nervous",
       "teacher",
-      "strange",
-      "parent",
-      "though"
+      "though",
+      "parent"
      ],
      "suggestion": "It's strange being on the parent side of the desk! I'm a teacher, but I'm so nervous. Ms Ellis is lovely, though.",
      "suggestionFa": "عجیبه این طرف میز به‌عنوان والد باشم! معلمم، ولی خیلی مضطربم. البته خانم الیس خیلی خوبه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't worry. Nicola loves school!",
    "translations": {
     "fa": "نگران نباش. نیکولا عاشق مدرسه‌ست!"
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Ms Ellis. Yes, we read together.",
    "translations": {
     "fa": "سلام خانم الیس. آره، با هم می‌خونیم."
@@ -108,10 +108,10 @@
     {
      "keywords": [
       "reading",
-      "cross",
+      "loves",
       "books",
-      "can't",
-      "loves"
+      "cross",
+      "can't"
      ],
      "suggestion": "How is her reading? She loves books, but she gets cross when she can't read a word.",
      "suggestionFa": "خوندنش چطوره؟ عاشق کتابه، ولی وقتی یه کلمه را نمی‌تونه بخونه عصبانی میشه.",
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She gets very cross! It's funny.",
    "translations": {
     "fa": "خیلی عصبانی میشه! بامزه‌ست."
@@ -187,7 +187,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"sound out\" mean?",
    "translations": {
     "fa": "«ساوند اوت» یعنی چی؟"
@@ -248,7 +248,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Said\" is hard for me too!",
    "translations": {
     "fa": "«said» برای منم سخته!"
@@ -307,7 +307,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I practise the list with her?",
    "translations": {
     "fa": "می‌تونم فهرست را باهاش تمرین کنم؟"
@@ -351,7 +351,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten minutes a day. That's easy.",
    "translations": {
     "fa": "روزی ده دقیقه. آسونه."
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "helpful",
-      "really",
       "that's",
+      "really",
       "thank",
       "ellis"
      ],
@@ -376,7 +376,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. We'll read every day.",
    "translations": {
     "fa": "ممنون. هر روز می‌خونیم."

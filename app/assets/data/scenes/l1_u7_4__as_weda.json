@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "chemist",
       "dear",
-      "come",
+      "need",
       "into",
-      "need"
+      "come"
      ],
      "suggestion": "I need to pop into the chemist, dear. Come with me?",
      "suggestionFa": "باید یه سر برم داروخونه عزیزم. باهام میای؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Are you OK, Nana?",
    "translations": {
     "fa": "حتماً. خوبید نانا؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can ask for you.",
    "translations": {
     "fa": "من می‌تونم براتون بپرسم."
@@ -75,7 +75,7 @@
       "recommend",
       "thank",
       "cough",
-      "lady"
+      "dear"
      ],
      "suggestion": "Thank you, dear. Ask the lady: \"Can you recommend something for a cough?\"",
      "suggestionFa": "ممنون عزیزم. از خانم بپرس: «می‌تونید یه چیزی برای سرفه پیشنهاد بدید؟»",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Excuse me, can you recommend something for a cough?",
    "translations": {
     "fa": "ببخشید، می‌تونید یه چیزی برای سرفه پیشنهاد بدید؟"
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "spoons",
+      "times",
       "syrup",
       "three",
-      "times",
       "says"
      ],
      "suggestion": "She says this syrup is good. Two spoons, three times a day.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two spoons, three times a day. OK!",
    "translations": {
     "fa": "دو قاشق، روزی سه بار. باشه!"
@@ -123,9 +123,9 @@
      "keywords": [
       "probably",
       "horrible",
-      "sweets",
       "throat",
-      "lemon"
+      "sweets",
+      "honey"
      ],
      "suggestion": "Horrible, probably! Ha. And some throat sweets. Honey and lemon.",
      "suggestionFa": "احتمالاً افتضاح! ها. و یه کم آب‌نبات گلو. عسل و لیمو.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Honey and lemon is good for colds.",
    "translations": {
     "fa": "عسل و لیمو برای سرماخوردگی خوبه."
@@ -148,9 +148,9 @@
      "keywords": [
       "treasure",
       "treat",
+      "now",
       "tea",
-      "cup",
-      "caf"
+      "cup"
      ],
      "suggestion": "You're a treasure. Now, a cup of tea at the café? My treat!",
      "suggestionFa": "تو یه گنجی. حالا یه فنجون چای توی کافه؟ مهمون من!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

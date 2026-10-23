@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -25,9 +25,9 @@
       "potato",
       "roast",
       "give",
-      "i'll"
+      "swap"
      ],
-     "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
+     "suggestion": "Psst! {you}! I'll give you my carrots if you give me your roast potato. Swap?",
      "suggestionFa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No way! I love roast potatoes!",
    "translations": {
     "fa": "عمراً! عاشق سیب‌زمینی تنوری‌ام!"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's not fair. You don't like carrots!",
    "translations": {
     "fa": "منصفانه نیست. تو که هویج دوست نداری!"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, Leslie!",
    "translations": {
     "fa": "ببخشید لزلی!"
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mr Buttons doesn't eat carrots!",
    "translations": {
     "fa": "آقای دکمه که هویج نمی‌خوره!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four carrots, then pudding.",
    "translations": {
     "fa": "چهار تا هویج، بعد دسر."
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's apple crumble!",
    "translations": {
     "fa": "کرامبل سیبه!"
@@ -266,7 +266,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Go, Nicola, go!",
    "translations": {
     "fa": "برو نیکولا، برو!"
@@ -291,7 +291,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

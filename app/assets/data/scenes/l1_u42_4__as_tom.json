@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,12 +22,12 @@
     {
      "keywords": [
       "buses",
-      "bikes",
       "those",
+      "bikes",
       "look",
-      "bike"
+      "ride"
      ],
-     "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
+     "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, {you}?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can ride a bike.",
    "translations": {
     "fa": "آره، دوچرخه‌سواری بلدم."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "safer",
       "lanes",
+      "there",
       "cycle",
-      "there"
+      "safer"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a hire bike?",
    "translations": {
     "fa": "دوچرخهٔ کرایه‌ای چیه؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "there",
-      "over",
       "ones",
+      "half",
       "hour",
-      "half"
+      "over"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it expensive?",
    "translations": {
     "fa": "گرونه؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "pounds",
       "helmet",
+      "should",
       "wear",
-      "few"
+      "bad"
      ],
      "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
      "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I should wear a helmet.",
    "translations": {
     "fa": "باید کلاه ایمنی بذارم."
@@ -125,7 +125,7 @@
       "pavement",
       "smart",
       "ride",
-      "law"
+      "but"
      ],
      "suggestion": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
      "suggestionFa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where should I ride?",
    "translations": {
     "fa": "کجا باید برونم؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "cycle",
       "drive",
-      "keep",
-      "left",
-      "road"
+      "lane",
+      "road",
+      "left"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Keep left. I'll remember.",
    "translations": {
     "fa": "از چپ برم. یادم می‌مونه."
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "shouldn't",
-      "tricky",
       "that's",
+      "tricky",
       "thing",
       "front"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I promise!",
    "translations": {
     "fa": "قول میدم!"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "pedals",
-      "legs",
-      "know",
+      "down",
       "only",
-      "bike"
+      "bike",
+      "legs"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
      "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

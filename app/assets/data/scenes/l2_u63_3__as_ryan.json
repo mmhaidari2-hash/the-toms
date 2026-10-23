@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,11 +23,11 @@
      "keywords": [
       "chinatown",
       "chinese",
-      "there's",
       "massive",
-      "coming"
+      "there's",
+      "parade"
      ],
-     "suggestion": "Yo, Mehdi. You coming to Chinatown on Sunday? It's Chinese New Year. There's a massive parade. Me and Leo are going.",
+     "suggestion": "Yo, {you}. You coming to Chinatown on Sunday? It's Chinese New Year. There's a massive parade. Me and Leo are going.",
      "suggestionFa": "هی {you}. یکشنبه میای محلهٔ چینی‌ها؟ سال نو چینیه. یه رژهٔ خیلی بزرگ هست. من و لئو داریم میریم.",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Chinese New Year? In February?",
    "translations": {
     "fa": "سال نو چینی؟ تو فوریه؟"
@@ -50,7 +50,7 @@
       "leicester",
       "calendar",
       "square",
-      "innit"
+      "moves"
      ],
      "suggestion": "Yeah, it moves every year. It's the moon calendar, innit. Chinatown's in the West End, near Leicester Square.",
      "suggestionFa": "آره، هر سال جابه‌جا میشه. تقویم قمریه دیگه. محلهٔ چینی‌ها تو وست‌اند، نزدیک میدون لستره.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like our Nowruz — but ours is always in March.",
    "translations": {
     "fa": "مثل نوروز ما — ولی مال ما همیشه تو مارسه."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "tigers",
       "nowruz",
-      "horse",
+      "tigers",
       "right",
+      "horse",
       "year"
      ],
      "suggestion": "Nowruz is New Year too, right? Sick. This year is the Year of the Horse. Me and Leo are tigers. Born in 2010.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What animal am I? I was born in 1996.",
    "translations": {
     "fa": "من چه حیوونی‌ام؟ ۱۹۹۶ به دنیا اومدم."
@@ -98,9 +98,9 @@
      "keywords": [
       "apparently",
       "obviously",
+      "internet",
       "clever",
-      "google",
-      "money"
+      "tiger"
      ],
      "suggestion": "1996? Hang on… The internet says rat. You're a rat! Clever and good with money, apparently. I'm a tiger. Brave, obviously.",
      "suggestionFa": "۱۹۹۶؟ صبر کن… اینترنت میگه موش. تو موشی! ظاهراً باهوش و حساب‌شده با پول. من ببرم. شجاع، معلومه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A rat? Thanks a lot, Ryan!",
    "translations": {
     "fa": "موش؟ خیلی ممنون رایان!"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran we give money at Nowruz too!",
    "translations": {
     "fa": "تو ایران هم نوروز عیدی پول میدیم!"
@@ -148,9 +148,9 @@
      "keywords": [
       "saying",
       "nowruz",
-      "right",
-      "money",
-      "leo's"
+      "doing",
+      "leo's",
+      "money"
      ],
      "suggestion": "Money at Nowruz? Right — I'm doing Nowruz with you this year. Just saying. What do I say to Leo's nan?",
      "suggestionFa": "پول تو نوروز؟ باشه — امسال نوروز را با تو جشن می‌گیرم. فقط گفتم. به مادربزرگ لئو چی بگم؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think it's \"Gong hei fat choi\" in Cantonese.",
    "translations": {
     "fa": "فکر کنم به کانتونی میشه «گونگ هِی فَت چوی»."
@@ -173,8 +173,8 @@
      "keywords": [
       "wishing",
       "another",
-      "twenty",
       "wealth",
+      "twenty",
       "maybe"
      ],
      "suggestion": "\"Gong hei fat choi.\" Leo says it means \"wishing you wealth\". His nan will love it. Maybe another twenty quid?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan! Say it to be nice, not for money!",
    "translations": {
     "fa": "رایان! برای ادب بگو، نه برای پول!"
@@ -199,8 +199,8 @@
       "dumplings",
       "station",
       "bethnal",
-      "eleven",
-      "buying"
+      "buying",
+      "sunday"
      ],
      "suggestion": "Joke, joke! I'm being nice. So — Sunday, eleven, Bethnal Green station? We'll get dumplings. I'm buying. Don't tell Dad.",
      "suggestionFa": "شوخی، شوخی! دارم مؤدبم. پس — یکشنبه، یازده، ایستگاه بتنال گرین؟ دامپلینگ می‌گیریم. من حساب می‌کنم. به بابا نگو.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

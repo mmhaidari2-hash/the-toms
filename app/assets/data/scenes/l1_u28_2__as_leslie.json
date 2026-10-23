@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "injections",
       "william's",
-      "surgery",
       "driving",
-      "about"
+      "surgery",
+      "nurse"
      ],
      "suggestion": "Can you ring the surgery for me? I'm driving. Ask to speak to the nurse about William's injections.",
      "suggestionFa": "می‌تونی برام به مطب زنگ بزنی؟ دارم رانندگی می‌کنم. بخواه با پرستار دربارهٔ واکسن‌های ویلیام صحبت کنی.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. What's the number?",
    "translations": {
     "fa": "باشه. شماره چنده؟"
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good morning. Can I speak to the nurse, please?",
    "translations": {
     "fa": "صبح بخیر. می‌تونم با پرستار صحبت کنم، لطفاً؟"
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. It's about William's injections.",
    "translations": {
     "fa": "آره، لطفاً. دربارهٔ واکسن‌های ویلیامه."
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's three. Let me ask his mum.",
    "translations": {
     "fa": "سه سالشه. بذار از مامانش بپرسم."
@@ -209,8 +209,8 @@
      "keywords": [
       "years",
       "three",
-      "fifth",
       "march",
+      "fifth",
       "tell"
      ],
      "suggestion": "Tell her the fifth of March! Three years ago!",
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The fifth of March, three years ago.",
    "translations": {
     "fa": "پنجم مارس، سه سال پیش."
@@ -279,7 +279,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. When?",
    "translations": {
     "fa": "آره، لطفاً. کِی؟"
@@ -332,7 +332,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tuesday at ten thirty. Is that OK, Leslie?",
    "translations": {
     "fa": "سه‌شنبه ده و نیم. خوبه لزلی؟"
@@ -355,7 +355,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fine. Thank you very much.",
    "translations": {
     "fa": "خوبه. خیلی ممنون."

@@ -73,8 +73,8 @@
      "keywords": [
       "that's",
       "hours",
-      "long",
-      "time"
+      "time",
+      "long"
      ],
      "suggestion": "Two hours! That's a long time.",
      "suggestionFa": "دو ساعت! زمان زیادیه.",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "yorkshire",
-      "pudding",
       "dessert",
+      "pudding",
       "what's"
      ],
      "suggestion": "What's a Yorkshire pudding? A dessert?",
@@ -254,8 +254,8 @@
     },
     {
      "keywords": [
-      "they're",
       "boiling",
+      "they're",
       "about",
       "peas"
      ],
@@ -365,9 +365,9 @@
    "branches": [
     {
      "keywords": [
-      "knife",
       "table",
       "right",
+      "knife",
       "lay"
      ],
      "suggestion": "I'll lay the table. Knife on the right?",
@@ -428,8 +428,8 @@
     {
      "keywords": [
       "perfect",
-      "look",
       "they",
+      "look",
       "tom"
      ],
      "suggestion": "They look perfect, Tom!",
@@ -442,8 +442,8 @@
      "keywords": [
       "everyone",
       "should",
-      "tell",
-      "down"
+      "down",
+      "tell"
      ],
      "suggestion": "Should I tell everyone to sit down?",
      "suggestionFa": "به همه بگم بشینن؟",

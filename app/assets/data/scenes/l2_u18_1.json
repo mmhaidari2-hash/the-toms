@@ -125,7 +125,7 @@
       "street",
       "upper",
       "which",
-      "best"
+      "stop"
      ],
      "suggestion": "Which stop is best for Upper Street?",
      "suggestionFa": "برای آپر استریت کدوم ایستگاه بهتره؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
+      "sure",
       "near",
-      "hall",
       "town",
-      "sure"
+      "hall"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
      "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
@@ -234,8 +234,8 @@
     {
      "keywords": [
       "something",
-      "drive",
       "while",
+      "drive",
       "can"
      ],
      "suggestion": "Ha! Can I ask you something while you drive?",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "thanks",
-      "here",
       "i'll",
-      "sit"
+      "here",
+      "tom"
      ],
      "suggestion": "I'll sit here. Thanks, Tom.",
      "suggestionFa": "همین‌جا می‌شینم. ممنون تام.",

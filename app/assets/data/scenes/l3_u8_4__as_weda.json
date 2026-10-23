@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -24,8 +24,8 @@
       "dripping",
       "bathroom",
       "driving",
-      "night",
-      "keeps"
+      "keeps",
+      "night"
      ],
      "suggestion": "Can you hear that drip, love? The bathroom tap keeps dripping all night. It's driving me mad!",
      "suggestionFa": "اون چکه را می‌شنوی عزیزم؟ شیر حموم تمام شب مدام چکه می‌کنه. داره دیوونه‌م می‌کنه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I heard it last night too.",
    "translations": {
     "fa": "آره، دیشب هم شنیدمش."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It probably needs a new washer.",
    "translations": {
     "fa": "احتمالاً یه واشر جدید لازم داره."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "aren't",
       "george",
+      "aren't",
       "these",
       "hands",
-      "used"
+      "jobs"
      ],
      "suggestion": "George used to do all these jobs. But his hands aren't what they were.",
      "suggestionFa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll ask Tom to buy a washer from the DIY shop.",
    "translations": {
     "fa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره."
@@ -99,7 +99,7 @@
       "disappearing",
       "teddy's",
       "nicola",
-      "would",
+      "keeps",
       "takes"
      ],
      "suggestion": "Would you? You're a gem. Oh, and the bath plug keeps disappearing. I think Nicola takes it for her teddy's bath!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! I'll check her toy box.",
    "translations": {
     "fa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم."
@@ -125,7 +125,7 @@
       "thinking",
       "fair's",
       "clever",
-      "right"
+      "while"
      ],
      "suggestion": "Clever thinking. Right — while you're the handyman, I'll make the tea. Fair's fair!",
      "suggestionFa": "فکر هوشمندانه‌ایه. خب — تا تو تعمیرکاری، من چای درست می‌کنم. منصفانه‌ست!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

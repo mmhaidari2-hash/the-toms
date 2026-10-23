@@ -146,8 +146,8 @@
     },
     {
      "keywords": [
-      "thursday",
       "football",
+      "thursday",
       "tuesday",
       "suits"
      ],
@@ -263,7 +263,7 @@
       "leslie",
       "don't",
       "birth",
-      "text"
+      "date"
      ],
      "suggestion": "Sorry, I don't know his date of birth. Can Leslie text you?",
      "suggestionFa": "ببخشید، تاریخ تولدش را نمی‌دونم. لزلی می‌تونه بهتون پیام بده؟",
@@ -352,8 +352,8 @@
      "keywords": [
       "anything",
       "should",
-      "bring",
-      "there"
+      "there",
+      "bring"
      ],
      "suggestion": "Ha! True. Is there anything he should bring?",
      "suggestionFa": "ها! درسته. چیزی باید با خودش بیاره؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "fifteen",
-      "free",
       "he's",
+      "free",
       "him"
      ],
      "suggestion": "Is it free for him? He's fifteen.",
@@ -408,10 +408,10 @@
    "branches": [
     {
      "keywords": [
-      "clean",
       "teeth",
-      "tell",
-      "i'll"
+      "clean",
+      "i'll",
+      "tell"
      ],
      "suggestion": "I'll tell him. Clean teeth, no mud!",
      "suggestionFa": "بهش میگم. دندون تمیز، بدون گل!",

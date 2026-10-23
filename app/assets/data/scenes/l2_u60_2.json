@@ -19,8 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "chat",
-      "sure"
+      "message",
+      "sure",
+      "can"
      ],
      "suggestion": "Sure. Can I message you?",
      "suggestionFa": "حتماً. گروه چت داری؟",
@@ -79,8 +80,8 @@
     {
      "keywords": [
       "double",
-      "seven",
       "three",
+      "seven",
       "eight"
      ],
      "suggestion": "Oh-seven-nine-double-four, three-two-one, six-five-eight.",
@@ -144,9 +145,9 @@
     {
      "keywords": [
       "guitar",
-      "bass",
+      "i'll",
       "save",
-      "i'll"
+      "bass"
      ],
      "suggestion": "I'll save you as \"Callum Bass Guitar\".",
      "suggestionFa": "با «کالوم گیتار باس» ذخیره‌ات می‌کنم.",
@@ -181,8 +182,8 @@
     {
      "keywords": [
       "great",
-      "text",
-      "drop"
+      "drop",
+      "text"
      ],
      "suggestion": "Great. Drop me a text.",
      "suggestionFa": "عالی. یه پیام برام بنداز.",
@@ -230,8 +231,8 @@
      "keywords": [
       "eight",
       "half",
-      "ish",
-      "got"
+      "got",
+      "ish"
      ],
      "suggestion": "Half eight-ish. Got it!",
      "suggestionFa": "هشت و نیم-ایش. فهمیدم!",
@@ -284,8 +285,8 @@
      "keywords": [
       "brooksby's",
       "palace",
-      "setar",
-      "bring"
+      "chats",
+      "setar"
      ],
      "suggestion": "\"Chats Palace, Brooksby's Walk. Bring the setar!\"",
      "suggestionFa": "«چتس پالاس، بروکسبیز واک. سه‌تار را بیار!»",
@@ -295,8 +296,8 @@
     },
     {
      "keywords": [
-      "quick",
       "reply",
+      "quick",
       "i'll",
       "now"
      ],

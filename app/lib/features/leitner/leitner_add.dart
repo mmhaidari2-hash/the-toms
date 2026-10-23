@@ -1,4 +1,6 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../app/router.dart';
@@ -7,51 +9,63 @@ import '../../core/data/providers.dart';
 import '../../core/platform/voice.dart';
 import 'glossary.dart';
 
-/// Wraps the whole app: long-press (or drag-select) any text, then "Add to Leitner box" in the menu.
-class LeitnerSelect extends StatefulWidget {
+/// The app no longer makes all text selectable (iOS showed "Select All" and highlighted bubbles).
+/// Word-to-Leitner is a long-press on a word in a spoken line instead (see [LeitnerWords]).
+class LeitnerSelect extends StatelessWidget {
   final Widget child;
   const LeitnerSelect({super.key, required this.child});
   @override
-  State<LeitnerSelect> createState() => _LeitnerSelectState();
+  Widget build(BuildContext context) => child;
 }
 
-class _LeitnerSelectState extends State<LeitnerSelect> {
-  String _sel = '';
-  late final OverlayEntry _entry = OverlayEntry(builder: (_) => _area());
-
+/// A spoken line whose words can be long-pressed: the pressed word opens the "Add to Leitner box" sheet,
+/// with the whole line as the example. Nothing is selectable, so no system menu appears.
+class LeitnerWords extends StatefulWidget {
+  final String text;
+  final TextStyle? style;
+  final String speaker;
+  const LeitnerWords(this.text, {super.key, this.style, this.speaker = ''});
   @override
-  void didUpdateWidget(LeitnerSelect old) {
-    super.didUpdateWidget(old);
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) _entry.markNeedsBuild();
-    });
+  State<LeitnerWords> createState() => _LeitnerWordsState();
+}
+
+class _LeitnerWordsState extends State<LeitnerWords> {
+  final _recs = <LongPressGestureRecognizer>[];
+
+  void _clear() {
+    for (final r in _recs) {
+      r.dispose();
+    }
+    _recs.clear();
   }
 
-  Widget _area() => SelectionArea(
-        onSelectionChanged: (c) => _sel = c?.plainText ?? '',
-        contextMenuBuilder: (ctx, st) {
-          final text = _sel.trim();
-          return AdaptiveTextSelectionToolbar.buttonItems(
-            anchors: st.contextMenuAnchors,
-            buttonItems: [
-              if (text.isNotEmpty && text.length <= 80)
-                ContextMenuButtonItem(
-                  label: 'Add to Leitner box',
-                  onPressed: () {
-                    st.hideToolbar();
-                    final nav = router.routerDelegate.navigatorKey.currentContext;
-                    if (nav != null) showLeitnerSheet(nav, text);
-                  },
-                ),
-              ...st.contextMenuButtonItems,
-            ],
-          );
-        },
-        child: widget.child,
-      );
+  @override
+  void dispose() {
+    _clear();
+    super.dispose();
+  }
 
   @override
-  Widget build(BuildContext context) => Overlay(initialEntries: [_entry]);
+  Widget build(BuildContext context) {
+    _clear();
+    final spans = <InlineSpan>[];
+    final re = RegExp(r"[A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F'’-]*");
+    var at = 0;
+    for (final m in re.allMatches(widget.text)) {
+      if (m.start > at) spans.add(TextSpan(text: widget.text.substring(at, m.start)));
+      final w = m.group(0)!;
+      final r = LongPressGestureRecognizer()
+        ..onLongPress = () {
+          HapticFeedback.selectionClick();
+          showLeitnerSheet(context, w, ex: widget.text, exSp: widget.speaker);
+        };
+      _recs.add(r);
+      spans.add(TextSpan(text: w, recognizer: r));
+      at = m.end;
+    }
+    if (at < widget.text.length) spans.add(TextSpan(text: widget.text.substring(at)));
+    return Text.rich(TextSpan(children: spans), style: widget.style);
+  }
 }
 
 String _src() {

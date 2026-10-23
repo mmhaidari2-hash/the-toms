@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,8 +23,8 @@
      "keywords": [
       "delivery",
       "doorbell",
+      "game",
       "fine",
-      "come",
       "i'll"
      ],
      "suggestion": "Doorbell. It's not for me. Bro, can you get it? I'm mid-game. … OK, fine, I'll come. Oh — it's Kev the delivery guy.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello! Can I help you?",
    "translations": {
     "fa": "سلام! کمکتون کنم؟"
@@ -107,7 +107,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'll take it in for her.",
    "translations": {
     "fa": "آره، براش تحویلش می‌گیرم."
@@ -166,7 +166,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, number ten. Here you are.",
    "translations": {
     "fa": "آره، شمارهٔ ده. بفرمایید."
@@ -210,7 +210,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem. Have a good day, Kev!",
    "translations": {
     "fa": "مشکلی نیست. روز خوبی داشته باشی کِو!"
@@ -218,11 +218,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
-      "always",
       "what's",
-      "sorry",
-      "right"
+      "always",
+      "should",
+      "shake",
+      "sorry"
      ],
      "suggestion": "Why does he always say sorry? Right — it's heavy. What's in it? Should we shake it?",
      "suggestionFa": "چرا همیشه میگه ببخشید؟ خب — سنگینه. توش چیه؟ تکونش بدیم؟",
@@ -235,7 +235,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No! Don't shake it. It's not ours.",
    "translations": {
     "fa": "نه! تکونش نده. مال ما نیست."
@@ -245,9 +245,9 @@
      "keywords": [
       "hallway",
       "fragile",
-      "should",
+      "number",
       "street",
-      "number"
+      "should"
      ],
      "suggestion": "Fragile. OK, OK. I'll put it in the hallway, by the door. Should we text her? I've got her number — she's on the street group.",
      "suggestionFa": "شکستنی. باشه باشه. تو راهرو، کنار در می‌ذارمش. بهش پیام بدیم؟ شماره‌اش را دارم — تو گروه خیابونه.",
@@ -260,7 +260,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Text her: \"We've got your parcel.\"",
    "translations": {
     "fa": "آره. بهش پیام بده: «بسته‌تون پیش ماست.»"
@@ -270,8 +270,8 @@
      "keywords": [
       "exclamation",
       "darlings",
-      "already",
       "replied",
+      "already",
       "samosas"
      ],
      "suggestion": "Done. Oh — she's replied already. \"Thank you darlings!! Coming back at 6. Samosas for you!!\" Two exclamation marks. Samosas!",
@@ -285,7 +285,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Samosas! Taking parcels is a good job.",
    "translations": {
     "fa": "سمبوسه! تحویل گرفتن بسته کار خوبیه."
@@ -310,7 +310,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Typical Ryan!",
    "translations": {
     "fa": "ها! رایانِ همیشگی!"
@@ -320,9 +320,9 @@
      "keywords": [
       "getting",
       "samosa",
-      "sound",
       "fresh",
-      "first"
+      "first",
+      "sound"
      ],
      "suggestion": "Fresh air? You sound like Mum. Fine. I'll do the door. But I'm getting the first samosa. Deal?",
      "suggestionFa": "هوای تازه؟ مثل مامان حرف می‌زنی. باشه. من در را باز می‌کنم. ولی اولین سمبوسه مال منه. قبول؟",
@@ -335,7 +335,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

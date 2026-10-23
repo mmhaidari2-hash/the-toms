@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "badge",
-      "says",
-      "look",
       "came",
+      "look",
+      "says",
       "six"
      ],
      "suggestion": "You came! You came! Look at my badge — it says I'm SIX!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy birthday, Nicola! Many happy returns!",
    "translations": {
     "fa": "تولدت مبارک نیکولا! صد سال زنده باشی!"
@@ -50,7 +50,7 @@
       "wrapped",
       "bring",
       "open",
-      "did"
+      "now"
      ],
      "suggestion": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
      "suggestionFa": "برام کادو آوردی؟ کادوپیچه؟ می‌تونم همین الان بازش کنم؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you go — go on, open it!",
    "translations": {
     "fa": "بفرما — بازش کن!"
@@ -73,9 +73,9 @@
      "keywords": [
       "unicorn",
       "mia's",
-      "look",
       "love",
-      "book"
+      "look",
+      "here"
      ],
      "suggestion": "It's a unicorn book! I love it! Look, Mia's here too.",
      "suggestionFa": "یه کتاب تک‌شاخه! عاشقشم! ببین، میا هم اینجاست.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Mia! Are you having fun?",
    "translations": {
     "fa": "سلام میا! خوش می‌گذره؟"
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "musical",
-      "playing",
       "statues",
+      "playing",
+      "musical",
       "freeze",
       "stops"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! I'm very good at freezing.",
    "translations": {
     "fa": "آره! من تو خشک شدن خیلی خوبم."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "party",
-      "cakes",
       "moved",
       "fairy",
+      "cakes",
       "food"
      ],
      "suggestion": "You moved! You're out! Ha ha! Now it's party food. Do you like fairy cakes?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love fairy cakes! Can I have a pink one?",
    "translations": {
     "fa": "عاشق کیک فنجونی‌ام! یه صورتی می‌تونم بردارم؟"
@@ -149,8 +149,8 @@
       "sprinkles",
       "there's",
       "little",
-      "cakes",
-      "icing"
+      "jelly",
+      "mummy"
      ],
      "suggestion": "Little cakes with icing and sprinkles! Mummy made them. And there's jelly and ice cream!",
      "suggestionFa": "کیک‌های کوچیک با خامه و ترافل! مامان درستشون کرد. ژله و بستنی هم هست!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jelly and ice cream — yum!",
    "translations": {
     "fa": "ژله و بستنی — به‌به!"
@@ -174,8 +174,8 @@
       "everyone's",
       "candles",
       "singing",
-      "sing",
-      "will"
+      "blow",
+      "then"
      ],
      "suggestion": "Everyone's singing! Will you sing with me? Then I blow out the candles!",
      "suggestionFa": "همه دارن می‌خونن! باهام می‌خونی؟ بعد شمع‌ها را فوت می‌کنم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! Happy birthday to you…",
    "translations": {
     "fa": "حتماً! تولدت مبارک…"
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "parcel",
-      "can't",
       "won't",
-      "made",
+      "can't",
+      "true",
       "wish"
      ],
      "suggestion": "I made a wish! But I can't tell you, or it won't come true. Now pass the parcel!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Okay, I'll keep the music going.",
    "translations": {
     "fa": "باشه، من آهنگ را ادامه می‌دم."
@@ -223,8 +223,8 @@
      "keywords": [
       "birthday",
       "friend",
-      "party",
       "thank",
+      "party",
       "being"
      ],
      "suggestion": "Best. Birthday. EVER. Thank you for being my friend! You get a party bag!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

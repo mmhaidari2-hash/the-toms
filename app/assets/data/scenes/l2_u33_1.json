@@ -22,7 +22,7 @@
       "fever",
       "think",
       "i've",
-      "got"
+      "hay"
      ],
      "suggestion": "Yes! I think I've got hay fever.",
      "suggestionFa": "آره! فکر کنم حساسیت فصلی دارم.",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "running",
-      "nose",
-      "both"
+      "both",
+      "nose"
      ],
      "suggestion": "Both. My eyes are itchy and my nose is running.",
      "suggestionFa": "هر دو. چشمام می‌خاره و آب بینیم راه افتاده.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "drowsy",
+      "make",
       "they",
-      "work",
-      "make"
+      "work"
      ],
      "suggestion": "Do they make you drowsy? I work in the day.",
      "suggestionFa": "خواب‌آورند؟ من روزها کار می‌کنم.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "tablets",
-      "many",
       "take",
+      "many",
       "can"
      ],
      "suggestion": "How many tablets can I take a day?",
@@ -207,8 +207,8 @@
      "keywords": [
       "perfect",
       "drowsy",
-      "much",
-      "they"
+      "they",
+      "much"
      ],
      "suggestion": "Non-drowsy. Perfect. How much are they?",
      "suggestionFa": "غیر خواب‌آور. عالیه. چنده؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "paracetamol",
-      "headaches",
       "sometimes",
+      "headaches",
       "just"
      ],
      "suggestion": "Just paracetamol sometimes, for headaches.",
@@ -354,7 +354,7 @@
       "windows",
       "closed",
       "good",
-      "keep"
+      "idea"
      ],
      "suggestion": "Good idea. And keep the windows closed?",
      "suggestionFa": "فکر خوبیه. پنجره‌ها هم بسته باشه؟",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "helpful",
-      "dawson",
       "that's",
+      "dawson",
       "thank"
      ],
      "suggestion": "Thank you, Mr Dawson. That's very helpful.",

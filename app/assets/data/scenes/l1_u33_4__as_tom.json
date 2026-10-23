@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "victoria",
-      "sponge",
       "excuse",
       "sunday",
+      "sponge",
       "right"
      ],
      "suggestion": "Right, cake for Sunday. A Victoria sponge. Excuse me, mate! How much is that?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says twelve pounds.",
    "translations": {
     "fa": "نوشته دوازده پوند."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The big one, Tom. For your family!",
    "translations": {
     "fa": "بزرگه تام. برای خانواده‌ت!"
@@ -99,11 +99,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "twenty",
+      "here's",
+      "lot",
       "one",
-      "big",
-      "eat"
+      "big"
      ],
      "suggestion": "The big one. My lot eat a lot! Here's a twenty.",
      "suggestionFa": "بزرگه. خانواده‌م زیاد می‌خورن! بفرما یه بیستی.",
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you need a bag?",
    "translations": {
     "fa": "کیسه لازم داری؟"
@@ -175,7 +175,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, I think there's a mistake.",
    "translations": {
     "fa": "ببخشید، فکر کنم اشتباه شده."
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty minus twelve is eight.",
    "translations": {
     "fa": "بیست منهای دوازده میشه هشت."
@@ -279,7 +279,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem. It happens.",
    "translations": {
     "fa": "مشکلی نیست. پیش میاد."
@@ -289,11 +289,11 @@
      "keywords": [
       "teacher",
       "driver",
-      "maths",
       "thing",
+      "maths",
       "done"
      ],
-     "suggestion": "No harm done! Good thing Mehdi is good at maths. I'm a bus driver, not a maths teacher!",
+     "suggestion": "No harm done! Good thing {you} is good at maths. I'm a bus driver, not a maths teacher!",
      "suggestionFa": "ضرری نکردیم! خوب شد {you} ریاضیش خوبه. من راننده اتوبوسم، نه معلم ریاضی!",
      "trustDelta": 5,
      "next": "r12",
@@ -304,7 +304,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leslie is the teacher!",
    "translations": {
     "fa": "لزلی معلمه!"
@@ -357,7 +357,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's very kind.",
    "translations": {
     "fa": "خیلی لطف دارید."
@@ -368,10 +368,10 @@
       "actually",
       "mistake",
       "anymore",
-      "cards",
-      "don't"
+      "don't",
+      "cards"
      ],
-     "suggestion": "Free jam tart! Best mistake ever. Actually, Mehdi, I don't take cash on the bus anymore. Only cards! Ha!",
+     "suggestion": "Free jam tart! Best mistake ever. Actually, {you}, I don't take cash on the bus anymore. Only cards! Ha!",
      "suggestionFa": "تارت مجانی! بهترین اشتباه عمرم. راستش {you}، دیگه تو اتوبوس پول نقد نمی‌گیرم. فقط کارت! ها!",
      "trustDelta": 5,
      "next": "r15",
@@ -382,7 +382,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

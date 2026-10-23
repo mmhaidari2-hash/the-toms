@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie's",
       "midnight",
+      "leslie's",
       "worried",
       "hello",
       "where"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
    "translations": {
     "fa": "ببخشید! تو آکسفورد سیرکس هستم. آخرین مترو را از دست دادم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The N73? What does the N mean?",
    "translations": {
     "fa": "N73؟ N یعنی چی؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "minutes",
+      "fifteen",
       "night",
-      "every",
-      "price"
+      "price",
+      "every"
      ],
      "suggestion": "N for night. Every ten or fifteen minutes. Same price as the day bus. Have you got your card?",
      "suggestionFa": "N یعنی شب. هر ده پونزده دقیقه. همون قیمت اتوبوس روز. کارتت همراهته؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. And my phone battery is low.",
    "translations": {
     "fa": "آره. و باتری گوشیم کمه."
@@ -100,7 +100,7 @@
       "carefully",
       "newington",
       "station",
-      "circus"
+      "listen"
      ],
      "suggestion": "Then listen carefully. Stop O, Oxford Circus. Sit downstairs, near the driver. Get off at Stoke Newington police station.",
      "suggestionFa": "پس خوب گوش کن. ایستگاه O، آکسفورد سیرکس. طبقهٔ پایین بشین، نزدیک راننده. ایستگاه پلیس استوک نیوینگتون پیاده شو.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why should I sit near the driver?",
    "translations": {
     "fa": "چرا نزدیک راننده بشینم؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Merry? You mean drunk?",
    "translations": {
     "fa": "سرخوش؟ یعنی مست؟"
@@ -148,8 +148,8 @@
      "keywords": [
       "harmless",
       "station",
-      "police",
       "mostly",
+      "police",
       "drunk"
      ],
      "suggestion": "Drunk, yes. Mostly harmless. I'll pick you up at the police station in the car. Text me when you're on the bus.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom. You don't have to!",
    "translations": {
     "fa": "ممنون تام. لازم نیست!"
@@ -173,7 +173,7 @@
      "keywords": [
       "either",
       "leslie",
-      "until",
+      "won't",
       "don't",
       "sleep"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

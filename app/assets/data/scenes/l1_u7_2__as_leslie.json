@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "washing",
-      "here's",
-      "liquid",
+      "things",
       "apples",
-      "things"
+      "here's",
+      "liquid"
      ],
      "suggestion": "Right, here's the list. Milk, eggs, apples and washing-up liquid. Can you help me find things?",
      "suggestionFa": "خب، این فهرسته. شیر، تخم‌مرغ، سیب و مایع ظرفشویی. کمکم می‌کنی پیداشون کنم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Where's the milk?",
    "translations": {
     "fa": "حتماً. شیر کجاست؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "please",
       "three",
-      "pints",
       "aisle",
-      "back"
+      "pints",
+      "milk"
      ],
      "suggestion": "Milk is in aisle three, at the back. Get two pints, please.",
      "suggestionFa": "شیر راهروی سه‌ست، ته فروشگاه. لطفاً دو پاینت بیار.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two pints of milk. Got it!",
    "translations": {
     "fa": "دو پاینت شیر. فهمیدم!"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are there any eggs?",
    "translations": {
     "fa": "تخم‌مرغ هست؟"
@@ -171,7 +171,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's OK. Normal eggs are fine.",
    "translations": {
     "fa": "اشکال نداره. تخم‌مرغ معمولی خوبه."
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks for your help!",
    "translations": {
     "fa": "ممنون از کمکتون!"
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, that's everything.",
    "translations": {
     "fa": "نه، همه‌اش همینه."

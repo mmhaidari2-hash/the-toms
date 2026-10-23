@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -27,7 +27,7 @@
       "came",
       "did"
      ],
-     "suggestion": "Mehdi! You came to my school! Guess what we did at playtime!",
+     "suggestion": "{you}! You came to my school! Guess what we did at playtime!",
      "suggestionFa": "{you}! اومدی مدرسه‌م! حدس بزن زنگ تفریح چی کار کردیم!",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you do?",
    "translations": {
     "fa": "چی کار کردید؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "dragons",
       "played",
-      "knight",
       "dragon",
-      "mia"
+      "knight",
+      "was"
      ],
      "suggestion": "We played dragons! I was the big dragon. Mia was the knight.",
      "suggestionFa": "اژدهابازی کردیم! من اژدهای بزرگه بودم. میا شوالیه بود.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Who won?",
    "translations": {
     "fa": "کی برد؟"
@@ -75,7 +75,7 @@
       "nobody",
       "went",
       "then",
-      "ran"
+      "won"
      ],
      "suggestion": "Nobody won. We ran and ran, then the whistle went.",
      "suggestionFa": "هیچ‌کس نبرد. دویدیم و دویدیم، بعد سوت زدن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then what happened?",
    "translations": {
     "fa": "بعد چی شد؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Poor Oliver.",
    "translations": {
     "fa": "ای وای! الیور بیچاره."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "every",
-      "over",
+      "fell",
+      "then",
       "knee",
-      "hurt",
       "look"
      ],
      "suggestion": "Yes! Every day. Then I fell over and hurt my knee. Look!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ouch! Are you OK?",
    "translations": {
     "fa": "آخ! خوبی؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "sticker",
       "little",
-      "brave",
       "ellis",
-      "only"
+      "brave",
+      "gave"
      ],
      "suggestion": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
      "suggestionFa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You were very brave!",
    "translations": {
     "fa": "خیلی شجاع بودی!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, we played football.",
    "translations": {
     "fa": "آره، فوتبال بازی می‌کردیم."
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "tomorrow",
+      "football",
       "dragon",
-      "going",
-      "likes"
+      "likes",
+      "going"
      ],
      "suggestion": "Football! Ryan likes football. Tomorrow I'm going to be a dragon AND play football!",
      "suggestionFa": "فوتبال! رایان فوتبال دوست داره. فردا می‌خوام اژدها باشم و فوتبال هم بازی کنم!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

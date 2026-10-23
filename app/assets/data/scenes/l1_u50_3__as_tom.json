@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "everyone's",
       "favourite",
       "question",
-      "sunday",
-      "what's"
+      "what's",
+      "sunday"
      ],
      "suggestion": "Question for the table! What's everyone's favourite food? Mine is a Sunday roast!",
      "suggestionFa": "سؤال برای همه! غذای محبوب همه چیه؟ مال من کباب یکشنبه‌ست!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a Sunday roast?",
    "translations": {
     "fa": "کباب یکشنبه چیه؟"
@@ -49,10 +49,10 @@
       "yorkshire",
       "puddings",
       "potatoes",
-      "heaven",
-      "what's"
+      "what's",
+      "heaven"
      ],
-     "suggestion": "Roast beef, roast potatoes, Yorkshire puddings, gravy… Heaven! What's yours, Mehdi?",
+     "suggestion": "Roast beef, roast potatoes, Yorkshire puddings, gravy… Heaven! What's yours, {you}?",
      "suggestionFa": "رست‌بیف، سیب‌زمینی تنوری، یورکشایر پودینگ، گریوی… بهشت! مال تو چیه {you}؟",
      "trustDelta": 5,
      "next": "r3",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My favourite is ghormeh sabzi.",
    "translations": {
     "fa": "محبوب من قورمه‌سبزیه."
@@ -86,7 +86,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a stew with herbs, beans and lamb.",
    "translations": {
     "fa": "یه خورش با سبزی، لوبیا و گوشت برّه‌ست."
@@ -143,7 +143,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like curry too.",
    "translations": {
     "fa": "منم کاری دوست دارم."
@@ -194,7 +194,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like a bear in a storybook!",
    "translations": {
     "fa": "مثل خرسِ قصه‌ها!"
@@ -247,7 +247,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! What's your favourite pudding, Tom?",
    "translations": {
     "fa": "ها! دسر محبوبت چیه تام؟"
@@ -256,12 +256,12 @@
     {
      "keywords": [
       "decision",
-      "custard",
       "pudding",
       "ghormeh",
-      "toffee"
+      "custard",
+      "sticky"
      ],
-     "suggestion": "Sticky toffee pudding with custard! OK, decision made. Mehdi, will you cook ghormeh sabzi for us one day?",
+     "suggestion": "Sticky toffee pudding with custard! OK, decision made. {you}, will you cook ghormeh sabzi for us one day?",
      "suggestionFa": "پودینگ تافی چسبناک با کاستارد! خب، تصمیم گرفته شد. {you}، یه روز برامون قورمه‌سبزی درست می‌کنی؟",
      "trustDelta": 5,
      "next": "r11",
@@ -272,7 +272,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Next Sunday.",
    "translations": {
     "fa": "آره! یکشنبهٔ بعد."
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "neighbours",
-      "hackney",
       "ghormeh",
+      "hackney",
       "roast",
       "sabzi"
      ],
@@ -297,7 +297,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "finished",
       "lunch",
       "table",
-      "clear",
-      "mummy"
+      "mummy",
+      "clear"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
      "suggestionFa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Let's do it together.",
    "translations": {
     "fa": "البته. بیا با هم انجامش بدیم."
@@ -49,8 +49,8 @@
       "plates",
       "first",
       "next",
-      "them",
-      "sink"
+      "sink",
+      "them"
      ],
      "suggestion": "First, the plates. Put them next to the sink.",
      "suggestionFa": "اول، بشقاب‌ها. بذارشون کنار سینک.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "All the plates?",
    "translations": {
     "fa": "همهٔ بشقاب‌ها؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "leftovers",
       "they're",
-      "heavy",
       "where",
-      "i'll"
+      "heavy",
+      "cups"
      ],
      "suggestion": "I'll do the cups. They're not heavy. Where do the leftovers go?",
      "suggestionFa": "من لیوان‌ها را می‌برم. سنگین نیستن. پس‌مونده‌ها کجا می‌رن؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In the food bin.",
    "translations": {
     "fa": "تو سطل غذا."
@@ -98,8 +98,8 @@
      "keywords": [
       "packets",
       "little",
-      "brown",
       "black",
+      "brown",
       "crisp"
      ],
      "suggestion": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And the juice bottle?",
    "translations": {
     "fa": "و بطری آبمیوه؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the cloth?",
    "translations": {
     "fa": "دستمال کجاست؟"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "another",
-      "floor",
+      "there's",
       "crumb",
-      "one"
+      "floor",
+      "tap"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
      "suggestionFa": "کنار شیر آب. آه، یه خرده نون رو زمینه. و یکی دیگه!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's sweep the floor.",
    "translations": {
     "fa": "بیا زمین را جارو کنیم."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're brilliant at it!",
    "translations": {
     "fa": "تو این کار عالی هستی!"
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "finished",
-      "helpful",
       "kitchen",
+      "helpful",
       "sweet",
       "clean"
      ],
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

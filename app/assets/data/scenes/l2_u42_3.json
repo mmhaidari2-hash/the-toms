@@ -21,8 +21,8 @@
      "keywords": [
       "about",
       "tell",
-      "mia",
-      "her"
+      "her",
+      "mia"
      ],
      "suggestion": "Mia! Tell me about her.",
      "suggestionFa": "میا! دربارهٔ‌ش بهم بگو.",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "plaits",
+      "colour",
       "eyes",
-      "her"
+      "two"
      ],
      "suggestion": "Two plaits! And what colour are her eyes?",
      "suggestionFa": "دو تا گیس! و چشم‌هاش چه رنگیه؟",
@@ -131,7 +131,7 @@
       "what's",
       "shoes",
       "only",
-      "her"
+      "she"
      ],
      "suggestion": "Only her shoes? Ha! What's she like?",
      "suggestionFa": "فقط کفش‌هاش؟ ها! چه جور آدمیه؟",
@@ -308,8 +308,8 @@
      "keywords": [
       "tehran",
       "friend",
-      "black",
-      "laugh"
+      "laugh",
+      "black"
      ],
      "suggestion": "My best friend is in Tehran. He's got black hair and a big laugh.",
      "suggestionFa": "بهترین دوستم تو تهرانه. موهاش مشکیه و بلند می‌خنده.",
@@ -320,9 +320,9 @@
     {
      "keywords": [
       "glasses",
-      "name",
+      "tall",
       "reza",
-      "tall"
+      "name"
      ],
      "suggestion": "He's tall with glasses. His name is Reza.",
      "suggestionFa": "قدبلنده با عینک. اسمش رضاست.",

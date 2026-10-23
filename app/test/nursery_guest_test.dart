@@ -4,12 +4,12 @@ import 'dart:io';
 import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// Vida's Nursery is played as Sara (a new practitioner), never as Mehdi.
+/// Vida's Nursery is played as Sara (a new practitioner), never as the learner.
 void main() {
   final course = jsonDecode(File('assets/data/course.json').readAsStringSync());
   final pack = (course['packs'] as List).firstWhere((p) => p['id'] == 'nursery');
   final ids = [for (final u in pack['units']) for (final l in u['lessons']) ...List<String>.from(l['sceneIds'])];
-  final mehdi = RegExp(r'mehdi|مهدی|\{you\}', caseSensitive: false);
+  final learner = RegExp(r'\{you\}');
 
   test('the nursery pack has 24 lessons and its own guest, Sara', () {
     expect(ids.length, 24);
@@ -21,8 +21,8 @@ void main() {
     expect(File('tool/render_voices.py').readAsStringSync(), contains("'sara':('en-GB-"));
   });
 
-  test('no Mehdi anywhere in the nursery pack (speakers, lines, Persian, replies)', () {
-    expect(mehdi.hasMatch(jsonEncode(pack)), isFalse);
+  test('the learner never appears in the nursery pack (speakers, lines, Persian, replies)', () {
+    expect(learner.hasMatch(jsonEncode(pack)), isFalse);
     final bad = <String>[];
     for (final f in Directory('assets/data/scenes').listSync().whereType<File>()) {
       final id = f.uri.pathSegments.last.replaceAll('.json', '');
@@ -31,8 +31,8 @@ void main() {
       if (!inPack) continue;
       if (s['guest'] != 'sara') bad.add('$id: guest ${s['guest']}');
       for (final n in (s['nodes'] as Map).values) {
-        if (n['speaker'] == 'mehdi' || n['speaker'] == 'me') bad.add('$id/${n['id']}: speaker ${n['speaker']}');
-        if (mehdi.hasMatch(jsonEncode(n))) bad.add('$id/${n['id']}: mentions Mehdi');
+        if (n['speaker'] == 'learner' || n['speaker'] == 'me') bad.add('$id/${n['id']}: speaker ${n['speaker']}');
+        if (learner.hasMatch(jsonEncode(n))) bad.add('$id/${n['id']}: mentions the learner');
       }
     }
     for (final id in ids) {

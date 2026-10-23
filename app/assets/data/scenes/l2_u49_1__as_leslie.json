@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,7 +24,7 @@
       "assistant",
       "crumble",
       "recipe",
-      "mum's",
+      "apple",
       "today"
      ],
      "suggestion": "Apple crumble time! My mum's recipe. Wash your hands, apron on. You're my assistant chef today.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, chef! What do I do first?",
    "translations": {
     "fa": "چشم سرآشپز! اول چی کار کنم؟"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "britain's",
-      "crunchy",
-      "buttery",
       "pudding",
+      "buttery",
+      "crunchy",
       "bottom"
      ],
      "suggestion": "Fruit at the bottom, a crunchy, buttery top. Britain's best pudding. First, peel six apples and cut them into small pieces.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Peel and cut. How small?",
    "translations": {
     "fa": "پوست بکنم و ببرم. چقدر کوچیک؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "bramleys",
-      "cooking",
       "they're",
       "perfect",
-      "apples"
+      "cooking",
+      "cooked"
      ],
      "suggestion": "The green ones — Bramleys. They're cooking apples. Very sour, but perfect when they're cooked. About the size of a dice.",
      "suggestionFa": "سبزها — برملی. سیب پختنی‌ان. خیلی ترشن، ولی پخته عالی‌ان. حدود اندازهٔ تاس.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Done. Now what?",
    "translations": {
     "fa": "تموم شد. حالا چی؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A pinch of cinnamon. Like this?",
    "translations": {
     "fa": "یه ذره دارچین. اینجوری؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "fingers",
       "butter",
+      "sugar",
       "flour",
-      "grams",
-      "sugar"
+      "grams"
      ],
      "suggestion": "Flour, butter, sugar: 200 grams of flour, 100 of butter, 100 of sugar. Now rub the butter into the flour with your fingers.",
      "suggestionFa": "آرد، کره، شکر. دویست گرم آرد، صد گرم کره، صد گرم شکر. حالا کره را با انگشتات با آرد مالش بده.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "With my fingers? Not a spoon?",
    "translations": {
     "fa": "با انگشتام؟ نه قاشق؟"
@@ -149,8 +149,8 @@
       "breadcrumbs",
       "sprinkle",
       "fingers",
-      "lovely",
-      "that's"
+      "that's",
+      "apples"
      ],
      "suggestion": "Fingers! Until it looks like breadcrumbs. That's it — lovely. Now sprinkle it all on top of the apples. Don't press it down.",
      "suggestionFa": "انگشت! تا شبیه پودر سوخاری بشه. همینه — عالی. حالا همه‌ش را روی سیب‌ها بپاش. فشارش نده.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It looks like sand on a beach!",
    "translations": {
     "fa": "شبیه شن ساحله!"
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "degrees",
       "minutes",
-      "poetic",
+      "degrees",
       "golden",
+      "poetic",
       "eighty"
      ],
      "suggestion": "Sand on a beach! Very poetic. Into the oven — one-eighty degrees, for forty minutes. Until it's golden.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Forty minutes. What do we eat it with?",
    "translations": {
     "fa": "چهل دقیقه. باهاش چی می‌خوریم؟"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "cinnamon",
-      "england",
       "custard",
-      "apples",
-      "that's"
+      "england",
+      "that's",
+      "autumn"
      ],
      "suggestion": "Custard! Hot and yellow. Or ice cream. Tom has both. Smell that? Apples and cinnamon. That's autumn in England.",
      "suggestionFa": "کاستارد! داغ و زرد. یا بستنی. تام هر دو را می‌خوره. بو را حس می‌کنی؟ سیب و دارچین. این پاییز انگلستانه.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It smells amazing. Can I write the recipe down?",
    "translations": {
     "fa": "بوی معرکه‌ای میده. میشه دستورش را بنویسم؟"
@@ -224,7 +224,7 @@
       "hackney",
       "family",
       "write",
-      "from",
+      "down",
       "make"
      ],
      "suggestion": "Write it down, and make it for your mum one day. Tell her it's from a family in Hackney. With love.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

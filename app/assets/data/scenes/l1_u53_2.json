@@ -21,8 +21,8 @@
      "keywords": [
       "postbox",
       "there",
-      "near",
-      "here"
+      "here",
+      "near"
      ],
      "suggestion": "Is there a postbox near here?",
      "suggestionFa": "این نزدیکی صندوق پست هست؟",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "stamp",
+      "right",
       "goes",
       "top"
      ],
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "says",
-      "p",
-      "m"
+      "m",
+      "p"
      ],
      "suggestion": "It says 5.30 p.m.",
      "suggestionFa": "نوشته پنج و نیم بعدازظهر.",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "today",
+      "great",
       "then",
       "goes"
      ],
@@ -291,8 +291,8 @@
     },
     {
      "keywords": [
-      "first",
       "let's",
+      "first",
       "stamp",
       "safe"
      ],

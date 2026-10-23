@@ -21,15 +21,15 @@ EVENT = {'birthday', 'christmas', 'sportsday', 'parentsevening', 'firstday', 'po
 SPOT = {'home': 'home', 'school': 'school', 'shops': 'shops', 'health': 'gp', 'uni': 'university', 'dentist': 'gp', 'pharmacy': 'pharmacy',
         'bus': 'bus', 'train': 'station', 'bank': 'bank', 'postoffice': 'postoffice', 'library': 'library', 'park': 'park', 'coffee': 'cafe',
         'restaurant': 'restaurant', 'pub': 'pub', 'gym': 'gym', 'barber': 'barber', 'petrol': 'garage', 'driving': 'garage', 'interview': 'work',
-        'playdate': 'playdate', 'nursery': 'nursery', 'hospital': 'hospital', 'museum': 'museum', 'cinema': 'cinema', 'work': 'work'}
+        'playdate': 'playdate', 'nursery': 'nursery', 'hospital': 'hospital', 'museum': 'museum', 'cinema': 'cinema', 'work': 'work', 'homes': 'homes'}
 LABEL = {'nursery': ("Vida's nursery", 'مهدکودک ویدا'), 'hospital': ('The hospital', 'بیمارستان'), 'museum': ('The museum', 'موزه'),
-         'cinema': ('The cinema', 'سینما'), 'work': ('At work', 'سر کار')}
+         'cinema': ('The cinema', 'سینما'), 'homes': ('Fennick & Rowe Homes', 'املاک فنیک اند رو'), 'work': ('At work', 'سر کار')}
 CUES = [(r'\bnursery\b|\bVida\b', 'nursery'), (r'\bhospital\b|\bA&E\b|\bward\b', 'hospital'), (r'\bmuseum\b', 'museum'),
         (r'\bthe Tube\b|\bUnderground\b', 'train'), (r'\bcinema\b', 'cinema')]
-NONSPEAK = {'me', 'mehdi', 'narrator'}
+NONSPEAK = {'me', 'learner', 'narrator'}
 # Main characters: never painted into a scene they're not in. A location's own background staff (the bus
 # passenger, the baker...) may stay in a painting of THAT location.
-MAIN = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'mehdi'}
+MAIN = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'learner'}
 lesson = {}
 for u in course['units'] + [u for p in course.get('packs', []) for u in p['units']]:
     pk = next((p['id'] for p in course.get('packs', []) if u in p['units']), None)
@@ -42,6 +42,7 @@ def setting(sid, s):
     l = lesson.get(sid, {})
     text = ' '.join([s.get('title', ''), s.get('setting', ''), l.get('title', ''), l.get('unit', '')])
     if l.get('pack') == 'nursery': return 'nursery'
+    if l.get('pack') == 'homes': return 'homes'
     for rx, loc in CUES:
         if re.search(rx, text, re.I): return loc
     return hot.get(sid) or l.get('place')
@@ -60,10 +61,14 @@ BORROW = {
     'nur_6_1': 'parentsevening', 'nur_6_2': 'eveningtea', 'nur_6_3': 'school', 'nur_6_4': 'parentsevening',
     'l2_u20_1': 'doctor', 'l2_u20_2': 'doctor', 'l2_u20_3': 'doctor', 'l2_u20_4': 'doctor', 'l3_u11_1': 'doctor',
     'l2_u21_1': 'library', 'l2_u21_2': 'train', 'l2_u21_3': 'coffee', 'l2_u21_4': 'library',
+    # Fennick & Rowe Homes (estate agent): no painting of its own yet; office talks borrow the bank desk, home visits the rooms
+    'est_1_1': 'hallway', 'est_1_2': 'living', 'est_1_3': 'bank', 'est_2_1': 'bank', 'est_2_2': 'bank', 'est_2_3': 'interview',
+    'est_3_1': 'bank', 'est_3_2': 'living', 'est_3_3': 'kitchen', 'est_4_1': 'bathroom', 'est_4_2': 'bedroom', 'est_4_3': 'hallway',
+    'est_5_1': 'bank', 'est_5_2': 'living', 'est_5_3': 'interview', 'est_5_4': 'bank',
     'l2_u58_1': 'living', 'l2_u58_2': 'living', 'l2_u58_3': 'conference', 'l2_u58_4': 'pub',
 }
 # Fallback for any future scene in those settings.
-BORROW_SETTING = {'nursery': 'playdate', 'hospital': 'doctor', 'museum': 'library', 'cinema': 'living', 'work': 'interview'}
+BORROW_SETTING = {'nursery': 'playdate', 'hospital': 'doctor', 'museum': 'library', 'cinema': 'living', 'work': 'interview', 'homes': 'bank'}
 out, need = {}, collections.defaultdict(list)
 for sid, s in scenes.items():
     if '__' in sid: continue  # role variants use their base scene's art

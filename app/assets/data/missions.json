@@ -605,6 +605,69 @@
 "fa": "«حرفتان را می‌فهمم، ولی…» کمکت می‌کند مخالفت کنی بدون اینکه بی‌ادب به نظر برسی."
 },
 "safe": null
+},
+{
+"id": "m_b1_viewing",
+"level": "B1",
+"spot": "homes",
+"title": "Go to a flat viewing",
+"titleFa": "به بازدید آپارتمان برو",
+"goal": "Book a viewing with a letting agent, look round and ask about bills, the deposit and the tenancy.",
+"goalFa": "با یک بنگاه وقت بازدید بگیر، آپارتمان را ببین و دربارهٔ قبض‌ها، ودیعه و قرارداد بپرس.",
+"say": [
+{
+"sp": "me",
+"spn": "You",
+"en": "Hi, I'm calling about the flat. Is it still available?",
+"fa": "سلام، دربارهٔ آپارتمان زنگ می‌زنم. هنوز موجود است؟",
+"ms": 4920
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Are any bills included in the rent?",
+"fa": "قبضی در اجاره حساب شده است؟",
+"ms": 2736
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Which deposit protection scheme will you use?",
+"fa": "از کدام طرح حفاظت ودیعه استفاده می‌کنید؟",
+"ms": 3576
+},
+{
+"sp": "me",
+"spn": "You",
+"en": "Is there any damp or mould in the flat?",
+"fa": "در آپارتمان رطوبت یا کپک هست؟",
+"ms": 3000
+}
+],
+"hear": [
+{
+"sp": "agent",
+"spn": "Letting agent",
+"en": "The holding deposit is one week's rent.",
+"fa": "ودیعهٔ نگهداری به اندازهٔ اجارهٔ یک هفته است.",
+"ms": 2760
+},
+{
+"sp": "agent",
+"spn": "Letting agent",
+"en": "We'll need to do a Right to Rent check before you sign.",
+"fa": "قبل از امضا باید بررسی حق اجاره را انجام دهیم.",
+"ms": 3192
+}
+],
+"tip": {
+"en": "In England, holding deposits are capped at one week's rent and tenancy deposits at five weeks' (if the rent is under £50,000 a year).",
+"fa": "در انگلستان ودیعهٔ نگهداری حداکثر یک هفته و ودیعهٔ اجاره حداکثر پنج هفته اجاره است."
+},
+"safe": {
+"en": "Never pay money before you have seen the flat, in person or on a live video call. Check the agent is real and get a receipt.",
+"fa": "هرگز پیش از دیدن آپارتمان (حضوری یا تماس تصویری زنده) پول نده؛ مطمئن شو بنگاه واقعی است و رسید بگیر."
+}
 }
 ]
 }

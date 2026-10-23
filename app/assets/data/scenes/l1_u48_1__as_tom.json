@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We're having spaghetti bolognese.",
    "translations": {
     "fa": "اسپاگتی بولونز داریم."
@@ -90,7 +90,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll help you, Tom.",
    "translations": {
     "fa": "کمکت می‌کنم تام."
@@ -104,7 +104,7 @@
       "shorten",
       "brits"
      ],
-     "suggestion": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, Mehdi?",
+     "suggestion": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, {you}?",
      "suggestionFa": "کوتاه‌شدهٔ اسپاگتی بولونز. ما بریتانیایی‌ها همه چی را کوتاه می‌کنیم! روزت چطور بود {you}؟",
      "trustDelta": 5,
      "next": "r5",
@@ -115,7 +115,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was good, thanks. Busy.",
    "translations": {
     "fa": "خوب بود، ممنون. شلوغ."
@@ -126,8 +126,8 @@
       "brilliantly",
       "english",
       "pigeon",
-      "class",
-      "angel"
+      "doing",
+      "class"
      ],
      "suggestion": "English class! You're doing brilliantly. My day? A pigeon got on the bus. At the Angel!",
      "suggestionFa": "کلاس انگلیسی! داری عالی پیش میری. روز من؟ یه کبوتر سوار اتوبوس شد. تو انجل!",
@@ -140,7 +140,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A pigeon? What happened?",
    "translations": {
     "fa": "کبوتر؟ چی شد؟"
@@ -165,7 +165,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so funny!",
    "translations": {
     "fa": "خیلی بامزه‌ست!"
@@ -187,7 +187,7 @@
   "r8": {
    "id": "r8",
    "speaker": "leslie",
-   "text": "Tea's ready! Everyone sit down. Would you like parmesan, Mehdi?",
+   "text": "Tea's ready! Everyone sit down. Would you like parmesan, {you}?",
    "translations": {
     "fa": "شام آماده‌ست! همه بشینید. پارمزان می‌خوای {you}؟"
    },
@@ -216,7 +216,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Lots!",
    "translations": {
     "fa": "آره، لطفاً. زیاد!"
@@ -269,7 +269,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The green bits are herbs.",
    "translations": {
     "fa": "تیکه‌های سبز سبزیجات معطرن."
@@ -280,8 +280,8 @@
       "everyone",
       "pigeon",
       "phones",
-      "about",
-      "right"
+      "wants",
+      "about"
      ],
      "suggestion": "Right. Phones away, everyone. Ryan, that means you! Now, who wants to hear about my pigeon?",
      "suggestionFa": "خب. همه گوشی‌ها کنار. رایان، یعنی تو! حالا کی می‌خواد دربارهٔ کبوترم بشنوه؟",
@@ -294,7 +294,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

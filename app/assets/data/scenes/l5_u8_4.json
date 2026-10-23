@@ -34,8 +34,8 @@
      "keywords": [
       "escape",
       "burnt",
-      "raw",
-      "did"
+      "did",
+      "raw"
      ],
      "suggestion": "Was it burnt? Raw? Did it escape?",
      "suggestionFa": "سوخت؟ خام موند؟ فرار کرد؟",
@@ -80,7 +80,7 @@
       "incredibly",
       "dangerous",
       "frying",
-      "turkey"
+      "sounds"
      ],
      "suggestion": "Oh no. Deep-frying a turkey sounds incredibly dangerous.",
      "suggestionFa": "ای وای. سرخ کردن بوقلمون به نظر خیلی خطرناکه.",
@@ -144,10 +144,10 @@
     },
     {
      "keywords": [
-      "please",
       "nobody",
-      "tell",
-      "hurt"
+      "please",
+      "hurt",
+      "tell"
      ],
      "suggestion": "Please tell me nobody was hurt.",
      "suggestionFa": "لطفاً بگو کسی آسیب ندید.",
@@ -200,8 +200,8 @@
      "keywords": [
       "eyebrows",
       "tom's",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "So that's why Tom's eyebrows look like that!",
      "suggestionFa": "پس واسه همینه ابروهای تام اون‌شکلیه!",

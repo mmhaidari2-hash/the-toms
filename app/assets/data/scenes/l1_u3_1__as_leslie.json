@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "please",
       "shoes",
-      "hall",
       "come",
-      "here"
+      "here",
+      "hall"
      ],
      "suggestion": "Come in! This is the hall. Shoes off here, please.",
      "suggestionFa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, shoes off.",
    "translations": {
     "fa": "باشه، کفش‌ها بیرون."
@@ -48,9 +48,9 @@
      "keywords": [
       "umbrellas",
       "floors",
-      "three",
       "house",
-      "there"
+      "there",
+      "three"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three floors? It's a big house!",
    "translations": {
     "fa": "سه طبقه؟ خونهٔ بزرگیه!"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "downstairs",
-      "there's",
       "kitchen",
-      "living",
-      "garden"
+      "there's",
+      "garden",
+      "living"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is there a bathroom downstairs?",
    "translations": {
     "fa": "پایین حموم هست؟"
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "downstairs",
-      "upstairs",
       "bedrooms",
+      "upstairs",
       "bathroom",
       "there's"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How many bedrooms are there?",
    "translations": {
     "fa": "چندتا اتاق‌خواب هست؟"
@@ -123,8 +123,8 @@
      "keywords": [
       "bedrooms",
       "there",
-      "loft",
       "room",
+      "loft",
       "four"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The loft sounds cosy.",
    "translations": {
     "fa": "زیرشیروونی دنج به نظر میاد."
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "window",
-      "under",
+      "lovely",
       "let's",
-      "roof"
+      "under",
+      "room"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow, there's a great view!",
    "translations": {
     "fa": "وای، منظرهٔ عالی داره!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could I have another blanket?",
    "translations": {
     "fa": "می‌شه یه پتوی دیگه داشته باشم؟"
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
-      "home",
       "make",
-      "love"
+      "love",
+      "home"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

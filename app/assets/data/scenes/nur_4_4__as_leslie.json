@@ -22,11 +22,11 @@
    "branches": [
     {
      "keywords": [
-      "lunchtime",
-      "william's",
-      "morning",
       "paracetamol",
-      "cough"
+      "children's",
+      "william's",
+      "lunchtime",
+      "morning"
      ],
      "suggestion": "Morning! William's got a bit of a cough. Can you give him some children's paracetamol at lunchtime?",
      "suggestionFa": "صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش شربت استامینوفن بچه بدید؟",
@@ -50,8 +50,8 @@
       "temperature",
       "morning",
       "course",
-      "know",
-      "need"
+      "need",
+      "know"
      ],
      "suggestion": "No temperature this morning. Oh, a form — of course. What do you need to know?",
      "suggestionFa": "امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "morning",
-      "here's",
       "twelve",
+      "here's",
       "bottle",
       "seven"
      ],
@@ -214,10 +214,10 @@
     {
      "keywords": [
       "william",
-      "auntie",
       "number",
+      "auntie",
       "thank",
-      "vida"
+      "same"
      ],
      "suggestion": "Same number. Thank you both. Bye, William — be good for Auntie Vida!",
      "suggestionFa": "همون شماره. ممنون از هر دوتون. خداحافظ ویلیام — برای خاله ویدا پسر خوبی باش!",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "starving",
       "doris's",
       "hungry",
-      "party"
+      "thank"
      ],
      "suggestion": "My turn to take you out! Thank you for all your help with Doris's party. Now, starters. Are you hungry? I'm starving.",
      "suggestionFa": "نوبت منه تو را ببرم بیرون! ممنون بابت همهٔ کمکت برای مهمونی دوریس. حالا، پیش‌غذا. گرسنه‌ای؟ من دارم می‌میرم از گرسنگی.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm starving too. What's a starter, exactly?",
    "translations": {
     "fa": "منم خیلی گرسنه‌ام. پیش‌غذا دقیقاً چیه؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "appetiser",
       "america",
-      "garlic",
       "before",
+      "garlic",
       "course"
      ],
      "suggestion": "A small dish before the main course. Like soup, or garlic bread. In America they call it an \"appetiser\". Very fancy.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The garlic bread looks nice.",
    "translations": {
     "fa": "نون سیر خوب به نظر میاد."
@@ -73,7 +73,7 @@
      "keywords": [
       "calamari",
       "garlic",
-      "hurry",
+      "khiar",
       "shall",
       "don't"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Let's share both.",
    "translations": {
     "fa": "فکر خوبیه. هر دو را شریک بشیم."
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "recommend",
-      "here's",
       "sophie",
+      "here's",
       "crispy",
       "rings"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Sophie! What's good today?",
    "translations": {
     "fa": "سلام سوفی! امروز چی خوبه؟"
@@ -178,7 +178,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "To start, I'll have the burrata, please.",
    "translations": {
     "fa": "برای شروع، بوراتا می‌خورم، لطفاً."
@@ -237,7 +237,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tap water for the table, please.",
    "translations": {
     "fa": "آب لوله‌کشی برای میز، لطفاً."
@@ -245,11 +245,11 @@
    "branches": [
     {
      "keywords": [
+      "amazing",
       "driving",
-      "already",
       "jealous",
-      "bread's",
-      "perfect"
+      "perfect",
+      "already"
      ],
      "suggestion": "Perfect. Oh, look — the bread's here already. That smells amazing. Tom's going to be so jealous. He's driving the 38 all day.",
      "suggestionFa": "عالی. اوه، ببین — نون همین الان رسید. چه بوی فوق‌العاده‌ای. تام خیلی حسودیش میشه. کل روز داره ۳۸ را می‌رونه.",
@@ -262,7 +262,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Poor Tom! Shall we take him some home?",
    "translations": {
     "fa": "تام بیچاره! براش یه کم ببریم خونه؟"
@@ -274,7 +274,7 @@
       "calamari",
       "furious",
       "friends",
-      "cheers"
+      "before"
      ],
      "suggestion": "A photo! He'll be furious. Cheers — to Doris, and to good friends. Now, pass the calamari before it disappears!",
      "suggestionFa": "عکس! عصبانی میشه. به سلامتی — به دوریس، و دوستای خوب. حالا کالاماری را بده قبل از اینکه غیب بشه!",
@@ -287,7 +287,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

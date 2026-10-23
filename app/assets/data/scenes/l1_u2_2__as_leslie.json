@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "breakfast",
       "cereal",
-      "would",
       "we've",
+      "toast",
       "right"
      ],
      "suggestion": "Right, breakfast! We've got toast, cereal and eggs. What would you like?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd like some toast, please.",
    "translations": {
     "fa": "لطفاً کمی نان تست می‌خوام."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "spread",
       "choice",
       "butter",
-      "good",
-      "jam"
+      "spread",
+      "yeast",
+      "good"
      ],
      "suggestion": "Good choice. Butter and jam, or yeast spread?",
      "suggestionFa": "انتخاب خوبیه. کره و مربا، یا کرهٔ مخمر؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Butter and jam, please.",
    "translations": {
     "fa": "کره و مربا، لطفاً."
@@ -86,7 +86,7 @@
   "r4": {
    "id": "r4",
    "speaker": "nicola",
-   "text": "Yeast spread is yucky! It's black and salty.",
+   "text": "yeast spread is yucky! It's black and salty.",
    "translations": {
     "fa": "کرهٔ مخمر بدمزه‌ست! سیاه و شوره."
    },
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yucky? Let me try it!",
    "translations": {
     "fa": "بدمزه؟ بذار امتحانش کنم!"
@@ -128,11 +128,11 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "people",
       "nicola",
-      "would",
-      "juice"
+      "orange",
+      "juice",
+      "would"
      ],
      "suggestion": "Nicola, some people love it! Would you like orange juice?",
      "suggestionFa": "نیکولا، بعضیا عاشقشن! آب پرتقال میل داری؟",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a glass of orange juice, please.",
    "translations": {
     "fa": "بله، یه لیوان آب پرتقال، لطفاً."
@@ -155,8 +155,8 @@
      "keywords": [
       "here's",
       "nicola",
-      "knife",
       "plate",
+      "knife",
       "spoon"
      ],
      "suggestion": "Here's a plate and a knife. Can you pass Nicola a spoon?",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a spoon, Nicola.",
    "translations": {
     "fa": "این قاشق، نیکولا."
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I like it.",
    "translations": {
     "fa": "آره، دوستش دارم."
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No more for me, I'm full.",
    "translations": {
     "fa": "دیگه نه، سیر شدم."
@@ -260,8 +260,8 @@
      "keywords": [
       "breakfast",
       "british",
-      "proper",
       "that's",
+      "proper",
       "school"
      ],
      "suggestion": "Well done! That's a proper British breakfast. Off to school, Nicola!",
@@ -275,7 +275,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

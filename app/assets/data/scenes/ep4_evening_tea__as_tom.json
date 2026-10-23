@@ -53,7 +53,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jam first, obviously — the Cornish way.",
    "translations": {
     "fa": "معلومه اول مربا — به روش کورنوالی."
@@ -62,8 +62,8 @@
     {
      "keywords": [
       "bucket's",
-      "plumber",
       "leaking",
+      "plumber",
       "sink's",
       "fridge"
      ],
@@ -78,7 +78,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you go — it's the one on the magnet.",
    "translations": {
     "fa": "بفرما — همونی که روی آهنرباست."
@@ -130,7 +130,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, there's a leak under our kitchen sink — the pipe's dripping.",
    "translations": {
     "fa": "سلام، زیر سینک آشپزخونه‌مون نشتی هست — لوله چکه می‌کنه."
@@ -186,7 +186,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That would suit us perfectly, thanks.",
    "translations": {
     "fa": "کاملاً مناسبه، ممنون."
@@ -238,7 +238,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, our kitchen sink is leaking.",
    "translations": {
     "fa": "سلام، سینک آشپزخانه‌مون نشتی داره."
@@ -298,7 +298,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just dripping. Where's the stopcock?",
    "translations": {
     "fa": "فقط چکه. شیر اصلی کجاست؟"
@@ -354,7 +354,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's perfect, thank you.",
    "translations": {
     "fa": "عالیه، ممنون."
@@ -406,7 +406,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's Tom, 14 Elm Road.",
    "translations": {
     "fa": "تام هستم، الم رود شمارهٔ ۱۴."
@@ -462,7 +462,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jam first or cream first?",
    "translations": {
     "fa": "اول مربا یا اول خامه؟"
@@ -474,7 +474,7 @@
       "leslie's",
       "helping",
       "thanks",
-      "don't"
+      "wrong"
      ],
      "suggestion": "Jam first, obviously. Leslie's wrong, but don't tell her. Thanks for helping with the call.",
      "suggestionFa": "اول مربا، معلومه. لزلی اشتباه می‌کنه، ولی بهش نگو. ممنون که برای تماس کمک کردی.",
@@ -487,7 +487,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Your secret's safe with me!",
    "translations": {
     "fa": "رازت پیش من محفوظه!"
@@ -496,8 +496,8 @@
     {
      "keywords": [
       "would've",
-      "handled",
       "where's",
+      "handled",
       "sorted",
       "proper"
      ],
@@ -512,7 +512,7 @@
   },
   "r19": {
    "id": "r19",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

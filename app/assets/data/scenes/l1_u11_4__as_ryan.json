@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "already",
       "o'clock",
-      "phones",
       "unfair",
-      "that's"
+      "that's",
+      "phones"
      ],
      "suggestion": "Is it ten o'clock already? Mum says phones off at ten. That's so unfair!",
      "suggestionFa": "ساعت ده شد؟ مامان می‌گه گوشی‌ها ساعت ده خاموش. خیلی ناعادلانه‌ست!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's time for bed, Ryan.",
    "translations": {
     "fa": "وقت خوابه رایان."
@@ -48,8 +48,8 @@
      "keywords": [
       "finishing",
       "minutes",
-      "late",
       "just",
+      "late",
       "game"
      ],
      "suggestion": "Ten minutes! OK. I'm just finishing this game. Do you go to bed late?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I go to bed at midnight.",
    "translations": {
     "fa": "آره، نصفه‌شب می‌خوابم."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, but I have work at nine.",
    "translations": {
     "fa": "نه، ولی ساعت نه کار دارم."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, your alarm is on for seven.",
    "translations": {
     "fa": "آره، زنگت برای هفت روشنه."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Put it on the radiator. It'll be dry by morning.",
    "translations": {
     "fa": "بذارش رو شوفاژ. تا صبح خشک میشه."
@@ -148,8 +148,8 @@
      "keywords": [
       "genius",
       "light",
-      "i've",
       "turn",
+      "i've",
       "lamp"
      ],
      "suggestion": "Genius. Can you turn the big light off? I've got my lamp.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Goodnight, Ryan.",
    "translations": {
     "fa": "حتماً. شب بخیر رایان."
@@ -173,8 +173,8 @@
      "keywords": [
       "tomorrow",
       "phone's",
-      "good",
       "time",
+      "good",
       "boy"
      ],
      "suggestion": "Phone's off. See? I'm a good boy. What time do you get up tomorrow?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "At half seven. Same as you, nearly.",
    "translations": {
     "fa": "هفت و نیم. تقریباً مثل تو."
@@ -199,8 +199,8 @@
       "bedbugs",
       "that's",
       "always",
-      "weird",
-      "night"
+      "night",
+      "weird"
      ],
      "suggestion": "Night, then. Don't let the bedbugs bite! That's what Nana always says. Weird, innit?",
      "suggestionFa": "پس شب بخیر. نذار ساس‌ها نیشت بزنن! نانا همیشه اینو می‌گه. عجیبه، نه؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a funny thing to say! Night!",
    "translations": {
     "fa": "جملهٔ بامزه‌ایه! شب بخیر!"
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "radiator",
-      "cheers",
       "thanks",
+      "cheers",
       "night",
       "trick"
      ],
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

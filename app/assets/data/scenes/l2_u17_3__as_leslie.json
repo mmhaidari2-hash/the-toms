@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "supposed",
-      "children",
       "starving",
+      "children",
       "quarter",
-      "pizza"
+      "eight"
      ],
      "suggestion": "The pizza was supposed to be here at seven. It's quarter to eight! The children are starving.",
      "suggestionFa": "قرار بود پیتزا ساعت هفت اینجا باشه. یه ربع به هشته! بچه‌ها از گشنگی دارن می‌میرن.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall I check the app?",
    "translations": {
     "fa": "برنامه را چک کنم؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "phone's",
       "minutes",
+      "phone's",
       "nearly",
-      "could",
-      "forty"
+      "forty",
+      "could"
      ],
      "suggestion": "The app says \"on its way\" — for forty minutes. Could you call them? My phone's nearly dead.",
      "suggestionFa": "برنامه نوشته «در راهه» — چهل دقیقه‌ست. می‌شه بهشون زنگ بزنی؟ گوشیم تقریباً خاموشه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's the order number?",
    "translations": {
     "fa": "حتماً. شمارهٔ سفارش چنده؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "pizzas",
       "garlic",
       "polite",
-      "seven",
-      "large"
+      "pizzas",
+      "large",
+      "bread"
      ],
      "suggestion": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
      "suggestionFa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
    "translations": {
     "fa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه."
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They said the driver got lost. He's five minutes away.",
    "translations": {
     "fa": "گفتن راننده گم شده. پنج دقیقه فاصله داره."
@@ -122,9 +122,9 @@
      "keywords": [
       "discount",
       "house",
-      "main",
       "road",
-      "lost"
+      "lost",
+      "main"
      ],
      "suggestion": "Lost? Our house is on the main road! Did you ask for a discount?",
      "suggestionFa": "گم شده؟ خونهٔ ما کنار جادهٔ اصلیه! تخفیف خواستی؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I didn't. Should I call back?",
    "translations": {
     "fa": "نه، نخواستم. دوباره زنگ بزنم؟"
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Shall I get it?",
    "translations": {
     "fa": "آره! من باز کنم؟"
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "plates",
       "please",
+      "plates",
       "check",
-      "cold",
-      "back"
+      "door",
+      "send"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
      "suggestionFa": "تو در را باز کن، من بشقاب میارم. و لطفاً چک کن داغ باشه. اگه سرد بود، پسش می‌فرستیم.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's warm. Not hot, but warm.",
    "translations": {
     "fa": "گرمه. داغ نه، ولی گرمه."
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "forgiven",
-      "children",
       "goodness",
+      "children",
+      "forgiven",
       "cookies",
-      "pizza"
+      "never"
      ],
      "suggestion": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
      "suggestionFa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

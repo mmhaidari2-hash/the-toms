@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,10 +24,10 @@
       "nicola's",
       "already",
       "report",
-      "three",
+      "today",
       "times"
      ],
-     "suggestion": "Mehdi! Nicola's end-of-year report came home today. I've read it three times already. Will you read it with me?",
+     "suggestion": "{you}! Nicola's end-of-year report came home today. I've read it three times already. Will you read it with me?",
      "suggestionFa": "{you}! کارنامهٔ آخر سال نیکولا امروز اومد خونه. تا حالا سه بار خوندمش. باهام می‌خونیش؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! What does it say?",
    "translations": {
     "fa": "البته! چی نوشته؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "questions",
       "listening",
+      "questions",
       "speaking",
-      "mostly",
-      "nicola"
+      "nicola",
+      "mostly"
      ],
      "suggestion": "Mostly good news! Miss Ellis says Nicola is doing well in speaking and listening. She asks a lot of questions.",
      "suggestionFa": "بیشترش خبر خوبه! خانم الیس میگه نیکولا تو صحبت کردن و گوش دادن خوب پیش میره. کلی سؤال می‌پرسه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's true. She always asks \"why?\"",
    "translations": {
     "fa": "درسته. همیشه می‌پرسه «چرا؟»"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "language",
-      "curious",
       "teacher",
-      "learner",
-      "talking"
+      "curious",
+      "talking",
+      "learner"
      ],
      "suggestion": "Ha, yes! \"Nicola is a curious learner.\" That's teacher language for \"she never stops talking\". I know — I'm a teacher!",
      "suggestionFa": "ها، آره! «نیکولا یادگیرندهٔ کنجکاویه.» این زبون معلم‌هاست برای «یه لحظه ساکت نمیشه». می‌دونم — خودم معلمم!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What else does Miss Ellis say?",
    "translations": {
     "fa": "خانم الیس دیگه چی میگه؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's normal at five, isn't it?",
    "translations": {
     "fa": "تو پنج‌سالگی عادیه، نه؟"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "counting",
+      "working",
       "towards",
       "totally",
-      "working",
       "normal"
      ],
      "suggestion": "Totally normal. And in maths she's \"working towards\" the goal — not quite there yet. Counting is fine, but she hates take-aways.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Working towards — so nearly there?",
    "translations": {
     "fa": "در مسیر — یعنی تقریباً رسیده؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "she'll",
       "sweets",
-      "pizza",
-      "three",
-      "we'll"
+      "learn",
+      "we'll",
+      "three"
      ],
      "suggestion": "Ha! No, not pizza. Five take away two is three. We'll use sweets. Five sweets, eat two — she'll learn very fast!",
      "suggestionFa": "ها! نه، پیتزا نه. پنج منهای دو میشه سه. با آبنبات تمرین می‌کنیم. پنج تا آبنبات، دو تا بخور — خیلی سریع یاد می‌گیره!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good plan! And the last part of the report?",
    "translations": {
     "fa": "نقشهٔ خوبیه! و قسمت آخر کارنامه؟"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "that's",
       "always",
+      "others",
       "nicola",
-      "others"
+      "really"
      ],
      "suggestion": "The last part: \"Nicola is always kind to others.\" That's the bit that made me cry. I'm really proud of her.",
      "suggestionFa": "قسمت آخر: «نیکولا همیشه با بقیه مهربونه.» همین قسمت بود که گریه‌ام انداخت. واقعاً بهش افتخار می‌کنم.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's the most important part.",
    "translations": {
     "fa": "این مهم‌ترین قسمته."
@@ -200,7 +200,7 @@
       "report",
       "nicola",
       "fridge",
-      "after"
+      "let's"
      ],
      "suggestion": "You're right. Handwriting can wait. Right — let's put the report on the fridge. And Nicola gets ice cream after tea!",
      "suggestionFa": "حق با توئه. دست‌خط می‌تونه صبر کنه. خب — بیا کارنامه را بزنیم رو یخچال. و نیکولا بعد از شام بستنی می‌گیره!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

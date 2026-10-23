@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "outside",
-      "there's",
       "removal",
+      "there's",
       "sixteen",
-      "family"
+      "moving"
      ],
      "suggestion": "There's a removal van outside number sixteen! A new family is moving in. Shall we say hello?",
      "suggestionFa": "یه ماشین اسباب‌کشی جلوی پلاک شونزده‌ست! یه خانوادهٔ جدید دارن میان. بریم سلام کنیم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, let's go.",
    "translations": {
     "fa": "آره، بریم."
@@ -50,7 +50,7 @@
       "biscuits",
       "people",
       "bring",
-      "food"
+      "here"
      ],
      "suggestion": "Good idea! Some biscuits. People bring food for new neighbours here.",
      "suggestionFa": "فکر خوبیه! یه کم بیسکویت. اینجا مردم برای همسایه‌های جدید خوراکی می‌برن.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran too! We bring sweets.",
    "translations": {
     "fa": "تو ایران هم! شیرینی می‌بریم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "welcome",
-      "street",
-      "twelve",
       "friend",
-      "number"
+      "twelve",
+      "number",
+      "street"
      ],
      "suggestion": "Hello! Welcome to the street! I'm Leslie, from number twelve. This is our friend.",
      "suggestionFa": "سلام! به خیابون خوش اومدید! من لزلی‌ام، از پلاک دوازده. این دوستمونه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello! Welcome!",
    "translations": {
     "fa": "سلام! خوش اومدید!"
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Mrs Khan wants to know everything!",
    "translations": {
     "fa": "ها! خانم خان می‌خواد همه چی را بدونه!"
@@ -153,7 +153,7 @@
       "they've",
       "that's",
       "names",
-      "their"
+      "sorry"
      ],
      "suggestion": "Ha! Sorry. That's Mrs Khan. Their names are Femi and Grace. They've got two children.",
      "suggestionFa": "ها! ببخشید. اون خانم خانه. اسمشون فمی و گریسه. دو تا بچه دارن.",
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How old are the children?",
    "translations": {
     "fa": "بچه‌ها چند سالشونه؟"
@@ -175,9 +175,9 @@
     {
      "keywords": [
       "nicola",
-      "seven",
       "tunde",
-      "five",
+      "seven",
+      "girl",
       "play"
      ],
      "suggestion": "A boy and a girl. Tunde is seven and Ada is five. Ada can play with Nicola!",
@@ -191,7 +191,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's perfect!",
    "translations": {
     "fa": "عالیه!"
@@ -201,8 +201,8 @@
      "keywords": [
       "manchester",
       "hospital",
-      "femi's",
       "london",
+      "femi's",
       "don't"
      ],
      "suggestion": "In Manchester. Femi's got a new job at the hospital. They don't know London at all.",
@@ -216,7 +216,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm new here too!",
    "translations": {
     "fa": "منم اینجا تازه‌واردم!"
@@ -226,9 +226,9 @@
      "keywords": [
       "lovely",
       "boxes",
-      "help",
+      "need",
       "they",
-      "need"
+      "help"
      ],
      "suggestion": "Lovely. Do they need help with the boxes?",
      "suggestionFa": "عالی. برای جعبه‌ها کمک لازم دارن؟",
@@ -241,7 +241,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we carry some boxes?",
    "translations": {
     "fa": "چند تا جعبه ببریم؟"
@@ -249,11 +249,11 @@
    "branches": [
     {
      "keywords": [
+      "invite",
       "sunday",
       "please",
-      "invite",
       "let's",
-      "them"
+      "help"
      ],
      "suggestion": "They said yes, please! Come on, let's help. Then I'll invite them for tea on Sunday.",
      "suggestionFa": "گفتن آره، لطفاً! بیا کمک کنیم. بعد یکشنبه برای چای دعوتشون می‌کنم.",
@@ -266,7 +266,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

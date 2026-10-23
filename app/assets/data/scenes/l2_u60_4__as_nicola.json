@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Start with \"Hi Jo!\"",
    "translations": {
     "fa": "حتماً. با «سلام جو!» شروع کن."
@@ -59,7 +59,7 @@
       "saturday",
       "unicorn",
       "she's",
-      "other",
+      "doing",
       "we're"
      ],
      "suggestion": "Mia has to come on Saturday! We're doing a unicorn show! I'm the unicorn. She's the other unicorn.",
@@ -73,7 +73,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Saturday! Two unicorns. OK!",
    "translations": {
     "fa": "شنبه! دو تا تک‌شاخ. باشه!"
@@ -133,7 +133,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Perfect. Add a smiley face.",
    "translations": {
     "fa": "عالی. یه صورتک خندون اضافه کن."
@@ -193,7 +193,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Great! Ask if Mia has any allergies.",
    "translations": {
     "fa": "عالی! بپرس میا حساسیت داره."
@@ -236,7 +236,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fish fingers! Nicola will love that.",
    "translations": {
     "fa": "فیش فینگر! نیکولا عاشقشه."
@@ -246,8 +246,8 @@
      "keywords": [
       "anyone",
       "hates",
-      "hate",
       "peas",
+      "hate",
       "mia"
      ],
      "suggestion": "Mia hates peas. I hate peas too! So no peas for anyone.",
@@ -261,7 +261,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nice try, Nicola!",
    "translations": {
     "fa": "تلاش خوبی بود نیکولا!"
@@ -317,7 +317,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"xx\" mean?",
    "translations": {
     "fa": "«xx» یعنی چی؟"
@@ -327,8 +327,8 @@
      "keywords": [
       "xxxxxxx",
       "kisses",
-      "mummy",
       "write",
+      "mummy",
       "lots"
      ],
      "suggestion": "Kisses! Mummy, can I write kisses too? Lots of kisses! xxxxxxx!",
@@ -342,7 +342,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

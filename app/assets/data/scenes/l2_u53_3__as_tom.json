@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
+      "pounds",
       "bill's",
       "ninety",
-      "pounds",
-      "great",
-      "curry"
+      "curry",
+      "shall"
      ],
      "suggestion": "Great curry, lads. Right, the bill's here. Ninety-six pounds for four of us. How shall we do it?",
      "suggestionFa": "کاری عالی بود رفقا. خب، صورت‌حساب اومد. نود و شش پوند برای چهار نفرمون. چطوری حساب کنیم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we split it four ways?",
    "translations": {
     "fa": "چهار قسمت مساوی کنیم؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "splitting",
       "easiest",
-      "three",
       "beers",
-      "water"
+      "water",
+      "three"
      ],
      "suggestion": "Splitting is easiest. But Big Dave had three beers and two naans. And you only had water. Not fair on you.",
      "suggestionFa": "تقسیم آسون‌ترینه. ولی دیو بزرگه سه تا آبجو و دو تا نون خورد. و تو فقط آب خوردی. برای تو منصفانه نیست.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's OK. Splitting is simpler.",
    "translations": {
     "fa": "اشکالی نداره. تقسیم ساده‌تره."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"discretionary\" mean?",
    "translations": {
     "fa": "«اختیاری» یعنی چی؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. So ninety-six, including service.",
    "translations": {
     "fa": "باشه. پس نود و شش، با سرویس."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "fifteen",
-      "twenty",
       "thirty",
-      "right",
-      "comes"
+      "twenty",
+      "comes",
+      "right"
      ],
      "suggestion": "Right. Al says: Dave pays thirty, you pay fifteen, Al and I pay the rest. That comes to twenty-five-fifty each for us.",
      "suggestionFa": "خب. اَل میگه: دیو سی تا میده، تو پونزده تا، من و اَل بقیه‌اش را. برای ما نفری بیست و پنج و پنجاه میشه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fifteen is too little. Let me pay twenty.",
    "translations": {
     "fa": "پونزده خیلی کمه. بذار بیست بدم."
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "waiter's",
       "stubborn",
       "bringing",
+      "waiter's",
       "machine",
       "twenty"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty on this card, please.",
    "translations": {
     "fa": "بیست با این کارت، لطفاً."
@@ -173,9 +173,9 @@
      "keywords": [
       "counting",
       "paying",
-      "course",
       "dave's",
-      "while"
+      "course",
+      "coins"
      ],
      "suggestion": "Done. And Big Dave's paying… cash. Of course. With coins. He's counting. This could take a while.",
      "suggestionFa": "تموم شد. و دیو بزرگه داره… نقد میده. معلومه. با سکه. داره می‌شمره. ممکنه یه کم طول بکشه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! How many coins has he got?",
    "translations": {
     "fa": "ها! چند تا سکه داره؟"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

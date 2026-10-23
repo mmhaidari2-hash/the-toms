@@ -168,8 +168,8 @@
     {
      "keywords": [
       "generous",
-      "that's",
       "twelve",
+      "that's",
       "renew"
      ],
      "suggestion": "Twelve! That's generous. Can I renew them?",
@@ -225,7 +225,7 @@
       "children's",
       "that's",
       "where",
-      "know"
+      "good"
      ],
      "suggestion": "That's good to know. Where are the children's books?",
      "suggestionFa": "خوب شد گفتید. کتاب‌های بچه‌ها کجان؟",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "grandmother",
-      "hafez",
-      "loved"
+      "loved",
+      "hafez"
      ],
      "suggestion": "Hafez! My grandmother loved Hafez.",
      "suggestionFa": "حافظ! مادربزرگم عاشق حافظ بود.",
@@ -280,9 +280,9 @@
     {
      "keywords": [
       "wonderful",
+      "that's",
       "expect",
-      "didn't",
-      "that's"
+      "didn't"
      ],
      "suggestion": "That's wonderful. I didn't expect that.",
      "suggestionFa": "فوق‌العاده‌ست. انتظارش را نداشتم.",
@@ -317,10 +317,10 @@
    "branches": [
     {
      "keywords": [
-      "love",
-      "time",
       "free",
-      "come"
+      "love",
+      "come",
+      "time"
      ],
      "suggestion": "Free? I'd love to come. What time?",
      "suggestionFa": "رایگان؟ دوست دارم بیام. ساعت چند؟",
@@ -373,7 +373,7 @@
       "helpful",
       "you've",
       "thank",
-      "been"
+      "much"
      ],
      "suggestion": "Thank you so much. You've been very helpful.",
      "suggestionFa": "خیلی ممنون. خیلی کمک کردید.",

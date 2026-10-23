@@ -63,8 +63,8 @@
     }
    ],
    "cultureNote": {
-    "en": "On the phone Brits say \"Mrs Hughes speaking\" or \"It's Mehdi here\" — not \"I am Mehdi\".",
-    "fa": "پشت تلفن می‌گویند «Mehdi here» نه «I am Mehdi»."
+    "en": "On the phone Brits say \"Mrs Hughes speaking\" or \"It's Sam here\" — not \"I am Sam\".",
+    "fa": "پشت تلفن می‌گویند «Sam here» نه «I am Sam»."
    }
   },
   "n2": {
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "instead",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email me instead?",
      "suggestionFa": "می‌شه به جاش ایمیل بزنید؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "minutes",
-      "thank",
       "early",
+      "thank",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",

@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "agent",
-   "text": "Hi! You must be here for the viewing. I'm Olivia from Hackney Homes. Shall we go up? It's deceptively spacious.",
+   "text": "Hi! You must be here for the viewing. I'm Olivia from Fennick & Rowe Homes. Shall we go up? It's deceptively spacious.",
    "translations": {
-    "fa": "سلام! حتماً برای بازدید اومدید. من اولیویا از هاکنی هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره."
+    "fa": "سلام! حتماً برای بازدید اومدید. من اولیویا از فنیک اند رو هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره."
    },
    "branches": [
     {
@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, hi. Tom's come with me for a second opinion.",
    "translations": {
     "fa": "آره، سلام. تام برای نظر دوم باهام اومده."
@@ -116,7 +116,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are any bills included in the rent?",
    "translations": {
     "fa": "قبض‌ها تو اجاره حسابه؟"
@@ -138,9 +138,9 @@
   "r5": {
    "id": "r5",
    "speaker": "agent",
-   "text": "Bills aren't included, but council tax is band B. The landlord might consider £1,600 for a longer tenancy.",
+   "text": "Bills aren't included, but council tax is band B. The landlord might consider £1,600 if you can move in soon.",
    "translations": {
-    "fa": "قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. صاحبخونه برای اجارهٔ طولانی‌تر شاید ۱۶۰۰ را قبول کنه."
+    "fa": "قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. اگه زود بتونید بیاید، صاحبخونه شاید ۱۶۰۰ را قبول کنه."
    },
    "branches": [
     {
@@ -176,7 +176,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How long is the minimum tenancy?",
    "translations": {
     "fa": "حداقل مدت اجاره چقدره؟"
@@ -199,9 +199,9 @@
   "r7": {
    "id": "r7",
    "speaker": "agent",
-   "text": "Twelve months minimum, with a break clause at six. For £1,600 he'd want eighteen months.",
+   "text": "There's no minimum now. Since May 2026, tenancies in England just roll on month to month. You give two months' notice when you want to leave. For £1,600 he'd want you in by the first.",
    "translations": {
-    "fa": "حداقل دوازده ماه، با یه بند فسخ در ماه شش. برای ۱۶۰۰ هجده ماه می‌خواد."
+    "fa": "الان حداقل مدتی نداره. از مه ۲۰۲۶ اجاره‌ها تو انگلستان ماه‌به‌ماه ادامه پیدا می‌کنن. هر وقت خواستید برید، دو ماه قبل خبر می‌دید. برای ۱۶۰۰ می‌خواد تا اول ماه اسباب‌کشی کنید."
    },
    "branches": [
     {
@@ -217,29 +217,37 @@
    ],
    "newWords": [
     {
-     "word": "break clause",
-     "fa": "بند فسخ"
+     "word": "roll on",
+     "fa": "ادامه پیدا کردن ؛ تمدید خودکار"
     },
     {
-     "word": "exactly",
-     "fa": "دقیقاً"
+     "word": "notice",
+     "fa": "اطلاع قبلی ؛ اخطار"
+    },
+    {
+     "word": "fixed term",
+     "fa": "مدت ثابت"
     }
-   ]
+   ],
+   "cultureNote": {
+    "en": "Since 1 May 2026, private tenancies in England are \"assured periodic\" (rolling) tenancies. Tenants can leave with two months' notice.",
+    "fa": "از ۱ مه ۲۰۲۶ اجاره‌های خصوصی در انگلستان «دوره‌ای» (ماه‌به‌ماه) هستند و مستأجر با دو ماه اطلاع قبلی می‌تواند برود."
+   }
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
-   "text": "What's a break clause, exactly?",
+   "speaker": "learner",
+   "text": "So there's no fixed term at all?",
    "translations": {
-    "fa": "بند فسخ دقیقاً چیه؟"
+    "fa": "یعنی اصلاً مدت ثابتی نداره؟"
    },
    "branches": [
     {
      "keywords": [
       "important",
       "protected",
-      "deposit",
       "whether",
+      "deposit",
       "that's"
      ],
      "suggestion": "Ask about the deposit, and whether it's protected. That's important.",
@@ -253,7 +261,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much is the deposit, and is it in a protection scheme?",
    "translations": {
     "fa": "ودیعه چقدره، و تو طرح حفاظت هست؟"
@@ -313,7 +321,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No pets, and I don't smoke.",
    "translations": {
     "fa": "حیوون ندارم، و سیگار نمی‌کشم."
@@ -373,7 +381,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I see the bathroom ceiling?",
    "translations": {
     "fa": "می‌تونم سقف حموم را ببینم؟"
@@ -429,7 +437,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I work full-time at a logistics company.",
    "translations": {
     "fa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم."
@@ -493,7 +501,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thirty times? That's quite strict.",
    "translations": {
     "fa": "سی برابر؟ نسبتاً سختگیرانه‌ست."
@@ -505,7 +513,7 @@
       "bathroom",
       "proper",
       "olivia",
-      "right"
+      "water"
      ],
      "suggestion": "I'd be happy to. Right, Olivia — can we have a proper look at that bathroom? And I want to test the water pressure.",
      "suggestionFa": "با کمال میل. خب، اولیویا — می‌تونیم یه نگاه درست به اون حموم بندازیم؟ و می‌خوام فشار آب را امتحان کنم.",
@@ -518,7 +526,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "football",
       "player",
+      "need",
       "play",
-      "more",
-      "come"
+      "more"
      ],
      "suggestion": "Can you play football? Come on, we need one more player.",
      "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can play a bit.",
    "translations": {
     "fa": "آره، یه کم بلدم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I can be the goalkeeper.",
    "translations": {
     "fa": "باشه، می‌تونم دروازه‌بان باشم."
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "stress",
-      "can't",
       "chips",
+      "can't",
       "many",
       "fast"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can run quite fast.",
    "translations": {
     "fa": "نسبتاً سریع می‌تونم بدوم."
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "languages",
-      "other",
       "farsi",
       "right",
+      "other",
       "speak"
      ],
      "suggestion": "Can you speak other languages? You speak Farsi, right?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can speak Farsi and English.",
    "translations": {
     "fa": "آره، فارسی و انگلیسی بلدم."
@@ -123,8 +123,8 @@
      "keywords": [
       "english",
       "bonjour",
-      "french",
       "that's",
+      "french",
       "speak"
      ],
      "suggestion": "That's sick! I can only speak English. And a bit of French. \"Bonjour!\"",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you teach me some slang?",
    "translations": {
     "fa": "می‌تونی یه کم اصطلاح عامیانه یادم بدی؟"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "really",
-      "great",
       "score",
+      "great",
       "means",
       "peng"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can try. Pass me the ball!",
    "translations": {
     "fa": "می‌تونم امتحان کنم. توپ را پاس بده!"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "definitely",
+      "time",
       "same",
-      "play",
-      "week",
-      "time"
+      "goal",
+      "week"
      ],
      "suggestion": "Get in! What a goal! You can definitely play. Same time next week?",
      "suggestionFa": "ایول! چه گلی! قطعاً بلدی بازی کنی. هفتهٔ بعد همین ساعت؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

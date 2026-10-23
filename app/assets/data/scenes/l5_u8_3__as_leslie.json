@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "charlton",
-      "anyone",
       "george",
-      "about",
+      "anyone",
+      "never",
       "bobby"
      ],
      "suggestion": "George, tell them about the day you met Bobby Charlton. You never tell anyone.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You met Bobby Charlton, George? The Manchester United legend?",
    "translations": {
     "fa": "شما بابی چارلتون را دیدید جورج؟ اسطورهٔ نورث‌گیت یونایتد؟"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What happened at the station?",
    "translations": {
     "fa": "تو ایستگاه چی شد؟"
@@ -97,8 +97,8 @@
      "keywords": [
       "piccadilly",
       "suitcase",
-      "carried",
       "bobby's",
+      "carried",
       "george"
      ],
      "suggestion": "It was! George was a porter at Piccadilly then. The team came back with the cup, and George carried Bobby's suitcase.",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You carried his suitcase? That's incredible!",
    "translations": {
     "fa": "چمدونش را حمل کردید؟ باورنکردنیه!"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a moment. Did you keep anything from that day?",
    "translations": {
     "fa": "چه لحظه‌ای. از اون روز چیزی نگه داشتید؟"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "wouldn't",
-      "bedroom",
       "luggage",
-      "anyone",
-      "george"
+      "bedroom",
+      "george",
+      "anyone"
      ],
      "suggestion": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, George?",
      "suggestionFa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه جورج؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd be honoured, George.",
    "translations": {
     "fa": "مفتخر می‌شم جورج."

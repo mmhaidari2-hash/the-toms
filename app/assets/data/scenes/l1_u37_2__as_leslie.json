@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "umbrella",
       "things",
       "whose",
-      "pink"
+      "full"
      ],
      "suggestion": "The hallway's full of wet things! Whose umbrella is this? The pink one.",
      "suggestionFa": "راهرو پر از وسایل خیسه! این چتر مال کیه؟ صورتیه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think it's Nicola's.",
    "translations": {
     "fa": "فکر کنم مال نیکولاست."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, they're mine.",
    "translations": {
     "fa": "آره، مال منن."
@@ -73,9 +73,9 @@
      "keywords": [
       "wellies",
       "ryan's",
-      "clean",
-      "muddy",
-      "these"
+      "these",
+      "where",
+      "clean"
      ],
      "suggestion": "Ryan's are muddy. These are clean. Where are your wellies, then?",
      "suggestionFa": "مال رایان گلیه. اینا تمیزن. پس چکمه‌های تو کجان؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I haven't got wellies.",
    "translations": {
     "fa": "من چکمه ندارم."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Does George wear them?",
    "translations": {
     "fa": "جورج می‌پوشتشون؟"
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "anymore",
       "doesn't",
+      "anymore",
       "borrow",
       "heart",
       "rain"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. Are they my size?",
    "translations": {
     "fa": "ممنون. اندازهٔ منن؟"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "soaking",
-      "whose",
       "floor",
+      "whose",
       "coat",
       "them"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's Tom's coat.",
    "translations": {
     "fa": "کت تامه."
@@ -174,8 +174,8 @@
       "everyone",
       "things",
       "please",
-      "hooks",
-      "boots"
+      "boots",
+      "hooks"
      ],
      "suggestion": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
      "suggestionFa": "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, boss!",
    "translations": {
     "fa": "چشم رئیس!"
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "swimming",
       "honestly",
+      "swimming",
       "hallway",
       "coffee",
       "thank"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

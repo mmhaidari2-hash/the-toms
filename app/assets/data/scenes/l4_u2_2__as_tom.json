@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "colleague",
       "deadlines",
       "sounding",
-      "missing",
-      "opinion"
+      "opinion",
+      "without"
      ],
      "suggestion": "Can I get a second opinion? A colleague keeps missing deadlines, and I need to email him without sounding like I'm having a go.",
      "suggestionFa": "می‌تونم یه نظر دوم بگیرم؟ یه همکار مدام مهلت‌ها را رد می‌کنه، و باید بهش ایمیل بزنم بدون اینکه به نظر بیاد دارم بهش می‌تازم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. What have you written so far?",
    "translations": {
     "fa": "حتماً. تا حالا چی نوشتی؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "deadline",
       "missed",
-      "needs",
       "blunt",
-      "again"
+      "again",
+      "needs"
      ],
      "suggestion": "\"Matt, you missed the deadline again. This needs to stop.\" Too blunt?",
      "suggestionFa": "«مت، دوباره مهلت را رد کردی. این باید تموم بشه.» زیادی رکه؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Much too blunt for a British office! Try starting with something positive.",
    "translations": {
     "fa": "برای یه دفتر بریتانیایی خیلی زیادی رکه! با یه چیز مثبت شروع کن."
@@ -74,8 +74,8 @@
       "wondering",
       "report's",
       "coming",
-      "about",
-      "along"
+      "along",
+      "about"
      ],
      "suggestion": "Fair. How about: \"Hi Matt, hope you're well. I was just wondering how the report's coming along?\"",
      "suggestionFa": "منصفانه. این چطوره: «سلام مت، امیدوارم خوب باشی. می‌خواستم بدونم گزارش چطور پیش می‌ره؟»",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Much better. Then you could mention the deadline gently.",
    "translations": {
     "fa": "خیلی بهتر. بعد می‌تونی آروم مهلت را اشاره کنی."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "expecting",
       "timelines",
+      "expecting",
       "client's",
-      "friday",
-      "having"
+      "having",
+      "friday"
      ],
      "suggestion": "\"It might be worth us having a quick chat about timelines, as the client's expecting it on Friday.\"",
      "suggestionFa": "«شاید ارزشش را داشته باشه یه گپ کوتاه دربارهٔ زمان‌بندی‌ها بزنیم، چون مشتری جمعه منتظرشه.»",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Perfect. It's firm but friendly.",
    "translations": {
     "fa": "عالیه. محکم ولی دوستانه‌ست."
@@ -124,7 +124,7 @@
       "wondering",
       "britain",
       "cheers",
-      "means",
+      "shout",
       "funny"
      ],
      "suggestion": "Good shout. \"Let me know if I can help in any way. Cheers, Tom.\" Sent. Funny — in Britain, \"I was just wondering\" means \"do it now\"!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

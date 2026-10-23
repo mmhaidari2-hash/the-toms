@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "substitutions",
       "supermarket",
       "delivery's",
-      "through",
-      "covered"
+      "covered",
+      "through"
      ],
      "suggestion": "The supermarket delivery's here! Can you get the door? I'm covered in flour. The driver will go through the substitutions.",
      "suggestionFa": "بار سوپرمارکت رسید! میشه درو باز کنی؟ همه‌جام آردیه. راننده جایگزین‌ها را باهات چک می‌کنه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. What are substitutions?",
    "translations": {
     "fa": "حتماً. جایگزین‌ها چی هستن؟"
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. What have you changed?",
    "translations": {
     "fa": "آره، لطفاً. چی را عوض کردین؟"
@@ -158,7 +158,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four pints is fine. We drink a lot.",
    "translations": {
     "fa": "چهار پاینت خوبه. ما زیاد می‌خوریم."
@@ -219,7 +219,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leslie, do you like extra mature cheddar?",
    "translations": {
     "fa": "لزلی، چدار خیلی جاافتاده دوست داری؟"
@@ -229,9 +229,9 @@
      "keywords": [
       "thrilled",
       "what's",
-      "he'll",
-      "third",
-      "won't"
+      "won't",
+      "loves",
+      "third"
      ],
      "suggestion": "Tom loves it, but the kids won't eat it. Keep it for Tom, he'll be thrilled. What's the third one?",
      "suggestionFa": "تام عاشقشه، ولی بچه‌ها نمی‌خورنش. نگهش دار برای تام، کلی ذوق می‌کنه. سومی چیه؟",
@@ -244,7 +244,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the third substitution, please?",
    "translations": {
     "fa": "جایگزین سوم چیه، لطفاً؟"
@@ -303,7 +303,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no. William will not accept that!",
    "translations": {
     "fa": "وای نه. ویلیام اینو قبول نمی‌کنه!"
@@ -360,7 +360,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, can we reject the princess pasta?",
    "translations": {
     "fa": "ببخشید، می‌تونیم ماکارونی پرنسسی را رد کنیم؟"

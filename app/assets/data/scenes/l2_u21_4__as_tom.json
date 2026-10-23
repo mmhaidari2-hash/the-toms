@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're so sweet when they sleep.",
    "translations": {
     "fa": "وقتی می‌خوابن خیلی بامزه‌ان."
@@ -61,7 +61,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The best bit was the earthquake room.",
    "translations": {
     "fa": "بهترین قسمت اتاق زلزله بود."
@@ -86,7 +86,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, sometimes. Tehran is near a fault line.",
    "translations": {
     "fa": "آره، گاهی. تهران نزدیک یه گسله."
@@ -97,8 +97,8 @@
       "surprised",
       "didn't",
       "today",
-      "know",
-      "most"
+      "most",
+      "know"
      ],
      "suggestion": "Wow. I didn't know that. What surprised you most today?",
      "suggestionFa": "واو. نمی‌دونستم. امروز چی بیشتر از همه غافلگیرت کرد؟",
@@ -111,7 +111,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I didn't expect it to be free!",
    "translations": {
     "fa": "انتظار نداشتم مجانی باشه!"
@@ -119,10 +119,10 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "museums",
+      "history",
       "there",
-      "iran",
+      "free",
       "full"
      ],
      "suggestion": "Free, and full of history. In Iran, are there big museums too?",
@@ -136,7 +136,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! The National Museum in Tehran is amazing.",
    "translations": {
     "fa": "آره! موزهٔ ملی تهران فوق‌العاده‌ست."
@@ -144,11 +144,11 @@
    "branches": [
     {
      "keywords": [
-      "whole",
       "guide",
+      "whole",
       "love",
       "city",
-      "our"
+      "see"
      ],
      "suggestion": "The whole city? I'd love to see that one day. You can be our guide!",
      "suggestionFa": "کل شهر؟ دوست دارم یه روز ببینمش. تو می‌تونی راهنمامون باشی!",
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love that! You'd all love Isfahan.",
    "translations": {
     "fa": "خیلی دوست دارم! همه‌تون عاشق اصفهان میشید."
@@ -172,8 +172,8 @@
       "dinosaurs",
       "nicola's",
       "william",
-      "gently",
-      "coming"
+      "coming",
+      "nicola"
      ],
      "suggestion": "No dinosaurs? Then Nicola's not coming. Ha! Shh, next stop is ours. You take William, I'll take Nicola. Gently…",
      "suggestionFa": "دایناسور نیست؟ پس نیکولا نمیاد. ها! هیس، ایستگاه بعدی مال ماست. تو ویلیام را بغل کن، من نیکولا را. آروم…",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

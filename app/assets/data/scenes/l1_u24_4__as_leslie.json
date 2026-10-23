@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "today",
-      "look",
-      "love",
       "down",
+      "love",
+      "look",
       "bit"
      ],
      "suggestion": "You look a bit down today. Are you OK, love?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm a bit homesick.",
    "translations": {
     "fa": "یه کم دلتنگ وطنم."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "homesick",
-      "normal",
       "that's",
-      "from",
-      "home"
+      "normal",
+      "miss",
+      "long"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
      "suggestionFa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I miss my mum's cooking.",
    "translations": {
     "fa": "دلم برای دستپخت مامانم تنگ شده."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. It's evening in Tehran.",
    "translations": {
     "fa": "فکر خوبیه. تو تهران عصره."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "persian",
+      "cooking",
       "lovely",
-      "about",
-      "teach"
+      "teach",
+      "about"
      ],
      "suggestion": "Lovely. And how about cooking a Persian dish here? You can teach us!",
      "suggestionFa": "عالی. و چطوره اینجا یه غذای ایرانی بپزی؟ می‌تونی به ما یاد بدی!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? That would be fun!",
    "translations": {
     "fa": "واقعاً؟ خیلی خوش می‌گذره!"
@@ -136,7 +136,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Herbs, beans, meat and dried lemons.",
    "translations": {
     "fa": "سبزی، لوبیا، گوشت و لیمو عمانی."
@@ -145,8 +145,8 @@
     {
      "keywords": [
       "saturday",
-      "persian",
       "amazing",
+      "persian",
       "sounds",
       "there"
      ],
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, there's one on the high street.",
    "translations": {
     "fa": "آره، یکی تو خیابون اصلی هست."
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "perfect",
+      "let's",
       "fresh",
       "helps",
-      "let's",
       "walk"
      ],
      "suggestion": "Perfect. Now let's go for a walk. Fresh air helps.",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Let me get my coat.",
    "translations": {
     "fa": "باشه. بذار کتم را بیارم."
@@ -194,11 +194,11 @@
    "branches": [
     {
      "keywords": [
-      "course",
-      "family",
       "you've",
-      "cheer",
-      "we'll"
+      "family",
+      "course",
+      "we'll",
+      "cheer"
      ],
      "suggestion": "Of course! And we'll get a cake on the way back. Cheer up, love — you've got a family here too.",
      "suggestionFa": "البته! و تو راه برگشت یه کیک می‌گیریم. شاد باش عزیزم — اینجا هم خانواده داری.",
@@ -211,7 +211,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

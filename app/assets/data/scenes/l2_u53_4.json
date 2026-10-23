@@ -22,7 +22,7 @@
       "pounds",
       "sixty",
       "send",
-      "how"
+      "owe"
      ],
      "suggestion": "I owe my friend sixty pounds. How do I send it?",
      "suggestionFa": "شصت پوند به دوستم بدهکارم. چطوری بفرستمش؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "transfer",
       "bank",
-      "like",
-      "back"
+      "back",
+      "like"
      ],
      "suggestion": "I'd like to pay a friend back by bank transfer.",
      "suggestionFa": "می‌خوام پول یه دوست را با انتقال بانکی پس بدم.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "matches",
-      "name",
-      "good"
+      "good",
+      "name"
      ],
      "suggestion": "It says, \"Name matches\". Good!",
      "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "callum",
+      "match",
       "byrne",
-      "close",
-      "match"
+      "close"
      ],
      "suggestion": "It says, \"Close match: Callum J Byrne\".",
      "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "concert",
-      "thanks",
-      "ticket"
+      "ticket",
+      "thanks"
      ],
      "suggestion": "Reference: \"Concert ticket — thanks!\"",
      "suggestionFa": "شرح: «بلیت کنسرت — مرسی!»",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "legend",
+      "cheers",
       "callum",
       "got"
      ],

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! It's shrunk!",
    "translations": {
     "fa": "وای نه! آب رفته!"
@@ -48,8 +48,8 @@
      "keywords": [
       "degrees",
       "nana's",
-      "towels",
       "washed",
+      "towels",
       "sixty"
      ],
      "suggestion": "I washed it with the towels. At sixty degrees. Then I put it in the dryer at Nana's. On high.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sixty and the dryer? That's why!",
    "translations": {
     "fa": "شصت و خشک‌کن؟ برای همینه!"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "tumble",
-      "labels",
       "thirty",
-      "reads",
-      "label"
+      "labels",
+      "tumble",
+      "label",
+      "reads"
      ],
      "suggestion": "The label? Who reads labels? Er… \"Wash at thirty. Do not tumble dry.\" Oh. Oops.",
      "suggestionFa": "برچسب؟ کی برچسب می‌خونه؟ اِ… «در سی درجه بشویید. در خشک‌کن نگذارید.» اوه. اوپس.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thirty, not sixty. And no dryer.",
    "translations": {
     "fa": "سی، نه شصت. و بدون خشک‌کن."
@@ -98,9 +98,9 @@
      "keywords": [
       "christmas",
       "supposed",
+      "forty",
       "mum's",
-      "going",
-      "forty"
+      "going"
      ],
      "suggestion": "Mum's going to kill me. It was supposed to last till Christmas. It was forty-five quid! Can you fix it?",
      "suggestionFa": "مامان منو می‌کشه. قرار بود تا کریسمس دووم بیاره. چهل و پنج پوند بود! می‌تونی درستش کنی؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm not sure. Maybe soak it in water with conditioner?",
    "translations": {
     "fa": "مطمئن نیستم. شاید تو آب با نرم‌کننده خیسش کنی؟"
@@ -124,8 +124,8 @@
       "conditioner",
       "anything",
       "stretch",
-      "videos",
-      "might"
+      "online",
+      "videos"
      ],
      "suggestion": "Conditioner? Like hair stuff? Does that work? I'll try anything. Even the videos online say it might stretch back.",
      "suggestionFa": "نرم‌کننده؟ مثل وسیلهٔ مو؟ جواب میده؟ هر کاری می‌کنم. حتی ویدیوهای اینترنتی میگه شاید دوباره کش بیاد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Soak it for thirty minutes, then stretch it gently.",
    "translations": {
     "fa": "سی دقیقه خیسش کن، بعد آروم کشش بده."
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "stretch",
       "soaking",
       "minutes",
+      "stretch",
       "sleeve",
-      "gently"
+      "thirty"
      ],
      "suggestion": "OK, it's soaking. Thirty minutes… Right. Stretch. Pull that sleeve, I'll pull this one. Gently! GENTLY!",
      "suggestionFa": "باشه، داره خیس می‌خوره. سی دقیقه… خب. کش بده. اون آستین را بکش، منم اینو. آروم! آروم!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! It's a bit longer now.",
    "translations": {
     "fa": "ببخشید! الان یه کم بلندتر شد."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "whatever",
-      "should",
-      "better",
       "before",
-      "pirate"
+      "pirate",
+      "should",
+      "better"
      ],
      "suggestion": "Ha! I look like a pirate. Whatever. Better than before. What should I do now? Tell Mum, or hide it?",
      "suggestionFa": "ها! شبیه دزد دریایی شدم. مهم نیست. از قبل بهتره. حالا چی کار کنم؟ به مامان بگم یا قایمش کنم؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tell her. Honesty is best.",
    "translations": {
     "fa": "بهش بگو. صداقت بهترینه."
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's my fault too. I didn't check it.",
    "translations": {
     "fa": "تقصیر منم هست. چکش نکردم."
@@ -254,10 +254,10 @@
     {
      "keywords": [
       "bakery",
-      "tumble",
       "washed",
-      "sixty",
-      "money"
+      "tumble",
+      "sorry",
+      "sixty"
      ],
      "suggestion": "OK, OK. I washed it at sixty. And tumble dried it. I'm sorry. I'll pay for a new one. From my bakery money.",
      "suggestionFa": "باشه باشه. تو شصت شستمش. و خشک‌کن زدم. ببخشید. پول یه جدید را میدم. از پول نونوایی.",
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's very grown-up, Ryan.",
    "translations": {
     "fa": "این خیلی بزرگ‌منشانه‌ست رایان."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "someone's",
-      "netball",
       "twisted",
+      "netball",
       "landed",
       "jumped"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Lean on me. Slowly.",
    "translations": {
     "fa": "البته. به من تکیه کن. آروم."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "balloon",
       "already",
       "swollen",
-      "balloon",
-      "thanks",
-      "purple"
+      "colour",
+      "thanks"
      ],
      "suggestion": "Thanks. It hurts, yes. Look — it's swollen already. Like a balloon. And it's going a funny purple colour.",
      "suggestionFa": "ممنون. درد می‌کنه، آره. ببین — همین الان ورم کرده. مثل بادکنک. و داره یه رنگ بنفش عجیب میشه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you put weight on it?",
    "translations": {
     "fa": "می‌تونی روش وزن بندازی؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "though",
       "broken",
-      "hurts",
-      "stand"
+      "should",
+      "stand",
+      "hurts"
      ],
      "suggestion": "I can move my toes. And I can stand on it — just. Hurts like mad, though. Is it broken? Should I go to A&E?",
      "suggestionFa": "انگشت‌هام تکون می‌خورن. و می‌تونم روش وایسم — به‌زور. ولی دیوونه‌وار درد می‌کنه. شکسته؟ باید برم اورژانس؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "If you can walk on it, it's probably a sprain.",
    "translations": {
     "fa": "اگه می‌تونی روش راه بری، احتمالاً رگ‌به‌رگ شده."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "probably",
-      "injuries",
       "tomorrow",
+      "injuries",
       "sprain",
-      "minor"
+      "worse"
      ],
      "suggestion": "Good idea. … The nurse says it's probably a sprain. Rest, ice, and keep it up. If it's worse tomorrow, go to minor injuries.",
      "suggestionFa": "فکر خوبیه. … پرستار میگه احتمالاً رگ‌به‌رگه. استراحت، یخ، و بالا نگهش دار. اگه فردا بدتر شد، برو واحد آسیب‌های جزئی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll get some ice from the freezer.",
    "translations": {
     "fa": "از فریزر یه کم یخ میارم."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "perfect",
-      "sports",
-      "drinks",
       "frozen",
+      "drinks",
+      "sports",
       "we've"
      ],
      "suggestion": "We've got no ice. Tom used it all for his \"sports drinks\". Is there a bag of frozen peas? Peas are perfect.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here — frozen peas, wrapped in a tea towel.",
    "translations": {
     "fa": "بفرما — نخودفرنگی یخ‌زده، پیچیده تو حوله."
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "that's",
+      "nicola",
       "anyway",
       "better",
-      "nicola",
       "won't"
      ],
      "suggestion": "Oh, that's better. Cold, but better. The best use of peas in this house — Nicola won't eat them anyway!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you need painkillers?",
    "translations": {
     "fa": "مسکن لازم داری؟"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

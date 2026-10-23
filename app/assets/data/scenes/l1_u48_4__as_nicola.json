@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "buttons",
       "please",
       "story",
-      "from",
-      "iran"
+      "tell",
+      "from"
      ],
      "suggestion": "I'm in bed! Mr Buttons is here too. Tell me a story from Iran! Please!",
      "suggestionFa": "تو تختم! آقای دکمه هم اینجاست. یه قصه از ایران بگو! لطفاً!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Once upon a time, there was a big bird.",
    "translations": {
     "fa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود."
@@ -49,7 +49,7 @@
       "bigger",
       "bird",
       "than",
-      "how",
+      "bus",
       "big"
      ],
      "suggestion": "A big bird! How big? Bigger than a bus?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bigger than a house! Her name was Simorgh.",
    "translations": {
     "fa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود."
@@ -74,8 +74,8 @@
       "simorgh",
       "where",
       "live",
-      "she",
-      "did"
+      "did",
+      "she"
      ],
      "suggestion": "Simorgh! Where did she live?",
      "suggestionFa": "سیمرغ! کجا زندگی می‌کرد؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She lived on top of a high mountain.",
    "translations": {
     "fa": "بالای یه کوه بلند زندگی می‌کرد."
@@ -98,9 +98,9 @@
      "keywords": [
       "scary",
       "kind",
-      "she",
       "was",
-      "ooh"
+      "ooh",
+      "she"
      ],
      "suggestion": "Ooh. Was she kind or scary?",
      "suggestionFa": "اوه. مهربون بود یا ترسناک؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She was very kind and very wise.",
    "translations": {
     "fa": "خیلی مهربون و خیلی دانا بود."
@@ -135,7 +135,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One day, she found a little baby boy.",
    "translations": {
     "fa": "یه روز، یه پسر بچه پیدا کرد."
@@ -145,8 +145,8 @@
      "keywords": [
       "william",
       "after",
-      "like",
       "look",
+      "like",
       "baby"
      ],
      "suggestion": "A baby! Like William was? Did she look after him?",
@@ -160,7 +160,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. She looked after him for years.",
    "translations": {
     "fa": "آره. سال‌ها ازش مراقبت کرد."
@@ -170,8 +170,8 @@
      "keywords": [
       "happened",
       "william",
-      "after",
       "looks",
+      "after",
       "nana"
      ],
      "suggestion": "Like Nana looks after William! Then what happened? Did he grow up?",
@@ -185,7 +185,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He grew up and became a hero.",
    "translations": {
     "fa": "بزرگ شد و قهرمان شد."
@@ -199,7 +199,7 @@
       "night",
       "now"
      ],
-     "suggestion": "Tomorrow night?! OK… Simorgh is my favourite now. Night night, Mehdi. Night night, Simorgh…",
+     "suggestion": "Tomorrow night?! OK… Simorgh is my favourite now. Night night, {you}. Night night, Simorgh…",
      "suggestionFa": "فردا شب؟! باشه… الان سیمرغ محبوب منه. شب بخیر {you}. شب بخیر سیمرغ…",
      "trustDelta": 5,
      "next": "r9",
@@ -210,7 +210,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

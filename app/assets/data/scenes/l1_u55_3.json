@@ -21,8 +21,8 @@
      "keywords": [
       "thanks",
       "well",
-      "dad",
-      "mum"
+      "mum",
+      "dad"
      ],
      "suggestion": "Thanks. Well, I've got a mum, a dad and a sister.",
      "suggestionFa": "ممنون. خب، یه مامان، یه بابا و یه خواهر دارم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "brothers",
       "family",
-      "big",
-      "two"
+      "two",
+      "big"
      ],
      "suggestion": "I've got a big family! Two brothers and a sister.",
      "suggestionFa": "خانوادهٔ بزرگی دارم! دو تا برادر و یه خواهر.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "street",
-      "they",
       "same",
+      "they",
       "all"
      ],
      "suggestion": "Yes, they all live in the same street!",
@@ -134,8 +134,8 @@
    "branches": [
     {
      "keywords": [
-      "teacher",
       "teaches",
+      "teacher",
       "maths"
      ],
      "suggestion": "He's a teacher. He teaches maths.",
@@ -148,8 +148,8 @@
      "keywords": [
       "engineer",
       "retired",
-      "now",
-      "was"
+      "was",
+      "now"
      ],
      "suggestion": "He's retired now. He was an engineer.",
      "suggestionFa": "الان بازنشسته‌ست. مهندس بود.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "family",
-      "home",
-      "boss"
+      "boss",
+      "home"
      ],
      "suggestion": "She works at home. She's the boss of the family!",
      "suggestionFa": "تو خونه کار می‌کنه. رئیس خانواده‌ست!",
@@ -236,7 +236,7 @@
      "keywords": [
       "sunday",
       "every",
-      "much",
+      "call",
       "them"
      ],
      "suggestion": "Yes, very much. I call them every Sunday.",
@@ -249,8 +249,8 @@
      "keywords": [
       "cooking",
       "mum's",
-      "most",
-      "miss"
+      "miss",
+      "most"
      ],
      "suggestion": "Yes. I miss my mum's cooking most!",
      "suggestionFa": "آره. بیشتر از همه دلم برای دست‌پخت مامانم تنگ میشه!",
@@ -294,8 +294,8 @@
      "keywords": [
       "sister",
       "phone",
-      "here",
-      "baby"
+      "baby",
+      "here"
      ],
      "suggestion": "Yes, here on my phone. This is my sister and her baby.",
      "suggestionFa": "آره، اینجا تو گوشیم. این خواهرمه با بچه‌اش.",
@@ -307,8 +307,8 @@
      "keywords": [
       "garden",
       "their",
-      "dad",
-      "mum"
+      "mum",
+      "dad"
      ],
      "suggestion": "This is my mum and dad in their garden.",
      "suggestionFa": "این مامان و بابامن تو باغچه‌شون.",
@@ -352,10 +352,10 @@
     },
     {
      "keywords": [
-      "sister",
       "really",
-      "look",
-      "like"
+      "sister",
+      "like",
+      "look"
      ],
      "suggestion": "Really? My sister says I look like Dad.",
      "suggestionFa": "واقعاً؟ خواهرم میگه شبیه بابام.",

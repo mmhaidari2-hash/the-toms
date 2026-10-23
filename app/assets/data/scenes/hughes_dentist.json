@@ -20,9 +20,9 @@
     {
      "keywords": [
       "something",
-      "drink",
       "hurts",
-      "tooth"
+      "tooth",
+      "drink"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
      "suggestionFa": "آره، یه دندونم وقتی چیز سرد می‌خورم درد می‌گیره.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "really",
+      "should",
       "more"
      ],
      "suggestion": "Not really. I should do it more.",
@@ -163,7 +163,7 @@
     {
      "keywords": [
       "that's",
-      "book",
+      "week",
       "next",
       "fine"
      ],
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "nervous",
-      "will",
       "hurt",
+      "will",
       "bit"
      ],
      "suggestion": "Will it hurt? I'm a bit nervous.",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "band",
+      "much",
       "how"
      ],
      "suggestion": "How much is Band 2?",
@@ -316,8 +316,8 @@
      "keywords": [
       "appointment",
       "anything",
-      "before",
-      "should"
+      "should",
+      "before"
      ],
      "suggestion": "Should I avoid anything before the appointment?",
      "suggestionFa": "قبل از وقت باید از چیزی پرهیز کنم؟",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "give",
       "i'll",
       "cola",
+      "give",
       "hard"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",

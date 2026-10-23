@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "honest",
       "crying",
-      "think",
       "quiet",
+      "think",
       "were"
      ],
      "suggestion": "So? Be honest. What did you think? You were very quiet at the end. Were you crying? I was crying.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I thought it was wonderful. And yes — maybe a little.",
    "translations": {
     "fa": "به نظرم فوق‌العاده بود. و آره — شاید یه کم."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "everyone",
-      "uniforms",
+      "sandwich",
+      "barnaby",
       "mine's",
-      "prison"
+      "rules"
      ],
      "suggestion": "Everyone cries at Barnaby. It's the rules. What was the best bit for you? Mine's the jam sandwich bit!",
      "suggestionFa": "همه سر بارنابی گریه می‌کنن. قانونه. بهترین قسمتش برای تو چی بود؟ مال من صحنهٔ زندانه. لباس‌های صورتی!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The best bit was the marmalade in the prison.",
    "translations": {
     "fa": "بهترین قسمتش مارمالاد تو زندان بود."
@@ -73,9 +73,9 @@
      "keywords": [
       "basically",
       "stranger",
-      "lovely",
-      "really",
-      "that's"
+      "that's",
+      "family",
+      "lovely"
      ],
      "suggestion": "Oh, that's lovely. The family who takes in a stranger. A bit like us, really. Mrs Brown is basically me.",
      "suggestionFa": "اوه، چه قشنگ. خانواده‌ای که یه غریبه را قبول می‌کنه. یه کم مثل ما، راستش. خانم براون عملاً منم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And Mr Brown is basically Tom!",
    "translations": {
     "fa": "و آقای براون عملاً تامه!"
@@ -99,8 +99,8 @@
       "question",
       "sillier",
       "better",
-      "first",
-      "one's"
+      "wrong",
+      "tom's"
      ],
      "suggestion": "Ha! Tom's sillier. Now, the big question: was it better than the first one? Tom says the first one's better. He's wrong.",
      "suggestionFa": "ها! تام خل‌وضع‌تره. حالا سؤال بزرگ: از اولی بهتر بود؟ تام میگه اولی بهتره. اشتباه می‌کنه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I haven't seen the first one.",
    "translations": {
     "fa": "اولی را ندیدم."
@@ -123,9 +123,9 @@
      "keywords": [
       "barnaby",
       "friday",
-      "would",
       "watch",
-      "stars"
+      "stars",
+      "would"
      ],
      "suggestion": "Then we must watch the first one next Friday. And Barnaby 3. Would you give it stars? Out of five?",
      "suggestionFa": "پس جمعهٔ بعد باید اولی را ببینیم. و بارنابی ۳. بهش ستاره میدی؟ از پنج؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five stars! Definitely.",
    "translations": {
     "fa": "پنج ستاره! قطعاً."
@@ -149,8 +149,8 @@
       "criticise",
       "offended",
       "friday",
-      "he'll",
-      "don't"
+      "don't",
+      "scene"
      ],
      "suggestion": "Don't let Tom hear you criticise a bus scene. He'll be offended for a week. Right — same time next Friday?",
      "suggestionFa": "نذار تام بشنوه از صحنهٔ اتوبوس ایراد می‌گیری. یه هفته دلخور میشه. خب — جمعهٔ بعد همین موقع؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "didn't",
       "tapped",
-      "card",
-      "work"
+      "didn't",
+      "work",
+      "card"
      ],
      "suggestion": "I tapped my card, but it didn't work.",
      "suggestionFa": "کارتم را زدم، ولی کار نکرد.",
@@ -72,10 +72,10 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "pounds",
+      "twelve",
       "shop",
-      "was"
+      "big"
      ],
      "suggestion": "It was a big shop. A hundred and twelve pounds.",
      "suggestionFa": "خرید بزرگی بود. صد و دوازده پوند.",
@@ -198,9 +198,9 @@
    "branches": [
     {
      "keywords": [
+      "pin",
       "why",
-      "ask",
-      "pin"
+      "ask"
      ],
      "suggestion": "Why does it ask for the PIN?",
      "suggestionFa": "چرا رمز می‌خواد؟",
@@ -212,7 +212,7 @@
      "keywords": [
       "different",
       "didn't",
-      "know",
+      "iran",
       "bank"
      ],
      "suggestion": "I didn't know that. My bank in Iran is different.",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "insert",
+      "thanks",
       "done",
       "pin"
      ],

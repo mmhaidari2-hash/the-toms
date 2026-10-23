@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "always",
-      "friday"
+      "friday",
+      "always"
      ],
      "suggestion": "Is it always fish on Friday?",
      "suggestionFa": "همیشه جمعه‌ها ماهیه؟",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "please",
-      "lots",
-      "salt"
+      "salt",
+      "lots"
      ],
      "suggestion": "Yes, please. With lots of salt!",
      "suggestionFa": "آره، لطفاً. با کلی نمک!",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "please",
-      "just",
-      "salt"
+      "salt",
+      "just"
      ],
      "suggestion": "Just salt, please. No vinegar.",
      "suggestionFa": "فقط نمک، لطفاً. سرکه نه.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "nice",
       "sour",
+      "nice",
       "mmm",
       "but"
      ],

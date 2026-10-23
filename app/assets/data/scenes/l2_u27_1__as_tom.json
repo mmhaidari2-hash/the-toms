@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "diversion",
-      "gentlemen",
       "roadworks",
+      "gentlemen",
+      "diversion",
       "stopping",
       "because"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no. I need the market stop!",
    "translations": {
     "fa": "وای نه. من ایستگاه بازار را لازم دارم!"
@@ -50,7 +50,7 @@
       "morning",
       "instead",
       "street",
-      "route"
+      "where"
      ],
      "suggestion": "It means a different route. We go along Morning Lane instead of Mare Street. Where were you going?",
      "suggestionFa": "یعنی یه مسیر دیگه. به‌جای مِر استریت از مورنینگ لین میریم. کجا می‌رفتی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "To the market. I need fish for Leslie.",
    "translations": {
     "fa": "بازار. برای لزلی ماهی لازم دارم."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "nearest",
-      "church",
+      "morning",
+      "minute",
       "market",
-      "minute"
+      "church"
      ],
      "suggestion": "The nearest stop for the market is Morning Lane, by the church. It's a five-minute walk. Sorry, mate — not my fault!",
      "suggestionFa": "نزدیک‌ترین ایستگاه برای بازار مورنینگ لینه، کنار کلیسا. پنج دقیقه پیاده‌ست. ببخشید رفیق — تقصیر من نیست!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five minutes is OK. Which way do I walk?",
    "translations": {
     "fa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "council's",
-      "you'll",
       "chippy",
-      "right",
-      "smell"
+      "you'll",
+      "smell",
+      "every"
      ],
      "suggestion": "The council's! They dig up the same road every year. Walk back past the chippy, then turn right. You'll smell the fish.",
      "suggestionFa": "تقصیر شورا! هر سال همون جاده را می‌کنن. از کنار ماهی‌فروشی برگرد، بعد بپیچ راست. بوی ماهی را حس می‌کنی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Is the diversion for a long time?",
    "translations": {
     "fa": "ها! مسیر انحرافی طولانیه؟"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
+      "transport",
       "website",
+      "there's",
       "before",
-      "check",
-      "about"
+      "weeks"
      ],
      "suggestion": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the transport website. You can check before you leave.",
      "suggestionFa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت حمل‌ونقل هست. می‌تونی قبل از راه افتادن چک کنی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I check on the travel app too?",
    "translations": {
     "fa": "تو اپ مسیریابی هم می‌تونم چک کنم؟"
@@ -149,8 +149,8 @@
       "diversions",
       "morning",
       "useful",
-      "shows",
-      "times"
+      "times",
+      "shows"
      ],
      "suggestion": "Yes, the app shows diversions and live times. Very useful. OK — Morning Lane. This is you. Ring the bell!",
      "suggestionFa": "آره، اپ مسیرهای انحرافی و زمان زنده را نشون میده. خیلی به درد می‌خوره. خب — مورنینگ لین. ایستگاه تو. زنگ را بزن!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm ringing it! Thanks, Tom.",
    "translations": {
     "fa": "دارم می‌زنم! ممنون تام."
@@ -174,8 +174,8 @@
       "always",
       "leslie",
       "other",
-      "stop",
-      "mind"
+      "same",
+      "step"
      ],
      "suggestion": "Same stop, other side. And get the big fish — Leslie always says \"the big one\". Mind the step!",
      "suggestionFa": "همون ایستگاه، طرف مقابل. ماهی بزرگه را بگیر — لزلی همیشه میگه «بزرگه». مواظب پله باش!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

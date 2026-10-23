@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh dear! How did it happen?",
    "translations": {
     "fa": "ای وای! چطوری شد؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She won't kill you!",
    "translations": {
     "fa": "نمی‌کشتت!"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the dustpan.",
    "translations": {
     "fa": "بفرما خاک‌انداز."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Say \"I'm really sorry, Mum.\"",
    "translations": {
     "fa": "بگو «واقعاً متأسفم مامان.»"
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan has something to say.",
    "translations": {
     "fa": "رایان یه چیزی می‌خواد بگه."
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's really sorry.",
    "translations": {
     "fa": "واقعاً متأسفه."
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "See? She isn't angry.",
    "translations": {
     "fa": "دیدی؟ عصبانی نیست."

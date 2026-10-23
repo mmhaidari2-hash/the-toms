@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "number",
       "street",
+      "number",
       "home",
       "mare"
      ],
@@ -131,8 +131,8 @@
      "keywords": [
       "minutes",
       "which",
-      "walk",
-      "five"
+      "five",
+      "walk"
      ],
      "suggestion": "Five minutes is OK. Which way do I walk?",
      "suggestionFa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "fault",
-      "whose"
+      "whose",
+      "fault"
      ],
      "suggestion": "Not your fault? Whose fault is it?",
      "suggestionFa": "تقصیر تو نیست؟ تقصیر کیه؟",
@@ -246,10 +246,10 @@
    "branches": [
     {
      "keywords": [
+      "travel",
       "check",
       "can",
-      "app",
-      "transport"
+      "app"
      ],
      "suggestion": "Can I check on the travel app too?",
      "suggestionFa": "تو اپ مسیریابی هم می‌تونم چک کنم؟",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "there",
-      "back",
       "stop",
+      "back",
       "way"
      ],
      "suggestion": "Is there a stop on the way back?",

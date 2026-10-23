@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,8 +23,8 @@
      "keywords": [
       "lovely",
       "khan",
-      "come",
       "here",
+      "come",
       "mrs"
      ],
      "suggestion": "Ah, you're here! Come in, come in! And Mrs Khan too. Lovely!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom. Thanks for inviting us.",
    "translations": {
     "fa": "سلام تام. ممنون که دعوتمون کردی."
@@ -50,7 +50,7 @@
       "kitchen",
       "coats",
       "still",
-      "take"
+      "late"
      ],
      "suggestion": "Late? Not at all! Leslie's still in the kitchen. Let me take your coats.",
      "suggestionFa": "دیر؟ اصلاً! لزلی هنوز تو آشپزخونه‌ست. بذارید کتاتون را بگیرم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are. Thank you.",
    "translations": {
     "fa": "بفرما. ممنون."
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They smell amazing!",
    "translations": {
     "fa": "بوشون عالیه!"
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "shouldn't",
-      "through",
       "brought",
       "they've",
+      "through",
       "living"
      ],
      "suggestion": "You shouldn't have! Leslie, they've brought food! Go through to the living room.",
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which way is it?",
    "translations": {
     "fa": "از کدوم طرفه؟"
@@ -174,7 +174,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where should I sit?",
    "translations": {
     "fa": "کجا بشینم؟"
@@ -184,9 +184,9 @@
      "keywords": [
       "yourselves",
       "george's",
-      "nobody",
       "sofa's",
-      "comfy"
+      "nobody",
+      "house"
      ],
      "suggestion": "Nobody sits in George's chair! House rule. The sofa's comfy. Make yourselves at home.",
      "suggestionFa": "هیچ‌کس رو صندلی جورج نمی‌شینه! قانون خونه. مبل راحته. راحت باشید.",
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. Your house is lovely.",
    "translations": {
     "fa": "ممنون. خونه‌تون قشنگه."
@@ -258,7 +258,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think he's awake.",
    "translations": {
     "fa": "فکر کنم بیداره."
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

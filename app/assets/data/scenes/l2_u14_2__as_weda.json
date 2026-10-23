@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "returning",
       "seeing",
+      "hello",
       "books",
-      "fancy",
-      "hello"
+      "fancy"
      ],
      "suggestion": "Hello, love! Fancy seeing you here. I'm returning my books. Well — some of them.",
      "suggestionFa": "سلام عزیزم! چه جالب اینجا دیدمت. دارم کتاب‌هام را پس میدم. خب — بعضی‌هاش را.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, Maggie! Why only some?",
    "translations": {
     "fa": "سلام مگی! چرا فقط بعضی‌هاش؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "finished",
-      "haven't",
       "mystery",
+      "haven't",
       "murder",
       "today"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you renew it?",
    "translations": {
     "fa": "می‌تونی تمدیدش کنی؟"
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "pence",
       "renew",
+      "pence",
       "paid",
       "fine",
       "two"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, you can renew books online, or at the desk.",
    "translations": {
     "fa": "آره، می‌شه کتاب‌ها را آنلاین یا سر میز تمدید کرد."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "grandchildren",
-      "online",
       "photos",
-      "calls",
-      "can't"
+      "online",
+      "phone",
+      "calls"
      ],
      "suggestion": "Online? I can't do online. My phone is for calls and photos of the grandchildren. Will you show me?",
      "suggestionFa": "آنلاین؟ من آنلاین بلد نیستم. گوشی من برای تماس و عکس نوه‌هاست. نشونم میدی؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Have you got your library card?",
    "translations": {
     "fa": "حتماً. کارت کتابخانه‌ات را داری؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "william",
-      "ticket",
       "here's",
-      "used",
-      "card"
+      "ticket",
+      "bent",
+      "used"
      ],
      "suggestion": "Here's my card. It's a bit bent — William used it as a ticket for his toy bus.",
      "suggestionFa": "این کارتمه. یه‌کم خم شده — ویلیام به‌عنوان بلیت اتوبوس اسباب‌بازیش ازش استفاده کرد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! The number still works. Type it here.",
    "translations": {
     "fa": "ها! شماره هنوز کار می‌کنه. اینجا تایپش کن."
@@ -150,7 +150,7 @@
       "george's",
       "wants",
       "dear",
-      "pin"
+      "now"
      ],
      "suggestion": "Now it wants a PIN. Oh dear. Is it my birthday? Or George's?",
      "suggestionFa": "حالا رمز می‌خواد. ای وای. تاریخ تولد خودمه؟ یا جورج؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Try your birthday first.",
    "translations": {
     "fa": "اول تاریخ تولد خودت را امتحان کن."
@@ -173,9 +173,9 @@
      "keywords": [
       "george's",
       "married",
-      "always",
       "george",
-      "years"
+      "always",
+      "renew"
      ],
      "suggestion": "It's George's. Forty-eight years married — it's always George. Right — \"renew\". Shall I press it?",
      "suggestionFa": "مال جورجه. چهل و هشت سال ازدواج — همیشه جورجه. خب — «تمدید». فشارش بدم؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Press \"renew all\".",
    "translations": {
     "fa": "آره. «تمدید همه» را بزن."
@@ -199,8 +199,8 @@
       "renewed",
       "window",
       "thank",
-      "three",
-      "going"
+      "weeks",
+      "three"
      ],
      "suggestion": "Renewed! Three more weeks! Thank you, love. Now I'm going to sit by the window and find out who did it.",
      "suggestionFa": "تمدید شد! سه هفتهٔ دیگه! ممنونم عزیزم. حالا می‌رم کنار پنجره بشینم و بفهمم کار کی بوده.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Enjoy it! Don't tell me the ending.",
    "translations": {
     "fa": "لذت ببر! آخرش را به من نگو."
@@ -223,8 +223,8 @@
      "keywords": [
       "sweetheart",
       "gardener",
-      "ruined",
       "joking",
+      "ruined",
       "you've"
      ],
      "suggestion": "The gardener? Oh, you've ruined it now! I'm only joking. Off you go — and thank you, sweetheart.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

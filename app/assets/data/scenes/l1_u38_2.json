@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "buy",
       "did",
-      "him",
-      "buy"
+      "him"
      ],
      "suggestion": "What did you buy him?",
      "suggestionFa": "براش چی خریدی؟",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see.",
      "suggestionFa": "بذار ببینم.",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "paper",
-      "over",
       "fold",
+      "over",
       "box"
      ],
      "suggestion": "Fold the paper over the box.",
@@ -236,9 +236,9 @@
     },
     {
      "keywords": [
-      "small",
       "piece",
       "first",
+      "small",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",

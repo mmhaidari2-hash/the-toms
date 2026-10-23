@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "shall",
       "oscar",
-      "hang",
-      "coat"
+      "shall",
+      "coat",
+      "hang"
      ],
      "suggestion": "Hi, Oscar! Shall we hang up your coat?",
      "suggestionFa": "سلام اسکار! کتت را آویزون کنیم؟",
@@ -88,8 +88,8 @@
      "keywords": [
       "might",
       "today",
-      "dear",
-      "need"
+      "need",
+      "dear"
      ],
      "suggestion": "Oh dear. He might need a nap today.",
      "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
@@ -148,8 +148,8 @@
     {
      "keywords": [
       "password",
-      "please",
       "what's",
+      "please",
       "her"
      ],
      "suggestion": "What's her password, please?",
@@ -237,7 +237,7 @@
       "daddy's",
       "trains",
       "coming",
-      "later"
+      "let's"
      ],
      "suggestion": "Daddy's coming back later. Let's find the trains.",
      "suggestionFa": "بابا بعداً برمی‌گرده. بیا قطارها را پیدا کنیم.",
@@ -248,9 +248,9 @@
     {
      "keywords": [
       "hand",
+      "want",
       "know",
-      "hold",
-      "want"
+      "hold"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",
      "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",

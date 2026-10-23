@@ -4,7 +4,7 @@ import json,os,re,sys,random,hashlib,glob
 H=os.path.dirname(os.path.abspath(__file__)); A=os.path.join(H,'..','assets'); OUT=os.path.join(A,'audio')
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
 def clean(t):
-  t=t.replace('{you}','Mehdi'); t=re.sub(r'\*[^*]*\*','',t)
+  t=t; t=re.sub(r'\*[^*]*\*','',t)
   return re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t).strip()
 items={}
 for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
@@ -14,7 +14,7 @@ for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
     for b in n.get('branches',[]):
       sp=d.get('guest','me'); items[key(sp,b['suggestion'])]=(sp,b['suggestion'],os.path.basename(f)[:-5])
 items={k:v for k,v in items.items() if os.path.exists(f'{OUT}/{k}.mp3') and len(clean(v[1]).split())>=3}
-NAMES=r"Hackney|Thompson|Navarino|Mare Street|Leyton|Orient|Brisbane|Okoro|my team back home|their rivals|Tehran|Okafor|Dawson|Vida|Sara|Doris|Maggie|Callum|Priya|Sian|Gareth|Brighton|Barnaby|Palace cinema|Glenmore|Alastair|Mehdi|Parvin|setar|Chats Palace|Kettle"
+NAMES=r"Hackney|Thompson|Navarino|Mare Street|Leyton|Orient|Brisbane|Okoro|my team back home|their rivals|Tehran|Okafor|Dawson|Vida|Sara|Doris|Maggie|Callum|Priya|Sian|Gareth|Brighton|Barnaby|Palace cinema|Glenmore|Alastair|Parvin|setar|Chats Palace|Kettle"
 named=[k for k,v in items.items() if re.search(NAMES,v[1])]
 rnd=random.Random(7); N=int(sys.argv[1]) if len(sys.argv)>1 else 300
 pick=sorted(set(rnd.sample(named,min(len(named),N//2))+rnd.sample(list(items),N)))

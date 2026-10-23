@@ -16,7 +16,7 @@ FX = ['engine', 'indicator', 'brake']
 SCENES = {'car', 'road', 'petrol', 'garage', 'home'}
 # Scene art follows the same rule as conversations (tool/match_scene_art.py): a painting only if it shows the setting
 # and no main character who isn't speaking; otherwise a people-free stage (drawn road, or blurred setting + symbol).
-MAIN = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'mehdi'}
+MAIN = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'learner'}
 PLACES = {p['id']: p for t in json.load(open(os.path.join(A, 'data', 'places.json'))) for p in t['places'] if p.get('image')}
 ART = {'petrol': ('petrol', 'garage'), 'garage': (None, 'garage'), 'home': ('kitchen', 'home'), 'car': (None, 'garage'), 'road': (None, 'garage')}
 # Speakers who are not in characters.json (no portrait yet: the app shows an icon).

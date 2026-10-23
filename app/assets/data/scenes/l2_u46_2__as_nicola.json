@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A lollipop lady? What does she do?",
    "translations": {
     "fa": "خانم آب‌نبات چوبی؟ چی کار می‌کنه؟"
@@ -49,8 +49,8 @@
       "children",
       "friend",
       "knows",
-      "cross",
-      "stops"
+      "she's",
+      "cross"
      ],
      "suggestion": "She stops the cars so children can cross. She's my friend. She knows my name!",
      "suggestionFa": "ماشین‌ها را نگه می‌داره که بچه‌ها رد بشن. دوست منه. اسمم را می‌دونه!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She's very important. Let's wait for her.",
    "translations": {
     "fa": "خیلی مهمه. بیا منتظرش بمونیم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "walks",
-      "says",
       "wait",
+      "come",
       "have",
-      "come"
+      "then"
      ],
      "suggestion": "We have to wait at the kerb. Then she walks out. Then she says \"Come on!\"",
      "suggestionFa": "باید لب جدول وایسیم. بعد اون میره وسط. بعد میگه «بیاید!»",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wait at the kerb. Good girl.",
    "translations": {
     "fa": "لب جدول وایسا. آفرین دختر خوب."
@@ -99,8 +99,8 @@
       "before",
       "taught",
       "cross",
-      "right",
-      "mummy"
+      "mummy",
+      "right"
      ],
      "suggestion": "Before we cross, look both ways. Left, right, left! Mummy taught me.",
      "suggestionFa": "قبل از رد شدن، هر دو طرف را نگاه کن. چپ، راست، چپ! مامانی یادم داد.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Left, right, left. Is it safe to cross now?",
    "translations": {
     "fa": "چپ، راست، چپ. الان رد شدن امنه؟"
@@ -125,7 +125,7 @@
       "walking",
       "she's",
       "still",
-      "stop"
+      "look"
      ],
      "suggestion": "Not yet! Mrs Bell is still on the pavement. Look — she's walking out now. Cars stop!",
      "suggestionFa": "هنوز نه! خانم بل هنوز رو پیاده‌روئه. ببین — الان داره میره وسط. ماشین‌ها وای میسن!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Now it's safe to cross. Come on!",
    "translations": {
     "fa": "الان رد شدن امنه. بیا!"
@@ -148,11 +148,12 @@
      "keywords": [
       "morning",
       "lives",
+      "he's",
       "from",
-      "good"
+      "iran"
      ],
-     "suggestion": "Good morning, Mrs Bell! This is Mehdi. He lives with us. He's from Iran!",
-     "suggestionFa": "صبح بخیر خانم بل! این مهدیه. با ما زندگی می‌کنه. از ایرانه!",
+     "suggestion": "Good morning, Mrs Bell! This is {you}. He lives with us. He's from Iran!",
+     "suggestionFa": "صبح بخیر خانم بل! این {you}ه. با ما زندگی می‌کنه. از ایرانه!",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -162,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good morning, Mrs Bell. Nice to meet you.",
    "translations": {
     "fa": "صبح بخیر خانم بل. از آشنایی‌تون خوشبختم."
@@ -172,11 +173,12 @@
      "keywords": [
       "sticker",
       "lovely",
-      "gave",
-      "meet"
+      "star",
+      "said",
+      "gave"
      ],
-     "suggestion": "She said \"Lovely to meet you, Mehdi\". And she gave me a sticker! A star sticker!",
-     "suggestionFa": "گفت «خوشحالم از آشنایی مهدی». و بهم یه برچسب داد! برچسب ستاره!",
+     "suggestion": "She said \"Lovely to meet you, {you}\". And she gave me a sticker! A star sticker!",
+     "suggestionFa": "گفت «خوشحالم از آشنایی {you}». و بهم یه برچسب داد! برچسب ستاره!",
      "trustDelta": 5,
      "next": "r8",
      "success": true
@@ -186,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A star sticker! Why did she give you that?",
    "translations": {
     "fa": "برچسب ستاره! چرا بهت داد؟"
@@ -194,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "sticker",
       "waiters",
+      "sticker",
       "waiting",
       "friday",
       "nicely"
@@ -211,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're the best waiter, Nicola.",
    "translations": {
     "fa": "تو بهترین صبرکننده‌ای نیکولا."
@@ -219,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "children",
       "stickers",
+      "children",
       "there",
-      "only",
-      "have"
+      "have",
+      "only"
      ],
      "suggestion": "No! Stickers are only for children. But you can have a hug. There. Bye!",
      "suggestionFa": "نه! برچسب فقط برای بچه‌هاست. ولی می‌تونی یه بغل داشته باشی. بفرما. خداحافظ!",
@@ -236,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

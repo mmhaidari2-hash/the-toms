@@ -33,8 +33,8 @@
     {
      "keywords": [
       "friend",
-      "right",
       "isn't",
+      "right",
       "here"
      ],
      "suggestion": "Tom isn't here right now. This is his friend.",
@@ -84,8 +84,8 @@
      "keywords": [
       "that's",
       "great",
-      "tell",
-      "i'll"
+      "i'll",
+      "news"
      ],
      "suggestion": "That's great news! I'll tell him.",
      "suggestionFa": "خبر عالیه! بهش می‌گم.",
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "please",
+      "number",
       "again",
       "could"
      ],
@@ -182,8 +182,8 @@
      "keywords": [
       "wednesday",
       "twelfth",
-      "got",
-      "ten"
+      "ten",
+      "got"
      ],
      "suggestion": "Wednesday the twelfth at ten. Got it.",
      "suggestionFa": "چهارشنبه دوازدهم ساعت ده. گرفتم.",
@@ -224,7 +224,7 @@
       "message",
       "helen",
       "thank",
-      "pass"
+      "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
      "suggestionFa": "ممنون هلن. پیغام را می‌رسونم.",

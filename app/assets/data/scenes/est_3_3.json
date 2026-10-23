@@ -1,0 +1,233 @@
+{
+ "id": "est_3_3",
+ "characterId": "agent",
+ "title": "Bills and council tax",
+ "titleFa": "قبض‌ها و مالیات شورا",
+ "setting": "Moving in · Level 0",
+ "settingFa": "اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Settling in OK? I've made you a list of bills to set up. First, council tax: tell Hackney Council you've moved in.",
+   "translations": {
+    "fa": "جا افتادید؟ یه فهرست از قبض‌هایی که باید راه بندازید براتون درست کردم. اول، مالیات شورا: به شورای هاکنی بگید اسباب‌کشی کردید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tell"
+     ],
+     "suggestion": "How do I tell the council?",
+     "suggestionFa": "چطور به شورا بگم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "much",
+      "band",
+      "tax",
+      "b"
+     ],
+     "suggestion": "How much is council tax for band B?",
+     "suggestionFa": "مالیات شورا برای گروه B چقدره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "settle in",
+     "fa": "جا افتادن ؛ مستقر شدن"
+    },
+    {
+     "word": "set up",
+     "fa": "راه انداختن"
+    },
+    {
+     "word": "council",
+     "fa": "شورای محلی ؛ شهرداری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "You can do it online on the council's website. Each council sets its own price. You usually pay in ten monthly instalments.",
+   "translations": {
+    "fa": "می‌تونید آنلاین تو سایت شورا انجامش بدید. هر شورا قیمت خودش را تعیین می‌کنه. معمولاً تو ده قسط ماهانه پرداخت می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discount",
+      "alone",
+      "there",
+      "live"
+     ],
+     "suggestion": "I live alone. Is there a discount?",
+     "suggestionFa": "تنها زندگی می‌کنم. تخفیف هست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instalments",
+      "february",
+      "nothing",
+      "march"
+     ],
+     "suggestion": "Ten instalments? So nothing in February and March?",
+     "suggestionFa": "ده قسط؟ پس فوریه و مارس هیچی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "instalments",
+     "fa": "قسط‌ها"
+    },
+    {
+     "word": "sets its own price",
+     "fa": "قیمت خودش را تعیین می‌کند"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    }
+   ],
+   "cultureNote": {
+    "en": "If you're the only adult in your home, you can get a 25% single person discount on council tax. Full-time students usually don't pay.",
+    "fa": "اگر تنها بزرگسال خانه باشی ۲۵٪ تخفیف مالیات شورا می‌گیری؛ دانشجوهای تمام‌وقت معمولاً نمی‌پردازند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Yes — if you're the only adult, you get twenty-five per cent off. Ask for the single person discount.",
+   "translations": {
+    "fa": "بله — اگه تنها بزرگسال باشید، بیست و پنج درصد تخفیف می‌گیرید. تخفیف تک‌نفره را درخواست کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "great",
+      "after"
+     ],
+     "suggestion": "Great. What should I do after that?",
+     "suggestionFa": "عالیه. بعدش چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "electricity",
+      "about",
+      "gas"
+     ],
+     "suggestion": "What about gas and electricity?",
+     "suggestionFa": "گاز و برق چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "twenty-five per cent off",
+     "fa": "بیست و پنج درصد تخفیف"
+    },
+    {
+     "word": "single person discount",
+     "fa": "تخفیف تک‌نفره"
+    },
+    {
+     "word": "after that",
+     "fa": "بعد از آن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "Then give the energy supplier your meter readings. After that: water, broadband, and a TV licence for live TV or BBC iPlayer.",
+   "translations": {
+    "fa": "بعد شمارهٔ کنتورها را به شرکت انرژی بدید. بعد از اون: آب، اینترنت، و مجوز تلویزیون برای پخش زنده یا BBC iPlayer."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supplier",
+      "energy",
+      "change",
+      "can"
+     ],
+     "suggestion": "Can I change energy supplier?",
+     "suggestionFa": "می‌تونم شرکت انرژی را عوض کنم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "licence",
+      "really",
+      "need",
+      "tv"
+     ],
+     "suggestion": "Do I really need a TV licence?",
+     "suggestionFa": "واقعاً مجوز تلویزیون لازمه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "energy supplier",
+     "fa": "شرکت تأمین انرژی"
+    },
+    {
+     "word": "water company",
+     "fa": "شرکت آب"
+    },
+    {
+     "word": "TV licence",
+     "fa": "مجوز تلویزیون"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "I need really",
+      "need I TV licence"
+     ],
+     "echo": "Do I really need a TV licence? Only for live TV or iPlayer.",
+     "better": "Do I really need a TV licence?",
+     "betterFa": "واقعاً مجوز تلویزیون لازم دارم؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "You can switch supplier if your name is on the bill, and you only need a TV licence for live TV or iPlayer. Put all the dates in your phone!",
+   "translations": {
+    "fa": "اگه اسمتون روی قبض باشه می‌تونید شرکت را عوض کنید، و مجوز تلویزیون فقط برای پخش زنده یا iPlayer لازمه. همهٔ تاریخ‌ها را تو گوشی‌تون بنویسید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

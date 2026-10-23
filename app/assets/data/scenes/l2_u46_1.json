@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where",
-      "help",
       "i'll",
+      "help",
       "her"
      ],
      "suggestion": "I'll help. Where are her shoes?",
@@ -90,8 +90,8 @@
      "keywords": [
       "upstairs",
       "look",
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "I'll look upstairs. Nicola, help me!",
      "suggestionFa": "من طبقهٔ بالا را می‌گردم. نیکولا، کمکم کن!",
@@ -170,7 +170,7 @@
       "where's",
       "bottle",
       "water",
-      "her"
+      "bag"
      ],
      "suggestion": "Book bag, yes. Where's her water bottle?",
      "suggestionFa": "کیف کتاب، آره. بطری آبش کجاست؟",
@@ -288,9 +288,9 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "problem",
-      "walk",
+      "o'clock",
+      "i'll",
       "nine"
      ],
      "suggestion": "No problem. Nine o'clock. I'll walk with him.",
@@ -341,8 +341,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "luck",
+      "good",
       "bye"
      ],
      "suggestion": "Bye! Good luck!",
@@ -353,10 +353,10 @@
     },
     {
      "keywords": [
-      "still",
       "lunch",
-      "wait",
-      "here"
+      "still",
+      "here",
+      "wait"
      ],
      "suggestion": "Wait — her lunch box! It's still here!",
      "suggestionFa": "صبر کن — ظرف ناهارش! هنوز اینجاست!",

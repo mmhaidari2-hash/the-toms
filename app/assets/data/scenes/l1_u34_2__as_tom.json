@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. Where's the bus stop?",
    "translations": {
     "fa": "نه. ایستگاه اتوبوس کجاست؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "opposite",
-      "church",
       "that's",
+      "church",
       "stop",
       "one"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Opposite the church. OK.",
    "translations": {
     "fa": "روبروی کلیسا. باشه."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I know it! Behind the church is the park.",
    "translations": {
     "fa": "بلدمش! پشت کلیسا پارکه."
@@ -98,8 +98,8 @@
      "keywords": [
       "minutes",
       "letter",
-      "stop",
       "look",
+      "stop",
       "two"
      ],
      "suggestion": "Two minutes. Look for the stop letter. It's stop M.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a stop letter?",
    "translations": {
     "fa": "حرف ایستگاه چیه؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "other",
+      "there",
       "which",
       "stops",
-      "there"
+      "other"
      ],
      "suggestion": "There are lots of stops near each other. The letter helps. Which bus do you need?",
      "suggestionFa": "کلی ایستگاه نزدیک هم هست. حرفه کمک می‌کنه. کدوم اتوبوس لازمته؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The 38. Your bus!",
    "translations": {
     "fa": "۳۸. اتوبوس خودت!"
@@ -149,8 +149,8 @@
       "seven",
       "stops",
       "angel",
-      "off",
-      "bus"
+      "bus",
+      "get"
      ],
      "suggestion": "My bus! The 38. Get off at the Angel. Seven stops.",
      "suggestionFa": "اتوبوس خودم! ۳۸. ایستگاه انجل پیاده شو. هفت ایستگاه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven stops. Will you be driving?",
    "translations": {
     "fa": "هفت ایستگاه. تو رانندگی می‌کنی؟"
@@ -174,8 +174,8 @@
       "there's",
       "inside",
       "screen",
-      "shows",
-      "voice"
+      "voice",
+      "shows"
      ],
      "suggestion": "There's a screen inside. It shows the next stop. And a voice says it.",
      "suggestionFa": "داخلش یه صفحه هست. ایستگاه بعدی را نشون میده. یه صدا هم میگه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then I press the red button.",
    "translations": {
     "fa": "بعد دکمهٔ قرمز را فشار میدم."
@@ -199,8 +199,8 @@
       "announcer",
       "tomorrow",
       "exactly",
-      "voice",
-      "early"
+      "shift",
+      "voice"
      ],
      "suggestion": "Exactly! And I'm on the early shift tomorrow. If you see me, wave. I'll do my best announcer voice!",
      "suggestionFa": "دقیقاً! و فردا شیفت صبحم. اگه منو دیدی دست تکون بده. بهترین صدای گوینده‌م را درمیارم!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

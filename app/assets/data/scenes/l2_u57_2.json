@@ -20,8 +20,8 @@
     {
      "keywords": [
       "starving",
-      "exactly",
       "starter",
+      "exactly",
       "what's"
      ],
      "suggestion": "I'm starving too. What's a starter, exactly?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "let's",
-      "look",
-      "menu"
+      "menu",
+      "look"
      ],
      "suggestion": "Yes! Let's look at the menu.",
      "suggestionFa": "آره! بیا منو را ببینیم.",
@@ -84,7 +84,7 @@
       "yoghurt",
       "before",
       "salad",
-      "have"
+      "iran"
      ],
      "suggestion": "In Iran we have salad and yoghurt before the meal.",
      "suggestionFa": "تو ایران قبل از غذا سالاد و ماست داریم.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "share",
       "let's",
-      "both",
-      "good"
+      "share",
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. Let's share both.",
      "suggestionFa": "فکر خوبیه. هر دو را شریک بشیم.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "what's",
-      "today",
       "hello",
+      "today",
       "good"
      ],
      "suggestion": "Hello, Sophie! What's good today?",
@@ -225,7 +225,7 @@
       "burrata",
       "please",
       "start",
-      "have"
+      "i'll"
      ],
      "suggestion": "To start, I'll have the burrata, please.",
      "suggestionFa": "برای شروع، بوراتا می‌خورم، لطفاً.",
@@ -335,9 +335,9 @@
     {
      "keywords": [
       "shall",
-      "some",
-      "poor",
-      "home"
+      "take",
+      "home",
+      "some"
      ],
      "suggestion": "Poor Tom! Shall we take him some home?",
      "suggestionFa": "تام بیچاره! براش یه کم ببریم خونه؟",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "retail",
       "right",
       "done",
-      "flat"
+      "room"
      ],
      "suggestion": "Right. Retail park: done. One wardrobe, flat-pack, for your room. Now the hard part. Will it fit in the car?",
      "suggestionFa": "خب. مرکز خرید: تموم. یه کمد لباس، جعبه‌ای، برای اتاقت. حالا بخش سخت. تو ماشین جا میشه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. The box is very long!",
    "translations": {
     "fa": "نمی‌دونم. جعبه خیلی درازه!"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "thinking",
-      "three",
       "seats",
+      "three",
       "heavy",
-      "give"
+      "down"
      ],
      "suggestion": "Good thinking. Seats down. Now — it's heavy. Can you give me a hand? You take that end. On three. One, two, three!",
      "suggestionFa": "فکر خوبیه. صندلی‌ها خوابید. حالا — سنگینه. کمکم می‌کنی؟ تو اون سر را بگیر. با سه. یک، دو، سه!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ugh! It's too heavy!",
    "translations": {
     "fa": "اوف! خیلی سنگینه!"
@@ -73,9 +73,9 @@
      "keywords": [
       "though",
       "back's",
-      "years",
-      "close",
-      "won't"
+      "won't",
+      "knees",
+      "forty"
      ],
      "suggestion": "Bend your knees, not your back! My back's forty-two years old. It's in. Just. The boot won't close, though.",
      "suggestionFa": "زانوهات را خم کن، نه کمرت را! کمر من چهل و دو سالشه. رفت تو. به‌زور. ولی درِ صندوق بسته نمیشه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What can we do? Do we have a rope?",
    "translations": {
     "fa": "چی کار کنیم؟ طناب داریم؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "professional",
       "delivery's",
+      "pounds",
       "maggie",
-      "slowly",
-      "pounds"
+      "slowly"
      ],
      "suggestion": "Delivery's forty pounds. I've got a bungee cord. Very professional. We'll drive slowly. Like Nana Maggie.",
      "suggestionFa": "تحویل چهل پونده. من کش بار دارم. خیلی حرفه‌ای. آروم رانندگی می‌کنیم. مثل ننه مگی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it legal? With the boot open?",
    "translations": {
     "fa": "قانونیه؟ با درِ صندوق باز؟"
@@ -124,8 +124,8 @@
       "instructions",
       "nightmare",
       "doesn't",
-      "right",
-      "stick"
+      "stick",
+      "right"
      ],
      "suggestion": "It's fine if it's tied down and doesn't stick out too far. Right — home! Then the real nightmare: the instructions.",
      "suggestionFa": "اگه محکم بسته باشه و زیاد بیرون نزنه مشکلی نیست. خب — خونه! بعد کابوس واقعی: دستورالعمل.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why are the instructions a nightmare?",
    "translations": {
     "fa": "چرا دستورالعمل کابوسه؟"
@@ -150,7 +150,7 @@
       "missing",
       "smiling",
       "hundred",
-      "little"
+      "always"
      ],
      "suggestion": "No words. Only pictures. A little smiling man. Two hundred screws. And one is always missing. Always.",
      "suggestionFa": "بدون کلمه. فقط عکس. یه آدمک کوچیکِ خندون. دویست تا پیچ. و همیشه یکی کمه. همیشه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We can do it together. Step by step.",
    "translations": {
     "fa": "با هم می‌تونیم. قدم به قدم."
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "useless",
+      "there's",
       "screws",
-      "pizza",
+      "allen",
       "drill"
      ],
      "suggestion": "There's an Allen key in the box. Tiny. Useless. But I've got a drill. Ryan can help — he's good with screws. And pizza.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pizza and building? Good plan.",
    "translations": {
     "fa": "پیتزا و ساختن؟ برنامهٔ خوبیه."
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "crash",
       "don't",
-      "kind",
-      "back",
+      "crash",
+      "just",
+      "nice",
       "hear"
      ],
      "suggestion": "Kind? I just want my car back. Belt on. Off we go, nice and slow — and if you hear a crash, don't look back!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

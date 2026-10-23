@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "hello",
       "don't",
-      "know",
-      "song"
+      "hello",
+      "song",
+      "know"
      ],
      "suggestion": "I don't know the hello song yet.",
      "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "daddy",
-      "after",
       "oscar",
-      "come"
+      "after",
+      "will"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",

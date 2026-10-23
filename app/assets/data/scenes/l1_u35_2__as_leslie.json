@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "something",
-      "pasghetti",
       "breakfast",
+      "pasghetti",
+      "something",
       "william",
       "called"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! I was there. He said it!",
    "translations": {
     "fa": "ها! من اونجا بودم. گفتش!"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "yesterday",
+      "minutes",
       "laughed",
       "william",
-      "minutes",
       "bunny"
      ],
      "suggestion": "Tom laughed for ten minutes. And yesterday William said the bus was \"a big red bunny\"!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A bunny? Not a bus?",
    "translations": {
     "fa": "خرگوش؟ نه اتوبوس؟"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A bunny bus! Brilliant!",
    "translations": {
     "fa": "اتوبوس خرگوشی! عالی!"
@@ -124,9 +124,9 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
-      "aminal",
       "animal",
+      "aminal",
+      "nicola",
       "three",
       "when"
      ],
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so sweet!",
    "translations": {
     "fa": "خیلی شیرینه!"
@@ -150,12 +150,12 @@
     {
      "keywords": [
       "called",
-      "shoos",
+      "shoes",
+      "don't",
       "until",
-      "about",
-      "don't"
+      "about"
      ],
-     "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, Mehdi?",
+     "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, {you}?",
      "suggestionFa": "رایان تا چهار سالگی به کفشاش می‌گفت «شوشو»! بهش نگی بهت گفتم. تو چی {you}؟",
      "trustDelta": 5,
      "next": "r7",
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know. I was very small!",
    "translations": {
     "fa": "نمی‌دونم. خیلی کوچیک بودم!"
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! He knows they're funny!",
    "translations": {
     "fa": "ها! می‌دونه بامزه‌ان!"
@@ -227,9 +227,9 @@
      "keywords": [
       "properly",
       "before",
-      "right",
       "write",
-      "let's"
+      "let's",
+      "right"
      ],
      "suggestion": "He does! Right, let's write them in his book before he says them properly.",
      "suggestionFa": "می‌دونه! خب، بیا قبل از اینکه درست بگه، تو دفترش بنویسیمشون.",
@@ -242,7 +242,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

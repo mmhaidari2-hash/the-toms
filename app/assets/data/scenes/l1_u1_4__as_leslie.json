@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "please",
-      "thank",
       "house",
-      "pass",
-      "milk"
+      "thank",
+      "milk",
+      "pass"
      ],
      "suggestion": "In this house we say please and thank you. Can you pass the milk, please?",
      "suggestionFa": "توی این خونه لطفاً و ممنون می‌گیم. می‌شه شیر را بدی، لطفاً؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are.",
    "translations": {
     "fa": "بفرمایید."
@@ -49,8 +49,8 @@
       "thank",
       "love",
       "want",
-      "ask",
-      "now"
+      "now",
+      "ask"
      ],
      "suggestion": "Thank you, love. Now you ask me. What do you want?",
      "suggestionFa": "ممنون عزیزم. حالا تو از من بخواه. چی می‌خوای؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I have the bread, please?",
    "translations": {
     "fa": "می‌شه نان را داشته باشم، لطفاً؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's OK, no problem.",
    "translations": {
     "fa": "اشکالی نداره، مشکلی نیست."
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nicola, say please!",
    "translations": {
     "fa": "نیکولا، بگو لطفاً!"
@@ -200,7 +200,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good girl! You're welcome.",
    "translations": {
     "fa": "آفرین دختر خوب! خواهش می‌کنم."
@@ -208,10 +208,10 @@
    "branches": [
     {
      "keywords": [
-      "past",
       "need",
-      "say",
+      "past",
       "now",
+      "say",
       "get"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Excuse me, can I get past?",
    "translations": {
     "fa": "ببخشید، می‌شه رد شم؟"
@@ -233,8 +233,8 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "someone",
+      "perfect",
       "don't",
       "hear",
       "if"
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry?",
    "translations": {
     "fa": "ببخشید؟ (چی گفتی؟)"
@@ -303,7 +303,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheers means thank you, right?",
    "translations": {
     "fa": "cheers یعنی ممنون، درسته؟"
@@ -311,11 +311,11 @@
    "branches": [
     {
      "keywords": [
-      "learner",
       "exactly",
-      "cheers",
+      "learner",
       "thanks",
-      "quick"
+      "cheers",
+      "thank"
      ],
      "suggestion": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",
      "suggestionFa": "دقیقاً. cheers، ta، thanks — همه یعنی ممنون. تو سریع یاد می‌گیری!",
@@ -328,7 +328,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

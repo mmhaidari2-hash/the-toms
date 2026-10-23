@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,7 +23,7 @@
      "keywords": [
       "everyone",
       "minutes",
-      "right",
+      "coats",
       "shoes",
       "leave"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm ready!",
    "translations": {
     "fa": "من آماده‌ام!"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "nicola",
+      "please",
       "cold",
-      "help",
-      "coat"
+      "coat",
+      "help"
      ],
      "suggestion": "Can you help Nicola? Put her coat on, please. Zip it up — it's cold.",
      "suggestionFa": "به نیکولا کمک می‌کنی؟ لطفاً کتش را تنش کن. زیپش را بکش — سرده.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Arms in, Nicola. There!",
    "translations": {
     "fa": "دست‌ها تو، نیکولا. ایناهاش!"
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Look in your coat pocket.",
    "translations": {
     "fa": "توی جیب کتت را نگاه کن."
@@ -130,8 +130,8 @@
      "keywords": [
       "brilliant",
       "forget",
-      "lunch",
       "don't",
+      "lunch",
       "ryan"
      ],
      "suggestion": "Brilliant. Ryan! Don't forget your PE kit! And don't forget your lunch!",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan! Your mum's calling you!",
    "translations": {
     "fa": "رایان! مامانت صدات می‌کنه!"
@@ -208,7 +208,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, here's your lunch box.",
    "translations": {
     "fa": "رایان، بفرما ظرف ناهارت."
@@ -219,8 +219,8 @@
       "william",
       "don't",
       "down",
-      "put",
-      "got"
+      "got",
+      "has"
      ],
      "suggestion": "William, don't eat that! Put it down! What has he got?",
      "suggestionFa": "ویلیام، اونو نخور! بذارش زمین! چی دستشه؟",
@@ -233,7 +233,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a crayon! Give it to me, William.",
    "translations": {
     "fa": "مداد شمعیه! بدش به من ویلیام."
@@ -243,9 +243,9 @@
      "keywords": [
       "behind",
       "check",
-      "close",
       "let's",
-      "phew"
+      "close",
+      "bags"
      ],
      "suggestion": "Phew. OK — bags? Check. Keys? Check. Let's go! Close the door behind you!",
      "suggestionFa": "آخیش. خب — کیف‌ها؟ هست. کلیدها؟ هست. بریم! در را پشت سرت ببند!",
@@ -258,7 +258,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Door closed. Let's go!",
    "translations": {
     "fa": "در بسته شد. بریم!"
@@ -270,7 +270,7 @@
       "morning",
       "thanks",
       "every",
-      "help"
+      "love"
      ],
      "suggestion": "Good thinking. Every morning is like this! Thanks for your help, love.",
      "suggestionFa": "فکر خوبیه. هر صبح همینطوره! ممنون از کمکت عزیزم.",
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

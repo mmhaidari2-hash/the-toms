@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just try one, Nicola.",
    "translations": {
     "fa": "فقط یکی امتحان کن نیکولا."
@@ -77,7 +77,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fair. One sprout!",
    "translations": {
     "fa": "منصفانه‌ست. یه دونه!"
@@ -129,7 +129,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me guess. Ice cream?",
    "translations": {
     "fa": "بذار حدس بزنم. بستنی؟"
@@ -138,12 +138,12 @@
     {
      "keywords": [
       "custard",
-      "crumble",
       "sprouts",
+      "crumble",
       "sprout",
       "apple"
      ],
-     "suggestion": "Apple crumble and custard! Now, one sprout. What do you like, Mehdi? Do you like sprouts?",
+     "suggestion": "Apple crumble and custard! Now, one sprout. What do you like, {you}? Do you like sprouts?",
      "suggestionFa": "کرامبل سیب با کاستارد! حالا، یه دونه. تو چی دوست داری {you}؟ کلم بروکسل دوست داری؟",
      "trustDelta": 5,
      "next": "r6",
@@ -154,7 +154,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like them with butter.",
    "translations": {
     "fa": "با کره دوستشون دارم."
@@ -176,7 +176,7 @@
   "r7": {
    "id": "r7",
    "speaker": "nicola",
-   "text": "See! Mehdi doesn't like them either. Can I give mine to Daddy?",
+   "text": "See! {you} doesn't like them either. Can I give mine to Daddy?",
    "translations": {
     "fa": "دیدی! {you} هم دوستشون نداره. می‌شه مال منو بدم بابا؟"
    },
@@ -206,7 +206,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nice try, Nicola!",
    "translations": {
     "fa": "تلاش خوبی بود نیکولا!"
@@ -214,11 +214,11 @@
    "branches": [
     {
      "keywords": [
-      "gravy",
       "let's",
+      "gravy",
       "make",
-      "deal",
-      "half"
+      "half",
+      "deal"
      ],
      "suggestion": "OK, let's make a deal. Cut it in half. Eat half with gravy.",
      "suggestionFa": "خب، بیا یه قرار بذاریم. نصفش کن. نصفش را با سس گوشت بخور.",
@@ -231,7 +231,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Half is easy, Nicola!",
    "translations": {
     "fa": "نصفش آسونه نیکولا!"
@@ -283,7 +283,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Nicola!",
    "translations": {
     "fa": "آفرین نیکولا!"
@@ -297,7 +297,7 @@
       "have",
       "now"
      ],
-     "suggestion": "Brilliant! Now you can have crumble. What do you think of crumble, Mehdi?",
+     "suggestion": "Brilliant! Now you can have crumble. What do you think of crumble, {you}?",
      "suggestionFa": "عالی! حالا می‌تونی کرامبل بخوری. نظرت دربارهٔ کرامبل چیه {you}؟",
      "trustDelta": 5,
      "next": "r12",
@@ -308,7 +308,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love it! It's delicious.",
    "translations": {
     "fa": "عاشقشم! خوشمزه‌ست."

@@ -94,7 +94,7 @@ nicola: Cubs! Can we give them a name? The big one is Ginger. The little one is 
 > Ginger and Biscuit. And the third one? | زنجبیل و بیسکویت. و سومی؟
 > Lovely names! Let's tell Mummy. | اسم‌های قشنگیه! بیا به مامانی بگیم.
 W: name=اسم ; ginger=زنجبیلی ؛ نارنجی ; third=سومی
-nicola: The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back? | سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟
+nicola: The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back? | سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟
 > Maybe tonight. Foxes come out at night. | شاید امشب. روباه‌ها شب‌ها میان بیرون.
 > I'm a fox now? Ha! Thank you! | من الان روباهم؟ ها! ممنون!
 W: clever=زرنگ ؛ باهوش ; ran away=فرار کردند ; come out=بیرون آمدن ; at night=شب‌ها

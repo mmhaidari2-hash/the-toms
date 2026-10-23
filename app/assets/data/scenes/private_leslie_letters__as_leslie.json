@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "nineteen",
       "letters",
       "summer",
-      "these",
-      "don't"
+      "don't",
+      "every"
      ],
      "suggestion": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
      "suggestionFa": "اینا نامه‌های تامه از وقتی نوزده سالمون بود. یه تابستون هر روز یکی نوشت. بهش نگی نگهشون داشتم!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so sweet — your secret's safe with me.",
    "translations": {
     "fa": "خیلی شیرینه — رازت پیش من محفوظه."
@@ -49,8 +49,8 @@
       "saturdays",
       "skegness",
       "driving",
-      "holiday",
-      "working"
+      "working",
+      "holiday"
      ],
      "suggestion": "I was working at a holiday camp in Skegness. He was stuck in London, driving his dad's bus routes on Saturdays.",
      "suggestionFa": "تو یه اردوگاه تعطیلات تو اسکگنس کار می‌کردم. اون تو لندن گیر بود، شنبه‌ها مسیرهای اتوبوس باباش را می‌روند.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A holiday camp? That sounds fun.",
    "translations": {
     "fa": "اردوگاه تعطیلات؟ باحال به نظر میاد."
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "seafront",
-      "mobiles",
       "exactly",
       "letters",
+      "mobiles",
       "enough"
      ],
      "suggestion": "Exactly. No mobiles then — just letters and the phone box on the seafront, if I had enough coins.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can't imagine life without a phone!",
    "translations": {
     "fa": "زندگی بدون گوشی را تصور هم نمی‌تونم!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's Tom all over — romantic and practical!",
    "translations": {
     "fa": "این دقیقاً تامه — رمانتیک و عملی!"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's the thought that counts.",
    "translations": {
     "fa": "نیت مهمه."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"More than tea\" — that's true love in Britain!",
    "translations": {
     "fa": "«بیشتر از چای» — این عشق واقعی تو بریتانیاست!"
@@ -175,7 +175,7 @@
       "letters",
       "anyone",
       "thirty",
-      "years"
+      "write"
      ],
      "suggestion": "Every anniversary. Thirty years this June. Do you write letters to anyone back home?",
      "suggestionFa": "هر سالگرد. این ژوئن سی سال میشه. به کسی تو کشورت نامه می‌نویسی؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not letters, but I send voice notes to my mum every day.",
    "translations": {
     "fa": "نامه نه، ولی هر روز به مامانم پیام صوتی می‌فرستم."
@@ -199,8 +199,8 @@
       "suppose",
       "letters",
       "you'll",
-      "voice",
-      "notes"
+      "notes",
+      "voice"
      ],
      "suggestion": "Voice notes are the new letters, I suppose. Keep them — one day you'll be glad you did.",
      "suggestionFa": "پیام صوتی همون نامهٔ جدیده، فکر کنم. نگهشون دار — یه روز خوشحال میشی که نگه داشتی.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I will. Thank you for sharing these with me.",
    "translations": {
     "fa": "حتماً. ممنون که اینا را با من در میون گذاشتی."
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "attic",
-      "right",
-      "fancy",
       "cuppa",
-      "word"
+      "fancy",
+      "right",
+      "attic",
+      "than"
      ],
      "suggestion": "Right — box back in the attic, not a word to Tom. Fancy a cuppa? More than tea, eh?",
      "suggestionFa": "خب — جعبه برگرده تو انباری، یه کلمه به تام نه. یه چای می‌چسبه؟ بیشتر از چای، ها؟",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

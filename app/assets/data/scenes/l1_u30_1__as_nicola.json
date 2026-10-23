@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! What do we need?",
    "translations": {
     "fa": "البته! چی لازم داریم؟"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cupboard",
-      "plates",
-      "knives",
       "spoons",
-      "can't"
+      "knives",
+      "plates",
+      "reach"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll get the plates for you.",
    "translations": {
     "fa": "من بشقاب‌ها را برات میارم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
+      "daddy",
       "thank",
       "mummy",
-      "daddy",
-      "ryan"
+      "many"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's six plates.",
    "translations": {
     "fa": "میشه شش تا بشقاب."
@@ -99,7 +99,7 @@
       "special",
       "william",
       "mummy",
-      "goes",
+      "duck",
       "bowl"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where does the fork go?",
    "translations": {
     "fa": "چنگال کجا میره؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "taught",
+      "ellis",
       "knife",
       "right",
-      "ellis",
-      "goes"
+      "left"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
      "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Mrs Ellis!",
    "translations": {
     "fa": "آفرین به خانم الیس!"
@@ -150,7 +150,7 @@
       "water",
       "heavy",
       "pour",
-      "jug"
+      "now"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'll pour the water.",
    "translations": {
     "fa": "آره، من آب می‌ریزم."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're beautiful triangles!",
    "translations": {
     "fa": "مثلث‌های قشنگی‌ان!"
@@ -200,7 +200,7 @@
       "table's",
       "mummy",
       "ready",
-      "time"
+      "down"
      ],
      "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
      "suggestionFa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

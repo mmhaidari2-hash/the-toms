@@ -1,0 +1,243 @@
+{
+ "id": "est_5_2",
+ "characterId": "graham",
+ "title": "Making an offer",
+ "titleFa": "پیشنهاد خرید دادن",
+ "setting": "Buying a home · Level 0",
+ "settingFa": "خرید خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "The sellers have had your viewing feedback. The asking price is two hundred and ten thousand. Would you like to make an offer?",
+   "translations": {
+    "fa": "فروشنده‌ها بازخورد بازدیدتون را گرفتن. قیمت درخواستی دویست و ده هزاره. دوست دارید پیشنهاد بدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accept",
+      "would",
+      "they"
+     ],
+     "suggestion": "Yes. Would they accept two hundred thousand?",
+     "suggestionFa": "بله. دویست هزار را قبول می‌کنن؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prepared",
+      "offer"
+     ],
+     "suggestion": "I'm prepared to offer two hundred and two thousand.",
+     "suggestionFa": "حاضرم دویست و دو هزار پیشنهاد بدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sellers",
+     "fa": "فروشنده‌ها"
+    },
+    {
+     "word": "asking price",
+     "fa": "قیمت درخواستی"
+    },
+    {
+     "word": "make an offer",
+     "fa": "پیشنهاد دادن"
+    },
+    {
+     "word": "prepared to",
+     "fa": "حاضرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you buy, offers below the asking price are normal. (The ban on offers above the asking price is only for renting.)",
+    "fa": "در خرید، پیشنهاد کمتر از قیمت درخواستی عادی است؛ ممنوعیت پیشنهاد بالاتر فقط برای اجاره است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "I'll put that to them. They'll want to know your position. Are you a first-time buyer, and do you have a mortgage in principle?",
+   "translations": {
+    "fa": "به‌شون می‌گم. می‌خوان بدونن موقعیت‌تون چیه. اولین بارتونه خونه می‌خرید، و تأییدیهٔ اولیهٔ وام دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "first",
+      "buyer",
+      "time"
+     ],
+     "suggestion": "Yes, I'm a first-time buyer with nothing to sell.",
+     "suggestionFa": "بله، خریدار بار اولم و چیزی برای فروش ندارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "principle",
+      "mortgage",
+      "here's"
+     ],
+     "suggestion": "Yes, here's my mortgage in principle.",
+     "suggestionFa": "بله، این تأییدیهٔ اولیهٔ وامم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "position",
+     "fa": "موقعیت ؛ وضعیت"
+    },
+    {
+     "word": "first-time buyer",
+     "fa": "خریدار بار اول"
+    },
+    {
+     "word": "nothing to sell",
+     "fa": "چیزی برای فروش نداشتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "That's a strong position — no chain. Good news: they've come back at two hundred and five. Can you meet them there?",
+   "translations": {
+    "fa": "موقعیت قویه — زنجیره‌ای در کار نیست. خبر خوب: با دویست و پنج جواب دادن. می‌تونید روی اون توافق کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accept",
+      "fine",
+      "five"
+     ],
+     "suggestion": "Two hundred and five is fine. I accept.",
+     "suggestionFa": "دویست و پنج خوبه. قبول می‌کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "middle",
+      "three",
+      "could",
+      "meet"
+     ],
+     "suggestion": "Could we meet in the middle at two hundred and three?",
+     "suggestionFa": "می‌شه وسطش، دویست و سه، توافق کنیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chain",
+     "fa": "زنجیرهٔ خرید و فروش"
+    },
+    {
+     "word": "come back at",
+     "fa": "با … جواب دادن"
+    },
+    {
+     "word": "meet in the middle",
+     "fa": "وسطش توافق کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"chain\" is when your purchase depends on other sales. With no chain, buying is usually faster.",
+    "fa": "«زنجیره» یعنی خرید تو به فروش‌های دیگر وابسته است؛ بدون زنجیره سریع‌تر است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "we meet middle",
+      "meet at middle"
+     ],
+     "echo": "Could we meet in the middle? Let me ask them.",
+     "better": "Could we meet in the middle at two hundred and three?",
+     "betterFa": "می‌شه وسطش توافق کنیم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "Let's say it's agreed. Remember, in England nothing is legally binding until you exchange contracts, so it's \"subject to contract\" for now.",
+   "translations": {
+    "fa": "فرض کنیم توافق شد. یادتون باشه، تو انگلستان تا وقتی قراردادها مبادله نشه هیچی الزام‌آور نیست، پس فعلاً «منوط به قرارداد»ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "higher",
+      "seller",
+      "accept",
+      "still"
+     ],
+     "suggestion": "So the seller could still accept a higher offer?",
+     "suggestionFa": "یعنی فروشنده هنوز می‌تونه پیشنهاد بالاتر قبول کنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "next"
+     ],
+     "suggestion": "What should I do next?",
+     "suggestionFa": "قدم بعدی چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "legally binding",
+     "fa": "الزام‌آور قانونی"
+    },
+    {
+     "word": "exchange contracts",
+     "fa": "مبادلهٔ قراردادها"
+    },
+    {
+     "word": "subject to contract",
+     "fa": "منوط به قرارداد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Before exchange, the seller can still accept a higher offer — this is called \"gazumping\". It's legal in England, so move quickly.",
+    "fa": "پیش از مبادلهٔ قرارداد، فروشنده می‌تواند پیشنهاد بالاتر بپذیرد («گازامپینگ»)؛ در انگلستان قانونی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "Sadly, yes — that's called gazumping. So the next step is to instruct a solicitor quickly and ask us to take the flat off the market.",
+   "translations": {
+    "fa": "متأسفانه بله — بهش می‌گن گازامپینگ. پس قدم بعدی اینه که سریع یه وکیل بگیرید و ازمون بخواید آپارتمان را از بازار برداریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -2247,7 +2247,7 @@
 "en": null,
 "kind": "text"
 },
-"[،,]\\s*(\\{you\\}|مهدی)": {
+"[،,]\\s*(\\{you\\}|{you})": {
 "en": null,
 "kind": "text"
 },
@@ -20363,8 +20363,8 @@
 "en": "this cashpoint charges one ninety-nine! No way.",
 "kind": "text"
 },
-"این خونهٔ ماست. در قرمز. پنجرهٔ مهدی!": {
-"en": "That's our house. Red door. Mehdi's window!",
+"این خونهٔ ماست. در قرمز. پنجرهٔ {you}!": {
+"en": "That's our house. Red door. {you}'s window!",
 "kind": "text"
 },
 "این خیلی برام ارزش داره رفیق. واقعاً.": {
@@ -30851,12 +30851,12 @@
 "en": null,
 "kind": "text"
 },
-"بله، مهدی‌ام. خیلی ببخشید": {
-"en": "Yes, it's Mehdi. I'm so sorry",
+"بله، {you}‌ام. خیلی ببخشید": {
+"en": "Yes, it's {you}. I'm so sorry",
 "kind": "text"
 },
-"بله، مهدی‌ام. خیلی ببخشید — دارم دیر می‌کنم.": {
-"en": "Yes, it's Mehdi. I'm so sorry — I'm running late.",
+"بله، {you}‌ام. خیلی ببخشید — دارم دیر می‌کنم.": {
+"en": "Yes, it's {you}. I'm so sorry — I'm running late.",
 "kind": "text"
 },
 "بله، می‌خوام ثبت‌نام کنم. آنلاین خوبه.": {
@@ -45899,8 +45899,8 @@
 "en": "Mrs Khan says \"Coming now!!!\" Three exclamation marks!",
 "kind": "text"
 },
-"خانم خان همین الان نوشته: «به گروه خوش اومدی مهدی!!»": {
-"en": "Mrs Khan's already typed: \"Welcome to the group, Mehdi!!\"",
+"خانم خان همین الان نوشته: «به گروه خوش اومدی {you}!!»": {
+"en": "Mrs Khan's already typed: \"Welcome to the group, {you}!!\"",
 "kind": "text"
 },
 "خانم خان کنار ما زندگی می‌کند.": {
@@ -55743,8 +55743,8 @@
 "en": "NHS dentists usually see patients every 6–24 months. Many practices send a reminder letter or text when a check-up is due.",
 "kind": "text"
 },
-"دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید مهدی؟": {
-"en": "Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, Mehdi?",
+"دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید {you}؟": {
+"en": "Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, {you}?",
 "kind": "text"
 },
 "دندان‌پزشکی اسمایل، هیوز. اوه، باز سلام! دربارهٔ وقت سه‌شنبهٔ رایانه؟": {
@@ -56647,8 +56647,8 @@
 "en": "Try again, Tom!",
 "kind": "text"
 },
-"دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ مهدی سلام کن!": {
-"en": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to Mehdi's mummy!",
+"دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ {you} سلام کن!": {
+"en": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to {you}'s mummy!",
 "kind": "text"
 },
 "دوباره اومدی! صفحه هنوز خوبه؟ خوبه. پس این دفعه گوشی جدید می‌خوای. برای مامانت تو تهران؟": {
@@ -66375,8 +66375,8 @@
 "en": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
 "kind": "text"
 },
-"سلام، مهدی هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!": {
-"en": "Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry!",
+"سلام، {you} هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!": {
+"en": "Hello, it's {you}. I'm afraid I can't make Monday at ten past four. Sorry!",
 "kind": "text"
 },
 "سلام، مگی! سلام، ویلیام! کجا می‌روید؟": {
@@ -67407,12 +67407,12 @@
 "en": "third",
 "kind": "word"
 },
-"سومی مهدیه! چون زرنگه. وای نه": {
-"en": "The third one is Mehdi! Because it's clever. Oh no",
+"سومی {you}ه! چون زرنگه. وای نه": {
+"en": "The third one is {you}! Because it's clever. Oh no",
 "kind": "text"
 },
-"سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟": {
-"en": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
+"سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟": {
+"en": "The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back?",
 "kind": "text"
 },
 "سومین بار! ببخشید خانم الیس.": {
@@ -71287,8 +71287,8 @@
 "en": "Morning, Jade. How are you so happy at six?",
 "kind": "text"
 },
-"صبح بخیر خانم بل! این مهدیه. با ما زندگی می‌کنه. از ایرانه!": {
-"en": "Good morning, Mrs Bell! This is Mehdi. He lives with us. He's from Iran!",
+"صبح بخیر خانم بل! این {you}ه. با ما زندگی می‌کنه. از ایرانه!": {
+"en": "Good morning, Mrs Bell! This is {you}. He lives with us. He's from Iran!",
 "kind": "text"
 },
 "صبح بخیر خانم بل. از آشنایی‌تون خوشبختم.": {
@@ -91287,11 +91287,11 @@
 "en": "Vida's nursery gets the phone call every manager dreads: the inspectors arrive tomorrow.",
 "kind": "text"
 },
-"مهدی": {
+"{you}": {
 "en": "{you}",
 "kind": "text"
 },
-"مهدی)": {
+"{you})": {
 "en": "(\\{you\\}",
 "kind": "text"
 },
@@ -103819,8 +103819,8 @@
 "en": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look",
 "kind": "text"
 },
-"همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی مهدی!!»": {
-"en": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, Mehdi!!\"",
+"همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی {you}!!»": {
+"en": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, {you}!!\"",
 "kind": "text"
 },
 "همه‌چیز": {
@@ -110891,8 +110891,8 @@
 "en": "On the phone, English speakers say \"It's Tom\" or \"This is Tom\", not \"I am Tom\".",
 "kind": "text"
 },
-"پشت تلفن می‌گویند «Mehdi here» نه «I am Mehdi».": {
-"en": "On the phone Brits say \"Mrs Hughes speaking\" or \"It's Mehdi here\" — not \"I am Mehdi\".",
+"پشت تلفن می‌گویند «{you} here» نه «I am {you}».": {
+"en": "On the phone Brits say \"Mrs Hughes speaking\" or \"It's {you} here\" — not \"I am {you}\".",
 "kind": "text"
 },
 "پشت تلفن وقت بگیری، تغییر دهی و لغو کنی، و وقتی دیر می‌کنی زنگ بزنی": {
@@ -122075,8 +122075,8 @@
 "en": "She said, \"I'll think about it,\" and then changed the subject to the coffee machine.",
 "kind": "text"
 },
-"گفت «خوشحالم از آشنایی مهدی». و بهم یه برچسب داد! برچسب ستاره!": {
-"en": "She said \"Lovely to meet you, Mehdi\". And she gave me a sticker! A star sticker!",
+"گفت «خوشحالم از آشنایی {you}». و بهم یه برچسب داد! برچسب ستاره!": {
+"en": "She said \"Lovely to meet you, {you}\". And she gave me a sticker! A star sticker!",
 "kind": "text"
 },
 "گفت «ممنون پسر.» و لبخند زد.": {

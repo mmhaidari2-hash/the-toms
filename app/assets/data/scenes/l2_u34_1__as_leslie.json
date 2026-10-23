@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What do we need to book?",
    "translations": {
     "fa": "البته. چی باید رزرو کنیم؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "nicola's",
       "meetings",
-      "teacher",
       "minutes",
+      "teacher",
       "ryan's"
      ],
      "suggestion": "It feels like one! Two meetings: Ryan's form tutor, Mr Patel, and Nicola's teacher, Ms Ellis. Each slot lasts five minutes.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only five minutes? That's very short.",
    "translations": {
     "fa": "فقط پنج دقیقه؟ خیلی کوتاهه."
@@ -73,9 +73,9 @@
      "keywords": [
       "thursday",
       "what's",
+      "times",
       "quick",
-      "patel",
-      "times"
+      "first"
      ],
      "suggestion": "Quick! Mr Patel first. What's free on Thursday? Read me the times.",
      "suggestionFa": "سریع! اول آقای پاتل. پنج‌شنبه چه ساعت‌هایی خالیه؟ ساعت‌ها را برام بخون.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There's a slot at six-ten and one at six-forty.",
    "translations": {
     "fa": "یه وقت ساعت شش و ده هست و یکی شش و چهل."
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "classrooms",
-      "minutes",
       "between",
-      "least",
+      "minutes",
+      "ellis",
       "apart"
      ],
      "suggestion": "Six-ten, take it! Now Ms Ellis. We need at least ten minutes between them — the classrooms are far apart.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ms Ellis has six-thirty. Is that OK?",
    "translations": {
     "fa": "خانم الیس شش و نیم داره. خوبه؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "perfect",
-      "online",
-      "person",
       "booked",
-      "thirty"
+      "thirty",
+      "online",
+      "person"
      ],
      "suggestion": "Six-thirty is perfect. Booked! Oh — it asks \"In person or online?\" Tom's on a late shift. Can he join by video?",
      "suggestionFa": "شش و نیم عالیه. رزرو شد! اوه — می‌پرسه «حضوری یا آنلاین؟» تام شیفت دیره. می‌تونه تصویری بیاد؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, choose \"online\" for Tom.",
    "translations": {
     "fa": "آره، برای تام «آنلاین» را انتخاب کن."
@@ -148,9 +148,9 @@
      "keywords": [
       "school",
       "family",
-      "he'll",
+      "phone",
       "watch",
-      "phone"
+      "he'll"
      ],
      "suggestion": "The school says one link per family, so Tom can watch on his phone in the bus depot. He'll love that.",
      "suggestionFa": "مدرسه میگه هر خانواده یه لینک، پس تام می‌تونه تو پارکینگ اتوبوس‌ها رو گوشیش ببینه. عاشقش میشه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Will you come too? I can look after William.",
    "translations": {
     "fa": "تو هم میای؟ من می‌تونم مراقب ویلیام باشم."
@@ -173,9 +173,9 @@
      "keywords": [
       "questions",
       "parents'",
-      "evening",
+      "minutes",
       "teacher",
-      "william"
+      "evening"
      ],
      "suggestion": "Oh, would you? William at parents' evening is chaos. Let's write three questions for each teacher. Five minutes goes fast!",
      "suggestionFa": "وای، این کار را می‌کنی؟ ویلیام تو جلسهٔ اولیا یعنی هرج‌ومرج. بیا برای هر معلم سه تا سؤال بنویسیم. پنج دقیقه زود می‌گذره!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. First question: \"How is he doing?\"",
    "translations": {
     "fa": "فکر خوبیه. سؤال اول: «چطور پیش میره؟»"
@@ -198,9 +198,9 @@
      "keywords": [
       "perfect",
       "parent",
-      "great",
-      "three",
-      "happy"
+      "doing",
+      "happy",
+      "great"
      ],
      "suggestion": "Perfect. \"How is he doing, what can we do at home, and is he happy?\" The three big ones. You'd make a great parent, you know.",
      "suggestionFa": "عالیه. «چطور پیش میره، تو خونه چی کار می‌تونیم بکنیم، و خوشحاله؟» سه تا سؤال اصلی. می‌دونی، تو پدر یا مادر خوبی می‌شدی.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

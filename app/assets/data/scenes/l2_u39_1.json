@@ -78,7 +78,7 @@
       "shirts",
       "upside",
       "right",
-      "down"
+      "pegs"
      ],
      "suggestion": "Two pegs. Shirts upside down or the right way up?",
      "suggestionFa": "دو تا گیره. پیرهن‌ها سروته یا صاف؟",
@@ -88,9 +88,9 @@
     },
     {
      "keywords": [
-      "whose",
       "these",
       "socks",
+      "whose",
       "many"
      ],
      "suggestion": "So many socks! Whose are these?",
@@ -131,8 +131,8 @@
      "keywords": [
       "washing",
       "that's",
-      "times",
-      "three"
+      "three",
+      "times"
      ],
      "suggestion": "Three times a day! That's a lot of washing.",
      "suggestionFa": "روزی سه بار! این کلی لباس شستنه.",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "upside",
-      "like",
       "down",
+      "like",
       "ok"
      ],
      "suggestion": "OK, upside down. Like this?",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "fold",
       "half",
+      "fold",
       "end",
       "ok"
      ],
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "maybe",
       "let's",
-      "wait",
-      "pass"
+      "maybe",
+      "pass",
+      "wait"
      ],
      "suggestion": "Maybe it will pass. Let's wait.",
      "suggestionFa": "شاید رد بشه. بیا صبر کنیم.",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "house",
       "irons",
+      "house",
       "who"
      ],
      "suggestion": "Who irons in this house?",
@@ -434,9 +434,9 @@
     {
      "keywords": [
       "ryan's",
-      "still",
       "socks",
-      "there"
+      "there",
+      "still"
      ],
      "suggestion": "The socks! Ryan's socks are still out there!",
      "suggestionFa": "جوراب‌ها! جوراب‌های رایان هنوز بیرونن!",

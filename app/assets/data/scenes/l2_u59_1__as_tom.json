@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "lemonade",
-      "rovers",
-      "london",
       "lion's",
+      "rovers",
+      "versus",
       "packed"
      ],
      "suggestion": "Local derby! Rovers versus Lea Valley. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. What's the score?",
    "translations": {
     "fa": "آره، لطفاً. نتیجه چنده؟"
@@ -46,13 +46,13 @@
    "branches": [
     {
      "keywords": [
-      "seconds",
-      "texting",
-      "rovers",
       "minutes",
+      "texting",
+      "that's",
+      "mate's",
       "twenty"
      ],
-     "suggestion": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me every thirty seconds.",
+     "suggestion": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me non-stop.",
      "suggestionFa": "صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.",
      "trustDelta": 5,
      "next": "r3",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nil-nil. So it's a draw at the moment?",
    "translations": {
     "fa": "صفر صفر. پس فعلاً مساویه؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "that's",
-      "three",
       "blind",
-      "just",
-      "foul"
+      "three",
+      "foul",
+      "just"
      ],
      "suggestion": "That's just how we say it. Two-nil, three-nil… Oh! OH! That was a foul! Ref! Are you blind?!",
      "suggestionFa": "همین‌جوری میگیم دیگه. دو-صفر، سه-صفر… اوه! اوه! خطا بود! داور! کوری؟!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Was it a foul? He just fell over!",
    "translations": {
     "fa": "خطا بود؟ فقط افتاد!"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "rovers",
+      "okoro's",
       "taking",
-      "saka's",
+      "rovers",
       "right",
-      "edge"
+      "okoro"
      ],
      "suggestion": "Free kick to Rovers! Right on the edge of the box. Okoro's taking it. Come on, Okoro… come on…",
      "suggestionFa": "ضربهٔ آزاد برای روورز! درست لب محوطه. اوکورو می‌زنه. یالا اوکورو… یالا…",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Come on, Rovers!",
    "translations": {
     "fa": "یالا روورز!"
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "jumping",
       "spilled",
+      "jumping",
       "goaaal",
       "dave's",
       "corner"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a goal! Brilliant!",
    "translations": {
     "fa": "چه گلی! فوق‌العاده!"
@@ -150,7 +150,7 @@
       "exclamation",
       "doesn't",
       "orient",
-      "eight"
+      "phone"
      ],
      "suggestion": "Dave? He's Orient, he doesn't care. He just likes a celebration. Oh — my phone. Ryan: \"GET IN!!!!\" Eight exclamation marks.",
      "suggestionFa": "دیو؟ اون طرفدار اورینته، براش مهم نیست. فقط جشن دوست داره. اوه — گوشیم. رایان: «آره!!!!» هشت تا علامت تعجب.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Tell him I said \"Get in\" too!",
    "translations": {
     "fa": "ها! بهش بگو منم گفتم آره!"
@@ -173,9 +173,9 @@
      "keywords": [
       "afternoon",
       "lemonade",
-      "seventy",
+      "minutes",
       "another",
-      "minutes"
+      "seventy"
      ],
      "suggestion": "Seventy minutes! Too long. My heart can't take it. Another lemonade? This could be a long afternoon.",
      "suggestionFa": "هفتاد دقیقه! خیلی زیاده. قلبم طاقت نداره. یه لیموناد دیگه؟ این می‌تونه یه بعدازظهر طولانی بشه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

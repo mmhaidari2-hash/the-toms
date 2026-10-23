@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "set",
       "how",
+      "set",
       "up"
      ],
      "suggestion": "How do I set it up?",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "forget",
-      "month",
       "every",
+      "month",
       "if"
      ],
      "suggestion": "Every month? What if I forget?",
@@ -183,7 +183,7 @@
       "seventy",
       "account",
       "twenty",
-      "forty"
+      "three"
      ],
      "suggestion": "Twenty, forty-five, seventy-seven. Account four one three six…",
      "suggestionFa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "repeat",
       "slowly",
-      "sorry",
-      "could"
+      "repeat",
+      "could",
+      "sorry"
      ],
      "suggestion": "Sorry, could you repeat that slowly?",
      "suggestionFa": "ببخشید، میشه آروم تکرارش کنی؟",
@@ -349,8 +349,8 @@
     {
      "keywords": [
       "envelopes",
-      "done",
-      "more"
+      "more",
+      "done"
      ],
      "suggestion": "Done! No more envelopes.",
      "suggestionFa": "تموم! دیگه پاکت نه.",

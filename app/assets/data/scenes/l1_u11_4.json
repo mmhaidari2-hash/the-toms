@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "nine",
-      "have",
       "work",
+      "have",
+      "nine",
       "but"
      ],
      "suggestion": "No, but I have work at nine.",
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "sleep",
       "maths",
-      "then",
-      "need"
+      "sleep",
+      "need",
+      "then"
      ],
      "suggestion": "A maths test? Then you need sleep!",
      "suggestionFa": "امتحان ریاضی؟ پس خواب لازم داری!",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "off",
-      "set"
+      "set",
+      "off"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "ryan",
-      "sure"
+      "sure",
+      "ryan"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -344,8 +344,8 @@
      "keywords": [
       "nearly",
       "seven",
-      "half",
-      "same"
+      "same",
+      "half"
      ],
      "suggestion": "At half seven. Same as you, nearly.",
      "suggestionFa": "هفت و نیم. تقریباً مثل تو.",
@@ -356,8 +356,8 @@
     {
      "keywords": [
       "early",
-      "i've",
       "long",
+      "i've",
       "day"
      ],
      "suggestion": "Early. I've got a long day.",
@@ -404,9 +404,9 @@
     },
     {
      "keywords": [
-      "test",
       "good",
       "luck",
+      "test",
       "ryan"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",

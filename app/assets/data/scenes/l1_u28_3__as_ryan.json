@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,8 +23,8 @@
      "keywords": [
       "ringing",
       "phone's",
-      "scared",
       "answer",
+      "number",
       "school"
      ],
      "suggestion": "My phone's ringing, but I don't know this number. Can you answer it? I'm scared it's school!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello? Ryan's phone.",
    "translations": {
     "fa": "الو؟ گوشی رایان."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, there's no Mrs Patterson here.",
    "translations": {
     "fa": "ببخشید، اینجا خانم پترسونی نیست."
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's 900465.",
    "translations": {
     "fa": "نه، ۹۰۰۴۶۵ـه."
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem! It happens.",
    "translations": {
     "fa": "مشکلی نیست! پیش میاد."
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheers, bye!",
    "translations": {
     "fa": "ممنون، خداحافظ!"
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it was a delivery driver. Wrong number!",
    "translations": {
     "fa": "نه، یه رانندهٔ پیک بود. اشتباه گرفته بود!"
@@ -279,10 +279,10 @@
     {
      "keywords": [
       "patterson",
-      "scared",
-      "parcel",
       "school",
-      "calls"
+      "parcel",
+      "scared",
+      "lucky"
      ],
      "suggestion": "Ha! Mrs Patterson. Lucky her, a parcel. Why are you scared of school calls? I'm not!",
      "suggestionFa": "ها! خانم پترسون. خوش به حالش، بسته. چرا از تماس مدرسه می‌ترسی؟ من که نمی‌ترسم!",
@@ -295,7 +295,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You said you were scared!",
    "translations": {
     "fa": "خودت گفتی می‌ترسی!"
@@ -306,8 +306,8 @@
       "forgot",
       "answer",
       "school",
-      "don't",
-      "again"
+      "never",
+      "don't"
      ],
      "suggestion": "Me? Never! Well… I forgot my PE kit. Again. Just don't answer if it's school, OK?",
      "suggestionFa": "من؟ هرگز! خب… لباس ورزشم را یادم رفت. دوباره. فقط اگه مدرسه بود جواب نده، باشه؟",
@@ -320,7 +320,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

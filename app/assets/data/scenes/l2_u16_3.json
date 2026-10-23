@@ -68,9 +68,9 @@
     {
      "keywords": [
       "pounds",
-      "how",
+      "get",
       "two",
-      "get"
+      "one"
      ],
      "suggestion": "Two pounds! How do I get one?",
      "suggestionFa": "دو پوند! چطوری یکی بگیرم؟",
@@ -226,9 +226,9 @@
    "branches": [
     {
      "keywords": [
-      "card",
       "done",
       "i've",
+      "card",
       "now"
      ],
      "suggestion": "OK. Done! I've got a card now.",
@@ -241,8 +241,8 @@
      "keywords": [
       "haven't",
       "cat's",
-      "name",
-      "i'll"
+      "i'll",
+      "name"
      ],
      "suggestion": "Ha! I'll use my cat's name. I haven't got a cat.",
      "suggestionFa": "ها! اسم گربه‌ام را می‌ذارم. من گربه ندارم.",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "great",
-      "card",
       "i'll",
+      "card",
       "by"
      ],
      "suggestion": "Great! I'll pay by card.",
@@ -285,9 +285,9 @@
     },
     {
      "keywords": [
-      "that's",
       "hourly",
       "better",
+      "that's",
       "than"
      ],
      "suggestion": "That's better than my hourly pay!",

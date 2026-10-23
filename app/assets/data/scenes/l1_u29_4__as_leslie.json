@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "lovely",
-      "lunch",
       "shall",
+      "lunch",
       "bill",
-      "was"
+      "ask"
      ],
      "suggestion": "That was a lovely lunch. Shall we ask for the bill?",
      "suggestionFa": "ناهار قشنگی بود. صورت‌حساب را بخوایم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Excuse me!",
    "translations": {
     "fa": "آره. ببخشید!"
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was delicious, thank you.",
    "translations": {
     "fa": "خوشمزه بود، ممنون."
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we split it?",
    "translations": {
     "fa": "نصف کنیم؟"
@@ -158,7 +158,7 @@
       "service",
       "sixteen",
       "pounds",
-      "split"
+      "let's"
      ],
      "suggestion": "Let's split it. Sixteen pounds each. Is service included?",
      "suggestionFa": "بیا نصفش کنیم. نفری شونزده پوند. سرویس حساب شده؟",
@@ -171,7 +171,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me look… No, it isn't.",
    "translations": {
     "fa": "بذار ببینم… نه، نشده."
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So about three pounds?",
    "translations": {
     "fa": "پس حدود سه پوند؟"
@@ -207,8 +207,8 @@
       "eighteen",
       "three",
       "about",
-      "card",
-      "each"
+      "each",
+      "card"
      ],
      "suggestion": "Yes, about three. So eighteen each, with the tip. Can we pay by card?",
      "suggestionFa": "آره، حدود سه. پس با انعام نفری هجده. می‌شه با کارت حساب کنیم؟",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can we pay separately, please?",
    "translations": {
     "fa": "می‌شه جدا جدا حساب کنیم، لطفاً؟"
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. Done.",
    "translations": {
     "fa": "ممنون. انجام شد."
@@ -329,7 +329,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you! You too.",
    "translations": {
     "fa": "ممنون! همچنین."
@@ -340,8 +340,8 @@
       "turkish",
       "street",
       "place",
-      "treat",
-      "let's"
+      "let's",
+      "treat"
      ],
      "suggestion": "That was fun. Next time, let's try the Turkish place on the high street. My treat!",
      "suggestionFa": "خوش گذشت. دفعهٔ بعد، بیا رستوران ترکی خیابون اصلی را امتحان کنیم. مهمون من!",
@@ -354,7 +354,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

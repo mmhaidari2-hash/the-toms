@@ -34,8 +34,8 @@
      "keywords": [
       "painted",
       "first",
-      "never",
-      "fence"
+      "fence",
+      "never"
      ],
      "suggestion": "I've never painted a fence. What do I do first?",
      "suggestionFa": "تا حالا نرده رنگ نکردم. اول چی کار کنم؟",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "first",
-      "brush",
       "sheet",
+      "brush",
+      "first",
       "then"
      ],
      "suggestion": "OK. Brush first, then the sheet.",
@@ -138,7 +138,7 @@
       "already",
       "minutes",
       "tired",
-      "arm"
+      "two"
      ],
      "suggestion": "Two minutes. My arm is tired already!",
      "suggestionFa": "دو دقیقه. دستم همین الان خسته شد!",
@@ -150,8 +150,8 @@
      "keywords": [
       "stirring",
       "thick",
-      "ha",
-      "ok"
+      "ok",
+      "ha"
      ],
      "suggestion": "Ha! OK, I'm stirring. It's very thick.",
      "suggestionFa": "ها! باشه، دارم هم می‌زنم. خیلی غلیظه.",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "along",
-      "wood",
-      "like"
+      "like",
+      "wood"
      ],
      "suggestion": "Along the wood. Like this?",
      "suggestionFa": "در جهت چوب. اینجوری؟",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "twice",
-      "whole",
+      "coats",
       "fence",
-      "coats"
+      "whole",
+      "twice"
      ],
      "suggestion": "Two coats? The whole fence twice?",
      "suggestionFa": "دو لایه؟ کل نرده را دو بار؟",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "until",
       "hours",
+      "until",
       "then",
       "four"
      ],
@@ -422,8 +422,8 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "hands",
+      "green",
       "late",
       "his"
      ],

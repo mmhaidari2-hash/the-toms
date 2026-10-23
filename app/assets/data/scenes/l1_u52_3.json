@@ -21,8 +21,8 @@
      "keywords": [
       "happen",
       "dear",
-      "how",
-      "did"
+      "did",
+      "how"
      ],
      "suggestion": "Oh dear! How did it happen?",
      "suggestionFa": "ای وای! چطوری شد؟",
@@ -305,10 +305,10 @@
    "branches": [
     {
      "keywords": [
-      "isn't",
       "angry",
-      "see",
-      "she"
+      "isn't",
+      "she",
+      "see"
      ],
      "suggestion": "See? She isn't angry.",
      "suggestionFa": "دیدی؟ عصبانی نیست.",
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "that's",
       "leslie",
+      "that's",
       "kind"
      ],
      "suggestion": "That's kind, Leslie.",

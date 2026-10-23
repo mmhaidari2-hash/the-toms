@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "practising",
       "something",
-      "haven't",
       "wanting",
+      "haven't",
       "george"
      ],
      "suggestion": "George has been wanting to give you something. He's been practising what to say all week, haven't you, George?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "George, you didn't have to do anything.",
    "translations": {
     "fa": "جورج، لازم نبود کاری بکنید."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "George, I can't accept this. It's your most treasured possession.",
    "translations": {
     "fa": "جورج، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه."
@@ -101,9 +101,9 @@
      "keywords": [
       "listened",
       "really",
-      "story",
       "wants",
-      "only"
+      "story",
+      "have"
      ],
      "suggestion": "He wants you to have it. He said you're the only one who really listened to the story. And that you're one of us now.",
      "suggestionFa": "می‌خواد مال تو باشه. گفت تو تنها کسی هستی که واقعاً به قصه گوش دادی. و اینکه الان یکی از مایی.",
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll treasure it forever. Thank you, George.",
    "translations": {
     "fa": "تا ابد مثل گنج نگهش می‌دارم. ممنون جورج."
@@ -167,7 +167,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. That means everything.",
    "translations": {
     "fa": "ممنون. این یعنی همه چیز."
@@ -175,11 +175,11 @@
    "branches": [
     {
      "keywords": [
-      "tissues",
       "someone",
-      "change",
+      "tissues",
+      "things",
       "kettle",
-      "things"
+      "change"
      ],
      "suggestion": "Oh, now look — you've set us all off. Pass the tissues, someone. And put the kettle on. Some things never change.",
      "suggestionFa": "آه، حالا ببین — همه‌مون را به گریه انداختی. یکی دستمال‌ها را بده. و کتری را بذار. بعضی چیزها هیچ‌وقت عوض نمیشن.",
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

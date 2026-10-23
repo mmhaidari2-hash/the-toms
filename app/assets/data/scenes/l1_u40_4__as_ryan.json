@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,8 +24,8 @@
       "pancakes",
       "pancake",
       "going",
-      "best",
-      "year"
+      "year",
+      "have"
      ],
      "suggestion": "It's Pancake Day! Best day of the year. Are you going to have pancakes with us?",
      "suggestionFa": "روز پنکیکه! بهترین روز سال. با ما پنکیک می‌خوری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What's Pancake Day?",
    "translations": {
     "fa": "آره! روز پنکیک چیه؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "pancakes",
       "february",
+      "everyone",
       "tuesday",
-      "going"
+      "march"
      ],
      "suggestion": "It's a Tuesday in February or March. Everyone eats pancakes! I'm going to flip them.",
      "suggestionFa": "یه سه‌شنبه تو فوریه یا مارسه. همه پنکیک می‌خورن! من می‌خوام برشون گردونم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you flip them?",
    "translations": {
     "fa": "بلدی برشون گردونی؟"
@@ -75,7 +75,7 @@
       "batter",
       "flour",
       "going",
-      "made"
+      "milk"
      ],
      "suggestion": "Easy. Flour, eggs, milk. Mum made the batter. I'm going to do the flipping!",
      "suggestionFa": "آسونه. آرد، تخم‌مرغ، شیر. مامان خمیرش را درست کرده. من برگردوندن را انجام میدم!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's batter?",
    "translations": {
     "fa": "بتر چیه؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "really",
-      "three",
       "watch",
-      "flip",
-      "high"
+      "three",
+      "high",
+      "flip"
      ],
      "suggestion": "Really high! Watch this… One, two, three… FLIP!",
      "suggestionFa": "خیلی بالا! اینو ببین… یک، دو، سه… فلیپ!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! You caught it!",
    "translations": {
     "fa": "وای! گرفتیش!"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "caught",
-      "going",
       "brave",
-      "try",
-      "now"
+      "going",
+      "now",
+      "try"
      ],
      "suggestion": "Ha, I caught it! Now you try. Are you going to be brave?",
      "suggestionFa": "ها، گرفتمش! حالا تو امتحان کن. می‌خوای شجاع باشی؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm going to try.",
    "translations": {
     "fa": "امتحان می‌کنم."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry, Tom!",
    "translations": {
     "fa": "ببخشید تام!"
@@ -186,7 +186,7 @@
   "r8": {
    "id": "r8",
    "speaker": "tom",
-   "text": "Now that's a pancake hat! Nice one. What are you going to put on yours, Mehdi?",
+   "text": "Now that's a pancake hat! Nice one. What are you going to put on yours, {you}?",
    "translations": {
     "fa": "این شد کلاه پنکیکی! خوب بود. رو مال خودت چی می‌خوای بذاری {you}؟"
    },
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Lemon and sugar, please.",
    "translations": {
     "fa": "لیمو و شکر، لطفاً."
@@ -230,7 +230,7 @@
      "keywords": [
       "classic",
       "twenty",
-      "going",
+      "sugar",
       "dad's",
       "lemon"
      ],
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

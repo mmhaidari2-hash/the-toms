@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "provisional",
+      "support",
       "mirrors",
       "licence",
-      "support",
       "ryan's"
      ],
      "suggestion": "Right, you're in the back seat as moral support. Ryan's got his provisional licence — tell him to check his mirrors.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan, check your mirrors and signal before you pull out.",
    "translations": {
     "fa": "رایان، قبل از حرکت آینه‌ها را چک کن و راهنما بزن."
@@ -50,7 +50,7 @@
       "something",
       "stalled",
       "clutch",
-      "would"
+      "again"
      ],
      "suggestion": "Easy… easy on the clutch! He's stalled it again. Say something encouraging, would you?",
      "suggestionFa": "آروم… کلاچ را آروم! دوباره خاموشش کرد. یه چیز دلگرم‌کننده بگو، باشه؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't worry, Ryan — everyone stalls at first. Try again.",
    "translations": {
     "fa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "country",
-      "round",
-      "drive",
       "there",
-      "wants"
+      "wants",
+      "drive",
+      "round"
      ],
      "suggestion": "There he goes! Now, round the car park. Ryan wants to know — did you drive in your country?",
      "suggestionFa": "راه افتاد! حالا، دور پارکینگ. رایان می‌خواد بدونه — تو کشورت رانندگی می‌کردی؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, but on the right-hand side of the road!",
    "translations": {
     "fa": "آره، ولی سمت راست جاده!"
@@ -100,7 +100,7 @@
       "priority",
       "there's",
       "coming",
-      "right"
+      "wrong"
      ],
      "suggestion": "Ha, the wrong side! Right, Ryan, there's a roundabout coming. Who has priority?",
      "suggestionFa": "ها، سمت اشتباه! خب، رایان، یه میدون داره میاد. حق تقدم با کیه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Give way to traffic coming from the right.",
    "translations": {
     "fa": "به ترافیکی که از راست میاد راه بده."
@@ -124,7 +124,7 @@
       "indicate",
       "parking",
       "lovely",
-      "spot",
+      "next",
       "left"
      ],
      "suggestion": "Spot on. He did it! Indicate left to come off. Lovely. Next up — parking.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Parallel parking? Good luck, Ryan!",
    "translations": {
     "fa": "پارک دوبل؟ موفق باشی رایان!"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "enough",
       "spaces",
+      "enough",
+      "think",
       "close",
-      "first",
-      "think"
+      "first"
      ],
      "suggestion": "He's… in two spaces. Close enough for a first go! What do you think?",
      "suggestionFa": "اون… تو دو تا جا پارک کرده. برای بار اول کافیه! نظرت چیه؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not bad at all for a first lesson!",
    "translations": {
     "fa": "برای جلسهٔ اول اصلاً بد نیست!"
@@ -174,7 +174,7 @@
       "asking",
       "true",
       "when",
-      "take",
+      "he's",
       "test"
      ],
      "suggestion": "Ha! True. He's asking when he can take his test.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "After plenty more lessons, I'd say.",
    "translations": {
     "fa": "بعد از کلی جلسهٔ دیگه، به نظرم."
@@ -199,7 +199,7 @@
       "driving",
       "exactly",
       "nerves",
-      "right",
+      "seats",
       "can't"
      ],
      "suggestion": "Exactly. Right, swap seats. I'm driving home — my nerves can't take any more.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! You did great too, Tom.",
    "translations": {
     "fa": "ها! تو هم خوب بودی تام."
@@ -223,8 +223,8 @@
      "keywords": [
       "driving",
       "where",
-      "look",
       "time",
+      "look",
       "boy"
      ],
      "suggestion": "Look at him — my boy, driving. Where did the time go, eh?",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

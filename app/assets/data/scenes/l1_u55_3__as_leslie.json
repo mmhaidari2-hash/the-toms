@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "family",
       "about",
       "toast",
-      "made",
-      "back"
+      "down",
+      "just"
      ],
      "suggestion": "Come and sit down. I've just made some toast. So, tell me about your family back home.",
      "suggestionFa": "بیا بشین. تازه نون تست درست کردم. خب، از خانواده‌ات تو ایران بگو.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks. Well, I've got a mum, a dad and a sister.",
    "translations": {
     "fa": "ممنون. خب، یه مامان، یه بابا و یه خواهر دارم."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "tehran",
+      "lovely",
       "live",
       "they",
       "all"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My parents live in Tehran. My sister lives in Shiraz.",
    "translations": {
     "fa": "پدر و مادرم تهران زندگی می‌کنن. خواهرم شیراز."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's a teacher. He teaches maths.",
    "translations": {
     "fa": "معلمه. ریاضی درس میده."
@@ -111,7 +111,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She's a nurse. She works at a hospital.",
    "translations": {
     "fa": "پرستاره. تو بیمارستان کار می‌کنه."
@@ -121,8 +121,8 @@
      "keywords": [
       "maggie",
       "family",
-      "every",
       "house",
+      "every",
       "miss"
      ],
      "suggestion": "Ha! Every family has a boss. In this house it's Nana Maggie. Do you miss them?",
@@ -136,7 +136,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, very much. I call them every Sunday.",
    "translations": {
     "fa": "آره، خیلی. هر یکشنبه بهشون زنگ می‌زنم."
@@ -144,10 +144,10 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "photos",
-      "have",
+      "course",
       "love",
+      "have",
       "them"
      ],
      "suggestion": "Of course you do. Have you got any photos? I'd love to see them.",
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, here on my phone. This is my sister and her baby.",
    "translations": {
     "fa": "آره، اینجا تو گوشیم. این خواهرمه با بچه‌اش."
@@ -172,7 +172,7 @@
       "gorgeous",
       "roses",
       "those",
-      "know",
+      "just",
       "look"
      ],
      "suggestion": "Oh, how gorgeous! Look at those roses! You look just like your mum, you know.",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Everybody says that!",
    "translations": {
     "fa": "همه همینو میگن!"
@@ -194,11 +194,11 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "welcome",
+      "kitchen",
       "sunday",
       "family",
-      "from"
+      "well"
      ],
      "suggestion": "Well, you're welcome here any time. You're part of the family now. Next Sunday, call them from our kitchen!",
      "suggestionFa": "خب، هر وقت بخوای اینجا قدمت روی چشمه. حالا دیگه جزو خانواده‌ای. یکشنبهٔ بعد از آشپزخونهٔ ما بهشون زنگ بزن!",
@@ -211,7 +211,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

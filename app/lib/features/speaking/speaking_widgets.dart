@@ -218,7 +218,7 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                   'New Life UK only listens while the microphone is red. Your speech is turned into text by your browser\'s speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers. The Toms doesn\'t store or send your recordings itself; "Record" clips stay on your device.',
                 ),
                 const SizedBox(height: 4),
-                Text('میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. The Toms خودش صدای شما را ذخیره یا ارسال نمی‌کند؛ ضبط‌های «Record» فقط روی دستگاه شما می‌مانند.', textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+                Text('میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. New Life UK خودش صدای شما را ذخیره یا ارسال نمی‌کند؛ ضبط‌های «Record» فقط روی دستگاه شما می‌مانند.', textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
                 const SizedBox(height: 8),
                 const Text('iPhone (Safari): tap "aA" in the address bar › Website Settings › Microphone › Allow. Or Settings › Apps › Safari › Microphone.'),
                 const SizedBox(height: 6),

@@ -35,7 +35,7 @@ class PremiumScreen extends ConsumerWidget {
           )),
           const SizedBox(height: 12),
           Text('New Life UK Premium', textAlign: TextAlign.center, style: BL.display(28)),
-          Text('اشتراک ویژهٔ تامز', textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
+          Text('اشتراک ویژهٔ New Life UK', textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
           const SizedBox(height: 14),
           Container(
             key: const ValueKey('beta-banner'),

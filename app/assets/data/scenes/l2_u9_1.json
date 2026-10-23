@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "ticket",
+      "here's",
       "going"
      ],
      "suggestion": "Here's my ticket. I'm going to York.",
@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "here",
+      "stop",
       "next",
-      "stop"
+      "here"
      ],
      "suggestion": "Here you are. Is York the next stop?",
      "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "better",
+      "london",
       "than"
      ],
      "suggestion": "Better than London?",

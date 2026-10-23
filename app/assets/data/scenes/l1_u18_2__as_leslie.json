@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola's",
       "tomorrow",
-      "packed",
+      "nicola's",
       "school",
+      "packed",
       "lunch"
      ],
      "suggestion": "Nicola's got a school trip tomorrow. She needs a packed lunch. Can you help me?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. What does she need?",
    "translations": {
     "fa": "آره. چی لازم داره؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "sandwich",
       "purple",
-      "lunch",
       "bread",
+      "lunch",
       "first"
      ],
      "suggestion": "Her lunch box is the purple one. First, a sandwich. Have we got any bread?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, there's some bread.",
    "translations": {
     "fa": "آره، یه کم نون هست."
@@ -74,8 +74,8 @@
       "there's",
       "school",
       "snack",
-      "says",
-      "good"
+      "half",
+      "says"
      ],
      "suggestion": "Good, there's half a loaf. Now, a snack. No nuts — the school says no nuts.",
      "suggestionFa": "خوبه، نصف یه نون هست. حالا، یه خوراکی. بدون آجیل — مدرسه می‌گه آجیل نه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What about a yoghurt?",
    "translations": {
     "fa": "ماست چطور؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are some in the cupboard.",
    "translations": {
     "fa": "تو کابینت هست."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "crisps",
-      "else",
+      "always",
       "ryan",
-      "have"
+      "have",
+      "else"
      ],
      "suggestion": "Ryan! Always Ryan! OK, no crisps. What else can she have?",
      "suggestionFa": "رایان! همیشه رایان! باشه، چیپس نه. دیگه چی می‌تونه داشته باشه؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Some carrot sticks?",
    "translations": {
     "fa": "چند تا هویج قلمی؟"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "sticks",
       "carrot",
       "little",
-      "sticks",
-      "treat",
-      "drink"
+      "drink",
+      "treat"
      ],
      "suggestion": "Carrot sticks and a little cake. A treat for the trip! And a drink.",
      "suggestionFa": "هویج قلمی و یه کیک کوچیک. یه جایزه برای اردو! و یه نوشیدنی.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Water is best for a trip.",
    "translations": {
     "fa": "برای اردو آب بهتره."
@@ -173,9 +173,9 @@
      "keywords": [
       "everything",
       "unicorn",
-      "bottle",
       "things",
-      "always"
+      "always",
+      "bottle"
      ],
      "suggestion": "Yes, her unicorn bottle. Now, write her name on everything! Things always get lost.",
      "suggestionFa": "آره، بطری اسب‌شاخدارش. حالا، اسمش را رو همه چی بنویس! همیشه چیزها گم می‌شن.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the pen?",
    "translations": {
     "fa": "خودکار کجاست؟"
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "remember",
       "tomorrow",
-      "morning",
+      "remember",
       "perfect",
+      "morning",
       "fridge"
      ],
      "suggestion": "Perfect. Put it in the fridge. Thank you, love. Now I just need to remember it tomorrow morning!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

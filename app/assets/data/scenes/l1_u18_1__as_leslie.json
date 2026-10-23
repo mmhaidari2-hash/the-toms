@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "sandwiches",
       "lunchtime",
       "making",
-      "would",
-      "yours"
+      "yours",
+      "would"
      ],
      "suggestion": "Lunchtime! I'm making sandwiches. What would you like in yours?",
      "suggestionFa": "وقت ناهار! دارم ساندویچ درست می‌کنم. تو مال خودت چی می‌خوای؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheese, please.",
    "translations": {
     "fa": "پنیر، لطفاً."
@@ -48,8 +48,8 @@
      "keywords": [
       "cucumber",
       "cheese",
-      "bread",
       "white",
+      "bread",
       "brown"
      ],
      "suggestion": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Brown bread, please.",
    "translations": {
     "fa": "نون سبوس‌دار، لطفاً."
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a little butter, please.",
    "translations": {
     "fa": "آره، یه کم کره، لطفاً."
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "classic",
-      "pickle",
       "cheese",
+      "pickle",
       "sweet",
       "brown"
      ],
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd like to try it.",
    "translations": {
     "fa": "می‌خوام امتحانش کنم."
@@ -122,9 +122,9 @@
      "keywords": [
       "sandwich",
       "crisps",
-      "think",
+      "wants",
       "there",
-      "wants"
+      "think"
      ],
      "suggestion": "There you go. Ryan wants crisps in his sandwich! What do you think?",
      "suggestionFa": "بفرما. رایان می‌خواد تو ساندویچش چیپس بذاره! نظرت چیه؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Crisps in a sandwich? Really?",
    "translations": {
     "fa": "چیپس تو ساندویچ؟ واقعاً؟"
@@ -149,7 +149,7 @@
       "popular",
       "squares",
       "shall",
-      "yours"
+      "butty"
      ],
      "suggestion": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
      "suggestionFa": "بهش می‌گن «کریسپ باتی». اینجا خیلی محبوبه! مال تو را مثلثی ببرم یا مربعی؟",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Triangles, please.",
    "translations": {
     "fa": "مثلثی، لطفاً."
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "triangles",
-      "would",
-      "fancy",
       "drink",
+      "fancy",
+      "would",
       "like"
      ],
      "suggestion": "Triangles. Fancy. Would you like a drink with it?",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A glass of water, please.",
    "translations": {
     "fa": "یه لیوان آب، لطفاً."
@@ -198,8 +198,8 @@
       "yourself",
       "there's",
       "fridge",
-      "juice",
-      "apple"
+      "apple",
+      "juice"
      ],
      "suggestion": "There's apple juice in the fridge. Help yourself!",
      "suggestionFa": "آب سیب تو یخچاله. از خودت پذیرایی کن!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks! Shall I get some for you?",
    "translations": {
     "fa": "ممنون! برای شما هم بیارم؟"
@@ -220,10 +220,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "garden",
-      "right",
+      "please",
       "small",
+      "let's",
       "sunny"
      ],
      "suggestion": "Yes, please, a small one. Right, let's eat in the garden. It's sunny!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

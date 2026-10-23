@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready! What are we cooking?",
    "translations": {
     "fa": "آماده‌ام! چی می‌پزیم؟"
@@ -49,8 +49,8 @@
       "yorkshire",
       "puddings",
       "potatoes",
-      "chicken",
-      "carrots"
+      "carrots",
+      "chicken"
      ],
      "suggestion": "Roast chicken, roast potatoes, carrots, peas, Yorkshire puddings and gravy. The chicken needs to go in the oven now. Two hours.",
      "suggestionFa": "مرغ سوخاری، سیب‌زمینی تنوری، هویج، نخودفرنگی، یورکشایر پودینگ و سس گریوی. مرغ باید همین الان بره تو فر. دو ساعت.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two hours! That's a long time.",
    "translations": {
     "fa": "دو ساعت! زمان زیادیه."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. How many potatoes?",
    "translations": {
     "fa": "باشه. چند تا سیب‌زمینی؟"
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "minutes",
+      "fifteen",
       "fluffy",
-      "three",
+      "shake",
       "roast"
      ],
      "suggestion": "Three each, plus extra. Fifteen? Then boil them for ten minutes, shake them in the pan — that makes them fluffy — and roast them.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Boil, shake, roast. Interesting!",
    "translations": {
     "fa": "بجوشون، تکون بده، فر. جالبه!"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "carrots",
+      "that's",
       "maggie",
       "secret",
-      "that's",
       "taught"
      ],
      "suggestion": "The edges go rough, then crispy in the oil. That's the secret. Nana Maggie taught me. Have you put the carrots on?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not yet. Shall I put them on now?",
    "translations": {
     "fa": "هنوز نه. الان بذارم؟"
@@ -149,7 +149,7 @@
       "minutes",
       "always",
       "checks",
-      "three",
+      "lumps",
       "lumpy"
      ],
      "suggestion": "Peas take three minutes, so last. Keep an eye on the gravy — stir it, or it goes lumpy. Mum always checks for lumps.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm stirring! No lumps!",
    "translations": {
     "fa": "دارم هم می‌زنم! بدون گلوله!"
@@ -173,8 +173,8 @@
      "keywords": [
       "strictest",
       "doorbell",
-      "napkins",
       "they're",
+      "napkins",
       "london"
      ],
      "suggestion": "Strictest in London. Uh-oh — the doorbell. They're early! Is the table laid? Knives, forks, napkins?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll lay the table. Knife on the right?",
    "translations": {
     "fa": "من میز را می‌چینم. چاقو سمت راست؟"
@@ -199,7 +199,7 @@
       "yorkshires",
       "rising",
       "nearly",
-      "mum's",
+      "ready",
       "knife"
      ],
      "suggestion": "Knife on the right, fork on the left. Yorkshires are rising! Look at them! It's nearly ready. Mum's going to cry.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They look perfect, Tom!",
    "translations": {
     "fa": "عالی شدن تام!"
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "yorkshires",
-      "doctor's",
       "everyone",
+      "doctor's",
       "orders",
-      "three"
+      "today"
      ],
      "suggestion": "Yes! Everyone to the table! And Dad — only three Yorkshires today. Doctor's orders. Ha! Look at his face.",
      "suggestionFa": "آره! همه سر میز! و بابا — امروز فقط سه تا یورکشایر. دستور دکتر. ها! قیافه‌اش را ببین.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

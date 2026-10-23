@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "children",
       "allowed",
       "should",
-      "until",
-      "don't"
+      "don't",
+      "until"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
      "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I see your point, but you need your sleep for school.",
    "translations": {
     "fa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری."
@@ -48,9 +48,9 @@
      "keywords": [
       "that's",
       "stays",
-      "fair",
+      "ryan",
       "late",
-      "ryan"
+      "fair"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
      "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ryan's older. When you're fifteen, you can stay up later too.",
    "translations": {
     "fa": "رایان بزرگ‌تره. وقتی پونزده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "reasons",
-      "should",
       "reason",
+      "should",
       "telly",
-      "give"
+      "miss"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a reason, but is it a good one?",
    "translations": {
     "fa": "این یه دلیله، ولی دلیل خوبیه؟"
@@ -99,8 +99,8 @@
       "reason",
       "awake",
       "tired",
-      "even",
-      "look"
+      "okay",
+      "even"
      ],
      "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
      "suggestionFa": "هوم. باشه، دلیل دو: اصلاً خسته نیستم. ببین — کاملاً بیدارم!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're yawning right now!",
    "translations": {
     "fa": "همین الان داری خمیازه می‌کشی!"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Lots of children stay up late, especially in summer.",
    "translations": {
     "fa": "خیلی از بچه‌ها دیر می‌خوابن، مخصوصاً تابستون."
@@ -149,8 +149,8 @@
       "countries",
       "right",
       "stay",
-      "they",
-      "some"
+      "some",
+      "they"
      ],
      "suggestion": "See! In some countries they stay up! So I'm right.",
      "suggestionFa": "دیدی! تو بعضی کشورها بیدار می‌مونن! پس من درست می‌گم.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not exactly. Different places have different rules.",
    "translations": {
     "fa": "نه دقیقاً. جاهای مختلف قانون‌های مختلفی دارن."
@@ -175,7 +175,7 @@
       "what's",
       "lawyer",
       "think",
-      "stay"
+      "late"
      ],
      "suggestion": "A lawyer! Yes! Lawyers stay up late, I bet. So what do you think — what's fair?",
      "suggestionFa": "وکیل! آره! شرط می‌بندم وکیل‌ها دیر می‌خوابن. خب نظرت چیه — چی عادلانه‌ست؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How about a compromise — half eight on Fridays?",
    "translations": {
     "fa": "یه راه میانه چطوره — جمعه‌ها هشت و نیم؟"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fridays and Saturdays — but only if you keep your promise.",
    "translations": {
     "fa": "جمعه‌ها و شنبه‌ها — ولی فقط اگه سر قولت بمونی."
@@ -224,8 +224,8 @@
       "writing",
       "forget",
       "can't",
-      "deal",
-      "down"
+      "down",
+      "deal"
      ],
      "suggestion": "Hmm… deal. But I'm writing it down so you can't forget!",
      "suggestionFa": "هوم… قبول. ولی می‌نویسمش که یادت نره!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

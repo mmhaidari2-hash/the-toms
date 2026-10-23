@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "indian",
+      "what's",
       "don't",
-      "know"
+      "food"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -35,7 +35,7 @@
       "chicken",
       "please",
       "curry",
-      "have"
+      "i'll"
      ],
      "suggestion": "I'll have a chicken curry, please.",
      "suggestionFa": "من یه کاری مرغ می‌خورم، لطفاً.",
@@ -142,8 +142,8 @@
      "keywords": [
       "vindaloo",
       "spicy",
-      "like",
-      "food"
+      "food",
+      "like"
      ],
      "suggestion": "I like spicy food. I'll try the vindaloo!",
      "suggestionFa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!",
@@ -365,8 +365,8 @@
      "keywords": [
       "drinks",
       "let",
-      "but",
-      "buy"
+      "buy",
+      "but"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Drink some cold water.",
    "translations": {
     "fa": "وای نه! یه کم آب سرد بخور."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Coffee with ice? That's strange!",
    "translations": {
     "fa": "قهوه با یخ؟ عجیبه!"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "milky",
+      "milk",
       "cold",
       "good",
-      "milk",
       "idea"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! You can't win!",
    "translations": {
     "fa": "ها ها! نمی‌تونی برنده بشی!"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "seconds",
-      "twenty",
       "sugars",
-      "sweet",
-      "three"
+      "twenty",
+      "there",
+      "sweet"
      ],
      "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
      "suggestionFa": "بیست ثانیه… بفرما. اه! حالا خیلی شیرینه. کی سه تا قند ریخت توش؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not me!",
    "translations": {
     "fa": "من نه!"
@@ -124,8 +124,8 @@
       "always",
       "nicola",
       "make",
-      "i'll",
-      "want"
+      "want",
+      "i'll"
      ],
      "suggestion": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
      "suggestionFa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Not too strong.",
    "translations": {
     "fa": "آره، لطفاً. نه خیلی غلیظ."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, one spoon is fine.",
    "translations": {
     "fa": "نه، یه قاشق خوبه."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "water",
       "sugar",
-      "just",
-      "milk"
+      "right",
+      "milk",
+      "just"
      ],
      "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
      "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like Goldilocks!",
    "translations": {
     "fa": "مثل موطلایی!"
@@ -198,9 +198,9 @@
      "keywords": [
       "goldilocks",
       "drink",
+      "time",
       "late",
-      "look",
-      "time"
+      "look"
      ],
      "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",
      "suggestionFa": "ها! موطلایی! وای نه — ساعت را ببین! خیلی دیرم شد! می‌تونی تو برام بخوریش؟ خداحافظ!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, Ryan! Run!",
    "translations": {
     "fa": "خداحافظ رایان! بدو!"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "there",
-      "says",
-      "pans",
+      "many",
       "turn",
-      "many"
+      "pans",
+      "wash"
      ],
      "suggestion": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
      "suggestionFa": "اوف. مامان میگه نوبت منه ظرف بشورم. این همه قابلمه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can help you.",
    "translations": {
     "fa": "می‌تونم کمکت کنم."
@@ -49,8 +49,8 @@
       "tomorrow",
       "cheers",
       "dad's",
-      "mate",
-      "turn"
+      "turn",
+      "want"
      ],
      "suggestion": "Cheers, mate. Tomorrow it's Dad's turn. Do you want to wash or dry?",
      "suggestionFa": "دمت گرم رفیق. فردا نوبت باباست. می‌خوای بشوری یا خشک کنی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll wash. You dry.",
    "translations": {
     "fa": "من می‌شورم. تو خشک کن."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a tea towel?",
    "translations": {
     "fa": "حولهٔ چای یعنی چی؟"
@@ -99,8 +99,8 @@
       "dishwasher",
       "because",
       "broken",
-      "cloth",
-      "don't"
+      "don't",
+      "again"
      ],
      "suggestion": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
      "suggestionFa": "فقط همین پارچه‌ست. چرا از ماشین ظرفشویی استفاده نمی‌کنیم؟ چون خرابه. دوباره!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "When is the repair man coming?",
    "translations": {
     "fa": "تعمیرکار کی میاد؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "sink",
-      "pass",
-      "says"
+      "week",
+      "next",
+      "pass"
      ],
      "suggestion": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
      "suggestionFa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are.",
    "translations": {
     "fa": "بفرما."
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "beans",
-      "dirty",
-      "again",
       "burnt",
-      "one"
+      "again",
+      "dirty",
+      "beans",
+      "ugh"
      ],
      "suggestion": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
      "suggestionFa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leave it to soak.",
    "translations": {
     "fa": "بذارش خیس بخوره."
@@ -173,7 +173,7 @@
      "keywords": [
       "morning",
       "problem",
-      "shout",
+      "water",
       "dad's",
       "leave"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Poor Tom.",
    "translations": {
     "fa": "ها! تام بیچاره."
@@ -199,10 +199,10 @@
       "thanks",
       "quick",
       "done",
-      "one",
-      "two"
+      "two",
+      "was"
      ],
-     "suggestion": "Done! That was quick with two of us. Thanks, Mehdi. I owe you one.",
+     "suggestion": "Done! That was quick with two of us. Thanks, {you}. I owe you one.",
      "suggestionFa": "تموم شد! با دو نفر سریع بود. ممنون {you}. یکی طلبت.",
      "trustDelta": 5,
      "next": "r9",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem. Any time.",
    "translations": {
     "fa": "مشکلی نیست. هر وقت."
@@ -225,7 +225,7 @@
       "fancy",
       "deal",
       "fifa",
-      "i'll"
+      "game"
      ],
      "suggestion": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
      "suggestionFa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "clothes",
       "before",
       "winter",
-      "cheap"
+      "value"
      ],
      "suggestion": "Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look.",
      "suggestionFa": "خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This one looks warm. Can I try it on?",
    "translations": {
     "fa": "این یکی گرم به نظر میاد. می‌تونم پروش کنم؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "fitting",
-      "course",
       "number",
+      "course",
       "rooms",
       "items"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Six items? Then I'll take a jumper too.",
    "translations": {
     "fa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "jumpers",
-      "three",
       "don't",
+      "three",
       "wait",
-      "walk"
+      "well"
      ],
      "suggestion": "So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it?",
      "suggestionFa": "که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's too small. The sleeves are short.",
    "translations": {
     "fa": "خیلی کوچیکه. آستیناش کوتاهه."
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "bigger",
-      "medium",
       "that's",
       "excuse",
+      "medium",
+      "bigger",
       "large"
      ],
      "suggestion": "Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I help? I can ask her.",
    "translations": {
     "fa": "کمک کنم؟ من ازش می‌پرسم."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
-      "really",
-      "that's",
       "colour",
-      "green"
+      "that's",
+      "really",
+      "large"
      ],
      "suggestion": "She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you.",
      "suggestionFa": "میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? I don't usually wear green.",
    "translations": {
     "fa": "واقعاً؟ من معمولاً سبز نمی‌پوشم."
@@ -149,8 +149,8 @@
       "sideways",
       "bargain",
       "london",
-      "winter",
-      "twenty"
+      "pounds",
+      "that's"
      ],
      "suggestion": "Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways.",
      "suggestionFa": "بیست و پنج پوند! برای یه کت زمستونی، مفته. کلاه داره؟ بارون لندن کج می‌باره.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it has a hood. I'll take it.",
    "translations": {
     "fa": "آره، کلاه داره. برش می‌دارم."
@@ -174,8 +174,8 @@
       "november",
       "receipt",
       "change",
-      "until",
-      "right"
+      "right",
+      "until"
      ],
      "suggestion": "Very real. Wait until November! Right — pay at the till by the door, and keep the receipt in case you change your mind.",
      "suggestionFa": "خیلی واقعی. صبر کن تا نوامبر! خب — دم در پولش را بده و رسید را نگه دار شاید نظرت عوض شد.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How long can I return it for?",
    "translations": {
     "fa": "تا کی می‌تونم پسش بدم؟"
@@ -199,8 +199,8 @@
       "usually",
       "william",
       "twenty",
-      "pairs",
-      "month"
+      "month",
+      "socks"
      ],
      "suggestion": "Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month.",
      "suggestionFa": "معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

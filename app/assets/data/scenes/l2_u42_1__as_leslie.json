@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everything's",
-      "you'll",
       "handed",
-      "thank",
-      "purse"
+      "you'll",
+      "never",
+      "thank"
      ],
      "suggestion": "You'll never guess. A man handed in my purse at the café! Everything's still in it. I want to thank him. Did you see him?",
      "suggestionFa": "باورت نمیشه. یه آقا کیف پولم را تو کافه تحویل داده! همه‌چی هنوز توشه. می‌خوام ازش تشکر کنم. دیدیش؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! He was here a minute ago.",
    "translations": {
     "fa": "آره! یه دقیقه پیش اینجا بود."
@@ -49,8 +49,8 @@
       "hackney",
       "that's",
       "callum",
-      "older",
-      "beard"
+      "beard",
+      "older"
      ],
      "suggestion": "Callum said \"older man, beard\". That's half of Hackney! You were by the gate. What did he look like?",
      "suggestionFa": "کالوم گفت «یه آقای مسن، ریش‌دار». این نصف هکنیه! تو کنار در بودی. چه شکلی بود؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's got grey hair and a short white beard.",
    "translations": {
     "fa": "موهاش خاکستریه و یه ریش کوتاه سفید داره."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "wearing",
-      "three",
-      "there",
       "beard",
-      "white"
+      "white",
+      "there",
+      "three"
      ],
      "suggestion": "Grey hair, white beard, tall and thin. Good. What was he wearing? There are three old men by the pond.",
      "suggestionFa": "موی خاکستری، ریش سفید، قدبلند و لاغر. خوبه. چی پوشیده بود؟ سه تا آقای مسن کنار برکه‌ان.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He was wearing a green coat and a flat cap.",
    "translations": {
     "fa": "یه کت سبز و کلاه کپ پوشیده بود."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
-      "grandad",
       "glasses",
-      "flat",
-      "have"
+      "grandad",
+      "hackney",
+      "have",
+      "them"
      ],
      "suggestion": "A flat cap! Very Hackney grandad. And glasses? Some of them have glasses.",
      "suggestionFa": "کلاه کپ! خیلی پدربزرگ‌های هکنی. و عینک؟ بعضی‌هاشون عینک دارن.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, round glasses. And a big smile.",
    "translations": {
     "fa": "آره، عینک گرد. و یه لبخند بزرگ."
@@ -124,7 +124,7 @@
       "glasses",
       "little",
       "green",
-      "round",
+      "brown",
       "bench"
      ],
      "suggestion": "Look — on the bench. Green coat, flat cap, round glasses, little brown dog. That must be him!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, that's him! Let's go and say thank you.",
    "translations": {
     "fa": "آره، خودشه! بریم تشکر کنیم."
@@ -148,8 +148,8 @@
      "keywords": [
       "recognise",
       "jenkins",
-      "didn't",
       "always",
+      "didn't",
       "wears"
      ],
      "suggestion": "Oh! It's Mr Jenkins from next door! I didn't recognise him in the cap. He always wears a hat to the park.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mr Jenkins! The man with the wonky stripes!",
    "translations": {
     "fa": "آقای جنکینز! همون که راه‌راه‌هاش کجه!"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "kind",
-      "like",
       "cake",
       "talk",
-      "bake"
+      "like",
+      "more"
      ],
      "suggestion": "Ha! Shh! He was so kind. I'll bake him a cake. What does he like? You talk to him more than I do.",
      "suggestionFa": "ها! هیس! خیلی مهربون بود. براش کیک می‌پزم. چی دوست داره؟ تو بیشتر از من باهاش حرف می‌زنی.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He likes lemon cake. He told me last week.",
    "translations": {
     "fa": "کیک لیمو دوست داره. هفتهٔ پیش بهم گفت."
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

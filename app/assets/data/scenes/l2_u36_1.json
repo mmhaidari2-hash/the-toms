@@ -83,9 +83,9 @@
     {
      "keywords": [
       "every",
-      "home",
-      "even",
-      "room"
+      "room",
+      "rent",
+      "even"
      ],
      "suggestion": "Every home? Even if I rent a room?",
      "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "cancelled",
-      "great",
-      "thank"
+      "thank",
+      "great"
      ],
      "suggestion": "Cancelled? Great! Thank you.",
      "suggestionFa": "لغو شد؟ عالیه! ممنون.",
@@ -244,8 +244,8 @@
    "branches": [
     {
      "keywords": [
-      "why",
-      "ten"
+      "ten",
+      "why"
      ],
      "suggestion": "Why ten, not twelve?",
      "suggestionFa": "چرا ده، نه دوازده؟",
@@ -257,8 +257,8 @@
      "keywords": [
       "instalments",
       "instead",
-      "can",
-      "she"
+      "pay",
+      "can"
      ],
      "suggestion": "Can she pay in twelve instalments instead?",
      "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "leslie",
-      "tell",
-      "know",
-      "good"
+      "i'll",
+      "good",
+      "know"
      ],
      "suggestion": "Good to know. I'll tell Leslie.",
      "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
@@ -363,10 +363,10 @@
     },
     {
      "keywords": [
-      "number",
       "what's",
-      "help",
-      "i'll"
+      "number",
+      "i'll",
+      "call"
      ],
      "suggestion": "I'll help them call. What's the number?",
      "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",

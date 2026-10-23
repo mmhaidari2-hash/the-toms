@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -25,7 +25,7 @@
       "weather",
       "lamb's",
       "under",
-      "poor"
+      "feel"
      ],
      "suggestion": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
      "suggestionFa": "طفلکی یه کم ناخوشه. می‌تونی پیشونیش را لمس کنی — داغه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, he feels quite hot. Shall we take his temperature?",
    "translations": {
     "fa": "آره، نسبتاً داغه. دماش را بگیریم؟"
@@ -49,8 +49,8 @@
       "thermometer's",
       "drawer",
       "check",
-      "under",
-      "let's"
+      "let's",
+      "under"
      ],
      "suggestion": "Let's check. The thermometer's in the drawer — pop it under his arm.",
      "suggestionFa": "بیا چک کنیم. دماسنج تو کشوئه — بذارش زیر بغلش.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Got it. How long do I leave it?",
    "translations": {
     "fa": "باشه. چقدر نگهش دارم؟"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "eating",
-      "beeps",
-      "until",
       "there",
+      "until",
+      "beeps",
       "been"
      ],
      "suggestion": "Until it beeps. There — 38.2. Not too bad. Has he been eating?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He only had a bit of toast at teatime.",
    "translations": {
     "fa": "سر شام فقط یه کم نون تست خورد."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
+      "paracetamol",
+      "children's",
       "cupboard",
       "little",
-      "paracetamol",
-      "glass",
-      "fetch"
+      "glass"
      ],
      "suggestion": "Little ones often go off their food. Could you fetch the children's paracetamol from the cupboard and a glass of water?",
      "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی شربت استامینوفن بچه را از کابینت بیاری و یه لیوان آب؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course — here's the children's paracetamol and some water.",
    "translations": {
     "fa": "حتماً — اینم شربت استامینوفن بچه و یه کم آب."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says five ml for ages two to four.",
    "translations": {
     "fa": "نوشته پنج میلی برای دو تا چهار سال."
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "darling",
-      "let's",
       "there",
       "brave",
-      "mind"
+      "let's",
+      "wide"
      ],
      "suggestion": "Good. Open wide, my darling… there. Brave boy. Now let's get him cool — not cold, mind.",
      "suggestionFa": "خوبه. دهنت را باز کن عزیزم… بفرما. پسر شجاع. حالا خنکش کنیم — نه سرد، مواظب باش.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall I open the window a bit?",
    "translations": {
     "fa": "پنجره را یه کم باز کنم؟"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "otherwise",
-      "doctors",
       "blanket",
+      "doctors",
       "wrapped",
       "light"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Things change, don't they?",
    "translations": {
     "fa": "اوضاع عوض میشه، نه؟"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. I'll read him a story.",
    "translations": {
     "fa": "حتماً. براش قصه می‌خونم."
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "natural",
+      "morning",
       "better",
       "thank",
       "we'll"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

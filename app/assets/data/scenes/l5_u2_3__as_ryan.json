@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,9 +23,9 @@
      "keywords": [
       "bathroom",
       "winding",
-      "scared",
       "spider",
-      "about"
+      "scared",
+      "she's"
      ],
      "suggestion": "Did you tell Mum I was scared of the spider in the bathroom? She's been winding me up about it all day!",
      "suggestionFa": "تو به مامان گفتی من از عنکبوت تو حموم ترسیدم؟ کل روز داره سربه‌سرم می‌ذاره!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I might have mentioned it. In my defence, you did scream.",
    "translations": {
     "fa": "شاید اشاره کرده باشم. در دفاع از خودم، تو جیغ زدی."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "surprise",
-      "scream",
       "wasn't",
-      "shout",
-      "manly"
+      "scream",
+      "manly",
+      "shout"
      ],
      "suggestion": "It wasn't a scream, it was a… manly shout of surprise. And it was the size of my hand!",
      "suggestionFa": "جیغ نبود، یه… فریاد مردونهٔ تعجب بود. و اندازهٔ دستم بود!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was the size of a five-pence coin, Ryan.",
    "translations": {
     "fa": "اندازهٔ یه سکهٔ پنج پنسی بود رایان."
@@ -74,8 +74,8 @@
       "taking",
       "jumped",
       "alarm",
-      "smoke",
-      "we're"
+      "we're",
+      "smoke"
      ],
      "suggestion": "You're taking the mick now. Fine. But you jumped a mile when the smoke alarm went off last week, so we're even.",
      "suggestionFa": "الان داری مسخره‌ام می‌کنی. باشه. ولی هفتهٔ پیش وقتی آژیر دود صدا داد یه متر پریدی، پس بی‌حساب شدیم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fair. Let's call a truce before Nicola joins in.",
    "translations": {
     "fa": "منصفانه. بیا قبل از اینکه نیکولا هم اضافه بشه آتش‌بس کنیم."
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "barnaby",
       "everyone",
       "telling",
+      "barnaby",
       "spider",
       "nicola"
      ],
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Everyone cries at the end of Barnaby 2. It's the law.",
    "translations": {
     "fa": "همه آخر بارنابی ۲ گریه می‌کنن. قانونه."
@@ -125,7 +125,7 @@
       "before",
       "sealed",
       "spider",
-      "cried"
+      "truce"
      ],
      "suggestion": "Ha! True, actually. Even Dad cried. Right — truce sealed. Now help me get that spider out of the bath before Mum gets home.",
      "suggestionFa": "ها! راستش درسته. حتی بابا گریه کرد. خب — آتش‌بس امضا شد. حالا کمکم کن قبل از اینکه مامان بیاد اون عنکبوت را از وان دربیاریم.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

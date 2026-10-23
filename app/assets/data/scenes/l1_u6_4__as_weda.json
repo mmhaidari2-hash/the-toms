@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's lovely! What colour is it?",
    "translations": {
     "fa": "قشنگه! چه رنگیه؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "stripes",
       "colour",
-      "which",
       "white",
+      "which",
       "like"
      ],
      "suggestion": "It's red and white stripes. Which colour do you like, the red or the white?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like the red one.",
    "translations": {
     "fa": "قرمزه را دوست دارم."
@@ -74,8 +74,8 @@
       "mittens",
       "choice",
       "winter",
-      "cold",
-      "make"
+      "make",
+      "next"
      ],
      "suggestion": "Good choice. Next I'll make a hat and some mittens. It gets very cold in winter.",
      "suggestionFa": "انتخاب خوبیه. بعد یه کلاه و دستکش بی‌انگشت می‌بافم. زمستون خیلی سرد می‌شه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Does it snow here?",
    "translations": {
     "fa": "اینجا برف میاد؟"
@@ -99,7 +99,7 @@
       "sometimes",
       "mostly",
       "snows",
-      "cold",
+      "dark",
       "just"
      ],
      "suggestion": "Sometimes it snows, but not much. Mostly it's just cold, wet and dark.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "When does it get dark?",
    "translations": {
     "fa": "کِی تاریک می‌شه؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love hot chocolate!",
    "translations": {
     "fa": "عاشق شکلات داغم!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "that's",
-      "hold",
-      "like",
       "wool",
-      "here"
+      "here",
+      "like",
+      "hold"
      ],
      "suggestion": "Here, hold the wool for me. Hold it up, like this. That's it!",
      "suggestionFa": "بیا، کاموا را برام نگه دار. بالا نگهش دار، اینجوری. همینه!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "اینجوری؟"
@@ -174,8 +174,8 @@
       "perfect",
       "teach",
       "when",
-      "wrap",
-      "dear"
+      "dear",
+      "wrap"
      ],
      "suggestion": "Perfect. One day I'll teach you. Wrap up warm when you go out, dear!",
      "suggestionFa": "عالیه. یه روز بهت یاد می‌دم. وقتی بیرون می‌ری خودت را گرم بپوشون عزیزم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

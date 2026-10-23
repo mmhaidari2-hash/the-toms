@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,7 +24,7 @@
       "presents",
       "under",
       "going",
-      "mine",
+      "look",
       "tree"
      ],
      "suggestion": "Look at all the presents under the tree! I'm going to find mine.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't open them yet!",
    "translations": {
     "fa": "هنوز بازشون نکن!"
@@ -48,9 +48,9 @@
      "keywords": [
       "looking",
       "santa",
-      "from",
-      "only",
-      "says"
+      "love",
+      "ryan",
+      "only"
      ],
      "suggestion": "I'm only looking! This big one says \"To Ryan, love from Santa\".",
      "suggestionFa": "فقط دارم نگاه می‌کنم! این بزرگه نوشته «به رایان، با عشق از طرف بابانوئل».",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Santa? Really?",
    "translations": {
     "fa": "بابانوئل؟ واقعاً؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "handwriting",
       "football",
-      "mum's",
       "shake",
-      "shirt"
+      "shirt",
+      "think"
      ],
      "suggestion": "Ha! Santa has Mum's handwriting. I think it's a football shirt. Shake it!",
      "suggestionFa": "ها! بابانوئل خط مامان را داره. فکر کنم پیراهن فوتباله. تکونش بده!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It doesn't make a noise.",
    "translations": {
     "fa": "صدا نمیده."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "For me? Really?",
    "translations": {
     "fa": "برای من؟ واقعاً؟"
@@ -121,13 +121,13 @@
    "branches": [
     {
      "keywords": [
-      "wrapped",
       "herself",
+      "wrapped",
       "nicola",
-      "from",
-      "tape"
+      "tape",
+      "look"
      ],
-     "suggestion": "\"To Mehdi, from Nicola\". She wrapped it herself. Look at all the tape!",
+     "suggestion": "\"To {you}, from Nicola\". She wrapped it herself. Look at all the tape!",
      "suggestionFa": "«به {you}، از طرف نیکولا». خودش کادوش کرده. این‌همه چسب را ببین!",
      "trustDelta": 5,
      "next": "r6",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! It's very… sticky.",
    "translations": {
     "fa": "ها! خیلی… چسبناکه."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. At Nowruz, we give money and gifts.",
    "translations": {
     "fa": "آره. تو نوروز، پول و هدیه میدیم."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven o'clock! That's early!",
    "translations": {
     "fa": "ساعت هفت! زوده!"
@@ -199,8 +199,8 @@
       "presents",
       "anyone",
       "right",
-      "five",
-      "back"
+      "year",
+      "half"
      ],
      "suggestion": "Five? Last year it was half four! Right, put that back. If Mum sees us, no presents for anyone!",
      "suggestionFa": "پنج؟ پارسال چهار و نیم بود! خب، اونو بذار سر جاش. اگه مامان ببینه، به هیچ‌کس کادو نمی‌رسه!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

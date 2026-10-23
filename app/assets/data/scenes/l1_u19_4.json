@@ -164,8 +164,8 @@
     },
     {
      "keywords": [
-      "bright",
       "street",
+      "bright",
       "light"
      ],
      "suggestion": "The street light is very bright.",
@@ -279,8 +279,8 @@
     {
      "keywords": [
       "maybe",
-      "said",
       "same",
+      "said",
       "mum"
      ],
      "suggestion": "Maybe. My mum said the same!",
@@ -319,10 +319,10 @@
    "branches": [
     {
      "keywords": [
-      "night",
       "light",
-      "ryan",
-      "good"
+      "night",
+      "good",
+      "ryan"
      ],
      "suggestion": "Light off. Good night, Ryan!",
      "suggestionFa": "چراغ خاموش. شب بخیر رایان!",

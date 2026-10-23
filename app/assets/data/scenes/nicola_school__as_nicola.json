@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "nobody",
-      "funny",
       "feels",
       "likes",
+      "funny",
       "tummy"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's normal to feel nervous. Everyone will like you!",
    "translations": {
     "fa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "three",
-      "pick",
       "half",
       "will",
+      "pick",
       "up"
      ],
      "suggestion": "Will you pick me up at half three?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'll pick you up at half three. I promise.",
    "translations": {
     "fa": "آره، سه و نیم میام دنبالت. قول می‌دم."
@@ -73,9 +73,9 @@
      "keywords": [
       "teddy's",
       "coming",
-      "book",
       "okay",
-      "bag"
+      "book",
+      "bye"
      ],
      "suggestion": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
      "suggestionFa": "باشه. تدی هم میاد، تو کیف کتابم. خداحافظ!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, Nicola! Have a wonderful day!",
    "translations": {
     "fa": "خداحافظ نیکولا! روز فوق‌العاده‌ای داشته باشی!"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "painting",
-      "orange",
+      "autumn",
       "mine's",
-      "leaves",
-      "autumn"
+      "orange",
+      "leaves"
      ],
      "suggestion": "You came! It's half three! We did a painting of autumn leaves today. Mine's orange and gold.",
      "suggestionFa": "اومدی! سه و نیمه! امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds beautiful!",
    "translations": {
     "fa": "خیلی قشنگ به نظر میاد!"
@@ -125,7 +125,7 @@
       "drying",
       "bring",
       "guess",
-      "gold"
+      "star"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
      "suggestionFa": "داره خشک میشه. فردا میارمش خونه. و حدس بزن — یه ستارهٔ طلایی گرفتم!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A gold star? Well done you!",
    "translations": {
     "fa": "ستارهٔ طلایی؟ آفرین به تو!"
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "crayons",
       "sharing",
+      "crayons",
       "friend",
       "she's",
       "best"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sharing is so kind!",
    "translations": {
     "fa": "شریک شدن خیلی مهربونیه!"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "sometimes",
-      "giggly",
       "voices",
-      "funny",
-      "we're"
+      "giggly",
+      "we're",
+      "funny"
      ],
      "suggestion": "She does funny voices. Miss Hart says we're a bit too giggly sometimes.",
      "suggestionFa": "صداهای بامزه درمیاره. خانم هارت می‌گه گاهی زیادی ریز ریز می‌خندیم.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A little giggling is okay!",
    "translations": {
     "fa": "یه کم خندیدن اشکالی نداره!"
@@ -200,7 +200,7 @@
       "golden",
       "lunch",
       "time",
-      "will"
+      "then"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's golden time?",
    "translations": {
     "fa": "وقت طلایی چیه؟"
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "children",
-      "fingers",
       "nervous",
-      "fish",
+      "fingers",
+      "have",
       "play"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's ask your mum!",
    "translations": {
     "fa": "بیا از مامانت بپرسیم!"
@@ -263,7 +263,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

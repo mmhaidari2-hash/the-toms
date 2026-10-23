@@ -13,7 +13,7 @@ SPOTS = {s['id'] for s in json.load(open(os.path.join(A, 'data', 'spots.json')))
 # role -> (voice id, label): real-life strangers doing their job, voiced by the town's voices
 ROLES = {'barista': ('callum', 'Barista'), 'driver': ('dave', 'Bus driver'), 'neighbour': ('doris', 'Neighbour'),
          'staff': ('maya', 'Staff'), 'pharmacist': ('dawson', 'Pharmacist'), 'librarian': ('bennett', 'Librarian'),
-         'assistant': ('jade', 'Shop assistant'), 'clerk': ('receptionist', 'Post office clerk'), 'waiter': ('sophie', 'Waiter')}
+         'assistant': ('jade', 'Shop assistant'), 'clerk': ('receptionist', 'Post office clerk'), 'waiter': ('sophie', 'Waiter'), 'agent': ('agent', 'Letting agent')}
 LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1']
 MAXW = {'A1': 9, 'A2': 13, 'B1': 20, 'B2': 28, 'C1': 28}
 bad, out, m = [], [], None

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,9 +23,9 @@
      "keywords": [
       "kitchen",
       "circle",
-      "shape",
       "let's",
-      "play"
+      "shape",
+      "game"
      ],
      "suggestion": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
      "suggestionFa": "بیا یه بازی کنیم! یه شکل تو آشپزخونه پیدا کن. من یه دایره می‌بینم!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where? I can't see it.",
    "translations": {
     "fa": "کجا؟ نمی‌بینمش."
@@ -49,8 +49,8 @@
       "circle",
       "clock",
       "find",
-      "one",
-      "now"
+      "now",
+      "one"
      ],
      "suggestion": "Yes! The clock is a circle. Now you find one.",
      "suggestionFa": "آره! ساعت دایره‌ست. حالا تو یکی پیدا کن.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The window is a square.",
    "translations": {
     "fa": "پنجره مربعه."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "triangle",
       "sandwich",
+      "triangle",
+      "well",
       "done",
-      "turn",
-      "well"
+      "turn"
      ],
      "suggestion": "Well done! My turn. The sandwich is a triangle!",
      "suggestionFa": "آفرین! نوبت من. ساندویچ مثلثه!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Two triangles.",
    "translations": {
     "fa": "آره! دو تا مثلث."
@@ -98,8 +98,8 @@
      "keywords": [
       "sandwich",
       "ryan's",
-      "cross",
       "table",
+      "cross",
       "shape"
      ],
      "suggestion": "No! It's Ryan's sandwich. He gets cross. What shape is the table?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The table is a rectangle.",
    "translations": {
     "fa": "میز مستطیله."
@@ -125,7 +125,7 @@
       "biscuits",
       "that's",
       "about",
-      "word"
+      "hard"
      ],
      "suggestion": "A rectangle! That's a hard word. What about the biscuits?",
      "suggestionFa": "مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're circles.",
    "translations": {
     "fa": "دایره‌ان."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask your mum first.",
    "translations": {
     "fa": "اول از مامانت بپرس."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "round",
       "mummy",
-      "says",
+      "round",
       "star",
-      "one"
+      "says",
+      "now"
      ],
      "suggestion": "Mummy says yes! A round one. Now, a star! Can you see a star?",
      "suggestionFa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. Is there a star in the kitchen?",
    "translations": {
     "fa": "نه. تو آشپزخونه ستاره هست؟"
@@ -199,7 +199,7 @@
       "reading",
       "school",
       "fridge",
-      "gold",
+      "star",
       "from"
      ],
      "suggestion": "Yes! My gold star from school is on the fridge. I got it for reading.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Nicola!",
    "translations": {
     "fa": "آفرین نیکولا!"
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "thank",
-      "after",
       "again",
       "let's",
-      "play"
+      "after",
+      "game"
      ],
      "suggestion": "Thank you! You're good at this game. Let's play again after tea!",
      "suggestionFa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

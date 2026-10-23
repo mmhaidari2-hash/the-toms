@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "squashed",
       "school",
       "shoes",
-      "mummy",
-      "today"
+      "today",
+      "mummy"
      ],
      "suggestion": "My school shoes hurt! My toes are squashed! Mummy says new shoes today.",
      "suggestionFa": "کفش‌های مدرسه‌ام درد می‌کنن! انگشتای پام له شدن! مامان می‌گه امروز کفش نو.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's find some new ones.",
    "translations": {
     "fa": "بیا یه جفت نو پیدا کنیم."
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Go on, Nicola. Put your foot on it.",
    "translations": {
     "fa": "برو نیکولا. پات را بذار روش."
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which colour, Nicola?",
    "translations": {
     "fa": "کدوم رنگ نیکولا؟"
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "School shoes must be black, Nicola.",
    "translations": {
     "fa": "کفش مدرسه باید مشکی باشه نیکولا."
@@ -227,7 +227,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're nice, Nicola!",
    "translations": {
     "fa": "قشنگن نیکولا!"
@@ -251,7 +251,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Try a bigger size.",
    "translations": {
     "fa": "یه سایز بزرگ‌تر امتحان کن."
@@ -302,7 +302,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Walk to the mirror, Nicola.",
    "translations": {
     "fa": "تا آینه راه برو نیکولا."
@@ -310,8 +310,8 @@
    "branches": [
     {
      "keywords": [
-      "sparkle",
       "they're",
+      "sparkle",
       "better",
       "comfy",
       "look"
@@ -327,7 +327,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Perfect! Do you like them?",
    "translations": {
     "fa": "عالی! دوستشون داری؟"
@@ -380,7 +380,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are.",
    "translations": {
     "fa": "بفرمایید."
@@ -405,7 +405,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

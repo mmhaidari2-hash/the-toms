@@ -20,8 +20,8 @@
     {
      "keywords": [
       "failure",
-      "signal",
-      "what's"
+      "what's",
+      "signal"
      ],
      "suggestion": "What's a signal failure?",
      "suggestionFa": "خرابی سیگنال چیه؟",
@@ -200,7 +200,7 @@
       "company",
       "should",
       "might",
-      "tell"
+      "late"
      ],
      "suggestion": "Should I tell the company I might be late?",
      "suggestionFa": "به شرکت بگم ممکنه دیر برسم؟",
@@ -238,8 +238,8 @@
    "branches": [
     {
      "keywords": [
-      "failure",
       "minutes",
+      "failure",
       "there's",
       "signal"
      ],
@@ -302,7 +302,7 @@
       "remember",
       "let's",
       "i'll",
-      "bus"
+      "run"
      ],
      "suggestion": "I'll remember that. Let's run for the bus!",
      "suggestionFa": "یادم می‌مونه. بدو بریم اتوبوس!",

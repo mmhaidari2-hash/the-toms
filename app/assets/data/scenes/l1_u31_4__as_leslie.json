@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "coming",
       "thanks",
       "nicola",
-      "three"
+      "doors"
      ],
      "suggestion": "Thanks for coming to pick Nicola up with me. The doors open at quarter past three.",
      "suggestionFa": "ممنون که باهام اومدی دنبال نیکولا. درها سه و ربع باز میشن.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem. It's nice to see the school.",
    "translations": {
     "fa": "مشکلی نیست. دیدن مدرسه خوبه."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see Nicola!",
    "translations": {
     "fa": "نیکولا را می‌بینم!"
@@ -73,9 +73,9 @@
      "keywords": [
       "sweetheart",
       "hello",
-      "how",
       "was",
-      "day"
+      "day",
+      "how"
      ],
      "suggestion": "Hello, sweetheart! How was your day?",
      "suggestionFa": "سلام عزیزم! روزت چطور بود؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask her what she learnt!",
    "translations": {
     "fa": "ازش بپرس چی یاد گرفت!"
@@ -149,8 +149,8 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
-   "text": "S for Mehdi? No…",
+   "speaker": "learner",
+   "text": "S for {you}? No…",
    "translations": {
     "fa": "S برای {you}؟ نه…"
    },
@@ -173,7 +173,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Was it pizza day?",
    "translations": {
     "fa": "روز پیتزا بود؟"
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three peas! Well done!",
    "translations": {
     "fa": "سه تا نخود فرنگی! آفرین!"
@@ -235,8 +235,8 @@
       "minutes",
       "twenty",
       "bring",
-      "only",
-      "home"
+      "home",
+      "only"
      ],
      "suggestion": "Only for twenty minutes. Did you bring your book bag home?",
      "suggestionFa": "فقط بیست دقیقه. کیف کتابت را آوردی؟",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here it is. I'm carrying it.",
    "translations": {
     "fa": "ایناهاش. من دارمش."
@@ -260,8 +260,8 @@
       "minutes",
       "twenty",
       "right",
-      "phew",
-      "bath"
+      "bath",
+      "then"
      ],
      "suggestion": "Phew. Right, twenty minutes at the park, then home for tea and a bath. Off we go!",
      "suggestionFa": "آخیش. خب، بیست دقیقه پارک، بعد خونه برای شام و حموم. بریم!",
@@ -274,7 +274,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

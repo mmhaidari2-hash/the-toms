@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Which ward is he on?",
    "translations": {
     "fa": "البته. تو کدوم بخشه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this? It's very cold!",
    "translations": {
     "fa": "این‌جوری؟ خیلی سرده!"
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, George. Grapes! Healthy grapes.",
    "translations": {
     "fa": "نه جورج. انگور! انگور سالم."
@@ -179,7 +179,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are you sleeping well?",
    "translations": {
     "fa": "خوب می‌خوابی؟"
@@ -236,7 +236,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Beige food? Ha! I'll bring you Persian rice tomorrow.",
    "translations": {
     "fa": "غذای کرمی؟ ها! فردا برات برنج ایرانی میارم."
@@ -291,7 +291,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Glasses and a newspaper. I'll bring them tomorrow.",
    "translations": {
     "fa": "عینک و روزنامه. فردا میارمشون."
@@ -302,8 +302,8 @@
       "visitors",
       "tomorrow",
       "coming",
-      "mum's",
-      "we'll"
+      "we'll",
+      "nurse"
      ],
      "suggestion": "Mum's coming at six. Right, Dad, the nurse is coming — that means \"visitors out\". We'll see you tomorrow.",
      "suggestionFa": "مامان ساعت شش میاد. خب بابا، پرستار داره میاد — یعنی «ملاقاتی‌ها بیرون». فردا می‌بینیمت.",
@@ -316,7 +316,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, George. Get some rest!",
    "translations": {
     "fa": "خداحافظ جورج. استراحت کن!"

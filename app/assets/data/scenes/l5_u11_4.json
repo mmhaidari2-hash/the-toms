@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "speaker",
       "details",
+      "speaker",
       "don't",
       "give"
      ],
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "they",
       "wait",
       "call",
+      "they",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "pressure",
-      "fraud",
       "signs",
-      "panic"
+      "panic",
+      "fraud"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -142,8 +142,8 @@
      "keywords": [
       "comfortable",
       "directly",
-      "tell",
-      "bank"
+      "i'll",
+      "call"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
      "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "number",
-      "card",
-      "back"
+      "back",
+      "card"
      ],
      "suggestion": "Call the number on the back of your card.",
      "suggestionFa": "به شمارهٔ پشت کارتت زنگ بزن.",
@@ -254,10 +254,10 @@
     },
     {
      "keywords": [
-      "thames",
       "claiming",
+      "thames",
       "report",
-      "from"
+      "we'd"
      ],
      "suggestion": "We'd like to report a scam call claiming to be from Thames Bank.",
      "suggestionFa": "می‌خوایم یه تماس کلاهبرداری به اسم بانک تیمز گزارش بدیم.",
@@ -335,8 +335,8 @@
    "branches": [
     {
      "keywords": [
-      "action",
       "what's",
+      "report",
       "fraud"
      ],
      "suggestion": "What's Report Fraud?",
@@ -350,7 +350,7 @@
       "password",
       "banking",
       "should",
-      "change"
+      "online"
      ],
      "suggestion": "Should he change his online banking password?",
      "suggestionFa": "باید رمز بانکداری آنلاینش را عوض کنه؟",
@@ -390,8 +390,8 @@
      "keywords": [
       "tonight",
       "report",
-      "thank",
-      "we'll"
+      "we'll",
+      "thank"
      ],
      "suggestion": "We'll report it tonight. Thank you, Siân.",
      "suggestionFa": "امشب گزارشش می‌دیم. ممنون سیان.",

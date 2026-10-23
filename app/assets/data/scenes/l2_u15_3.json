@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "think",
       "wrong",
+      "think",
       "sign"
      ],
      "suggestion": "The sign is wrong, I think.",
@@ -281,8 +281,8 @@
      "keywords": [
       "message",
       "sorry",
-      "late",
-      "send"
+      "send",
+      "i'll"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
      "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
@@ -345,10 +345,10 @@
     },
     {
      "keywords": [
+      "three",
       "buses",
       "shall",
-      "which",
-      "three"
+      "which"
      ],
      "suggestion": "Three buses! Which one shall we take?",
      "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",

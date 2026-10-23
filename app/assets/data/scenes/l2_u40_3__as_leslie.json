@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "swimming",
       "saturday",
+      "swimming",
+      "minutes",
       "morning",
-      "lessons",
-      "minutes"
+      "lessons"
      ],
      "suggestion": "Ah, Saturday morning. Twenty minutes of peace before swimming lessons. Ugh — look at this table. Sticky. Crumbs. Is that jam?",
      "suggestionFa": "آه، صبح شنبه. بیست دقیقه آرامش قبل از کلاس شنا. اَه — این میز را ببین. چسبناک. خرده‌نون. اون مربائه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it's jam. And there's a coffee ring.",
    "translations": {
     "fa": "آره، مرباست. و یه جای حلقهٔ قهوه هم هست."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "practise",
       "callum's",
+      "practise",
       "english",
       "polite",
       "please"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Excuse me, could you wipe this table, please?",
    "translations": {
     "fa": "ببخشید، میشه این میز را پاک کنید لطفاً؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "sometimes",
       "backwards",
-      "english",
       "british",
-      "coming"
+      "english",
+      "polite"
      ],
      "suggestion": "Very polite! She said, \"Not at all!\" — and she's coming. See? That means yes. British English is backwards sometimes.",
      "suggestionFa": "خیلی مؤدبانه! گفت «اصلاً!» — و داره میاد. دیدی؟ یعنی بله. انگلیسی بریتانیایی بعضی وقتا برعکسه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Not at all\" means yes? That's confusing!",
    "translations": {
     "fa": "«اصلاً» یعنی بله؟ گیج‌کننده‌ست!"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "another",
-      "window",
       "sticky",
+      "window",
       "maybe",
-      "table"
+      "there"
      ],
      "suggestion": "Hmm. She wiped it, but it's still sticky. And the chair is wet. Is there another table? By the window, maybe?",
      "suggestionFa": "هوم. پاکش کرد، ولی هنوز چسبناکه. و صندلی خیسه. میز دیگه‌ای هست؟ شاید کنار پنجره؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The window table is free. Let's move.",
    "translations": {
     "fa": "میز کنار پنجره خالیه. بیا جابه‌جا شیم."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's your cup. This table is much better.",
    "translations": {
     "fa": "اینم فنجونت. این میز خیلی بهتره."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's fine, Callum. The new girl was very nice.",
    "translations": {
     "fa": "اشکالی نداره کالوم. دختر جدید خیلی خوب بود."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten minutes! Drink fast!",
    "translations": {
     "fa": "ده دقیقه! سریع بخور!"
@@ -198,8 +198,8 @@
      "keywords": [
       "motherhood",
       "minutes",
-      "twenty",
       "that's",
+      "twenty",
       "time's"
      ],
      "suggestion": "You're an angel. Next time's on me. Twenty minutes of peace — I got eight. That's motherhood!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

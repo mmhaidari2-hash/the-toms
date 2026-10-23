@@ -14,7 +14,7 @@
   "r1": {
    "id": "r1",
    "speaker": "tom",
-   "text": "Mehdi, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
+   "text": "{you}, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
    "translations": {
     "fa": "{you}، یه سؤال سریع. کتاب خوندن. نیکولا الان رو «زرد»ه. زرد یعنی چی؟ خوبه؟ من فقط رنگ اتوبوس‌ها را بلدم!"
    },
@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think the colours are reading levels.",
    "translations": {
     "fa": "فکر کنم رنگ‌ها سطح خوندنن."
@@ -112,7 +112,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two levels! Well done, Nicola!",
    "translations": {
     "fa": "دو سطح! آفرین نیکولا!"
@@ -122,9 +122,9 @@
      "keywords": [
       "they're",
       "tricky",
-      "can't",
+      "daddy",
       "sound",
-      "words"
+      "can't"
      ],
      "suggestion": "Daddy, I can read \"the\" and \"said\" now! They're tricky words. You can't sound them out.",
      "suggestionFa": "بابایی، الان می‌تونم «د» و «سِد» را بخونم! کلمه‌های سختن. نمی‌شه صداهاشون را جدا خوند.",
@@ -137,7 +137,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tricky words? Show me, Nicola!",
    "translations": {
     "fa": "کلمه‌های سخت؟ نشونم بده نیکولا!"
@@ -201,7 +201,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "English spelling is very strange!",
    "translations": {
     "fa": "املای انگلیسی خیلی عجیبه!"
@@ -209,11 +209,11 @@
    "branches": [
     {
      "keywords": [
-      "reading",
       "minutes",
+      "reading",
       "record",
-      "every",
-      "night"
+      "night",
+      "daddy"
      ],
      "suggestion": "Miss Ellis says read every night. Ten minutes. And Daddy has to sign the reading record!",
      "suggestionFa": "خانم الیس میگه هر شب بخونید. ده دقیقه. و بابایی باید دفتر خوندن را امضا کنه!",
@@ -226,7 +226,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten minutes every night. That's easy!",
    "translations": {
     "fa": "هر شب ده دقیقه. آسونه!"
@@ -282,7 +282,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe write something different each night!",
    "translations": {
     "fa": "شاید هر شب یه چیز متفاوت بنویس!"
@@ -338,7 +338,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I listen to her read tonight?",
    "translations": {
     "fa": "می‌تونم امشب گوش بدم بخونه؟"
@@ -350,9 +350,9 @@
       "read",
       "i'll",
       "got",
-      "red"
+      "bus"
      ],
-     "suggestion": "Yes! Mehdi can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
+     "suggestion": "Yes! {you} can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
      "suggestionFa": "آره! {you} می‌تونه گوش بده. «اتوبوس بزرگ» را می‌خونم. یه اتوبوس قرمز توشه!",
      "trustDelta": 5,
      "next": "r13",
@@ -363,7 +363,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

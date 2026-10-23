@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wash your hands, Nicola.",
    "translations": {
     "fa": "دستات را بشور نیکولا."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "reach",
+      "can't",
       "help",
       "tap",
       "can"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Stand on this stool.",
    "translations": {
     "fa": "روی این چهارپایه وایسا."
@@ -73,8 +73,8 @@
      "keywords": [
       "water",
       "want",
-      "cold",
       "warm",
+      "cold",
       "brr"
      ],
      "suggestion": "Brr! It's cold! I want warm water.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wait a moment. Now it's warm.",
    "translations": {
     "fa": "یه لحظه صبر کن. حالا گرمه."
@@ -98,8 +98,8 @@
      "keywords": [
       "seconds",
       "twenty",
-      "mummy",
       "water",
+      "mummy",
       "first"
      ],
      "suggestion": "First water, then soap. Mummy says twenty seconds.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's count to twenty.",
    "translations": {
     "fa": "بیا تا بیست بشمریم."
@@ -125,7 +125,7 @@
       "bubbles",
       "twenty",
       "three",
-      "one"
+      "two"
      ],
      "suggestion": "One, two, three… twenty! Bubbles everywhere!",
      "suggestionFa": "یک، دو، سه… بیست! همه جا حباب!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Now rinse off the soap.",
    "translations": {
     "fa": "حالا صابون را آب بکش."
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "where's",
-      "towel",
       "clean",
+      "towel",
       "all"
      ],
      "suggestion": "All clean! Where's the towel?",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's on the hook.",
    "translations": {
     "fa": "روی آویزه."
@@ -171,8 +171,8 @@
     {
      "keywords": [
       "before",
-      "hands",
       "lunch",
+      "hands",
       "when",
       "wash"
      ],
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I wash my hands before I eat.",
    "translations": {
     "fa": "قبل از غذا دستام را می‌شورم."
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "biscuit",
+      "tiger",
       "touch",
       "after",
-      "tiger",
       "have"
      ],
      "suggestion": "Me too! And after I touch Tiger the cat. Can I have a biscuit now?",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, one biscuit.",
    "translations": {
     "fa": "آره، یه بیسکویت."
@@ -223,8 +223,8 @@
       "chocolate",
       "biscuit",
       "mummy",
-      "says",
-      "have"
+      "have",
+      "says"
      ],
      "suggestion": "Mummy! Can I have a biscuit? She says yes! A chocolate one!",
      "suggestionFa": "مامان! می‌تونم بیسکویت بخورم؟ می‌گه آره! یه شکلاتی!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "roared",
       "moved",
       "best",
-      "see",
-      "rex"
+      "rex",
+      "was"
      ],
      "suggestion": "That was the BEST! Did you see the T. rex? It moved! And it roared!",
      "suggestionFa": "فوق‌العاده بود! تیرکس را دیدی؟ تکون خورد! و غرش کرد!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I saw it! It was scary!",
    "translations": {
     "fa": "دیدمش! ترسناک بود!"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Let's look at the cakes.",
    "translations": {
     "fa": "آره. بیا کیک‌ها را ببینیم."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's share the chocolate cake.",
    "translations": {
     "fa": "بیا کیک شکلاتی را شریکی بخوریم."
@@ -98,9 +98,9 @@
      "keywords": [
       "chocolate",
       "please",
-      "magic",
       "mummy",
-      "word"
+      "magic",
+      "cake"
      ],
      "suggestion": "Chocolate cake! Can you ask the lady? Say \"please\". Mummy says \"please\" is a magic word.",
      "suggestionFa": "کیک شکلاتی! می‌شه از خانمه بخوای؟ بگو «لطفاً». مامان میگه «لطفاً» کلمهٔ جادوییه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello. Could we have a chocolate cake, please?",
    "translations": {
     "fa": "سلام. می‌شه یه کیک شکلاتی بدید، لطفاً؟"
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sophie! What a surprise!",
    "translations": {
     "fa": "سوفی! چه غافلگیری!"
@@ -229,7 +229,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Sophie! That's very kind.",
    "translations": {
     "fa": "ممنون سوفی! خیلی لطف داری."
@@ -239,7 +239,7 @@
      "keywords": [
       "dinosaur",
       "bigger",
-      "cream",
+      "house",
       "extra",
       "whale"
      ],
@@ -254,7 +254,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bigger than Daddy's bus?",
    "translations": {
     "fa": "بزرگ‌تر از اتوبوس بابا؟"
@@ -264,8 +264,8 @@
      "keywords": [
       "dinosaurs",
       "bigger",
-      "buses",
       "loved",
+      "buses",
       "when"
      ],
      "suggestion": "Bigger than TWO buses! I loved the T. rex. When I grow up, I'll dig up dinosaurs!",
@@ -279,7 +279,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

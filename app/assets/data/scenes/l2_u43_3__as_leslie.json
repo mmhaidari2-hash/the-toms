@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "watching",
       "london",
       "cities",
-      "about"
+      "tom's"
      ],
      "suggestion": "Tom's watching a documentary about cities. He says London is the best city in the world. What do you think?",
      "suggestionFa": "تام داره یه مستند دربارهٔ شهرها می‌بینه. میگه لندن بهترین شهر دنیاست. نظر تو چیه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's great, but it's very expensive.",
    "translations": {
     "fa": "عالیه، ولی خیلی گرونه."
@@ -49,8 +49,8 @@
       "heartbroken",
       "compare",
       "london",
-      "tehran",
-      "busier"
+      "busier",
+      "tehran"
      ],
      "suggestion": "Ha! He'll be heartbroken. OK — compare them. Is London busier than Tehran?",
      "suggestionFa": "ها! دلش می‌شکنه. باشه — مقایسه‌شون کن. لندن از تهران شلوغ‌تره؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. Tehran is busier and the traffic is worse.",
    "translations": {
     "fa": "نه. تهران شلوغ‌تره و ترافیکش بدتره."
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "transport",
-      "imagine",
       "traffic",
+      "imagine",
       "london",
       "public"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tehran's metro is newer and cheaper.",
    "translations": {
     "fa": "متروی تهران جدیدتر و ارزون‌تره."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "what's",
-      "about",
+      "london",
+      "thing",
       "again",
-      "thing"
+      "about"
      ],
      "suggestion": "The 38! Tom will love you again. What's the best thing about London for you?",
      "suggestionFa": "۳۸! تام دوباره عاشقت میشه. برای تو بهترین چیز لندن چیه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The parks. There are so many green spaces.",
    "translations": {
     "fa": "پارک‌ها. کلی فضای سبز هست."
@@ -123,8 +123,8 @@
      "keywords": [
       "museums",
       "britain",
-      "london",
       "things",
+      "london",
       "honest"
      ],
      "suggestion": "True. Free museums are one of the best things about Britain. And the worst thing about London? Be honest!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The rent! It's much more expensive than Tehran.",
    "translations": {
     "fa": "اجاره! خیلی از تهران گرون‌تره."
@@ -149,8 +149,8 @@
       "londoner",
       "weather",
       "prefer",
-      "can't",
-      "which"
+      "every",
+      "can't"
      ],
      "suggestion": "The rent and the weather. Every Londoner says the same! So, which do you prefer? You can't say both.",
      "suggestionFa": "اجاره و هوا. همهٔ لندنی‌ها همینو میگن! خب، کدوم را ترجیح میدی؟ نمی‌تونی بگی هر دو.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I prefer Tehran for food, London for parks.",
    "translations": {
     "fa": "برای غذا تهران را ترجیح میدم، برای پارک لندن."
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "diplomatic",
-      "hackney",
       "prefers",
+      "hackney",
       "london",
       "hear"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shh, Leslie! It's a secret!",
    "translations": {
     "fa": "هیس لزلی! رازه!"
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! I'll hold you to that.",
    "translations": {
     "fa": "ممنون تام! یادم می‌مونه‌ها."
@@ -274,7 +274,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

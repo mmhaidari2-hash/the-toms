@@ -1,0 +1,69 @@
+## H3 | Moving in | اسباب‌کشی | hallway | Check your deposit is protected, do the inventory and set up bills and council tax | مطمئن شوی ودیعه حفاظت شده، فهرست اموال را چک کنی و قبض‌ها و مالیات شورا را راه بیندازی | B1
+
+# est_3_1 | agent | Your deposit and rent in advance | ودیعه و اجارهٔ پیش‌پرداخت | Must / mustn't / don't have to | باید / نباید / لازم نیست | hallway
+agent: Welcome back, {you}! Before you get the keys, there's the tenancy deposit and your first month's rent. | خوش برگشتید {you}! قبل از گرفتن کلیدها، ودیعهٔ اجاره و اجارهٔ ماه اول هست.
+> How much is the deposit? | ودیعه چقدره؟
+> Can I pay the first three months now? | می‌تونم سه ماه اول را الان بدم؟
+W: keys=کلیدها ; tenancy deposit=ودیعهٔ اجاره ; first month's rent=اجارهٔ ماه اول
+agent: The deposit is five weeks' rent. That's the legal limit when the rent is under fifty thousand a year. | ودیعه اجارهٔ پنج هفته‌ست. وقتی اجاره زیر پنجاه هزار در ساله، این حد قانونیه.
+> So that's about one thousand three hundred and eighty pounds? | پس حدود هزار و سیصد و هشتاد پونده؟
+> And the first month's rent as well? | و اجارهٔ ماه اول هم؟
+W: five weeks' rent=اجارهٔ پنج هفته ; legal limit=حد قانونی ; under=زیر ؛ کمتر از
+agent: Exactly, and one month's rent. We're not allowed to ask for more than one month in advance any more, so please don't pay three. | دقیقاً، و اجارهٔ یه ماه. دیگه اجازه نداریم بیشتر از یه ماه پیش‌پرداخت بخوایم، پس لطفاً سه ماه ندید.
+> Oh, I didn't know that. When did it change? | اوه، نمی‌دونستم. کِی عوض شد؟
+> Good. Where will my deposit be kept? | خوبه. ودیعه‌م کجا نگه داشته می‌شه؟
+W: in advance=پیش‌پرداخت ؛ از قبل ; not allowed=مجاز نیست ; any more=دیگر
+C: In England, a landlord can ask for no more than one month's rent after you sign and before you move in (Renters' Rights Act, 2026). | در انگلستان صاحبخانه پس از امضا و پیش از ورود حداکثر یک ماه اجاره می‌تواند بخواهد.
+agent: The deposit goes into a government-approved scheme within thirty days. There are three: the DPS, mydeposits and TDS. | ودیعه ظرف سی روز به یه طرح تأییدشدهٔ دولتی می‌ره. سه تا هست: DPS، mydeposits و TDS.
+> Which one will you use? | شما از کدوم استفاده می‌کنید؟
+> How will I know it's protected? | از کجا بفهمم حفاظت شده؟
+W: government-approved=تأییدشده توسط دولت ; scheme=طرح ; within thirty days=ظرف سی روز ; protected=حفاظت‌شده
+X: how I know ; I know how => How will I know it's protected? We'll send you the details. | How will I know it's protected? | از کجا بفهمم حفاظت شده؟
+agent: We use the DPS. You'll get an email with the "prescribed information": the scheme, the amount and how to get it back. Keep it safe. | ما از DPS استفاده می‌کنیم. یه ایمیل با «اطلاعات الزامی» می‌گیرید: طرح، مبلغ و روش پس گرفتنش. نگهش دارید.
+> I'll check it on the scheme's website too. | تو سایت طرح هم چکش می‌کنم.
+> What if you forget to protect it? | اگه یادتون بره حفاظتش کنید چی؟
+W: prescribed information=اطلاعات الزامی ؛ اطلاعات مقرر ; amount=مبلغ ; keep it safe=نگهش دار
+C: If the deposit isn't protected, the landlord can't use most legal reasons to end the tenancy, and a court can order them to pay you compensation. | اگر ودیعه حفاظت نشود، صاحبخانه برای بیشتر دلایل تخلیه مشکل دارد و دادگاه می‌تواند حکم غرامت بدهد.
+agent: That won't happen with us! But it's a smart question. Right, let's go and do the inventory. | با ما چنین اتفاقی نمی‌افته! ولی سؤال هوشمندانه‌ایه. خب، بریم فهرست اموال را انجام بدیم.
+
+# est_3_2 | agent | Inventory and check-in | فهرست اموال و تحویل | There's a… on the… / It's been… | یک … روی … هست | living
+agent: This is the inventory. It lists everything in the flat and its condition, with photos. Let's check it together, room by room. | این فهرست اموالِ. همه چیزای آپارتمان و وضعیت‌شون را با عکس نوشته. بیاید با هم اتاق به اتاق چکش کنیم.
+> Good idea. Can I take my own photos too? | فکر خوبیه. می‌تونم خودم هم عکس بگیرم؟
+> What does "condition" mean here? | «وضعیت» اینجا یعنی چی؟
+W: inventory=فهرست اموال ؛ صورت‌جلسهٔ تحویل ; condition=وضعیت ؛ حالت ; room by room=اتاق به اتاق
+agent: Absolutely — photos with the date are a great idea. Now, the sofa: "good condition, small mark on left arm". | حتماً — عکس با تاریخ فکر عالی‌ایه. خب، مبل: «وضعیت خوب، یه لک کوچیک روی دستهٔ چپ».
+> Yes, I can see the mark. That's right. | آره، لک را می‌بینم. درسته.
+> There's also a scratch on the coffee table. | یه خط هم روی میز جلومبلی هست.
+W: mark=لک ؛ لکه ; scratch=خط ؛ خراش ; coffee table=میز جلومبلی
+X: there is scratch ; is scratch on => There's a scratch on the coffee table? Let's add it. | There's a scratch on the coffee table. | یه خط روی میز جلومبلی هست.
+agent: Well spotted. I'll add "scratch on coffee table". Anything you notice later, email us within seven days and we'll add it. | خوب دیدید. «خط روی میز جلومبلی» را اضافه می‌کنم. هر چیزی بعداً دیدید، ظرف هفت روز ایمیل کنید اضافه‌ش می‌کنیم.
+> The bathroom tap is dripping. Can someone fix it? | شیر حموم چکه می‌کنه. کسی می‌تونه درستش کنه؟
+> Do I need to sign the inventory? | باید فهرست را امضا کنم؟
+W: well spotted=خوب دیدی ; notice=متوجه شدن ; tap=شیر آب ; dripping=چکه کردن
+C: At the end of the tenancy, the flat is checked against this inventory. Damage beyond normal "wear and tear" can come out of the deposit. | در پایان اجاره، آپارتمان با همین فهرست مقایسه می‌شود؛ خرابی فراتر از استهلاک عادی از ودیعه کم می‌شود.
+agent: I'll report the tap to the landlord today. And yes, please sign here when you're happy. Let's also take the meter readings. | امروز شیر را به صاحبخونه گزارش می‌دم. و بله، وقتی راضی بودید اینجا امضا کنید. بیاید شمارهٔ کنتورها را هم بخونیم.
+> Where are the meters? | کنتورها کجان؟
+> Why do we need the readings? | چرا شماره‌ها را لازم داریم؟
+W: report=گزارش دادن ; sign=امضا کردن ; meter reading=شمارهٔ کنتور
+agent: Under the stairs. With today's readings, you only pay for the gas and electricity you use from today. Here are your keys! | زیر پله‌ها. با شماره‌های امروز، فقط پول گاز و برقی را می‌دید که از امروز مصرف می‌کنید. این هم کلیدهاتون!
+
+# est_3_3 | agent | Bills and council tax | قبض‌ها و مالیات شورا | First…, then…, after that… | اول…، بعد…، بعد از آن… | kitchen
+agent: Settling in OK? I've made you a list of bills to set up. First, council tax: tell Hackney Council you've moved in. | جا افتادید؟ یه فهرست از قبض‌هایی که باید راه بندازید براتون درست کردم. اول، مالیات شورا: به شورای هاکنی بگید اسباب‌کشی کردید.
+> How do I tell the council? | چطور به شورا بگم؟
+> How much is council tax for band B? | مالیات شورا برای گروه B چقدره؟
+W: settle in=جا افتادن ؛ مستقر شدن ; set up=راه انداختن ; council=شورای محلی ؛ شهرداری
+agent: You can do it online on the council's website. Each council sets its own price. You usually pay in ten monthly instalments. | می‌تونید آنلاین تو سایت شورا انجامش بدید. هر شورا قیمت خودش را تعیین می‌کنه. معمولاً تو ده قسط ماهانه پرداخت می‌کنید.
+> I live alone. Is there a discount? | تنها زندگی می‌کنم. تخفیف هست؟
+> Ten instalments? So nothing in February and March? | ده قسط؟ پس فوریه و مارس هیچی؟
+W: instalments=قسط‌ها ; sets its own price=قیمت خودش را تعیین می‌کند ; discount=تخفیف
+C: If you're the only adult in your home, you can get a 25% single person discount on council tax. Full-time students usually don't pay. | اگر تنها بزرگسال خانه باشی ۲۵٪ تخفیف مالیات شورا می‌گیری؛ دانشجوهای تمام‌وقت معمولاً نمی‌پردازند.
+agent: Yes — if you're the only adult, you get twenty-five per cent off. Ask for the single person discount. | بله — اگه تنها بزرگسال باشید، بیست و پنج درصد تخفیف می‌گیرید. تخفیف تک‌نفره را درخواست کنید.
+> Great. What should I do after that? | عالیه. بعدش چی کار کنم؟
+> What about gas and electricity? | گاز و برق چی؟
+W: twenty-five per cent off=بیست و پنج درصد تخفیف ; single person discount=تخفیف تک‌نفره ; after that=بعد از آن
+agent: Then give the energy supplier your meter readings. After that: water, broadband, and a TV licence for live TV or BBC iPlayer. | بعد شمارهٔ کنتورها را به شرکت انرژی بدید. بعد از اون: آب، اینترنت، و مجوز تلویزیون برای پخش زنده یا BBC iPlayer.
+> Can I change energy supplier? | می‌تونم شرکت انرژی را عوض کنم؟
+> Do I really need a TV licence? | واقعاً مجوز تلویزیون لازمه؟
+W: energy supplier=شرکت تأمین انرژی ; water company=شرکت آب ; TV licence=مجوز تلویزیون
+X: I need really ; need I TV licence => Do I really need a TV licence? Only for live TV or iPlayer. | Do I really need a TV licence? | واقعاً مجوز تلویزیون لازم دارم؟
+agent: You can switch supplier if your name is on the bill, and you only need a TV licence for live TV or iPlayer. Put all the dates in your phone! | اگه اسمتون روی قبض باشه می‌تونید شرکت را عوض کنید، و مجوز تلویزیون فقط برای پخش زنده یا iPlayer لازمه. همهٔ تاریخ‌ها را تو گوشی‌تون بنویسید!

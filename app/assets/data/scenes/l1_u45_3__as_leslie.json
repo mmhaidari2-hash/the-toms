@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "listen",
       "can't",
       "could",
-      "bird"
+      "wish"
      ],
      "suggestion": "Listen to that bird! I wish I could whistle. I can't whistle at all! Can you?",
      "suggestionFa": "به اون پرنده گوش کن! کاش سوت زدن بلد بودم. اصلاً نمی‌تونم سوت بزنم! تو می‌تونی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can whistle. Listen!",
    "translations": {
     "fa": "آره، سوت بلدم. گوش کن!"
@@ -48,9 +48,9 @@
      "keywords": [
       "teach",
       "just",
-      "pfff",
       "blow",
-      "air"
+      "pfff",
+      "bad"
      ],
      "suggestion": "Teach me! I'm bad at it. I just blow air. Pfff!",
      "suggestionFa": "یادم بده! تو این کار بدم. فقط باد میدم. پففف!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Make your lips small, like an O.",
    "translations": {
     "fa": "لب‌هات را کوچیک کن، مثل یه O."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! You're getting good at it!",
    "translations": {
     "fa": "آره! داری خوب میشی!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can't sing. I'm terrible!",
    "translations": {
     "fa": "آواز بلد نیستم. افتضاحم!"
@@ -124,7 +124,7 @@
       "everyone",
       "persian",
       "little",
-      "song",
+      "just",
       "sing"
      ],
      "suggestion": "Everyone can sing! Can you sing a Persian song for me? Just a little one?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No way! Not in the park!",
    "translations": {
     "fa": "عمراً! نه تو پارک!"
@@ -148,8 +148,8 @@
      "keywords": [
       "beautiful",
       "singing",
-      "laugh",
       "won't",
+      "laugh",
       "good"
      ],
      "suggestion": "I won't laugh! … That was beautiful! You're good at singing!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you! I'm still bad at whistling.",
    "translations": {
     "fa": "ممنون! ولی هنوز تو سوت بدم."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

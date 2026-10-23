@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "everybody",
       "fireworks",
+      "everybody",
       "midnight",
       "minutes",
       "drinks"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got my juice!",
    "translations": {
     "fa": "آبمیوه‌م را دارم!"
@@ -49,7 +49,7 @@
       "millions",
       "seconds",
       "people",
-      "count",
+      "river",
       "watch"
      ],
      "suggestion": "By the river, at Big Ben. Millions of people watch it. Ten seconds! Count with me!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten, nine, eight…",
    "translations": {
     "fa": "ده، نه، هشت…"
@@ -76,7 +76,7 @@
       "year",
       "new"
      ],
-     "suggestion": "HAPPY NEW YEAR! Happy New Year, love! Happy New Year, Mehdi!",
+     "suggestion": "HAPPY NEW YEAR! Happy New Year, love! Happy New Year, {you}!",
      "suggestionFa": "سال نو مبارک! سال نو مبارک عزیزم! سال نو مبارک {you}!",
      "trustDelta": 5,
      "next": "r4",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Happy New Year, Tom!",
    "translations": {
     "fa": "سال نو مبارک تام!"
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm going to speak better English.",
    "translations": {
     "fa": "می‌خوام بهتر انگلیسی حرف بزنم."
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "brilliant",
-      "going",
       "jokes",
       "fewer",
-      "mine"
+      "going",
+      "tell"
      ],
      "suggestion": "Brilliant! Mine is… I'm going to tell fewer jokes.",
      "suggestionFa": "عالی! مال من… می‌خوام کمتر جوک بگم.",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, Tom! We love your jokes!",
    "translations": {
     "fa": "نه تام! ما عاشق جوک‌هاتیم!"
@@ -190,7 +190,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's hard, Leslie!",
    "translations": {
     "fa": "سخته لزلی!"
@@ -215,7 +215,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know the words either!",
    "translations": {
     "fa": "منم کلماتش را بلد نیستم!"
@@ -226,10 +226,10 @@
       "celebrate",
       "perfect",
       "nowruz",
-      "years",
-      "twice"
+      "twice",
+      "years"
      ],
-     "suggestion": "Perfect! When is your New Year, Mehdi? Nowruz, in March? Then we can celebrate twice. Two New Years!",
+     "suggestion": "Perfect! When is your New Year, {you}? Nowruz, in March? Then we can celebrate twice. Two New Years!",
      "suggestionFa": "عالی! سال نو تو کیه {you}؟ نوروز، تو مارس؟ پس می‌تونیم دو بار جشن بگیریم. دو تا سال نو!",
      "trustDelta": 5,
      "next": "r10",
@@ -240,7 +240,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

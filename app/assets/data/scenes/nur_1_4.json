@@ -112,10 +112,10 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "let's",
-      "tower",
-      "photo"
+      "photo",
+      "first",
+      "tower"
      ],
      "suggestion": "Let's take a photo of your tower first.",
      "suggestionFa": "بیا اول از برجت عکس بگیریم.",
@@ -126,8 +126,8 @@
     {
      "keywords": [
       "tomorrow",
-      "again",
       "build",
+      "again",
       "can"
      ],
      "suggestion": "You can build it again tomorrow.",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "blocks",
       "please",
+      "blocks",
       "box"
      ],
      "suggestion": "Blocks in the box, please!",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "let's",
-      "cars",
       "away",
+      "cars",
       "put"
      ],
      "suggestion": "Let's put the cars away too.",

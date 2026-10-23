@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's smiling again!",
    "translations": {
     "fa": "دوباره داره لبخند می‌زنه!"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "yesterday",
-      "normal",
       "thirty",
+      "normal",
       "point",
       "nine"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's much better than yesterday.",
    "translations": {
     "fa": "از دیروز خیلی بهتره."
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He wants to play!",
    "translations": {
     "fa": "می‌خواد بازی کنه!"
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "eating",
+      "that's",
       "always",
       "banana",
       "wants"
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a banana.",
    "translations": {
     "fa": "بفرما یه موز."
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He wants more!",
    "translations": {
     "fa": "بیشتر می‌خواد!"
@@ -197,12 +197,12 @@
     {
      "keywords": [
       "brilliant",
-      "banana",
       "eating",
       "better",
+      "banana",
       "worse"
      ],
-     "suggestion": "More banana! Brilliant. He's eating better too. And you, Mehdi? Is your cold better or worse?",
+     "suggestion": "More banana! Brilliant. He's eating better too. And you, {you}? Is your cold better or worse?",
      "suggestionFa": "موز بیشتر! عالی. بهتر هم می‌خوره. و تو {you}؟ سرماخوردگیت بهتره یا بدتر؟",
      "trustDelta": 5,
      "next": "r9",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's better, thanks.",
    "translations": {
     "fa": "بهتره، ممنون."
@@ -224,8 +224,8 @@
       "william's",
       "banana",
       "sorry",
-      "gave",
-      "want"
+      "want",
+      "gave"
      ],
      "suggestion": "Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha!",
      "suggestionFa": "ای وای — من بهت دادمش! خیلی ببخشید. یه کم از موز ویلیام می‌خوای؟ ها!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No thanks. Tea is better!",
    "translations": {
     "fa": "نه ممنون. چای بهتره!"
@@ -246,11 +246,11 @@
    "branches": [
     {
      "keywords": [
-      "doctor's",
       "tomorrow",
-      "orders",
+      "doctor's",
       "that's",
-      "school"
+      "school",
+      "orders"
      ],
      "suggestion": "That's true! Tomorrow he can go back to pre-school. And you can go back to bed. Doctor's orders!",
      "suggestionFa": "راسته! فردا می‌تونه برگرده پیش‌دبستانی. و تو می‌تونی برگردی تو تخت. دستور دکتر!",
@@ -263,7 +263,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

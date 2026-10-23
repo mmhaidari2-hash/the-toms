@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi Nicola! Are you excited?",
    "translations": {
     "fa": "سلام نیکولا! هیجان‌زده‌ای؟"
@@ -64,7 +64,7 @@
       "teeth",
       "freya",
       "pull",
-      "they"
+      "said"
      ],
      "suggestion": "Will the dentist pull my teeth out? Freya said they pull your teeth out!",
      "suggestionFa": "دندانپزشک دندونام را می‌کشه؟ فریا گفت دندونات را می‌کشن!",
@@ -77,7 +77,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No! The dentist just counts your teeth.",
    "translations": {
     "fa": "نه! دندانپزشک فقط دندون‌هات را می‌شمره."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Look, Nicola! A magic chair!",
    "translations": {
     "fa": "ببین نیکولا! یه صندلی جادویی!"
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "really",
-      "magic",
       "chair",
+      "magic",
       "high",
       "can"
      ],
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Go on, Nicola. Sit on the magic chair!",
    "translations": {
     "fa": "برو نیکولا. رو صندلی جادویی بشین!"
@@ -205,7 +205,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's count, Nicola! Four, five, six…",
    "translations": {
     "fa": "بیا بشمریم نیکولا! چهار، پنج، شش…"
@@ -253,7 +253,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A wobbly tooth! Well done, Nicola!",
    "translations": {
     "fa": "دندون لق! آفرین نیکولا!"
@@ -264,8 +264,8 @@
       "wobbly",
       "tooth",
       "fairy",
-      "come",
-      "will"
+      "will",
+      "come"
      ],
      "suggestion": "A wobbly tooth! Will the tooth fairy come?",
      "suggestionFa": "دندون لق! پری دندون میاد؟",
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! The tooth fairy will bring a coin.",
    "translations": {
     "fa": "آره! پری دندون یه سکه میاره."
@@ -338,7 +338,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leslie, Nicola eats a lot of sweets!",
    "translations": {
     "fa": "لزلی، نیکولا خیلی شیرینی می‌خوره!"
@@ -381,7 +381,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which colour, Nicola? Pink?",
    "translations": {
     "fa": "چه رنگی نیکولا؟ صورتی؟"
@@ -392,7 +392,7 @@
       "william",
       "smile",
       "brave",
-      "pink",
+      "show",
       "says"
      ],
      "suggestion": "The pink one! It says \"Brave Smile\"! Can I show William?",
@@ -406,7 +406,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! You were very brave, Nicola.",
    "translations": {
     "fa": "آره! خیلی شجاع بودی نیکولا."

@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "please",
-      "shop",
-      "shoe"
+      "shoe",
+      "shop"
      ],
      "suggestion": "I am! Where's the shoe shop, please?",
      "suggestionFa": "هستم! مغازهٔ کفش کجاست، لطفاً؟",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "then",
-      "lift"
+      "lift",
+      "then"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -258,9 +258,9 @@
     {
      "keywords": [
       "measure",
-      "that's",
       "useful",
-      "feet"
+      "that's",
+      "they"
      ],
      "suggestion": "They measure feet? That's useful.",
      "suggestionFa": "پا را اندازه می‌گیرن؟ چه خوب.",
@@ -311,10 +311,10 @@
     },
     {
      "keywords": [
+      "shoe",
       "busy",
-      "shop",
       "good",
-      "shoe"
+      "shop"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
      "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",

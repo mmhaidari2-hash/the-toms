@@ -75,10 +75,10 @@
    "branches": [
     {
      "keywords": [
-      "help",
       "fold",
-      "can",
-      "her"
+      "help",
+      "her",
+      "can"
      ],
      "suggestion": "Can I help her fold it?",
      "suggestionFa": "می‌تونم کمکش کنم تاش کنه؟",
@@ -240,8 +240,8 @@
     {
      "keywords": [
       "didn't",
-      "know",
       "ramp",
+      "know",
       "bus"
      ],
      "suggestion": "The bus has a ramp? I didn't know!",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "wheels",
+      "three",
       "loves",
-      "sorry",
-      "three"
+      "sorry"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",

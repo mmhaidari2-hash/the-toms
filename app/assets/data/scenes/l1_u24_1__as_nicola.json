@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Hi, Nicola. Are you OK?",
    "translations": {
     "fa": "البته. سلام نیکولا. خوبی؟"
@@ -56,11 +56,11 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "played",
+      "friend",
       "today",
-      "best",
-      "lily"
+      "lily",
+      "best"
      ],
      "suggestion": "I'm sad. My best friend Mia played with Lily today. Not with me.",
      "suggestionFa": "ناراحتم. بهترین دوستم میا امروز با لیلی بازی کرد. نه با من.",
@@ -73,7 +73,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh, I'm sorry. That's hard.",
    "translations": {
     "fa": "آه، متأسفم. سخته."
@@ -97,7 +97,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's OK to feel angry.",
    "translations": {
     "fa": "عصبانی بودن اشکال نداره."
@@ -118,7 +118,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Because my family is far away.",
    "translations": {
     "fa": "چون خانواده‌ام خیلی دورن."
@@ -143,7 +143,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Nicola. That makes me happy.",
    "translations": {
     "fa": "ممنون نیکولا. این خوشحالم می‌کنه."
@@ -195,7 +195,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You can all play together!",
    "translations": {
     "fa": "همه‌تون می‌تونید با هم بازی کنید!"
@@ -205,9 +205,9 @@
      "keywords": [
       "actually",
       "three",
-      "nice",
       "lily",
-      "mia"
+      "nice",
+      "all"
      ],
      "suggestion": "All three of us? Me, Mia and Lily? Hmm… OK. Lily is nice, actually.",
      "suggestionFa": "هر سه‌مون؟ من، میا و لیلی؟ هوم… باشه. راستش لیلی مهربونه.",
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a great idea!",
    "translations": {
     "fa": "فکر عالیه!"
@@ -229,8 +229,8 @@
     {
      "keywords": [
       "better",
-      "again",
       "happy",
+      "again",
       "feel",
       "have"
      ],
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! A big hug!",
    "translations": {
     "fa": "البته! یه بغل بزرگ!"

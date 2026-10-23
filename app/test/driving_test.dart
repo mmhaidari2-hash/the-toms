@@ -14,7 +14,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   final ls = Drive.parse(File('assets/data/driving.json').readAsStringSync());
   final audio = (jsonDecode(File('assets/audio/index.json').readAsStringSync()) as List).cast<String>().toSet();
-  const mains = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'mehdi'};
+  const mains = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'learner'};
   const placeMains = {'petrol': {'bilal', 'tom'}, 'driving': {'ryan', 'tom'}};
 
   test('two or more dialogues per level, covering the requested topics, translated and voiced', () {

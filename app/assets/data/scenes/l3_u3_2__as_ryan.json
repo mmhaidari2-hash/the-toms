@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -25,7 +25,7 @@
       "lessons",
       "start",
       "drive",
-      "when"
+      "test"
      ],
      "suggestion": "Dad says I can start lessons when I'm seventeen. Do you have to take a test to drive in the UK?",
      "suggestionFa": "بابا می‌گه وقتی هفده سالم شد می‌تونم کلاس شروع کنم. تو بریتانیا برای رانندگی باید امتحان بدی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, you have to pass a theory test and a practical test.",
    "translations": {
     "fa": "آره، باید امتحان تئوری و عملی را قبول بشی."
@@ -49,7 +49,7 @@
       "licence",
       "really",
       "can't",
-      "from",
+      "just",
       "home"
      ],
      "suggestion": "Really? Can't you just use your licence from home?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only for twelve months. After that, I need to get a UK one.",
    "translations": {
     "fa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "theory",
       "what's",
+      "theory",
       "harsh",
       "test",
       "like"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You have to answer fifty questions and do a hazard test.",
    "translations": {
     "fa": "باید به پنجاه سؤال جواب بدی و یه امتحان خطرشناسی بدی."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "manual",
-      "drive",
       "gears",
-      "know",
-      "have"
+      "drive",
+      "have",
+      "need"
      ],
      "suggestion": "Easy. And do you need to know how to drive a manual? Most cars here have gears.",
      "suggestionFa": "آسونه. و لازمه بلد باشی دنده‌ای برونی؟ بیشتر ماشین‌های اینجا دنده دارن.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "If you pass in an automatic, you can't drive a manual.",
    "translations": {
     "fa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی."
@@ -123,9 +123,9 @@
      "keywords": [
       "learning",
       "though",
-      "he'll",
+      "dad's",
       "right",
-      "dad's"
+      "he'll"
      ],
      "suggestion": "Right. I'm learning in Dad's car then. He'll have to stay calm, though!",
      "suggestionFa": "باشه. پس با ماشین بابا یاد می‌گیرم. ولی بابا باید آروم بمونه!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You'll have to remember to drive on the left!",
    "translations": {
     "fa": "باید یادت باشه از سمت چپ برونی!"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "imagine",
-      "satnav",
       "shouts",
+      "satnav",
       "point",
       "good"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

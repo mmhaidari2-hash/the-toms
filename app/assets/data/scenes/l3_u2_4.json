@@ -34,7 +34,7 @@
      "keywords": [
       "problem",
       "feeling",
-      "have",
+      "long",
       "been"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "chicken",
-      "shall",
       "mum's",
-      "soup"
+      "shall",
+      "make"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
      "suggestionFa": "سوپ مرغ مامانم را درست کنم؟",
@@ -136,10 +136,10 @@
     },
     {
      "keywords": [
-      "would",
       "visit",
-      "home",
-      "like"
+      "would",
+      "like",
+      "home"
      ],
      "suggestion": "Would you like me to ask for a home visit?",
      "suggestionFa": "می‌خواید درخواست ویزیت خونگی کنم؟",
@@ -191,8 +191,8 @@
      "keywords": [
       "you've",
       "looked",
-      "don't",
-      "after"
+      "worry",
+      "don't"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -222,9 +222,9 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "help",
-      "want"
+      "want",
+      "here"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "shall",
       "clues",
+      "shall",
       "read"
      ],
      "suggestion": "Shall I read the clues to you?",

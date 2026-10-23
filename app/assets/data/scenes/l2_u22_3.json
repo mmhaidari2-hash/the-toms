@@ -211,8 +211,8 @@
      "keywords": [
       "assistance",
       "hasn't",
-      "wait",
-      "says"
+      "says",
+      "wait"
      ],
      "suggestion": "No, it hasn't. Now it says \"Wait for assistance\".",
      "suggestionFa": "نه، نشده. الان میگه «منتظر کمک بمانید».",
@@ -303,7 +303,7 @@
      "keywords": [
       "scanned",
       "apples",
-      "twice",
+      "think",
       "thank"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "thank",
-      "says",
       "paid",
-      "i've"
+      "i've",
+      "says"
      ],
      "suggestion": "I've paid! It says \"Thank you\".",
      "suggestionFa": "پرداخت کردم! نوشته «متشکریم».",

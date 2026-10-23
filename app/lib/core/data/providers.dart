@@ -117,7 +117,7 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
-  /// Sec 3.2: play as the guest Mehdi, or step into Ryan / Tom / Leslie.
+  /// Sec 3.2: play as the learner (guest), or step into Ryan / Tom / Leslie.
   void setRole(String role) {
     state = state.copyWith(role: role);
     _save();
@@ -612,9 +612,17 @@ class ProgressController extends Notifier<UserProgress> {
     final ui = c.units.indexOf(u), li = u.lessons.indexOf(l);
     if (ui < 0) { // Career Pack lessons: free order; the first lesson is a free preview, the rest need the pack
       final pk = c.packOf(u);
+      if (pk != null && pk.gated && !packUnitLevelOpen(c, u)) return false;
       return pk == null || packOwned(pk) || pk.lessons.first.id == l.id;
     }
     return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
+  }
+
+  /// A gated pack unit opens once the learner's course level reaches its CEFR level (A2 = Level 2 …).
+  bool packUnitLevelOpen(Course c, Unit u) {
+    if (state.unlockAll || u.cefr == null) return true;
+    final need = cefr.indexOf(u.cefr!) + 1;
+    return need <= 1 || currentLevel(c) >= need;
   }
 
   // ---- Premium (display-only until real payments exist; see PremiumConfig).

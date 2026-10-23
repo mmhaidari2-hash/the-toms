@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "astronaut",
       "wants",
       "when",
-      "grow",
-      "want"
+      "want",
+      "grow"
      ],
      "suggestion": "When I grow up, I want to be a vet! Mia wants to be an astronaut!",
      "suggestionFa": "وقتی بزرگ شدم، می‌خوام دامپزشک بشم! میا می‌خواد فضانورد بشه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A vet? Why?",
    "translations": {
     "fa": "دامپزشک؟ چرا؟"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "animals",
       "because",
+      "animals",
       "poorly",
-      "help",
-      "love"
+      "love",
+      "cats"
      ],
      "suggestion": "Because I love animals. I want to help poorly dogs and cats.",
      "suggestionFa": "چون عاشق حیوون‌هام. می‌خوام به سگ و گربه‌های مریض کمک کنم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You'll be a great vet.",
    "translations": {
     "fa": "دامپزشک خیلی خوبی میشی."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I wanted to be a pilot.",
    "translations": {
     "fa": "می‌خواستم خلبان بشم."
@@ -130,8 +130,8 @@
      "keywords": [
       "pilot",
       "plane",
-      "fly",
-      "can"
+      "can",
+      "fly"
      ],
      "suggestion": "A pilot! Can you fly a plane?",
      "suggestionFa": "خلبان! می‌تونی هواپیما برونی؟",
@@ -144,7 +144,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I can't!",
    "translations": {
     "fa": "نه، نمی‌تونم!"
@@ -203,7 +203,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nurses are very important.",
    "translations": {
     "fa": "پرستارها خیلی مهمن."
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "An IT technician?",
    "translations": {
     "fa": "تکنسین فناوری اطلاعات؟"
@@ -251,7 +251,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! A dinosaur isn't a job!",
    "translations": {
     "fa": "ها ها! دایناسور شغل نیست!"
@@ -308,7 +308,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK! Welcome aboard!",
    "translations": {
     "fa": "باشه! خوش اومدید!"
@@ -318,9 +318,9 @@
      "keywords": [
       "captain",
       "poorly",
+      "he's",
       "moon",
-      "come",
-      "he's"
+      "come"
      ],
      "suggestion": "Captain, can we fly to the moon? And can my dog come? He's poorly!",
      "suggestionFa": "کاپیتان، می‌شه پرواز کنیم بریم ماه؟ و سگم هم بیاد؟ مریضه!",
@@ -333,7 +333,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

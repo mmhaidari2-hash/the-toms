@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. Where is it?",
    "translations": {
     "fa": "نه. کجاست؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "street",
       "high",
-      "next",
-      "bank"
+      "bank",
+      "next"
      ],
      "suggestion": "It's next to the bank. On the high street.",
      "suggestionFa": "کنار بانکه. تو خیابون اصلی.",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Next to the bank. I see it!",
    "translations": {
     "fa": "کنار بانک. می‌بینمش!"
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "chemist",
       "between",
+      "chemist",
       "little",
       "where",
       "bank"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Between the bank and the chemist.",
    "translations": {
     "fa": "بین بانک و داروخانه."
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "opposite",
-      "corner",
       "bakery",
+      "corner",
       "thing",
       "same"
      ],
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "On the corner. Got it.",
    "translations": {
     "fa": "سر نبش. فهمیدم."
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "getting",
       "mario's",
+      "there's",
       "leslie",
       "under"
      ],
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's very small.",
    "translations": {
     "fa": "خیلی کوچیکه."
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
       "perfect",
+      "hackney",
       "coffee",
       "window",
-      "mario"
+      "small"
      ],
      "suggestion": "Small but perfect. Sit by the window. Mario makes the best coffee in Hackney.",
      "suggestionFa": "کوچیک ولی عالی. کنار پنجره بشین. ماریو بهترین قهوهٔ هکنی را درست می‌کنه.",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Better than Callum's?",
    "translations": {
     "fa": "بهتر از مال کالوم؟"
@@ -172,9 +172,9 @@
      "keywords": [
       "favourite",
       "leslie's",
+      "minutes",
       "coffees",
-      "fifteen",
-      "minutes"
+      "fifteen"
      ],
      "suggestion": "Shh! Don't tell Callum. He's Leslie's favourite. Two coffees, fifteen minutes, then back on the bus!",
      "suggestionFa": "هیس! به کالوم نگو. محبوب لزلیه. دو تا قهوه، پونزده دقیقه، بعد برگشت به اتوبوس!",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

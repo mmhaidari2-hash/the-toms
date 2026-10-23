@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "button",
       "mummy",
-      "press",
       "toast",
+      "press",
       "make"
      ],
      "suggestion": "Can I make toast? Mummy lets me press the button!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, but be careful.",
    "translations": {
     "fa": "آره، ولی مواظب باش."
@@ -49,7 +49,7 @@
       "bread",
       "press",
       "down",
-      "put",
+      "now",
       "two"
      ],
      "suggestion": "Two for me and two for you! Put the bread in. Now I press… down!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done!",
    "translations": {
     "fa": "آفرین!"
@@ -73,8 +73,8 @@
      "keywords": [
       "ready",
       "take",
+      "ooh",
       "hot",
-      "pop",
       "out"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Don't touch it.",
    "translations": {
     "fa": "آره. دست نزن."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "spread",
       "butter",
+      "spread",
+      "yeast",
       "toast",
-      "want",
-      "jam"
+      "want"
      ],
      "suggestion": "What do you want on your toast? Jam? Butter? Yeast spread?",
      "suggestionFa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ کرهٔ مخمر؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I want butter and jam, please.",
    "translations": {
     "fa": "کره و مربا می‌خوام، لطفاً."
@@ -122,12 +122,12 @@
     {
      "keywords": [
       "spread",
-      "salty",
-      "yucky",
       "daddy",
+      "yeast",
+      "salty",
       "loves"
      ],
-     "suggestion": "Yeast spread is brown and salty. Daddy loves it. I think it's yucky! Try some!",
+     "suggestion": "yeast spread is brown and salty. Daddy loves it. I think it's yucky! Try some!",
      "suggestionFa": "کرهٔ مخمر قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
      "trustDelta": 5,
      "next": "r6",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, just a little bit.",
    "translations": {
     "fa": "باشه، فقط یه ذره."
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "funny",
-      "like",
-      "face"
+      "face",
+      "like"
      ],
      "suggestion": "Do you like it? Your face is funny!",
      "suggestionFa": "دوستش داری؟ صورتت خنده‌دار شده!",
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's very salty!",
    "translations": {
     "fa": "خیلی شوره!"
@@ -173,7 +173,7 @@
       "putting",
       "daddy",
       "mine",
-      "lots"
+      "into"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
      "suggestionFa": "مثل بابایی! حالا رو مال خودم مربا می‌زنم. کلی مربا! می‌تونم مثلثی ببرمش؟",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Use the butter knife.",
    "translations": {
     "fa": "آره. با کاردِ کره ببر."
@@ -211,7 +211,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

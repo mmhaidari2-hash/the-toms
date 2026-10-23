@@ -69,7 +69,7 @@ class ChapterStrip extends ConsumerWidget {
   }
 }
 
-/// Sec 3.2 — play as the guest Mehdi, or step into Ryan, Tom or Leslie.
+/// Sec 3.2 — play as the learner (guest), or step into Ryan, Tom or Leslie.
 class RolePicker extends ConsumerWidget {
   final ContentBundle c;
   const RolePicker(this.c, {super.key});

@@ -149,8 +149,8 @@
      "keywords": [
       "everything",
       "wants",
-      "know",
-      "khan"
+      "khan",
+      "know"
      ],
      "suggestion": "Ha! Mrs Khan wants to know everything!",
      "suggestionFa": "ها! خانم خان می‌خواد همه چی را بدونه!",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "children",
-      "how",
-      "old"
+      "old",
+      "how"
      ],
      "suggestion": "How old are the children?",
      "suggestionFa": "بچه‌ها چند سالشونه؟",
@@ -341,9 +341,9 @@
    "branches": [
     {
      "keywords": [
-      "carry",
       "boxes",
       "shall",
+      "carry",
       "some"
      ],
      "suggestion": "Shall we carry some boxes?",

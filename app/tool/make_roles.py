@@ -1,5 +1,5 @@
 """Full role switching: for every scene, build a variant per family member who speaks in it (>=2 lines).
-The learner says that member's lines; the guest (Mehdi) becomes an NPC who says the original best reply.
+The learner says that member's lines; the guest (the learner) becomes an NPC who says the original best reply.
 Writes assets/data/scenes/<id>__as_<role>.json (+ scenes_index). Deterministic; re-run after content changes."""
 import json,os,re,glob
 A=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','assets','data')
@@ -25,7 +25,7 @@ for sid in idx:
     n['_best']=br[0] if br else None
     cur=br[0]['next'] if br else None
   speakers=[n['speaker'] for n in path]
-  G=s.get('guest','mehdi')  # the guest who becomes the NPC (Sara in Vida's Nursery)
+  G=s.get('guest','learner')  # the guest who becomes the NPC (Sara in Vida's Nursery)
   for L in FAMILY:
     if speakers.count(L)<2: continue
     U=[]  # (who, text, fa, node)  who: 'USER' or speaker id
@@ -47,10 +47,10 @@ for sid in idx:
     out={}
     for k,(who,t,fa,src,user) in enumerate(nodes):
       nid=f'r{k+1}'; nxt=f'r{k+2}' if k+1<len(nodes) else None
-      d={'id':nid,'speaker':who,'text':t.replace('{you}','Mehdi'),'translations':{'fa':fa},'branches':[],'newWords':(src or {}).get('newWords',[])}
+      d={'id':nid,'speaker':who,'text':t,'translations':{'fa':fa},'branches':[],'newWords':(src or {}).get('newWords',[])}
       if src and src.get('cultureNote'): d['cultureNote']=src['cultureNote']
       if user and nxt:
-        d['branches']=[{'keywords':kw(user[0]),'suggestion':user[0].replace('{you}','Mehdi'),'suggestionFa':user[1],'trustDelta':5,'next':nxt,'success':True}]
+        d['branches']=[{'keywords':kw(user[0]),'suggestion':user[0],'suggestionFa':user[1],'trustDelta':5,'next':nxt,'success':True}]
       elif user and not nxt:
         # last NPC line followed by user's final line: add closing
         pass

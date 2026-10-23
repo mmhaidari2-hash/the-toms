@@ -62,8 +62,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "normal",
+      "please",
       "just"
      ],
      "suggestion": "Just a normal tea, please.",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "have",
-      "they",
       "mint",
+      "they",
       "got"
      ],
      "suggestion": "Have they got mint tea?",
@@ -169,8 +169,8 @@
      "keywords": [
       "please",
       "have",
-      "can",
-      "lid"
+      "lid",
+      "can"
      ],
      "suggestion": "Can I have a lid, please?",
      "suggestionFa": "می‌شه یه درپوش بدید، لطفاً؟",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thanks",
-      "tea",
-      "bye"
+      "bye",
+      "tea"
      ],
      "suggestion": "Bye! Thanks for the tea.",
      "suggestionFa": "خداحافظ! ممنون بابت چای.",

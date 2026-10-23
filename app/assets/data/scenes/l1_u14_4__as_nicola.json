@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where in the bedroom?",
    "translations": {
     "fa": "کجای اتاق خواب؟"
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Got them!",
    "translations": {
     "fa": "پیداشون کردم!"
@@ -113,8 +113,8 @@
     {
      "keywords": [
       "towel",
-      "cold",
       "wrap",
+      "cold",
       "big"
      ],
      "suggestion": "I'm cold! Wrap me in the big towel!",
@@ -128,7 +128,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are. Snug as a bug!",
    "translations": {
     "fa": "بفرما. مثل یه حشره تو پیله!"
@@ -188,7 +188,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it in the drawer?",
    "translations": {
     "fa": "تو کشوئه؟"
@@ -252,7 +252,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. It's on now.",
    "translations": {
     "fa": "باشه. حالا روشنه."
@@ -274,7 +274,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! Is this better?",
    "translations": {
     "fa": "ببخشید! این بهتره؟"
@@ -326,7 +326,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're by the door.",
    "translations": {
     "fa": "دم درن."
@@ -338,7 +338,7 @@
       "oops",
       "bath",
       "here",
-      "wet"
+      "now"
      ],
      "suggestion": "Here! In the bath! Oops. They're wet now.",
      "suggestionFa": "اینجا! تو وان! اوپس. حالا خیسن.",
@@ -351,7 +351,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh, Nicola!",
    "translations": {
     "fa": "آه، نیکولا!"

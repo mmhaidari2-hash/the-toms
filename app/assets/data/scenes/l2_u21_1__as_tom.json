@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "raining",
-      "ideas",
       "bored",
-      "i've",
-      "term"
+      "ideas",
+      "half",
+      "kids"
      ],
      "suggestion": "Half-term! The kids are bored, it's raining, and I've got a day off. Any ideas?",
      "suggestionFa": "تعطیلات میان‌ترم! بچه‌ها حوصله‌شون سر رفته، بارون میاد، و من مرخصی‌ام. ایده‌ای داری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why don't we go to a museum?",
    "translations": {
     "fa": "چرا نریم موزه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free? All of them?",
    "translations": {
     "fa": "مجانی؟ همه‌شون؟"
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "donations",
       "dinosaurs",
+      "donations",
       "national",
       "there's",
       "nicola"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Dinosaurs! William will love it too.",
    "translations": {
     "fa": "دایناسور! ویلیام هم عاشقش میشه."
@@ -99,8 +99,8 @@
       "o'clock",
       "online",
       "eleven",
-      "point",
-      "let's"
+      "let's",
+      "point"
      ],
      "suggestion": "Good point. You can book a free time slot online. It's busy in half-term. Let's book eleven o'clock.",
      "suggestionFa": "نکتهٔ خوبیه. می‌تونی آنلاین یه وقت مجانی رزرو کنی. تو میان‌ترم شلوغه. ساعت یازده را رزرو کنیم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eleven is good. How do we get there?",
    "translations": {
     "fa": "یازده خوبه. چطوری بریم؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "kensington",
+      "station",
       "central",
-      "hackney",
       "there's",
-      "station"
+      "hackney"
      ],
      "suggestion": "Train from Hackney Central, then the Tube to South Kensington. There's a tunnel from the station to the museum. No rain!",
      "suggestionFa": "قطار از هاکنی سنترال، بعد مترو تا ساوت کنزینگتون. از ایستگاه تا موزه یه تونل هست. بدون بارون!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A tunnel? That's clever.",
    "translations": {
     "fa": "تونل؟ هوشمندانه‌ست."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One cake for five people?",
    "translations": {
     "fa": "یه کیک برای پنج نفر؟"
@@ -174,8 +174,8 @@
       "sandwiches",
       "umbrellas",
       "children",
-      "wellies",
-      "station"
+      "station",
+      "wellies"
      ],
      "suggestion": "One big cake! It's a plan, then. Wellies, umbrellas, sandwiches, children. In that order. Meet at the station at ten!",
      "suggestionFa": "یه کیک بزرگ! پس برنامه همینه. چکمه، چتر، ساندویچ، بچه‌ها. به همین ترتیب. ساعت ده تو ایستگاه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

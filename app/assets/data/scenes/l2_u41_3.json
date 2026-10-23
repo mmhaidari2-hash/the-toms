@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "shift",
       "can't",
-      "ends",
-      "make"
+      "shift",
+      "make",
+      "ends"
      ],
      "suggestion": "Yes. My shift ends at six. I can't make it.",
      "suggestionFa": "آره. شیفتم ساعت شش تموم میشه. نمی‌تونم برسم.",
@@ -79,8 +79,8 @@
      "keywords": [
       "serious",
       "that's",
-      "list",
-      "take"
+      "take",
+      "list"
      ],
      "suggestion": "Take me off the list? That's serious!",
      "suggestionFa": "اسمم را خط بزنن؟ جدیه!",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "afraid",
       "monday",
+      "afraid",
       "hello"
      ],
      "suggestion": "Hello. I'm afraid I can't make my appointment on Monday.",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "started",
+      "working",
       "really",
       "sorry"
      ],
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "saturday",
-      "please",
       "rebook",
+      "please",
       "could"
      ],
      "suggestion": "Yes please. Could I rebook for a Saturday?",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "thank",
-      "next",
-      "week",
-      "call"
+      "i'll",
+      "call",
+      "next"
      ],
      "suggestion": "Not now, thank you. I'll call back next week.",
      "suggestionFa": "الان نه، ممنون. هفتهٔ بعد دوباره زنگ می‌زنم.",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "o'clock",
+      "eight",
       "great",
-      "thank",
-      "eight"
+      "thank"
      ],
      "suggestion": "Eight o'clock is great. Thank you so much.",
      "suggestionFa": "ساعت هشت عالیه. خیلی ممنون.",
@@ -356,8 +356,8 @@
    "branches": [
     {
      "keywords": [
-      "ringing",
-      "nervous"
+      "nervous",
+      "ringing"
      ],
      "suggestion": "OK. It's ringing. I'm nervous!",
      "suggestionFa": "باشه. داره زنگ می‌خوره. مضطربم!",
@@ -406,13 +406,13 @@
    "branches": [
     {
      "keywords": [
-      "afraid",
       "monday",
+      "afraid",
       "hello",
-      "sorry"
+      "can't"
      ],
-     "suggestion": "Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry!",
-     "suggestionFa": "سلام، مهدی هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!",
+     "suggestion": "Hello, it's {you}. I'm afraid I can't make Monday at ten past four. Sorry!",
+     "suggestionFa": "سلام، {you} هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!",
      "trustDelta": 6,
      "next": "n9",
      "success": true

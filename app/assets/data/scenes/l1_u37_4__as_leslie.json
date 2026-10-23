@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "stopped",
-      "quick",
       "front",
+      "quick",
       "rain",
-      "look"
+      "door"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! A rainbow!",
    "translations": {
     "fa": "وای! رنگین‌کمون!"
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There are seven colours.",
    "translations": {
     "fa": "هفت تا رنگ داره."
@@ -103,13 +103,13 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "yellow",
+      "orange",
       "green",
       "seven",
-      "blue"
+      "rest"
      ],
-     "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
+     "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, {you}?",
      "suggestionFa": "هفت تا! قرمز، نارنجی، زرد، سبز، آبی… می‌تونی بقیه را بگی {you}؟",
      "trustDelta": 5,
      "next": "r5",
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Indigo and violet.",
    "translations": {
     "fa": "نیلی و بنفش."
@@ -179,7 +179,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a story from Ireland.",
    "translations": {
     "fa": "اون یه قصهٔ ایرلندیه."
@@ -187,10 +187,10 @@
    "branches": [
     {
      "keywords": [
-      "we'll",
-      "shame",
-      "moves",
       "never",
+      "shame",
+      "we'll",
+      "moves",
       "when"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
@@ -204,7 +204,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What a shame!",
    "translations": {
     "fa": "حیف!"
@@ -257,7 +257,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's my phone.",
    "translations": {
     "fa": "بیا گوشیم."
@@ -267,9 +267,9 @@
      "keywords": [
       "raining",
       "lovely",
-      "he'll",
+      "daddy",
       "again",
-      "daddy"
+      "photo"
      ],
      "suggestion": "What a lovely photo! Send it to Daddy. He'll love it. Oh — it's raining again!",
      "suggestionFa": "چه عکس قشنگی! بفرستش برای بابا. عاشقش میشه. آه — باز داره بارون میاد!",
@@ -282,7 +282,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Typical!",
    "translations": {
     "fa": "معمولیه دیگه!"
@@ -292,9 +292,9 @@
      "keywords": [
       "everyone",
       "british",
-      "wellies",
       "typical",
-      "inside"
+      "wellies",
+      "that's"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",
      "suggestionFa": "«معمولیه!» این چیزیه که بریتانیایی‌ها میگن. همه بیاید تو! چکمه‌ها را دربیارید!",
@@ -307,7 +307,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

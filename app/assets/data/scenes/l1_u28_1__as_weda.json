@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, who's calling?",
    "translations": {
     "fa": "الو، کی زنگ می‌زنه؟"
@@ -62,8 +62,8 @@
      "keywords": [
       "speaking",
       "maggie",
-      "hello",
       "who's",
+      "hello",
       "love"
      ],
      "suggestion": "Hello, love. It's Maggie. Who's speaking?",
@@ -77,16 +77,16 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
-   "text": "Hi, Maggie! It's Mehdi.",
+   "speaker": "learner",
+   "text": "Hi, Maggie! It's {you}.",
    "translations": {
     "fa": "سلام مگی! {you} هستم."
    },
    "branches": [
     {
      "keywords": [
-      "hello",
       "there",
+      "hello",
       "dear",
       "tom",
       "oh"
@@ -102,7 +102,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, he's here. One moment, please.",
    "translations": {
     "fa": "آره، اینجاست. یه لحظه، لطفاً."
@@ -114,7 +114,7 @@
       "never",
       "mind",
       "give",
-      "him"
+      "can"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -127,7 +127,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's the message?",
    "translations": {
     "fa": "البته. پیغام چیه؟"
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "hospital",
       "thursday",
+      "hospital",
       "george",
       "can't"
      ],
@@ -152,7 +152,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not Thursday. OK.",
    "translations": {
     "fa": "پنجشنبه نه. باشه."
@@ -177,7 +177,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll ask Tom.",
    "translations": {
     "fa": "از تام می‌پرسم."
@@ -187,8 +187,8 @@
      "keywords": [
       "thank",
       "after",
-      "back",
       "love",
+      "tell",
       "call"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
@@ -202,7 +202,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Call you back after six. Got it.",
    "translations": {
     "fa": "بعد از شش بهتون زنگ بزنه. فهمیدم."
@@ -227,7 +227,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, Maggie! Take care!",
    "translations": {
     "fa": "خداحافظ مگی! مراقب خودتون باشید!"

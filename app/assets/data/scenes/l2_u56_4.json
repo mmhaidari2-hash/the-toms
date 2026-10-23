@@ -21,8 +21,8 @@
      "keywords": [
       "hundred",
       "about",
-      "talk",
-      "they"
+      "they",
+      "talk"
      ],
      "suggestion": "Two hundred! What do they talk about?",
      "suggestionFa": "دویست تا! دربارهٔ چی حرف می‌زنن؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "thank",
       "hello",
+      "thank",
       "i'll",
       "say"
      ],
@@ -62,16 +62,16 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, Mehdi!!\"",
+   "text": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, {you}!!\"",
    "translations": {
-    "fa": "همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی مهدی!!»"
+    "fa": "همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی {you}!!»"
    },
    "branches": [
     {
      "keywords": [
       "happy",
-      "thank",
       "reply",
+      "thank",
       "here"
      ],
      "suggestion": "Let me reply: \"Thank you! Happy to be here.\"",
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "exclamation",
-      "marks",
       "again",
+      "marks",
       "two"
      ],
      "suggestion": "Two exclamation marks again! Ha!",
@@ -146,7 +146,7 @@
       "morning",
       "ginger",
       "shed",
-      "saw"
+      "cat"
      ],
      "suggestion": "I saw a big ginger cat by the shed this morning.",
      "suggestionFa": "امروز صبح یه گربهٔ نارنجی بزرگ کنار انباری دیدم.",
@@ -197,8 +197,8 @@
      "keywords": [
       "should",
       "check",
-      "done",
-      "shed"
+      "shed",
+      "done"
      ],
      "suggestion": "Done. Should I check the shed?",
      "suggestionFa": "انجام شد. انباری را چک کنم؟",
@@ -210,8 +210,8 @@
      "keywords": [
       "exclamation",
       "coming",
-      "marks",
-      "three"
+      "three",
+      "marks"
      ],
      "suggestion": "Mrs Khan says \"Coming now!!!\" Three exclamation marks!",
      "suggestionFa": "خانم خان میگه «الان میام!!!» سه تا علامت تعجب!",
@@ -307,8 +307,8 @@
     {
      "keywords": [
       "sending",
-      "people",
       "hearts",
+      "people",
       "forty"
      ],
      "suggestion": "Forty people are sending hearts!",
@@ -348,9 +348,9 @@
     {
      "keywords": [
       "group",
+      "mute",
       "good",
-      "idea",
-      "mute"
+      "idea"
      ],
      "suggestion": "Mute the group. Good idea!",
      "suggestionFa": "گروه را بی‌صدا کنم. فکر خوبیه!",

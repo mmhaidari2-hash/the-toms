@@ -35,7 +35,7 @@
       "thought",
       "museums",
       "phone",
-      "were"
+      "they"
      ],
      "suggestion": "A phone box! I thought they were museums now.",
      "suggestionFa": "کیوسک تلفن! فکر می‌کردم الان موزه شدن.",
@@ -137,7 +137,7 @@
      "keywords": [
       "month",
       "much",
-      "how",
+      "she",
       "use"
      ],
      "suggestion": "How much does she use a month?",
@@ -148,8 +148,8 @@
     },
     {
      "keywords": [
-      "number",
       "pounds",
+      "number",
       "typed",
       "i've"
      ],
@@ -203,7 +203,7 @@
       "unlimited",
       "bundle",
       "that's",
-      "calls"
+      "smart"
      ],
      "suggestion": "A bundle with unlimited calls. That's smart.",
      "suggestionFa": "یه بسته با تماس نامحدود. هوشمندانه‌ست.",
@@ -215,8 +215,8 @@
      "keywords": [
       "twenty",
       "need",
-      "pin",
-      "her"
+      "her",
+      "pin"
      ],
      "suggestion": "Twenty. Do I need her PIN?",
      "suggestionFa": "بیست. رمزش را لازم دارم؟",
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "monthly",
-      "boxes",
       "phone",
+      "boxes",
       "then"
      ],
      "suggestion": "A monthly top-up. Then no more phone boxes!",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "doesn't",
       "nicola",
-      "years",
       "phone",
+      "years",
       "photo"
      ],
      "suggestion": "Look at this photo on my phone. Tom at five years old, in this park. Doesn't Nicola look like him?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! Yes, she looks just like him.",
    "translations": {
     "fa": "وای! آره، دقیقاً شبیهشه."
@@ -48,9 +48,9 @@
      "keywords": [
       "nicola's",
       "cheeky",
-      "smile",
+      "small",
       "dad's",
-      "small"
+      "smile"
      ],
      "suggestion": "Small and cheeky! Yes, same smile, same ears that stick out. Nicola's got her dad's ears. Poor girl!",
      "suggestionFa": "کوچیک و شیطون! آره، همون لبخند، همون گوش‌هایی که بیرون زده. نیکولا گوش‌های باباش را داره. دختر بیچاره!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Her ears are cute! And who does Ryan look like?",
    "translations": {
     "fa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "football",
-      "hungry",
       "always",
-      "after",
+      "hungry",
+      "takes",
       "jokes"
      ],
      "suggestion": "Ryan looks like me — dark hair, brown eyes. But he takes after his dad. Football, jokes, and he's always hungry.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"takes after\" mean?",
    "translations": {
     "fa": "«تیکس آفتر» یعنی چی؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "character",
-      "usually",
       "someone",
-      "william",
-      "mystery"
+      "similar",
+      "usually",
+      "william"
      ],
      "suggestion": "\"Takes after\" means he's similar to someone in his family — usually in character. And William? Total mystery!",
      "suggestionFa": "«تیکس آفتر» یعنی به یکی از خانواده‌اش شبیهه — معمولاً تو اخلاق. و ویلیام؟ کاملاً معماست!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "William has Nana Maggie's eyes, I think.",
    "translations": {
     "fa": "فکر کنم ویلیام چشم‌های نانا مگی را داره."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "stubbornness",
-      "george's",
       "maggie's",
+      "george's",
       "right",
-      "look"
+      "eyes"
      ],
      "suggestion": "You're right — Maggie's blue eyes! And George's stubbornness. Do you look like your mum or your dad?",
      "suggestionFa": "راست میگی — چشم‌های آبی مگی! و لجبازی جورج. تو شبیه مامانتی یا بابات؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I look like my dad. We've got the same nose.",
    "translations": {
     "fa": "شبیه بابامم. دماغمون یه شکله."
@@ -150,7 +150,7 @@
       "eyebrows",
       "father",
       "photo",
-      "nose"
+      "same"
      ],
      "suggestion": "Do you have a photo? Oh, look at him! Yes — same nose, same eyebrows. And very handsome. Like father, like son!",
      "suggestionFa": "عکس داری؟ اوه، نگاهش کن! آره — همون دماغ، همون ابروها. و خیلی خوش‌تیپ. پسر کو ندارد نشان از پدر!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you! \"Like father, like son.\" We say that too.",
    "translations": {
     "fa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "patient",
-      "here's",
       "nicola",
+      "here's",
       "house",
-      "look"
+      "have"
      ],
      "suggestion": "Patient, yes. You have to be, in our house! Oh, here's Nicola. Nicola, who do you look like?",
      "suggestionFa": "صبور، آره. تو خونهٔ ما باید باشی! اوه، نیکولا اومد. نیکولا، تو شبیه کی هستی؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nicola, who do you look like? Mummy or Daddy?",
    "translations": {
     "fa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟"
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like your goldfish? Ha!",
    "translations": {
     "fa": "مثل ماهی قرمزت؟ ها!"
@@ -255,9 +255,9 @@
      "keywords": [
       "goldfish",
       "tonight",
-      "truth",
       "there",
-      "looks"
+      "looks",
+      "truth"
      ],
      "suggestion": "There you are. The truth from a five-year-old. She looks like a goldfish. I'll tell Tom tonight!",
      "suggestionFa": "بفرما. حقیقت از زبون یه بچهٔ پنج ساله. شبیه ماهی قرمزه. امشب به تام میگم!",
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

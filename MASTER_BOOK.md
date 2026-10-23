@@ -412,7 +412,7 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - App icon: 3D frosted-glass tile with a Union-flag speech bubble and gold star (tool/brand/icon_glass_src.jpg, generated once) → favicon, PWA 192/512 + maskable, apple-touch-icon, Android mipmaps.
 
 ### Critical bug fixes (2026-10-23)
-- **Your name, not "Mehdi".** Lines are authored with `{you}` (old lines say "Mehdi"). `lib/core/i18n/you.dart` fills them: with the learner's name (pref `name`, asked in onboarding, changeable from Menu → Your name) or, with none, a natural no-name form (vocatives dropped; "I'm {you}" → "I'm your new neighbour"; other mentions → "our neighbour"). Every reply suggestion, the learner's bubble, the ghost hint and Persian lines go through it. The recorded voices **never** say a name: `tool/you_neutral.py` (same rules) is applied in `render_voices.clean()`, and the clips that used to say "Mehdi" were re-rendered once (`tool/audit/you_neutral_v1.done`). `youRawOf` maps a shown line back to its authored text so its clip is still found. The real personal name that had slipped into three Level 2 lines is gone.
+- **Your name, never a fixed one.** Lines are authored with `{you}`. `lib/core/i18n/you.dart` fills them: with the learner's name (pref `name`, asked in onboarding, changeable from Menu → Your name) or, with none, a natural no-name form (vocatives dropped; "I'm {you}" → "I'm your new neighbour"; other mentions → "our neighbour"). Every reply suggestion, the learner's bubble, the ghost hint and Persian lines go through it. The recorded voices **never** say a name: `tool/you_neutral.py` (same rules) is applied in `render_voices.clean()`, and the clips that used to say "the learner" were re-rendered once (`tool/audit/you_neutral_v1.done`). `youRawOf` maps a shown line back to its authored text so its clip is still found. The real personal name that had slipped into three Level 2 lines is gone.
 - **Blank "Try again" home.** `rootBundle.loadString` caches a failed load for ever, so one flaky request on a phone made the home screen fail every retry. All JSON now goes through `lib/core/platform/asset_text.dart` (raw bytes, decode + parse check, up to 4 tries with a fresh cache-busted fetch); the content bundle retries once more as a whole; the error screen says what happened.
 - **Premium:** no crossed-out "was" prices; plans just say FREE in beta.
 - **Facts (checked on gov.uk, Oct 2026):** BRPs have all expired and were replaced by eVisas (prove status with a share code). Report Fraud replaced Action Fraud on 4 Dec 2025 (reportfraud.police.uk, 0300 123 2040; Scotland: Police Scotland 101).
@@ -482,3 +482,11 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
   - Fix part 1: every page is wrapped in its own SelectionContainer, which swaps to a no-op registrar while offstage.
   - Fix part 2: the page transition now uses a pixel Transform.translate instead of the SlideTransition.
   - Covered in test/roleplay_test.dart.
+
+## Run 15 — learner-name purge, estate agent, sweep fixes
+- The hard-coded learner name is gone everywhere (text, Persian, audio keys, headers, presets, store text). The learner is the entered name or "You" via `{you}`. 2,126 learner clips re-rendered; 537 reused.
+- New Career Pack **Fennick & Rowe Homes** (fictional; `tool/career/homes`). It is free but level-gated (`Pack.gated`, `packUnitLevelOpen`): H1 A2, H2–H4 B1, H5 B2. 16 lessons cover renting (Renters' Rights Act, from 1 May 2026) and buying (MIP, offers, conveyancing, surveys, SDLT), all checked against GOV.UK in Oct 2026.
+- Characters: Olivia (`agent`) is the lettings negotiator, and Graham Holt (`graham`, RyanNeural) is the branch manager. Graham's portrait is a GH monogram placeholder.
+- Also added: map building `homes`, role-play `rp_homes`, and mission `m_b1_viewing`. Tests are in test/homes_test.dart.
+- l4_u11_2 was updated: the fixed-term and break-clause content became periodic tenancy content, and the real "Hackney Homes" became fictional.
+- The certificate header and the Persian mic note still said "The Toms" as the app name. Both now say New Life UK.

@@ -270,8 +270,9 @@
    "branches": [
     {
      "keywords": [
-      "job",
-      "what's"
+      "what's",
+      "centre",
+      "job"
      ],
      "suggestion": "What's the job centre?",
      "suggestionFa": "مرکز کاریابی چیه؟",
@@ -366,9 +367,9 @@
    "branches": [
     {
      "keywords": [
+      "work",
       "have",
       "good",
-      "work",
       "day"
      ],
      "suggestion": "Have a good day at work!",
@@ -379,8 +380,8 @@
     },
     {
      "keywords": [
-      "tom",
-      "bye"
+      "bye",
+      "tom"
      ],
      "suggestion": "Bye, Tom!",
      "suggestionFa": "خداحافظ تام!",

@@ -73,8 +73,8 @@
      "keywords": [
       "spiders",
       "they",
-      "big",
-      "how"
+      "how",
+      "big"
      ],
      "suggestion": "Spiders? How big are they?",
      "suggestionFa": "عنکبوت؟ چقدر بزرگن؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "electric",
-      "mower",
-      "heavy"
+      "heavy",
+      "mower"
      ],
      "suggestion": "The mower is heavy! Is it electric?",
      "suggestionFa": "ماشین چمن‌زنی سنگینه! برقیه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "first",
-      "toys",
       "pick",
+      "toys",
       "why"
      ],
      "suggestion": "Why do we pick up the toys first?",
@@ -186,10 +186,10 @@
    "branches": [
     {
      "keywords": [
-      "clear",
       "grass",
-      "poor",
-      "cars"
+      "clear",
+      "cars",
+      "poor"
      ],
      "suggestion": "Poor cars! OK, the grass is clear now.",
      "suggestionFa": "ماشین‌های بیچاره! باشه، الان چمن خالیه.",
@@ -199,8 +199,8 @@
     },
     {
      "keywords": [
-      "start",
       "could",
+      "start",
       "show",
       "how"
      ],
@@ -321,8 +321,8 @@
     },
     {
      "keywords": [
-      "where's",
       "already",
+      "where's",
       "green",
       "full"
      ],
@@ -434,7 +434,7 @@
       "football",
       "wembley",
       "play",
-      "can"
+      "now"
      ],
      "suggestion": "Wembley! Can I play football on it now?",
      "suggestionFa": "ومبلی! حالا می‌تونم روش فوتبال بازی کنم؟",

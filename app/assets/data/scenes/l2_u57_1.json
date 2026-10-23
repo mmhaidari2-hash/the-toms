@@ -20,9 +20,9 @@
     {
      "keywords": [
       "people",
-      "many",
       "sure",
-      "how"
+      "many",
+      "day"
      ],
      "suggestion": "Sure. How many people, and what day?",
      "suggestionFa": "حتماً. چند نفر، و چه روزی؟",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "ring",
-      "want",
       "time",
-      "i'll"
+      "i'll",
+      "want",
+      "ring"
      ],
      "suggestion": "Ha! OK, I'll ring. What time do you want?",
      "suggestionFa": "ها! باشه، زنگ می‌زنم. چه ساعتی می‌خوای؟",
@@ -206,8 +206,8 @@
      "keywords": [
       "booked",
       "tables",
-      "sorry",
-      "can't"
+      "can't",
+      "sorry"
      ],
      "suggestion": "They say window tables can't be booked. Sorry!",
      "suggestionFa": "میگن میزهای کنار پنجره رزرو نمیشن. ببخشید!",
@@ -244,7 +244,7 @@
       "thompson",
       "under",
       "name",
-      "o"
+      "t"
      ],
      "suggestion": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
      "suggestionFa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن.",

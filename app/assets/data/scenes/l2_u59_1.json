@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "what's",
+      "please",
       "score"
      ],
      "suggestion": "Yes, please. What's the score?",
@@ -68,7 +68,7 @@
   "n2": {
    "id": "n2",
    "speaker": "tom",
-   "text": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me every thirty seconds.",
+   "text": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me non-stop.",
    "translations": {
     "fa": "صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده."
    },
@@ -129,9 +129,9 @@
    "branches": [
     {
      "keywords": [
-      "over",
-      "fell",
       "just",
+      "fell",
+      "over",
       "he"
      ],
      "suggestion": "Was it a foul? He just fell over!",
@@ -202,8 +202,8 @@
     },
     {
      "keywords": [
-      "which",
       "okoro",
+      "which",
       "one"
      ],
      "suggestion": "Which one is Okoro?",
@@ -293,10 +293,10 @@
    "branches": [
     {
      "keywords": [
-      "said",
       "tell",
-      "him",
-      "get"
+      "said",
+      "get",
+      "him"
      ],
      "suggestion": "Ha! Tell him I said \"Get in\" too!",
      "suggestionFa": "ها! بهش بگو منم گفتم آره!",
@@ -306,8 +306,8 @@
     },
     {
      "keywords": [
-      "long",
       "left",
+      "long",
       "how"
      ],
      "suggestion": "How long is left?",

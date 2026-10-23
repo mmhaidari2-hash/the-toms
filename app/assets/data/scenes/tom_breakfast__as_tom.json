@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "kettle's",
       "morning",
       "boiled",
-      "fancy",
-      "cuppa"
+      "cuppa",
+      "fancy"
      ],
      "suggestion": "Morning! Kettle's just boiled — fancy a cuppa?",
      "suggestionFa": "صبح بخیر! کتری تازه جوش آمده — یک چای می‌خوری؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes please, that'd be lovely.",
    "translations": {
     "fa": "بله لطفاً، عالی می‌شود."
@@ -50,7 +50,7 @@
       "strong",
       "sugars",
       "sugar",
-      "mine"
+      "milk"
      ],
      "suggestion": "Milk and sugar? I take mine builder's — strong, two sugars.",
      "suggestionFa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Same as yours — builder's, please!",
    "translations": {
     "fa": "مثل مال تو — بیلدرز، لطفاً!"
@@ -73,9 +73,9 @@
      "keywords": [
       "what're",
       "itself",
-      "right",
-      "drive",
-      "won't"
+      "won't",
+      "today",
+      "drive"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm studying — trying to improve my English.",
    "translations": {
     "fa": "درس می‌خوانم — دارم سعی می‌کنم انگلیسی‌ام را بهتر کنم."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "spread's",
-      "toast's",
       "warning",
-      "spread",
-      "butter"
+      "toast's",
+      "butter",
+      "spread"
      ],
      "suggestion": "Toast's up. Butter or yeast spread? Fair warning — Yeast spread's a love-it-or-hate-it thing.",
      "suggestionFa": "نان تست آماده است. کره یا کرهٔ مخمر؟ از قبل بگم — کرهٔ مخمر یا عاشقش می‌شی یا ازش متنفری.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll try the yeast spread, go on then!",
    "translations": {
     "fa": "کرهٔ مخمر را امتحان می‌کنم، باشه!"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
-      "lorry",
-      "sleep",
       "sorry",
-      "brave"
+      "brave",
+      "sleep",
+      "lorry"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I slept like a log, thanks.",
    "translations": {
     "fa": "مثل سنگ خوابیدم، ممنون."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm popping into town to look around.",
    "translations": {
     "fa": "یه سر به شهر می‌زنم که بگردم."
@@ -172,8 +172,8 @@
      "keywords": [
       "forecast",
       "britain",
-      "brolly",
       "spells",
+      "brolly",
       "which"
      ],
      "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha, cheers for the warning!",
    "translations": {
     "fa": "ها، مرسی بابت هشدار!"
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
+      "supermarket",
       "passing",
       "there's",
       "course",
-      "spare",
-      "supermarket"
+      "spare"
      ],
      "suggestion": "Course you can — there's a spare by the door. If you're passing the supermarket, could you grab some milk?",
      "suggestionFa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی سوپرمارکت رد شدی، می‌شه شیر بگیری؟",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No problem, how many pints?",
    "translations": {
     "fa": "مشکلی نیست، چند پاینت؟"
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
       "skimmed",
-      "right",
+      "tonight",
       "pints",
-      "i've"
+      "right",
+      "star"
      ],
      "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
      "suggestionFa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "See you later, have a good one!",
    "translations": {
     "fa": "بعداً می‌بینمت، روز خوبی داشته باشی!"
@@ -248,7 +248,7 @@
       "biscuit",
       "don't",
       "nick",
-      "good",
+      "ryan",
       "have"
      ],
      "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",
@@ -262,7 +262,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello, who's calling?",
    "translations": {
     "fa": "الو، کی زنگ می‌زنه؟"
@@ -95,8 +95,8 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
-   "text": "Hi, Maggie! It's Mehdi.",
+   "speaker": "learner",
+   "text": "Hi, Maggie! It's {you}.",
    "translations": {
     "fa": "سلام مگی! {you} هستم."
    },
@@ -150,7 +150,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, he's here. One moment, please.",
    "translations": {
     "fa": "آره، اینجاست. یه لحظه، لطفاً."
@@ -203,7 +203,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's the message?",
    "translations": {
     "fa": "البته. پیغام چیه؟"
@@ -254,7 +254,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not Thursday. OK.",
    "translations": {
     "fa": "پنجشنبه نه. باشه."
@@ -315,7 +315,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll ask Tom.",
    "translations": {
     "fa": "از تام می‌پرسم."
@@ -370,7 +370,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Call you back after six. Got it.",
    "translations": {
     "fa": "بعد از شش بهتون زنگ بزنه. فهمیدم."
@@ -427,7 +427,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye, Maggie! Take care!",
    "translations": {
     "fa": "خداحافظ مگی! مراقب خودتون باشید!"
@@ -439,7 +439,7 @@
       "message",
       "taking",
       "thanks",
-      "check"
+      "dad's"
      ],
      "suggestion": "Who was that? Mum? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
      "suggestionFa": "کی بود؟ مامان؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق.",
@@ -452,7 +452,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,12 +22,12 @@
     {
      "keywords": [
       "opens",
-      "swim",
       "lido",
       "week",
+      "next",
       "look"
      ],
-     "suggestion": "Look at the lido! It opens next week. Can you swim, Mehdi?",
+     "suggestion": "Look at the lido! It opens next week. Can you swim, {you}?",
      "suggestionFa": "استخر روباز را ببین! هفتهٔ بعد باز میشه. شنا بلدی {you}؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can swim.",
    "translations": {
     "fa": "آره، شنا بلدم."
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can swim very well.",
    "translations": {
     "fa": "آره، خیلی خوب شنا می‌کنم."
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "tehran",
-      "isn't",
       "where",
-      "swim",
-      "iran"
+      "isn't",
+      "iran",
+      "swim"
      ],
      "suggestion": "Where did you swim in Iran? Tehran isn't by the sea, is it?",
      "suggestionFa": "تو ایران کجا شنا می‌کردی؟ تهران کنار دریا نیست، نه؟",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! In summer we go to the Caspian Sea.",
    "translations": {
     "fa": "آره! تابستون‌ها میریم دریای خزر."
@@ -98,8 +98,8 @@
       "though",
       "lovely",
       "water",
-      "cold",
-      "lido"
+      "lido",
+      "cold"
      ],
      "suggestion": "How lovely. The lido is cold, though. Can you swim in cold water?",
      "suggestionFa": "چه قشنگ. ولی استخر روباز سرده. تو آب سرد می‌تونی شنا کنی؟",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I can't! I like warm water.",
    "translations": {
     "fa": "نه، نمی‌تونم! آب گرم دوست دارم."
@@ -122,9 +122,9 @@
      "keywords": [
       "sometimes",
       "eighteen",
-      "degrees",
       "screams",
-      "can't"
+      "degrees",
+      "water"
      ],
      "suggestion": "Sometimes eighteen degrees! Tom can't swim in cold water. He screams!",
      "suggestionFa": "گاهی هجده درجه! تام نمی‌تونه تو آب سرد شنا کنه. جیغ می‌زنه!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Can Tom swim well?",
    "translations": {
     "fa": "ها! تام خوب شنا می‌کنه؟"
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "splash",
-      "can't",
       "jumps",
-      "like",
+      "can't",
+      "rock",
       "swim"
      ],
      "suggestion": "Tom can swim, but he can't dive. He jumps in like a big rock! Splash!",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you dive, Leslie?",
    "translations": {
     "fa": "تو شیرجه بلدی لزلی؟"
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "swimming",
-      "really",
       "school",
-      "fast",
-      "swim"
+      "really",
+      "ryan",
+      "team"
      ],
      "suggestion": "I can! I was in the swimming team at school. Ryan can swim really fast too.",
      "suggestionFa": "بلدم! تو مدرسه عضو تیم شنا بودم. رایان هم واقعاً تند شنا می‌کنه.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can Nicola swim?",
    "translations": {
     "fa": "نیکولا شنا بلده؟"
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "armbands",
       "saturday",
+      "armbands",
       "nicola",
-      "brave",
-      "bring"
+      "bring",
+      "brave"
      ],
      "suggestion": "Nicola can swim with armbands. Let's go on Saturday! Bring a towel and a brave face!",
      "suggestionFa": "نیکولا با بازوبند شنا می‌کنه. شنبه بریم! یه حوله و یه چهرهٔ شجاع بیار!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

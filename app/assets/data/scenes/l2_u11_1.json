@@ -20,8 +20,8 @@
     {
      "keywords": [
       "towels",
-      "here",
       "some",
+      "here",
       "old"
      ],
      "suggestion": "Here are some old towels.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "should",
-      "turn",
       "wall",
+      "turn",
       "off"
      ],
      "suggestion": "Oh no! Should I turn it off at the wall?",
@@ -79,8 +79,8 @@
      "keywords": [
       "switch",
       "i'll",
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "I'll switch it off now.",
      "suggestionFa": "الان خاموشش می‌کنم.",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "beeping",
-      "won't",
       "keeps",
-      "drain"
+      "drain",
+      "won't"
      ],
      "suggestion": "It won't drain, and it keeps beeping.",
      "suggestionFa": "آب را خالی نمی‌کنه، و مدام بوق می‌زنه.",
@@ -186,9 +186,9 @@
    "branches": [
     {
      "keywords": [
-      "years",
+      "eight",
       "about",
-      "eight"
+      "years"
      ],
      "suggestion": "About eight years old.",
      "suggestionFa": "حدود هشت سال.",
@@ -236,8 +236,8 @@
      "keywords": [
       "little",
       "found",
-      "i've",
-      "door"
+      "door",
+      "i've"
      ],
      "suggestion": "OK, I've found the little door.",
      "suggestionFa": "باشه، در کوچیک را پیدا کردم.",
@@ -302,8 +302,8 @@
      "keywords": [
       "there's",
       "fluff",
-      "hair",
-      "clip"
+      "clip",
+      "hair"
      ],
      "suggestion": "There's a hair clip and a lot of fluff.",
      "suggestionFa": "یه گیرهٔ مو و کلی پرز هست.",
@@ -343,8 +343,8 @@
      "keywords": [
       "thank",
       "much",
-      "how",
-      "owe"
+      "owe",
+      "how"
      ],
      "suggestion": "Thank you. How much do we owe you?",
      "suggestionFa": "ممنون. چقدر بدهکاریم؟",
@@ -394,8 +394,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "really",
+      "cheers",
       "that's",
       "kind"
      ],
@@ -408,8 +408,8 @@
     {
      "keywords": [
       "thanks",
-      "help",
-      "will"
+      "will",
+      "help"
      ],
      "suggestion": "I will. Thanks for your help.",
      "suggestionFa": "حتماً. ممنون بابت کمکت.",

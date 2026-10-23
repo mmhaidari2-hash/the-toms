@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "often",
       "don't",
-      "week",
+      "nice",
       "have",
-      "good"
+      "week"
      ],
      "suggestion": "Oh, this is nice. I don't often have a day off! Did you have a good week?",
      "suggestionFa": "آه، چه خوب. من زیاد روز تعطیل ندارم! هفتهٔ خوبی داشتی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I had a great week, thanks.",
    "translations": {
     "fa": "آره، هفتهٔ خیلی خوبی داشتم، ممنون."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "wednesday",
       "brilliant",
+      "wednesday",
       "sister",
       "play",
       "town"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you see?",
    "translations": {
     "fa": "چی دیدید؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you have?",
    "translations": {
     "fa": "چی خوردی؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Children grow so fast.",
    "translations": {
     "fa": "بچه‌ها خیلی زود بزرگ می‌شن."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I went to the market and bought some fruit.",
    "translations": {
     "fa": "رفتم بازار و یه کم میوه خریدم."
@@ -149,7 +149,7 @@
       "bringing",
       "callum's",
       "coffees",
-      "sounds",
+      "callum",
       "lovely"
      ],
      "suggestion": "That sounds lovely. Ooh — Callum's bringing our coffees. Thank you, Callum!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Callum!",
    "translations": {
     "fa": "ممنون کالوم!"
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, thanks. It was lovely.",
    "translations": {
     "fa": "آره، ممنون. خیلی خوب بود."

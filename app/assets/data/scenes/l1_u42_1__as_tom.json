@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "english",
+      "morning",
       "class",
       "jump",
       "how"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I go by bus.",
    "translations": {
     "fa": "با اتوبوس میرم."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I take the 38.",
    "translations": {
     "fa": "سوار ۳۸ میشم."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "take",
-      "how",
-      "bus"
+      "long",
+      "bus",
+      "how"
      ],
      "suggestion": "The 38! My bus! How long does it take?",
      "suggestionFa": "۳۸! اتوبوس من! چقدر طول می‌کشه؟",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It takes twenty minutes.",
    "translations": {
     "fa": "بیست دقیقه طول می‌کشه."
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "With my bank card. Contactless.",
    "translations": {
     "fa": "با کارت بانکیم. بدون تماس."
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "perfect",
-      "hopper",
       "change",
+      "hopper",
       "buses",
-      "hour"
+      "free"
      ],
      "suggestion": "Perfect. And with the Hopper fare, you can change buses for free in an hour.",
      "suggestionFa": "عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی.",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "For free? That's great.",
    "translations": {
     "fa": "مجانی؟ عالیه."
@@ -148,8 +148,8 @@
       "downstairs",
       "upstairs",
       "buses",
-      "hour",
-      "fare"
+      "many",
+      "hour"
      ],
      "suggestion": "One fare, many buses, one hour. Do you go upstairs or downstairs?",
      "suggestionFa": "یه کرایه، چند تا اتوبوس، یه ساعت. طبقه بالا میری یا پایین؟",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Upstairs, at the front!",
    "translations": {
     "fa": "بالا، جلو!"
@@ -172,8 +172,8 @@
      "keywords": [
       "upstairs",
       "london",
-      "great",
       "front",
+      "great",
       "view"
      ],
      "suggestion": "Upstairs at the front! Like a kid. Best seat in London. Great view.",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you ever drive a different bus?",
    "translations": {
     "fa": "هیچ‌وقت اتوبوس دیگه‌ای می‌رونی؟"
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "always",
-      "funny",
+      "here's",
+      "faces",
       "class",
-      "faces"
+      "funny"
      ],
      "suggestion": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",
      "suggestionFa": "همیشه ۳۸! و آره، می‌بینمت. پس شکلک درنیار! ایستگاهت رسید. کلاس خوبی داشته باشی!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

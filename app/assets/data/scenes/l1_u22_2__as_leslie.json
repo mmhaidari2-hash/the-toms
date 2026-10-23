@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "orange",
-      "yellow",
+      "autumn",
       "season",
-      "autumn"
+      "yellow",
+      "orange"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's beautiful.",
    "translations": {
     "fa": "قشنگه."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not yet. I need one.",
    "translations": {
     "fa": "هنوز نه. لازم دارم."
@@ -73,9 +73,9 @@
      "keywords": [
       "november",
       "clocks",
-      "cold",
+      "need",
       "back",
-      "need"
+      "cold"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
      "suggestionFa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"the clocks go back\" mean?",
    "translations": {
     "fa": "«ساعت‌ها عقب کشیده می‌شن» یعنی چی؟"
@@ -99,8 +99,8 @@
       "october",
       "o'clock",
       "gloomy",
-      "back",
-      "hour"
+      "hour",
+      "gets"
      ],
      "suggestion": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
      "suggestionFa": "یه ساعت عقب تو اکتبر. ساعت چهار تاریک میشه! خیلی دلگیره.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four o'clock? That's early!",
    "translations": {
     "fa": "ساعت چهار؟ زوده!"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "bonfire",
-      "neither",
       "conkers",
+      "neither",
       "things",
       "autumn"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are conkers?",
    "translations": {
     "fa": "کانکر چیه؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "children",
       "string",
+      "brown",
       "shiny",
-      "these",
-      "brown"
+      "these"
      ],
      "suggestion": "Look! These shiny brown nuts. Children play a game with them on a string.",
      "suggestionFa": "ببین! این دونه‌های قهوه‌ای براق. بچه‌ها با نخ باهاشون بازی می‌کنن.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "They're very shiny!",
    "translations": {
     "fa": "خیلی براقن!"
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "poisonous",
-      "different",
       "chestnuts",
+      "different",
+      "poisonous",
       "they're",
       "sweet"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh! Good to know.",
    "translations": {
     "fa": "آه! خوبه که بدونم."
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "christmas",
       "chestnuts",
+      "christmas",
       "collect",
-      "roasted",
-      "conkers"
+      "conkers",
+      "roasted"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
      "suggestionFa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a big one!",
    "translations": {
     "fa": "اینجا یه دونه بزرگه!"
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "chocolate",
-      "autumn's",
       "champion",
-      "enough",
-      "that's"
+      "autumn's",
+      "that's",
+      "enough"
      ],
      "suggestion": "That's a champion! Ten is enough. Now let's go home for hot chocolate. Autumn's best bit!",
      "suggestionFa": "این قهرمانه! ده تا کافیه. حالا بریم خونه هات چاکلت بخوریم. بهترین بخش پاییز!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

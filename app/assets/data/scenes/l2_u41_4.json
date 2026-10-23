@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "hughes",
-   "text": "Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, Mehdi?",
+   "text": "Smile Dental, Mrs Hughes speaking. Hello? I can hear a bus. Is that you, {you}?",
    "translations": {
-    "fa": "دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید مهدی؟"
+    "fa": "دندان‌پزشکی اسمایل، هیوز هستم. الو؟ صدای اتوبوس میاد. شمایید {you}؟"
    },
    "branches": [
     {
@@ -23,8 +23,8 @@
       "sorry",
       "late"
      ],
-     "suggestion": "Yes, it's Mehdi. I'm so sorry — I'm running late.",
-     "suggestionFa": "بله، مهدی‌ام. خیلی ببخشید — دارم دیر می‌کنم.",
+     "suggestion": "Yes, it's {you}. I'm so sorry — I'm running late.",
+     "suggestionFa": "بله، {you}‌ام. خیلی ببخشید — دارم دیر می‌کنم.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "traffic",
-      "stuck",
       "hello",
+      "stuck",
       "bus"
      ],
      "suggestion": "Hello! The bus is stuck in traffic.",
@@ -74,8 +74,8 @@
      "keywords": [
       "minutes",
       "fifteen",
-      "about",
-      "there"
+      "there",
+      "about"
      ],
      "suggestion": "I'll be there in about fifteen minutes.",
      "suggestionFa": "حدود پونزده دقیقهٔ دیگه اونجام.",
@@ -87,8 +87,8 @@
      "keywords": [
       "accident",
       "there's",
-      "road",
-      "been"
+      "sure",
+      "road"
      ],
      "suggestion": "I'm not sure. There's been an accident on the road.",
      "suggestionFa": "مطمئن نیستم. تو جاده تصادف شده.",
@@ -197,8 +197,8 @@
      "keywords": [
       "driving",
       "today",
-      "tom",
-      "but"
+      "but",
+      "tom"
      ],
      "suggestion": "The 38. But it's not Tom driving today!",
      "suggestionFa": "۳۸. ولی امروز تام رانندگی نمی‌کنه!",
@@ -208,8 +208,8 @@
     },
     {
      "keywords": [
-      "minutes",
       "haven't",
+      "minutes",
       "number",
       "moved"
      ],
@@ -248,7 +248,7 @@
       "getting",
       "good",
       "idea",
-      "off"
+      "now"
      ],
      "suggestion": "Good idea. I'm getting off now.",
      "suggestionFa": "فکر خوبیه. دارم پیاده میشم.",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "library",
-      "after",
       "thank",
+      "after",
       "ok"
      ],
      "suggestion": "After the library. OK, thank you!",
@@ -318,8 +318,8 @@
      "keywords": [
       "library",
       "from",
-      "all",
-      "ran"
+      "ran",
+      "all"
      ],
      "suggestion": "I ran all the way from the library!",
      "suggestionFa": "از کتابخونه تا اینجا دویدم!",
@@ -368,8 +368,8 @@
     },
     {
      "keywords": [
-      "quick",
       "thank",
+      "quick",
       "was"
      ],
      "suggestion": "That was quick! Thank you.",

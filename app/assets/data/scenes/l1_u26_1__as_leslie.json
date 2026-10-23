@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "please",
       "nicola",
       "cross",
-      "hold",
-      "road"
+      "road",
+      "hand"
      ],
      "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
      "suggestionFa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hold hands, Nicola.",
    "translations": {
     "fa": "دست بده نیکولا."
@@ -49,7 +49,7 @@
       "crossing",
       "stripes",
       "there's",
-      "zebra",
+      "white",
       "black"
      ],
      "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Like a zebra!",
    "translations": {
     "fa": "ها! مثل گورخر!"
@@ -73,8 +73,8 @@
      "keywords": [
       "remember",
       "britain",
-      "should",
       "always",
+      "should",
       "drive"
      ],
      "suggestion": "They should stop. But always look first. Remember: in Britain, cars drive on the left!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So I look right first?",
    "translations": {
     "fa": "پس اول سمت راست را نگاه کنم؟"
@@ -99,8 +99,8 @@
       "exactly",
       "what's",
       "nicola",
-      "right",
-      "again"
+      "again",
+      "right"
      ],
      "suggestion": "Exactly! Look right, look left, look right again. Nicola, what's the rule?",
      "suggestionFa": "دقیقاً! راست، چپ، دوباره راست. نیکولا، قانونش چیه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tell us the rule, Nicola!",
    "translations": {
     "fa": "قانون را بهمون بگو نیکولا!"
@@ -174,7 +174,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Nicola!",
    "translations": {
     "fa": "آفرین نیکولا!"
@@ -183,10 +183,10 @@
     {
      "keywords": [
       "coming",
-      "waving",
       "driver",
-      "cross",
-      "let's"
+      "waving",
+      "let's",
+      "cross"
      ],
      "suggestion": "A bus is coming. Wait… Now the driver is waving. It's safe. Let's cross.",
      "suggestionFa": "یه اتوبوس داره میاد. صبر کن… حالا راننده داره دست تکون می‌ده. امنه. بیا رد شیم.",
@@ -199,7 +199,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you!",
    "translations": {
     "fa": "ممنون!"
@@ -208,10 +208,10 @@
     {
      "keywords": [
       "traffic",
-      "here's",
       "lights",
+      "here's",
       "green",
-      "road"
+      "wait"
      ],
      "suggestion": "Here's the next road. This one has traffic lights. We wait for the green man.",
      "suggestionFa": "اینم خیابون بعدی. این یکی چراغ راهنمایی داره. منتظر آدمک سبز می‌مونیم.",
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the green man?",
    "translations": {
     "fa": "آدمک سبز چیه؟"
@@ -234,8 +234,8 @@
      "keywords": [
       "button",
       "green",
-      "means",
       "press",
+      "means",
       "stop"
      ],
      "suggestion": "Yes, press the button! The red man means stop. The green man means go.",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's beeping! Green man!",
    "translations": {
     "fa": "داره بوق می‌زنه! آدمک سبز!"
@@ -260,8 +260,8 @@
       "here's",
       "swings",
       "nicola",
-      "done",
-      "park"
+      "well",
+      "done"
      ],
      "suggestion": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
      "suggestionFa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!",
@@ -274,7 +274,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

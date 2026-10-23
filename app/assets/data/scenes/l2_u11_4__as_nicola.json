@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -25,7 +25,7 @@
       "homework",
       "mummy's",
       "words",
-      "busy"
+      "i've"
      ],
      "suggestion": "I've got spelling homework. Ten words! Can you help me? Mummy's busy.",
      "suggestionFa": "تکلیف املا دارم. ده تا کلمه! کمکم می‌کنی؟ مامان سرش شلوغه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's the first word?",
    "translations": {
     "fa": "حتماً. اولین کلمه چیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "because",
       "hard",
-      "o",
-      "e",
-      "s"
+      "s",
+      "c",
+      "e"
      ],
      "suggestion": "\"Because.\" It's so hard. B-E-C-O-S?",
      "suggestionFa": "«Because». خیلی سخته. بی-ای-سی-او-اس؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nearly! It's B-E-C-A-U-S-E.",
    "translations": {
     "fa": "تقریباً! بی-ای-سی-ای-یو-اس-ای."
@@ -75,7 +75,7 @@
       "elephants",
       "always",
       "small",
-      "says"
+      "miss"
      ],
      "suggestion": "Miss Hart says: Big Elephants Can Always Understand Small Elephants!",
      "suggestionFa": "خانم هارت می‌گه: فیل‌های بزرگ همیشه فیل‌های کوچیک را می‌فهمن!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's clever! The first letters spell \"because\".",
    "translations": {
     "fa": "باهوشانه‌ست! حرف اول‌ها «because» میشه."
@@ -98,8 +98,8 @@
      "keywords": [
       "before",
       "friend",
-      "word",
       "next",
+      "word",
       "e"
      ],
      "suggestion": "Next word: \"friend.\" Is it I before E?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. F-R-I-E-N-D.",
    "translations": {
     "fa": "آره. اف-آر-آی-ای-ان-دی."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "fingers",
-      "friend",
       "what's",
-      "seven",
-      "maths"
+      "friend",
+      "maths",
+      "seven"
      ],
      "suggestion": "\"Friend.\" I did it! Now maths. What's seven add five? Can I use my fingers?",
      "suggestionFa": "«Friend». تونستم! حالا ریاضی. هفت به اضافهٔ پنج چند میشه؟ می‌تونم از انگشتام استفاده کنم؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, you can use your fingers.",
    "translations": {
     "fa": "آره، می‌تونی از انگشتات استفاده کنی."
@@ -150,7 +150,7 @@
       "because",
       "twelve",
       "eleven",
-      "eight"
+      "write"
      ],
      "suggestion": "Eight, nine, ten, eleven, twelve! Twelve! Now I have to write a sentence with \"because\".",
      "suggestionFa": "هشت، نه، ده، یازده، دوازده! دوازده! حالا باید یه جمله با «because» بنویسم.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"I am happy because it's Friday.\"",
    "translations": {
     "fa": "«خوشحالم چون جمعه‌ست.»"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Aw, that's lovely, Nicola.",
    "translations": {
     "fa": "آخی، خیلی قشنگه نیکولا."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "homework",
+      "telly",
       "watch",
       "mummy",
-      "telly",
-      "stop"
+      "done"
      ],
      "suggestion": "Full stop! Done! Mummy, look! I did all my homework! Can I watch telly now?",
      "suggestionFa": "نقطه! تموم! مامان، ببین! همهٔ تکالیفم را انجام دادم! حالا می‌تونم تلویزیون ببینم؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask your mum. Well done!",
    "translations": {
     "fa": "از مامانت بپرس. آفرین!"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

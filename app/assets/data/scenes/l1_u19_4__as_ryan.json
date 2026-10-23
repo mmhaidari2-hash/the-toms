@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it's ten. Time for bed!",
    "translations": {
     "fa": "آره، ساعت ده‌ست. وقت خوابه!"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "minutes",
-      "please",
       "middle",
+      "please",
       "don't",
-      "more"
+      "tell"
      ],
      "suggestion": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
      "suggestionFa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five more minutes. That's all.",
    "translations": {
     "fa": "پنج دقیقه دیگه. همین."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven o'clock. Done.",
    "translations": {
     "fa": "ساعت هفت. تموم."
@@ -98,9 +98,9 @@
      "keywords": [
       "curtains",
       "before",
+      "shower",
       "school",
-      "please",
-      "shower"
+      "please"
      ],
      "suggestion": "I need to shower before school. Can you close the curtains, please?",
      "suggestionFa": "باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. It's dark outside.",
    "translations": {
     "fa": "حتماً. بیرون تاریکه."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "charger",
       "where's",
+      "charger",
       "thanks",
       "phone",
-      "over"
+      "game"
      ],
      "suggestion": "Thanks. OK, game over. I lost! Where's my phone charger?",
      "suggestionFa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's next to your bed.",
    "translations": {
     "fa": "کنار تختته."
@@ -148,8 +148,8 @@
      "keywords": [
       "classic",
       "pillow",
-      "phones",
       "that's",
+      "phones",
       "under"
      ],
      "suggestion": "Under my pillow! Classic. Mum says no phones in bed. Do you think that's fair?",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, phones are bad for sleep.",
    "translations": {
     "fa": "آره، گوشی برای خواب بده."
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "light",
       "phone",
-      "mums",
+      "light",
       "same",
+      "turn",
       "desk"
      ],
      "suggestion": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Light off. Good night, Ryan!",
    "translations": {
     "fa": "چراغ خاموش. شب بخیر رایان!"
@@ -198,9 +198,9 @@
      "keywords": [
       "minutes",
       "thanks",
-      "about",
       "night",
-      "don't"
+      "don't",
+      "extra"
      ],
      "suggestion": "Night! Thanks, mate. And don't tell Mum about the extra five minutes!",
      "suggestionFa": "شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "welcome",
       "buttons",
-      "party",
       "there",
+      "party",
       "next"
      ],
      "suggestion": "Welcome to my tea party! Sit there, next to Mr Buttons.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you for inviting me!",
    "translations": {
     "fa": "ممنون که دعوتم کردی!"
@@ -49,8 +49,8 @@
       "chocolate",
       "we've",
       "cake",
-      "pink",
-      "want"
+      "want",
+      "pink"
      ],
      "suggestion": "Do you want a cake? We've got pink cake and chocolate cake.",
      "suggestionFa": "کیک می‌خوای؟ کیک صورتی و کیک شکلاتی داریم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pink cake, please!",
    "translations": {
     "fa": "کیک صورتی، لطفاً!"
@@ -74,8 +74,8 @@
       "pretend",
       "yummy",
       "cake",
-      "here",
-      "nice"
+      "nice",
+      "here"
      ],
      "suggestion": "Here you are. It's pretend cake. Mmm, yummy! Is it nice?",
      "suggestionFa": "بفرما. کیک خیالیه. ممم، به‌به! خوبه؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's delicious!",
    "translations": {
     "fa": "خوشمزه‌ست!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Cheese or ham?",
    "translations": {
     "fa": "حتماً. پنیر یا ژامبون؟"
@@ -125,7 +125,7 @@
       "loves",
       "need",
       "pour",
-      "can"
+      "now"
      ],
      "suggestion": "Cheese! He loves cheese. Now we need tea. Can you pour it?",
      "suggestionFa": "پنیر! عاشق پنیره. حالا چای لازم داریم. می‌تونی بریزی؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pour, pour… there you go!",
    "translations": {
     "fa": "بریز، بریز… بفرما!"
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are, William!",
    "translations": {
     "fa": "بفرما، ویلیام!"
@@ -197,9 +197,9 @@
      "keywords": [
       "william",
       "apple",
-      "silly",
       "billy",
-      "real"
+      "silly",
+      "want"
      ],
      "suggestion": "William, it's not real! Silly billy. Do you want an apple? A real one?",
      "suggestionFa": "ویلیام، واقعی نیست! خنگول. سیب می‌خوای؟ یه واقعی؟",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "An apple is a good idea.",
    "translations": {
     "fa": "سیب فکر خوبیه."
@@ -263,7 +263,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you for the lovely party, Nicola.",
    "translations": {
     "fa": "ممنون بابت مهمونی قشنگ، نیکولا."
@@ -288,7 +288,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

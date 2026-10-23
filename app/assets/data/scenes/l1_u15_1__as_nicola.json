@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's share the toys, girls.",
    "translations": {
     "fa": "دخترا، بیاید اسباب‌بازی‌ها را با هم استفاده کنیم."
@@ -57,9 +57,9 @@
     {
      "keywords": [
       "dolls",
-      "lots",
-      "play",
       "want",
+      "play",
+      "lots",
       "got"
      ],
      "suggestion": "But I want to play with it! Mia has got lots of dolls.",
@@ -73,7 +73,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You can take turns.",
    "translations": {
     "fa": "می‌تونید نوبتی بازی کنید."
@@ -125,7 +125,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. I've got a timer on my phone.",
    "translations": {
     "fa": "آره. رو گوشیم تایمر دارم."
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What about the teddy bear?",
    "translations": {
     "fa": "خرس عروسکی چطوره؟"
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "block",
       "tower",
+      "block",
       "tall",
       "red",
       "put"
@@ -174,7 +174,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -226,7 +226,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! Careful!",
    "translations": {
     "fa": "البته! مواظب باش!"
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Never mind! Let's build it again.",
    "translations": {
     "fa": "عیب نداره! بیاید دوباره بسازیمش."
@@ -287,10 +287,10 @@
     {
      "keywords": [
       "minutes",
-      "five",
+      "turn",
       "doll",
       "ding",
-      "turn"
+      "five"
      ],
      "suggestion": "Ding! Five minutes! It's my turn with the doll now!",
      "suggestionFa": "دینگ! پنج دقیقه! حالا نوبت منه با عروسک!",
@@ -303,7 +303,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mia, can Nicola have the doll now?",
    "translations": {
     "fa": "میا، الان نیکولا می‌تونه عروسک را برداره؟"

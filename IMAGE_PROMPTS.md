@@ -63,3 +63,7 @@ Until these exist, tool/match_scene_art.py `BORROW` gives each scene the closest
 - hospital (5): Homerton outpatients reception + ward bay; George (76, cardigan) in a bed, Tom visiting, a nurse.
 - museum (4): natural history hall with a dinosaur skeleton, Nicola and William looking up, Tom with umbrella.
 - cinema (4): cinema foyer with popcorn and ticket screens, Ryan and friends; second view: seats in the dark auditorium.
+
+## Run 15 — wanted paintings (placeholders live now)
+- **graham.webp (portrait, 1:1)** — Painterly British-illustration portrait, same style as the family portraits: Graham Holt, 52, friendly East London branch manager of a small high-street estate agency, short greying hair, navy suit, open collar, warm smile, soft window light, muted green (#2F5D50) background. Currently a "GH" monogram placeholder.
+- **homes.webp (location, 16:9)** — Interior of "Fennick & Rowe Homes", a small independent estate agent on a Hackney high street: property cards in the window, two desks, keys on hooks, a lettings negotiator (Olivia) showing a young couple a floor plan, autumn light. Fictional brand, no real logos. Currently borrows the bank/hallway/living paintings.

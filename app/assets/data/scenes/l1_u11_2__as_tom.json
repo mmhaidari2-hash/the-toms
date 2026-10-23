@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "saturday",
+      "football",
       "chores",
-      "right",
-      "later"
+      "first",
+      "right"
      ],
      "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
      "suggestionFa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What can I do?",
    "translations": {
     "fa": "حتماً. چی کار کنم؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "hoover's",
       "hallway",
-      "stairs",
       "hoover",
+      "stairs",
       "under"
      ],
      "suggestion": "Can you hoover the hallway? The hoover's under the stairs.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Where's the plug?",
    "translations": {
     "fa": "آره. پریز کجاست؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "monday",
-      "take",
-      "ryan",
       "bins",
-      "door"
+      "ryan",
+      "door",
+      "next"
      ],
      "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
      "suggestionFa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which bin is for recycling?",
    "translations": {
     "fa": "کدوم سطل برای بازیافته؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And food waste?",
    "translations": {
     "fa": "و پسماند غذا؟"
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it going to rain?",
    "translations": {
     "fa": "قراره بارون بیاد؟"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll be quick, then!",
    "translations": {
     "fa": "پس سریع انجامش می‌دم!"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "typical",
       "someone",
-      "monday",
+      "typical",
       "plants",
-      "broken"
+      "broken",
+      "monday"
      ],
      "suggestion": "The dryer is broken. Typical! I'll call someone on Monday. Can you water the plants too?",
      "suggestionFa": "خشک‌کن خرابه. همیشه همین‌طوره! دوشنبه به یکی زنگ می‌زنم. گلدون‌ها را هم آب می‌دی؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'll water the plants.",
    "translations": {
     "fa": "آره، گل‌ها را آب می‌دم."
@@ -200,7 +200,7 @@
       "country",
       "chores",
       "better",
-      "back"
+      "ryan"
      ],
      "suggestion": "By the back door. Brilliant — you're better than Ryan! Do you do chores at home in your country?",
      "suggestionFa": "کنار در پشتی. عالیه — از رایان بهتری! تو کشورت کارهای خونه را انجام می‌دی؟",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I always help my mum.",
    "translations": {
     "fa": "آره، همیشه به مامانم کمک می‌کنم."
@@ -225,7 +225,7 @@
       "football",
       "chores",
       "right",
-      "mums"
+      "done"
      ],
      "suggestion": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
      "suggestionFa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

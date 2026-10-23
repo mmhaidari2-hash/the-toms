@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "running",
       "really",
-      "fast",
-      "look"
+      "look",
+      "fast"
      ],
      "suggestion": "Look at me! I'm running! I'm running really fast!",
      "suggestionFa": "منو ببین! دارم می‌دوم! خیلی تند دارم می‌دوم!",
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're very fast!",
    "translations": {
     "fa": "خیلی سریعی!"
@@ -46,10 +46,10 @@
     {
      "keywords": [
       "william",
-      "eating",
       "what's",
-      "again",
-      "doing"
+      "eating",
+      "doing",
+      "again"
      ],
      "suggestion": "What's William doing? Is he eating sand again?",
      "suggestionFa": "ویلیام داره چی کار می‌کنه؟ دوباره داره شن می‌خوره؟",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, he's playing on the slide.",
    "translations": {
     "fa": "نه، داره روی سرسره بازی می‌کنه."
@@ -119,7 +119,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One more time, William!",
    "translations": {
     "fa": "یه بار دیگه، ویلیام!"
@@ -127,9 +127,9 @@
    "branches": [
     {
      "keywords": [
-      "swings",
       "higher",
       "please",
+      "swings",
       "push"
      ],
      "suggestion": "Push me on the swings, please! Higher! Higher!",
@@ -143,7 +143,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm pushing! Hold on tight!",
    "translations": {
     "fa": "دارم هل می‌دم! محکم بگیر!"
@@ -153,9 +153,9 @@
      "keywords": [
       "chasing",
       "flying",
-      "ducks",
       "those",
-      "boys"
+      "ducks",
+      "look"
      ],
      "suggestion": "Look! Those boys are flying a kite. And that dog is chasing the ducks!",
      "suggestionFa": "ببین! اون پسرها دارن بادبادک هوا می‌کنن. و اون سگ داره اردک‌ها را دنبال می‌کنه!",
@@ -168,7 +168,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The ducks are flying away!",
    "translations": {
     "fa": "اردک‌ها دارن فرار می‌کنن!"
@@ -179,7 +179,7 @@
       "shouting",
       "biscuit",
       "owner",
-      "come",
+      "he's",
       "here"
      ],
      "suggestion": "Ha ha! He's all wet! Now his owner is shouting. \"Biscuit! Come here!\"",
@@ -193,7 +193,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it Mrs Patel's dog?",
    "translations": {
     "fa": "سگ خانم پاتله؟"
@@ -204,8 +204,8 @@
       "everyone's",
       "starting",
       "running",
-      "quick",
-      "let's"
+      "let's",
+      "quick"
      ],
      "suggestion": "It's starting to rain! Quick, everyone's running home! Let's go!",
      "suggestionFa": "داره بارون میگیره! زود، همه دارن می‌دون خونه! بریم!",
@@ -218,7 +218,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

@@ -6,7 +6,7 @@
 - **Whisper STT spot-check** (`tool/audit_audio.py`, faster-whisper small.en): random sample of 447 clips.
   - Mean WER is 0.095 and 38 clips were over 0.35.
   - On recheck, 2 were genuinely truncated ("She knitted you a scarf?", "Yes, you'll be fine.") and were re-rendered. The rest were STT artefacts: digits, compounds, spelled words, Persian names.
-- **Names/places check**: 48 clips containing Hackney, Thompson, Mare Street, Dalston, Homerton, Leyton, Okafor, Tehran, Nowruz, ghormeh sabzi, Tahdig, Esteghlal, Simorgh, setar and Mehdi.
+- **Names/places check**: 48 clips containing Hackney, Thompson, Mare Street, Dalston, Homerton, Leyton, Okafor, Tehran, Nowruz, ghormeh sabzi, Tahdig, Esteghlal, Simorgh, setar and the learner.
   - All English place names sound correct. Whisper's different spellings ("Mayor Street", "Leighton") are homophones.
   - "setar" was read as "set-ar" and "Simorgh" was mangled, so a TTS respelling map (`PRON` in render_voices.py) was added and the clips were re-rendered.
 - **British spelling lint** (`tool/check_british.py`): clean across all authored lines. It is enforced by a test in map_spots_test.dart.

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's huge. About nine million people.",
    "translations": {
     "fa": "خیلی بزرگه. حدود نه میلیون نفر."
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "deserts",
       "million",
+      "deserts",
       "imagine",
       "london",
-      "that's"
+      "camels"
      ],
      "suggestion": "Nine million! That's more than London. Is it near the sea? I imagine deserts and camels. Sorry — that's silly.",
      "suggestionFa": "نه میلیون! از لندن بیشتره. نزدیک دریاست؟ تصورم بیابون و شتره. ببخشید — احمقانه‌ست.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's surrounded by mountains. There's snow on them in winter.",
    "translations": {
     "fa": "نه، کوه دورش را گرفته. زمستون روشون برف هست."
@@ -74,8 +74,8 @@
       "mountains",
       "question",
       "guessed",
-      "silly",
-      "never"
+      "never",
+      "silly"
      ],
      "suggestion": "Mountains with snow! I'd never have guessed. Can you ski? Is that a silly question too?",
      "suggestionFa": "کوه با برف! هیچ‌وقت حدس نمی‌زدم. اسکی هم میشه کرد؟ این سؤال هم احمقانه‌ست؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not silly! There are ski resorts one hour from the city.",
    "translations": {
     "fa": "احمقانه نیست! پیست‌های اسکی یه ساعت از شهر فاصله دارن."
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "amazing",
+      "famous",
       "people",
       "tehran",
-      "famous",
       "food"
      ],
      "suggestion": "Amazing. And the people? What is Tehran famous for? Food? I bet it's the food.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's famous for its bazaar. And yes — the food!",
    "translations": {
     "fa": "به بازارش معروفه. و آره — غذا!"
@@ -124,8 +124,8 @@
       "spitalfields",
       "nothing",
       "indoor",
-      "market",
-      "bazaar"
+      "bazaar",
+      "market"
      ],
      "suggestion": "The bazaar! Like a big indoor market? We've got Spitalfields, but I bet it's nothing like it.",
      "suggestionFa": "بازار! مثل یه بازار سرپوشیدهٔ بزرگ؟ ما اسپیتالفیلدز داریم، ولی شرط می‌بندم اصلاً شبیهش نیست.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's much bigger. You can get lost for hours!",
    "translations": {
     "fa": "خیلی بزرگ‌تره. می‌تونی ساعت‌ها گم بشی!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "carpets",
-      "sounds",
-      "heaven",
       "spices",
-      "among"
+      "heaven",
+      "sounds",
+      "hours"
      ],
      "suggestion": "Lost for hours among carpets and spices. That sounds like heaven. Do you miss it?",
      "suggestionFa": "ساعت‌ها گم شدن بین فرش‌ها و ادویه‌ها. بهشت به نظر میاد. دلت براش تنگ میشه؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. I miss my family and the food most.",
    "translations": {
     "fa": "آره. بیشتر از همه دلم برای خانواده و غذا تنگ میشه."
@@ -174,7 +174,7 @@
       "bazaar",
       "family",
       "visit",
-      "know",
+      "love",
       "part"
      ],
      "suggestion": "Aw. You're part of the family now, you know. One day I'd love to visit. You can show me the bazaar.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love that. My mum would cook for a week!",
    "translations": {
     "fa": "خیلی دوست دارم. مامانم یه هفته آشپزی می‌کنه!"
@@ -199,8 +199,8 @@
       "mountains",
       "cooking",
       "photos",
-      "mum's",
-      "would"
+      "never",
+      "these"
      ],
      "suggestion": "A week of your mum's cooking! Tom would never come home. Right — show me photos. I want to see these mountains.",
      "suggestionFa": "یه هفته آشپزی مامانت! تام دیگه هیچ‌وقت برنمی‌گرده خونه. خب — عکس نشونم بده. می‌خوام این کوه‌ها را ببینم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

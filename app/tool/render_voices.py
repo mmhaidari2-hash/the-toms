@@ -7,7 +7,7 @@ V={ # speaker -> (voice, pitch, rate)
  'tom':('en-GB-RyanNeural','+0Hz','+0%'),'leslie':('en-GB-SoniaNeural','+0Hz','+0%'),
  'nicola':('en-GB-MaisieNeural','+0Hz','+0%'),'ryan':('en-GB-ThomasNeural','+6Hz','+4%'),
  'weda':('en-GB-LibbyNeural','-4Hz','-6%'),'william':('en-GB-MaisieNeural','+10Hz','-3%'),
- 'mia':('en-GB-MaisieNeural','+10Hz','+4%'),'me':('en-GB-ThomasNeural','-4Hz','+0%'),'mehdi':('en-GB-ThomasNeural','-4Hz','+0%'),
+ 'mia':('en-GB-MaisieNeural','+10Hz','+4%'),'me':('en-GB-ThomasNeural','-4Hz','+0%'),'learner':('en-GB-ThomasNeural','-4Hz','+0%'),
  'priya':('en-IN-NeerjaNeural','+0Hz','+0%'),'patel':('en-IN-PrabhatNeural','+0Hz','+0%'),
  'callum':('en-IE-ConnorNeural','+0Hz','+6%'),'hughes':('en-GB-LibbyNeural','-8Hz','-4%'),
  'bennett':('en-GB-RyanNeural','-14Hz','-10%'),'okafor':('en-GB-ThomasNeural','-12Hz','-4%'),
@@ -29,7 +29,7 @@ V={ # speaker -> (voice, pitch, rate)
  'schooloffice':('en-GB-SoniaNeural','-10Hz','-2%'),
  'police':('en-GB-RyanNeural','-4Hz','+0%'),
  'energy':('en-GB-ThomasNeural','+2Hz','+6%'),
- 'agent':('en-GB-SoniaNeural','+4Hz','+8%'),
+ 'agent':('en-GB-SoniaNeural','+4Hz','+8%'),'graham':('en-GB-RyanNeural','-10Hz','-6%'),
  'mechanic':('en-GB-RyanNeural','-20Hz','-4%'),
  'workcoach':('en-GB-ThomasNeural','-10Hz','-2%'),
  'council':('en-GB-LibbyNeural','-10Hz','+0%'),
@@ -62,7 +62,7 @@ def add(sp,t):
   c=clean(t)
   if len(re.sub(r'\W','',c))<2: return
   items[key(sp,t)]=(sp,c)
-  if '{you}' in t or 'Mehdi' in t: NAMED.add(key(sp,t))
+  if '{you}' in t: NAMED.add(key(sp,t))
 for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
   d=json.load(open(f))
   for n in d['nodes'].values():
@@ -142,7 +142,7 @@ if nov: sys.exit(f'NO VOICE for speakers {nov}: add them to V')
 def sig(sp): return '|'.join(V[sp])
 MANP=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_manifest.json')
 MAN=json.load(open(MANP)) if os.path.exists(MANP) else {}
-# One-off: clips recorded when '{you}' was spoken as 'Mehdi' are re-rendered with the neutral wording.
+# One-off: clips recorded when '{you}' was spoken as the old fixed name are re-rendered with the neutral wording.
 YOUF=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','you_neutral_v1.done')
 REDO=set() if os.path.exists(YOUF) else NAMED
 todo=[(k,v) for k,v in items.items() if k in REDO or not os.path.exists(f'{OUT}/{k}.mp3') or (k in MAN and MAN[k]!=[v[0],sig(v[0])])]

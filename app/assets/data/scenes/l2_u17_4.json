@@ -30,8 +30,8 @@
     {
      "keywords": [
       "restaurant",
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see. Is it the wrong restaurant?",
      "suggestionFa": "بذار ببینم. رستورانش اشتباهه؟",
@@ -80,8 +80,8 @@
      "keywords": [
       "terrible",
       "that's",
-      "onion",
-      "there"
+      "there",
+      "rings"
      ],
      "suggestion": "There are no onion rings. That's terrible!",
      "suggestionFa": "حلقهٔ پیاز نیست. افتضاحه!",
@@ -118,7 +118,7 @@
       "there's",
       "button",
       "let's",
-      "help"
+      "sure"
      ],
      "suggestion": "Sure. Let's use the app. There's a \"help\" button.",
      "suggestionFa": "حتماً. بیا از برنامه استفاده کنیم. یه دکمهٔ «کمک» هست.",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "vegetarian",
-      "that's",
       "except",
+      "that's",
       "bacon"
      ],
      "suggestion": "Vegetarian, except bacon? That's not vegetarian!",
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
-      "click",
-      "taken",
       "photo",
+      "taken",
+      "click",
       "ok"
      ],
      "suggestion": "OK. Click! Photo taken.",
@@ -277,8 +277,8 @@
      "keywords": [
       "chicken",
       "missing",
-      "veggie",
-      "burger"
+      "burger",
+      "veggie"
      ],
      "suggestion": "\"Hello. We asked for a veggie burger, but we got chicken. Also, the onion rings are missing.\"",
      "suggestionFa": "«سلام. ما برگر گیاهی خواستیم، ولی مرغ گرفتیم. همچنین حلقهٔ پیاز نیومده.»",

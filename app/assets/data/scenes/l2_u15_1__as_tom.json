@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "worried",
       "morning",
+      "worried",
       "what's",
       "look",
       "work"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My travel card doesn't work. It beeped and the light went red.",
    "translations": {
     "fa": "کارت سفرم کار نمی‌کنه. بوق زد و چراغش قرمز شد."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "everyone",
-      "happens",
       "station",
-      "money",
-      "light"
+      "happens",
+      "light",
+      "means"
      ],
      "suggestion": "Red light means no money on it. Happens to everyone. You can top up at the shop, the station, or on the app.",
      "suggestionFa": "چراغ قرمز یعنی پول روش نیست. واسه همه پیش میاد. می‌تونی تو مغازه، ایستگاه، یا با برنامه شارژش کنی.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which is the quickest?",
    "translations": {
     "fa": "کدوم سریع‌تره؟"
@@ -74,7 +74,7 @@
       "london",
       "corner",
       "buses",
-      "cash",
+      "free",
       "shop"
      ],
      "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom. How much should I put on?",
    "translations": {
     "fa": "ممنون تام. چقدر بریزم روش؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "seventy",
+      "there's",
       "pounds",
-      "daily",
-      "about"
+      "never",
+      "daily"
      ],
      "suggestion": "A bus fare is one seventy-five. There's a daily cap, so you never pay more than about five pounds a day on buses.",
      "suggestionFa": "کرایهٔ اتوبوس یک پوند و هفتاد و پنج پنسه. یه سقف روزانه هست، پس روزانه هیچ‌وقت بیشتر از حدود پنج پوند برای اتوبوس نمیدی.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a daily cap?",
    "translations": {
     "fa": "سقف روزانه چیه؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "twenty's",
       "exactly",
-      "hopper",
+      "second",
       "change",
-      "second"
+      "plenty"
      ],
      "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
      "suggestionFa": "دقیقاً — بیست تا کافیه. و «کرایهٔ هاپر»: تو یه ساعت اتوبوس عوض کنی، دومی مجانیه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The second bus is free? Brilliant!",
    "translations": {
     "fa": "اتوبوس دوم مجانیه؟ عالیه!"
@@ -150,7 +150,7 @@
       "friend",
       "travel",
       "wants",
-      "here"
+      "card"
      ],
      "suggestion": "Any bus. Here we are. Morning, Raj! My friend wants to top up his travel card.",
      "suggestionFa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد کارت سفرش را شارژ کنه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello. Twenty pounds on this card, please.",
    "translations": {
     "fa": "سلام. بیست پوند روی این کارت، لطفاً."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "balance",
-      "reader",
-      "twenty",
       "pounds",
-      "yellow"
+      "reader",
+      "yellow",
+      "twenty"
      ],
      "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
      "suggestionFa": "تموم. حالا بزنش روی دستگاه زرد، موجودی را نشون میده. بیست پوند! مرد پولداری شدی.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks for your help, Tom!",
    "translations": {
     "fa": "ممنون از کمکت تام!"
@@ -199,8 +199,8 @@
       "register",
       "driving",
       "minutes",
-      "online",
-      "leaves"
+      "leaves",
+      "online"
      ],
      "suggestion": "Register it online. Then if you lose it, you keep your money. Right — my bus leaves in four minutes. And I'm driving it!",
      "suggestionFa": "آنلاین ثبتش کن. بعد اگه گمش کنی، پولت می‌مونه. خب — اتوبوسم چهار دقیقهٔ دیگه حرکت می‌کنه. و راننده‌ش منم!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dinner's",
+      "telly",
       "shall",
       "watch",
-      "telly",
-      "done"
+      "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shall we watch the news?",
    "translations": {
     "fa": "اخبار ببینیم؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "football",
       "playing",
-      "rovers",
       "rather",
+      "rovers",
       "boring"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Rovers are playing.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. I'd rather watch football too.",
    "translations": {
     "fa": "باشه. منم ترجیح میدم فوتبال ببینم."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cartoons",
+      "baking",
       "nicola",
-      "lea",
-      "wants",
-      "bake"
+      "valley",
+      "wants"
      ],
      "suggestion": "Lea Valley. Big game! But Nicola wants cartoons and Mum wants the baking show.",
      "suggestionFa": "لی‌ولی. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان برنامهٔ شیرینی‌پزی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the baking show?",
    "translations": {
     "fa": "برنامهٔ شیرینی‌پزی چیه؟"
@@ -99,8 +99,8 @@
       "baking",
       "what's",
       "people",
-      "cakes",
-      "loves"
+      "loves",
+      "cakes"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cartoons first, for Nicola.",
    "translations": {
     "fa": "اول کارتون، برای نیکولا."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "nicola's",
-      "cartoon",
       "minutes",
+      "cartoon",
       "twenty",
-      "match"
+      "shout"
      ],
      "suggestion": "Good shout. Nicola's cartoon is only twenty minutes. Then Mum, then the match.",
      "suggestionFa": "فکر خوبیه. کارتون نیکولا فقط بیست دقیقه‌ست. بعد مامان، بعد بازی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "But the match is at eight.",
    "translations": {
     "fa": "ولی بازی ساعت هشته."
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "spoilers",
-      "snacks",
       "record",
-      "don't",
+      "snacks",
+      "score",
       "shall"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Crisps or popcorn?",
    "translations": {
     "fa": "چیپس یا پاپ‌کورن؟"
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "remote's",
       "cartoons",
+      "remote's",
       "starting",
       "vinegar",
       "crisps"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

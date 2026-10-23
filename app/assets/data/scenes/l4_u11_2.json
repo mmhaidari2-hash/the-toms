@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "agent",
-   "text": "Hi! You must be here for the viewing. I'm Olivia from Hackney Homes. Shall we go up? It's deceptively spacious.",
+   "text": "Hi! You must be here for the viewing. I'm Olivia from Fennick & Rowe Homes. Shall we go up? It's deceptively spacious.",
    "translations": {
-    "fa": "سلام! حتماً برای بازدید اومدید. من اولیویا از هاکنی هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره."
+    "fa": "سلام! حتماً برای بازدید اومدید. من اولیویا از فنیک اند رو هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره."
    },
    "branches": [
     {
@@ -124,16 +124,16 @@
   "n3": {
    "id": "n3",
    "speaker": "agent",
-   "text": "Bills aren't included, but council tax is band B. The landlord might consider £1,600 for a longer tenancy.",
+   "text": "Bills aren't included, but council tax is band B. The landlord might consider £1,600 if you can move in soon.",
    "translations": {
-    "fa": "قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. صاحبخونه برای اجارهٔ طولانی‌تر شاید ۱۶۰۰ را قبول کنه."
+    "fa": "قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. اگه زود بتونید بیاید، صاحبخونه شاید ۱۶۰۰ را قبول کنه."
    },
    "branches": [
     {
      "keywords": [
       "minimum",
-      "long",
-      "how"
+      "tenancy",
+      "long"
      ],
      "suggestion": "How long is the minimum tenancy?",
      "suggestionFa": "حداقل مدت اجاره چقدره؟",
@@ -143,13 +143,11 @@
     },
     {
      "keywords": [
-      "longer",
-      "would",
-      "years",
-      "mean"
+      "month",
+      "soon"
      ],
-     "suggestion": "What would a longer tenancy mean — two years?",
-     "suggestionFa": "اجارهٔ طولانی‌تر یعنی چی — دو سال؟",
+     "suggestion": "How soon is soon — this month?",
+     "suggestionFa": "زود یعنی کِی — همین ماه؟",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -177,33 +175,33 @@
   "n4": {
    "id": "n4",
    "speaker": "agent",
-   "text": "Twelve months minimum, with a break clause at six. For £1,600 he'd want eighteen months.",
+   "text": "There's no minimum now. Since May 2026, tenancies in England just roll on month to month. You give two months' notice when you want to leave. For £1,600 he'd want you in by the first.",
    "translations": {
-    "fa": "حداقل دوازده ماه، با یه بند فسخ در ماه شش. برای ۱۶۰۰ هجده ماه می‌خواد."
+    "fa": "الان حداقل مدتی نداره. از مه ۲۰۲۶ اجاره‌ها تو انگلستان ماه‌به‌ماه ادامه پیدا می‌کنن. هر وقت خواستید برید، دو ماه قبل خبر می‌دید. برای ۱۶۰۰ می‌خواد تا اول ماه اسباب‌کشی کنید."
    },
    "branches": [
     {
      "keywords": [
-      "exactly",
-      "clause",
-      "what's",
-      "break"
+      "there's",
+      "fixed",
+      "term",
+      "all"
      ],
-     "suggestion": "What's a break clause, exactly?",
-     "suggestionFa": "بند فسخ دقیقاً چیه؟",
+     "suggestion": "So there's no fixed term at all?",
+     "suggestionFa": "یعنی اصلاً مدت ثابتی نداره؟",
      "trustDelta": 6,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "eighteen",
-      "months",
+      "first",
       "could",
+      "month",
       "work"
      ],
-     "suggestion": "Eighteen months could work for me.",
-     "suggestionFa": "هجده ماه برام شدنیه.",
+     "suggestion": "The first of the month could work for me.",
+     "suggestionFa": "اول ماه برام شدنیه.",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -211,14 +209,22 @@
    ],
    "newWords": [
     {
-     "word": "break clause",
-     "fa": "بند فسخ"
+     "word": "roll on",
+     "fa": "ادامه پیدا کردن ؛ تمدید خودکار"
     },
     {
-     "word": "exactly",
-     "fa": "دقیقاً"
+     "word": "notice",
+     "fa": "اطلاع قبلی ؛ اخطار"
+    },
+    {
+     "word": "fixed term",
+     "fa": "مدت ثابت"
     }
-   ]
+   ],
+   "cultureNote": {
+    "en": "Since 1 May 2026, private tenancies in England are \"assured periodic\" (rolling) tenancies. Tenants can leave with two months' notice.",
+    "fa": "از ۱ مه ۲۰۲۶ اجاره‌های خصوصی در انگلستان «دوره‌ای» (ماه‌به‌ماه) هستند و مستأجر با دو ماه اطلاع قبلی می‌تواند برود."
+   }
   },
   "n5": {
    "id": "n5",
@@ -281,8 +287,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "smoke",
+      "don't",
       "pets"
      ],
      "suggestion": "No pets, and I don't smoke.",
@@ -293,10 +299,10 @@
     },
     {
      "keywords": [
-      "mould",
       "there",
-      "damp",
-      "flat"
+      "mould",
+      "flat",
+      "damp"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -359,8 +365,8 @@
     {
      "keywords": [
       "energy",
-      "rating",
       "what's",
+      "rating",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -401,8 +407,8 @@
      "keywords": [
       "logistics",
       "company",
-      "full",
-      "time"
+      "time",
+      "full"
      ],
      "suggestion": "I work full-time at a logistics company.",
      "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",

@@ -53,7 +53,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd love a cuppa, cheers.",
    "translations": {
     "fa": "یک فنجان چای عالی می‌شه، مرسی."
@@ -113,7 +113,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course — here you go.",
    "translations": {
     "fa": "حتماً — بفرمایید."
@@ -165,7 +165,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oops! Don't worry, William — I'll grab a cloth.",
    "translations": {
     "fa": "اوه! نگران نباش ویلیام — یه دستمال میارم."
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "pleeease",
-      "mine",
       "have",
+      "mine",
       "jam",
       "can"
      ],
@@ -190,7 +190,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Course you can — there you go.",
    "translations": {
     "fa": "البته که می‌شه — بفرما."
@@ -254,7 +254,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There's a bit left — have mine, mate.",
    "translations": {
     "fa": "یه کم مونده — مال منو بردار رفیق."
@@ -310,7 +310,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe both — a small bag of crisps?",
    "translations": {
     "fa": "شاید هر دو — یه بستهٔ کوچیک چیپس؟"
@@ -318,8 +318,8 @@
    "branches": [
     {
      "keywords": [
-      "cocktail",
       "pleeease",
+      "cocktail",
       "crisps",
       "prawn"
      ],
@@ -334,7 +334,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only if you eat your apple too.",
    "translations": {
     "fa": "فقط اگه سیبت را هم بخوری."
@@ -386,7 +386,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It says it'll be chilly with showers.",
    "translations": {
     "fa": "می‌گه سرد با رگبار."
@@ -442,7 +442,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, William — a robin!",
    "translations": {
     "fa": "آره، ویلیام — سینه‌سرخ!"
@@ -498,7 +498,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure, I'll get it now.",
    "translations": {
     "fa": "حتماً، الان میارمش."
@@ -510,7 +510,7 @@
       "thank",
       "pinky",
       "later",
-      "pick"
+      "will"
      ],
      "suggestion": "Thank you! Will you pick me up later? Pinky promise?",
      "suggestionFa": "مرسی! بعداً میای دنبالم؟ قول انگشتی؟",
@@ -523,7 +523,7 @@
   },
   "r19": {
    "id": "r19",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pinky promise — see you at three.",
    "translations": {
     "fa": "قول انگشتی — ساعت سه می‌بینمت."

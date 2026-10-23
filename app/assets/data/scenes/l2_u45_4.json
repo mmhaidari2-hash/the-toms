@@ -20,9 +20,9 @@
     {
      "keywords": [
       "start",
-      "come",
       "time",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "Ha! OK, I'll come. What time does it start?",
      "suggestionFa": "ها! باشه، میام. ساعت چند شروع میشه؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "ballet",
       "nicola",
+      "ballet",
       "since",
       "when"
      ],
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "watch",
       "let's",
+      "watch",
       "video",
       "idea"
      ],
@@ -239,10 +239,10 @@
    "branches": [
     {
      "keywords": [
-      "only",
-      "term",
       "says",
-      "last"
+      "term",
+      "last",
+      "only"
      ],
      "suggestion": "She says no. Only on the last day of term.",
      "suggestionFa": "میگه نه. فقط روز آخر ترم.",
@@ -252,8 +252,8 @@
     },
     {
      "keywords": [
-      "wait",
       "here",
+      "wait",
       "hall",
       "can"
      ],
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "music",
-      "here",
       "from",
+      "here",
       "hear"
      ],
      "suggestion": "Can you hear the music from here?",
@@ -413,8 +413,8 @@
      "keywords": [
       "nicola",
       "have",
-      "fun",
-      "did"
+      "did",
+      "fun"
      ],
      "suggestion": "Did you have fun, Nicola?",
      "suggestionFa": "خوش گذشت نیکولا؟",
@@ -424,10 +424,10 @@
     },
     {
      "keywords": [
-      "next",
-      "pins",
+      "time",
       "more",
-      "time"
+      "next",
+      "pins"
      ],
      "suggestion": "Ha! Next time, more pins!",
      "suggestionFa": "ها! دفعهٔ بعد سنجاق بیشتر!",

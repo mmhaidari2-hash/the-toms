@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,8 +23,8 @@
      "keywords": [
       "there's",
       "garden",
-      "real",
       "wake",
+      "real",
       "come"
      ],
      "suggestion": "Wake up! Wake up! There's a FOX in the garden! A real one! Come and see!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A fox? Really? Where?",
    "translations": {
     "fa": "روباه؟ واقعاً؟ کجا؟"
@@ -49,8 +49,8 @@
       "something",
       "sandwich",
       "daddy's",
-      "orange",
-      "eating"
+      "eating",
+      "orange"
      ],
      "suggestion": "By the shed! It's orange with a white tail tip. It's eating something. Is it eating Daddy's sandwich?",
      "suggestionFa": "کنار انباری! نارنجیه با نوک دم سفید. داره یه چیزی می‌خوره. داره ساندویچ بابایی را می‌خوره؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's eating something from the bin!",
    "translations": {
     "fa": "داره یه چیزی از سطل زباله می‌خوره!"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "stroke",
       "orange",
+      "stroke",
       "please",
       "looks",
-      "soft"
+      "like"
      ],
      "suggestion": "Can I stroke it? Please? It looks like a dog. A soft orange dog.",
      "suggestionFa": "می‌تونم نازش کنم؟ لطفاً؟ شبیه سگه. یه سگ نارنجی نرم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, don't go near it. It's a wild animal.",
    "translations": {
     "fa": "نه، نزدیکش نرو. حیوون وحشیه."
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "house",
+      "where",
       "live",
-      "look",
-      "just"
+      "just",
+      "look"
      ],
      "suggestion": "OK. I'll just look. Where does it live? In a house?",
      "suggestionFa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In a den. Maybe under a shed or in the park.",
    "translations": {
     "fa": "تو یه لونه. شاید زیر یه انباری یا تو پارک."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fox cubs! They're so cute!",
    "translations": {
     "fa": "توله‌روباه! خیلی بانمکن!"
@@ -149,8 +149,8 @@
       "biscuit",
       "little",
       "ginger",
-      "give",
-      "cubs"
+      "cubs",
+      "name"
      ],
      "suggestion": "Cubs! Can we give them a name? The big one is Ginger. The little one is Biscuit!",
      "suggestionFa": "توله! میشه براشون اسم بذاریم؟ بزرگه زنجبیله. کوچولوئه بیسکویت!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ginger and Biscuit. And the third one?",
    "translations": {
     "fa": "زنجبیل و بیسکویت. و سومی؟"
@@ -174,10 +174,11 @@
       "because",
       "clever",
       "third",
-      "back"
+      "come",
+      "away"
      ],
-     "suggestion": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
-     "suggestionFa": "سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
+     "suggestion": "The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back?",
+     "suggestionFa": "سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
      "trustDelta": 5,
      "next": "r8",
      "success": true
@@ -187,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe tonight. Foxes come out at night.",
    "translations": {
     "fa": "شاید امشب. روباه‌ها شب‌ها میان بیرون."
@@ -195,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
       "bedtime",
+      "tonight",
       "awake",
-      "seven",
-      "eight"
+      "night",
+      "watch"
      ],
      "suggestion": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",
      "suggestionFa": "امشب بیدار می‌مونم و نگاه می‌کنم. کل شب! خب… تا هشت. مامانی میگه وقت خواب هفته.",
@@ -212,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

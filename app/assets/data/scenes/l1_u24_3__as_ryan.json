@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. But what's wrong?",
    "translations": {
     "fa": "باشه. ولی چی شده؟"
@@ -48,8 +48,8 @@
       "everything",
       "detention",
       "football",
-      "match",
-      "phone"
+      "phone",
+      "match"
      ],
      "suggestion": "Everything! I lost my phone, I got a detention, and we lost the football match.",
      "suggestionFa": "همه چی! گوشیم را گم کردم، تنبیه شدم، و مسابقهٔ فوتبال را باختیم.",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh dear. That's a bad day!",
    "translations": {
     "fa": "ای وای. روز بدیه!"
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Everyone forgets sometimes.",
    "translations": {
     "fa": "همه گاهی یادشون میره."
@@ -96,9 +96,9 @@
     {
      "keywords": [
       "photos",
-      "going",
-      "angry",
       "phone",
+      "angry",
+      "going",
       "all"
      ],
      "suggestion": "And my phone! All my photos are on it. Mum is going to be so angry.",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where did you last see it?",
    "translations": {
     "fa": "آخرین بار کجا دیدیش؟"
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "number",
-      "right",
       "phone",
-      "good",
-      "call"
+      "right",
+      "call",
+      "good"
      ],
      "suggestion": "Good idea. Call it! My number is in your phone, right?",
      "suggestionFa": "فکر خوبیه. زنگ بزن! شماره‌ام تو گوشیته، درسته؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Calling now…",
    "translations": {
     "fa": "آره. دارم زنگ می‌زنم…"
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're not an idiot!",
    "translations": {
     "fa": "احمق نیستی!"
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five–nil? Ouch!",
    "translations": {
     "fa": "پنج هیچ؟ آخ!"
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

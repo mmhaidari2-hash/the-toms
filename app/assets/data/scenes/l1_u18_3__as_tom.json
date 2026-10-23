@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,8 +23,8 @@
      "keywords": [
       "starving",
       "o'clock",
-      "lunch",
       "shall",
+      "lunch",
       "have"
      ],
      "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm hungry too. What's in the fridge?",
    "translations": {
     "fa": "منم گرسنه‌ام. تو یخچال چی هست؟"
@@ -49,8 +49,8 @@
       "something",
       "british",
       "beans",
-      "quick",
-      "lunch"
+      "lunch",
+      "toast"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
      "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, never.",
    "translations": {
     "fa": "نه، هیچ‌وقت."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "opener",
+      "you'll",
       "drawer",
       "love",
       "open"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This one?",
    "translations": {
     "fa": "این یکی؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "toaster",
       "slices",
-      "beans",
       "bread",
-      "i'll"
+      "beans",
+      "each"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
      "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two slices, please.",
    "translations": {
     "fa": "دو تیکه، لطفاً."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "please",
-      "beans",
       "don't",
-      "stir",
-      "burn"
+      "beans",
+      "burn",
+      "stir"
      ],
      "suggestion": "Stir the beans, please. Don't let them burn!",
      "suggestionFa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm stirring. They're bubbling!",
    "translations": {
     "fa": "دارم هم می‌زنم. داره قل می‌زنه!"
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "toast's",
-      "butter",
       "cheese",
+      "butter",
       "beans",
       "yours"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please! Lots of cheese.",
    "translations": {
     "fa": "آره، لطفاً! کلی پنیر."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "secret",
       "cheese",
-      "sauce",
+      "secret",
       "brown",
-      "try"
+      "sauce",
+      "now"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! It's delicious!",
    "translations": {
     "fa": "ممم! خوشمزه‌ست!"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "minutes",
+      "cooking",
       "that's",
-      "kind",
-      "five"
+      "only",
+      "wash"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

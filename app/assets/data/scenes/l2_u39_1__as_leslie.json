@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "washing",
       "before",
-      "weighs",
       "basket",
-      "quick"
+      "weighs",
+      "rains"
      ],
      "suggestion": "The sun's out! Quick — washing on the line before it rains. Can you give me a hand? This basket weighs a ton.",
      "suggestionFa": "آفتاب دراومد! سریع — لباس‌ها رو بند قبل از اینکه بارون بیاد. میشه کمکم کنی؟ این سبد یه تن وزن داره.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Where's the line?",
    "translations": {
     "fa": "البته. بند کجاست؟"
@@ -49,8 +49,8 @@
       "line's",
       "garden",
       "knows",
-      "shirt",
-      "sunny"
+      "sunny",
+      "shirt"
      ],
      "suggestion": "Sunny now. In an hour? Who knows. The line's in the garden, and the pegs are in the bag. Two pegs for each shirt.",
      "suggestionFa": "الان آفتابیه. یه ساعت دیگه؟ کی می‌دونه. بند تو باغچه‌ست، گیره‌ها تو کیسه. برای هر پیرهن دو تا گیره.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two pegs. Shirts upside down or the right way up?",
    "translations": {
     "fa": "دو تا گیره. پیرهن‌ها سروته یا صاف؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Three times a day! That's a lot of washing.",
    "translations": {
     "fa": "روزی سه بار! این کلی لباس شستنه."
@@ -99,8 +99,8 @@
       "bedsheets",
       "perfect",
       "every",
-      "take",
-      "fold"
+      "fold",
+      "half"
      ],
      "suggestion": "A load a day, every day. Perfect. Now the bedsheets — you take that end. We fold them in half, then peg them.",
      "suggestionFa": "هر روز یه ماشین، هر روز. عالیه. حالا ملافه‌ها — تو اون سرش را بگیر. نصفش می‌کنیم، بعد گیره می‌زنیم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This end? OK. Fold in half.",
    "translations": {
     "fa": "این سرش؟ باشه. نصف کنیم."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "that's",
-      "whole",
-      "cloud",
       "takes",
+      "cloud",
+      "whole",
       "size"
      ],
      "suggestion": "King-size. Tom takes up the whole bed. Hmm — is that a cloud? Oh no. That's a big grey cloud.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Should we bring it in?",
    "translations": {
     "fa": "بیاریمشون تو؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "football",
       "already",
-      "enough",
+      "passed",
       "ryan's",
-      "passed"
+      "enough"
      ],
      "suggestion": "It passed! Phew. Right, let's leave it for two hours. Ryan's football kit is dry enough to iron already, look.",
      "suggestionFa": "رد شد! وای. خب، بذاریم دو ساعت بمونه. لباس فوتبال رایان همین الان به‌اندازهٔ کافی خشکه که اتو بشه، ببین.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow. Already? The sun is strong.",
    "translations": {
     "fa": "وای. به این زودی؟ آفتاب قویه."
@@ -175,7 +175,7 @@
       "minutes",
       "morning",
       "before",
-      "monday"
+      "nobody"
      ],
      "suggestion": "Who irons? Good question. Nobody, mostly! Tom irons his work shirt on Monday morning, five minutes before his shift.",
      "suggestionFa": "کی اتو می‌کنه؟ سؤال خوبیه. بیشتر وقتا هیچ‌کس! تام صبح دوشنبه، پنج دقیقه قبل از شیفتش، پیرهن کارش را اتو می‌کنه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five minutes! That's very fast.",
    "translations": {
     "fa": "پنج دقیقه! خیلی سریعه."
@@ -199,7 +199,7 @@
       "raining",
       "sheets",
       "bring",
-      "felt",
+      "wait",
       "grab"
      ],
      "suggestion": "Wait — I felt a drop. It's raining! Bring it in! Bring it all in! Grab the sheets!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got the sheets! Run!",
    "translations": {
     "fa": "ملافه‌ها را گرفتم! بدو!"
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

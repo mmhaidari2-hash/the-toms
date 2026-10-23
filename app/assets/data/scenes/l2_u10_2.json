@@ -20,8 +20,8 @@
     {
      "keywords": [
       "evening",
-      "have",
       "good",
+      "have",
       "we"
      ],
      "suggestion": "Good evening. Yes, we have.",
@@ -56,8 +56,8 @@
     {
      "keywords": [
       "under",
-      "name",
       "five",
+      "name",
       "tom"
      ],
      "suggestion": "Yes, under the name Tom, for five.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
       "there's",
+      "mistake",
       "think",
       "been"
      ],
@@ -118,8 +118,8 @@
     },
     {
      "keywords": [
-      "booked",
       "online",
+      "booked",
       "sure",
       "we"
      ],
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "today",
-      "here",
-      "says"
+      "says",
+      "here"
      ],
      "suggestion": "Yes, here it is. It says today.",
      "suggestionFa": "بله، ایناهاش. نوشته امروز.",
@@ -206,7 +206,7 @@
       "possible",
       "that's",
       "would",
-      "wait"
+      "fine"
      ],
      "suggestion": "That's fine. Would it be possible to wait at the bar?",
      "suggestionFa": "اشکالی نداره. ممکنه کنار بار منتظر بمونیم؟",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "anything",
-      "little",
       "sooner",
-      "we've"
+      "little",
+      "there"
      ],
      "suggestion": "We've got a little girl. Is there anything sooner?",
      "suggestionFa": "یه دختر کوچولو داریم. زودتر نمیشه؟",

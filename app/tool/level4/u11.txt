@@ -43,7 +43,7 @@ W: free of charge=رایگان ; summary=خلاصه
 tom: Eighty-five quid in credit? You're a legend. I'd have shouted at him and got nowhere. Tea's on me. | هشتاد و پنج پوند اعتبار؟ تو اسطوره‌ای. من سرش داد می‌زدم و به هیچ جا نمی‌رسیدم. چای مهمون من.
 
 # l4_u11_2 | tom | Renting a flat | اجارهٔ آپارتمان | Asking detailed questions: Is … included? / How long is…? | پرسیدن سؤال‌های دقیق | hallway
-agent: Hi! You must be here for the viewing. I'm Olivia from Hackney Homes. Shall we go up? It's deceptively spacious. | سلام! حتماً برای بازدید اومدید. من اولیویا از هاکنی هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره.
+agent: Hi! You must be here for the viewing. I'm Olivia from Fennick & Rowe Homes. Shall we go up? It's deceptively spacious. | سلام! حتماً برای بازدید اومدید. من اولیویا از فنیک اند رو هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره.
 > Yes, hi. Tom's come with me for a second opinion. | آره، سلام. تام برای نظر دوم باهام اومده.
 > Hi Olivia. "Deceptively spacious" — does that mean small? | سلام اولیویا. «بزرگ‌تر از ظاهر» — یعنی کوچیکه؟
 W: viewing=بازدید ملک ; deceptively spacious=بزرگ‌تر از آنچه به نظر می‌رسد ; second opinion=نظر دوم
@@ -52,14 +52,15 @@ agent: Ha! It's a one-bed, fifty square metres. Rent is £1,650 a month. | ها!
 > Are any bills included in the rent? | قبض‌ها تو اجاره حسابه؟
 > That's a bit over my budget. Is it negotiable? | یه کم بالاتر از بودجه‌مه. قابل مذاکره‌ست؟
 W: one-bed=یک‌خوابه ; square metres=متر مربع ; included=شامل ; budget=بودجه ; negotiable=قابل مذاکره
-agent: Bills aren't included, but council tax is band B. The landlord might consider £1,600 for a longer tenancy. | قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. صاحبخونه برای اجارهٔ طولانی‌تر شاید ۱۶۰۰ را قبول کنه.
+agent: Bills aren't included, but council tax is band B. The landlord might consider £1,600 if you can move in soon. | قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. اگه زود بتونید بیاید، صاحبخونه شاید ۱۶۰۰ را قبول کنه.
 > How long is the minimum tenancy? | حداقل مدت اجاره چقدره؟
-> What would a longer tenancy mean — two years? | اجارهٔ طولانی‌تر یعنی چی — دو سال؟
+> How soon is soon — this month? | زود یعنی کِی — همین ماه؟
 W: council tax band=گروه مالیات شورا ; landlord=صاحبخانه ; tenancy=اجاره‌نامه/مدت اجاره ; minimum=حداقل
-agent: Twelve months minimum, with a break clause at six. For £1,600 he'd want eighteen months. | حداقل دوازده ماه، با یه بند فسخ در ماه شش. برای ۱۶۰۰ هجده ماه می‌خواد.
-> What's a break clause, exactly? | بند فسخ دقیقاً چیه؟
-> Eighteen months could work for me. | هجده ماه برام شدنیه.
-W: break clause=بند فسخ ; exactly=دقیقاً
+agent: There's no minimum now. Since May 2026, tenancies in England just roll on month to month. You give two months' notice when you want to leave. For £1,600 he'd want you in by the first. | الان حداقل مدتی نداره. از مه ۲۰۲۶ اجاره‌ها تو انگلستان ماه‌به‌ماه ادامه پیدا می‌کنن. هر وقت خواستید برید، دو ماه قبل خبر می‌دید. برای ۱۶۰۰ می‌خواد تا اول ماه اسباب‌کشی کنید.
+> So there's no fixed term at all? | یعنی اصلاً مدت ثابتی نداره؟
+> The first of the month could work for me. | اول ماه برام شدنیه.
+W: roll on=ادامه پیدا کردن ؛ تمدید خودکار ; notice=اطلاع قبلی ؛ اخطار ; fixed term=مدت ثابت
+C: Since 1 May 2026, private tenancies in England are "assured periodic" (rolling) tenancies. Tenants can leave with two months' notice. | از ۱ مه ۲۰۲۶ اجاره‌های خصوصی در انگلستان «دوره‌ای» (ماه‌به‌ماه) هستند و مستأجر با دو ماه اطلاع قبلی می‌تواند برود.
 tom: Ask about the deposit, and whether it's protected. That's important. | دربارهٔ ودیعه بپرس، و اینکه حفاظت‌شده هست یا نه. مهمه.
 > How much is the deposit, and is it in a protection scheme? | ودیعه چقدره، و تو طرح حفاظت هست؟
 > Is the deposit protected? | ودیعه حفاظت‌شده‌ست؟

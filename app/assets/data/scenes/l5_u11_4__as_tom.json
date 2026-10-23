@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,9 +23,9 @@
      "keywords": [
       "someone's",
       "account",
+      "listen",
       "bank's",
-      "trying",
-      "listen"
+      "trying"
      ],
      "suggestion": "My phone says it's the bank's fraud team. They say someone's trying to take money from my account. You're good at this — listen with me.",
      "suggestionFa": "گوشیم می‌گه تیم کلاهبرداری بانکه. می‌گن یکی داره سعی می‌کنه از حسابم پول برداره. تو تو این کار خوبی — باهام گوش بده.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Put it on speaker. Don't give them any details.",
    "translations": {
     "fa": "بذارش رو بلندگو. هیچ اطلاعاتی بهشون نده."
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "account",
       "savings",
-      "called",
+      "account",
       "before",
+      "called",
       "today"
      ],
      "suggestion": "They called me. The man says I need to move my savings to a \"safe account\" today, before it's too late.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a classic scam, Tom. Hang up now.",
    "translations": {
     "fa": "این یه کلاهبرداری کلاسیکه تام. همین الان قطع کن."
@@ -75,7 +75,7 @@
       "getting",
       "should",
       "angry",
-      "says"
+      "lose"
      ],
      "suggestion": "He's getting angry. He says if I hang up, I'll lose everything. Should I?",
      "suggestionFa": "داره عصبانی میشه. می‌گه اگه قطع کنم، همه چی را از دست می‌دم. قطع کنم؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Pressure and panic are signs of fraud.",
    "translations": {
     "fa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wait five minutes, or use another phone, then call 159.",
    "translations": {
     "fa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن."
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My friend just had a suspicious call asking him to move money.",
    "translations": {
     "fa": "دوستم یه تماس مشکوک داشت که ازش می‌خواست پول جابه‌جا کنه."
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, nothing at all.",
    "translations": {
     "fa": "نه، اصلاً هیچی."
@@ -282,7 +282,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's Report Fraud?",
    "translations": {
     "fa": "ریپورت فراد چیه؟"
@@ -341,7 +341,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We'll report it tonight. Thank you, Siân.",
    "translations": {
     "fa": "امشب گزارشش می‌دیم. ممنون سیان."
@@ -366,7 +366,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

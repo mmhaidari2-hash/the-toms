@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Great idea! What do you fancy?",
    "translations": {
     "fa": "فکر عالیه! چی دلت می‌خواد؟"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "deserve",
-      "indian",
       "that's",
-      "sweet",
+      "indian",
+      "chips",
       "night"
      ],
      "suggestion": "That's sweet, but you deserve a night off too. Let's get Indian or fish and chips?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's get Indian. I love curry!",
    "translations": {
     "fa": "بیا هندی بگیریم. عاشق کاری‌ام!"
@@ -74,8 +74,8 @@
       "headphones",
       "choice",
       "again",
-      "good",
-      "ryan"
+      "ryan",
+      "want"
      ],
      "suggestion": "Ooh, good choice. Ryan, what do you want? Ryan? He's got his headphones on again.",
      "suggestionFa": "اوه، انتخاب خوبیه. رایان، چی می‌خوای؟ رایان؟ باز هدفونش رو گذاشته.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll go and ask him.",
    "translations": {
     "fa": "می‌رم ازش می‌پرسم."
@@ -98,9 +98,9 @@
      "keywords": [
       "quicker",
       "online",
-      "order",
       "shall",
-      "them"
+      "order",
+      "ring"
      ],
      "suggestion": "Ha! Good idea, it's quicker. Shall we order online or ring them?",
      "suggestionFa": "ها! فکر خوبیه، سریع‌تره. آنلاین سفارش بدیم یا زنگ بزنیم؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's order online. It's easier.",
    "translations": {
     "fa": "بیا آنلاین سفارش بدیم. راحت‌تره."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "large",
-      "mushy",
-      "small",
       "chips",
-      "brave"
+      "small",
+      "large",
+      "brave",
+      "mushy"
      ],
      "suggestion": "Brave! Go on then. Ask for a large cod, two small chips, and mushy peas for Nana.",
      "suggestionFa": "شجاع! بفرما. یه ماهی کاد بزرگ، دوتا سیب‌زمینی کوچیک و نخود له‌شده برای نانا بخواه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What are mushy peas?",
    "translations": {
     "fa": "mushy peas چیه؟"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "mashed",
-      "green",
-      "table",
       "don't",
-      "while"
+      "while",
+      "loves",
+      "green"
      ],
      "suggestion": "Mashed green peas — Nana loves them. Why don't you lay the table while we wait?",
      "suggestionFa": "نخودفرنگی له‌شده — نانا عاشقشه. چرا تا منتظریم میز را نچینی؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Plates or just the paper?",
    "translations": {
     "fa": "حتماً. بشقاب یا همون کاغذش؟"
@@ -174,8 +174,8 @@
       "straight",
       "british",
       "turning",
-      "chippy",
-      "proper"
+      "proper",
+      "chippy"
      ],
      "suggestion": "Ha, you're turning British! Proper chippy night — straight out of the paper, on the sofa.",
      "suggestionFa": "ها، داری بریتانیایی میشی! یه شب فیش‌اند‌چیپسی واقعی — مستقیم از کاغذ، رو مبل.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

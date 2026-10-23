@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd like some toast, please.",
    "translations": {
     "fa": "لطفاً کمی نان تست می‌خوام."
@@ -108,7 +108,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Butter and jam, please.",
    "translations": {
     "fa": "کره و مربا، لطفاً."
@@ -117,11 +117,12 @@
     {
      "keywords": [
       "spread",
-      "salty",
+      "yeast",
       "black",
+      "salty",
       "yucky"
      ],
-     "suggestion": "Yeast spread is yucky! It's black and salty.",
+     "suggestion": "yeast spread is yucky! It's black and salty.",
      "suggestionFa": "کرهٔ مخمر بدمزه‌ست! سیاه و شوره.",
      "trustDelta": 5,
      "next": "r5",
@@ -132,7 +133,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yucky? Let me try it!",
    "translations": {
     "fa": "بدمزه؟ بذار امتحانش کنم!"
@@ -188,7 +189,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a glass of orange juice, please.",
    "translations": {
     "fa": "بله، یه لیوان آب پرتقال، لطفاً."
@@ -248,7 +249,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a spoon, Nicola.",
    "translations": {
     "fa": "این قاشق، نیکولا."
@@ -258,8 +259,8 @@
      "keywords": [
       "cereal",
       "thank",
-      "lots",
       "milk",
+      "lots",
       "like"
      ],
      "suggestion": "Thank you! I like cereal with lots of milk. Do you like cereal?",
@@ -273,7 +274,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I like it.",
    "translations": {
     "fa": "آره، دوستش دارم."
@@ -337,7 +338,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No more for me, I'm full.",
    "translations": {
     "fa": "دیگه نه، سیر شدم."

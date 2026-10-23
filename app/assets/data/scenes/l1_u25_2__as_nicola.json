@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me help you.",
    "translations": {
     "fa": "بذار کمکت کنم."
@@ -48,8 +48,8 @@
      "keywords": [
       "won't",
       "can",
-      "up",
-      "go"
+      "go",
+      "up"
      ],
      "suggestion": "It won't go up. Can you do it?",
      "suggestionFa": "بالا نمی‌ره. تو می‌تونی؟",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There! It's done.",
    "translations": {
     "fa": "بفرما! بسته شد."
@@ -73,8 +73,8 @@
       "cardigan",
       "buttons",
       "thank",
-      "got",
-      "big"
+      "now",
+      "got"
      ],
      "suggestion": "Yay! Thank you! Now my cardigan. It's got big buttons.",
      "suggestionFa": "هورا! ممنون! حالا ژاکت دکمه‌دارم. دکمه‌های بزرگ داره.",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can you do the buttons?",
    "translations": {
     "fa": "دکمه‌ها را می‌تونی ببندی؟"
@@ -95,10 +95,10 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "wrong",
-      "one",
+      "three",
       "two",
+      "one",
       "oh"
      ],
      "suggestion": "One, two, three… oh no! It's wrong!",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You missed one. Start again.",
    "translations": {
     "fa": "یکی را جا انداختی. از اول شروع کن."
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "again",
+      "three",
       "done",
       "five",
       "four"
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done! You did it!",
    "translations": {
     "fa": "آفرین! تونستی!"
@@ -149,7 +149,7 @@
       "shoes",
       "stick",
       "have",
-      "rip"
+      "can"
      ],
      "suggestion": "My shoes have Velcro. I can do Velcro! Rip, stick!",
      "suggestionFa": "کفشام چسبی‌ان. چسبی را بلدم! ریپ، چسب!",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's easy!",
    "translations": {
     "fa": "آسونه!"
@@ -172,9 +172,9 @@
      "keywords": [
       "bunny",
       "ears",
-      "says",
       "ryan",
-      "show"
+      "show",
+      "says"
      ],
      "suggestion": "Not yet. Ryan says \"bunny ears\". Can you show me?",
      "suggestionFa": "هنوز نه. رایان می‌گه «گوش خرگوشی». نشونم می‌دی؟",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Make two loops, like bunny ears.",
    "translations": {
     "fa": "دو تا حلقه درست کن، مثل گوش خرگوش."
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "loops",
       "cross",
+      "loops",
       "pull",
       "like",
-      "bow"
+      "two"
      ],
      "suggestion": "Like this? Two loops… cross… pull! I did a bow!",
      "suggestionFa": "این‌جوری؟ دو تا حلقه… ضربدر… بکش! یه پاپیون درست کردم!",
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Brilliant, Nicola!",
    "translations": {
     "fa": "عالی نیکولا!"
@@ -222,9 +222,9 @@
      "keywords": [
       "buttons",
       "mummy",
-      "look",
       "girl",
-      "bow"
+      "look",
+      "now"
      ],
      "suggestion": "I'm a big girl now! Mummy, look! I did my zip, my buttons and a bow!",
      "suggestionFa": "من الان دختر بزرگی‌ام! مامان، ببین! زیپم، دکمه‌هام و یه پاپیون را خودم بستم!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

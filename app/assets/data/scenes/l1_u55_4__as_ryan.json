@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "england",
       "alright",
+      "england",
       "first",
-      "says",
+      "came",
       "year"
      ],
      "suggestion": "Alright? Mum says you came to England this year. What was your first week like?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was strange! Everything was new.",
    "translations": {
     "fa": "عجیب بود! همه چی جدید بود."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "strange",
-      "like",
       "food",
+      "like",
       "how"
      ],
      "suggestion": "Strange how? Like, the food?",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The food, the weather, and driving on the left!",
    "translations": {
     "fa": "غذا، هوا، و رانندگی از سمت چپ!"
@@ -72,9 +72,9 @@
      "keywords": [
       "westfield",
       "hours",
-      "yeah",
+      "once",
       "lost",
-      "once"
+      "yeah"
      ],
      "suggestion": "Ha, yeah. Did you get lost? I got lost in Westfield once. For two hours.",
      "suggestionFa": "ها، آره. گم شدی؟ من یه بار تو وست‌فیلد گم شدم. دو ساعت.",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! I took the wrong bus on my first day.",
    "translations": {
     "fa": "آره! روز اول اتوبوس اشتباه سوار شدم."
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "always",
-      "he'll",
       "wrong",
+      "he'll",
       "tell",
-      "was"
+      "say"
      ],
      "suggestion": "The wrong bus! Did you tell Dad? He'll say it was the 38. It's always the 38.",
      "suggestionFa": "اتوبوس اشتباه! به بابا گفتی؟ میگه ۳۸ بوده. همیشه ۳۸ه.",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No! I didn't tell anyone.",
    "translations": {
     "fa": "نه! به هیچ‌کس نگفتم."
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "please",
+      "smart",
       "beans",
-      "first",
       "toast",
-      "smart"
+      "first"
      ],
      "suggestion": "Smart. What did you eat that first week? Please say not just beans on toast.",
      "suggestionFa": "زرنگ. اون هفتهٔ اول چی خوردی؟ تو رو خدا نگو فقط لوبیا با نون تست.",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I ate fish and chips. It was great!",
    "translations": {
     "fa": "ماهی و سیب‌زمینی خوردم. عالی بود!"
@@ -161,7 +161,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "People say \"sorry\" all the time!",
    "translations": {
     "fa": "مردم مدام میگن «ببخشید»!"
@@ -170,10 +170,10 @@
     {
      "keywords": [
       "anyone",
-      "about",
       "sorry",
+      "about",
       "nice",
-      "see"
+      "was"
      ],
      "suggestion": "Sorry about that. Ha! See, I did it. Was anyone nice to you?",
      "suggestionFa": "ببخشید بابتش. ها! دیدی، منم گفتم. کسی باهات مهربون بود؟",
@@ -186,7 +186,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Your mum and dad. They invited me for tea.",
    "translations": {
     "fa": "مامان و بابات. منو برای عصرونه دعوت کردن."
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "everyone",
-      "hackney",
       "welcome",
+      "hackney",
       "anyway",
       "draws"
      ],
@@ -211,7 +211,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

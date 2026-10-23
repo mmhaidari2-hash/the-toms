@@ -82,10 +82,10 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "that's",
-      "true",
-      "asks"
+      "always",
+      "asks",
+      "true"
      ],
      "suggestion": "That's true. She always asks \"why?\"",
      "suggestionFa": "درسته. همیشه می‌پرسه «چرا؟»",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "ellis",
-      "else",
       "miss",
+      "else",
       "say"
      ],
      "suggestion": "What else does Miss Ellis say?",
@@ -150,8 +150,8 @@
     {
      "keywords": [
       "anything",
-      "needs",
       "there",
+      "needs",
       "work"
      ],
      "suggestion": "Is there anything she needs to work on?",
@@ -248,8 +248,8 @@
    "branches": [
     {
      "keywords": [
-      "towards",
       "working",
+      "towards",
       "nearly",
       "there"
      ],
@@ -311,9 +311,9 @@
     {
      "keywords": [
       "report",
-      "part",
       "plan",
-      "good"
+      "good",
+      "part"
      ],
      "suggestion": "Good plan! And the last part of the report?",
      "suggestionFa": "نقشهٔ خوبیه! و قسمت آخر کارنامه؟",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "nicola",
       "sweets",
+      "nicola",
       "maths",
       "love"
      ],
@@ -366,8 +366,8 @@
      "keywords": [
       "important",
       "that's",
-      "part",
-      "most"
+      "most",
+      "part"
      ],
      "suggestion": "That's the most important part.",
      "suggestionFa": "این مهم‌ترین قسمته.",
@@ -379,8 +379,8 @@
      "keywords": [
       "should",
       "lovely",
-      "proud",
-      "she's"
+      "she's",
+      "proud"
      ],
      "suggestion": "You should be proud. She's lovely.",
      "suggestionFa": "باید افتخار کنی. خیلی دوست‌داشتنیه.",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "beautiful",
       "british",
       "museum",
-      "we're",
-      "right"
+      "right",
+      "let's"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's very colourful! But it's confusing.",
    "translations": {
     "fa": "خیلی رنگارنگه! ولی گیج‌کننده‌ست."
@@ -49,8 +49,8 @@
       "overground",
       "highbury",
       "victoria",
-      "change",
-      "colour"
+      "colour",
+      "change"
      ],
      "suggestion": "Every line has a colour. We take the overground to Highbury, then change to the Victoria line.",
      "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Change at Highbury. Then where?",
    "translations": {
     "fa": "تو هایبری عوض کنیم. بعد کجا؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two changes? Is there a quicker way?",
    "translations": {
     "fa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "tunnels",
       "quicker",
+      "tunnels",
       "there's",
       "lesson",
-      "seven"
+      "learn"
      ],
      "suggestion": "About seven. There's a quicker way, but this way, you learn the Tube. Lesson one: walk on the left in tunnels.",
      "suggestionFa": "حدود هفت تا. یه راه سریع‌تر هست، ولی این‌جوری مترو را یاد می‌گیری. درس اول: تو تونل‌ها از سمت چپ راه برو.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "On the left? Like driving!",
    "translations": {
     "fa": "سمت چپ؟ مثل رانندگی!"
@@ -124,8 +124,8 @@
       "eastbound",
       "westbound",
       "central",
-      "circus",
-      "follow"
+      "follow",
+      "that's"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
      "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eastbound. And the next train is in two minutes.",
    "translations": {
     "fa": "سمت شرق. و قطار بعدی دو دقیقهٔ دیگه‌ست."
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That was easy. I can do it alone next time.",
    "translations": {
     "fa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "complain",
       "londoner",
-      "about",
+      "complain",
       "every",
-      "real"
+      "about",
+      "then"
      ],
      "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
      "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -14,7 +14,7 @@
   "r1": {
    "id": "r1",
    "speaker": "nicola",
-   "text": "Good morning, Mehdi! How are you today?",
+   "text": "Good morning, {you}! How are you today?",
    "translations": {
     "fa": "صبح بخیر، {you}! امروز حالت چطوره؟"
    },
@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm fine, thanks. And you?",
    "translations": {
     "fa": "خوبم، ممنون. تو چطوری؟"
@@ -112,7 +112,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm very happy!",
    "translations": {
     "fa": "آره، خیلی خوشحالم!"
@@ -168,7 +168,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Why is he sad?",
    "translations": {
     "fa": "ای وای! چرا ناراحته؟"
@@ -220,7 +220,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm starving!",
    "translations": {
     "fa": "آره، دارم از گرسنگی می‌میرم!"
@@ -276,7 +276,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe he's just sleepy.",
    "translations": {
     "fa": "شاید فقط خواب‌آلوده."
@@ -300,7 +300,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Morning, Ryan. Are you OK?",
    "translations": {
     "fa": "صبح بخیر رایان. خوبی؟"
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "finding",
-      "yeah",
       "just",
       "need",
+      "yeah",
       "here"
      ],
      "suggestion": "Yeah, I'm OK. Just need a cup of tea. How are you finding it here?",
@@ -325,7 +325,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's great. Everyone is very kind.",
    "translations": {
     "fa": "عالیه. همه خیلی مهربونن."
@@ -377,7 +377,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Yes, he is.",
    "translations": {
     "fa": "ها! آره، داره می‌زنه."

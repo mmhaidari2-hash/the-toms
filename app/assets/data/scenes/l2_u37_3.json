@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "minus",
       "three",
+      "minus",
       "help"
      ],
      "suggestion": "Minus three! Can I help?",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "water",
-      "hot",
-      "use"
+      "use",
+      "hot"
      ],
      "suggestion": "Can you use hot water on it?",
      "suggestionFa": "میشه آب داغ روش بریزی؟",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "didn't",
-      "glass",
       "crack",
+      "glass",
       "know"
      ],
      "suggestion": "The glass can crack? I didn't know that.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "where's",
-      "heater",
       "button",
+      "heater",
       "ok"
      ],
      "suggestion": "OK. Where's the button for the heater?",
@@ -202,8 +202,8 @@
      "keywords": [
       "windscreen",
       "cracked",
-      "has",
-      "her"
+      "her",
+      "has"
      ],
      "suggestion": "Has her windscreen cracked?",
      "suggestionFa": "شیشه‌اش ترک برداشته؟",
@@ -256,8 +256,8 @@
    "branches": [
     {
      "keywords": [
-      "actually",
       "knitting",
+      "actually",
       "thanks",
       "scarf"
      ],
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "gloves",
+      "didn't",
       "think",
       "why"
      ],
@@ -364,9 +364,9 @@
    "branches": [
     {
      "keywords": [
-      "grit",
-      "path",
       "i'll",
+      "path",
+      "grit",
       "now"
      ],
      "suggestion": "Grit. Got it. I'll do the path now.",

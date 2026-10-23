@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "retired",
-      "people",
       "thirty",
-      "years",
-      "route"
+      "people",
+      "never",
+      "years"
      ],
      "suggestion": "Never told many people this. My dad drove the 38 too. Thirty-one years. I took his route when he retired.",
      "suggestionFa": "به خیلی‌ها نگفتم. بابام هم ۳۸ را می‌روند. سی و یک سال. وقتی بازنشسته شد مسیرش را گرفتم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He must have been so proud of you.",
    "translations": {
     "fa": "حتماً خیلی بهت افتخار می‌کرد."
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "victoria",
-      "pothole",
-      "clapton",
       "between",
+      "clapton",
+      "pothole",
       "nearly"
      ],
      "suggestion": "Same route, same cab, nearly. He knew every pothole between Victoria and Clapton Pond.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What was he like?",
    "translations": {
     "fa": "چطور آدمی بود؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "upstairs",
       "saturday",
+      "upstairs",
       "passed",
       "house",
-      "twice"
+      "front"
      ],
      "suggestion": "Every Saturday. Front seat upstairs. He'd ding the bell twice when we passed our house — just for me.",
      "suggestionFa": "هر شنبه. صندلی جلوی طبقهٔ بالا. وقتی از جلوی خونه‌مون رد می‌شدیم دو بار زنگ می‌زد — فقط برای من.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a beautiful memory.",
    "translations": {
     "fa": "خاطرهٔ قشنگیه."
@@ -99,8 +99,8 @@
       "pretends",
       "doesn't",
       "nicola",
-      "waves",
-      "every"
+      "every",
+      "waves"
      ],
      "suggestion": "Ha — every time. Nicola waves like mad. Ryan pretends he doesn't know me.",
      "suggestionFa": "ها — هر بار. نیکولا دیوونه‌وار دست تکون می‌ده. رایان وانمود می‌کنه منو نمی‌شناسه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Typical teenager!",
    "translations": {
     "fa": "نوجوون تیپیک!"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "failing",
       "seventy",
+      "failing",
       "doctor",
       "heart",
-      "says"
+      "same"
      ],
      "suggestion": "He does. Dad was the same with me. Now it's his heart — the doctor says it's failing. He's seventy-six.",
      "suggestionFa": "عاشقشه. بابا هم با من همین‌طور بود. حالا قلبشه — دکتر می‌گه داره ضعیف میشه. هفتاد و شش سالشه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm so sorry, Tom. How is he coping?",
    "translations": {
     "fa": "خیلی متأسفم تام. چطور کنار میاد؟"
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mornings",
       "stubborn",
+      "mornings",
       "depot",
       "still",
       "ever"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's not daft at all.",
    "translations": {
     "fa": "اصلاً احمقانه نیست."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "someone",
-      "didn't",
       "that's",
+      "didn't",
       "don't",
-      "yeah"
+      "nice"
      ],
      "suggestion": "Yeah? That's nice, that. You lost someone too, didn't you? You don't have to say.",
      "suggestionFa": "آره؟ قشنگه این. تو هم کسی را از دست دادی، نه؟ لازم نیست بگی.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My grandfather. I couldn't go to his funeral.",
    "translations": {
     "fa": "پدربزرگم. نتونستم برم مراسمش."
@@ -199,8 +199,8 @@
       "whenever",
       "garden's",
       "alright",
-      "kettle",
-      "that's"
+      "that's",
+      "kettle"
      ],
      "suggestion": "That's alright, mate. Whenever you're ready. The garden's always here, and so's the kettle.",
      "suggestionFa": "اشکالی نداره رفیق. هر وقت آماده بودی. باغچه همیشه اینجاست، کتری هم همین‌طور.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you, Tom. That means a lot.",
    "translations": {
     "fa": "ممنون تام. خیلی برام ارزش داره."
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "leslie'll",
-      "cheers",
-      "that's",
       "dad'll",
+      "that's",
+      "cheers",
       "family"
      ],
      "suggestion": "Cheers, mate. You're family now — that's why I told you. Come on — Dad'll want his tea, and Leslie'll think we've run off.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

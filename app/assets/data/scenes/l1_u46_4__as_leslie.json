@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I've got work tomorrow.",
    "translations": {
     "fa": "آره، فردا کار دارم."
@@ -99,7 +99,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you for having us.",
    "translations": {
     "fa": "ممنون که مهمونمون کردید."
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We'd love to.",
    "translations": {
     "fa": "خیلی دوست داریم."
@@ -132,9 +132,9 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "persian",
-      "take",
+      "cooking",
+      "wait",
       "food",
       "home"
      ],
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no, that's too much.",
    "translations": {
     "fa": "آه نه، خیلی زیاده."
@@ -159,9 +159,9 @@
      "keywords": [
       "there's",
       "here's",
-      "amina",
+      "coats",
       "loads",
-      "coats"
+      "amina"
      ],
      "suggestion": "There's loads! Here's a box for you, and one for Amina. Have you got your coats?",
      "suggestionFa": "کلی هست! اینم یه جعبه برای تو، یکی هم برای آمینا. کتاتون را برداشتید؟",
@@ -174,7 +174,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. And my umbrella.",
    "translations": {
     "fa": "آره. و چترم."
@@ -196,7 +196,7 @@
   "r8": {
    "id": "r8",
    "speaker": "khan",
-   "text": "Mehdi, can you walk me home? It's only next door, but it's dark.",
+   "text": "{you}, can you walk me home? It's only next door, but it's dark.",
    "translations": {
     "fa": "{you}، منو تا خونه می‌رسونی؟ همین بغله، ولی تاریکه."
    },
@@ -225,7 +225,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course, Mrs Khan.",
    "translations": {
     "fa": "البته خانم خان."
@@ -234,10 +234,10 @@
     {
      "keywords": [
       "night",
+      "when",
       "live",
-      "text",
-      "next",
-      "when"
+      "door",
+      "home"
      ],
      "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",
      "suggestionFa": "شب بخیر! وقتی سالم رسیدید پیام بدید. ها — هر دوتون که بغل دستید! خداحافظ!",
@@ -250,7 +250,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

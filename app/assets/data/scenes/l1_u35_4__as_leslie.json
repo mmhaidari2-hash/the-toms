@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry. I'll whisper.",
    "translations": {
     "fa": "ببخشید. پچ‌پچ می‌کنم."
@@ -50,7 +50,7 @@
       "monitor",
       "look",
       "he's",
-      "see"
+      "his"
      ],
      "suggestion": "No, he's sleeping in his bed. The monitor is on. Look, you can see him.",
      "suggestionFa": "نه، تو تختش خوابیده. دوربین روشنه. ببین، می‌تونی ببینیش.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's smiling in his sleep.",
    "translations": {
     "fa": "تو خواب لبخند می‌زنه."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "making",
+      "course",
       "would",
       "like",
-      "one"
+      "tea"
      ],
      "suggestion": "His toy bus! Of course. Would you like a cup of tea? I'm making one.",
      "suggestionFa": "اتوبوس اسباب‌بازیش! معلومه. چای می‌خوری؟ دارم درست می‌کنم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. Quietly!",
    "translations": {
     "fa": "آره، لطفاً. آروم!"
@@ -99,8 +99,8 @@
       "upstairs",
       "what's",
       "thank",
-      "tired",
-      "doing"
+      "doing",
+      "tired"
      ],
      "suggestion": "Oh, thank you! I'm so tired. What's Ryan doing upstairs? It's very loud.",
      "suggestionFa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصدا داره.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I think he's playing a game.",
    "translations": {
     "fa": "فکر کنم داره بازی می‌کنه."
@@ -123,9 +123,9 @@
      "keywords": [
       "sleeping",
       "william",
-      "text",
       "tell",
-      "him"
+      "text",
+      "can"
      ],
      "suggestion": "Can you text him? Tell him William is sleeping.",
      "suggestionFa": "می‌تونی بهش پیام بدی؟ بگو ویلیام خوابه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. I'm texting him now.",
    "translations": {
     "fa": "باشه. الان دارم بهش پیام میدم."
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "doorbell",
-      "ringing",
       "perfect",
+      "ringing",
       "who's",
       "bell"
      ],
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll get it! Quickly!",
    "translations": {
     "fa": "من باز می‌کنم! سریع!"
@@ -175,7 +175,7 @@
       "napping",
       "little",
       "please",
-      "knock"
+      "still"
      ],
      "suggestion": "Phew. He's still sleeping. Next time, put a note on the door: \"Little one napping! Please knock!\"",
      "suggestionFa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت بذار رو در: «بچه خوابه! لطفاً در بزنید!»",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

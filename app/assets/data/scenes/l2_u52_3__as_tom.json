@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "wonderwall",
       "someone",
       "karaoke",
-      "didn't",
-      "room's"
+      "room's",
+      "didn't"
      ],
      "suggestion": "I didn't sleep a wink. Our room's above the bar next door. Music till two a.m. Karaoke! Someone sang \"Wonderwall\" four times.",
      "suggestionFa": "یه لحظه هم نخوابیدم. اتاقمون بالای بار بغلیه. موسیقی تا دو صبح. کارائوکه! یکی چهار بار «واندروال» خوند.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four times! That's terrible.",
    "translations": {
     "fa": "چهار بار! افتضاحه."
@@ -49,10 +49,10 @@
       "something",
       "earplugs",
       "humming",
-      "nicely",
+      "britpop",
       "sophie"
      ],
-     "suggestion": "The kids? Like logs. Leslie wore earplugs. Me — I lay there humming old Britpop songs. I need to say something to Sophie. But nicely.",
+     "suggestion": "The kids? Like logs. Leslie wore earplugs. Me? I lay there humming Britpop. I need to say something to Sophie. Nicely.",
      "suggestionFa": "بچه‌ها؟ مثل کُنده. لزلی گوش‌گیر گذاشت. من — دراز کشیده بودم و آهنگ اوئیسیس زمزمه می‌کردم. باید یه چیزی به سوفی بگم. ولی مؤدبانه.",
      "trustDelta": 5,
      "next": "r3",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Say: \"I'm afraid there's a problem with our room.\"",
    "translations": {
     "fa": "بگو: «متأسفانه اتاقمون مشکل داره.»"
@@ -74,7 +74,7 @@
       "morning",
       "there's",
       "problem",
-      "bother",
+      "afraid",
       "sophie"
      ],
      "suggestion": "Good. \"I'm afraid there's a problem…\" Sophie! Morning. Sorry to bother you. I'm afraid our room is a bit… noisy.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Tom. Very polite.",
    "translations": {
     "fa": "آفرین تام. خیلی مؤدبانه."
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Would it be possible to change rooms?",
    "translations": {
     "fa": "ممکنه اتاق عوض کنیم؟"
@@ -196,7 +196,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Smaller is OK. Tom, what do you think?",
    "translations": {
     "fa": "کوچیک‌تر اشکالی نداره. تام، نظرت چیه؟"
@@ -207,7 +207,7 @@
       "everything",
       "smaller",
       "sophie",
-      "great",
+      "quiet",
       "thank"
      ],
      "suggestion": "Smaller is fine. Quiet is everything. That would be great, Sophie. Thank you.",
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can the kids still sleep together in room five?",
    "translations": {
     "fa": "بچه‌ها هنوز می‌تونن تو اتاق پنج با هم بخوابن؟"
@@ -270,7 +270,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free dinner! Thank you, Sophie.",
    "translations": {
     "fa": "شام مجانی! ممنون سوفی."
@@ -279,10 +279,10 @@
     {
      "keywords": [
       "complain",
-      "polite",
-      "that's",
       "sophie",
-      "dinner"
+      "dinner",
+      "that's",
+      "polite"
      ],
      "suggestion": "Free dinner? Sophie, you're a star. See? That's how you complain. Polite, and you get dinner!",
      "suggestionFa": "شام مجانی؟ سوفی، تو یه ستاره‌ای. دیدی؟ اینجوری شکایت می‌کنن. مؤدبانه، و شام می‌گیری!",
@@ -295,7 +295,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm learning from the best!",
    "translations": {
     "fa": "دارم از بهترین یاد می‌گیرم!"
@@ -305,8 +305,8 @@
      "keywords": [
       "shouting",
       "doesn't",
-      "country",
       "strange",
+      "country",
       "moving"
      ],
      "suggestion": "Shouting doesn't work here. Smile, say sorry, and they give you more. Strange country. Right — I'm moving our bags. Then a nap.",
@@ -320,7 +320,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sleep well, Tom. No Wonderwall!",
    "translations": {
     "fa": "خوب بخوابی تام. بدون واندروال!"
@@ -331,7 +331,7 @@
       "wonderwall",
       "properly",
       "tonight",
-      "hear",
+      "wake",
       "bags"
      ],
      "suggestion": "Help with the bags, yes. And if you hear Wonderwall tonight, wake me up. I'll go and sing it properly.",
@@ -345,7 +345,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -33,8 +33,8 @@
     {
      "keywords": [
       "noisy",
-      "busy",
       "love",
+      "busy",
       "but"
      ],
      "suggestion": "It's busy and noisy, but I love it.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "resorts",
-      "silly",
       "there",
-      "hour"
+      "silly",
+      "from"
      ],
      "suggestion": "Not silly! There are ski resorts one hour from the city.",
      "suggestionFa": "احمقانه نیست! پیست‌های اسکی یه ساعت از شهر فاصله دارن.",
@@ -161,8 +161,8 @@
      "keywords": [
       "learned",
       "when",
-      "ten",
-      "was"
+      "was",
+      "ten"
      ],
      "suggestion": "Yes! I learned to ski when I was ten.",
      "suggestionFa": "آره! ده سالم بود اسکی یاد گرفتم.",
@@ -274,7 +274,7 @@
       "carpets",
       "spices",
       "there",
-      "lots"
+      "gold"
      ],
      "suggestion": "There are lots of carpets, spices and gold.",
      "suggestionFa": "کلی فرش، ادویه و طلا هست.",
@@ -321,9 +321,9 @@
     {
      "keywords": [
       "family",
-      "food",
       "most",
-      "miss"
+      "miss",
+      "food"
      ],
      "suggestion": "Yes. I miss my family and the food most.",
      "suggestionFa": "آره. بیشتر از همه دلم برای خانواده و غذا تنگ میشه.",
@@ -375,9 +375,9 @@
     {
      "keywords": [
       "would",
-      "cook",
       "week",
-      "i'd"
+      "cook",
+      "mum"
      ],
      "suggestion": "I'd love that. My mum would cook for a week!",
      "suggestionFa": "خیلی دوست دارم. مامانم یه هفته آشپزی می‌کنه!",

@@ -69,7 +69,7 @@
   "n2": {
    "id": "n2",
    "speaker": "tom",
-   "text": "The kids? Like logs. Leslie wore earplugs. Me — I lay there humming old Britpop songs. I need to say something to Sophie. But nicely.",
+   "text": "The kids? Like logs. Leslie wore earplugs. Me? I lay there humming Britpop. I need to say something to Sophie. Nicely.",
    "translations": {
     "fa": "بچه‌ها؟ مثل کُنده. لزلی گوش‌گیر گذاشت. من — دراز کشیده بودم و آهنگ اوئیسیس زمزمه می‌کردم. باید یه چیزی به سوفی بگم. ولی مؤدبانه."
    },
@@ -89,8 +89,8 @@
     },
     {
      "keywords": [
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "I'll come with you.",
      "suggestionFa": "باهات میام.",
@@ -189,8 +189,8 @@
      "keywords": [
       "couldn't",
       "quieter",
-      "sleep",
-      "there"
+      "there",
+      "sleep"
      ],
      "suggestion": "Tom couldn't sleep. Is there a quieter room?",
      "suggestionFa": "تام نتونست بخوابه. اتاق آروم‌تری هست؟",
@@ -284,7 +284,7 @@
       "together",
       "still",
       "sleep",
-      "five"
+      "room"
      ],
      "suggestion": "Can the kids still sleep together in room five?",
      "suggestionFa": "بچه‌ها هنوز می‌تونن تو اتاق پنج با هم بخوابن؟",
@@ -294,8 +294,8 @@
     },
     {
      "keywords": [
-      "that's",
       "sophie",
+      "that's",
       "thank",
       "kind"
      ],
@@ -391,8 +391,8 @@
     },
     {
      "keywords": [
-      "shout",
       "would",
+      "shout",
       "more",
       "iran"
      ],
@@ -445,10 +445,10 @@
     },
     {
      "keywords": [
-      "carry",
       "shall",
-      "help",
-      "bags"
+      "carry",
+      "bags",
+      "help"
      ],
      "suggestion": "Shall I help you carry the bags?",
      "suggestionFa": "کمکت کنم کیف‌ها را ببری؟",

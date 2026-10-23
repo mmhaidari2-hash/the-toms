@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "playground",
       "please",
       "swing",
-      "come",
-      "push"
+      "push",
+      "come"
      ],
      "suggestion": "The playground! Come on! Push me on the swing, please!",
      "suggestionFa": "زمین بازی! بیا! هلم بده روی تاب، لطفاً!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Hold on tight!",
    "translations": {
     "fa": "باشه. محکم بگیر!"
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "flying",
-      "higher"
+      "higher",
+      "flying"
      ],
      "suggestion": "Higher! Higher! I'm flying!",
      "suggestionFa": "بالاتر! بالاتر! دارم پرواز می‌کنم!",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not too high!",
    "translations": {
     "fa": "نه خیلی بالا!"
@@ -71,8 +71,8 @@
       "ladder",
       "wheee",
       "slide",
-      "going",
-      "watch"
+      "watch",
+      "going"
      ],
      "suggestion": "Now the slide! Watch me. I'm going up the ladder… and down the slide! Wheee!",
      "suggestionFa": "حالا سرسره! منو ببین. دارم از نردبون می‌رم بالا… و از سرسره می‌آم پایین! وییی!",
@@ -85,7 +85,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Brilliant!",
    "translations": {
     "fa": "عالی!"
@@ -108,7 +108,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm too big!",
    "translations": {
     "fa": "خیلی بزرگم!"
@@ -117,8 +117,8 @@
     {
      "keywords": [
       "stuck",
-      "big",
       "got",
+      "big",
       "ha"
      ],
      "suggestion": "Ha ha ha! You got stuck! You're too big!",
@@ -132,7 +132,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Help! Pull me out!",
    "translations": {
     "fa": "کمک! منو بکش بیرون!"
@@ -142,9 +142,9 @@
      "keywords": [
       "through",
       "tunnel",
-      "crawl",
       "let's",
-      "can"
+      "crawl",
+      "now"
      ],
      "suggestion": "Now let's go through the tunnel. Can you crawl?",
      "suggestionFa": "حالا بیا از تونل رد بشیم. می‌تونی چهار دست و پا بری؟",
@@ -157,7 +157,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Through the tunnel? I'll try.",
    "translations": {
     "fa": "از تونل؟ امتحان می‌کنم."
@@ -166,10 +166,10 @@
     {
      "keywords": [
       "climbing",
-      "bridge",
       "follow",
+      "bridge",
       "frame",
-      "over"
+      "onto"
      ],
      "suggestion": "Then over the bridge and onto the climbing frame! Follow me!",
      "suggestionFa": "بعد از روی پل و رو داربست بازی! دنبالم بیا!",
@@ -182,7 +182,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wait for me!",
    "translations": {
     "fa": "صبر کن منم بیام!"
@@ -207,7 +207,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha ha! What does that mean?",
    "translations": {
     "fa": "ها ها! یعنی چی؟"
@@ -217,9 +217,9 @@
      "keywords": [
       "roundabout",
       "cream",
-      "push",
       "then",
-      "spin"
+      "game",
+      "push"
      ],
      "suggestion": "It's a game! Now the roundabout. You push, I spin. Then ice cream!",
      "suggestionFa": "یه بازیه! حالا چرخ‌وفلک. تو هل بده، من می‌چرخم. بعد بستنی!",
@@ -232,7 +232,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

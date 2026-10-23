@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,8 +24,8 @@
       "trainers",
       "choose",
       "forty",
-      "gave",
-      "quid"
+      "quid",
+      "gave"
      ],
      "suggestion": "Mum gave me forty quid for new trainers. Can you help me choose?",
      "suggestionFa": "مامان چهل پوند داد برای کتونی نو. کمکم می‌کنی انتخاب کنم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course! What colour do you want?",
    "translations": {
     "fa": "حتماً! چه رنگی می‌خوای؟"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "these",
-      "there",
-      "those",
       "white",
+      "there",
+      "these",
+      "those",
       "think"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Those ones are nicer.",
    "translations": {
     "fa": "اون‌ها قشنگ‌ترن."
@@ -73,8 +73,8 @@
      "keywords": [
       "pounds",
       "thirty",
-      "these",
       "forty",
+      "these",
       "those"
      ],
      "suggestion": "Those are forty-five pounds. These are thirty-five. Hmm.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "These are cheaper and they look good.",
    "translations": {
     "fa": "این‌ها ارزون‌ترن و خوب به نظر میان."
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "excuse",
       "please",
+      "excuse",
       "these",
       "size",
       "nine"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good — you asked politely!",
    "translations": {
     "fa": "خوبه — مؤدبانه پرسیدی!"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "they're",
-      "bigger",
       "better",
+      "bigger",
       "small",
       "tens"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Walk around. Are they comfortable?",
    "translations": {
     "fa": "یه کم راه برو. راحتن؟"
@@ -149,8 +149,8 @@
       "really",
       "chips",
       "comfy",
-      "five",
-      "left"
+      "quid",
+      "want"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",
      "suggestionFa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! Chips with salt and vinegar!",
    "translations": {
     "fa": "آره! چیپس با نمک و سرکه!"
@@ -173,8 +173,8 @@
      "keywords": [
       "chippy's",
       "corner",
-      "round",
       "chips",
+      "round",
       "life"
      ],
      "suggestion": "Nah, chips are life. Come on, the chippy's round the corner!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

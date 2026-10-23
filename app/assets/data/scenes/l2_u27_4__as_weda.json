@@ -35,7 +35,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hello! Yes, I'm the lodger.",
    "translations": {
     "fa": "سلام! بله، من مستأجرم."
@@ -47,7 +47,7 @@
       "freedom",
       "didn't",
       "tapped",
-      "about"
+      "doris"
      ],
      "suggestion": "It is, Doris. Hello, dear. I'm teaching him about my Freedom Pass. He tapped his card and I didn't!",
      "suggestionFa": "خودشه دوریس. سلام عزیزم. دارم بهش دربارهٔ کارت فریدم پسم یاد میدم. اون کارتش را زد و من نزدم!",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why didn't you tap, Nana Maggie?",
    "translations": {
     "fa": "چرا کارت نزدی ننه مگی؟"
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free? On every bus?",
    "translations": {
     "fa": "رایگان؟ تو همهٔ اتوبوس‌ها؟"
@@ -132,11 +132,11 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "pension",
+      "morning",
       "years",
-      "after",
-      "every"
+      "every",
+      "after"
      ],
      "suggestion": "At pension age. I've had mine ten years. Every bus, any time. The Tube after nine in the morning.",
      "suggestionFa": "از سن بازنشستگی. ده ساله که دارمش. هر اتوبوسی، هر ساعتی. مترو بعد از نه صبح.",
@@ -149,7 +149,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you need to apply for it?",
    "translations": {
     "fa": "باید براش درخواست بدی؟"
@@ -197,7 +197,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five years. That's a long time.",
    "translations": {
     "fa": "پنج سال. مدت زیادیه."
@@ -206,10 +206,10 @@
     {
      "keywords": [
       "december",
-      "usually",
       "reminds",
-      "forgot",
-      "george"
+      "usually",
+      "george",
+      "forgot"
      ],
      "suggestion": "Oh! You're right. It's valid until December. I forgot. George usually reminds me. He's not well.",
      "suggestionFa": "اوه! راست میگی. تا دسامبر معتبره. یادم رفته بود. جورج معمولاً یادم میندازه. حالش خوب نیست.",
@@ -222,7 +222,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can help you renew it online, Nana Maggie.",
    "translations": {
     "fa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی."
@@ -234,7 +234,7 @@
       "hopeless",
       "heart's",
       "online",
-      "still"
+      "bossy"
      ],
      "suggestion": "His heart's tired, dear. But he's still bossy. Online? Would you? I'm hopeless with computers.",
      "suggestionFa": "قلبش خسته‌ست عزیزم. ولی هنوز رئیس‌بازی درمیاره. آنلاین؟ این کار را می‌کنی؟ من با کامپیوتر اصلاً خوب نیستم.",
@@ -247,7 +247,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. We need a new photo.",
    "translations": {
     "fa": "البته. یه عکس جدید لازم داریم."
@@ -303,7 +303,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! I'm sure it's lovely, Doris.",
    "translations": {
     "fa": "ها! مطمئنم قشنگه دوریس."
@@ -311,11 +311,11 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "terror",
-      "right",
+      "lovely",
+      "white",
       "doris",
-      "white"
+      "right"
      ],
      "suggestion": "At home, with a white wall. Lovely. Doris, you're a terror. Right, dear — this is our stop. Ring the bell for an old lady!",
      "suggestionFa": "تو خونه، با یه دیوار سفید. عالیه. دوریس، تو یه بلایی. خب عزیزم — ایستگاه ماست. برای یه خانم پیر زنگ را بزن!",
@@ -328,7 +328,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

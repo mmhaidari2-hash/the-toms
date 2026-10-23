@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "messages",
       "yourself",
-      "chat",
       "hundred",
+      "people",
       "street"
      ],
      "suggestion": "I've added you to the Mare Street group chat! Brace yourself. Forty-two people. Two hundred messages a day.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two hundred! What do they talk about?",
    "translations": {
     "fa": "دویست تا! دربارهٔ چی حرف می‌زنن؟"
@@ -48,12 +48,12 @@
      "keywords": [
       "everything",
       "parking",
+      "parcels",
       "already",
-      "welcome",
-      "parcels"
+      "welcome"
      ],
-     "suggestion": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, Mehdi!!\"",
-     "suggestionFa": "همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی مهدی!!»",
+     "suggestion": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, {you}!!\"",
+     "suggestionFa": "همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی {you}!!»",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me reply: \"Thank you! Happy to be here.\"",
    "translations": {
     "fa": "بذار جواب بدم: «ممنون! خوشحالم اینجام.»"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "perfect",
-      "hasn't",
-      "anyone",
       "khan's",
+      "anyone",
+      "hasn't",
       "night"
      ],
      "suggestion": "Perfect. Oh — a new one. \"Has anyone seen Tiger? He hasn't come home since last night.\" Oh no. Mrs Khan's cat.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tiger is missing? Oh no!",
    "translations": {
     "fa": "تایگر گم شده؟ وای نه!"
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "tiger's",
+      "morning",
       "ginger",
-      "quick",
+      "write",
       "group"
      ],
      "suggestion": "By our shed? Tiger's ginger! Write that in the group. Quick! \"I think I saw Tiger by our shed this morning.\"",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Done. Should I check the shed?",
    "translations": {
     "fa": "انجام شد. انباری را چک کنم؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "deckchair",
-      "treats",
       "asleep",
-      "tom's",
-      "there"
+      "treats",
+      "there",
+      "tom's"
      ],
      "suggestion": "Go and look — I'll get the treats. … Oh! Is he in there? On Tom's old deckchair, fast asleep?",
      "suggestionFa": "برو ببین — من خوراکی گربه را میارم. … اوه! اون توئه؟ رو صندلی تاشوی قدیمی تام، تو خواب عمیق؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! He's asleep on the deckchair!",
    "translations": {
     "fa": "آره! رو صندلی تاشو خوابه!"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "locked",
-      "found",
-      "group",
       "write",
-      "fine"
+      "group",
+      "found",
+      "he's"
      ],
      "suggestion": "Ha! He was locked in the shed. Tom! You locked the cat in! Write in the group: \"Found him! He's fine.\"",
      "suggestionFa": "ها! تو انباری حبس شده بود. تام! گربه را حبس کردی! تو گروه بنویس: «پیداش کردیم! حالش خوبه.»",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"Found Tiger! He's fine and very sleepy.\"",
    "translations": {
     "fa": "«تایگر پیدا شد! حالش خوبه و خیلی خواب‌آلوده.»"
@@ -174,8 +174,8 @@
       "dancing",
       "hearts",
       "night",
-      "it'll",
-      "group"
+      "group",
+      "it'll"
      ],
      "suggestion": "Forty hearts and a GIF of a dancing cat. Your first day in the group and you're a hero. Now — mute it, or it'll buzz all night!",
      "suggestionFa": "چهل تا قلب و یه گیف گربهٔ رقصان. روز اولت تو گروه و قهرمان شدی. حالا — بی‌صداش کن، وگرنه کل شب ویبره می‌زنه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mute the group. Good idea!",
    "translations": {
     "fa": "گروه را بی‌صدا کنم. فکر خوبیه!"
@@ -199,8 +199,8 @@
       "reminder",
       "before",
       "number",
-      "check",
-      "laugh"
+      "sheds",
+      "check"
      ],
      "suggestion": "Ha! Post that. \"Just a reminder: check your sheds before you lock them. Love, number ten.\" Mrs Khan will laugh for a week.",
      "suggestionFa": "ها! بفرستش. «فقط یه یادآوری: قبل از قفل کردن انباری‌تون چکش کنید. با عشق، شمارهٔ ده.» خانم خان یه هفته می‌خنده.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

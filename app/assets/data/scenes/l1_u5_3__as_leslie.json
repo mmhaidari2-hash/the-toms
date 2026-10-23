@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,7 +24,7 @@
       "william",
       "please",
       "towel",
-      "pass",
+      "time",
       "bath"
      ],
      "suggestion": "Bath time, William! Oh, can you help me? Pass me the towel, please.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's the towel.",
    "translations": {
     "fa": "بفرما حوله."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's your rubber duck, William.",
    "translations": {
     "fa": "بفرما اردک پلاستیکی‌ات، ویلیام."
@@ -102,8 +102,8 @@
       "morning",
       "shower",
       "loves",
-      "bath",
-      "have"
+      "duck",
+      "bath"
      ],
      "suggestion": "He loves that duck. Do you have a bath or a shower in the morning?",
      "suggestionFa": "عاشق اون اردکه. تو صبح‌ها وان می‌گیری یا دوش؟",
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I have a shower every morning.",
    "translations": {
     "fa": "هر صبح دوش می‌گیرم."
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me check the water.",
    "translations": {
     "fa": "بذار آب را امتحان کنم."
@@ -204,7 +204,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's add some hot water.",
    "translations": {
     "fa": "بیا یه کم آب گرم اضافه کنیم."
@@ -215,8 +215,8 @@
       "shampoo",
       "that's",
       "better",
-      "pass",
-      "soap"
+      "next",
+      "pass"
      ],
      "suggestion": "That's better. Can you pass the shampoo? It's next to the soap.",
      "suggestionFa": "بهتر شد. شامپو را می‌دی؟ کنار صابونه.",
@@ -229,7 +229,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are. Shampoo.",
    "translations": {
     "fa": "بفرما. شامپو."
@@ -254,7 +254,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's very good in the bath.",
    "translations": {
     "fa": "توی وان خیلی پسر خوبیه."
@@ -264,8 +264,8 @@
      "keywords": [
       "pyjamas",
       "little",
-      "story",
       "night",
+      "story",
       "done"
      ],
      "suggestion": "All done. Now pyjamas, a story and bed. Night night, little one!",
@@ -279,7 +279,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

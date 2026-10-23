@@ -48,7 +48,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. I'd like the phone in the window.",
    "translations": {
     "fa": "آره. اون گوشی تو ویترین را می‌خوام."
@@ -112,7 +112,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a credit check?",
    "translations": {
     "fa": "اعتبارسنجی چیه؟"
@@ -172,7 +172,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got a bank letter. Is that OK?",
    "translations": {
     "fa": "یه نامهٔ بانکی دارم. خوبه؟"
@@ -215,7 +215,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Fingers crossed!",
    "translations": {
     "fa": "باشه. امیدوار باشیم!"
@@ -227,7 +227,7 @@
       "phone",
       "first",
       "when",
-      "week"
+      "took"
      ],
      "suggestion": "Two minutes? When I got my first phone, it took a week and a man in a tie.",
      "suggestionFa": "دو دقیقه؟ وقتی من اولین گوشیم را گرفتم، یه هفته طول کشید و یه آقای کراواتی.",
@@ -240,7 +240,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! When was that, Tom?",
    "translations": {
     "fa": "ها! کی بود تام؟"
@@ -300,7 +300,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What happens if it's a no?",
    "translations": {
     "fa": "اگه «نه» باشه چی میشه؟"
@@ -356,7 +356,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How do I build up my credit history?",
    "translations": {
     "fa": "چطوری سابقهٔ اعتباریم را بسازم؟"
@@ -365,10 +365,10 @@
     {
      "keywords": [
       "register",
-      "advice",
-      "borrow",
       "that's",
-      "bills"
+      "borrow",
+      "advice",
+      "don't"
      ],
      "suggestion": "Register to vote, pay bills on time, and don't borrow too much. That's what my dad told me. Good advice, Dev?",
      "suggestionFa": "برای رأی دادن ثبت‌نام کن، قبض‌ها را سر وقت بده و زیاد قرض نگیر. اینو بابام بهم گفت. توصیهٔ خوبیه، دِو؟",
@@ -381,7 +381,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Can I register to vote? I'm not British.",
    "translations": {
     "fa": "می‌تونم برای رأی ثبت‌نام کنم؟ من بریتانیایی نیستم."
@@ -441,7 +441,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. SIM-only, and I'll come back in six months.",
    "translations": {
     "fa": "آره. فقط سیم‌کارت، و شش ماه دیگه برمی‌گردم."

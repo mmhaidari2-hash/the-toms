@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "boiler's",
-      "heating",
-      "working",
       "stopped",
-      "again"
+      "working",
+      "heating",
+      "water"
      ],
      "suggestion": "Bad news — the boiler's stopped working again. No hot water, no heating.",
      "suggestionFa": "خبر بد — پکیج دوباره از کار افتاده. نه آب گرم، نه گرمایش.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Can you fix it yourself?",
    "translations": {
     "fa": "ای وای! خودت می‌تونی درستش کنی؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How soon can someone come?",
    "translations": {
     "fa": "کی زودتر می‌تونه یکی بیاد؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll get some extra blankets out.",
    "translations": {
     "fa": "چندتا پتوی اضافه میارم."
@@ -98,9 +98,9 @@
      "keywords": [
       "radiators",
       "please",
-      "funny",
+      "makes",
       "noise",
-      "going"
+      "while"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
      "suggestionFa": "آره لطفاً. و تا اینجاست، می‌خوام بدم هوای رادیاتورها را بگیرن. مال اتاق تو یه صدای عجیب می‌ده.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It does! It sounds like someone knocking.",
    "translations": {
     "fa": "آره! صداش مثل در زدن یکیه."
@@ -125,7 +125,7 @@
       "checked",
       "remind",
       "alarm",
-      "heats"
+      "smoke"
      ],
      "suggestion": "You let the air out, so it heats properly. Easy. Oh — and remind me to get the smoke alarm checked too.",
      "suggestionFa": "هوا را خالی می‌کنی، تا درست گرم کنه. آسونه. آه — و یادم بنداز آژیر دود را هم بدم چک کنن.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll put a reminder on my phone.",
    "translations": {
     "fa": "یه یادآور رو گوشیم می‌ذارم."
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
-      "kettle",
       "shower",
-      "right",
-      "going"
+      "kettle",
+      "cheers",
+      "least",
+      "can't"
      ],
      "suggestion": "Cheers. Right — I'm going to put the kettle on. If we can't have a shower, at least we can have a brew!",
      "suggestionFa": "مرسی. خب — می‌رم کتری را بذارم. اگه نمی‌تونیم دوش بگیریم، حداقل می‌تونیم یه چای بخوریم!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -23,11 +23,11 @@
      "keywords": [
       "sensible",
       "charge",
-      "list",
-      "sent",
-      "take"
+      "said",
+      "he's",
+      "list"
      ],
-     "suggestion": "Mum sent me with a list. She said, \"Take Mehdi, he's sensible.\" So, er… you're in charge.",
+     "suggestion": "Mum sent me with a list. She said, \"Take {you}, he's sensible.\" So, er… you're in charge.",
      "suggestionFa": "مامان با یه لیست فرستادم. گفت: «{you} را ببر، عاقله.» پس، اِ… مسئولش تویی.",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK! What's on the list?",
    "translations": {
     "fa": "باشه! چی تو لیسته؟"
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
+      "cheese",
+      "crisps",
       "onions",
       "apples",
-      "crisps",
-      "cheese",
       "harsh"
      ],
      "suggestion": "\"Milk, eggs, some apples, a few onions, a bit of cheese, and NO crisps, Ryan.\" Harsh.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How many eggs do we need?",
    "translations": {
     "fa": "چند تا تخم‌مرغ لازم داریم؟"
@@ -74,8 +74,8 @@
       "twelve",
       "didn't",
       "boxes",
-      "eggs",
-      "come"
+      "here",
+      "eggs"
      ],
      "suggestion": "She didn't say. Six? Twelve? Eggs come in boxes of six or twelve here.",
      "suggestionFa": "نگفته. شش تا؟ دوازده تا؟ اینجا تخم‌مرغ تو جعبه‌های شش‌تایی یا دوازده‌تایی میاد.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let's get twelve. Your family eats a lot.",
    "translations": {
     "fa": "دوازده تا بگیریم. خانواده‌ات زیاد می‌خورن."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "different",
-      "there's",
       "sundays",
+      "there's",
       "twelve",
-      "right"
+      "types"
      ],
      "suggestion": "Twelve. Dad eats four on Sundays. Right, milk — what kind? There's like ten different types.",
      "suggestionFa": "دوازده تا. بابا یکشنبه‌ها چهار تا می‌خوره. خب، شیر — چه نوعی؟ انگار ده نوع مختلف هست.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does your family usually buy?",
    "translations": {
     "fa": "خانواده‌ات معمولاً چی می‌خرن؟"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "skimmed",
-      "babies",
-      "that's",
       "george",
+      "that's",
+      "babies",
       "green"
      ],
      "suggestion": "Green top. That's semi-skimmed. Blue is whole milk, red is skimmed. Mum says blue is \"for babies and George\".",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Green top, then. Four pints?",
    "translations": {
     "fa": "پس درِ سبز. چهار پینت؟"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "grandad",
       "skimmed",
+      "grandad",
       "apples",
-      "pints",
-      "water"
+      "water",
+      "white"
      ],
      "suggestion": "Grandad says skimmed milk is \"white water\". Four pints — done. Now, apples. Are there any red ones?",
      "suggestionFa": "پدربزرگ میگه شیر بدون چربی «آب سفیده». چهار پاینت — تموم. حالا سیب. سیب قرمز هست؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "There aren't any red ones. Only green.",
    "translations": {
     "fa": "سیب قرمز نیست. فقط سبز."
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "onions",
       "cheese",
-      "anyway",
+      "onions",
       "nicola",
+      "anyway",
       "nearly"
      ],
      "suggestion": "Get six. Nicola only eats the skin anyway. Weird kid. Onions, cheese… OK, we're nearly done!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Great. Let's go to the till.",
    "translations": {
     "fa": "عالیه. بریم صندوق."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "nothing",
-      "please",
       "crisps",
-      "don't",
-      "share"
+      "please",
+      "small",
+      "don't"
      ],
      "suggestion": "Nothing! It's… it's a very small bag of crisps. Don't tell Mum. Please. I'll share!",
      "suggestionFa": "هیچی! این… یه بستهٔ خیلی کوچیک چیپسه. به مامان نگو. خواهش می‌کنم. شریکی!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, but only if you share.",
    "translations": {
     "fa": "باشه، ولی فقط اگه شریکی بخوریم."
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

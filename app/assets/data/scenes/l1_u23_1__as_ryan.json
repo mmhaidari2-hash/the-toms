@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "choose",
       "winter",
+      "choose",
       "small",
-      "says",
-      "help"
+      "need",
+      "says"
      ],
      "suggestion": "Mum says I need a new winter coat. My old one is too small. Can you help me choose?",
      "suggestionFa": "مامان می‌گه یه کت زمستونی جدید لازم دارم. قدیمیه خیلی کوچیکه. کمکم می‌کنی انتخاب کنم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. What kind of coat do you want?",
    "translations": {
     "fa": "حتماً. چه جور کتی می‌خوای؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "anorak",
-      "about",
       "dad's",
-      "black"
+      "black",
+      "about"
      ],
      "suggestion": "Something warm. And cool! Not like Dad's anorak. What about this black one?",
      "suggestionFa": "یه چیز گرم. و باحال! نه مثل بادگیر بابا. این مشکیه چطوره؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It looks warm.",
    "translations": {
     "fa": "به نظر گرمه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "excuse",
-      "green",
       "let's",
+      "green",
       "have",
-      "got"
+      "ask"
      ],
      "suggestion": "Green? Hmm. Let's ask. Excuse me, have you got this in green?",
      "suggestionFa": "سبز؟ هوم. بیا بپرسیم. ببخشید، اینو سبز دارید؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Ask her.",
    "translations": {
     "fa": "فکر خوبیه. ازش بپرس."
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He's a medium, I think.",
    "translations": {
     "fa": "فکر کنم مدیومه."
@@ -200,7 +200,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you.",
    "translations": {
     "fa": "ممنون."
@@ -222,7 +222,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It looks great on you!",
    "translations": {
     "fa": "خیلی بهت میاد!"
@@ -232,9 +232,9 @@
      "keywords": [
       "sleeves",
       "growing",
-      "says",
+      "long",
       "much",
-      "long"
+      "says"
      ],
      "suggestion": "The sleeves are long, but Mum says I'm growing. How much is it?",
      "suggestionFa": "آستین‌ها بلنده، ولی مامان می‌گه دارم بزرگ میشم. قیمتش چنده؟",
@@ -247,7 +247,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me look at the label. It's forty pounds.",
    "translations": {
     "fa": "بذار برچسبش را ببینم. چهل پونده."
@@ -308,7 +308,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a good price!",
    "translations": {
     "fa": "قیمت خوبیه!"
@@ -317,10 +317,10 @@
     {
      "keywords": [
       "pounds",
-      "forty",
       "eight",
-      "gave",
-      "left"
+      "forty",
+      "quid",
+      "i've"
      ],
      "suggestion": "Mum gave me forty quid. So I've got eight pounds left. Can I buy a hat too?",
      "suggestionFa": "مامان چهل پوند بهم داد. پس هشت پوند برام می‌مونه. می‌تونم یه کلاه هم بخرم؟",
@@ -333,7 +333,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ask your mum first!",
    "translations": {
     "fa": "اول از مامانت بپرس!"
@@ -358,7 +358,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

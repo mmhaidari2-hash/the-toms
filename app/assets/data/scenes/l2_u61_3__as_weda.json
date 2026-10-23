@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -25,7 +25,7 @@
       "through",
       "wasp's",
       "little",
-      "right"
+      "stung"
      ],
      "suggestion": "Ooh! Ooh, you little devil! A wasp's stung me. On my arm. Right through my cardigan! Can you have a look, love?",
      "suggestionFa": "اوه! اوه، ای شیطون کوچولو! یه زنبور نیشم زد. رو بازوم. درست از روی ژاکتم! می‌تونی یه نگاه بندازی عزیزم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Let me see. Where exactly?",
    "translations": {
     "fa": "وای نه! بذار ببینم. دقیقاً کجا؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "business",
       "nobody's",
-      "behind",
       "stings",
+      "behind",
       "don't"
      ],
      "suggestion": "Just here. It's red and it stings like nobody's business. Wasps don't leave a sting behind, do they? Bees do.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No sting in there. It was definitely a wasp.",
    "translations": {
     "fa": "نیشی اون تو نیست. قطعاً زنبور بود."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's a cold flannel. Hold it on your arm.",
    "translations": {
     "fa": "بفرما یه دستمال سرد. رو بازوت نگهش دار."
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "999 if you can't breathe. I'll remember that.",
    "translations": {
     "fa": "۹۹۹ اگه نتونی نفس بکشی. یادم می‌مونه."
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "pharmacist",
+      "tomorrow",
       "dawson's",
       "swelling",
-      "tomorrow",
       "getting"
      ],
      "suggestion": "A bit bigger, yes. Normal swelling. If it's getting worse tomorrow, I'll ask the pharmacist. Mr Dawson's very good with stings.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The pharmacist can give you a cream.",
    "translations": {
     "fa": "داروساز می‌تونه بهت کرم بده."
@@ -148,9 +148,9 @@
      "keywords": [
       "antihistamine",
       "george's",
-      "lovely",
-      "drawer",
-      "george"
+      "george",
+      "better",
+      "drawer"
      ],
      "suggestion": "An antihistamine would be lovely. Top drawer, next to George's pills. Thank you, love. You're a better nurse than my George!",
      "suggestionFa": "آنتی‌هیستامین عالیه. کشوی بالا، کنار قرص‌های جرج. ممنون عزیزم. تو از جرج من پرستار بهتری هستی!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Don't tell George.",
    "translations": {
     "fa": "ها! به جرج نگو."
@@ -173,9 +173,9 @@
      "keywords": [
       "where's",
       "friends",
-      "lovely",
+      "before",
       "window",
-      "before"
+      "brings"
      ],
      "suggestion": "Lovely. Now, where's that wasp? Ah — by the jam. Of course. Shut the window, love, before he brings his friends.",
      "suggestionFa": "عالی. حالا، اون زنبوره کجاست؟ آه — کنار مربا. معلومه. پنجره را ببند عزیزم، قبل از اینکه دوستاش را بیاره.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

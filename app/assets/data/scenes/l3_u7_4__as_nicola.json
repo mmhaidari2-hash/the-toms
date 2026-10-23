@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -25,7 +25,7 @@
       "yesterday",
       "without",
       "daddy",
-      "bike"
+      "took"
      ],
      "suggestion": "Look! I can ride my bike without stabilisers now! Daddy took them off yesterday.",
      "suggestionFa": "ببین! الان می‌تونم بدون چرخ کمکی دوچرخه برونم! بابا دیروز درشون آورد.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow, Nicola! When did you learn?",
    "translations": {
     "fa": "وای نیکولا! کی یاد گرفتی؟"
@@ -49,8 +49,8 @@
       "couldn't",
       "really",
       "times",
-      "week",
-      "fell"
+      "fell",
+      "week"
      ],
      "suggestion": "Last week I couldn't do it. I fell off ten times! But now I can go really fast.",
      "suggestionFa": "هفتهٔ پیش نمی‌تونستم. ده بار افتادم! ولی الان می‌تونم خیلی تند برم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You didn't give up. Well done!",
    "translations": {
     "fa": "تسلیم نشدی. آفرین!"
@@ -74,8 +74,8 @@
       "sometimes",
       "little",
       "could",
-      "sort",
-      "when"
+      "when",
+      "were"
      ],
      "suggestion": "Sort of. I use my feet sometimes. Could you ride a bike when you were little?",
      "suggestionFa": "یه جورایی. گاهی از پاهام استفاده می‌کنم. وقتی کوچیک بودی می‌تونستی دوچرخه برونی؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I could ride when I was six.",
    "translations": {
     "fa": "آره، شش سالگی می‌تونستم برونم."
@@ -98,9 +98,9 @@
      "keywords": [
       "school",
       "daddy",
-      "says",
       "able",
-      "come"
+      "says",
+      "will"
      ],
      "suggestion": "Daddy says one day I'll be able to ride to school. Will you come with me?",
      "suggestionFa": "بابا می‌گه یه روز می‌تونم با دوچرخه برم مدرسه. باهام میای؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. We'll need helmets, though.",
    "translations": {
     "fa": "حتماً. ولی کلاه ایمنی لازم داریم."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

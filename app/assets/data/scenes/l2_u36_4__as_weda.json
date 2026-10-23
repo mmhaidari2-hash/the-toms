@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Registered for what?",
    "translations": {
     "fa": "برای چی ثبت‌نام؟"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "elections",
-      "electoral",
       "residents",
+      "electoral",
       "register",
       "abroad"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Who is eligible?",
    "translations": {
     "fa": "کی واجد شرایطه؟"
@@ -128,7 +128,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What about Iranian citizens?",
    "translations": {
     "fa": "شهروندان ایرانی چی؟"
@@ -187,7 +187,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Not yet. That's a shame.",
    "translations": {
     "fa": "هنوز نه. حیف شد."
@@ -248,7 +248,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. And when I become a citizen?",
    "translations": {
     "fa": "باشه. و وقتی شهروند شدم؟"
@@ -303,7 +303,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got my National Insurance number.",
    "translations": {
     "fa": "شمارهٔ بیمهٔ ملیم را دارم."
@@ -311,11 +311,11 @@
    "branches": [
     {
      "keywords": [
-      "polling",
       "station",
-      "you'll",
+      "polling",
       "george",
-      "since"
+      "you'll",
+      "voted"
      ],
      "suggestion": "One day, dear, you'll vote. George will take you to the polling station in his best tie. He's voted every time since 1968!",
      "suggestionFa": "یه روز، عزیزم، رأی میدی. جورج با بهترین کراواتش می‌بردت حوزهٔ رأی‌گیری. از ۱۹۶۸ هر بار رأی داده!",
@@ -328,7 +328,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Since 1968? That's amazing!",
    "translations": {
     "fa": "از ۱۹۶۸؟ فوق‌العاده‌ست!"
@@ -340,7 +340,7 @@
       "thrilled",
       "aren't",
       "slowly",
-      "he'll"
+      "let's"
      ],
      "suggestion": "He'll be thrilled. Now, let's fill in this form together — your name first. And spell it slowly. My eyes aren't what they were!",
      "suggestionFa": "کلی ذوق می‌کنه. حالا، بیا این فرم را با هم پر کنیم — اول اسمت. و آروم هجی کن. چشمام دیگه مثل قبل نیست!",
@@ -353,7 +353,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

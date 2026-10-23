@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "kilometres",
       "signed",
       "corner",
-      "weeks",
-      "guess"
+      "couch",
+      "weeks"
      ],
      "suggestion": "Guess what? I've signed up for Couch to 5K. In nine weeks I'll run five kilometres. Me! I get the bus to the corner shop!",
      "suggestionFa": "حدس بزن چی؟ برای «از مبل تا ۵ کیلومتر» ثبت‌نام کردم. نه هفته دیگه پنج کیلومتر می‌دوم. من! من که تا سوپری سر کوچه اتوبوس می‌گیرم!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Couch to 5K? What's that?",
    "translations": {
     "fa": "از مبل تا ۵ کیلومتر؟ چیه؟"
@@ -49,8 +49,8 @@
       "beginners",
       "seconds",
       "starts",
-      "ninety",
-      "minute"
+      "minute",
+      "ninety"
      ],
      "suggestion": "It's a free NHS app for beginners. It starts with tiny runs. Week one: run for one minute, walk for ninety seconds. Eight times.",
      "suggestionFa": "یه اپ رایگان NHS برای مبتدی‌هاست. با دویدن‌های خیلی کوتاه شروع میشه. هفتهٔ اول: یه دقیقه بدو، نود ثانیه راه برو. هشت بار.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One minute? That sounds easy.",
    "translations": {
     "fa": "یه دقیقه؟ آسون به نظر میاد."
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "saturday",
       "thursday",
+      "saturday",
       "hackney",
       "marshes",
       "tuesday"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Seven a.m.! OK, I'll be there.",
    "translations": {
     "fa": "هفت صبح! باشه، میام."
@@ -98,9 +98,9 @@
      "keywords": [
       "trainers",
       "running",
-      "you'll",
+      "shorts",
       "proper",
-      "shorts"
+      "you'll"
      ],
      "suggestion": "Trainers, shorts, and a T-shirt you don't love. You'll sweat. Jade says buy proper running shoes. Mine are from 2009.",
      "suggestionFa": "کتونی، شلوارک و یه تی‌شرتی که دوستش نداری. عرق می‌کنی. جید میگه کفش دویدن درست‌حسابی بخر. مال من مال ۲۰۰۹ـه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "2009! You need new ones.",
    "translations": {
     "fa": "۲۰۰۹! کفش جدید لازم داری."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "stopping",
-      "without",
-      "managed",
       "getting",
-      "minutes"
+      "without",
+      "minutes",
+      "managed"
      ],
      "suggestion": "Week four update! I'm getting better. Today I managed to run for five minutes. Without stopping!",
      "suggestionFa": "گزارش هفتهٔ چهارم! دارم بهتر میشم. امروز تونستم پنج دقیقه بدوم. بدون وایسادن!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Five minutes without stopping! Amazing!",
    "translations": {
     "fa": "پنج دقیقه بدون وایسادن! معرکه‌ست!"
@@ -150,7 +150,7 @@
       "impressed",
       "trousers",
       "noticed",
-      "okafor"
+      "leslie"
      ],
      "suggestion": "And the best part — my blood pressure's down! Dr Okafor was impressed. And my trousers are looser. Leslie noticed.",
      "suggestionFa": "و بهترین قسمت — فشار خونم اومده پایین! دکتر اوکافور تحت تأثیر قرار گرفت. و شلوارم گشادتر شده. لزلی متوجه شد.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's brilliant news, Tom!",
    "translations": {
     "fa": "خبر فوق‌العاده‌ایه تام!"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "saturday",
-      "hundred",
       "parkrun",
+      "hundred",
       "people",
       "better"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm in! What's Parkrun?",
    "translations": {
     "fa": "پایه‌ام! پارک‌ران چیه؟"
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola's",
       "saturday",
       "family's",
-      "walkers",
-      "welcome"
+      "nicola's",
+      "welcome",
+      "country"
      ],
      "suggestion": "Free 5K, every Saturday at nine, all over the country. Walkers welcome. The family's coming to cheer. Nicola's making a sign!",
      "suggestionFa": "پنج کیلومتر رایگان، هر شنبه ساعت نه، تو کل کشور. پیاده‌ها هم خوش اومدن. خانواده میان تشویق کنن. نیکولا داره تابلو درست می‌کنه!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does the sign say?",
    "translations": {
     "fa": "رو تابلو چی نوشته؟"
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "together",
-      "couldn't",
       "saturday",
-      "finish",
-      "that's"
+      "couldn't",
+      "that's",
+      "finish"
      ],
      "suggestion": "\"GO DADDY GO. DON'T DIE.\" Ha! That's my girl. Nine weeks ago I couldn't run for a bus. Saturday, we finish. Together.",
      "suggestionFa": "«برو بابایی برو. نمیری.» ها! دختر خودمه. نه هفته پیش نمی‌تونستم دنبال اتوبوس بدوم. شنبه تمومش می‌کنیم. با هم.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

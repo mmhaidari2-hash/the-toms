@@ -117,8 +117,8 @@
      "keywords": [
       "temperature",
       "night",
-      "been",
-      "sick"
+      "sick",
+      "been"
      ],
      "suggestion": "She's been sick in the night and has a temperature.",
      "suggestionFa": "شب استفراغ کرده و تب داره.",
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -172,7 +172,7 @@
       "thursday",
       "she'll",
       "eight",
-      "forty"
+      "hours"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -184,8 +184,8 @@
      "keywords": [
       "didn't",
       "thank",
-      "rule",
-      "know"
+      "know",
+      "rule"
      ],
      "suggestion": "I didn't know that rule. Thank you.",
      "suggestionFa": "این قانون را نمی‌دونستم. ممنون.",
@@ -369,8 +369,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "thank",
+      "great",
       "would"
      ],
      "suggestion": "That would be great, thank you.",

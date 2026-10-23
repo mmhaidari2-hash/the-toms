@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "convinced",
-      "telling",
       "savings",
-      "should",
-      "shares"
+      "telling",
+      "shares",
+      "what's"
      ],
      "suggestion": "Al keeps telling me I should put my savings into shares. I'm not convinced. What's your take?",
      "suggestionFa": "ال مدام بهم می‌گه پس‌اندازم را تو سهام بذارم. قانع نشدم. نظر تو چیه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The upside is that shares usually grow more than savings accounts over time.",
    "translations": {
     "fa": "مزیتش اینه که سهام معمولاً در طول زمان از حساب پس‌انداز بیشتر رشد می‌کنه."
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "downside",
-      "afford",
       "gamble",
-      "right",
-      "can't"
+      "afford",
+      "can't",
+      "money"
      ],
      "suggestion": "Right. The downside is I could lose money. And with two kids, I can't afford to gamble.",
      "suggestionFa": "درسته. ایرادش اینه که ممکنه پول از دست بدم. و با دوتا بچه، نمی‌تونم ریسک کنم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's sensible. You should keep an emergency fund first.",
    "translations": {
     "fa": "منطقیه. اول باید یه صندوق اضطراری نگه داری."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
-      "months",
       "before",
+      "months",
+      "should",
       "leslie",
-      "three"
+      "bills"
      ],
      "suggestion": "Fair. Leslie says we should have at least three months of bills saved before we even think about it.",
      "suggestionFa": "منصفانه. لزلی می‌گه قبل از اینکه حتی بهش فکر کنیم، باید حداقل سه ماه قبض پس‌انداز داشته باشیم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Leslie's right. Then maybe a stocks and shares ISA?",
    "translations": {
     "fa": "حق با لزلیه. بعد شاید یه ISA سهام؟"
@@ -100,7 +100,7 @@
       "nonsense",
       "crypto",
       "about",
-      "would"
+      "which"
      ],
      "suggestion": "Just about. An ISA would be tax-free, which is a big plus. But I'd want something low-risk — no crypto nonsense.",
      "suggestionFa": "تقریباً. یه ISA معاف از مالیاته، که مزیت بزرگیه. ولی یه چیز کم‌ریسک می‌خوام — از این چرندیات رمزارز نه.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A global index fund might suit you — it's spread across lots of companies.",
    "translations": {
     "fa": "یه صندوق شاخص جهانی شاید مناسبت باشه — بین کلی شرکت پخش شده."
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "bitcoin",
       "adviser",
-      "basket",
+      "bitcoin",
       "across",
-      "spread"
+      "spread",
+      "basket"
      ],
      "suggestion": "Spread across lots — makes sense. Don't put all your eggs in one basket, as my dad would say. Right, I'll book an adviser. And Al can stop going on about Bitcoin.",
      "suggestionFa": "بین کلی پخش شده — منطقیه. همهٔ تخم‌مرغ‌هات را تو یه سبد نذار، به قول بابام. خب، با یه مشاور وقت می‌ذارم. و ال هم دیگه می‌تونه دربارهٔ بیت‌کوین غر نزنه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

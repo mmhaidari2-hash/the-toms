@@ -133,8 +133,8 @@
     {
      "keywords": [
       "bennett",
-      "he's",
       "kind",
+      "he's",
       "help"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "course",
-      "card",
       "have",
+      "card",
       "got"
      ],
      "suggestion": "Of course. Have you got your library card?",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "works",
       "still",
+      "works",
       "here",
       "ha"
      ],
@@ -240,8 +240,8 @@
     },
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "i'll"
      ],
      "suggestion": "Don't worry. I'll type the number for you.",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
-      "them",
       "just",
-      "book"
+      "book",
+      "them"
      ],
      "suggestion": "Just this book, or all of them?",
      "suggestionFa": "فقط این کتاب، یا همه‌شون؟",
@@ -387,8 +387,8 @@
     {
      "keywords": [
       "ending",
-      "don't",
       "enjoy",
+      "don't",
       "tell"
      ],
      "suggestion": "Enjoy it! Don't tell me the ending.",

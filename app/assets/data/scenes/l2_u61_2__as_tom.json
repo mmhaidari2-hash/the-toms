@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "roasting",
-      "grabbed",
-      "where's",
       "without",
+      "where's",
+      "grabbed",
       "butter"
      ],
      "suggestion": "ARGH! The roasting tin! I grabbed it without the oven glove! I've burnt my hand! Butter — where's the butter?!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, Tom! Don't put butter on it!",
    "translations": {
     "fa": "نه تام! روش کره نذار!"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "that's",
       "always",
+      "butter",
       "better",
-      "used"
+      "long"
      ],
      "suggestion": "No butter? My nan always used butter! OK, OK — cold tap. Ooh. Ahh. That's better. How long do I keep it here?",
      "suggestionFa": "کره نه؟ مادربزرگم همیشه کره می‌زد! باشه باشه — شیر آب سرد. اوه. آه. بهتر شد. چقدر اینجا نگهش دارم؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty minutes. Under cool running water.",
    "translations": {
     "fa": "بیست دقیقه. زیر آب خنک روان."
@@ -75,7 +75,7 @@
       "mistake",
       "minutes",
       "twenty",
-      "glove"
+      "roast"
      ],
      "suggestion": "Twenty minutes! The roast potatoes will burn too! Can you take them out? Use the glove. Learn from my mistake!",
      "suggestionFa": "بیست دقیقه! سیب‌زمینی‌های تنوری هم می‌سوزن! می‌تونی درشون بیاری؟ از دستکش استفاده کن. از اشتباه من درس بگیر!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Glove on. Potatoes are out. Don't worry!",
    "translations": {
     "fa": "دستکش دستمه. سیب‌زمینی‌ها بیرونن. نگران نباش!"
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "potatoes",
+      "minutes",
       "there's",
       "blister",
-      "minutes",
       "little"
      ],
      "suggestion": "Hero. The potatoes are saved. Right — twenty minutes. Let's look. Hmm. It's red, and there's a little blister. Is that bad?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A small blister is normal. Don't pop it.",
    "translations": {
     "fa": "یه تاول کوچیک عادیه. نترکونش."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cover it loosely with cling film.",
    "translations": {
     "fa": "با سلفون شل بپوشونش."
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "sandwich",
-      "worse",
-      "cling",
       "human",
-      "keep"
+      "cling",
+      "worse",
+      "ring"
      ],
      "suggestion": "Cling film! Like a sandwich. I'm a human sandwich. Fine. And I'll keep an eye on it. If it gets worse, I'll ring 111.",
      "suggestionFa": "سلفون! مثل ساندویچ. من یه ساندویچ آدمم. باشه. و حواسم بهش هست. اگه بدتر شد، به ۱۱۱ زنگ می‌زنم.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good. And next time — oven glove!",
    "translations": {
     "fa": "خوبه. و دفعهٔ بعد — دستکش فر!"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "minutes",
-      "twenty",
-      "leslie",
+      "butter",
       "nearly",
-      "butter"
+      "twenty",
+      "leslie"
      ],
      "suggestion": "Oven glove, no butter, twenty minutes, cling film. Got it. Don't tell my nan. And don't tell Leslie I nearly burnt the roast!",
      "suggestionFa": "دستکش فر، کره نه، بیست دقیقه، سلفون. فهمیدم. به مادربزرگم نگو. و به لزلی نگو نزدیک بود کباب را بسوزونم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

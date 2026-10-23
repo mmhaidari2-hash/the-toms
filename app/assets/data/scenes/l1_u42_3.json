@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "doris",
       "hello",
+      "doris",
       "how"
      ],
      "suggestion": "Hello, Doris! How are you?",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "like",
-      "car",
-      "bus"
+      "bus",
+      "car"
      ],
      "suggestion": "Do you like the bus or the car?",
      "suggestionFa": "اتوبوس را دوست دارید یا ماشین؟",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "haven't",
-      "got",
-      "car"
+      "car",
+      "got"
      ],
      "suggestion": "No. I haven't got a car.",
      "suggestionFa": "نه. ماشین ندارم.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "drove",
-      "here",
       "iran",
+      "here",
       "but"
      ],
      "suggestion": "I drove in Iran, but not here.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "thousand",
-      "wow",
-      "ten"
+      "ten",
+      "wow"
      ],
      "suggestion": "Ten thousand? Wow!",
      "suggestionFa": "ده هزار؟ وای!",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "that's",
-      "more",
-      "than"
+      "than",
+      "more"
      ],
      "suggestion": "That's more than me!",
      "suggestionFa": "از من بیشتره!",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "help",
       "need",
+      "help",
       "bag"
      ],
      "suggestion": "Do you need help with your bag?",

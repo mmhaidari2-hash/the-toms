@@ -1,0 +1,245 @@
+{
+ "id": "est_4_3",
+ "characterId": "agent",
+ "title": "Ending your tenancy",
+ "titleFa": "پایان دادن به اجاره",
+ "setting": "Living there and moving out · Level 0",
+ "settingFa": "زندگی در خانه و تخلیه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Hi {you}! Your email said you're moving out. Is everything OK?",
+   "translations": {
+    "fa": "سلام {you}! ایمیل‌تون گفت دارید اسباب‌کشی می‌کنید. همه چی روبه‌راهه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "closer",
+      "going",
+      "move",
+      "new"
+     ],
+     "suggestion": "Yes! I'm going to move closer to my new job.",
+     "suggestionFa": "آره! می‌خوام به کار جدیدم نزدیک‌تر بشم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything's",
+      "manchester",
+      "moving",
+      "spring"
+     ],
+     "suggestion": "Everything's fine. I'll be moving to Manchester in the spring.",
+     "suggestionFa": "همه چی خوبه. بهار می‌رم منچستر.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moving out",
+     "fa": "تخلیه کردن ؛ رفتن از خانه"
+    },
+    {
+     "word": "closer to",
+     "fa": "نزدیک‌تر به"
+    },
+    {
+     "word": "spring",
+     "fa": "بهار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Congratulations! You need to give at least two months' notice in writing, and it has to end on the last day of a rent period.",
+   "translations": {
+    "fa": "تبریک! باید حداقل دو ماه قبل کتبی اطلاع بدید، و پایانش باید آخرین روز یه دورهٔ اجاره باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month",
+      "first",
+      "leave",
+      "rent"
+     ],
+     "suggestion": "My rent day is the first. So I'd leave at the end of a month?",
+     "suggestionFa": "روز اجاره‌م اوله. پس آخر یه ماه می‌رم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "month's",
+      "notice",
+      "give"
+     ],
+     "suggestion": "Can I give one month's notice instead?",
+     "suggestionFa": "می‌تونم به جاش یه ماه قبل خبر بدم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "congratulations",
+     "fa": "تبریک"
+    },
+    {
+     "word": "in writing",
+     "fa": "کتبی"
+    },
+    {
+     "word": "rent period",
+     "fa": "دورهٔ اجاره"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Under an assured periodic tenancy, tenants give at least two months' notice, ending at the end of a rent period. You can leave earlier only if the landlord agrees in writing.",
+    "fa": "در قرارداد دوره‌ای، مستأجر دست‌کم دو ماه قبل اطلاع می‌دهد؛ زودتر فقط با موافقت کتبی صاحبخانه."
+   },
+   "recasts": [
+    {
+     "match": [
+      "I give one month",
+      "can give I"
+     ],
+     "echo": "Can I give one month's notice instead? Only if the landlord agrees.",
+     "better": "Can I give one month's notice instead?",
+     "betterFa": "می‌تونم به جاش یه ماه قبل خبر بدم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Exactly. If you need to go sooner, the landlord might agree, but get it in writing. Then we'll book a check-out inspection.",
+   "translations": {
+    "fa": "دقیقاً. اگه زودتر لازم دارید برید، شاید صاحبخونه موافقت کنه، ولی کتبی بگیرید. بعد یه بازدید تحویل نهایی رزرو می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "check",
+      "out"
+     ],
+     "suggestion": "What happens at the check-out?",
+     "suggestionFa": "تو تحویل نهایی چی می‌شه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "deposit",
+      "back",
+      "get",
+      "how"
+     ],
+     "suggestion": "How do I get my deposit back?",
+     "suggestionFa": "چطور ودیعه‌م را پس بگیرم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sooner",
+     "fa": "زودتر"
+    },
+    {
+     "word": "check-out inspection",
+     "fa": "بازدید تحویل نهایی"
+    },
+    {
+     "word": "deposit back",
+     "fa": "پس گرفتن ودیعه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "We compare the flat with the inventory. Once we agree, your deposit comes back within ten days. If not, the scheme has a free dispute service.",
+   "translations": {
+    "fa": "آپارتمان را با فهرست اموال مقایسه می‌کنیم. وقتی توافق کردیم، ظرف ده روز ودیعه‌تون برمی‌گرده. اگه نه، طرح یه خدمات رایگان حل اختلاف داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "photos",
+      "clean",
+      "i'll"
+     ],
+     "suggestion": "I'll clean everything and take photos, just in case.",
+     "suggestionFa": "همه جا را تمیز می‌کنم و عکس می‌گیرم، محض احتیاط.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "counts",
+      "normal",
+      "tear",
+      "wear"
+     ],
+     "suggestion": "What counts as normal wear and tear?",
+     "suggestionFa": "استهلاک عادی شامل چی می‌شه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "compare",
+     "fa": "مقایسه کردن"
+    },
+    {
+     "word": "dispute service",
+     "fa": "خدمات حل اختلاف"
+    },
+    {
+     "word": "just in case",
+     "fa": "محض احتیاط"
+    },
+    {
+     "word": "wear and tear",
+     "fa": "استهلاک عادی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "A little wear from normal living, like a faded carpet, is fine. Leave your forwarding address and the keys, and don't forget the final meter readings!",
+   "translations": {
+    "fa": "یه کم فرسودگی از زندگی عادی، مثل موکت رنگ‌پریده، اشکالی نداره. آدرس جدید و کلیدها را بذارید، و شمارهٔ نهایی کنتورها یادتون نره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

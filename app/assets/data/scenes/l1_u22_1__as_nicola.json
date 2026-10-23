@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,8 +22,8 @@
     {
      "keywords": [
       "birthday",
-      "when's",
       "summer",
+      "when's",
       "july"
      ],
      "suggestion": "My birthday is in July! It's in the summer. When's your birthday?",
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My birthday is in May.",
    "translations": {
     "fa": "تولد من تو مه‌ست."
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do you like spring?",
    "translations": {
     "fa": "بهار دوست داری؟"
@@ -72,8 +72,8 @@
      "keywords": [
       "january",
       "spring",
-      "cold",
       "year",
+      "cold",
       "dark"
      ],
      "suggestion": "New year in spring? Our new year is in January. It's cold and dark!",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Our new year is called Nowruz.",
    "translations": {
     "fa": "سال نوی ما اسمش نوروزه."
@@ -108,7 +108,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We visit family and eat special food.",
    "translations": {
     "fa": "به خانواده سر می‌زنیم و غذای مخصوص می‌خوریم."
@@ -116,10 +116,10 @@
    "branches": [
     {
      "keywords": [
-      "nowruz",
       "things",
-      "seven",
+      "nowruz",
       "table",
+      "seven",
       "want"
      ],
      "suggestion": "Seven things! Can we do that here? I want a Nowruz table!",
@@ -133,7 +133,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! In March.",
    "translations": {
     "fa": "آره! تو مارس."
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "month",
-      "now",
-      "yay"
+      "yay",
+      "now"
      ],
      "suggestion": "Yay! What month is it now?",
      "suggestionFa": "هورا! الان چه ماهیه؟",
@@ -156,7 +156,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "October, I think.",
    "translations": {
     "fa": "فکر کنم اکتبر."
@@ -164,11 +164,11 @@
    "branches": [
     {
      "keywords": [
+      "autumn",
       "orange",
       "leaves",
-      "autumn",
-      "brown",
-      "let's"
+      "let's",
+      "brown"
      ],
      "suggestion": "Autumn! The leaves are orange and brown. Look! Let's jump in the leaves!",
      "suggestionFa": "پاییز! برگ‌ها نارنجی و قهوه‌ای‌ان. ببین! بیا بپریم تو برگ‌ها!",
@@ -181,7 +181,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One, two, three, jump!",
    "translations": {
     "fa": "یک، دو، سه، بپر!"
@@ -191,9 +191,9 @@
      "keywords": [
       "favourite",
       "birthday",
-      "school",
       "what's",
-      "wheee"
+      "school",
+      "month"
      ],
      "suggestion": "Wheee! What's your favourite month? Mine is July. Birthday and no school!",
      "suggestionFa": "ویییی! ماه مورد علاقه‌ات چیه؟ مال من جولایه. تولد و بدون مدرسه!",
@@ -206,7 +206,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like March, because of Nowruz.",
    "translations": {
     "fa": "مارس را دوست دارم، به‌خاطر نوروز."
@@ -215,10 +215,10 @@
     {
      "keywords": [
       "october",
-      "party",
-      "mummy",
       "month",
-      "march"
+      "party",
+      "let's",
+      "every"
      ],
      "suggestion": "March and July and October! Let's have a party in every month! I'll ask Mummy!",
      "suggestionFa": "مارس و جولای و اکتبر! بیا هر ماه یه مهمونی بگیریم! از مامان می‌پرسم!",
@@ -231,7 +231,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

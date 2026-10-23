@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "write",
-      "look",
+      "right",
       "name",
+      "look",
       "can"
      ],
      "suggestion": "Look! I can write my name! N-I-C-O-L-A. Is it right?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it's perfect!",
    "translations": {
     "fa": "آره، عالیه!"
@@ -50,7 +50,7 @@
       "letter",
       "start",
       "names",
-      "ellis"
+      "small"
      ],
      "suggestion": "Mrs Ellis says names start with a big letter. Big N, then small letters.",
      "suggestionFa": "خانم الیس میگه اسم‌ها با حرف بزرگ شروع میشن. N بزرگ، بعد حروف کوچیک.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's right. Capital N.",
    "translations": {
     "fa": "درسته. N بزرگ."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "start",
       "write",
+      "start",
       "name",
-      "how",
-      "now"
+      "now",
+      "can"
      ],
      "suggestion": "Now can I write YOUR name? How do I start?",
      "suggestionFa": "حالا می‌تونم اسم تو را بنویسم؟ چطوری شروع کنم؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "With a capital letter!",
    "translations": {
     "fa": "با یه حرف بزرگ!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Persian goes from right to left.",
    "translations": {
     "fa": "حتماً. فارسی از راست به چپ نوشته میشه."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "backwards",
-      "capital",
       "persian",
+      "capital",
       "letter",
-      "right"
+      "there"
      ],
      "suggestion": "Right to left! Backwards! Is there a capital letter in Persian?",
      "suggestionFa": "از راست به چپ! برعکس! تو فارسی حرف بزرگ هست؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, there are no capital letters.",
    "translations": {
     "fa": "نه، حرف بزرگ نداره."
@@ -148,8 +148,8 @@
      "keywords": [
       "capitals",
       "persian",
-      "lucky",
       "write",
+      "lucky",
       "name"
      ],
      "suggestion": "No capitals?! Lucky! Can you write MY name in Persian?",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's Nicola in Persian.",
    "translations": {
     "fa": "اینم نیکولا به فارسی."
@@ -173,9 +173,9 @@
      "keywords": [
       "little",
       "pretty",
-      "snake",
+      "ellis",
       "going",
-      "ellis"
+      "snake"
      ],
      "suggestion": "It's so pretty! Like a little snake and dots! I'm going to show Mrs Ellis!",
      "suggestionFa": "خیلی قشنگه! مثل یه مار کوچولو و نقطه! می‌خوام به خانم الیس نشونش بدم!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

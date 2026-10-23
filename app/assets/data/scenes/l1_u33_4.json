@@ -67,8 +67,8 @@
     {
      "keywords": [
       "family",
-      "big",
-      "tom"
+      "tom",
+      "big"
      ],
      "suggestion": "The big one, Tom. For your family!",
      "suggestionFa": "بزرگه تام. برای خانواده‌ت!",
@@ -120,9 +120,9 @@
     },
     {
      "keywords": [
+      "box",
       "tom",
-      "ask",
-      "box"
+      "ask"
      ],
      "suggestion": "Ask for a box, Tom.",
      "suggestionFa": "یه جعبه بخواه تام.",
@@ -152,8 +152,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
+      "there's",
       "think",
       "sorry"
      ],
@@ -165,8 +165,8 @@
     },
     {
      "keywords": [
-      "that's",
       "pounds",
+      "that's",
       "three",
       "wrong"
      ],
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "happens",
-      "problem"
+      "problem",
+      "happens"
      ],
      "suggestion": "No problem. It happens.",
      "suggestionFa": "مشکلی نیست. پیش میاد.",
@@ -272,8 +272,8 @@
     },
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "about"
      ],
      "suggestion": "Don't worry about it.",
@@ -365,8 +365,8 @@
      "keywords": [
       "evening",
       "thank",
-      "good",
-      "have"
+      "have",
+      "good"
      ],
      "suggestion": "Thank you! Have a good evening.",
      "suggestionFa": "ممنون! عصر خوبی داشته باشید.",

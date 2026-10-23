@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
    "translations": {
     "fa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره."
@@ -116,7 +116,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "George moved in with Tom and Leslie in March, after his diagnosis.",
    "translations": {
     "fa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی."
@@ -127,8 +127,8 @@
       "confirmation",
       "online",
       "filled",
-      "april",
-      "email"
+      "email",
+      "april"
      ],
      "suggestion": "I told them in April. I filled in the form online. I even kept the confirmation email.",
      "suggestionFa": "آوریل بهشون گفتم. فرم را آنلاین پر کردم. حتی ایمیل تأییدش را نگه داشتم.",
@@ -141,7 +141,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We have proof that you were informed in April.",
    "translations": {
     "fa": "مدرک داریم که آوریل بهتون اطلاع داده شده."
@@ -197,7 +197,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I appreciate the apology. What happens now?",
    "translations": {
     "fa": "از عذرخواهی ممنونم. حالا چی میشه؟"
@@ -257,7 +257,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's fair. Could you also cancel the reminder notice she received?",
    "translations": {
     "fa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟"
@@ -317,7 +317,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maggie is George's main carer. Is there support for carers?",
    "translations": {
     "fa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟"
@@ -381,7 +381,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'd appreciate it if you could put that in writing, too.",
    "translations": {
     "fa": "ممنون می‌شم اگه اونو کتبی هم بفرستید."
@@ -441,7 +441,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. If it isn't resolved, how do we escalate it?",
    "translations": {
     "fa": "ممنون. اگه حل نشد، چطور پیگیری کنیم؟"
@@ -450,10 +450,10 @@
     {
      "keywords": [
       "wonderful",
-      "hundred",
       "british",
+      "hundred",
       "pounds",
-      "nearly"
+      "twelve"
      ],
      "suggestion": "Two hundred and twelve pounds! Forty years I've paid every bill on time, and they nearly took me to court. You were wonderful, love — firm but polite. Very British.",
      "suggestionFa": "دویست و دوازده پوند! چهل سال هر قبضی را سر وقت دادم، و نزدیک بود منو ببرن دادگاه. فوق‌العاده بودی عزیزم — محکم ولی مؤدب. خیلی بریتانیایی.",
@@ -466,7 +466,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

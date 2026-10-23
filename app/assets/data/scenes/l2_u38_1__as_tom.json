@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Fifty-fifty? Five pounds each.",
    "translations": {
     "fa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند."
@@ -124,7 +124,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the tap? In the kitchen?",
    "translations": {
     "fa": "شیر آب کجاست؟ تو آشپزخونه؟"
@@ -184,7 +184,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I've filled the bucket. Where do I start?",
    "translations": {
     "fa": "باشه، سطل را پر کردم. از کجا شروع کنم؟"
@@ -252,7 +252,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Top to bottom. That's clever.",
    "translations": {
     "fa": "از بالا به پایین. هوشمندانه‌ست."
@@ -316,7 +316,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where? I can't see it.",
    "translations": {
     "fa": "کجا؟ نمی‌بینمش."
@@ -376,7 +376,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! Did I spray you?",
    "translations": {
     "fa": "ببخشید! خیست کردم؟"
@@ -432,7 +432,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, no! Peace! I'm sorry!",
    "translations": {
     "fa": "نه نه! صلح! ببخشید!"
@@ -441,9 +441,9 @@
     {
      "keywords": [
       "what's",
-      "going",
       "dirty",
       "still",
+      "going",
       "been"
      ],
      "suggestion": "What's going on out here? Why are you two wet? And why is the car still dirty? It's been an hour!",
@@ -457,7 +457,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was an accident, Tom. Honestly!",
    "translations": {
     "fa": "تصادفی بود تام. راست میگم!"
@@ -517,7 +517,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, Tom. We worked as a team!",
    "translations": {
     "fa": "آره تام. تیمی کار کردیم!"
@@ -526,10 +526,10 @@
     {
      "keywords": [
       "sandwich",
-      "missed",
       "pounds",
+      "missed",
       "you've",
-      "bacon"
+      "total"
      ],
      "suggestion": "Nice try. Ten pounds total, and a bacon sandwich each. And — oh, look. You've missed a bit!",
      "suggestionFa": "تلاش خوبی بود. جمعاً ده پوند، و برای هر کدوم یه ساندویچ بیکن. و — اوه، ببین. یه جا را جا انداختید!",
@@ -542,7 +542,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

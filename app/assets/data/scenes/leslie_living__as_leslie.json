@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "colours",
       "colour",
-      "hello",
       "learn",
-      "let's"
+      "let's",
+      "hello"
      ],
      "suggestion": "Hello! Let's learn colours. What colour is the sofa?",
      "suggestionFa": "سلام! بیا رنگ‌ها را یاد بگیریم. مبل چه رنگی است؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's red.",
    "translations": {
     "fa": "قرمز است."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "william",
-      "lovely",
       "what's",
+      "lovely",
       "loves",
       "soft"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a teddy bear!",
    "translations": {
     "fa": "یک خرس عروسکی است!"
@@ -75,7 +75,7 @@
       "programme",
       "there's",
       "baking",
-      "about"
+      "telly"
      ],
      "suggestion": "Shall I put the telly on? There's a baking programme everyone's mad about.",
      "suggestionFa": "تلویزیون را روشن کنم؟ یه برنامهٔ شیرینی‌پزی هست که همه دیوانه‌اش‌اند.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Could we just chat instead?",
    "translations": {
     "fa": "می‌شه به‌جاش فقط گپ بزنیم؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Everyone's so kind, but I miss home.",
    "translations": {
     "fa": "همه خیلی مهربونن، ولی دلم برای خانه تنگ شده."
@@ -123,9 +123,9 @@
      "keywords": [
       "something",
       "evenings",
-      "about",
       "where",
-      "like"
+      "about",
+      "tell"
      ],
      "suggestion": "Tell me something about where you grew up. What did evenings look like?",
      "suggestionFa": "یه چیزی از جایی که بزرگ شدی بگو. عصرها چطور بود؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We'd all eat together and talk for hours.",
    "translations": {
     "fa": "همه با هم غذا می‌خوردیم و ساعت‌ها حرف می‌زدیم."
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "biscuit",
-      "sounds",
-      "lovely",
+      "before",
       "phones",
-      "before"
+      "lovely",
+      "sounds"
      ],
      "suggestion": "That sounds lovely. We used to be like that before phones took over! Fancy a biscuit?",
      "suggestionFa": "چه قشنگ. ما هم قبل از این‌که گوشی‌ها همه‌چیز را بگیرند همین‌طور بودیم! بیسکویت می‌خوای؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Go on then, just one!",
    "translations": {
     "fa": "باشه، فقط یکی!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've never tried — show me!",
    "translations": {
     "fa": "هیچ‌وقت امتحان نکردم — نشونم بده!"
@@ -198,9 +198,9 @@
      "keywords": [
       "seconds",
       "perfect",
-      "three",
       "night",
-      "right"
+      "there",
+      "three"
      ],
      "suggestion": "Three seconds, no more. There — perfect. Right, I'll let you rest. Night, love.",
      "suggestionFa": "سه ثانیه، نه بیشتر. ببین — عالی. خب، می‌ذارم استراحت کنی. شب بخیر عزیزم.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Night, Leslie — thanks for tonight.",
    "translations": {
     "fa": "شب بخیر، لزلی — بابت امشب ممنون."
@@ -223,8 +223,8 @@
      "keywords": [
       "learner",
       "quick",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done! You're a quick learner.",
      "suggestionFa": "آفرین! خیلی زود یاد می‌گیری.",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

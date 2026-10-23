@@ -33,9 +33,9 @@
     {
      "keywords": [
       "letter",
-      "home",
+      "bank",
       "i've",
-      "bank"
+      "home"
      ],
      "suggestion": "I've got a bank letter, but it's at home.",
      "suggestionFa": "نامهٔ بانک دارم، ولی خونه‌ست.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "phone",
-      "i've",
       "will",
+      "i've",
       "got"
      ],
      "suggestion": "I've got my tenancy agreement on my phone. Will that do?",
@@ -147,7 +147,7 @@
       "landlord",
       "can",
       "him",
-      "has"
+      "ask"
      ],
      "suggestion": "My landlord has it. I can ask him.",
      "suggestionFa": "صاحبخونه‌ام داره. می‌تونم ازش بپرسم.",
@@ -246,10 +246,10 @@
     },
     {
      "keywords": [
-      "evisa",
       "share",
-      "code",
-      "show"
+      "evisa",
+      "show",
+      "code"
      ],
      "suggestion": "I can show my eVisa with a share code. Is that OK?",
      "suggestionFa": "می‌تونم ای‌ویزام رو با کد اشتراک نشون بدم. اشکالی نداره؟",
@@ -274,6 +274,10 @@
     {
      "word": "eVisa",
      "fa": "ویزای الکترونیکی"
+    },
+    {
+     "word": "share code",
+     "fa": "کد اشتراک"
     }
    ]
   },
@@ -290,7 +294,7 @@
       "before",
       "weeks",
       "then",
-      "ill"
+      "get"
      ],
      "suggestion": "Two weeks? What if I get ill before then?",
      "suggestionFa": "دو هفته؟ اگه قبلش مریض بشم چی؟",
@@ -391,8 +395,8 @@
     {
      "keywords": [
       "weight",
-      "after",
       "cakes",
+      "after",
       "all"
      ],
      "suggestion": "Weight? Oh no. After all your cakes!",

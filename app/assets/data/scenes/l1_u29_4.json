@@ -30,8 +30,8 @@
     {
      "keywords": [
       "waitress",
-      "ask",
-      "let"
+      "let",
+      "ask"
      ],
      "suggestion": "Let me ask the waitress.",
      "suggestionFa": "بذار از گارسون بپرسم.",
@@ -79,8 +79,8 @@
      "keywords": [
       "lovely",
       "please",
-      "have",
-      "bill"
+      "bill",
+      "have"
      ],
      "suggestion": "Yes, lovely. Can we have the bill, please?",
      "suggestionFa": "آره، عالی. می‌شه صورت‌حساب را بیارید، لطفاً؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "split",
+      "shall",
       "we"
      ],
      "suggestion": "Shall we split it?",
@@ -374,8 +374,8 @@
      "keywords": [
       "we'll",
       "back",
-      "come",
-      "soon"
+      "soon",
+      "come"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

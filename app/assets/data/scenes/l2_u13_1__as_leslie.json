@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "register",
+      "everyone",
       "surgery",
       "hackney",
       "should"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, let's go. What do I need to do?",
    "translations": {
     "fa": "آره، بریم. باید چی کار کنم؟"
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A paper form, please.",
    "translations": {
     "fa": "فرم کاغذی، لطفاً."
@@ -106,7 +106,7 @@
       "surname",
       "that's",
       "birth",
-      "first",
+      "paper",
       "let's"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Day first, then month?",
    "translations": {
     "fa": "اول روز، بعد ماه؟"
@@ -131,8 +131,8 @@
       "americans",
       "address",
       "drives",
-      "other",
-      "month"
+      "month",
+      "other"
      ],
      "suggestion": "Yes — day, then month, then year. Americans do it the other way. It drives me mad! Next, your address.",
      "suggestionFa": "آره — روز، بعد ماه، بعد سال. آمریکایی‌ها برعکس می‌نویسن. دیوونه‌م می‌کنه! بعدی، آدرست.",
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "10 Mare Street, Hackney. What's the postcode?",
    "translations": {
     "fa": "پلاک ۱۰ مِر استریت، هاکنی. کد پستی چیه؟"
@@ -157,7 +157,7 @@
       "before",
       "doctor",
       "boxes",
-      "seen"
+      "have"
      ],
      "suggestion": "Yes, in the boxes. Now — \"previous GP\". Have you seen a doctor in the UK before?",
      "suggestionFa": "آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟",
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, never. This is my first time.",
    "translations": {
     "fa": "نه، هیچ‌وقت. این اولین بارمه."
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "number",
-      "blank",
+      "write",
       "don't",
       "leave",
-      "write"
+      "blank"
      ],
      "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
      "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
@@ -195,7 +195,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's an NHS number?",
    "translations": {
     "fa": "شمارهٔ NHS چیه؟"
@@ -207,7 +207,7 @@
       "drinking",
       "register",
       "smoking",
-      "you'll"
+      "number"
      ],
      "suggestion": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
      "suggestionFa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…",
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't smoke, and I don't drink.",
    "translations": {
     "fa": "سیگار نمی‌کشم، الکل هم نمی‌خورم."
@@ -230,8 +230,8 @@
      "keywords": [
       "receptionist",
       "bottom",
-      "these",
       "let's",
+      "these",
       "boxes"
      ],
      "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
@@ -245,7 +245,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are. Is that everything?",
    "translations": {
     "fa": "بفرمایید. همه چیه؟"

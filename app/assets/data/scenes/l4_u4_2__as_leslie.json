@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "agreement",
+      "anything",
       "together",
       "exciting",
-      "anything",
-      "through"
+      "tenancy"
      ],
      "suggestion": "So you've found a flat? Exciting! Before you sign anything, let's go through the tenancy agreement together. These things are full of small print.",
      "suggestionFa": "پس یه آپارتمان پیدا کردی؟ هیجان‌انگیزه! قبل از اینکه چیزی امضا کنی، بیا قرارداد اجاره را با هم مرور کنیم. این‌ها پر از ریزنویسه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks. I don't understand half of it.",
    "translations": {
     "fa": "ممنون. نصفش را نمی‌فهمم."
@@ -48,9 +48,9 @@
      "keywords": [
       "government",
       "landlord",
-      "maximum",
       "protect",
-      "deposit"
+      "deposit",
+      "maximum"
      ],
      "suggestion": "First, the deposit. It's five weeks' rent — that's the legal maximum. And by law, the landlord has to protect it in a government scheme.",
      "suggestionFa": "اول، ودیعه. پنج هفته اجاره‌ست — این حداکثر قانونیه. و طبق قانون، صاحبخونه باید تو یه طرح دولتی محافظتش کنه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What happens to the deposit when I move out?",
    "translations": {
     "fa": "وقتی بیرون برم ودیعه چی میشه؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "deductions",
       "details",
-      "within",
       "damage",
-      "thirty"
+      "normal",
+      "within"
      ],
      "suggestion": "They must give you the details within thirty days. When you leave, you get it back, minus any deductions for damage — but not for normal wear and tear.",
      "suggestionFa": "باید ظرف سی روز جزئیات را بهت بدن. وقتی رفتی، پسش می‌گیری، منهای کسورات برای خرابی — ولی نه برای فرسودگی عادی.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What counts as \"wear and tear\"?",
    "translations": {
     "fa": "«فرسودگی عادی» شامل چی میشه؟"
@@ -99,8 +99,8 @@
       "brilliant",
       "curtains",
       "months'",
-      "happen",
-      "carpet"
+      "things",
+      "happen"
      ],
      "suggestion": "Faded curtains, worn carpet — things that happen with time. Photos are a brilliant idea. Now, this clause: \"The tenant must give two months' notice.\"",
      "suggestionFa": "پرده‌های رنگ‌پریده، فرش ساییده — چیزهایی که با زمان پیش میاد. عکس فکر عالیه. حالا این بند: «مستأجر باید دو ماه قبل اطلاع بده.»",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So if I want to leave, I have to tell them two months before?",
    "translations": {
     "fa": "پس اگه بخوام برم، باید دو ماه قبل بهشون بگم؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "certificate",
-      "overall",
       "exactly",
-      "you've",
-      "asking"
+      "overall",
+      "safety",
+      "you've"
      ],
      "suggestion": "Exactly. One month is more common, so it's worth asking. And look — \"no pets\". Sorry, no cat for you! Overall, it looks fair. Just don't sign until you've seen the gas safety certificate.",
      "suggestionFa": "دقیقاً. یه ماه رایج‌تره، پس ارزش پرسیدن داره. و ببین — «حیوان خانگی ممنوع». ببخشید، گربه نداری! در کل، منصفانه به نظر میاد. فقط تا گواهی ایمنی گاز را ندیدی امضا نکن.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

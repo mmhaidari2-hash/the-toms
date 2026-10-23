@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "scared",
-      "bit",
-      "but"
+      "new",
+      "bit"
      ],
      "suggestion": "Something new. But I'm a bit scared!",
      "suggestionFa": "یه چیز جدید. ولی یه‌کم می‌ترسم!",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "shape",
-      "just",
       "keep",
+      "just",
       "like"
      ],
      "suggestion": "I'd like to keep my beard. Just shape it.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "thanks",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "No, thanks. Just the trim.",
      "suggestionFa": "نه، ممنون. فقط اصلاح.",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "summer",
       "barber",
+      "summer",
       "since",
-      "have"
+      "long"
      ],
      "suggestion": "Since the summer. How long have you been a barber?",
      "suggestionFa": "از تابستون. تو چند وقته آرایشگری؟",
@@ -304,10 +304,10 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "younger",
+      "perfect",
       "you've",
-      "look"
+      "made"
      ],
      "suggestion": "Perfect. You've made me look younger!",
      "suggestionFa": "عالیه. جوون‌ترم کردی!",
@@ -317,8 +317,8 @@
     },
     {
      "keywords": [
-      "beard",
       "could",
+      "beard",
       "more",
       "take"
      ],

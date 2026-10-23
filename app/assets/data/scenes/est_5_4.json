@@ -1,0 +1,245 @@
+{
+ "id": "est_5_4",
+ "characterId": "graham",
+ "title": "Stamp duty basics",
+ "titleFa": "مبانی مالیات تمبر",
+ "setting": "Buying a home · Level 0",
+ "settingFa": "خرید خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "One more cost to plan for: Stamp Duty Land Tax. In England and Northern Ireland you pay it when you buy a home over a certain price.",
+   "translations": {
+    "fa": "یه هزینهٔ دیگه که باید براش برنامه بریزید: مالیات تمبر زمین. تو انگلستان و ایرلند شمالی وقتی خونه‌ای بالای یه قیمت مشخص می‌خرید، می‌پردازید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "hundred",
+      "much",
+      "will"
+     ],
+     "suggestion": "How much will I pay on two hundred and five thousand?",
+     "suggestionFa": "برای دویست و پنج هزار چقدر می‌دم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scotland",
+      "wales",
+      "about"
+     ],
+     "suggestion": "What about Scotland and Wales?",
+     "suggestionFa": "اسکاتلند و ولز چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Stamp Duty Land Tax",
+     "fa": "مالیات تمبر زمین (SDLT)"
+    },
+    {
+     "word": "a certain price",
+     "fa": "یک قیمت مشخص"
+    },
+    {
+     "word": "plan for",
+     "fa": "برنامه‌ریزی کردن برای"
+    }
+   ],
+   "cultureNote": {
+    "en": "Scotland has Land and Buildings Transaction Tax and Wales has Land Transaction Tax, with different rates.",
+    "fa": "اسکاتلند و ولز مالیات‌های جداگانه با نرخ‌های متفاوت دارند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "Good news: you're a first-time buyer. First-time buyers pay nothing up to three hundred thousand pounds, so you'd pay no stamp duty at all.",
+   "translations": {
+    "fa": "خبر خوب: خریدار بار اولید. خریدارهای بار اول تا سیصد هزار پوند هیچی نمی‌دن، پس اصلاً مالیات تمبر نمی‌دید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "higher",
+      "price",
+      "were"
+     ],
+     "suggestion": "Brilliant! What if the price were higher?",
+     "suggestionFa": "عالیه! اگه قیمت بالاتر بود چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "buyers",
+      "limit",
+      "there",
+      "first"
+     ],
+     "suggestion": "Is there a limit for first-time buyers?",
+     "suggestionFa": "برای خریدار بار اول سقفی هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first-time buyer",
+     "fa": "خریدار بار اول"
+    },
+    {
+     "word": "up to",
+     "fa": "تا"
+    },
+    {
+     "word": "nothing at all",
+     "fa": "اصلاً هیچ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "Between three hundred and five hundred thousand, you'd pay five per cent on the part above three hundred. If the price is over five hundred thousand, the first-time relief doesn't apply.",
+   "translations": {
+    "fa": "بین سیصد تا پونصد هزار، روی بخش بالای سیصد هزار پنج درصد می‌دید. اگه قیمت بالای پونصد هزار باشه، تخفیف خریدار بار اول اعمال نمی‌شه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "hundred",
+      "four",
+      "five"
+     ],
+     "suggestion": "So on four hundred thousand, I'd pay five thousand?",
+     "suggestionFa": "پس برای چهارصد هزار، پنج هزار می‌دم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "bought",
+      "before",
+      "have"
+     ],
+     "suggestion": "And for people who have bought before?",
+     "suggestionFa": "و برای کسایی که قبلاً خریدن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "five per cent",
+     "fa": "پنج درصد"
+    },
+    {
+     "word": "the part above",
+     "fa": "بخش بالای"
+    },
+    {
+     "word": "relief",
+     "fa": "تخفیف ؛ معافیت"
+    },
+    {
+     "word": "apply",
+     "fa": "اعمال شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Standard rates (since April 2025): 0% up to £125,000, 2% from £125,001 to £250,000, 5% from £250,001 to £925,000, then 10% and 12%. Owning another home usually adds 5%.",
+    "fa": "نرخ‌های عادی (از آوریل ۲۰۲۵): تا ۱۲۵ هزار صفر، ۱۲۵ تا ۲۵۰ هزار ۲٪، ۲۵۰ تا ۹۲۵ هزار ۵٪، بعد ۱۰٪ و ۱۲٪."
+   },
+   "recasts": [
+    {
+     "match": [
+      "five percent of all",
+      "5% on everything"
+     ],
+     "echo": "Only on the part above £300,000: on £400,000 that's 5% of £100,000, so £5,000.",
+     "better": "So on £400,000 I'd pay £5,000.",
+     "betterFa": "پس برای چهارصد هزار پنج هزار پوند می‌دم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "Exactly right. Others pay nothing up to £125,000, then 2% and 5% on the parts above. Your solicitor usually files it within 14 days of completion.",
+   "translations": {
+    "fa": "کاملاً درسته. بقیه تا ۱۲۵ هزار پوند هیچی نمی‌دن، بعد روی بخش‌های بالاتر ۲٪ و ۵٪. وکیل‌تون معمولاً ظرف ۱۴ روز بعد از تکمیل معامله ثبتش می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calculator",
+      "check",
+      "i'll",
+      "gov"
+     ],
+     "suggestion": "I'll use the GOV.UK calculator to check.",
+     "suggestionFa": "با ماشین‌حساب GOV.UK چک می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "really",
+      "thanks",
+      "graham"
+     ],
+     "suggestion": "Thanks, Graham. That's really helpful.",
+     "suggestionFa": "ممنون گراهام. خیلی کمک کرد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "files",
+     "fa": "ثبت می‌کند ؛ اظهار می‌کند"
+    },
+    {
+     "word": "within fourteen days",
+     "fa": "ظرف چهارده روز"
+    },
+    {
+     "word": "calculator",
+     "fa": "ماشین‌حساب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "Always a good idea — rates can change. Well done, {you}. You know more about buying than most people I meet!",
+   "translations": {
+    "fa": "همیشه فکر خوبیه — نرخ‌ها ممکنه عوض بشن. آفرین {you}. از بیشتر آدم‌هایی که می‌بینم دربارهٔ خرید خونه بیشتر می‌دونید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

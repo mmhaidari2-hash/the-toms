@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "twenty",
       "count",
       "let's",
-      "play",
-      "seek"
+      "hide",
+      "play"
      ],
      "suggestion": "Let's play hide and seek! You count, and I hide. Count to twenty!",
      "suggestionFa": "بیا قایم‌باشک بازی کنیم! تو بشمر، من قایم می‌شم. تا بیست بشمر!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Close my eyes… one, two, three…",
    "translations": {
     "fa": "باشه. چشمامو می‌بندم… یک، دو، سه…"
@@ -48,8 +48,8 @@
      "keywords": [
       "english",
       "ready",
-      "come",
       "here",
+      "come",
       "say"
      ],
      "suggestion": "No, in English! Ready or not, here I come! You say that.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready or not, here I come!",
    "translations": {
     "fa": "حاضر باشی یا نه، دارم میام!"
@@ -86,7 +86,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is she behind the sofa?",
    "translations": {
     "fa": "پشت مبله؟"
@@ -143,7 +143,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is she under the table?",
    "translations": {
     "fa": "زیر میزه؟"
@@ -194,7 +194,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see two feet!",
    "translations": {
     "fa": "دو تا پا می‌بینم!"
@@ -218,7 +218,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I saw your feet!",
    "translations": {
     "fa": "پاهات را دیدم!"
@@ -229,8 +229,8 @@
       "finding",
       "twenty",
       "count",
-      "good",
-      "i'll"
+      "hide",
+      "good"
      ],
      "suggestion": "Now you hide! I'm good at finding. I'll count to twenty.",
      "suggestionFa": "حالا تو قایم شو! من تو پیدا کردن خوبم. تا بیست می‌شمرم.",
@@ -243,7 +243,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. No looking!",
    "translations": {
     "fa": "باشه. نگاه نکن!"
@@ -251,11 +251,11 @@
    "branches": [
     {
      "keywords": [
-      "eighteen",
       "nineteen",
+      "eighteen",
       "kitchen",
-      "twenty",
-      "garden"
+      "garden",
+      "twenty"
      ],
      "suggestion": "Eighteen, nineteen, twenty! Are you in the kitchen? Are you in the garden?",
      "suggestionFa": "هجده، نوزده، بیست! تو آشپزخونه‌ای؟ تو باغی؟",
@@ -268,7 +268,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "(quietly) I'm not telling!",
    "translations": {
     "fa": "(آروم) نمی‌گم!"
@@ -279,8 +279,8 @@
       "behind",
       "found",
       "again",
-      "ever",
-      "best"
+      "turn",
+      "ever"
      ],
      "suggestion": "Found you! You're behind the door! My turn again! This is the best game ever!",
      "suggestionFa": "پیدات کردم! پشت دری! باز نوبت منه! این بهترین بازی دنیاست!",
@@ -293,7 +293,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

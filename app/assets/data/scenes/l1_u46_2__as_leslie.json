@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,8 +23,8 @@
      "keywords": [
       "taking",
       "carpet",
-      "would",
       "we've",
+      "sorry",
       "shoes"
      ],
      "suggestion": "Hello! Sorry, would you mind taking your shoes off? We've got a new carpet!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. No problem.",
    "translations": {
     "fa": "البته. مشکلی نیست."
@@ -48,9 +48,9 @@
      "keywords": [
       "everywhere",
       "strange",
+      "always",
       "thinks",
-      "really",
-      "always"
+      "really"
      ],
      "suggestion": "Really? Always? Tom thinks it's strange. He walks everywhere in his boots!",
      "suggestionFa": "واقعاً؟ همیشه؟ تام فکر می‌کنه عجیبه. همه جا با چکمه‌هاش راه میره!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran, it's very rude to wear shoes inside.",
    "translations": {
     "fa": "تو ایران پوشیدن کفش تو خونه خیلی بی‌ادبیه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "slippers",
-      "persian",
       "carpets",
+      "persian",
       "famous",
-      "would"
+      "sense"
      ],
      "suggestion": "That makes sense. Persian carpets are famous! Here, would you like some slippers?",
      "suggestionFa": "منطقیه. فرش ایرانی معروفه! بیا، دمپایی می‌خوای؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. My feet are cold.",
    "translations": {
     "fa": "آره، لطفاً. پاهام سرده."
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me help you, Mrs Khan.",
    "translations": {
     "fa": "بذارید کمکتون کنم خانم خان."
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's kind, Leslie.",
    "translations": {
     "fa": "لطف داری لزلی."
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "trainers",
-      "smelly",
       "ryan's",
-      "about",
-      "sorry"
+      "smelly",
+      "sorry",
+      "those"
      ],
      "suggestion": "On the rack by the door. Next to Ryan's smelly trainers. Sorry about those!",
      "suggestionFa": "رو جاکفشی کنار در. کنار کتونی‌های بدبوی رایان. بابت اونا ببخشید!",
@@ -195,7 +195,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! They really are smelly.",
    "translations": {
     "fa": "ها! واقعاً بو میدن."
@@ -207,7 +207,7 @@
       "through",
       "nearly",
       "floor",
-      "ready"
+      "tea's"
      ],
      "suggestion": "Ha! Come through. Mind the toys on the floor — Nicola's been busy. Tea's nearly ready!",
      "suggestionFa": "ها! بیاید تو. مواظب اسباب‌بازی‌های رو زمین باشید — نیکولا حسابی سرگرم بوده. چای تقریباً آماده‌ست!",
@@ -220,7 +220,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

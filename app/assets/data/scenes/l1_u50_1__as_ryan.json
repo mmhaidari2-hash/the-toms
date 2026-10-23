@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "night",
       "chips",
-      "best",
+      "night",
       "week",
+      "best",
       "like"
      ],
      "suggestion": "Chips for tea! Best night of the week. Do you like chips?",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love chips!",
    "translations": {
     "fa": "عاشق چیپسم!"
@@ -50,7 +50,7 @@
       "they're",
       "ketchup",
       "don't",
-      "mind"
+      "best"
      ],
      "suggestion": "Don't mind? They're the best! Ketchup or mayo? Big question.",
      "suggestionFa": "فرقی نمی‌کنه؟ بهترینن! کچاپ یا مایونز؟ سؤال مهم.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ketchup, please.",
    "translations": {
     "fa": "کچاپ، لطفاً."
@@ -74,8 +74,8 @@
       "belgians",
       "hates",
       "mayo",
-      "like",
-      "both"
+      "both",
+      "like"
      ],
      "suggestion": "Mayo! Like the Belgians. I like both. But Dad hates mayo!",
      "suggestionFa": "مایونز! مثل بلژیکی‌ها. من هر دو را دوست دارم. ولی بابا از مایونز متنفره!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why does Tom hate mayo?",
    "translations": {
     "fa": "چرا تام از مایونز بدش میاد؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "vinegar",
       "wobbly",
-      "weird",
       "chips",
-      "like"
+      "weird",
+      "says"
      ],
      "suggestion": "He says it's \"too wobbly\". Weird. Do you like vinegar on your chips?",
      "suggestionFa": "میگه «زیادی لرزونه». عجیبه. سرکه رو چیپست دوست داری؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Vinegar on chips? Really?",
    "translations": {
     "fa": "سرکه رو چیپس؟ واقعاً؟"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "vinegar",
       "amazing",
+      "vinegar",
       "salt",
-      "try",
-      "one"
+      "one",
+      "try"
      ],
      "suggestion": "It's amazing! Try one. Salt and vinegar. Go on!",
      "suggestionFa": "فوق‌العاده‌ست! یکی امتحان کن. نمک و سرکه. یالا!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! I like it!",
    "translations": {
     "fa": "ممم! دوستش دارم!"
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "northerners",
-      "about",
-      "gravy",
       "chips",
+      "gravy",
+      "about",
       "love"
      ],
      "suggestion": "Your face! Ha! What about gravy? Northerners love chips with gravy.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Gravy on chips? I'd like to try that.",
    "translations": {
     "fa": "گریوی رو چیپس؟ دوست دارم امتحانش کنم."
@@ -174,8 +174,8 @@
       "enough",
       "chips",
       "one's",
-      "pass",
-      "mine"
+      "fair",
+      "pass"
      ],
      "suggestion": "Fair enough. More for me! Pass the chips. Last one's mine!",
      "suggestionFa": "حق داری. بیشتر برای من! چیپس‌ها را بده. آخریش مال منه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

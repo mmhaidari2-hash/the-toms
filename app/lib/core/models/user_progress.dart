@@ -119,7 +119,7 @@ class UserProgress {
     this.mistakes = const {},
     this.stamps = const [],
     this.replayArchive = const [],
-    this.role = 'mehdi',
+    this.role = 'learner',
   });
 
   UserProgress copyWith({
@@ -236,7 +236,7 @@ class UserProgress {
       mistakes: Map<String, String>.from(j['mist'] ?? const {}),
       stamps: [for (final a in (j['stamps'] ?? const [])) Stamp.fromJson(Map<String, dynamic>.from(a))],
       replayArchive: [for (final a in (j['arch'] ?? const [])) ArchiveEntry.fromJson(Map<String, dynamic>.from(a))],
-      role: j['role'] ?? 'mehdi',
+      role: const {'ryan', 'leslie', 'tom', 'nicola', 'weda'}.contains(j['role']) ? j['role'] : 'learner', // older saves used the retired guest id
     );
   }
 }

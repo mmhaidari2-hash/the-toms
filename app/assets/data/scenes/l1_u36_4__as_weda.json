@@ -44,7 +44,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's lovely.",
    "translations": {
     "fa": "چقدر قشنگه."
@@ -104,7 +104,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Do they always choose it?",
    "translations": {
     "fa": "همیشه همونو انتخاب می‌کنن؟"
@@ -129,7 +129,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maggie reads very well!",
    "translations": {
     "fa": "مگی خیلی خوب می‌خونه!"
@@ -151,7 +151,7 @@
   "r6": {
    "id": "r6",
    "speaker": "leslie",
-   "text": "She does the voices too. Do you read a lot, Mehdi?",
+   "text": "She does the voices too. Do you read a lot, {you}?",
    "translations": {
     "fa": "صداها را هم درمیاره. تو زیاد کتاب می‌خونی {you}؟"
    },
@@ -185,7 +185,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I usually read at night.",
    "translations": {
     "fa": "آره، معمولاً شب‌ها می‌خونم."
@@ -241,7 +241,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a good idea.",
    "translations": {
     "fa": "فکر خوبیه."
@@ -301,7 +301,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I never go to the library. I should!",
    "translations": {
     "fa": "من هیچ‌وقت کتابخونه نمیرم. باید برم!"
@@ -309,8 +309,8 @@
    "branches": [
     {
      "keywords": [
-      "bennett",
       "helpful",
+      "bennett",
       "tuesday",
       "course",
       "dear"
@@ -326,7 +326,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Again! Again!",
    "translations": {
     "fa": "دوباره! دوباره!"

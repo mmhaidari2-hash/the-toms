@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "easter",
       "having",
       "garden",
+      "easter",
       "sunday",
       "we're"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What's an egg hunt?",
    "translations": {
     "fa": "آره! تخم‌مرغ‌بازی چیه؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One under the flowerpot.",
    "translations": {
     "fa": "یکی زیر گلدون."
@@ -73,8 +73,8 @@
      "keywords": [
       "behind",
       "nicola",
-      "can't",
       "reach",
+      "can't",
       "tree"
      ],
      "suggestion": "Yes, in the tree, not too high. Nicola can't reach. And two behind the shed.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Behind the shed. Done!",
    "translations": {
     "fa": "پشت انباری. انجام شد!"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "eating",
+      "twenty",
       "nicola",
-      "says",
-      "ryan"
+      "ryan",
+      "he's"
      ],
      "suggestion": "Twenty. Ten for Nicola, ten for Mia. Ryan says he's \"too old\". But I saw him eating one!",
      "suggestionFa": "بیست تا. ده تا برای نیکولا، ده تا برای میا. رایان میگه «زیادی بزرگه». ولی دیدم داره یکی می‌خوره!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Nobody is too old for chocolate.",
    "translations": {
     "fa": "ها! هیچ‌کس برای شکلات زیادی بزرگ نیست."
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ready, steady, go!",
    "translations": {
     "fa": "حاضر، آماده، برو!"
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, girls!",
    "translations": {
     "fa": "آفرین دخترها!"
@@ -227,9 +227,9 @@
      "keywords": [
       "chocolate",
       "everyone",
-      "easter",
       "people",
-      "faces"
+      "easter",
+      "happy"
      ],
      "suggestion": "Too late! Chocolate faces! Ha! Happy Easter, everyone. Do people have chocolate eggs in Iran?",
      "suggestionFa": "دیر شد! صورت‌های شکلاتی! ها! عید پاک مبارک همه. تو ایران تخم‌مرغ شکلاتی دارید؟",
@@ -242,7 +242,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, but we paint eggs at Nowruz!",
    "translations": {
     "fa": "نه، ولی تو نوروز تخم‌مرغ رنگ می‌کنیم!"
@@ -267,7 +267,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

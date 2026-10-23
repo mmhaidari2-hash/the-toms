@@ -1,0 +1,238 @@
+{
+ "id": "est_3_2",
+ "characterId": "agent",
+ "title": "Inventory and check-in",
+ "titleFa": "فهرست اموال و تحویل",
+ "setting": "Moving in · Level 0",
+ "settingFa": "اسباب‌کشی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "This is the inventory. It lists everything in the flat and its condition, with photos. Let's check it together, room by room.",
+   "translations": {
+    "fa": "این فهرست اموالِ. همه چیزای آپارتمان و وضعیت‌شون را با عکس نوشته. بیاید با هم اتاق به اتاق چکش کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "photos",
+      "take",
+      "good",
+      "idea"
+     ],
+     "suggestion": "Good idea. Can I take my own photos too?",
+     "suggestionFa": "فکر خوبیه. می‌تونم خودم هم عکس بگیرم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "condition",
+      "here",
+      "mean"
+     ],
+     "suggestion": "What does \"condition\" mean here?",
+     "suggestionFa": "«وضعیت» اینجا یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inventory",
+     "fa": "فهرست اموال ؛ صورت‌جلسهٔ تحویل"
+    },
+    {
+     "word": "condition",
+     "fa": "وضعیت ؛ حالت"
+    },
+    {
+     "word": "room by room",
+     "fa": "اتاق به اتاق"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Absolutely — photos with the date are a great idea. Now, the sofa: \"good condition, small mark on left arm\".",
+   "translations": {
+    "fa": "حتماً — عکس با تاریخ فکر عالی‌ایه. خب، مبل: «وضعیت خوب، یه لک کوچیک روی دستهٔ چپ»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "right",
+      "mark",
+      "can"
+     ],
+     "suggestion": "Yes, I can see the mark. That's right.",
+     "suggestionFa": "آره، لک را می‌بینم. درسته.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scratch",
+      "there's",
+      "coffee",
+      "table"
+     ],
+     "suggestion": "There's also a scratch on the coffee table.",
+     "suggestionFa": "یه خط هم روی میز جلومبلی هست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mark",
+     "fa": "لک ؛ لکه"
+    },
+    {
+     "word": "scratch",
+     "fa": "خط ؛ خراش"
+    },
+    {
+     "word": "coffee table",
+     "fa": "میز جلومبلی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is scratch",
+      "is scratch on"
+     ],
+     "echo": "There's a scratch on the coffee table? Let's add it.",
+     "better": "There's a scratch on the coffee table.",
+     "betterFa": "یه خط روی میز جلومبلی هست."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Well spotted. I'll add \"scratch on coffee table\". Anything you notice later, email us within seven days and we'll add it.",
+   "translations": {
+    "fa": "خوب دیدید. «خط روی میز جلومبلی» را اضافه می‌کنم. هر چیزی بعداً دیدید، ظرف هفت روز ایمیل کنید اضافه‌ش می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dripping",
+      "bathroom",
+      "someone",
+      "can"
+     ],
+     "suggestion": "The bathroom tap is dripping. Can someone fix it?",
+     "suggestionFa": "شیر حموم چکه می‌کنه. کسی می‌تونه درستش کنه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "inventory",
+      "sign",
+      "need"
+     ],
+     "suggestion": "Do I need to sign the inventory?",
+     "suggestionFa": "باید فهرست را امضا کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "well spotted",
+     "fa": "خوب دیدی"
+    },
+    {
+     "word": "notice",
+     "fa": "متوجه شدن"
+    },
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    },
+    {
+     "word": "dripping",
+     "fa": "چکه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "At the end of the tenancy, the flat is checked against this inventory. Damage beyond normal \"wear and tear\" can come out of the deposit.",
+    "fa": "در پایان اجاره، آپارتمان با همین فهرست مقایسه می‌شود؛ خرابی فراتر از استهلاک عادی از ودیعه کم می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "I'll report the tap to the landlord today. And yes, please sign here when you're happy. Let's also take the meter readings.",
+   "translations": {
+    "fa": "امروز شیر را به صاحبخونه گزارش می‌دم. و بله، وقتی راضی بودید اینجا امضا کنید. بیاید شمارهٔ کنتورها را هم بخونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "meters",
+      "where"
+     ],
+     "suggestion": "Where are the meters?",
+     "suggestionFa": "کنتورها کجان؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "readings",
+      "need",
+      "why",
+      "we"
+     ],
+     "suggestion": "Why do we need the readings?",
+     "suggestionFa": "چرا شماره‌ها را لازم داریم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "meter reading",
+     "fa": "شمارهٔ کنتور"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "agent",
+   "text": "Under the stairs. With today's readings, you only pay for the gas and electricity you use from today. Here are your keys!",
+   "translations": {
+    "fa": "زیر پله‌ها. با شماره‌های امروز، فقط پول گاز و برقی را می‌دید که از امروز مصرف می‌کنید. این هم کلیدهاتون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

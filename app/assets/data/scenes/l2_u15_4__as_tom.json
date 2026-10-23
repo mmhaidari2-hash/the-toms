@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "stressed",
       "alright",
       "hello",
-      "look"
+      "mate"
      ],
      "suggestion": "Hello, mate! You look stressed. Everything alright?",
      "suggestionFa": "سلام رفیق! استرسی به نظر میای. همه چی روبه‌راهه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No. I left my bag on the bus yesterday.",
    "translations": {
     "fa": "نه. دیروز کیفم را تو اتوبوس جا گذاشتم."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "don't",
-      "which",
       "panic",
+      "which",
       "time",
       "bus"
      ],
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The 38, at about six o'clock.",
    "translations": {
     "fa": "۳۸، حدود ساعت شش."
@@ -73,9 +73,9 @@
      "keywords": [
       "o'clock",
       "that's",
-      "checks",
       "gary's",
-      "every"
+      "checks",
+      "shift"
      ],
      "suggestion": "Six o'clock — that's Gary's shift. Gary checks every seat at the end. What does it look like?",
      "suggestionFa": "ساعت شش — شیفت گریه. گری آخر کار همهٔ صندلی‌ها را چک می‌کنه. چه شکلیه؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a black rucksack. It's got a red stripe.",
    "translations": {
     "fa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره."
@@ -98,8 +98,8 @@
      "keywords": [
       "important",
       "anything",
-      "inside",
       "what's",
+      "inside",
       "ok"
      ],
      "suggestion": "OK. What's inside? Anything important?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My laptop! And my keys.",
    "translations": {
     "fa": "لپ‌تاپم! و کلیدهام."
@@ -123,9 +123,9 @@
      "keywords": [
       "property",
       "report",
-      "online",
       "garage",
-      "after"
+      "online",
+      "office"
      ],
      "suggestion": "Right. First, it goes back to the bus garage. After a few days, it goes to the lost property office. You can report it online.",
      "suggestionFa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به دفتر اشیای گمشده. می‌تونی آنلاین گزارشش بدی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do I write in the report?",
    "translations": {
     "fa": "تو گزارش چی بنویسم؟"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Has he got it?",
    "translations": {
     "fa": "دستش هست؟"
@@ -174,8 +174,8 @@
       "probably",
       "sandwich",
       "there's",
-      "didn't",
-      "cheese"
+      "cheese",
+      "garage"
      ],
      "suggestion": "He's got it! It's at the garage. And — he says there's a cheese sandwich in it. He didn't eat it. Probably.",
      "suggestionFa": "دستشه! تو پارکینگه. و — میگه توش یه ساندویچ پنیره. نخوردش. احتمالاً.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you so much, Tom! When can I get it?",
    "translations": {
     "fa": "خیلی ممنون تام! کی می‌تونم بگیرمش؟"
@@ -199,8 +199,8 @@
       "tomorrow",
       "morning",
       "always",
-      "don't",
-      "bring"
+      "bring",
+      "don't"
      ],
      "suggestion": "Come with me tomorrow morning. Bring ID. And next time, a tip: always look back at your seat. \"Look back, don't lose your pack!\"",
      "suggestionFa": "فردا صبح با من بیا. کارت شناسایی بیار. و دفعهٔ بعد، یه نکته: همیشه به صندلیت نگاه کن. «برگرد ببین، کوله را جا نذار!»",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Did you just make that up?",
    "translations": {
     "fa": "ها! همین الان از خودت درآوردی؟"
@@ -224,8 +224,8 @@
       "terrible",
       "twenty",
       "leslie",
-      "years",
-      "buses"
+      "she's",
+      "wrong"
      ],
      "suggestion": "I did! Twenty years on the buses, and I'm still a poet. Leslie says I'm a terrible poet. But she's wrong!",
      "suggestionFa": "آره! بیست سال اتوبوس‌رانی، و هنوز شاعرم. لزلی میگه شاعر افتضاحی‌ام. ولی اشتباه می‌کنه!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -63,8 +63,8 @@
    "branches": [
     {
      "keywords": [
-      "stool",
-      "stand"
+      "stand",
+      "stool"
      ],
      "suggestion": "Stand on this stool.",
      "suggestionFa": "روی این چهارپایه وایسا.",
@@ -74,8 +74,8 @@
     },
     {
      "keywords": [
-      "turn",
       "i'll",
+      "turn",
       "tap"
      ],
      "suggestion": "I'll turn on the tap for you.",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "moment",
-      "warm",
       "wait",
+      "warm",
       "now"
      ],
      "suggestion": "Wait a moment. Now it's warm.",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "here's",
-      "hands",
       "towel",
+      "hands",
       "dry"
      ],
      "suggestion": "Here's the towel. Dry your hands.",

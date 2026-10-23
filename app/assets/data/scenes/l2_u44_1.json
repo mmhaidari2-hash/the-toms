@@ -20,8 +20,8 @@
     {
      "keywords": [
       "cornwall",
-      "week",
-      "went"
+      "went",
+      "week"
      ],
      "suggestion": "Yes, I went to Cornwall for a week.",
      "suggestionFa": "آره، یه هفته رفتم کورنوال.",
@@ -75,7 +75,7 @@
       "cottage",
       "little",
       "ives",
-      "we"
+      "st"
      ],
      "suggestion": "We stayed in a little cottage in St Ives.",
      "suggestionFa": "تو یه کلبهٔ کوچیک تو سنت آیوز موندیم.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "hostel",
-      "cheap",
       "youth",
+      "cheap",
       "was"
      ],
      "suggestion": "I stayed in a youth hostel. It was cheap.",
@@ -155,8 +155,8 @@
     {
      "keywords": [
       "seven",
-      "drove",
       "hours",
+      "drove",
       "took"
      ],
      "suggestion": "No, we drove. It took seven hours!",
@@ -200,8 +200,8 @@
     {
      "keywords": [
       "rained",
-      "sunny",
       "three",
+      "sunny",
       "then"
      ],
      "suggestion": "It was sunny for three days, then it rained.",
@@ -212,10 +212,10 @@
     },
     {
      "keywords": [
-      "every",
       "windy",
-      "away",
-      "flew"
+      "every",
+      "flew",
+      "away"
      ],
      "suggestion": "It was windy every day! My hat flew away.",
      "suggestionFa": "هر روز باد میومد! کلاهم پرید.",
@@ -258,9 +258,9 @@
     {
      "keywords": [
       "minutes",
+      "swam",
       "once",
-      "only",
-      "swam"
+      "only"
      ],
      "suggestion": "I swam once. Only for two minutes!",
      "suggestionFa": "یه بار شنا کردم. فقط دو دقیقه!",
@@ -270,8 +270,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "walked",
+      "didn't",
       "beach",
       "cold"
      ],
@@ -313,8 +313,8 @@
      "keywords": [
       "delicious",
       "three",
-      "were",
-      "they"
+      "they",
+      "were"
      ],
      "suggestion": "Yes, I ate three. They were delicious!",
      "suggestionFa": "آره، سه تا خوردم. خوشمزه بودن!",
@@ -428,8 +428,8 @@
      "keywords": [
       "about",
       "time",
-      "last",
-      "told"
+      "told",
+      "last"
      ],
      "suggestion": "Yes! You told me about it last time.",
      "suggestionFa": "آره! دفعهٔ قبل تو بهم گفتی.",
@@ -440,8 +440,8 @@
     {
      "keywords": [
       "cornwall",
-      "thirty",
       "pounds",
+      "thirty",
       "saved"
      ],
      "suggestion": "It saved me thirty pounds on the Cornwall trip.",

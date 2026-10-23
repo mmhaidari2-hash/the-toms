@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "christmas",
       "cracker",
       "merry",
-      "pull",
-      "come"
+      "down",
+      "pull"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
      "suggestionFa": "کریسمس مبارک! بیا بشین — یه کراکر با من بکش!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Merry Christmas! Okay — one, two, three, pull!",
    "translations": {
     "fa": "کریسمس مبارک! باشه — یک، دو، سه، بکش!"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "crown",
       "paper",
+      "crown",
       "bang",
       "joke",
-      "put"
+      "say"
      ],
      "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
      "suggestionFa": "بنگ! تو بردی! تاج کاغذیت را بذار. جوکت چی می‌گه؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do snowmen eat for lunch? Iceburgers!",
    "translations": {
     "fa": "آدم‌برفی‌ها ناهار چی می‌خورن؟ آیسبرگر!"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "blankets",
+      "terrible",
       "potatoes",
       "cracker",
-      "turkey"
+      "always"
      ],
      "suggestion": "Ha! Terrible! Cracker jokes are always terrible. Would you like turkey, pigs in blankets and roast potatoes?",
      "suggestionFa": "ها! افتضاح! جوک‌های کراکر همیشه افتضاحن. بوقلمون، سوسیس پیچیده و سیب‌زمینی تنوری می‌خوای؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes please — everything! It smells amazing.",
    "translations": {
     "fa": "آره لطفاً — همه چی! بوش عالیه."
@@ -98,8 +98,8 @@
      "keywords": [
       "everybody",
       "sprouts",
-      "gravy",
       "hates",
+      "gravy",
       "want"
      ],
      "suggestion": "Do you want gravy? And sprouts? Everybody hates sprouts!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes to gravy, no to sprouts!",
    "translations": {
     "fa": "سس آره، کلم نه!"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "christmas",
       "cranberry",
+      "christmas",
       "british",
-      "first",
-      "brave"
+      "brave",
+      "sauce"
      ],
      "suggestion": "Brave! Tom, pass the cranberry sauce, love. Is this your first British Christmas?",
      "suggestionFa": "شجاع! تام، سس زغال‌اخته را بده عزیزم. این اولین کریسمس بریتانیاییته؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, it's my first. It's lovely.",
    "translations": {
     "fa": "آره، اولینمه. قشنگه."
@@ -148,8 +148,8 @@
      "keywords": [
       "presents",
       "morning",
-      "lovely",
       "family",
+      "lovely",
       "lunch"
      ],
      "suggestion": "How lovely. Do you open presents in the morning or after lunch in your family?",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We don't really do presents, but we eat a lot!",
    "translations": {
     "fa": "راستش کادو نداریم، ولی کلی غذا می‌خوریم!"
@@ -174,8 +174,8 @@
       "christmas",
       "british",
       "pudding",
-      "that's",
-      "eating"
+      "eating",
+      "that's"
      ],
      "suggestion": "Eating a lot — that's very British too! Now, who wants Christmas pudding? It's on fire!",
      "suggestionFa": "زیاد خوردن — اینم خیلی بریتانیاییه! حالا، کی پودینگ کریسمس می‌خواد؟ آتیش گرفته!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "On fire? Is that safe?!",
    "translations": {
     "fa": "آتیش گرفته؟ امنه؟!"
@@ -198,8 +198,8 @@
      "keywords": [
       "perfectly",
       "everyone",
-      "speech",
       "king's",
+      "speech",
       "mostly"
      ],
      "suggestion": "Perfectly safe! Well, mostly. Now, everyone — the King's speech is at three. Then a walk.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A walk? In the cold?",
    "translations": {
     "fa": "پیاده‌روی؟ تو سرما؟"
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "sandwiches",
-      "christmas",
       "wonderful",
+      "christmas",
       "everyone",
       "leftover"
      ],
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

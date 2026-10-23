@@ -29,6 +29,7 @@ import '../speaking/speaking_widgets.dart';
 import '../../core/engine/pronunciation.dart';
 import '../place/place_screen.dart' show hitTest;
 import '../../core/models/place.dart';
+import '../leitner/leitner_add.dart' show LeitnerWords;
 
 class ConversationScreen extends ConsumerWidget {
   final String sceneId;
@@ -160,7 +161,7 @@ class _ChatState extends ConsumerState<_Chat> {
   /// While swapped: the line the learner now has to say.
   DialogueNode? _mine;
   /// Who the learner usually is in this story (and who speaks the replies once they swap).
-  String get _partnerId => widget.s.playAs ?? widget.s.guest ?? 'mehdi';
+  String get _partnerId => widget.s.playAs ?? widget.s.guest ?? 'learner';
   bool get _canSwap => widget.s.nodes.values.any((n) => n.speaker == ch.id) && ch.id != _partnerId;
   /// What the learner can say now: the reply options, or (swapped) the character's line.
   List<(String, String?)> get _targets => _swap && _mine != null
@@ -170,14 +171,14 @@ class _ChatState extends ConsumerState<_Chat> {
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) {
     final c = widget.c.characterOrNull(id) ?? ch;
-    return id == 'mehdi' ? c.copyWithName(_learner.isEmpty ? 'Your neighbour' : _learner) : c;
+    return id == 'learner' ? c.copyWithName(_learner.isEmpty ? 'Your neighbour' : _learner) : c;
   }
   MoodInfo get _mood => EmotionEngine.label(ref.watch(progressProvider).moodMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
   /// The learner's own name (empty: lines read with no name; the audio never says one).
   String get _learner => ref.read(progressProvider.notifier).pref('name');
   String get _meName {
     final id = widget.s.playAs ?? widget.s.guest ?? ref.read(progressProvider).role;
-    if (id == 'me' || id == 'mehdi') return _learner.isEmpty ? 'You' : _learner;
+    if (id == 'me' || id == 'learner') return _learner.isEmpty ? 'You' : _learner;
     return widget.c.characterOrNull(id)?.name ?? (_learner.isEmpty ? 'You' : _learner);
   }
   String _t(String s) => widget.s.guest != null ? s.replaceAll('{you}', widget.c.character(widget.s.guest!).name) : fillYou(s, _learner);
@@ -218,7 +219,7 @@ class _ChatState extends ConsumerState<_Chat> {
     // Auto-reset to the guest after a finished role story (unless the learner chose to keep the role).
     if (_ended && widget.s.playAs != null && !_ctrl.keepRole) {
       final ctrl = _ctrl;
-      Future.microtask(() => ctrl.setRole('mehdi'));
+      Future.microtask(() => ctrl.setRole('learner'));
     }
     _input.dispose();
     _focus.dispose();
@@ -731,7 +732,9 @@ class _ChatState extends ConsumerState<_Chat> {
     final pad = MediaQuery.paddingOf(context);
     final trust = GrowthEngine.softTrust(p.trustMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
     final sp = _who(_lineSpeaker.isEmpty ? ch.id : _lineSpeaker);
-    final bannerH = pad.top + 128;
+    // The painting is a proper hero: about 16:9 of the phone width, never a thin strip.
+    final bannerH = pad.top + (MediaQuery.sizeOf(context).width * .56).clamp(170.0, 250.0);
+    final strip = _strip(cover, host);
     return CustomPaint(
       painter: _WoodGrain(),
       child: DecoratedBox(
@@ -787,12 +790,11 @@ class _ChatState extends ConsumerState<_Chat> {
                 ),
               ]),
             ),
+            ?strip,
             Expanded(child: _chatList()),
             _bottom(pad),
           ]),
-          if (_canSwap) Positioned(right: 10, top: pad.top + 54, child: _playAs()),
-          if (cover != null) Positioned(right: 10, bottom: null, top: bannerH - 46, child: ConstrainedBox(constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width * .38), child: _peopleChips(_tapHost(cover, host)))),
-          if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + 6, child: _tapCard(_tapped!)),
+          if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + (strip == null ? 6 : 50), child: _tapCard(_tapped!)),
         ]),
       ),
     );
@@ -845,7 +847,7 @@ class _ChatState extends ConsumerState<_Chat> {
             constraints: BoxConstraints(maxWidth: maxW),
             child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
               Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(m.asName ?? _meName, style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
-              _bubbleBox(Text(m.text, style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
+              _bubbleBox(LeitnerWords(m.text, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
             ]),
           ),
         ),
@@ -871,7 +873,7 @@ class _ChatState extends ConsumerState<_Chat> {
                 child: _bubbleBox(
                   Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(who.name, style: TextStyle(color: Color.lerp(who.color, Colors.black, .25), fontSize: 11.5, fontWeight: FontWeight.w800)),
-                    Text(m.text, style: BL.display(16.5, color: BL.ink, w: FontWeight.w500).copyWith(height: 1.32)),
+                    LeitnerWords(m.text, speaker: m.speaker, style: BL.display(16.5, color: BL.ink, w: FontWeight.w500).copyWith(height: 1.32)),
                   ]),
                   active ? const Color(0xFFFFF8EA) : const Color(0xFFEFE6D8),
                   left: true,
@@ -999,8 +1001,27 @@ class _ChatState extends ConsumerState<_Chat> {
           Text('در نقش', textDirection: TextDirection.rtl, style: BL.fa(10, color: Colors.white60).copyWith(height: 1.2)),
         ]),
         const SizedBox(width: 6),
-        opt(me, _learner.isEmpty && _partnerId == 'mehdi' ? 'You' : me.name, !_swap, () => _setSwap(false), const ValueKey('playas-me')),
+        opt(me, _partnerId == 'learner' ? 'You' : me.name, !_swap, () => _setSwap(false), const ValueKey('playas-me')),
         opt(ch, ch.name, _swap, () => _setSwap(true), const ValueKey('playas-them')),
+      ]),
+    );
+  }
+
+  /// One tidy row under the painting: the "Play as" switch, then everyone in the painting as a
+  /// horizontally scrolling row of portraits (never a cluster over the picture).
+  Widget? _strip(String? cover, Place? host) {
+    final chips = cover == null ? const <Hotspot>[] : _people(_tapHost(cover, host));
+    final showChips = chips.length >= 2;
+    if (!_canSwap && !showChips) return null;
+    return Container(
+      key: const ValueKey('chat-strip'),
+      height: 44,
+      padding: const EdgeInsets.fromLTRB(10, 5, 0, 5),
+      decoration: const BoxDecoration(color: Color(0xF0140E0A), border: Border(bottom: BorderSide(color: Color(0x33C9A45C)))),
+      child: Row(children: [
+        if (_canSwap) _playAs(),
+        if (_canSwap && showChips) const SizedBox(width: 8),
+        if (showChips) Expanded(child: _peopleChips(_tapHost(cover!, host))) else const Spacer(),
       ]),
     );
   }
@@ -1009,9 +1030,10 @@ class _ChatState extends ConsumerState<_Chat> {
   Widget _peopleChips(Place? th) {
     final ps = _people(th);
     if (ps.length < 2) return const SizedBox.shrink();
-    return ConstrainedBox(
-      constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width - 24),
-      child: Wrap(crossAxisAlignment: WrapCrossAlignment.center, children: [
+    return SingleChildScrollView(
+      key: const ValueKey('people-chips'),
+      scrollDirection: Axis.horizontal,
+      child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
         const Tooltip(message: 'Tap someone to hear them', child: Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.hearing_rounded, size: 16, color: Colors.white70))),
         for (final h in ps)
           Padding(
@@ -1030,13 +1052,17 @@ class _ChatState extends ConsumerState<_Chat> {
               ),
             ),
           ),
+        const SizedBox(width: 4),
       ]),
     );
   }
 
   void _onPaintingTap(Hotspot h, Offset? at) {
     HapticFeedback.selectionClick();
-    setState(() { _tapAt = at; _tapped = h; });
+    final dup = !h.isProp && h.characterId == _lineSpeaker && _raw.isNotEmpty;
+    // The speaker's line is already in the chat: replay it, no duplicate card over the chat.
+    setState(() { _tapAt = at; _tapped = dup ? null : h; });
+    if (!dup) Future.delayed(const Duration(seconds: 6), () { if (mounted && _tapped == h) setState(() => _tapped = null); });
     if (at != null) Future.delayed(const Duration(milliseconds: 500), () { if (mounted && _tapAt == at) setState(() => _tapAt = null); });
     if (h.isProp) {
       Voice.say('narrator', h.prop!.word, rate: .9).then((_) { if (mounted && _tapped == h) Voice.say('narrator', h.prop!.phrase, rate: .9); });

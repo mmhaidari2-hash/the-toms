@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here are some old towels.",
    "translations": {
     "fa": "اینم چند تا حولهٔ قدیمی."
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll switch it off now.",
    "translations": {
     "fa": "الان خاموشش می‌کنم."
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It won't drain, and it keeps beeping.",
    "translations": {
     "fa": "آب را خالی نمی‌کنه، و مدام بوق می‌زنه."
@@ -175,7 +175,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "About eight years old.",
    "translations": {
     "fa": "حدود هشت سال."
@@ -236,7 +236,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I've found the little door.",
    "translations": {
     "fa": "باشه، در کوچیک را پیدا کردم."
@@ -295,7 +295,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! A sock and two coins.",
    "translations": {
     "fa": "آره! یه جوراب و دو تا سکه."
@@ -356,7 +356,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you. How much do we owe you?",
    "translations": {
     "fa": "ممنون. چقدر بدهکاریم؟"
@@ -407,7 +407,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheers, Gaz! That's really kind.",
    "translations": {
     "fa": "مرسی گز! خیلی لطف داری."
@@ -417,9 +417,9 @@
      "keywords": [
       "engineer",
       "sandwich",
+      "earned",
       "ryan's",
-      "you've",
-      "earned"
+      "you've"
      ],
      "suggestion": "A sock! I bet it's Ryan's. Right, you've earned a bacon sandwich. Well done, engineer!",
      "suggestionFa": "یه جوراب! شرط می‌بندم مال رایانه. خب، یه ساندویچ بیکن حقته. آفرین، تعمیرکار!",
@@ -432,7 +432,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

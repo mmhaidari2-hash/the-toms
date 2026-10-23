@@ -27,10 +27,13 @@ class Unit {
 class Pack {
   final String id, title, titleFa, lead, place, blurb, blurbFa, levels;
   final bool premium;
+  /// Level-gated pack (e.g. Fennick & Rowe Homes): a unit opens when the learner's course level reaches its CEFR level,
+  /// the same rule as the Library, Cinema, Missions and Grammar School.
+  final bool gated;
   final List<Unit> units;
-  const Pack(this.id, this.title, this.titleFa, this.lead, this.place, this.blurb, this.blurbFa, this.levels, this.premium, this.units);
+  const Pack(this.id, this.title, this.titleFa, this.lead, this.place, this.blurb, this.blurbFa, this.levels, this.premium, this.units, [this.gated = false]);
   factory Pack.fromJson(Map<String, dynamic> j) => Pack(j['id'], j['title'], j['titleFa'], j['lead'], j['place'], j['blurb'] ?? '', j['blurbFa'] ?? '', j['levels'] ?? '', j['premium'] ?? false,
-      [for (final u in j['units']) Unit.fromJson(u)]);
+      [for (final u in j['units']) Unit.fromJson(u)], j['gated'] ?? false);
   Iterable<Lesson> get lessons => units.expand((u) => u.lessons);
   /// No payments yet: every pack is unlocked for now.
   bool get unlocked => true;

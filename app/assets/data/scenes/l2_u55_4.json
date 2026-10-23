@@ -70,9 +70,9 @@
     {
      "keywords": [
       "always",
-      "waits",
       "she's",
-      "awake"
+      "awake",
+      "waits"
      ],
      "suggestion": "She's awake. She always waits for my call.",
      "suggestionFa": "بیداره. همیشه منتظر تماسمه.",
@@ -85,7 +85,7 @@
       "weekend",
       "stays",
       "late",
-      "ok"
+      "up"
      ],
      "suggestion": "It's OK. She stays up late at the weekend.",
      "suggestionFa": "اشکالی نداره. آخر هفته‌ها دیر می‌خوابه.",
@@ -204,9 +204,9 @@
     },
     {
      "keywords": [
+      "wait",
       "call",
       "back",
-      "wait",
       "i'll"
      ],
      "suggestion": "Wait. I'll call you back, Mum.",
@@ -242,9 +242,9 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to Mehdi's mummy!",
+   "text": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to {you}'s mummy!",
    "translations": {
-    "fa": "دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ مهدی سلام کن!"
+    "fa": "دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ {you} سلام کن!"
    },
    "branches": [
     {
@@ -262,10 +262,10 @@
     },
     {
      "keywords": [
-      "here's",
       "little",
-      "one",
-      "mum"
+      "here's",
+      "mum",
+      "one"
      ],
      "suggestion": "Mum, here's the little one.",
      "suggestionFa": "مامان، اینم کوچولوئه.",
@@ -336,8 +336,8 @@
     {
      "keywords": [
       "laughing",
-      "she's",
       "loves",
+      "she's",
       "bus"
      ],
      "suggestion": "She's laughing! She loves your bus.",
@@ -386,8 +386,8 @@
     {
      "keywords": [
       "looking",
-      "thank",
       "after",
+      "thank",
       "says"
      ],
      "suggestion": "She says thank you for looking after me.",

@@ -1,0 +1,251 @@
+{
+ "id": "est_4_2",
+ "characterId": "graham",
+ "title": "Damp, mould and your rights",
+ "titleFa": "رطوبت، کپک و حقوق تو",
+ "setting": "Living there and moving out · Level 0",
+ "settingFa": "زندگی در خانه و تخلیه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "graham",
+   "text": "Hello {you}, it's Graham Holt. Olivia tells me you've reported mould in the bedroom. I'm sorry about that.",
+   "translations": {
+    "fa": "سلام {you}، گراهام هولت هستم. اولیویا گفت کپک تو اتاق خواب گزارش دادید. بابتش متأسفم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worried",
+      "getting",
+      "thanks",
+      "graham"
+     ],
+     "suggestion": "Thanks, Graham. It's getting worse, and I'm worried about my health.",
+     "suggestionFa": "ممنون گراهام. داره بدتر می‌شه، و نگران سلامتی‌ام هستم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cleaned",
+      "coming",
+      "keeps",
+      "twice"
+     ],
+     "suggestion": "Yes. I've cleaned it twice, but it keeps coming back.",
+     "suggestionFa": "بله. دو بار تمیزش کردم، ولی مدام برمی‌گرده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mould",
+     "fa": "کپک"
+    },
+    {
+     "word": "getting worse",
+     "fa": "بدتر شدن"
+    },
+    {
+     "word": "health",
+     "fa": "سلامتی"
+    },
+    {
+     "word": "keeps coming back",
+     "fa": "مدام برمی‌گردد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "graham",
+   "text": "That's a serious issue. The landlord must keep the home safe. We'll send a surveyor this week to find the cause.",
+   "translations": {
+    "fa": "مسئلهٔ جدیه. صاحبخونه باید خونه را امن نگه داره. این هفته یه کارشناس می‌فرستیم تا علتش را پیدا کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "causing",
+      "could"
+     ],
+     "suggestion": "What could be causing it?",
+     "suggestionFa": "چی می‌تونه باعثش باشه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "landlord",
+      "happens",
+      "doesn't",
+      "fix"
+     ],
+     "suggestion": "What happens if the landlord doesn't fix it?",
+     "suggestionFa": "اگه صاحبخونه درستش نکنه چی می‌شه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "serious",
+     "fa": "جدی"
+    },
+    {
+     "word": "safe",
+     "fa": "امن ؛ سالم"
+    },
+    {
+     "word": "surveyor",
+     "fa": "کارشناس ساختمان"
+    },
+    {
+     "word": "cause",
+     "fa": "علت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "graham",
+   "text": "It could be a leak, or poor ventilation. If a landlord doesn't deal with a serious hazard, you can contact the council's private housing team.",
+   "translations": {
+    "fa": "ممکنه نشتی باشه، یا تهویهٔ ضعیف. اگه صاحبخونه یه خطر جدی را رفع نکنه، می‌تونید با تیم مسکن خصوصی شورا تماس بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "council",
+      "make",
+      "work",
+      "can"
+     ],
+     "suggestion": "Can the council make the landlord do the work?",
+     "suggestionFa": "شورا می‌تونه صاحبخونه را مجبور به انجام کار کنه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "complain",
+      "angry",
+      "won't",
+      "if"
+     ],
+     "suggestion": "Won't the landlord be angry if I complain?",
+     "suggestionFa": "اگه شکایت کنم صاحبخونه عصبانی نمی‌شه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leak",
+     "fa": "نشتی"
+    },
+    {
+     "word": "ventilation",
+     "fa": "تهویه"
+    },
+    {
+     "word": "hazard",
+     "fa": "خطر"
+    },
+    {
+     "word": "private housing team",
+     "fa": "تیم مسکن خصوصی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Councils can inspect a home and order a landlord to fix serious hazards like damp and mould.",
+    "fa": "شورا می‌تواند خانه را بازرسی کند و صاحبخانه را به رفع خطرهایی مثل رطوبت و کپک ملزم کند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "if landlord not fix",
+      "landlord don't fix"
+     ],
+     "echo": "If the landlord doesn't fix it, you can contact the council.",
+     "better": "If the landlord doesn't fix it, I can contact the council.",
+     "betterFa": "اگه صاحبخونه درستش نکنه، می‌تونم با شورا تماس بگیرم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "graham",
+   "text": "Yes, they can inspect and order repairs. And you're protected: \"no-fault\" evictions have ended, so you can't be asked to leave just for complaining.",
+   "translations": {
+    "fa": "بله، می‌تونن بازرسی کنن و دستور تعمیر بدن. و شما محافظت می‌شید: تخلیهٔ «بدون دلیل» تموم شده، پس فقط به خاطر شکایت نمی‌تونن ازتون بخوان برید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "makes",
+      "feel",
+      "much"
+     ],
+     "suggestion": "That makes me feel much better.",
+     "suggestionFa": "خیالم خیلی راحت‌تر شد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "meanwhile",
+      "help",
+      "can"
+     ],
+     "suggestion": "Meanwhile, what can I do to help?",
+     "suggestionFa": "تا اون موقع، چی کار می‌تونم بکنم که کمک کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inspect",
+     "fa": "بازرسی کردن"
+    },
+    {
+     "word": "evictions",
+     "fa": "تخلیه‌ها ؛ بیرون کردن مستأجر"
+    },
+    {
+     "word": "complaining",
+     "fa": "شکایت کردن"
+    },
+    {
+     "word": "meanwhile",
+     "fa": "در این میان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "graham",
+   "text": "Open the window a little after showers and cooking, and dry clothes outside if you can. I'll email you the surveyor's time today.",
+   "translations": {
+    "fa": "بعد از دوش و آشپزی پنجره را کمی باز کنید، و اگه می‌شه لباس‌ها را بیرون خشک کنید. امروز ساعت کارشناس را براتون ایمیل می‌کنم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

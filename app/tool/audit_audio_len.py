@@ -4,7 +4,7 @@ import json,os,re,glob,hashlib,sys
 H=os.path.dirname(os.path.abspath(__file__)); A=os.path.join(H,'..','assets'); OUT=os.path.join(A,'audio')
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
 def clean(t):
-  t=t.replace('{you}','Mehdi'); t=re.sub(r'\*[^*]*\*','',t); return re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t).strip()
+  t=t; t=re.sub(r'\*[^*]*\*','',t); return re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t).strip()
 items={}
 for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
   d=json.load(open(f)); sid=os.path.basename(f)[:-5]

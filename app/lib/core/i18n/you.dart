@@ -1,7 +1,7 @@
-/// The learner's name in authored lines ({you}, or the old fixed "Mehdi"). With a name, it's shown; without one,
+/// The learner's name in authored lines ({you}). With a name, it's shown; without one,
 /// lines read naturally with no name (vocatives dropped, other mentions -> "our neighbour"). The recorded audio
 /// always uses the no-name form (tool/you_neutral.py mirrors these rules).
-final _n = r"(?:\{you\}|Mehdi)";
+final _n = r"\{you\}";
 const _greet = r'(Hi|Hello|Hiya|Morning|Evening|Thanks|Thank you|Cheers|Night|Bye|Welcome|Oi|Ta|Well done|Come on|Sorry|Lovely|Right|Hey|Oh)';
 final _start = r'''(^|(?<=[.!?…]\s)|(?<=["“]))''';
 
@@ -24,17 +24,17 @@ final youRawOf = <String, String>{};
 
 /// English line with the learner's [name] (or the no-name form when it's empty).
 String fillYou(String t, String name) {
-  if (!t.contains('{you}') && !t.contains('Mehdi')) return t;
+  if (!t.contains('{you}')) return t;
   final n = name.trim();
-  final out = n.isEmpty ? youNeutral(t) : t.replaceAll('{you}', n).replaceAll(RegExp(r'\bMehdi\b'), n);
+  final out = n.isEmpty ? youNeutral(t) : t.replaceAll('{you}', n);
   youRawOf[out] = t;
   return out;
 }
 
 /// Persian line: the name, or none.
 String fillYouFa(String t, String name) {
-  if (!t.contains('{you}') && !t.contains('مهدی')) return t;
+  if (!t.contains('{you}')) return t;
   final n = name.trim();
-  if (n.isNotEmpty) return t.replaceAll('{you}', n).replaceAll('مهدی', n);
-  return t.replaceAll(RegExp(r'[،,]\s*(\{you\}|مهدی)'), '').replaceAll(RegExp(r'(\{you\}|مهدی)'), 'همسایه‌مان');
+  if (n.isNotEmpty) return t.replaceAll('{you}', n);
+  return t.replaceAll(RegExp(r'[،,]\s*\{you\}'), '').replaceAll(RegExp(r'\{you\}'), 'همسایه‌مان');
 }

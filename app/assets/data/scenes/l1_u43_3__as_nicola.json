@@ -52,7 +52,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This is Nicola. Is there a toilet here?",
    "translations": {
     "fa": "این نیکولاست. اینجا دستشویی هست؟"
@@ -61,8 +61,8 @@
     {
      "keywords": [
       "need",
-      "wee",
-      "now"
+      "now",
+      "wee"
      ],
      "suggestion": "I need a wee! Now!",
      "suggestionFa": "جیش دارم! همین الان!",
@@ -75,7 +75,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Quick, Nicola!",
    "translations": {
     "fa": "سریع نیکولا!"
@@ -131,7 +131,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Past the bakery, then left.",
    "translations": {
     "fa": "بعد از نونوایی، بعد چپ."
@@ -187,7 +187,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A code? OK, one-two-three-four.",
    "translations": {
     "fa": "رمز؟ باشه، یک-دو-سه-چهار."
@@ -239,7 +239,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Come on, Nicola. Run!",
    "translations": {
     "fa": "بیا نیکولا. بدو!"
@@ -249,9 +249,9 @@
      "keywords": [
       "there",
       "hands",
-      "made",
+      "wash",
       "phew",
-      "soap"
+      "made"
      ],
      "suggestion": "Made it! Phew! Can I wash my hands? Is there soap?",
      "suggestionFa": "رسیدیم! آخیش! می‌تونم دستام را بشورم؟ صابون هست؟",
@@ -264,7 +264,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, there's soap by the sink.",
    "translations": {
     "fa": "آره، کنار روشویی صابون هست."
@@ -272,10 +272,10 @@
    "branches": [
     {
      "keywords": [
-      "scared",
       "towels",
-      "dryer",
+      "scared",
       "paper",
+      "dryer",
       "loud"
      ],
      "suggestion": "The dryer is SO loud! I'm scared! Can I use paper towels?",
@@ -289,7 +289,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, here's a paper towel.",
    "translations": {
     "fa": "آره، بفرما دستمال کاغذی."

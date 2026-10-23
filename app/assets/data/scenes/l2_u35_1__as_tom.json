@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "saturday",
       "cheaper",
       "advance",
-      "ticket"
+      "return"
      ],
      "suggestion": "So you're going to Brighton on Saturday? Lovely. Let's buy the ticket now — it's cheaper in advance. Single or return?",
      "suggestionFa": "پس شنبه میری برایتون؟ عالیه. بیا بلیت را الان بخریم — از قبل ارزون‌تره. یک‌طرفه یا رفت‌وبرگشت؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A return, please. I'm coming back on Sunday.",
    "translations": {
     "fa": "رفت‌وبرگشت، لطفاً. یکشنبه برمی‌گردم."
@@ -49,8 +49,8 @@
       "britain",
       "return",
       "single",
-      "funny",
-      "often"
+      "thing",
+      "there"
      ],
      "suggestion": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
      "suggestionFa": "یک‌طرفه یعنی فقط رفت. رفت‌وبرگشت یعنی رفتن و برگشتن. نکتهٔ جالب — تو بریتانیا، رفت‌وبرگشت اغلب فقط یه‌کم گرون‌تر از یک‌طرفه‌ست.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? Then a return is better.",
    "translations": {
     "fa": "واقعاً؟ پس رفت‌وبرگشت بهتره."
@@ -74,7 +74,7 @@
       "sometimes",
       "brighton",
       "victoria",
-      "singles",
+      "exactly",
       "cheaper"
      ],
      "suggestion": "Sometimes two singles are cheaper! Let's check the app. London Victoria to Brighton… When are you coming back, exactly?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sunday evening. But I'm not sure what time.",
    "translations": {
     "fa": "یکشنبه عصر. ولی مطمئن نیستم چه ساعتی."
@@ -99,8 +99,8 @@
       "flexible",
       "return",
       "train",
-      "peak",
-      "back"
+      "sure",
+      "then"
      ],
      "suggestion": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
      "suggestionFa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much is the off-peak return?",
    "translations": {
     "fa": "رفت‌وبرگشت ساعات خلوت چنده؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "advance",
+      "pounds",
       "twenty",
       "single",
-      "pounds",
-      "train"
+      "again"
      ],
      "suggestion": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
      "suggestionFa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Nine for going, then off-peak back?",
    "translations": {
     "fa": "نه پوند برای رفت، بعد برگشت ساعات خلوت؟"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "return's",
-      "cheaper",
       "allowed",
       "advance",
-      "mixing"
+      "cheaper",
+      "thirty"
      ],
      "suggestion": "Clever — mixing is allowed! Advance there, off-peak back: thirty-one total. Hmm, the return's cheaper. Take the return.",
      "suggestionFa": "زرنگی — ترکیب کردن مجازه! رفت از قبل، برگشت ساعات خلوت: جمعاً سی و یک. هوم، رفت‌وبرگشت ارزون‌تره. رفت‌وبرگشت را بگیر.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Return it is. Do I print it?",
    "translations": {
     "fa": "باشه. رفت‌وبرگشت. چاپش کنم؟"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good point. I'll take my charger.",
    "translations": {
     "fa": "نکتهٔ خوبیه. شارژرم را می‌برم."
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

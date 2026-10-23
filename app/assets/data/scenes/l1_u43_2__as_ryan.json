@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,8 +24,8 @@
       "anything",
       "things",
       "can't",
-      "list",
-      "sent"
+      "find",
+      "list"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
      "suggestionFa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Let me see the list.",
    "translations": {
     "fa": "بذار لیست را ببینم."
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "walked",
-      "round",
-      "can't",
       "twice",
+      "can't",
+      "round",
       "first"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's in the fridges at the back.",
    "translations": {
     "fa": "تو یخچال‌های ته فروشگاهه."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "skimmed",
-      "green",
       "never",
-      "says",
-      "blue"
+      "green",
+      "semi",
+      "says"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
      "suggestionFa": "گرفتم. نیم‌چرب. درِ سبز. مامان میگه هیچ‌وقت آبیه نه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the blue one?",
    "translations": {
     "fa": "آبیه چیه؟"
@@ -98,9 +98,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "can't",
       "bread",
-      "blue"
+      "can't",
+      "full"
      ],
      "suggestion": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
      "suggestionFa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's in the cleaning aisle.",
    "translations": {
     "fa": "تو راهروی شوینده‌هاست."
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We can't find the gravy.",
    "translations": {
     "fa": "سس گریوی را پیدا نمی‌کنیم."
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks a lot.",
    "translations": {
     "fa": "خیلی ممنون."
@@ -228,7 +228,7 @@
       "lifesaver",
       "something",
       "thing",
-      "last",
+      "nice",
       "mean"
      ],
      "suggestion": "You're a lifesaver. Last thing: \"something nice for Mum\". What does that mean?",
@@ -242,7 +242,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Buy her some flowers.",
    "translations": {
     "fa": "براش گل بخر."
@@ -252,8 +252,8 @@
      "keywords": [
       "chocolate",
       "flowers",
-      "she'll",
       "forget",
+      "she'll",
       "remote"
      ],
      "suggestion": "Flowers AND chocolate. Then she'll forget I broke the remote. Don't tell her!",
@@ -267,7 +267,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

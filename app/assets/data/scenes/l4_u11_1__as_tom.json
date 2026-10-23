@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,9 +23,9 @@
      "keywords": [
       "hundred",
       "calmer",
-      "three",
-      "would",
-      "right"
+      "month",
+      "forty",
+      "three"
      ],
      "suggestion": "Three hundred and forty quid for one month? That can't be right. Would you ring them? You're calmer than me.",
      "suggestionFa": "سیصد و چهل پوند برای یه ماه؟ نمی‌تونه درست باشه. زنگشون می‌زنی؟ تو از من آروم‌تری.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Have you got the account number?",
    "translations": {
     "fa": "حتماً. شمارهٔ حساب را داری؟"
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's PH 0045 7721. I'm calling on behalf of Tom Thompson.",
    "translations": {
     "fa": "PH ۰۰۴۵ ۷۷۲۱. از طرف تام تامپسون زنگ می‌زنم."
@@ -150,7 +150,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Tom, can you say yes to Josh?",
    "translations": {
     "fa": "حتماً. تام، می‌تونی به جاش بگی آره؟"
@@ -207,7 +207,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's three times higher than usual. That doesn't seem right.",
    "translations": {
     "fa": "سه برابر معمولیه. به نظر درست نمیاد."
@@ -262,7 +262,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, it's an old meter under the stairs.",
    "translations": {
     "fa": "نه، یه کنتور قدیمی زیر پله‌هاست."
@@ -319,7 +319,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One moment… It says 04471.",
    "translations": {
     "fa": "یه لحظه… نوشته ۰۴۴۷۱."
@@ -378,7 +378,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's a huge difference! Will we get a refund?",
    "translations": {
     "fa": "چه تفاوت بزرگی! پولمون را پس می‌گیریم؟"
@@ -431,7 +431,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Please keep it for winter.",
    "translations": {
     "fa": "لطفاً برای زمستون نگهش دارید."
@@ -482,7 +482,7 @@
   },
   "r18": {
    "id": "r18",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, that's everything. Thank you for being so helpful.",
    "translations": {
     "fa": "نه، همین بود. ممنون که این‌قدر کمک کردید."
@@ -490,11 +490,11 @@
    "branches": [
     {
      "keywords": [
-      "nowhere",
       "shouted",
+      "nowhere",
+      "legend",
       "credit",
-      "eighty",
-      "legend"
+      "eighty"
      ],
      "suggestion": "Eighty-five quid in credit? You're a legend. I'd have shouted at him and got nowhere. Tea's on me.",
      "suggestionFa": "هشتاد و پنج پوند اعتبار؟ تو اسطوره‌ای. من سرش داد می‌زدم و به هیچ جا نمی‌رسیدم. چای مهمون من.",
@@ -507,7 +507,7 @@
   },
   "r19": {
    "id": "r19",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

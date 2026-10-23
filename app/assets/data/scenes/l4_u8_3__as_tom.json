@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "registered",
       "elections",
       "citizen",
-      "right",
-      "local"
+      "local",
+      "right"
      ],
      "suggestion": "Right, I'm off to vote. Are you registered? You can vote in local elections, you know, even if you're not a citizen yet.",
      "suggestionFa": "خب، دارم می‌رم رأی بدم. ثبت‌نام کردی؟ می‌دونی، تو انتخابات محلی می‌تونی رأی بدی، حتی اگه هنوز شهروند نیستی.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really? I thought only British citizens could vote.",
    "translations": {
     "fa": "واقعاً؟ فکر می‌کردم فقط شهروندهای بریتانیایی می‌تونن رأی بدن."
@@ -49,8 +49,8 @@
       "nationality",
       "station's",
       "eligible",
-      "polling",
-      "depends"
+      "minutes",
+      "primary"
      ],
      "suggestion": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
      "suggestionFa": "بستگی به وضعیت و ملیتت داره، ولی تو واجد شرایطی — کارت رأیت را گرفتی. حوزه تو مدرسهٔ ابتداییه. پنج دقیقه طول می‌کشه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What do I need to bring?",
    "translations": {
     "fa": "چی باید بیارم؟"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "candidate",
-      "ballot",
       "that's",
+      "ballot",
       "pencil",
-      "cross"
+      "photo"
      ],
      "suggestion": "Photo ID — that's new. You give your name, they give you a ballot paper, you go into a booth and put a cross next to one candidate. Pencil, not pen.",
      "suggestionFa": "کارت شناسایی عکس‌دار — این جدیده. اسمت را می‌گی، یه برگهٔ رأی بهت می‌دن، می‌ری تو اتاقک و کنار یه نامزد ضربدر می‌زنی. با مداد، نه خودکار.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why a pencil?",
    "translations": {
     "fa": "چرا مداد؟"
@@ -100,7 +100,7 @@
       "majority",
       "whether",
       "that's",
-      "mostly"
+      "people"
      ],
      "suggestion": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
      "suggestionFa": "بیشتر سنته! و آره — «اول از خط عبور کن»ـه. بیشترین رأی برنده‌ست، حتی اگه اکثریت نباشه. مردم بحث می‌کنن که آیا منصفانه‌ست.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Some countries use proportional representation instead.",
    "translations": {
     "fa": "بعضی کشورها به جاش نمایندگی تناسبی دارن."
@@ -123,9 +123,9 @@
      "keywords": [
       "controversial",
       "exactly",
-      "moment",
       "that's",
-      "anyway"
+      "anyway",
+      "moment"
      ],
      "suggestion": "Exactly, which is why it's controversial. Anyway — grab your coat. Your first vote here. That's a big moment, that is.",
      "suggestionFa": "دقیقاً، واسه همین بحث‌برانگیزه. به هر حال — کتت را بردار. اولین رأیت اینجا. لحظهٔ بزرگیه، واقعاً.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

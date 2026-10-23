@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "changing",
+      "football",
       "ryan's",
       "sheet",
-      "help"
+      "he's"
      ],
      "suggestion": "It's sheet-changing day! Can you help me with Ryan's bed? He's at football.",
      "suggestionFa": "امروز روز عوض کردن ملافه‌ست! تو تخت رایان کمکم می‌کنی؟ رفته فوتبال.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. What do I do?",
    "translations": {
     "fa": "حتماً. چی کار کنم؟"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Two pillowcases.",
    "translations": {
     "fa": "باشه. دو تا روبالشی."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "cover",
       "duvet",
+      "cover",
       "hard",
-      "bit",
-      "now"
+      "now",
+      "bit"
      ],
      "suggestion": "Now the duvet cover. This is the hard bit!",
      "suggestionFa": "حالا روکش لحاف. این قسمت سخته!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow, it's very big!",
    "translations": {
     "fa": "وای، خیلی بزرگه!"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's a chocolate bar!",
    "translations": {
     "fa": "یه شکلاته!"
@@ -123,9 +123,9 @@
      "keywords": [
       "chocolate",
       "corners",
-      "clean",
-      "right",
-      "sheet"
+      "tight",
+      "sheet",
+      "clean"
      ],
      "suggestion": "Chocolate! Ryan! Right, put the clean sheet on. Pull the corners tight.",
      "suggestionFa": "شکلات! رایان! خب، ملافهٔ تمیز را بنداز. گوشه‌ها را محکم بکش.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -148,9 +148,9 @@
      "keywords": [
       "corners",
       "shake",
-      "cover",
       "duvet",
-      "hold"
+      "cover",
+      "arms"
      ],
      "suggestion": "Now the duvet. Put your arms in the cover, hold the corners and shake!",
      "suggestionFa": "حالا لحاف. دستات را بکن تو روکش، گوشه‌ها را بگیر و تکون بده!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shake, shake, shake!",
    "translations": {
     "fa": "تکون، تکون، تکون!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This one is blue, that one is grey.",
    "translations": {
     "fa": "این یکی آبیه، اون یکی طوسی."
@@ -198,9 +198,9 @@
      "keywords": [
       "blanket",
       "fold",
-      "put",
+      "bed",
       "end",
-      "bed"
+      "put"
      ],
      "suggestion": "Fold the blanket and put it on the end of the bed.",
      "suggestionFa": "پتو را تا کن و بذارش پایین تخت.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fold it in half?",
    "translations": {
     "fa": "نصف تاش کنم؟"
@@ -225,7 +225,7 @@
       "kidding",
       "change",
       "won't",
-      "first"
+      "let's"
      ],
      "suggestion": "Beautiful! Ryan won't know his own bed. Now, let's change ours — just kidding! A cup of tea first.",
      "suggestionFa": "قشنگه! رایان تخت خودش را نمی‌شناسه. حالا، بریم مال خودمون را عوض کنیم — شوخی کردم! اول یه فنجون چای.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

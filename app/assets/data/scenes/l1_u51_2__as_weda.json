@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nicola's",
-      "tummy",
       "she's",
-      "sofa",
-      "ache"
+      "tummy",
+      "dear",
+      "sofa"
      ],
      "suggestion": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
      "suggestionFa": "ای وای. نیکولا دل‌درد داره. رو مبله. می‌تونی پیشش بشینی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What's wrong, Nicola?",
    "translations": {
     "fa": "البته. چی شده نیکولا؟"
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where does it hurt?",
    "translations": {
     "fa": "کجات درد می‌کنه؟"
@@ -142,7 +142,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you eat today?",
    "translations": {
     "fa": "امروز چی خوردی؟"
@@ -150,11 +150,11 @@
    "branches": [
     {
      "keywords": [
-      "somebody",
       "question",
+      "somebody",
       "that's",
-      "party",
-      "found"
+      "found",
+      "party"
      ],
      "suggestion": "That's the question! Somebody found the party bags. All ten of them!",
      "suggestionFa": "سؤال همینه! یکی کیسه‌های جشن را پیدا کرده. همهٔ ده تاش را!",
@@ -167,7 +167,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten party bags?!",
    "translations": {
     "fa": "ده تا کیسهٔ جشن؟!"
@@ -224,7 +224,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, you'll be fine.",
    "translations": {
     "fa": "آره، خوب میشی."
@@ -234,9 +234,9 @@
      "keywords": [
       "sweets",
       "you'll",
-      "today",
+      "small",
       "water",
-      "small"
+      "today"
      ],
      "suggestion": "You'll be fine, pet. Small sips of water. And no more sweets today!",
      "suggestionFa": "خوب میشی عزیزم. آب جرعه جرعه. و امروز دیگه آبنبات نه!",
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here's some water, Nicola.",
    "translations": {
     "fa": "بیا یه کم آب نیکولا."
@@ -304,7 +304,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this? In circles?",
    "translations": {
     "fa": "این‌جوری؟ دایره‌ای؟"

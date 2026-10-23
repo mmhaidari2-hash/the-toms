@@ -39,9 +39,9 @@ List<List<String>> spoken(ContentBundle c) {
   String k(String a, String b) => md5.convert(utf8.encode('$a|$b')).toString().substring(0, 16);
   void add(String sp, String? t) {
     if (t == null || t.trim().isEmpty) return;
-    // Mirrors Voice._find: Mehdi as NPC reuses the guest ('me') recordings, with or without the {you} placeholder.
-    for (final s2 in {sp, if (sp == 'mehdi') 'me'}) {
-      for (final t2 in {t, t.replaceAll('Mehdi', '{you}')}) {
+    // Mirrors Voice._find: the learner as NPC reuses the guest ('me') recordings.
+    for (final s2 in {sp, if (sp == 'learner') 'me'}) {
+      for (final t2 in {t}) {
         if (have.contains(k(s2, t2))) {
           out.add([s2, t2]);
           return;
@@ -122,12 +122,15 @@ void main() {
       if (!File(a.img!).existsSync()) bad.add('${s.id}: missing painting ${a.img}');
       // 2026-10-23: the best painting of the setting is always used, even if it shows someone not in the scene.
       if (speakers.isEmpty) bad.add('${s.id}: no speakers');
-      if (nursery.contains(base.id)) bad.add('${s.id}: nursery scene on a painting of ${a.place}');
+      // No nursery painting yet: nursery scenes borrow the closest room (flagged, so no wrong name tags).
+      if (nursery.contains(base.id) && !a.borrowed) bad.add('${s.id}: nursery scene on an unflagged painting of ${a.place}');
       if (cv.image != a.img) bad.add('${s.id}: cover ${cv.image} != art ${a.img}');
     }
     expect(bad, isEmpty, reason: bad.take(20).join('\n'));
     expect(lessonIds.every(c.scenes.containsKey), isTrue);
-    expect(c.artOf('nur_6_4')!.img, isNull, reason: 'the bite-marks talk is in the nursery: no St Mary\'s gate');
+    // Since run 14 every scene opens on a painting; the bite-marks talk borrows an indoor room, never the school gate.
+    expect(c.artOf('nur_6_4')!.borrowed, isTrue);
+    expect(c.artOf('nur_6_4')!.img, isNot(anyOf('assets/places/firstday.webp', 'assets/places/school.webp')), reason: 'the bite-marks talk is in the nursery: no St Mary\'s gate');
   });
 
   test('placement test: every level has grammar, vocabulary, reading and audio listening items; answers are among choices', () {
@@ -177,7 +180,7 @@ void main() {
     final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
     final bad = <String>[];
     for (final pk in c.course.packs) {
-      expect(pk.lessons.length, greaterThanOrEqualTo(20), reason: pk.id);
+      expect(pk.lessons.length, greaterThanOrEqualTo(16), reason: pk.id);
       expect(c.characters.any((x) => x.id == pk.lead), isTrue);
       for (final l in pk.lessons) {
         for (final sid in l.sceneIds) {

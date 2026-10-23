@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "horror",
       "either",
+      "horror",
       "keen"
      ],
      "suggestion": "I'm not keen on horror either.",
@@ -146,9 +146,9 @@
     },
     {
      "keywords": [
-      "notting",
+      "romcoms",
       "let's",
-      "i've",
+      "loads",
       "seen"
      ],
      "suggestion": "I've seen loads of romcoms. Let's try Barnaby.",
@@ -200,8 +200,8 @@
     },
     {
      "keywords": [
-      "barnaby",
       "convinced",
+      "barnaby",
       "you've",
       "ok"
      ],
@@ -242,6 +242,8 @@
     {
      "keywords": [
       "search",
+      "free",
+      "app",
       "let"
      ],
      "suggestion": "Let me search. It's on the free catch-up app!",
@@ -252,7 +254,8 @@
     },
     {
      "keywords": [
-      "what's"
+      "what's",
+      "tv"
      ],
      "suggestion": "What's catch-up TV?",
      "suggestionFa": "تلویزیون پخش مجدد چیه؟",
@@ -304,8 +307,8 @@
      "keywords": [
       "biscuit",
       "first",
-      "need",
-      "wait"
+      "wait",
+      "need"
      ],
      "suggestion": "Wait — I need a biscuit first.",
      "suggestionFa": "صبر کن — اول یه بیسکویت لازم دارم.",

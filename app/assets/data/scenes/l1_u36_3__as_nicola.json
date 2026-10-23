@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -24,8 +24,8 @@
       "football",
       "against",
       "garden",
-      "sunny",
-      "let's"
+      "let's",
+      "sunny"
      ],
      "suggestion": "It's sunny! Let's play football in the garden! Me and Mia against you!",
      "suggestionFa": "آفتابیه! بیا تو حیاط فوتبال بازی کنیم! من و میا در برابر تو!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two against one? That's not fair!",
    "translations": {
     "fa": "دو به یک؟ منصفانه نیست!"
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And my goal?",
    "translations": {
     "fa": "و دروازهٔ من؟"
@@ -104,8 +104,8 @@
     {
      "keywords": [
       "under",
-      "ball",
       "goal",
+      "ball",
       "bush",
       "shed"
      ],
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, here it is.",
    "translations": {
     "fa": "آره، ایناهاش."
@@ -130,8 +130,8 @@
      "keywords": [
       "kick",
       "pass",
-      "mia",
-      "off"
+      "off",
+      "mia"
      ],
      "suggestion": "Kick off! Mia, pass to me! Pass! Pass!",
      "suggestionFa": "شروع! میا، پاس بده به من! پاس! پاس!",
@@ -144,7 +144,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm coming to get it!",
    "translations": {
     "fa": "دارم میام بگیرمش!"
@@ -203,7 +203,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Well done, Nicola!",
    "translations": {
     "fa": "آفرین نیکولا!"
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm going to kick it hard!",
    "translations": {
     "fa": "محکم شوت می‌زنم!"
@@ -281,7 +281,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oops! Sorry!",
    "translations": {
     "fa": "اوه! ببخشید!"
@@ -289,11 +289,11 @@
    "branches": [
     {
      "keywords": [
-      "kicked",
       "please",
+      "kicked",
       "sorry",
-      "ball",
-      "back"
+      "have",
+      "khan"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
      "suggestionFa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»",
@@ -306,7 +306,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

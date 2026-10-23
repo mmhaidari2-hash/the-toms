@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -24,8 +24,8 @@
       "probably",
       "doorbell",
       "pyjamas",
-      "parcel",
-      "that's"
+      "that's",
+      "parcel"
      ],
      "suggestion": "That's the doorbell! It's probably my parcel. Can you get it? I'm in my pyjamas.",
      "suggestionFa": "زنگ دره! احتمالاً بستهٔ منه. می‌تونی در را باز کنی؟ لباس خوابمه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I'll get it.",
    "translations": {
     "fa": "باشه، من باز می‌کنم."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, he lives here.",
    "translations": {
     "fa": "بله، اینجا زندگی می‌کنه."
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here? Like this?",
    "translations": {
     "fa": "اینجا؟ این‌طوری؟"
@@ -203,7 +203,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two parcels? Thank you.",
    "translations": {
     "fa": "دو تا بسته؟ ممنون."
@@ -258,7 +258,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes please, that's very kind.",
    "translations": {
     "fa": "آره لطفاً، خیلی لطف دارید."
@@ -319,7 +319,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I can take it for them.",
    "translations": {
     "fa": "آره، می‌تونم براشون بگیرم."
@@ -370,7 +370,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You too. Bye!",
    "translations": {
     "fa": "شما هم. خداحافظ!"
@@ -395,7 +395,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you go. And there's one for your mum.",
    "translations": {
     "fa": "بفرما. و یکی هم برای مامانت."
@@ -404,10 +404,10 @@
     {
      "keywords": [
       "birthday",
-      "cheers",
       "stairs",
-      "mum's",
-      "don't"
+      "cheers",
+      "don't",
+      "money"
      ],
      "suggestion": "Cheers! Put Mum's on the stairs. And don't tell her I spent all my birthday money!",
      "suggestionFa": "مرسی! مال مامان را بذار رو پله‌ها. و بهش نگو همهٔ پول تولدم را خرج کردم!",
@@ -420,7 +420,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

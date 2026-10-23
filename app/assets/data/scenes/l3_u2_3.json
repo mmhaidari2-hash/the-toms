@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "hard",
-      "into"
+      "into",
+      "hard"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "toffee",
       "eating",
-      "heard",
-      "apple"
+      "toffee",
+      "apple",
+      "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "straight",
-      "tooth",
       "loose",
-      "away"
+      "tooth",
+      "felt"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
      "suggestionFa": "نه، ولی دندونم فوراً لق شد.",
@@ -244,8 +244,8 @@
      "keywords": [
       "definitely",
       "careful",
-      "more",
-      "i'll"
+      "i'll",
+      "more"
      ],
      "suggestion": "I'll definitely be more careful.",
      "suggestionFa": "قطعاً مراقب‌تر می‌شم.",

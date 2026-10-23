@@ -20,8 +20,8 @@
     {
      "keywords": [
       "happened",
-      "doris",
-      "hello"
+      "hello",
+      "doris"
      ],
      "suggestion": "Hello, Doris! What happened?",
      "suggestionFa": "سلام دوریس! چی شد؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "tell",
-      "us",
-      "go"
+      "go",
+      "us"
      ],
      "suggestion": "Go on, tell us!",
      "suggestionFa": "بگو دیگه!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "owner",
+      "where",
       "way"
      ],
      "suggestion": "No way! Where was the owner?",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "perfect",
       "biscuit",
+      "perfect",
       "name"
      ],
      "suggestion": "Biscuit is a perfect name.",

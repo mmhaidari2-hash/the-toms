@@ -86,9 +86,9 @@
     {
      "keywords": [
       "beautiful",
-      "tail",
       "look",
-      "its"
+      "tail",
+      "wow"
      ],
      "suggestion": "Wow, it's beautiful. Look at its tail.",
      "suggestionFa": "وای، قشنگه. دمش را ببین.",
@@ -141,8 +141,8 @@
      "keywords": [
       "nicola",
       "foxes",
-      "here",
-      "pets"
+      "stay",
+      "here"
      ],
      "suggestion": "Foxes are not pets, Nicola. Stay here.",
      "suggestionFa": "روباه حیوون خونگی نیست نیکولا. اینجا بمون.",
@@ -210,8 +210,8 @@
      "keywords": [
       "gardens",
       "london",
-      "parks",
-      "foxes"
+      "foxes",
+      "parks"
      ],
      "suggestion": "Lots of foxes live in London. In gardens and parks.",
      "suggestionFa": "کلی روباه تو لندن زندگی می‌کنن. تو باغ‌ها و پارک‌ها.",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "watching",
-      "their",
       "three",
+      "their",
       "them"
      ],
      "suggestion": "Three cubs. Their mum is watching them.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "lovely",
-      "names",
       "let's",
+      "names",
       "mummy"
      ],
      "suggestion": "Lovely names! Let's tell Mummy.",
@@ -341,17 +341,17 @@
   "n7": {
    "id": "n7",
    "speaker": "nicola",
-   "text": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
+   "text": "The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back?",
    "translations": {
-    "fa": "سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟"
+    "fa": "سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟"
    },
    "branches": [
     {
      "keywords": [
       "tonight",
+      "foxes",
       "maybe",
-      "night",
-      "foxes"
+      "night"
      ],
      "suggestion": "Maybe tonight. Foxes come out at night.",
      "suggestionFa": "شاید امشب. روباه‌ها شب‌ها میان بیرون.",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "thank",
-      "fox",
       "now",
+      "fox",
       "ha"
      ],
      "suggestion": "I'm a fox now? Ha! Thank you!",

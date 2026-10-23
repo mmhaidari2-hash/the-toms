@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "finally",
       "weekend",
+      "finally",
       "friday",
       "doing"
      ],
@@ -37,7 +37,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm going to visit a friend.",
    "translations": {
     "fa": "قراره به یه دوست سر بزنم."
@@ -48,8 +48,8 @@
       "saturday",
       "seaside",
       "sounds",
-      "going",
-      "we're"
+      "we're",
+      "going"
      ],
      "suggestion": "Sounds good. We're going to the seaside on Saturday. Do you want to come?",
      "suggestionFa": "خوبه. ما شنبه می‌ریم کنار دریا. می‌خوای بیای؟",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please! Which beach?",
    "translations": {
     "fa": "بله لطفاً! کدوم ساحل؟"
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "brighton",
-      "going",
       "chips",
       "we're",
-      "pier"
+      "going",
+      "walk"
      ],
      "suggestion": "Brighton. We're going to get fish and chips and walk on the pier.",
      "suggestionFa": "برایتون. قراره فیش‌اند‌چیپس بخوریم و روی اسکله قدم بزنیم.",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fish and chips by the sea! Perfect.",
    "translations": {
     "fa": "فیش‌اند‌چیپس کنار دریا! عالیه."
@@ -98,8 +98,8 @@
       "seagulls",
       "weather",
       "what's",
-      "steal",
-      "going"
+      "chips",
+      "watch"
      ],
      "suggestion": "Watch out for the seagulls — they steal your chips! What's the weather going to be like?",
      "suggestionFa": "مواظب مرغ‌های دریایی باش — چیپست را می‌دزدن! هوا قراره چطور باشه؟",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's going to be sunny, I think.",
    "translations": {
     "fa": "فکر کنم قراره آفتابی باشه."
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "weather",
-      "course",
       "anyway",
+      "course",
       "brits",
-      "going"
+      "beach"
      ],
      "suggestion": "Rain? Ha, of course. We're going anyway. Brits go to the beach in any weather!",
      "suggestionFa": "بارون؟ ها، معلومه. به هر حال می‌ریم. بریتانیایی‌ها تو هر هوایی می‌رن ساحل!",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then I'm going to bring my umbrella.",
    "translations": {
     "fa": "پس چترم را میارم."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I won't. See you at nine!",
    "translations": {
     "fa": "دیر نمی‌کنم. ساعت نه می‌بینمت!"
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "sundays",
       "staying",
-      "you've",
+      "sundays",
       "earned",
-      "great"
+      "you've",
+      "thing"
      ],
      "suggestion": "A lie-in is staying in bed late. The best thing about Sundays! Have a great week, you've earned it!",
      "suggestionFa": "lie-in یعنی دیر توی تخت موندن. بهترین چیز یکشنبه‌ها! هفتهٔ خوبی داشته باشی، حقته!",
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

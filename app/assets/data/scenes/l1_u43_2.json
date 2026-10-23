@@ -20,8 +20,8 @@
     {
      "keywords": [
       "list",
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see the list.",
      "suggestionFa": "بذار لیست را ببینم.",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "thing",
-      "next",
-      "list"
+      "list",
+      "next"
      ],
      "suggestion": "Next thing on the list?",
      "suggestionFa": "چیز بعدی لیست؟",
@@ -202,8 +202,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "gravy",
+      "can't",
       "find",
       "we"
      ],
@@ -216,8 +216,8 @@
     {
      "keywords": [
       "custard",
-      "have",
-      "seen"
+      "seen",
+      "have"
      ],
      "suggestion": "Have you seen the custard?",
      "suggestionFa": "کاستارد را دیدی؟",

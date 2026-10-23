@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -24,8 +24,8 @@
       "envelopes",
       "properly",
       "account",
-      "should",
-      "minute"
+      "minute",
+      "should"
      ],
      "suggestion": "Got a minute? Leslie says we should sort out the rent properly now you've got a bank account. No more cash in envelopes!",
      "suggestionFa": "یه دقیقه وقت داری؟ لزلی میگه حالا که حساب بانکی داری باید اجاره را درست و حسابی ردیف کنیم. دیگه پول نقد تو پاکت بسه!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. How do I pay you?",
    "translations": {
     "fa": "حتماً. چطوری بهت پرداخت کنم؟"
@@ -50,7 +50,7 @@
       "standing",
       "account",
       "amount",
-      "order"
+      "month"
      ],
      "suggestion": "Yes — a standing order. The same amount goes from your account to mine on the same day, every month. Automatic.",
      "suggestionFa": "آره — دستور پرداخت دائمی. هر ماه، همون روز، همون مبلغ از حسابت میره به حساب من. خودکار.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How do I set it up?",
    "translations": {
     "fa": "چطوری تنظیمش کنم؟"
@@ -74,8 +74,8 @@
       "standing",
       "payments",
       "account",
-      "that's",
-      "forget"
+      "forget",
+      "that's"
      ],
      "suggestion": "That's the point — you can't forget. Open your app. Payments, then \"New standing order\". You need my sort code and account number.",
      "suggestionFa": "نکته همینه — نمی‌تونی یادت بره. اپت را باز کن. پرداخت‌ها، بعد «دستور پرداخت دائمی جدید». کد شعبه و شمارهٔ حساب من را لازم داری.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's a sort code?",
    "translations": {
     "fa": "کد شعبه چیه؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Twenty, forty-five, seventy-seven. Account four one three six…",
    "translations": {
     "fa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "thompson",
-      "thomas",
       "always",
+      "thomas",
       "person",
       "check"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thomas Thompson? Tom Thompson?",
    "translations": {
     "fa": "توماس تامپسون؟ تام تامپسون؟"
@@ -149,7 +149,7 @@
       "thought",
       "amount",
       "scams",
-      "funny",
+      "don't",
       "check"
      ],
      "suggestion": "Don't laugh. Mum thought it was funny. Name check stops scams. If it says \"no match\", stop and check. Now: amount and date.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Six hundred pounds, on the first of every month.",
    "translations": {
     "fa": "ششصد پوند، اول هر ماه."
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "reference",
-      "confirm",
       "perfect",
+      "confirm",
       "payday",
       "after"
      ],
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Done! No more envelopes.",
    "translations": {
     "fa": "تموم! دیگه پاکت نه."
@@ -200,7 +200,7 @@
       "change",
       "that's",
       "worry",
-      "don't"
+      "won't"
      ],
      "suggestion": "Then you change it in the app. But don't worry — I won't put it up. You do the washing-up. That's worth a lot in this house!",
      "suggestionFa": "اون‌وقت تو اپ عوضش می‌کنی. ولی نگران نباش — بالا نمی‌برمش. تو ظرف‌ها را می‌شوری. تو این خونه این خیلی می‌ارزه!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

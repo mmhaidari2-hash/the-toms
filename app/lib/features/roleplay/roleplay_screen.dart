@@ -9,6 +9,7 @@ import '../grammar/grammar_data.dart';
 import '../missions/mission_screen.dart' show MissionLocked;
 import '../missions/missions_data.dart';
 import '../shared/nav.dart';
+import '../leitner/leitner_add.dart' show LeitnerWords;
 import 'roleplay_data.dart';
 
 /// One role-play: brief (3 goals) → dialogue (pick a reply; hint, replay, slow replay, Persian) → report card.
@@ -304,7 +305,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
               padding: const EdgeInsets.fromLTRB(12, 9, 12, 9),
               decoration: const BoxDecoration(color: BL.navy, borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(4))),
               child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                Text(l.en, style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.w600, height: 1.3)),
+                LeitnerWords(l.en, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.w600, height: 1.3)),
                 if (fa) Text(l.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70)),
               ]),
             ),
@@ -347,7 +348,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
           decoration: BoxDecoration(color: BL.paper, border: Border.all(color: BL.mist), borderRadius: const BorderRadius.only(topLeft: Radius.circular(4), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16))),
           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
             Text(r.npc.split(' · ').first.toUpperCase(), style: const TextStyle(fontSize: 10, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: BL.muted)),
-            Text(l.en, style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600, height: 1.3)),
+            LeitnerWords(l.en, style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600, height: 1.3)),
             if (fa) Text(l.fa, key: ValueKey('rp-npc-fa-$i'), textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
             Row(mainAxisAlignment: MainAxisAlignment.end, children: [ctl(key, Icons.volume_up_rounded, 'Replay', 1), ctl(slow, Icons.slow_motion_video_rounded, 'Slow', Voice.rates.first)]),
           ]),

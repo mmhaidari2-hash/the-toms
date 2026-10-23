@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "outside",
       "what's",
       "today",
-      "seen"
+      "have"
      ],
      "suggestion": "Have you seen outside? What's the weather like today?",
      "suggestionFa": "بیرون را دیدی؟ امروز هوا چطوره؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's raining again.",
    "translations": {
     "fa": "دوباره بارون میاد."
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "british",
+      "weather",
       "typical",
       "sunny",
       "hour"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Four seasons in one day!",
    "translations": {
     "fa": "چهار فصل در یک روز!"
@@ -74,8 +74,8 @@
       "umbrella",
       "pretty",
       "windy",
-      "take",
-      "much"
+      "much",
+      "coat"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
      "suggestionFa": "تقریباً! چتر بردار. و کتت را بپوش. باد هم میاد.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Where's my umbrella?",
    "translations": {
     "fa": "فکر خوبیه. چترم کجاست؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eight degrees? Brr, that's cold!",
    "translations": {
     "fa": "هشت درجه؟ اووه، سرده!"
@@ -124,8 +124,8 @@
       "october",
       "lucky",
       "march",
-      "from",
-      "rain"
+      "rain",
+      "from"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I love the sound of rain.",
    "translations": {
     "fa": "عاشق صدای بارونم."
@@ -149,8 +149,8 @@
       "chucking",
       "stopped",
       "hasn't",
-      "look",
-      "down"
+      "down",
+      "look"
      ],
      "suggestion": "Me too. Look — it's stopped! Oh, no it hasn't. It's chucking it down!",
      "suggestionFa": "منم. ببین — بند اومد! آه، نه، نیومد. داره سیل‌آسا می‌باره!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"chucking it down\" mean?",
    "translations": {
     "fa": "«chucking it down» یعنی چی؟"
@@ -174,7 +174,7 @@
       "wellies",
       "heavy",
       "means",
-      "stay",
+      "rain",
       "wear"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

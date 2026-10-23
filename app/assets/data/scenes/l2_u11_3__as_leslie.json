@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -25,7 +25,7 @@
       "tonight",
       "making",
       "we're",
-      "made"
+      "ever"
      ],
      "suggestion": "Tonight we're making shepherd's pie! Have you ever made one?",
      "suggestionFa": "امشب پای چوپان درست می‌کنیم! تا حالا درست کردی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, never. What's in it?",
    "translations": {
     "fa": "نه، هیچ‌وقت. توش چیه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "potatoes",
       "carrots",
-      "potato",
-      "onions",
-      "mashed"
+      "mashed",
+      "minced",
+      "onions"
      ],
      "suggestion": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
      "suggestionFa": "گوشت چرخ‌کردهٔ بره، پیاز، هویج، سس — و پوره سیب‌زمینی روش. اول، می‌تونی سیب‌زمینی‌ها را پوست بکنی؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Where's the peeler?",
    "translations": {
     "fa": "حتماً. پوست‌کن کجاست؟"
@@ -75,7 +75,7 @@
       "minutes",
       "twenty",
       "ones",
-      "boil"
+      "then"
      ],
      "suggestion": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
      "suggestionFa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Do I add salt to the water?",
    "translations": {
     "fa": "باشه. به آب نمک اضافه کنم؟"
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "onion",
       "don't",
+      "onion",
       "pinch",
       "next",
       "salt"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Too late! My eyes are watering.",
    "translations": {
     "fa": "دیگه دیره! چشمام داره آب میاد."
@@ -125,7 +125,7 @@
       "carrots",
       "onion",
       "mince",
-      "keep"
+      "then"
      ],
      "suggestion": "Ha! Now fry the onion and carrots, then add the mince. Keep stirring.",
      "suggestionFa": "ها! حالا پیاز و هویج را سرخ کن، بعد گوشت را اضافه کن. هم بزن.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It smells amazing already.",
    "translations": {
     "fa": "از همین الان بوی محشری می‌ده."
@@ -148,8 +148,8 @@
      "keywords": [
       "worcestershire",
       "splash",
+      "brown",
       "until",
-      "after",
       "gravy"
      ],
      "suggestion": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wor-ces-ter-shire?",
    "translations": {
     "fa": "ور-سس-تر-شر؟"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "potatoes",
-      "nearly",
       "butter",
-      "wuss",
-      "sher"
+      "nearly",
+      "sher",
+      "milk"
      ],
      "suggestion": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
      "suggestionFa": "تقریباً! «ووس‌تر-شر». حالا سیب‌زمینی‌ها را با کره و شیر له کن.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Lots of butter?",
    "translations": {
     "fa": "کرهٔ زیاد؟"
@@ -198,9 +198,9 @@
      "keywords": [
       "spread",
       "lines",
-      "lots",
-      "oven",
-      "hour"
+      "make",
+      "mash",
+      "half"
      ],
      "suggestion": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
      "suggestionFa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why the lines with the fork?",
    "translations": {
     "fa": "چرا با چنگال خط بندازیم؟"
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "degrees",
       "jealous",
-      "hundred",
       "natural",
+      "degrees",
+      "hundred",
       "that's"
      ],
      "suggestion": "Two hundred degrees. And the lines make it crispy on top — that's the best bit! You're a natural. Tom will be so jealous.",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

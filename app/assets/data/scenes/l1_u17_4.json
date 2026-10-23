@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "glass",
       "could",
-      "water"
+      "water",
+      "glass"
      ],
      "suggestion": "Could I have a glass of water, please?",
      "suggestionFa": "می‌شه یه لیوان آب داشته باشم، لطفاً؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "everyone",
-      "drink",
       "wants",
+      "drink",
       "cold"
      ],
      "suggestion": "Everyone wants a cold drink!",
@@ -366,8 +366,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "that's",
+      "leslie",
       "thank",
       "kind"
      ],
@@ -379,9 +379,9 @@
     },
     {
      "keywords": [
+      "time",
       "next",
       "turn",
-      "time",
       "ok"
      ],
      "suggestion": "OK, next time is my turn!",

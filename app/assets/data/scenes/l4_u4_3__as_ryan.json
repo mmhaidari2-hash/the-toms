@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "actually",
-      "you'll",
-      "living",
+      "moving",
       "that's",
-      "moving"
+      "living",
+      "you'll"
      ],
      "suggestion": "You're actually moving out? That's mad. This time next month you'll be living on your own!",
      "suggestionFa": "واقعاً داری از اینجا می‌ری؟ دیوونگیه. ماه دیگه همین موقع تنها زندگی می‌کنی!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I know. I'll be cooking for myself every night. Scary!",
    "translations": {
     "fa": "می‌دونم. هر شب برای خودم آشپزی می‌کنم. ترسناکه!"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "tupperware",
-      "sending",
       "already",
-      "she'll",
-      "cooked"
+      "sending",
+      "cooked",
+      "she'll"
      ],
      "suggestion": "You'd better. Mum's already said she'll be sending you home-cooked meals in Tupperware every Sunday.",
      "suggestionFa": "بهتره همین کار را بکنی. مامان گفته هر یکشنبه برات غذای خونگی تو ظرف پلاستیکی می‌فرسته.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! By Christmas I'll have collected fifty of her boxes.",
    "translations": {
     "fa": "ها! تا کریسمس پنجاه تا از ظرف‌هاش را جمع کردم."
@@ -74,8 +74,8 @@
       "honestly",
       "homework",
       "helping",
-      "though",
-      "french"
+      "who'll",
+      "though"
      ],
      "suggestion": "Honestly though, it'll be weird. Who'll be helping me with my French homework?",
      "suggestionFa": "ولی راستش، عجیب میشه. کی تو تکالیف فرانسوی کمکم می‌کنه؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll still be helping you. We can do video calls.",
    "translations": {
     "fa": "باز هم کمکت می‌کنم. می‌تونیم تماس تصویری بگیریم."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "sometimes",
-      "nicola's",
       "dinosaur",
+      "nicola's",
       "maybe",
-      "facts"
+      "break"
      ],
      "suggestion": "Maybe. Can I come and stay sometimes? Just to get a break from Nicola's dinosaur facts.",
      "suggestionFa": "شاید. می‌تونم گاهی بیام بمونم؟ فقط برای اینکه از حقایق دایناسوری نیکولا یه استراحتی کنم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. The sofa will always be yours.",
    "translations": {
     "fa": "معلومه. مبل همیشه مال توئه."
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "finished",
-      "you'll",
-      "adults",
       "bought",
-      "proper"
+      "proper",
+      "adults",
+      "you'll"
      ],
      "suggestion": "Deal. In five years, I'll have finished uni and you'll have bought a house. We'll both be proper adults. Gross.",
      "suggestionFa": "قبول. پنج سال دیگه، من دانشگاه را تموم کردم و تو یه خونه خریدی. هر دو آدم بزرگ واقعی هستیم. ایش.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Ryan! See you later.",
    "translations": {
     "fa": "ممنون Ryan! بعداً می‌بینمت."

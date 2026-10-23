@@ -32,9 +32,9 @@
     {
      "keywords": [
       "stick",
-      "sign",
+      "stop",
       "says",
-      "stop"
+      "sign"
      ],
      "suggestion": "Her stick says \"STOP\". It's a sign!",
      "suggestionFa": "رو چوبش نوشته «ایست». تابلوئه!",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "important",
-      "she's",
       "let's",
+      "she's",
       "wait"
      ],
      "suggestion": "She's very important. Let's wait for her.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "good",
-      "kerb",
-      "girl"
+      "girl",
+      "kerb"
      ],
      "suggestion": "Wait at the kerb. Good girl.",
      "suggestionFa": "لب جدول وایسا. آفرین دختر خوب.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "cross",
+      "right",
       "left",
       "safe"
      ],
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "other",
-      "from",
-      "come",
-      "side"
+      "side",
+      "cars",
+      "from"
      ],
      "suggestion": "In Iran, the cars come from the other side!",
      "suggestionFa": "تو ایران، ماشین‌ها از اون طرف میان!",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "cross",
-      "safe",
       "come",
+      "safe",
       "now"
      ],
      "suggestion": "Now it's safe to cross. Come on!",
@@ -263,8 +263,8 @@
      "keywords": [
       "stopped",
       "look",
-      "bus",
-      "has"
+      "has",
+      "bus"
      ],
      "suggestion": "Look, the bus has stopped too!",
      "suggestionFa": "ببین، اتوبوس هم وایساده!",
@@ -291,16 +291,16 @@
   "n6": {
    "id": "n6",
    "speaker": "nicola",
-   "text": "Good morning, Mrs Bell! This is Mehdi. He lives with us. He's from Iran!",
+   "text": "Good morning, Mrs Bell! This is {you}. He lives with us. He's from Iran!",
    "translations": {
-    "fa": "صبح بخیر خانم بل! این مهدیه. با ما زندگی می‌کنه. از ایرانه!"
+    "fa": "صبح بخیر خانم بل! این {you}ه. با ما زندگی می‌کنه. از ایرانه!"
    },
    "branches": [
     {
      "keywords": [
       "morning",
-      "nice",
       "good",
+      "nice",
       "meet"
      ],
      "suggestion": "Good morning, Mrs Bell. Nice to meet you.",
@@ -338,17 +338,17 @@
   "n7": {
    "id": "n7",
    "speaker": "nicola",
-   "text": "She said \"Lovely to meet you, Mehdi\". And she gave me a sticker! A star sticker!",
+   "text": "She said \"Lovely to meet you, {you}\". And she gave me a sticker! A star sticker!",
    "translations": {
-    "fa": "گفت «خوشحالم از آشنایی مهدی». و بهم یه برچسب داد! برچسب ستاره!"
+    "fa": "گفت «خوشحالم از آشنایی {you}». و بهم یه برچسب داد! برچسب ستاره!"
    },
    "branches": [
     {
      "keywords": [
       "sticker",
-      "star",
       "give",
-      "why"
+      "star",
+      "she"
      ],
      "suggestion": "A star sticker! Why did she give you that?",
      "suggestionFa": "برچسب ستاره! چرا بهت داد؟",
@@ -410,7 +410,7 @@
       "sticker",
       "waited",
       "nicely",
-      "can"
+      "get"
      ],
      "suggestion": "Can I get a sticker too? I waited nicely!",
      "suggestionFa": "منم برچسب می‌گیرم؟ خوب صبر کردم!",

@@ -21,8 +21,8 @@
      "keywords": [
       "looks",
       "warm",
-      "can",
-      "one"
+      "try",
+      "can"
      ],
      "suggestion": "This one looks warm. Can I try it on?",
      "suggestionFa": "این یکی گرم به نظر میاد. می‌تونم پروش کنم؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "coats",
-      "here",
       "they",
+      "here",
       "sell"
      ],
      "suggestion": "Do they sell coats here? It's so big!",
@@ -76,7 +76,7 @@
       "jumper",
       "items",
       "then",
-      "take"
+      "i'll"
      ],
      "suggestion": "Six items? Then I'll take a jumper too.",
      "suggestionFa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "number",
       "what's",
+      "number",
       "tag"
      ],
      "suggestion": "What's the number tag for?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "sleeves",
-      "small",
-      "short"
+      "short",
+      "small"
      ],
      "suggestion": "It's too small. The sleeves are short.",
      "suggestionFa": "خیلی کوچیکه. آستیناش کوتاهه.",
@@ -195,9 +195,9 @@
     {
      "keywords": [
       "help",
+      "her",
       "can",
-      "ask",
-      "her"
+      "ask"
      ],
      "suggestion": "Can I help? I can ask her.",
      "suggestionFa": "کمک کنم؟ من ازش می‌پرسم.",
@@ -250,8 +250,8 @@
      "keywords": [
       "usually",
       "really",
-      "green",
-      "don't"
+      "don't",
+      "green"
      ],
      "suggestion": "Really? I don't usually wear green.",
      "suggestionFa": "واقعاً؟ من معمولاً سبز نمی‌پوشم.",
@@ -304,9 +304,9 @@
    "branches": [
     {
      "keywords": [
-      "hood",
       "take",
       "i'll",
+      "hood",
       "has"
      ],
      "suggestion": "Yes, it has a hood. I'll take it.",

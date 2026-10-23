@@ -8,6 +8,7 @@ SPOTS=[
  ('home','Home — the Toms\' house','خانهٔ خانوادهٔ تام','🏠',.47,.70,['kitchen','hallway','living','bathroom','bedroom','birthday','christmas','eveningtea','poorly'],None,None,[]),
  ('playdate','Mia\'s house','خانهٔ میا','🧸',.06,.77,['playdate'],None,None,[]),
  ('bus','The 38 bus','اتوبوس ۳۸','🚌',.36,.46,['bus'],r'\bbus\b|travel card|tapping in|next stop|missed my stop',None,[]),
+ ('homes','Fennick & Rowe Homes','املاک فنیک اند رو','🔑',.76,.81,[],None,'homes',[]),
  ('nursery','Vida\'s Nursery','مهدکودک ویدا','🧒',.10,.53,[],None,'nursery',[]),
  ('school','St Mary\'s School','مدرسهٔ سنت مری','🏫',.25,.63,['school','firstday','parentsevening','sportsday'],r'school|parents\' evening|homework|teacher',None,[]),
  ('park','London Fields park','پارک لندن فیلدز','🌳',.82,.68,['park'],None,None,[]),
@@ -42,6 +43,7 @@ def build():
     ids=[]
     for u in units:
       for l in u['lessons']:
+        if u.get('pack')=='homes' and pack!='homes': continue  # the estate agent's lessons live only in its own building
         hit=(l['place'] in places) or (pack and u.get('pack')==pack) or l['id'] in manual or (rx and re.search(rx,(l['title']+' | '+u['title']).lower()))
         if hit: ids.append(l['id'])
     out.append({'id':sid,'title':t,'titleFa':tf,'icon':icon,'x':x,'y':y,'pack':pack,'lessons':ids})

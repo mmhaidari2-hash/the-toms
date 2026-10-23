@@ -18,7 +18,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -26,11 +26,11 @@
    "branches": [
     {
      "keywords": [
-      "yourself",
       "question",
+      "yourself",
       "scones",
       "that's",
-      "first"
+      "cream"
      ],
      "suggestion": "Scones are out. Help yourself to jam — cream first or jam first, that's the question.",
      "suggestionFa": "اسکون‌ها آماده‌ست. خودت مربا بردار — اول خامه یا اول مربا، مسئله این است.",
@@ -43,7 +43,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jam first, obviously — the Cornish way.",
    "translations": {
     "fa": "معلومه اول مربا — به روش کورنوالی."
@@ -100,7 +100,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you go — it's the one on the magnet.",
    "translations": {
     "fa": "بفرما — همونی که روی آهنرباست."
@@ -151,7 +151,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, there's a leak under our kitchen sink — the pipe's dripping.",
    "translations": {
     "fa": "سلام، زیر سینک آشپزخونه‌مون نشتی هست — لوله چکه می‌کنه."
@@ -208,7 +208,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That would suit us perfectly, thanks.",
    "translations": {
     "fa": "کاملاً مناسبه، ممنون."
@@ -259,7 +259,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, our kitchen sink is leaking.",
    "translations": {
     "fa": "سلام، سینک آشپزخانه‌مون نشتی داره."
@@ -320,7 +320,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just dripping. Where's the stopcock?",
    "translations": {
     "fa": "فقط چکه. شیر اصلی کجاست؟"
@@ -375,7 +375,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's perfect, thank you.",
    "translations": {
     "fa": "عالیه، ممنون."
@@ -428,7 +428,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's Tom, 14 Elm Road.",
    "translations": {
     "fa": "تام هستم، الم رود شمارهٔ ۱۴."
@@ -437,10 +437,10 @@
     {
      "keywords": [
       "brilliant",
-      "sorted",
       "before",
+      "sorted",
       "scone",
-      "have"
+      "ryan"
      ],
      "suggestion": "Sorted? Brilliant. Now come and have a scone before Ryan eats them all.",
      "suggestionFa": "حل شد؟ عالیه. حالا بیا یه اسکون بخور قبل از این‌که رایان همه‌اش را بخوره.",
@@ -453,7 +453,7 @@
   },
   "r17": {
    "id": "r17",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jam first or cream first?",
    "translations": {
     "fa": "اول مربا یا اول خامه؟"
@@ -504,7 +504,7 @@
   },
   "r19": {
    "id": "r19",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Your secret's safe with me!",
    "translations": {
     "fa": "رازت پیش من محفوظه!"

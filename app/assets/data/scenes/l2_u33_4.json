@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "course",
+      "maggie",
       "nana",
       "need"
      ],
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "address",
-      "sorry",
       "don't",
+      "sorry",
       "know"
      ],
      "suggestion": "Sorry, I don't know his address!",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "tablets",
       "tonight",
-      "heart",
-      "needs"
+      "tablets",
+      "needs",
+      "heart"
      ],
      "suggestion": "Can I take the heart tablets now? He needs them tonight.",
      "suggestionFa": "می‌تونم قرص‌های قلب را الان ببرم؟ امشب لازمشون داره.",
@@ -286,7 +286,7 @@
      "keywords": [
       "morning",
       "maggie",
-      "tell",
+      "i'll",
       "nana"
      ],
      "suggestion": "Two in the morning. I'll tell Nana Maggie.",
@@ -298,8 +298,8 @@
     {
      "keywords": [
       "please",
-      "write",
       "could",
+      "write",
       "box"
      ],
      "suggestion": "Could you write it on the box, please?",
@@ -403,10 +403,10 @@
     },
     {
      "keywords": [
-      "that's",
       "george",
+      "that's",
       "thank",
-      "tell"
+      "kind"
      ],
      "suggestion": "Tell George thank you. That's very kind.",
      "suggestionFa": "به جورج بگو ممنون. خیلی لطف داره.",

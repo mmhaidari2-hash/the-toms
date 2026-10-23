@@ -37,6 +37,7 @@ const mapRegions = [
   MapRegion('town', 'Town centre', 'مرکز شهر', 'B2 · Level 4', Offset(.30, .21), [[.03, .14, .95, .22]], level: 4),
   MapRegion('city', 'The city', 'شهر بزرگ', 'C1 · Level 5', Offset(.55, .06), [[.12, .0, .86, .14]], level: 5),
   MapRegion('nursery', "Vida's Nursery", 'مهدکودک ویدا', 'Career Pack · Premium', Offset(.11, .5), [[.02, .47, .15, .18]], pack: 'nursery'),
+  MapRegion('homes', 'Fennick & Rowe Homes', 'املاک فنیک اند رو', 'Career Pack · A2–B2', Offset(.76, .81), [[.70, .79, .12, .07]], pack: 'homes'),
 ];
 
 /// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.

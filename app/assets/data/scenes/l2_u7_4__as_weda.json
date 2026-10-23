@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "asleep",
-      "about",
       "night",
       "power",
-      "hear"
+      "about",
+      "were"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, I was having a shower!",
    "translations": {
     "fa": "نه، داشتم دوش می‌گرفتم!"
@@ -48,8 +48,8 @@
      "keywords": [
       "suddenly",
       "blowing",
-      "reading",
       "raining",
+      "reading",
       "george"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What did you do?",
    "translations": {
     "fa": "چی کار کردید؟"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "looking",
       "candles",
-      "scared",
+      "looking",
       "george",
-      "torch"
+      "scared",
+      "found"
      ],
      "suggestion": "Not scared — I've had worse! I found the candles while George was looking for the torch.",
      "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی جورج دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Did he find the torch?",
    "translations": {
     "fa": "چراغ‌قوه را پیدا کرد؟"
@@ -99,8 +99,8 @@
       "candlelight",
       "batteries",
       "drinking",
-      "sitting",
-      "telling"
+      "telling",
+      "sitting"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That sounds quite nice, actually.",
    "translations": {
     "fa": "راستش خیلی خوب به نظر میاد."
@@ -123,9 +123,9 @@
      "keywords": [
       "kettle's",
       "electric",
-      "lights",
+      "george",
       "asleep",
-      "george"
+      "lights"
      ],
      "suggestion": "The kettle's electric, love! When the lights came back on, George was fast asleep in his chair.",
      "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، جورج تو صندلیش خواب عمیق بود.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Typical George.",
    "translations": {
     "fa": "ها! جورج همیشگی."
@@ -150,7 +150,7 @@
       "buying",
       "first",
       "time",
-      "fine"
+      "next"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",
      "suggestionFa": "الان همه چی خوبه. ولی دفعهٔ بعد، اول باتری نو می‌خرم!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

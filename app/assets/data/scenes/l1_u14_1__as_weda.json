@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "toothbrush",
       "nicola",
-      "right",
       "teeth",
-      "pass"
+      "right",
+      "time"
      ],
      "suggestion": "Right, Nicola, teeth time! Can you pass me her toothbrush, love? The pink one.",
      "suggestionFa": "خب نیکولا، وقت دندون! عزیزم، مسواکش را بهم می‌دی؟ صورتیه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Here you are, Nana.",
    "translations": {
     "fa": "بفرمایید نانا."
@@ -49,8 +49,8 @@
       "toothpaste",
       "little",
       "thank",
-      "size",
-      "just"
+      "just",
+      "size"
      ],
      "suggestion": "Thank you. And the toothpaste. Just a little bit — the size of a pea.",
      "suggestionFa": "ممنون. و خمیردندون. فقط یه کم — اندازهٔ یه نخود.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, you do it.",
    "translations": {
     "fa": "باشه، خودت بکن."
@@ -127,8 +127,8 @@
       "nicola",
       "brush",
       "teeth",
-      "fast",
-      "back"
+      "down",
+      "fast"
      ],
      "suggestion": "Up and down, Nicola. Not too fast. Brush the back teeth, too.",
      "suggestionFa": "بالا و پایین نیکولا. نه خیلی تند. دندون‌های عقب را هم بشور.",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Up and down, up and down!",
    "translations": {
     "fa": "بالا و پایین، بالا و پایین!"
@@ -150,10 +150,10 @@
     {
      "keywords": [
       "minutes",
-      "songs",
       "let's",
-      "song",
-      "sing"
+      "songs",
+      "sing",
+      "song"
      ],
      "suggestion": "Two minutes. Let's sing a song. Two minutes is two songs!",
      "suggestionFa": "دو دقیقه. بیا یه آهنگ بخونیم. دو دقیقه یعنی دو تا آهنگ!",
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which song?",
    "translations": {
     "fa": "کدوم آهنگ؟"
@@ -176,8 +176,8 @@
      "keywords": [
       "toothpaste",
       "everybody",
-      "swallow",
       "twinkle",
+      "swallow",
       "little"
      ],
      "suggestion": "\"Twinkle, Twinkle, Little Star\"! Everybody knows that. Don't swallow the toothpaste, Nicola!",
@@ -191,7 +191,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Spit it out, Nicola!",
    "translations": {
     "fa": "تفش کن نیکولا!"
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Very shiny! Well done!",
    "translations": {
     "fa": "خیلی براق! آفرین!"
@@ -257,7 +257,7 @@
       "toothbrush",
       "lovely",
       "rinse",
-      "put",
+      "now",
       "cup"
      ],
      "suggestion": "Lovely. Now rinse your toothbrush and put it in the cup.",
@@ -271,7 +271,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the cup?",
    "translations": {
     "fa": "لیوان کجاست؟"
@@ -281,9 +281,9 @@
      "keywords": [
       "bathroom",
       "helping",
-      "story",
-      "floor",
-      "thank"
+      "thank",
+      "don't",
+      "sleep"
      ],
      "suggestion": "Yes, bed! One story, then sleep. Thank you for helping, love. My knees don't like this bathroom floor!",
      "suggestionFa": "آره، خواب! یه قصه، بعد خواب. ممنون که کمک کردی عزیزم. زانوهام از این کف حموم خوششون نمیاد!",
@@ -296,7 +296,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

@@ -21,8 +21,8 @@
      "keywords": [
       "fifty",
       "each",
-      "five",
-      "sure"
+      "sure",
+      "five"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "fifteen",
+      "ten",
       "him",
-      "ask",
-      "ten"
+      "ask"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
      "suggestionFa": "ده پوند؟ ازش پونزده بخواه!",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "kitchen",
+      "where's",
       "tap"
      ],
      "suggestion": "Where's the tap? In the kitchen?",
@@ -92,7 +92,7 @@
       "little",
       "soap",
       "much",
-      "how"
+      "lot"
      ],
      "suggestion": "How much soap? A little or a lot?",
      "suggestionFa": "چقدر صابون؟ کم یا زیاد؟",
@@ -138,10 +138,10 @@
    "branches": [
     {
      "keywords": [
-      "bucket",
       "filled",
-      "where",
-      "start"
+      "bucket",
+      "start",
+      "where"
      ],
      "suggestion": "OK, I've filled the bucket. Where do I start?",
      "suggestionFa": "باشه، سطل را پر کردم. از کجا شروع کنم؟",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "pavement",
-      "bubbles",
-      "problem"
+      "problem",
+      "bubbles"
      ],
      "suggestion": "Bubbles on the pavement? Is that a problem?",
      "suggestionFa": "کف رو پیاده‌رو؟ مشکلیه؟",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "that's",
-      "clever",
       "bottom",
+      "clever",
       "top"
      ],
      "suggestion": "Top to bottom. That's clever.",
@@ -204,10 +204,10 @@
     },
     {
      "keywords": [
-      "reach",
       "can't",
-      "have",
-      "step"
+      "reach",
+      "step",
+      "have"
      ],
      "suggestion": "I can't reach the roof. Have you got a step?",
      "suggestionFa": "دستم به سقف نمی‌رسه. چارپایه داری؟",
@@ -332,8 +332,8 @@
     {
      "keywords": [
       "strong",
-      "hose",
-      "ryan"
+      "ryan",
+      "hose"
      ],
      "suggestion": "The hose is very strong! Sorry, Ryan!",
      "suggestionFa": "شلنگ خیلی قویه! ببخشید رایان!",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "sorry",
-      "peace"
+      "peace",
+      "sorry"
      ],
      "suggestion": "No, no! Peace! I'm sorry!",
      "suggestionFa": "نه نه! صلح! ببخشید!",
@@ -486,8 +486,8 @@
     },
     {
      "keywords": [
-      "money",
       "don't",
+      "money",
       "need",
       "ryan"
      ],

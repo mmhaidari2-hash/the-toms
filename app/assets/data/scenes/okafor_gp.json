@@ -20,9 +20,9 @@
     {
      "keywords": [
       "temperature",
-      "cough",
       "about",
-      "i've"
+      "cough",
+      "week"
      ],
      "suggestion": "I've had a bad cough and a temperature for about a week.",
      "suggestionFa": "حدود یه هفته‌ست سرفهٔ بد و تب دارم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "hurting",
-      "back's",
-      "lifted"
+      "lifted",
+      "back's"
      ],
      "suggestion": "My back's been hurting since I lifted something heavy.",
      "suggestionFa": "از وقتی یه چیز سنگین بلند کردم کمرم درد می‌کنه.",
@@ -87,10 +87,10 @@
     },
     {
      "keywords": [
-      "eight",
       "about",
-      "days",
-      "work"
+      "eight",
+      "work",
+      "days"
      ],
      "suggestion": "About eight days ago, at work.",
      "suggestionFa": "حدود هشت روز پیش، سر کار.",
@@ -170,8 +170,8 @@
      "keywords": [
       "exhausted",
       "throat",
-      "sore",
-      "feel"
+      "feel",
+      "sore"
      ],
      "suggestion": "A sore throat, and I feel exhausted.",
      "suggestionFa": "گلودرد، و احساس خستگی شدید می‌کنم.",
@@ -334,8 +334,8 @@
      "keywords": [
       "already",
       "please",
-      "been",
-      "week"
+      "week",
+      "been"
      ],
      "suggestion": "Yes please — I've been off for a week already.",
      "suggestionFa": "آره لطفاً — یه هفته‌ست سر کار نرفتم.",
@@ -347,8 +347,8 @@
      "keywords": [
       "certify",
       "seven",
-      "days",
-      "self"
+      "self",
+      "days"
      ],
      "suggestion": "No, I can self-certify for seven days.",
      "suggestionFa": "نه، تا هفت روز خودم می‌تونم گواهی بدم.",

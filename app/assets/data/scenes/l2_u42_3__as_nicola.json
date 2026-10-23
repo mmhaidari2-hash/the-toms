@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "coming",
       "friend",
-      "whole",
+      "coming",
+      "who's",
       "guess",
-      "who's"
+      "whole"
      ],
      "suggestion": "Guess who's coming to the park! My best friend in the WHOLE world. Mia!",
      "suggestionFa": "حدس بزن کی داره میاد پارک! بهترین دوستم تو کل دنیا. میا!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mia! Tell me about her.",
    "translations": {
     "fa": "میا! دربارهٔ‌ش بهم بگو."
@@ -48,9 +48,9 @@
      "keywords": [
       "reception",
       "plaits",
+      "she's",
       "brown",
-      "every",
-      "she's"
+      "every"
      ],
      "suggestion": "She sits next to me in Reception. She's got long brown hair. In two plaits, every day!",
      "suggestionFa": "تو کلاس کنار من می‌شینه. موهای بلند قهوه‌ای داره. هر روز دو تا گیس بافته!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two plaits! And what colour are her eyes?",
    "translations": {
     "fa": "دو تا گیس! و چشم‌هاش چه رنگیه؟"
@@ -74,8 +74,8 @@
       "chocolate",
       "because",
       "taller",
-      "shoes",
-      "brown"
+      "she's",
+      "shoes"
      ],
      "suggestion": "Her eyes are brown, like chocolate. And she's a tiny bit taller. Only because of her shoes!",
      "suggestionFa": "چشم‌هاش قهوه‌ایه، مثل شکلات. و یه ذره بلندتره. فقط به‌خاطر کفش‌هاش!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Only her shoes? Ha! What's she like?",
    "translations": {
     "fa": "فقط کفش‌هاش؟ ها! چه جور آدمیه؟"
@@ -99,7 +99,7 @@
       "glitter",
       "strong",
       "really",
-      "funny",
+      "she's",
       "views"
      ],
      "suggestion": "She's really funny. And kind. And she's got strong views on glitter. Glitter is the BEST.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Strong views on glitter! What do you both like?",
    "translations": {
     "fa": "نظرات محکم دربارهٔ اکلیل! هر دوتون چی دوست دارید؟"
@@ -124,7 +124,7 @@
       "disgusting",
       "unicorns",
       "swings",
-      "hate",
+      "love",
       "peas"
      ],
      "suggestion": "We both love unicorns. And the swings. And we both hate peas. Peas are disgusting.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like peas! Sorry, Nicola.",
    "translations": {
     "fa": "من نخودفرنگی دوست دارم! ببخشید نیکولا."
@@ -149,8 +149,8 @@
       "friend",
       "twins",
       "like",
-      "best",
-      "look"
+      "tell",
+      "have"
      ],
      "suggestion": "Twins! I'll tell her! Do you have a best friend? What does he look like?",
      "suggestionFa": "دوقلو! بهش میگم! تو بهترین دوست داری؟ چه شکلیه؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "My best friend is in Tehran. He's got black hair and a big laugh.",
    "translations": {
     "fa": "بهترین دوستم تو تهرانه. موهاش مشکیه و بلند می‌خنده."
@@ -175,7 +175,7 @@
       "tehran",
       "went",
       "here",
-      "sad"
+      "mia"
      ],
      "suggestion": "Is he sad because you're here? I'd be sad if Mia went to Tehran.",
      "suggestionFa": "ناراحته چون تو اینجایی؟ اگه میا بره تهران من ناراحت میشم.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A bit. But we talk on video every Sunday.",
    "translations": {
     "fa": "یه کم. ولی هر یکشنبه تصویری حرف می‌زنیم."
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "unicorn",
+      "there's",
       "sunday",
       "hello",
-      "look"
+      "reza"
      ],
      "suggestion": "Next Sunday, can I say hello to Reza? I'll show him my unicorn. Look, there's Mia! MIA!",
      "suggestionFa": "یکشنبهٔ بعد میشه به رضا سلام کنم؟ تک‌شاخم را بهش نشون میدم. ببین، میا اومد! میا!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

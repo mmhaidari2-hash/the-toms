@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -25,7 +25,7 @@
       "oranges",
       "broke",
       "quick",
-      "grab"
+      "whoa"
      ],
      "suggestion": "Whoa! Your bag broke! Oranges everywhere! Quick, grab them!",
      "suggestionFa": "وای! کیسه‌ت پاره شد! پرتقال همه جا! سریع، برشون دار!",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no! Can you help me?",
    "translations": {
     "fa": "ای وای! کمکم می‌کنی؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "rolling",
       "shelf",
-      "under",
       "one's",
+      "under",
       "got"
      ],
      "suggestion": "One's rolling under the shelf! Got it!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thank you so much, Ryan!",
    "translations": {
     "fa": "خیلی ممنون رایان!"
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's really kind of you.",
    "translations": {
     "fa": "خیلی لطف دارید."
@@ -175,7 +175,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This one is a bit squashed.",
    "translations": {
     "fa": "این یکی یه کم له شده."
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're a star. Thank you.",
    "translations": {
     "fa": "تو ستاره‌ای. ممنون."
@@ -239,8 +239,8 @@
       "appreciate",
       "really",
       "sound",
-      "king",
-      "posh"
+      "posh",
+      "like"
      ],
      "suggestion": "Ha! \"I really appreciate it.\" Very posh. You sound like the King!",
      "suggestionFa": "ها! «واقعاً قدردانم.» خیلی اعیونی. مثل شاه حرف می‌زنی!",
@@ -253,7 +253,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is that too formal?",
    "translations": {
     "fa": "زیادی رسمیه؟"
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "thanks",
+      "cheers",
       "priya",
       "just",
       "fine"
@@ -278,7 +278,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Cheers, Priya!",
    "translations": {
     "fa": "چیرز پریا!"

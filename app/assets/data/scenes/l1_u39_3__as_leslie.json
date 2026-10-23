@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -27,7 +27,7 @@
       "thanks",
       "away"
      ],
-     "suggestion": "Thanks for helping, Mehdi. The kitchen's a mess. Can you put the shopping away?",
+     "suggestion": "Thanks for helping, {you}. The kitchen's a mess. Can you put the shopping away?",
      "suggestionFa": "ممنون که کمک می‌کنی {you}. آشپزخونه به هم ریخته‌ست. می‌تونی خریدها را بچینی؟",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes. Where does the milk go?",
    "translations": {
     "fa": "آره. شیر کجا میره؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "bottom",
       "fridge",
-      "goes",
       "milk",
-      "door"
+      "door",
+      "goes"
      ],
      "suggestion": "Milk goes in the fridge. In the door, at the bottom.",
      "suggestionFa": "شیر میره تو یخچال. تو در، پایین.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Got it. What about the eggs?",
    "translations": {
     "fa": "فهمیدم. تخم‌مرغ چی؟"
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "cupboard",
-      "fridge",
       "butter",
+      "fridge",
       "goes",
       "eggs"
      ],
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In the cupboard? Not the fridge?",
    "translations": {
     "fa": "تو کابینت؟ نه یخچال؟"
@@ -98,8 +98,8 @@
      "keywords": [
       "cupboard",
       "british",
-      "kettle",
       "what's",
+      "kettle",
       "above"
      ],
      "suggestion": "British eggs are fine in the cupboard! The one above the kettle. What's next?",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A big bag of rice.",
    "translations": {
     "fa": "یه کیسهٔ بزرگ برنج."
@@ -124,8 +124,8 @@
       "cupboard",
       "bottom",
       "shelf",
-      "rice",
-      "tall"
+      "tall",
+      "tins"
      ],
      "suggestion": "Rice and tins go in the tall cupboard. The bottom shelf.",
      "suggestionFa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where does the bread go?",
    "translations": {
     "fa": "نون کجا میره؟"
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "bananas",
       "toaster",
+      "bananas",
       "bread",
       "fruit",
       "bowl"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Done! What's this?",
    "translations": {
     "fa": "تموم شد! این چیه؟"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea. Babies touch everything.",
    "translations": {
     "fa": "فکر خوبیه. بچه‌ها به همه چی دست می‌زنن."
@@ -200,7 +200,7 @@
       "perfect",
       "kitchen",
       "better",
-      "know"
+      "milk"
      ],
      "suggestion": "Perfect. You know my kitchen better than Tom now! He puts the milk in the cupboard!",
      "suggestionFa": "عالی. الان آشپزخونه‌م را از تام بهتر بلدی! اون شیر را تو کابینت می‌ذاره!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

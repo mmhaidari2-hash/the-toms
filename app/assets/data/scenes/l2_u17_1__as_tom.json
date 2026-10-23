@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I don't know Indian food well. What's good?",
    "translations": {
     "fa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟"
@@ -48,9 +48,9 @@
      "keywords": [
       "everything's",
       "chicken",
+      "always",
       "masala",
-      "leslie",
-      "always"
+      "leslie"
      ],
      "suggestion": "Everything's good! I always have a chicken tikka masala. Leslie has a korma. It's mild.",
      "suggestionFa": "همه چی خوبه! من همیشه چیکن تیکا ماسالا می‌خورم. لزلی کورما می‌خوره. ملایمه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What does \"mild\" mean?",
    "translations": {
     "fa": "«مایلد» یعنی چی؟"
@@ -74,7 +74,7 @@
       "vindaloo",
       "masala",
       "medium",
-      "tried",
+      "cried",
       "spicy"
      ],
      "suggestion": "\"Mild\" means not spicy. Tikka masala is medium. A vindaloo is very hot. I tried one once. I cried.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I like spicy food. I'll try the vindaloo!",
    "translations": {
     "fa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!"
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "poppadoms",
-      "plain",
-      "bread",
       "brave",
+      "bread",
+      "plain",
       "pilau"
      ],
      "suggestion": "Brave man! OK, and rice — pilau rice or plain? And we must get naan bread. And poppadoms!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Pilau rice, please. Like Persian rice!",
    "translations": {
     "fa": "برنج پلو، لطفاً. مثل برنج ایرانی!"
@@ -123,9 +123,9 @@
      "keywords": [
       "delivery",
       "calling",
-      "sauces",
       "things",
-      "please"
+      "please",
+      "sauces"
      ],
      "suggestion": "Big crispy things. You dip them in sauces. Right, I'm calling. … Hello! I'd like to order a delivery, please.",
      "suggestionFa": "چیزای بزرگ و ترد. تو سس می‌زنیشون. خب، دارم زنگ می‌زنم. … سلام! یه سفارش برای تحویل می‌خوام، لطفاً.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Don't forget the vindaloo!",
    "translations": {
     "fa": "وینتالو یادت نره!"
@@ -149,8 +149,8 @@
       "vindaloo",
       "minutes",
       "masala",
-      "lovely",
-      "garlic"
+      "garlic",
+      "lovely"
      ],
      "suggestion": "… Yes, one tikka masala, one korma, one lamb vindaloo, two pilau rice, two garlic naans… Forty minutes? Lovely.",
      "suggestionFa": "… بله، یه تیکا ماسالا، یه کورما، یه وینتالوی گوشت بره، دو تا برنج پلو، دو تا نون سیر… چهل دقیقه؟ عالیه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Forty minutes! I'm hungry now.",
    "translations": {
     "fa": "چهل دقیقه! الان گشنمه."
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "persian",
-      "paying",
       "pounds",
-      "guest",
-      "forty"
+      "paying",
+      "forty",
+      "guest"
      ],
      "suggestion": "Forty-two pounds. I'm paying — you're our guest. You pay next time. With your Persian rice!",
      "suggestionFa": "چهل و دو پوند. من حساب می‌کنم — تو مهمون مایی. دفعهٔ بعد تو حساب کن. با برنج ایرانیت!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal! Thank you, Tom.",
    "translations": {
     "fa": "قبول! ممنون تام."
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "vindaloo",
-      "drinks",
       "nicola",
-      "glass",
-      "mango"
+      "drinks",
+      "lassi",
+      "glass"
      ],
      "suggestion": "Fine — the drinks. Mango lassi for Nicola. And have a glass of milk ready for your vindaloo. Trust me!",
      "suggestionFa": "باشه — نوشیدنی‌ها. لسی انبه برای نیکولا. و یه لیوان شیر برای وینتالوت آماده داشته باش. به من اعتماد کن!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

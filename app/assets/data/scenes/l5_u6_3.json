@@ -79,8 +79,8 @@
      "keywords": [
       "nevertheless",
       "understood",
-      "culture",
-      "doesn't"
+      "doesn't",
+      "culture"
      ],
      "suggestion": "Understood. Nevertheless, we should be careful that \"culture fit\" doesn't become bias.",
      "suggestionFa": "فهمیدم. با این حال، باید مراقب باشیم «تناسب فرهنگی» تبدیل به سوگیری نشه.",
@@ -142,7 +142,7 @@
       "candidates",
       "themselves",
       "brilliant",
-      "present"
+      "british"
      ],
      "suggestion": "It does. Some brilliant candidates don't present themselves in a \"British\" way.",
      "suggestionFa": "آره. بعضی داوطلب‌های فوق‌العاده خودشون را به سبک «بریتانیایی» معرفی نمی‌کنن.",
@@ -154,8 +154,8 @@
      "keywords": [
       "directness",
       "interview",
-      "modesty",
-      "misread"
+      "misread",
+      "modesty"
      ],
      "suggestion": "Indeed. Modesty or directness can easily be misread in an interview.",
      "suggestionFa": "در واقع. فروتنی یا رک‌گویی به‌راحتی تو مصاحبه اشتباه برداشت میشه.",
@@ -201,9 +201,9 @@
    "branches": [
     {
      "keywords": [
-      "feels",
-      "first",
       "let's",
+      "first",
+      "feels",
       "begin"
      ],
      "suggestion": "Yes, let's begin. I'll make sure she feels at ease first.",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "certainly",
-      "shall",
       "offer",
-      "water"
+      "water",
+      "shall"
      ],
      "suggestion": "Certainly. Shall I offer her some water?",
      "suggestionFa": "حتماً. بهش آب تعارف کنم؟",

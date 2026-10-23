@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "sausages",
-      "saturday",
       "barbecue",
-      "buying",
-      "twenty"
+      "saturday",
+      "sausages",
+      "people",
+      "buying"
      ],
      "suggestion": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
      "suggestionFa": "خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two each? Forty sausages.",
    "translations": {
     "fa": "نفری دو تا؟ چهل تا سوسیس."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thirty is enough, then.",
    "translations": {
     "fa": "پس سی تا کافیه."
@@ -100,10 +100,10 @@
     {
      "keywords": [
       "burgers",
-      "enough",
       "thirty",
-      "five",
-      "true"
+      "enough",
+      "true",
+      "five"
      ],
      "suggestion": "Ha! True. OK, thirty-five. And burgers. Is ten enough?",
      "suggestionFa": "ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟",
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, ten isn't enough.",
    "translations": {
     "fa": "نه، ده تا کافی نیست."
@@ -128,7 +128,7 @@
       "chicken",
       "fifteen",
       "maggie",
-      "loves"
+      "wings"
      ],
      "suggestion": "Fifteen burgers, then. And chicken wings for Maggie. She loves them.",
      "suggestionFa": "پس پونزده تا برگر. و بال مرغ برای مگی. عاشقشه.",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are the sausages pork?",
    "translations": {
     "fa": "سوسیس‌ها خوکن؟"
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ten lamb ones, please.",
    "translations": {
     "fa": "ده تا برّه‌ای، لطفاً."
@@ -204,7 +204,7 @@
       "thinking",
       "kebabs",
       "grown",
-      "plus"
+      "meat"
      ],
      "suggestion": "Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat?",
      "suggestionFa": "فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟",
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, that's too much meat!",
    "translations": {
     "fa": "آره، گوشت زیادیه!"
@@ -229,7 +229,7 @@
       "barbecue",
       "leslie",
       "corn",
-      "fine"
+      "some"
      ],
      "suggestion": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
      "suggestionFa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.",
@@ -242,7 +242,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Corn is good.",
    "translations": {
     "fa": "ذرت خوبه."
@@ -295,7 +295,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Of course.",
    "translations": {
     "fa": "ها! معلومه."
@@ -305,9 +305,9 @@
      "keywords": [
       "leslie's",
       "hackney",
-      "enough",
+      "pounds",
       "that's",
-      "pounds"
+      "enough"
      ],
      "suggestion": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
      "suggestionFa": "این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه.",
@@ -320,7 +320,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

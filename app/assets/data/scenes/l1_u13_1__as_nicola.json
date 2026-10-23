@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "ducks",
-      "lots",
-      "food",
+      "have",
+      "look",
       "pond",
-      "look"
+      "food"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, here it is.",
    "translations": {
     "fa": "آره، ایناهاش."
@@ -49,8 +49,8 @@
       "special",
       "bread",
       "ducks",
-      "food",
-      "duck"
+      "duck",
+      "food"
      ],
      "suggestion": "No! Not bread. Bread is bad for ducks. It's special duck food.",
      "suggestionFa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh, I didn't know that.",
    "translations": {
     "fa": "آه، نمی‌دونستم."
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "ducks",
       "seeds",
-      "oats",
+      "ducks",
       "many",
+      "oats",
       "see"
      ],
      "suggestion": "Oats and seeds. How many ducks can you see?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see seven ducks.",
    "translations": {
     "fa": "هفت تا اردک می‌بینم."
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "grumpy",
-      "swans",
-      "close",
+      "white",
       "don't",
-      "white"
+      "close",
+      "swans"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I'll stay here.",
    "translations": {
     "fa": "باشه، همین‌جا می‌مونم."
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "eating",
       "little",
       "babies",
-      "eating",
-      "brown",
-      "she's"
+      "she's",
+      "brown"
      ],
      "suggestion": "Yes! Look, the little brown duck is eating. She's got babies!",
      "suggestionFa": "آره! ببین، اردک قهوه‌ای کوچولو داره می‌خوره. بچه داره!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How many babies has she got?",
    "translations": {
     "fa": "چند تا بچه داره؟"
@@ -175,7 +175,7 @@
       "called",
       "three",
       "ducks",
-      "five"
+      "four"
      ],
      "suggestion": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
      "suggestionFa": "یک، دو، سه، چهار، پنج! پنج جوجه اردک. به بچه اردک می‌گن جوجه اردک.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ducklings. That's a nice word.",
    "translations": {
     "fa": "جوجه اردک. کلمهٔ قشنگیه."
@@ -199,8 +199,8 @@
       "cygnet",
       "taught",
       "ellis",
-      "food",
-      "gone"
+      "gone",
+      "food"
      ],
      "suggestion": "A cygnet! Mrs Ellis taught us. Oh, the food is all gone.",
      "suggestionFa": "سیگنت! خانم الیس یادمون داد. آه، غذا تموم شد.",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Bye-bye, ducks!",
    "translations": {
     "fa": "خداحافظ اردک‌ها!"
@@ -224,8 +224,8 @@
       "swings",
       "ducks",
       "week",
-      "race",
-      "next"
+      "next",
+      "race"
      ],
      "suggestion": "Yes! Race you to the swings! Bye, ducks! See you next week!",
      "suggestionFa": "آره! مسابقه تا تاب‌ها! خداحافظ اردک‌ها! هفتهٔ بعد می‌بینیمتون!",
@@ -238,7 +238,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

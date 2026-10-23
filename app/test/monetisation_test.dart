@@ -60,7 +60,8 @@ void main() {
       await go('/premium');
       expect(find.byKey(const ValueKey('beta-banner'), skipOffstage: false), findsOneWidget);
       expect(find.text(beta ? 'Beta: everything is free' : 'Coming soon', skipOffstage: false), findsOneWidget);
-      expect(find.textContaining(PremiumConfig.price(PremiumConfig.monthly), skipOffstage: false), findsOneWidget);
+      // During the beta the plans say "FREE in beta" instead of a price (no crossed-out prices).
+      expect(find.textContaining(beta ? 'FREE in beta' : PremiumConfig.price(PremiumConfig.monthly), skipOffstage: false), findsWidgets);
       await go('/premium?pack=nursery');
       for (var lv = 1; lv <= 5; lv++) {
         await go('/certificate/$lv');

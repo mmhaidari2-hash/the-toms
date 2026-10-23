@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -25,7 +25,7 @@
       "surprise",
       "hello",
       "come",
-      "oh"
+      "ok"
      ],
      "suggestion": "Oh, hello! What a surprise. Come in! Is everything OK?",
      "suggestionFa": "آه، سلام! چه غافلگیری‌ای. بیا تو! همه چی مرتبه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry to bother you, Tom.",
    "translations": {
     "fa": "ببخشید مزاحم شدم تام."
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "problem",
-      "what's",
       "bother",
+      "what's",
       "all"
      ],
      "suggestion": "No bother at all! What's the problem?",
@@ -62,7 +62,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I've got no milk for my tea.",
    "translations": {
     "fa": "برای چایم شیر ندارم."
@@ -74,7 +74,7 @@
       "without",
       "that's",
       "course",
-      "much"
+      "milk"
      ],
      "suggestion": "Of course! Tea without milk — that's a disaster! How much do you need?",
      "suggestionFa": "البته! چای بدون شیر — این یه فاجعه‌ست! چقدر لازم داری؟",
@@ -87,7 +87,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just a little. For one cup.",
    "translations": {
     "fa": "فقط یه کم. برای یه فنجون."
@@ -97,9 +97,9 @@
      "keywords": [
       "bottle",
       "leslie",
-      "three",
       "we've",
-      "whole"
+      "whole",
+      "three"
      ],
      "suggestion": "Take the whole bottle. We've got three. Leslie buys too much!",
      "suggestionFa": "کل بطری را ببر. سه تا داریم. لزلی زیادی می‌خره!",
@@ -112,7 +112,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are you sure?",
    "translations": {
     "fa": "مطمئنی؟"
@@ -124,7 +124,7 @@
       "sugar",
       "bags",
       "have",
-      "got"
+      "tea"
      ],
      "suggestion": "Definitely. Have you got sugar? Tea bags?",
      "suggestionFa": "قطعاً. شکر داری؟ چای کیسه‌ای؟",
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I've got tea bags.",
    "translations": {
     "fa": "آره، چای کیسه‌ای دارم."
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's raining, and I'm tired.",
    "translations": {
     "fa": "بارون میاد، و خسته‌ام."
@@ -187,7 +187,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll buy you milk tomorrow.",
    "translations": {
     "fa": "فردا برات شیر می‌خرم."
@@ -212,7 +212,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Deal! Thanks, Tom.",
    "translations": {
     "fa": "قبول! ممنون تام."
@@ -221,10 +221,10 @@
     {
      "keywords": [
       "khan's",
-      "close",
-      "enjoy",
       "cuppa",
-      "gate"
+      "enjoy",
+      "close",
+      "time"
      ],
      "suggestion": "Any time, mate. Enjoy your cuppa! And close the gate — Mrs Khan's cat gets out!",
      "suggestionFa": "هر وقت رفیق. چایت نوش جان! و در حیاط را ببند — گربهٔ خانم خان در میره!",
@@ -237,7 +237,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

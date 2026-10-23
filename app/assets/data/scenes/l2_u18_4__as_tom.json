@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,9 +23,9 @@
      "keywords": [
       "alright",
       "called",
-      "three",
-      "times",
-      "hello"
+      "break",
+      "hello",
+      "times"
      ],
      "suggestion": "Hello? It's Tom. I'm on my break. You called me three times — are you alright?",
      "suggestionFa": "الو؟ تامم. تو استراحتمم. سه بار زنگ زدی — حالت خوبه؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Tom! I missed my stop. I don't know where I am!",
    "translations": {
     "fa": "تام! ایستگاهم را رد کردم. نمی‌دونم کجام!"
@@ -50,7 +50,7 @@
       "happens",
       "screen",
       "worry",
-      "which"
+      "don't"
      ],
      "suggestion": "Don't worry, it happens to everyone. Which bus are you on, and what does the screen say?",
      "suggestionFa": "نگران نباش، واسه همه پیش میاد. سوار کدوم اتوبوسی، و صفحه چی نشون میده؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The 55. The screen says \"Next stop: Oxford Circus\".",
    "translations": {
     "fa": "۵۵. صفحه نوشته «ایستگاه بعدی: آکسفورد سیرکس»."
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "don't",
       "panic",
-      "stop",
-      "went"
+      "right",
+      "went",
+      "west"
      ],
      "suggestion": "Ha! You went right into the West End. OK — get off at the next stop. Don't panic.",
      "suggestionFa": "ها! رفتی وسط وست‌اند. باشه — ایستگاه بعدی پیاده شو. هول نکن.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I should have set an alarm.",
    "translations": {
     "fa": "باید آلارم می‌ذاشتم."
@@ -98,9 +98,9 @@
      "keywords": [
       "before",
       "buzzes",
-      "right",
       "phone",
-      "stop"
+      "right",
+      "time"
      ],
      "suggestion": "Next time, use the map on your phone. It buzzes before your stop. Right, are you off?",
      "suggestionFa": "دفعهٔ بعد، از نقشهٔ گوشیت استفاده کن. قبل از ایستگاهت ویبره می‌زنه. خب، پیاده شدی؟",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I'm off. Now what?",
    "translations": {
     "fa": "آره، پیاده شدم. حالا چی؟"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "other",
       "cross",
       "going",
-      "stop"
+      "other",
+      "same"
      ],
      "suggestion": "Cross the road and find the stop for the same bus going the other way. Look for the letter on the sign.",
      "suggestionFa": "از خیابون رد شو و ایستگاه همون اتوبوس در جهت مخالف را پیدا کن. دنبال حرف روی تابلو بگرد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can see a stop with a big letter \"S\".",
    "translations": {
     "fa": "یه ایستگاه با یه حرف بزرگ «S» می‌بینم."
@@ -149,8 +149,8 @@
       "perfect",
       "hopper",
       "within",
-      "stop",
-      "hour"
+      "free",
+      "same"
      ],
      "suggestion": "Stop S, perfect. And no, with the Hopper fare it's free within an hour. Use the same card!",
      "suggestionFa": "ایستگاه S، عالیه. و نه، با کرایهٔ هاپر تو یه ساعت مجانیه. با همون کارت!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free? Thank goodness!",
    "translations": {
     "fa": "مجانی؟ خدا را شکر!"
@@ -173,8 +173,8 @@
      "keywords": [
       "driving",
       "minutes",
-      "about",
       "jokes",
+      "about",
       "fifty"
      ],
      "suggestion": "About fifty minutes. Bad news: I'm not driving it. Good news: no jokes. Text me when you're on, OK?",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I will. Thanks for saving me, Tom!",
    "translations": {
     "fa": "حتماً. ممنون که نجاتم دادی تام!"
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

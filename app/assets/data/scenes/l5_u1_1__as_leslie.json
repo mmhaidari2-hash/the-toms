@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "anything",
       "meeting",
-      "almost",
       "client",
-      "could"
+      "almost",
+      "first"
      ],
      "suggestion": "Tom's just come back from his first meeting with the new client. He said it was \"not bad\". Which, as you know by now, could mean almost anything.",
      "suggestionFa": "تام تازه از اولین جلسه با مشتری جدید برگشته. گفت «بد نبود». که، همون‌طور که دیگه می‌دونی، می‌تونه تقریباً هر معنی‌ای بده.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Tom's language, \"not bad\" probably means it went brilliantly.",
    "translations": {
     "fa": "تو زبون تام، «بد نبود» احتمالاً یعنی فوق‌العاده پیش رفت."
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "cheshire",
       "grinning",
-      "nuisance",
+      "cheshire",
       "exploded",
+      "nuisance",
       "whereas"
      ],
      "suggestion": "Grinning like a Cheshire cat. Whereas when the boiler exploded last winter, he called it \"a bit of a nuisance\".",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So the scale goes: \"a bit of a nuisance\" means catastrophe.",
    "translations": {
     "fa": "پس مقیاس این‌طوریه: «یه کم دردسر» یعنی فاجعه."
@@ -73,8 +73,8 @@
      "keywords": [
       "disappointing",
       "forgotten",
-      "already",
       "exactly",
+      "already",
       "saying"
      ],
      "suggestion": "Exactly! And \"I'll bear it in mind\" means \"I've already forgotten it\". \"Quite good\" can be a polite way of saying \"disappointing\".",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That one caught me out at work. My manager said my report was \"quite good\", and I was delighted!",
    "translations": {
     "fa": "این یکی سر کار گولم زد. مدیرم گفت گزارشم «نسبتاً خوب» بود، و من کلی خوشحال شدم!"
@@ -98,9 +98,9 @@
      "keywords": [
       "genuine",
       "matters",
-      "would",
+      "smile",
       "quite",
-      "smile"
+      "pause"
      ],
      "suggestion": "They would. Mind you, tone matters. \"Quite good!\" with a big smile is genuine. \"Quite… good\" with a pause — run for the hills.",
      "suggestionFa": "آره. البته، لحن مهمه. «نسبتاً خوب!» با لبخند بزرگ واقعیه. «نسبتاً… خوب» با یه مکث — فرار کن.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So it's not what you say, it's how you say it.",
    "translations": {
     "fa": "پس مهم نیست چی می‌گی، مهم اینه چطور می‌گی."
@@ -123,9 +123,9 @@
      "keywords": [
       "remarkably",
       "possibly",
-      "praise",
-      "kettle",
-      "that's"
+      "please",
+      "that's",
+      "kettle"
      ],
      "suggestion": "You're doing remarkably well, love. And yes — from me, that's high praise. Now, could you possibly pop the kettle on? That means \"please do it now\".",
      "suggestionFa": "خیلی خوب داری پیش می‌ری عزیزم. و آره — از طرف من، این تعریف بزرگیه. حالا، ممکنه کتری را بذاری؟ یعنی «لطفاً همین الان انجامش بده».",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "tomorrow",
+      "birthday",
       "daddy's",
       "secret",
       "making"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I won't tell him.",
    "translations": {
     "fa": "بهش نمیگم."
@@ -48,8 +48,8 @@
      "keywords": [
       "daddy's",
       "drawing",
-      "words",
       "front",
+      "words",
       "help"
      ],
      "suggestion": "I'm drawing a bus on the front. Daddy's bus! Can you help me with the words?",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. What do you want to say?",
    "translations": {
     "fa": "البته. می‌خوای چی بگی؟"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "birthday",
-      "spell",
-      "happy",
       "daddy",
+      "happy",
+      "spell",
       "then"
      ],
      "suggestion": "\"To Daddy\". Then \"Happy Birthday\". How do you spell \"birthday\"?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "B-I-R-T-H-D-A-Y.",
    "translations": {
     "fa": "بی-آی-آر-تی-اچ-دی-ای-وای."
@@ -98,9 +98,9 @@
      "keywords": [
       "writes",
       "mummy",
+      "love",
       "done",
-      "from",
-      "love"
+      "then"
      ],
      "suggestion": "Done! Then what? Mummy writes \"Love from\" at the end.",
      "suggestionFa": "تموم شد! بعد چی؟ مامان آخرش می‌نویسه «با عشق از طرف».",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Write \"Love from Nicola\".",
    "translations": {
     "fa": "بنویس «با عشق، نیکولا»."
@@ -123,9 +123,9 @@
      "keywords": [
       "should",
       "kisses",
-      "jokes",
+      "write",
       "daddy",
-      "loves"
+      "jokes"
      ],
      "suggestion": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
      "suggestionFa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What joke?",
    "translations": {
     "fa": "آره! چه جوکی؟"
@@ -148,8 +148,8 @@
      "keywords": [
       "favourite",
       "driver's",
-      "ghetti",
       "what's",
+      "ghetti",
       "made"
      ],
      "suggestion": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ha! Very funny.",
    "translations": {
     "fa": "ها! خیلی بامزه‌ست."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "he'll",
       "write",
-      "from",
-      "know",
-      "love"
+      "he'll",
+      "love",
+      "name",
+      "from"
      ],
      "suggestion": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
      "suggestionFa": "می‌دونم! عاشقش میشه! اسم خودت را هم می‌نویسی؟ از طرف هر دومونه.",
@@ -188,8 +188,8 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
-   "text": "OK. \"Love from Mehdi.\"",
+   "speaker": "learner",
+   "text": "OK. \"Love from {you}.\"",
    "translations": {
     "fa": "باشه. «با عشق، {you}»."
    },
@@ -199,7 +199,7 @@
       "envelope",
       "promise",
       "hiding",
-      "under",
+      "daddy",
       "don't"
      ],
      "suggestion": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."

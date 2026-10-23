@@ -21,8 +21,8 @@
      "keywords": [
       "calling",
       "hello",
-      "card",
-      "bank"
+      "bank",
+      "card"
      ],
      "suggestion": "Hello. I'm calling about my new bank card.",
      "suggestionFa": "سلام. دربارهٔ کارت بانکی جدیدم زنگ می‌زنم.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "account",
       "someone",
+      "account",
       "speak",
       "could"
      ],
@@ -69,9 +69,7 @@
    "branches": [
     {
      "keywords": [
-      "it's",
-      "name",
-      "me"
+      "it's"
      ],
      "suggestion": "It's {you}.",
      "suggestionFa": "{you}.",
@@ -137,8 +135,8 @@
      "keywords": [
       "doesn't",
       "machine",
-      "cash",
-      "work"
+      "work",
+      "cash"
      ],
      "suggestion": "It doesn't work in the cash machine.",
      "suggestionFa": "تو دستگاه خودپرداز کار نمی‌کنه.",
@@ -239,8 +237,8 @@
     },
     {
      "keywords": [
-      "repeat",
       "please",
+      "repeat",
       "could",
       "line"
      ],

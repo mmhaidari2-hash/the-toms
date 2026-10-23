@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -23,9 +23,9 @@
      "keywords": [
       "enjoy",
       "tired",
-      "legs",
+      "long",
       "home",
-      "last"
+      "legs"
      ],
      "suggestion": "Home at last! My legs are tired. That was a long walk! Did you enjoy it?",
      "suggestionFa": "بالاخره خونه! پاهام خسته‌ان. پیاده‌روی طولانی‌ای بود! خوش گذشت؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I loved it!",
    "translations": {
     "fa": "آره، عاشقش شدم!"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "about",
       "wants",
+      "about",
       "we're",
-      "back",
-      "know"
+      "walk",
+      "back"
      ],
      "suggestion": "Tom! We're back! Tom wants to know about our walk. What did we do?",
      "suggestionFa": "تام! برگشتیم! تام می‌خواد دربارهٔ پیاده‌رویمون بدونه. چی کار کردیم؟",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We went to the park.",
    "translations": {
     "fa": "رفتیم پارک."
@@ -124,7 +124,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "We saw lots of boats.",
    "translations": {
     "fa": "کلی قایق دیدیم."
@@ -175,7 +175,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "She was very good.",
    "translations": {
     "fa": "خیلی خوب بود."
@@ -228,7 +228,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, we had a coffee at the café.",
    "translations": {
     "fa": "آره، تو کافه یه قهوه خوردیم."
@@ -238,8 +238,8 @@
      "keywords": [
       "freezing",
       "october",
-      "nicola",
       "wanted",
+      "nicola",
       "cream"
      ],
      "suggestion": "In October! Nicola wanted ice cream. It was freezing! How was your day, Tom?",
@@ -253,7 +253,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, how was your day?",
    "translations": {
     "fa": "آره، روزت چطور بود؟"
@@ -312,7 +312,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! That smells good.",
    "translations": {
     "fa": "ممم! بوی خوبی میاد."
@@ -322,9 +322,9 @@
      "keywords": [
       "perfect",
       "lovely",
+      "coats",
       "thank",
-      "hooks",
-      "table"
+      "boots"
      ],
      "suggestion": "Perfect! Boots off, coats on the hooks, and soup on the table. Thank you for a lovely walk!",
      "suggestionFa": "عالی! چکمه‌ها درآورده، کت‌ها رو آویز، و سوپ رو میز. ممنون بابت یه پیاده‌روی قشنگ!",
@@ -337,7 +337,7 @@
   },
   "r13": {
    "id": "r13",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

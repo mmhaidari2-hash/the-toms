@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please. I'd love one.",
    "translations": {
     "fa": "بله لطفاً. خیلی دوست دارم."
@@ -49,8 +49,8 @@
       "people",
       "we've",
       "their",
-      "have",
-      "milk"
+      "milk",
+      "have"
      ],
      "suggestion": "We've got both. Milk? Most people here have milk in their tea.",
      "suggestionFa": "هر دو داریم. شیر؟ بیشتر مردم اینجا چای را با شیر می‌خورن.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, a little milk, please.",
    "translations": {
     "fa": "بله، کمی شیر لطفاً."
@@ -86,7 +86,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "One sugar, please.",
    "translations": {
     "fa": "یه حبه شکر، لطفاً."
@@ -97,8 +97,8 @@
       "biscuit",
       "careful",
       "would",
-      "like",
-      "here"
+      "here",
+      "like"
      ],
      "suggestion": "Ha! Here you go. Careful, it's hot. Would you like a biscuit too?",
      "suggestionFa": "ها! بفرما. مواظب باش، داغه. بیسکویت هم میل داری؟",
@@ -111,7 +111,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Ooh, yes please. What kind?",
    "translations": {
     "fa": "اوه، بله لطفاً. چه نوعی؟"
@@ -122,8 +122,8 @@
       "digestives",
       "chocolate",
       "leslie",
-      "best",
-      "love"
+      "love",
+      "best"
      ],
      "suggestion": "Chocolate digestives. The best! Leslie, do you want a tea, love?",
      "suggestionFa": "دایجستیو شکلاتی. بهترینه! لزلی، چای می‌خوای عزیزم؟",
@@ -136,7 +136,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I can make it!",
    "translations": {
     "fa": "من می‌تونم درستش کنم!"
@@ -189,7 +189,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Strong with milk. Got it!",
    "translations": {
     "fa": "پررنگ با شیر. فهمیدم!"
@@ -240,7 +240,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "You're welcome!",
    "translations": {
     "fa": "خواهش می‌کنم!"
@@ -249,10 +249,10 @@
     {
      "keywords": [
       "cheers",
-      "makes",
       "guest",
-      "best",
-      "news"
+      "makes",
+      "news",
+      "week"
      ],
      "suggestion": "Our guest makes the tea now. Best news all week! Cheers!",
      "suggestionFa": "حالا مهمونمون چای درست می‌کنه. بهترین خبر این هفته! به سلامتی!",
@@ -265,7 +265,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

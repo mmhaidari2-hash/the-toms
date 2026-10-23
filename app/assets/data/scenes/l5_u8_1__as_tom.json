@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,7 +23,7 @@
      "keywords": [
       "nicola's",
       "england",
-      "story",
+      "never",
       "heard",
       "about"
      ],
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Right. So, I'd only been here three days, and I was trying to get to the job centre…",
    "translations": {
     "fa": "باشه. خب، فقط سه روز بود اینجا بودم، و داشتم سعی می‌کردم برم مرکز کاریابی…"
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I held out a twenty-pound note, and the driver just stared at me as if I'd insulted his mother.",
    "translations": {
     "fa": "یه اسکناس بیست پوندی جلو گرفتم، و راننده همین‌طور بهم زل زد انگار به مادرش توهین کرده بودم."
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "nicola's",
-      "don't",
       "there",
-      "stop",
+      "don't",
+      "then",
       "look"
      ],
      "suggestion": "And then? Don't stop there — look at Nicola's face!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "He said, \"Y'what, cock?\" And I had absolutely no idea what he meant. I thought he was insulting me!",
    "translations": {
     "fa": "گفت «Y'what, cock?» و من اصلاً نمی‌دونستم منظورش چیه. فکر کردم داره بهم توهین می‌کنه!"
@@ -111,7 +111,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I ended up in Stockport. Completely the wrong direction. I didn't pay, and I was too embarrassed to ask!",
    "translations": {
     "fa": "آخرش سر از استاکپورت درآوردم. کاملاً جهت اشتباه. پول ندادم، و خجالت می‌کشیدم بپرسم!"
@@ -136,7 +136,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

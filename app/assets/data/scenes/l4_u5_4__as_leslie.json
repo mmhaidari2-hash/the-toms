@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -22,10 +22,10 @@
     {
      "keywords": [
       "talking",
-      "friend",
       "george",
+      "friend",
       "passed",
-      "would"
+      "while"
      ],
      "suggestion": "George has been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
      "suggestionFa": "جورج از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. George, I'm so sorry about Stan.",
    "translations": {
     "fa": "حتماً. جورج، خیلی بابت استن متأسفم."
@@ -95,7 +95,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sixty years. That must have been an incredible friendship.",
    "translations": {
     "fa": "شصت سال. حتماً دوستی فوق‌العاده‌ای بوده."
@@ -146,7 +146,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So you knew each other from the football club?",
    "translations": {
     "fa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟"
@@ -157,8 +157,8 @@
       "goalkeeper",
       "rubbish",
       "george",
-      "missed",
-      "always"
+      "always",
+      "they'd"
      ],
      "suggestion": "Stan was the goalkeeper. George always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
      "suggestionFa": "استن دروازه‌بان بود. جورج همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن.",
@@ -171,7 +171,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "So what you're saying is, they were more like brothers.",
    "translations": {
     "fa": "پس می‌گید بیشتر مثل برادر بودن."

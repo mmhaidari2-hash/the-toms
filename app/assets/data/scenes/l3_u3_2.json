@@ -33,8 +33,8 @@
     {
      "keywords": [
       "again",
-      "take",
       "mine",
+      "take",
       "here"
      ],
      "suggestion": "Yes. I have to take mine again here.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "months",
+      "twelve",
       "after",
       "need"
      ],
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "questions",
-      "answer",
       "hazard",
+      "answer",
       "fifty"
      ],
      "suggestion": "You have to answer fifty questions and do a hazard test.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "computer",
-      "don't",
-      "drive"
+      "drive",
+      "don't"
      ],
      "suggestion": "You don't have to drive — it's on a computer.",
      "suggestionFa": "لازم نیست رانندگی کنی — رو کامپیوتره.",
@@ -178,8 +178,8 @@
      "keywords": [
       "automatic",
       "manual",
-      "drive",
-      "can't"
+      "can't",
+      "drive"
      ],
      "suggestion": "If you pass in an automatic, you can't drive a manual.",
      "suggestionFa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی.",
@@ -237,7 +237,7 @@
       "remember",
       "you'll",
       "drive",
-      "have"
+      "left"
      ],
      "suggestion": "You'll have to remember to drive on the left!",
      "suggestionFa": "باید یادت باشه از سمت چپ برونی!",

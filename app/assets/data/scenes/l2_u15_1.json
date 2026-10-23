@@ -33,8 +33,8 @@
     {
      "keywords": [
       "need",
-      "how",
       "top",
+      "how",
       "up"
      ],
      "suggestion": "I need to top up my travel card. How do I do it?",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "can",
-      "bus",
       "top",
+      "bus",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "thanks",
+      "should",
       "much",
-      "how"
+      "tom"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -131,9 +131,9 @@
     {
      "keywords": [
       "didn't",
-      "free",
+      "know",
       "cash",
-      "know"
+      "free"
      ],
      "suggestion": "Cash-free? I didn't know that.",
      "suggestionFa": "بدون پول نقد؟ نمی‌دونستم.",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "pounds",
-      "please",
       "twenty",
+      "please",
       "hello"
      ],
      "suggestion": "Hello. Twenty pounds on this card, please.",

@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "watching",
+      "football",
       "george",
-      "were",
-      "just"
+      "down",
+      "love"
      ],
      "suggestion": "Sit down, love. Were you watching the football with George just now?",
      "suggestionFa": "بشین عزیزم. همین الان با جورج فوتبال تماشا می‌کردی؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, I was watching it with him.",
    "translations": {
     "fa": "آره، با اون داشتم تماشا می‌کردم."
@@ -91,7 +91,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Really, George?",
    "translations": {
     "fa": "واقعاً جورج؟"
@@ -100,8 +100,8 @@
     {
      "keywords": [
       "street",
-      "used",
       "when",
+      "were",
       "poor",
       "play"
      ],
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A tin can? Didn't they have a ball?",
    "translations": {
     "fa": "قوطی حلبی؟ توپ نداشتن؟"
@@ -127,7 +127,7 @@
       "saturday",
       "playing",
       "street",
-      "train",
+      "local",
       "scout"
      ],
      "suggestion": "One day he was playing in the street when a scout from the local club saw him. He used to train every Saturday after that.",
@@ -141,7 +141,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Wow! Did he become a professional?",
    "translations": {
     "fa": "وای! حرفه‌ای شد؟"
@@ -192,7 +192,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Oh no, I'm sorry.",
    "translations": {
     "fa": "ای وای، متأسفم."
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "hospital",
-      "playing",
       "working",
-      "match",
+      "playing",
+      "there",
       "nurse"
      ],
      "suggestion": "He was playing in a big match. But he met Mum in the hospital — she was working there as a nurse!",
@@ -217,7 +217,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so romantic!",
    "translations": {
     "fa": "چه رمانتیک!"

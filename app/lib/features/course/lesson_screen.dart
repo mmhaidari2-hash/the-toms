@@ -26,6 +26,7 @@ class LessonScreen extends ConsumerWidget {
     }
     final u = c.course.unitOf(l.id)!;
     final pk = c.course.packOf(u);
+    if (pk != null && pk.gated && !ctrl.packUnitLevelOpen(c.course, u)) return _LevelLocked(cefr: u.cefr ?? 'A2'); // same level gate as everywhere
     if (pk != null && !ctrl.lessonOpen(c.course, l)) return PremiumScreen(pack: pk.id); // Career Pack beyond the free first lesson
     // Same picture rule as the conversation: a painting of this setting with no main character who isn't in it,
     // else the setting's blurred (people-free) painting.
@@ -207,7 +208,7 @@ class LessonScreen extends ConsumerWidget {
                               runSpacing: 8,
                               children: [
                                 for (final r in [
-                                  c.scenes[l.sceneIds.first]?.guest ?? 'mehdi',
+                                  c.scenes[l.sceneIds.first]?.guest ?? 'learner',
                                   ...c.variantsOf(l.sceneIds.first).keys,
                                 ])
                                   if (c.characterOrNull(r) != null)
@@ -222,7 +223,7 @@ class LessonScreen extends ConsumerWidget {
                                                               .sceneIds
                                                               .first]
                                                           ?.guest
-                                                  ? 'mehdi'
+                                                  ? 'learner'
                                                   : r,
                                             );
                                         context.push(
@@ -247,7 +248,7 @@ class LessonScreen extends ConsumerWidget {
                                                                   .sceneIds
                                                                   .first]
                                                               ?.guest
-                                                      ? 'mehdi'
+                                                      ? 'learner'
                                                       : r)
                                               ? BL.navy
                                               : BL.mist,
@@ -265,7 +266,7 @@ class LessonScreen extends ConsumerWidget {
                                             ),
                                             const SizedBox(width: 6),
                                             Text(
-                                              r == 'mehdi'
+                                              r == 'learner'
                                                   ? 'Me (guest)'
                                                   : c.character(r).name,
                                               style: TextStyle(
@@ -283,7 +284,7 @@ class LessonScreen extends ConsumerWidget {
                                                                         .sceneIds
                                                                         .first]
                                                                     ?.guest
-                                                            ? 'mehdi'
+                                                            ? 'learner'
                                                             : r)
                                                     ? Colors.white
                                                     : BL.ink,
@@ -483,4 +484,27 @@ class _Step extends StatelessWidget {
       ),
     ),
   );
+}
+
+class _LevelLocked extends StatelessWidget {
+  final String cefr;
+  const _LevelLocked({required this.cefr});
+  @override
+  Widget build(BuildContext context) => Scaffold(
+        appBar: AppBar(),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(28),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              const Icon(Icons.lock_outline_rounded, size: 40),
+              const SizedBox(height: 12),
+              Text('Opens at Level $cefr', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800), textAlign: TextAlign.center),
+              const SizedBox(height: 6),
+              const Text('Keep going with the main course to unlock it.', textAlign: TextAlign.center),
+              const SizedBox(height: 4),
+              Text('با پیشرفت در دورهٔ اصلی در سطح $cefr باز می‌شود.', textDirection: TextDirection.rtl, textAlign: TextAlign.center),
+            ]),
+          ),
+        ),
+      );
 }

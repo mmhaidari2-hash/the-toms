@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -22,9 +22,9 @@
     {
      "keywords": [
       "something",
-      "didn't",
       "nicola",
-      "until",
+      "didn't",
+      "start",
       "don't"
      ],
      "suggestion": "The new lot next door had music on until three a.m. again. Nicola didn't sleep a wink. I need to say something, but I don't want to start a feud.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Maybe knock and introduce yourself first, before mentioning the noise.",
    "translations": {
     "fa": "شاید اول در بزنی و خودت را معرفی کنی، قبل از اینکه سر و صدا را بگی."
@@ -50,7 +50,7 @@
       "twelve",
       "number",
       "don't",
-      "from"
+      "make"
      ],
      "suggestion": "Good idea. So something like: \"Hi, I'm Tom from number twelve. I don't want to make a fuss, but…\"",
      "suggestionFa": "فکر خوبیه. پس یه چیزی مثل: «سلام، من تام از شمارهٔ دوازده‌ام. نمی‌خوام شلوغش کنم، ولی…»",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "\"…our little girl's bedroom is right next to your living room.\"",
    "translations": {
     "fa": "«…اتاق خواب دختر کوچولومون درست کنار هال شماست.»"
@@ -73,8 +73,8 @@
      "keywords": [
       "reasonable",
       "they're",
-      "sounds",
       "having",
+      "sounds",
       "if"
      ],
      "suggestion": "That sounds reasonable. And if they're not having it?",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Then you could contact the council's noise team, but only as a last resort.",
    "translations": {
     "fa": "اون‌وقت می‌تونی با تیم سر و صدای شورا تماس بگیری، ولی فقط به عنوان آخرین راه."
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "shortbread",
-      "biscuits",
       "offering",
       "leslie's",
+      "biscuits",
       "someone"
      ],
      "suggestion": "You're right. I'll take round a few of Leslie's biscuits as a peace offering. Hard to stay cross with someone who brings shortbread.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good thinking. Want me to come with you?",
    "translations": {
     "fa": "فکر خوبیه. می‌خوای باهات بیام؟"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "english",
-      "talking",
       "support",
+      "talking",
       "temper",
       "better"
      ],
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

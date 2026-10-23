@@ -21,8 +21,8 @@
      "keywords": [
       "account",
       "number",
-      "have",
-      "sure"
+      "sure",
+      "have"
      ],
      "suggestion": "Sure. Have you got the account number?",
      "suggestionFa": "حتماً. شمارهٔ حساب را داری؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "query",
-      "like",
       "bill",
+      "like",
       "i'd"
      ],
      "suggestion": "Yes — PH 0045 7721. I'd like to query a bill.",
@@ -122,7 +122,7 @@
       "course",
       "josh",
       "can",
-      "say"
+      "tom"
      ],
      "suggestion": "Of course. Tom, can you say yes to Josh?",
      "suggestionFa": "حتماً. تام، می‌تونی به جاش بگی آره؟",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "right",
-      "here",
-      "he's",
-      "over"
+      "i'll",
+      "pass",
+      "here"
      ],
      "suggestion": "He's right here. I'll pass you over.",
      "suggestionFa": "همین‌جاست. گوشی را بهش می‌دم.",
@@ -175,8 +175,8 @@
      "keywords": [
       "doesn't",
       "higher",
-      "usual",
-      "right"
+      "three",
+      "usual"
      ],
      "suggestion": "It's three times higher than usual. That doesn't seem right.",
      "suggestionFa": "سه برابر معمولیه. به نظر درست نمیاد.",
@@ -235,8 +235,8 @@
     {
      "keywords": [
       "stairs",
-      "meter",
       "under",
+      "meter",
       "old"
      ],
      "suggestion": "No, it's an old meter under the stairs.",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "instead",
+      "photo",
       "shall",
-      "meter",
-      "photo"
+      "meter"
      ],
      "suggestion": "Shall I send a photo of the meter instead?",
      "suggestionFa": "به جاش یه عکس از کنتور بفرستم؟",
@@ -348,8 +348,8 @@
      "keywords": [
       "reduced",
       "direct",
-      "debit",
-      "could"
+      "could",
+      "debit"
      ],
      "suggestion": "Could the direct debit be reduced, then?",
      "suggestionFa": "پس می‌شه برداشت مستقیم را کم کرد؟",
@@ -443,8 +443,8 @@
     {
      "keywords": [
       "summary",
-      "email",
       "could",
+      "email",
       "call"
      ],
      "suggestion": "Could you email me a summary of the call?",

@@ -97,3 +97,13 @@ say: I'm happy to draft something, if people are up for it. | اگر بقیه م
 hear neighbour: That's a good shout. I've been meaning to complain for ages. | فکر خوبی است. خیلی وقت است می‌خواهم شکایت کنم.
 hear neighbour: Count me in, as long as someone else does the writing! | من هم هستم، به شرطی که نوشتنش با یکی دیگر باشد!
 tip: "I take your point, but…" lets you disagree without sounding rude. | «حرفتان را می‌فهمم، ولی…» کمکت می‌کند مخالفت کنی بدون اینکه بی‌ادب به نظر برسی.
+
+# m_b1_viewing | B1 | homes | Go to a flat viewing | به بازدید آپارتمان برو | Book a viewing with a letting agent, look round and ask about bills, the deposit and the tenancy. | با یک بنگاه وقت بازدید بگیر، آپارتمان را ببین و دربارهٔ قبض‌ها، ودیعه و قرارداد بپرس.
+say: Hi, I'm calling about the flat. Is it still available? | سلام، دربارهٔ آپارتمان زنگ می‌زنم. هنوز موجود است؟
+say: Are any bills included in the rent? | قبضی در اجاره حساب شده است؟
+say: Which deposit protection scheme will you use? | از کدام طرح حفاظت ودیعه استفاده می‌کنید؟
+say: Is there any damp or mould in the flat? | در آپارتمان رطوبت یا کپک هست؟
+hear agent: The holding deposit is one week's rent. | ودیعهٔ نگهداری به اندازهٔ اجارهٔ یک هفته است.
+hear agent: We'll need to do a Right to Rent check before you sign. | قبل از امضا باید بررسی حق اجاره را انجام دهیم.
+tip: In England, holding deposits are capped at one week's rent and tenancy deposits at five weeks' (if the rent is under £50,000 a year). | در انگلستان ودیعهٔ نگهداری حداکثر یک هفته و ودیعهٔ اجاره حداکثر پنج هفته اجاره است.
+safe: Never pay money before you have seen the flat, in person or on a live video call. Check the agent is real and get a receipt. | هرگز پیش از دیدن آپارتمان (حضوری یا تماس تصویری زنده) پول نده؛ مطمئن شو بنگاه واقعی است و رسید بگیر.

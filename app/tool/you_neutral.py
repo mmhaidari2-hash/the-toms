@@ -1,7 +1,7 @@
-"""The learner's name in authored lines ({you}, or the old fixed 'Mehdi'). Audio never says a name: vocatives are
+"""The learner's name in authored lines ({you}). Audio never says a name: vocatives are
 dropped and other mentions become a neutral form. Mirrors lib/core/i18n/you.dart (keep the two in step)."""
 import re
-N = r'(?:\{you\}|Mehdi)'
+N = r'\{you\}'
 GREET = r'(Hi|Hello|Hiya|Morning|Evening|Thanks|Thank you|Cheers|Night|Bye|Welcome|Oi|Ta|Well done|Come on|Sorry|Lovely|Right|Hey|Oh)'
 def neutral(t):
     t = re.sub(r"\bI'm " + N + r"(?!['\w])", "I'm your new neighbour", t)

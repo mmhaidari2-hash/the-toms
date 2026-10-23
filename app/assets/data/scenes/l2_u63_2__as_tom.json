@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -21,13 +21,13 @@
    "branches": [
     {
      "keywords": [
+      "biryani",
       "brought",
       "knocked",
-      "biryani",
       "khan's",
       "smell"
      ],
-     "suggestion": "Mehdi! Mrs Khan's just knocked. She brought us a huge plate of biryani! It's Eid today. Smell that!",
+     "suggestion": "{you}! Mrs Khan's just knocked. She brought us a huge plate of biryani! It's Eid today. Smell that!",
      "suggestionFa": "{you}! خانم خان همین الان در زد. یه بشقاب بزرگ بریانی برامون آورد! امروز عیده. بوش کن!",
      "trustDelta": 5,
      "next": "r2",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! That smells amazing!",
    "translations": {
     "fa": "ممم! بوی فوق‌العاده‌ای میده!"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "fasting",
-      "sunset",
       "that's",
-      "until",
-      "about"
+      "sunset",
+      "month",
+      "she's"
      ],
      "suggestion": "That's right. She's been fasting for a month. No food or water all day, until sunset. I'd last about two hours!",
      "suggestionFa": "درسته. یه ماه روزه گرفته. تمام روز نه غذا نه آب، تا غروب. من حدود دو ساعت دووم میارم!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran, lots of people fast in Ramadan too.",
    "translations": {
     "fa": "تو ایران هم خیلیا رمضون روزه می‌گیرن."
@@ -74,8 +74,8 @@
       "mubarak",
       "happy",
       "wrong",
-      "know",
-      "said"
+      "said",
+      "know"
      ],
      "suggestion": "So you know Eid! What do you say? I said \"Happy Eid\" but she said \"Eid Mubarak\". Did I get it wrong?",
      "suggestionFa": "پس عید را می‌شناسی! چی میگید؟ من گفتم «عید مبارک» به انگلیسی ولی اون گفت «عید مبارک». اشتباه گفتم؟",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, both are fine. \"Eid Mubarak\" means \"blessed Eid\".",
    "translations": {
     "fa": "نه، هر دو درسته. «عید مبارک» یعنی عید پربرکت."
@@ -100,7 +100,7 @@
       "mubarak",
       "return",
       "always",
-      "plate"
+      "never"
      ],
      "suggestion": "Brilliant. \"Eid Mubarak\" it is. Now — we can't give her back an empty plate. My nan always said never return an empty plate!",
      "suggestionFa": "عالیه. پس «عید مبارک». حالا — نمی‌تونیم بشقاب را خالی بهش برگردونیم. مادربزرگم همیشه می‌گفت هیچ‌وقت بشقاب خالی پس نده!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "In Iran we say the same thing!",
    "translations": {
     "fa": "تو ایران هم همینو میگیم!"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "everywhere",
-      "biscuits",
-      "grannies",
       "leslie's",
+      "grannies",
+      "biscuits",
       "though"
      ],
      "suggestion": "Same in Iran? Ha! Grannies are the same everywhere. Biscuits are a bit boring, though. What about Leslie's lemon cake?",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Perfect! Everyone loves her lemon cake.",
    "translations": {
     "fa": "عالیه! همه عاشق کیک لیموی اونن."
@@ -148,8 +148,8 @@
      "keywords": [
       "christmas",
       "anything",
-      "saffron",
       "pudding",
+      "saffron",
       "sholeh"
      ],
      "suggestion": "Saffron rice pudding? Sholeh zard? You made it at Christmas! Yes — that. Mrs Khan will love it. She loves anything sweet.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'll make it this afternoon.",
    "translations": {
     "fa": "امروز بعدازظهر درستش می‌کنم."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "invited",
-      "sunday",
+      "cooking",
       "family",
-      "great"
+      "sunday",
+      "party"
      ],
      "suggestion": "Great. Oh — she also invited us to her family party on Sunday. Her son's cooking a whole lamb. A whole lamb!",
      "suggestionFa": "عالیه. آهان — ما را به مهمونی خانوادگیش یکشنبه هم دعوت کرد. پسرش یه بره کامل می‌پزه. یه برهٔ کامل!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's so kind of her. We'd love to go!",
    "translations": {
     "fa": "خیلی لطف داره. با کمال میل میریم!"
@@ -198,8 +198,8 @@
      "keywords": [
       "mubarak",
       "thank",
-      "right",
       "let's",
+      "right",
       "khan"
      ],
      "suggestion": "Ha! Me too. Right, let's go and say thank you. \"Eid Mubarak, Mrs Khan!\" Did I say it right?",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

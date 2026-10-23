@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -23,9 +23,9 @@
      "keywords": [
       "windscreen",
       "freezing",
-      "through",
+      "covered",
       "morning",
-      "covered"
+      "through"
      ],
      "suggestion": "Morning! It's freezing. Minus three! Look at the car — covered in frost. I can't see a thing through the windscreen.",
      "suggestionFa": "صبح بخیر! یخ‌بندونه. منفی سه! ماشین را ببین — پر از یخ. از شیشهٔ جلو هیچی نمی‌بینم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Minus three! Can I help?",
    "translations": {
     "fa": "منفی سه! می‌تونم کمک کنم؟"
@@ -50,7 +50,7 @@
       "scraper",
       "that's",
       "lesson",
-      "glass"
+      "water"
      ],
      "suggestion": "No! Never hot water. The glass can crack. That's an expensive lesson. Can you pass me the scraper? It's in the door.",
      "suggestionFa": "نه! هیچ‌وقت آب داغ. شیشه ممکنه ترک برداره. درس گرونیه. میشه کاردک یخ را بهم بدی؟ تو دره.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "This plastic thing? Here you are.",
    "translations": {
     "fa": "این وسیلهٔ پلاستیکی؟ بفرمایید."
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "windscreen",
-      "cheers",
-      "scrape",
       "engine",
-      "heater"
+      "heater",
+      "window",
+      "cheers"
      ],
      "suggestion": "Cheers. You scrape the back window, I'll do the front. And turn the engine on — heater on, fan on the windscreen.",
      "suggestionFa": "مرسی. تو شیشهٔ عقب را بتراش، من جلو را. و موتور را روشن کن — بخاری روشن، فن رو شیشهٔ جلو.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK. Where's the button for the heater?",
    "translations": {
     "fa": "باشه. دکمهٔ بخاری کجاست؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "mirrors",
       "windows",
+      "mirrors",
       "kettle",
       "button",
-      "right"
+      "every"
      ],
      "suggestion": "Red button, top right. Yes, the side windows too, and the mirrors. Mrs Khan next door just pours a kettle on hers. Every year!",
      "suggestionFa": "دکمهٔ قرمز، بالا سمت راست. آره، شیشه‌های بغل هم، و آینه‌ها. خانم خان همسایه هر سال یه کتری آب جوش روی ماشینش می‌ریزه!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Has her windscreen cracked?",
    "translations": {
     "fa": "شیشه‌اش ترک برداشته؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "fingers",
       "ideally",
+      "frozen",
       "gloves",
-      "proper",
-      "woolly"
+      "proper"
      ],
      "suggestion": "Not yet — she's lucky! Frozen fingers? Here, my spare gloves. You need proper ones. Woolly ones from Nana, ideally.",
      "suggestionFa": "هنوز نه — خوش‌شانسه! انگشت یخ‌زده؟ بیا، دستکش اضافهٔ من. باید دستکش درست‌حسابی داشته باشی. ترجیحاً پشمی از نانا.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks. Nana is knitting me a scarf, actually.",
    "translations": {
     "fa": "ممنون. راستش نانا داره برام شال گردن می‌بافه."
@@ -148,9 +148,9 @@
      "keywords": [
       "everyone",
       "scarves",
-      "arthur",
       "office",
-      "glass"
+      "arthur",
+      "right"
      ],
      "suggestion": "She knits for everyone. Arthur at the post office has three scarves. Right, done. Mind the ice on the path — it's like glass.",
      "suggestionFa": "برای همه می‌بافه. آرتور تو پستخونه سه تا شال گردن داره. خب، تموم شد. مواظب یخ رو پیاده‌رو باش — مثل شیشه‌ست.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Careful, Tom! You nearly slipped!",
    "translations": {
     "fa": "مواظب باش تام! نزدیک بود لیز بخوری!"
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Grit. Got it. I'll do the path now.",
    "translations": {
     "fa": "گریت. فهمیدم. الان پیاده‌رو را می‌ریزم."
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

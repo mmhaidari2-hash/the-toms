@@ -56,7 +56,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Go on, I'll have a punt — I reckon it's Edinburgh.",
    "translations": {
     "fa": "باشه، یه حدس می‌زنم — فکر کنم ادینبورگه."
@@ -116,7 +116,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It's the Fringe — definitely Edinburgh.",
    "translations": {
     "fa": "فرینجه — قطعاً ادینبورگ."
@@ -176,7 +176,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Apples and pears! Tom taught me that.",
    "translations": {
     "fa": "سیب و گلابی! تام یادم داد."
@@ -232,7 +232,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Fifteen, I think.",
    "translations": {
     "fa": "فکر کنم پونزده."
@@ -284,7 +284,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Jane Austen! I read it in Persian.",
    "translations": {
     "fa": "جین آستن! به فارسی خوندمش."
@@ -344,7 +344,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Shakespeare!",
    "translations": {
     "fa": "شکسپیر!"
@@ -404,7 +404,7 @@
   },
   "r14": {
    "id": "r14",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Just a lucky guess — beginner's luck!",
    "translations": {
     "fa": "فقط یه حدس شانسی — شانس تازه‌کار!"
@@ -415,8 +415,8 @@
       "lemonade",
       "actually",
       "winning",
-      "hang",
-      "mate"
+      "mate",
+      "hang"
      ],
      "suggestion": "Lemonade for you, mate. Hang on — are we actually winning?",
      "suggestionFa": "لیموناد برای تو، رفیق. صبر کن — ما واقعاً داریم می‌بریم؟",
@@ -429,7 +429,7 @@
   },
   "r15": {
    "id": "r15",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Second place, two points behind.",
    "translations": {
     "fa": "جای دوم، دو امتیاز عقب."
@@ -439,9 +439,9 @@
      "keywords": [
       "chuffed",
       "they'd",
-      "blimey",
       "proper",
-      "fiver"
+      "blimey",
+      "smash"
      ],
      "suggestion": "Blimey, look at you! Proper chuffed. Al, you owe me a fiver — told you they'd smash it.",
      "suggestionFa": "ای بابا، ببین چه خبره! حسابی ذوق کردم. آل، پنج پوند به من بدهکاری — گفتم می‌ترکونن.",
@@ -454,7 +454,7 @@
   },
   "r16": {
    "id": "r16",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

@@ -75,7 +75,7 @@ for ui,u in enumerate(units):
       if n['recasts']: d['recasts']=n['recasts']
       N[nid]=d; allw+=n['words']
     G=PACKBY[u['pack']].get('guest') if u.get('pack') else None
-    if G:  # Career Pack with its own playable guest (e.g. Sara in Vida's Nursery): bake the name in, no Mehdi
+    if G:  # Career Pack with its own playable guest (e.g. Sara in Vida's Nursery): bake the name in, no the learner
       GN={c['id']:c['name'] for c in json.load(open(os.path.join(A,'characters.json')))}[G]; GF={'sara':'سارا'}[G]
       for d in N.values():
         d['text']=d['text'].replace('{you}',GN); d['translations']['fa']=d['translations']['fa'].replace('{you}',GF)

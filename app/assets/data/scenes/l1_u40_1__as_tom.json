@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Tom!",
    "translations": {
     "fa": "سلام Tom!"
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! What do I do first?",
    "translations": {
     "fa": "آره! اول چی کار کنم؟"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "family",
-      "crack",
       "eight",
       "first",
+      "crack",
       "bowl"
      ],
      "suggestion": "First, crack the eggs into the bowl. Eight eggs. Big family!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Eight eggs! OK.",
    "translations": {
     "fa": "هشت تا! باشه."
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Like this?",
    "translations": {
     "fa": "این‌جوری؟"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "pepper",
-      "salt",
-      "fork",
       "milk",
-      "fine"
+      "fine",
+      "fork",
+      "salt"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
      "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much salt?",
    "translations": {
     "fa": "چقدر نمک؟"
@@ -124,8 +124,8 @@
       "medium",
       "butter",
       "pinch",
-      "high",
-      "heat"
+      "heat",
+      "high"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "The butter's melting.",
    "translations": {
     "fa": "کره داره آب میشه."
@@ -149,7 +149,7 @@
       "stirring",
       "slowly",
       "don't",
-      "stop",
+      "stir",
       "keep"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "I'm stirring. They're getting thick.",
    "translations": {
     "fa": "دارم هم می‌زنم. دارن سفت میشن."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "they're",
-      "toast",
+      "cooking",
+      "still",
       "ready",
-      "still"
+      "toast"
      ],
      "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
      "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, the toast is ready.",
    "translations": {
     "fa": "آره، نون تست آماده‌ست."
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Tom! See you later.",
    "translations": {
     "fa": "ممنون Tom! بعداً می‌بینمت."

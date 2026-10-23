@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nana Maggie!",
    "translations": {
     "fa": "سلام Nana Maggie!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "chilly",
       "bottle",
+      "chilly",
       "night",
-      "bones",
-      "could"
+      "water",
+      "bones"
      ],
      "suggestion": "Brrr! It's a chilly night. My old bones are cold. Could you fill my hot water bottle, dear?",
      "suggestionFa": "بررر! شب سردیه. استخونای پیرم سرده. می‌شه کیسهٔ آب گرمم را پر کنی عزیزم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Of course. Where is it?",
    "translations": {
     "fa": "البته. کجاست؟"
@@ -48,8 +48,8 @@
      "keywords": [
       "knitted",
       "rubber",
-      "cover",
       "water",
+      "cover",
       "fill"
      ],
      "suggestion": "It's a rubber bag. You fill it with hot water. This one, with the knitted cover.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Did you knit the cover?",
    "translations": {
     "fa": "روکشش را خودتون بافتید؟"
@@ -74,8 +74,8 @@
       "boiling",
       "knitted",
       "kettle",
-      "don't",
-      "water"
+      "water",
+      "first"
      ],
      "suggestion": "Yes, I knitted it! Boil the kettle, but don't use boiling water. Let it cool a bit first.",
      "suggestionFa": "آره، خودم بافتمش! کتری را جوش بیار، ولی از آب جوش استفاده نکن. اول بذار یه کم خنک بشه.",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Why not boiling water?",
    "translations": {
     "fa": "چرا آب جوش نه؟"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "boiling",
       "careful",
+      "boiling",
       "damage",
       "rubber",
-      "don't"
+      "water"
      ],
      "suggestion": "Boiling water can damage the rubber. And be careful — don't fill it to the top!",
      "suggestionFa": "آب جوش لاستیک را خراب می‌کنه. و مواظب باش — تا بالا پرش نکن!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "How much water?",
    "translations": {
     "fa": "چقدر آب؟"
@@ -123,9 +123,9 @@
      "keywords": [
       "squeeze",
       "thirds",
+      "tight",
       "about",
-      "screw",
-      "tight"
+      "screw"
      ],
      "suggestion": "About two-thirds full. Then squeeze out the air and screw the top on tight.",
      "suggestionFa": "حدود دو سوم. بعد هواش را فشار بده بیرون و درش را محکم ببند.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Squeeze the air out. Done.",
    "translations": {
     "fa": "هوا را بیرون دادم. تموم شد."
@@ -150,7 +150,7 @@
       "lovely",
       "check",
       "don't",
-      "bare"
+      "burn"
      ],
      "suggestion": "Let me check. Perfect! Ooh, lovely and warm. Don't put it on bare skin, it can burn.",
      "suggestionFa": "بذار ببینم. عالی! اوه، گرم و خوب. رو پوست لخت نذار، ممکنه بسوزونه.",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "That's why it has a cover.",
    "translations": {
     "fa": "برای همینه که روکش داره."
@@ -173,8 +173,8 @@
      "keywords": [
       "there's",
       "clever",
-      "sheep",
       "thank",
+      "sheep",
       "spare"
      ],
      "suggestion": "Clever you! Thank you, dear. Do you want one too? There's a spare one with a sheep on it.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, please! My room is cold.",
    "translations": {
     "fa": "آره، لطفاً! اتاقم سرده."
@@ -198,9 +198,9 @@
      "keywords": [
       "landlord",
       "heating",
-      "sheep",
       "night",
-      "sleep"
+      "never",
+      "tight"
      ],
      "suggestion": "Take the sheep. Your landlord never puts the heating on, I know! Night night, dear. Sleep tight!",
      "suggestionFa": "گوسفنده را ببر. می‌دونم صاحبخونه‌ت هیچ‌وقت شوفاژ را روشن نمی‌کنه! شب بخیر عزیزم. خوب بخوابی!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
     "fa": "ممنون Nana Maggie! بعداً می‌بینمت."

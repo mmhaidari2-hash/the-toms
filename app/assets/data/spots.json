@@ -311,6 +311,33 @@
   ]
  },
  {
+  "id": "homes",
+  "title": "Fennick & Rowe Homes",
+  "titleFa": "املاک فنیک اند رو",
+  "icon": "🔑",
+  "x": 0.76,
+  "y": 0.81,
+  "pack": "homes",
+  "lessons": [
+   "est_1_1",
+   "est_1_2",
+   "est_1_3",
+   "est_2_1",
+   "est_2_2",
+   "est_2_3",
+   "est_3_1",
+   "est_3_2",
+   "est_3_3",
+   "est_4_1",
+   "est_4_2",
+   "est_4_3",
+   "est_5_1",
+   "est_5_2",
+   "est_5_3",
+   "est_5_4"
+  ]
+ },
+ {
   "id": "nursery",
   "title": "Vida's Nursery",
   "titleFa": "مهدکودک ویدا",

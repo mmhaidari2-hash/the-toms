@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Ryan!",
    "translations": {
     "fa": "سلام Ryan!"
@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "he'll",
-      "split",
       "takes",
-      "says",
-      "ages"
+      "split",
+      "he'll",
+      "quid",
+      "want"
      ],
      "suggestion": "Dad says he'll pay me ten quid to wash the car. Ten quid! It takes ages. Want to help? We split it.",
      "suggestionFa": "بابا میگه ده پوند میده ماشین را بشورم. ده پوند! کلی طول می‌کشه. کمک می‌کنی؟ نصف‌نصف.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sure. Fifty-fifty? Five pounds each.",
    "translations": {
     "fa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند."
@@ -48,9 +48,9 @@
      "keywords": [
       "sponges",
       "bucket",
-      "he'll",
-      "dad's",
-      "water"
+      "water",
+      "tight",
+      "dad's"
      ],
      "suggestion": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
      "suggestionFa": "ها، میگه نه. بابا خسیسه. باشه، سطل و اسفنج‌ها را دارم. میشه سطل را با آب گرم پر کنی؟ صابون هم بریز.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where's the tap? In the kitchen?",
    "translations": {
     "fa": "شیر آب کجاست؟ تو آشپزخونه؟"
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "OK, I've filled the bucket. Where do I start?",
    "translations": {
     "fa": "باشه، سطل را پر کردم. از کجا شروع کنم؟"
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Top to bottom. That's clever.",
    "translations": {
     "fa": "از بالا به پایین. هوشمندانه‌ست."
@@ -123,8 +123,8 @@
      "keywords": [
       "finished",
       "hallway",
-      "there's",
       "william",
+      "there's",
       "missed"
      ],
      "suggestion": "There's a step in the hallway. William uses it for the sink. Right — have you finished the roof? Oi! You've missed a bit!",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Where? I can't see it.",
    "translations": {
     "fa": "کجا؟ نمی‌بینمش."
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "careful",
+      "there's",
       "always",
       "rinse",
       "every"
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Sorry! Did I spray you?",
    "translations": {
     "fa": "ببخشید! خیست کردم؟"
@@ -173,9 +173,9 @@
      "keywords": [
       "getting",
       "where's",
+      "that's",
       "soaked",
-      "bucket",
-      "that's"
+      "bucket"
      ],
      "suggestion": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
      "suggestionFa": "خیس آب شدم! خب. جنگه. سطل دیگه کجاست؟ الان نوبت توئه!",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "No, no! Peace! I'm sorry!",
    "translations": {
     "fa": "نه نه! صلح! ببخشید!"
@@ -249,7 +249,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "It was an accident, Tom. Honestly!",
    "translations": {
     "fa": "تصادفی بود تام. راست میگم!"
@@ -258,10 +258,10 @@
     {
      "keywords": [
       "worked",
-      "really",
       "mostly",
+      "really",
       "clean",
-      "both"
+      "quid"
      ],
      "suggestion": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
      "suggestionFa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم.",
@@ -274,7 +274,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes, Tom. We worked as a team!",
    "translations": {
     "fa": "آره تام. تیمی کار کردیم!"

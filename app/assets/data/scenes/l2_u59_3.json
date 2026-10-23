@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "rovers",
       "website",
       "let's",
-      "check"
+      "check",
+      "sure"
      ],
      "suggestion": "Sure. Let's check the club website.",
      "suggestionFa": "حتماً. بیا سایت روورز را چک کنیم.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "gold",
       "mean",
-      "dust",
-      "gold"
+      "dust"
      ],
      "suggestion": "Gold dust? What do you mean?",
      "suggestionFa": "کیمیا؟ منظورت چیه؟",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "someone",
-      "buying",
       "online",
+      "buying",
       "about"
      ],
      "suggestion": "What about buying from someone online?",
@@ -135,8 +135,8 @@
      "keywords": [
       "expensive",
       "seventy",
-      "that's",
-      "pounds"
+      "pounds",
+      "that's"
      ],
      "suggestion": "Seventy-five pounds each! That's expensive.",
      "suggestionFa": "هر کدوم هفتاد و پنج پوند! گرونه.",
@@ -193,8 +193,8 @@
      "keywords": [
       "tickets",
       "pounds",
-      "twenty",
-      "orient"
+      "orient",
+      "twenty"
      ],
      "suggestion": "Dave said Orient tickets are only twenty pounds.",
      "suggestionFa": "دیو گفت بلیت اورینت فقط بیست پونده.",
@@ -254,9 +254,9 @@
     },
     {
      "keywords": [
-      "come",
       "will",
       "post",
+      "come",
       "by"
      ],
      "suggestion": "Will the tickets come by post?",

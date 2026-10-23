@@ -30,10 +30,10 @@
     },
     {
      "keywords": [
-      "learnt",
       "letter",
-      "names",
-      "first"
+      "learnt",
+      "first",
+      "names"
      ],
      "suggestion": "I learnt letter names first.",
      "suggestionFa": "من اول اسم حروف را یاد گرفتم.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "o",
+      "g",
       "d",
-      "g"
+      "o"
      ],
      "suggestion": "D-O-G. Dog!",
      "suggestionFa": "دی-او-جی. داگ!",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "b",
       "d",
+      "b",
       "c"
      ],
      "suggestion": "Yes. A, B, C, D…",

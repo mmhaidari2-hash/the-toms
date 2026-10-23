@@ -22,7 +22,7 @@
       "medicine",
       "morning",
       "first",
-      "fill"
+      "form"
      ],
      "suggestion": "Morning! You have to fill in a medicine form first.",
      "suggestionFa": "صبح بخیر! اول باید فرم دارو را پر کنید.",
@@ -83,9 +83,9 @@
     },
     {
      "keywords": [
+      "some",
       "have",
       "when",
-      "some",
       "last"
      ],
      "suggestion": "When did he last have some?",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "thanks",
-      "here",
-      "sign"
+      "please",
+      "sign",
+      "here"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -144,10 +144,10 @@
     },
     {
      "keywords": [
-      "write",
       "we'll",
-      "give",
-      "time"
+      "write",
+      "time",
+      "give"
      ],
      "suggestion": "OK. We'll write the time we give it.",
      "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "hours",
+      "after",
       "time",
       "last"
      ],
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "better",
-      "seem",
       "they",
+      "seem",
       "even"
      ],
      "suggestion": "Even if they seem better?",
@@ -233,8 +233,8 @@
      "keywords": [
       "worse",
       "we'll",
-      "gets",
-      "call"
+      "call",
+      "gets"
      ],
      "suggestion": "We'll call you if he gets worse.",
      "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",

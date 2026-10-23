@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -24,8 +24,8 @@
       "blackberry",
       "september",
       "marshes",
-      "tonight",
-      "crumble"
+      "covered",
+      "tonight"
      ],
      "suggestion": "September — blackberry season! The bushes by the marshes are covered. Free fruit! Grab a tub. We're making crumble tonight.",
      "suggestionFa": "سپتامبر — فصل تمشک وحشی! بوته‌های کنار مرداب پرن. میوهٔ مجانی! یه ظرف بردار. امشب کرامبل درست می‌کنیم.",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Free fruit? Can anyone pick them?",
    "translations": {
     "fa": "میوهٔ مجانی؟ هر کسی می‌تونه بچینه؟"
@@ -49,8 +49,8 @@
       "someone's",
       "yourself",
       "garden",
-      "shiny",
-      "paths"
+      "paths",
+      "black"
      ],
      "suggestion": "Yes — in parks and on paths, for yourself. Just not in someone's garden! Look, these are ripe. Black and shiny.",
      "suggestionFa": "آره — تو پارک‌ها و کنار مسیرها، برای خودت. فقط نه تو باغ کسی! ببین، این‌ها رسیده‌ان. سیاه و براق.",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "And the red ones?",
    "translations": {
     "fa": "و قرمزها؟"
@@ -73,9 +73,9 @@
      "keywords": [
       "they're",
       "aren't",
-      "ready",
       "black",
-      "falls"
+      "falls",
+      "ready"
      ],
      "suggestion": "Red ones aren't ripe yet — they're sour. Only pick the black ones. If it falls into your hand, it's ready. Ow!",
      "suggestionFa": "قرمزها هنوز نرسیدن — ترشن. فقط سیاه‌ها را بچین. اگه خودش افتاد تو دستت، آماده‌ست. آخ!",
@@ -88,7 +88,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Are you OK? What happened?",
    "translations": {
     "fa": "خوبی؟ چی شد؟"
@@ -99,8 +99,8 @@
       "thorns",
       "don't",
       "every",
-      "mind",
-      "ones"
+      "time",
+      "near"
      ],
      "suggestion": "Thorns! Mind the thorns. They get you every time. And don't pick the low ones, near the path. Dogs!",
      "suggestionFa": "خار! مواظب خارها باش. هر بار گیرت میندازن. و پایینی‌ها را، نزدیک مسیر، نچین. سگ‌ها!",
@@ -113,7 +113,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Dogs? Oh! The low ones. Understood.",
    "translations": {
     "fa": "سگ‌ها؟ اوه! پایینی‌ها. فهمیدم."
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "berries",
       "perfect",
-      "taste",
+      "berries",
       "eaten",
+      "taste",
       "have"
      ],
      "suggestion": "Perfect. Tall man, high berries. Have you eaten one yet? Go on — taste it.",
@@ -138,7 +138,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Mmm! Sweet and a little sour. Delicious!",
    "translations": {
     "fa": "مممم! شیرین و یه کم ترش. خوشمزه‌ست!"
@@ -150,7 +150,7 @@
       "fingers",
       "forager",
       "purple",
-      "sign"
+      "lips"
      ],
      "suggestion": "Purple fingers and purple lips — the sign of a good forager. Does Iran have blackberries?",
      "suggestionFa": "انگشت بنفش و لب بنفش — نشونهٔ یه جمع‌کنندهٔ خوب. ایران تمشک داره؟",
@@ -163,7 +163,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Yes! In the north, near the Caspian Sea.",
    "translations": {
     "fa": "آره! تو شمال، نزدیک دریای خزر."
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "churchyard",
       "mulberries",
-      "mulberry",
+      "churchyard",
       "crumbles",
-      "hackney"
+      "mulberry",
+      "there's"
      ],
      "suggestion": "Mulberries! There's a very old mulberry tree in Hackney churchyard. Right — the tubs are full. That's enough for two crumbles.",
      "suggestionFa": "توت! تو حیاط کلیسای هکنی یه درخت توت خیلی قدیمی هست. خب — ظرف‌ها پر شد. برای دو تا کرامبل کافیه.",
@@ -188,7 +188,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Two crumbles! One for Nana and George?",
    "translations": {
     "fa": "دو تا کرامبل! یکی برای نانا و جورج؟"
@@ -199,8 +199,8 @@
       "september",
       "painting",
       "january",
-      "nicola",
-      "she'll"
+      "she'll",
+      "before"
      ],
      "suggestion": "Both good ideas. A taste of September in January! Now wash your hands before Nicola sees. She'll think you've been painting!",
      "suggestionFa": "هر دو فکر خوبیه. مزهٔ سپتامبر تو ژانویه! حالا دستات را بشور قبل از اینکه نیکولا ببینه. فکر می‌کنه نقاشی کردی!",
@@ -213,7 +213,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

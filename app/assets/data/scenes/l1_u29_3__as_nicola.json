@@ -13,7 +13,7 @@
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Hi, Nicola!",
    "translations": {
     "fa": "سلام Nicola!"
@@ -23,9 +23,9 @@
      "keywords": [
       "should",
       "choose",
-      "cakes",
+      "mummy",
       "which",
-      "mummy"
+      "cakes"
      ],
      "suggestion": "Look at all the cakes! Mummy said I can choose one. Which one should I have?",
      "suggestionFa": "این همه کیک را ببین! مامان گفت می‌تونم یکی انتخاب کنم. کدوم را بخورم؟",
@@ -38,7 +38,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Which one do you like?",
    "translations": {
     "fa": "کدوم را دوست داری؟"
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "chocolate",
+      "both",
       "pink",
       "like",
-      "both",
       "one"
      ],
      "suggestion": "The chocolate one or the pink one? I like both!",
@@ -63,7 +63,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "What's the pink one?",
    "translations": {
     "fa": "صورتیه چیه؟"
@@ -120,7 +120,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Squares inside a cake?",
    "translations": {
     "fa": "مربع داخل کیک؟"
@@ -145,7 +145,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Take your time.",
    "translations": {
     "fa": "عجله نکن."
@@ -170,7 +170,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Good idea!",
    "translations": {
     "fa": "فکر خوبیه!"
@@ -221,7 +221,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "A glass of milk for Nicola.",
    "translations": {
     "fa": "یه لیوان شیر برای نیکولا."
@@ -246,7 +246,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Use two hands, then.",
    "translations": {
     "fa": "پس با دو تا دست."
@@ -271,7 +271,7 @@
   },
   "r11": {
    "id": "r11",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Is it time to swap?",
    "translations": {
     "fa": "وقت عوض کردنه؟"
@@ -280,10 +280,10 @@
     {
      "keywords": [
       "squares",
-      "here's",
       "yellow",
+      "here's",
       "sorry",
-      "ones"
+      "half"
      ],
      "suggestion": "Here's half! Oh, I ate the pink squares. You can have the yellow ones! Sorry! Ha ha!",
      "suggestionFa": "بیا نصفش! آه، مربع‌های صورتی را خوردم. تو زردها را بخور! ببخشید! ها ها!",
@@ -296,7 +296,7 @@
   },
   "r12": {
    "id": "r12",
-   "speaker": "mehdi",
+   "speaker": "learner",
    "text": "Thanks, Nicola! See you later.",
    "translations": {
     "fa": "ممنون Nicola! بعداً می‌بینمت."
