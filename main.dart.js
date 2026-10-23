@@ -39081,7 +39081,7 @@ s=7
 return A.C(A.f0(l.window.navigator.serviceWorker.ready,t.m),$async$WR)
 case 7:n=d
 s=8
-return A.C(A.f0(n.showNotification(a,{body:b,tag:"daily",icon:"icons/nl2-192.png"}),t.X),$async$WR)
+return A.C(A.f0(n.showNotification(a,{body:b,tag:"daily",icon:"icons/nl3-192.png"}),t.X),$async$WR)
 case 8:q=!0
 s=1
 break
@@ -39090,7 +39090,7 @@ s=6
 break
 case 4:p=3
 k=o.pop()
-try{new l.Notification(a,{body:b,icon:"icons/nl2-192.png"})
+try{new l.Notification(a,{body:b,icon:"icons/nl3-192.png"})
 q=!0
 s=1
 break}catch(j){q=!1
