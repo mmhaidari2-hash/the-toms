@@ -70,8 +70,11 @@ void main() {
       await settle();
       expect(find.byKey(const ValueKey('missions-list')), findsOneWidget);
       expect(find.byKey(const ValueKey('missions-safety')), findsOneWidget, reason: 'ground rules up front');
+      expect(find.byKey(const ValueKey('rp-row')), findsOneWidget, reason: 'role-plays sit above the levels');
+      final misScroll = find.descendant(of: find.byKey(const ValueKey('missions-list')), matching: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down)).first;
+      await t.scrollUntilVisible(find.byKey(const ValueKey('mis-status-A1')), 200, scrollable: misScroll);
       expect(t.widget<Text>(find.byKey(const ValueKey('mis-status-A1'))).data, '0/2');
-      await t.scrollUntilVisible(find.byKey(const ValueKey('mis-status-A2')), 200);
+      await t.scrollUntilVisible(find.byKey(const ValueKey('mis-status-A2')), 200, scrollable: misScroll);
       expect(t.widget<Text>(find.byKey(const ValueKey('mis-status-A2'))).data, 'Locked · قفل');
       await t.tap(find.byKey(const ValueKey('mis-m_a2_weather')));
       await t.pump(const Duration(milliseconds: 500));
@@ -102,6 +105,7 @@ void main() {
       // Off they go; later, Missions shows "Check in" and the mission opens on the check-in.
       await tapKey('mis-later');
       await settle();
+      await t.scrollUntilVisible(find.byKey(const ValueKey('mis-pending-m_a1_flatwhite')), 200, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first);
       expect(find.byKey(const ValueKey('mis-pending-m_a1_flatwhite')), findsOneWidget);
       await tapKey('mis-m_a1_flatwhite');
       await settle();
@@ -121,6 +125,7 @@ void main() {
       expect(ctrl.missionPending('m_a1_flatwhite'), isFalse);
       await t.tap(find.text('Continue').first);
       await settle();
+      await t.scrollUntilVisible(find.byKey(const ValueKey('mis-done-m_a1_flatwhite')), 200, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first);
       expect(find.byKey(const ValueKey('mis-done-m_a1_flatwhite')), findsOneWidget);
       expect(t.widget<Text>(find.byKey(const ValueKey('mis-status-A1'))).data, '1/2');
       await t.pump(const Duration(seconds: 3));

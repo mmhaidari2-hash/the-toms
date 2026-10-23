@@ -457,3 +457,28 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - `/practice/mistakes` builds a lesson from up to 10 mistakes, most-missed first. A right answer removes the item from the list. XP = 5 + 2 × right.
 - If there are no mistakes, an empty "nothing to fix" screen appears. When the list has items, a chip with the count shows on the My path header next to the plan line. There is also a 'My mistakes' menu entry.
 - Tests: test/mistakes_test.dart.
+
+## Role-play missions per building (run 12)
+- Content lives in tool/roleplay/roleplays.py, and tool/make_roleplays.py builds it into assets/data/roleplays.json. The build fails on an unknown spot or voice, missing Persian, a turn without exactly one natural answer or without a wrong one, or goals that can't all be reached. render_voices.py renders every character line and every reply option in the 'me' voice.
+- Six role-plays so far:
+  - A1: café (Callum), 38 bus (Dave)
+  - A2: pharmacy (Mr Dawson), GP surgery, post office
+  - B1: bank
+- Flow: a brief with 3 goals, then the dialogue, then a report card.
+- In the dialogue:
+  - Every character line has Replay and Slow (0.72×) buttons.
+  - The translate button shows Persian for every line, option and tip.
+  - Each turn has one Hint.
+- Answers:
+  - Natural (q2) gets a green "Natural ✓" tip.
+  - Works (q1) gets an amber tip suggesting a more natural phrase.
+  - Wrong (q0) is explained and crossed out, and the learner tries again. The natural answer is saved to My mistakes as a sentence to rebuild.
+- Stars: score = 2 × first-try natural answers − retries − hints. 3 stars if score ≥ 2 × turns, 2 stars if ≥ turns, otherwise 1. XP = 5 + 5 × stars. The best result is stored as pref 'rp:<id>'.
+- The report card shows the goals, stats and "Phrases to remember", each with a one-tap Add to Leitner.
+- Entry points: a "Practise first · Role-play" row on Missions, and a Role-play button in the matching building's map sheet. Both use the same level gate as missions (MissionGate).
+- UK facts: London buses are cashless (contactless, Oyster or phone). NHS advice is to see a GP if a sore throat isn't better after about a week. Antibiotics need a prescription and are not usually needed for a sore throat. "Signed for" means the receiver signs. Banks ask for photo ID and proof of address.
+- RenderBox "not laid out" console error, root cause found:
+  - The app-wide SelectionArea (the Leitner "add" menu) sorts selectables in screen order. Two things crashed that sort: text in offstage routes, which isn't laid out, and the route SlideTransition, whose FractionalTranslation needs a size.
+  - Fix part 1: every page is wrapped in its own SelectionContainer, which swaps to a no-op registrar while offstage.
+  - Fix part 2: the page transition now uses a pixel Transform.translate instead of the SlideTransition.
+  - Covered in test/roleplay_test.dart.

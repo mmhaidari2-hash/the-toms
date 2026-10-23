@@ -6,6 +6,7 @@ import '../features/course/course_screen.dart';
 import '../features/course/lesson_screen.dart';
 import '../features/course/practice_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show Selectable, SelectionRegistrar;
 import 'package:go_router/go_router.dart';
 
 import '../features/conversation/conversation_screen.dart';
@@ -30,6 +31,7 @@ import '../features/missions/mission_screen.dart';
 import '../features/park/game_screen.dart';
 import '../features/park/park_screen.dart';
 import '../features/missions/missions_screen.dart';
+import '../features/roleplay/roleplay_screen.dart';
 import '../features/radio/radio_screen.dart';
 import '../features/radio/segment_screen.dart';
 import '../features/library/library_screen.dart';
@@ -41,16 +43,58 @@ import '../features/plan/plan_screen.dart';
 
 CustomTransitionPage<void> _fade(Widget child, GoRouterState s) => CustomTransitionPage(
   key: s.pageKey,
-  child: child,
+  child: _RouteSelection(child: child),
   transitionDuration: const Duration(milliseconds: 380),
   transitionsBuilder: (_, a, _, c) => FadeTransition(
     opacity: CurvedAnimation(parent: a, curve: Curves.easeOut),
-    child: SlideTransition(
-      position: Tween(begin: const Offset(0, .04), end: Offset.zero).animate(CurvedAnimation(parent: a, curve: Curves.easeOutCubic)),
-      child: c,
-    ),
+    // A pixel offset (Transform), not SlideTransition: the app-wide SelectionArea (Leitner "add" menu) sorts
+    // selectables through every route's transform, and FractionalTranslation needs the size of a route that
+    // is offstage (not laid out) -> "RenderBox was not laid out: RenderFractionalTranslation".
+    child: _Rise(animation: CurvedAnimation(parent: a, curve: Curves.easeOutCubic), child: c),
   ),
 );
+
+/// Each page is its own selection container, switched off while the page is offstage (covered by another
+/// page). Otherwise the app-wide SelectionArea sorts text it can't measure: "RenderBox was not laid out".
+class _RouteSelection extends StatefulWidget {
+  final Widget child;
+  const _RouteSelection({required this.child});
+  @override
+  State<_RouteSelection> createState() => _RouteSelectionState();
+}
+
+class _RouteSelectionState extends State<_RouteSelection> {
+  final _d = StaticSelectionContainerDelegate();
+  @override
+  void dispose() {
+    _d.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) =>
+      // Offstage: the page leaves the app-wide selection (a no-op registrar) but its own text keeps the same
+      // registrar, so nothing under it rebuilds.
+      SelectionContainer(registrar: TickerMode.valuesOf(context).enabled ? null : const _NoRegistrar(), delegate: _d, child: widget.child);
+}
+
+class _NoRegistrar implements SelectionRegistrar {
+  const _NoRegistrar();
+  @override
+  void add(Selectable selectable) {}
+  @override
+  void remove(Selectable selectable) {}
+}
+
+class _Rise extends AnimatedWidget {
+  final Widget child;
+  const _Rise({required Animation<double> animation, required this.child}) : super(listenable: animation);
+  @override
+  Widget build(BuildContext context) {
+    final v = (listenable as Animation<double>).value;
+    return Transform.translate(offset: Offset(0, (1 - v) * .04 * MediaQuery.sizeOf(context).height), child: child);
+  }
+}
 
 final router = GoRouter(
   routes: [
@@ -86,6 +130,7 @@ final router = GoRouter(
     GoRoute(path: '/seasons/:id', pageBuilder: (_, s) => _fade(SeasonEventScreen(key: ValueKey('sea-${s.pathParameters['id']}-${s.uri.queryParameters['r']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/messages/:id', pageBuilder: (_, s) => _fade(ThreadScreen(key: ValueKey('thread-${s.pathParameters['id']}-${s.uri.queryParameters['r']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/missions', pageBuilder: (_, s) => _fade(const MissionsScreen(), s)),
+    GoRoute(path: '/roleplay/:id', pageBuilder: (_, s) => _fade(RoleplayScreen(key: ValueKey('roleplay-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/missions/:id', pageBuilder: (_, s) => _fade(MissionScreen(key: ValueKey('mission-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/radio', pageBuilder: (_, s) => _fade(const RadioScreen(), s)),
     GoRoute(path: '/radio/:id', pageBuilder: (_, s) => _fade(SegmentScreen(key: ValueKey('radio-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),

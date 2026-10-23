@@ -8,6 +8,7 @@ import '../grammar/grammar_data.dart';
 import '../library/library_data.dart';
 import '../shared/nav.dart';
 import 'missions_data.dart';
+import '../roleplay/roleplay_data.dart';
 
 /// Real-life missions: the ground rules, then the missions per level.
 class MissionsScreen extends ConsumerWidget {
@@ -16,6 +17,7 @@ class MissionsScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
+    final rps = ref.watch(roleplaysProvider).value ?? const <Roleplay>[];
     final ms = ref.watch(missionsProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (ms == null || topics == null || content == null) return const NavLoading();
     final gate = MissionGate(ctrl, content, topics, ms, unlockAll: ref.read(progressProvider).unlockAll);
@@ -32,6 +34,8 @@ class MissionsScreen extends ConsumerWidget {
           Text('مأموریت‌های زندگی واقعی · آماده شو، برو، بعد گزارش بده', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
           const SizedBox(height: 6),
           Text('${ctrl.missionsCompleted} of ${ms.length} missions done  ·  prepare, go, check in', key: const ValueKey('missions-count'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
+          const SizedBox(height: 14),
+          if (rps.isNotEmpty) _RoleplayRow(rps: rps, gate: gate),
           const SizedBox(height: 14),
           const _Safety(),
           for (final lv in Library.levels)
@@ -187,4 +191,72 @@ class _Card extends StatelessWidget {
           ),
         ),
       );
+}
+
+/// Practise first, in the app: role-plays with town characters (one per building), same level gate as missions.
+class _RoleplayRow extends ConsumerWidget {
+  final List<Roleplay> rps;
+  final MissionGate gate;
+  const _RoleplayRow({required this.rps, required this.gate});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final ctrl = ref.read(progressProvider.notifier);
+    return Column(key: const ValueKey('rp-row'), crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(children: [
+        const Expanded(child: Text('PRACTISE FIRST · ROLE-PLAY', style: TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
+        Text('اول این‌جا تمرین کن', textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+      ]),
+      const SizedBox(height: 8),
+      SizedBox(
+        height: 132,
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          itemCount: rps.length,
+          separatorBuilder: (_, _) => const SizedBox(width: 8),
+          itemBuilder: (_, i) {
+            final r = rps[i], open = gate.levelOpen(r.level), st = ctrl.roleplayStars(r.id);
+            return Material(
+              color: BL.paper,
+              borderRadius: BorderRadius.circular(16),
+              child: InkWell(
+                key: ValueKey('rp-card-${r.id}'),
+                borderRadius: BorderRadius.circular(16),
+                onTap: () {
+                  if (open) {
+                    context.push('/roleplay/${r.id}');
+                  } else {
+                    final (en, fa) = MissionGate.why(r.level);
+                    ScaffoldMessenger.of(context)
+                      ..hideCurrentSnackBar()
+                      ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa')));
+                  }
+                },
+                child: Opacity(
+                  opacity: open ? 1 : .5,
+                  child: SizedBox(
+                    width: 128,
+                    child: Padding(
+                      padding: const EdgeInsets.all(10),
+                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        Row(children: [
+                          ClipOval(child: Image.asset(r.icon, width: 36, height: 36, fit: BoxFit.cover, errorBuilder: (_, _, _) => const SizedBox(width: 36, height: 36))),
+                          const Spacer(),
+                          if (!open) const Icon(Icons.lock_rounded, size: 16, color: BL.muted) else Text(r.level, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: BL.red)),
+                        ]),
+                        const SizedBox(height: 6),
+                        Text(r.title, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13, height: 1.2)),
+                        Text(r.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: BL.muted)),
+                        const Spacer(),
+                        Text(st > 0 ? '${'★' * st}${'☆' * (3 - st)}' : '☆☆☆', key: ValueKey('rp-card-stars-${r.id}-$st'), style: TextStyle(fontSize: 13, color: st > 0 ? const Color(0xFFE0A800) : BL.muted)),
+                      ]),
+                    ),
+                  ),
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    ]);
+  }
 }

@@ -9,6 +9,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../seasons/seasons_data.dart';
+import '../roleplay/roleplay_data.dart';
 import '../shared/widgets.dart';
 
 /// A building / object on the town map and the lessons set there (index built by tool/make_spots.py).
@@ -503,6 +504,40 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ),
           ],
+          Consumer(builder: (_, ref, _) {
+            final r = (ref.watch(roleplaysProvider).value ?? const <Roleplay>[]).where((x) => x.spot == s.id).firstOrNull;
+            if (r == null) return const SizedBox.shrink();
+            final st = ref.read(progressProvider.notifier).roleplayStars(r.id);
+            return Padding(
+              padding: const EdgeInsets.only(top: 12),
+              child: Material(
+                color: BL.navy,
+                borderRadius: BorderRadius.circular(18),
+                child: InkWell(
+                  key: ValueKey('spot-roleplay-${r.id}'),
+                  borderRadius: BorderRadius.circular(18),
+                  onTap: () {
+                    Navigator.of(sheet).pop();
+                    context.push('/roleplay/${r.id}');
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    child: Row(children: [
+                      const Icon(Icons.forum_rounded, color: BL.gold),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                          Text('Role-play · ${r.title}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
+                          Text('${r.level} · 3 goals${st > 0 ? '  ·  ${'★' * st}${'☆' * (3 - st)}' : ''}  ·  ${r.titleFa}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600)),
+                        ]),
+                      ),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ]),
+                  ),
+                ),
+              ),
+            );
+          }),
           if (s.id == 'missions') ...[
             const SizedBox(height: 12),
             Material(

@@ -120,6 +120,13 @@ thy=os.path.join(A,'data/theory.json')  # Driving theory prep (tool/make_theory.
 if os.path.exists(thy):
   for c in json.load(open(thy))['chapters']:
     for e in c['expl']: add('instructor',e['en'])
+rp=os.path.join(A,'data/roleplays.json')  # Role-play missions (tool/make_roleplays.py): NPC lines + every reply option (voice 'me')
+if os.path.exists(rp):
+  for r in json.load(open(rp))['roleplays']:
+    add(r['sp'],r['end']['en'])
+    for t in r['turns']:
+      add(r['sp'],t['npc']['en'])
+      for o in t['opts']: add('me',o['en'])
 drv=os.path.join(A,'data/driving.json')  # Driving School dialogues (tool/make_driving.py): lines in each speaker's voice + vocab
 if os.path.exists(drv):
   for e in json.load(open(drv))['lessons']:
