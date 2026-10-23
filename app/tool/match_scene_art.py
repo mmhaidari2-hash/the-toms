@@ -13,10 +13,14 @@ H = os.path.dirname(os.path.abspath(__file__)); A = os.path.join(H, '..', 'asset
 J = lambda p: json.load(open(os.path.join(A, 'data', p)))
 scenes = J('scenes_bundle.json'); course = J('course.json')
 places = {p['id']: p for t in J('places.json') for p in t['places'] if p.get('image')}
+# 2026-10-23 run 22: paintings of settings that aren't visitable places (assets/data/art_places.json)
+places.update({p['id']: p for p in J('art_places.json')})
 GROUP = {**{k: 'home' for k in ['kitchen', 'hallway', 'living', 'bathroom', 'bedroom', 'eveningtea', 'birthday', 'christmas', 'poorly']},
          **{k: 'school' for k in ['firstday', 'school', 'parentsevening', 'sportsday']},
          **{k: 'shops' for k in ['supermarket', 'bigsupermarket', 'bakery', 'shoppingcentre', 'phoneshop']},
-         **{k: 'health' for k in ['gp', 'doctor']}, 'university': 'uni', 'conference': 'uni'}
+         **{k: 'health' for k in ['gp', 'doctor']}, 'university': 'uni', 'conference': 'uni',
+         **{k: 'nursery' for k in ['nursery', 'nurserydoor', 'nurseryoffice']}, **{k: 'homes' for k in ['homes', 'viewing']},
+         **{k: 'hospital' for k in ['hospital', 'hospitalreception']}}
 EVENT = {'birthday', 'christmas', 'sportsday', 'parentsevening', 'firstday', 'poorly', 'playdate'}  # only for their own setting
 SPOT = {'home': 'home', 'school': 'school', 'shops': 'shops', 'health': 'gp', 'uni': 'university', 'dentist': 'gp', 'pharmacy': 'pharmacy',
         'bus': 'bus', 'train': 'station', 'bank': 'bank', 'postoffice': 'postoffice', 'library': 'library', 'park': 'park', 'coffee': 'cafe',
@@ -51,6 +55,15 @@ def speakers(s):
     return sp - NONSPEAK - ({s['guest']} if s.get('guest') else set())
 # 2026-10-23: settings with no painting of their own yet (nursery, hospital, museum, cinema) borrow the closest
 # existing painting per scene (the room/activity that best matches), so nothing opens on a blurred card.
+# Run 22: each scene in a newly painted setting gets the view of that setting that fits it best.
+ART = {
+    'weda_illness': 'poorly',  # William poorly at home
+    **{f'nur_{a}': 'nurserydoor' for a in ['1_1', '4_1', '4_2', '4_4', '5_4', '6_4']},
+    **{f'nur_{a}': 'nurseryoffice' for a in ['4_3', '5_1', '5_2', '5_3', '6_1', '6_2', '6_3']},
+    **{f'est_{a}': 'viewing' for a in ['1_2', '3_2', '4_3']},
+    'l2_u20_1': 'hospitalreception', 'l2_u20_2': 'hospitalreception', 'l3_u11_1': 'hospitalreception', 'l2_u20_3': 'hospital', 'l2_u20_4': 'hospital',
+    'l2_u21_2': 'train',  # getting to South Kensington with Maya the conductor
+}
 BORROW = {
     'weda_illness': 'poorly',
     'nur_1_1': 'firstday', 'nur_1_2': 'bathroom', 'nur_1_3': 'eveningtea', 'nur_1_4': 'playdate',
@@ -76,6 +89,10 @@ for sid, s in scenes.items():
     g = GROUP.get(loc, loc)
     # 2026-10-23: a painting of the setting always beats a blurred card. Prefer the setting itself, then
     # paintings with no absent main character, then the most speakers shown; event paintings come last.
+    if sid in ART:
+        a = ART[sid]
+        out[sid] = dict(img=places[a]['image'], place=a, spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0] if (lab := LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', ''))))else '', labelFa=lab[1])
+        continue
     cands = [pid for pid, p in places.items() if pid == loc or GROUP.get(pid) == g]
     cands.sort(key=lambda pid: (pid != loc, pid in EVENT, len(mains(places[pid]) - S), -len(people(places[pid]) & S)))
     lab = LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', '')))
