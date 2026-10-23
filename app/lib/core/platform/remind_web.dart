@@ -24,11 +24,11 @@ Future<bool> showNotification(String title, String body) async {
   if (notificationStatus() != 'granted') return false;
   try {
     final reg = await web.window.navigator.serviceWorker.ready.toDart;
-    await reg.showNotification(title, web.NotificationOptions(body: body, icon: 'icons/Icon-192.png', tag: 'daily')).toDart;
+    await reg.showNotification(title, web.NotificationOptions(body: body, icon: 'icons/nl2-192.png', tag: 'daily')).toDart;
     return true;
   } catch (_) {
     try {
-      web.Notification(title, web.NotificationOptions(body: body, icon: 'icons/Icon-192.png'));
+      web.Notification(title, web.NotificationOptions(body: body, icon: 'icons/nl2-192.png'));
       return true;
     } catch (_) {
       return false;
