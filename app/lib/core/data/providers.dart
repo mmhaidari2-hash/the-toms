@@ -569,6 +569,29 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
+  /// "Add to Leitner box" from any text: a new card in box 1, due now. Returns false if it was already there.
+  bool addToLeitner(String word, String fa, {String ex = '', String exSp = '', String src = ''}) {
+    final w = word.trim();
+    if (w.isEmpty || state.leitnerBox.containsKey(w)) return false;
+    state = state.copyWith(leitnerBox: {...state.leitnerBox, w: Leitner.add(w, fa.trim(), _now, ex: ex, exSp: exSp, src: src)});
+    _save();
+    return true;
+  }
+
+  /// A Leitner review answer: right moves the card up a box (longer gap), wrong sends it back to box 1.
+  void reviewLeitner(String word, bool correct) {
+    final c = state.leitnerBox[word];
+    if (c == null) return;
+    state = state.copyWith(leitnerBox: {...state.leitnerBox, word: Leitner.review(c, correct, _now)});
+    _save();
+  }
+
+  void removeFromLeitner(String word) {
+    if (!state.leitnerBox.containsKey(word)) return;
+    state = state.copyWith(leitnerBox: {...state.leitnerBox}..remove(word));
+    _save();
+  }
+
   /// Words shown on a character line enter Leitner box 1.
   void seeWords(List<NewWord> words) {
     final box = {...state.leitnerBox};

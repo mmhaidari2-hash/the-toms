@@ -4,9 +4,13 @@ class LeitnerCard {
   final String word, fa;
   final int box; // 1..5
   final DateTime due;
-  const LeitnerCard(this.word, this.fa, this.box, this.due);
-  Map<String, dynamic> toJson() => {'w': word, 'fa': fa, 'b': box, 'd': due.toIso8601String()};
-  factory LeitnerCard.fromJson(Map<String, dynamic> j) => LeitnerCard(j['w'], j['fa'], j['b'], DateTime.parse(j['d']));
+  /// Where it came from: an example sentence (and who says it, for its recorded British audio) and the screen.
+  final String ex, exSp, src;
+  const LeitnerCard(this.word, this.fa, this.box, this.due, {this.ex = '', this.exSp = '', this.src = ''});
+  LeitnerCard moved(int box, DateTime due) => LeitnerCard(word, fa, box, due, ex: ex, exSp: exSp, src: src);
+  Map<String, dynamic> toJson() => {'w': word, 'fa': fa, 'b': box, 'd': due.toIso8601String(), if (ex.isNotEmpty) 'x': ex, if (exSp.isNotEmpty) 'xs': exSp, if (src.isNotEmpty) 's': src};
+  factory LeitnerCard.fromJson(Map<String, dynamic> j) =>
+      LeitnerCard(j['w'], j['fa'] ?? '', j['b'], DateTime.parse(j['d']), ex: j['x'] ?? '', exSp: j['xs'] ?? '', src: j['s'] ?? '');
 }
 
 class DailyStats {

@@ -1,3 +1,4 @@
+import '../features/leitner/leitner_screen.dart';
 import '../features/map/map_home.dart';
 import '../features/onboarding/placement_screen.dart';
 import '../features/onboarding/howto.dart';
@@ -90,6 +91,7 @@ final router = GoRouter(
     GoRoute(path: '/progress', pageBuilder: (_, s) => _fade(const ProgressScreen(), s)),
     GoRoute(path: '/premium', pageBuilder: (_, s) => _fade(PremiumScreen(key: ValueKey('premium-${s.uri.queryParameters['pack']}'), pack: s.uri.queryParameters['pack']), s)),
     GoRoute(path: '/certificate/:level', pageBuilder: (_, s) => _fade(CertificateScreen(key: ValueKey('cert-${s.pathParameters['level']}'), level: int.tryParse(s.pathParameters['level']!) ?? 1), s)),
+    GoRoute(path: '/leitner', pageBuilder: (_, s) => _fade(const LeitnerScreen(), s)),
     GoRoute(path: '/diary', pageBuilder: (_, s) => _fade(const DiaryScreen(), s)),
     GoRoute(
       path: '/replay/:i',

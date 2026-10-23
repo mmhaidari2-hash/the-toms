@@ -58,10 +58,10 @@ self.addEventListener('fetch', e => {{
   }}
   // Pictures: cache-first, but a cached entry that isn't a real image (old/broken caches, notably on iOS
   // home-screen apps) is thrown away and fetched fresh, bypassing the HTTP cache.
-  if (/\.(webp|png|jpe?g|svg|gif)$/i.test(path)) {{
+  if (/\\.(webp|png|jpe?g|svg|gif)$/i.test(path)) {{
     e.respondWith(caches.open(CACHE).then(async c => {{
       const hit = await c.match(req, {{ignoreSearch: true}});
-      const good = r => r && r.ok && r.status === 200 && /^image\//.test(r.headers.get('content-type') || '');
+      const good = r => r && r.ok && r.status === 200 && /^image\\//.test(r.headers.get('content-type') || '');
       if (good(hit)) return hit;
       if (hit) await c.delete(req, {{ignoreSearch: true}});
       try {{

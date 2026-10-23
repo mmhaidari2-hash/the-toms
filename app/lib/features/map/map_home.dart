@@ -1,3 +1,4 @@
+import '../../core/engine/leitner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -141,6 +142,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
             left: 20, right: 10, top: pad.top + 10,
             child: Row(children: [
               Expanded(child: Text('The Toms', style: BL.display(28, color: Colors.white).copyWith(shadows: const [Shadow(blurRadius: 8, color: Colors.black54)]))),
+              const _LeitnerChip(),
               const _StatsChip(),
               const SizedBox(width: 8),
               _RoundBtn(key: const ValueKey('menu'), icon: Icons.menu_rounded, onTap: () {
@@ -247,6 +249,37 @@ class _StatsChipState extends ConsumerState<_StatsChip> {
   }
 }
 
+/// Today's Leitner review count (only once the box has words).
+class _LeitnerChip extends ConsumerWidget {
+  const _LeitnerChip();
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final box = ref.watch(progressProvider).leitnerBox;
+    if (box.isEmpty) return const SizedBox();
+    final due = Leitner.due(box.values, DateTime.now()).length;
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: Material(
+        color: Colors.white.withValues(alpha: .92),
+        shape: const StadiumBorder(),
+        child: InkWell(
+          key: const ValueKey('leitner-chip'),
+          customBorder: const StadiumBorder(),
+          onTap: () => context.push('/leitner'),
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(9, 7, 11, 7),
+            child: Row(mainAxisSize: MainAxisSize.min, children: [
+              Icon(Icons.inventory_2_rounded, color: due > 0 ? BL.green : BL.muted, size: 20),
+              const SizedBox(width: 4),
+              Text('$due', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: BL.ink)),
+            ]),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class _RoundBtn extends StatelessWidget {
   final IconData icon;
   final VoidCallback onTap;
@@ -309,6 +342,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
     (Icons.workspace_premium_outlined, 'Premium (free in beta)', 'اشتراک ویژه (رایگان در دورهٔ آزمایشی)', '/premium'),
     (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
+    (Icons.inventory_2_rounded, 'Leitner box', 'جعبهٔ لایتنر', '/leitner'),
     (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
     (Icons.quiz_rounded, 'Placement test', 'آزمون تعیین سطح', '/placement'),
     (Icons.gavel_rounded, 'Privacy, terms & about', 'حریم خصوصی، شرایط و دربارهٔ اپ', '/legal'),
