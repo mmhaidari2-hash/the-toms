@@ -14,6 +14,7 @@ J = lambda p: json.load(open(os.path.join(A, 'data', p)))
 scenes = J('scenes_bundle.json'); course = J('course.json')
 places = {p['id']: p for t in J('places.json') for p in t['places'] if p.get('image')}
 # 2026-10-23 run 22: paintings of settings that aren't visitable places (assets/data/art_places.json)
+ARTPLACES = {p['id'] for p in J('art_places.json')}
 places.update({p['id']: p for p in J('art_places.json')})
 GROUP = {**{k: 'home' for k in ['kitchen', 'hallway', 'living', 'bathroom', 'bedroom', 'eveningtea', 'birthday', 'christmas', 'poorly']},
          **{k: 'school' for k in ['firstday', 'school', 'parentsevening', 'sportsday']},
@@ -61,7 +62,9 @@ ART = {
     **{f'nur_{a}': 'nurserydoor' for a in ['1_1', '4_1', '4_2', '4_4', '5_4', '6_4']},
     **{f'nur_{a}': 'nurseryoffice' for a in ['4_3', '5_1', '5_2', '5_3', '6_1', '6_2', '6_3']},
     **{f'est_{a}': 'viewing' for a in ['1_2', '3_2', '4_3']},
-    'l2_u20_1': 'hospitalreception', 'l2_u20_2': 'hospitalreception', 'l3_u11_1': 'hospitalreception', 'l2_u20_3': 'hospital', 'l2_u20_4': 'hospital',
+    'l2_u20_1': 'gp',  # Dr Okafor reads the hospital letter at the surgery
+    'l2_u58_1': 'living', 'l2_u58_2': 'living', 'l2_u58_3': 'living',  # film night, booking online, cinema at home
+    'l2_u20_2': 'hospitalreception', 'l3_u11_1': 'hospitalreception', 'l2_u20_3': 'hospital', 'l2_u20_4': 'hospital',
     'l2_u21_2': 'train',  # getting to South Kensington with Maya the conductor
 }
 BORROW = {
@@ -91,7 +94,9 @@ for sid, s in scenes.items():
     # paintings with no absent main character, then the most speakers shown; event paintings come last.
     if sid in ART:
         a = ART[sid]
-        out[sid] = dict(img=places[a]['image'], place=a, spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0] if (lab := LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', ''))))else '', labelFa=lab[1])
+        # A painting of a visitable place (home, GP, train) is labelled with that place; new setting paintings keep the setting label.
+        lab = (places[a]['title'], places[a]['titleFa']) if a not in ARTPLACES else (LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', ''))))
+        out[sid] = dict(img=places[a]['image'], place=a, spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0], labelFa=lab[1])
         continue
     cands = [pid for pid, p in places.items() if pid == loc or GROUP.get(pid) == g]
     cands.sort(key=lambda pid: (pid != loc, pid in EVENT, len(mains(places[pid]) - S), -len(people(places[pid]) & S)))
