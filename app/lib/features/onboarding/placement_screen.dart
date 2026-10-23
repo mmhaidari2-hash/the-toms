@@ -154,7 +154,8 @@ class _PlacementState extends ConsumerState<PlacementScreen> {
       ctrl.finishOnboarding(startTier: tier, lang: ref.read(progressProvider).lang);
       ctrl.setStartTier(tier);
     }
-    context.go('/');
+    // After a real result, go on to set a personal study plan (goal level + target date).
+    context.go(save ? '/plan?first=1' : '/');
   }
 
   @override

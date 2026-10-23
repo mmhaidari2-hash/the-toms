@@ -168,7 +168,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                 for (final r in mapRegions.where((r) => r.level != null))
                   Positioned(
                     left: r.pin.dx * w - 30, top: (r.pin.dy < .11 ? .11 : r.pin.dy) * h - 14, // keep the top district's badge clear of the title bar
-                    child: IgnorePointer(child: _ZoneBadge(level: r.level!, open: regionOpen(ctrl, c.course, r), current: r.level == cur, passed: ctrl.levelPassed(c.course, r.level!), progress: ctrl.levelProgress(c.course, r.level!))),
+                    child: IgnorePointer(child: _ZoneBadge(level: r.level!, open: regionOpen(ctrl, c.course, r), current: r.level == cur, passed: ctrl.levelPassed(c.course, r.level!) || ctrl.levelSkipped(c.course, r.level!), progress: ctrl.levelProgress(c.course, r.level!))),
                   ),
                 // The living town: every building / object opens the lessons set there.
                 for (final s in spots)
@@ -214,7 +214,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
               padding: const EdgeInsets.symmetric(horizontal: 14),
               children: [
                 for (final r in mapRegions)
-                  Padding(padding: const EdgeInsets.only(right: 8), child: _Pin(r: r, open: regionOpen(ctrl, c.course, r), here: r.level != null && r.level == cur, passed: r.level != null && ctrl.levelPassed(c.course, r.level!), progress: r.level == null ? null : ctrl.levelProgress(c.course, r.level!), onTap: () => _open(r, c))),
+                  Padding(padding: const EdgeInsets.only(right: 8), child: _Pin(r: r, open: regionOpen(ctrl, c.course, r), here: r.level != null && r.level == cur, passed: r.level != null && ctrl.levelPassed(c.course, r.level!), skipped: r.level != null && ctrl.levelSkipped(c.course, r.level!), progress: r.level == null ? null : ctrl.levelProgress(c.course, r.level!), onTap: () => _open(r, c))),
               ],
             ),
           ),
@@ -317,14 +317,16 @@ class _RoundBtn extends StatelessWidget {
 
 class _Pin extends StatelessWidget {
   final MapRegion r;
-  final bool open, here, passed;
+  final bool open, here, skipped;
+  final bool passed0;
   final double? progress;
   final VoidCallback onTap;
-  const _Pin({required this.r, required this.open, required this.here, this.passed = false, this.progress, required this.onTap});
+  const _Pin({required this.r, required this.open, required this.here, bool passed = false, this.skipped = false, this.progress, required this.onTap}) : passed0 = passed;
+  bool get passed => passed0 || skipped;
   @override
   Widget build(BuildContext context) {
     final lv = r.level;
-    final status = r.pack != null ? r.sub : !open ? 'Locked' : passed ? 'Passed ✓' : here ? 'You are here' : '${((progress ?? 0) * 100).round()}%';
+    final status = r.pack != null ? r.sub : !open ? 'Locked' : passed0 ? 'Passed ✓' : skipped ? 'Skipped ✓' : here ? 'You are here' : '${((progress ?? 0) * 100).round()}%';
     return GestureDetector(
       key: ValueKey('pin-${r.id}'),
       onTap: onTap,
@@ -452,6 +454,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
       if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
     ]),
     ('You & the family', 'شما و خانواده', [
+      (Icons.flag_rounded, 'My study plan', 'برنامهٔ مطالعه', '/plan'),
       (Icons.local_fire_department_rounded, 'Progress', 'پیشرفت و نشان‌ها', '/progress'),
       (Icons.family_restroom_rounded, 'Family', 'خانواده و داستان‌ها', '/family'),
       (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),

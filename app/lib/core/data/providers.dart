@@ -501,6 +501,8 @@ class ProgressController extends Notifier<UserProgress> {
     final us = levelUnits(c, level);
     return us.isNotEmpty && (unitPassed(us.last) || levelComplete(c, level));
   }
+  /// A level below where placement (or the onboarding choice) put the learner, not worked through: shown as "Skipped ✓".
+  bool levelSkipped(Course c, int level) => level < startLevel && !levelPassed(c, level);
   /// The learner's current level (1–5 = A1…C1): the starting level, moved up one for every level passed.
   int currentLevel(Course c) {
     var lv = startLevel;

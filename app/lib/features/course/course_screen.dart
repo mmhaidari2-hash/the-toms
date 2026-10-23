@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
+
 import '../shared/nav.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+
 import '../shared/bottom_nav.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
+import '../plan/plan_screen.dart';
 
 /// The Level 1 path: calm storybook pages, one unit per painting, lessons as stepping stones.
 class CourseScreen extends ConsumerStatefulWidget {
@@ -62,25 +66,43 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
         primary: true,
         slivers: [
           PinnedHeaderSliver(
-            child: ColoredBox(color: BL.cream, child: Padding(
-              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
-              child: Row(
-                children: [
-                  const NavButtons(),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+            child: ColoredBox(
+              color: BL.cream,
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Row(
                       children: [
-                        Text('THE COURSE  ·  ${course.units.map((u) => u.level).toSet().length} LEVELS', style: const TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red)),
-                        Text('British life, step by step', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(24)),
+                        const NavButtons(),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'MY PATH · A1–C1',
+                                maxLines: 1,
+                                style: const TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red),
+                              ),
+                              FittedBox(
+                                fit: BoxFit.scaleDown,
+                                alignment: Alignment.centerLeft,
+                                child: Text('Step by step', maxLines: 1, style: BL.display(24)),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Text('$done/${course.lessons.length}', style: BL.display(18, color: BL.green)),
                       ],
                     ),
-                  ),
-                  Text('$done/${course.lessons.length}', style: BL.display(18, color: BL.green)),
-                ],
+                    // Study plan: goal level, target date and this week's pace (tap to edit).
+                    const Padding(padding: EdgeInsets.fromLTRB(12, 6, 0, 2), child: PlanCard(compact: true)),
+                  ],
+                ),
               ),
-            )),
+            ),
           ),
           // Level chips: tap a level to jump straight to its own units.
           SliverToBoxAdapter(
@@ -134,9 +156,25 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
             ),
           ),
           for (var i = 0; i < course.units.length; i++) ...[
-            if (i == 0 || course.units[i - 1].level != course.units[i].level) SliverToBoxAdapter(child: KeyedSubtree(key: _keyFor(course.units[i].level), child: _LevelHeader(level: course.units[i].level))),
-            SliverPadding(padding: const EdgeInsets.fromLTRB(20, 22, 20, 0), sliver: SliverToBoxAdapter(child: FadeSlideIn(delayMs: 40 * i, child: _UnitBanner(c: c, u: course.units[i], index: i, open: ctrl.unitOpen(course, i))))),
-            SliverToBoxAdapter(child: _Stones(c: c, u: course.units[i])),
+            if (i == 0 || course.units[i - 1].level != course.units[i].level)
+              SliverToBoxAdapter(
+                child: KeyedSubtree(
+                  key: _keyFor(course.units[i].level),
+                  child: _LevelHeader(level: course.units[i].level),
+                ),
+              ),
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(20, 22, 20, 0),
+              sliver: SliverToBoxAdapter(
+                child: FadeSlideIn(
+                  delayMs: 40 * i,
+                  child: _UnitBanner(c: c, u: course.units[i], index: i, open: ctrl.unitOpen(course, i)),
+                ),
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: _Stones(c: c, u: course.units[i]),
+            ),
           ],
           SliverToBoxAdapter(child: SizedBox(height: 40 + pad.bottom + bottomNavHeight)),
         ],
@@ -162,7 +200,11 @@ class _UnitBanner extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           if (img != null) Image.asset(img, fit: BoxFit.cover, color: open ? null : Colors.black45, colorBlendMode: open ? null : BlendMode.darken),
-          const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00140E0A), Color(0xE6140E0A)], stops: [.3, 1]))),
+          const DecoratedBox(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00140E0A), Color(0xE6140E0A)], stops: [.3, 1]),
+            ),
+          ),
           Positioned(
             left: 18,
             right: 18,
@@ -172,12 +214,19 @@ class _UnitBanner extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Text('UNIT ${c.course.numberInLevel(u)}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800)),
+                    Text(
+                      'UNIT ${c.course.numberInLevel(u)}',
+                      style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800),
+                    ),
                     if (!open) ...[const SizedBox(width: 6), const Icon(Icons.lock_rounded, size: 13, color: Color(0xFFE8C987))],
                   ],
                 ),
                 Text(u.title, style: BL.display(23, color: Colors.white)),
-                Text(u.titleFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70)),
+                Text(
+                  u.titleFa,
+                  textDirection: TextDirection.rtl,
+                  style: BL.fa(12.5, color: Colors.white70),
+                ),
               ],
             ),
           ),
@@ -223,7 +272,12 @@ class _Stones extends ConsumerWidget {
                           const SizedBox(height: 6),
                           SizedBox(
                             width: 150,
-                            child: Text(check ? 'Unit review' : l.title, textAlign: TextAlign.center, maxLines: 2, style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5, color: open ? BL.ink : BL.muted)),
+                            child: Text(
+                              check ? 'Unit review' : l.title,
+                              textAlign: TextAlign.center,
+                              maxLines: 2,
+                              style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5, color: open ? BL.ink : BL.muted),
+                            ),
                           ),
                         ],
                       ),
@@ -273,7 +327,13 @@ class _StoneState extends State<_Stone> with SingleTickerProviderStateMixin {
           shape: BoxShape.circle,
           color: widget.check ? (widget.done ? BL.gold : BL.navy) : BL.paper,
           border: Border.all(color: ring, width: 4),
-          boxShadow: [BoxShadow(color: (widget.here ? BL.green : Colors.black).withValues(alpha: widget.here ? .18 + .22 * _a.value : .08), blurRadius: 10 + 10 * _a.value, spreadRadius: widget.here ? 2 * _a.value : 0)],
+          boxShadow: [
+            BoxShadow(
+              color: (widget.here ? BL.green : Colors.black).withValues(alpha: widget.here ? .18 + .22 * _a.value : .08),
+              blurRadius: 10 + 10 * _a.value,
+              spreadRadius: widget.here ? 2 * _a.value : 0,
+            ),
+          ],
         ),
         child: child,
       ),
@@ -281,14 +341,31 @@ class _StoneState extends State<_Stone> with SingleTickerProviderStateMixin {
         alignment: Alignment.center,
         children: [
           if (widget.check) Icon(widget.done ? Icons.emoji_events_rounded : Icons.star_rounded, color: Colors.white, size: 32) else Opacity(opacity: widget.open ? 1 : .45, child: widget.child),
-          if (widget.done && !widget.check) const Positioned(right: 0, bottom: 0, child: CircleAvatar(radius: 11, backgroundColor: BL.green, child: Icon(Icons.check_rounded, size: 14, color: Colors.white))),
-          if (!widget.open) const Positioned(right: 0, bottom: 0, child: CircleAvatar(radius: 11, backgroundColor: BL.muted, child: Icon(Icons.lock_rounded, size: 12, color: Colors.white))),
+          if (widget.done && !widget.check)
+            const Positioned(
+              right: 0,
+              bottom: 0,
+              child: CircleAvatar(
+                radius: 11,
+                backgroundColor: BL.green,
+                child: Icon(Icons.check_rounded, size: 14, color: Colors.white),
+              ),
+            ),
+          if (!widget.open)
+            const Positioned(
+              right: 0,
+              bottom: 0,
+              child: CircleAvatar(
+                radius: 11,
+                backgroundColor: BL.muted,
+                child: Icon(Icons.lock_rounded, size: 12, color: Colors.white),
+              ),
+            ),
         ],
       ),
     );
   }
 }
-
 
 class _LevelHeader extends StatelessWidget {
   final int level;
@@ -303,7 +380,10 @@ class _LevelHeader extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
-            child: Text('LEVEL $level  ·  ${info?.$1 ?? ''}', style: const TextStyle(color: Colors.white, fontSize: 11, letterSpacing: 1.3, fontWeight: FontWeight.w800)),
+            child: Text(
+              'LEVEL $level  ·  ${info?.$1 ?? ''}',
+              style: const TextStyle(color: Colors.white, fontSize: 11, letterSpacing: 1.3, fontWeight: FontWeight.w800),
+            ),
           ),
           const SizedBox(width: 10),
           Expanded(
@@ -321,7 +401,6 @@ class _LevelHeader extends StatelessWidget {
   }
 }
 
-
 /// Small "PREMIUM" badge for Career Packs (packs are unlocked for now).
 class PremiumBadge extends StatelessWidget {
   final bool dark;
@@ -333,11 +412,17 @@ class PremiumBadge extends StatelessWidget {
       gradient: const LinearGradient(colors: [Color(0xFFE9C46A), Color(0xFFC9A04C)]),
       borderRadius: BorderRadius.circular(99),
     ),
-    child: const Row(mainAxisSize: MainAxisSize.min, children: [
-      Icon(Icons.workspace_premium_rounded, size: 12, color: BL.ink),
-      SizedBox(width: 3),
-      Text('PREMIUM', style: TextStyle(color: BL.ink, fontSize: 9.5, letterSpacing: 1.1, fontWeight: FontWeight.w900)),
-    ]),
+    child: const Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(Icons.workspace_premium_rounded, size: 12, color: BL.ink),
+        SizedBox(width: 3),
+        Text(
+          'PREMIUM',
+          style: TextStyle(color: BL.ink, fontSize: 9.5, letterSpacing: 1.1, fontWeight: FontWeight.w900),
+        ),
+      ],
+    ),
   );
 }
 
@@ -358,23 +443,33 @@ class PackCard extends ConsumerWidget {
       child: Container(
         padding: const EdgeInsets.fromLTRB(14, 12, 10, 12),
         decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(22), boxShadow: BL.shadow(.08)),
-        child: Row(children: [
-          Avatar(c.character(pack.lead), size: 50),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Row(children: [
-                Text('CAREER PACK', style: TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
-                SizedBox(width: 8),
-                PremiumBadge(),
-              ]),
-              const SizedBox(height: 2),
-              Text(pack.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
-              Text('${all.length} lessons · ${pack.levels} · $done done', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
-            ]),
-          ),
-          const Icon(Icons.chevron_right_rounded, color: BL.muted, size: 26),
-        ]),
+        child: Row(
+          children: [
+            Avatar(c.character(pack.lead), size: 50),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Row(
+                    children: [
+                      Text(
+                        'CAREER PACK',
+                        style: TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red),
+                      ),
+                      SizedBox(width: 8),
+                      PremiumBadge(),
+                    ],
+                  ),
+                  const SizedBox(height: 2),
+                  Text(pack.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
+                  Text('${all.length} lessons · ${pack.levels} · $done done', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right_rounded, color: BL.muted, size: 26),
+          ],
+        ),
       ),
     );
   }
@@ -400,43 +495,82 @@ class PackScreen extends ConsumerWidget {
       body: CustomScrollView(
         slivers: [
           PinnedHeaderSliver(
-            child: ColoredBox(color: BL.cream, child: Padding(
-              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
-              child: Row(children: [
-                const NavButtons(),
-                const SizedBox(width: 10),
-                const Expanded(child: Text('CAREER PACK', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))),
-                Text('$done/${all.length}', style: BL.display(18, color: BL.green)),
-              ]),
-            )),
+            child: ColoredBox(
+              color: BL.cream,
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
+                child: Row(
+                  children: [
+                    const NavButtons(),
+                    const SizedBox(width: 10),
+                    const Expanded(
+                      child: Text(
+                        'CAREER PACK',
+                        style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red),
+                      ),
+                    ),
+                    Text('$done/${all.length}', style: BL.display(18, color: BL.green)),
+                  ],
+                ),
+              ),
+            ),
           ),
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.fromLTRB(20, 6, 20, 0),
-              child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Avatar(lead, size: 64),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(pack.title, style: BL.display(26)),
-                    Text(pack.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
-                    const SizedBox(height: 6),
-                    Row(children: [const PremiumBadge(), const SizedBox(width: 8), Text(PremiumConfig.betaFree ? '${pack.levels} · free in beta' : '${pack.levels} · lesson 1 free', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600))]),
-                  ]),
-                ),
-              ]),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Avatar(lead, size: 64),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(pack.title, style: BL.display(26)),
+                        Text(
+                          pack.titleFa,
+                          textDirection: TextDirection.rtl,
+                          style: BL.fa(13, color: BL.muted),
+                        ),
+                        const SizedBox(height: 6),
+                        Row(
+                          children: [
+                            const PremiumBadge(),
+                            const SizedBox(width: 8),
+                            Text(
+                              PremiumConfig.betaFree ? '${pack.levels} · free in beta' : '${pack.levels} · lesson 1 free',
+                              style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(pack.blurb, style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
-                const SizedBox(height: 4),
-                SizedBox(width: double.infinity, child: Text(pack.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted))),
-                const SizedBox(height: 10),
-                PackDisclaimer(pack.id),
-              ]),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(pack.blurb, style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
+                  const SizedBox(height: 4),
+                  SizedBox(
+                    width: double.infinity,
+                    child: Text(
+                      pack.blurbFa,
+                      textDirection: TextDirection.rtl,
+                      style: BL.fa(12.5, color: BL.muted),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  PackDisclaimer(pack.id),
+                ],
+              ),
             ),
           ),
           for (var i = 0; i < pack.units.length; i++) ...[
@@ -444,17 +578,29 @@ class PackScreen extends ConsumerWidget {
               SliverToBoxAdapter(
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(20, 26, 20, 0),
-                  child: Row(children: [
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
-                      decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
-                      child: Text(pack.units[i].cefr ?? '', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1.2)),
-                    ),
-                  ]),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                        decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
+                        child: Text(
+                          pack.units[i].cefr ?? '',
+                          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1.2),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            SliverPadding(padding: const EdgeInsets.fromLTRB(20, 14, 20, 0), sliver: SliverToBoxAdapter(child: _UnitBanner(c: c, u: pack.units[i], index: i, open: true))),
-            SliverToBoxAdapter(child: _Stones(c: c, u: pack.units[i])),
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(20, 14, 20, 0),
+              sliver: SliverToBoxAdapter(
+                child: _UnitBanner(c: c, u: pack.units[i], index: i, open: true),
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: _Stones(c: c, u: pack.units[i]),
+            ),
           ],
           SliverToBoxAdapter(child: SizedBox(height: 40 + pad.bottom)),
         ],
@@ -467,22 +613,44 @@ class PackScreen extends ConsumerWidget {
 class PackDisclaimer extends StatelessWidget {
   final String packId;
   const PackDisclaimer(this.packId, {super.key});
-  static const general = 'English-language practice only. Not professional training or an accredited qualification, and it does not replace your employer\'s induction or required training. Always follow your workplace\'s policies.';
+  static const general =
+      'English-language practice only. Not professional training or an accredited qualification, and it does not replace your employer\'s induction or required training. Always follow your workplace\'s policies.';
   static const generalFa = 'فقط تمرین زبان انگلیسی است؛ آموزش حرفه‌ای یا مدرک معتبر نیست و جای آموزش‌ها و معارفهٔ محل کارتان را نمی‌گیرد. همیشه از سیاست‌های محل کارتان پیروی کنید.';
-  static const nursery = 'Set in England: it follows the EYFS framework (England only). Ratios and rules vary by setting, age group and staff qualifications, so check your setting\'s policy. This pack does not replace safeguarding, paediatric first aid or Level 2/3 training.';
-  static const nurseryFa = 'بر اساس چارچوب EYFS انگلستان است (فقط انگلستان). نسبت‌ها و قوانین بسته به مهدکودک، سن بچه‌ها و مدرک کارکنان فرق می‌کند؛ سیاست مهدکودک خودتان را بررسی کنید. جای آموزش حفاظت از کودک، کمک‌های اولیهٔ کودکان یا دوره‌های Level 2/3 را نمی‌گیرد.';
+  static const nursery =
+      'Set in England: it follows the EYFS framework (England only). Ratios and rules vary by setting, age group and staff qualifications, so check your setting\'s policy. This pack does not replace safeguarding, paediatric first aid or Level 2/3 training.';
+  static const nurseryFa =
+      'بر اساس چارچوب EYFS انگلستان است (فقط انگلستان). نسبت‌ها و قوانین بسته به مهدکودک، سن بچه‌ها و مدرک کارکنان فرق می‌کند؛ سیاست مهدکودک خودتان را بررسی کنید. جای آموزش حفاظت از کودک، کمک‌های اولیهٔ کودکان یا دوره‌های Level 2/3 را نمی‌گیرد.';
   @override
   Widget build(BuildContext context) => Container(
-        key: const ValueKey('pack-disclaimer'),
-        width: double.infinity,
-        padding: const EdgeInsets.all(12),
-        decoration: BoxDecoration(color: BL.mist.withValues(alpha: .6), borderRadius: BorderRadius.circular(14)),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          const Row(children: [Icon(Icons.info_outline_rounded, size: 16, color: BL.muted), SizedBox(width: 6), Text('Please note', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink))]),
-          const SizedBox(height: 4),
-          Text(packId == 'nursery' ? '$general $nursery' : general, style: const TextStyle(fontSize: 12, height: 1.35, color: BL.ink)),
-          const SizedBox(height: 4),
-          SizedBox(width: double.infinity, child: Text(packId == 'nursery' ? '$generalFa $nurseryFa' : generalFa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted))),
-        ]),
-      );
+    key: const ValueKey('pack-disclaimer'),
+    width: double.infinity,
+    padding: const EdgeInsets.all(12),
+    decoration: BoxDecoration(color: BL.mist.withValues(alpha: .6), borderRadius: BorderRadius.circular(14)),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Row(
+          children: [
+            Icon(Icons.info_outline_rounded, size: 16, color: BL.muted),
+            SizedBox(width: 6),
+            Text(
+              'Please note',
+              style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink),
+            ),
+          ],
+        ),
+        const SizedBox(height: 4),
+        Text(packId == 'nursery' ? '$general $nursery' : general, style: const TextStyle(fontSize: 12, height: 1.35, color: BL.ink)),
+        const SizedBox(height: 4),
+        SizedBox(
+          width: double.infinity,
+          child: Text(
+            packId == 'nursery' ? '$generalFa $nurseryFa' : generalFa,
+            textDirection: TextDirection.rtl,
+            style: BL.fa(11.5, color: BL.muted),
+          ),
+        ),
+      ],
+    ),
+  );
 }

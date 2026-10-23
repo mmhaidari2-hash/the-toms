@@ -37,6 +37,7 @@ import '../features/library/reader_screen.dart';
 import '../features/motivation/progress_screen.dart';
 import '../features/premium/certificate_screen.dart';
 import '../features/diary/diary_screen.dart';
+import '../features/plan/plan_screen.dart';
 
 CustomTransitionPage<void> _fade(Widget child, GoRouterState s) => CustomTransitionPage(
   key: s.pageKey,
@@ -55,6 +56,7 @@ final router = GoRouter(
   routes: [
     GoRoute(path: '/', pageBuilder: (_, s) => _fade(const MapHome(), s)),
     GoRoute(path: '/family', pageBuilder: (_, s) => _fade(const HomeScreen(), s)),
+    GoRoute(path: '/plan', pageBuilder: (_, s) => _fade(PlanScreen(fromPlacement: s.uri.queryParameters['first'] == '1'), s)),
     GoRoute(path: '/placement', pageBuilder: (_, s) => _fade(const PlacementScreen(), s)),
     GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),

@@ -437,3 +437,10 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 ### App name: New Life UK (2026-10-23)
 - The user chose **New Life UK**. The display name was changed in the title, PWA manifest, Android label, splash, map title, premium, certificate, legal/about and privacy wording. The repo/URL stays `the-toms` for now, and the family in the stories is still "the Toms".
 - Quick clearance: no registered NEW LIFE (UK) mark for apps or education was found in classes 9/41. The closest app is "New Life in UK Tests" (iOS). Details are in docs/LEGAL_REVIEW.md. **A solicitor must confirm before monetising.**
+
+## Personal study plan (run 9)
+- After a placement result, "Start at X" opens **My study plan** (`/plan?first=1`); also in the menu (You & the family) and as a slim line under the My path header.
+- Learner picks a goal level (current … C1), minutes a day (10/15/20/30/45) and a target date (date picker). The screen shows lessons left to the goal, hours (≈12 min per lesson, stated as an estimate), the projected finish date and, if the date is tighter, the minutes a day needed.
+- Stored as `pref:plan = goal|minutes|target|start|lessonsLeftAtStart`. On track = no more than one lesson behind an even pace from start to target; "lessons this week" = remaining × 7 / days left.
+- Levels below the placement level read **Skipped ✓** on the map strip (not "0%").
+- Tests: `test/study_plan_test.dart`.
