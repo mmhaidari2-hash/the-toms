@@ -33379,6 +33379,36 @@
 ]
 },
 {
+"scene": "l2_u56_2",
+"node": "n8",
+"i": 0,
+"en": "How did you know about the chocolate bar?",
+"fa": "از کجا دربارهٔ شکلات فهمیدی؟",
+"bad": true,
+"cov": 0.33,
+"ratio": 0.75,
+"miss": [
+"know",
+"bar"
+],
+"mname": []
+},
+{
+"scene": "l2_u56_2",
+"node": "n8",
+"i": 1,
+"en": "OK, OK. And the chocolate bar. Shh!",
+"fa": "باشه باشه. و شکلات. هیس!",
+"bad": true,
+"cov": 0.33,
+"ratio": 1.29,
+"miss": [
+"bar",
+"shh"
+],
+"mname": []
+},
+{
 "scene": "l2_u56_3",
 "node": "n1",
 "i": 1,
