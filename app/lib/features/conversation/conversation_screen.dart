@@ -399,7 +399,6 @@ class _ChatState extends ConsumerState<_Chat> {
     if (v == _swap || _ended) return;
     HapticFeedback.selectionClick();
     Voice.stop();
-    final partner = _who(_partnerId).name;
     setState(() {
       _swap = v;
       _pron = null;
@@ -407,7 +406,7 @@ class _ChatState extends ConsumerState<_Chat> {
       _speakNote = null;
       _tapped = null;
       _hints = v;
-      _msgs.add(_Msg('', '', system: v ? 'Now you are ${ch.name} · حالا تو ${ch.name} هستی' : 'Now you are $partner · حالا تو $partner هستی'));
+      _msgs.add(_Msg('', '', system: v ? 'Now you are ${ch.name}  ·  نقش عوض شد' : 'Back to your part  ·  نقش عوض شد'));
     });
     // Mid-line (someone is typing): the next line simply arrives in the new role.
     if (_typing) return;

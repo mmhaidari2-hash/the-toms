@@ -13,7 +13,10 @@ class MapLoupe extends StatelessWidget {
   /// The spot under the lens (null: just the map).
   final String? title, titleFa, level;
   final bool open;
-  const MapLoupe({super.key, required this.at, this.title, this.titleFa, this.level, this.open = true});
+  /// The visible part of the map (map coordinates), so the lens and label never leave the screen or hide
+  /// under the top bar.
+  final double viewLeft, viewWidth, topSafe;
+  const MapLoupe({super.key, required this.at, this.title, this.titleFa, this.level, this.open = true, this.viewLeft = 0, this.viewWidth = 1e9, this.topSafe = 96});
 
   static const size = 124.0;
   /// The lens floats above the finger so the finger never hides what it magnifies.
@@ -21,9 +24,12 @@ class MapLoupe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final below = at.dy - lift - size / 2 < 96; // too near the top bar: float below instead
+    // Too near the top bar for the lens and its label: float below the finger instead.
+    final below = at.dy - lift - size / 2 - (title == null ? 0 : 60) < topSafe;
     final dy = below ? lift : -lift;
-    final centre = at + Offset(0, dy);
+    final cx = at.dx.clamp(viewLeft + size / 2 + 4, viewLeft + viewWidth - size / 2 - 4).toDouble();
+    final centre = Offset(cx, at.dy + dy);
+    final labelLeft = (cx - 110).clamp(viewLeft + 6, viewLeft + viewWidth - 226).toDouble();
     return Stack(clipBehavior: Clip.none, children: [
       Positioned(
         left: centre.dx - size / 2,
@@ -39,10 +45,10 @@ class MapLoupe extends StatelessWidget {
             RawMagnifier(
               size: const Size(size, size),
               magnificationScale: 1.9,
-              focalPointOffset: Offset(0, -dy),
+              focalPointOffset: Offset(at.dx - cx, -dy),
               decoration: const MagnifierDecoration(
                 shape: CircleBorder(side: BorderSide(color: Color(0xE6FFF4DC), width: 2.2)),
-                shadows: [BoxShadow(color: Color(0x88000000), blurRadius: 18, offset: Offset(0, 8)), BoxShadow(color: Color(0x55E9B949), blurRadius: 22, spreadRadius: 1)],
+                shadows: [BoxShadow(color: Color(0x88000000), blurRadius: 18, offset: Offset(0, 8))],
               ),
             ),
             // Frosted rim: a soft white ring inside the edge.
@@ -50,18 +56,18 @@ class MapLoupe extends StatelessWidget {
               child: DecoratedBox(
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  gradient: RadialGradient(colors: [Colors.transparent, Colors.transparent, Colors.white.withValues(alpha: .16), Colors.white.withValues(alpha: .38)], stops: const [0, .72, .9, 1]),
+                  gradient: RadialGradient(colors: [Colors.transparent, Colors.transparent, Colors.white.withValues(alpha: .10), Colors.white.withValues(alpha: .30)], stops: const [0, .8, .93, 1]),
                 ),
               ),
             ),
             // Shine: a curved highlight top-left.
             const IgnorePointer(
               child: Padding(
-                padding: EdgeInsets.fromLTRB(16, 10, 44, 66),
+                padding: EdgeInsets.fromLTRB(20, 9, 50, 88),
                 child: DecoratedBox(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.elliptical(60, 34)),
-                    gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0x99FFFFFF), Color(0x00FFFFFF)]),
+                    borderRadius: BorderRadius.all(Radius.elliptical(54, 26)),
+                    gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x73FFFFFF), Color(0x00FFFFFF)]),
                   ),
                 ),
               ),
@@ -71,7 +77,7 @@ class MapLoupe extends StatelessWidget {
       ),
       if (title != null)
         Positioned(
-          left: centre.dx - 110,
+          left: labelLeft,
           width: 220,
           top: below ? centre.dy + size / 2 + 6 : centre.dy - size / 2 - 58,
           child: IgnorePointer(
