@@ -63,17 +63,25 @@ class _MapHomeState extends ConsumerState<MapHome> {
 
   void _moveLens(Offset? at, List<MapSpot> spots, double w, double h) {
     MapSpot? best;
-    var bd = 46.0;
     if (at != null) {
-      for (final s in spots) {
-        final d = (Offset(s.x * w, s.y * h) - at).distance;
-        if (d < bd) {
-          bd = d;
-          best = s;
+      // Hysteresis: stay on the current pin until the finger is clearly away from it (64 px), and only
+      // snap onto a new pin when within 40 px of its centre, so the lens never jitters between two pins.
+      final cur = _lensSpot;
+      if (cur != null && (Offset(cur.x * w, cur.y * h) - at).distance < 64) {
+        best = cur;
+      } else {
+        var bd = 40.0;
+        for (final s in spots) {
+          final d = (Offset(s.x * w, s.y * h) - at).distance;
+          if (d < bd) {
+            bd = d;
+            best = s;
+          }
         }
       }
     }
     if (best != null && best != _lensSpot && _lensTouch) HapticFeedback.selectionClick();
+    if (at == _lens && best == _lensSpot) return;
     setState(() {
       _lens = at;
       _lensSpot = best;
@@ -269,27 +277,29 @@ class _MapHomeState extends ConsumerState<MapHome> {
                     ),
                     ),
                   ),
-                if (_lens != null)
-                  Positioned.fill(
-                    child: IgnorePointer(
-                      child: MapLoupe(
-                        key: ValueKey('map-loupe-${_lensSpot?.id ?? ''}'),
-                        at: _lensSpot == null ? _lens! : Offset(_lensSpot!.x * w, _lensSpot!.y * h),
-                        title: _lensSpot?.title,
-                        titleFa: _lensSpot?.titleFa,
-                        level: _lensSpot == null ? null : _spotLevel(_lensSpot!, c),
-                        viewLeft: _scroll.hasClients ? _scroll.offset : 0,
-                        viewWidth: box.maxWidth,
-                        topSafe: pad.top + 120,
-                        open: _lensSpot == null || featureSpots.contains(_lensSpot!.id) || spotLessons(c.course, _lensSpot!).any((l) => ctrl.lessonOpen(c.course, l)),
-                      ),
-                    ),
-                  ),
               ]),
             ),
             ),
             ),
           ),
+          // The glass loupe, in screen space above the map (still under the top bar and buttons).
+          if (_lens != null)
+            Positioned.fill(
+              child: IgnorePointer(
+                child: MapLoupe(
+                  focal: _lensSpot == null ? _lens! : Offset(_lensSpot!.x * w, _lensSpot!.y * h),
+                  scrollX: _scroll.hasClients ? _scroll.offset : 0,
+                  mapW: w,
+                  mapH: h,
+                  mapImage: mapImage,
+                  spot: _lensSpot,
+                  level: _lensSpot == null ? null : _spotLevel(_lensSpot!, c),
+                  viewWidth: box.maxWidth,
+                  topSafe: pad.top + 120,
+                  open: _lensSpot == null || featureSpots.contains(_lensSpot!.id) || spotLessons(c.course, _lensSpot!).any((l) => ctrl.lessonOpen(c.course, l)),
+                ),
+              ),
+            ),
           // Top bar
           Positioned(
             left: 0, right: 0, top: 0,

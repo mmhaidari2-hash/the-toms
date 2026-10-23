@@ -912,12 +912,14 @@ class _ChatState extends ConsumerState<_Chat> {
 
   /// The place whose hotspots match this cover painting (the story's host, or the place that owns a
   /// special story-cover painting), so every painting gets tap areas.
+  bool get _borrowed => widget.c.artOf(widget.s.id)?.borrowed ?? false;
+
   Place? _tapHost(String cover, Place? host) =>
       host?.image == cover ? host : widget.c.places.where((p) => p.image == cover).firstOrNull;
 
   /// People in the painting the learner can reach (not the role they're playing).
   List<Hotspot> _people(Place? th) {
-    if (th == null) return const [];
+    if (th == null || _borrowed) return const [];
     final me = widget.s.playAs ?? ref.read(progressProvider).role;
     final seen = <String>{};
     return [for (final h in th.hotspots) if (!h.isProp && h.characterId != me && h.rect != null && widget.c.characterOrNull(h.characterId) != null && seen.add(h.characterId)) h];
@@ -951,7 +953,7 @@ class _ChatState extends ConsumerState<_Chat> {
             onTapUp: th == null || th.hotspots.isEmpty ? null : (d) {
               final x = (d.localPosition.dx - ox) / iw, y = (d.localPosition.dy - oy) / ih;
               final me = widget.s.playAs ?? ref.read(progressProvider).role;
-              final hs = hitTest(th.hotspots.where((h) => h.isProp || h.characterId != me), x, y);
+              final hs = hitTest(th.hotspots.where((h) => h.isProp || (!_borrowed && h.characterId != me)), x, y);
               if (hs != null) _onPaintingTap(hs, d.localPosition);
             },
             child: Stack(fit: StackFit.expand, children: [

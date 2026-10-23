@@ -56,3 +56,10 @@ Graded-reader covers will use crops of the existing place paintings for now. Bes
 Same warm painterly style as the town map, no text/logos, the Thompsons small in the foreground where natural: Elizabeth Tower (Big Ben) from Westminster Bridge; Houses of Parliament from the river; Westminster Abbey west front; Buckingham Palace with the Victoria Memorial; Tower of London White Tower; Tower Bridge raised; London Bridge with the City behind; St Paul's Cathedral dome from Millennium Bridge; London Eye at dusk; British Museum Great Court; Trafalgar Square with Nelson's Column and lions; Camden Lock market; Greenwich Royal Observatory and the Cutty Sark. Plus a red open-top sightseeing bus map icon.
 
 > Legal (docs/LEGAL_REVIEW.md §3–4): never render real logos — no TfL roundel, NHS lozenge, royal arms/cyphers, Parliament portcullis or brand marks. Fictional characters only; no real people or "in the style of" living artists.
+
+## Still wanted (2026-10-23): settings now on a borrowed painting
+Until these exist, tool/match_scene_art.py `BORROW` gives each scene the closest existing painting (no name tags on borrowed people).
+- nursery (24 scenes nur_1_1..nur_6_4): Vida's Nursery playroom, warm painterly style: Vida (nursery key worker, lanyard) kneeling with toddler William and a boy (Oscar) at a low table with play-dough; coat pegs with photos, small sinks, a nap corner with mats, a book corner, a door to a little garden. Second view: the nursery front door at pick-up time with Leslie collecting William.
+- hospital (5): Homerton outpatients reception + ward bay; George (76, cardigan) in a bed, Tom visiting, a nurse.
+- museum (4): natural history hall with a dinosaur skeleton, Nicola and William looking up, Tom with umbrella.
+- cinema (4): cinema foyer with popcorn and ticket screens, Ryan and friends; second view: seats in the dark auditorium.

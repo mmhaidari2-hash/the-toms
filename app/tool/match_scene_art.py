@@ -48,6 +48,22 @@ def setting(sid, s):
 def speakers(s):
     sp = {n['speaker'] for n in s['nodes'].values()} | {s['characterId']}
     return sp - NONSPEAK - ({s['guest']} if s.get('guest') else set())
+# 2026-10-23: settings with no painting of their own yet (nursery, hospital, museum, cinema) borrow the closest
+# existing painting per scene (the room/activity that best matches), so nothing opens on a blurred card.
+BORROW = {
+    'weda_illness': 'poorly',
+    'nur_1_1': 'firstday', 'nur_1_2': 'bathroom', 'nur_1_3': 'eveningtea', 'nur_1_4': 'playdate',
+    'nur_2_1': 'bathroom', 'nur_2_2': 'eveningtea', 'nur_2_3': 'poorly', 'nur_2_4': 'park',
+    'nur_3_1': 'playdate', 'nur_3_2': 'playdate', 'nur_3_3': 'living', 'nur_3_4': 'playdate',
+    'nur_4_1': 'firstday', 'nur_4_2': 'parentsevening', 'nur_4_3': 'parentsevening', 'nur_4_4': 'poorly',
+    'nur_5_1': 'parentsevening', 'nur_5_2': 'living', 'nur_5_3': 'parentsevening', 'nur_5_4': 'firstday',
+    'nur_6_1': 'parentsevening', 'nur_6_2': 'eveningtea', 'nur_6_3': 'school', 'nur_6_4': 'parentsevening',
+    'l2_u20_1': 'doctor', 'l2_u20_2': 'doctor', 'l2_u20_3': 'doctor', 'l2_u20_4': 'doctor', 'l3_u11_1': 'doctor',
+    'l2_u21_1': 'library', 'l2_u21_2': 'train', 'l2_u21_3': 'coffee', 'l2_u21_4': 'library',
+    'l2_u58_1': 'living', 'l2_u58_2': 'living', 'l2_u58_3': 'conference', 'l2_u58_4': 'pub',
+}
+# Fallback for any future scene in those settings.
+BORROW_SETTING = {'nursery': 'playdate', 'hospital': 'doctor', 'museum': 'library', 'cinema': 'living', 'work': 'interview'}
 out, need = {}, collections.defaultdict(list)
 for sid, s in scenes.items():
     if '__' in sid: continue  # role variants use their base scene's art
@@ -60,6 +76,10 @@ for sid, s in scenes.items():
     lab = LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', '')))
     if cands:
         out[sid] = dict(img=places[cands[0]]['image'], place=cands[0], spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0], labelFa=lab[1])
+    elif (BORROW.get(sid) or BORROW_SETTING.get(loc)) in places:
+        b = BORROW.get(sid) or BORROW_SETTING[loc]
+        out[sid] = dict(img=places[b]['image'], place=b, spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0], labelFa=lab[1], borrowed=True)
+        need['(borrowed) ' + loc].append((sid, s['title'], sorted(S)))
     else:
         bgp = loc if loc in places else next((pid for pid in places if GROUP.get(pid) == g and pid not in EVENT), None)
         out[sid] = dict(img=None, place=None, bg=f'assets/places/blur/{bgp}.webp' if bgp else None, spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0], labelFa=lab[1])
@@ -73,6 +93,6 @@ with open(os.path.join(H, 'audit', 'scenes_needing_art.md'), 'w') as f:
         f.write(f'## {loc} ({len(xs)})\n\n')
         for sid, t, S in xs: f.write(f"- `{sid}` {t} — {', '.join(S)}\n")
         f.write('\n')
-n = sum(len(x) for x in need.values())
+n = sum(len(x) for k, x in need.items() if not k.startswith('(borrowed)'))
 print(len(out), 'scenes;', len(out) - n, 'on a matching painting;', n, 'on a neutral location card')
 print({k: len(v) for k, v in sorted(need.items(), key=lambda x: -len(x[1]))})

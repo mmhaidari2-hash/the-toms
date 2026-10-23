@@ -50,9 +50,20 @@ void main() {
     await t.pump(const Duration(milliseconds: 300));
     expect(find.byKey(const ValueKey('loupe-label')), findsOneWidget, reason: 'spot $id named under the lens');
     final loupe = t.widget<MapLoupe>(find.byType(MapLoupe));
-    expect(loupe.title, isNotEmpty);
+    expect(loupe.spot?.id, id);
     expect(loupe.level, isNotNull);
-    expect(find.text(loupe.title!), findsWidgets);
+    expect(find.text(loupe.spot!.title), findsWidgets);
+    // The lens sits exactly over the pin (same x as the orb centre, unless clamped at a screen edge).
+    await t.pump(const Duration(milliseconds: 300));
+    final lens = t.getRect(find.byKey(const ValueKey('loupe-lens')));
+    final orbNow = t.getRect(find.byKey(ValueKey('spot-$id')));
+    if (orbNow.center.dx > 70 && orbNow.center.dx < 305) expect((lens.center.dx - orbNow.center.dx).abs(), lessThan(1.5), reason: 'lens centred on the pin');
+    // Small jitter around the pin keeps the same pin (hysteresis), no jumping.
+    for (final d in const [Offset(20, 8), Offset(-25, -10), Offset(30, 20), Offset(0, 0)]) {
+      await g.moveTo(orb + d);
+      await t.pump(const Duration(milliseconds: 60));
+      expect(t.widget<MapLoupe>(find.byType(MapLoupe)).spot?.id, id, reason: 'jitter $d stays on $id');
+    }
     await g.up();
     await t.pump(const Duration(milliseconds: 600));
     expect(find.byType(MapLoupe), findsNothing);

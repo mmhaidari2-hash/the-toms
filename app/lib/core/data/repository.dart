@@ -31,9 +31,12 @@ class RoleDef {
 class SceneArt {
   final String? img, place, bg;
   final String spot, label, labelFa;
-  const SceneArt({this.img, this.place, this.bg, required this.spot, required this.label, this.labelFa = ''});
+  /// The painting is borrowed from a similar room (no painting of this setting yet): its painted people
+  /// aren't this scene's cast, so they get no names or tap areas.
+  final bool borrowed;
+  const SceneArt({this.img, this.place, this.bg, required this.spot, required this.label, this.labelFa = '', this.borrowed = false});
   factory SceneArt.fromJson(Map<String, dynamic> j) =>
-      SceneArt(img: j['img'], place: j['place'], bg: j['bg'], spot: j['spot'], label: j['label'] ?? '', labelFa: j['labelFa'] ?? '');
+      SceneArt(img: j['img'], place: j['place'], bg: j['bg'], spot: j['spot'], label: j['label'] ?? '', labelFa: j['labelFa'] ?? '', borrowed: j['borrowed'] == true);
 }
 
 class ContentBundle {
