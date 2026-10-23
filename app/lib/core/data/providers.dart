@@ -184,6 +184,23 @@ class ProgressController extends Notifier<UserProgress> {
     if (la == _day(now.subtract(const Duration(days: 2))) && freezes > 0) return state.streak;
     return 0;
   }
+  DateTime get now => _now;
+  /// Days a streak freeze covered (most recent last).
+  Set<String> get freezeDays => _m('freeze:used').split(',').where((d) => d.isNotEmpty).toSet();
+  /// The last [n] days, oldest first: 'done' (practised), 'freeze' (covered by a freeze), 'today' (not yet) or 'missed'.
+  List<(DateTime, String)> streakDays([int n = 14]) {
+    final log = xpLog, fz = freezeDays, now = _now;
+    return [
+      for (var i = n - 1; i >= 0; i--)
+        () {
+          final d = DateTime(now.year, now.month, now.day - i);
+          final k = Motivation.day(d);
+          return (d, (log[k] ?? 0) > 0 ? 'done' : fz.contains(k) ? 'freeze' : i == 0 ? 'today' : 'missed');
+        }(),
+    ];
+  }
+  /// Practised today? If not and a streak is running, it is at risk.
+  bool get practisedToday => (xpLog[Motivation.day(_now)] ?? 0) > 0;
   void setDailyGoal(int xp) {
     state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:goal': '$xp'});
     _save();
@@ -208,6 +225,7 @@ class ProgressController extends Notifier<UserProgress> {
         fr -= 1;
         streak += 1;
         freezeUsed = true;
+        m['freeze:used'] = [...(m['freeze:used'] ?? '').split(',').where((d) => d.isNotEmpty), Motivation.day(now.subtract(const Duration(days: 1)))].reversed.take(10).toList().reversed.join(',');
       } else {
         streak = 1;
       }

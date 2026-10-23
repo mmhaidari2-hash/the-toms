@@ -12,6 +12,7 @@ import 'map_spots.dart';
 import '../shared/bottom_nav.dart';
 import 'level_up.dart';
 import '../shared/lang_bar.dart';
+import '../motivation/streak_sheet.dart';
 
 /// A region of the painted roadmap. [rects] are normalised (x, y, w, h) tap areas on map.webp.
 class MapRegion {
@@ -271,7 +272,7 @@ class _StatsChipState extends ConsumerState<_StatsChip> {
       if (!mounted || !ctrl.reminderDue()) return;
       ctrl.markReminded();
       final left = ctrl.dailyGoal - ctrl.xpToday;
-      final sent = await showNotification('English with the Toms', '$left XP to your daily goal. Keep your ${ctrl.currentStreak}-day streak going!');
+      final sent = await showNotification('New Life UK', ctrl.currentStreak > 0 ? 'Your ${ctrl.currentStreak}-day streak is waiting. $left XP to today\'s goal.' : '$left XP to your daily goal. One lesson will do it!');
       if (!sent && mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text('Reminder: $left XP to today\'s goal. One lesson will do it!')));
       }
@@ -288,7 +289,7 @@ class _StatsChipState extends ConsumerState<_StatsChip> {
       child: InkWell(
         key: const ValueKey('stats-chip'),
         customBorder: const StadiumBorder(),
-        onTap: () => context.push('/progress'),
+        onTap: () => showStreakSheet(context),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(10, 7, 10, 7),
           child: Row(mainAxisSize: MainAxisSize.min, children: [

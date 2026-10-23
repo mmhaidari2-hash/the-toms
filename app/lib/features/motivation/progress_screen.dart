@@ -169,7 +169,7 @@ class _Reminders extends ConsumerWidget {
             onPressed: () async {
               final s = status == 'granted' ? 'granted' : await requestNotifications();
               if (s == 'granted') {
-                final ok = await showNotification('English with the Toms', 'Five minutes today keeps your streak going!');
+                final ok = await showNotification('New Life UK', 'Five minutes today keeps your streak going!');
                 snack(ok ? 'Notifications are on.' : 'Notifications are blocked on this device. Use the calendar reminder.');
               } else {
                 snack('Notifications are blocked. Use the calendar reminder instead.');
@@ -183,7 +183,7 @@ class _Reminders extends ConsumerWidget {
           icon: const Icon(Icons.event_rounded),
           label: const Text('Add to calendar'),
           onPressed: () {
-            final ok = downloadFile('the-toms-daily-reminder.ics', 'text/calendar', reminderIcs(time.hour, time.minute, DateTime.now()));
+            final ok = downloadFile('new-life-uk-daily-reminder.ics', 'text/calendar', reminderIcs(time.hour, time.minute, DateTime.now()));
             snack(ok ? 'Open the file to add a daily reminder to your calendar.' : 'Calendar reminders work in the web app.');
           },
         ),

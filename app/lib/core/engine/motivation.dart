@@ -94,8 +94,8 @@ String reminderIcs(int hour, int minute, DateTime start, {String url = 'https://
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//New Life UK//Daily reminder//EN', 'CALSCALE:GREGORIAN',
     'BEGIN:VEVENT', 'UID:the-toms-daily-$d@thetoms.app', 'DTSTAMP:$stamp',
     'DTSTART:${d}T$t', 'DTEND:${d}T${two(end.hour)}${two(end.minute)}00', 'RRULE:FREQ=DAILY',
-    'SUMMARY:English with the Toms (5 minutes)', 'DESCRIPTION:Keep your streak going! $url', 'URL:$url',
-    'BEGIN:VALARM', 'TRIGGER:PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:Time for English with the Toms', 'END:VALARM',
+    'SUMMARY:New Life UK (5 minutes)', 'DESCRIPTION:Keep your streak going! $url', 'URL:$url',
+    'BEGIN:VALARM', 'TRIGGER:PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:Time for New Life UK', 'END:VALARM',
     'END:VEVENT', 'END:VCALENDAR', '',
   ].join('\r\n');
 }

@@ -107,11 +107,11 @@ class SpotMarker extends StatelessWidget {
                       ? const [Color(0xFFFFFFFF), Color(0xE6FBF3E4), Color(0xCCE9D7B8)]
                       : const [Color(0xCC6B6058), Color(0xE0332821), Color(0xF0201813)],
                 ),
-                border: Border.all(color: focus ? BL.red : visited ? const Color(0xFFFFD36B) : (open ? BL.gold : Colors.white38), width: focus ? 2.6 : visited ? 2.2 : 1.6),
+                border: Border.all(color: focus ? const Color(0xFFFFC83D) : visited ? const Color(0xFFE9C46A) : (open ? BL.gold : Colors.white38), width: focus ? 3.0 : open ? 2.0 : 1.4),
                 boxShadow: [
                   const BoxShadow(color: Color(0x66000000), blurRadius: 6, offset: Offset(0, 5)),
-                  if (focus) const BoxShadow(color: Color(0xCCE8463A), blurRadius: 16, spreadRadius: 3)
-                  else if (visited) const BoxShadow(color: Color(0xAAFFC94D), blurRadius: 14, spreadRadius: 2),
+                  if (focus) const BoxShadow(color: Color(0xCCFFC83D), blurRadius: 16, spreadRadius: 3)
+                  else if (visited) const BoxShadow(color: Color(0x66FFC94D), blurRadius: 8, spreadRadius: 1),
                 ],
               ),
               key: focus ? ValueKey('spot-focus-${s.id}') : null,

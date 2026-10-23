@@ -444,3 +444,10 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - Stored as `pref:plan = goal|minutes|target|start|lessonsLeftAtStart`. On track = no more than one lesson behind an even pace from start to target; "lessons this week" = remaining × 7 / days left.
 - Levels below the placement level read **Skipped ✓** on the map strip (not "0%").
 - Tests: `test/study_plan_test.dart`.
+
+## Streak sheet & gold map rings (run 10)
+- Tap the 🔥 chip on the map: streak count, today's state (done / at risk / start), the last 14 days (flame = practised, snowflake = covered by a freeze), freezes held (max 2, one per 7-day streak, used automatically for one missed day), the daily reminder switch and a link to reminder time/goals/badges.
+- Freeze-covered days are stored in `freeze:used` (last 10). Reminders and the calendar file now say "New Life UK".
+- Map place rings are warm gold for every state: current-level places have a thicker bright-gold ring with a glow, visited places a gold ring + green tick, locked places a faint ring + lock.
+- Android home-screen widget: needs the Android SDK/JDK on the box (not installed) — planned with the APK run.
+- Tests: `test/streak_test.dart`.
