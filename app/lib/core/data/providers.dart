@@ -21,7 +21,15 @@ export 'premium.dart';
 
 final progressStoreProvider = Provider<ProgressStore>((_) => MemoryProgressStore());
 final clockProvider = Provider<DateTime Function()>((_) => DateTime.now);
-final contentProvider = FutureProvider<ContentBundle>((ref) => ContentRepository().load());
+final contentProvider = FutureProvider<ContentBundle>((ref) async {
+  // Each file already retries; one more whole-bundle pass covers a half-loaded first visit.
+  try {
+    return await ContentRepository().load();
+  } catch (_) {
+    await Future.delayed(const Duration(milliseconds: 800));
+    return ContentRepository().load();
+  }
+});
 
 class TurnOutcome {
   final int trustDelta;

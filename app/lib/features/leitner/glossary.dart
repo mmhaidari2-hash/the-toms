@@ -1,3 +1,4 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
@@ -15,7 +16,7 @@ class Glossary {
 
   static Future<void> load([AssetBundle? b]) => _loading ??= () async {
         try {
-          _m = jsonDecode(await (b ?? rootBundle).loadString('assets/data/glossary.json')) as Map<String, dynamic>;
+          _m = jsonDecode(await loadAssetText('assets/data/glossary.json', b)) as Map<String, dynamic>;
         } catch (_) {
           _m = {};
         }

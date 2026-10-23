@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -53,7 +53,7 @@ class Missions {
   static int xp(int rating) => switch (rating) { 2 => 20, 1 => 15, _ => 3 };
 }
 
-final missionsProvider = FutureProvider<List<Mission>>((ref) async => Missions.parse(await rootBundle.loadString('assets/data/missions.json')));
+final missionsProvider = FutureProvider<List<Mission>>((ref) async => Missions.parse(await loadAssetText('assets/data/missions.json')));
 
 /// Which mission levels are open. Same rule as the Library, Cinema, Radio and Grammar School:
 /// A1 always; a higher level opens when the course reaches it, the previous Grammar class is passed,

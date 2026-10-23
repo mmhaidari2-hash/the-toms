@@ -19,6 +19,9 @@ const helperLanguages = [
   Lang('pt', 'Portuguese', 'Português'),
 ];
 
+/// Helper languages with full content today; the rest are shown as 'coming soon'.
+const readyLanguages = {'fa'};
+
 Lang langOf(String code) => helperLanguages.firstWhere((l) => l.code == code, orElse: () => helperLanguages.first);
 TextDirection dirOf(String code) => langOf(code).rtl ? TextDirection.rtl : TextDirection.ltr;
 

@@ -83,7 +83,25 @@ class _MapHomeState extends ConsumerState<MapHome> {
     final c = async.value;
     final pad = MediaQuery.paddingOf(context);
     if (c == null) {
-      return Scaffold(backgroundColor: BL.ink, body: Center(child: async.hasError ? FilledButton(onPressed: () => ref.invalidate(contentProvider), child: const Text('Try again')) : const CircularProgressIndicator(color: BL.gold)));
+      return Scaffold(
+        backgroundColor: BL.ink,
+        body: Center(
+          child: async.hasError
+              ? Padding(
+                  padding: const EdgeInsets.all(32),
+                  child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    const Icon(Icons.wifi_off_rounded, color: Colors.white54, size: 40),
+                    const SizedBox(height: 12),
+                    const Text("Hackney didn't load properly", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 18)),
+                    const SizedBox(height: 6),
+                    const Text('Usually a wobbly connection. Your progress is safe.', textAlign: TextAlign.center, style: TextStyle(color: Colors.white60)),
+                    const SizedBox(height: 16),
+                    FilledButton(key: const ValueKey('home-retry'), onPressed: () => ref.invalidate(contentProvider), child: const Text('Try again')),
+                  ]),
+                )
+              : const CircularProgressIndicator(color: BL.gold),
+        ),
+      );
     }
     final spots = ref.watch(spotsProvider).value ?? const <MapSpot>[];
     final next = ctrl.nextLesson(c.course);
@@ -321,55 +339,160 @@ class _Pin extends StatelessWidget {
   );
 }
 
-/// Everything that used to crowd the home screen.
+typedef _MI = (IconData, String, String, String);
+
+/// Everything that used to crowd the home screen — grouped so it reads at a glance.
 void showAppMenu(BuildContext context, WidgetRef ref) {
   final c = ref.read(contentProvider).value;
-  final items = <(IconData, String, String, String)>[
-    (Icons.route_rounded, 'Course path', 'مسیر درس‌ها', '/course'),
-    (Icons.local_fire_department_rounded, 'Streak, goal, league & badges', 'رکورد، هدف، لیگ و نشان‌ها', '/progress'),
-    (Icons.school_rounded, 'Grammar School', 'مدرسهٔ دستور زبان', '/school'),
-    (Icons.local_library_rounded, 'Library · graded readers', 'کتابخانه · کتاب‌های داستان', '/library'),
-    (Icons.movie_rounded, 'Cinema & dubbing', 'سینما و دوبله', '/cinema'),
-    (Icons.radio_rounded, 'Hackney Hum radio', 'رادیو هاکنی هام', '/radio'),
-    (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
-    (Icons.calendar_month_rounded, 'Seasonal events', 'جشن‌ها و مناسبت‌ها', '/seasons'),
-    (Icons.sports_esports_rounded, 'Park games', 'بازی‌های پارک', '/park'),
-    (Icons.directions_car_rounded, 'Driving School', 'آموزشگاه رانندگی', '/driving'),
-    (Icons.quiz_rounded, 'Driving theory test prep', 'آمادگی آزمون تئوری رانندگی', '/theory'),
-    (Icons.account_balance_rounded, 'Life in the UK test prep', 'آمادگی آزمون زندگی در بریتانیا', '/lifeuk'),
-    (Icons.hiking_rounded, 'Real-life missions', 'مأموریت‌های زندگی واقعی', '/missions'),
-    (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
-    if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
-    (Icons.workspace_premium_outlined, 'Premium (free in beta)', 'اشتراک ویژه (رایگان در دورهٔ آزمایشی)', '/premium'),
-    (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
-    (Icons.inventory_2_rounded, 'Leitner box', 'جعبهٔ لایتنر', '/leitner'),
-    (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
-    (Icons.quiz_rounded, 'Placement test', 'آزمون تعیین سطح', '/placement'),
-    (Icons.gavel_rounded, 'Privacy, terms & about', 'حریم خصوصی، شرایط و دربارهٔ اپ', '/legal'),
-    (Icons.help_outline_rounded, 'How it works', 'راهنمای برنامه', '/howto'),
+  final groups = <(String, String, List<_MI>)>[
+    ('Learn', 'یادگیری', [
+      (Icons.route_rounded, 'Course path', 'مسیر درس‌ها', '/course'),
+      (Icons.school_rounded, 'Grammar', 'دستور زبان', '/school'),
+      (Icons.inventory_2_rounded, 'Leitner box', 'جعبهٔ لایتنر', '/leitner'),
+      (Icons.quiz_rounded, 'Placement test', 'تعیین سطح', '/placement'),
+    ]),
+    ('Read, watch & listen', 'بخوان، ببین، گوش کن', [
+      (Icons.local_library_rounded, 'Library', 'کتابخانه', '/library'),
+      (Icons.movie_rounded, 'Cinema', 'سینما و دوبله', '/cinema'),
+      (Icons.radio_rounded, 'Radio', 'رادیو', '/radio'),
+      (Icons.chat_rounded, 'Messages', 'پیام‌ها', '/messages'),
+    ]),
+    ('Life in the UK', 'زندگی در بریتانیا', [
+      (Icons.hiking_rounded, 'Missions', 'مأموریت‌ها', '/missions'),
+      (Icons.account_balance_rounded, 'Life in the UK test', 'آزمون زندگی در بریتانیا', '/lifeuk'),
+      (Icons.directions_car_rounded, 'Driving School', 'آموزشگاه رانندگی', '/driving'),
+      (Icons.fact_check_rounded, 'Theory test', 'آزمون تئوری', '/theory'),
+      (Icons.calendar_month_rounded, 'Seasons', 'مناسبت‌ها', '/seasons'),
+      if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
+    ]),
+    ('You & the family', 'شما و خانواده', [
+      (Icons.local_fire_department_rounded, 'Progress', 'پیشرفت و نشان‌ها', '/progress'),
+      (Icons.family_restroom_rounded, 'Family', 'خانواده و داستان‌ها', '/family'),
+      (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
+      (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
+      (Icons.sports_esports_rounded, 'Park games', 'بازی‌های پارک', '/park'),
+    ]),
   ];
+  final more = <_MI>[
+    (Icons.badge_rounded, 'Your name', 'نام شما', '#name'),
+    (Icons.workspace_premium_outlined, 'Premium', 'اشتراک ویژه', '/premium'),
+    (Icons.help_outline_rounded, 'How it works', 'راهنما', '/howto'),
+    (Icons.gavel_rounded, 'Privacy & terms', 'حریم خصوصی', '/legal'),
+  ];
+  void go(BuildContext sheet, String route) {
+    Navigator.of(sheet).pop();
+    if (route == '#name') {
+      showNameDialog(context, ref);
+    } else {
+      context.push(route);
+    }
+  }
+
   showModalBottomSheet<void>(
     context: context,
     backgroundColor: BL.cream,
     showDragHandle: true,
     isScrollControlled: true,
+    constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * .88),
     shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(26))),
     builder: (sheet) => SafeArea(
-      child: SingleChildScrollView(child: Column(mainAxisSize: MainAxisSize.min, children: [
-        for (final (icon, en, fa, route) in items)
-          ListTile(
-            key: ValueKey('menu-$route'),
-            leading: Icon(icon, color: BL.navy),
-            title: Text(en, style: const TextStyle(fontWeight: FontWeight.w700)),
-            subtitle: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
-            trailing: const Icon(Icons.chevron_right_rounded),
-            onTap: () {
-              Navigator.of(sheet).pop();
-              context.push(route);
-            },
-          ),
-        const SizedBox(height: 8),
-      ])),
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+        child: LayoutBuilder(builder: (context, box) {
+          final w = (box.maxWidth - 16) / 3;
+          return Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+            for (final (en, fa, items) in groups) ...[
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 10, 4, 8),
+                child: Row(children: [
+                  Text(en.toUpperCase(), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w900, letterSpacing: 1, color: BL.navy)),
+                  const Spacer(),
+                  Text(fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                ]),
+              ),
+              Wrap(spacing: 8, runSpacing: 8, children: [
+                for (final (icon, ten, tfa, route) in items)
+                  SizedBox(width: w, child: _MenuTile(key: ValueKey('menu-$route'), icon: icon, en: ten, fa: tfa, onTap: () => go(sheet, route))),
+              ]),
+            ],
+            const SizedBox(height: 14),
+            const Divider(height: 1),
+            for (final (icon, en, fa, route) in more)
+              ListTile(
+                key: ValueKey('menu-$route'),
+                dense: true,
+                visualDensity: VisualDensity.compact,
+                leading: Icon(icon, color: BL.muted, size: 20),
+                title: Text(en, style: const TextStyle(fontWeight: FontWeight.w700)),
+                trailing: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                onTap: () => go(sheet, route),
+              ),
+          ]);
+        }),
+      ),
     ),
   );
+}
+
+class _MenuTile extends StatelessWidget {
+  final IconData icon;
+  final String en, fa;
+  final VoidCallback onTap;
+  const _MenuTile({super.key, required this.icon, required this.en, required this.fa, required this.onTap});
+  @override
+  Widget build(BuildContext context) => Material(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(16),
+          onTap: onTap,
+          child: Container(
+            height: 92,
+            padding: const EdgeInsets.fromLTRB(6, 10, 6, 6),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(16), border: Border.all(color: BL.mist)),
+            child: Column(children: [
+              Container(
+                width: 34,
+                height: 34,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(11),
+                  gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF34548C), BL.navy]),
+                  boxShadow: [BoxShadow(color: BL.navy.withValues(alpha: .25), blurRadius: 6, offset: const Offset(0, 3))],
+                ),
+                child: Icon(icon, color: Colors.white, size: 19),
+              ),
+              const SizedBox(height: 6),
+              Text(en, maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11.5, height: 1.1)),
+              const Spacer(),
+              Text(fa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(9.5, color: BL.muted)),
+            ]),
+          ),
+        ),
+      );
+}
+
+/// Change the name the family uses in text (the recorded voices never say a name).
+Future<void> showNameDialog(BuildContext context, WidgetRef ref) async {
+  final ctrl = ref.read(progressProvider.notifier);
+  final t = TextEditingController(text: ctrl.pref('name'));
+  final v = await showDialog<String>(
+    context: context,
+    builder: (d) => AlertDialog(
+      title: const Text('What should the family call you?'),
+      content: TextField(
+        key: const ValueKey('name-field'),
+        controller: t,
+        autofocus: true,
+        maxLength: 24,
+        textCapitalization: TextCapitalization.words,
+        decoration: const InputDecoration(hintText: 'Your first name (optional)', counterText: ''),
+        onSubmitted: (s) => Navigator.of(d).pop(s),
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.of(d).pop(), child: const Text('Cancel')),
+        FilledButton(key: const ValueKey('name-save'), onPressed: () => Navigator.of(d).pop(t.text), child: const Text('Save')),
+      ],
+    ),
+  );
+  if (v != null) ctrl.setPref('name', v.trim());
 }

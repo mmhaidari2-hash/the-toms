@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -169,7 +169,7 @@ class Seasons {
   }
 }
 
-final seasonsProvider = FutureProvider<List<SEvent>>((ref) async => Seasons.parse(await rootBundle.loadString('assets/data/seasons.json')));
+final seasonsProvider = FutureProvider<List<SEvent>>((ref) async => Seasons.parse(await loadAssetText('assets/data/seasons.json')));
 
 /// Which event levels are open. Same rule as the Library, Cinema, Radio, Messages and Grammar School.
 class SeasonGate {

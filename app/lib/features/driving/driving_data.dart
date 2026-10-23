@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -79,7 +79,7 @@ class Drive {
   static int pct(int right) => (right * 100 / 3).round();
 }
 
-final drivingProvider = FutureProvider<List<DLesson>>((ref) async => Drive.parse(await rootBundle.loadString('assets/data/driving.json')));
+final drivingProvider = FutureProvider<List<DLesson>>((ref) async => Drive.parse(await loadAssetText('assets/data/driving.json')));
 
 /// Which dialogue levels are open. Same rule as the Library, Cinema, Radio, Messages, Seasons and Grammar School.
 class DriveGate {

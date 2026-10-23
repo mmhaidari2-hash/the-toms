@@ -49,17 +49,20 @@ V={ # speaker -> (voice, pitch, rate)
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
 # TTS-only respellings for Persian words the British voices mangle (audit 2026-10)
 PRON={r'\bsetar\b':'seh-taar',r'\bSimorgh\b':'See-morgh'}
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); from you_neutral import neutral
 def clean(t):
-  t=t.replace('{you}','Mehdi')
+  t=neutral(t)  # never say a name: the learner's name is theirs (shown in text only)
   for a,b in PRON.items(): t=re.sub(a,b,t)
   t=re.sub(r'\*[^*]*\*','',t)
   t=re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t); return t.strip()
 items={}
+NAMED=set()
 def add(sp,t):
   if not t or not isinstance(t,str): return
   c=clean(t)
   if len(re.sub(r'\W','',c))<2: return
   items[key(sp,t)]=(sp,c)
+  if '{you}' in t or 'Mehdi' in t: NAMED.add(key(sp,t))
 for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
   d=json.load(open(f))
   for n in d['nodes'].values():
@@ -132,7 +135,10 @@ if nov: sys.exit(f'NO VOICE for speakers {nov}: add them to V')
 def sig(sp): return '|'.join(V[sp])
 MANP=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_manifest.json')
 MAN=json.load(open(MANP)) if os.path.exists(MANP) else {}
-todo=[(k,v) for k,v in items.items() if not os.path.exists(f'{OUT}/{k}.mp3') or (k in MAN and MAN[k]!=[v[0],sig(v[0])])]
+# One-off: clips recorded when '{you}' was spoken as 'Mehdi' are re-rendered with the neutral wording.
+YOUF=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','you_neutral_v1.done')
+REDO=set() if os.path.exists(YOUF) else NAMED
+todo=[(k,v) for k,v in items.items() if k in REDO or not os.path.exists(f'{OUT}/{k}.mp3') or (k in MAN and MAN[k]!=[v[0],sig(v[0])])]
 print(len(items),'lines,',len(todo),'to render')
 async def one(k,sp,t,sem):
   v,p,r=V.get(sp,V['narrator'])
@@ -154,3 +160,4 @@ for f in os.listdir(OUT):
 json.dump(sorted(k for k in items if os.path.exists(f'{OUT}/{k}.mp3')),open(f'{OUT}/index.json','w'))
 os.makedirs(os.path.dirname(MANP),exist_ok=True)
 json.dump({k:[sp,sig(sp)] for k,(sp,_) in sorted(items.items()) if os.path.exists(f'{OUT}/{k}.mp3')},open(MANP,'w'),separators=(',',':'))
+open(YOUF,'w').write('clips with the learner name re-rendered neutrally\n')

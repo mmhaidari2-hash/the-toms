@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Graded readers (assets/data/library.json, built by tool/make_library.py).
@@ -77,4 +77,4 @@ class Library {
   static int chapterXp(int pct) => pct >= pass ? (pct >= 100 ? 15 : 10) : 3;
 }
 
-final libraryProvider = FutureProvider<List<Book>>((ref) async => Library.parse(await rootBundle.loadString('assets/data/library.json')));
+final libraryProvider = FutureProvider<List<Book>>((ref) async => Library.parse(await loadAssetText('assets/data/library.json')));

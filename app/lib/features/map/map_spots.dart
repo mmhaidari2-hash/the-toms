@@ -1,7 +1,7 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -23,7 +23,7 @@ class MapSpot {
 }
 
 final spotsProvider = FutureProvider<List<MapSpot>>((ref) async {
-  final j = jsonDecode(await rootBundle.loadString('assets/data/spots.json')) as List;
+  final j = jsonDecode(await loadAssetText('assets/data/spots.json')) as List;
   return [for (final s in j) MapSpot.fromJson(s)];
 });
 

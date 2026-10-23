@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -79,7 +79,7 @@ class Messages {
   static int score({required bool qFirst, required int reply}) => (qFirst ? 40 : 0) + reply;
 }
 
-final messagesProvider = FutureProvider<List<Thread>>((ref) async => Messages.parse(await rootBundle.loadString('assets/data/messages.json')));
+final messagesProvider = FutureProvider<List<Thread>>((ref) async => Messages.parse(await loadAssetText('assets/data/messages.json')));
 
 /// Which message levels are open. Same rule as the Library, Cinema, Radio, Missions and Grammar School.
 class ThreadGate {

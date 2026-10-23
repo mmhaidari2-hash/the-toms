@@ -1,8 +1,9 @@
+import 'asset_text.dart';
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
-import 'package:flutter/services.dart';
 
+import '../i18n/you.dart';
 import 'speech.dart';
 
 /// Natural British voices only: every authored line is pre-rendered (tool/render_voices.py) as an mp3,
@@ -13,7 +14,7 @@ class Voice {
 
   static Future<void> load() async {
     try {
-      _index = (jsonDecode(await rootBundle.loadString('assets/audio/index.json')) as List).cast<String>().toSet();
+      _index = (jsonDecode(await loadAssetText('assets/audio/index.json')) as List).cast<String>().toSet();
     } catch (_) {}
     SpeechInput.unlockOnFirstTap();
   }
@@ -26,7 +27,7 @@ class Voice {
   static String? _find(String speaker, String text) {
     // Mehdi as an NPC (role switching) reuses the guest's recorded lines.
     for (final sp in {speaker, if (speaker == 'mehdi') 'me', if (speaker == 'me') ...guests}) {
-      for (final t in {text, text.replaceAll('Mehdi', '{you}')}) {
+      for (final t in {text, text.replaceAll('Mehdi', '{you}'), ?youRawOf[text]}) {
         final k = key(sp, t);
         if (_index.contains(k)) return k;
       }

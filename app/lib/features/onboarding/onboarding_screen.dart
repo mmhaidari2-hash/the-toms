@@ -27,8 +27,18 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
   int _step = 0; // 0 language · 1 how it works (Tom & Nicola) · 2 level / placement test
   String _lang = 'fa';
   int _level = 0;
+  final _name = TextEditingController();
+
+  void _saveName() => ref.read(progressProvider.notifier).setPref('name', _name.text.trim());
+
+  @override
+  void dispose() {
+    _name.dispose();
+    super.dispose();
+  }
 
   void _finish(int tier) {
+    _saveName();
     ref.read(progressProvider.notifier).finishOnboarding(startTier: tier, lang: _lang);
     context.go('/');
   }
@@ -144,7 +154,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
         spacing: 8,
         runSpacing: 8,
         children: [
-          for (final l in helperLanguages)
+          for (final l in helperLanguages.where((l) => readyLanguages.contains(l.code)))
             Pressable(
               onTap: () => setState(() => _lang = l.code),
               child: AnimatedContainer(
@@ -163,8 +173,36 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
             ),
         ],
       ),
+      const SizedBox(height: 8),
+      Text(
+        'Coming soon: ${helperLanguages.where((l) => !readyLanguages.contains(l.code)).map((l) => l.name).join(' · ')}',
+        style: const TextStyle(color: Colors.white38, fontSize: 12),
+      ),
+      const SizedBox(height: 22),
+      const Text('What should the family call you?', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
+      const SizedBox(height: 8),
+      TextField(
+        key: const ValueKey('onb-name'),
+        controller: _name,
+        textCapitalization: TextCapitalization.words,
+        maxLength: 24,
+        style: const TextStyle(color: Colors.white),
+        decoration: InputDecoration(
+          hintText: 'Your first name (optional)',
+          hintStyle: const TextStyle(color: Colors.white38),
+          counterText: '',
+          filled: true,
+          fillColor: Colors.white.withValues(alpha: .08),
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: BorderSide.none),
+        ),
+      ),
+      const SizedBox(height: 6),
+      const Text('Shown in chats. The recorded voices never say a name.', style: TextStyle(color: Colors.white38, fontSize: 12)),
       const SizedBox(height: 18),
-      _cta('Continue', () => setState(() => _step = 1)),
+      _cta('Continue', () {
+        _saveName();
+        setState(() => _step = 1);
+      }),
     ],
   );
 
@@ -176,6 +214,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
         key: const ValueKey('take-placement'),
         onTap: () {
           ref.read(progressProvider.notifier).setLang(_lang);
+          _saveName();
           context.go('/placement');
         },
         child: Container(

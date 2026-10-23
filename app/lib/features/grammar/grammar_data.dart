@@ -1,7 +1,7 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Grammar School content (assets/data/grammar.json, built by tool/make_grammar.py).
@@ -73,4 +73,4 @@ class Grammar {
   static List<GTopic> parse(String raw) => [for (final t in (jsonDecode(raw) as Map)['topics'] as List) GTopic.fromJson(t)];
 }
 
-final grammarProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await rootBundle.loadString('assets/data/grammar.json')));
+final grammarProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/grammar.json')));

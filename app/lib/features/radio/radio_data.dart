@@ -1,7 +1,7 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -61,7 +61,7 @@ class RadioStation {
   };
 }
 
-final radioProvider = FutureProvider<List<Segment>>((ref) async => RadioStation.parse(await rootBundle.loadString('assets/data/radio.json')));
+final radioProvider = FutureProvider<List<Segment>>((ref) async => RadioStation.parse(await loadAssetText('assets/data/radio.json')));
 
 /// Which radio levels are on air. Same rule as the Library, Cinema and Grammar School:
 /// A1 always; a higher level opens when the course reaches it, the previous Grammar class is passed,

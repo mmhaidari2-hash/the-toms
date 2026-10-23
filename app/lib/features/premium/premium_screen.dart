@@ -119,8 +119,11 @@ class _Plan extends StatelessWidget {
                 ])),
                 const SizedBox(width: 8),
                 Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                  Text(price, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14, color: BL.ink, decoration: beta ? TextDecoration.lineThrough : null)),
-                  if (beta) const Text('FREE in beta', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 12, color: BL.green)),
+                  // No crossed-out "was" prices: during the beta it's simply free.
+                  if (beta)
+                    const Text('FREE in beta', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 13, color: BL.green))
+                  else
+                    Text(price, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14, color: BL.ink)),
                 ]),
               ]),
             ),

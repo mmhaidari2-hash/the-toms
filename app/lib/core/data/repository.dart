@@ -3,6 +3,8 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+import '../platform/asset_text.dart';
+
 import '../models/character.dart';
 import '../models/dialogue_node.dart';
 import '../models/milestone.dart';
@@ -102,7 +104,7 @@ class ContentRepository {
   final AssetBundle bundle;
   ContentRepository([AssetBundle? b]) : bundle = b ?? rootBundle;
 
-  Future<dynamic> _json(String p) async => jsonDecode(await bundle.loadString(p));
+  Future<dynamic> _json(String p) async => jsonDecode(await loadAssetText(p, bundle));
 
   Future<ContentBundle> load() async {
     final chars = [for (final c in await _json('assets/data/characters.json')) Character.fromJson(c)];
@@ -110,8 +112,8 @@ class ContentRepository {
     final bundle = await _json('assets/data/scenes_bundle.json') as Map<String, dynamic>;
     final scenes = <String, Scene>{for (final e in bundle.entries) e.key: Scene.fromJson(e.value)};
     final ms = <String, List<Milestone>>{};
-    for (final id in List<String>.from(await _json('assets/data/growth_index.json'))) {
-      final g = await _json('assets/data/${id}_growth.json');
+    final ids = List<String>.from(await _json('assets/data/growth_index.json'));
+    for (final g in await Future.wait([for (final id in ids) _json('assets/data/${id}_growth.json')])) {
       ms[g['characterId'] as String] = [for (final m in g['milestones']) Milestone.fromJson(m)];
     }
     final tiers = [for (final t in await _json('assets/data/places.json')) Tier.fromJson(t)];

@@ -246,13 +246,13 @@
     },
     {
      "keywords": [
-      "residence",
-      "permit",
-      "i've",
-      "got"
+      "evisa",
+      "share",
+      "code",
+      "show"
      ],
-     "suggestion": "I've got my residence permit. Is that OK?",
-     "suggestionFa": "کارت اقامتم را دارم. اشکالی نداره؟",
+     "suggestion": "I can show my eVisa with a share code. Is that OK?",
+     "suggestionFa": "می‌تونم ای‌ویزام رو با کد اشتراک نشون بدم. اشکالی نداره؟",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -272,8 +272,8 @@
      "fa": "گواهینامه"
     },
     {
-     "word": "residence permit",
-     "fa": "اجازهٔ اقامت"
+     "word": "eVisa",
+     "fa": "ویزای الکترونیکی"
     }
    ]
   },

@@ -1,6 +1,6 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/data/providers.dart';
@@ -61,7 +61,7 @@ class Cinema {
   static int dubXp(int pct) => pct >= 70 ? (pct >= 90 ? 15 : 10) : 3;
 }
 
-final cinemaProvider = FutureProvider<List<Scene>>((ref) async => Cinema.parse(await rootBundle.loadString('assets/data/cinema.json')));
+final cinemaProvider = FutureProvider<List<Scene>>((ref) async => Cinema.parse(await loadAssetText('assets/data/cinema.json')));
 
 /// Which Cinema levels are showing. Same rule as the Library shelves and Grammar School classes:
 /// A1 always; a higher level opens when the course reaches it, the previous Grammar class is passed,

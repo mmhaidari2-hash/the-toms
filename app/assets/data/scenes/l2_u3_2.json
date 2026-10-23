@@ -130,13 +130,11 @@
    "branches": [
     {
      "keywords": [
-      "rahimi",
       "third",
-      "mehdi",
       "may"
      ],
-     "suggestion": "It's Mehdi Rahimi, the third of May, 1996.",
-     "suggestionFa": "مهدی رحیمی، سوم مه ۱۹۹۶.",
+     "suggestion": "It's {you}, the third of May, 1996.",
+     "suggestionFa": "{you}، سوم مه ۱۹۹۶.",
      "trustDelta": 6,
      "next": "n4",
      "success": true

@@ -79,11 +79,10 @@
      "keywords": [
       "fourteenth",
       "nineteen",
-      "haidari",
       "ninety"
      ],
-     "suggestion": "It's Mehdi Haidari, fourteenth of May, nineteen ninety-six.",
-     "suggestionFa": "مهدی حیدری، چهاردهم مه، هزار و نهصد و نود و شش.",
+     "suggestion": "It's {you}, fourteenth of May, nineteen ninety-six.",
+     "suggestionFa": "{you}، چهاردهم مه، هزار و نهصد و نود و شش.",
      "trustDelta": 6,
      "next": "n3",
      "success": true

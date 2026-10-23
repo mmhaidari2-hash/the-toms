@@ -7,7 +7,7 @@ receptionist: Good morning, Mare Street Surgery, Tracy speaking. Sorry for the w
 W: surgery=مطب پزشک ; wait=انتظار ; book an appointment=وقت گرفتن ; if possible=اگر ممکن است
 C: Many GP surgeries release same-day appointments at 8am, so phone lines are very busy then. | وقت‌های همان‌روز ساعت ۸ صبح باز می‌شوند.
 receptionist: Can I take your name and date of birth, please? | می‌تونم اسم و تاریخ تولدتون را داشته باشم؟
-> It's Mehdi Haidari, fourteenth of May, nineteen ninety-six. | مهدی حیدری، چهاردهم مه، هزار و نهصد و نود و شش.
+> It's {you}, fourteenth of May, nineteen ninety-six. | {you}، چهاردهم مه، هزار و نهصد و نود و شش.
 > Sure. Shall I spell my surname? | حتماً. فامیلم را هجی کنم؟
 W: date of birth=تاریخ تولد ; spell=هجی کردن ; surname=نام خانوادگی
 receptionist: Thank you. And what's the problem, briefly? It helps me book the right person. | ممنون. و مشکل چیه، خلاصه؟ کمکم می‌کنه آدم درست را براتون رزرو کنم.

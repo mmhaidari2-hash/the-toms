@@ -1,8 +1,8 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import '../shared/nav.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -29,7 +29,7 @@ class PlacementItem {
 }
 
 final placementProvider = FutureProvider<(List<PlacementItem>, Map<String, dynamic>?)>((ref) async {
-  final j = jsonDecode(await rootBundle.loadString('assets/data/placement.json'));
+  final j = jsonDecode(await loadAssetText('assets/data/placement.json'));
   return ([for (final i in j['items']) PlacementItem.fromJson(i)], j['speak'] as Map<String, dynamic>?);
 });
 

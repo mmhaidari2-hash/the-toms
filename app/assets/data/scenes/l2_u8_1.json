@@ -69,12 +69,12 @@
    "branches": [
     {
      "keywords": [
-      "mohammad",
-      "haidari",
-      "mehdi"
+      "it's",
+      "name",
+      "me"
      ],
-     "suggestion": "It's Mohammad Mehdi Haidari.",
-     "suggestionFa": "محمد مهدی حیدری.",
+     "suggestion": "It's {you}.",
+     "suggestionFa": "{you}.",
      "trustDelta": 6,
      "next": "n3",
      "success": true

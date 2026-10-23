@@ -328,9 +328,9 @@
   "n7": {
    "id": "n7",
    "speaker": "sian",
-   "text": "I've checked — no unusual activity. I'll add extra security to the account. You should also report it to Action Fraud.",
+   "text": "I've checked — no unusual activity. I'll add extra security to the account. You should also report it to the police through Report Fraud.",
    "translations": {
-    "fa": "چک کردم — فعالیت غیرعادی نیست. یه امنیت اضافه به حساب اضافه می‌کنم. باید به اکشن فراد هم گزارش بدید."
+    "fa": "چک کردم — فعالیت غیرعادی نیست. یه امنیت اضافه به حساب اضافه می‌کنم. باید از طریق «ریپورت فراد» به پلیس هم گزارش بدید."
    },
    "branches": [
     {
@@ -339,8 +339,8 @@
       "what's",
       "fraud"
      ],
-     "suggestion": "What's Action Fraud?",
-     "suggestionFa": "اکشن فراد چیه؟",
+     "suggestion": "What's Report Fraud?",
+     "suggestionFa": "ریپورت فراد چیه؟",
      "trustDelta": 6,
      "next": "n8",
      "success": true
@@ -369,12 +369,12 @@
      "fa": "امنیت اضافه"
     },
     {
-     "word": "Action Fraud",
-     "fa": "مرکز ملی گزارش کلاهبرداری"
+     "word": "Report Fraud",
+     "fa": "سرویس ملی گزارش کلاهبرداری"
     }
    ],
    "cultureNote": {
-    "en": "Action Fraud is the UK's national reporting centre for fraud and cybercrime. You can also forward scam texts to 7726.",
+    "en": "Report Fraud (it replaced Action Fraud in December 2025) is the national service for reporting fraud and cybercrime in England, Wales and Northern Ireland: reportfraud.police.uk or 0300 123 2040. In Scotland, call Police Scotland on 101. You can also forward scam texts to 7726.",
     "fa": "پیامک‌های کلاهبرداری را به ۷۷۲۶ بفرستید."
    }
   },

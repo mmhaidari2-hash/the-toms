@@ -1,3 +1,4 @@
+import '../../core/i18n/you.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -47,7 +48,7 @@ class TapObject extends Item {
 }
 
 /// Builds a practice set from a lesson (or a whole unit for the checkpoint). Deterministic per id.
-List<Item> buildPractice(ContentBundle c, String id, {List<NewWord> review = const []}) {
+List<Item> buildPractice(ContentBundle c, String id, {List<NewWord> review = const [], String name = ''}) {
   final course = c.course;
   final unit = course.unit(id);
   final lessons = unit?.lessons ?? [course.lesson(id)!];
@@ -59,7 +60,7 @@ List<Item> buildPractice(ContentBundle c, String id, {List<NewWord> review = con
       for (final sid in l.sceneIds)
         if (c.scenes[sid] != null)
           for (final n in c.scenes[sid]!.nodes.values)
-            for (final b in n.branches) (b.suggestion.replaceAll('{you}', 'Mehdi'), b.suggestionFa.replaceAll('{you}', 'مهدی')),
+            for (final b in n.branches) (fillYou(b.suggestion, name), fillYouFa(b.suggestionFa, name)),
   ]..shuffle(rnd);
   List<String> opts(String right, Iterable<String> from) {
     final o = from.where((x) => x.toLowerCase() != right.toLowerCase()).toSet().toList()..shuffle(rnd);
@@ -133,7 +134,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
         for (final w in l.words)
           if (!mine.contains(w.word) && p.leitnerBox.containsKey(w.word)) w,
     ]..sort((a, b) => (p.leitnerBox[a.word]?.box ?? 1).compareTo(p.leitnerBox[b.word]?.box ?? 1));
-    _items = buildPractice(c, widget.id, review: review);
+    _items = buildPractice(c, widget.id, review: review, name: ref.read(progressProvider.notifier).pref('name'));
     WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
   }
 
@@ -317,7 +318,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                   if (_built.length == it.shuffled.length) {
                     final s = _built.map((i) => it.shuffled[i]).join(' ');
                     _answer(s == it.answer.join(' '), say: null);
-                    Voice.say('me', it.answer.join(' ').replaceAll('Mehdi', '{you}'));
+                    Voice.say('me', it.answer.join(' '));
                   }
                 }),
               ),

@@ -1,7 +1,7 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Driving theory test prep (assets/data/theory.json, built by tool/make_theory.py). ORIGINAL questions only, written
@@ -74,4 +74,4 @@ class Thy {
   static bool passed(int right, int total) => total > 0 && right * mockQuestions >= passMark * total;
 }
 
-final thyProvider = FutureProvider<List<ThyChapter>>((ref) async => Thy.parse(await rootBundle.loadString('assets/data/theory.json')));
+final thyProvider = FutureProvider<List<ThyChapter>>((ref) async => Thy.parse(await loadAssetText('assets/data/theory.json')));

@@ -1,7 +1,7 @@
+import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// Life in the UK test prep (assets/data/lifeuk.json, built by tool/make_lifeuk.py). ORIGINAL questions only,
@@ -72,4 +72,4 @@ class Luk {
   static bool passed(int right, int total) => pct(right, total) >= passPct;
 }
 
-final lukProvider = FutureProvider<List<LukChapter>>((ref) async => Luk.parse(await rootBundle.loadString('assets/data/lifeuk.json')));
+final lukProvider = FutureProvider<List<LukChapter>>((ref) async => Luk.parse(await loadAssetText('assets/data/lifeuk.json')));

@@ -1,4 +1,5 @@
 
+import '../../core/i18n/you.dart';
 import 'package:flutter/material.dart';
 import '../shared/nav.dart';
 import 'package:flutter/services.dart';
@@ -152,11 +153,20 @@ class _ChatState extends ConsumerState<_Chat> {
   String? _speakNote;
 
   Character get ch => widget.c.character(widget.s.characterId);
-  Character _who(String id) => widget.c.characterOrNull(id) ?? ch;
+  Character _who(String id) {
+    final c = widget.c.characterOrNull(id) ?? ch;
+    return id == 'mehdi' ? c.copyWithName(_learner.isEmpty ? 'Your neighbour' : _learner) : c;
+  }
   MoodInfo get _mood => EmotionEngine.label(ref.watch(progressProvider).moodMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
-  String get _me => widget.s.guest != null ? widget.c.character(widget.s.guest!).name : widget.s.playAs != null ? 'Mehdi' : (widget.c.characterOrNull(ref.read(progressProvider).role)?.name ?? 'Mehdi');
-  String get _meName => widget.c.characterOrNull(widget.s.playAs ?? widget.s.guest ?? ref.read(progressProvider).role)?.name ?? 'Mehdi';
-  String _t(String s) => s.replaceAll('{you}', _me);
+  /// The learner's own name (empty: lines read with no name; the audio never says one).
+  String get _learner => ref.read(progressProvider.notifier).pref('name');
+  String get _meName {
+    final id = widget.s.playAs ?? widget.s.guest ?? ref.read(progressProvider).role;
+    if (id == 'me' || id == 'mehdi') return _learner.isEmpty ? 'You' : _learner;
+    return widget.c.characterOrNull(id)?.name ?? (_learner.isEmpty ? 'You' : _learner);
+  }
+  String _t(String s) => widget.s.guest != null ? s.replaceAll('{you}', widget.c.character(widget.s.guest!).name) : fillYou(s, _learner);
+  String? _tFa(String? s) => s == null ? null : widget.s.guest != null ? s.replaceAll('{you}', widget.c.character(widget.s.guest!).name) : fillYouFa(s, _learner);
   String get _lang => ref.read(progressProvider).lang;
 
   @override
@@ -237,8 +247,8 @@ class _ChatState extends ConsumerState<_Chat> {
       _pan = null;
       _line = _t(n.text);
       _raw = n.text;
-      _lineFa = lineTranslation(n.translations, _lang);
-      _msgs.add(_Msg(n.speaker, _t(n.text), node: n, fa: lineTranslation(n.translations, _lang), raw: n.text));
+      _lineFa = _tFa(lineTranslation(n.translations, _lang));
+      _msgs.add(_Msg(n.speaker, _t(n.text), node: n, fa: _tFa(lineTranslation(n.translations, _lang)), raw: n.text));
       _sel = null;
       _misses = 0;
       _hints = false;
@@ -279,9 +289,9 @@ class _ChatState extends ConsumerState<_Chat> {
       final ghost = RecastEngine.ghostHint(node);
       setState(() {
         _hints = _misses >= 2;
-        _fb = _Feedback(_FbKind.ghost, 'Ghost hint', ghost.replaceAll('You mean… ', ''), node.branches.first.suggestionFa);
+        _fb = _Feedback(_FbKind.ghost, 'Ghost hint', _t(ghost.replaceAll('You mean… ', '')), _tFa(node.branches.first.suggestionFa));
       });
-      await _show(speaker.id, _misses == 1 ? ghost : 'No worries — have a peek at these 👇', null);
+      await _show(speaker.id, _misses == 1 ? _t(ghost) : 'No worries — have a peek at these 👇', null);
       return;
     }
     _correct += r.recastTip == null ? 1 : 0;
@@ -358,7 +368,7 @@ class _ChatState extends ConsumerState<_Chat> {
       }
       return;
     }
-    final targets = [for (final b in _node?.branches ?? const <Branch>[]) b.suggestion];
+    final targets = [for (final b in _node?.branches ?? const <Branch>[]) _t(b.suggestion)];
     final best = targets.isEmpty ? null : Pronunciation.bestOf(targets, r.alternatives);
     if (best == null || best.$2.score < 35) {
       // Free speech that matches no option: send what was heard, like typing it.
@@ -382,7 +392,7 @@ class _ChatState extends ConsumerState<_Chat> {
     final i = _pronIdx, branches = _node?.branches ?? const <Branch>[];
     if (i == null || i >= branches.length) return;
     setState(() => _pron = null);
-    _send(branches[i].suggestion);
+    _send(_t(branches[i].suggestion));
   }
 
   void _setSpeakMode(bool on) {
@@ -899,7 +909,7 @@ class _ChatState extends ConsumerState<_Chat> {
     final m = _msgs.lastWhere((m) => m.speaker == h.characterId && m.system == null && m.text.isNotEmpty, orElse: () => const _Msg('', ''));
     DialogueNode? firstBy(String? sid) => widget.c.scenes[sid]?.nodes.values.where((n) => n.speaker == h.characterId).firstOrNull;
     final n = m.node ?? firstBy(widget.s.id) ?? firstBy(h.sceneId) ?? firstBy(widget.c.characterOrNull(h.characterId)?.starterScene);
-    if (n != null) return (en: _t(n.text), raw: n.text, fa: lineTranslation(n.translations, _lang));
+    if (n != null) return (en: _t(n.text), raw: n.text, fa: _tFa(lineTranslation(n.translations, _lang)));
     if (m.text.isNotEmpty) return (en: m.text, raw: m.text, fa: null);
     return (en: '', raw: '', fa: null);
   }
@@ -1148,7 +1158,7 @@ class _ChatState extends ConsumerState<_Chat> {
             Padding(
               padding: const EdgeInsets.only(right: 8),
               child: Pressable(
-                onTap: () => _send(b.suggestion),
+                onTap: () => _send(_t(b.suggestion)),
                 child: Container(
                   width: 210,
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
@@ -1157,8 +1167,8 @@ class _ChatState extends ConsumerState<_Chat> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text(b.suggestion, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
-                      Text(b.suggestionFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: Colors.white54)),
+                      Text(_t(b.suggestion), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
+                      Text(_tFa(b.suggestionFa)!, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: Colors.white54)),
                     ],
                   ),
                 ),

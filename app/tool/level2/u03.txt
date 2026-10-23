@@ -43,7 +43,7 @@ hughes: Of course. Are you registered with us? Is it a check-up or are you in pa
 > I'm not registered yet. I've got toothache. | هنوز ثبت‌نام نکردم. دندون‌درد دارم.
 W: registered=ثبت‌نام شده ; check-up=معاینه ; in pain=درد داشتن ; toothache=دندان‌درد
 hughes: Right. Could I take your name and date of birth, please? | خب. می‌تونم اسم و تاریخ تولدتون را داشته باشم؟
-> It's Mehdi Rahimi, the third of May, 1996. | مهدی رحیمی، سوم مه ۱۹۹۶.
+> It's {you}, the third of May, 1996. | {you}، سوم مه ۱۹۹۶.
 > Sure. Shall I spell my surname? | حتماً. فامیلم را هجی کنم؟
 W: date of birth=تاریخ تولد ; spell=هجی کردن ; surname=نام خانوادگی
 hughes: Yes, please spell it. Lovely, thank you. I've got Thursday at ten past two, or Friday morning. | آره لطفاً هجی کنید. عالی، ممنون. پنجشنبه دو و ده دقیقه دارم، یا جمعه صبح.

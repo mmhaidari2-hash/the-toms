@@ -59,8 +59,8 @@ W: email=ایمیل کردن ; instead=به جای آن ; send=فرستادن
 C: Surgeries can't refuse to register you just because you have no proof of address. But it helps. | مطب نمی‌تواند فقط به خاطر نداشتن مدرک آدرس ثبت‌نام را رد کند.
 receptionist: Lovely, I've got it. And some photo ID? A passport or a driving licence? | عالیه، رسید. و یه کارت شناسایی عکس‌دار؟ پاسپورت یا گواهینامه؟
 > Here's my passport. | این پاسپورتمه.
-> I've got my residence permit. Is that OK? | کارت اقامتم را دارم. اشکالی نداره؟
-W: photo ID=کارت شناسایی عکس‌دار ; passport=گذرنامه ; driving licence=گواهینامه ; residence permit=اجازهٔ اقامت
+> I can show my eVisa with a share code. Is that OK? | می‌تونم ای‌ویزام رو با کد اشتراک نشون بدم. اشکالی نداره؟
+W: photo ID=کارت شناسایی عکس‌دار ; passport=گذرنامه ; driving licence=گواهینامه ; eVisa=ویزای الکترونیکی ; share code=کد اشتراک
 receptionist: That's perfect, thank you. Your registration takes about two weeks. We'll send you a text. | عالیه، ممنون. ثبت‌نامتون حدود دو هفته طول می‌کشه. پیامک براتون می‌فرستیم.
 > Two weeks? What if I get ill before then? | دو هفته؟ اگه قبلش مریض بشم چی؟
 > OK. Thanks for your help. | باشه. ممنون از کمکتون.

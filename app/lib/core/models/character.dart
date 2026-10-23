@@ -30,6 +30,8 @@ class Character {
     this.mood = 'neutral',
   });
 
+  Character copyWithName(String n) => Character(id: id, name: n, role: role, roleFa: roleFa, age: age, growthStage: growthStage, accent: accent, color: color, avatar: avatar, bio: bio, bioFa: bioFa, starterScene: starterScene, family: family, mood: mood);
+
   factory Character.fromJson(Map<String, dynamic> j) => Character(
     id: j['id'],
     name: j['name'],
