@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -48,14 +49,14 @@ class MissionLocked extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
                   const SizedBox(height: 14),
-                  Text(m.title, textAlign: TextAlign.center, style: BL.display(24)),
-                  Text(m.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
+                  Text(hl(m.title), textAlign: TextAlign.center, style: BL.display(24)),
+                  Text(hl(m.titleFa), textDirection: helperDir, style: BL.fa(14, color: BL.muted)),
                   const SizedBox(height: 18),
-                  Text('This is a ${m.level} mission, which isn\'t open for you yet', textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+                  Text(hl('This is a ${m.level} mission, which isn\'t open for you yet'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
                   const SizedBox(height: 8),
-                  Text(en, key: const ValueKey('mis-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.muted, height: 1.4)),
+                  Text(hl(en), key: const ValueKey('mis-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.muted, height: 1.4)),
                   const SizedBox(height: 6),
-                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
+                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
                   const SizedBox(height: 18),
                   TextButton(key: const ValueKey('mis-locked-back'), onPressed: () => context.go('/missions'), child: const Text('Back to Missions')),
                 ]),
@@ -145,8 +146,8 @@ class _MissionState extends ConsumerState<_Mission> {
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(m.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
-                Text('${m.level}  ·  Real-life mission', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+                Text(hl(m.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                Text(hl('${m.level}  ·  Real-life mission'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
               ]),
             ),
             ClipOval(child: Image.asset(m.icon, width: 38, height: 38, fit: BoxFit.cover, errorBuilder: (_, _, _) => const SizedBox(width: 38))),
@@ -166,9 +167,9 @@ class _MissionState extends ConsumerState<_Mission> {
   Widget _label(String en, String fa) => Padding(
         padding: const EdgeInsets.only(top: 18, bottom: 6),
         child: Row(children: [
-          Expanded(child: Text(en.toUpperCase(), style: const TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
+          Expanded(child: Text(hl(en.toUpperCase()), style: const TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
           const SizedBox(width: 8),
-          Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+          Text(hl(fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
         ]),
       );
 
@@ -190,9 +191,9 @@ class _MissionState extends ConsumerState<_Mission> {
               const SizedBox(width: 10),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                  if (!you) Text(p.spName.toUpperCase(), style: const TextStyle(fontSize: 10, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: BL.muted)),
-                  Text(p.en, style: TextStyle(fontSize: 15.5, fontWeight: you ? FontWeight.w700 : FontWeight.w500, height: 1.3)),
-                  Text(p.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+                  if (!you) Text(hl(p.spName.toUpperCase()), style: const TextStyle(fontSize: 10, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: BL.muted)),
+                  Text(hl(p.en), style: TextStyle(fontSize: 15.5, fontWeight: you ? FontWeight.w700 : FontWeight.w500, height: 1.3)),
+                  Text(hl(p.fa), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
                 ]),
               ),
             ]),
@@ -212,8 +213,8 @@ class _MissionState extends ConsumerState<_Mission> {
           const SizedBox(width: 10),
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              Text(t.$1, style: const TextStyle(fontSize: 13.5, height: 1.35, fontWeight: FontWeight.w600)),
-              Text(t.$2, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+              Text(hl(t.$1), style: const TextStyle(fontSize: 13.5, height: 1.35, fontWeight: FontWeight.w600)),
+              Text(hl(t.$2), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
             ]),
           ),
         ]),
@@ -230,9 +231,9 @@ class _MissionState extends ConsumerState<_Mission> {
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               const Text('YOUR MISSION', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w900, color: BL.gold)),
               const SizedBox(height: 4),
-              Text(m.goal, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w700, height: 1.35)),
+              Text(hl(m.goal), style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w700, height: 1.35)),
               const SizedBox(height: 4),
-              Text(m.goalFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+              Text(hl(m.goalFa), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
             ]),
           ),
           _label('Phrases to use', 'عبارت‌هایی که می‌گویی'),
@@ -247,7 +248,7 @@ class _MissionState extends ConsumerState<_Mission> {
             onPressed: _go,
             style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
             icon: const Icon(Icons.directions_walk_rounded),
-            label: const Text("I'm ready · آماده‌ام", style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+            label: Text(hl("I'm ready · آماده‌ام"), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
           ),
         ],
       );
@@ -266,9 +267,9 @@ class _MissionState extends ConsumerState<_Mission> {
               const Icon(Icons.directions_walk_rounded, color: Colors.white, size: 40),
               const SizedBox(height: 6),
               Text('Ready? Go!', key: const ValueKey('mis-go-title'), style: BL.display(32, color: Colors.white)),
-              Text('آماده‌ای؟ برو!', textDirection: TextDirection.rtl, style: BL.fa(15, color: Colors.white70)),
+              Text(hl('آماده‌ای؟ برو!'), textDirection: helperDir, style: BL.fa(15, color: Colors.white70)),
               const SizedBox(height: 14),
-              Text(m.goal, textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 14.5, height: 1.35, fontWeight: FontWeight.w600)),
+              Text(hl(m.goal), textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 14.5, height: 1.35, fontWeight: FontWeight.w600)),
               const SizedBox(height: 14),
               for (final p in m.say.take(3))
                 Container(
@@ -276,13 +277,13 @@ class _MissionState extends ConsumerState<_Mission> {
                   margin: const EdgeInsets.only(bottom: 6),
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                   decoration: BoxDecoration(color: Colors.white.withValues(alpha: .14), borderRadius: BorderRadius.circular(12)),
-                  child: Text('“${p.en}”', style: const TextStyle(color: Colors.white, fontSize: 15.5, fontWeight: FontWeight.w700)),
+                  child: Text(hl('“${p.en}”'), style: const TextStyle(color: Colors.white, fontSize: 15.5, fontWeight: FontWeight.w700)),
                 ),
             ]),
           ),
           const SizedBox(height: 12),
           const Text('Go and do it in real life, then come back here to check in. Nothing is recorded: it\'s just you.', textAlign: TextAlign.center, style: TextStyle(color: BL.muted, fontSize: 13, height: 1.4)),
-          Text('برو و در زندگی واقعی انجامش بده، بعد برگرد و گزارش بده. هیچ چیزی ضبط نمی‌شود.', textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(12.5, color: BL.muted)),
+          Text(hl('برو و در زندگی واقعی انجامش بده، بعد برگرد و گزارش بده. هیچ چیزی ضبط نمی‌شود.'), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(12.5, color: BL.muted)),
           const SizedBox(height: 16),
           FilledButton.icon(
             key: const ValueKey('mis-checkin'),
@@ -291,7 +292,7 @@ class _MissionState extends ConsumerState<_Mission> {
             icon: const Icon(Icons.task_alt_rounded),
             label: const Text("I'm back · check in", style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
           ),
-          TextButton(key: const ValueKey('mis-later'), onPressed: () => context.go('/missions'), child: const Text("I'll do it later · بعداً")),
+          TextButton(key: const ValueKey('mis-later'), onPressed: () => context.go('/missions'), child: Text(hl("I'll do it later · بعداً"))),
         ],
       );
 
@@ -310,12 +311,12 @@ class _MissionState extends ConsumerState<_Mission> {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
               child: Row(children: [
-                Text(emoji, style: const TextStyle(fontSize: 24)),
+                Text(hl(emoji), style: const TextStyle(fontSize: 24)),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                    Text(en, style: TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: on ? Colors.white : BL.ink)),
-                    Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: on ? Colors.white70 : BL.muted)),
+                    Text(hl(en), style: TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: on ? Colors.white : BL.ink)),
+                    Text(hl(fa), textDirection: helperDir, style: BL.fa(12.5, color: on ? Colors.white70 : BL.muted)),
                   ]),
                 ),
               ]),
@@ -330,7 +331,7 @@ class _MissionState extends ConsumerState<_Mission> {
       padding: EdgeInsets.fromLTRB(16, 4, 16, bottom + 24),
       children: [
         Text('How did it go?', style: BL.display(24)),
-        Text('چطور پیش رفت؟', textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
+        Text(hl('چطور پیش رفت؟'), textDirection: helperDir, style: BL.fa(14, color: BL.muted)),
         const SizedBox(height: 12),
         opt(2, '😀', 'It went well', 'خوب پیش رفت'),
         opt(1, '🙂', 'I did it, but it was hard', 'انجامش دادم، ولی سخت بود'),
@@ -352,7 +353,7 @@ class _MissionState extends ConsumerState<_Mission> {
                     child: Row(children: [
                       Icon(used.contains(i) ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded, size: 20, color: used.contains(i) ? BL.ink : BL.muted),
                       const SizedBox(width: 8),
-                      Expanded(child: Text(m.say[i].en, style: const TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700))),
+                      Expanded(child: Text(hl(m.say[i].en), style: const TextStyle(fontSize: 13.5, fontWeight: FontWeight.w700))),
                     ]),
                   ),
                 ),
@@ -364,9 +365,9 @@ class _MissionState extends ConsumerState<_Mission> {
           key: const ValueKey('mis-save'),
           onPressed: rating == null ? null : _save,
           style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
-          child: const Text('Save my check-in · ثبت', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+          child: Text(hl('Save my check-in · ثبت'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
         ),
-        TextButton(key: const ValueKey('mis-back-prep'), onPressed: () => setState(() => stage = _Stage.prep), child: const Text('Back to the phrases · برگشت به عبارت‌ها')),
+        TextButton(key: const ValueKey('mis-back-prep'), onPressed: () => setState(() => stage = _Stage.prep), child: Text(hl('Back to the phrases · برگشت به عبارت‌ها'))),
       ],
     );
   }

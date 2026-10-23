@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -18,7 +19,7 @@ Widget _chip(String t, {bool gold = false, IconData? icon}) => Container(
   decoration: BoxDecoration(color: gold ? BL.gold : Colors.white.withValues(alpha: .12), borderRadius: BorderRadius.circular(99), border: Border.all(color: Colors.white24)),
   child: Row(mainAxisSize: MainAxisSize.min, children: [
     if (icon != null) Padding(padding: const EdgeInsets.only(right: 5), child: Icon(icon, size: 15, color: gold ? BL.ink : Colors.white)),
-    Text(t, style: TextStyle(color: gold ? BL.ink : Colors.white, fontWeight: FontWeight.w700, fontSize: 13)),
+    Text(hl(t), style: TextStyle(color: gold ? BL.ink : Colors.white, fontWeight: FontWeight.w700, fontSize: 13)),
   ]),
 );
 
@@ -49,7 +50,7 @@ class _HowToState extends ConsumerState<HowToPages> {
     _Page('nicola', "Swap roles! Play as me, Mum or Ryan — you say our lines. It's well fun!", 'نقش‌ها را عوض کن! جای من، مامان یا رایان بازی کن و جمله‌های ما را بگو.', () => Consumer(builder: (context, ref, _) {
       final c = ref.watch(contentProvider).value;
       return Row(children: [
-        if (c != null) for (final id in ['nicola', 'leslie', 'ryan', 'tom']) Padding(padding: const EdgeInsets.only(right: 10), child: Column(children: [Avatar(c.character(id), size: 54), const SizedBox(height: 4), Text(c.character(id).name, style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w700))])),
+        if (c != null) for (final id in ['nicola', 'leslie', 'ryan', 'tom']) Padding(padding: const EdgeInsets.only(right: 10), child: Column(children: [Avatar(c.character(id), size: 54), const SizedBox(height: 4), Text(hl(c.character(id).name), style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w700))])),
       ]);
     })),
   ];
@@ -67,7 +68,7 @@ class _HowToState extends ConsumerState<HowToPages> {
           itemBuilder: (_, i) {
             final pg = _pages[i];
             return ListView(padding: const EdgeInsets.fromLTRB(24, 24, 24, 12), children: [
-              Text('How it works  ${i + 1}/${_pages.length}', style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w800, letterSpacing: 1.2, fontSize: 12)),
+              Text(hl('How it works  ${i + 1}/${_pages.length}'), style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w800, letterSpacing: 1.2, fontSize: 12)),
               const SizedBox(height: 14),
               Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 if (c != null) Avatar(c.character(pg.who), size: 64),
@@ -77,10 +78,10 @@ class _HowToState extends ConsumerState<HowToPages> {
                     padding: const EdgeInsets.all(14),
                     decoration: BoxDecoration(color: BL.cream, borderRadius: const BorderRadius.only(topRight: Radius.circular(18), bottomLeft: Radius.circular(18), bottomRight: Radius.circular(18))),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text(pg.who == 'tom' ? 'Tom' : 'Nicola', style: const TextStyle(color: BL.red, fontWeight: FontWeight.w800, fontSize: 12)),
-                      Text(pg.en, style: BL.display(17)),
+                      Text(hl(pg.who == 'tom' ? 'Tom' : 'Nicola'), style: const TextStyle(color: BL.red, fontWeight: FontWeight.w800, fontSize: 12)),
+                      Text(hl(pg.en), style: BL.display(17)),
                       const SizedBox(height: 4),
-                      SizedBox(width: double.infinity, child: Text(pg.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted))),
+                      SizedBox(width: double.infinity, child: Text(hl(pg.fa), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted))),
                     ]),
                   ),
                 ),
@@ -103,7 +104,7 @@ class _HowToState extends ConsumerState<HowToPages> {
             key: const ValueKey('howto-next'),
             style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(99))),
             onPressed: last ? widget.onDone : () => _pc.nextPage(duration: const Duration(milliseconds: 320), curve: Curves.easeOutCubic),
-            child: Text(last ? 'Got it!' : 'Next', style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
+            child: Text(hl(last ? 'Got it!' : 'Next'), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
           ),
         ]),
       ),

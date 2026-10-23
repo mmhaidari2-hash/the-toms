@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -35,7 +36,7 @@ Future<void> showLevelUp(BuildContext context, int level) {
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 const Text('🎉', style: TextStyle(fontSize: 46)),
                 Text('Level up!', style: BL.display(32, color: BL.red)),
-                Text('سطحت بالا رفت!', textDirection: TextDirection.rtl, style: BL.fa(15, color: BL.muted)),
+                Text(hl('سطحت بالا رفت!'), textDirection: helperDir, style: BL.fa(15, color: BL.muted)),
                 const SizedBox(height: 14),
                 Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   _chip(prev, false),
@@ -43,11 +44,11 @@ Future<void> showLevelUp(BuildContext context, int level) {
                   _chip(cefr, true),
                 ]),
                 const SizedBox(height: 14),
-                Text("You passed $prev. ${zone?.title ?? 'The next district'} is now open on the map, and your path continues at $cefr.",
+                Text(hl("You passed $prev. ${zone?.title ?? 'The next district'} is now open on the map, and your path continues at $cefr."),
                     textAlign: TextAlign.center, style: const TextStyle(fontSize: 14.5, height: 1.35, color: BL.ink, fontWeight: FontWeight.w600)),
                 const SizedBox(height: 4),
-                Text('سطح $prev را گذراندی. ${zone?.titleFa ?? 'منطقهٔ بعدی'} روی نقشه باز شد و مسیرت از $cefr ادامه پیدا می‌کند.',
-                    textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+                Text(hl('سطح $prev را گذراندی. ${zone?.titleFa ?? 'منطقهٔ بعدی'} روی نقشه باز شد و مسیرت از $cefr ادامه پیدا می‌کند.'),
+                    textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
                 const SizedBox(height: 18),
                 SizedBox(
                   width: double.infinity,
@@ -58,7 +59,7 @@ Future<void> showLevelUp(BuildContext context, int level) {
                       Navigator.of(ctx).pop();
                       context.push('/course?level=$level');
                     },
-                    child: Text('Start $cefr', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+                    child: Text(hl('Start $cefr'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
                   ),
                 ),
                 TextButton(key: const ValueKey('level-up-later'), onPressed: () => Navigator.of(ctx).pop(), child: const Text('Back to the map')),
@@ -74,5 +75,5 @@ Future<void> showLevelUp(BuildContext context, int level) {
 Widget _chip(String t, bool on) => Container(
   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
   decoration: BoxDecoration(color: on ? BL.red : const Color(0x22000000), borderRadius: BorderRadius.circular(14)),
-  child: Text(t, style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: on ? Colors.white : BL.muted)),
+  child: Text(hl(t), style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: on ? Colors.white : BL.muted)),
 );

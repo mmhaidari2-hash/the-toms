@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -70,7 +71,7 @@ class SchoolScreen extends ConsumerWidget {
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   const Text('Mrs Ellis', style: TextStyle(fontWeight: FontWeight.w800, color: BL.green, fontSize: 13)),
                   const Text('Welcome to my classroom! Short lessons, lots of practice, and a mini test at the end of each topic.', style: TextStyle(fontSize: 13.5, height: 1.35, color: BL.ink)),
-                  Text('به کلاس من خوش آمدید! درس‌های کوتاه، تمرین زیاد و یک آزمونک در پایان هر موضوع.', textDirection: TextDirection.rtl, style: BL.fa(12)),
+                  Text(hl('به کلاس من خوش آمدید! درس‌های کوتاه، تمرین زیاد و یک آزمونک در پایان هر موضوع.'), textDirection: helperDir, style: BL.fa(12)),
                 ]),
               ),
             ),
@@ -108,7 +109,7 @@ class _ClassCard extends StatelessWidget {
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                 behavior: SnackBarBehavior.floating,
                 duration: const Duration(seconds: 2),
-                content: Text(soon ? 'Class ${c.code} is coming soon · به‌زودی' : 'Pass Class ${Grammar.classes[Grammar.classes.indexOf(c) - 1].code} first, or reach this level in the course.'),
+                content: Text(hl(soon ? 'Class ${c.code} is coming soon · به‌زودی' : 'Pass Class ${Grammar.classes[Grammar.classes.indexOf(c) - 1].code} first, or reach this level in the course.')),
               ));
             },
             child: Container(
@@ -122,12 +123,12 @@ class _ClassCard extends StatelessWidget {
               child: Row(children: [
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text('Class ${c.code} · ${c.nameFa}', style: BL.display(22, color: Colors.white)),
-                    Text(c.name, style: const TextStyle(color: Color(0xFFCFE3D6), fontWeight: FontWeight.w700, fontSize: 12.5)),
+                    Text(hl('Class ${c.code} · ${c.nameFa}'), style: BL.display(22, color: Colors.white)),
+                    Text(hl(c.name), style: const TextStyle(color: Color(0xFFCFE3D6), fontWeight: FontWeight.w700, fontSize: 12.5)),
                     const SizedBox(height: 6),
-                    Text(c.blurb, style: const TextStyle(color: Colors.white, fontSize: 12.5, height: 1.3)),
+                    Text(hl(c.blurb), style: const TextStyle(color: Colors.white, fontSize: 12.5, height: 1.3)),
                     const SizedBox(height: 8),
-                    Text(soon ? 'Coming soon · به‌زودی' : '$done of ${ts.length} topics passed', style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w800, fontSize: 12)),
+                    Text(hl(soon ? 'Coming soon · به‌زودی' : '$done of ${ts.length} topics passed'), style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w800, fontSize: 12)),
                   ]),
                 ),
                 const SizedBox(width: 8),
@@ -163,8 +164,8 @@ class ClassScreen extends ConsumerWidget {
         children: [
           const Row(children: [NavBack(fallback: '/school'), SizedBox(width: 10), Text('GRAMMAR SCHOOL', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))]),
           const SizedBox(height: 14),
-          Text('Class ${c.code} · ${c.nameFa}', style: BL.display(28)),
-          Text(c.name, style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700)),
+          Text(hl('Class ${c.code} · ${c.nameFa}'), style: BL.display(28)),
+          Text(hl(c.name), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700)),
           const SizedBox(height: 14),
           for (var i = 0; i < ts.length; i++)
             Builder(builder: (_) {
@@ -179,16 +180,16 @@ class ClassScreen extends ConsumerWidget {
                     contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
                     leading: CircleAvatar(
                       backgroundColor: passed ? BL.green : (open ? chalk : BL.mist),
-                      child: passed ? const Icon(Icons.check_rounded, color: Colors.white) : Text('${i + 1}', style: TextStyle(color: open ? Colors.white : BL.muted, fontWeight: FontWeight.w800)),
+                      child: passed ? const Icon(Icons.check_rounded, color: Colors.white) : Text(hl('${i + 1}'), style: TextStyle(color: open ? Colors.white : BL.muted, fontWeight: FontWeight.w800)),
                     ),
-                    title: Text(t.title, style: TextStyle(fontWeight: FontWeight.w800, color: open ? BL.ink : BL.muted)),
-                    subtitle: Text(t.titleFa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
-                    trailing: open ? (s == null ? const Icon(Icons.play_circle_fill_rounded, color: BL.red, size: 30) : Text('$s%', style: TextStyle(fontWeight: FontWeight.w800, color: passed ? BL.green : BL.red))) : const Icon(Icons.lock_rounded, color: BL.muted),
+                    title: Text(hl(t.title), style: TextStyle(fontWeight: FontWeight.w800, color: open ? BL.ink : BL.muted)),
+                    subtitle: Text(hl(t.titleFa), textDirection: helperDir, style: BL.fa(12.5)),
+                    trailing: open ? (s == null ? const Icon(Icons.play_circle_fill_rounded, color: BL.red, size: 30) : Text(hl('$s%'), style: TextStyle(fontWeight: FontWeight.w800, color: passed ? BL.green : BL.red))) : const Icon(Icons.lock_rounded, color: BL.muted),
                     onTap: () {
                       if (open) {
                         context.push('/grammar/${t.id}');
                       } else {
-                        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(behavior: SnackBarBehavior.floating, duration: Duration(seconds: 2), content: Text('Pass the topic before this one first · اول موضوع قبلی را قبول شو')));
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: Duration(seconds: 2), content: Text(hl('Pass the topic before this one first · اول موضوع قبلی را قبول شو'))));
                       }
                     },
                   ),

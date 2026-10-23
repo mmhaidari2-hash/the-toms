@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -35,9 +36,9 @@ class CinemaScreen extends ConsumerWidget {
               const Row(children: [NavButtons(light: true), SizedBox(width: 10), Text('THE PICTURE HOUSE', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold))]),
               const SizedBox(height: 10),
               Text('Cinema & dubbing', style: BL.display(28, color: Colors.white)),
-              Text('سینما و دوبله · صحنه‌های کوتاه بریتانیایی؛ تماشا کن، بعد خودت دوبله کن', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+              Text(hl('سینما و دوبله · صحنه‌های کوتاه بریتانیایی؛ تماشا کن، بعد خودت دوبله کن'), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
               const SizedBox(height: 6),
-              Text('$watched of ${scenes.length} scenes watched  ·  watch, dub, answer', key: const ValueKey('cinema-count'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w600, fontSize: 12.5)),
+              Text(hl('$watched of ${scenes.length} scenes watched  ·  watch, dub, answer'), key: const ValueKey('cinema-count'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w600, fontSize: 12.5)),
             ]),
           ),
           for (final lv in Library.levels)
@@ -68,23 +69,23 @@ class _Row extends ConsumerWidget {
               decoration: BoxDecoration(color: open ? BL.red : Colors.white24, borderRadius: BorderRadius.circular(8)),
               child: Row(mainAxisSize: MainAxisSize.min, children: [
                 if (!open) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
-                Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+                Text(hl(level.code), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
               ]),
             ),
             const SizedBox(width: 8),
             Expanded(
               child: Text.rich(
                 TextSpan(children: [
-                  TextSpan(text: level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
+                  TextSpan(text: hl(level.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
                   const TextSpan(text: '  '),
-                  TextSpan(text: level.nameFa, style: BL.fa(13, color: Colors.white60)),
+                  TextSpan(text: hl(level.nameFa), style: BL.fa(13, color: Colors.white60)),
                 ]),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
             ),
             const SizedBox(width: 6),
-            Text(open ? '${scenes.where((s) => ctrl.sceneDone(s.id)).length}/${scenes.length}' : 'Locked · قفل', key: ValueKey('cine-status-${level.code}'), style: const TextStyle(color: Colors.white60, fontSize: 12, fontWeight: FontWeight.w700)),
+            Text(hl(open ? '${scenes.where((s) => ctrl.sceneDone(s.id)).length}/${scenes.length}' : 'Locked · قفل'), key: ValueKey('cine-status-${level.code}'), style: const TextStyle(color: Colors.white60, fontSize: 12, fontWeight: FontWeight.w700)),
           ]),
         ),
         const SizedBox(height: 10),
@@ -109,7 +110,7 @@ class _Row extends ConsumerWidget {
                         final (en, fa) = CinemaGate.why(level.code);
                         ScaffoldMessenger.of(context)
                           ..hideCurrentSnackBar()
-                          ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa', key: const ValueKey('cine-locked-snack'))));
+                          ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'), key: const ValueKey('cine-locked-snack'))));
                       }
                     },
                   ),
@@ -144,10 +145,10 @@ class _Poster extends StatelessWidget {
               right: 12,
               bottom: 10,
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(scene.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white, w: FontWeight.w700)),
-                Text(scene.titleFa, maxLines: 1, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white70)),
+                Text(hl(scene.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white, w: FontWeight.w700)),
+                Text(hl(scene.titleFa), maxLines: 1, textDirection: helperDir, style: BL.fa(12, color: Colors.white70)),
                 const SizedBox(height: 2),
-                Text('${scene.lines.length} lines  ·  ${scene.seconds}s  ·  dub ${scene.cast.firstWhere((c) => c.sp == scene.dub).spName}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white60, fontSize: 11, fontWeight: FontWeight.w600)),
+                Text(hl('${scene.lines.length} lines  ·  ${scene.seconds}s  ·  dub ${scene.cast.firstWhere((c) => c.sp == scene.dub).spName}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white60, fontSize: 11, fontWeight: FontWeight.w600)),
               ]),
             ),
             Positioned(
@@ -156,7 +157,7 @@ class _Poster extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
                 decoration: BoxDecoration(color: BL.gold, borderRadius: BorderRadius.circular(5)),
-                child: Text(scene.level, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w900, color: cinemaDark)),
+                child: Text(hl(scene.level), style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w900, color: cinemaDark)),
               ),
             ),
             Positioned(
@@ -168,7 +169,7 @@ class _Poster extends StatelessWidget {
                     key: ValueKey('scene-dub-${scene.id}'),
                     padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     decoration: BoxDecoration(color: Colors.black54, borderRadius: BorderRadius.circular(6)),
-                    child: Text('🎙 $dub%', style: const TextStyle(color: Colors.white, fontSize: 10.5, fontWeight: FontWeight.w800)),
+                    child: Text(hl('🎙 $dub%'), style: const TextStyle(color: Colors.white, fontSize: 10.5, fontWeight: FontWeight.w800)),
                   ),
                 if (done) ...[
                   const SizedBox(width: 4),

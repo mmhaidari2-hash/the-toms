@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -28,8 +29,8 @@ class ProgressScreen extends ConsumerWidget {
           child: child,
         );
     Text h(String en, String fa) => Text.rich(TextSpan(children: [
-          TextSpan(text: en, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, color: BL.ink)),
-          TextSpan(text: '   $fa', style: BL.fa(12, color: BL.muted)),
+          TextSpan(text: hl(en), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, color: BL.ink)),
+          TextSpan(text: hl('   $fa'), style: BL.fa(12, color: BL.muted)),
         ]));
     return Scaffold(
       backgroundColor: BL.cream,
@@ -44,10 +45,10 @@ class ProgressScreen extends ConsumerWidget {
               const Icon(Icons.local_fire_department_rounded, size: 46, color: BL.red),
               const SizedBox(width: 8),
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text('$streak-day streak', style: BL.display(22)),
-                Text(streak == 0 ? 'Do one lesson today to start a streak.' : 'Freezes: ${ctrl.freezes} of ${Motivation.maxFreezes} · one for every 7 days', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                Text(hl('$streak-day streak'), style: BL.display(22)),
+                Text(hl(streak == 0 ? 'Do one lesson today to start a streak.' : 'Freezes: ${ctrl.freezes} of ${Motivation.maxFreezes} · one for every 7 days'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
               ])),
-              Column(children: [GoalRing(xp: today, goal: goal, size: 46), const SizedBox(height: 4), Text('$today/$goal XP', style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700))]),
+              Column(children: [GoalRing(xp: today, goal: goal, size: 46), const SizedBox(height: 4), Text(hl('$today/$goal XP'), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700))]),
             ]),
           ),
           // Daily goal
@@ -59,14 +60,14 @@ class ProgressScreen extends ConsumerWidget {
                 for (final (xp, name, fa) in Motivation.goals)
                   ChoiceChip(
                     key: ValueKey('goal-$xp'),
-                    label: Text('$name · $xp XP'),
+                    label: Text(hl('$name · $xp XP')),
                     tooltip: fa,
                     selected: goal == xp,
                     onSelected: (_) => ctrl.setDailyGoal(xp),
                   ),
               ]),
               const SizedBox(height: 6),
-              Text('Total: ${ctrl.xpTotal} XP · this week: ${ctrl.xpWeek} XP', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+              Text(hl('Total: ${ctrl.xpTotal} XP · this week: ${ctrl.xpWeek} XP'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
             ]),
           ),
           // League
@@ -77,7 +78,7 @@ class ProgressScreen extends ConsumerWidget {
                 Icon(Icons.shield_rounded, color: Color(tier.$3), size: 26),
                 const SizedBox(width: 8),
                 Expanded(child: h('${tier.$1} League', 'لیگ ${tier.$2}')),
-                Text('#$rank', style: BL.display(20, color: BL.navy)),
+                Text(hl('#$rank'), style: BL.display(20, color: BL.navy)),
               ]),
               const SizedBox(height: 4),
               const Text('Weekly XP · top 3 move up, bottom 2 move down · ends Sunday night', style: TextStyle(fontSize: 12, color: BL.muted)),
@@ -88,9 +89,9 @@ class ProgressScreen extends ConsumerWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
                   decoration: BoxDecoration(color: r.$3 ? const Color(0xFFFFF4D6) : (i < 3 ? const Color(0xFFF1F7F3) : Colors.transparent), borderRadius: BorderRadius.circular(10)),
                   child: Row(children: [
-                    SizedBox(width: 26, child: Text('${i + 1}', style: TextStyle(fontWeight: FontWeight.w800, color: i < 3 ? BL.green : BL.muted))),
-                    Expanded(child: Text(r.$1, style: TextStyle(fontWeight: r.$3 ? FontWeight.w900 : FontWeight.w600))),
-                    Text('${r.$2} XP', style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13)),
+                    SizedBox(width: 26, child: Text(hl('${i + 1}'), style: TextStyle(fontWeight: FontWeight.w800, color: i < 3 ? BL.green : BL.muted))),
+                    Expanded(child: Text(hl(r.$1), style: TextStyle(fontWeight: r.$3 ? FontWeight.w900 : FontWeight.w600))),
+                    Text(hl('${r.$2} XP'), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13)),
                   ]),
                 ),
               const Text('Practice league with friendly bots while online leagues are being built.', style: TextStyle(fontSize: 11, color: BL.muted, fontStyle: FontStyle.italic)),
@@ -109,11 +110,11 @@ class ProgressScreen extends ConsumerWidget {
                     SizedBox(
                       width: w,
                       child: Tooltip(
-                        message: b.how,
+                        message: hl(b.how),
                         child: Column(children: [
                           BadgeMedal(b, earned: earned.contains(b.id), size: 50),
                           const SizedBox(height: 4),
-                          Text(b.title, textAlign: TextAlign.center, maxLines: 2, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: earned.contains(b.id) ? BL.ink : BL.muted)),
+                          Text(hl(b.title), textAlign: TextAlign.center, maxLines: 2, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: earned.contains(b.id) ? BL.ink : BL.muted)),
                         ]),
                       ),
                     ),
@@ -138,12 +139,12 @@ class _Reminders extends ConsumerWidget {
     final t = ctrl.reminderTime.split(':');
     final time = TimeOfDay(hour: int.parse(t[0]), minute: int.parse(t[1]));
     final status = notificationStatus();
-    void snack(String s) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(s)));
+    void snack(String s) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(hl(s))));
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Row(children: [
         Expanded(child: Text.rich(TextSpan(children: [
           const TextSpan(text: 'Daily reminder', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 16, color: BL.ink)),
-          TextSpan(text: '   یادآور روزانه', style: BL.fa(12, color: BL.muted)),
+          TextSpan(text: hl('   یادآور روزانه'), style: BL.fa(12, color: BL.muted)),
         ]))),
         Switch(key: const ValueKey('remind-switch'), value: ctrl.reminderOn, activeThumbColor: BL.green, onChanged: (v) async {
           ctrl.setReminder(ctrl.reminderTime, v);
@@ -153,7 +154,7 @@ class _Reminders extends ConsumerWidget {
       OutlinedButton.icon(
         key: const ValueKey('remind-time'),
         icon: const Icon(Icons.schedule_rounded),
-        label: Text('Remind me at ${time.format(context)}'),
+        label: Text(hl('Remind me at ${time.format(context)}')),
         onPressed: () async {
           final picked = await showTimePicker(context: context, initialTime: time);
           if (picked != null) ctrl.setReminder('${picked.hour.toString().padLeft(2, '0')}:${picked.minute.toString().padLeft(2, '0')}', true);
@@ -165,7 +166,7 @@ class _Reminders extends ConsumerWidget {
           FilledButton.tonalIcon(
             key: const ValueKey('remind-notify'),
             icon: const Icon(Icons.notifications_active_rounded),
-            label: Text(status == 'granted' ? 'Test notification' : 'Allow notifications'),
+            label: Text(hl(status == 'granted' ? 'Test notification' : 'Allow notifications')),
             onPressed: () async {
               final s = status == 'granted' ? 'granted' : await requestNotifications();
               if (s == 'granted') {

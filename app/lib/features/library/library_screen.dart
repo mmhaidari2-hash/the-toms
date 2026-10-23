@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -35,9 +36,9 @@ class LibraryScreen extends ConsumerWidget {
               const Row(children: [NavButtons(), SizedBox(width: 10), Text('THE LIBRARY', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))]),
               const SizedBox(height: 10),
               Text('Graded readers', style: BL.display(28)),
-              Text('کتاب‌های درجه‌بندی‌شده · داستان‌های کوتاه بریتانیایی با صدای راوی', textDirection: TextDirection.rtl, style: BL.fa(13)),
+              Text(hl('کتاب‌های درجه‌بندی‌شده · داستان‌های کوتاه بریتانیایی با صدای راوی'), textDirection: helperDir, style: BL.fa(13)),
               const SizedBox(height: 6),
-              Text('${ctrl.booksDone} of ${books.length} books finished  ·  tap any word for its meaning', style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
+              Text(hl('${ctrl.booksDone} of ${books.length} books finished  ·  tap any word for its meaning'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
             ]),
           ),
           for (final lv in Library.levels) _Shelf(level: lv, books: books.where((b) => b.level == lv.code).toList(), open: gate.shelfOpen(lv.code)),
@@ -69,23 +70,23 @@ class _Shelf extends ConsumerWidget {
               decoration: BoxDecoration(color: empty || !open ? BL.muted : BL.navy, borderRadius: BorderRadius.circular(8)),
               child: Row(mainAxisSize: MainAxisSize.min, children: [
                 if (!open && !empty) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
-                Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+                Text(hl(level.code), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
               ]),
             ),
             const SizedBox(width: 8),
             Expanded(
               child: Text.rich(
                 TextSpan(children: [
-                  TextSpan(text: level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+                  TextSpan(text: hl(level.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
                   const TextSpan(text: '  '),
-                  TextSpan(text: level.nameFa, style: BL.fa(13)),
+                  TextSpan(text: hl(level.nameFa), style: BL.fa(13)),
                 ]),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
             ),
             const SizedBox(width: 6),
-            Text(empty ? 'Coming soon · به‌زودی' : !open ? 'Locked · قفل' : '${books.where((b) => ctrl.bookDone(b.id)).length}/${books.length}', key: ValueKey('shelf-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+            Text(hl(empty ? 'Coming soon · به‌زودی' : !open ? 'Locked · قفل' : '${books.where((b) => ctrl.bookDone(b.id)).length}/${books.length}'), key: ValueKey('shelf-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
           ]),
         ),
         const SizedBox(height: 10),
@@ -135,7 +136,7 @@ void _shelfLockedSnack(BuildContext context, String code) {
   final (en, fa) = LibraryGate.why(code);
   ScaffoldMessenger.of(context)
     ..hideCurrentSnackBar()
-    ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa', key: const ValueKey('shelf-locked-snack'))));
+    ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'), key: const ValueKey('shelf-locked-snack'))));
 }
 
 /// Placeholder spine for a shelf that is still being written.
@@ -188,7 +189,7 @@ class BookCover extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.fromLTRB(10, 18, 8, 8),
                 decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00000000), Color(0xE6142038)])),
-                child: Text(book.title, maxLines: 3, overflow: TextOverflow.ellipsis, style: BL.display(width / 8.2, color: Colors.white, w: FontWeight.w700).copyWith(height: 1.1)),
+                child: Text(hl(book.title), maxLines: 3, overflow: TextOverflow.ellipsis, style: BL.display(width / 8.2, color: Colors.white, w: FontWeight.w700).copyWith(height: 1.1)),
               ),
             ),
             Positioned(
@@ -197,7 +198,7 @@ class BookCover extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
                 decoration: BoxDecoration(color: BL.cream.withValues(alpha: .92), borderRadius: BorderRadius.circular(5)),
-                child: Text(book.level, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: BL.navy)),
+                child: Text(hl(book.level), style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: BL.navy)),
               ),
             ),
             if (done)
@@ -238,17 +239,17 @@ Future<void> showBookSheet(BuildContext context, WidgetRef ref, Book b) {
             const SizedBox(width: 14),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(b.title, style: BL.display(21)),
-                Text(b.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
+                Text(hl(b.title), style: BL.display(21)),
+                Text(hl(b.titleFa), textDirection: helperDir, style: BL.fa(14)),
                 const SizedBox(height: 6),
-                Text('${b.level}  ·  ${b.chapters.length} chapters  ·  ${b.words} words  ·  ~${(b.words / 60).ceil()} min', style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+                Text(hl('${b.level}  ·  ${b.chapters.length} chapters  ·  ${b.words} words  ·  ~${(b.words / 60).ceil()} min'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
               ]),
             ),
           ]),
           const SizedBox(height: 12),
-          Text(b.blurb, style: const TextStyle(fontSize: 15, height: 1.35, color: BL.ink)),
+          Text(hl(b.blurb), style: const TextStyle(fontSize: 15, height: 1.35, color: BL.ink)),
           const SizedBox(height: 4),
-          Align(alignment: Alignment.centerRight, child: Text(b.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(13.5))),
+          Align(alignment: Alignment.centerRight, child: Text(hl(b.blurbFa), textDirection: helperDir, style: BL.fa(13.5))),
           const SizedBox(height: 8),
           SizedBox(
             width: double.infinity,
@@ -260,7 +261,7 @@ Future<void> showBookSheet(BuildContext context, WidgetRef ref, Book b) {
               },
               style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
               icon: const Icon(Icons.auto_stories_rounded),
-              label: Text(ctrl.bookDone(b.id) ? 'Read again' : (started ? 'Continue · chapter ${next + 1}' : 'Start reading'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+              label: Text(hl(ctrl.bookDone(b.id) ? 'Read again' : (started ? 'Continue · chapter ${next + 1}' : 'Start reading')), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
             ),
           ),
           const SizedBox(height: 10),
@@ -269,13 +270,13 @@ Future<void> showBookSheet(BuildContext context, WidgetRef ref, Book b) {
               key: ValueKey('chapter-$i'),
               dense: true,
               contentPadding: EdgeInsets.zero,
-              leading: CircleAvatar(radius: 14, backgroundColor: BL.mist, child: Text('${i + 1}', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: BL.ink))),
-              title: Text(b.chapters[i].title, style: const TextStyle(fontWeight: FontWeight.w700)),
-              subtitle: Text(b.chapters[i].titleFa, textDirection: TextDirection.rtl, style: BL.fa(12)),
+              leading: CircleAvatar(radius: 14, backgroundColor: BL.mist, child: Text(hl('${i + 1}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: BL.ink))),
+              title: Text(hl(b.chapters[i].title), style: const TextStyle(fontWeight: FontWeight.w700)),
+              subtitle: Text(hl(b.chapters[i].titleFa), textDirection: helperDir, style: BL.fa(12)),
               trailing: Builder(builder: (_) {
                 final s = ctrl.readScore(b.id, i);
                 if (s == null) return const Icon(Icons.chevron_right_rounded, color: BL.muted);
-                return Text('$s%', style: TextStyle(fontWeight: FontWeight.w800, color: s >= Library.pass ? BL.green : BL.red));
+                return Text(hl('$s%'), style: TextStyle(fontWeight: FontWeight.w800, color: s >= Library.pass ? BL.green : BL.red));
               }),
               onTap: () {
                 Navigator.of(sheet).pop();

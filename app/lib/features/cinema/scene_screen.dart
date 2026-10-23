@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -61,14 +62,14 @@ class SceneLocked extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Icon(Icons.lock_rounded, size: 56, color: Colors.white54),
                   const SizedBox(height: 14),
-                  Text(scene.title, textAlign: TextAlign.center, style: BL.display(24, color: Colors.white)),
-                  Text(scene.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14, color: Colors.white60)),
+                  Text(hl(scene.title), textAlign: TextAlign.center, style: BL.display(24, color: Colors.white)),
+                  Text(hl(scene.titleFa), textDirection: helperDir, style: BL.fa(14, color: Colors.white60)),
                   const SizedBox(height: 18),
-                  Text('This is a ${scene.level} scene, which isn\'t showing for you yet', textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white)),
+                  Text(hl('This is a ${scene.level} scene, which isn\'t showing for you yet'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white)),
                   const SizedBox(height: 8),
-                  Text(en, key: const ValueKey('scene-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.4)),
+                  Text(hl(en), key: const ValueKey('scene-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.4)),
                   const SizedBox(height: 6),
-                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white54)),
+                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white54)),
                   const SizedBox(height: 18),
                   TextButton(key: const ValueKey('scene-locked-cinema'), onPressed: () => context.go('/cinema'), child: const Text('Back to the Cinema', style: TextStyle(color: BL.gold))),
                 ]),
@@ -318,8 +319,8 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
-                Text('${s.level}  ·  ${s.lines.length} lines  ·  ${s.seconds}s', style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
+                Text(hl(s.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
+                Text(hl('${s.level}  ·  ${s.lines.length} lines  ·  ${s.seconds}s'), style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
               ]),
             ),
             IconButton(
@@ -387,14 +388,14 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
           final lit = (_karaoke.value * words.length).ceil();
           return Text.rich(
             key: const ValueKey('cine-karaoke'),
-            TextSpan(children: [for (var w = 0; w < words.length; w++) TextSpan(text: '${words[w]} ', style: TextStyle(color: w < lit ? BL.gold : Colors.white))]),
+            TextSpan(children: [for (var w = 0; w < words.length; w++) TextSpan(text: hl('${words[w]} '), style: TextStyle(color: w < lit ? BL.gold : Colors.white))]),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w700, height: 1.3),
           );
         },
       );
     } else {
-      text = Text(l.en, key: const ValueKey('cine-subtitle'), textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600, height: 1.3));
+      text = Text(hl(l.en), key: const ValueKey('cine-subtitle'), textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600, height: 1.3));
     }
     return Container(
       padding: const EdgeInsets.fromLTRB(10, 6, 10, 7),
@@ -409,13 +410,13 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               Icon(listening ? Icons.mic_rounded : Icons.check_rounded, size: 13, color: Colors.white),
               const SizedBox(width: 4),
-              Text(d != null ? '${lineScore(d)}%  ${d.$2 ? '· in time' : '· a bit slow'}' : 'YOUR LINE · نوبت تو', style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.w900, letterSpacing: .6)),
+              Text(hl(d != null ? '${lineScore(d)}%  ${d.$2 ? '· in time' : '· a bit slow'}' : 'YOUR LINE · نوبت تو'), style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.w900, letterSpacing: .6)),
             ]),
           )
         else
-          Text(l.spName.toUpperCase(), style: const TextStyle(color: BL.gold, fontSize: 10.5, fontWeight: FontWeight.w800, letterSpacing: 1.2)),
+          Text(hl(l.spName.toUpperCase()), style: const TextStyle(color: BL.gold, fontSize: 10.5, fontWeight: FontWeight.w800, letterSpacing: 1.2)),
         text,
-        if (showFa) Text(l.fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white70)),
+        if (showFa) Text(hl(l.fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white70)),
       ]),
     );
   }
@@ -425,7 +426,7 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
         TextSpan(children: [
           for (final w in r.words)
             TextSpan(
-              text: '${w.word} ',
+              text: hl('${w.word} '),
               style: TextStyle(
                 color: switch (w.mark) { WordMark.good => markGood, WordMark.close => markClose, WordMark.missed => markMissed },
                 decoration: w.mark == WordMark.missed ? TextDecoration.underline : null,
@@ -443,7 +444,7 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
         child: Row(children: [
           Expanded(
             child: Text(
-              mode == _Mode.dub ? (listening ? (partial.isEmpty ? 'Listening… say your line now' : '“$partial”') : 'Dubbing as ${s.cast.firstWhere((c) => c.sp == role).spName}') : 'Now playing',
+              hl(mode == _Mode.dub ? (listening ? (partial.isEmpty ? 'Listening… say your line now' : '“$partial”') : 'Dubbing as ${s.cast.firstWhere((c) => c.sp == role).spName}') : 'Now playing'),
               key: const ValueKey('cine-status'),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -462,7 +463,7 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
               onPressed: onTap,
               style: FilledButton.styleFrom(backgroundColor: primary ? BL.red : cinemaPanel, padding: const EdgeInsets.symmetric(vertical: 12), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14))),
               icon: Icon(icon, size: 19),
-              label: Text(label, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13.5)),
+              label: Text(hl(label), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13.5)),
             ),
           ),
         );
@@ -485,7 +486,7 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
                 padding: const EdgeInsets.only(right: 6),
                 child: ChoiceChip(
                   key: ValueKey('role-${c.sp}'),
-                  label: Text(c.spName),
+                  label: Text(hl(c.spName)),
                   selected: role == c.sp,
                   onSelected: (_) => setState(() => role = c.sp),
                   showCheckmark: false,
@@ -511,13 +512,13 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(color: cinemaPanel, borderRadius: BorderRadius.circular(16), border: Border.all(color: col.withValues(alpha: .7), width: 1.5)),
       child: Row(children: [
-        Text('$pct%', key: const ValueKey('dub-score'), style: BL.display(34, color: col, w: FontWeight.w700)),
+        Text(hl('$pct%'), key: const ValueKey('dub-score'), style: BL.display(34, color: col, w: FontWeight.w700)),
         const SizedBox(width: 12),
         Expanded(
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(pct >= 90 ? 'Award-winning dub!' : pct >= Pronunciation.passScore ? 'Great dubbing!' : 'Nice try. Listen, then dub again.', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
-            Text('$inTime of ${dubbed.length} lines in time${award != null ? '  ·  +${award!.xp} XP' : ''}', style: const TextStyle(color: Colors.white60, fontSize: 12.5, fontWeight: FontWeight.w600)),
-            Text(pct >= Pronunciation.passScore ? 'دوبلهٔ عالی!' : 'گوش کن و دوباره دوبله کن.', textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white54)),
+            Text(hl(pct >= 90 ? 'Award-winning dub!' : pct >= Pronunciation.passScore ? 'Great dubbing!' : 'Nice try. Listen, then dub again.'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
+            Text(hl('$inTime of ${dubbed.length} lines in time${award != null ? '  ·  +${award!.xp} XP' : ''}'), style: const TextStyle(color: Colors.white60, fontSize: 12.5, fontWeight: FontWeight.w600)),
+            Text(hl(pct >= Pronunciation.passScore ? 'دوبلهٔ عالی!' : 'گوش کن و دوباره دوبله کن.'), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white54)),
           ]),
         ),
         IconButton(key: const ValueKey('dub-again'), tooltip: 'Dub again', onPressed: _dub, icon: const Icon(Icons.replay_rounded, color: Colors.white)),
@@ -532,8 +533,8 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
         children: [
           if (mode == _Mode.dubDone) _results(),
           if (cur < 0 && mode == _Mode.watch) ...[
-            Text(s.blurb, style: const TextStyle(color: Colors.white70, fontSize: 13.5, height: 1.35)),
-            Text(s.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white54)),
+            Text(hl(s.blurb), style: const TextStyle(color: Colors.white70, fontSize: 13.5, height: 1.35)),
+            Text(hl(s.blurbFa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white54)),
             const SizedBox(height: 10),
           ],
           for (var i = 0; i < s.lines.length; i++) _row(i),
@@ -552,16 +553,16 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
         decoration: BoxDecoration(color: on ? Colors.white.withValues(alpha: .1) : Colors.transparent, borderRadius: BorderRadius.circular(10), border: Border.all(color: on ? BL.gold.withValues(alpha: .6) : Colors.transparent)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Row(children: [
-            Text(l.spName.toUpperCase(), key: ValueKey('line-spk-$i'), style: TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: mineRole ? BL.red : BL.gold)),
+            Text(hl(l.spName.toUpperCase()), key: ValueKey('line-spk-$i'), style: TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: mineRole ? BL.red : BL.gold)),
             if (mineRole) const Text('  · you', style: TextStyle(fontSize: 10.5, color: Colors.white38, fontWeight: FontWeight.w700)),
             const Spacer(),
-            if (d != null) Text('${lineScore(d)}%', key: ValueKey('line-score-$i'), style: TextStyle(fontSize: 12, fontWeight: FontWeight.w900, color: lineScore(d) >= Pronunciation.passScore ? markGood : markClose)),
+            if (d != null) Text(hl('${lineScore(d)}%'), key: ValueKey('line-score-$i'), style: TextStyle(fontSize: 12, fontWeight: FontWeight.w900, color: lineScore(d) >= Pronunciation.passScore ? markGood : markClose)),
           ]),
           if (d != null)
             Align(alignment: Alignment.centerLeft, child: _marked(d.$1, 15.5))
           else
-            Text(l.en, key: ValueKey('line-$i'), style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
-          if (showFa) Text(l.fa, key: ValueKey('line-fa-$i'), textDirection: TextDirection.rtl, textAlign: TextAlign.right, style: BL.fa(13, color: Colors.white60)),
+            Text(hl(l.en), key: ValueKey('line-$i'), style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
+          if (showFa) Text(hl(l.fa), key: ValueKey('line-fa-$i'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(13, color: Colors.white60)),
         ]),
       ),
     );
@@ -572,9 +573,9 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
     return ListView(
       padding: const EdgeInsets.fromLTRB(18, 8, 18, 24),
       children: [
-        Text('Question ${qi + 1} of ${s.quiz.length}', style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w700, fontSize: 12.5)),
+        Text(hl('Question ${qi + 1} of ${s.quiz.length}'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w700, fontSize: 12.5)),
         const SizedBox(height: 6),
-        Text(q.q, key: const ValueKey('cine-q'), style: BL.display(22, color: Colors.white)),
+        Text(hl(q.q), key: const ValueKey('cine-q'), style: BL.display(22, color: Colors.white)),
         const SizedBox(height: 16),
         for (final o in order[qi])
           Builder(builder: (_) {
@@ -591,13 +592,13 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
                   onTap: () => _pick(o),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
-                    child: Text(q.options[o], style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white)),
+                    child: Text(hl(q.options[o]), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white)),
                   ),
                 ),
               ),
             );
           }),
-        TextButton(onPressed: () => setState(() => mode = _Mode.watch), child: const Text('Back to the scene · برگشت به صحنه', style: TextStyle(color: Colors.white70))),
+        TextButton(onPressed: () => setState(() => mode = _Mode.watch), child: Text(hl('Back to the scene · برگشت به صحنه'), style: TextStyle(color: Colors.white70))),
       ],
     );
   }

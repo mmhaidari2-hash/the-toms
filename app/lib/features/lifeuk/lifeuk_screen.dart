@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -30,11 +31,11 @@ Widget lukNote({required Key key, required IconData icon, required String en, re
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(en, style: const TextStyle(fontSize: 12.5, height: 1.35, fontWeight: FontWeight.w600)),
+            Text(hl(en), style: const TextStyle(fontSize: 12.5, height: 1.35, fontWeight: FontWeight.w600)),
             const SizedBox(height: 3),
             Text(
-              fa,
-              textDirection: TextDirection.rtl,
+              hl(fa),
+              textDirection: helperDir,
               style: BL.fa(12, color: BL.muted),
             ),
           ],
@@ -76,8 +77,8 @@ class LukScreen extends ConsumerWidget {
           const SizedBox(height: 10),
           Text('Life in the UK test prep', style: BL.display(28)),
           Text(
-            'آمادگی برای آزمون زندگی در بریتانیا',
-            textDirection: TextDirection.rtl,
+            hl('آمادگی برای آزمون زندگی در بریتانیا'),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           lukNote(key: const ValueKey('luk-disclaimer'), icon: Icons.info_outline_rounded, en: Luk.disclaimer, fa: Luk.disclaimerFa, color: BL.red),
@@ -111,7 +112,7 @@ class LukScreen extends ConsumerWidget {
                     Column(
                       children: [
                         Text(
-                          mock == null ? '–' : '$mock%',
+                          hl(mock == null ? '–' : '$mock%'),
                           key: const ValueKey('luk-mock-best'),
                           style: TextStyle(color: (mock ?? 0) >= Luk.passPct ? const Color(0xFF9BE3B5) : Colors.white, fontWeight: FontWeight.w900, fontSize: 17),
                         ),
@@ -142,7 +143,7 @@ class LukScreen extends ConsumerWidget {
                           radius: 20,
                           backgroundColor: lukBlue.withValues(alpha: .1),
                           child: Text(
-                            '${i + 1}',
+                            hl('${i + 1}'),
                             style: const TextStyle(color: lukBlue, fontWeight: FontWeight.w900),
                           ),
                         ),
@@ -151,18 +152,18 @@ class LukScreen extends ConsumerWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(c.title, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+                              Text(hl(c.title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
                               Text(
-                                c.titleFa,
-                                textDirection: TextDirection.rtl,
+                                hl(c.titleFa),
+                                textDirection: helperDir,
                                 style: BL.fa(12, color: BL.muted),
                               ),
-                              Text('${c.qs.length} questions · ${ctrl.lukCardsKnown(c.id)}/${c.cards.length} cards known', style: const TextStyle(fontSize: 12, color: BL.muted)),
+                              Text(hl('${c.qs.length} questions · ${ctrl.lukCardsKnown(c.id)}/${c.cards.length} cards known'), style: const TextStyle(fontSize: 12, color: BL.muted)),
                             ],
                           ),
                         ),
                         Text(
-                          ctrl.lukQuizBest(c.id) == null ? '–' : '${ctrl.lukQuizBest(c.id)}%',
+                          hl(ctrl.lukQuizBest(c.id) == null ? '–' : '${ctrl.lukQuizBest(c.id)}%'),
                           key: ValueKey('luk-ch-best-${c.id}'),
                           style: TextStyle(fontWeight: FontWeight.w900, color: (ctrl.lukQuizBest(c.id) ?? 0) >= Luk.passPct ? const Color(0xFF2E7D5B) : BL.muted),
                         ),
@@ -226,7 +227,7 @@ class _LukChapterState extends ConsumerState<LukChapterScreen> {
                 key: const ValueKey('luk-fa'),
                 selected: fa,
                 showCheckmark: false,
-                label: const Text('فارسی'),
+                label: Text(hl('فارسی')),
                 selectedColor: lukBlue,
                 labelStyle: TextStyle(color: fa ? Colors.white : BL.ink, fontWeight: FontWeight.w800),
                 onSelected: (_) => ctrl.setPref('lukFa', fa ? 'off' : 'on'),
@@ -234,10 +235,10 @@ class _LukChapterState extends ConsumerState<LukChapterScreen> {
             ],
           ),
           const SizedBox(height: 8),
-          Text(c.title, style: BL.display(26)),
+          Text(hl(c.title), style: BL.display(26)),
           Text(
-            c.titleFa,
-            textDirection: TextDirection.rtl,
+            hl(c.titleFa),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           const SizedBox(height: 10),
@@ -265,14 +266,14 @@ class _LukChapterState extends ConsumerState<LukChapterScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
-                        Text(e.en, style: const TextStyle(fontSize: 14.5, height: 1.4)),
+                        Text(hl(e.en), style: const TextStyle(fontSize: 14.5, height: 1.4)),
                         if (fa)
                           Padding(
                             padding: const EdgeInsets.only(top: 4),
                             child: Text(
-                              e.fa,
+                              hl(e.fa),
                               key: ValueKey('luk-expl-fa-$i'),
-                              textDirection: TextDirection.rtl,
+                              textDirection: helperDir,
                               style: BL.fa(13, color: BL.muted),
                             ),
                           ),
@@ -312,7 +313,7 @@ class _LukChapterState extends ConsumerState<LukChapterScreen> {
                   alignment: Alignment.centerLeft,
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 4),
-                    child: SelectableText(s, style: const TextStyle(fontSize: 12, color: lukBlue)),
+                    child: SelectableText(hl(s), style: const TextStyle(fontSize: 12, color: lukBlue)),
                   ),
                 ),
             ],
@@ -336,10 +337,10 @@ class _LukChapterState extends ConsumerState<LukChapterScreen> {
             Icon(icon, color: Colors.white),
             const SizedBox(height: 4),
             Text(
-              title,
+              hl(title),
               style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800),
             ),
-            Text(sub, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+            Text(hl(sub), style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
           ],
         ),
       ),
@@ -382,13 +383,13 @@ class _LukCardsState extends ConsumerState<LukCardsScreen> {
                 const SizedBox(width: 10),
                 Expanded(
                   child: Text(
-                    '${c.title} · flashcards',
+                    hl('${c.title} · flashcards'),
                     style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Text(
-                  '${known.length}/${c.cards.length}',
+                  hl('${known.length}/${c.cards.length}'),
                   key: const ValueKey('luk-cards-known'),
                   style: const TextStyle(fontWeight: FontWeight.w900, color: lukBlue),
                 ),
@@ -404,10 +405,10 @@ class _LukCardsState extends ConsumerState<LukCardsScreen> {
                     children: [
                       const Icon(Icons.verified_rounded, size: 60, color: Color(0xFF2E7D5B)),
                       const SizedBox(height: 10),
-                      Text('All ${c.cards.length} cards known!', style: BL.display(22)),
+                      Text(hl('All ${c.cards.length} cards known!'), style: BL.display(22)),
                       Text(
-                        'همهٔ کارت‌ها را بلدی!',
-                        textDirection: TextDirection.rtl,
+                        hl('همهٔ کارت‌ها را بلدی!'),
+                        textDirection: helperDir,
                         style: BL.fa(14, color: BL.muted),
                       ),
                       const SizedBox(height: 16),
@@ -440,16 +441,16 @@ class _LukCardsState extends ConsumerState<LukCardsScreen> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  c.cards[pile!.first].back,
+                                  hl(c.cards[pile!.first].back),
                                   key: const ValueKey('luk-card-back'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w700, height: 1.35),
                                 ),
                                 const SizedBox(height: 10),
                                 Text(
-                                  c.cards[pile!.first].fa,
+                                  hl(c.cards[pile!.first].fa),
                                   textAlign: TextAlign.center,
-                                  textDirection: TextDirection.rtl,
+                                  textDirection: helperDir,
                                   style: BL.fa(15, color: Colors.white70),
                                 ),
                               ],
@@ -457,7 +458,7 @@ class _LukCardsState extends ConsumerState<LukCardsScreen> {
                           : Column(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                Text(c.cards[pile!.first].front, key: const ValueKey('luk-card-front'), textAlign: TextAlign.center, style: BL.display(28)),
+                                Text(hl(c.cards[pile!.first].front), key: const ValueKey('luk-card-front'), textAlign: TextAlign.center, style: BL.display(28)),
                                 const SizedBox(height: 12),
                                 const Text('Tap to turn over', style: TextStyle(color: BL.muted, fontSize: 12.5)),
                               ],

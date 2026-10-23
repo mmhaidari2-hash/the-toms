@@ -6650,17 +6650,17 @@
 "ui": false
 },
 "آج میں نے…": {
-"en": "writeHint",
+"en": "Today I…",
 "kind": "text",
 "ui": true
 },
 "آج کا مشن": {
-"en": "mission",
+"en": "Daily mission",
 "kind": "text",
 "ui": true
 },
 "آج کی تحریر لکھیں": {
-"en": "writeDiary",
+"en": "Write today’s entry",
 "kind": "text",
 "ui": true
 },
@@ -7485,7 +7485,7 @@
 "ui": false
 },
 "آرشیو لحظه‌های مهم": {
-"en": "archive",
+"en": "Milestone archive",
 "kind": "text",
 "ui": true
 },
@@ -11065,7 +11065,7 @@
 "ui": true
 },
 "آزمون تعیین سطح": {
-"en": "quiz",
+"en": "Placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -13010,7 +13010,7 @@
 "ui": false
 },
 "آهسته": {
-"en": "slowly",
+"en": "Slow",
 "kind": "word",
 "ui": true
 },
@@ -13020,7 +13020,7 @@
 "ui": false
 },
 "آهسته‌شده": {
-"en": "slowed",
+"en": "Slowed",
 "kind": "text",
 "ui": true
 },
@@ -13160,7 +13160,7 @@
 "ui": false
 },
 "آپ کی انگریزی کیسی ہے؟": {
-"en": "pick_level",
+"en": "How good is your English?",
 "kind": "text",
 "ui": true
 },
@@ -13250,7 +13250,7 @@
 "ui": false
 },
 "آہستہ": {
-"en": "slow",
+"en": "Slowed",
 "kind": "text",
 "ui": true
 },
@@ -13345,32 +13345,32 @@
 "ui": false
 },
 "أرشيف المراحل": {
-"en": "archive",
+"en": "Milestone archive",
 "kind": "text",
 "ui": true
 },
 "أعد القراءة مع الترجمة أو استمع بسرعتك.": {
-"en": "replay_sub",
+"en": "Re-read with subtitles, or listen at your speed.",
 "kind": "text",
 "ui": true
 },
 "أنهِ 5 محادثات واكسب 60 ثقة هذا الأسبوع لتربح ختمًا": {
-"en": "weekly_sub",
+"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
 "kind": "text",
 "ui": true
 },
 "أنهِ محادثتين في المستوى السابق": {
-"en": "level_locked",
+"en": "Finish 2 chats in the previous level to open",
 "kind": "text",
 "ui": true
 },
 "إعادة": {
-"en": "replay",
+"en": "Replay",
 "kind": "text",
 "ui": true
 },
 "إعادة صياغة": {
-"en": "recasts",
+"en": "recast",
 "kind": "text",
 "ui": true
 },
@@ -13380,7 +13380,7 @@
 "ui": false
 },
 "ابدأ هنا": {
-"en": "start_here",
+"en": "Start here",
 "kind": "text",
 "ui": true
 },
@@ -13470,7 +13470,7 @@
 "ui": false
 },
 "ابھی کچھ نہیں — لکھیں یا گفتگو مکمل کریں۔": {
-"en": "diary_empty",
+"en": "No entries yet — write one, or finish a conversation.",
 "kind": "text",
 "ui": true
 },
@@ -14340,7 +14340,7 @@
 "ui": false
 },
 "اختبار تحديد المستوى": {
-"en": "quiz",
+"en": "Placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -15190,7 +15190,7 @@
 "ui": false
 },
 "از این‌جا شروع کن": {
-"en": "start_here",
+"en": "Start here",
 "kind": "text",
 "ui": true
 },
@@ -16480,17 +16480,17 @@
 "ui": false
 },
 "اس لیول پر پہنچ کر بات کریں گے۔": {
-"en": "lockedLevel",
+"en": "We’ll chat once you’ve reached this level.",
 "kind": "text",
 "ui": true
 },
 "اس ہفتے 5 گفتگو مکمل کریں اور 60 اعتماد حاصل کریں": {
-"en": "weekly_sub",
+"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
 "kind": "text",
 "ui": true
 },
 "اس ہفتے کی مہر مل گئی!": {
-"en": "weekly_won",
+"en": "Stamp earned this week!",
 "kind": "text",
 "ui": true
 },
@@ -16825,7 +16825,7 @@
 "ui": false
 },
 "استمع": {
-"en": "listen",
+"en": "Listen",
 "kind": "text",
 "ui": true
 },
@@ -17540,7 +17540,7 @@
 "ui": false
 },
 "اسے کھیلنے کے لیے کردار بدلیں۔": {
-"en": "roleStory",
+"en": "Switch role to play this one.",
 "kind": "text",
 "ui": true
 },
@@ -17950,7 +17950,7 @@
 "ui": false
 },
 "اصل رفتار": {
-"en": "native",
+"en": "Native speed",
 "kind": "text",
 "ui": true
 },
@@ -17965,7 +17965,7 @@
 "ui": false
 },
 "اصلاحات": {
-"en": "recasts",
+"en": "recast",
 "kind": "text",
 "ui": true
 },
@@ -18385,7 +18385,7 @@
 "ui": false
 },
 "اعتماد هر شخصیت": {
-"en": "trustBy",
+"en": "TRUST BY CHARACTER",
 "kind": "text",
 "ui": true
 },
@@ -18395,12 +18395,12 @@
 "ui": false
 },
 "اعتماد: آپ کی طویل دوستی": {
-"en": "trust",
+"en": "Trust: your long-term friendship",
 "kind": "text",
 "ui": true
 },
 "اعتماد: دوستی‌تان در طول زمان": {
-"en": "trust",
+"en": "Trust: your long-term friendship",
 "kind": "text",
 "ui": true
 },
@@ -18780,12 +18780,12 @@
 "ui": false
 },
 "اكتب يومك بالإنجليزية — ستردّ العائلة.": {
-"en": "diary_sub",
+"en": "Write your day in English — the family will answer.",
 "kind": "text",
 "ui": true
 },
 "اكتب يوميات اليوم": {
-"en": "writeDiary",
+"en": "Write today’s entry",
 "kind": "text",
 "ui": true
 },
@@ -18795,7 +18795,7 @@
 "ui": false
 },
 "اكتملت المهمة — رائع!": {
-"en": "mission_done",
+"en": "Mission complete — brilliant!",
 "kind": "text",
 "ui": true
 },
@@ -19650,7 +19650,7 @@
 "ui": false
 },
 "الترجمة قريبًا — تُعرض الفارسية.": {
-"en": "no_translation",
+"en": "Translation in your language is coming soon — Persian shown.",
 "kind": "text",
 "ui": true
 },
@@ -19660,12 +19660,12 @@
 "ui": false
 },
 "الثقة لكل شخصية": {
-"en": "trustBy",
+"en": "TRUST BY CHARACTER",
 "kind": "text",
 "ui": true
 },
 "الثقة: صداقتكما الطويلة": {
-"en": "trust",
+"en": "Trust: your long-term friendship",
 "kind": "text",
 "ui": true
 },
@@ -19675,17 +19675,17 @@
 "ui": false
 },
 "السرعة الأصلية": {
-"en": "native",
+"en": "Native speed",
 "kind": "text",
 "ui": true
 },
 "العب بدور": {
-"en": "playAs",
+"en": "Play as",
 "kind": "text",
 "ui": true
 },
 "العب مجددًا": {
-"en": "playAgain",
+"en": "Play again",
 "kind": "text",
 "ui": true
 },
@@ -19705,12 +19705,12 @@
 "ui": false
 },
 "الفصل 1 · يوم مع عائلة توم": {
-"en": "chapter1",
+"en": "Chapter 1 · A Day with the Toms",
 "kind": "text",
 "ui": true
 },
 "القصة التالية": {
-"en": "nextStory",
+"en": "Next story",
 "kind": "text",
 "ui": true
 },
@@ -19720,22 +19720,22 @@
 "ui": true
 },
 "المزاج: كيف تسير المحادثة الآن": {
-"en": "mood",
+"en": "Mood: how this chat is going right now",
 "kind": "text",
 "ui": true
 },
 "المس شخصًا أو غرضًا في اللوحة": {
-"en": "tap_someone",
+"en": "Tap a person or a prop in the painting",
 "kind": "text",
 "ui": true
 },
 "النمو": {
-"en": "growingUp",
+"en": "Growing up",
 "kind": "text",
 "ui": true
 },
 "النمو: كم نمت الشخصية معك": {
-"en": "growth",
+"en": "Growth: how much this character has grown with you",
 "kind": "text",
 "ui": true
 },
@@ -19805,12 +19805,12 @@
 "ui": false
 },
 "اليوم أنا…": {
-"en": "writeHint",
+"en": "Today I…",
 "kind": "text",
 "ui": true
 },
 "اليوميات": {
-"en": "diary",
+"en": "Diary",
 "kind": "text",
 "ui": true
 },
@@ -20285,7 +20285,7 @@
 "ui": false
 },
 "امروز من…": {
-"en": "writeHint",
+"en": "Today I…",
 "kind": "text",
 "ui": true
 },
@@ -21205,7 +21205,7 @@
 "ui": false
 },
 "انتهت القصة": {
-"en": "storyDone",
+"en": "Story finished",
 "kind": "text",
 "ui": true
 },
@@ -21545,7 +21545,7 @@
 "ui": false
 },
 "انگریزی میں جواب دیں…": {
-"en": "replyHint",
+"en": "Reply in English…",
 "kind": "text",
 "ui": true
 },
@@ -21665,7 +21665,7 @@
 "ui": false
 },
 "انگلیسی را با زندگی کنار یک خانوادهٔ بریتانیایی یاد بگیر.": {
-"en": "welcome_sub",
+"en": "Learn English by living with a British family.",
 "kind": "text",
 "ui": true
 },
@@ -21740,7 +21740,7 @@
 "ui": false
 },
 "انگلیسی‌ات در چه سطحی است؟": {
-"en": "pick_level",
+"en": "How good is your English?",
 "kind": "text",
 "ui": true
 },
@@ -24060,7 +24060,7 @@
 "ui": false
 },
 "اپنا دن انگریزی میں لکھیں — خاندان جواب دے گا۔": {
-"en": "diary_sub",
+"en": "Write your day in English — the family will answer.",
 "kind": "text",
 "ui": true
 },
@@ -24350,7 +24350,7 @@
 "ui": false
 },
 "اگلی کہانی": {
-"en": "nextStory",
+"en": "Next story",
 "kind": "text",
 "ui": true
 },
@@ -26290,7 +26290,7 @@
 "ui": false
 },
 "این مکان هنوز قفل است": {
-"en": "locked_place",
+"en": "This place is still locked",
 "kind": "text",
 "ui": true
 },
@@ -26410,7 +26410,7 @@
 "ui": false
 },
 "این هفته ۵ گفتگو را تمام کن و ۶۰ امتیاز اعتماد جمع کن تا مُهر بگیری": {
-"en": "weekly_sub",
+"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
 "kind": "text",
 "ui": true
 },
@@ -26720,7 +26720,7 @@
 "ui": false
 },
 "این یک داستان خصوصی خانوادگی است — اول اعتماد بیشتری بساز.": {
-"en": "privateStory",
+"en": "This is a private family story — build more trust first.",
 "kind": "text",
 "ui": true
 },
@@ -27530,7 +27530,7 @@
 "ui": false
 },
 "بأي لغة نشرح لك؟": {
-"en": "pick_lang",
+"en": "Which language should we explain things in?",
 "kind": "text",
 "ui": true
 },
@@ -27975,7 +27975,7 @@
 "ui": false
 },
 "با زیرنویس دوباره بخوان یا با سرعت دلخواه گوش بده.": {
-"en": "replay_sub",
+"en": "Re-read with subtitles, or listen at your speed.",
 "kind": "text",
 "ui": true
 },
@@ -28665,7 +28665,7 @@
 "ui": false
 },
 "باب 1 · ٹامز کے ساتھ ایک دن": {
-"en": "chapter1",
+"en": "Chapter 1 · A Day with the Toms",
 "kind": "text",
 "ui": true
 },
@@ -29680,7 +29680,7 @@
 "ui": false
 },
 "بازپخش": {
-"en": "replay",
+"en": "Replay",
 "kind": "text",
 "ui": true
 },
@@ -31610,7 +31610,7 @@
 "ui": false
 },
 "بالکل درست": {
-"en": "spotOn",
+"en": "spot on",
 "kind": "text",
 "ui": true
 },
@@ -33625,7 +33625,7 @@
 "ui": false
 },
 "بدور": {
-"en": "playingAs",
+"en": "as",
 "kind": "text",
 "ui": true
 },
@@ -34430,7 +34430,7 @@
 "ui": false
 },
 "برای این داستان باید نقشت را عوض کنی.": {
-"en": "roleStory",
+"en": "Switch role to play this one.",
 "kind": "text",
 "ui": true
 },
@@ -34475,7 +34475,7 @@
 "ui": false
 },
 "برای باز شدن، ۲ گفتگو در سطح قبل تمام کن": {
-"en": "level_locked",
+"en": "Finish 2 chats in the previous level to open",
 "kind": "text",
 "ui": true
 },
@@ -35670,7 +35670,7 @@
 "ui": false
 },
 "برطانوی خاندان کے ساتھ رہ کر انگریزی سیکھیں۔": {
-"en": "welcome_sub",
+"en": "Learn English by living with a British family.",
 "kind": "text",
 "ui": true
 },
@@ -36825,7 +36825,7 @@
 "ui": false
 },
 "بزرگ شدن": {
-"en": "grow up",
+"en": "Growing up",
 "kind": "text",
 "ui": true
 },
@@ -37465,17 +37465,17 @@
 "ui": false
 },
 "بطور": {
-"en": "playingAs",
+"en": "as",
 "kind": "text",
 "ui": true
 },
 "بطور کھیلیں": {
-"en": "playAs",
+"en": "Play as",
 "kind": "text",
 "ui": true
 },
 "بطيء": {
-"en": "slow",
+"en": "Slow",
 "kind": "text",
 "ui": true
 },
@@ -39705,7 +39705,7 @@
 "ui": false
 },
 "به New Life UK خوش آمدی": {
-"en": "welcome",
+"en": "Welcome to New Life UK",
 "kind": "text",
 "ui": true
 },
@@ -39845,7 +39845,7 @@
 "ui": false
 },
 "به انگلیسی جواب بده…": {
-"en": "replyHint",
+"en": "Reply in English…",
 "kind": "text",
 "ui": true
 },
@@ -42260,7 +42260,7 @@
 "ui": false
 },
 "بولنے کی رفتار": {
-"en": "speed",
+"en": "Speech speed",
 "kind": "text",
 "ui": true
 },
@@ -42630,12 +42630,12 @@
 "ui": false
 },
 "بڑا ہونا": {
-"en": "growingUp",
+"en": "Growing up",
 "kind": "text",
 "ui": true
 },
 "بڑھا": {
-"en": "growthPct",
+"en": "grown",
 "kind": "text",
 "ui": true
 },
@@ -42895,7 +42895,7 @@
 "ui": false
 },
 "بہت اچھی گفتگو!": {
-"en": "lovelyChat",
+"en": "Lovely chat!",
 "kind": "text",
 "ui": true
 },
@@ -45055,7 +45055,7 @@
 "ui": false
 },
 "بی‌نقص": {
-"en": "perfect",
+"en": "spot on",
 "kind": "word",
 "ui": true
 },
@@ -46955,7 +46955,7 @@
 "ui": false
 },
 "تحدي الأسبوع": {
-"en": "weekly",
+"en": "Weekly challenge",
 "kind": "text",
 "ui": true
 },
@@ -47450,7 +47450,7 @@
 "ui": false
 },
 "ترجمہ جلد آ رہا ہے — فارسی دکھائی گئی۔": {
-"en": "no_translation",
+"en": "Translation in your language is coming soon — Persian shown.",
 "kind": "text",
 "ui": true
 },
@@ -47880,7 +47880,7 @@
 "ui": true
 },
 "تشخیص گفتار روی این دستگاه به اینترنت نیاز دارد.": {
-"en": "network",
+"en": "Speech recognition needs the internet on this device.",
 "kind": "text",
 "ui": true
 },
@@ -47890,7 +47890,7 @@
 "ui": false
 },
 "تشغيل الكل": {
-"en": "play_all",
+"en": "Play all",
 "kind": "text",
 "ui": true
 },
@@ -48085,7 +48085,7 @@
 "ui": false
 },
 "تصویر میں کسی شخص یا چیز کو چھوئیں": {
-"en": "tap_someone",
+"en": "Tap a person or a prop in the painting",
 "kind": "text",
 "ui": true
 },
@@ -48210,7 +48210,7 @@
 "ui": false
 },
 "تعزيز السلسلة": {
-"en": "streakBoost",
+"en": "streak boost",
 "kind": "text",
 "ui": true
 },
@@ -48305,7 +48305,7 @@
 "ui": false
 },
 "تعلّم الإنجليزية بالعيش مع عائلة بريطانية.": {
-"en": "welcome_sub",
+"en": "Learn English by living with a British family.",
 "kind": "text",
 "ui": true
 },
@@ -48930,7 +48930,7 @@
 "ui": false
 },
 "تم": {
-"en": "done",
+"en": "Done",
 "kind": "text",
 "ui": true
 },
@@ -49080,7 +49080,7 @@
 "ui": false
 },
 "تمام": {
-"en": "done",
+"en": "Done",
 "kind": "word",
 "ui": true
 },
@@ -51710,7 +51710,7 @@
 "ui": false
 },
 "توضیحات به چه زبانی باشد؟": {
-"en": "pick_lang",
+"en": "Which language should we explain things in?",
 "kind": "text",
 "ui": true
 },
@@ -52035,7 +52035,7 @@
 "ui": true
 },
 "تکرار با صدا": {
-"en": "shadow",
+"en": "Shadow",
 "kind": "text",
 "ui": true
 },
@@ -52585,17 +52585,17 @@
 "ui": false
 },
 "ثقافة": {
-"en": "culture",
+"en": "Culture",
 "kind": "text",
 "ui": true
 },
 "ثقافت": {
-"en": "culture",
+"en": "Culture",
 "kind": "text",
 "ui": true
 },
 "ثقافتی کونا": {
-"en": "cultureCorner",
+"en": "Culture corner",
 "kind": "text",
 "ui": true
 },
@@ -53000,7 +53000,7 @@
 "ui": false
 },
 "جایزهٔ روزهای پشت‌سرهم": {
-"en": "streakBoost",
+"en": "streak boost",
 "kind": "text",
 "ui": true
 },
@@ -54090,7 +54090,7 @@
 "ui": false
 },
 "جمل قلتها": {
-"en": "said",
+"en": "sentences said",
 "kind": "text",
 "ui": true
 },
@@ -54110,7 +54110,7 @@
 "ui": true
 },
 "جمله گفتی": {
-"en": "said",
+"en": "sentences said",
 "kind": "text",
 "ui": true
 },
@@ -54125,7 +54125,7 @@
 "ui": false
 },
 "جملهٔ بهتر": {
-"en": "recasts",
+"en": "recast",
 "kind": "text",
 "ui": true
 },
@@ -54210,7 +54210,7 @@
 "ui": false
 },
 "جملے بولے": {
-"en": "said",
+"en": "sentences said",
 "kind": "text",
 "ui": true
 },
@@ -54425,7 +54425,7 @@
 "ui": false
 },
 "جواز اللهجات": {
-"en": "passport",
+"en": "Accent Passport",
 "kind": "text",
 "ui": true
 },
@@ -55440,7 +55440,7 @@
 "ui": false
 },
 "حال‌وهوا: این گفتگو الان چطور پیش می‌رود": {
-"en": "mood",
+"en": "Mood: how this chat is going right now",
 "kind": "text",
 "ui": true
 },
@@ -57380,7 +57380,7 @@
 "ui": false
 },
 "حصلت على ختم هذا الأسبوع!": {
-"en": "weekly_won",
+"en": "Stamp earned this week!",
 "kind": "text",
 "ui": true
 },
@@ -57415,7 +57415,7 @@
 "ui": false
 },
 "حفظ": {
-"en": "save",
+"en": "Save",
 "kind": "text",
 "ui": true
 },
@@ -57665,7 +57665,7 @@
 "ui": false
 },
 "حلقة": {
-"en": "episode",
+"en": "Episode",
 "kind": "text",
 "ui": true
 },
@@ -58560,7 +58560,7 @@
 "ui": false
 },
 "خانوادهٔ تام": {
-"en": "family",
+"en": "The Toms",
 "kind": "text",
 "ui": true
 },
@@ -61750,7 +61750,7 @@
 "ui": false
 },
 "خود کو ریکارڈ کریں اور موازنہ کریں۔": {
-"en": "shadowHelp",
+"en": "Record yourself saying the line, then compare.",
 "kind": "text",
 "ui": true
 },
@@ -65205,12 +65205,12 @@
 "ui": false
 },
 "داستان بعدی": {
-"en": "nextStory",
+"en": "Next story",
 "kind": "text",
 "ui": true
 },
 "داستان تمام شد": {
-"en": "storyDone",
+"en": "Story finished",
 "kind": "text",
 "ui": true
 },
@@ -66945,7 +66945,7 @@
 "ui": true
 },
 "در نقش": {
-"en": "playingAs",
+"en": "Play as",
 "kind": "text",
 "ui": true
 },
@@ -68445,7 +68445,7 @@
 "ui": false
 },
 "درمیانہ": {
-"en": "medium",
+"en": "Medium",
 "kind": "text",
 "ui": true
 },
@@ -69640,7 +69640,7 @@
 "ui": false
 },
 "دفترچهٔ خاطرات": {
-"en": "diary",
+"en": "Diary",
 "kind": "text",
 "ui": true
 },
@@ -71985,7 +71985,7 @@
 "ui": false
 },
 "دوباره": {
-"en": "again",
+"en": "Play again",
 "kind": "word",
 "ui": true
 },
@@ -72305,12 +72305,12 @@
 "ui": false
 },
 "دوبارہ چلائیں": {
-"en": "replay",
+"en": "Replay",
 "kind": "text",
 "ui": true
 },
 "دوبارہ کھیلیں": {
-"en": "playAgain",
+"en": "Play again",
 "kind": "text",
 "ui": true
 },
@@ -74075,7 +74075,7 @@
 "ui": false
 },
 "ذخیره": {
-"en": "save",
+"en": "Save",
 "kind": "text",
 "ui": true
 },
@@ -75800,7 +75800,7 @@
 "ui": false
 },
 "ردّ بالإنجليزية…": {
-"en": "replyHint",
+"en": "Reply in English…",
 "kind": "text",
 "ui": true
 },
@@ -76170,7 +76170,7 @@
 "ui": false
 },
 "رشد": {
-"en": "growthPct",
+"en": "grown",
 "kind": "text",
 "ui": true
 },
@@ -76185,7 +76185,7 @@
 "ui": false
 },
 "رشد: این شخصیت همراه تو چقدر رشد کرده": {
-"en": "growth",
+"en": "Growth: how much this character has grown with you",
 "kind": "text",
 "ui": true
 },
@@ -76480,7 +76480,7 @@
 "ui": false
 },
 "ركن الثقافة": {
-"en": "cultureCorner",
+"en": "Culture corner",
 "kind": "text",
 "ui": true
 },
@@ -77500,7 +77500,7 @@
 "ui": false
 },
 "روزت را به انگلیسی بنویس — خانواده جواب می‌دهند.": {
-"en": "diary_sub",
+"en": "Write your day in English — the family will answer.",
 "kind": "text",
 "ui": true
 },
@@ -78060,7 +78060,7 @@
 "ui": false
 },
 "روی یک نفر یا یک وسیله در تصویر بزن": {
-"en": "tap_someone",
+"en": "Tap a person or a prop in the painting",
 "kind": "text",
 "ui": true
 },
@@ -78470,7 +78470,7 @@
 "ui": false
 },
 "زبان راهنما": {
-"en": "settings_lang",
+"en": "Helper language",
 "kind": "text",
 "ui": true
 },
@@ -81300,12 +81300,12 @@
 "ui": false
 },
 "سب ٹائٹل کے ساتھ پڑھیں یا اپنی رفتار سے سنیں۔": {
-"en": "replay_sub",
+"en": "Re-read with subtitles, or listen at your speed.",
 "kind": "text",
 "ui": true
 },
 "سب چلائیں": {
-"en": "play_all",
+"en": "Play all",
 "kind": "text",
 "ui": true
 },
@@ -81590,7 +81590,7 @@
 "ui": false
 },
 "سجّل نفسك ثم قارن.": {
-"en": "shadowHelp",
+"en": "Record yourself saying the line, then compare.",
 "kind": "text",
 "ui": true
 },
@@ -82185,7 +82185,7 @@
 "ui": false
 },
 "سرعة الكلام": {
-"en": "speed",
+"en": "Speech speed",
 "kind": "text",
 "ui": true
 },
@@ -82195,7 +82195,7 @@
 "ui": false
 },
 "سرعت بومی": {
-"en": "native",
+"en": "Native speed",
 "kind": "text",
 "ui": true
 },
@@ -82205,7 +82205,7 @@
 "ui": false
 },
 "سرعت گفتار": {
-"en": "speed",
+"en": "Speech speed",
 "kind": "text",
 "ui": true
 },
@@ -82655,7 +82655,7 @@
 "ui": true
 },
 "سطح کا ٹیسٹ": {
-"en": "quiz",
+"en": "Placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -84465,7 +84465,7 @@
 "ui": false
 },
 "سلسلہ بونس": {
-"en": "streakBoost",
+"en": "streak boost",
 "kind": "text",
 "ui": true
 },
@@ -84690,7 +84690,7 @@
 "ui": false
 },
 "سنتحدث عندما تصل لهذا المستوى.": {
-"en": "lockedLevel",
+"en": "We’ll chat once you’ve reached this level.",
 "kind": "text",
 "ui": true
 },
@@ -84725,7 +84725,7 @@
 "ui": false
 },
 "سنگ میل آرکائیو": {
-"en": "archive",
+"en": "Milestone archive",
 "kind": "text",
 "ui": true
 },
@@ -84795,7 +84795,7 @@
 "ui": false
 },
 "سنیں": {
-"en": "listen",
+"en": "Listen",
 "kind": "text",
 "ui": true
 },
@@ -85765,7 +85765,7 @@
 "ui": false
 },
 "سيعود غدًا في القصة": {
-"en": "tomorrow",
+"en": "COMING BACK TOMORROW IN THE STORY",
 "kind": "text",
 "ui": true
 },
@@ -91495,7 +91495,7 @@
 "ui": false
 },
 "صحيحة تمامًا": {
-"en": "spotOn",
+"en": "spot on",
 "kind": "text",
 "ui": true
 },
@@ -91700,7 +91700,7 @@
 "ui": false
 },
 "صدای خودت را موقع گفتن جمله ضبط کن و با اصلش مقایسه کن.": {
-"en": "shadowHelp",
+"en": "Record yourself saying the line, then compare.",
 "kind": "text",
 "ui": true
 },
@@ -91740,7 +91740,7 @@
 "ui": false
 },
 "صدایت را نشنیدم. میکروفون را بزن، صبر کن قرمز شود، بعد حرف بزن — یا یکی از جواب‌های بالا را بزن.": {
-"en": "no-speech",
+"en": "I didn't catch that. Tap the mic, wait for red, then speak — or tap a reply above.",
 "kind": "text",
 "ui": true
 },
@@ -93175,7 +93175,7 @@
 "ui": false
 },
 "ظلّ الصوت": {
-"en": "shadow",
+"en": "Shadow",
 "kind": "text",
 "ui": true
 },
@@ -93190,7 +93190,7 @@
 "ui": false
 },
 "عائلة توم": {
-"en": "family",
+"en": "The Toms",
 "kind": "text",
 "ui": true
 },
@@ -93225,12 +93225,12 @@
 "ui": false
 },
 "عادي": {
-"en": "normal",
+"en": "Normal",
 "kind": "text",
 "ui": true
 },
 "عادی": {
-"en": "normal",
+"en": "Normal",
 "kind": "word",
 "ui": true
 },
@@ -95250,7 +95250,7 @@
 "ui": false
 },
 "عام": {
-"en": "normal",
+"en": "Normal",
 "kind": "text",
 "ui": true
 },
@@ -96945,7 +96945,7 @@
 "ui": false
 },
 "غيّر الدور لتلعب هذه.": {
-"en": "roleStory",
+"en": "Switch role to play this one.",
 "kind": "text",
 "ui": true
 },
@@ -97365,7 +97365,7 @@
 "ui": false
 },
 "فردا در داستان برمی‌گردد": {
-"en": "tomorrow",
+"en": "COMING BACK TOMORROW IN THE STORY",
 "kind": "text",
 "ui": true
 },
@@ -97765,7 +97765,7 @@
 "ui": false
 },
 "فرهنگ": {
-"en": "culture",
+"en": "Culture",
 "kind": "text",
 "ui": true
 },
@@ -98120,7 +98120,7 @@
 "ui": false
 },
 "فصل ۱ · یک روز با تام‌ها": {
-"en": "chapter1",
+"en": "Chapter 1 · A Day with the Toms",
 "kind": "text",
 "ui": true
 },
@@ -102525,7 +102525,7 @@
 "ui": false
 },
 "قسط": {
-"en": "episode",
+"en": "Episode",
 "kind": "text",
 "ui": true
 },
@@ -102535,7 +102535,7 @@
 "ui": false
 },
 "قسمت": {
-"en": "part",
+"en": "Episode",
 "kind": "word",
 "ui": true
 },
@@ -103790,7 +103790,7 @@
 "ui": false
 },
 "لا يوجد شيء بعد — اكتب أو أنهِ محادثة.": {
-"en": "diary_empty",
+"en": "No entries yet — write one, or finish a conversation.",
 "kind": "text",
 "ui": true
 },
@@ -104735,7 +104735,7 @@
 "ui": false
 },
 "لست متأكدًا؟ اختبار دقيقة واحدة": {
-"en": "take_quiz",
+"en": "Not sure? Take a 1-minute placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -104990,7 +104990,7 @@
 "ui": false
 },
 "لغة المساعدة": {
-"en": "settings_lang",
+"en": "Helper language",
 "kind": "text",
 "ui": true
 },
@@ -105400,7 +105400,7 @@
 "ui": false
 },
 "لہجے کا پاسپورٹ": {
-"en": "passport",
+"en": "Accent Passport",
 "kind": "text",
 "ui": true
 },
@@ -105615,7 +105615,7 @@
 "ui": false
 },
 "مأموریت امروز": {
-"en": "mission",
+"en": "Daily mission",
 "kind": "text",
 "ui": true
 },
@@ -105625,7 +105625,7 @@
 "ui": false
 },
 "مأموریت انجام شد — عالی!": {
-"en": "mission_done",
+"en": "Mission complete — brilliant!",
 "kind": "text",
 "ui": true
 },
@@ -105795,7 +105795,7 @@
 "ui": false
 },
 "ما مستوى إنجليزيتك؟": {
-"en": "pick_level",
+"en": "How good is your English?",
 "kind": "text",
 "ui": true
 },
@@ -107690,7 +107690,7 @@
 "ui": false
 },
 "متوسط": {
-"en": "medium",
+"en": "Medium",
 "kind": "word",
 "ui": true
 },
@@ -107710,7 +107710,7 @@
 "ui": false
 },
 "متوقف شد.": {
-"en": "aborted",
+"en": "Stopped.",
 "kind": "text",
 "ui": true
 },
@@ -108270,7 +108270,7 @@
 "ui": false
 },
 "محادثة رائعة!": {
-"en": "lovelyChat",
+"en": "Lovely chat!",
 "kind": "text",
 "ui": true
 },
@@ -108450,7 +108450,7 @@
 "ui": false
 },
 "محفوظ کریں": {
-"en": "save",
+"en": "Save",
 "kind": "text",
 "ui": true
 },
@@ -108825,7 +108825,7 @@
 "ui": false
 },
 "مددگار زبان": {
-"en": "settings_lang",
+"en": "Helper language",
 "kind": "text",
 "ui": true
 },
@@ -109320,7 +109320,7 @@
 "ui": false
 },
 "مرحبًا بك عند عائلة توم": {
-"en": "welcome",
+"en": "Welcome to New Life UK",
 "kind": "text",
 "ui": true
 },
@@ -110535,7 +110535,7 @@
 "ui": false
 },
 "مشن مکمل — زبردست!": {
-"en": "mission_done",
+"en": "Mission complete — brilliant!",
 "kind": "text",
 "ui": true
 },
@@ -111245,7 +111245,7 @@
 "ui": false
 },
 "مطمئن نیستی؟ آزمون یک‌دقیقه‌ای": {
-"en": "take_quiz",
+"en": "Not sure? Take a 1-minute placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -116205,7 +116205,7 @@
 "ui": false
 },
 "مهمة اليوم": {
-"en": "mission",
+"en": "Daily mission",
 "kind": "text",
 "ui": true
 },
@@ -116860,7 +116860,7 @@
 "ui": false
 },
 "موڈ: یہ گفتگو کیسی جا رہی ہے": {
-"en": "mood",
+"en": "Mood: how this chat is going right now",
 "kind": "text",
 "ui": true
 },
@@ -116885,7 +116885,7 @@
 "ui": false
 },
 "مُبطّأ": {
-"en": "slowed",
+"en": "Slowed",
 "kind": "text",
 "ui": true
 },
@@ -116895,7 +116895,7 @@
 "ui": false
 },
 "مُهر این هفته را گرفتی!": {
-"en": "weekly_won",
+"en": "Stamp earned this week!",
 "kind": "text",
 "ui": true
 },
@@ -117705,7 +117705,7 @@
 "ui": true
 },
 "میکروفونی پیدا نشد. شاید برنامهٔ دیگری از آن استفاده می‌کند.": {
-"en": "audio-capture",
+"en": "No microphone found. Is another app using it?",
 "kind": "text",
 "ui": true
 },
@@ -122420,7 +122420,7 @@
 "ui": false
 },
 "نشوونما: یہ کردار آپ کے ساتھ کتنا بڑھا": {
-"en": "growth",
+"en": "Growth: how much this character has grown with you",
 "kind": "text",
 "ui": true
 },
@@ -122940,7 +122940,7 @@
 "ui": false
 },
 "نقل کریں": {
-"en": "shadow",
+"en": "Shadow",
 "kind": "text",
 "ui": true
 },
@@ -122955,7 +122955,7 @@
 "ui": false
 },
 "نما": {
-"en": "growthPct",
+"en": "grown",
 "kind": "text",
 "ui": true
 },
@@ -123390,7 +123390,7 @@
 "ui": false
 },
 "ننصحك بالبدء من": {
-"en": "quiz_result",
+"en": "We recommend starting at",
 "kind": "text",
 "ui": true
 },
@@ -129245,7 +129245,7 @@
 "ui": false
 },
 "هذا المكان ما زال مغلقًا": {
-"en": "locked_place",
+"en": "This place is still locked",
 "kind": "text",
 "ui": true
 },
@@ -129255,7 +129255,7 @@
 "ui": false
 },
 "هذه قصة عائلية خاصة — ابنِ ثقة أكبر أولًا.": {
-"en": "privateStory",
+"en": "This is a private family story — build more trust first.",
 "kind": "text",
 "ui": true
 },
@@ -132820,7 +132820,7 @@
 "ui": false
 },
 "هنوز چیزی نیست — بنویس یا یک گفتگو را تمام کن.": {
-"en": "diary_empty",
+"en": "No entries yet — write one, or finish a conversation.",
 "kind": "text",
 "ui": true
 },
@@ -136675,7 +136675,7 @@
 "ui": false
 },
 "وقتی به این سطح رسیدی گپ می‌زنیم.": {
-"en": "lockedLevel",
+"en": "We’ll chat once you’ve reached this level.",
 "kind": "text",
 "ui": true
 },
@@ -137855,12 +137855,12 @@
 "ui": true
 },
 "ٹام کا خاندان": {
-"en": "family",
+"en": "The Toms",
 "kind": "text",
 "ui": true
 },
 "ٹامز میں خوش آمدید": {
-"en": "welcome",
+"en": "Welcome to New Life UK",
 "kind": "text",
 "ui": true
 },
@@ -138815,7 +138815,7 @@
 "ui": false
 },
 "پخش همه": {
-"en": "play_all",
+"en": "Play all",
 "kind": "text",
 "ui": true
 },
@@ -142455,7 +142455,7 @@
 "ui": false
 },
 "پچھلے لیول میں 2 گفتگو مکمل کریں": {
-"en": "level_locked",
+"en": "Finish 2 chats in the previous level to open",
 "kind": "text",
 "ui": true
 },
@@ -143195,7 +143195,7 @@
 "ui": false
 },
 "پیشنهاد ما شروع از این سطح است": {
-"en": "quiz_result",
+"en": "We recommend starting at",
 "kind": "text",
 "ui": true
 },
@@ -143625,7 +143625,7 @@
 "ui": false
 },
 "چالش هفتگی": {
-"en": "weekly",
+"en": "Weekly challenge",
 "kind": "text",
 "ui": true
 },
@@ -147580,7 +147580,7 @@
 "ui": false
 },
 "ڈائری": {
-"en": "diary",
+"en": "Diary",
 "kind": "text",
 "ui": true
 },
@@ -151335,7 +151335,7 @@
 "ui": false
 },
 "کل کہانی میں واپس آئے گا": {
-"en": "tomorrow",
+"en": "COMING BACK TOMORROW IN THE STORY",
 "kind": "text",
 "ui": true
 },
@@ -153345,7 +153345,7 @@
 "ui": false
 },
 "کہانی ختم": {
-"en": "storyDone",
+"en": "Story finished",
 "kind": "text",
 "ui": true
 },
@@ -154175,7 +154175,7 @@
 "ui": false
 },
 "گذرنامهٔ لهجه": {
-"en": "passport",
+"en": "Accent Passport",
 "kind": "text",
 "ui": true
 },
@@ -155345,7 +155345,7 @@
 "ui": false
 },
 "گفتگوی قشنگی بود!": {
-"en": "lovelyChat",
+"en": "Lovely chat!",
 "kind": "text",
 "ui": true
 },
@@ -155845,7 +155845,7 @@
 "ui": false
 },
 "گوش بده": {
-"en": "listen",
+"en": "Listen",
 "kind": "text",
 "ui": true
 },
@@ -156050,7 +156050,7 @@
 "ui": false
 },
 "گوشهٔ فرهنگ": {
-"en": "cultureCorner",
+"en": "Culture corner",
 "kind": "text",
 "ui": true
 },
@@ -156515,27 +156515,27 @@
 "ui": false
 },
 "ہر کردار کا اعتماد": {
-"en": "trustBy",
+"en": "TRUST BY CHARACTER",
 "kind": "text",
 "ui": true
 },
 "ہفتہ وار چیلنج": {
-"en": "weekly",
+"en": "Weekly challenge",
 "kind": "text",
 "ui": true
 },
 "ہم کس زبان میں سمجھائیں؟": {
-"en": "pick_lang",
+"en": "Which language should we explain things in?",
 "kind": "text",
 "ui": true
 },
 "ہم یہاں سے شروع کرنے کا مشورہ دیتے ہیں": {
-"en": "quiz_result",
+"en": "We recommend starting at",
 "kind": "text",
 "ui": true
 },
 "ہو گیا": {
-"en": "done",
+"en": "Done",
 "kind": "text",
 "ui": true
 },
@@ -156780,7 +156780,7 @@
 "ui": false
 },
 "یادداشت امروز را بنویس": {
-"en": "writeDiary",
+"en": "Write today’s entry",
 "kind": "text",
 "ui": true
 },
@@ -157350,7 +157350,7 @@
 "ui": false
 },
 "یقین نہیں؟ 1 منٹ کا ٹیسٹ دیں": {
-"en": "take_quiz",
+"en": "Not sure? Take a 1-minute placement quiz",
 "kind": "text",
 "ui": true
 },
@@ -160810,7 +160810,7 @@
 "ui": false
 },
 "یہ جگہ ابھی بند ہے": {
-"en": "locked_place",
+"en": "This place is still locked",
 "kind": "text",
 "ui": true
 },
@@ -160820,12 +160820,12 @@
 "ui": false
 },
 "یہ نجی خاندانی کہانی ہے — پہلے مزید اعتماد بنائیں۔": {
-"en": "privateStory",
+"en": "This is a private family story — build more trust first.",
 "kind": "text",
 "ui": true
 },
 "یہاں سے شروع کریں": {
-"en": "start_here",
+"en": "Start here",
 "kind": "text",
 "ui": true
 },

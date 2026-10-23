@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -55,8 +56,8 @@ class _StreakSheet extends ConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(streak == 1 ? '1-day streak' : '$streak-day streak', key: const ValueKey('streak-count'), style: BL.display(26)),
-                      Text('$streak روز پشت سر هم', textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+                      Text(hl(streak == 1 ? '1-day streak' : '$streak-day streak'), key: const ValueKey('streak-count'), style: BL.display(26)),
+                      Text(hl('$streak روز پشت سر هم'), textDirection: helperDir, style: BL.fa(12.5)),
                     ],
                   ),
                 ),
@@ -84,10 +85,10 @@ class _StreakSheet extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    msg,
+                    hl(msg),
                     style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 14, color: BL.ink),
                   ),
-                  Text(msgFa, textDirection: TextDirection.rtl, style: BL.fa(12)),
+                  Text(hl(msgFa), textDirection: helperDir, style: BL.fa(12)),
                 ],
               ),
             ),
@@ -125,12 +126,12 @@ class _StreakSheet extends ConsumerWidget {
                                 : st == 'freeze'
                                 ? const Icon(Icons.ac_unit_rounded, size: 17, color: Colors.white)
                                 : Text(
-                                    '${d.day}',
+                                    hl('${d.day}'),
                                     style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: BL.muted),
                                   ),
                           ),
                           const SizedBox(height: 2),
-                          Text(_wd[d.weekday - 1], style: const TextStyle(fontSize: 10, color: BL.muted)),
+                          Text(hl(_wd[d.weekday - 1]), style: const TextStyle(fontSize: 10, color: BL.muted)),
                         ],
                       ),
                   ],
@@ -151,11 +152,11 @@ class _StreakSheet extends ConsumerWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Streak freezes: $fr of ${Motivation.maxFreezes}',
+                        hl('Streak freezes: $fr of ${Motivation.maxFreezes}'),
                         style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13.5, color: BL.ink),
                       ),
                       const Text('A freeze covers one missed day automatically. You earn one for every 7-day streak.', style: TextStyle(fontSize: 12, color: BL.muted)),
-                      Text('هر یخ‌زدگی یک روزِ جاافتاده را خودکار جبران می‌کند؛ هر ۷ روز یکی می‌گیری.', textDirection: TextDirection.rtl, style: BL.fa(11.5)),
+                      Text(hl('هر یخ‌زدگی یک روزِ جاافتاده را خودکار جبران می‌کند؛ هر ۷ روز یکی می‌گیری.'), textDirection: helperDir, style: BL.fa(11.5)),
                     ],
                   ),
                 ),
@@ -171,10 +172,10 @@ class _StreakSheet extends ConsumerWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        ctrl.reminderOn ? 'Daily reminder at $time' : 'Daily reminder is off',
+                        hl(ctrl.reminderOn ? 'Daily reminder at $time' : 'Daily reminder is off'),
                         style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13.5, color: BL.ink),
                       ),
-                      Text('یادآور روزانه', textDirection: TextDirection.rtl, style: BL.fa(11.5)),
+                      Text(hl('یادآور روزانه'), textDirection: helperDir, style: BL.fa(11.5)),
                     ],
                   ),
                 ),

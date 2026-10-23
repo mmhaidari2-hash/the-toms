@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -30,11 +31,11 @@ Widget thyNote({required Key key, required IconData icon, required String en, re
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(en, style: const TextStyle(fontSize: 12.5, height: 1.35, fontWeight: FontWeight.w600)),
+            Text(hl(en), style: const TextStyle(fontSize: 12.5, height: 1.35, fontWeight: FontWeight.w600)),
             const SizedBox(height: 3),
             Text(
-              fa,
-              textDirection: TextDirection.rtl,
+              hl(fa),
+              textDirection: helperDir,
               style: BL.fa(12, color: BL.muted),
             ),
           ],
@@ -80,8 +81,8 @@ class ThyScreen extends ConsumerWidget {
           const SizedBox(height: 10),
           Text('Driving theory test prep', style: BL.display(28)),
           Text(
-            'آمادگی برای آزمون تئوری رانندگی',
-            textDirection: TextDirection.rtl,
+            hl('آمادگی برای آزمون تئوری رانندگی'),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           thyNote(key: const ValueKey('thy-disclaimer'), icon: Icons.info_outline_rounded, en: Thy.disclaimer, fa: Thy.disclaimerFa, color: BL.red),
@@ -115,7 +116,7 @@ class ThyScreen extends ConsumerWidget {
                     Column(
                       children: [
                         Text(
-                          mock == null ? '–' : '$mock%',
+                          hl(mock == null ? '–' : '$mock%'),
                           key: const ValueKey('thy-mock-best'),
                           style: TextStyle(color: (mock ?? 0) >= Thy.passPct ? const Color(0xFF9BE3B5) : Colors.white, fontWeight: FontWeight.w900, fontSize: 17),
                         ),
@@ -147,7 +148,7 @@ class ThyScreen extends ConsumerWidget {
                           radius: 20,
                           backgroundColor: thyBlue.withValues(alpha: .1),
                           child: Text(
-                            '${i + 1}',
+                            hl('${i + 1}'),
                             style: const TextStyle(color: thyBlue, fontWeight: FontWeight.w900),
                           ),
                         ),
@@ -156,18 +157,18 @@ class ThyScreen extends ConsumerWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(c.title, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+                              Text(hl(c.title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
                               Text(
-                                c.titleFa,
-                                textDirection: TextDirection.rtl,
+                                hl(c.titleFa),
+                                textDirection: helperDir,
                                 style: BL.fa(12, color: BL.muted),
                               ),
-                              Text('${c.qs.length} questions · ${ctrl.thyCardsKnown(c.id)}/${c.cards.length} cards known', style: const TextStyle(fontSize: 12, color: BL.muted)),
+                              Text(hl('${c.qs.length} questions · ${ctrl.thyCardsKnown(c.id)}/${c.cards.length} cards known'), style: const TextStyle(fontSize: 12, color: BL.muted)),
                             ],
                           ),
                         ),
                         Text(
-                          ctrl.thyQuizBest(c.id) == null ? '–' : '${ctrl.thyQuizBest(c.id)}%',
+                          hl(ctrl.thyQuizBest(c.id) == null ? '–' : '${ctrl.thyQuizBest(c.id)}%'),
                           key: ValueKey('thy-ch-best-${c.id}'),
                           style: TextStyle(fontWeight: FontWeight.w900, color: (ctrl.thyQuizBest(c.id) ?? 0) >= Thy.passPct ? const Color(0xFF2E7D5B) : BL.muted),
                         ),
@@ -231,7 +232,7 @@ class _ThyChapterState extends ConsumerState<ThyChapterScreen> {
                 key: const ValueKey('thy-fa'),
                 selected: fa,
                 showCheckmark: false,
-                label: const Text('فارسی'),
+                label: Text(hl('فارسی')),
                 selectedColor: thyBlue,
                 labelStyle: TextStyle(color: fa ? Colors.white : BL.ink, fontWeight: FontWeight.w800),
                 onSelected: (_) => ctrl.setPref('thyFa', fa ? 'off' : 'on'),
@@ -239,10 +240,10 @@ class _ThyChapterState extends ConsumerState<ThyChapterScreen> {
             ],
           ),
           const SizedBox(height: 8),
-          Text(c.title, style: BL.display(26)),
+          Text(hl(c.title), style: BL.display(26)),
           Text(
-            c.titleFa,
-            textDirection: TextDirection.rtl,
+            hl(c.titleFa),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           const SizedBox(height: 10),
@@ -270,14 +271,14 @@ class _ThyChapterState extends ConsumerState<ThyChapterScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
-                        Text(e.en, style: const TextStyle(fontSize: 14.5, height: 1.4)),
+                        Text(hl(e.en), style: const TextStyle(fontSize: 14.5, height: 1.4)),
                         if (fa)
                           Padding(
                             padding: const EdgeInsets.only(top: 4),
                             child: Text(
-                              e.fa,
+                              hl(e.fa),
                               key: ValueKey('thy-expl-fa-$i'),
-                              textDirection: TextDirection.rtl,
+                              textDirection: helperDir,
                               style: BL.fa(13, color: BL.muted),
                             ),
                           ),
@@ -317,7 +318,7 @@ class _ThyChapterState extends ConsumerState<ThyChapterScreen> {
                   alignment: Alignment.centerLeft,
                   child: Padding(
                     padding: const EdgeInsets.only(bottom: 4),
-                    child: SelectableText(s, style: const TextStyle(fontSize: 12, color: thyBlue)),
+                    child: SelectableText(hl(s), style: const TextStyle(fontSize: 12, color: thyBlue)),
                   ),
                 ),
             ],
@@ -341,10 +342,10 @@ class _ThyChapterState extends ConsumerState<ThyChapterScreen> {
             Icon(icon, color: Colors.white),
             const SizedBox(height: 4),
             Text(
-              title,
+              hl(title),
               style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800),
             ),
-            Text(sub, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+            Text(hl(sub), style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
           ],
         ),
       ),
@@ -387,13 +388,13 @@ class _ThyCardsState extends ConsumerState<ThyCardsScreen> {
                 const SizedBox(width: 10),
                 Expanded(
                   child: Text(
-                    '${c.title} · flashcards',
+                    hl('${c.title} · flashcards'),
                     style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Text(
-                  '${known.length}/${c.cards.length}',
+                  hl('${known.length}/${c.cards.length}'),
                   key: const ValueKey('thy-cards-known'),
                   style: const TextStyle(fontWeight: FontWeight.w900, color: thyBlue),
                 ),
@@ -409,10 +410,10 @@ class _ThyCardsState extends ConsumerState<ThyCardsScreen> {
                     children: [
                       const Icon(Icons.verified_rounded, size: 60, color: Color(0xFF2E7D5B)),
                       const SizedBox(height: 10),
-                      Text('All ${c.cards.length} cards known!', style: BL.display(22)),
+                      Text(hl('All ${c.cards.length} cards known!'), style: BL.display(22)),
                       Text(
-                        'همهٔ کارت‌ها را بلدی!',
-                        textDirection: TextDirection.rtl,
+                        hl('همهٔ کارت‌ها را بلدی!'),
+                        textDirection: helperDir,
                         style: BL.fa(14, color: BL.muted),
                       ),
                       const SizedBox(height: 16),
@@ -445,16 +446,16 @@ class _ThyCardsState extends ConsumerState<ThyCardsScreen> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  c.cards[pile!.first].back,
+                                  hl(c.cards[pile!.first].back),
                                   key: const ValueKey('thy-card-back'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w700, height: 1.35),
                                 ),
                                 const SizedBox(height: 10),
                                 Text(
-                                  c.cards[pile!.first].fa,
+                                  hl(c.cards[pile!.first].fa),
                                   textAlign: TextAlign.center,
-                                  textDirection: TextDirection.rtl,
+                                  textDirection: helperDir,
                                   style: BL.fa(15, color: Colors.white70),
                                 ),
                               ],
@@ -462,7 +463,7 @@ class _ThyCardsState extends ConsumerState<ThyCardsScreen> {
                           : Column(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                Text(c.cards[pile!.first].front, key: const ValueKey('thy-card-front'), textAlign: TextAlign.center, style: BL.display(28)),
+                                Text(hl(c.cards[pile!.first].front), key: const ValueKey('thy-card-front'), textAlign: TextAlign.center, style: BL.display(28)),
                                 const SizedBox(height: 12),
                                 const Text('Tap to turn over', style: TextStyle(color: BL.muted, fontSize: 12.5)),
                               ],
@@ -546,14 +547,14 @@ class _HazardState extends State<_Hazard> {
             const Expanded(child: Text('Hazard perception: how it works', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5))),
             Icon(open ? Icons.expand_less_rounded : Icons.expand_more_rounded, color: BL.muted),
           ]),
-          Text('بخش دوم آزمون: ۱۴ ویدیو، تشخیص خطر. نمرهٔ قبولی ۴۴ از ۷۵', textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+          Text(hl('بخش دوم آزمون: ۱۴ ویدیو، تشخیص خطر. نمرهٔ قبولی ۴۴ از ۷۵'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
           if (open)
             for (final p in points)
               Padding(
                 padding: const EdgeInsets.only(top: 6),
                 child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   const Text('•  ', style: TextStyle(color: thyBlue, fontWeight: FontWeight.w900)),
-                  Expanded(child: Text(p, style: const TextStyle(fontSize: 13.5, height: 1.35))),
+                  Expanded(child: Text(hl(p), style: const TextStyle(fontSize: 13.5, height: 1.35))),
                 ]),
               ),
         ]),

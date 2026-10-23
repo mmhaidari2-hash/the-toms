@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/gestures.dart';
@@ -57,14 +58,14 @@ class BookLocked extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
                   const SizedBox(height: 14),
-                  Text(book.title, textAlign: TextAlign.center, style: BL.display(24)),
-                  Text(book.titleFa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
+                  Text(hl(book.title), textAlign: TextAlign.center, style: BL.display(24)),
+                  Text(hl(book.titleFa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
                   const SizedBox(height: 16),
-                  Text('This book is on the ${book.level} shelf, which is still locked', textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
+                  Text(hl('This book is on the ${book.level} shelf, which is still locked'), textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
                   const SizedBox(height: 10),
-                  Text(en, key: const ValueKey('book-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
+                  Text(hl(en), key: const ValueKey('book-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
                   const SizedBox(height: 4),
-                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
+                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
                   const SizedBox(height: 22),
                   TextButton(key: const ValueKey('book-locked-library'), onPressed: () => context.go('/library'), child: const Text('Back to the Library')),
                 ]),
@@ -161,9 +162,9 @@ class _ReaderState extends ConsumerState<_Reader> {
           key: const ValueKey('word-sheet'),
           padding: const EdgeInsets.fromLTRB(22, 0, 22, 18),
           child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            Text(key.contains(' ') ? key : surface.replaceAll(RegExp(r"^\W+|\W+$"), ''), style: BL.display(28)),
+            Text(hl(key.contains(' ') ? key : surface.replaceAll(RegExp(r"^\W+|\W+$"), '')), style: BL.display(28)),
             const SizedBox(height: 6),
-            Text(fa.isEmpty ? '—' : fa, key: const ValueKey('word-fa'), textDirection: TextDirection.rtl, textAlign: TextAlign.right, style: BL.fa(20, color: BL.ink, w: FontWeight.w600)),
+            Text(hl(fa.isEmpty ? '—' : fa), key: const ValueKey('word-fa'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(20, color: BL.ink, w: FontWeight.w600)),
             const SizedBox(height: 16),
             FilledButton.icon(
               key: const ValueKey('word-save'),
@@ -172,11 +173,11 @@ class _ReaderState extends ConsumerState<_Reader> {
                   : () {
                       ctrl.seeWords([NewWord(key, fa)]);
                       Navigator.of(sheet).pop();
-                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text('“$key” saved to your words · به واژه‌هایت اضافه شد')));
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text(hl('“$key” saved to your words · به واژه‌هایت اضافه شد'))));
                     },
               style: FilledButton.styleFrom(backgroundColor: BL.green, padding: const EdgeInsets.symmetric(vertical: 13), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
               icon: Icon(saved ? Icons.check_rounded : Icons.bookmark_add_rounded),
-              label: Text(saved ? 'Already in your words' : 'Save to my words', style: const TextStyle(fontWeight: FontWeight.w800)),
+              label: Text(hl(saved ? 'Already in your words' : 'Save to my words'), style: const TextStyle(fontWeight: FontWeight.w800)),
             ),
           ]),
         ),
@@ -190,11 +191,11 @@ class _ReaderState extends ConsumerState<_Reader> {
     final spans = <InlineSpan>[];
     for (final (txt, key) in s.segs) {
       if (key.isEmpty) {
-        spans.add(TextSpan(text: txt));
+        spans.add(TextSpan(text: hl(txt)));
       } else {
         final r = TapGestureRecognizer()..onTap = () => _word(txt, key);
         _taps.add(r);
-        spans.add(TextSpan(text: txt, recognizer: r));
+        spans.add(TextSpan(text: hl(txt), recognizer: r));
       }
     }
     return GestureDetector(
@@ -206,9 +207,9 @@ class _ReaderState extends ConsumerState<_Reader> {
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
         decoration: BoxDecoration(color: on ? BL.gold.withValues(alpha: .32) : Colors.transparent, borderRadius: BorderRadius.circular(10)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          if (s.spName != null) Text(s.spName!.toUpperCase(), key: ValueKey('spk-$i'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red)),
+          if (s.spName != null) Text(hl(s.spName!.toUpperCase()), key: ValueKey('spk-$i'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red)),
           Text.rich(TextSpan(children: spans), key: ValueKey('sent-$i'), style: BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0)),
-          if (showFa) Text(s.fa, key: ValueKey('fa-$i'), textDirection: TextDirection.rtl, textAlign: TextAlign.right, style: BL.fa(14.5, color: BL.muted)),
+          if (showFa) Text(hl(s.fa), key: ValueKey('fa-$i'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(14.5, color: BL.muted)),
         ]),
       ),
     );
@@ -292,8 +293,8 @@ class _ReaderState extends ConsumerState<_Reader> {
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(b.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-                Text('Chapter ${ch + 1} of ${b.chapters.length}  ·  ${b.level}', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+                Text(hl(b.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+                Text(hl('Chapter ${ch + 1} of ${b.chapters.length}  ·  ${b.level}'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
               ]),
             ),
             IconButton(
@@ -314,10 +315,10 @@ class _ReaderState extends ConsumerState<_Reader> {
         key: const ValueKey('reader-text'),
         padding: const EdgeInsets.fromLTRB(18, 8, 18, 24),
         children: [
-          Text(c.title, style: BL.display(26)),
-          Text(c.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
+          Text(hl(c.title), style: BL.display(26)),
+          Text(hl(c.titleFa), textDirection: helperDir, style: BL.fa(14)),
           const SizedBox(height: 4),
-          const Text('Tap a word for its meaning · برای معنی روی هر کلمه بزن', style: TextStyle(fontSize: 11.5, color: BL.muted)),
+          Text(hl('Tap a word for its meaning · برای معنی روی هر کلمه بزن'), style: TextStyle(fontSize: 11.5, color: BL.muted)),
           const SizedBox(height: 14),
           for (var i = 0; i < c.sentences.length; i++) _sentence(i),
           const SizedBox(height: 18),
@@ -326,7 +327,7 @@ class _ReaderState extends ConsumerState<_Reader> {
             onPressed: _startQuiz,
             style: FilledButton.styleFrom(backgroundColor: BL.navy, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
             icon: const Icon(Icons.quiz_rounded),
-            label: Text('Chapter quiz · ${c.quiz.length} questions', style: const TextStyle(fontWeight: FontWeight.w800)),
+            label: Text(hl('Chapter quiz · ${c.quiz.length} questions'), style: const TextStyle(fontWeight: FontWeight.w800)),
           ),
         ],
       );
@@ -340,11 +341,11 @@ class _ReaderState extends ConsumerState<_Reader> {
             tooltip: 'Reading speed',
             initialValue: rate,
             onSelected: (v) => ctrl.setPref('libRate', '$v'),
-            itemBuilder: (_) => [for (final s in speeds) PopupMenuItem(value: s, child: Text('$s×'))],
+            itemBuilder: (_) => [for (final s in speeds) PopupMenuItem(value: s, child: Text(hl('$s×')))],
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
               decoration: BoxDecoration(color: BL.mist, borderRadius: BorderRadius.circular(12)),
-              child: Text('$rate×', style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink)),
+              child: Text(hl('$rate×'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink)),
             ),
           ),
           const Spacer(),
@@ -371,9 +372,9 @@ class _ReaderState extends ConsumerState<_Reader> {
       key: const ValueKey('reader-quiz'),
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 24),
       children: [
-        Text('QUESTION ${qi + 1} OF ${c.quiz.length}', style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+        Text(hl('QUESTION ${qi + 1} OF ${c.quiz.length}'), style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
         const SizedBox(height: 8),
-        Text(q.q, key: const ValueKey('quiz-q'), style: BL.display(24)),
+        Text(hl(q.q), key: const ValueKey('quiz-q'), style: BL.display(24)),
         const SizedBox(height: 18),
         for (final o in order[qi])
           Builder(builder: (_) {
@@ -391,7 +392,7 @@ class _ReaderState extends ConsumerState<_Reader> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
                     child: Row(children: [
-                      Expanded(child: Text(q.options[o], style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: BL.ink))),
+                      Expanded(child: Text(hl(q.options[o]), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: BL.ink))),
                       if (picked != null && isAns) const Icon(Icons.check_circle_rounded, color: BL.green),
                       if (isPicked && !isAns) const Icon(Icons.cancel_rounded, color: BL.red),
                     ]),
@@ -400,7 +401,7 @@ class _ReaderState extends ConsumerState<_Reader> {
               ),
             );
           }),
-        TextButton(onPressed: () => setState(() => mode = _Mode.read), child: const Text('Back to the text · برگشت به متن')),
+        TextButton(onPressed: () => setState(() => mode = _Mode.read), child: Text(hl('Back to the text · برگشت به متن'))),
       ],
     );
   }

@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -23,7 +24,7 @@ class Avatar extends StatelessWidget {
       child: c.avatar.endsWith('.svg')
           ? SvgPicture.asset(c.avatar, fit: BoxFit.cover, semanticsLabel: c.name)
           : Image.asset(c.avatar, fit: BoxFit.cover, semanticLabel: c.name, cacheWidth: (size * 3).round(), filterQuality: FilterQuality.medium,
-              errorBuilder: (_, _, _) => ColoredBox(color: c.color, child: Center(child: Text(c.name.characters.first, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: size * .4))))),
+              errorBuilder: (_, _, _) => ColoredBox(color: c.color, child: Center(child: Text(hl(c.name.characters.first), style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: size * .4))))),
     ),
   );
 }
@@ -44,7 +45,7 @@ class MeterBar extends StatelessWidget {
       SizedBox(
         width: 46,
         child: Text(
-          label,
+          hl(label),
           style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w600),
         ),
       ),
@@ -77,7 +78,7 @@ class MeterBar extends StatelessWidget {
       SizedBox(
         width: 34,
         child: Text(
-          trailing,
+          hl(trailing),
           textAlign: TextAlign.right,
           style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700, color: color),
         ),
@@ -186,7 +187,7 @@ class LevelChip extends StatelessWidget {
       border: dark ? Border.all(color: Colors.white30) : null,
     ),
     child: Text(
-      level.replaceAll('-', '–'),
+      hl(level.replaceAll('-', '–')),
       style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, letterSpacing: .5, color: dark ? Colors.white : BL.navy),
     ),
   );
@@ -250,7 +251,7 @@ class LocationCard extends StatelessWidget {
             const SizedBox(width: 8),
             ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 170),
-              child: Text(a.label, key: const ValueKey('location-label'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 6)])),
+              child: Text(hl(a.label), key: const ValueKey('location-label'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 6)])),
             ),
           ]),
         )
@@ -266,9 +267,9 @@ class LocationCard extends StatelessWidget {
             const SizedBox(height: 12),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: Text(a.label, key: const ValueKey('location-label'), textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 8)])),
+              child: Text(hl(a.label), key: const ValueKey('location-label'), textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800, shadows: [Shadow(color: Colors.black54, blurRadius: 8)])),
             ),
-            if (a.labelFa.isNotEmpty) Text(a.labelFa, textDirection: TextDirection.rtl, style: const TextStyle(color: Colors.white70, fontSize: 14)),
+            if (a.labelFa.isNotEmpty) Text(hl(a.labelFa), textDirection: helperDir, style: const TextStyle(color: Colors.white70, fontSize: 14)),
           ]),
         ),
     ]);

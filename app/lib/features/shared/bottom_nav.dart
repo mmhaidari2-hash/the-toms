@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -95,12 +96,12 @@ class _Tab extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
                     constraints: const BoxConstraints(minWidth: 18),
                     decoration: BoxDecoration(color: const Color(0xFF1F7A4D), borderRadius: BorderRadius.circular(9), border: Border.all(color: Colors.white, width: 1.4)),
-                    child: Text(badge > 99 ? '99+' : '$badge', textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w900)),
+                    child: Text(hl(badge > 99 ? '99+' : '$badge'), textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w900)),
                   ),
                 ),
             ]),
             const SizedBox(height: 3),
-            Text('$en · $fa', maxLines: 1, style: TextStyle(fontSize: 11, fontWeight: on ? FontWeight.w900 : FontWeight.w700, color: on ? (fg == Colors.white ? Colors.white : red) : fg.withValues(alpha: .72))),
+            Text(hl('$en · $fa'), maxLines: 1, style: TextStyle(fontSize: 11, fontWeight: on ? FontWeight.w900 : FontWeight.w700, color: on ? (fg == Colors.white ? Colors.white : red) : fg.withValues(alpha: .72))),
           ]),
         ),
       ),

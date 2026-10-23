@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -55,7 +56,7 @@ class InboxScreen extends ConsumerWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(color: bubbleMe, borderRadius: BorderRadius.circular(99)),
                     child: Text(
-                      '$unread new',
+                      hl('$unread new'),
                       style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w800),
                     ),
                   ),
@@ -63,8 +64,8 @@ class InboxScreen extends ConsumerWidget {
             ],
           ),
           Text(
-            'پیام‌ها · پیام صوتی و متنی از خانوادهٔ تامسون؛ گوش کن و جواب بده',
-            textDirection: TextDirection.rtl,
+            hl('پیام‌ها · پیام صوتی و متنی از خانوادهٔ تامسون؛ گوش کن و جواب بده'),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           for (final lv in Library.levels)
@@ -103,7 +104,7 @@ class _Block extends ConsumerWidget {
                         child: Icon(Icons.lock_rounded, size: 12, color: Colors.white),
                       ),
                     Text(
-                      level.code,
+                      hl(level.code),
                       style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13),
                     ),
                   ],
@@ -115,12 +116,12 @@ class _Block extends ConsumerWidget {
                   TextSpan(
                     children: [
                       TextSpan(
-                        text: level.name,
+                        text: hl(level.name),
                         style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
                       ),
                       const TextSpan(text: '  '),
                       TextSpan(
-                        text: level.nameFa,
+                        text: hl(level.nameFa),
                         style: BL.fa(13, color: BL.muted),
                       ),
                     ],
@@ -130,7 +131,7 @@ class _Block extends ConsumerWidget {
                 ),
               ),
               Text(
-                open ? '${ts.where((t) => ctrl.threadDone(t.id)).length}/${ts.length}' : 'Locked · قفل',
+                hl(open ? '${ts.where((t) => ctrl.threadDone(t.id)).length}/${ts.length}' : 'Locked · قفل'),
                 key: ValueKey('inbox-status-${level.code}'),
                 style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700),
               ),
@@ -159,7 +160,7 @@ class _Block extends ConsumerWidget {
                             SnackBar(
                               behavior: SnackBarBehavior.floating,
                               duration: const Duration(seconds: 4),
-                              content: Text('$en\n$fa', key: const ValueKey('inbox-locked-snack')),
+                              content: Text(hl('$en\n$fa'), key: const ValueKey('inbox-locked-snack')),
                             ),
                           );
                       }
@@ -202,14 +203,14 @@ class _Tile extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            t.fromName,
+                            hl(t.fromName),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(fontWeight: done ? FontWeight.w600 : FontWeight.w900, fontSize: 15.5),
                           ),
                         ),
                         Text(
-                          t.time,
+                          hl(t.time),
                           style: TextStyle(fontSize: 12, color: done || !open ? BL.muted : bubbleMe, fontWeight: FontWeight.w700),
                         ),
                       ],
@@ -229,7 +230,7 @@ class _Tile extends StatelessWidget {
                           ),
                         Expanded(
                           child: Text(
-                            open ? (l.isVoice ? 'Voice message · ${l.duration}' : l.en) : t.title,
+                            hl(open ? (l.isVoice ? 'Voice message · ${l.duration}' : l.en) : t.title),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(fontSize: 13.5, color: BL.muted),

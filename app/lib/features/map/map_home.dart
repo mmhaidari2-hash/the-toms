@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -135,7 +136,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
         duration: const Duration(seconds: 3),
         // Float above the Continue button so it never covers it.
         margin: EdgeInsets.fromLTRB(16, 0, 16, MediaQuery.paddingOf(context).bottom + 100),
-        content: Text('${r.title} (${ProgressController.cefrOf(need)}) opens when you pass ${ProgressController.cefrOf(need - 1)} — or take the placement test.'),
+        content: Text(hl('${r.title} (${ProgressController.cefrOf(need)}) opens when you pass ${ProgressController.cefrOf(need - 1)} — or take the placement test.')),
         action: SnackBarAction(label: 'Test', onPressed: () => context.push('/placement')),
       ));
       return;
@@ -349,8 +350,8 @@ class _MapHomeState extends ConsumerState<MapHome> {
                   const SizedBox(width: 12),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                      Text(nu == null ? 'ALL DONE' : 'CONTINUE · ${ProgressController.cefrOf(nu.level)} · UNIT ${c.course.numberInLevel(nu)}', style: const TextStyle(color: Color(0xFFFFD9A0), fontSize: 10.5, letterSpacing: 1.3, fontWeight: FontWeight.w800)),
-                      Text(next?.title ?? 'Continue lesson', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19, color: Colors.white)),
+                      Text(hl(nu == null ? 'ALL DONE' : 'CONTINUE · ${ProgressController.cefrOf(nu.level)} · UNIT ${c.course.numberInLevel(nu)}'), style: const TextStyle(color: Color(0xFFFFD9A0), fontSize: 10.5, letterSpacing: 1.3, fontWeight: FontWeight.w800)),
+                      Text(hl(next?.title ?? 'Continue lesson'), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19, color: Colors.white)),
                     ]),
                   ),
                   Container(
@@ -387,7 +388,7 @@ class _StatsChipState extends ConsumerState<_StatsChip> {
       final left = ctrl.dailyGoal - ctrl.xpToday;
       final sent = await showNotification('New Life UK', ctrl.currentStreak > 0 ? 'Your ${ctrl.currentStreak}-day streak is waiting. $left XP to today\'s goal.' : '$left XP to your daily goal. One lesson will do it!');
       if (!sent && mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text('Reminder: $left XP to today\'s goal. One lesson will do it!')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(hl('Reminder: $left XP to today\'s goal. One lesson will do it!'))));
       }
     });
   }
@@ -407,7 +408,7 @@ class _StatsChipState extends ConsumerState<_StatsChip> {
           padding: const EdgeInsets.fromLTRB(10, 7, 10, 7),
           child: Row(mainAxisSize: MainAxisSize.min, children: [
             const Icon(Icons.local_fire_department_rounded, color: BL.red, size: 22),
-            Text('${ctrl.currentStreak}', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: BL.ink)),
+            Text(hl('${ctrl.currentStreak}'), style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: BL.ink)),
             const SizedBox(width: 8),
             GoalRing(xp: ctrl.xpToday, goal: ctrl.dailyGoal, size: 22),
           ]),
@@ -465,16 +466,16 @@ class _Pin extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: here ? BL.red : passed ? const Color(0xFF1F7A4D) : open ? BL.ink : const Color(0x33FFFFFF),
               ),
-              child: Text(ProgressController.cefrOf(lv), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 12.5)),
+              child: Text(hl(ProgressController.cefrOf(lv)), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 12.5)),
             )
           else
             const Padding(padding: EdgeInsets.only(left: 4, right: 6), child: Icon(Icons.workspace_premium_rounded, size: 16, color: Color(0xFFC9A04C))),
           Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
             Row(mainAxisSize: MainAxisSize.min, children: [
               if (!open) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 11, color: Colors.white70)),
-              Text(r.title, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: open ? BL.ink : Colors.white)),
+              Text(hl(r.title), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: open ? BL.ink : Colors.white)),
             ]),
-            Text(status, style: TextStyle(fontSize: 10, fontWeight: FontWeight.w700, color: here ? BL.red : open ? BL.muted : Colors.white60)),
+            Text(hl(status), style: TextStyle(fontSize: 10, fontWeight: FontWeight.w700, color: here ? BL.red : open ? BL.muted : Colors.white60)),
             if (lv != null && open)
               Padding(
                 padding: const EdgeInsets.only(top: 2),
@@ -526,7 +527,7 @@ class _ZoneBadge extends StatelessWidget {
         child: Stack(alignment: Alignment.center, children: [
           if (open) Positioned.fill(child: Padding(padding: const EdgeInsets.all(1.5), child: CircularProgressIndicator(value: passed ? 1 : progress, strokeWidth: 2.2, color: const Color(0xFFFFD36B), backgroundColor: Colors.white24))),
           open
-              ? Text(ProgressController.cefrOf(level), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 11))
+              ? Text(hl(ProgressController.cefrOf(level)), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 11))
               : const Icon(Icons.lock_rounded, size: 14, color: Colors.white70),
         ]),
       ),
@@ -609,9 +610,9 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
               Padding(
                 padding: const EdgeInsets.fromLTRB(4, 10, 4, 8),
                 child: Row(children: [
-                  Text(en.toUpperCase(), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w900, letterSpacing: 1, color: BL.navy)),
+                  Text(hl(en.toUpperCase()), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w900, letterSpacing: 1, color: BL.navy)),
                   const Spacer(),
-                  Text(fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                  Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                 ]),
               ),
               Wrap(spacing: 8, runSpacing: 8, children: [
@@ -628,7 +629,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
                 const SizedBox(width: 14),
                 const Text('Helper language', style: TextStyle(fontWeight: FontWeight.w700)),
                 const Spacer(),
-                Text('زبان کمکی', textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                Text(hl('زبان کمکی'), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
               ]),
             ),
             const Padding(padding: EdgeInsets.fromLTRB(4, 0, 4, 8), child: HelperLangBar()),
@@ -638,8 +639,8 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
                 dense: true,
                 visualDensity: VisualDensity.compact,
                 leading: Icon(icon, color: BL.muted, size: 20),
-                title: Text(en, style: const TextStyle(fontWeight: FontWeight.w700)),
-                trailing: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                title: Text(hl(en), style: const TextStyle(fontWeight: FontWeight.w700)),
+                trailing: Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                 onTap: () => go(sheet, route),
               ),
           ]);
@@ -677,9 +678,9 @@ class _MenuTile extends StatelessWidget {
                 child: Icon(icon, color: Colors.white, size: 19),
               ),
               const SizedBox(height: 6),
-              Text(en, maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11.5, height: 1.1)),
+              Text(hl(en), maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11.5, height: 1.1)),
               const Spacer(),
-              Text(fa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(9.5, color: BL.muted)),
+              Text(hl(fa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(9.5, color: BL.muted)),
             ]),
           ),
         ),

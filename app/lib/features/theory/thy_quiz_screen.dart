@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:async';
 import 'dart:math';
 
@@ -97,7 +98,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
                 const SizedBox(width: 10),
                 Expanded(
                   child: Text(
-                    title,
+                    hl(title),
                     style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -111,7 +112,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
                         const Icon(Icons.timer_rounded, size: 16, color: Colors.white),
                         const SizedBox(width: 4),
                         Text(
-                          '${left ~/ 60}:${(left % 60).toString().padLeft(2, '0')}',
+                          hl('${left ~/ 60}:${(left % 60).toString().padLeft(2, '0')}'),
                           key: const ValueKey('thy-timer'),
                           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
                         ),
@@ -123,7 +124,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
                   key: const ValueKey('thy-fa'),
                   selected: fa,
                   showCheckmark: false,
-                  label: const Text('فارسی'),
+                  label: Text(hl('فارسی')),
                   selectedColor: thyBlue,
                   labelStyle: TextStyle(color: fa ? Colors.white : BL.ink, fontWeight: FontWeight.w800, fontSize: 12),
                   visualDensity: VisualDensity.compact,
@@ -155,7 +156,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
             ),
             const SizedBox(width: 10),
             Text(
-              '${i + 1}/${qs!.length}',
+              hl('${i + 1}/${qs!.length}'),
               key: const ValueKey('thy-pos'),
               style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted),
             ),
@@ -163,7 +164,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
         ),
         const SizedBox(height: 16),
         Text(
-          q.q,
+          hl(q.q),
           key: const ValueKey('thy-q'),
           style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, height: 1.35),
         ),
@@ -171,9 +172,9 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
           Padding(
             padding: const EdgeInsets.only(top: 4),
             child: Text(
-              q.fa,
+              hl(q.fa),
               key: const ValueKey('thy-q-fa'),
-              textDirection: TextDirection.rtl,
+              textDirection: helperDir,
               style: BL.fa(14, color: BL.muted),
             ),
           ),
@@ -202,7 +203,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
                       const SizedBox(width: 10),
                       Expanded(
                         child: Text(
-                          q.options[o],
+                          hl(q.options[o]),
                           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: (reveal && o == 0) || (!reveal && picked[i] == o) ? Colors.white : BL.ink),
                         ),
                       ),
@@ -238,7 +239,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
                         setState(() => i++);
                       },
                 style: FilledButton.styleFrom(backgroundColor: thyBlue, padding: const EdgeInsets.symmetric(vertical: 14)),
-                child: Text(last ? (mock ? 'Finish test' : 'See my score') : 'Next', style: const TextStyle(fontWeight: FontWeight.w800)),
+                child: Text(hl(last ? (mock ? 'Finish test' : 'See my score') : 'Next'), style: const TextStyle(fontWeight: FontWeight.w800)),
               ),
             ),
           ],
@@ -246,7 +247,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
         if (mock) ...[
           const SizedBox(height: 10),
           Text(
-            '${picked.where((p) => p != null).length} of ${qs!.length} answered · you can go back and change answers',
+            hl('${picked.where((p) => p != null).length} of ${qs!.length} answered · you can go back and change answers'),
             key: const ValueKey('thy-answered'),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 12, color: BL.muted),
@@ -268,17 +269,17 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Text(
-          ok ? 'Correct!' : 'Not quite. The answer is: ${q.right}',
+          hl(ok ? 'Correct!' : 'Not quite. The answer is: ${q.right}'),
           style: TextStyle(fontWeight: FontWeight.w900, color: ok ? _good : BL.red),
         ),
         const SizedBox(height: 4),
-        Text(q.why, style: const TextStyle(fontSize: 13.5, height: 1.35)),
+        Text(hl(q.why), style: const TextStyle(fontSize: 13.5, height: 1.35)),
         if (fa)
           Padding(
             padding: const EdgeInsets.only(top: 3),
             child: Text(
-              q.whyFa,
-              textDirection: TextDirection.rtl,
+              hl(q.whyFa),
+              textDirection: helperDir,
               style: BL.fa(12.5, color: BL.muted),
             ),
           ),
@@ -298,24 +299,24 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
       children: [
         Icon(pass ? Icons.emoji_events_rounded : Icons.menu_book_rounded, size: 56, color: pass ? BL.gold : thyBlue),
         const SizedBox(height: 6),
-        Text('$right / $n · $pct%', key: const ValueKey('thy-score'), textAlign: TextAlign.center, style: BL.display(28)),
+        Text(hl('$right / $n · $pct%'), key: const ValueKey('thy-score'), textAlign: TextAlign.center, style: BL.display(28)),
         Text(
-          pass ? (mock ? 'Pass! You reached the pass mark of 43 out of 50.' : 'Great work!') : 'Not yet: aim for ${(n * Thy.passMark / Thy.mockQuestions).ceil()} of $n (the real test needs 43 of 50).',
+          hl(pass ? (mock ? 'Pass! You reached the pass mark of 43 out of 50.' : 'Great work!') : 'Not yet: aim for ${(n * Thy.passMark / Thy.mockQuestions).ceil()} of $n (the real test needs 43 of 50).'),
           key: const ValueKey('thy-verdict'),
           textAlign: TextAlign.center,
           style: TextStyle(fontWeight: FontWeight.w800, color: pass ? _good : BL.red),
         ),
         Text(
-          pass ? 'آفرین! به نمرهٔ قبولی رسیدی.' : 'هنوز نه؛ در آزمون واقعی باید ۴۳ از ۵۰ درست باشد.',
+          hl(pass ? 'آفرین! به نمرهٔ قبولی رسیدی.' : 'هنوز نه؛ در آزمون واقعی باید ۴۳ از ۵۰ درست باشد.'),
           textAlign: TextAlign.center,
-          textDirection: TextDirection.rtl,
+          textDirection: helperDir,
           style: BL.fa(13, color: BL.muted),
         ),
         if (award != null)
           Padding(
             padding: const EdgeInsets.only(top: 6),
             child: Text(
-              '+${award!.xp} XP',
+              hl('+${award!.xp} XP'),
               key: const ValueKey('thy-xp'),
               textAlign: TextAlign.center,
               style: const TextStyle(fontWeight: FontWeight.w900, color: BL.gold, fontSize: 16),
@@ -361,7 +362,7 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
           )
         else ...[
           Text(
-            'Review your mistakes (${wrong.length})',
+            hl('Review your mistakes (${wrong.length})'),
             key: const ValueKey('thy-review'),
             style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 16),
           ),
@@ -375,28 +376,28 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Text(qs![k].q, style: const TextStyle(fontWeight: FontWeight.w800)),
+                  Text(hl(qs![k].q), style: const TextStyle(fontWeight: FontWeight.w800)),
                   if (fa)
                     Text(
-                      qs![k].fa,
-                      textDirection: TextDirection.rtl,
+                      hl(qs![k].fa),
+                      textDirection: helperDir,
                       style: BL.fa(12.5, color: BL.muted),
                     ),
                   const SizedBox(height: 4),
                   Text(
-                    picked[k] == null ? 'Your answer: (none)' : 'Your answer: ${qs![k].options[picked[k]!]}',
+                    hl(picked[k] == null ? 'Your answer: (none)' : 'Your answer: ${qs![k].options[picked[k]!]}'),
                     style: const TextStyle(color: BL.red, fontWeight: FontWeight.w700, fontSize: 13.5),
                   ),
                   Text(
-                    'Right answer: ${qs![k].right}',
+                    hl('Right answer: ${qs![k].right}'),
                     style: const TextStyle(color: _good, fontWeight: FontWeight.w800, fontSize: 13.5),
                   ),
                   const SizedBox(height: 4),
-                  Text(qs![k].why, style: const TextStyle(fontSize: 13, height: 1.35)),
+                  Text(hl(qs![k].why), style: const TextStyle(fontSize: 13, height: 1.35)),
                   if (fa)
                     Text(
-                      qs![k].whyFa,
-                      textDirection: TextDirection.rtl,
+                      hl(qs![k].whyFa),
+                      textDirection: helperDir,
                       style: BL.fa(12.5, color: BL.muted),
                     ),
                 ],

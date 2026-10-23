@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -37,10 +38,10 @@ class RadioScreen extends ConsumerWidget {
             const Text('ON AIR · LOCAL RADIO', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold)),
           ]),
           const SizedBox(height: 10),
-          Text(RadioStation.station, style: BL.display(30, color: Colors.white)),
-          Text('رادیو محلی هاکنی · اول گوش کن، بعد جواب بده', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+          Text(hl(RadioStation.station), style: BL.display(30, color: Colors.white)),
+          Text(hl('رادیو محلی هاکنی · اول گوش کن، بعد جواب بده'), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
           const SizedBox(height: 6),
-          Text('$done of ${segs.length} programmes understood  ·  listen, then answer', key: const ValueKey('radio-count'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w600, fontSize: 12.5)),
+          Text(hl('$done of ${segs.length} programmes understood  ·  listen, then answer'), key: const ValueKey('radio-count'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w600, fontSize: 12.5)),
           for (final lv in Library.levels)
             if (gate.of(lv.code).isNotEmpty) _Block(level: lv, segs: gate.of(lv.code), open: gate.levelOpen(lv.code)),
         ],
@@ -67,22 +68,22 @@ class _Block extends ConsumerWidget {
             decoration: BoxDecoration(color: open ? onAirRed : Colors.white24, borderRadius: BorderRadius.circular(8)),
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               if (!open) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
-              Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+              Text(hl(level.code), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
             ]),
           ),
           const SizedBox(width: 8),
           Expanded(
             child: Text.rich(
               TextSpan(children: [
-                TextSpan(text: level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
+                TextSpan(text: hl(level.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
                 const TextSpan(text: '  '),
-                TextSpan(text: level.nameFa, style: BL.fa(13, color: Colors.white60)),
+                TextSpan(text: hl(level.nameFa), style: BL.fa(13, color: Colors.white60)),
               ]),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          Text(open ? '${segs.where((s) => ctrl.segmentDone(s.id)).length}/${segs.length}' : 'Locked · قفل', key: ValueKey('radio-status-${level.code}'), style: const TextStyle(color: Colors.white60, fontSize: 12, fontWeight: FontWeight.w700)),
+          Text(hl(open ? '${segs.where((s) => ctrl.segmentDone(s.id)).length}/${segs.length}' : 'Locked · قفل'), key: ValueKey('radio-status-${level.code}'), style: const TextStyle(color: Colors.white60, fontSize: 12, fontWeight: FontWeight.w700)),
         ]),
         const SizedBox(height: 8),
         for (final s in segs)
@@ -97,7 +98,7 @@ class _Block extends ConsumerWidget {
                 final (en, fa) = RadioGate.why(level.code);
                 ScaffoldMessenger.of(context)
                   ..hideCurrentSnackBar()
-                  ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa', key: const ValueKey('radio-locked-snack'))));
+                  ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'), key: const ValueKey('radio-locked-snack'))));
               }
             },
           ),
@@ -131,7 +132,7 @@ class _Card extends StatelessWidget {
                 SizedBox(
                   width: 50,
                   child: Column(children: [
-                    Text(seg.slot, style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w900, fontSize: 14, fontFeatures: [FontFeature.tabularFigures()])),
+                    Text(hl(seg.slot), style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w900, fontSize: 14, fontFeatures: [FontFeature.tabularFigures()])),
                     const SizedBox(height: 3),
                     Icon(open ? icon : Icons.lock_rounded, size: 18, color: Colors.white60),
                   ]),
@@ -139,9 +140,9 @@ class _Card extends StatelessWidget {
                 const SizedBox(width: 8),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(seg.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
-                    Text(seg.titleFa, maxLines: 1, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white60)),
-                    Text('$kind  ·  ${seg.seconds}s  ·  ${seg.voices.join(', ')}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white54, fontSize: 11, fontWeight: FontWeight.w600)),
+                    Text(hl(seg.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
+                    Text(hl(seg.titleFa), maxLines: 1, textDirection: helperDir, style: BL.fa(12, color: Colors.white60)),
+                    Text(hl('$kind  ·  ${seg.seconds}s  ·  ${seg.voices.join(', ')}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white54, fontSize: 11, fontWeight: FontWeight.w600)),
                   ]),
                 ),
                 if (done)

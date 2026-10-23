@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:async';
 import 'dart:math';
 
@@ -174,16 +175,16 @@ class _CelebrationState extends State<Celebration> {
           child: Column(mainAxisSize: MainAxisSize.min, children: [
             Icon(widget.pass ? Icons.emoji_events_rounded : Icons.auto_stories_rounded, size: 64, color: widget.pass ? BL.gold : BL.navy),
             const SizedBox(height: 8),
-            Text(widget.title ?? (widget.pass ? (widget.checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!'), key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
-            Text(widget.titleFa ?? (widget.pass ? (widget.checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${widget.checkpoint ? 70 : 60}٪ برسی.'),
-                textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
+            Text(hl(widget.title ?? (widget.pass ? (widget.checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!')), key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
+            Text(hl(widget.titleFa ?? (widget.pass ? (widget.checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${widget.checkpoint ? 70 : 60}٪ برسی.')),
+                textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
             const SizedBox(height: 16),
             Row(children: [
-              Expanded(child: _Stat(key: const ValueKey('celebrate-xp'), color: BL.gold, icon: Icons.bolt_rounded, label: 'XP', child: TweenAnimationBuilder<int>(tween: IntTween(begin: 0, end: widget.award.xp), duration: const Duration(milliseconds: 900), builder: (_, v, _) => Text('+$v', style: BL.display(24))))),
+              Expanded(child: _Stat(key: const ValueKey('celebrate-xp'), color: BL.gold, icon: Icons.bolt_rounded, label: 'XP', child: TweenAnimationBuilder<int>(tween: IntTween(begin: 0, end: widget.award.xp), duration: const Duration(milliseconds: 900), builder: (_, v, _) => Text(hl('+$v'), style: BL.display(24))))),
               const SizedBox(width: 10),
-              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: widget.scoreLabel, child: Text('$pct%', style: BL.display(24)))),
+              Expanded(child: _Stat(color: BL.green, icon: Icons.track_changes_rounded, label: widget.scoreLabel, child: Text(hl('$pct%'), style: BL.display(24)))),
               const SizedBox(width: 10),
-              Expanded(child: _Stat(color: BL.red, icon: Icons.local_fire_department_rounded, label: widget.award.streak == 1 ? 'day' : 'days', child: Text('${widget.award.streak}', style: BL.display(24)))),
+              Expanded(child: _Stat(color: BL.red, icon: Icons.local_fire_department_rounded, label: widget.award.streak == 1 ? 'day' : 'days', child: Text(hl('${widget.award.streak}'), style: BL.display(24)))),
             ]),
             const SizedBox(height: 14),
             Container(
@@ -191,8 +192,8 @@ class _CelebrationState extends State<Celebration> {
               decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(18), border: Border.all(color: BL.mist)),
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Row(children: [
-                  Expanded(child: Text(widget.award.today >= widget.award.goal ? 'Daily goal reached!' : 'Daily goal', style: const TextStyle(fontWeight: FontWeight.w800))),
-                  Text('${min(widget.award.today, widget.award.goal)} / ${widget.award.goal} XP', style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
+                  Expanded(child: Text(hl(widget.award.today >= widget.award.goal ? 'Daily goal reached!' : 'Daily goal'), style: const TextStyle(fontWeight: FontWeight.w800))),
+                  Text(hl('${min(widget.award.today, widget.award.goal)} / ${widget.award.goal} XP'), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
                 ]),
                 const SizedBox(height: 8),
                 ClipRRect(
@@ -205,7 +206,7 @@ class _CelebrationState extends State<Celebration> {
                 ),
                 if (widget.award.streakUp) ...[
                   const SizedBox(height: 10),
-                  Text(widget.award.freezeUsed ? 'A streak freeze saved your ${widget.award.streak}-day streak.' : (widget.award.streak == 1 ? 'Streak started. Come back tomorrow!' : '${widget.award.streak}-day streak. Keep it going!'),
+                  Text(hl(widget.award.freezeUsed ? 'A streak freeze saved your ${widget.award.streak}-day streak.' : (widget.award.streak == 1 ? 'Streak started. Come back tomorrow!' : '${widget.award.streak}-day streak. Keep it going!')),
                       style: const TextStyle(color: BL.red, fontWeight: FontWeight.w700)),
                 ],
               ]),
@@ -216,7 +217,7 @@ class _CelebrationState extends State<Celebration> {
               const SizedBox(height: 8),
               Wrap(spacing: 14, runSpacing: 8, alignment: WrapAlignment.center, children: [
                 for (final b in widget.award.newBadges)
-                  Column(key: ValueKey('new-badge-${b.id}'), children: [BadgeMedal(b, earned: true, size: 60), const SizedBox(height: 4), Text(b.title, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5))]),
+                  Column(key: ValueKey('new-badge-${b.id}'), children: [BadgeMedal(b, earned: true, size: 60), const SizedBox(height: 4), Text(hl(b.title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5))]),
               ]),
             ],
             const SizedBox(height: 20),
@@ -228,11 +229,11 @@ class _CelebrationState extends State<Celebration> {
                   widget.onNext!();
                 },
                 style: FilledButton.styleFrom(backgroundColor: BL.red, minimumSize: const Size.fromHeight(56), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
-                child: Text('${widget.nextLabel}  →', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800)),
+                child: Text(hl('${widget.nextLabel}  →'), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800)),
               ),
               if (_left > 0)
                 Wrap(alignment: WrapAlignment.center, crossAxisAlignment: WrapCrossAlignment.center, children: [
-                  Text('Opening in $_left…', key: const ValueKey('celebrate-countdown'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700)),
+                  Text(hl('Opening in $_left…'), key: const ValueKey('celebrate-countdown'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700)),
                   TextButton(key: const ValueKey('celebrate-stay'), onPressed: _stop, child: const Text('Stay here')),
                 ]),
               TextButton(key: const ValueKey('celebrate-continue'), onPressed: () {
@@ -264,6 +265,6 @@ class _Stat extends StatelessWidget {
   Widget build(BuildContext context) => Container(
         padding: const EdgeInsets.symmetric(vertical: 10),
         decoration: BoxDecoration(color: color.withValues(alpha: .1), borderRadius: BorderRadius.circular(16), border: Border.all(color: color.withValues(alpha: .5), width: 1.5)),
-        child: Column(children: [Icon(icon, color: color, size: 22), child, Text(label, style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w700))]),
+        child: Column(children: [Icon(icon, color: color, size: 22), child, Text(hl(label), style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w700))]),
       );
 }

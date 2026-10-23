@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
@@ -131,8 +132,8 @@ class MapLoupe extends StatelessWidget {
                   child: Row(mainAxisSize: MainAxisSize.min, children: [
                     Flexible(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                        Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(15.5, color: Colors.white)),
-                        Text(spot!.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: Colors.white70)),
+                        Text(hl(title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(15.5, color: Colors.white)),
+                        Text(hl(spot!.titleFa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(11, color: Colors.white70)),
                       ]),
                     ),
                     if (level != null) ...[
@@ -142,7 +143,7 @@ class MapLoupe extends StatelessWidget {
                         decoration: BoxDecoration(color: open ? BL.gold : Colors.white24, borderRadius: BorderRadius.circular(99)),
                         child: Row(mainAxisSize: MainAxisSize.min, children: [
                           if (!open) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 11, color: Colors.white)),
-                          Text(level!, style: TextStyle(color: open ? BL.ink : Colors.white, fontWeight: FontWeight.w900, fontSize: 11.5)),
+                          Text(hl(level!), style: TextStyle(color: open ? BL.ink : Colors.white, fontWeight: FontWeight.w900, fontSize: 11.5)),
                         ]),
                       ),
                     ],

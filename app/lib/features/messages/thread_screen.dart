@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -75,24 +76,24 @@ class ThreadLocked extends StatelessWidget {
                     children: [
                       const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
                       const SizedBox(height: 14),
-                      Text('A message from ${t.fromName}', textAlign: TextAlign.center, style: BL.display(24)),
+                      Text(hl('A message from ${t.fromName}'), textAlign: TextAlign.center, style: BL.display(24)),
                       const SizedBox(height: 18),
                       Text(
-                        'This is a ${t.level} message, which hasn\'t arrived for you yet',
+                        hl('This is a ${t.level} message, which hasn\'t arrived for you yet'),
                         textAlign: TextAlign.center,
                         style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        en,
+                        hl(en),
                         key: const ValueKey('thread-locked-why'),
                         textAlign: TextAlign.center,
                         style: const TextStyle(fontSize: 14, color: BL.muted, height: 1.4),
                       ),
                       const SizedBox(height: 6),
                       Text(
-                        fa,
-                        textDirection: TextDirection.rtl,
+                        hl(fa),
+                        textDirection: helperDir,
                         textAlign: TextAlign.center,
                         style: BL.fa(13, color: BL.muted),
                       ),
@@ -282,13 +283,13 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        t.fromName,
+                        hl(t.fromName),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5),
                       ),
                       Text(
-                        '${t.level}  ·  ${t.title}',
+                        hl('${t.level}  ·  ${t.title}'),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600),
@@ -315,7 +316,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                 const SizedBox(height: 6),
                 Center(
                   child: Text(
-                    'Today ${t.time}',
+                    hl('Today ${t.time}'),
                     style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w700),
                   ),
                 ),
@@ -339,7 +340,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                     ),
                     icon: const Icon(Icons.done_all_rounded),
-                    label: const Text('Done · تمام', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                    label: Text(hl('Done · تمام'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
                   ),
                 ],
               ],
@@ -354,7 +355,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
     key: ValueKey(key),
     onPressed: onTap,
     avatar: Icon(icon, size: 16, color: on ? Colors.white : BL.ink),
-    label: Text(label),
+    label: Text(hl(label)),
     visualDensity: VisualDensity.compact,
     backgroundColor: on ? bubbleMe : Colors.white,
     side: BorderSide.none,
@@ -409,7 +410,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
               ),
               const SizedBox(width: 8),
               Text(
-                m.duration,
+                hl(m.duration),
                 style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w700),
               ),
             ],
@@ -417,16 +418,16 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
           if (transcript) ...[
             const SizedBox(height: 6),
             Text(
-              m.en,
+              hl(m.en),
               key: ValueKey('msg-transcript-$i'),
               style: const TextStyle(fontSize: 14.5, height: 1.35, fontStyle: FontStyle.italic),
             ),
           ],
           if (transcript && showFa)
             Text(
-              m.fa,
+              hl(m.fa),
               key: ValueKey('msg-fa-$i'),
-              textDirection: TextDirection.rtl,
+              textDirection: helperDir,
               style: BL.fa(12.5, color: BL.muted),
             ),
         ],
@@ -435,12 +436,12 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
       body = Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(m.en, key: ValueKey('msg-text-$i'), style: const TextStyle(fontSize: 15.5, height: 1.35)),
+          Text(hl(m.en), key: ValueKey('msg-text-$i'), style: const TextStyle(fontSize: 15.5, height: 1.35)),
           if (showFa)
             Text(
-              m.fa,
+              hl(m.fa),
               key: ValueKey('msg-fa-$i'),
-              textDirection: TextDirection.rtl,
+              textDirection: helperDir,
               style: BL.fa(12.5, color: BL.muted),
             ),
         ],
@@ -462,7 +463,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
           children: [
             if (showName)
               Text(
-                m.spName,
+                hl(m.spName),
                 style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: BL.red),
               ),
             body,
@@ -485,11 +486,11 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          Text(text, style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
+          Text(hl(text), style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
           if (showFa)
             Text(
-              t.replyFa,
-              textDirection: TextDirection.rtl,
+              hl(t.replyFa),
+              textDirection: helperDir,
               style: BL.fa(12.5, color: Colors.white70),
             ),
           const Row(
@@ -523,14 +524,14 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
     children: [
       Expanded(
         child: Text(
-          en.toUpperCase(),
+          hl(en.toUpperCase()),
           style: const TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: bubbleMe),
         ),
       ),
       const SizedBox(width: 8),
       Text(
-        fa,
-        textDirection: TextDirection.rtl,
+        hl(fa),
+        textDirection: helperDir,
         style: BL.fa(12, color: BL.muted),
       ),
     ],
@@ -551,19 +552,19 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                 TextSpan(
                   children: [
                     TextSpan(
-                      text: g.term,
+                      text: hl(g.term),
                       style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 14),
                     ),
                     TextSpan(
-                      text: '  ${g.en}',
+                      text: hl('  ${g.en}'),
                       style: const TextStyle(fontSize: 13.5, color: BL.ink),
                     ),
                   ],
                 ),
               ),
               Text(
-                g.fa,
-                textDirection: TextDirection.rtl,
+                hl(g.fa),
+                textDirection: helperDir,
                 style: BL.fa(12, color: BL.muted),
               ),
             ],
@@ -578,7 +579,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
       _head('Quick check', 'بررسی سریع'),
       const SizedBox(height: 6),
       Text(
-        t.q,
+        hl(t.q),
         key: const ValueKey('msg-q'),
         style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
       ),
@@ -596,7 +597,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
                 child: Text(
-                  t.qOptions[o],
+                  hl(t.qOptions[o]),
                   style: TextStyle(fontSize: 14.5, fontWeight: FontWeight.w600, color: qDone && o == 0 ? Colors.white : BL.ink),
                 ),
               ),
@@ -623,7 +624,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
           avatar: Icon(icon, size: 16, color: mode == m ? Colors.white : BL.ink),
           label: SizedBox(
             width: double.infinity,
-            child: Text(label, textAlign: TextAlign.center),
+            child: Text(hl(label), textAlign: TextAlign.center),
           ),
           selectedColor: bubbleMe,
           backgroundColor: phoneBg,
@@ -659,7 +660,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                       onTap: () => _pick(o),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
-                        child: Text(t.replies[o], style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w600)),
+                        child: Text(hl(t.replies[o]), style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w600)),
                       ),
                     ),
                   ),
@@ -672,7 +673,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                 ),
             ],
             _Mode.type => [
-              Text('Write a reply like: “${t.bestReply}”', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+              Text(hl('Write a reply like: “${t.bestReply}”'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
               const SizedBox(height: 6),
               Row(
                 children: [
@@ -704,7 +705,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
             ],
             _Mode.say => [
               Text(
-                'Say: “${t.say}”',
+                hl('Say: “${t.say}”'),
                 key: const ValueKey('msg-say-target'),
                 style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
               ),
@@ -719,7 +720,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(99)),
                   ),
                   icon: Icon(listening ? Icons.graphic_eq_rounded : Icons.mic_rounded),
-                  label: Text(listening ? 'Listening…' : 'Tap and say it', style: const TextStyle(fontWeight: FontWeight.w800)),
+                  label: Text(hl(listening ? 'Listening…' : 'Tap and say it'), style: const TextStyle(fontWeight: FontWeight.w800)),
                 ),
               ),
               if (tried != null) _feedback(),
@@ -749,7 +750,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
               children: [
                 for (final w in r.words)
                   TextSpan(
-                    text: '${w.word} ',
+                    text: hl('${w.word} '),
                     style: TextStyle(
                       color: switch (w.mark) {
                         WordMark.good => markGood,
@@ -764,7 +765,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
             style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
           ),
           Text(
-            ok ? '${r.score}% · sent!' : '${r.score}% · nearly! Try again, or pick a reply.',
+            hl(ok ? '${r.score}% · sent!' : '${r.score}% · nearly! Try again, or pick a reply.'),
             key: const ValueKey('msg-score'),
             style: TextStyle(color: ok ? markGood : BL.red, fontWeight: FontWeight.w800, fontSize: 12.5),
           ),

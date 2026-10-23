@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -52,7 +53,7 @@ class _LeitnerWordsState extends State<LeitnerWords> {
     final re = RegExp(r"[A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F'’-]*");
     var at = 0;
     for (final m in re.allMatches(widget.text)) {
-      if (m.start > at) spans.add(TextSpan(text: widget.text.substring(at, m.start)));
+      if (m.start > at) spans.add(TextSpan(text: hl(widget.text.substring(at, m.start))));
       final w = m.group(0)!;
       final r = LongPressGestureRecognizer()
         ..onLongPress = () {
@@ -60,10 +61,10 @@ class _LeitnerWordsState extends State<LeitnerWords> {
           showLeitnerSheet(context, w, ex: widget.text, exSp: widget.speaker);
         };
       _recs.add(r);
-      spans.add(TextSpan(text: w, recognizer: r));
+      spans.add(TextSpan(text: hl(w), recognizer: r));
       at = m.end;
     }
-    if (at < widget.text.length) spans.add(TextSpan(text: widget.text.substring(at)));
+    if (at < widget.text.length) spans.add(TextSpan(text: hl(widget.text.substring(at))));
     return Text.rich(TextSpan(children: spans), style: widget.style);
   }
 }
@@ -100,11 +101,11 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
             Row(children: [
               const Icon(Icons.inventory_2_rounded, color: BL.green, size: 18),
               const SizedBox(width: 6),
-              Text('LEITNER BOX · جعبهٔ لایتنر', style: BL.fa(11.5, color: BL.green, w: FontWeight.w800)),
+              Text(hl('LEITNER BOX · جعبهٔ لایتنر'), style: BL.fa(11.5, color: BL.green, w: FontWeight.w800)),
             ]),
             const SizedBox(height: 8),
             Row(children: [
-              Expanded(child: Text(word, key: const ValueKey('leitner-word'), style: BL.display(24))),
+              Expanded(child: Text(hl(word), key: const ValueKey('leitner-word'), style: BL.display(24))),
               if (Voice.has('narrator', word))
                 IconButton.filledTonal(key: const ValueKey('leitner-say'), onPressed: () => Voice.say('narrator', word), icon: const Icon(Icons.volume_up_rounded)),
             ]),
@@ -112,14 +113,14 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
             TextField(
               key: const ValueKey('leitner-fa'),
               controller: fa,
-              textDirection: TextDirection.rtl,
+              textDirection: helperDir,
               style: BL.fa(16, color: BL.ink),
               decoration: InputDecoration(
                 isDense: true,
                 filled: true,
                 fillColor: Colors.white,
                 hintText: 'معنی فارسی (اختیاری)',
-                hintTextDirection: TextDirection.rtl,
+                hintTextDirection: helperDir,
                 border: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide.none),
               ),
             ),
@@ -129,7 +130,7 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
                 padding: const EdgeInsets.fromLTRB(12, 8, 4, 8),
                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                 child: Row(children: [
-                  Expanded(child: Text('“${eg.ex}”', key: const ValueKey('leitner-ex'), style: const TextStyle(fontStyle: FontStyle.italic, height: 1.35))),
+                  Expanded(child: Text(hl('“${eg.ex}”'), key: const ValueKey('leitner-ex'), style: const TextStyle(fontStyle: FontStyle.italic, height: 1.35))),
                   if (Voice.has(eg.exSp, eg.ex)) IconButton(onPressed: () => Voice.say(eg.exSp, eg.ex), icon: const Icon(Icons.play_circle_rounded, color: BL.navy)),
                 ]),
               ),
@@ -148,11 +149,11 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
                         ScaffoldMessenger.maybeOf(context)?.showSnackBar(SnackBar(
                           behavior: SnackBarBehavior.floating,
                           duration: const Duration(seconds: 2),
-                          content: Text('“$word” is in box 1 · به جعبهٔ لایتنر اضافه شد'),
+                          content: Text(hl('“$word” is in box 1 · به جعبهٔ لایتنر اضافه شد')),
                         ));
                       },
                 icon: Icon(have != null ? Icons.check_rounded : Icons.add_rounded),
-                label: Text(have != null ? 'Already in box ${have.box}' : 'Add to Leitner box', style: const TextStyle(fontWeight: FontWeight.w800)),
+                label: Text(hl(have != null ? 'Already in box ${have.box}' : 'Add to Leitner box'), style: const TextStyle(fontWeight: FontWeight.w800)),
               ),
             ),
           ]),

@@ -66,6 +66,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/
+    - assets/i18n/
     - assets/avatars/
     - assets/portraits/
     - assets/places/

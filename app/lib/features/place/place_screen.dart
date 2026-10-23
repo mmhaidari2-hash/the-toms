@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
@@ -127,10 +128,10 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(place.title, style: BL.display(21, color: Colors.white)),
+                      Text(hl(place.title), style: BL.display(21, color: Colors.white)),
                       Text(
-                        place.titleFa,
-                        textDirection: TextDirection.rtl,
+                        hl(place.titleFa),
+                        textDirection: helperDir,
                         style: BL.fa(12, color: Colors.white70),
                       ),
                     ],
@@ -225,7 +226,7 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                       ),
                       const SizedBox(height: 3),
                       Text(
-                        widget.c.character(h.characterId).name.split(' ').first,
+                        hl(widget.c.character(h.characterId).name.split(' ').first),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.w600),
@@ -259,12 +260,12 @@ class _ExplorerState extends ConsumerState<_Explorer> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  en,
+                  hl(en),
                   style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  fa,
-                  textDirection: TextDirection.rtl,
+                  hl(fa),
+                  textDirection: helperDir,
                   style: BL.fa(11.5, color: Colors.white70),
                 ),
               ],
@@ -292,8 +293,8 @@ class _ExplorerState extends ConsumerState<_Explorer> {
     Widget say(String en, String? fa) => Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(en, style: BL.display(16.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
-        if (fa != null) SizedBox(width: double.infinity, child: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white54))),
+        Text(hl(en), style: BL.display(16.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
+        if (fa != null) SizedBox(width: double.infinity, child: Text(hl(fa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white54))),
       ],
     );
     return ClipRRect(
@@ -320,8 +321,8 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                     child: Text.rich(
                       TextSpan(
                         children: [
-                          TextSpan(text: ch?.name ?? prop!.word, style: BL.display(16, color: gold)),
-                          TextSpan(text: '   ${ch?.role ?? prop!.fa}', style: BL.fa(12, color: Colors.white54)),
+                          TextSpan(text: hl(ch?.name ?? prop!.word), style: BL.display(16, color: gold)),
+                          TextSpan(text: hl('   ${ch?.role ?? prop!.fa}'), style: BL.fa(12, color: Colors.white54)),
                         ],
                       ),
                       maxLines: 1,
@@ -342,8 +343,8 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                     child: Text.rich(
                       TextSpan(
                         children: [
-                          TextSpan(text: m[0] == 'me' ? 'You  ' : '${widget.c.characterOrNull(m[0])?.name ?? m[0]}  ', style: const TextStyle(color: gold, fontWeight: FontWeight.w700, fontSize: 13)),
-                          TextSpan(text: m[1], style: const TextStyle(color: Colors.white, fontSize: 13.5)),
+                          TextSpan(text: hl(m[0] == 'me' ? 'You  ' : '${widget.c.characterOrNull(m[0])?.name ?? m[0]}  '), style: const TextStyle(color: gold, fontWeight: FontWeight.w700, fontSize: 13)),
+                          TextSpan(text: hl(m[1]), style: const TextStyle(color: Colors.white, fontSize: 13.5)),
                         ],
                       ),
                     ),
@@ -356,7 +357,7 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                   style: TextButton.styleFrom(padding: EdgeInsets.zero, visualDensity: VisualDensity.compact, foregroundColor: gold),
                   onPressed: () => prop != null ? Voice.say('narrator', prop.phrase, rate: .9) : Voice.say(h.characterId, h.ambientEn ?? ''),
                   icon: const Icon(Icons.volume_up_rounded, size: 16),
-                  label: Text(tr(lang, 'listen')),
+                  label: Text(hl(tr(lang, 'listen'))),
                 ),
             ],
           ),
@@ -508,7 +509,7 @@ class _NameTag extends StatelessWidget {
         ),
         const SizedBox(width: 5),
         Text(
-          ch.name,
+          hl(ch.name),
           style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink),
         ),
       ],
@@ -545,7 +546,7 @@ class _StandIn extends StatelessWidget {
           _NameTag(ch: ch, talk: talk, done: done),
           const SizedBox(height: 4),
           Text(
-            ch.role,
+            hl(ch.role),
             style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600),
           ),
         ],

@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -31,9 +32,9 @@ class MissionsScreen extends ConsumerWidget {
           const Row(children: [NavButtons(), SizedBox(width: 10), Text('OUT & ABOUT', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))]),
           const SizedBox(height: 10),
           Text('Real-life missions', style: BL.display(28)),
-          Text('مأموریت‌های زندگی واقعی · آماده شو، برو، بعد گزارش بده', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
+          Text(hl('مأموریت‌های زندگی واقعی · آماده شو، برو، بعد گزارش بده'), textDirection: helperDir, style: BL.fa(13, color: BL.muted)),
           const SizedBox(height: 6),
-          Text('${ctrl.missionsCompleted} of ${ms.length} missions done  ·  prepare, go, check in', key: const ValueKey('missions-count'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
+          Text(hl('${ctrl.missionsCompleted} of ${ms.length} missions done  ·  prepare, go, check in'), key: const ValueKey('missions-count'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
           const SizedBox(height: 14),
           if (rps.isNotEmpty) _RoleplayRow(rps: rps, gate: gate),
           const SizedBox(height: 14),
@@ -59,7 +60,7 @@ class _Safety extends StatelessWidget {
             const SizedBox(width: 6),
             const Text('Stay safe', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
             const Spacer(),
-            Text('ایمن بمان', textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+            Text(hl('ایمن بمان'), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
           ]),
           const SizedBox(height: 6),
           for (final (en, fa) in Missions.safety)
@@ -69,8 +70,8 @@ class _Safety extends StatelessWidget {
                 const Padding(padding: EdgeInsets.only(top: 6, right: 8), child: Icon(Icons.circle, size: 5, color: BL.muted)),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                    Text(en, style: const TextStyle(fontSize: 12.5, height: 1.35)),
-                    Text(fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                    Text(hl(en), style: const TextStyle(fontSize: 12.5, height: 1.35)),
+                    Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                   ]),
                 ),
               ]),
@@ -97,22 +98,22 @@ class _Block extends ConsumerWidget {
             decoration: BoxDecoration(color: open ? BL.red : BL.muted.withValues(alpha: .5), borderRadius: BorderRadius.circular(8)),
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               if (!open) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
-              Text(level.code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
+              Text(hl(level.code), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
             ]),
           ),
           const SizedBox(width: 8),
           Expanded(
             child: Text.rich(
               TextSpan(children: [
-                TextSpan(text: level.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                TextSpan(text: hl(level.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
                 const TextSpan(text: '  '),
-                TextSpan(text: level.nameFa, style: BL.fa(13, color: BL.muted)),
+                TextSpan(text: hl(level.nameFa), style: BL.fa(13, color: BL.muted)),
               ]),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          Text(open ? '${ms.where((m) => ctrl.missionDone(m.id)).length}/${ms.length}' : 'Locked · قفل', key: ValueKey('mis-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+          Text(hl(open ? '${ms.where((m) => ctrl.missionDone(m.id)).length}/${ms.length}' : 'Locked · قفل'), key: ValueKey('mis-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
         ]),
         const SizedBox(height: 8),
         for (final m in ms)
@@ -128,7 +129,7 @@ class _Block extends ConsumerWidget {
                 final (en, fa) = MissionGate.why(level.code);
                 ScaffoldMessenger.of(context)
                   ..hideCurrentSnackBar()
-                  ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa', key: const ValueKey('mis-locked-snack'))));
+                  ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'), key: const ValueKey('mis-locked-snack'))));
               }
             },
           ),
@@ -161,9 +162,9 @@ class _Card extends StatelessWidget {
                   const SizedBox(width: 10),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text(m.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
-                      Text(m.titleFa, maxLines: 1, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
-                      Text(m.goal, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: BL.muted, fontSize: 11.5, fontWeight: FontWeight.w600)),
+                      Text(hl(m.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                      Text(hl(m.titleFa), maxLines: 1, textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+                      Text(hl(m.goal), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: BL.muted, fontSize: 11.5, fontWeight: FontWeight.w600)),
                     ]),
                   ),
                   const SizedBox(width: 6),
@@ -204,7 +205,7 @@ class _RoleplayRow extends ConsumerWidget {
     return Column(key: const ValueKey('rp-row'), crossAxisAlignment: CrossAxisAlignment.start, children: [
       Row(children: [
         const Expanded(child: Text('PRACTISE FIRST · ROLE-PLAY', style: TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
-        Text('اول این‌جا تمرین کن', textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+        Text(hl('اول این‌جا تمرین کن'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
       ]),
       const SizedBox(height: 8),
       SizedBox(
@@ -228,7 +229,7 @@ class _RoleplayRow extends ConsumerWidget {
                     final (en, fa) = MissionGate.why(r.level);
                     ScaffoldMessenger.of(context)
                       ..hideCurrentSnackBar()
-                      ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text('$en\n$fa')));
+                      ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'))));
                   }
                 },
                 child: Opacity(
@@ -241,13 +242,13 @@ class _RoleplayRow extends ConsumerWidget {
                         Row(children: [
                           ClipOval(child: Image.asset(r.icon, width: 36, height: 36, fit: BoxFit.cover, errorBuilder: (_, _, _) => const SizedBox(width: 36, height: 36))),
                           const Spacer(),
-                          if (!open) const Icon(Icons.lock_rounded, size: 16, color: BL.muted) else Text(r.level, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: BL.red)),
+                          if (!open) const Icon(Icons.lock_rounded, size: 16, color: BL.muted) else Text(hl(r.level), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: BL.red)),
                         ]),
                         const SizedBox(height: 6),
-                        Text(r.title, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13, height: 1.2)),
-                        Text(r.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: BL.muted)),
+                        Text(hl(r.title), maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13, height: 1.2)),
+                        Text(hl(r.titleFa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(11, color: BL.muted)),
                         const Spacer(),
-                        Text(st > 0 ? '${'★' * st}${'☆' * (3 - st)}' : '☆☆☆', key: ValueKey('rp-card-stars-${r.id}-$st'), style: TextStyle(fontSize: 13, color: st > 0 ? const Color(0xFFE0A800) : BL.muted)),
+                        Text(hl(st > 0 ? '${'★' * st}${'☆' * (3 - st)}' : '☆☆☆'), key: ValueKey('rp-card-stars-${r.id}-$st'), style: TextStyle(fontSize: 13, color: st > 0 ? const Color(0xFFE0A800) : BL.muted)),
                       ]),
                     ),
                   ),

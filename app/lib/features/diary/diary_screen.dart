@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import '../shared/nav.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -40,7 +41,7 @@ class DiaryScreen extends ConsumerWidget {
                           const SizedBox(width: 10),
                           Text('Diary', style: BL.display(30)),
                           const Spacer(),
-                          Text(tr(lang, 'diary'), textDirection: dirOf(lang), style: BL.fa(13)),
+                          Text(hl(tr(lang, 'diary')), textDirection: dirOf(lang), style: BL.fa(13)),
                         ],
                       ),
                     )),
@@ -48,7 +49,7 @@ class DiaryScreen extends ConsumerWidget {
                   SliverPadding(
                     padding: const EdgeInsets.fromLTRB(20, 0, 20, 14),
                     sliver: SliverToBoxAdapter(
-                      child: Text(tr(lang, 'diary_sub'), textDirection: dirOf(lang), style: BL.fa(13)),
+                      child: Text(hl(tr(lang, 'diary_sub')), textDirection: dirOf(lang), style: BL.fa(13)),
                     ),
                   ),
                   const SliverPadding(padding: EdgeInsets.fromLTRB(20, 0, 20, 16), sliver: SliverToBoxAdapter(child: DiaryComposer())),
@@ -87,7 +88,7 @@ class DiaryScreen extends ConsumerWidget {
                               const SizedBox(height: 12),
                               Text('A blank page', style: BL.display(22)),
                               const SizedBox(height: 6),
-                              Text(tr(lang, 'diary_empty'), textAlign: TextAlign.center, textDirection: dirOf(lang), style: BL.fa(13)),
+                              Text(hl(tr(lang, 'diary_empty')), textAlign: TextAlign.center, textDirection: dirOf(lang), style: BL.fa(13)),
                             ],
                           ),
                         ),
@@ -121,14 +122,14 @@ class DiaryScreen extends ConsumerWidget {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            _date(e.at).toUpperCase(),
+                                            hl(_date(e.at).toUpperCase()),
                                             style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red),
                                           ),
                                           const SizedBox(height: 2),
-                                          Text(e.sceneId == 'written' ? 'My diary' : (s?.title ?? e.sceneId), style: BL.display(18)),
+                                          Text(hl(e.sceneId == 'written' ? 'My diary' : (s?.title ?? e.sceneId)), style: BL.display(18)),
                                           const SizedBox(height: 4),
                                           Text(
-                                            '“${firstLine[1]}”',
+                                            hl('“${firstLine[1]}”'),
                                             maxLines: 2,
                                             overflow: TextOverflow.ellipsis,
                                             style: const TextStyle(fontStyle: FontStyle.italic, color: BL.muted),
@@ -161,7 +162,7 @@ class DiaryScreen extends ConsumerWidget {
     padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
     decoration: BoxDecoration(color: c.withValues(alpha: .1), borderRadius: BorderRadius.circular(99)),
     child: Text(
-      t,
+      hl(t),
       style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700, color: c),
     ),
   );
@@ -235,8 +236,8 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Replay · ${s?.title ?? ''}', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17)),
-                        Text(_date(e.at), style: const TextStyle(fontSize: 12, color: BL.muted)),
+                        Text(hl('Replay · ${s?.title ?? ''}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17)),
+                        Text(hl(_date(e.at)), style: const TextStyle(fontSize: 12, color: BL.muted)),
                       ],
                     ),
                   ),
@@ -252,7 +253,7 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
                   ActionChip(
                     side: BorderSide.none,
                     avatar: const Icon(Icons.speed_rounded, size: 16),
-                    label: Text(const ['Slow', 'Level', 'Native'][_speed]),
+                    label: Text(hl(const ['Slow', 'Level', 'Native'][_speed])),
                     onPressed: () => setState(() => _speed = (_speed + 1) % 3),
                   ),
                   const Spacer(),
@@ -260,7 +261,7 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
                     style: FilledButton.styleFrom(backgroundColor: BL.red),
                     onPressed: () => _playAll(e, s?.level ?? 'A1'),
                     icon: Icon(_playing ? Icons.stop_rounded : Icons.play_arrow_rounded),
-                    label: Text(_playing ? 'Stop' : 'Play all'),
+                    label: Text(hl(_playing ? 'Stop' : 'Play all')),
                   ),
                 ],
               ),
@@ -288,16 +289,16 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
                       children: [
                         if (sp != null)
                           Text(
-                            sp.name,
+                            hl(sp.name),
                             style: TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: sp.color),
                           ),
-                        Text(l[1], style: TextStyle(fontSize: 15, height: 1.35, color: me ? Colors.white : BL.ink)),
+                        Text(hl(l[1]), style: TextStyle(fontSize: 15, height: 1.35, color: me ? Colors.white : BL.ink)),
                         if (_subs && l.length > 2 && l[2].isNotEmpty)
                           SizedBox(
                             width: double.infinity,
                             child: Text(
-                              l[2],
-                              textDirection: TextDirection.rtl,
+                              hl(l[2]),
+                              textDirection: helperDir,
                               style: BL.fa(13, color: me ? Colors.white70 : BL.muted),
                             ),
                           ),
@@ -340,7 +341,7 @@ class _DiaryComposerState extends ConsumerState<DiaryComposer> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(tr(lang, 'writeDiary'), style: BL.display(18)),
+          Text(hl(tr(lang, 'writeDiary')), style: BL.display(18)),
           const SizedBox(height: 8),
           TextField(
             controller: _c,
@@ -365,7 +366,7 @@ class _DiaryComposerState extends ConsumerState<DiaryComposer> {
                       });
                     },
               icon: const Icon(Icons.edit_rounded, size: 16),
-              label: Text(tr(lang, 'save')),
+              label: Text(hl(tr(lang, 'save'))),
             ),
           ),
           if (_fb != null && content != null) ...[
@@ -379,11 +380,11 @@ class _DiaryComposerState extends ConsumerState<DiaryComposer> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('“${_fb.reaction}”', style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 14.5)),
-                      Text(_fb.reactionFa, textDirection: TextDirection.rtl, style: BL.fa(12)),
+                      Text(hl('“${_fb.reaction}”'), style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 14.5)),
+                      Text(hl(_fb.reactionFa), textDirection: helperDir, style: BL.fa(12)),
                       const SizedBox(height: 6),
-                      Text('${_fb.words} words${_fb.vocabUsed.isEmpty ? '' : ' · used: ${_fb.vocabUsed.join(', ')}'}', style: const TextStyle(color: BL.green, fontWeight: FontWeight.w700, fontSize: 12.5)),
-                      for (final t in _fb.tips) Text('💡 $t', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                      Text(hl('${_fb.words} words${_fb.vocabUsed.isEmpty ? '' : ' · used: ${_fb.vocabUsed.join(', ')}'}'), style: const TextStyle(color: BL.green, fontWeight: FontWeight.w700, fontSize: 12.5)),
+                      for (final t in _fb.tips) Text(hl('💡 $t'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                     ],
                   ),
                 ),
@@ -408,7 +409,7 @@ class _Archive extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(tr(lang, 'archive'), style: BL.display(20)),
+        Text(hl(tr(lang, 'archive')), style: BL.display(20)),
         const SizedBox(height: 8),
         for (final e in entries.reversed)
           Container(
@@ -424,8 +425,8 @@ class _Archive extends ConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('${c.character(e.characterId).name} at ${e.milestoneId} · ${_date(e.at)}', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5)),
-                      for (final l in e.lines.take(3)) Text('“${l[1]}”', style: const TextStyle(fontStyle: FontStyle.italic, color: BL.muted, fontSize: 13)),
+                      Text(hl('${c.character(e.characterId).name} at ${e.milestoneId} · ${_date(e.at)}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5)),
+                      for (final l in e.lines.take(3)) Text(hl('“${l[1]}”'), style: const TextStyle(fontStyle: FontStyle.italic, color: BL.muted, fontSize: 13)),
                     ],
                   ),
                 ),

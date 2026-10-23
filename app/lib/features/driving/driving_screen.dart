@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -33,7 +34,7 @@ class DrivingScreen extends ConsumerWidget {
       if (ls.isEmpty) continue;
       rows.add(Padding(
         padding: const EdgeInsets.fromLTRB(4, 16, 4, 6),
-        child: Text('LEVEL ${lv.code}${gate.levelOpen(lv.code) ? '' : ' · LOCKED'}', style: const TextStyle(fontSize: 11.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.muted)),
+        child: Text(hl('LEVEL ${lv.code}${gate.levelOpen(lv.code) ? '' : ' · LOCKED'}'), style: const TextStyle(fontSize: 11.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.muted)),
       ));
       for (final e in ls) {
         rows.add(_Row(e: e, open: gate.levelOpen(e.level), done: ctrl.driveDone(e.id)));
@@ -58,7 +59,7 @@ class DrivingScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 10),
           Text('Driving School', style: BL.display(30)),
-          Text('انگلیسی برای یادگیری رانندگی در بریتانیا: با مربی، در پمپ بنزین و تعمیرگاه', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
+          Text(hl('انگلیسی برای یادگیری رانندگی در بریتانیا: با مربی، در پمپ بنزین و تعمیرگاه'), textDirection: helperDir, style: BL.fa(13, color: BL.muted)),
           const SizedBox(height: 12),
           Material(
             color: seaRed,
@@ -98,7 +99,7 @@ void _locked(BuildContext context, String level) {
       SnackBar(
         behavior: SnackBarBehavior.floating,
         duration: const Duration(seconds: 4),
-        content: Text('$en\n$fa', key: const ValueKey('drv-locked-snack')),
+        content: Text(hl('$en\n$fa'), key: const ValueKey('drv-locked-snack')),
       ),
     );
 }
@@ -134,10 +135,10 @@ class _Row extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(e.title, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
-                      Text(e.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                      Text(hl(e.title), maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                      Text(hl(e.titleFa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                       Text(
-                        '${e.level} · ${e.inCar ? 'In the car' : 'Out and about'}',
+                        hl('${e.level} · ${e.inCar ? 'In the car' : 'Out and about'}'),
                         style: const TextStyle(color: BL.muted, fontSize: 12.5),
                       ),
                     ],
@@ -249,10 +250,10 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
               const SizedBox(height: 30),
               const Icon(Icons.lock_rounded, size: 40, color: BL.muted),
               const SizedBox(height: 10),
-              Text(e.title, style: BL.display(26)),
+              Text(hl(e.title), style: BL.display(26)),
               const SizedBox(height: 8),
-              Text(en, key: const ValueKey('drv-locked')),
-              Text(fa, textDirection: TextDirection.rtl, style: BL.fa(13)),
+              Text(hl(en), key: const ValueKey('drv-locked')),
+              Text(hl(fa), textDirection: helperDir, style: BL.fa(13)),
             ],
           ),
         ),
@@ -276,7 +277,7 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
                 key: const ValueKey('drv-fa'),
                 selected: fa,
                 showCheckmark: false,
-                label: const Text('فارسی'),
+                label: Text(hl('فارسی')),
                 selectedColor: seaRed,
                 labelStyle: TextStyle(color: fa ? Colors.white : BL.ink, fontWeight: FontWeight.w800),
                 onSelected: (_) => ctrl.setPref('drvFa', fa ? 'off' : 'on'),
@@ -284,24 +285,24 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
             ],
           ),
           const SizedBox(height: 8),
-          Text(e.title, style: BL.display(28)),
-          Text(e.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
+          Text(hl(e.title), style: BL.display(28)),
+          Text(hl(e.titleFa), textDirection: helperDir, style: BL.fa(14)),
           const SizedBox(height: 10),
           DriveStage(key: const ValueKey('drv-stage'), lesson: e, line: line, playing: all, fa: fa),
           const SizedBox(height: 8),
           Row(children: [
-            Expanded(child: Text(e.inCar ? 'In the car with ${e.lines.first.name}' : 'Listen in', style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted))),
+            Expanded(child: Text(hl(e.inCar ? 'In the car with ${e.lines.first.name}' : 'Listen in'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted))),
             FilledButton.icon(
               key: const ValueKey('drv-play-all'),
               style: FilledButton.styleFrom(backgroundColor: seaRed),
               onPressed: () => _playAll(e),
               icon: Icon(all ? Icons.stop_rounded : Icons.play_arrow_rounded),
-              label: Text(all ? 'Stop' : 'Play scene'),
+              label: Text(hl(all ? 'Stop' : 'Play scene')),
             ),
           ]),
           const SizedBox(height: 10),
-          Text(e.note, key: const ValueKey('drv-note'), style: const TextStyle(fontSize: 14.5, height: 1.45)),
-          if (fa) Padding(padding: const EdgeInsets.only(top: 4), child: Text(e.noteFa, textDirection: TextDirection.rtl, style: BL.fa(13.5))),
+          Text(hl(e.note), key: const ValueKey('drv-note'), style: const TextStyle(fontSize: 14.5, height: 1.45)),
+          if (fa) Padding(padding: const EdgeInsets.only(top: 4), child: Text(hl(e.noteFa), textDirection: helperDir, style: BL.fa(13.5))),
           const SizedBox(height: 18),
           Text('The dialogue', style: BL.display(20)),
           const SizedBox(height: 6),
@@ -332,9 +333,9 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          Text(l.name, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: seaRed)),
-                          Text(l.en, style: const TextStyle(fontSize: 14.5, height: 1.35)),
-                          if (fa) Text(l.fa, key: ValueKey('drv-line-fa-$i'), textDirection: TextDirection.rtl, style: BL.fa(13)),
+                          Text(hl(l.name), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: seaRed)),
+                          Text(hl(l.en), style: const TextStyle(fontSize: 14.5, height: 1.35)),
+                          if (fa) Text(hl(l.fa), key: ValueKey('drv-line-fa-$i'), textDirection: helperDir, style: BL.fa(13)),
                         ],
                       ),
                     ),
@@ -358,12 +359,12 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
                     dense: true,
                     onTap: () => _say('w$i', 'narrator', w.w),
                     leading: Icon(playing == 'w$i' ? Icons.graphic_eq_rounded : Icons.volume_up_rounded, color: seaRed, size: 20),
-                    title: Text(w.w, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
+                    title: Text(hl(w.w), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(w.en),
-                        Align(alignment: Alignment.centerRight, child: Text(w.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5))),
+                        Text(hl(w.en)),
+                        Align(alignment: Alignment.centerRight, child: Text(hl(w.fa), textDirection: helperDir, style: BL.fa(12.5))),
                       ],
                     ),
                   ),
@@ -380,7 +381,7 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Text('${qi + 1}. ${q.q}', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
+                  Text(hl('${qi + 1}. ${q.q}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
                   const SizedBox(height: 6),
                   for (final o in order![qi])
                     Padding(
@@ -414,13 +415,13 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '$right / ${e.qs.length} · ${ok ? 'Lovely, well done!' : 'Nearly — have another go.'}',
+            hl('$right / ${e.qs.length} · ${ok ? 'Lovely, well done!' : 'Nearly — have another go.'}'),
             key: const ValueKey('drv-score'),
             style: BL.display(20, color: Colors.white),
           ),
-          Text(ok ? 'آفرین، عالی بود!' : 'نزدیک بود؛ دوباره امتحان کن.', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+          Text(hl(ok ? 'آفرین، عالی بود!' : 'نزدیک بود؛ دوباره امتحان کن.'), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
           const SizedBox(height: 6),
-          Text('+$xp XP${best ? ' · best score saved' : ''}', key: const ValueKey('drv-xp'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
+          Text(hl('+$xp XP${best ? ' · best score saved' : ''}'), key: const ValueKey('drv-xp'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
           const SizedBox(height: 10),
           Row(
             children: [
@@ -467,7 +468,7 @@ class _Opt extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
           child: Row(
             children: [
-              Expanded(child: Text(text, style: TextStyle(fontWeight: FontWeight.w700, color: state == 0 ? BL.ink : Colors.white))),
+              Expanded(child: Text(hl(text), style: TextStyle(fontWeight: FontWeight.w700, color: state == 0 ? BL.ink : Colors.white))),
               if (state == 1) const Icon(Icons.check_rounded, color: Colors.white, size: 18),
               if (state == 2) const Icon(Icons.close_rounded, color: Colors.white, size: 18),
             ],

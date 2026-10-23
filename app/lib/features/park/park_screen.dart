@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -47,8 +48,8 @@ class ParkScreen extends ConsumerWidget {
           const SizedBox(height: 10),
           Text('Park games', style: BL.display(30)),
           Text(
-            'بازی‌های پارک · مرور سریع کلمه‌های درس‌هایت',
-            textDirection: TextDirection.rtl,
+            hl('بازی‌های پارک · مرور سریع کلمه‌های درس‌هایت'),
+            textDirection: helperDir,
             style: BL.fa(13, color: BL.muted),
           ),
           const SizedBox(height: 14),
@@ -64,7 +65,7 @@ class ParkScreen extends ConsumerWidget {
                       selected: lv.code == level,
                       showCheckmark: false,
                       avatar: gate.levelOpen(lv.code) ? null : const Icon(Icons.lock_rounded, size: 14, color: BL.muted),
-                      label: Text(lv.code),
+                      label: Text(hl(lv.code)),
                       selectedColor: parkGreen,
                       backgroundColor: Colors.white,
                       side: BorderSide.none,
@@ -80,7 +81,7 @@ class ParkScreen extends ConsumerWidget {
                               SnackBar(
                                 behavior: SnackBarBehavior.floating,
                                 duration: const Duration(seconds: 4),
-                                content: Text('$en\n$fa', key: const ValueKey('park-locked-snack')),
+                                content: Text(hl('$en\n$fa'), key: const ValueKey('park-locked-snack')),
                               ),
                             );
                         }
@@ -92,7 +93,7 @@ class ParkScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            pw.fromOpen >= pw.words.length ? '${pw.words.length} words from your $level lessons' : '${pw.fromOpen} words from your $level lessons + ${pw.words.length - pw.fromOpen} coming up next',
+            hl(pw.fromOpen >= pw.words.length ? '${pw.words.length} words from your $level lessons' : '${pw.fromOpen} words from your $level lessons + ${pw.words.length - pw.fromOpen} coming up next'),
             key: const ValueKey('park-words'),
             style: const TextStyle(fontSize: 12.5, color: BL.muted, fontWeight: FontWeight.w600),
           ),
@@ -133,11 +134,11 @@ class _GameCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(g.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
-                    Text(g.blurb, style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                    Text(hl(g.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+                    Text(hl(g.blurb), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                     Text(
-                      g.nameFa,
-                      textDirection: TextDirection.rtl,
+                      hl(g.nameFa),
+                      textDirection: helperDir,
                       style: BL.fa(12, color: BL.muted),
                     ),
                   ],
@@ -147,7 +148,7 @@ class _GameCard extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    best == null ? '–' : '$best%',
+                    hl(best == null ? '–' : '$best%'),
                     key: ValueKey('park-best-${g.id}'),
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 16, color: (best ?? 0) >= Park.pass ? parkGreen : BL.muted),
                   ),

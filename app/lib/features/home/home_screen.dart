@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -53,7 +54,7 @@ class ErrorState extends StatelessWidget {
           Text('The kettle’s gone cold', style: BL.display(22)),
           const SizedBox(height: 6),
           Text(
-            'We couldn’t load the story. $message',
+            hl('We couldn’t load the story. $message'),
             textAlign: TextAlign.center,
             style: const TextStyle(color: BL.muted),
           ),
@@ -104,7 +105,7 @@ class _HomeBody extends ConsumerWidget {
                     p: p,
                     onDemo: () {
                       ctrl.setUnlockAll(!p.unlockAll);
-                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(p.unlockAll ? 'Demo mode off' : 'Demo mode: every level unlocked')));
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(hl(p.unlockAll ? 'Demo mode off' : 'Demo mode: every level unlocked'))));
                     },
                   ),
                 ),
@@ -175,9 +176,9 @@ class _SectionTitle extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     crossAxisAlignment: CrossAxisAlignment.end,
     children: [
-      Text(en, style: BL.display(22)),
+      Text(hl(en), style: BL.display(22)),
       const SizedBox(width: 12),
-      Expanded(child: Text(fa, textAlign: TextAlign.end, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: dirOf(lang), style: BL.fa(13))),
+      Expanded(child: Text(hl(fa), textAlign: TextAlign.end, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: dirOf(lang), style: BL.fa(13))),
     ],
   );
 }
@@ -196,7 +197,7 @@ class _Header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                greet.toUpperCase(),
+                hl(greet.toUpperCase()),
                 style: const TextStyle(fontSize: 11.5, letterSpacing: 1.6, fontWeight: FontWeight.w700, color: BL.red),
               ),
               const SizedBox(height: 4),
@@ -225,7 +226,7 @@ class _Chip extends StatelessWidget {
   const _Chip({required this.icon, required this.color, required this.label, required this.tooltip});
   @override
   Widget build(BuildContext context) => Tooltip(
-    message: tooltip,
+    message: hl(tooltip),
     child: Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(99), boxShadow: BL.shadow(.06)),
@@ -233,7 +234,7 @@ class _Chip extends StatelessWidget {
         children: [
           Icon(icon, size: 18, color: color),
           const SizedBox(width: 4),
-          Text(label, style: const TextStyle(fontWeight: FontWeight.w800)),
+          Text(hl(label), style: const TextStyle(fontWeight: FontWeight.w800)),
         ],
       ),
     ),
@@ -277,17 +278,17 @@ class _MissionCard extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                       decoration: BoxDecoration(color: BL.gold, borderRadius: BorderRadius.circular(99)),
                       child: Text(
-                        done ? 'MISSION COMPLETE' : 'TODAY’S MISSION',
+                        hl(done ? 'MISSION COMPLETE' : 'TODAY’S MISSION'),
                         style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.w800, letterSpacing: 1.2, color: BL.ink),
                       ),
                     ),
                   ],
                 ),
                 const SizedBox(height: 12),
-                Text(done ? 'Brilliant — you’ve smashed it!' : m.en, style: BL.display(22, color: Colors.white)),
+                Text(hl(done ? 'Brilliant — you’ve smashed it!' : m.en), style: BL.display(22, color: Colors.white)),
                 const SizedBox(height: 4),
                 Text(
-                  done ? tr(p.lang, 'mission_done') : (p.lang == 'fa' ? m.fa : tr(p.lang, 'mission')),
+                  hl(done ? tr(p.lang, 'mission_done') : (p.lang == 'fa' ? m.fa : tr(p.lang, 'mission'))),
                   textDirection: p.lang == 'fa' || done ? dirOf(p.lang) : dirOf(p.lang),
                   style: BL.fa(12.5, color: Colors.white70),
                 ),
@@ -365,10 +366,10 @@ class _Ring extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            label,
+            hl(label),
             style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800),
           ),
-          Text(caption, style: const TextStyle(color: Colors.white60, fontSize: 11)),
+          Text(hl(caption), style: const TextStyle(color: Colors.white60, fontSize: 11)),
         ],
       ),
     ],
@@ -406,27 +407,27 @@ class CharacterCard extends ConsumerWidget {
                 children: [
                   Row(
                     children: [
-                      Text(ch.name, style: BL.display(19)),
+                      Text(hl(ch.name), style: BL.display(19)),
                       const SizedBox(width: 6),
-                      Text('· ${age == 1 ? '1 yr' : '$age'}', style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+                      Text(hl('· ${age == 1 ? '1 yr' : '$age'}'), style: const TextStyle(color: BL.muted, fontSize: 12.5)),
                       const SizedBox(width: 6),
                       Tooltip(
-                        message: tr(p.lang, 'mood'),
-                        child: Text(EmotionEngine.label(p.moodMap[ch.id] ?? 0).emoji, style: const TextStyle(fontSize: 14)),
+                        message: hl(tr(p.lang, 'mood')),
+                        child: Text(hl(EmotionEngine.label(p.moodMap[ch.id] ?? 0).emoji), style: const TextStyle(fontSize: 14)),
                       ),
                       const Spacer(),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                         decoration: BoxDecoration(color: ch.color.withValues(alpha: .12), borderRadius: BorderRadius.circular(99)),
                         child: Text(
-                          available ? m.id : 'Soon',
+                          hl(available ? m.id : 'Soon'),
                           style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: ch.color),
                         ),
                       ),
                     ],
                   ),
                   const SizedBox(height: 1),
-                  Text(stage == null ? ch.role : '${ch.role} · $stage', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+                  Text(hl(stage == null ? ch.role : '${ch.role} · $stage'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: BL.muted, fontSize: 12.5)),
                   const SizedBox(height: 10),
                   MeterBar(value: trust / 100, color: BL.red, label: 'Trust', trailing: '${trust.round()}', icon: Icons.favorite_rounded),
                   const SizedBox(height: 6),
@@ -452,14 +453,14 @@ class CharacterCard extends ConsumerWidget {
           children: [
             Avatar(ch, size: 96),
             const SizedBox(height: 12),
-            Text(ch.name, style: BL.display(24)),
+            Text(hl(ch.name), style: BL.display(24)),
             const SizedBox(height: 6),
             Text(
-              ch.bio,
+              hl(ch.bio),
               textAlign: TextAlign.center,
               style: const TextStyle(color: BL.muted),
             ),
-            Text(ch.bioFa, textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(13)),
+            Text(hl(ch.bioFa), textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(13)),
             const SizedBox(height: 14),
             Container(
               padding: const EdgeInsets.all(14),
@@ -469,7 +470,7 @@ class CharacterCard extends ConsumerWidget {
                   const Icon(Icons.schedule_rounded, color: BL.navy),
                   const SizedBox(width: 10),
                   Expanded(
-                    child: Text('${ch.name}’s stories are being written — coming in the next update.', style: const TextStyle(fontWeight: FontWeight.w600)),
+                    child: Text(hl('${ch.name}’s stories are being written — coming in the next update.'), style: const TextStyle(fontWeight: FontWeight.w600)),
                   ),
                 ],
               ),
@@ -512,17 +513,17 @@ class _LevelHeader extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 6),
-              Text(t.title, style: BL.display(22, color: open ? BL.ink : BL.muted)),
-              Text(open ? t.subtitle : 'Finish ${ProgressController.tierGate} chats in ${c.tiers[index - 1].id.replaceAll('-', '–')} to open', style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+              Text(hl(t.title), style: BL.display(22, color: open ? BL.ink : BL.muted)),
+              Text(hl(open ? t.subtitle : 'Finish ${ProgressController.tierGate} chats in ${c.tiers[index - 1].id.replaceAll('-', '–')} to open'), style: const TextStyle(color: BL.muted, fontSize: 12.5)),
             ],
           ),
         ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
-            Text(t.titleFa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+            Text(hl(t.titleFa), textDirection: helperDir, style: BL.fa(12.5)),
             Text(
-              '$done/$total',
+              hl('$done/$total'),
               style: const TextStyle(fontWeight: FontWeight.w800, color: BL.green, fontSize: 12.5),
             ),
           ],
@@ -549,11 +550,11 @@ class _PlaceCard extends StatelessWidget {
               SnackBar(
                 behavior: SnackBarBehavior.floating,
                 content: Text(
-                  place.season != null
+                  hl(place.season != null
                       ? 'A seasonal event — opens in December, or early after ${Place.earlyAccessChats} chats.'
                       : tierOpen
                       ? 'Reach “Best playmate” with Nicola to unlock the party.'
-                      : 'Finish more chats in the level before to open ${place.title}.',
+                      : 'Finish more chats in the level before to open ${place.title}.'),
                 ),
               ),
             ),
@@ -617,14 +618,14 @@ class _PlaceCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 6),
                     Text(
-                      place.title,
+                      hl(place.title),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: BL.display(16.5, color: Colors.white),
                     ),
                     Text(
-                      place.titleFa,
-                      textDirection: TextDirection.rtl,
+                      hl(place.titleFa),
+                      textDirection: helperDir,
                       style: BL.fa(11.5, color: Colors.white70),
                     ),
                   ],
@@ -664,10 +665,10 @@ class WordBoxCard extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Text('${p.leitnerBox.length} words', style: BL.display(18)),
+                    Text(hl('${p.leitnerBox.length} words'), style: BL.display(18)),
                     const Spacer(),
                     Text(
-                      '$due ready to practise',
+                      hl('$due ready to practise'),
                       style: const TextStyle(color: BL.red, fontWeight: FontWeight.w700, fontSize: 12.5),
                     ),
                   ],
@@ -685,7 +686,7 @@ class WordBoxCard extends StatelessWidget {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
-                                Text('${counts[i]}', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
+                                Text(hl('${counts[i]}'), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700)),
                                 const SizedBox(height: 3),
                                 AnimatedContainer(
                                   duration: const Duration(milliseconds: 600),
@@ -693,7 +694,7 @@ class WordBoxCard extends StatelessWidget {
                                   decoration: BoxDecoration(borderRadius: BorderRadius.circular(6), color: Color.lerp(BL.mist, BL.green, (i + 1) / 5)),
                                 ),
                                 const SizedBox(height: 4),
-                                Text('Box ${i + 1}', style: const TextStyle(fontSize: 10, color: BL.muted)),
+                                Text(hl('Box ${i + 1}'), style: const TextStyle(fontSize: 10, color: BL.muted)),
                               ],
                             ),
                           ),
@@ -708,12 +709,12 @@ class WordBoxCard extends StatelessWidget {
                   children: [
                     for (final w in p.leitnerBox.values.take(12))
                       Tooltip(
-                        message: w.fa,
+                        message: hl(w.fa),
                         child: Chip(
                           visualDensity: VisualDensity.compact,
                           side: BorderSide.none,
                           backgroundColor: BL.cream,
-                          label: Text(w.word, style: const TextStyle(fontSize: 12)),
+                          label: Text(hl(w.word), style: const TextStyle(fontSize: 12)),
                         ),
                       ),
                   ],
@@ -755,13 +756,13 @@ class WeeklyCard extends StatelessWidget {
                     Text('Weekly challenge', style: BL.display(17)),
                     const Spacer(),
                     Text(
-                      wk.split('-').last,
+                      hl(wk.split('-').last),
                       style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: BL.muted),
                     ),
                   ],
                 ),
                 const SizedBox(height: 2),
-                Text(tr(p.lang, won ? 'weekly_won' : 'weekly_sub'), textDirection: dirOf(p.lang), style: BL.fa(12)),
+                Text(hl(tr(p.lang, won ? 'weekly_won' : 'weekly_sub')), textDirection: dirOf(p.lang), style: BL.fa(12)),
                 const SizedBox(height: 8),
                 MeterBar(value: v, color: const Color(0xFFB8860B), label: 'Week', trailing: '$chats/${WeeklyChallenge.chatsTarget}', icon: Icons.bolt_rounded),
               ],

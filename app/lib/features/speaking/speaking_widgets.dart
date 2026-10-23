@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 
 import '../../app/theme.dart';
@@ -41,20 +42,20 @@ class PronunciationCard extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
                 decoration: BoxDecoration(color: col, borderRadius: BorderRadius.circular(99)),
                 child: Text(
-                  '$s%',
+                  hl('$s%'),
                   style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 13),
                 ),
               ),
               const SizedBox(width: 8),
               Expanded(
                 child: Text(
-                  s >= 90
+                  hl(s >= 90
                       ? 'Spot on!'
                       : s >= Pronunciation.passScore
                       ? 'Clear. Nicely done!'
                       : s >= 40
                       ? 'Nearly. Try the coloured words again.'
-                      : 'Not quite. Listen, then try again.',
+                      : 'Not quite. Listen, then try again.'),
                   style: TextStyle(color: fg, fontWeight: FontWeight.w800, fontSize: 13.5),
                 ),
               ),
@@ -67,7 +68,7 @@ class PronunciationCard extends StatelessWidget {
             children: [
               for (final w in result.words)
                 Tooltip(
-                  message: w.mark == WordMark.good ? 'Clear' : (w.heard == null ? 'Not heard' : 'Heard “${w.heard}”'),
+                  message: hl(w.mark == WordMark.good ? 'Clear' : (w.heard == null ? 'Not heard' : 'Heard “${w.heard}”')),
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     decoration: BoxDecoration(
@@ -91,7 +92,7 @@ class PronunciationCard extends StatelessWidget {
                       ),
                     ),
                     child: Text(
-                      w.word,
+                      hl(w.word),
                       style: TextStyle(color: fg, fontWeight: FontWeight.w700, fontSize: 15),
                     ),
                   ),
@@ -100,7 +101,7 @@ class PronunciationCard extends StatelessWidget {
           ),
           const SizedBox(height: 6),
           Text(
-            'You said: “${result.heard}”',
+            hl('You said: “${result.heard}”'),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(color: sub, fontSize: 12, fontStyle: FontStyle.italic),
@@ -129,7 +130,7 @@ class PronunciationCard extends StatelessWidget {
                   key: const ValueKey('pron-send'),
                   onPressed: onSend,
                   child: Text(
-                    result.passed ? 'Send' : 'Send anyway',
+                    hl(result.passed ? 'Send' : 'Send anyway'),
                     style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w800),
                   ),
                 ),
@@ -157,7 +158,7 @@ class _Legend extends StatelessWidget {
           decoration: BoxDecoration(color: c, shape: BoxShape.circle),
         ),
         const SizedBox(width: 3),
-        Text(t, style: const TextStyle(fontSize: 10.5, color: Colors.white54)),
+        Text(hl(t), style: const TextStyle(fontSize: 10.5, color: Colors.white54)),
       ],
     ),
   );
@@ -187,11 +188,11 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                   const SizedBox(width: 10),
                   Expanded(
                     child: Text(
-                      unsupported
+                      hl(unsupported
                           ? 'Speaking isn\'t available here'
                           : dictation
                           ? 'Turn on Dictation'
-                          : 'Allow the microphone',
+                          : 'Allow the microphone'),
                       style: BL.display(22),
                     ),
                   ),
@@ -218,7 +219,7 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                   'New Life UK only listens while the microphone is red. Your speech is turned into text by your browser\'s speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers. The Toms doesn\'t store or send your recordings itself; "Record" clips stay on your device.',
                 ),
                 const SizedBox(height: 4),
-                Text('میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. New Life UK خودش صدای شما را ذخیره یا ارسال نمی‌کند؛ ضبط‌های «Record» فقط روی دستگاه شما می‌مانند.', textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+                Text(hl('میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. New Life UK خودش صدای شما را ذخیره یا ارسال نمی‌کند؛ ضبط‌های «Record» فقط روی دستگاه شما می‌مانند.'), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
                 const SizedBox(height: 8),
                 const Text('iPhone (Safari): tap "aA" in the address bar › Website Settings › Microphone › Allow. Or Settings › Apps › Safari › Microphone.'),
                 const SizedBox(height: 6),
@@ -226,8 +227,8 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
               ],
               const SizedBox(height: 6),
               Text(
-                unsupported ? 'تشخیص گفتار در این مرورگر در دسترس نیست. سافاری یا کروم را امتحان کنید.' : 'اجازهٔ میکروفون را در تنظیمات مرورگر بدهید و دوباره امتحان کنید.',
-                textDirection: TextDirection.rtl,
+                hl(unsupported ? 'تشخیص گفتار در این مرورگر در دسترس نیست. سافاری یا کروم را امتحان کنید.' : 'اجازهٔ میکروفون را در تنظیمات مرورگر بدهید و دوباره امتحان کنید.'),
+                textDirection: helperDir,
                 style: BL.fa(12.5, color: BL.muted),
               ),
               const SizedBox(height: 14),

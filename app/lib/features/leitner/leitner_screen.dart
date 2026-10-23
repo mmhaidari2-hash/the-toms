@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -45,7 +46,7 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
         title: Text('Leitner box', style: BL.display(20)),
       ),
       body: ListView(key: const ValueKey('leitner-list'), padding: const EdgeInsets.fromLTRB(16, 4, 16, 24), children: [
-        Text('جعبهٔ لایتنر · ${due.length} واژه برای امروز', textDirection: TextDirection.rtl, style: BL.fa(13)),
+        Text(hl('جعبهٔ لایتنر · ${due.length} واژه برای امروز'), textDirection: helperDir, style: BL.fa(13)),
         const SizedBox(height: 10),
         Row(children: [
           for (var i = 0; i < 5; i++)
@@ -60,8 +61,8 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
                   border: Border.all(color: Colors.white.withValues(alpha: .7)),
                 ),
                 child: Column(children: [
-                  Text('${counts[i]}', style: TextStyle(fontWeight: FontWeight.w800, color: i > 1 ? Colors.white : BL.ink)),
-                  Text('Box ${i + 1}', style: TextStyle(fontSize: 10.5, color: i > 1 ? Colors.white70 : BL.muted)),
+                  Text(hl('${counts[i]}'), style: TextStyle(fontWeight: FontWeight.w800, color: i > 1 ? Colors.white : BL.ink)),
+                  Text(hl('Box ${i + 1}'), style: TextStyle(fontSize: 10.5, color: i > 1 ? Colors.white70 : BL.muted)),
                 ]),
               ),
             ),
@@ -83,9 +84,9 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
             ListTile(
               dense: true,
               contentPadding: EdgeInsets.zero,
-              title: Text(w.word, style: const TextStyle(fontWeight: FontWeight.w700)),
-              subtitle: w.fa.isEmpty ? null : Text(w.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
-              trailing: Text('Box ${w.box}', style: const TextStyle(color: BL.muted, fontSize: 12)),
+              title: Text(hl(w.word), style: const TextStyle(fontWeight: FontWeight.w700)),
+              subtitle: w.fa.isEmpty ? null : Text(hl(w.fa), textDirection: helperDir, style: BL.fa(12.5)),
+              trailing: Text(hl('Box ${w.box}'), style: const TextStyle(color: BL.muted, fontSize: 12)),
               onLongPress: () => ref.read(progressProvider.notifier).removeFromLeitner(w.word),
             ),
         ],
@@ -98,9 +99,9 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(16), boxShadow: BL.shadow()),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(en, style: const TextStyle(height: 1.35)),
+          Text(hl(en), style: const TextStyle(height: 1.35)),
           const SizedBox(height: 6),
-          Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+          Text(hl(fa), textDirection: helperDir, style: BL.fa(12.5)),
         ]),
       );
 
@@ -109,24 +110,24 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
         padding: const EdgeInsets.all(18),
         decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20), boxShadow: BL.shadow(.1)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text('$left to go · box ${c.box}', style: const TextStyle(color: BL.muted, fontSize: 12)),
+          Text(hl('$left to go · box ${c.box}'), style: const TextStyle(color: BL.muted, fontSize: 12)),
           const SizedBox(height: 8),
           Row(children: [
-            Expanded(child: Text(c.word, key: const ValueKey('leitner-front'), style: BL.display(26))),
+            Expanded(child: Text(hl(c.word), key: const ValueKey('leitner-front'), style: BL.display(26))),
             if (Voice.has('narrator', c.word)) IconButton.filledTonal(onPressed: () => Voice.say('narrator', c.word), icon: const Icon(Icons.volume_up_rounded)),
           ]),
           const SizedBox(height: 12),
           if (!shown)
             SizedBox(
               width: double.infinity,
-              child: OutlinedButton(key: const ValueKey('leitner-show'), onPressed: () => setState(() => shown = true), child: const Text('Show meaning · نمایش معنی')),
+              child: OutlinedButton(key: const ValueKey('leitner-show'), onPressed: () => setState(() => shown = true), child: Text(hl('Show meaning · نمایش معنی'))),
             )
           else ...[
-            Text(c.fa.isEmpty ? '—' : c.fa, key: const ValueKey('leitner-back'), textDirection: TextDirection.rtl, style: BL.fa(18, color: BL.ink, w: FontWeight.w700)),
+            Text(hl(c.fa.isEmpty ? '—' : c.fa), key: const ValueKey('leitner-back'), textDirection: helperDir, style: BL.fa(18, color: BL.ink, w: FontWeight.w700)),
             if (c.ex.isNotEmpty) ...[
               const SizedBox(height: 10),
               Row(children: [
-                Expanded(child: Text('“${c.ex}”', style: const TextStyle(fontStyle: FontStyle.italic, height: 1.35))),
+                Expanded(child: Text(hl('“${c.ex}”'), style: const TextStyle(fontStyle: FontStyle.italic, height: 1.35))),
                 if (Voice.has(c.exSp, c.ex)) IconButton(onPressed: () => Voice.say(c.exSp, c.ex), icon: const Icon(Icons.play_circle_rounded, color: BL.navy)),
               ]),
             ],

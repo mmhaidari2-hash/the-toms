@@ -1,5 +1,7 @@
 import 'package:flutter/widgets.dart';
 
+import 'coverage.g.dart';
+
 /// UI explanation languages (MASTER BOOK §12). English is the learning language;
 /// the "helper" language explains UI, missions and culture notes.
 class Lang {
@@ -8,22 +10,45 @@ class Lang {
   const Lang(this.code, this.name, this.native, {this.rtl = false});
 }
 
+/// Every helper language, all offered the same way, ordered by the size of the newcomer group that speaks it
+/// (ONS long-term international migration YE Dec 2024 by nationality; Home Office asylum claims YE Jun 2025;
+/// Census 2021 main languages). Persian is one of them, not a default.
 const helperLanguages = [
-  Lang('fa', 'Persian', 'فارسی', rtl: true),
-  Lang('en', 'English', 'English'),
-  Lang('pl', 'Polish', 'Polski'),
+  Lang('hi', 'Hindi', 'हिन्दी'),
   Lang('ur', 'Urdu', 'اردو', rtl: true),
+  Lang('zh', 'Chinese (Simplified)', '简体中文'),
   Lang('ar', 'Arabic', 'العربية', rtl: true),
+  Lang('uk', 'Ukrainian', 'Українська'),
+  Lang('fa', 'Persian', 'فارسی', rtl: true),
+  Lang('prs', 'Dari', 'دری', rtl: true),
+  Lang('ps', 'Pashto', 'پښتو', rtl: true),
+  Lang('bn', 'Bengali', 'বাংলা'),
+  Lang('pa', 'Punjabi', 'ਪੰਜਾਬੀ'),
   Lang('ro', 'Romanian', 'Română'),
+  Lang('pl', 'Polish', 'Polski'),
+  Lang('ti', 'Tigrinya', 'ትግርኛ'),
+  Lang('ckb', 'Kurdish (Sorani)', 'کوردی', rtl: true),
+  Lang('tr', 'Turkish', 'Türkçe'),
   Lang('es', 'Spanish', 'Español'),
   Lang('pt', 'Portuguese', 'Português'),
+  Lang('zh-Hant', 'Chinese (Traditional)', '繁體中文'),
 ];
 
-/// Helper languages that fully work today (UI strings + every lesson gloss). Only these are offered;
-/// a language is added here once its translations are complete and audited (test/lang_test.dart).
-const readyLanguages = {'fa'};
+/// How far each helper language's translation table has got (tool/i18n/build_tables.py writes coverage.g.dart).
+enum LangStatus { ready, beta, soon }
 
-Lang langOf(String code) => helperLanguages.firstWhere((l) => l.code == code, orElse: () => helperLanguages.first);
+LangStatus langStatus(String code) {
+  if (code == 'fa') return LangStatus.ready;
+  final c = helperCoverage[code] ?? 0;
+  // Ready once its whole translation run has finished; the few lines QA rejected show in English.
+  if (helperComplete.contains(code) && c >= .85) return LangStatus.ready;
+  return c > 0 ? LangStatus.beta : LangStatus.soon;
+}
+
+/// Languages a learner can pick today (ready + beta; beta falls back to English for strings not translated yet).
+Set<String> get readyLanguages => {for (final l in helperLanguages) if (langStatus(l.code) != LangStatus.soon) l.code};
+
+Lang langOf(String code) => helperLanguages.firstWhere((l) => l.code == code, orElse: () => code == 'en' ? const Lang('en', 'English', 'English') : helperLanguages.firstWhere((l) => l.code == 'fa'));
 TextDirection dirOf(String code) => langOf(code).rtl ? TextDirection.rtl : TextDirection.ltr;
 
 const _s = <String, Map<String, String>>{
@@ -567,12 +592,14 @@ const _s = <String, Map<String, String>>{
 
 /// Helper-language string, falling back to English for languages still being translated.
 String tr(String lang, String key) {
-  final v = _s[lang]?[key];
+  // Persian is the authored helper text; every other helper language translates it through hl() at display.
+  final v = _s[lang]?[key] ?? (lang == 'en' ? null : _s['fa']?[key]);
   return (v == null || v.isEmpty) ? (_s['en']![key] ?? key) : v;
 }
 
 /// Dialogue translation in the helper language; dialogue lines are authored in Persian today, so other
 /// helper languages fall back to Persian for story lines while the whole UI is localised.
+// Lines are authored with Persian; other helper languages show the Persian key, which every Text translates via hl().
 String? lineTranslation(Map<String, String> t, String lang) => t[lang] ?? t['fa'];
 
 /// UI keys missing for a helper language (empty = complete). Used by the language audit.

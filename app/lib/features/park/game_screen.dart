@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:async';
 import 'dart:math';
 
@@ -110,8 +111,8 @@ class _ParkGameScreenState extends ConsumerState<ParkGameScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(g.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
-                      Text('${widget.level} · ${g.nameFa}', style: BL.fa(12, color: BL.muted)),
+                      Text(hl(g.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+                      Text(hl('${widget.level} · ${g.nameFa}'), style: BL.fa(12, color: BL.muted)),
                     ],
                   ),
                 ),
@@ -156,18 +157,18 @@ class _Locked extends StatelessWidget {
                     children: [
                       const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
                       const SizedBox(height: 14),
-                      Text('${g.name} · $level', textAlign: TextAlign.center, style: BL.display(24)),
+                      Text(hl('${g.name} · $level'), textAlign: TextAlign.center, style: BL.display(24)),
                       const SizedBox(height: 10),
                       Text(
-                        en,
+                        hl(en),
                         key: const ValueKey('park-locked-why'),
                         textAlign: TextAlign.center,
                         style: const TextStyle(fontSize: 14, color: BL.muted, height: 1.4),
                       ),
                       const SizedBox(height: 6),
                       Text(
-                        fa,
-                        textDirection: TextDirection.rtl,
+                        hl(fa),
+                        textDirection: helperDir,
                         textAlign: TextAlign.center,
                         style: BL.fa(13, color: BL.muted),
                       ),
@@ -197,14 +198,14 @@ Widget _progress(int i, int n, int right) => Row(
     ),
     const SizedBox(width: 10),
     Text(
-      '${min(i + 1, n)}/$n',
+      hl('${min(i + 1, n)}/$n'),
       key: const ValueKey('park-round'),
       style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted),
     ),
     const SizedBox(width: 10),
     const Icon(Icons.star_rounded, size: 18, color: BL.gold),
     Text(
-      '$right',
+      hl('$right'),
       key: const ValueKey('park-right'),
       style: const TextStyle(fontWeight: FontWeight.w800),
     ),
@@ -225,9 +226,9 @@ Widget _tile(String key, String text, {Color? color, Color fg = BL.ink, VoidCall
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
           child: Text(
-            text,
+            hl(text),
             textAlign: TextAlign.center,
-            textDirection: fa ? TextDirection.rtl : null,
+            textDirection: fa ? helperDir : null,
             style: fa ? BL.fa(14.5, color: fg) : TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700, color: fg),
           ),
         ),
@@ -244,7 +245,7 @@ Widget _next(VoidCallback onTap, bool last) => FilledButton(
     padding: const EdgeInsets.symmetric(vertical: 14),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
-  child: Text(last ? 'See my score' : 'Next', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+  child: Text(hl(last ? 'See my score' : 'Next'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
 );
 
 /// Word match against the clock: tap an English word, then its Persian.
@@ -327,20 +328,20 @@ class _MatchState extends State<_Match> {
             Icon(Icons.timer_rounded, color: left <= 10 ? BL.red : parkGreen),
             const SizedBox(width: 4),
             Text(
-              '0:${left.toString().padLeft(2, '0')}',
+              hl('0:${left.toString().padLeft(2, '0')}'),
               key: const ValueKey('match-timer'),
               style: TextStyle(fontWeight: FontWeight.w900, fontSize: 18, color: left <= 10 ? BL.red : BL.ink),
             ),
             const Spacer(),
             Text(
-              '${matched.length}/${w.length} pairs',
+              hl('${matched.length}/${w.length} pairs'),
               key: const ValueKey('match-count'),
               style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted),
             ),
           ],
         ),
         const SizedBox(height: 4),
-        Text(started ? 'Tap a word, then its Persian.' : 'Tap a word to start the clock, then tap its Persian.', style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+        Text(hl(started ? 'Tap a word, then its Persian.' : 'Tap a word to start the clock, then tap its Persian.'), style: const TextStyle(color: BL.muted, fontSize: 12.5)),
         const SizedBox(height: 10),
         Expanded(
           child: SingleChildScrollView(
@@ -454,10 +455,10 @@ class _ListenState extends State<_Listen> {
           ),
         if (picked != null) ...[
           Text(
-            w.fa,
+            hl(w.fa),
             key: const ValueKey('listen-fa'),
             textAlign: TextAlign.center,
-            textDirection: TextDirection.rtl,
+            textDirection: helperDir,
             style: BL.fa(15, color: BL.ink),
           ),
           const SizedBox(height: 10),
@@ -541,9 +542,9 @@ class _SpellState extends State<_Spell> {
             const SizedBox(width: 14),
             Flexible(
               child: Text(
-                w.fa,
+                hl(w.fa),
                 key: const ValueKey('spell-fa'),
-                textDirection: TextDirection.rtl,
+                textDirection: helperDir,
                 style: BL.fa(17, color: BL.ink),
               ),
             ),
@@ -552,7 +553,7 @@ class _SpellState extends State<_Spell> {
         const SizedBox(height: 14),
         if (hint && ok == null)
           Text(
-            '${w.word[0]}${' _' * (w.word.length - 1)}',
+            hl('${w.word[0]}${' _' * (w.word.length - 1)}'),
             key: const ValueKey('spell-hint-text'),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 22, letterSpacing: 2, fontWeight: FontWeight.w800),
@@ -602,13 +603,13 @@ class _SpellState extends State<_Spell> {
             child: Column(
               children: [
                 Text(
-                  ok! ? 'Spot on!' : 'It\'s spelt:',
+                  hl(ok! ? 'Spot on!' : 'It\'s spelt:'),
                   style: TextStyle(fontWeight: FontWeight.w800, color: ok! ? parkGreen : BL.red),
                 ),
-                Text(w.word, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, letterSpacing: 1)),
+                Text(hl(w.word), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, letterSpacing: 1)),
                 if (us != null)
                   Text(
-                    'British "${w.word}" · American "$us"',
+                    hl('British "${w.word}" · American "$us"'),
                     key: const ValueKey('spell-us'),
                     style: const TextStyle(fontSize: 12.5, color: BL.muted, fontWeight: FontWeight.w600),
                   ),
@@ -670,9 +671,9 @@ class _OddState extends State<_Odd> {
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
         ),
         Text(
-          'کدام به بقیه نمی‌خورد؟',
+          hl('کدام به بقیه نمی‌خورد؟'),
           textAlign: TextAlign.center,
-          textDirection: TextDirection.rtl,
+          textDirection: helperDir,
           style: BL.fa(13, color: BL.muted),
         ),
         const SizedBox(height: 14),
@@ -706,14 +707,14 @@ class _OddState extends State<_Odd> {
             child: Column(
               children: [
                 Text(
-                  picked == s.odd ? 'Yes! ${s.why}' : s.why,
+                  hl(picked == s.odd ? 'Yes! ${s.why}' : s.why),
                   textAlign: TextAlign.center,
                   style: const TextStyle(fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  s.whyFa,
+                  hl(s.whyFa),
                   textAlign: TextAlign.center,
-                  textDirection: TextDirection.rtl,
+                  textDirection: helperDir,
                   style: BL.fa(13, color: BL.muted),
                 ),
               ],
@@ -788,10 +789,10 @@ class _BuildState extends State<_Build> {
         ),
         const SizedBox(height: 4),
         Text(
-          p.fa,
+          hl(p.fa),
           key: const ValueKey('build-fa'),
           textAlign: TextAlign.center,
-          textDirection: TextDirection.rtl,
+          textDirection: helperDir,
           style: BL.fa(19, color: BL.ink),
         ),
         const SizedBox(height: 14),
@@ -811,7 +812,7 @@ class _BuildState extends State<_Build> {
               for (final k in placed)
                 ActionChip(
                   key: ValueKey('build-placed-$k'),
-                  label: Text(tokens[order[k]]),
+                  label: Text(hl(tokens[order[k]])),
                   onPressed: ok != null ? null : () => setState(() => placed.remove(k)),
                   backgroundColor: parkGreen.withValues(alpha: .12),
                   side: BorderSide.none,
@@ -830,7 +831,7 @@ class _BuildState extends State<_Build> {
               if (!placed.contains(k))
                 ActionChip(
                   key: ValueKey('build-tile-$k'),
-                  label: Text(tokens[order[k]]),
+                  label: Text(hl(tokens[order[k]])),
                   onPressed: ok != null ? null : () => setState(() => placed.add(k)),
                   backgroundColor: Colors.white,
                   side: const BorderSide(color: BL.mist),
@@ -852,7 +853,7 @@ class _BuildState extends State<_Build> {
           )
         else ...[
           Text(
-            ok! ? 'Brilliant!' : 'It goes: ${p.word}',
+            hl(ok! ? 'Brilliant!' : 'It goes: ${p.word}'),
             key: const ValueKey('build-result'),
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: ok! ? parkGreen : BL.red),

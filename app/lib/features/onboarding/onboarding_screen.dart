@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -26,7 +27,7 @@ class OnboardingScreen extends ConsumerStatefulWidget {
 
 class _OnboardingState extends ConsumerState<OnboardingScreen> {
   int _step = 0; // 0 language · 1 how it works (Tom & Nicola) · 2 level / placement test
-  String _lang = 'fa';
+  late String _lang = ref.read(progressProvider).lang;
   int _level = 0;
   final _name = TextEditingController();
 
@@ -93,11 +94,11 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
   Widget _frame({required String title, String? sub, required List<Widget> children}) => ListView(
     padding: EdgeInsets.fromLTRB(24, 28, 24, 24 + MediaQuery.paddingOf(context).bottom),
     children: [
-      Text(title, style: BL.display(30, color: Colors.white)),
+      Text(hl(title), style: BL.display(30, color: Colors.white)),
       if (sub != null) ...[
         const SizedBox(height: 6),
         Text(
-          sub,
+          hl(sub),
           textDirection: dirOf(_lang),
           style: BL.fa(14, color: Colors.white70),
         ),
@@ -137,7 +138,7 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(99)),
       ),
       onPressed: onTap,
-      child: Text(label, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
+      child: Text(hl(label), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
     ),
   );
 
@@ -146,12 +147,20 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
     sub: '${tr(_lang, 'welcome')}\n${tr(_lang, 'welcome_sub')}',
     children: [
       Text(
-        tr(_lang, 'pick_lang'),
+        hl(tr(_lang, 'pick_lang')),
         textDirection: dirOf(_lang),
         style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
       ),
       const SizedBox(height: 12),
-      HelperLangBar(dark: true, selected: _lang, onPick: (c) => setState(() => _lang = c)),
+      HelperLangBar(
+        dark: true,
+        selected: _lang,
+        onPick: (c) {
+          // Switch the whole app straight away, not only after onboarding.
+          setState(() => _lang = c);
+          ref.read(progressProvider.notifier).setLang(c);
+        },
+      ),
       const SizedBox(height: 22),
       const Text('What should the family call you?', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
       const SizedBox(height: 8),
@@ -216,14 +225,14 @@ class _OnboardingState extends ConsumerState<OnboardingScreen> {
             children: [
               SizedBox(
                 width: 62,
-                child: Text(_levels[i].$1, style: const TextStyle(fontWeight: FontWeight.w800)),
+                child: Text(hl(_levels[i].$1), style: const TextStyle(fontWeight: FontWeight.w800)),
               ),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('${_levels[i].$2}  ·  ${_levels[i].$3}', style: const TextStyle(fontWeight: FontWeight.w700)),
-                    Text(_levels[i].$4, style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                    Text(hl('${_levels[i].$2}  ·  ${_levels[i].$3}'), style: const TextStyle(fontWeight: FontWeight.w700)),
+                    Text(hl(_levels[i].$4), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                   ],
                 ),
               ),

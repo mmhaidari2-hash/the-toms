@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -35,7 +36,7 @@ class SeasonsScreen extends ConsumerWidget {
         rows.add(
           Padding(
             padding: const EdgeInsets.fromLTRB(4, 16, 4, 6),
-            child: Text(m.toUpperCase(), style: const TextStyle(fontSize: 11.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.muted)),
+            child: Text(hl(m.toUpperCase()), style: const TextStyle(fontSize: 11.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.muted)),
           ),
         );
       }
@@ -65,7 +66,7 @@ class SeasonsScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 10),
           Text('Seasonal events', style: BL.display(30)),
-          Text('جشن‌ها و مناسبت‌های بریتانیا در طول سال، با خانوادهٔ تامسون', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
+          Text(hl('جشن‌ها و مناسبت‌های بریتانیا در طول سال، با خانوادهٔ تامسون'), textDirection: helperDir, style: BL.fa(13, color: BL.muted)),
           if (feat != null) ...[const SizedBox(height: 14), _Featured(e: feat.$1, d: feat.$2, open: gate.levelOpen(feat.$1.level), done: ctrl.seasonDone(feat.$1.id))],
           ...rows,
         ],
@@ -82,7 +83,7 @@ void _locked(BuildContext context, String level) {
       SnackBar(
         behavior: SnackBarBehavior.floating,
         duration: const Duration(seconds: 4),
-        content: Text('$en\n$fa', key: const ValueKey('sea-locked-snack')),
+        content: Text(hl('$en\n$fa'), key: const ValueKey('sea-locked-snack')),
       ),
     );
 }
@@ -112,7 +113,7 @@ class _Featured extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                   decoration: BoxDecoration(color: BL.gold, borderRadius: BorderRadius.circular(99)),
                   child: Text(
-                    '${Seasons.countdown(d).toUpperCase()} · ${Seasons.countdownFa(d)}',
+                    hl('${Seasons.countdown(d).toUpperCase()} · ${Seasons.countdownFa(d)}'),
                     key: const ValueKey('sea-featured-when'),
                     style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w900, color: BL.ink, letterSpacing: .6),
                   ),
@@ -122,11 +123,11 @@ class _Featured extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 10),
-            Text(e.title, key: const ValueKey('sea-featured-title'), style: BL.display(28, color: Colors.white)),
-            Text(e.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14, color: Colors.white70)),
+            Text(hl(e.title), key: const ValueKey('sea-featured-title'), style: BL.display(28, color: Colors.white)),
+            Text(hl(e.titleFa), textDirection: helperDir, style: BL.fa(14, color: Colors.white70)),
             const SizedBox(height: 6),
             Text(
-              '${e.approx ? 'Around ' : ''}${Seasons.fmt(d)} · ${e.level}',
+              hl('${e.approx ? 'Around ' : ''}${Seasons.fmt(d)} · ${e.level}'),
               style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 13.5),
             ),
             const SizedBox(height: 12),
@@ -135,7 +136,7 @@ class _Featured extends StatelessWidget {
                 Icon(open ? Icons.play_circle_fill_rounded : Icons.lock_rounded, color: Colors.white, size: 20),
                 const SizedBox(width: 6),
                 Text(
-                  open ? 'Join the Thompsons' : 'Opens at ${e.level}',
+                  hl(open ? 'Join the Thompsons' : 'Opens at ${e.level}'),
                   style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
                 ),
               ],
@@ -174,8 +175,8 @@ class _Row extends StatelessWidget {
                   decoration: BoxDecoration(color: seaRed.withValues(alpha: .09), borderRadius: BorderRadius.circular(10)),
                   child: Column(
                     children: [
-                      Text(d == null ? '?' : '${d!.day}', style: BL.display(19, color: seaRed)),
-                      Text(d == null ? 'TBA' : Seasons.months[d!.month - 1].substring(0, 3).toUpperCase(), style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: seaRed)),
+                      Text(hl(d == null ? '?' : '${d!.day}'), style: BL.display(19, color: seaRed)),
+                      Text(hl(d == null ? 'TBA' : Seasons.months[d!.month - 1].substring(0, 3).toUpperCase()), style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: seaRed)),
                     ],
                   ),
                 ),
@@ -184,15 +185,15 @@ class _Row extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(e.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                      Text(hl(e.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
                       Text(
-                        '${e.level} · ${d == null ? '' : Seasons.countdown(d!)}${e.approx ? ' (typical date)' : ''}',
+                        hl('${e.level} · ${d == null ? '' : Seasons.countdown(d!)}${e.approx ? ' (typical date)' : ''}'),
                         style: const TextStyle(color: BL.muted, fontSize: 12.5),
                       ),
                     ],
                   ),
                 ),
-                Flexible(child: Text(e.titleFa, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted))),
+                Flexible(child: Text(hl(e.titleFa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(12, color: BL.muted))),
                 const SizedBox(width: 8),
                 if (done)
                   Icon(Icons.check_circle_rounded, key: ValueKey('sea-ev-done-${e.id}'), color: const Color(0xFF2E7D5B), size: 20)
@@ -288,10 +289,10 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
               const SizedBox(height: 30),
               const Icon(Icons.lock_rounded, size: 40, color: BL.muted),
               const SizedBox(height: 10),
-              Text(e.title, style: BL.display(26)),
+              Text(hl(e.title), style: BL.display(26)),
               const SizedBox(height: 8),
-              Text(en, key: const ValueKey('sea-locked')),
-              Text(fa, textDirection: TextDirection.rtl, style: BL.fa(13)),
+              Text(hl(en), key: const ValueKey('sea-locked')),
+              Text(hl(fa), textDirection: helperDir, style: BL.fa(13)),
             ],
           ),
         ),
@@ -316,7 +317,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                 key: const ValueKey('sea-fa'),
                 selected: fa,
                 showCheckmark: false,
-                label: const Text('فارسی'),
+                label: Text(hl('فارسی')),
                 selectedColor: seaRed,
                 labelStyle: TextStyle(color: fa ? Colors.white : BL.ink, fontWeight: FontWeight.w800),
                 onSelected: (_) => ctrl.setPref('seaFa', fa ? 'off' : 'on'),
@@ -324,8 +325,8 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
             ],
           ),
           const SizedBox(height: 8),
-          Text(e.title, style: BL.display(28)),
-          Text(e.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
+          Text(hl(e.title), style: BL.display(28)),
+          Text(hl(e.titleFa), textDirection: helperDir, style: BL.fa(14)),
           const SizedBox(height: 10),
           Container(
             key: const ValueKey('sea-when'),
@@ -340,7 +341,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                     const SizedBox(width: 6),
                     Expanded(
                       child: Text(
-                        d == null ? 'Date to be announced' : '${e.approx ? 'Around ' : 'Next: '}${Seasons.fmt(d)} · ${Seasons.countdown(d)}',
+                        hl(d == null ? 'Date to be announced' : '${e.approx ? 'Around ' : 'Next: '}${Seasons.fmt(d)} · ${Seasons.countdown(d)}'),
                         key: const ValueKey('sea-date'),
                         style: const TextStyle(fontWeight: FontWeight.w800, color: seaRed),
                       ),
@@ -348,14 +349,14 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                   ],
                 ),
                 const SizedBox(height: 4),
-                Text(e.when, style: const TextStyle(fontSize: 13, color: BL.muted)),
-                if (fa) Text(e.whenFa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+                Text(hl(e.when), style: const TextStyle(fontSize: 13, color: BL.muted)),
+                if (fa) Text(hl(e.whenFa), textDirection: helperDir, style: BL.fa(12.5)),
               ],
             ),
           ),
           const SizedBox(height: 10),
-          Text(e.note, key: const ValueKey('sea-note'), style: const TextStyle(fontSize: 14.5, height: 1.45)),
-          if (fa) Padding(padding: const EdgeInsets.only(top: 4), child: Text(e.noteFa, textDirection: TextDirection.rtl, style: BL.fa(13.5))),
+          Text(hl(e.note), key: const ValueKey('sea-note'), style: const TextStyle(fontSize: 14.5, height: 1.45)),
+          if (fa) Padding(padding: const EdgeInsets.only(top: 4), child: Text(hl(e.noteFa), textDirection: helperDir, style: BL.fa(13.5))),
           const SizedBox(height: 18),
           Row(
             children: [
@@ -364,7 +365,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                 key: const ValueKey('sea-play-all'),
                 onPressed: () => _playAll(e),
                 icon: Icon(all ? Icons.stop_rounded : Icons.play_arrow_rounded, color: seaRed),
-                label: Text(all ? 'Stop' : 'Play scene', style: const TextStyle(color: seaRed, fontWeight: FontWeight.w800)),
+                label: Text(hl(all ? 'Stop' : 'Play scene'), style: const TextStyle(color: seaRed, fontWeight: FontWeight.w800)),
               ),
             ],
           ),
@@ -395,9 +396,9 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          Text(l.name, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: seaRed)),
-                          Text(l.en, style: const TextStyle(fontSize: 14.5, height: 1.35)),
-                          if (fa) Text(l.fa, key: ValueKey('sea-line-fa-$i'), textDirection: TextDirection.rtl, style: BL.fa(13)),
+                          Text(hl(l.name), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: seaRed)),
+                          Text(hl(l.en), style: const TextStyle(fontSize: 14.5, height: 1.35)),
+                          if (fa) Text(hl(l.fa), key: ValueKey('sea-line-fa-$i'), textDirection: helperDir, style: BL.fa(13)),
                         ],
                       ),
                     ),
@@ -421,12 +422,12 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
                     dense: true,
                     onTap: () => _say('w$i', 'narrator', w.w),
                     leading: Icon(playing == 'w$i' ? Icons.graphic_eq_rounded : Icons.volume_up_rounded, color: seaRed, size: 20),
-                    title: Text(w.w, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
+                    title: Text(hl(w.w), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(w.en),
-                        Align(alignment: Alignment.centerRight, child: Text(w.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5))),
+                        Text(hl(w.en)),
+                        Align(alignment: Alignment.centerRight, child: Text(hl(w.fa), textDirection: helperDir, style: BL.fa(12.5))),
                       ],
                     ),
                   ),
@@ -443,7 +444,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Text('${qi + 1}. ${q.q}', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
+                  Text(hl('${qi + 1}. ${q.q}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 14.5)),
                   const SizedBox(height: 6),
                   for (final o in order![qi])
                     Padding(
@@ -477,13 +478,13 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '$right / ${e.qs.length} · ${ok ? 'Lovely, well done!' : 'Nearly — have another go.'}',
+            hl('$right / ${e.qs.length} · ${ok ? 'Lovely, well done!' : 'Nearly — have another go.'}'),
             key: const ValueKey('sea-score'),
             style: BL.display(20, color: Colors.white),
           ),
-          Text(ok ? 'آفرین، عالی بود!' : 'نزدیک بود؛ دوباره امتحان کن.', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+          Text(hl(ok ? 'آفرین، عالی بود!' : 'نزدیک بود؛ دوباره امتحان کن.'), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
           const SizedBox(height: 6),
-          Text('+$xp XP${best ? ' · best score saved' : ''}', key: const ValueKey('sea-xp'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
+          Text(hl('+$xp XP${best ? ' · best score saved' : ''}'), key: const ValueKey('sea-xp'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
           const SizedBox(height: 10),
           Row(
             children: [
@@ -530,7 +531,7 @@ class _Opt extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
           child: Row(
             children: [
-              Expanded(child: Text(text, style: TextStyle(fontWeight: FontWeight.w700, color: state == 0 ? BL.ink : Colors.white))),
+              Expanded(child: Text(hl(text), style: TextStyle(fontWeight: FontWeight.w700, color: state == 0 ? BL.ink : Colors.white))),
               if (state == 1) const Icon(Icons.check_rounded, color: Colors.white, size: 18),
               if (state == 2) const Icon(Icons.close_rounded, color: Colors.white, size: 18),
             ],

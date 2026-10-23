@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 
 import '../shared/nav.dart';
@@ -94,7 +95,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                             ],
                           ),
                         ),
-                        Text('$done/${course.lessons.length}', style: BL.display(18, color: BL.green)),
+                        Text(hl('$done/${course.lessons.length}'), style: BL.display(18, color: BL.green)),
                       ],
                     ),
                     // Study plan: goal level, target date and this week's pace (tap to edit).
@@ -117,7 +118,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                           child: Row(mainAxisSize: MainAxisSize.min, children: [
                             const Icon(Icons.replay_rounded, size: 16, color: BL.red),
                             const SizedBox(width: 3),
-                            Text('${ref.read(progressProvider.notifier).mistakeList.length}', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 12.5, color: BL.red)),
+                            Text(hl('${ref.read(progressProvider.notifier).mistakeList.length}'), style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 12.5, color: BL.red)),
                           ]),
                         ),
                       ),
@@ -143,7 +144,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                       padding: const EdgeInsets.only(right: 8),
                       child: ActionChip(
                         key: ValueKey('levelchip-$lv'),
-                        label: Text('Level $lv  ·  ${Course.levelInfo[lv]?.$1 ?? ''}', style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
+                        label: Text(hl('Level $lv  ·  ${Course.levelInfo[lv]?.$1 ?? ''}'), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
                         backgroundColor: lv == target ? BL.navy.withValues(alpha: .12) : BL.paper,
                         onPressed: () async {
                           final sc = PrimaryScrollController.maybeOf(context);
@@ -163,7 +164,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                       child: ActionChip(
                         key: ValueKey('packchip-${pk.id}'),
                         avatar: const Icon(Icons.work_outline_rounded, size: 16, color: BL.gold),
-                        label: Text(pk.title, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
+                        label: Text(hl(pk.title), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
                         backgroundColor: BL.paper,
                         onPressed: () => context.push('/pack/${pk.id}'),
                       ),
@@ -241,16 +242,16 @@ class _UnitBanner extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      'UNIT ${c.course.numberInLevel(u)}',
+                      hl('UNIT ${c.course.numberInLevel(u)}'),
                       style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800),
                     ),
                     if (!open) ...[const SizedBox(width: 6), const Icon(Icons.lock_rounded, size: 13, color: Color(0xFFE8C987))],
                   ],
                 ),
-                Text(u.title, style: BL.display(23, color: Colors.white)),
+                Text(hl(u.title), style: BL.display(23, color: Colors.white)),
                 Text(
-                  u.titleFa,
-                  textDirection: TextDirection.rtl,
+                  hl(u.titleFa),
+                  textDirection: helperDir,
                   style: BL.fa(12.5, color: Colors.white70),
                 ),
               ],
@@ -295,7 +296,7 @@ class _Stones extends ConsumerWidget {
                             ? (pack != null && pack.gated && !ctrl.packUnitLevelOpen(course, u)
                                 ? () => ScaffoldMessenger.of(context)
                                   ..hideCurrentSnackBar()
-                                  ..showSnackBar(SnackBar(content: Text('Opens at ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.')))
+                                  ..showSnackBar(SnackBar(content: Text(hl('Opens at ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.'))))
                                 : () => context.push('/premium?pack=${pack?.id ?? ''}'))
                             : null),
                     child: Padding(
@@ -307,7 +308,7 @@ class _Stones extends ConsumerWidget {
                           SizedBox(
                             width: 150,
                             child: Text(
-                              check ? 'Unit review' : l.title,
+                              hl(check ? 'Unit review' : l.title),
                               textAlign: TextAlign.center,
                               maxLines: 2,
                               style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5, color: open ? BL.ink : BL.muted),
@@ -415,7 +416,7 @@ class _LevelHeader extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
             child: Text(
-              'LEVEL $level  ·  ${info?.$1 ?? ''}',
+              hl('LEVEL $level  ·  ${info?.$1 ?? ''}'),
               style: const TextStyle(color: Colors.white, fontSize: 11, letterSpacing: 1.3, fontWeight: FontWeight.w800),
             ),
           ),
@@ -424,8 +425,8 @@ class _LevelHeader extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(info?.$2 ?? '', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
-                Text(info?.$3 ?? '', textDirection: TextDirection.rtl, style: BL.fa(12)),
+                Text(hl(info?.$2 ?? ''), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
+                Text(hl(info?.$3 ?? ''), textDirection: helperDir, style: BL.fa(12)),
               ],
             ),
           ),
@@ -496,8 +497,8 @@ class PackCard extends ConsumerWidget {
                     ],
                   ),
                   const SizedBox(height: 2),
-                  Text(pack.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
-                  Text('${all.length} lessons · ${pack.levels} · $done done', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                  Text(hl(pack.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
+                  Text(hl('${all.length} lessons · ${pack.levels} · $done done'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                 ],
               ),
             ),
@@ -543,7 +544,7 @@ class PackScreen extends ConsumerWidget {
                         style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red),
                       ),
                     ),
-                    Text('$done/${all.length}', style: BL.display(18, color: BL.green)),
+                    Text(hl('$done/${all.length}'), style: BL.display(18, color: BL.green)),
                   ],
                 ),
               ),
@@ -561,10 +562,10 @@ class PackScreen extends ConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(pack.title, style: BL.display(26)),
+                        Text(hl(pack.title), style: BL.display(26)),
                         Text(
-                          pack.titleFa,
-                          textDirection: TextDirection.rtl,
+                          hl(pack.titleFa),
+                          textDirection: helperDir,
                           style: BL.fa(13, color: BL.muted),
                         ),
                         const SizedBox(height: 6),
@@ -573,7 +574,7 @@ class PackScreen extends ConsumerWidget {
                             const PremiumBadge(),
                             const SizedBox(width: 8),
                             Text(
-                              PremiumConfig.betaFree ? '${pack.levels} · free in beta' : '${pack.levels} · lesson 1 free',
+                              hl(PremiumConfig.betaFree ? '${pack.levels} · free in beta' : '${pack.levels} · lesson 1 free'),
                               style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600),
                             ),
                           ],
@@ -591,13 +592,13 @@ class PackScreen extends ConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(pack.blurb, style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
+                  Text(hl(pack.blurb), style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
                   const SizedBox(height: 4),
                   SizedBox(
                     width: double.infinity,
                     child: Text(
-                      pack.blurbFa,
-                      textDirection: TextDirection.rtl,
+                      hl(pack.blurbFa),
+                      textDirection: helperDir,
                       style: BL.fa(12.5, color: BL.muted),
                     ),
                   ),
@@ -618,7 +619,7 @@ class PackScreen extends ConsumerWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
                         decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
                         child: Text(
-                          pack.units[i].cefr ?? '',
+                          hl(pack.units[i].cefr ?? ''),
                           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1.2),
                         ),
                       ),
@@ -674,13 +675,13 @@ class PackDisclaimer extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 4),
-        Text(packId == 'nursery' ? '$general $nursery' : general, style: const TextStyle(fontSize: 12, height: 1.35, color: BL.ink)),
+        Text(hl(packId == 'nursery' ? '$general $nursery' : general), style: const TextStyle(fontSize: 12, height: 1.35, color: BL.ink)),
         const SizedBox(height: 4),
         SizedBox(
           width: double.infinity,
           child: Text(
-            packId == 'nursery' ? '$generalFa $nurseryFa' : generalFa,
-            textDirection: TextDirection.rtl,
+            hl(packId == 'nursery' ? '$generalFa $nurseryFa' : generalFa),
+            textDirection: helperDir,
             style: BL.fa(11.5, color: BL.muted),
           ),
         ),

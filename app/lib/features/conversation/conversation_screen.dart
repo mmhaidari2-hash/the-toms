@@ -1,4 +1,5 @@
 
+import 'package:british_life/core/i18n/helper_text.dart';
 import '../../core/i18n/you.dart';
 import 'package:flutter/material.dart';
 import '../shared/nav.dart';
@@ -70,7 +71,7 @@ class _Locked extends StatelessWidget {
           children: [
             const Icon(Icons.lock_rounded, size: 52, color: BL.muted),
             const SizedBox(height: 12),
-            Text(s.title, textAlign: TextAlign.center, style: BL.display(24, color: const Color(0xFFFBF3E4))),
+            Text(hl(s.title), textAlign: TextAlign.center, style: BL.display(24, color: const Color(0xFFFBF3E4))),
             const SizedBox(height: 8),
             const Text(
               'This story is still locked. Spend more time with the family first.',
@@ -594,11 +595,11 @@ class _ChatState extends ConsumerState<_Chat> {
                       style: TextStyle(letterSpacing: 1.6, fontSize: 11, fontWeight: FontWeight.w800, color: BL.red),
                     ),
                     const SizedBox(height: 6),
-                    Text(s.title, textAlign: TextAlign.center, style: BL.display(26)),
-                    Text(s.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
+                    Text(hl(s.title), textAlign: TextAlign.center, style: BL.display(26)),
+                    Text(hl(s.titleFa), textDirection: helperDir, style: BL.fa(14)),
                     const SizedBox(height: 10),
                     Text(
-                      '${ch.name} trusts you now — you’re invited to the party!',
+                      hl('${ch.name} trusts you now — you’re invited to the party!'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(color: BL.muted),
                     ),
@@ -638,11 +639,11 @@ class _ChatState extends ConsumerState<_Chat> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(tr(lang, 'lovelyChat'), style: BL.display(28)),
+              Text(hl(tr(lang, 'lovelyChat')), style: BL.display(28)),
               const SizedBox(height: 14),
               Row(children: [_Stat('$_said', tr(lang, 'said'), BL.navy), _Stat('$_correct', tr(lang, 'spotOn'), BL.green), _Stat('$_slips', tr(lang, 'recasts'), BL.gold)]),
               const SizedBox(height: 14),
-              Text(tr(lang, 'trustBy'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1)),
+              Text(hl(tr(lang, 'trustBy')), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1)),
               const SizedBox(height: 8),
               for (final e in _perChar.entries)
                 Padding(
@@ -651,21 +652,21 @@ class _ChatState extends ConsumerState<_Chat> {
                     children: [
                       Avatar(_who(e.key), size: 30, ring: false),
                       const SizedBox(width: 10),
-                      Expanded(child: Text(_who(e.key).name, style: const TextStyle(fontWeight: FontWeight.w600))),
-                      Text(e.value >= 0 ? '+${e.value} ♥' : '${e.value} ♥', style: TextStyle(color: e.value > 0 ? BL.red : BL.muted, fontWeight: FontWeight.w800)),
+                      Expanded(child: Text(hl(_who(e.key).name), style: const TextStyle(fontWeight: FontWeight.w600))),
+                      Text(hl(e.value >= 0 ? '+${e.value} ♥' : '${e.value} ♥'), style: TextStyle(color: e.value > 0 ? BL.red : BL.muted, fontWeight: FontWeight.w800)),
                     ],
                   ),
                 ),
               if (_recasts.isNotEmpty) ...[
                 const SizedBox(height: 8),
-                Text(tr(lang, 'tomorrow'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1)),
-                for (final r in _recasts) Text('• ${r.$1}', style: const TextStyle(color: BL.green)),
+                Text(hl(tr(lang, 'tomorrow')), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1)),
+                for (final r in _recasts) Text(hl('• ${r.$1}'), style: const TextStyle(color: BL.green)),
               ],
               const SizedBox(height: 10),
               Wrap(
                 spacing: 6,
                 runSpacing: 6,
-                children: [for (final w in words) Chip(side: BorderSide.none, backgroundColor: BL.paper, label: Text('${w.word} · ${w.fa}', style: BL.fa(12, color: BL.ink)))],
+                children: [for (final w in words) Chip(side: BorderSide.none, backgroundColor: BL.paper, label: Text(hl('${w.word} · ${w.fa}'), style: BL.fa(12, color: BL.ink)))],
               ),
               const SizedBox(height: 18),
               Row(
@@ -676,7 +677,7 @@ class _ChatState extends ConsumerState<_Chat> {
                         Navigator.pop(ctx);
                         context.pushReplacement('/chat/${widget.s.id}');
                       },
-                      child: Padding(padding: const EdgeInsets.symmetric(vertical: 12), child: Text(tr(lang, 'playAgain'))),
+                      child: Padding(padding: const EdgeInsets.symmetric(vertical: 12), child: Text(hl(tr(lang, 'playAgain')))),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -691,7 +692,7 @@ class _ChatState extends ConsumerState<_Chat> {
                           context.canPop() ? context.pop() : context.go('/');
                         }
                       },
-                      child: Padding(padding: const EdgeInsets.symmetric(vertical: 12), child: Text(_unlocked.isNotEmpty ? tr(lang, 'nextStory') : tr(lang, 'done'))),
+                      child: Padding(padding: const EdgeInsets.symmetric(vertical: 12), child: Text(hl(_unlocked.isNotEmpty ? tr(lang, 'nextStory') : tr(lang, 'done')))),
                     ),
                   ),
                 ],
@@ -715,19 +716,19 @@ class _ChatState extends ConsumerState<_Chat> {
         controller: sc,
         padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
         children: [
-          Text(widget.s.title, style: BL.display(22)),
+          Text(hl(widget.s.title), style: BL.display(22)),
           const SizedBox(height: 10),
           for (final m in _msgs)
             if (m.system != null)
-              Padding(padding: const EdgeInsets.symmetric(vertical: 6), child: Text('🌱 ${m.system}', style: const TextStyle(fontWeight: FontWeight.w700)))
+              Padding(padding: const EdgeInsets.symmetric(vertical: 6), child: Text(hl('🌱 ${m.system}'), style: const TextStyle(fontWeight: FontWeight.w700)))
             else
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 5),
                 child: Text.rich(
                   TextSpan(
                     children: [
-                      TextSpan(text: m.speaker == 'me' ? '${m.asName ?? _meName}  ' : '${_who(m.speaker).name}  ', style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
-                      TextSpan(text: m.text),
+                      TextSpan(text: hl(m.speaker == 'me' ? '${m.asName ?? _meName}  ' : '${_who(m.speaker).name}  '), style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
+                      TextSpan(text: hl(m.text)),
                     ],
                   ),
                 ),
@@ -776,8 +777,8 @@ class _ChatState extends ConsumerState<_Chat> {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(widget.s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
-                        Text(_canSwap ? '${widget.s.level}  ·  ${widget.s.setting}' : '${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+                        Text(hl(widget.s.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
+                        Text(hl(_canSwap ? '${widget.s.level}  ·  ${widget.s.setting}' : '${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
                       ]),
                     ),
                     IconButton(
@@ -798,9 +799,9 @@ class _ChatState extends ConsumerState<_Chat> {
                       child: Row(mainAxisSize: MainAxisSize.min, children: [
                         Avatar(sp, size: 24, ring: false),
                         const SizedBox(width: 6),
-                        Text(sp.name, style: const TextStyle(color: Color(0xFFE8C987), fontWeight: FontWeight.w800, fontSize: 13)),
+                        Text(hl(sp.name), style: const TextStyle(color: Color(0xFFE8C987), fontWeight: FontWeight.w800, fontSize: 13)),
                         const SizedBox(width: 4),
-                        Text(_mood.emoji, style: const TextStyle(fontSize: 13)),
+                        Text(hl(_mood.emoji), style: const TextStyle(fontSize: 13)),
                         const SizedBox(width: 6),
                         _hearts(trust),
                       ]),
@@ -852,7 +853,7 @@ class _ChatState extends ConsumerState<_Chat> {
           margin: const EdgeInsets.symmetric(vertical: 6),
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
           decoration: BoxDecoration(color: const Color(0x33E9B949), borderRadius: BorderRadius.circular(99)),
-          child: Text(m.system!, textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFF2D891), fontSize: 12, fontWeight: FontWeight.w700)),
+          child: Text(hl(m.system!), textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFF2D891), fontSize: 12, fontWeight: FontWeight.w700)),
         ),
       );
     }
@@ -865,7 +866,7 @@ class _ChatState extends ConsumerState<_Chat> {
           child: ConstrainedBox(
             constraints: BoxConstraints(maxWidth: maxW),
             child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(m.asName ?? _meName, style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
+              Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(hl(m.asName ?? _meName), style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
               _bubbleBox(LeitnerWords(m.text, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
             ]),
           ),
@@ -891,7 +892,7 @@ class _ChatState extends ConsumerState<_Chat> {
                 }),
                 child: _bubbleBox(
                   Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(who.name, style: TextStyle(color: Color.lerp(who.color, Colors.black, .25), fontSize: 11.5, fontWeight: FontWeight.w800)),
+                    Text(hl(who.name), style: TextStyle(color: Color.lerp(who.color, Colors.black, .25), fontSize: 11.5, fontWeight: FontWeight.w800)),
                     LeitnerWords(m.text, speaker: m.speaker, style: BL.display(16.5, color: BL.ink, w: FontWeight.w500).copyWith(height: 1.32)),
                   ]),
                   active ? const Color(0xFFFFF8EA) : const Color(0xFFEFE6D8),
@@ -1005,7 +1006,7 @@ class _ChatState extends ConsumerState<_Chat> {
           child: Row(mainAxisSize: MainAxisSize.min, children: [
             Avatar(c, size: 22, ring: false),
             const SizedBox(width: 5),
-            ConstrainedBox(constraints: const BoxConstraints(maxWidth: 64), child: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(color: on ? BL.ink : Colors.white, fontWeight: FontWeight.w800, fontSize: 12.5))),
+            ConstrainedBox(constraints: const BoxConstraints(maxWidth: 64), child: Text(hl(label), maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(color: on ? BL.ink : Colors.white, fontWeight: FontWeight.w800, fontSize: 12.5))),
           ]),
         ),
       ),
@@ -1017,7 +1018,7 @@ class _ChatState extends ConsumerState<_Chat> {
       child: Row(mainAxisSize: MainAxisSize.min, children: [
         Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, children: [
           const Text('Play as', style: TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800, height: 1.1)),
-          Text('در نقش', textDirection: TextDirection.rtl, style: BL.fa(10, color: Colors.white60).copyWith(height: 1.2)),
+          Text(hl('در نقش'), textDirection: helperDir, style: BL.fa(10, color: Colors.white60).copyWith(height: 1.2)),
         ]),
         const SizedBox(width: 6),
         opt(me, _partnerId == 'learner' ? 'You' : me.name, !_swap, () => _setSwap(false), const ValueKey('playas-me')),
@@ -1134,13 +1135,13 @@ class _ChatState extends ConsumerState<_Chat> {
           IgnorePointer(child: ch != null ? Padding(padding: const EdgeInsets.only(right: 10), child: Avatar(ch, size: 32, ring: false)) : const Padding(padding: EdgeInsets.only(right: 10, top: 2), child: Text('✦', style: TextStyle(color: gold, fontSize: 18)))),
           Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
             IgnorePointer(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-            Text(ch?.name ?? 'WORD', style: const TextStyle(color: gold, fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w800)),
-            if (en.isNotEmpty) Text(en, style: BL.display(15.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
-            if (fa != null && fa.isNotEmpty) SizedBox(width: double.infinity, child: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white60))),
+            Text(hl(ch?.name ?? 'WORD'), style: const TextStyle(color: gold, fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w800)),
+            if (en.isNotEmpty) Text(hl(en), style: BL.display(15.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
+            if (fa != null && fa.isNotEmpty) SizedBox(width: double.infinity, child: Text(hl(fa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white60))),
             if (prop != null) ...[
               const SizedBox(height: 4),
-              Text('“${prop.phrase}”', style: const TextStyle(color: Colors.white, fontSize: 13.5)),
-              SizedBox(width: double.infinity, child: Text(prop.phraseFa, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white54))),
+              Text(hl('“${prop.phrase}”'), style: const TextStyle(color: Colors.white, fontSize: 13.5)),
+              SizedBox(width: double.infinity, child: Text(hl(prop.phraseFa), textDirection: helperDir, style: BL.fa(12, color: Colors.white54))),
             ],
             ])),
             if (sw != null && ch != null)
@@ -1151,7 +1152,7 @@ class _ChatState extends ConsumerState<_Chat> {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                     decoration: BoxDecoration(color: const Color(0x33E8C987), borderRadius: BorderRadius.circular(14), border: Border.all(color: gold, width: .8)),
-                    child: Text('Talk to ${ch.name} ›', style: const TextStyle(color: gold, fontSize: 12.5, fontWeight: FontWeight.w700)),
+                    child: Text(hl('Talk to ${ch.name} ›'), style: const TextStyle(color: gold, fontSize: 12.5, fontWeight: FontWeight.w700)),
                   ),
                 ),
               ),
@@ -1193,7 +1194,7 @@ class _ChatState extends ConsumerState<_Chat> {
       children: [
         const Text('💥', style: TextStyle(fontSize: 16)),
         const SizedBox(width: 8),
-        Expanded(child: Text(e.en, style: const TextStyle(color: Color(0xFFF2D891), fontStyle: FontStyle.italic, fontWeight: FontWeight.w600))),
+        Expanded(child: Text(hl(e.en), style: const TextStyle(color: Color(0xFFF2D891), fontStyle: FontStyle.italic, fontWeight: FontWeight.w600))),
       ],
     ),
   );
@@ -1231,7 +1232,7 @@ class _ChatState extends ConsumerState<_Chat> {
         children: [
           Icon(i, size: 14, color: const Color(0xFFE8C987)),
           const SizedBox(width: 4),
-          Text(l, style: const TextStyle(color: Colors.white70, fontSize: 11.5, fontWeight: FontWeight.w600)),
+          Text(hl(l), style: const TextStyle(color: Colors.white70, fontSize: 11.5, fontWeight: FontWeight.w600)),
         ],
       ),
     ),
@@ -1256,12 +1257,12 @@ class _ChatState extends ConsumerState<_Chat> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text('WRITTEN', style: label),
-              Text(x.formal, style: const TextStyle(color: Colors.white60, fontSize: 13.5)),
+              Text(hl(x.formal), style: const TextStyle(color: Colors.white60, fontSize: 13.5)),
               const SizedBox(height: 8),
               const Text('HOW BRITS SAY IT', style: label),
-              Text(x.connected, style: BL.display(17, color: const Color(0xFFFBF3E4))),
+              Text(hl(x.connected), style: BL.display(17, color: const Color(0xFFFBF3E4))),
               const SizedBox(height: 2),
-              Text(x.ipa, style: const TextStyle(color: Color(0xFF9FD3B4), fontSize: 13.5, fontFamily: 'monospace')),
+              Text(hl(x.ipa), style: const TextStyle(color: Color(0xFF9FD3B4), fontSize: 13.5, fontFamily: 'monospace')),
               const SizedBox(height: 8),
               Wrap(
                 spacing: 6,
@@ -1274,7 +1275,7 @@ class _ChatState extends ConsumerState<_Chat> {
           ),
         );
       case _Panel.translate:
-        return box(SizedBox(width: double.infinity, child: Text(m.fa ?? '', textDirection: (n?.translations.containsKey(_lang) ?? false) ? dirOf(_lang) : TextDirection.rtl, style: BL.fa(14.5, color: Colors.white70))));
+        return box(SizedBox(width: double.infinity, child: Text(hl(m.fa ?? ''), textDirection: (n?.translations.containsKey(_lang) ?? false) ? dirOf(_lang) : helperDir, style: BL.fa(14.5, color: Colors.white70))));
       case _Panel.culture:
         return box(
           Column(
@@ -1282,8 +1283,8 @@ class _ChatState extends ConsumerState<_Chat> {
             children: [
               const Text('🇬🇧  CULTURE NOTE', style: label),
               const SizedBox(height: 4),
-              Text(n!.cultureNote!.en, style: const TextStyle(color: Colors.white, fontSize: 13.5)),
-              SizedBox(width: double.infinity, child: Text(n.cultureNote!.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white60))),
+              Text(hl(n!.cultureNote!.en), style: const TextStyle(color: Colors.white, fontSize: 13.5)),
+              SizedBox(width: double.infinity, child: Text(hl(n.cultureNote!.fa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white60))),
             ],
           ),
         );
@@ -1291,7 +1292,7 @@ class _ChatState extends ConsumerState<_Chat> {
         return box(
           Row(
             children: [
-              Expanded(child: Text(tr(_lang, 'shadowHelp'), style: const TextStyle(color: Colors.white70, fontSize: 12.5))),
+              Expanded(child: Text(hl(tr(_lang, 'shadowHelp')), style: const TextStyle(color: Colors.white70, fontSize: 12.5))),
               _pill(_recording ? Icons.stop_rounded : Icons.mic_rounded, _recording ? 'Stop' : 'Record', _toggleRecord, on: _recording),
               if (_myTake != null) ...[const SizedBox(width: 6), _pill(Icons.play_arrow_rounded, 'Me', () => SpeechInput.play(_myTake!))],
             ],
@@ -1325,10 +1326,10 @@ class _ChatState extends ConsumerState<_Chat> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(f.title, style: TextStyle(color: fg, fontSize: 11.5, fontWeight: FontWeight.w700)),
+                Text(hl(f.title), style: TextStyle(color: fg, fontSize: 11.5, fontWeight: FontWeight.w700)),
                 const SizedBox(height: 2),
-                Text(f.body, style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3)),
-                if (f.fa != null && f.fa!.isNotEmpty) SizedBox(width: double.infinity, child: Text(f.fa!, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: Colors.white54))),
+                Text(hl(f.body), style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3)),
+                if (f.fa != null && f.fa!.isNotEmpty) SizedBox(width: double.infinity, child: Text(hl(f.fa!), textDirection: helperDir, style: BL.fa(11.5, color: Colors.white54))),
               ],
             ),
           ),
@@ -1360,8 +1361,8 @@ class _ChatState extends ConsumerState<_Chat> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text(_t(b.suggestion), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
-                      Text(_tFa(b.suggestionFa)!, maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11, color: Colors.white54)),
+                      Text(hl(_t(b.suggestion)), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
+                      Text(hl(_tFa(b.suggestionFa)!), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(11, color: Colors.white54)),
                     ],
                   ),
                 ),
@@ -1386,10 +1387,10 @@ class _ChatState extends ConsumerState<_Chat> {
           decoration: BoxDecoration(color: const Color(0x22E9B949), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xAAE9B949))),
           child: Row(children: [
             Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text('YOUR LINE AS ${ch.name.toUpperCase()}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1, fontWeight: FontWeight.w800)),
+              Text(hl('YOUR LINE AS ${ch.name.toUpperCase()}'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1, fontWeight: FontWeight.w800)),
               const SizedBox(height: 2),
-              Text(t.$1, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 14.5, height: 1.3)),
-              if (t.$2 != null && t.$2!.isNotEmpty) SizedBox(width: double.infinity, child: Text(t.$2!, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: Colors.white54))),
+              Text(hl(t.$1), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 14.5, height: 1.3)),
+              if (t.$2 != null && t.$2!.isNotEmpty) SizedBox(width: double.infinity, child: Text(hl(t.$2!), textDirection: helperDir, style: BL.fa(11.5, color: Colors.white54))),
             ])),
             IconButton(tooltip: 'Hear it', onPressed: () => Voice.say(ch.id, _mine?.text ?? t.$1, rate: _autoRate, shown: t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
           ]),
@@ -1411,10 +1412,10 @@ class _ChatState extends ConsumerState<_Chat> {
       Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
         const Icon(Icons.mic_off_rounded, size: 18, color: Color(0xFFE8C987)),
         const SizedBox(width: 8),
-        Expanded(child: Text(_speakNote!, style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3))),
+        Expanded(child: Text(hl(_speakNote!), style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3))),
         InkWell(onTap: () => setState(() { _speakNote = null; _dictate = false; }), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
       ]),
-      if (_speakNoteFa != null) SizedBox(width: double.infinity, child: Text(_speakNoteFa!, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white60))),
+      if (_speakNoteFa != null) SizedBox(width: double.infinity, child: Text(hl(_speakNoteFa!), textDirection: helperDir, style: BL.fa(12, color: Colors.white60))),
       const SizedBox(height: 8),
       Wrap(spacing: 8, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
         OutlinedButton.icon(
@@ -1425,7 +1426,7 @@ class _ChatState extends ConsumerState<_Chat> {
             _focus.requestFocus();
           },
           icon: Icon(_dictate ? Icons.keyboard_voice_rounded : Icons.keyboard_rounded, size: 16),
-          label: Text(_dictate ? 'Keyboard mic' : 'Type it · بنویس'),
+          label: Text(hl(_dictate ? 'Keyboard mic' : 'Type it · بنویس')),
         ),
         if (_dictate)
           TextButton(
@@ -1439,7 +1440,7 @@ class _ChatState extends ConsumerState<_Chat> {
             child: const Text('Try app mic again'),
           )
         else
-          const Text('or tap a reply above · یا یک جواب را بزن', style: TextStyle(color: Colors.white60, fontSize: 11.5)),
+          Text(hl('or tap a reply above · یا یک جواب را بزن'), style: TextStyle(color: Colors.white60, fontSize: 11.5)),
       ]),
     ]),
   );
@@ -1462,7 +1463,7 @@ class _ChatState extends ConsumerState<_Chat> {
               Icon(_listening ? Icons.graphic_eq_rounded : Icons.mic_rounded, color: Colors.white),
               const SizedBox(width: 10),
               Expanded(child: Text(
-                _ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? (_swap ? 'Listening… say your line' : 'Listening… say one of the replies') : _partial) : (_swap ? 'Tap and say ${ch.name}’s line' : 'Tap and say your reply'),
+                hl(_ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? (_swap ? 'Listening… say your line' : 'Listening… say one of the replies') : _partial) : (_swap ? 'Tap and say ${ch.name}’s line' : 'Tap and say your reply')),
                 maxLines: 1, overflow: TextOverflow.ellipsis,
                 style: TextStyle(color: _listening ? Colors.white : Colors.white70, fontWeight: FontWeight.w700, fontSize: 15),
               )),
@@ -1579,8 +1580,8 @@ class _Stat extends StatelessWidget {
       decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(16)),
       child: Column(
         children: [
-          Text(v, style: BL.display(24, color: c)),
-          Text(l, style: const TextStyle(color: BL.muted, fontSize: 12)),
+          Text(hl(v), style: BL.display(24, color: c)),
+          Text(hl(l), style: const TextStyle(color: BL.muted, fontSize: 12)),
         ],
       ),
     ),

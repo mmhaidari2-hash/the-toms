@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -52,14 +53,14 @@ class SegmentLocked extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Icon(Icons.lock_rounded, size: 56, color: Colors.white54),
                   const SizedBox(height: 14),
-                  Text(seg.title, textAlign: TextAlign.center, style: BL.display(24, color: Colors.white)),
-                  Text(seg.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14, color: Colors.white60)),
+                  Text(hl(seg.title), textAlign: TextAlign.center, style: BL.display(24, color: Colors.white)),
+                  Text(hl(seg.titleFa), textDirection: helperDir, style: BL.fa(14, color: Colors.white60)),
                   const SizedBox(height: 18),
-                  Text('This is a ${seg.level} programme, which isn\'t on air for you yet', textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white)),
+                  Text(hl('This is a ${seg.level} programme, which isn\'t on air for you yet'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white)),
                   const SizedBox(height: 8),
-                  Text(en, key: const ValueKey('seg-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.4)),
+                  Text(hl(en), key: const ValueKey('seg-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: Colors.white70, height: 1.4)),
                   const SizedBox(height: 6),
-                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white54)),
+                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: Colors.white54)),
                   const SizedBox(height: 18),
                   TextButton(key: const ValueKey('seg-locked-radio'), onPressed: () => context.go('/radio'), child: const Text('Back to the radio', style: TextStyle(color: BL.gold))),
                 ]),
@@ -223,8 +224,8 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
-                Text('${s.level}  ·  $kind  ·  ${s.seconds}s', style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
+                Text(hl(s.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: Colors.white)),
+                Text(hl('${s.level}  ·  $kind  ·  ${s.seconds}s'), style: const TextStyle(fontSize: 12, color: Colors.white60, fontWeight: FontWeight.w600)),
               ]),
             ),
           ]),
@@ -247,7 +248,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
                 onPressed: _startQuiz,
                 style: FilledButton.styleFrom(backgroundColor: listened ? onAirRed : radioPanel, padding: const EdgeInsets.symmetric(vertical: 13), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14))),
                 icon: const Icon(Icons.quiz_rounded, size: 19),
-                label: const Text('Questions · سؤال‌ها', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14)),
+                label: Text(hl('Questions · سؤال‌ها'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 14)),
               ),
             ),
           ]),
@@ -257,7 +258,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
               padding: const EdgeInsets.only(top: 6),
               child: Column(children: [
                 const Text('Listen first, without the text. Then answer.', textAlign: TextAlign.center, style: TextStyle(color: Colors.white54, fontSize: 12, fontWeight: FontWeight.w600)),
-                Text('اول بدون متن گوش کن، بعد جواب بده.', textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(12, color: Colors.white38)),
+                Text(hl('اول بدون متن گوش کن، بعد جواب بده.'), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(12, color: Colors.white38)),
               ]),
             ),
           const SizedBox(height: 14),
@@ -269,8 +270,8 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
           ]),
           const SizedBox(height: 10),
           if (transcript) for (var i = 0; i < s.lines.length; i++) _row(i) else ...[
-            Text(s.blurb, key: const ValueKey('radio-blurb'), style: const TextStyle(color: Colors.white54, fontSize: 13, height: 1.5)),
-            Text(s.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white38)),
+            Text(hl(s.blurb), key: const ValueKey('radio-blurb'), style: const TextStyle(color: Colors.white54, fontSize: 13, height: 1.5)),
+            Text(hl(s.blurbFa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white38)),
           ],
         ],
       );
@@ -290,14 +291,14 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
         Row(children: [
           AnimatedContainer(duration: const Duration(milliseconds: 300), width: 9, height: 9, decoration: BoxDecoration(color: playing ? onAirRed : Colors.white24, shape: BoxShape.circle)),
           const SizedBox(width: 6),
-          Text(playing ? 'ON AIR' : 'HACKNEY HUM', style: TextStyle(color: playing ? onAirRed : Colors.white54, fontWeight: FontWeight.w900, fontSize: 11, letterSpacing: 1.5)),
+          Text(hl(playing ? 'ON AIR' : 'HACKNEY HUM'), style: TextStyle(color: playing ? onAirRed : Colors.white54, fontWeight: FontWeight.w900, fontSize: 11, letterSpacing: 1.5)),
           const Spacer(),
-          Text(s.slot, style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w900, fontSize: 13)),
+          Text(hl(s.slot), style: const TextStyle(color: BL.gold, fontWeight: FontWeight.w900, fontSize: 13)),
         ]),
         const SizedBox(height: 10),
         SizedBox(height: 46, child: AnimatedBuilder(animation: _eq, builder: (_, _) => Row(crossAxisAlignment: CrossAxisAlignment.center, children: [for (var b = 0; b < 26; b++) _bar(b)]))),
         const SizedBox(height: 8),
-        Text(on != null ? on.spName.toUpperCase() : (listened ? 'Listened · گوش دادی' : 'Press play and just listen'), key: const ValueKey('radio-onair'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 14, letterSpacing: .8)),
+        Text(hl(on != null ? on.spName.toUpperCase() : (listened ? 'Listened · گوش دادی' : 'Press play and just listen')), key: const ValueKey('radio-onair'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 14, letterSpacing: .8)),
         const SizedBox(height: 10),
         Row(children: [
           Material(
@@ -318,7 +319,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
                 child: LinearProgressIndicator(key: const ValueKey('radio-progress'), value: listened && cur < 0 ? 1 : (cur + 1) / s.lines.length, minHeight: 5, backgroundColor: Colors.white12, color: BL.gold),
               ),
               const SizedBox(height: 5),
-              Text(cur >= 0 ? 'Part ${cur + 1} of ${s.lines.length}' : '${s.lines.length} parts  ·  ${s.seconds}s', style: const TextStyle(color: Colors.white54, fontSize: 11.5, fontWeight: FontWeight.w700)),
+              Text(hl(cur >= 0 ? 'Part ${cur + 1} of ${s.lines.length}' : '${s.lines.length} parts  ·  ${s.seconds}s'), style: const TextStyle(color: Colors.white54, fontSize: 11.5, fontWeight: FontWeight.w700)),
             ]),
           ),
         ]),
@@ -336,7 +337,7 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
         key: ValueKey(key),
         onPressed: onTap,
         avatar: Icon(icon, size: 16, color: on ? radioDark : Colors.white70),
-        label: Text(label),
+        label: Text(hl(label)),
         visualDensity: VisualDensity.compact,
         backgroundColor: on ? BL.gold : radioPanel,
         side: BorderSide.none,
@@ -354,9 +355,9 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
         padding: const EdgeInsets.fromLTRB(10, 7, 10, 7),
         decoration: BoxDecoration(color: on ? Colors.white.withValues(alpha: .1) : Colors.transparent, borderRadius: BorderRadius.circular(10), border: Border.all(color: on ? BL.gold.withValues(alpha: .6) : Colors.transparent)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          Text(l.spName.toUpperCase(), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.gold)),
-          Text(l.en, key: ValueKey('radio-text-$i'), style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
-          if (showFa) Text(l.fa, key: ValueKey('radio-fa-$i'), textDirection: TextDirection.rtl, textAlign: TextAlign.right, style: BL.fa(13, color: Colors.white60)),
+          Text(hl(l.spName.toUpperCase()), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.gold)),
+          Text(hl(l.en), key: ValueKey('radio-text-$i'), style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.35)),
+          if (showFa) Text(hl(l.fa), key: ValueKey('radio-fa-$i'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(13, color: Colors.white60)),
         ]),
       ),
     );
@@ -367,9 +368,9 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
     return ListView(
       padding: const EdgeInsets.fromLTRB(18, 8, 18, 24),
       children: [
-        Text('Question ${qi + 1} of ${s.quiz.length}', style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w700, fontSize: 12.5)),
+        Text(hl('Question ${qi + 1} of ${s.quiz.length}'), style: const TextStyle(color: Colors.white60, fontWeight: FontWeight.w700, fontSize: 12.5)),
         const SizedBox(height: 6),
-        Text(q.q, key: const ValueKey('radio-q'), style: BL.display(22, color: Colors.white)),
+        Text(hl(q.q), key: const ValueKey('radio-q'), style: BL.display(22, color: Colors.white)),
         const SizedBox(height: 16),
         for (final o in order[qi])
           Builder(builder: (_) {
@@ -384,12 +385,12 @@ class _PlayerState extends ConsumerState<_Player> with SingleTickerProviderState
                   key: ValueKey('radio-opt-$o'),
                   borderRadius: BorderRadius.circular(16),
                   onTap: () => _pick(o),
-                  child: Padding(padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15), child: Text(q.options[o], style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white))),
+                  child: Padding(padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15), child: Text(hl(q.options[o]), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white))),
                 ),
               ),
             );
           }),
-        TextButton(key: const ValueKey('radio-back-listen'), onPressed: () => setState(() => quiz = false), child: const Text('Listen again · دوباره گوش کن', style: TextStyle(color: Colors.white70))),
+        TextButton(key: const ValueKey('radio-back-listen'), onPressed: () => setState(() => quiz = false), child: Text(hl('Listen again · دوباره گوش کن'), style: TextStyle(color: Colors.white70))),
       ],
     );
   }

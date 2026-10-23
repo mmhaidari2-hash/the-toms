@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -62,15 +63,15 @@ class TopicLocked extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
                   const SizedBox(height: 14),
-                  Text(topic.title, textAlign: TextAlign.center, style: BL.display(24)),
-                  Text(topic.titleFa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
+                  Text(hl(topic.title), textAlign: TextAlign.center, style: BL.display(24)),
+                  Text(hl(topic.titleFa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
                   const SizedBox(height: 16),
                   Text('This topic is locked', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, color: BL.ink)),
-                  Text('این درس هنوز قفل است', textDirection: TextDirection.rtl, style: BL.fa(14, color: BL.muted)),
+                  Text(hl('این درس هنوز قفل است'), textDirection: helperDir, style: BL.fa(14, color: BL.muted)),
                   const SizedBox(height: 10),
-                  Text(en, key: const ValueKey('topic-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
+                  Text(hl(en), key: const ValueKey('topic-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
                   const SizedBox(height: 4),
-                  Text(fa, textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
+                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
                   const SizedBox(height: 22),
                   if (next != null)
                     SizedBox(
@@ -80,13 +81,13 @@ class TopicLocked extends StatelessWidget {
                         style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14)),
                         onPressed: () => context.go('/grammar/${next.id}'),
                         icon: const Icon(Icons.play_arrow_rounded),
-                        label: Text('Go to "${next.title}"', overflow: TextOverflow.ellipsis),
+                        label: Text(hl('Go to "${next.title}"'), overflow: TextOverflow.ellipsis),
                       ),
                     ),
                   TextButton(
                     key: const ValueKey('topic-locked-school'),
                     onPressed: () => context.go(classOpen ? '/school/${topic.level}' : '/school'),
-                    child: Text(classOpen ? 'Back to Class ${topic.level}' : 'Back to the Grammar School'),
+                    child: Text(hl(classOpen ? 'Back to Class ${topic.level}' : 'Back to the Grammar School')),
                   ),
                 ]),
               ),
@@ -202,8 +203,8 @@ class _TopicState extends ConsumerState<_Topic> {
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(t.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-                Text('Class ${t.level} · ${switch (stage) { _Stage.learn => 'Lesson', _Stage.practice => 'Practice ${i + 1}/${items.length}', _ => 'Mini test ${i + 1}/${items.length}' }}', key: const ValueKey('topic-stage'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+                Text(hl(t.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+                Text(hl('Class ${t.level} · ${switch (stage) { _Stage.learn => 'Lesson', _Stage.practice => 'Practice ${i + 1}/${items.length}', _ => 'Mini test ${i + 1}/${items.length}' }}'), key: const ValueKey('topic-stage'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
               ]),
             ),
           ]),
@@ -238,9 +239,9 @@ class _TopicState extends ConsumerState<_Topic> {
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              Text(l.en, style: TextStyle(fontSize: example ? 16 : 15, height: 1.35, fontWeight: example ? FontWeight.w700 : FontWeight.w500, color: example || on ? BL.ink : Colors.white)),
+              Text(hl(l.en), style: TextStyle(fontSize: example ? 16 : 15, height: 1.35, fontWeight: example ? FontWeight.w700 : FontWeight.w500, color: example || on ? BL.ink : Colors.white)),
               const SizedBox(height: 3),
-              Text(l.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: example || on ? BL.muted : const Color(0xFFCFE3D6))),
+              Text(hl(l.fa), textDirection: helperDir, style: BL.fa(12.5, color: example || on ? BL.muted : const Color(0xFFCFE3D6))),
             ]),
           ),
           Icon(on ? Icons.graphic_eq_rounded : Icons.volume_up_rounded, size: 20, color: example || on ? BL.red : BL.gold),
@@ -260,7 +261,7 @@ class _TopicState extends ConsumerState<_Topic> {
         Row(children: [
           Avatar(widget.content.character('ellis'), size: 44),
           const SizedBox(width: 10),
-          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(t.title, style: BL.display(21)), Text(t.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13))])),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(hl(t.title), style: BL.display(21)), Text(hl(t.titleFa), textDirection: helperDir, style: BL.fa(13))])),
           IconButton.filled(
             key: const ValueKey('listen-all'),
             tooltip: 'Listen to Mrs Ellis',
@@ -284,12 +285,12 @@ class _TopicState extends ConsumerState<_Topic> {
               ActionChip(
                 key: ValueKey('related-${l.id}'),
                 avatar: Icon(ctrl.lessonOpen(widget.content.course, l) ? Icons.play_circle_outline_rounded : Icons.lock_outline_rounded, size: 18),
-                label: Text(l.title, overflow: TextOverflow.ellipsis),
+                label: Text(hl(l.title), overflow: TextOverflow.ellipsis),
                 onPressed: () {
                   if (ctrl.lessonOpen(widget.content.course, l)) {
                     context.push('/lesson/${l.id}');
                   } else {
-                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text('"${l.title}" unlocks as you go on the course.')));
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text(hl('"${l.title}" unlocks as you go on the course.'))));
                   }
                 },
               ),
@@ -301,9 +302,9 @@ class _TopicState extends ConsumerState<_Topic> {
           onPressed: () => _start(_Stage.practice),
           style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
           icon: const Icon(Icons.edit_rounded),
-          label: Text('Practise · ${t.practice.length} exercises', style: const TextStyle(fontWeight: FontWeight.w800)),
+          label: Text(hl('Practise · ${t.practice.length} exercises'), style: const TextStyle(fontWeight: FontWeight.w800)),
         ),
-        TextButton(key: const ValueKey('skip-to-test'), onPressed: () => _start(_Stage.test), child: Text('Skip to the mini test (${t.test.length} questions)')),
+        TextButton(key: const ValueKey('skip-to-test'), onPressed: () => _start(_Stage.test), child: Text(hl('Skip to the mini test (${t.test.length} questions)'))),
       ],
     );
   }
@@ -364,7 +365,7 @@ class _ExerciseViewState extends State<ExerciseView> {
             key: key,
             borderRadius: BorderRadius.circular(14),
             onTap: tap,
-            child: Padding(padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11), child: Text(s, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: on ? Colors.white : BL.ink))),
+            child: Padding(padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11), child: Text(hl(s), style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: on ? Colors.white : BL.ink))),
           ),
         );
     return Column(children: [
@@ -372,13 +373,13 @@ class _ExerciseViewState extends State<ExerciseView> {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(20, 18, 20, 16),
           children: [
-            Text(how.toUpperCase(), style: TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: widget.test ? BL.red : BL.green)),
-            Text(howFa, textDirection: TextDirection.rtl, style: BL.fa(12)),
+            Text(hl(how.toUpperCase()), style: TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: widget.test ? BL.red : BL.green)),
+            Text(hl(howFa), textDirection: helperDir, style: BL.fa(12)),
             const SizedBox(height: 12),
             if (it.kind == 'gap')
-              Text(pick == null ? it.prompt.replaceAll('___', '_____') : it.fill(pick!), key: const ValueKey('ex-prompt'), style: BL.display(24))
+              Text(hl(pick == null ? it.prompt.replaceAll('___', '_____') : it.fill(pick!)), key: const ValueKey('ex-prompt'), style: BL.display(24))
             else if (it.kind != 'order')
-              Text(it.prompt, key: const ValueKey('ex-prompt'), style: BL.display(22)),
+              Text(hl(it.prompt), key: const ValueKey('ex-prompt'), style: BL.display(22)),
             const SizedBox(height: 18),
             if (it.kind == 'gap' || it.kind == 'choose')
               for (final o in opts)
@@ -425,8 +426,8 @@ class _ExerciseViewState extends State<ExerciseView> {
                   const SizedBox(width: 10),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text(ok! ? 'Spot on!  عالی!' : 'Not quite.  نه کاملاً.', style: TextStyle(fontWeight: FontWeight.w800, color: ok! ? BL.green : BL.red)),
-                      if (!ok!) Text('Answer: ${it.shownAnswer}', key: const ValueKey('feedback-answer'), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink)),
+                      Text(hl(ok! ? 'Spot on!  عالی!' : 'Not quite.  نه کاملاً.'), style: TextStyle(fontWeight: FontWeight.w800, color: ok! ? BL.green : BL.red)),
+                      if (!ok!) Text(hl('Answer: ${it.shownAnswer}'), key: const ValueKey('feedback-answer'), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink)),
                     ]),
                   ),
                 ]),
@@ -443,7 +444,7 @@ class _ExerciseViewState extends State<ExerciseView> {
             key: const ValueKey('ex-action'),
             onPressed: locked ? widget.onNext : (ready ? _check : null),
             style: FilledButton.styleFrom(backgroundColor: locked ? BL.navy : BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
-            child: Text(locked ? 'Next' : 'Check', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+            child: Text(hl(locked ? 'Next' : 'Check'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
           ),
         ),
       ),

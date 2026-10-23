@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -44,13 +45,13 @@ class _PlanScreenState extends ConsumerState<PlanScreen> {
     Widget section(String en, String fa) => Padding(
       padding: const EdgeInsets.only(top: 20, bottom: 8),
       child: Row(children: [
-        Expanded(child: Text(en, style: BL.display(18))),
-        Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+        Expanded(child: Text(hl(en), style: BL.display(18))),
+        Text(hl(fa), textDirection: helperDir, style: BL.fa(12.5)),
       ]),
     );
     Widget chip(String key, String label, bool on, VoidCallback tap) => ChoiceChip(
       key: ValueKey(key),
-      label: Text(label, style: TextStyle(fontWeight: FontWeight.w800, color: on ? Colors.white : BL.ink)),
+      label: Text(hl(label), style: TextStyle(fontWeight: FontWeight.w800, color: on ? Colors.white : BL.ink)),
       selected: on,
       showCheckmark: false,
       selectedColor: BL.red,
@@ -69,10 +70,10 @@ class _PlanScreenState extends ConsumerState<PlanScreen> {
             const Expanded(child: Text('MY STUDY PLAN', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))),
           ]),
           const SizedBox(height: 14),
-          Text(widget.fromPlacement ? 'Now make a plan' : 'Your plan', style: BL.display(30)),
-          Text(widget.fromPlacement ? 'حالا برای خودت برنامه بریز' : 'برنامهٔ تو', textDirection: TextDirection.rtl, style: BL.fa(14)),
+          Text(hl(widget.fromPlacement ? 'Now make a plan' : 'Your plan'), style: BL.display(30)),
+          Text(hl(widget.fromPlacement ? 'حالا برای خودت برنامه بریز' : 'برنامهٔ تو'), textDirection: helperDir, style: BL.fa(14)),
           const SizedBox(height: 8),
-          Text('You are at ${ProgressController.cefrOf(cur)}. Choose where you want to get to, how long you can study each day and when you want to be there.',
+          Text(hl('You are at ${ProgressController.cefrOf(cur)}. Choose where you want to get to, how long you can study each day and when you want to be there.'),
               style: const TextStyle(fontSize: 14.5, height: 1.35, color: BL.ink)),
           section('Goal level', 'سطح هدف'),
           Wrap(spacing: 8, runSpacing: 8, children: [
@@ -99,8 +100,8 @@ class _PlanScreenState extends ConsumerState<PlanScreen> {
                   const Icon(Icons.event_rounded, color: BL.red),
                   const SizedBox(width: 12),
                   Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(StudyPlan.nice(target), key: const ValueKey('plan-target'), style: BL.display(20)),
-                    Text(StudyPlan.niceFa(target), textDirection: TextDirection.rtl, style: BL.fa(12)),
+                    Text(hl(StudyPlan.nice(target)), key: const ValueKey('plan-target'), style: BL.display(20)),
+                    Text(hl(StudyPlan.niceFa(target)), textDirection: helperDir, style: BL.fa(12)),
                   ])),
                   const Text('Change', style: TextStyle(color: BL.red, fontWeight: FontWeight.w800)),
                 ]),
@@ -113,14 +114,14 @@ class _PlanScreenState extends ConsumerState<PlanScreen> {
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(color: tight ? const Color(0xFFFFF1E6) : const Color(0xFFEAF6EF), borderRadius: BorderRadius.circular(18), border: Border.all(color: tight ? const Color(0xFFE5A15A) : const Color(0xFF7CC59D))),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(left == 0 ? 'You have already finished $g. Pick a higher goal.' : '$left lessons to reach $g — about $hours hours.', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+              Text(hl(left == 0 ? 'You have already finished $g. Pick a higher goal.' : '$left lessons to reach $g — about $hours hours.'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
               const SizedBox(height: 4),
-              Text(left == 0 ? '' : 'At $minutes min a day you would finish around ${StudyPlan.nice(proj)}.', style: const TextStyle(fontSize: 14, color: BL.ink)),
-              if (left > 0) Text(tight ? 'To reach $g by ${StudyPlan.nice(target)} you need about $need min a day.' : 'That is on time for ${StudyPlan.nice(target)}.',
+              Text(hl(left == 0 ? '' : 'At $minutes min a day you would finish around ${StudyPlan.nice(proj)}.'), style: const TextStyle(fontSize: 14, color: BL.ink)),
+              if (left > 0) Text(hl(tight ? 'To reach $g by ${StudyPlan.nice(target)} you need about $need min a day.' : 'That is on time for ${StudyPlan.nice(target)}.'),
                   key: const ValueKey('plan-pace'), style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: tight ? const Color(0xFFB35A00) : const Color(0xFF1F7A4D))),
               const SizedBox(height: 6),
-              Text(left == 0 ? '' : '$left درس تا $g، حدود $hours ساعت. با روزی $minutes دقیقه حدوداً ${StudyPlan.niceFa(proj)} تمام می‌کنی.${tight ? ' برای رسیدن تا ${StudyPlan.niceFa(target)} روزی حدود $need دقیقه لازم است.' : ''}',
-                  textDirection: TextDirection.rtl, style: BL.fa(12.5)),
+              Text(hl(left == 0 ? '' : '$left درس تا $g، حدود $hours ساعت. با روزی $minutes دقیقه حدوداً ${StudyPlan.niceFa(proj)} تمام می‌کنی.${tight ? ' برای رسیدن تا ${StudyPlan.niceFa(target)} روزی حدود $need دقیقه لازم است.' : ''}'),
+                  textDirection: helperDir, style: BL.fa(12.5)),
               const SizedBox(height: 6),
               const Text('Estimates use about 12 minutes per lesson. Your real pace may differ.', style: TextStyle(fontSize: 11.5, color: BL.muted)),
             ]),
@@ -139,7 +140,7 @@ class _PlanScreenState extends ConsumerState<PlanScreen> {
                 context.go('/');
               }
             },
-            child: Text(tight ? 'Save plan · $need min a day' : 'Save my plan', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+            child: Text(hl(tight ? 'Save plan · $need min a day' : 'Save my plan'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
           ),
           if (widget.fromPlacement) TextButton(key: const ValueKey('plan-skip'), onPressed: () => context.go('/'), child: const Text('Not now', style: TextStyle(color: BL.muted))),
         ],
@@ -189,9 +190,9 @@ class PlanCard extends ConsumerWidget {
               child: Row(children: [
                 Icon(icon, size: 16, color: ok == null ? BL.navy : ok ? const Color(0xFF1F7A4D) : const Color(0xFFB35A00)),
                 const SizedBox(width: 6),
-                Text(title, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink)),
+                Text(hl(title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink)),
                 const SizedBox(width: 6),
-                Expanded(child: Text(sub, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: BL.muted))),
+                Expanded(child: Text(hl(sub), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: BL.muted))),
                 const Icon(Icons.chevron_right_rounded, size: 18, color: BL.muted),
               ]),
             ),
@@ -214,9 +215,9 @@ class PlanCard extends ConsumerWidget {
           ),
           const SizedBox(width: 12),
           Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-            Text(sub, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12.5, color: BL.muted)),
-            Text(fa, maxLines: 1, textDirection: TextDirection.rtl, style: BL.fa(11.5)),
+            Text(hl(title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+            Text(hl(sub), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+            Text(hl(fa), maxLines: 1, textDirection: helperDir, style: BL.fa(11.5)),
           ])),
           const Icon(Icons.chevron_right_rounded, color: BL.muted),
         ]),

@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -162,8 +163,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
             const SizedBox(width: 8),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(r.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
-                Text('${r.level}  ·  Role-play  ·  ${r.npc}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+                Text(hl(r.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                Text(hl('${r.level}  ·  Role-play  ·  ${r.npc}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
               ]),
             ),
             if (stage == _Stage.talk)
@@ -203,7 +204,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                 child: Row(children: [
                   Icon(goals.contains(i) ? Icons.check_circle_rounded : Icons.radio_button_unchecked_rounded, size: 14, color: goals.contains(i) ? Colors.white : BL.muted),
                   const SizedBox(width: 4),
-                  Expanded(child: Text(r.goals[i].en, maxLines: 2, style: TextStyle(fontSize: 10.5, height: 1.15, fontWeight: FontWeight.w700, color: goals.contains(i) ? Colors.white : BL.ink))),
+                  Expanded(child: Text(hl(r.goals[i].en), maxLines: 2, style: TextStyle(fontSize: 10.5, height: 1.15, fontWeight: FontWeight.w700, color: goals.contains(i) ? Colors.white : BL.ink))),
                 ]),
               ),
             ),
@@ -220,15 +221,15 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               const Text('ROLE-PLAY', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w900, color: BL.gold)),
               const SizedBox(height: 4),
-              Text(r.intro.en, style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w700, height: 1.35)),
+              Text(hl(r.intro.en), style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w700, height: 1.35)),
               const SizedBox(height: 4),
-              Text(r.intro.fa, textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white70)),
+              Text(hl(r.intro.fa), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),
             ]),
           ),
           const SizedBox(height: 16),
           Row(children: [
             const Expanded(child: Text('YOUR 3 GOALS', style: TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
-            Text('سه هدف تو', textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+            Text(hl('سه هدف تو'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
           ]),
           const SizedBox(height: 6),
           for (var i = 0; i < r.goals.length; i++)
@@ -238,12 +239,12 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
               decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(14)),
               child: Row(children: [
-                CircleAvatar(radius: 12, backgroundColor: BL.gold, child: Text('${i + 1}', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w900, color: BL.ink))),
+                CircleAvatar(radius: 12, backgroundColor: BL.gold, child: Text(hl('${i + 1}'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w900, color: BL.ink))),
                 const SizedBox(width: 10),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(r.goals[i].en, style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700)),
-                    Text(r.goals[i].fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                    Text(hl(r.goals[i].en), style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700)),
+                    Text(hl(r.goals[i].fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                   ]),
                 ),
               ]),
@@ -265,12 +266,12 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
               onPressed: _start,
               style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
               icon: const Icon(Icons.forum_rounded),
-              label: const Text('Start the role-play · شروع', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+              label: Text(hl('Start the role-play · شروع'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
             ),
             if (ctrl.roleplayStars(r.id) > 0)
               Padding(
                 padding: const EdgeInsets.only(top: 6),
-                child: Center(child: Text('Your best: ${'★' * ctrl.roleplayStars(r.id)}${'☆' * (3 - ctrl.roleplayStars(r.id))}', key: const ValueKey('rp-best'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700))),
+                child: Center(child: Text(hl('Your best: ${'★' * ctrl.roleplayStars(r.id)}${'☆' * (3 - ctrl.roleplayStars(r.id))}'), key: const ValueKey('rp-best'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w700))),
               ),
           ]),
         ),
@@ -283,8 +284,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
           const SizedBox(width: 8),
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              Text(en, style: const TextStyle(fontSize: 13, height: 1.35, color: BL.ink)),
-              Text(f, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+              Text(hl(en), style: const TextStyle(fontSize: 13, height: 1.35, color: BL.ink)),
+              Text(hl(f), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
             ]),
           ),
         ]),
@@ -306,7 +307,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
               decoration: const BoxDecoration(color: BL.navy, borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(4))),
               child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                 LeitnerWords(l.en, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.w600, height: 1.3)),
-                if (fa) Text(l.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70)),
+                if (fa) Text(hl(l.fa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white70)),
               ]),
             ),
             if (l.fb != null)
@@ -316,8 +317,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                 padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                 decoration: BoxDecoration(color: (good ? BL.green : BL.gold).withValues(alpha: .16), borderRadius: BorderRadius.circular(10)),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                  Text('${good ? 'Natural ✓' : 'Works · tip'}  ${l.fb!.en}', textAlign: TextAlign.right, style: TextStyle(fontSize: 12, height: 1.3, fontWeight: FontWeight.w600, color: good ? BL.green : const Color(0xFF7A5A00))),
-                  if (fa) Text(l.fb!.fa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                  Text(hl('${good ? 'Natural ✓' : 'Works · tip'}  ${l.fb!.en}'), textAlign: TextAlign.right, style: TextStyle(fontSize: 12, height: 1.3, fontWeight: FontWeight.w600, color: good ? BL.green : const Color(0xFF7A5A00))),
+                  if (fa) Text(hl(l.fb!.fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                 ]),
               ),
           ]),
@@ -333,7 +334,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               Icon(playing == k ? Icons.graphic_eq_rounded : ic, size: 17, color: playing == k ? BL.red : BL.navy),
               const SizedBox(width: 3),
-              Text(label, style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: BL.navy)),
+              Text(hl(label), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: BL.navy)),
             ]),
           ),
         );
@@ -347,9 +348,9 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
           padding: const EdgeInsets.fromLTRB(12, 9, 8, 4),
           decoration: BoxDecoration(color: BL.paper, border: Border.all(color: BL.mist), borderRadius: const BorderRadius.only(topLeft: Radius.circular(4), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16))),
           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            Text(r.npc.split(' · ').first.toUpperCase(), style: const TextStyle(fontSize: 10, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: BL.muted)),
+            Text(hl(r.npc.split(' · ').first.toUpperCase()), style: const TextStyle(fontSize: 10, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: BL.muted)),
             LeitnerWords(l.en, style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w600, height: 1.3)),
-            if (fa) Text(l.fa, key: ValueKey('rp-npc-fa-$i'), textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
+            if (fa) Text(hl(l.fa), key: ValueKey('rp-npc-fa-$i'), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
             Row(mainAxisAlignment: MainAxisAlignment.end, children: [ctl(key, Icons.volume_up_rounded, 'Replay', 1), ctl(slow, Icons.slow_motion_video_rounded, 'Slow', Voice.rates.first)]),
           ]),
         ),
@@ -377,11 +378,11 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                 onPressed: _report,
                 style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
                 icon: const Icon(Icons.assignment_turned_in_rounded),
-                label: const Text('See my report card · کارنامه', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+                label: Text(hl('See my report card · کارنامه'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
               )
             : Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                 Row(children: [
-                  Expanded(child: Text('Your reply · جواب تو', style: TextStyle(fontSize: 11.5, letterSpacing: .6, fontWeight: FontWeight.w900, color: BL.muted.withValues(alpha: .9)))),
+                  Expanded(child: Text(hl('Your reply · جواب تو'), style: TextStyle(fontSize: 11.5, letterSpacing: .6, fontWeight: FontWeight.w900, color: BL.muted.withValues(alpha: .9)))),
                   TextButton.icon(
                     key: const ValueKey('rp-hint'),
                     onPressed: hint
@@ -392,7 +393,7 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                             }),
                     style: TextButton.styleFrom(visualDensity: VisualDensity.compact, foregroundColor: const Color(0xFF8A6400)),
                     icon: const Icon(Icons.lightbulb_rounded, size: 17),
-                    label: const Text('Hint · راهنما', style: TextStyle(fontWeight: FontWeight.w800)),
+                    label: Text(hl('Hint · راهنما'), style: TextStyle(fontWeight: FontWeight.w800)),
                   ),
                 ]),
                 if (hint)
@@ -402,8 +403,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                     padding: const EdgeInsets.all(9),
                     decoration: BoxDecoration(color: BL.gold.withValues(alpha: .22), borderRadius: BorderRadius.circular(12)),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                      Text(t.hint.en, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, height: 1.3)),
-                      Text(t.hint.fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                      Text(hl(t.hint.en), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, height: 1.3)),
+                      Text(hl(t.hint.fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                     ]),
                   ),
                 if (wrongFb != null)
@@ -417,8 +418,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                       const SizedBox(width: 6),
                       Expanded(
                         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                          Text('Not quite. ${wrongFb!.en}', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, height: 1.3)),
-                          Text(wrongFb!.fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                          Text(hl('Not quite. ${wrongFb!.en}'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, height: 1.3)),
+                          Text(hl(wrongFb!.fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                         ]),
                       ),
                     ]),
@@ -437,8 +438,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
                           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(14), border: Border.all(color: tried.contains(t.opts.indexOf(o)) ? BL.mist : BL.navy.withValues(alpha: .25))),
                           child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                            Text(o.en, style: TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700, color: tried.contains(t.opts.indexOf(o)) ? BL.muted : BL.ink, decoration: tried.contains(t.opts.indexOf(o)) ? TextDecoration.lineThrough : null)),
-                            if (fa) Text(o.fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                            Text(hl(o.en), style: TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700, color: tried.contains(t.opts.indexOf(o)) ? BL.muted : BL.ink, decoration: tried.contains(t.opts.indexOf(o)) ? TextDecoration.lineThrough : null)),
+                            if (fa) Text(hl(o.fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                           ]),
                         ),
                       ),
@@ -466,14 +467,14 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
           padding: const EdgeInsets.fromLTRB(16, 18, 16, 16),
           decoration: BoxDecoration(gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [Color(0xFF1F3A5F), Color(0xFF14263F)]), borderRadius: BorderRadius.circular(22)),
           child: Column(children: [
-            const Text('REPORT CARD · کارنامه', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w900, color: BL.gold)),
+            Text(hl('REPORT CARD · کارنامه'), style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w900, color: BL.gold)),
             const SizedBox(height: 8),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               for (var i = 0; i < 3; i++) Icon(i < stars ? Icons.star_rounded : Icons.star_outline_rounded, key: ValueKey('rp-star-$i-${i < stars ? 'on' : 'off'}'), size: 44, color: i < stars ? const Color(0xFFFFC83D) : Colors.white38),
             ]),
             const SizedBox(height: 4),
-            Text(stars == 3 ? 'Brilliant!' : (stars == 2 ? 'Well done!' : 'Good practice!'), style: BL.display(26, color: Colors.white)),
-            Text(stars == 3 ? 'عالی بود!' : (stars == 2 ? 'آفرین!' : 'تمرین خوبی بود!'), textDirection: TextDirection.rtl, style: BL.fa(14, color: Colors.white70)),
+            Text(hl(stars == 3 ? 'Brilliant!' : (stars == 2 ? 'Well done!' : 'Good practice!')), style: BL.display(26, color: Colors.white)),
+            Text(hl(stars == 3 ? 'عالی بود!' : (stars == 2 ? 'آفرین!' : 'تمرین خوبی بود!')), textDirection: helperDir, style: BL.fa(14, color: Colors.white70)),
             const SizedBox(height: 12),
             Row(children: [
               _stat('rp-stat-natural', '$natural/${r.turns.length}', 'Natural', 'طبیعی'),
@@ -490,13 +491,13 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
             dense: true,
             contentPadding: const EdgeInsets.symmetric(horizontal: 4),
             leading: Icon(goals.contains(i) ? Icons.check_circle_rounded : Icons.cancel_rounded, color: goals.contains(i) ? BL.green : BL.muted),
-            title: Text(r.goals[i].en, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 14.5)),
-            subtitle: Text(r.goals[i].fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+            title: Text(hl(r.goals[i].en), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 14.5)),
+            subtitle: Text(hl(r.goals[i].fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
           ),
         const SizedBox(height: 6),
         Row(children: [
           const Expanded(child: Text('PHRASES TO REMEMBER', style: TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w900, color: BL.red))),
-          Text('عبارت‌هایی برای یادگرفتن', textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+          Text(hl('عبارت‌هایی برای یادگرفتن'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
         ]),
         const SizedBox(height: 6),
         for (final (i, p) in phrases.indexed)
@@ -507,8 +508,8 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
             child: Row(children: [
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                  Text(p.en, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, height: 1.3)),
-                  Text(p.fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                  Text(hl(p.en), style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, height: 1.3)),
+                  Text(hl(p.fa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
                 ]),
               ),
               Builder(builder: (_) {
@@ -527,18 +528,18 @@ class _RoleplayState extends ConsumerState<_Roleplay> {
           key: const ValueKey('rp-done'),
           onPressed: () => context.canPop() ? context.pop() : context.go('/missions'),
           style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 15), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
-          child: const Text('Done · تمام', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
+          child: Text(hl('Done · تمام'), style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5)),
         ),
-        TextButton(key: const ValueKey('rp-again'), onPressed: _again, child: const Text('Try again for 3 stars · دوباره')),
+        TextButton(key: const ValueKey('rp-again'), onPressed: _again, child: Text(hl('Try again for 3 stars · دوباره'))),
       ],
     );
   }
 
   Widget _stat(String k, String v, String en, String f) => Expanded(
         child: Column(key: ValueKey(k), children: [
-          Text(v, style: const TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w900)),
-          Text(en, style: const TextStyle(color: Colors.white70, fontSize: 11, fontWeight: FontWeight.w700)),
-          Text(f, textDirection: TextDirection.rtl, style: BL.fa(10.5, color: Colors.white54)),
+          Text(hl(v), style: const TextStyle(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w900)),
+          Text(hl(en), style: const TextStyle(color: Colors.white70, fontSize: 11, fontWeight: FontWeight.w700)),
+          Text(hl(f), textDirection: helperDir, style: BL.fa(10.5, color: Colors.white54)),
         ]),
       );
 }

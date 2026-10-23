@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -50,9 +51,9 @@ class ChapterStrip extends ConsumerWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('${tr(p.lang, 'episode').toUpperCase()} ${i + 1}  ·  ${c.scenes[sid]!.level}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800)),
+                              Text(hl('${tr(p.lang, 'episode').toUpperCase()} ${i + 1}  ·  ${c.scenes[sid]!.level}'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800)),
                               const SizedBox(height: 2),
-                              Text(c.scenes[sid]!.title.replaceFirst(RegExp(r'^Ep \d · '), ''), style: BL.display(18, color: Colors.white)),
+                              Text(hl(c.scenes[sid]!.title.replaceFirst(RegExp(r'^Ep \d · '), '')), style: BL.display(18, color: Colors.white)),
                             ],
                           ),
                         ),
@@ -78,7 +79,7 @@ class RolePicker extends ConsumerWidget {
     final p = ref.watch(progressProvider);
     return Row(
       children: [
-        Text(tr(p.lang, 'playAs'), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
+        Text(hl(tr(p.lang, 'playAs')), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.muted)),
         const SizedBox(width: 10),
         Expanded(
           child: SingleChildScrollView(
@@ -96,7 +97,7 @@ class RolePicker extends ConsumerWidget {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 behavior: SnackBarBehavior.floating,
-                                content: Text('Now playing as ${c.character(r.id).name} — new story: ${c.scenes[r.scenes.first]?.title ?? ''}'),
+                                content: Text(hl('Now playing as ${c.character(r.id).name} — new story: ${c.scenes[r.scenes.first]?.title ?? ''}')),
                                 action: SnackBarAction(label: 'Play', onPressed: () => context.push('/chat/${r.scenes.first}')),
                               ),
                             );
@@ -114,7 +115,7 @@ class RolePicker extends ConsumerWidget {
                             children: [
                               Avatar(c.character(r.id), size: 28, ring: false),
                               const SizedBox(width: 6),
-                              Text(c.character(r.id).name, style: TextStyle(fontWeight: FontWeight.w700, color: p.role == r.id ? Colors.white : BL.ink)),
+                              Text(hl(c.character(r.id).name), style: TextStyle(fontWeight: FontWeight.w700, color: p.role == r.id ? Colors.white : BL.ink)),
                             ],
                           ),
                         ),
@@ -172,8 +173,8 @@ class GrowingUpStrip extends ConsumerWidget {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text('${who.name} · ${s.requiresMilestone ?? ''}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800)),
-                                  Text(s.title, maxLines: 2, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 13.5, height: 1.15)),
+                                  Text(hl('${who.name} · ${s.requiresMilestone ?? ''}'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800)),
+                                  Text(hl(s.title), maxLines: 2, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 13.5, height: 1.15)),
                                 ],
                               ),
                             ),
@@ -218,11 +219,11 @@ class CultureCorner extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('${n.$1}  ${n.$2}', style: BL.display(16)),
+                Text(hl('${n.$1}  ${n.$2}'), style: BL.display(16)),
                 const SizedBox(height: 4),
-                Text(n.$3, maxLines: 3, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12.5, height: 1.3)),
+                Text(hl(n.$3), maxLines: 3, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12.5, height: 1.3)),
                 const Spacer(),
-                Text(n.$4, maxLines: 2, overflow: TextOverflow.ellipsis, textDirection: TextDirection.rtl, style: BL.fa(11)),
+                Text(hl(n.$4), maxLines: 2, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(11)),
               ],
             ),
           ),
@@ -251,9 +252,9 @@ class PassportCard extends StatelessWidget {
           children: [
             const Icon(Icons.menu_book_rounded, color: Color(0xFFE8C987), size: 18),
             const SizedBox(width: 8),
-            Text(tr(p.lang, 'passport'), style: BL.display(18, color: const Color(0xFFE8C987))),
+            Text(hl(tr(p.lang, 'passport')), style: BL.display(18, color: const Color(0xFFE8C987))),
             const Spacer(),
-            Text('${p.stamps.length}', style: BL.display(18, color: Colors.white)),
+            Text(hl('${p.stamps.length}'), style: BL.display(18, color: Colors.white)),
           ],
         ),
         const SizedBox(height: 10),
@@ -270,7 +271,7 @@ class PassportCard extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                     decoration: BoxDecoration(border: Border.all(color: const Color(0xFFE8C987), width: 1.5), borderRadius: BorderRadius.circular(8)),
-                    child: Text('${s.accent.toUpperCase()}\n${c.characterOrNull(s.characterId)?.name ?? s.characterId} · ${s.milestoneId}', textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800, height: 1.2)),
+                    child: Text(hl('${s.accent.toUpperCase()}\n${c.characterOrNull(s.characterId)?.name ?? s.characterId} · ${s.milestoneId}'), textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800, height: 1.2)),
                   ),
                 ),
             ],
@@ -333,13 +334,13 @@ class ContinueHero extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    label,
+                    hl(label),
                     style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800),
                   ),
                   const SizedBox(height: 6),
-                  Text(title, maxLines: 2, overflow: TextOverflow.ellipsis, style: BL.display(30, color: Colors.white).copyWith(height: 1.1)),
+                  Text(hl(title), maxLines: 2, overflow: TextOverflow.ellipsis, style: BL.display(30, color: Colors.white).copyWith(height: 1.1)),
                   const SizedBox(height: 4),
-                  Text(titleFa, textDirection: TextDirection.rtl, style: BL.fa(13.5, color: Colors.white70)),
+                  Text(hl(titleFa), textDirection: helperDir, style: BL.fa(13.5, color: Colors.white70)),
                   const SizedBox(height: 16),
                   Row(
                     children: [
@@ -356,7 +357,7 @@ class ContinueHero extends ConsumerWidget {
                         ),
                       ),
                       const SizedBox(width: 12),
-                      Text(meta, style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600)),
+                      Text(hl(meta), style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600)),
                     ],
                   ),
                 ],
@@ -405,7 +406,7 @@ class FamilyRow extends ConsumerWidget {
                         child: Avatar(ch, size: 64, ring: false),
                       ),
                       const SizedBox(height: 7),
-                      Text(ch.name, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5, color: BL.ink)),
+                      Text(hl(ch.name), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5, color: BL.ink)),
                     ],
                   ),
                 ),
@@ -443,7 +444,7 @@ class CourseCard extends ConsumerWidget {
                 alignment: Alignment.center,
                 children: [
                   SizedBox.expand(child: CircularProgressIndicator(value: done / all.length, strokeWidth: 5, backgroundColor: BL.mist, color: BL.green)),
-                  Text('$done', style: BL.display(19, color: BL.green)),
+                  Text(hl('$done'), style: BL.display(19, color: BL.green)),
                 ],
               ),
             ),
@@ -452,10 +453,10 @@ class CourseCard extends ConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('LEVEL ${next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level} COURSE  ·  ${Course.levelInfo[next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level]!.$1}', style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                  Text(hl('LEVEL ${next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level} COURSE  ·  ${Course.levelInfo[next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level]!.$1}'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
                   const SizedBox(height: 2),
-                  Text(next == null ? 'All lessons done!' : 'Next: ${next.title}', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
-                  Text('${c.course.units.map((u) => u.level).toSet().length} levels · ${c.course.units.length} units · ${all.length} lessons', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                  Text(hl(next == null ? 'All lessons done!' : 'Next: ${next.title}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
+                  Text(hl('${c.course.units.map((u) => u.level).toSet().length} levels · ${c.course.units.length} units · ${all.length} lessons'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                 ],
               ),
             ),
@@ -512,9 +513,9 @@ class _FamilyTimelineCardState extends ConsumerState<FamilyTimelineCard> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('THE FAMILY YEAR  ·  YEAR ${ch.year} · ${ch.season.toUpperCase()}', style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+            Text(hl('THE FAMILY YEAR  ·  YEAR ${ch.year} · ${ch.season.toUpperCase()}'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
             const SizedBox(height: 2),
-            Text(ch.title, style: BL.display(19)),
+            Text(hl(ch.title), style: BL.display(19)),
             const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -534,13 +535,13 @@ class _FamilyTimelineCardState extends ConsumerState<FamilyTimelineCard> {
                                 child: Container(
                                   padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
                                   decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99), border: Border.all(color: BL.paper, width: 1.5)),
-                                  child: Text('${ch.ages[id]}', style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w800)),
+                                  child: Text(hl('${ch.ages[id]}'), style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w800)),
                                 ),
                               ),
                           ],
                         ),
                         const SizedBox(height: 5),
-                        Text(c.character(id).name.split(' ').last, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: BL.muted)),
+                        Text(hl(c.character(id).name.split(' ').last), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: BL.muted)),
                       ],
                     ),
               ],
@@ -551,7 +552,7 @@ class _FamilyTimelineCardState extends ConsumerState<FamilyTimelineCard> {
               child: LinearProgressIndicator(value: frac, minHeight: 6, backgroundColor: BL.mist, color: BL.green),
             ),
             const SizedBox(height: 6),
-            Text(next == null ? 'You’ve grown up with the Toms.' : 'Next: ${next.season}, Year ${next.year} — keep chatting and passing units', style: const TextStyle(fontSize: 12, color: BL.muted)),
+            Text(hl(next == null ? 'You’ve grown up with the Toms.' : 'Next: ${next.season}, Year ${next.year} — keep chatting and passing units'), style: const TextStyle(fontSize: 12, color: BL.muted)),
           ],
         ),
       ),
@@ -575,14 +576,14 @@ Future<void> showTimePasses(BuildContext context, ContentBundle c, int i) {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(i == 0 ? 'CHAPTER 1' : 'TIME PASSES…', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 2, fontWeight: FontWeight.w800)),
+            Text(hl(i == 0 ? 'CHAPTER 1' : 'TIME PASSES…'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 2, fontWeight: FontWeight.w800)),
             const SizedBox(height: 6),
-            Text('${ch.season}, Year ${ch.year} · ${ch.title}', style: BL.display(22, color: Colors.white)),
-            Text('${ch.seasonFa} · ${ch.titleFa}', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white60)),
+            Text(hl('${ch.season}, Year ${ch.year} · ${ch.title}'), style: BL.display(22, color: Colors.white)),
+            Text(hl('${ch.seasonFa} · ${ch.titleFa}'), textDirection: helperDir, style: BL.fa(13, color: Colors.white60)),
             const SizedBox(height: 12),
-            Text(ch.story, style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4)),
+            Text(hl(ch.story), style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4)),
             const SizedBox(height: 4),
-            Text(ch.storyFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white60)),
+            Text(hl(ch.storyFa), textDirection: helperDir, style: BL.fa(13, color: Colors.white60)),
             const SizedBox(height: 14),
             for (final e in ch.stages.entries)
               if (c.characterOrNull(e.key) != null)
@@ -593,7 +594,7 @@ Future<void> showTimePasses(BuildContext context, ContentBundle c, int i) {
                       Avatar(c.character(e.key), size: 30, ring: false),
                       const SizedBox(width: 10),
                       Expanded(
-                        child: Text('${c.character(e.key).name}${ch.ages[e.key] == null ? '' : ', ${ch.ages[e.key]}'} — ${e.value.$1}', style: const TextStyle(color: Colors.white, fontSize: 13.5, fontWeight: FontWeight.w600)),
+                        child: Text(hl('${c.character(e.key).name}${ch.ages[e.key] == null ? '' : ', ${ch.ages[e.key]}'} — ${e.value.$1}'), style: const TextStyle(color: Colors.white, fontSize: 13.5, fontWeight: FontWeight.w600)),
                       ),
                     ],
                   ),

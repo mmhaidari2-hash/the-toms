@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -103,11 +104,11 @@ class _DriveStageState extends State<DriveStage> with SingleTickerProviderStateM
             constraints: const BoxConstraints(minHeight: 66),
             padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
             child: cur == null
-                ? Text(widget.playing ? '' : 'Press play to start the scene', style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600))
+                ? Text(hl(widget.playing ? '' : 'Press play to start the scene'), style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600))
                 : Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                    Text(cur.name, key: const ValueKey('drv-sub-name'), style: const TextStyle(color: BL.gold, fontSize: 11.5, fontWeight: FontWeight.w800)),
-                    Text(cur.en, key: const ValueKey('drv-sub-en'), style: const TextStyle(color: Colors.white, fontSize: 14.5, fontWeight: FontWeight.w700, height: 1.3)),
-                    if (widget.fa) Align(alignment: Alignment.centerRight, child: Text(cur.fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70))),
+                    Text(hl(cur.name), key: const ValueKey('drv-sub-name'), style: const TextStyle(color: BL.gold, fontSize: 11.5, fontWeight: FontWeight.w800)),
+                    Text(hl(cur.en), key: const ValueKey('drv-sub-en'), style: const TextStyle(color: Colors.white, fontSize: 14.5, fontWeight: FontWeight.w700, height: 1.3)),
+                    if (widget.fa) Align(alignment: Alignment.centerRight, child: Text(hl(cur.fa), textDirection: helperDir, style: BL.fa(12.5, color: Colors.white70))),
                   ]),
           ),
         ]),
@@ -188,7 +189,7 @@ class RoadPainter extends CustomPainter {
         ..close(), ind);
     }
     if (brake > 0) c.drawRect(Rect.fromLTWH(0, 0, w, h), Paint()..color = const Color(0xFFB3261E).withValues(alpha: .12 * brake));
-    final tp = TextPainter(text: TextSpan(text: speed > .05 ? '${(speed * 28).round()} mph' : 'P', style: const TextStyle(color: Color(0xFFF2C46D), fontSize: 11, fontWeight: FontWeight.w800)), textDirection: TextDirection.ltr)..layout();
+    final tp = TextPainter(text: TextSpan(text: hl(speed > .05 ? '${(speed * 28).round()} mph' : 'P'), style: const TextStyle(color: Color(0xFFF2C46D), fontSize: 11, fontWeight: FontWeight.w800)), textDirection: TextDirection.ltr)..layout();
     tp.paint(c, Offset(w * .3 - tp.width / 2, dashTop + h * .035 - tp.height / 2));
   }
 

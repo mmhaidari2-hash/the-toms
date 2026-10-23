@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 
 import '../../app/theme.dart';
@@ -86,21 +87,21 @@ class _LegalScreenState extends State<LegalScreen> {
           const SizedBox(height: 14),
           SegmentedButton<String>(
             showSelectedIcon: false,
-            segments: [for (final x in docs) ButtonSegment(value: x.id, label: Text(x.id == 'about' ? 'About' : (x.id == 'privacy' ? 'Privacy' : 'Terms'), key: ValueKey('legal-tab-${x.id}')))],
+            segments: [for (final x in docs) ButtonSegment(value: x.id, label: Text(hl(x.id == 'about' ? 'About' : (x.id == 'privacy' ? 'Privacy' : 'Terms')), key: ValueKey('legal-tab-${x.id}')))],
             selected: {tab},
             onSelectionChanged: (s) => setState(() => tab = s.first),
           ),
           const SizedBox(height: 18),
-          Text(d.title, style: BL.display(26)),
-          Text(d.titleFa, textDirection: TextDirection.rtl, style: BL.fa(14)),
-          if (d.updated.isNotEmpty) Text(d.updated, style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+          Text(hl(d.title), style: BL.display(26)),
+          Text(hl(d.titleFa), textDirection: helperDir, style: BL.fa(14)),
+          if (d.updated.isNotEmpty) Text(hl(d.updated), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
           for (final (h, en, fa) in d.sections) ...[
             const SizedBox(height: 16),
-            Text(h, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+            Text(hl(h), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
             const SizedBox(height: 4),
-            Text(en, style: const TextStyle(fontSize: 14, height: 1.4, color: BL.ink)),
+            Text(hl(en), style: const TextStyle(fontSize: 14, height: 1.4, color: BL.ink)),
             const SizedBox(height: 4),
-            SizedBox(width: double.infinity, child: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted))),
+            SizedBox(width: double.infinity, child: Text(hl(fa), textDirection: helperDir, style: BL.fa(13, color: BL.muted))),
           ],
           if (d.id == 'about') ...[
             const SizedBox(height: 16),

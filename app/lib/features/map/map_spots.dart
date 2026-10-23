@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import '../../core/platform/asset_text.dart';
 import 'dart:convert';
 
@@ -65,7 +66,7 @@ class SpotIcon extends StatelessWidget {
         width: size,
         height: size,
         child: Center(
-          child: Text(s.icon, style: TextStyle(fontSize: size * .55)),
+          child: Text(hl(s.icon), style: TextStyle(fontSize: size * .55)),
         ),
       ),
     );
@@ -139,7 +140,7 @@ class SpotMarker extends StatelessWidget {
                         key: ValueKey('spot-level-${s.id}'),
                         padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1.5),
                         decoration: BoxDecoration(color: BL.gold, borderRadius: BorderRadius.circular(8), border: Border.all(color: Colors.white, width: 1)),
-                        child: Text('$levelTag+', style: const TextStyle(color: BL.ink, fontSize: 9, fontWeight: FontWeight.w800)),
+                        child: Text(hl('$levelTag+'), style: const TextStyle(color: BL.ink, fontSize: 9, fontWeight: FontWeight.w800)),
                       ),
                     ),
                   if (open && visited) const Positioned(right: -6, bottom: -5, child: _Badge(icon: Icons.check_rounded, color: Color(0xFF1F7A4D))),
@@ -157,7 +158,7 @@ class SpotMarker extends StatelessWidget {
                 boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 4, offset: Offset(0, 2))],
               ),
               child: Text(
-                label(s.title),
+                hl(label(s.title)),
                 maxLines: 2,
                 softWrap: true,
                 textAlign: TextAlign.center,
@@ -227,10 +228,10 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(s.title, style: BL.display(22)),
+                    Text(hl(s.title), style: BL.display(22)),
                     Text(
-                      s.titleFa,
-                      textDirection: TextDirection.rtl,
+                      hl(s.titleFa),
+                      textDirection: helperDir,
                       style: BL.fa(14, color: BL.muted),
                     ),
                   ],
@@ -472,7 +473,7 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                           builder: (_, r, _) {
                             final f = r.watch(seasonsProvider).whenOrNull(data: Seasons.featured);
                             return Text(
-                              f == null ? 'Family calendar · British celebrations' : 'Family calendar · ${f.$1.title}: ${Seasons.countdown(f.$2).toLowerCase()}',
+                              hl(f == null ? 'Family calendar · British celebrations' : 'Family calendar · ${f.$1.title}: ${Seasons.countdown(f.$2).toLowerCase()}'),
                               key: const ValueKey('spot-seasons-next'),
                               style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
                             );
@@ -540,8 +541,8 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                       const SizedBox(width: 12),
                       Expanded(
                         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                          Text('Role-play · ${r.title}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
-                          Text('${r.level} · 3 goals${st > 0 ? '  ·  ${'★' * st}${'☆' * (3 - st)}' : ''}  ·  ${r.titleFa}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600)),
+                          Text(hl('Role-play · ${r.title}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15)),
+                          Text(hl('${r.level} · 3 goals${st > 0 ? '  ·  ${'★' * st}${'☆' * (3 - st)}' : ''}  ·  ${r.titleFa}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.w600)),
                         ]),
                       ),
                       const Icon(Icons.chevron_right_rounded, color: Colors.white),
@@ -615,7 +616,7 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
           ],
           const SizedBox(height: 6),
           Text(
-            '${ls.length} lessons here  ·  $done done',
+            hl('${ls.length} lessons here  ·  $done done'),
             style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 13),
           ),
           const SizedBox(height: 12),
@@ -629,7 +630,7 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
             ),
             icon: const Icon(Icons.play_arrow_rounded),
             label: Text(
-              next == null ? 'Locked for now — keep going on the course' : 'Start: ${next.title}',
+              hl(next == null ? 'Locked for now — keep going on the course' : 'Start: ${next.title}'),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
@@ -645,16 +646,16 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                   contentPadding: const EdgeInsets.symmetric(horizontal: 4),
                   leading: Opacity(opacity: isOpen ? 1 : .45, child: Avatar(c.character(l.lead), size: 40)),
                   title: Text(
-                    l.title,
+                    hl(l.title),
                     style: TextStyle(fontWeight: FontWeight.w700, color: isOpen ? BL.ink : BL.muted),
                   ),
-                  subtitle: Text('${lessonWhere(c.course, l)}  ·  ${l.titleFa}', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12)),
+                  subtitle: Text(hl('${lessonWhere(c.course, l)}  ·  ${l.titleFa}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12)),
                   trailing: Icon(isDone ? Icons.check_circle_rounded : (isOpen ? Icons.play_circle_fill_rounded : Icons.lock_rounded), color: isDone ? BL.green : (isOpen ? BL.red : BL.muted)),
                   onTap: () {
                     if (isOpen) return open(sheet, l);
                     ScaffoldMessenger.of(
                       context,
-                    ).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text('"${l.title}" unlocks as you go — ${lessonWhere(c.course, l)}.')));
+                    ).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text(hl('"${l.title}" unlocks as you go — ${lessonWhere(c.course, l)}.'))));
                   },
                 );
               },

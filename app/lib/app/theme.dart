@@ -1,3 +1,4 @@
+import '../core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,7 +19,7 @@ class BL {
   static TextStyle display(double size, {Color color = ink, FontWeight w = FontWeight.w600}) =>
       useGoogleFonts ? GoogleFonts.fraunces(fontSize: size, color: color, fontWeight: w, height: 1.1, letterSpacing: -0.3) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.1);
   static TextStyle fa(double size, {Color color = muted, FontWeight w = FontWeight.w400}) =>
-      useGoogleFonts ? GoogleFonts.vazirmatn(fontSize: size, color: color, fontWeight: w, height: 1.6) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.6);
+      useGoogleFonts ? (helperArabicScript ? GoogleFonts.vazirmatn(fontSize: size, color: color, fontWeight: w, height: 1.6) : GoogleFonts.inter(fontSize: size, color: color, fontWeight: w, height: 1.45)) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.6);
 
   static List<BoxShadow> shadow([double o = .07]) => [
     BoxShadow(

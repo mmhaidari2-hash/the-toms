@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 
 import '../shared/nav.dart';
@@ -84,7 +85,7 @@ class LessonScreen extends ConsumerWidget {
                                 borderRadius: BorderRadius.circular(99),
                               ),
                               child: Text(
-                                '${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}',
+                                hl('${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}'),
                                 style: const TextStyle(
                                   fontSize: 11,
                                   letterSpacing: 1.4,
@@ -94,10 +95,10 @@ class LessonScreen extends ConsumerWidget {
                               ),
                             ),
                             const SizedBox(height: 4),
-                            Text(l.title, style: BL.display(28)),
+                            Text(hl(l.title), style: BL.display(28)),
                             Text(
-                              l.titleFa,
-                              textDirection: TextDirection.rtl,
+                              hl(l.titleFa),
+                              textDirection: helperDir,
                               style: BL.fa(13.5),
                             ),
                           ],
@@ -118,7 +119,7 @@ class LessonScreen extends ConsumerWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            l.grammar,
+                            hl(l.grammar),
                             style: const TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
@@ -127,8 +128,8 @@ class LessonScreen extends ConsumerWidget {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            l.grammarFa,
-                            textDirection: TextDirection.rtl,
+                            hl(l.grammarFa),
+                            textDirection: helperDir,
                             style: BL.fa(13),
                           ),
                         ],
@@ -159,14 +160,14 @@ class LessonScreen extends ConsumerWidget {
                                   TextSpan(
                                     children: [
                                       TextSpan(
-                                        text: w.word,
+                                        text: hl(w.word),
                                         style: const TextStyle(
                                           fontWeight: FontWeight.w700,
                                           color: BL.ink,
                                         ),
                                       ),
                                       TextSpan(
-                                        text: '  ${w.fa}',
+                                        text: hl('  ${w.fa}'),
                                         style: BL.fa(12),
                                       ),
                                     ],
@@ -266,9 +267,9 @@ class LessonScreen extends ConsumerWidget {
                                             ),
                                             const SizedBox(width: 6),
                                             Text(
-                                              r == 'learner'
+                                              hl(r == 'learner'
                                                   ? 'Me (guest)'
-                                                  : c.character(r).name,
+                                                  : c.character(r).name),
                                               style: TextStyle(
                                                 fontWeight: FontWeight.w700,
                                                 fontSize: 13,
@@ -363,9 +364,9 @@ class LessonScreen extends ConsumerWidget {
                 ),
                 icon: const Icon(Icons.play_arrow_rounded),
                 label: Text(
-                  storyDone
+                  hl(storyDone
                       ? 'Practice  ·  تمرین'
-                      : 'Start the story  ·  شروع داستان',
+                      : 'Start the story  ·  شروع داستان'),
                   style: const TextStyle(
                     fontWeight: FontWeight.w800,
                     fontSize: 16,
@@ -407,7 +408,7 @@ class _Card extends StatelessWidget {
             Icon(icon, size: 17, color: BL.green),
             const SizedBox(width: 6),
             Text(
-              title,
+              hl(title),
               style: const TextStyle(
                 fontSize: 12.5,
                 fontWeight: FontWeight.w800,
@@ -454,7 +455,7 @@ class _Step extends StatelessWidget {
             child: done
                 ? const Icon(Icons.check_rounded, color: BL.ink)
                 : Text(
-                    '$n',
+                    hl('$n'),
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w800,
@@ -467,9 +468,9 @@ class _Step extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(title, style: BL.display(20, color: Colors.white)),
+                Text(hl(title), style: BL.display(20, color: Colors.white)),
                 Text(
-                  sub,
+                  hl(sub),
                   style: const TextStyle(color: Colors.white70, fontSize: 13),
                 ),
               ],
@@ -498,11 +499,11 @@ class _LevelLocked extends StatelessWidget {
             child: Column(mainAxisSize: MainAxisSize.min, children: [
               const Icon(Icons.lock_outline_rounded, size: 40),
               const SizedBox(height: 12),
-              Text('Opens at Level $cefr', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800), textAlign: TextAlign.center),
+              Text(hl('Opens at Level $cefr'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800), textAlign: TextAlign.center),
               const SizedBox(height: 6),
               const Text('Keep going with the main course to unlock it.', textAlign: TextAlign.center),
               const SizedBox(height: 4),
-              Text('با پیشرفت در دورهٔ اصلی در سطح $cefr باز می‌شود.', textDirection: TextDirection.rtl, textAlign: TextAlign.center),
+              Text(hl('با پیشرفت در دورهٔ اصلی در سطح $cefr باز می‌شود.'), textDirection: helperDir, textAlign: TextAlign.center),
             ]),
           ),
         ),

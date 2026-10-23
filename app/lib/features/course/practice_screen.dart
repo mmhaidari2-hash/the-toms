@@ -1,3 +1,4 @@
+import 'package:british_life/core/i18n/helper_text.dart';
 import '../../core/i18n/you.dart';
 import 'dart:math';
 
@@ -266,7 +267,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                         ),
                       ),
                       const SizedBox(width: 12),
-                      Text('${_i + 1}/${items.length}', style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted)),
+                      Text(hl('${_i + 1}/${items.length}'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.muted)),
                     ],
                   ),
                   const SizedBox(height: 18),
@@ -287,8 +288,8 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   Widget _prompt(String en, String fa) => Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
-      Text(en, style: BL.display(24)),
-      Text(fa, textDirection: TextDirection.rtl, style: BL.fa(13)),
+      Text(hl(en), style: BL.display(24)),
+      Text(hl(fa), textDirection: helperDir, style: BL.fa(13)),
       const SizedBox(height: 18),
     ],
   );
@@ -304,7 +305,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
           duration: const Duration(milliseconds: 200),
           padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 17),
           decoration: BoxDecoration(color: col, borderRadius: BorderRadius.circular(18), border: Border.all(color: _ok != null && isRight ? BL.green : BL.mist, width: 1.5)),
-          child: Text(o, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w700, color: BL.ink)),
+          child: Text(hl(o), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w700, color: BL.ink)),
         ),
       ),
     );
@@ -337,14 +338,14 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                 TextSpan(
                   style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w600, color: BL.ink, height: 1.4),
                   children: [
-                    TextSpan(text: it.before),
-                    TextSpan(text: _ok == null ? ' ____ ' : it.answer, style: const TextStyle(color: BL.green, fontWeight: FontWeight.w800)),
-                    TextSpan(text: it.after),
+                    TextSpan(text: hl(it.before)),
+                    TextSpan(text: hl(_ok == null ? ' ____ ' : it.answer), style: const TextStyle(color: BL.green, fontWeight: FontWeight.w800)),
+                    TextSpan(text: hl(it.after)),
                   ],
                 ),
               ),
               const SizedBox(height: 6),
-              Text(it.fa, textDirection: TextDirection.rtl, style: BL.fa(13)),
+              Text(hl(it.fa), textDirection: helperDir, style: BL.fa(13)),
             ],
           ),
         ),
@@ -355,7 +356,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     BuildSentence() => ListView(
       children: [
         _prompt('Build the sentence', 'جمله را بساز'),
-        Text(it.fa, textDirection: TextDirection.rtl, style: BL.fa(15, color: BL.ink)),
+        Text(hl(it.fa), textDirection: helperDir, style: BL.fa(15, color: BL.ink)),
         const SizedBox(height: 14),
         Container(
           constraints: const BoxConstraints(minHeight: 70),
@@ -440,7 +441,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     child: Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
       decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(14), boxShadow: BL.shadow(.08), border: Border.all(color: BL.mist)),
-      child: Text(t, style: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w700, color: BL.ink)),
+      child: Text(hl(t), style: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w700, color: BL.ink)),
     ),
   );
 
@@ -461,7 +462,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
           Icon(_ok! ? Icons.check_circle_rounded : Icons.lightbulb_rounded, color: _ok! ? BL.green : const Color(0xFFB7791F)),
           const SizedBox(width: 10),
           Expanded(
-            child: Text(_ok! ? ['Lovely!', 'Spot on!', 'Brilliant!', 'Well done!'][_i % 4] : 'Nearly! It’s “$right”.', style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
+            child: Text(hl(_ok! ? ['Lovely!', 'Spot on!', 'Brilliant!', 'Well done!'][_i % 4] : 'Nearly! It’s “$right”.'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
           ),
           FilledButton(
             onPressed: _next,
@@ -483,7 +484,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
         const Center(child: Icon(Icons.verified_rounded, size: 72, color: BL.green)),
         const SizedBox(height: 12),
         Center(child: Text('No mistakes to fix', key: const ValueKey('mistakes-empty'), style: BL.display(26))),
-        Center(child: Text('اشتباهی برای مرور نداری', textDirection: TextDirection.rtl, style: BL.fa(14))),
+        Center(child: Text(hl('اشتباهی برای مرور نداری'), textDirection: helperDir, style: BL.fa(14))),
         const SizedBox(height: 10),
         const Text('When you get an answer wrong in practice, it comes back here so you can try again. Get it right and it leaves the list.',
             textAlign: TextAlign.center, style: TextStyle(fontSize: 14.5, height: 1.35, color: BL.ink)),
