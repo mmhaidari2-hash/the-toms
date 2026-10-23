@@ -146,8 +146,30 @@ const mistakesId = 'mistakes';
   TapObject() => null,
 };
 
+/// The current prompt (Persian source of the helper text) for an English answer, looked up again in the lesson content,
+/// so a mistake saved before a translation fix shows the corrected prompt in every language. Searches the saved
+/// lesson [from] first, then every scene. Null when the sentence no longer exists (then the saved prompt is kept).
+String? currentPromptFor(ContentBundle c, String english, String from, {String name = ''}) {
+  String norm(String x) => x.replaceAll(RegExp(r'\s+'), ' ').trim();
+  final want = norm(english);
+  final course = c.course;
+  final lessons = course.unit(from)?.lessons ?? [if (course.lesson(from) != null) course.lesson(from)!];
+  final first = [for (final l in lessons) ...l.sceneIds, if (c.scenes[from] != null) from];
+  for (final sid in [...first, ...c.scenes.keys]) {
+    final sc = c.scenes[sid];
+    if (sc == null) continue;
+    for (final n in sc.nodes.values) {
+      for (final br in n.branches) {
+        if (norm(fillYou(br.suggestion, name)) == want) return fillYouFa(br.suggestionFa, name);
+      }
+    }
+  }
+  return null;
+}
+
 /// The "My mistakes" lesson: up to [max] earlier wrong answers rebuilt as fresh items (new distractors, reshuffled words).
-List<Item> buildMistakes(ContentBundle c, List<(String, Map<String, dynamic>)> ms, {int max = 10}) {
+/// Prompts are looked up again from the current content ([currentPromptFor]), never taken from the saved copy alone.
+List<Item> buildMistakes(ContentBundle c, List<(String, Map<String, dynamic>)> ms, {int max = 10, String name = ''}) {
   final rnd = Random(ms.length * 7919 + ms.fold(0, (a, e) => a + e.$1.length));
   final pool = {for (final l in c.course.lessons) for (final w in l.words) w.word}.toList();
   List<String> opts(String right, {bool single = true}) {
@@ -161,12 +183,14 @@ List<Item> buildMistakes(ContentBundle c, List<(String, Map<String, dynamic>)> m
         out.add(ListenPick(m['w'] as String, opts(m['w'] as String, single: !(m['w'] as String).contains(' '))));
       case 'f':
         final a = m['a'] as String;
-        out.add(FillGap(m['b'] as String, m['x'] as String, a, opts(a, single: !a.contains(' ')), m['fa'] as String? ?? ''));
+        final fa = currentPromptFor(c, '${m['b']}$a${m['x']}', m['l'] as String? ?? '', name: name) ?? m['fa'] as String? ?? '';
+        out.add(FillGap(m['b'] as String, m['x'] as String, a, opts(a, single: !a.contains(' ')), fa));
       case 's':
         final a = List<String>.from(m['a'] as List);
         final sh = [...a]..shuffle(rnd);
         if (sh.join(' ') == a.join(' ') && sh.length > 1) sh.insert(0, sh.removeLast());
-        out.add(BuildSentence(a, sh, m['fa'] as String? ?? ''));
+        final fa = currentPromptFor(c, a.join(' '), m['l'] as String? ?? '', name: name) ?? m['fa'] as String? ?? '';
+        out.add(BuildSentence(a, sh, fa));
     }
   }
   return out;
@@ -190,7 +214,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   void _init(ContentBundle c) {
     if (_items != null) return;
     if (widget.id == mistakesId) {
-      _items = buildMistakes(c, ref.read(progressProvider.notifier).mistakeList);
+      _items = buildMistakes(c, ref.read(progressProvider.notifier).mistakeList, name: ref.read(progressProvider.notifier).pref('name'));
       if (_items!.isNotEmpty) WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
       return;
     }
