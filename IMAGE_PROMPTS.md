@@ -67,3 +67,9 @@ Until these exist, tool/match_scene_art.py `BORROW` gives each scene the closest
 ## Run 15 — wanted paintings (placeholders live now)
 - **graham.webp (portrait, 1:1)** — Painterly British-illustration portrait, same style as the family portraits: Graham Holt, 52, friendly East London branch manager of a small high-street estate agency, short greying hair, navy suit, open collar, warm smile, soft window light, muted green (#2F5D50) background. Currently a "GH" monogram placeholder.
 - **homes.webp (location, 16:9)** — Interior of "Fennick & Rowe Homes", a small independent estate agent on a Hackney high street: property cards in the window, two desks, keys on hooks, a lettings negotiator (Olivia) showing a young couple a floor plan, autumn light. Fictional brand, no real logos. Currently borrows the bank/hallway/living paintings.
+
+## Run 22 (2026-10-23) — done
+Generated in the house painterly style (fictional scenes, no real people, brands or logos) and shipped as assets/places/<id>.webp
+(registry: app/assets/data/art_places.json): nursery (Little Acorns playroom), nurserydoor (pick-up / drop-off), nurseryoffice
+(staff room), homes (Fennick & Rowe Homes office), viewing (empty-flat viewing), hospital (ward), hospitalreception, museum
+(dinosaur hall), cinema (foyer); portrait graham.webp replaces the monogram. No scene borrows a painting any more.
