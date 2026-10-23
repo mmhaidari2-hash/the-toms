@@ -52,7 +52,7 @@ void main() {
     }
     final places = [for (final tier in jsonDecode(File('assets/data/places.json').readAsStringSync())) for (final p in tier['places']) p['id']];
     final routes = [
-      '/family', '/placement', '/plan', '/plan?first=1', '/howto', '/diary', '/course', '/course?level=3',
+      '/family', '/placement', '/plan', '/plan?first=1', '/practice/mistakes', '/howto', '/diary', '/course', '/course?level=3',
       for (final pk in course['packs']) '/pack/${pk['id']}',
       for (final id in firstByLevel.values) ...['/lesson/$id', '/practice/$id', '/chat/$id'],
       '/practice/${units.first['id']}',

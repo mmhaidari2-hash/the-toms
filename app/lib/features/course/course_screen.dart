@@ -98,7 +98,33 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                       ],
                     ),
                     // Study plan: goal level, target date and this week's pace (tap to edit).
-                    const Padding(padding: EdgeInsets.fromLTRB(12, 6, 0, 2), child: PlanCard(compact: true)),
+                    Padding(
+                padding: const EdgeInsets.fromLTRB(12, 6, 0, 2),
+                child: Row(children: [
+                  const Expanded(child: PlanCard(compact: true)),
+                  // My mistakes: wrong answers come back as their own short lesson.
+                  if (ref.read(progressProvider.notifier).mistakeList.isNotEmpty) ...[
+                    const SizedBox(width: 6),
+                    Material(
+                      color: const Color(0x1FC8102E),
+                      borderRadius: BorderRadius.circular(99),
+                      child: InkWell(
+                        key: const ValueKey('mistakes-chip'),
+                        borderRadius: BorderRadius.circular(99),
+                        onTap: () => context.push('/practice/mistakes'),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+                          child: Row(mainAxisSize: MainAxisSize.min, children: [
+                            const Icon(Icons.replay_rounded, size: 16, color: BL.red),
+                            const SizedBox(width: 3),
+                            Text('${ref.read(progressProvider.notifier).mistakeList.length}', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 12.5, color: BL.red)),
+                          ]),
+                        ),
+                      ),
+                    ),
+                  ],
+                ]),
+              ),
                   ],
                 ),
               ),

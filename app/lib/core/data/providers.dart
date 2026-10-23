@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../engine/emotion_engine.dart';
@@ -185,6 +187,41 @@ class ProgressController extends Notifier<UserProgress> {
     return 0;
   }
   DateTime get now => _now;
+
+  // ---- My mistakes: wrong practice answers come back in their own review lesson (cap 60, oldest dropped).
+  /// Records a wrong answer. [data] describes the item (t = w word / f gap / s sentence).
+  void recordMistake(String key, Map<String, dynamic> data) {
+    final m = {...state.mistakes};
+    final old = m[key] == null ? null : jsonDecode(m[key]!) as Map<String, dynamic>;
+    m.remove(key);
+    m[key] = jsonEncode({...data, 'n': ((old?['n'] as int?) ?? 0) + 1, 'd': Motivation.day(_now)});
+    while (m.length > 60) {
+      m.remove(m.keys.first);
+    }
+    state = state.copyWith(mistakes: m);
+    _save();
+  }
+  /// Answered right in the mistakes review: it is fixed and leaves the list.
+  void clearMistake(String key) {
+    if (!state.mistakes.containsKey(key)) return;
+    state = state.copyWith(mistakes: {...state.mistakes}..remove(key));
+    _save();
+  }
+  /// Mistakes to review, most-repeated first, then most recent.
+  List<(String, Map<String, dynamic>)> get mistakeList {
+    final out = <(String, Map<String, dynamic>)>[];
+    for (final e in state.mistakes.entries) {
+      try {
+        out.add((e.key, jsonDecode(e.value) as Map<String, dynamic>));
+      } catch (_) {}
+    }
+    final order = state.mistakes.keys.toList();
+    out.sort((a, b) {
+      final c = ((b.$2['n'] as int?) ?? 1).compareTo((a.$2['n'] as int?) ?? 1);
+      return c != 0 ? c : order.indexOf(b.$1).compareTo(order.indexOf(a.$1));
+    });
+    return out;
+  }
   /// Days a streak freeze covered (most recent last).
   Set<String> get freezeDays => _m('freeze:used').split(',').where((d) => d.isNotEmpty).toSet();
   /// The last [n] days, oldest first: 'done' (practised), 'freeze' (covered by a freeze), 'today' (not yet) or 'missed'.

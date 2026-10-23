@@ -456,6 +456,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     ]),
     ('You & the family', 'شما و خانواده', [
       (Icons.flag_rounded, 'My study plan', 'برنامهٔ مطالعه', '/plan'),
+      (Icons.replay_rounded, 'My mistakes', 'اشتباه‌های من', '/practice/mistakes'),
       (Icons.local_fire_department_rounded, 'Progress', 'پیشرفت و نشان‌ها', '/progress'),
       (Icons.family_restroom_rounded, 'Family', 'خانواده و داستان‌ها', '/family'),
       (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),

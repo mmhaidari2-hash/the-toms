@@ -109,6 +109,43 @@ List<Item> buildPractice(ContentBundle c, String id, {List<NewWord> review = con
   return out;
 }
 
+/// Id of the "My mistakes" review lesson (/practice/mistakes).
+const mistakesId = 'mistakes';
+
+/// Stable key + data for a practice item, so a wrong answer can come back later. Null for items that can't be replayed alone.
+(String, Map<String, dynamic>)? mistakeOf(Item it, String from) => switch (it) {
+  ListenPick() => ('w:${it.word.toLowerCase()}', {'t': 'w', 'w': it.word, 'l': from}),
+  FillGap() => ('f:${it.before}_${it.after}', {'t': 'f', 'b': it.before, 'a': it.answer, 'x': it.after, 'fa': it.fa, 'l': from}),
+  BuildSentence() => ('s:${it.answer.join(' ')}', {'t': 's', 'a': it.answer, 'fa': it.fa, 'l': from}),
+  TapObject() => null,
+};
+
+/// The "My mistakes" lesson: up to [max] earlier wrong answers rebuilt as fresh items (new distractors, reshuffled words).
+List<Item> buildMistakes(ContentBundle c, List<(String, Map<String, dynamic>)> ms, {int max = 10}) {
+  final rnd = Random(ms.length * 7919 + ms.fold(0, (a, e) => a + e.$1.length));
+  final pool = {for (final l in c.course.lessons) for (final w in l.words) w.word}.toList();
+  List<String> opts(String right, {bool single = true}) {
+    final o = pool.where((x) => x.toLowerCase() != right.toLowerCase() && (!single || !x.contains(' '))).toSet().toList()..shuffle(rnd);
+    return [right, ...o.take(2)]..shuffle(rnd);
+  }
+  final out = <Item>[];
+  for (final (_, m) in ms.take(max)) {
+    switch (m['t']) {
+      case 'w':
+        out.add(ListenPick(m['w'] as String, opts(m['w'] as String, single: !(m['w'] as String).contains(' '))));
+      case 'f':
+        final a = m['a'] as String;
+        out.add(FillGap(m['b'] as String, m['x'] as String, a, opts(a, single: !a.contains(' ')), m['fa'] as String? ?? ''));
+      case 's':
+        final a = List<String>.from(m['a'] as List);
+        final sh = [...a]..shuffle(rnd);
+        if (sh.join(' ') == a.join(' ') && sh.length > 1) sh.insert(0, sh.removeLast());
+        out.add(BuildSentence(a, sh, m['fa'] as String? ?? ''));
+    }
+  }
+  return out;
+}
+
 class PracticeScreen extends ConsumerStatefulWidget {
   final String id;
   const PracticeScreen({super.key, required this.id});
@@ -126,6 +163,11 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
 
   void _init(ContentBundle c) {
     if (_items != null) return;
+    if (widget.id == mistakesId) {
+      _items = buildMistakes(c, ref.read(progressProvider.notifier).mistakeList);
+      if (_items!.isNotEmpty) WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
+      return;
+    }
     final p = ref.read(progressProvider);
     final mine = {for (final l in (c.course.unit(widget.id)?.lessons ?? [c.course.lesson(widget.id)!])) for (final w in l.words) w.word};
     // Narrative spaced review: the weakest earlier words come back.
@@ -145,6 +187,15 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
 
   void _answer(bool ok, {String? picked, String? say}) {
     if (_ok != null) return;
+    final mk = mistakeOf(_items![_i], widget.id);
+    if (mk != null) {
+      final ctrl = ref.read(progressProvider.notifier);
+      if (!ok) {
+        ctrl.recordMistake(mk.$1, mk.$2);
+      } else if (widget.id == mistakesId) {
+        ctrl.clearMistake(mk.$1);
+      }
+    }
     ok ? HapticFeedback.lightImpact() : HapticFeedback.selectionClick();
     setState(() {
       _ok = ok;
@@ -158,6 +209,14 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     if (_i + 1 >= _items!.length) {
       final pct = (_right * 100 / _items!.length).round();
       final c = ref.read(contentProvider).value!;
+      if (widget.id == mistakesId) {
+        final award = ref.read(progressProvider.notifier).awardXp(5 + 2 * _right);
+        setState(() {
+          _award = award;
+          _i++;
+        });
+        return;
+      }
       final award = ref.read(progressProvider.notifier).savePractice(widget.id, pct, storyScenes: c.course.lesson(widget.id)?.sceneIds ?? const []);
       setState(() {
         _award = award;
@@ -181,6 +240,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     _init(c);
     final items = _items!;
     final pad = MediaQuery.paddingOf(context);
+    if (items.isEmpty) return _noMistakes(pad);
     final checkpoint = c.course.unit(widget.id) != null;
     return Scaffold(
       backgroundColor: BL.cream,
@@ -413,7 +473,40 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     );
   }
 
+  Widget _noMistakes(EdgeInsets pad) => Scaffold(
+    backgroundColor: BL.cream,
+    body: Padding(
+      padding: EdgeInsets.fromLTRB(20, pad.top + 8, 20, pad.bottom + 16),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        NavBack(fallback: '/'),
+        const Spacer(),
+        const Center(child: Icon(Icons.verified_rounded, size: 72, color: BL.green)),
+        const SizedBox(height: 12),
+        Center(child: Text('No mistakes to fix', key: const ValueKey('mistakes-empty'), style: BL.display(26))),
+        Center(child: Text('اشتباهی برای مرور نداری', textDirection: TextDirection.rtl, style: BL.fa(14))),
+        const SizedBox(height: 10),
+        const Text('When you get an answer wrong in practice, it comes back here so you can try again. Get it right and it leaves the list.',
+            textAlign: TextAlign.center, style: TextStyle(fontSize: 14.5, height: 1.35, color: BL.ink)),
+        const Spacer(flex: 2),
+      ]),
+    ),
+  );
+
   Widget _done(bool checkpoint) {
+    if (widget.id == mistakesId) {
+      final left = ref.read(progressProvider.notifier).mistakeList.length;
+      return Celebration(
+        key: const ValueKey('practice-celebrate'),
+        title: left == 0 ? 'All mistakes fixed!' : 'Mistakes reviewed',
+        titleFa: left == 0 ? 'همهٔ اشتباه‌ها درست شد!' : '$left مورد هنوز برای مرور مانده.',
+        award: _award ?? const XpAward(),
+        pass: true,
+        checkpoint: false,
+        right: _right,
+        total: _items!.length,
+        onContinue: () => goBack(context, '/'),
+      );
+    }
     final pct = (_right * 100 / _items!.length).round();
     final pass = pct >= (checkpoint ? 70 : 60);
     final c = ref.read(contentProvider).value!;

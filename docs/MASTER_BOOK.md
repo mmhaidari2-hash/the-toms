@@ -451,3 +451,9 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - Map place rings are warm gold for every state: current-level places have a thicker bright-gold ring with a glow, visited places a gold ring + green tick, locked places a faint ring + lock.
 - Android home-screen widget: needs the Android SDK/JDK on the box (not installed) — planned with the APK run.
 - Tests: `test/streak_test.dart`.
+
+## My mistakes (run 11)
+- Every wrong answer in a practice lesson is saved (word / before-after / sentence items; tap-object items are skipped). Up to 60 are kept, each with a miss count and the date.
+- `/practice/mistakes` builds a lesson from up to 10 mistakes, most-missed first. A right answer removes the item from the list. XP = 5 + 2 × right.
+- If there are no mistakes, an empty "nothing to fix" screen appears. When the list has items, a chip with the count shows on the My path header next to the plan line. There is also a 'My mistakes' menu entry.
+- Tests: test/mistakes_test.dart.
