@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:typed_data';
 
 import 'package:british_life/core/platform/retry_bundle.dart';
 import 'package:flutter/foundation.dart' show FlutterError;
