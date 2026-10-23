@@ -62,13 +62,15 @@ class GClass {
 
 class Grammar {
   static const classes = [
-    GClass('A1', 'Beginner', 'مبتدی', 'be, have got, a/an/the, plurals, present simple, can'),
-    GClass('A2', 'Elementary', 'مقدماتی', 'past simple, present continuous, comparatives'),
-    GClass('B1', 'Intermediate', 'متوسط', 'present perfect, future forms, first conditional, modals'),
-    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'second & third conditionals, passive, reported speech, used to'),
-    GClass('C1', 'Advanced', 'پیشرفته', 'inversion, mixed conditionals, wish, cleft sentences, causative'),
+    GClass('A1', 'Beginner', 'مبتدی', 'be, this/that, possessives, there is, have got, present simple & questions, can, imperatives, prepositions, would like'),
+    GClass('A2', 'Elementary', 'مقدماتی', 'present continuous, past simple & past continuous, going to & will, countable nouns, comparatives, adverbs, should, verb patterns'),
+    GClass('B1', 'Intermediate', 'متوسط', 'present perfect (simple & continuous), past perfect, future forms, zero & first conditionals, modals, relative clauses, question tags, phrasal verbs'),
+    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'past perfect continuous, future continuous & perfect, second & third conditionals, passive, reported speech, deduction, contrast linkers'),
+    GClass('C1', 'Advanced', 'پیشرفته', 'future perfect continuous, future in the past, inversion, mixed conditionals, wish, cleft sentences, subjunctive, ellipsis, formal style'),
   ];
   static const pass = 60;
+  /// A1–A2 are taught at St Mary's School; B1–C1 at Riverside Adult College (fictional).
+  static bool atCollege(String code) => const {'B1', 'B2', 'C1'}.contains(code);
   static int courseLevel(String code) => classes.indexWhere((c) => c.code == code) + 1;
   static List<GTopic> parse(String raw) => [for (final t in (jsonDecode(raw) as Map)['topics'] as List) GTopic.fromJson(t)];
 }

@@ -26,6 +26,7 @@ class GrammarGate {
     if (of(code).isEmpty) return false;
     final i = Grammar.classes.indexWhere((c) => c.code == code);
     if (i <= 0 || unlockAll) return true;
+    if (of(code).any((t) => ctrl.grammarPassed(t.id))) return true;
     if (classDone(Grammar.classes[i - 1].code)) return true;
     final c = content?.course;
     if (c == null) return false;
@@ -39,12 +40,14 @@ class GrammarGate {
   bool topicOpen(GTopic t) {
     if (!classOpen(t.level)) return false;
     final l = of(t.level), i = l.indexOf(t);
-    return i == 0 || unlockAll || ctrl.grammarPassed(l[i - 1].id);
+    return i == 0 || unlockAll || ctrl.grammarPassed(t.id) || ctrl.grammarPassed(l[i - 1].id);
   }
 }
 
 class SchoolScreen extends ConsumerWidget {
-  const SchoolScreen({super.key});
+  /// Opened from the college on the map: B1–C1 are listed first.
+  final bool college;
+  const SchoolScreen({super.key, this.college = false});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final topics = ref.watch(grammarProvider).value;
@@ -77,11 +80,34 @@ class SchoolScreen extends ConsumerWidget {
             ),
           ]),
           const SizedBox(height: 18),
-          for (final c in Grammar.classes) _ClassCard(c, g),
+          for (final c in [...Grammar.classes.where((c) => Grammar.atCollege(c.code) == college), ...Grammar.classes.where((c) => Grammar.atCollege(c.code) != college)]) ...[
+            if (c.code == 'A1') ...[if (college) const SizedBox(height: 8), const _Campus("St Mary's School · Classes A1–A2", 'مدرسهٔ سنت مری · کلاس‌های A1 تا A2', key: ValueKey('campus-school'))],
+            if (c.code == 'B1') ...[if (!college) const SizedBox(height: 8), const _Campus('Riverside Adult College · Classes B1–C1', 'کالج بزرگسالان ریورساید · کلاس‌های B1 تا C1', key: ValueKey('campus-college'))],
+            _ClassCard(c, g),
+          ],
         ],
       ),
     );
   }
+}
+
+class _Campus extends StatelessWidget {
+  final String en, fa;
+  const _Campus(this.en, this.fa, {super.key});
+  @override
+  Widget build(BuildContext context) => Padding(
+        padding: const EdgeInsets.fromLTRB(2, 6, 2, 10),
+        child: Row(children: [
+          const Icon(Icons.account_balance_rounded, color: BL.green, size: 20),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(en, style: const TextStyle(fontWeight: FontWeight.w800, color: BL.green, fontSize: 14)),
+              Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5)),
+            ]),
+          ),
+        ]),
+      );
 }
 
 class _ClassCard extends StatelessWidget {

@@ -105,7 +105,7 @@ final router = GoRouter(
     GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),
     GoRoute(path: '/legal', pageBuilder: (_, s) => _fade(LegalScreen(key: ValueKey('legal-${s.uri.queryParameters['tab']}'), tab: s.uri.queryParameters['tab'] ?? 'privacy'), s)),
-    GoRoute(path: '/school', pageBuilder: (_, s) => _fade(const SchoolScreen(), s)),
+    GoRoute(path: '/school', pageBuilder: (_, s) => _fade(SchoolScreen(college: s.uri.queryParameters['campus'] == 'college'), s)),
     GoRoute(path: '/school/:level', pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),
     GoRoute(path: '/grammar/:id', pageBuilder: (_, s) => _fade(TopicScreen(key: ValueKey('grammar-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),

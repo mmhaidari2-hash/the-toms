@@ -583,31 +583,31 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ),
           ],
-          if (s.id == 'school') ...[
+          if (s.id == 'school' || s.id == 'university') ...[
             const SizedBox(height: 12),
             Material(
               color: BL.navy,
               borderRadius: BorderRadius.circular(18),
               child: InkWell(
-                key: const ValueKey('spot-open-school'),
+                key: ValueKey(s.id == 'school' ? 'spot-open-school' : 'spot-open-college'),
                 borderRadius: BorderRadius.circular(18),
                 onTap: () {
                   Navigator.of(sheet).pop();
-                  context.push('/school');
+                  context.push(s.id == 'school' ? '/school' : '/school?campus=college');
                 },
-                child: const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
                   child: Row(
                     children: [
-                      Icon(Icons.school_rounded, color: BL.gold),
-                      SizedBox(width: 12),
+                      const Icon(Icons.school_rounded, color: BL.gold),
+                      const SizedBox(width: 12),
                       Expanded(
                         child: Text(
-                          'Grammar School · Mrs Ellis\'s classrooms',
-                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                          s.id == 'school' ? 'Grammar School · Mrs Ellis\'s classes A1–A2' : 'Riverside Adult College · grammar classes B1–C1',
+                          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
                         ),
                       ),
-                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.white),
                     ],
                   ),
                 ),
