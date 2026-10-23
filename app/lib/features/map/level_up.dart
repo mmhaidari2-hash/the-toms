@@ -3,12 +3,12 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
-import '../../core/models/course.dart';
+import 'map_home.dart';
 import '../shared/widgets.dart';
 
 /// Celebration shown once when the learner moves up a level (level test passed or every unit finished).
 Future<void> showLevelUp(BuildContext context, int level) {
-  final info = Course.levelInfo[level];
+  final zone = mapRegions.where((r) => r.level == level).firstOrNull;
   final cefr = ProgressController.cefrOf(level);
   final prev = ProgressController.cefrOf(level - 1);
   return showGeneralDialog<void>(
@@ -43,10 +43,10 @@ Future<void> showLevelUp(BuildContext context, int level) {
                   _chip(cefr, true),
                 ]),
                 const SizedBox(height: 14),
-                Text("You passed $prev. ${info?.$2 ?? ''} is now open on the map, and your path continues at $cefr.",
+                Text("You passed $prev. ${zone?.title ?? 'The next district'} is now open on the map, and your path continues at $cefr.",
                     textAlign: TextAlign.center, style: const TextStyle(fontSize: 14.5, height: 1.35, color: BL.ink, fontWeight: FontWeight.w600)),
                 const SizedBox(height: 4),
-                Text('سطح $prev را گذراندی. ${info?.$3 ?? ''} روی نقشه باز شد و مسیرت از $cefr ادامه پیدا می‌کند.',
+                Text('سطح $prev را گذراندی. ${zone?.titleFa ?? 'منطقهٔ بعدی'} روی نقشه باز شد و مسیرت از $cefr ادامه پیدا می‌کند.',
                     textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted)),
                 const SizedBox(height: 18),
                 SizedBox(

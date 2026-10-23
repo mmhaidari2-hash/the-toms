@@ -167,7 +167,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                     ),
                 for (final r in mapRegions.where((r) => r.level != null))
                   Positioned(
-                    left: r.pin.dx * w - 30, top: r.pin.dy * h - 14,
+                    left: r.pin.dx * w - 30, top: (r.pin.dy < .11 ? .11 : r.pin.dy) * h - 14, // keep the top district's badge clear of the title bar
                     child: IgnorePointer(child: _ZoneBadge(level: r.level!, open: regionOpen(ctrl, c.course, r), current: r.level == cur, passed: ctrl.levelPassed(c.course, r.level!), progress: ctrl.levelProgress(c.course, r.level!))),
                   ),
                 // The living town: every building / object opens the lessons set there.
