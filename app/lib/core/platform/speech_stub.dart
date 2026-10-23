@@ -4,6 +4,9 @@ export 'speech_result.dart';
 class SpeechInput {
   static bool get sttSupported => false;
   static bool get recordSupported => false;
+  static bool _broken = false;
+  static bool get sttBroken => _broken;
+  static void setBroken(bool v) => _broken = v;
   static bool get isIos => false;
   static bool get isStandalone => false;
   static Future<String?> listen() async => null;

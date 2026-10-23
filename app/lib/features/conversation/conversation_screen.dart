@@ -125,6 +125,7 @@ class _ChatState extends ConsumerState<_Chat> {
   final _msgs = <_Msg>[];
   final _input = TextEditingController();
   final _focus = FocusNode();
+  bool _dictate = false; // the speech-service fallback note is showing
   DialogueNode? _node;
   String _lineSpeaker = '';
   Hotspot? _tapped;
@@ -443,8 +444,8 @@ class _ChatState extends ConsumerState<_Chat> {
       SpeechInput.stop();
       return;
     }
-    if (!SpeechInput.sttSupported) {
-      showMicHelp(context, 'unsupported');
+    if (!SpeechInput.sttSupported || SpeechInput.sttBroken) {
+      _setSpeakMode(true); // -> keyboard dictation fallback
       return;
     }
     SpeechInput.stopClip(); // never listen to our own voice clip
@@ -462,8 +463,13 @@ class _ChatState extends ConsumerState<_Chat> {
       _partial = '';
     });
     if (!r.ok) {
-      if (r.permissionDenied) {
+      if (r.permissionDenied && !SpeechInput.sttBroken) {
         showMicHelp(context, r.error, onType: () => _setSpeakMode(false));
+      } else if (SpeechInput.sttBroken) {
+        // The speech service doesn't run here (often the iPhone Home Screen app): fall back to the keyboard's
+        // own dictation mic, which works everywhere, and say so once.
+        ref.read(progressProvider.notifier).setSpeakMode(false);
+        _dictateNote();
       } else if (r.error != 'aborted') {
         setState(() {
           _speakNote = speechErrorText(r.error);
@@ -499,9 +505,17 @@ class _ChatState extends ConsumerState<_Chat> {
     _send(ts[i].$1);
   }
 
+  /// Fallback note: speak with the keyboard's dictation mic instead (typed text is matched like a spoken reply).
+  void _dictateNote() => setState(() {
+    _dictate = true;
+    _speakNote = 'Speech recognition isn\'t available in this browser mode. Tap “Keyboard mic”, then the 🎤 on your keyboard and say your reply — or just type it.';
+    _speakNoteFa = 'تشخیص گفتار در این حالت مرورگر در دسترس نیست. «Keyboard mic» را بزن، بعد 🎤 روی کیبورد را بزن و جوابت را بگو — یا فقط تایپش کن.';
+  });
+
   void _setSpeakMode(bool on) {
-    if (on && !SpeechInput.sttSupported) {
-      showMicHelp(context, 'unsupported');
+    if (on && (SpeechInput.sttBroken || !SpeechInput.sttSupported)) {
+      _focus.requestFocus(); // inside the tap, so iOS opens the keyboard (with its dictation mic)
+      _dictateNote();
       return;
     }
     ref.read(progressProvider.notifier).setSpeakMode(on);
@@ -1383,7 +1397,7 @@ class _ChatState extends ConsumerState<_Chat> {
     );
   }
 
-  bool get _speaking => ref.read(progressProvider.notifier).speakMode && SpeechInput.sttSupported;
+  bool get _speaking => ref.read(progressProvider.notifier).speakMode && SpeechInput.sttSupported && !SpeechInput.sttBroken;
 
   /// When speech fails: say why (English + helper language) and offer the other two ways to answer.
   Widget _speakFallback() => Container(
@@ -1397,11 +1411,11 @@ class _ChatState extends ConsumerState<_Chat> {
         const Icon(Icons.mic_off_rounded, size: 18, color: Color(0xFFE8C987)),
         const SizedBox(width: 8),
         Expanded(child: Text(_speakNote!, style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3))),
-        InkWell(onTap: () => setState(() => _speakNote = null), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
+        InkWell(onTap: () => setState(() { _speakNote = null; _dictate = false; }), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
       ]),
       if (_speakNoteFa != null) SizedBox(width: double.infinity, child: Text(_speakNoteFa!, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white60))),
       const SizedBox(height: 8),
-      Row(children: [
+      Wrap(spacing: 8, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
         OutlinedButton.icon(
           key: const ValueKey('speak-note-type'),
           style: OutlinedButton.styleFrom(foregroundColor: Colors.white, side: const BorderSide(color: Colors.white30), visualDensity: VisualDensity.compact),
@@ -1409,11 +1423,22 @@ class _ChatState extends ConsumerState<_Chat> {
             _setSpeakMode(false);
             _focus.requestFocus();
           },
-          icon: const Icon(Icons.keyboard_rounded, size: 16),
-          label: const Text('Type it · بنویس'),
+          icon: Icon(_dictate ? Icons.keyboard_voice_rounded : Icons.keyboard_rounded, size: 16),
+          label: Text(_dictate ? 'Keyboard mic' : 'Type it · بنویس'),
         ),
-        const SizedBox(width: 8),
-        const Expanded(child: Text('or tap a reply above · یا یک جواب را بزن', style: TextStyle(color: Colors.white60, fontSize: 11.5))),
+        if (_dictate)
+          TextButton(
+            key: const ValueKey('speak-retry'),
+            style: TextButton.styleFrom(foregroundColor: const Color(0xFFE8C987), visualDensity: VisualDensity.compact),
+            onPressed: () {
+              SpeechInput.setBroken(false);
+              setState(() => _dictate = false);
+              _setSpeakMode(true);
+            },
+            child: const Text('Try app mic again'),
+          )
+        else
+          const Text('or tap a reply above · یا یک جواب را بزن', style: TextStyle(color: Colors.white60, fontSize: 11.5)),
       ]),
     ]),
   );
@@ -1475,7 +1500,7 @@ class _ChatState extends ConsumerState<_Chat> {
         ),
       ),
       const SizedBox(width: 8),
-      _round(Icons.mic_rounded, Colors.white.withValues(alpha: .1), _ended ? null : () => _setSpeakMode(true), tip: SpeechInput.sttSupported ? 'Speak your replies' : 'Speaking not available here'),
+      _round(Icons.mic_rounded, Colors.white.withValues(alpha: .1), _ended ? null : () => _setSpeakMode(true), tip: SpeechInput.sttSupported && !SpeechInput.sttBroken ? 'Speak your replies' : 'Speak with the keyboard mic'),
       const SizedBox(width: 8),
       _round(Icons.arrow_upward_rounded, BL.red, _ended ? null : _send, tip: 'Send'),
     ],

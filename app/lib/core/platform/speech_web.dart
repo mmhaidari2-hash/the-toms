@@ -16,6 +16,22 @@ export 'speech_result.dart';
 class SpeechInput {
   static JSFunction? get _ctor => (globalContext['SpeechRecognition'] ?? globalContext['webkitSpeechRecognition']) as JSFunction?;
   static bool get sttSupported => _ctor != null;
+  /// Set when this device's speech service failed to start (iOS Home Screen app, Siri/Dictation off, no
+  /// network): the mic then goes straight to the keyboard's own dictation mic, which works everywhere.
+  static bool get sttBroken {
+    try {
+      return web.window.localStorage.getItem('nl_stt_broken') == '1';
+    } catch (_) {
+      return false;
+    }
+  }
+
+  static void setBroken(bool v) {
+    try {
+      v ? web.window.localStorage.setItem('nl_stt_broken', '1') : web.window.localStorage.removeItem('nl_stt_broken');
+    } catch (_) {}
+  }
+
   static bool get recordSupported => globalContext.has('MediaRecorder') && web.window.navigator.mediaDevices.isA<web.MediaDevices>();
 
   static Future<String?> listen() {
@@ -89,6 +105,8 @@ class SpeechInput {
     var started = false;
     void finish(SpeechResult r) {
       _quiet?.cancel();
+      if (!c.isCompleted && const {'start-failed', 'service-not-allowed', 'network'}.contains(r.error)) setBroken(true);
+      if (!c.isCompleted && r.ok) setBroken(false);
       if (!c.isCompleted) c.complete(r);
     }
 

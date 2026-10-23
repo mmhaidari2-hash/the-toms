@@ -128,11 +128,18 @@ void main() {
     expect(t.takeException(), isNull);
     // Speech isn't available in tests: speak mode stays off (typing composer) even though the pref is on.
     expect(find.byKey(const ValueKey('speak-mic'), skipOffstage: false), findsNothing);
-    final mic = find.byTooltip('Speaking not available here', skipOffstage: false);
+    final mic = find.byTooltip('Speak with the keyboard mic', skipOffstage: false);
     expect(mic, findsOneWidget);
     await t.tap(mic, warnIfMissed: false);
     await t.pump(const Duration(seconds: 1));
-    expect(find.byKey(const ValueKey('mic-help'), skipOffstage: false), findsOneWidget);
+    // Fallback (e.g. iPhone Home Screen app): the keyboard's own dictation mic, the field focused, a retry.
+    expect(find.byKey(const ValueKey('speak-note'), skipOffstage: false), findsOneWidget);
+    expect(find.text('Keyboard mic', skipOffstage: false), findsOneWidget);
+    expect(find.byKey(const ValueKey('speak-retry'), skipOffstage: false), findsOneWidget);
+    expect(FocusManager.instance.primaryFocus?.context?.findAncestorWidgetOfExactType<EditableText>(), isNotNull, reason: 'the reply field is focused, so the keyboard (and its mic) opens');
+    t.widget<ButtonStyleButton>(find.byKey(const ValueKey('speak-note-type'), skipOffstage: false)).onPressed!();
+    await t.pump(const Duration(milliseconds: 500));
+    expect(find.byKey(const ValueKey('speak-note'), skipOffstage: false), findsNothing);
     router.go('/');
     await t.pump(const Duration(seconds: 1));
   });
