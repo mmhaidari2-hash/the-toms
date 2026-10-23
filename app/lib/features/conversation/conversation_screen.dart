@@ -95,7 +95,9 @@ class _Msg {
   final String? fa, raw;
   /// Inline feedback card ("Vida warmed to that") placed in the chat.
   final _Feedback? fb;
-  const _Msg(this.speaker, this.text, {this.node, this.system, this.fa, this.raw, this.fb});
+  /// For the learner's bubbles: the role they spoke as (null = their usual name).
+  final String? asName;
+  const _Msg(this.speaker, this.text, {this.node, this.system, this.fa, this.raw, this.fb, this.asName});
 }
 
 enum _Panel { none, xray, translate, culture, shadow }
@@ -150,7 +152,20 @@ class _ChatState extends ConsumerState<_Chat> {
   PronResult? _pron;
   int? _pronIdx;
   String _partial = '';
-  String? _speakNote;
+  String? _speakNote, _speakNoteFa;
+  // "Play as": false = the learner plays their usual part, true = they swap and play the story's character
+  // (the other side is then voiced for them). Switching never restarts the scene: it carries on from the
+  // current line in the new role.
+  bool _swap = false;
+  /// While swapped: the line the learner now has to say.
+  DialogueNode? _mine;
+  /// Who the learner usually is in this story (and who speaks the replies once they swap).
+  String get _partnerId => widget.s.playAs ?? widget.s.guest ?? 'mehdi';
+  bool get _canSwap => widget.s.nodes.values.any((n) => n.speaker == ch.id) && ch.id != _partnerId;
+  /// What the learner can say now: the reply options, or (swapped) the character's line.
+  List<(String, String?)> get _targets => _swap && _mine != null
+      ? [(_t(_mine!.text), _tFa(lineTranslation(_mine!.translations, _lang)))]
+      : [for (final b in _node?.branches ?? const <Branch>[]) (_t(b.suggestion), _tFa(b.suggestionFa))];
 
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) {
@@ -236,9 +251,23 @@ class _ChatState extends ConsumerState<_Chat> {
   Future<void> _say(DialogueNode n0, {bool first = false}) async {
     final n = n0.atChapter(_ctrl.chapterIndex(widget.c));
     setState(() => _typing = true);
-    await Future.delayed(Duration(milliseconds: first ? 450 : 600 + n.text.length * 10));
+    await Future.delayed(Duration(milliseconds: first ? 450 : (_swap ? 350 : 600 + n.text.length * 10)));
     if (!mounted) return;
     ref.read(progressProvider.notifier).seeWords(n.newWords);
+    if (_swap && n.speaker != _partnerId) {
+      // Swapped: this line is the learner's to say.
+      setState(() {
+        _typing = false;
+        _node = n;
+        _mine = n;
+        _lineSpeaker = n.speaker;
+        _misses = 0;
+        _hints = true;
+        _panel = _Panel.none;
+        _sel = null;
+      });
+      return;
+    }
     if (n.event != null) HapticFeedback.mediumImpact();
     setState(() {
       _typing = false;
@@ -265,6 +294,7 @@ class _ChatState extends ConsumerState<_Chat> {
     final text = (preset ?? _input.text).trim();
     final node = _node;
     if (text.isEmpty || _typing || _ended || node == null) return;
+    if (_swap && _mine != null) return _sendAsLine(text);
     HapticFeedback.lightImpact();
     _input.clear();
     _said++;
@@ -323,6 +353,77 @@ class _ChatState extends ConsumerState<_Chat> {
     }
   }
 
+  /// Swapped: the learner said the character's line; the other side answers and the story moves on.
+  Future<void> _sendAsLine(String text) async {
+    final n = _mine!;
+    _mine = null;
+    HapticFeedback.lightImpact();
+    _input.clear();
+    _said++;
+    final target = _t(n.text);
+    final score = Pronunciation.bestOf([target], [text])?.$2.score ?? 0;
+    final name = _who(n.speaker).name;
+    setState(() {
+      _msgs.add(_Msg('me', text, asName: name));
+      if (score >= 60) {
+        _correct++;
+      } else {
+        _slips++;
+        _fb = _Feedback(_FbKind.recast, '$name’s line was:', target, _tFa(lineTranslation(n.translations, _lang)));
+      }
+    });
+    if (n.isEnd || n.branches.isEmpty) {
+      _finish();
+      return;
+    }
+    await _partnerReply(n);
+  }
+
+  /// The other side (the learner's usual part) answers [n] with its best reply, then the next line comes.
+  Future<void> _partnerReply(DialogueNode n) async {
+    final b = n.branches.firstWhere((b) => b.success, orElse: () => n.branches.first);
+    await _show(_partnerId, b.suggestion, _tFa(b.suggestionFa), delay: 500);
+    if (!mounted || _ended) return;
+    final next = b.next == null ? null : widget.s.nodes[b.next];
+    await Future.delayed(const Duration(milliseconds: 300));
+    if (!mounted) return;
+    if (next != null) {
+      _say(next);
+    } else {
+      _finish();
+    }
+  }
+
+  /// Switch who the learner plays, mid-scene, without restarting.
+  void _setSwap(bool v) {
+    if (v == _swap || _ended) return;
+    HapticFeedback.selectionClick();
+    Voice.stop();
+    final partner = _who(_partnerId).name;
+    setState(() {
+      _swap = v;
+      _pron = null;
+      _pronIdx = null;
+      _speakNote = null;
+      _tapped = null;
+      _hints = v;
+      _msgs.add(_Msg('', '', system: v ? 'Now you are ${ch.name} · حالا تو ${ch.name} هستی' : 'Now you are $partner · حالا تو $partner هستی'));
+    });
+    // Mid-line (someone is typing): the next line simply arrives in the new role.
+    if (_typing) return;
+    final n = _node;
+    if (n == null) return;
+    if (v) {
+      // The reply the learner owed is now spoken by the other side; then it's the learner's line.
+      if (!n.isEnd && n.branches.isNotEmpty) _partnerReply(n);
+    } else {
+      // Back to the usual part: the character says the line the learner was about to say.
+      final m = _mine;
+      _mine = null;
+      if (m != null) _say(m);
+    }
+  }
+
   String _short(String s) => s.length > 28 ? '${s.substring(0, 26)}…' : s;
 
   /// Index of the bubble whose tools are showing: the tapped one, else the latest line from someone else.
@@ -364,11 +465,14 @@ class _ChatState extends ConsumerState<_Chat> {
       if (r.permissionDenied) {
         showMicHelp(context, r.error, onType: () => _setSpeakMode(false));
       } else if (r.error != 'aborted') {
-        setState(() => _speakNote = speechErrorText(r.error));
+        setState(() {
+          _speakNote = speechErrorText(r.error);
+          _speakNoteFa = speechErrorFa(r.error);
+        });
       }
       return;
     }
-    final targets = [for (final b in _node?.branches ?? const <Branch>[]) _t(b.suggestion)];
+    final targets = [for (final t in _targets) t.$1];
     final best = targets.isEmpty ? null : Pronunciation.bestOf(targets, r.alternatives);
     if (best == null || best.$2.score < 35) {
       // Free speech that matches no option: send what was heard, like typing it.
@@ -389,10 +493,10 @@ class _ChatState extends ConsumerState<_Chat> {
   }
 
   void _sendPron() {
-    final i = _pronIdx, branches = _node?.branches ?? const <Branch>[];
-    if (i == null || i >= branches.length) return;
+    final i = _pronIdx, ts = _targets;
+    if (i == null || i >= ts.length) return;
     setState(() => _pron = null);
-    _send(_t(branches[i].suggestion));
+    _send(ts[i].$1);
   }
 
   void _setSpeakMode(bool on) {
@@ -608,7 +712,7 @@ class _ChatState extends ConsumerState<_Chat> {
                 child: Text.rich(
                   TextSpan(
                     children: [
-                      TextSpan(text: m.speaker == 'me' ? '$_meName  ' : '${_who(m.speaker).name}  ', style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
+                      TextSpan(text: m.speaker == 'me' ? '${m.asName ?? _meName}  ' : '${_who(m.speaker).name}  ', style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
                       TextSpan(text: m.text),
                     ],
                   ),
@@ -652,7 +756,7 @@ class _ChatState extends ConsumerState<_Chat> {
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         Text(widget.s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
-                        Text('${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+                        Text(_canSwap ? '${widget.s.level}  ·  ${widget.s.setting}' : '${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
                       ]),
                     ),
                     IconButton(
@@ -687,7 +791,8 @@ class _ChatState extends ConsumerState<_Chat> {
             Expanded(child: _chatList()),
             _bottom(pad),
           ]),
-          if (cover != null) Positioned(right: 10, top: pad.top + 58, child: ConstrainedBox(constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width * .5), child: _peopleChips(_tapHost(cover, host)))),
+          if (_canSwap) Positioned(right: 10, top: pad.top + 54, child: _playAs()),
+          if (cover != null) Positioned(right: 10, bottom: null, top: bannerH - 46, child: ConstrainedBox(constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width * .38), child: _peopleChips(_tapHost(cover, host)))),
           if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + 6, child: _tapCard(_tapped!)),
         ]),
       ),
@@ -740,7 +845,7 @@ class _ChatState extends ConsumerState<_Chat> {
           child: ConstrainedBox(
             constraints: BoxConstraints(maxWidth: maxW),
             child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(_meName, style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
+              Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(m.asName ?? _meName, style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
               _bubbleBox(Text(m.text, style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
             ]),
           ),
@@ -798,7 +903,7 @@ class _ChatState extends ConsumerState<_Chat> {
               onListen: () => Voice.say('me', _pron!.target),
               onSend: _ended ? null : _sendPron,
             ),
-          if (_speakNote != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(_speakNote!, key: const ValueKey('speak-note'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 13))),
+          if (_speakNote != null) _speakFallback(),
           const SizedBox(height: 6),
           _speaking ? _speakComposer() : _composer(),
         ]),
@@ -860,13 +965,53 @@ class _ChatState extends ConsumerState<_Chat> {
     });
   }
 
+  /// The labelled role switch: "Play as · در نقش  [You] [Siân]".
+  Widget _playAs() {
+    final me = _who(_partnerId);
+    Widget opt(Character c, String label, bool on, VoidCallback tap, Key key) => Semantics(
+      button: true,
+      selected: on,
+      label: 'Play as $label',
+      child: GestureDetector(
+        key: key,
+        onTap: tap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 220),
+          curve: Curves.easeOutCubic,
+          padding: const EdgeInsets.fromLTRB(3, 3, 10, 3),
+          decoration: BoxDecoration(color: on ? const Color(0xFFE9B949) : Colors.transparent, borderRadius: BorderRadius.circular(99)),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Avatar(c, size: 22, ring: false),
+            const SizedBox(width: 5),
+            ConstrainedBox(constraints: const BoxConstraints(maxWidth: 64), child: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(color: on ? BL.ink : Colors.white, fontWeight: FontWeight.w800, fontSize: 12.5))),
+          ]),
+        ),
+      ),
+    );
+    return Container(
+      key: const ValueKey('play-as'),
+      padding: const EdgeInsets.fromLTRB(8, 3, 3, 3),
+      decoration: BoxDecoration(color: const Color(0xCC140E0A), borderRadius: BorderRadius.circular(99), border: Border.all(color: const Color(0x99E9B949))),
+      child: Row(mainAxisSize: MainAxisSize.min, children: [
+        Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, children: [
+          const Text('Play as', style: TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, fontWeight: FontWeight.w800, height: 1.1)),
+          Text('در نقش', textDirection: TextDirection.rtl, style: BL.fa(10, color: Colors.white60).copyWith(height: 1.2)),
+        ]),
+        const SizedBox(width: 6),
+        opt(me, _learner.isEmpty && _partnerId == 'mehdi' ? 'You' : me.name, !_swap, () => _setSwap(false), const ValueKey('playas-me')),
+        opt(ch, ch.name, _swap, () => _setSwap(true), const ValueKey('playas-them')),
+      ]),
+    );
+  }
+
   /// Portrait chips for everyone in the painting: tap one to pan to them and hear them.
   Widget _peopleChips(Place? th) {
     final ps = _people(th);
     if (ps.length < 2) return const SizedBox.shrink();
     return ConstrainedBox(
       constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width - 24),
-      child: Wrap(children: [
+      child: Wrap(crossAxisAlignment: WrapCrossAlignment.center, children: [
+        const Tooltip(message: 'Tap someone to hear them', child: Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.hearing_rounded, size: 16, color: Colors.white70))),
         for (final h in ps)
           Padding(
             padding: const EdgeInsets.only(right: 6),
@@ -880,7 +1025,7 @@ class _ChatState extends ConsumerState<_Chat> {
               child: Container(
                 padding: const EdgeInsets.all(2),
                 decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.black38, border: Border.all(color: _tapped == h ? const Color(0xFFE9B949) : Colors.white24, width: 1.5)),
-                child: Avatar(widget.c.character(h.characterId), size: 30, ring: false),
+                child: Avatar(widget.c.character(h.characterId), size: 26, ring: false),
               ),
             ),
           ),
@@ -1147,7 +1292,7 @@ class _ChatState extends ConsumerState<_Chat> {
     );
   }
 
-  Widget _hintChips() => Padding(
+  Widget _hintChips() => _swap && _mine != null ? _lineCard() : Padding(
     padding: const EdgeInsets.only(top: 10),
     child: SizedBox(
       height: 62,
@@ -1158,6 +1303,7 @@ class _ChatState extends ConsumerState<_Chat> {
             Padding(
               padding: const EdgeInsets.only(right: 8),
               child: Pressable(
+                key: ValueKey('reply-chip-${b.next}'),
                 onTap: () => _send(_t(b.suggestion)),
                 child: Container(
                   width: 210,
@@ -1179,7 +1325,66 @@ class _ChatState extends ConsumerState<_Chat> {
     ),
   );
 
+  /// Swapped: the character's line for the learner to say (tap it to say it, or tap the speaker to hear it first).
+  Widget _lineCard() {
+    final t = _targets.first;
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Pressable(
+        key: const ValueKey('my-line'),
+        onTap: () => _send(t.$1),
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.fromLTRB(12, 8, 4, 8),
+          decoration: BoxDecoration(color: const Color(0x22E9B949), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xAAE9B949))),
+          child: Row(children: [
+            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('YOUR LINE AS ${ch.name.toUpperCase()}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1, fontWeight: FontWeight.w800)),
+              const SizedBox(height: 2),
+              Text(t.$1, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 14.5, height: 1.3)),
+              if (t.$2 != null && t.$2!.isNotEmpty) SizedBox(width: double.infinity, child: Text(t.$2!, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: Colors.white54))),
+            ])),
+            IconButton(tooltip: 'Hear it', onPressed: () => Voice.say(ch.id, _mine?.text ?? t.$1, rate: _autoRate, shown: t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
+          ]),
+        ),
+      ),
+    );
+  }
+
   bool get _speaking => ref.read(progressProvider.notifier).speakMode && SpeechInput.sttSupported;
+
+  /// When speech fails: say why (English + helper language) and offer the other two ways to answer.
+  Widget _speakFallback() => Container(
+    key: const ValueKey('speak-note'),
+    width: double.infinity,
+    margin: const EdgeInsets.only(top: 8),
+    padding: const EdgeInsets.fromLTRB(12, 10, 10, 10),
+    decoration: BoxDecoration(color: const Color(0x33E9B949), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0x66E9B949))),
+    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        const Icon(Icons.mic_off_rounded, size: 18, color: Color(0xFFE8C987)),
+        const SizedBox(width: 8),
+        Expanded(child: Text(_speakNote!, style: const TextStyle(color: Colors.white, fontSize: 13.5, height: 1.3))),
+        InkWell(onTap: () => setState(() => _speakNote = null), child: const Icon(Icons.close_rounded, size: 16, color: Colors.white38)),
+      ]),
+      if (_speakNoteFa != null) SizedBox(width: double.infinity, child: Text(_speakNoteFa!, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white60))),
+      const SizedBox(height: 8),
+      Row(children: [
+        OutlinedButton.icon(
+          key: const ValueKey('speak-note-type'),
+          style: OutlinedButton.styleFrom(foregroundColor: Colors.white, side: const BorderSide(color: Colors.white30), visualDensity: VisualDensity.compact),
+          onPressed: () {
+            _setSpeakMode(false);
+            _focus.requestFocus();
+          },
+          icon: const Icon(Icons.keyboard_rounded, size: 16),
+          label: const Text('Type it · بنویس'),
+        ),
+        const SizedBox(width: 8),
+        const Expanded(child: Text('or tap a reply above · یا یک جواب را بزن', style: TextStyle(color: Colors.white60, fontSize: 11.5))),
+      ]),
+    ]),
+  );
 
   /// Speak-the-reply composer: one big mic; the reply options above are the targets.
   Widget _speakComposer() => Row(
@@ -1199,7 +1404,7 @@ class _ChatState extends ConsumerState<_Chat> {
               Icon(_listening ? Icons.graphic_eq_rounded : Icons.mic_rounded, color: Colors.white),
               const SizedBox(width: 10),
               Expanded(child: Text(
-                _ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? 'Listening… say one of the replies' : _partial) : 'Tap and say your reply',
+                _ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? (_swap ? 'Listening… say your line' : 'Listening… say one of the replies') : _partial) : (_swap ? 'Tap and say ${ch.name}’s line' : 'Tap and say your reply'),
                 maxLines: 1, overflow: TextOverflow.ellipsis,
                 style: TextStyle(color: _listening ? Colors.white : Colors.white70, fontWeight: FontWeight.w700, fontSize: 15),
               )),

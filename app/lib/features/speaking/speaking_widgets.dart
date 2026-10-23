@@ -208,6 +208,10 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                 const Text('Settings › General › Keyboard › Enable Dictation (on).'),
                 const SizedBox(height: 6),
                 const Text('Then come back and tap the microphone again.'),
+                if (SpeechInput.isStandalone) ...[
+                  const SizedBox(height: 6),
+                  const Text(key: ValueKey('mic-help-standalone'), 'Opened from your Home Screen? Apple may not allow speech there: open New Life UK in Safari to speak, or type / tap your reply.'),
+                ],
               ] else ...[
                 const Text(
                   key: ValueKey('mic-privacy'),
@@ -259,11 +263,26 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
 
 /// Short message for a recognition error that is not a permission problem.
 String speechErrorText(String? e) => switch (e) {
-  'no-speech' => 'I didn\'t catch anything. Tap the mic and speak a little louder.',
+  'no-speech' => 'I didn\'t catch that. Tap the mic, wait for red, then speak — or tap a reply above.',
+  'start-failed' => SpeechInput.isStandalone
+      ? 'Speech isn\'t working in the Home Screen app. Open it in Safari to speak, or type / tap a reply.'
+      : 'The microphone didn\'t start. Check Dictation is on, or type / tap a reply.',
   'audio-capture' => 'No microphone found. Is another app using it?',
   'network' => 'Speech recognition needs the internet on this device.',
   'aborted' => 'Stopped.',
-  _ => 'Something went wrong. Please try again.',
+  _ => 'Something went wrong. Try again, or type / tap a reply.',
+};
+
+/// The same message in the helper language.
+String speechErrorFa(String? e) => switch (e) {
+  'no-speech' => 'صدایت را نشنیدم. میکروفون را بزن، صبر کن قرمز شود، بعد حرف بزن — یا یکی از جواب‌های بالا را بزن.',
+  'start-failed' => SpeechInput.isStandalone
+      ? 'گفتار در نسخهٔ صفحهٔ اصلی کار نمی‌کند. برنامه را در سافاری باز کن، یا جوابت را بنویس یا انتخاب کن.'
+      : 'میکروفون روشن نشد. دیکته (Dictation) را روشن کن، یا جوابت را بنویس یا انتخاب کن.',
+  'audio-capture' => 'میکروفونی پیدا نشد. شاید برنامهٔ دیگری از آن استفاده می‌کند.',
+  'network' => 'تشخیص گفتار روی این دستگاه به اینترنت نیاز دارد.',
+  'aborted' => 'متوقف شد.',
+  _ => 'مشکلی پیش آمد. دوباره امتحان کن، یا جوابت را بنویس یا انتخاب کن.',
 };
 
 bool get speechAvailable => SpeechInput.sttSupported;

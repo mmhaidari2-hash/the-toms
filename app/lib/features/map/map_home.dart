@@ -1,4 +1,6 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -9,6 +11,7 @@ import '../shared/widgets.dart';
 import '../motivation/motivation_widgets.dart';
 import '../../core/platform/remind.dart';
 import 'map_spots.dart';
+import 'map_loupe.dart';
 import '../shared/bottom_nav.dart';
 import 'level_up.dart';
 import '../shared/lang_bar.dart';
@@ -53,6 +56,47 @@ class MapHome extends ConsumerStatefulWidget {
 class _MapHomeState extends ConsumerState<MapHome> {
   final _scroll = ScrollController();
   bool _centred = false, _celebrating = false;
+  /// Glass loupe: the finger / mouse point on the map (null = no lens) and the spot under it.
+  Offset? _lens;
+  MapSpot? _lensSpot;
+  bool _lensTouch = false;
+
+  void _moveLens(Offset? at, List<MapSpot> spots, double w, double h) {
+    MapSpot? best;
+    var bd = 46.0;
+    if (at != null) {
+      for (final s in spots) {
+        final d = (Offset(s.x * w, s.y * h) - at).distance;
+        if (d < bd) {
+          bd = d;
+          best = s;
+        }
+      }
+    }
+    if (best != null && best != _lensSpot && _lensTouch) HapticFeedback.selectionClick();
+    setState(() {
+      _lens = at;
+      _lensSpot = best;
+    });
+  }
+
+  /// How much a spot grows near the lens: the one under it most, its neighbours a little.
+  double _lensScale(MapSpot s, double w, double h) {
+    final at = _lens;
+    if (at == null) return 1;
+    if (s == _lensSpot) return 1.28;
+    final d = (Offset(s.x * w, s.y * h) - at).distance;
+    return 1 + .14 * (1 - d / 150).clamp(0.0, 1.0);
+  }
+
+  /// "A1", "A1–A2" or "All levels" for a spot.
+  String? _spotLevel(MapSpot s, ContentBundle c) {
+    if (featureSpots.contains(s.id)) return 'All levels';
+    final lv = {for (final l in spotLessons(c.course, s)) ?c.course.unitOf(l.id)?.level}.toList()..sort();
+    if (lv.isEmpty) return null;
+    final a = ProgressController.cefrOf(lv.first), b = ProgressController.cefrOf(lv.last);
+    return a == b ? a : '$a–$b';
+  }
 
   /// Moved up a level since the last visit? Celebrate once, then the map and path follow the new level.
   void _checkLevelUp(ContentBundle c) {
@@ -148,10 +192,43 @@ class _MapHomeState extends ConsumerState<MapHome> {
             controller: _scroll,
             scrollDirection: Axis.horizontal,
             physics: const ClampingScrollPhysics(),
-            child: SizedBox(
+            child: MouseRegion(
+              onHover: (e) { if (e.kind == PointerDeviceKind.mouse) _moveLens(e.localPosition, spots, w, h); },
+              onExit: (_) { if (!_lensTouch) _moveLens(null, spots, w, h); },
+              child: RawGestureDetector(
+              gestures: {
+                // Press, hold for a moment, then slide: the loupe follows the finger (a quick swipe still scrolls).
+                LongPressGestureRecognizer: GestureRecognizerFactoryWithHandlers<LongPressGestureRecognizer>(
+                  () => LongPressGestureRecognizer(duration: const Duration(milliseconds: 170)),
+                  (g) => g
+                    ..onLongPressStart = (d) {
+                      _lensTouch = true;
+                      HapticFeedback.lightImpact();
+                      _moveLens(d.localPosition, spots, w, h);
+                    }
+                    ..onLongPressMoveUpdate = (d) {
+                      _moveLens(d.localPosition, spots, w, h);
+                    }
+                    ..onLongPressEnd = (_) {
+                      // Let go on a place: open it.
+                      final s = _lensSpot;
+                      _lensTouch = false;
+                      _moveLens(null, spots, w, h);
+                      if (s != null) {
+                        ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                        showSpotSheet(context, ref, s, c);
+                      }
+                    }
+                    ..onLongPressCancel = () {
+                      _lensTouch = false;
+                      if (_lens != null) _moveLens(null, spots, w, h);
+                    },
+                ),
+              },
+              child: SizedBox(
               width: w,
               height: h,
-              child: Stack(children: [
+              child: Stack(clipBehavior: Clip.none, children: [
                 Positioned.fill(child: Image.asset(mapImage, fit: BoxFit.cover)),
                 for (final r in mapRegions)
                   for (final rc in r.rects)
@@ -175,7 +252,12 @@ class _MapHomeState extends ConsumerState<MapHome> {
                 for (final s in spots)
                   Positioned(
                     left: s.x * w - SpotMarker.width / 2, top: s.y * h - 22,
-                    child: SpotMarker(
+                    child: AnimatedScale(
+                      scale: _lensScale(s, w, h),
+                      duration: const Duration(milliseconds: 160),
+                      curve: Curves.easeOutCubic,
+                      alignment: const Alignment(0, -.45),
+                      child: SpotMarker(
                       s: s,
                       open: featureSpots.contains(s.id) || spotLessons(c.course, s).any((l) => ctrl.lessonOpen(c.course, l)),
                       visited: spotLessons(c.course, s).any(ctrl.lessonDone),
@@ -185,8 +267,24 @@ class _MapHomeState extends ConsumerState<MapHome> {
                         showSpotSheet(context, ref, s, c);
                       },
                     ),
+                    ),
+                  ),
+                if (_lens != null)
+                  Positioned.fill(
+                    child: IgnorePointer(
+                      child: MapLoupe(
+                        key: ValueKey('map-loupe-${_lensSpot?.id ?? ''}'),
+                        at: _lensSpot == null ? _lens! : Offset(_lensSpot!.x * w, _lensSpot!.y * h),
+                        title: _lensSpot?.title,
+                        titleFa: _lensSpot?.titleFa,
+                        level: _lensSpot == null ? null : _spotLevel(_lensSpot!, c),
+                        open: _lensSpot == null || featureSpots.contains(_lensSpot!.id) || spotLessons(c.course, _lensSpot!).any((l) => ctrl.lessonOpen(c.course, l)),
+                      ),
+                    ),
                   ),
               ]),
+            ),
+            ),
             ),
           ),
           // Top bar

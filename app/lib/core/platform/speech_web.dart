@@ -42,57 +42,141 @@ class SpeechInput {
   }
 
   static JSObject? _active;
+  static Timer? _quiet;
+
+  /// iPhone / iPad (including iPadOS that reports itself as a Mac).
+  static bool get isIos {
+    final ua = web.window.navigator.userAgent;
+    return RegExp('iPhone|iPad|iPod').hasMatch(ua) || (ua.contains('Macintosh') && web.window.navigator.maxTouchPoints > 1);
+  }
+
+  /// Opened from the Home Screen (iOS standalone web app), where Apple's speech service is often unavailable.
+  static bool get isStandalone {
+    try {
+      final nav = web.window.navigator as JSObject;
+      if ((nav['standalone'] as JSBoolean?)?.toDart ?? false) return true;
+      return web.window.matchMedia('(display-mode: standalone)').matches;
+    } catch (_) {
+      return false;
+    }
+  }
 
   /// Detailed recognition: up to 3 alternatives, live partial text and a clear error code
-  /// ('not-allowed' = mic or speech permission denied, 'service-not-allowed' = iPhone Siri/Dictation off,
-  /// 'no-speech', 'audio-capture', 'network', 'aborted'). Must be called straight from a tap (iOS).
+  /// ('not-allowed' = mic or speech permission denied, 'service-not-allowed' = iPhone Siri/Dictation off or a
+  /// Home Screen app without speech, 'no-speech', 'audio-capture', 'network', 'aborted', 'start-failed').
+  /// Must be called straight from a tap (iOS).
+  ///
+  /// iOS Safari quirks handled here: it often never marks a result final and may not end by itself after the
+  /// learner stops talking, and a tap on "stop" ends without a final result. So the latest partial text counts
+  /// as the answer, ~1.4 s of silence after speech ends the turn, and the turn is capped at 10 s.
   static Future<SpeechResult> listenDetailed({void Function(String partial)? onPartial}) {
     final c = Completer<SpeechResult>();
     final ctor = _ctor;
     if (ctor == null) return Future.value(const SpeechResult(error: 'unsupported'));
     stop();
+    // Our own clips must be silent first: iOS will not record while an audio element is playing.
+    stopClip();
+    stopFx();
     final rec = ctor.callAsConstructor<JSObject>();
     _active = rec;
     rec['lang'] = 'en-GB'.toJS;
-    rec['interimResults'] = (onPartial != null).toJS;
+    rec['interimResults'] = true.toJS;
     rec['continuous'] = false.toJS;
     rec['maxAlternatives'] = 3.toJS;
     final alts = <String>[];
+    var partial = '';
     double conf = 0;
+    var started = false;
+    void finish(SpeechResult r) {
+      _quiet?.cancel();
+      if (!c.isCompleted) c.complete(r);
+    }
+
+    SpeechResult soFar(String err) =>
+        alts.isNotEmpty ? SpeechResult(alternatives: List.of(alts), confidence: conf) : partial.trim().isNotEmpty ? SpeechResult(alternatives: [partial.trim()], confidence: .6) : SpeechResult(error: err);
+    void endSoon() {
+      // Ask the browser to finish; if it never answers (iOS), use what we heard.
+      try {
+        rec.callMethod('stop'.toJS);
+      } catch (_) {}
+      Timer(const Duration(milliseconds: 700), () {
+        try {
+          rec.callMethod('abort'.toJS);
+        } catch (_) {}
+        finish(soFar('no-speech'));
+      });
+    }
+
+    rec['onstart'] = ((JSObject _) => started = true).toJS;
+    rec['onaudiostart'] = ((JSObject _) => started = true).toJS;
     rec['onresult'] = ((JSObject e) {
+      started = true;
       final results = e['results'] as JSObject;
       final n = (results['length'] as JSNumber).toDartInt;
       if (n == 0) return;
+      // Join every result so far (Safari may split one utterance into several).
+      final buf = StringBuffer();
+      var allFinal = true;
+      for (var i = 0; i < n; i++) {
+        final r = results.callMethod<JSObject>('item'.toJS, i.toJS);
+        if (!((r['isFinal'] as JSBoolean?)?.toDart ?? true)) allFinal = false;
+        buf.write('${((r.callMethod<JSObject>('item'.toJS, 0.toJS))['transcript'] as JSString).toDart} ');
+      }
+      final text = buf.toString().replaceAll(RegExp(r'\s+'), ' ').trim();
       final last = results.callMethod<JSObject>('item'.toJS, (n - 1).toJS);
-      final isFinal = (last['isFinal'] as JSBoolean?)?.toDart ?? true;
-      final m = (last['length'] as JSNumber).toDartInt;
-      final texts = [for (var i = 0; i < m; i++) ((last.callMethod<JSObject>('item'.toJS, i.toJS))['transcript'] as JSString).toDart];
-      if (!isFinal) {
-        if (texts.isNotEmpty) onPartial?.call(texts.first);
+      if (!allFinal) {
+        partial = text;
+        if (text.isNotEmpty) onPartial?.call(text);
+        _quiet?.cancel();
+        _quiet = Timer(const Duration(milliseconds: 1400), endSoon);
         return;
       }
+      final m = (last['length'] as JSNumber).toDartInt;
+      final prefix = n > 1 ? text.substring(0, text.length - ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['transcript'] as JSString).toDart.trim().length).trim() : '';
       alts
         ..clear()
-        ..addAll(texts);
+        ..addAll([for (var i = 0; i < m; i++) '$prefix ${((last.callMethod<JSObject>('item'.toJS, i.toJS))['transcript'] as JSString).toDart}'.trim()]);
       conf = ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['confidence'] as JSNumber?)?.toDartDouble ?? 0;
-      if (!c.isCompleted) c.complete(SpeechResult(alternatives: alts, confidence: conf));
+      if (conf == 0) conf = .8; // Safari reports 0 for confident results.
+      finish(SpeechResult(alternatives: alts, confidence: conf));
+      try {
+        rec.callMethod('stop'.toJS);
+      } catch (_) {}
     }).toJS;
     rec['onerror'] = ((JSObject e) {
       final code = (e['error'] as JSString?)?.toDart ?? 'error';
-      if (!c.isCompleted) c.complete(SpeechResult(error: code));
+      // 'aborted'/'no-speech' after we already heard words: keep the words.
+      if ((code == 'aborted' || code == 'no-speech') && (alts.isNotEmpty || partial.isNotEmpty)) {
+        finish(soFar(code));
+      } else {
+        finish(SpeechResult(error: code));
+      }
     }).toJS;
     rec['onend'] = ((JSObject _) {
       if (_active == rec) _active = null;
-      if (!c.isCompleted) c.complete(alts.isEmpty ? const SpeechResult(error: 'no-speech') : SpeechResult(alternatives: alts, confidence: conf));
+      finish(soFar('no-speech'));
     }).toJS;
     try {
       rec.callMethod('start'.toJS);
     } catch (_) {
       return Future.value(const SpeechResult(error: 'not-allowed'));
     }
-    return c.future.timeout(const Duration(seconds: 15), onTimeout: () {
-      stop();
-      return const SpeechResult(error: 'no-speech');
+    // Nothing at all within 4 s (no onstart): the speech service is not working here.
+    Timer(const Duration(seconds: 4), () {
+      if (!started && !c.isCompleted) {
+        try {
+          rec.callMethod('abort'.toJS);
+        } catch (_) {}
+        finish(const SpeechResult(error: 'start-failed'));
+      }
+    });
+    return c.future.timeout(const Duration(seconds: 10), onTimeout: () {
+      _quiet?.cancel();
+      try {
+        rec.callMethod('abort'.toJS);
+      } catch (_) {}
+      if (_active == rec) _active = null;
+      return soFar('no-speech');
     });
   }
 

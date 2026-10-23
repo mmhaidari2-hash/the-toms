@@ -4,6 +4,8 @@ export 'speech_result.dart';
 class SpeechInput {
   static bool get sttSupported => false;
   static bool get recordSupported => false;
+  static bool get isIos => false;
+  static bool get isStandalone => false;
   static Future<String?> listen() async => null;
   static Future<SpeechResult> listenDetailed({void Function(String partial)? onPartial}) async => const SpeechResult(error: 'unsupported');
   static void stop() {}
