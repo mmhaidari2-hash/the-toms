@@ -29,7 +29,18 @@ class SpeechInput {
   static void setBroken(bool v) {
     try {
       v ? web.window.localStorage.setItem('nl_stt_broken', '1') : web.window.localStorage.removeItem('nl_stt_broken');
+      if (!v) web.window.localStorage.removeItem('nl_stt_fail');
     } catch (_) {}
+  }
+
+  static int _bumpFail() {
+    try {
+      final n = (int.tryParse(web.window.localStorage.getItem('nl_stt_fail') ?? '') ?? 0) + 1;
+      web.window.localStorage.setItem('nl_stt_fail', '$n');
+      return n;
+    } catch (_) {
+      return 2;
+    }
   }
 
   static bool get recordSupported => globalContext.has('MediaRecorder') && web.window.navigator.mediaDevices.isA<web.MediaDevices>();
@@ -105,8 +116,17 @@ class SpeechInput {
     var started = false;
     void finish(SpeechResult r) {
       _quiet?.cancel();
-      if (!c.isCompleted && const {'start-failed', 'service-not-allowed', 'network'}.contains(r.error)) setBroken(true);
-      if (!c.isCompleted && r.ok) setBroken(false);
+      if (!c.isCompleted) {
+        if (r.error == 'service-not-allowed') {
+          setBroken(true);
+        } else if (r.error == 'start-failed' || r.error == 'network') {
+          // One slow start can be the first-time permission prompt (iOS waits for the tap): only a second
+          // failure in a row switches the mic to keyboard dictation.
+          if (_bumpFail() >= 2) setBroken(true);
+        } else if (r.ok) {
+          setBroken(false);
+        }
+      }
       if (!c.isCompleted) c.complete(r);
     }
 
