@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "small",
       "knife",
+      "small",
       "ok"
      ],
      "suggestion": "OK. This small knife?",
@@ -75,8 +75,8 @@
      "keywords": [
       "knives",
       "where",
-      "hands",
-      "clean"
+      "clean",
+      "hands"
      ],
      "suggestion": "My hands are clean. Where are the knives?",
      "suggestionFa": "دستام تمیزه. چاقوها کجان؟",
@@ -259,8 +259,8 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "here's",
+      "maggie",
       "one"
      ],
      "suggestion": "Here's one for you, Maggie.",

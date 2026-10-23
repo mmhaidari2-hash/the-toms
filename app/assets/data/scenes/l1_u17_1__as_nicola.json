@@ -71,9 +71,9 @@
     {
      "keywords": [
       "cupboard",
-      "strong",
-      "little",
       "squash",
+      "little",
+      "strong",
       "water"
      ],
      "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
@@ -97,8 +97,8 @@
      "keywords": [
       "perfect",
       "squash",
-      "want",
       "some",
+      "want",
       "mmm"
      ],
      "suggestion": "Mmm, perfect! Do you want some squash too?",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
+      "bottle",
       "drinks",
       "fridge",
-      "bottle",
-      "cross",
-      "mummy"
+      "mummy",
+      "cross"
      ],
      "suggestion": "Milk is in the fridge. Ryan drinks milk from the bottle! Mummy gets cross.",
      "suggestionFa": "شیر تو یخچاله. رایان از بطری شیر می‌خوره! مامان عصبانی میشه.",
@@ -147,9 +147,9 @@
      "keywords": [
       "green",
       "which",
-      "milk",
+      "blue",
       "want",
-      "blue"
+      "milk"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "daddy",
-      "green",
       "likes",
-      "full",
-      "half"
+      "green",
+      "daddy",
+      "half",
+      "blue"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
      "suggestionFa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!",
@@ -198,8 +198,8 @@
       "that's",
       "cheers",
       "grown",
-      "ups",
-      "say"
+      "say",
+      "ups"
      ],
      "suggestion": "Cheers! That's what grown-ups say. Cheers!",
      "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "spilled",
-      "don't",
+      "biscuit",
       "mummy",
-      "clink"
+      "clink",
+      "don't"
      ],
      "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
      "suggestionFa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟",

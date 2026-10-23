@@ -72,8 +72,8 @@
     {
      "keywords": [
       "where's",
-      "excuse",
       "cheese",
+      "excuse",
       "stall"
      ],
      "suggestion": "Yes. Excuse me, where's the cheese stall?",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "near",
-      "caf",
-      "way"
+      "way",
+      "caf"
      ],
      "suggestion": "Is it this way, near the café?",
      "suggestionFa": "از این طرفه، نزدیک کافه؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "olives",
+      "after",
       "right",
-      "thank",
-      "after"
+      "thank"
      ],
      "suggestion": "On my right, after the olives. Thank you!",
      "suggestionFa": "سمت راستم، بعد از زیتون‌ها. ممنون!",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "gone",
       "i've",
+      "gone",
       "see",
       "far"
      ],
@@ -316,8 +316,8 @@
      "keywords": [
       "discount",
       "believe",
-      "i'll",
-      "from"
+      "when",
+      "ryan"
      ],
      "suggestion": "A discount from Ryan? I'll believe it when I see it!",
      "suggestionFa": "تخفیف از رایان؟ تا نبینم باور نمی‌کنم!",

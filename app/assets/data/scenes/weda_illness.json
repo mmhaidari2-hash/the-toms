@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "shall",
       "quite",
+      "shall",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -77,8 +77,8 @@
      "keywords": [
       "leave",
       "long",
-      "got",
-      "how"
+      "how",
+      "got"
      ],
      "suggestion": "Got it. How long do I leave it?",
      "suggestionFa": "باشه. چقدر نگهش دارم؟",
@@ -185,8 +185,8 @@
      "keywords": [
       "paracetamol",
       "children's",
-      "here's",
-      "course"
+      "course",
+      "here's"
      ],
      "suggestion": "Of course — here's the children's paracetamol and some water.",
      "suggestionFa": "حتماً — اینم شربت استامینوفن بچه و یه کم آب.",
@@ -198,8 +198,8 @@
      "keywords": [
       "cupboard",
       "kettle",
-      "which",
-      "above"
+      "above",
+      "which"
      ],
      "suggestion": "Which cupboard? The one above the kettle?",
      "suggestionFa": "کدوم کابینت؟ اونی که بالای کتریه؟",
@@ -303,8 +303,8 @@
     },
     {
      "keywords": [
-      "should",
       "jumper",
+      "should",
       "take",
       "off"
      ],
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "change",
       "things",
+      "change",
       "don't",
       "they"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "persian",
       "lullaby",
+      "persian",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

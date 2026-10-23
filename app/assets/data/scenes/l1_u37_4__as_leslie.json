@@ -25,7 +25,7 @@
       "front",
       "quick",
       "rain",
-      "door"
+      "look"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -107,7 +107,7 @@
       "orange",
       "green",
       "seven",
-      "rest"
+      "blue"
      ],
      "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, {you}?",
      "suggestionFa": "هفت تا! قرمز، نارنجی، زرد، سبز، آبی… می‌تونی بقیه را بگی {you}؟",
@@ -187,10 +187,10 @@
    "branches": [
     {
      "keywords": [
-      "never",
-      "shame",
       "we'll",
+      "never",
       "moves",
+      "shame",
       "when"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
@@ -267,9 +267,9 @@
      "keywords": [
       "raining",
       "lovely",
-      "daddy",
-      "again",
-      "photo"
+      "photo",
+      "he'll",
+      "daddy"
      ],
      "suggestion": "What a lovely photo! Send it to Daddy. He'll love it. Oh — it's raining again!",
      "suggestionFa": "چه عکس قشنگی! بفرستش برای بابا. عاشقش میشه. آه — باز داره بارون میاد!",
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "everyone",
-      "british",
-      "typical",
       "wellies",
+      "typical",
+      "british",
       "that's"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",

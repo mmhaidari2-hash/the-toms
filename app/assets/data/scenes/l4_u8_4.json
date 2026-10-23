@@ -22,7 +22,7 @@
       "scientists",
       "published",
       "where",
-      "want"
+      "know"
      ],
      "suggestion": "I'd want to know which scientists and where it was published.",
      "suggestionFa": "می‌خوام بدونم کدوم دانشمندان و کجا منتشر شده.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "true",
       "flag",
-      "good",
-      "true"
+      "good"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "then"
+      "even"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "clip",
-      "just"
+      "look",
+      "clip"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -158,8 +158,8 @@
      "keywords": [
       "reliable",
       "reported",
-      "whether",
-      "outlets"
+      "outlets",
+      "whether"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "getting",
-      "what's",
       "harder",
+      "what's",
       "real"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "share",
       "pause",
+      "share",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

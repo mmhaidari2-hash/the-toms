@@ -31,8 +31,8 @@
     {
      "keywords": [
       "yellow",
-      "labels",
       "didn't",
+      "labels",
       "know"
      ],
      "suggestion": "Yellow labels? I didn't know that.",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
       "bogof",
+      "price",
       "bags",
       "two"
      ],
@@ -82,8 +82,8 @@
      "keywords": [
       "strange",
       "that's",
-      "rude",
-      "word"
+      "word",
+      "rude"
      ],
      "suggestion": "That's a strange word! Is it rude?",
      "suggestionFa": "کلمهٔ عجیبیه! بی‌ادبیه؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "price",
       "half",
-      "good",
-      "deal"
+      "deal",
+      "good"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "price"
+      "price",
+      "where"
      ],
      "suggestion": "Price per kilo? Where is it?",
      "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "cheaper",
-      "box",
-      "big"
+      "big",
+      "box"
      ],
      "suggestion": "So the big box is cheaper per kilo?",
      "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "alone",
       "small",
+      "alone",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -291,8 +291,8 @@
     },
     {
      "keywords": [
-      "discount",
       "stickers",
+      "discount",
       "yellow",
       "like"
      ],
@@ -328,9 +328,9 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "pence",
-      "i'll",
+      "seven",
+      "come",
       "back"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
@@ -395,8 +395,8 @@
      "keywords": [
       "don't",
       "pasta",
-      "just",
-      "much"
+      "much",
+      "just"
      ],
      "suggestion": "Just one. I don't eat much pasta.",
      "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",

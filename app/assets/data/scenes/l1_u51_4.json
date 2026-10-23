@@ -69,7 +69,7 @@
      "keywords": [
       "yesterday",
       "better",
-      "than",
+      "much",
       "he's"
      ],
      "suggestion": "He's much better than yesterday.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "banana",
-      "here's"
+      "here's",
+      "banana"
      ],
      "suggestion": "Here's a banana.",
      "suggestionFa": "بفرما یه موز.",
@@ -308,9 +308,9 @@
     },
     {
      "keywords": [
+      "little",
       "adults",
       "faster",
-      "little",
       "kids"
      ],
      "suggestion": "Ha! Little kids get better faster than adults.",

@@ -24,8 +24,8 @@
       "saturday",
       "customer",
       "bakery",
-      "guess",
-      "first"
+      "first",
+      "guess"
      ],
      "suggestion": "Guess what? I've got a Saturday job! At the bakery. Will you be my first customer?",
      "suggestionFa": "حدس بزن چی شده؟ کار شنبه‌ها گرفتم! تو نونوایی. اولین مشتری‌م میشی؟",
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "thanks",
       "eighty",
+      "that's",
       "pound",
       "white"
      ],
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "pounds",
-      "change",
       "twenty",
+      "change",
       "here",
       "two"
      ],
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "coffee",
       "pounds",
+      "coffee",
       "ninety",
       "forty",
-      "three"
+      "fifty"
      ],
      "suggestion": "A cake and a coffee. Three fifty plus two forty… five pounds ninety.",
      "suggestionFa": "یه کیک و یه قهوه. سه و پنجاه به اضافهٔ دو و چهل… پنج پوند و نود.",
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "pounds",
-      "change",
       "ninety",
-      "seven",
-      "eight"
+      "change",
+      "eight",
+      "seven"
      ],
      "suggestion": "From ten. So… five ninety, six, seven, eight, nine, ten. Four pounds ten change!",
      "suggestionFa": "از ده. پس… پنج و نود، شش، هفت، هشت، نه، ده. چهار پوند و ده بقیه!",

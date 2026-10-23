@@ -22,10 +22,10 @@
     {
      "keywords": [
       "school",
-      "today",
       "socks",
       "about",
-      "says"
+      "today",
+      "know"
      ],
      "suggestion": "Is it \"Odd Socks Day\" at school today? Mum says it is. Do you know about it?",
      "suggestionFa": "امروز تو مدرسه «روز جوراب لنگه به لنگه»ست؟ مامان می‌گه هست. چیزی دربارهش می‌دونی؟",
@@ -48,7 +48,7 @@
      "keywords": [
       "different",
       "bullying",
-      "don't",
+      "means",
       "socks",
       "match"
      ],
@@ -100,7 +100,7 @@
       "nicola's",
       "stripes",
       "nice",
-      "one"
+      "old"
      ],
      "suggestion": "Stripes! Nice. And this one has got dinosaurs on it. It's Nicola's old one!",
      "suggestionFa": "راه‌راه! خوبه. و این یکی دایناسور داره. مال قدیمی نیکولاست!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "trousers",
-      "doesn't",
       "stripes",
+      "doesn't",
       "jumper",
       "match"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "trousers",
+      "everyone",
       "uniform",
-      "jumper",
-      "school"
+      "school",
+      "jumper"
      ],
      "suggestion": "It's school uniform! Grey trousers, black jumper. Everyone looks the same.",
      "suggestionFa": "لباس فرم مدرسه‌ست! شلوار طوسی، ژاکت مشکی. همه شکل همن.",
@@ -174,8 +174,8 @@
       "sometimes",
       "school",
       "socks",
-      "ties",
-      "most"
+      "wear",
+      "hate"
      ],
      "suggestion": "Most do. My school has a tie too. I hate ties! Do you wear odd socks sometimes?",
      "suggestionFa": "بیشترشون. مدرسهٔ من کراوات هم داره. از کراوات متنفرم! تو گاهی جوراب ناجور می‌پوشی؟",
@@ -200,7 +200,7 @@
       "every",
       "right",
       "late",
-      "tie"
+      "odd"
      ],
      "suggestion": "Ha! Every day is Odd Socks Day for you! Right, I'm late. Socks on, tie on — bye!",
      "suggestionFa": "ها! هر روز برای تو روز جوراب ناجوره! خب، دیرم شد. جوراب پام، کراوات گردنم — خداحافظ!",

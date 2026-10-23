@@ -295,7 +295,7 @@ class _Stones extends ConsumerWidget {
                             ? (pack != null && pack.gated && !ctrl.packUnitLevelOpen(course, u)
                                 ? () => ScaffoldMessenger.of(context)
                                   ..hideCurrentSnackBar()
-                                  ..showSnackBar(SnackBar(content: Text('Opens at Level ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.')))
+                                  ..showSnackBar(SnackBar(content: Text('Opens at ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.')))
                                 : () => context.push('/premium?pack=${pack?.id ?? ''}'))
                             : null),
                     child: Padding(

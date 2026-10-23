@@ -21,8 +21,8 @@
      "keywords": [
       "cheers",
       "thanks",
-      "knees",
-      "she's"
+      "she's",
+      "knees"
      ],
      "suggestion": "Cheers, Doris! She's very well, thanks. How are your knees?",
      "suggestionFa": "مرسی دوریس! خیلی خوبه، ممنون. زانوهات چطورن؟",
@@ -81,8 +81,8 @@
      "keywords": [
       "doctor",
       "about",
-      "them",
-      "have"
+      "have",
+      "them"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -116,9 +116,9 @@
    "branches": [
     {
      "keywords": [
-      "doris",
-      "don't",
       "leave",
+      "don't",
+      "doris",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
+      "move",
       "sure",
-      "will",
-      "move"
+      "will"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -211,8 +211,8 @@
     {
      "keywords": [
       "cherries",
-      "doris",
-      "spoil"
+      "spoil",
+      "doris"
      ],
      "suggestion": "Cherries! You spoil me, Doris.",
      "suggestionFa": "آلبالو! لوسم می‌کنی دوریس.",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "glued",
       "exams",
-      "well",
-      "went"
+      "glued",
+      "went",
+      "well"
      ],
      "suggestion": "Glued to it. But his exams went well.",
      "suggestionFa": "چسبیده. ولی امتحاناش خوب بود.",
@@ -311,7 +311,7 @@
       "driving",
       "thirty",
       "don't",
-      "worry"
+      "years"
      ],
      "suggestion": "I see him, don't worry. Thirty years driving!",
      "suggestionFa": "می‌بینمش، نگران نباش. سی سال رانندگی!",

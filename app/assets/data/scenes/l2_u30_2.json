@@ -20,8 +20,8 @@
     {
      "keywords": [
       "outside",
-      "kept",
-      "cash"
+      "cash",
+      "kept"
      ],
      "suggestion": "The cash machine outside kept my card!",
      "suggestionFa": "خودپرداز بیرون کارتم را نگه داشت!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "entered",
-      "wrong",
       "three",
-      "times"
+      "times",
+      "wrong"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
      "suggestionFa": "آره. سه بار رمز اشتباه زدم.",
@@ -207,9 +207,9 @@
     {
      "keywords": [
       "cancel",
-      "still",
       "phone",
-      "can"
+      "still",
+      "use"
      ],
      "suggestion": "Cancel it? Can I still use my phone?",
      "suggestionFa": "باطلش کنید؟ هنوز می‌تونم از گوشیم استفاده کنم؟",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "food",
       "days",
+      "food",
       "five",
       "buy"
      ],
@@ -314,8 +314,8 @@
      "keywords": [
       "fifty",
       "take",
-      "out",
-      "can"
+      "can",
+      "out"
      ],
      "suggestion": "Can I take out fifty pounds?",
      "suggestionFa": "می‌تونم پنجاه پوند بردارم؟",
@@ -351,7 +351,7 @@
      "keywords": [
       "changed",
       "forgot",
-      "week",
+      "last",
       "know"
      ],
      "suggestion": "I know. I changed it last week and forgot!",

@@ -35,7 +35,7 @@
       "hurting",
       "since",
       "moved",
-      "sofa"
+      "back"
      ],
      "suggestion": "My back has been hurting since I moved a sofa.",
      "suggestionFa": "از وقتی یه مبل جابه‌جا کردم کمرم درد می‌کنه.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "usually",
       "evening",
+      "usually",
       "worse",
       "after"
      ],
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "morning",
-      "worst",
       "first",
-      "thing"
+      "thing",
+      "worst"
      ],
      "suggestion": "It's worst first thing in the morning.",
      "suggestionFa": "اول صبح از همه بدتره.",
@@ -142,8 +142,8 @@
      "keywords": [
       "outside",
       "mostly",
-      "work",
-      "many"
+      "many",
+      "work"
      ],
      "suggestion": "Not many. I work outside mostly.",
      "suggestionFa": "زیاد نه. بیشتر بیرون کار می‌کنم.",
@@ -183,8 +183,8 @@
      "keywords": [
       "getting",
       "happen",
-      "keep",
-      "them"
+      "them",
+      "keep"
      ],
      "suggestion": "What will happen if I keep getting them?",
      "suggestionFa": "اگه همچنان ادامه پیدا کنه چی میشه؟",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "book",
+      "test",
       "week",
-      "test"
+      "i'll",
+      "book"
      ],
      "suggestion": "I'll book an eye test this week.",
      "suggestionFa": "این هفته وقت معاینهٔ چشم می‌گیرم.",

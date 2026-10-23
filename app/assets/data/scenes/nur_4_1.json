@@ -3,7 +3,7 @@
  "characterId": "dan",
  "title": "Drop-off",
  "titleFa": "تحویل گرفتن صبح",
- "setting": "Talking with parents · Level 0",
+ "setting": "Talking with parents · Vida's Nursery",
  "settingFa": "صحبت با والدین",
  "requires": null,
  "start": "n1",
@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "morning",
+      "problem",
       "sleep",
       "well"
      ],
@@ -34,8 +34,8 @@
      "keywords": [
       "oscar",
       "shall",
-      "coat",
-      "hang"
+      "hang",
+      "coat"
      ],
      "suggestion": "Hi, Oscar! Shall we hang up your coat?",
      "suggestionFa": "سلام اسکار! کتت را آویزون کنیم؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "thanks",
-      "snack",
       "write",
-      "toast"
+      "toast",
+      "snack"
      ],
      "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
      "suggestionFa": "ممنون، یادداشتش می‌کنم. وقت خوراکی می‌تونه نون تست بخوره.",
@@ -88,8 +88,8 @@
      "keywords": [
       "might",
       "today",
-      "need",
-      "dear"
+      "dear",
+      "need"
      ],
      "suggestion": "Oh dear. He might need a nap today.",
      "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
@@ -148,8 +148,8 @@
     {
      "keywords": [
       "password",
-      "what's",
       "please",
+      "what's",
       "her"
      ],
      "suggestion": "What's her password, please?",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "oscar",
       "daddy",
+      "oscar",
       "wave",
       "bye"
      ],
@@ -247,10 +247,10 @@
     },
     {
      "keywords": [
-      "hand",
-      "want",
       "know",
-      "hold"
+      "hold",
+      "hand",
+      "want"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",
      "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",

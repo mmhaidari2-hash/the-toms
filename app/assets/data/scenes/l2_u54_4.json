@@ -21,7 +21,7 @@
      "keywords": [
       "anyone",
       "fruit",
-      "pick",
+      "free",
       "them"
      ],
      "suggestion": "Free fruit? Can anyone pick them?",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "another",
       "crumble",
+      "another",
       "please"
      ],
      "suggestion": "Another crumble! Yes please.",
@@ -92,8 +92,8 @@
      "keywords": [
       "these",
       "ripe",
-      "they",
-      "soft"
+      "soft",
+      "they"
      ],
      "suggestion": "These ones are soft. Are they ripe?",
      "suggestionFa": "این‌ها نرمن. رسیده‌ان؟",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "tall",
+      "i'll",
       "high",
       "pick",
-      "i'll"
+      "tall"
      ],
      "suggestion": "I'll pick the high ones. I'm tall.",
      "suggestionFa": "من بالایی‌ها را می‌چینم. قدم بلنده.",

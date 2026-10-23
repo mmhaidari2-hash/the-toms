@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Your tenancy agreement",
  "titleFa": "قرارداد اجاره‌ات",
- "setting": "Before you move in · Level 0",
+ "setting": "Before you move in · Fennick & Rowe Homes",
  "settingFa": "پیش از اسباب‌کشی",
  "requires": null,
  "start": "n1",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "shorthold",
-      "tenancy",
       "assured",
+      "tenancy",
       "thanks"
      ],
      "suggestion": "Thanks. My friend said I'd get an \"assured shorthold\" tenancy.",
@@ -130,9 +130,9 @@
    "branches": [
     {
      "keywords": [
+      "stay",
       "long",
       "want",
-      "stay",
       "as"
      ],
      "suggestion": "So I can stay as long as I want?",
@@ -181,8 +181,8 @@
      "keywords": [
       "after",
       "they",
-      "want",
-      "sell"
+      "sell",
+      "want"
      ],
      "suggestion": "And if they want to sell after that?",
      "suggestionFa": "و اگه بعدش بخواد بفروشه؟",
@@ -230,9 +230,9 @@
     {
      "keywords": [
       "clearer",
-      "that's",
       "before",
-      "sign"
+      "that's",
+      "read"
      ],
      "suggestion": "That's much clearer. Can I read it before I sign?",
      "suggestionFa": "خیلی روشن‌تر شد. می‌تونم قبل از امضا بخونمش؟",

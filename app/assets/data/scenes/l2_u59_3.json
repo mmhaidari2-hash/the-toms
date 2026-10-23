@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "gold",
       "mean",
+      "gold",
       "dust"
      ],
      "suggestion": "Gold dust? What do you mean?",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "someone",
-      "online",
       "buying",
+      "online",
       "about"
      ],
      "suggestion": "What about buying from someone online?",
@@ -192,9 +192,9 @@
     {
      "keywords": [
       "tickets",
+      "twenty",
       "pounds",
-      "orient",
-      "twenty"
+      "orient"
      ],
      "suggestion": "Dave said Orient tickets are only twenty pounds.",
      "suggestionFa": "دیو گفت بلیت اورینت فقط بیست پونده.",
@@ -206,8 +206,8 @@
      "keywords": [
       "remember",
       "forever",
-      "ryan",
-      "will"
+      "will",
+      "ryan"
      ],
      "suggestion": "It's a lot, but Ryan will remember it forever.",
      "suggestionFa": "زیاده، ولی رایان تا ابد یادش می‌مونه.",
@@ -254,9 +254,9 @@
     },
     {
      "keywords": [
-      "will",
-      "post",
       "come",
+      "post",
+      "will",
       "by"
      ],
      "suggestion": "Will the tickets come by post?",

@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Lunchtime",
  "titleFa": "وقت ناهار",
- "setting": "Care routines · Level 0",
+ "setting": "Care routines · Vida's Nursery",
  "settingFa": "روال مراقبت",
  "requires": null,
  "start": "n1",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "about",
-      "nice",
       "talk",
+      "nice",
       "we"
      ],
      "suggestion": "Nice! What do we talk about?",
@@ -80,8 +80,8 @@
     {
      "keywords": [
       "oscar",
-      "i'll",
       "next",
+      "i'll",
       "sit"
      ],
      "suggestion": "OK, I'll sit next to Oscar.",
@@ -113,9 +113,9 @@
     {
      "keywords": [
       "that's",
-      "can",
       "pea",
-      "one"
+      "one",
+      "can"
      ],
      "suggestion": "That's OK. Can you try one pea?",
      "suggestionFa": "اشکالی نداره. یه دونه نخود امتحان می‌کنی؟",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "want",
       "more",
+      "want",
       "pie"
      ],
      "suggestion": "Yes! Do you want more pie?",
@@ -215,9 +215,9 @@
    "branches": [
     {
      "keywords": [
-      "most",
       "none",
       "some",
+      "most",
       "all"
      ],
      "suggestion": "All, most, some or none. OK.",
@@ -228,8 +228,8 @@
     },
     {
      "keywords": [
-      "where",
       "write",
+      "where",
       "we"
      ],
      "suggestion": "Where do we write it?",

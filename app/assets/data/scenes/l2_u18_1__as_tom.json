@@ -24,8 +24,8 @@
       "welcome",
       "morning",
       "aboard",
-      "today",
-      "where"
+      "where",
+      "today"
      ],
      "suggestion": "Morning, sir! Welcome aboard the 38. Oh — it's you! Where are you off to today?",
      "suggestionFa": "صبح بخیر قربان! به ۳۸ خوش اومدی. اوه — تویی! امروز کجا می‌ری؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "phone's",
-      "phone",
       "daily",
+      "phone",
       "which",
-      "same"
+      "just"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "islington",
       "traffic's",
+      "islington",
       "minutes",
       "twenty",
-      "there"
+      "green"
      ],
      "suggestion": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
      "suggestionFa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه.",
@@ -123,9 +123,9 @@
      "keywords": [
       "kidding",
       "there's",
-      "jokes",
       "forty",
-      "front"
+      "jokes",
+      "angel"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -198,9 +198,9 @@
      "keywords": [
       "roundabout",
       "leslie",
-      "tight",
       "wrong",
-      "don't"
+      "round",
+      "we're"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
      "suggestionFa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!",

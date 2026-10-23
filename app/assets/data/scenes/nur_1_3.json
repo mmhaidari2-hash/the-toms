@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Snack time",
  "titleFa": "وقت خوراکی",
- "setting": "Good morning, Little Acorns! · Level 0",
+ "setting": "Good morning, Little Acorns! · Vida's Nursery",
  "settingFa": "صبح بخیر، لیتل ایکورنز!",
  "requires": null,
  "start": "n1",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "oscar",
+      "water",
       "ok"
      ],
      "suggestion": "OK. Water for Oscar.",
@@ -81,8 +81,8 @@
     },
     {
      "keywords": [
-      "allergy",
       "where's",
+      "allergy",
       "board"
      ],
      "suggestion": "Where's the allergy board?",
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "lovely",
       "asking",
+      "lovely",
       "here's",
       "apple"
      ],
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "course",
-      "tidy",
       "then",
+      "tidy",
       "up"
      ],
      "suggestion": "Of course. Then tidy up?",

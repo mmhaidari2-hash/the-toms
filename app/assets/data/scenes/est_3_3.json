@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Bills and council tax",
  "titleFa": "قبض‌ها و مالیات شورا",
- "setting": "Moving in · Level 0",
+ "setting": "Moving in · Fennick & Rowe Homes",
  "settingFa": "اسباب‌کشی",
  "requires": null,
  "start": "n1",
@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "much",
       "band",
+      "much",
       "tax",
       "b"
      ],
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "should",
-      "great",
-      "after"
+      "after",
+      "great"
      ],
      "suggestion": "Great. What should I do after that?",
      "suggestionFa": "عالیه. بعدش چی کار کنم؟",
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "supplier",
-      "energy",
       "change",
+      "energy",
       "can"
      ],
      "suggestion": "Can I change energy supplier?",

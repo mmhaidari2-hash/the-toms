@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "book"
+      "like"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -181,7 +181,7 @@
       "thursday",
       "perfect",
       "past",
-      "ten"
+      "two"
      ],
      "suggestion": "Thursday at ten past two is perfect.",
      "suggestionFa": "پنجشنبه دو و ده دقیقه عالیه.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "morning",
-      "please",
       "friday",
+      "please",
       "could"
      ],
      "suggestion": "Could I have Friday morning, please?",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "minutes",
-      "early",
       "thank",
+      "early",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",

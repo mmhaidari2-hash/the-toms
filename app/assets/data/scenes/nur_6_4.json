@@ -3,7 +3,7 @@
  "characterId": "dan",
  "title": "A difficult conversation",
  "titleFa": "یک گفت‌وگوی سخت",
- "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "setting": "Safeguarding, first aid and Ofsted · Vida's Nursery",
  "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
  "requires": null,
  "start": "n1",
@@ -75,8 +75,8 @@
      "keywords": [
       "child's",
       "afraid",
-      "share",
-      "can't"
+      "other",
+      "share"
      ],
      "suggestion": "I'm afraid I can't share the other child's name.",
      "suggestionFa": "متأسفانه نمی‌تونم اسم بچهٔ دیگه را بگم.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "privacy",
       "exactly",
       "oscar's",
+      "privacy",
       "protect"
      ],
      "suggestion": "We'd protect Oscar's privacy in exactly the same way.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "shadowing",
-      "teaching",
       "feelings",
+      "teaching",
       "closely"
      ],
      "suggestion": "We're shadowing that child closely and teaching other ways to show feelings.",
@@ -149,8 +149,8 @@
      "keywords": [
       "crowding",
       "changed",
-      "reduce",
-      "layout"
+      "layout",
+      "reduce"
      ],
      "suggestion": "We've also changed the room layout to reduce crowding.",
      "suggestionFa": "چیدمان اتاق را هم عوض کردیم که شلوغی کمتر بشه.",
@@ -203,8 +203,8 @@
      "keywords": [
       "wasn't",
       "given",
-      "i'll",
-      "into"
+      "look",
+      "i'll"
      ],
      "suggestion": "I'll look into why the form wasn't given to you.",
      "suggestionFa": "بررسی می‌کنم چرا فرم به شما داده نشد.",
@@ -247,7 +247,7 @@
      "keywords": [
       "manager",
       "would",
-      "week",
+      "meet",
       "like"
      ],
      "suggestion": "Would you like to meet Jo and the manager this week?",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "update",
-      "weeks",
       "we'll",
+      "weeks",
       "every"
      ],
      "suggestion": "We'll update you every day for the next two weeks.",

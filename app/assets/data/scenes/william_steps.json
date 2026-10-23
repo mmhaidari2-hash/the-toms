@@ -23,8 +23,8 @@
     {
      "keywords": [
       "william",
-      "wow",
-      "big"
+      "big",
+      "wow"
      ],
      "suggestion": "Wow! Big jump, William!",
      "suggestionFa": "وای! چه پرش بزرگی، ویلیام!",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "careful",
-      "hold",
-      "hand"
+      "hand",
+      "hold"
      ],
      "suggestion": "Careful! Hold my hand.",
      "suggestionFa": "مواظب باش! دستم را بگیر.",
@@ -82,7 +82,7 @@
       "stepping",
       "cushion",
       "stones",
-      "well"
+      "done"
      ],
      "suggestion": "Cushion stepping stones! Well done!",
      "suggestionFa": "سنگ‌چین کوسنی! آفرین!",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "oops",
-      "okay"
+      "okay",
+      "oops"
      ],
      "suggestion": "Oops! Are you okay?",
      "suggestionFa": "اوه! خوبی؟",
@@ -178,10 +178,10 @@
     },
     {
      "keywords": [
-      "foot",
       "time",
-      "one",
-      "hop"
+      "foot",
+      "hop",
+      "one"
      ],
      "suggestion": "Hop on one foot this time!",
      "suggestionFa": "این بار رو یه پا لی‌لی کن!",

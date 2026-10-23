@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "hello",
       "doris",
+      "hello",
       "how"
      ],
      "suggestion": "Hello, Doris! How are you?",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "like",
-      "bus",
-      "car"
+      "car",
+      "bus"
      ],
      "suggestion": "Do you like the bus or the car?",
      "suggestionFa": "اتوبوس را دوست دارید یا ماشین؟",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "that's",
-      "than",
-      "more"
+      "more",
+      "than"
      ],
      "suggestion": "That's more than me!",
      "suggestionFa": "از من بیشتره!",

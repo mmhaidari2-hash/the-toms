@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "there",
-      "count",
-      "let's",
       "three",
+      "there",
+      "let's",
+      "count",
       "many"
      ],
      "suggestion": "Let's count the eggs! One, two, three… how many are there?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "spoons",
-      "seven",
       "eight",
-      "nine",
-      "eggs"
+      "seven",
+      "eggs",
+      "nine"
      ],
      "suggestion": "Yes! Six eggs. Now the spoons. Seven, eight, nine, ten!",
      "suggestionFa": "آره! شش‌تا تخم‌مرغ. حالا قاشق‌ها. هفت، هشت، نه، ده!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "fourteen",
       "thirteen",
+      "fourteen",
       "fifteen",
-      "twelve",
-      "eleven"
+      "eleven",
+      "twelve"
      ],
      "suggestion": "Eleven, twelve, thirteen, fourteen, fifteen… what comes next?",
      "suggestionFa": "یازده، دوازده، سیزده، چهارده، پانزده… بعدش چیه؟",
@@ -124,8 +124,8 @@
       "biscuits",
       "always",
       "ryan",
-      "eats",
-      "more"
+      "more",
+      "some"
      ],
      "suggestion": "Ryan ate them! Ryan always eats the biscuits. Can we bake some more?",
      "suggestionFa": "رایان خوردشون! رایان همیشه بیسکویت‌ها را می‌خوره. می‌شه بیشتر بپزیم؟",

@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "think",
       "can't",
+      "think",
       "find"
      ],
      "suggestion": "I can't find my bag. I think I left it on the 38.",
@@ -128,7 +128,7 @@
       "rucksack",
       "stripe",
       "black",
-      "red"
+      "got"
      ],
      "suggestion": "It's a black rucksack. It's got a red stripe.",
      "suggestionFa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "front",
       "small",
+      "front",
       "blue",
       "zip"
      ],
@@ -282,8 +282,8 @@
    "branches": [
     {
      "keywords": [
-      "got",
       "has",
+      "got",
       "he"
      ],
      "suggestion": "Has he got it?",
@@ -374,7 +374,7 @@
       "make",
       "just",
       "did",
-      "up"
+      "ha"
      ],
      "suggestion": "Ha! Did you just make that up?",
      "suggestionFa": "ها! همین الان از خودت درآوردی؟",
@@ -386,8 +386,8 @@
      "keywords": [
       "remember",
       "advice",
-      "good",
-      "i'll"
+      "i'll",
+      "good"
      ],
      "suggestion": "Good advice. I'll remember it.",
      "suggestionFa": "توصیهٔ خوبیه. یادم می‌مونه.",

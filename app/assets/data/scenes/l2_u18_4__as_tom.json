@@ -23,9 +23,9 @@
      "keywords": [
       "alright",
       "called",
-      "break",
       "hello",
-      "times"
+      "times",
+      "break"
      ],
      "suggestion": "Hello? It's Tom. I'm on my break. You called me three times — are you alright?",
      "suggestionFa": "الو؟ تامم. تو استراحتمم. سه بار زنگ زدی — حالت خوبه؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "panic",
       "right",
-      "went",
+      "don't",
+      "into",
       "west"
      ],
      "suggestion": "Ha! You went right into the West End. OK — get off at the next stop. Don't panic.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "buzzes",
+      "before",
       "phone",
       "right",
       "time"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "cross",
-      "going",
       "other",
-      "same"
+      "going",
+      "cross",
+      "look"
      ],
      "suggestion": "Cross the road and find the stop for the same bus going the other way. Look for the letter on the sign.",
      "suggestionFa": "از خیابون رد شو و ایستگاه همون اتوبوس در جهت مخالف را پیدا کن. دنبال حرف روی تابلو بگرد.",
@@ -149,8 +149,8 @@
       "perfect",
       "hopper",
       "within",
-      "free",
-      "same"
+      "card",
+      "free"
      ],
      "suggestion": "Stop S, perfect. And no, with the Hopper fare it's free within an hour. Use the same card!",
      "suggestionFa": "ایستگاه S، عالیه. و نه، با کرایهٔ هاپر تو یه ساعت مجانیه. با همون کارت!",
@@ -173,9 +173,9 @@
      "keywords": [
       "driving",
       "minutes",
+      "fifty",
       "jokes",
-      "about",
-      "fifty"
+      "about"
      ],
      "suggestion": "About fifty minutes. Bad news: I'm not driving it. Good news: no jokes. Text me when you're on, OK?",
      "suggestionFa": "حدود پنجاه دقیقه. خبر بد: من رانندش نیستم. خبر خوب: جوکی در کار نیست. وقتی سوار شدی بهم پیام بده، باشه؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "service",
       "persian",
-      "saving",
       "travel",
-      "seven"
+      "saving",
+      "tom's"
      ],
      "suggestion": "Saving you? All part of the service. Tom's Travel Help — open seven days a week. Fees: one Persian tea.",
      "suggestionFa": "نجاتت دادم؟ جزو خدماته. خدمات سفر تام — هفت روز هفته باز. هزینه: یه چای ایرانی.",

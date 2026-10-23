@@ -84,8 +84,8 @@
     {
      "keywords": [
       "three",
-      "go",
-      "ok"
+      "ok",
+      "go"
      ],
      "suggestion": "Three? OK. Go on.",
      "suggestionFa": "سه تا؟ باشه. بگید.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "drink",
-      "fine",
       "four",
+      "fine",
       "lot"
      ],
      "suggestion": "Four pints is fine. We drink a lot.",
@@ -138,8 +138,8 @@
      "keywords": [
       "ordered",
       "only",
-      "two",
-      "but"
+      "but",
+      "two"
      ],
      "suggestion": "But we only ordered two pints!",
      "suggestionFa": "ولی ما فقط دو پاینت سفارش دادیم!",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "cheddar",
-      "mature",
       "leslie",
+      "mature",
       "extra"
      ],
      "suggestion": "Leslie, do you like extra mature cheddar?",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "substitution",
-      "what's",
       "please",
+      "what's",
       "third"
      ],
      "suggestion": "What's the third substitution, please?",
@@ -307,9 +307,9 @@
     },
     {
      "keywords": [
-      "let's",
       "pasta",
       "still",
+      "let's",
       "ask"
      ],
      "suggestion": "It's still pasta. Let's ask William.",
@@ -350,8 +350,8 @@
      "keywords": [
       "princess",
       "reject",
-      "pasta",
-      "sorry"
+      "sorry",
+      "pasta"
      ],
      "suggestion": "Sorry, can we reject the princess pasta?",
      "suggestionFa": "ببخشید، می‌تونیم ماکارونی پرنسسی را رد کنیم؟",

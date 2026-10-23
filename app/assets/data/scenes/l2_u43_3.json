@@ -146,8 +146,8 @@
      "keywords": [
       "tehran's",
       "cheaper",
-      "metro",
-      "newer"
+      "newer",
+      "metro"
      ],
      "suggestion": "Tehran's metro is newer and cheaper.",
      "suggestionFa": "متروی تهران جدیدتر و ارزون‌تره.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "spaces",
-      "parks",
       "there",
+      "parks",
       "green"
      ],
      "suggestion": "The parks. There are so many green spaces.",
@@ -213,8 +213,8 @@
      "keywords": [
       "museums",
       "most",
-      "them",
-      "free"
+      "free",
+      "them"
      ],
      "suggestion": "The museums. And most of them are free!",
      "suggestionFa": "موزه‌ها. و بیشترشون مجانین!",
@@ -257,9 +257,9 @@
     {
      "keywords": [
       "expensive",
-      "much",
+      "more",
       "rent",
-      "more"
+      "much"
      ],
      "suggestion": "The rent! It's much more expensive than Tehran.",
      "suggestionFa": "اجاره! خیلی از تهران گرون‌تره.",
@@ -308,9 +308,9 @@
    "branches": [
     {
      "keywords": [
+      "london",
       "tehran",
       "prefer",
-      "london",
       "parks"
      ],
      "suggestion": "I prefer Tehran for food, London for parks.",
@@ -323,8 +323,8 @@
      "keywords": [
       "difficult",
       "hackney",
-      "choose",
-      "that's"
+      "that's",
+      "choose"
      ],
      "suggestion": "That's too difficult! Can I choose Hackney?",
      "suggestionFa": "خیلی سخته! میشه هکنی را انتخاب کنم؟",
@@ -377,7 +377,7 @@
       "hackney",
       "london",
       "best",
-      "tom"
+      "bit"
      ],
      "suggestion": "Tom, Hackney is the best bit of London!",
      "suggestionFa": "تام، هکنی بهترین قسمت لندنه!",
@@ -408,8 +408,8 @@
     {
      "keywords": [
       "thanks",
-      "hold",
       "i'll",
+      "hold",
       "tom"
      ],
      "suggestion": "Thanks, Tom! I'll hold you to that.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "return",
       "please",
+      "return",
       "like",
       "i'd"
      ],
@@ -34,8 +34,8 @@
      "keywords": [
       "doesn't",
       "bought",
-      "week",
-      "work"
+      "last",
+      "week"
      ],
      "suggestion": "This kettle doesn't work. I bought it last week.",
      "suggestionFa": "این کتری کار نمی‌کنه. هفتهٔ پیش خریدمش.",
@@ -76,7 +76,7 @@
       "doesn't",
       "switch",
       "turns",
-      "off"
+      "but"
      ],
      "suggestion": "It turns on, but it doesn't switch off!",
      "suggestionFa": "روشن میشه، ولی خاموش نمیشه!",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "counter",
       "there's",
+      "counter",
       "leaks",
       "water"
      ],
@@ -195,9 +195,9 @@
    "branches": [
     {
      "keywords": [
+      "refund",
       "please",
       "better",
-      "refund",
       "i'll"
      ],
      "suggestion": "A refund, please. I'll buy a better one.",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "return",
+      "thank",
       "shoes",
-      "these",
-      "thank"
+      "these"
      ],
      "suggestion": "Thank you. Can I return these shoes too?",
      "suggestionFa": "ممنون. این کفش‌ها را هم می‌تونم پس بدم؟",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "kitchen",
-      "just",
-      "once"
+      "once",
+      "just"
      ],
      "suggestion": "Just once. In the kitchen!",
      "suggestionFa": "فقط یه بار. تو آشپزخونه!",

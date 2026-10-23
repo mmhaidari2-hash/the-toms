@@ -32,9 +32,9 @@
     {
      "keywords": [
       "interview",
-      "good",
       "luck",
-      "tom"
+      "good",
+      "job"
      ],
      "suggestion": "A job interview? Good luck, Tom!",
      "suggestionFa": "مصاحبهٔ کاری؟ موفق باشی تام!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "iron",
+      "hot",
       "yet",
-      "got",
-      "hot"
+      "got"
      ],
      "suggestion": "Got it. Is the iron hot yet?",
      "suggestionFa": "فهمیدم. اتو داغ شد؟",
@@ -182,10 +182,10 @@
    "branches": [
     {
      "keywords": [
-      "fill",
       "i'll",
-      "yet",
-      "now"
+      "fill",
+      "now",
+      "yet"
      ],
      "suggestion": "Not yet. I'll fill it now.",
      "suggestionFa": "هنوز نه. الان پرش می‌کنم.",
@@ -317,8 +317,8 @@
      "keywords": [
       "stand",
       "stop",
-      "i'll",
-      "when"
+      "when",
+      "i'll"
      ],
      "suggestion": "I'll stand it up when I stop.",
      "suggestionFa": "وقتی دست نگه می‌دارم، سرپا می‌ذارمش.",
@@ -466,8 +466,8 @@
     {
      "keywords": [
       "pigeon",
-      "maybe",
       "don't",
+      "maybe",
       "part"
      ],
      "suggestion": "Maybe don't say the pigeon part.",

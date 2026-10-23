@@ -34,7 +34,7 @@
       "there's",
       "screen",
       "check",
-      "here"
+      "self"
      ],
      "suggestion": "There's a screen here. \"Self check-in\".",
      "suggestionFa": "اینجا یه صفحه هست. «پذیرش خودکار».",
@@ -83,8 +83,8 @@
      "keywords": [
       "birth",
       "date",
-      "easy",
-      "look"
+      "look",
+      "easy"
      ],
      "suggestion": "It's easy. Look — your date of birth.",
      "suggestionFa": "آسونه. ببین — تاریخ تولدت.",
@@ -119,9 +119,9 @@
     {
      "keywords": [
       "please",
-      "area",
-      "seat",
-      "says"
+      "take",
+      "says",
+      "area"
      ],
      "suggestion": "It says \"Please take a seat in Area C\".",
      "suggestionFa": "نوشته «لطفاً در بخش C بنشینید».",
@@ -174,8 +174,8 @@
      "keywords": [
       "follow",
       "green",
-      "line",
-      "come"
+      "come",
+      "line"
      ],
      "suggestion": "Come on, George. Follow the green line!",
      "suggestionFa": "بیا جورج. خط سبز را دنبال کن!",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "walk",
-      "can",
-      "far"
+      "far",
+      "can"
      ],
      "suggestion": "Can George walk that far?",
      "suggestionFa": "جورج می‌تونه تا اونجا راه بره؟",
@@ -264,8 +264,8 @@
      "keywords": [
       "minutes",
       "coffee",
-      "forty",
-      "shall"
+      "shall",
+      "forty"
      ],
      "suggestion": "Forty minutes! Shall I get some coffee?",
      "suggestionFa": "چهل دقیقه! قهوه بگیرم؟",
@@ -324,8 +324,8 @@
     },
     {
      "keywords": [
-      "george",
       "before",
+      "george",
       "blood",
       "can't"
      ],
@@ -375,8 +375,8 @@
     {
      "keywords": [
       "george",
-      "rules",
-      "sorry"
+      "sorry",
+      "rules"
      ],
      "suggestion": "Sorry, George. Rules are rules!",
      "suggestionFa": "ببخشید جورج. قانون قانونه!",

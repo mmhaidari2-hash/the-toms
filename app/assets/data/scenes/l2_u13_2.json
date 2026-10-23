@@ -74,8 +74,8 @@
     {
      "keywords": [
       "phone",
-      "will",
       "i've",
+      "will",
       "got"
      ],
      "suggestion": "I've got my tenancy agreement on my phone. Will that do?",
@@ -146,8 +146,8 @@
      "keywords": [
       "landlord",
       "can",
-      "him",
-      "ask"
+      "ask",
+      "him"
      ],
      "suggestion": "My landlord has it. I can ask him.",
      "suggestionFa": "صاحبخونه‌ام داره. می‌تونم ازش بپرسم.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "course",
-      "send",
       "i'll",
+      "send",
       "now"
      ],
      "suggestion": "Of course. I'll send it now.",
@@ -246,10 +246,10 @@
     },
     {
      "keywords": [
-      "share",
       "evisa",
-      "show",
-      "code"
+      "share",
+      "code",
+      "show"
      ],
      "suggestion": "I can show my eVisa with a share code. Is that OK?",
      "suggestionFa": "می‌تونم ای‌ویزام رو با کد اشتراک نشون بدم. اشکالی نداره؟",
@@ -294,7 +294,7 @@
       "before",
       "weeks",
       "then",
-      "get"
+      "ill"
      ],
      "suggestion": "Two weeks? What if I get ill before then?",
      "suggestionFa": "دو هفته؟ اگه قبلش مریض بشم چی؟",
@@ -395,8 +395,8 @@
     {
      "keywords": [
       "weight",
-      "cakes",
       "after",
+      "cakes",
       "all"
      ],
      "suggestion": "Weight? Oh no. After all your cakes!",

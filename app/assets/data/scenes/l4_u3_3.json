@@ -35,7 +35,7 @@
       "another",
       "parking",
       "nearby",
-      "could"
+      "space"
      ],
      "suggestion": "Could we find you another parking space nearby?",
      "suggestionFa": "می‌تونیم یه جای پارک دیگه نزدیک براتون پیدا کنیم؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "customers",
-      "people",
       "office",
+      "people",
       "means"
      ],
      "suggestion": "Think of it this way: more people means more customers for the post office.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "volunteers",
-      "looked",
       "twenty",
-      "we've"
+      "looked",
+      "after"
      ],
      "suggestion": "We'd make sure it's well looked after. We've got twenty volunteers.",
      "suggestionFa": "مطمئن می‌شیم خوب نگهداری بشه. بیست تا داوطلب داریم.",
@@ -134,7 +134,7 @@
       "residents'",
       "insurance",
       "setting",
-      "we're"
+      "we'll"
      ],
      "suggestion": "We're setting up a residents' committee, and we'll have insurance.",
      "suggestionFa": "داریم یه کمیتهٔ ساکنان راه می‌ندازیم، و بیمه هم داریم.",
@@ -185,9 +185,9 @@
    "branches": [
     {
      "keywords": [
-      "maybe",
-      "could",
       "after",
+      "could",
+      "maybe",
       "then"
      ],
      "suggestion": "Then maybe we could name a bed after her.",
@@ -200,7 +200,7 @@
      "keywords": [
       "sounds",
       "she'd",
-      "want",
+      "part",
       "like"
      ],
      "suggestion": "It sounds like she'd want you to be part of it.",

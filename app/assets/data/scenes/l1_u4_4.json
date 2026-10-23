@@ -213,10 +213,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "twenty",
-      "pence",
-      "cheap"
+      "that's",
+      "cheap",
+      "pence"
      ],
      "suggestion": "Twenty pence? That's very cheap!",
      "suggestionFa": "بیست پنی؟ خیلی ارزونه!",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "mind",
       "step",
+      "mind",
       "done"
      ],
      "suggestion": "Done. Mind the step!",

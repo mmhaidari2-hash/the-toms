@@ -143,10 +143,10 @@
     },
     {
      "keywords": [
-      "seven",
       "fifty",
       "taken",
-      "most"
+      "seven",
+      "only"
      ],
      "suggestion": "Most are taken. Only seven-fifty is left.",
      "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "parent",
       "person",
-      "can",
-      "one"
+      "parent",
+      "one",
+      "can"
      ],
      "suggestion": "Can one parent go in person and one online?",
      "suggestionFa": "میشه یه والد حضوری بیاد و یکی آنلاین؟",
@@ -303,7 +303,7 @@
      "keywords": [
       "william",
       "after",
-      "will",
+      "come",
       "look"
      ],
      "suggestion": "Will you come too? I can look after William.",
@@ -358,7 +358,7 @@
       "question",
       "first",
       "doing",
-      "good"
+      "idea"
      ],
      "suggestion": "Good idea. First question: \"How is he doing?\"",
      "suggestionFa": "فکر خوبیه. سؤال اول: «چطور پیش میره؟»",
@@ -370,8 +370,8 @@
      "keywords": [
       "notebook",
       "write",
-      "them",
-      "i'll"
+      "i'll",
+      "them"
      ],
      "suggestion": "I'll write them in my notebook.",
      "suggestionFa": "تو دفترم می‌نویسمشون.",

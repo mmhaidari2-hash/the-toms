@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Stamp duty basics",
  "titleFa": "مبانی مالیات تمبر",
- "setting": "Buying a home · Level 0",
+ "setting": "Buying a home · Fennick & Rowe Homes",
  "settingFa": "خرید خانه",
  "requires": null,
  "start": "n1",
@@ -21,8 +21,8 @@
      "keywords": [
       "thousand",
       "hundred",
-      "much",
-      "will"
+      "will",
+      "five"
      ],
      "suggestion": "How much will I pay on two hundred and five thousand?",
      "suggestionFa": "برای دویست و پنج هزار چقدر می‌دم؟",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "buyers",
-      "limit",
+      "first",
       "there",
-      "first"
+      "limit"
      ],
      "suggestion": "Is there a limit for first-time buyers?",
      "suggestionFa": "برای خریدار بار اول سقفی هست؟",
@@ -135,9 +135,9 @@
     },
     {
      "keywords": [
-      "people",
-      "bought",
       "before",
+      "bought",
+      "people",
       "have"
      ],
      "suggestion": "And for people who have bought before?",
@@ -206,8 +206,8 @@
      "keywords": [
       "helpful",
       "really",
-      "thanks",
-      "graham"
+      "that's",
+      "thanks"
      ],
      "suggestion": "Thanks, Graham. That's really helpful.",
      "suggestionFa": "ممنون گراهام. خیلی کمک کرد.",

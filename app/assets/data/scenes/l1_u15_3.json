@@ -32,8 +32,8 @@
      "keywords": [
       "where",
       "last",
-      "did",
-      "see"
+      "see",
+      "did"
      ],
      "suggestion": "Where did you last see it?",
      "suggestionFa": "آخرین بار کجا دیدیش؟",
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "crisp",
-      "can",
+      "see",
       "pen",
-      "see"
+      "can"
      ],
      "suggestion": "I can see a pen and a crisp.",
      "suggestionFa": "یه خودکار و یه چیپس می‌بینم.",
@@ -276,8 +276,8 @@
     },
     {
      "keywords": [
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea!",
      "suggestionFa": "فکر خوبیه!",
@@ -311,8 +311,8 @@
    "branches": [
     {
      "keywords": [
-      "well",
       "done",
+      "well",
       "ha"
      ],
      "suggestion": "Ha ha! Well done!",

@@ -49,8 +49,8 @@
       "cornwall",
       "seaside",
       "august",
-      "we're",
-      "going"
+      "going",
+      "we're"
      ],
      "suggestion": "We're going to go to the seaside in August. To Cornwall! Have you been?",
      "suggestionFa": "قراره آگوست بریم کنار دریا. به کورنوال! رفتی تا حالا؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "beautiful",
       "beaches",
+      "south",
       "often",
-      "rains",
-      "south"
+      "rains"
      ],
      "suggestion": "It's in the south-west. Beautiful beaches! But it often rains.",
      "suggestionFa": "تو جنوب‌غربیه. ساحل‌های قشنگ! ولی اغلب بارون میاد.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "surprise",
-      "british",
       "degrees",
       "fifteen",
+      "british",
       "summer"
      ],
      "suggestion": "Always! British summer is a surprise. Some days it's thirty degrees, some days it's fifteen.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "summer",
-      "lucky",
-      "every",
       "going",
+      "every",
+      "lucky",
       "day"
      ],
      "suggestion": "Every day? Lucky you! What are you going to do in the summer?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "camping",
-      "summer",
       "nicola",
       "lovely",
-      "wants"
+      "summer",
+      "sleep"
      ],
      "suggestion": "Oh, how lovely! She must come for tea. Nicola wants to go camping, and Ryan wants to sleep all summer!",
      "suggestionFa": "آه، چه خوب! حتماً باید برای چای بیاد. نیکولا می‌خواد بره کمپینگ، و رایان می‌خواد کل تابستون بخوابه!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "typical",
       "perfect",
+      "typical",
       "summer",
       "garden",
       "that's"

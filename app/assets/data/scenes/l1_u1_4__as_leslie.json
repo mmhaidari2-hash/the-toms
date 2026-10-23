@@ -22,10 +22,10 @@
     {
      "keywords": [
       "please",
-      "house",
       "thank",
-      "milk",
-      "pass"
+      "house",
+      "pass",
+      "milk"
      ],
      "suggestion": "In this house we say please and thank you. Can you pass the milk, please?",
      "suggestionFa": "توی این خونه لطفاً و ممنون می‌گیم. می‌شه شیر را بدی، لطفاً؟",
@@ -49,8 +49,8 @@
       "thank",
       "love",
       "want",
-      "now",
-      "ask"
+      "ask",
+      "now"
      ],
      "suggestion": "Thank you, love. Now you ask me. What do you want?",
      "suggestionFa": "ممنون عزیزم. حالا تو از من بخواه. چی می‌خوای؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "manners",
       "knocked",
+      "manners",
       "lovely",
       "sorry",
       "oops"
@@ -208,11 +208,11 @@
    "branches": [
     {
      "keywords": [
-      "need",
       "past",
-      "now",
+      "need",
       "say",
-      "get"
+      "get",
+      "now"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
      "suggestionFa": "ها! حالا باید از کنارت رد شم. چی بگم؟",
@@ -311,8 +311,8 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "learner",
+      "exactly",
       "thanks",
       "cheers",
       "thank"

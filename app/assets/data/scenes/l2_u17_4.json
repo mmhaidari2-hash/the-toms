@@ -30,8 +30,8 @@
     {
      "keywords": [
       "restaurant",
-      "let",
-      "see"
+      "see",
+      "let"
      ],
      "suggestion": "Let me see. Is it the wrong restaurant?",
      "suggestionFa": "بذار ببینم. رستورانش اشتباهه؟",
@@ -81,7 +81,7 @@
       "terrible",
       "that's",
       "there",
-      "rings"
+      "onion"
      ],
      "suggestion": "There are no onion rings. That's terrible!",
      "suggestionFa": "حلقهٔ پیاز نیست. افتضاحه!",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "missing",
+      "chicken",
       "burger",
       "veggie"
      ],
@@ -289,8 +289,8 @@
     {
      "keywords": [
       "please",
-      "wrong",
       "order",
+      "wrong",
       "could"
      ],
      "suggestion": "\"Hi. Our order was wrong. Could you help, please?\"",

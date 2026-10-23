@@ -20,9 +20,9 @@
     {
      "keywords": [
       "phone",
+      "fine",
       "need",
-      "just",
-      "fine"
+      "just"
      ],
      "suggestion": "My phone is fine. I just need a UK SIM.",
      "suggestionFa": "گوشیم خوبه. فقط یه سیم‌کارت بریتانیایی لازم دارم.",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "month",
-      "much",
       "only",
-      "sim"
+      "much",
+      "per"
      ],
      "suggestion": "How much is SIM-only per month?",
      "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
@@ -145,7 +145,7 @@
       "home",
       "much",
       "use",
-      "wi"
+      "fi"
      ],
      "suggestion": "Not much. I use Wi-Fi at home.",
      "suggestionFa": "زیاد نه. تو خونه از وای‌فای استفاده می‌کنم.",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "cheaper",
-      "months",
       "twelve",
+      "months",
       "which"
      ],
      "suggestion": "Which is cheaper, monthly or twelve months?",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "fifteen",
-      "pounds",
       "rather",
+      "pounds",
       "pay"
      ],
      "suggestion": "Fifteen pounds. I'd rather pay monthly.",
@@ -353,10 +353,10 @@
    "branches": [
     {
      "keywords": [
-      "freedom",
       "rolling",
-      "like",
-      "then"
+      "freedom",
+      "then",
+      "like"
      ],
      "suggestion": "Rolling, then. I like freedom!",
      "suggestionFa": "پس ماه‌به‌ماه. آزادی را دوست دارم!",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "staying",
-      "months",
       "twelve",
+      "months",
       "here"
      ],
      "suggestion": "Twelve months. I'm staying here.",

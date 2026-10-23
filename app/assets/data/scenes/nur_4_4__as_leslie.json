@@ -3,7 +3,7 @@
  "characterId": "leslie",
  "title": "(As Leslie) Medicine and poorly children",
  "titleFa": "(در نقش Leslie) دارو و بچهٔ مریض",
- "setting": "Talking with parents · Level 0",
+ "setting": "Talking with parents · Vida's Nursery",
  "settingFa": "صحبت با والدین",
  "requires": null,
  "level": "A2",
@@ -24,8 +24,8 @@
      "keywords": [
       "paracetamol",
       "children's",
-      "william's",
       "lunchtime",
+      "william's",
       "morning"
      ],
      "suggestion": "Morning! William's got a bit of a cough. Can you give him some children's paracetamol at lunchtime?",
@@ -50,8 +50,8 @@
       "temperature",
       "morning",
       "course",
-      "need",
-      "know"
+      "know",
+      "form"
      ],
      "suggestion": "No temperature this morning. Oh, a form — of course. What do you need to know?",
      "suggestionFa": "امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "morning",
-      "twelve",
       "here's",
       "bottle",
+      "twelve",
       "seven"
      ],
      "suggestion": "5 ml at twelve. He had some at seven this morning. Here's the bottle — it's got his name on.",

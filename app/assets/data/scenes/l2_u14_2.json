@@ -21,8 +21,8 @@
      "keywords": [
       "maggie",
       "hello",
-      "some",
-      "only"
+      "only",
+      "some"
      ],
      "suggestion": "Hello, Maggie! Why only some?",
      "suggestionFa": "سلام مگی! چرا فقط بعضی‌هاش؟",
@@ -79,8 +79,8 @@
     {
      "keywords": [
       "librarian",
-      "time",
       "more",
+      "time",
       "ask"
      ],
      "suggestion": "Ask the librarian for more time.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "bennett",
-      "kind",
       "he's",
-      "help"
+      "help",
+      "kind"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
      "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
@@ -350,8 +350,8 @@
     },
     {
      "keywords": [
-      "just",
       "book",
+      "just",
       "them"
      ],
      "suggestion": "Just this book, or all of them?",
@@ -387,8 +387,8 @@
     {
      "keywords": [
       "ending",
-      "enjoy",
       "don't",
+      "enjoy",
       "tell"
      ],
      "suggestion": "Enjoy it! Don't tell me the ending.",

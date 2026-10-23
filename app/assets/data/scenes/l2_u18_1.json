@@ -20,8 +20,8 @@
     {
      "keywords": [
       "angel",
-      "bus",
       "tom",
+      "bus",
       "hi"
      ],
      "suggestion": "Hi, Tom! Does this bus go to Angel?",
@@ -71,8 +71,8 @@
      "keywords": [
       "paying",
       "phone",
-      "by",
-      "ok"
+      "ok",
+      "by"
      ],
      "suggestion": "I'm paying by phone. Is that OK?",
      "suggestionFa": "با گوشی پرداخت می‌کنم. اشکالی نداره؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
+      "hall",
       "sure",
-      "near",
       "town",
-      "hall"
+      "near"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
      "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "minutes",
-      "that's",
       "twenty",
+      "that's",
       "fine"
      ],
      "suggestion": "Twenty-five minutes. That's fine.",
@@ -234,9 +234,9 @@
     {
      "keywords": [
       "something",
-      "while",
       "drive",
-      "can"
+      "while",
+      "ask"
      ],
      "suggestion": "Ha! Can I ask you something while you drive?",
      "suggestionFa": "ها! وقتی رانندگی می‌کنی می‌تونم یه چیزی بپرسم؟",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "thanks",
-      "i'll",
       "here",
-      "tom"
+      "i'll",
+      "sit"
      ],
      "suggestion": "I'll sit here. Thanks, Tom.",
      "suggestionFa": "همین‌جا می‌شینم. ممنون تام.",

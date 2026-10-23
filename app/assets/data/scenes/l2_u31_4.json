@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "wrong",
       "freya",
-      "they",
-      "look"
+      "wrong",
+      "look",
+      "they"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "nicola",
-      "chair",
       "magic",
+      "chair",
       "sit"
      ],
      "suggestion": "Go on, Nicola. Sit on the magic chair!",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "think",
-      "high",
-      "goes"
+      "goes",
+      "high"
      ],
      "suggestion": "I think it goes very high!",
      "suggestionFa": "فکر کنم خیلی بالا میره!",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
-      "lion",
-      "roar",
       "like",
+      "roar",
+      "lion",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -322,10 +322,10 @@
    "branches": [
     {
      "keywords": [
-      "fairy",
-      "tooth",
       "bring",
-      "will"
+      "tooth",
+      "fairy",
+      "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
      "suggestionFa": "آره! پری دندون یه سکه میاره.",
@@ -336,9 +336,9 @@
     {
      "keywords": [
       "pillow",
+      "under",
       "maybe",
-      "falls",
-      "under"
+      "falls"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
      "suggestionFa": "شاید! وقتی افتاد، بذارش زیر بالشت.",
@@ -380,8 +380,8 @@
    "branches": [
     {
      "keywords": [
-      "sweets",
       "leslie",
+      "sweets",
       "nicola",
       "eats"
      ],
@@ -447,8 +447,8 @@
     {
      "keywords": [
       "choose",
-      "good",
       "girl",
+      "good",
       "one"
      ],
      "suggestion": "Good girl, Nicola. Choose one!",

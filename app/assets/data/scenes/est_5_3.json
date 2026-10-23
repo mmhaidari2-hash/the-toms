@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Solicitors and surveys",
  "titleFa": "وکیل و ارزیابی ساختمان",
- "setting": "Buying a home · Level 0",
+ "setting": "Buying a home · Fennick & Rowe Homes",
  "settingFa": "خرید خانه",
  "requires": null,
  "start": "n1",
@@ -191,8 +191,8 @@
     },
     {
      "keywords": [
-      "keys",
       "when",
+      "keys",
       "get"
      ],
      "suggestion": "When do I get the keys?",

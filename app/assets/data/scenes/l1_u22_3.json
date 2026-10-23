@@ -123,8 +123,8 @@
     {
      "keywords": [
       "today",
-      "work",
-      "have"
+      "have",
+      "work"
      ],
      "suggestion": "Do you have work today?",
      "suggestionFa": "امروز کار داری؟",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "snowman",
-      "never",
       "built",
+      "never",
       "i've"
      ],
      "suggestion": "I've never built a snowman!",
@@ -313,8 +313,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
       "great",
+      "looks",
       "he"
      ],
      "suggestion": "He looks great!",

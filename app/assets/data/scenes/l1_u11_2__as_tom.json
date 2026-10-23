@@ -25,7 +25,7 @@
       "football",
       "chores",
       "first",
-      "right"
+      "later"
      ],
      "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
      "suggestionFa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "monday",
-      "bins",
       "ryan",
+      "next",
       "door",
-      "next"
+      "bins"
      ],
      "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
      "suggestionFa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "recycling",
-      "plastic",
       "rubbish",
-      "black",
-      "paper"
+      "plastic",
+      "paper",
+      "black"
      ],
      "suggestion": "The blue bin is for recycling — paper, cans and plastic. The black bin is for rubbish.",
      "suggestionFa": "سطل آبی برای بازیافته — کاغذ، قوطی و پلاستیک. سطل سیاه برای زباله.",
@@ -124,8 +124,8 @@
       "washing",
       "little",
       "waste",
-      "brown",
-      "caddy"
+      "caddy",
+      "brown"
      ],
      "suggestion": "Food waste goes in the little brown caddy. Now, the washing. Can you hang it on the line?",
      "suggestionFa": "پسماند غذا می‌ره تو سطل کوچیک قهوه‌ای. حالا، لباس‌ها. می‌تونی رو بند پهنشون کنی؟",
@@ -225,7 +225,7 @@
       "football",
       "chores",
       "right",
-      "done"
+      "mums"
      ],
      "suggestion": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
      "suggestionFa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟",

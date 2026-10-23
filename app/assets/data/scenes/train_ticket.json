@@ -21,8 +21,8 @@
      "keywords": [
       "platform",
       "please",
-      "which",
-      "train"
+      "train",
+      "which"
      ],
      "suggestion": "Yes please — which platform is the train to Bath Spa?",
      "suggestionFa": "آره لطفاً — قطار باث اسپا از کدوم سکوئه؟",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "office",
       "ticket",
       "trying",
-      "office",
       "find"
      ],
      "suggestion": "I'm trying to find the ticket office.",
@@ -86,7 +86,7 @@
       "coffee",
       "that's",
       "while",
-      "i'll"
+      "grab"
      ],
      "suggestion": "That's fine, I'll grab a coffee while I wait.",
      "suggestionFa": "اشکالی نداره، تا منتظرم یه قهوه می‌گیرم.",
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "train",
-      "back",
       "come",
+      "back",
       "can"
      ],
      "suggestion": "Can I come back on any train?",
@@ -215,8 +215,8 @@
     {
      "keywords": [
       "thank",
-      "know",
-      "good"
+      "good",
+      "know"
      ],
      "suggestion": "Good to know, thank you.",
      "suggestionFa": "خوب شد گفتید، ممنون.",
@@ -310,8 +310,8 @@
      "keywords": [
       "before",
       "next",
-      "i'll",
-      "trip"
+      "trip",
+      "i'll"
      ],
      "suggestion": "I'll get one before my next trip.",
      "suggestionFa": "قبل از سفر بعدیم یکی می‌گیرم.",

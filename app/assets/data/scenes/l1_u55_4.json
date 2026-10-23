@@ -69,8 +69,8 @@
      "keywords": [
       "driving",
       "weather",
-      "left",
-      "food"
+      "food",
+      "left"
      ],
      "suggestion": "The food, the weather, and driving on the left!",
      "suggestionFa": "غذا، هوا، و رانندگی از سمت چپ!",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "everything",
-      "shops",
       "money",
+      "shops",
       "buses"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
@@ -128,10 +128,10 @@
    "branches": [
     {
      "keywords": [
-      "wrong",
       "first",
+      "wrong",
       "took",
-      "bus"
+      "day"
      ],
      "suggestion": "Yes! I took the wrong bus on my first day.",
      "suggestionFa": "آره! روز اول اتوبوس اشتباه سوار شدم.",
@@ -248,8 +248,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "cooked",
+      "didn't",
       "shops",
       "every"
      ],
@@ -292,7 +292,7 @@
       "people",
       "sorry",
       "time",
-      "all"
+      "say"
      ],
      "suggestion": "People say \"sorry\" all the time!",
      "suggestionFa": "مردم مدام میگن «ببخشید»!",
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "stop",
-      "even"
+      "even",
+      "stop"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",

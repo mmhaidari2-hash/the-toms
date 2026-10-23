@@ -57,8 +57,8 @@
     {
      "keywords": [
       "dolls",
-      "want",
       "play",
+      "want",
       "lots",
       "got"
      ],
@@ -135,8 +135,8 @@
      "keywords": [
       "bored",
       "play",
-      "now",
-      "can"
+      "can",
+      "now"
      ],
      "suggestion": "What can I play with now? I'm bored.",
      "suggestionFa": "حالا با چی بازی کنم؟ حوصله‌ام سر رفته.",
@@ -157,11 +157,11 @@
    "branches": [
     {
      "keywords": [
-      "tower",
       "block",
+      "tower",
       "tall",
-      "red",
-      "put"
+      "put",
+      "red"
      ],
      "suggestion": "A tower! A very tall tower! You put a red block on top.",
      "suggestionFa": "یه برج! یه برج خیلی بلند! تو یه مکعب قرمز بذار بالاش.",
@@ -287,10 +287,10 @@
     {
      "keywords": [
       "minutes",
-      "turn",
-      "doll",
       "ding",
-      "five"
+      "turn",
+      "five",
+      "doll"
      ],
      "suggestion": "Ding! Five minutes! It's my turn with the doll now!",
      "suggestionFa": "دینگ! پنج دقیقه! حالا نوبت منه با عروسک!",

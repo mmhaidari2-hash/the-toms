@@ -182,8 +182,8 @@
     },
     {
      "keywords": [
-      "cute",
       "duck",
+      "cute",
       "bowl"
      ],
      "suggestion": "The duck bowl is very cute.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "water",
-      "pour",
-      "i'll"
+      "i'll",
+      "pour"
      ],
      "suggestion": "Yes, I'll pour the water.",
      "suggestionFa": "آره، من آب می‌ریزم.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "together",
-      "let's",
       "hands",
+      "let's",
       "hold"
      ],
      "suggestion": "Hold it with two hands. Let's do it together.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "beautiful",
       "triangles",
+      "beautiful",
       "they're"
      ],
      "suggestion": "They're beautiful triangles!",

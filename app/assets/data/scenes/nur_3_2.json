@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Gentle hands",
  "titleFa": "دست‌های مهربان",
- "setting": "Play, songs and feelings · Level 0",
+ "setting": "Play, songs and feelings · Vida's Nursery",
  "settingFa": "بازی، آهنگ و احساسات",
  "requires": null,
  "start": "n1",
@@ -80,8 +80,8 @@
     {
      "keywords": [
       "gentle",
-      "oscar",
       "hands",
+      "oscar",
       "use"
      ],
      "suggestion": "Oscar, we use gentle hands.",
@@ -172,8 +172,8 @@
      "keywords": [
       "saying",
       "sorry",
-      "thank",
-      "oscar"
+      "oscar",
+      "thank"
      ],
      "suggestion": "Thank you for saying sorry, Oscar.",
      "suggestionFa": "ممنون که عذرخواهی کردی اسکار.",
@@ -185,8 +185,8 @@
      "keywords": [
       "train",
       "give",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done. Can you give him the train?",
      "suggestionFa": "آفرین. می‌تونی قطار را بهش بدی؟",
@@ -225,8 +225,8 @@
      "keywords": [
       "taking",
       "turns",
-      "fair",
-      "good"
+      "idea",
+      "fair"
      ],
      "suggestion": "Good idea. Taking turns is fair.",
      "suggestionFa": "فکر خوبیه. نوبتی بازی کردن منصفانه‌ست.",
@@ -238,8 +238,8 @@
      "keywords": [
       "while",
       "oscar",
-      "want",
-      "wait"
+      "wait",
+      "want"
      ],
      "suggestion": "Oscar, do you want the bus while you wait?",
      "suggestionFa": "اسکار، تا صبر می‌کنی اتوبوس را می‌خوای؟",

@@ -72,8 +72,8 @@
     {
      "keywords": [
       "booking",
-      "rooms",
       "under",
+      "rooms",
       "i've"
      ],
      "suggestion": "Yes. I've got a booking under Thompson. Two rooms.",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "take",
-      "now"
+      "i'll",
+      "him"
      ],
      "suggestion": "Thank you. I'll take it to him now.",
      "suggestionFa": "ممنون. الان براش می‌برمش.",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "corner",
-      "first",
       "round",
+      "first",
       "left"
      ],
      "suggestion": "Round the corner, first left. Got it.",
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "eleven",
-      "late",
+      "come",
       "back",
-      "come"
+      "late"
      ],
      "suggestion": "Eleven? What if we come back late?",
      "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",

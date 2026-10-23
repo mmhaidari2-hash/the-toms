@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "british",
-      "beans",
-      "lunch",
-      "toast"
+      "toast",
+      "tried",
+      "beans"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
      "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "drawer",
       "opener",
       "you'll",
-      "drawer",
       "love",
       "open"
      ],
@@ -100,7 +100,7 @@
       "slices",
       "bread",
       "beans",
-      "each"
+      "pour"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
      "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "please",
-      "don't",
       "beans",
-      "burn",
-      "stir"
+      "don't",
+      "stir",
+      "them"
      ],
      "suggestion": "Stir the beans, please. Don't let them burn!",
      "suggestionFa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "toast's",
-      "cheese",
       "butter",
-      "beans",
+      "cheese",
+      "ready",
       "yours"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
@@ -173,9 +173,9 @@
      "keywords": [
       "cheese",
       "secret",
-      "brown",
       "sauce",
-      "now"
+      "brown",
+      "try"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "cooking",
+      "minutes",
       "that's",
       "only",
-      "wash"
+      "five"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

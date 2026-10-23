@@ -3,7 +3,7 @@
  "characterId": "leslie",
  "title": "Pick-up and the daily report",
  "titleFa": "تحویل عصر و گزارش روزانه",
- "setting": "Talking with parents · Level 0",
+ "setting": "Talking with parents · Vida's Nursery",
  "settingFa": "صحبت با والدین",
  "requires": null,
  "start": "n1",
@@ -21,8 +21,8 @@
      "keywords": [
       "leslie",
       "great",
-      "had",
-      "day"
+      "day",
+      "had"
      ],
      "suggestion": "Hi, Leslie! He had a great day.",
      "suggestionFa": "سلام لزلی! روز خیلی خوبی داشت.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "seconds",
-      "all",
-      "had"
+      "had",
+      "all"
      ],
      "suggestion": "Yes, he ate all of it and had seconds!",
      "suggestionFa": "آره، همه‌ش را خورد و دوباره هم گرفت!",
@@ -84,7 +84,7 @@
       "lunch",
       "most",
       "peas",
-      "his"
+      "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
      "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
@@ -120,8 +120,8 @@
      "keywords": [
       "from",
       "hour",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "Yes, he slept for an hour, from one to two.",
      "suggestionFa": "آره، یه ساعت خوابید، از یک تا دو.",
@@ -177,8 +177,8 @@
      "keywords": [
       "morning",
       "boxes",
-      "from",
-      "made"
+      "made",
+      "from"
      ],
      "suggestion": "He made it from boxes this morning.",
      "suggestionFa": "امروز صبح با جعبه‌ها ساختش.",
@@ -223,8 +223,8 @@
      "keywords": [
       "because",
       "william",
-      "green",
-      "chose"
+      "chose",
+      "green"
      ],
      "suggestion": "Because William chose green!",
      "suggestionFa": "چون ویلیام سبز را انتخاب کرد!",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "himself",
       "painted",
+      "himself",
       "nicola",
       "hi"
      ],
@@ -277,8 +277,8 @@
      "keywords": [
       "accidents",
       "every",
-      "time",
-      "told"
+      "told",
+      "time"
      ],
      "suggestion": "No accidents — he told us every time.",
      "suggestionFa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت.",

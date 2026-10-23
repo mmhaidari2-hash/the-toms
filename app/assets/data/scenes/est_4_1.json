@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Reporting a repair",
  "titleFa": "گزارش تعمیر",
- "setting": "Living there and moving out · Level 0",
+ "setting": "Living there and moving out · Fennick & Rowe Homes",
  "settingFa": "زندگی در خانه و تخلیه",
  "requires": null,
  "start": "n1",
@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "working",
-      "boiler",
+      "stopped",
+      "afraid",
       "olivia"
      ],
      "suggestion": "Hi Olivia. I'm afraid the boiler has stopped working.",
@@ -132,8 +132,8 @@
      "keywords": [
       "engineer",
       "course",
-      "when",
-      "come"
+      "come",
+      "when"
      ],
      "suggestion": "Of course. When can the engineer come?",
      "suggestionFa": "حتماً. تعمیرکار کِی می‌تونه بیاد؟",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "tomorrow",
+      "home",
       "i'll",
-      "from",
-      "home"
+      "from"
      ],
      "suggestion": "Yes, I'll work from home tomorrow.",
      "suggestionFa": "آره، فردا از خونه کار می‌کنم.",
@@ -196,10 +196,10 @@
     },
     {
      "keywords": [
+      "twenty",
       "hours'",
       "notice",
-      "twenty",
-      "time"
+      "four"
      ],
      "suggestion": "Can you give me twenty-four hours' notice next time?",
      "suggestionFa": "دفعهٔ بعد می‌شه بیست و چهار ساعت قبل خبر بدید؟",

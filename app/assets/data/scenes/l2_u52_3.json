@@ -76,8 +76,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "there's",
+      "problem",
       "afraid",
       "room"
      ],
@@ -89,8 +89,8 @@
     },
     {
      "keywords": [
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "I'll come with you.",
      "suggestionFa": "باهات میام.",
@@ -176,8 +176,8 @@
      "keywords": [
       "possible",
       "change",
-      "rooms",
-      "would"
+      "would",
+      "rooms"
      ],
      "suggestion": "Would it be possible to change rooms?",
      "suggestionFa": "ممکنه اتاق عوض کنیم؟",
@@ -189,8 +189,8 @@
      "keywords": [
       "couldn't",
       "quieter",
-      "there",
-      "sleep"
+      "sleep",
+      "there"
      ],
      "suggestion": "Tom couldn't sleep. Is there a quieter room?",
      "suggestionFa": "تام نتونست بخوابه. اتاق آروم‌تری هست؟",
@@ -282,8 +282,8 @@
     {
      "keywords": [
       "together",
-      "still",
       "sleep",
+      "still",
       "room"
      ],
      "suggestion": "Can the kids still sleep together in room five?",
@@ -445,8 +445,8 @@
     },
     {
      "keywords": [
-      "shall",
       "carry",
+      "shall",
       "bags",
       "help"
      ],

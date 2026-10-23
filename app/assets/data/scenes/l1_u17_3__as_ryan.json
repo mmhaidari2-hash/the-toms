@@ -48,8 +48,8 @@
      "keywords": [
       "school",
       "can't",
-      "wait",
       "late",
+      "wait",
       "cube"
      ],
      "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "milky",
-      "milk",
       "cold",
-      "good",
-      "idea"
+      "idea",
+      "milk",
+      "good"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
      "suggestionFa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!",
@@ -100,7 +100,7 @@
       "sugars",
       "twenty",
       "there",
-      "sweet"
+      "three"
      ],
      "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
      "suggestionFa": "بیست ثانیه… بفرما. اه! حالا خیلی شیرینه. کی سه تا قند ریخت توش؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "nicola",
+      "always",
       "make",
       "want",
       "i'll"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "sugar",
       "right",
-      "milk",
-      "just"
+      "water",
+      "just",
+      "milk"
      ],
      "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
      "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
@@ -198,8 +198,8 @@
      "keywords": [
       "goldilocks",
       "drink",
-      "time",
       "late",
+      "time",
       "look"
      ],
      "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",

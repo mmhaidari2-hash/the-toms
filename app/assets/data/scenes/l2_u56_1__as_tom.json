@@ -24,8 +24,8 @@
       "exciting",
       "monday",
       "night",
-      "black",
-      "green"
+      "green",
+      "black"
      ],
      "suggestion": "Monday night! Bin night! The most exciting night of the week. Is it black bin week or green bin week?",
      "suggestionFa": "دوشنبه شب! شب سطل زباله! هیجان‌انگیزترین شب هفته. هفتهٔ سطل مشکیه یا سطل سبز؟",
@@ -50,7 +50,7 @@
       "alternate",
       "morning",
       "tuesday",
-      "before"
+      "clever"
      ],
      "suggestion": "Clever. Black and green, alternate weeks. Collection is Tuesday morning, early. So we put the bins out the night before.",
      "suggestionFa": "زرنگی. مشکی و سبز، یه هفته در میون. جمع‌آوری سه‌شنبه صبح، زود. پس سطل‌ها را شب قبل بیرون می‌ذاریم.",
@@ -74,8 +74,8 @@
       "everything",
       "recycling",
       "cardboard",
-      "bottles",
-      "plastic"
+      "plastic",
+      "tonight"
      ],
      "suggestion": "Green tonight. Recycling: cans, bottles, paper, cardboard, plastic tubs. Rinsed! No food. Black is for everything else.",
      "suggestionFa": "امشب سبز. بازیافت: قوطی، بطری، کاغذ، مقوا، ظرف پلاستیکی. شسته! بدون غذا. مشکی برای بقیه چیزهاست.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "greasy",
       "checks",
       "sounds",
-      "rinse",
-      "black"
+      "greasy",
+      "green",
+      "clean"
      ],
      "suggestion": "A quick rinse, yeah. Sounds mad, I know. And the pizza box — greasy bit in the black, clean lid in the green. Mrs Khan checks!",
      "suggestionFa": "یه آب‌کشیدن سریع، آره. می‌دونم دیوونگی به نظر میاد. و جعبهٔ پیتزا — قسمت چرب تو مشکی، درِ تمیز تو سبز. خانم خان چک می‌کنه!",
@@ -123,8 +123,8 @@
      "keywords": [
       "unofficial",
       "inspector",
-      "pavement",
       "street's",
+      "pavement",
       "that's"
      ],
      "suggestion": "She's the street's unofficial bin inspector. Right — wheel it to the pavement. Handle facing the road. That's how they like it.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "they've",
+      "morning",
       "missed",
       "she's",
       "still"
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "website",
       "council",
-      "report",
+      "website",
+      "ward's",
       "within",
       "missed"
      ],
@@ -199,8 +199,8 @@
       "everything",
       "british",
       "council",
-      "report",
-      "kettle"
+      "expert",
+      "report"
      ],
      "suggestion": "You're an expert! Bins, council, everything. Mate, you're more British than me. Report it, and I'll put the kettle on.",
      "suggestionFa": "تو متخصصی! سطل، شهرداری، همه‌چی. رفیق، تو از من بریتانیایی‌تری. گزارش بده، منم کتری را می‌ذارم.",

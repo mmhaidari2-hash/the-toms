@@ -55,10 +55,10 @@
    "branches": [
     {
      "keywords": [
-      "wasn't",
       "mostly",
-      "good",
-      "ryan"
+      "wasn't",
+      "ryan",
+      "good"
      ],
      "suggestion": "It wasn't bad, Ryan. It was mostly good!",
      "suggestionFa": "بد نبود رایان. بیشترش خوب بود!",
@@ -147,7 +147,7 @@
       "algebra",
       "maths",
       "patel",
-      "need"
+      "said"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
      "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
@@ -160,7 +160,7 @@
       "homework",
       "pieces",
       "were",
-      "late"
+      "five"
      ],
      "suggestion": "Five pieces of homework were late.",
      "suggestionFa": "پنج تا تکلیف دیر بوده.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "that's",
-      "seven",
       "eight",
+      "seven",
       "plan"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
@@ -228,8 +228,8 @@
      "keywords": [
       "homework",
       "only",
-      "time",
-      "ryan"
+      "ryan",
+      "time"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "only",
+      "ryan",
       "one"
      ],
      "suggestion": "It's only one hour, Ryan.",
@@ -315,10 +315,10 @@
     },
     {
      "keywords": [
-      "numbers",
       "strange",
-      "just",
-      "like"
+      "numbers",
+      "like",
+      "just"
      ],
      "suggestion": "Strange? I just like numbers!",
      "suggestionFa": "عجیب؟ فقط عدد دوست دارم!",
@@ -412,8 +412,8 @@
     {
      "keywords": [
       "that's",
-      "great",
       "prize",
+      "great",
       "ryan"
      ],
      "suggestion": "That's a great prize, Ryan.",

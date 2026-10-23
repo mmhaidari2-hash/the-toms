@@ -23,9 +23,9 @@
      "keywords": [
       "nicola's",
       "pyjamas",
-      "they're",
       "bedroom",
-      "bath"
+      "they're",
+      "find"
      ],
      "suggestion": "Nicola's out of the bath. Can you find her pyjamas? They're in the bedroom.",
      "suggestionFa": "نیکولا از حموم اومد بیرون. پیژامه‌اش را پیدا می‌کنی؟ تو اتاق خوابه.",
@@ -132,7 +132,7 @@
       "where's",
       "nicola",
       "hair",
-      "now"
+      "dry"
      ],
      "suggestion": "Now dry your hair, Nicola. Where's the hairdryer?",
      "suggestionFa": "حالا موهات را خشک کن نیکولا. سشوار کجاست؟",
@@ -153,10 +153,10 @@
    "branches": [
     {
      "keywords": [
-      "behind",
       "mirror",
       "socket",
-      "door",
+      "behind",
+      "plug",
       "next"
      ],
      "suggestion": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",

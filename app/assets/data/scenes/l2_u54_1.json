@@ -21,8 +21,8 @@
      "keywords": [
       "course",
       "seeds",
-      "have",
-      "many"
+      "many",
+      "have"
      ],
      "suggestion": "Of course! How many seeds have you got?",
      "suggestionFa": "البته! چند تا دونه داری؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sunflowers",
-      "tall",
       "they",
-      "grow"
+      "grow",
+      "tall"
      ],
      "suggestion": "Sunflowers! They grow very tall.",
      "suggestionFa": "آفتابگردون! خیلی بلند میشن.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "spade",
-      "nice",
-      "pink"
+      "pink",
+      "nice"
      ],
      "suggestion": "Your spade is pink! Very nice.",
      "suggestionFa": "بیلچه‌ات صورتیه! خیلی قشنگه.",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "worms",
-      "good",
-      "soil"
+      "soil",
+      "good"
      ],
      "suggestion": "Worms are good for the soil.",
      "suggestionFa": "کرم‌ها برای خاک خوبن.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "gently",
-      "worm",
       "next",
+      "worm",
       "hole"
      ],
      "suggestion": "Put the worm next to the hole. Gently!",
@@ -217,8 +217,8 @@
      "keywords": [
       "close",
       "next",
-      "now",
-      "one"
+      "one",
+      "now"
      ],
      "suggestion": "Now the next one. Not too close!",
      "suggestionFa": "حالا بعدی. نه خیلی نزدیک!",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "water",
-      "much",
-      "here"
+      "here",
+      "much"
      ],
      "suggestion": "Here. Not too much water!",
      "suggestionFa": "بفرما. نه خیلی آب زیاد!",
@@ -268,8 +268,8 @@
     },
     {
      "keywords": [
-      "rains",
       "every",
+      "rains",
       "even",
       "when"
      ],

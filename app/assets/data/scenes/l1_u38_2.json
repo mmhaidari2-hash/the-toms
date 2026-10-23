@@ -20,8 +20,8 @@
     {
      "keywords": [
       "buy",
-      "did",
-      "him"
+      "him",
+      "did"
      ],
      "suggestion": "What did you buy him?",
      "suggestionFa": "براش چی خریدی؟",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "let",
-      "see"
+      "see",
+      "let"
      ],
      "suggestion": "Let me see.",
      "suggestionFa": "بذار ببینم.",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "going",
-      "he's",
-      "love"
+      "love",
+      "he's"
      ],
      "suggestion": "He's going to love it.",
      "suggestionFa": "عاشقش میشه.",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "paper",
-      "fold",
       "over",
+      "fold",
       "box"
      ],
      "suggestion": "Fold the paper over the box.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "stick",
-      "hold",
-      "i'll"
+      "i'll",
+      "hold"
      ],
      "suggestion": "Hold it, and I'll stick it.",
      "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
@@ -236,9 +236,9 @@
     },
     {
      "keywords": [
+      "small",
       "piece",
       "first",
-      "small",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",

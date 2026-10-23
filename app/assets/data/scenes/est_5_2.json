@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Making an offer",
  "titleFa": "پیشنهاد خرید دادن",
- "setting": "Buying a home · Level 0",
+ "setting": "Buying a home · Fennick & Rowe Homes",
  "settingFa": "خرید خانه",
  "requires": null,
  "start": "n1",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "higher",
-      "seller",
       "accept",
+      "seller",
       "still"
      ],
      "suggestion": "So the seller could still accept a higher offer?",

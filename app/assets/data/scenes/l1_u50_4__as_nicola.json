@@ -24,7 +24,7 @@
       "carrots",
       "potato",
       "roast",
-      "give",
+      "psst",
       "swap"
      ],
      "suggestion": "Psst! {you}! I'll give you my carrots if you give me your roast potato. Swap?",
@@ -49,8 +49,8 @@
       "carrots",
       "that's",
       "three",
-      "good",
-      "swap"
+      "swap",
+      "good"
      ],
      "suggestion": "Three carrots! Three! That's a good swap!",
      "suggestionFa": "سه تا هویج! سه تا! معاملهٔ خوبیه!",
@@ -277,8 +277,8 @@
       "champion",
       "carrots",
       "biggest",
-      "carrot",
-      "please"
+      "please",
+      "carrot"
      ],
      "suggestion": "Done! Five carrots! I'm a carrot champion! Can I have the biggest bowl, please?",
      "suggestionFa": "تموم شد! پنج تا هویج! من قهرمان هویجم! می‌تونم بزرگ‌ترین کاسه را بگیرم، لطفاً؟",

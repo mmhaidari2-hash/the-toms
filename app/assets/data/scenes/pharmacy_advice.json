@@ -20,8 +20,8 @@
     {
      "keywords": [
       "really",
-      "fever",
       "itchy",
+      "fever",
       "eyes"
      ],
      "suggestion": "I've got hay fever — my eyes are really itchy.",
@@ -34,8 +34,8 @@
      "keywords": [
       "throat",
       "cough",
-      "sore",
-      "days"
+      "days",
+      "sore"
      ],
      "suggestion": "I've had a sore throat and a cough for a few days.",
      "suggestionFa": "چند روزه گلودرد و سرفه دارم.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "them",
       "take",
+      "them",
       "food",
       "can"
      ],
@@ -269,9 +269,9 @@
     {
      "keywords": [
       "should",
-      "them",
       "take",
-      "long"
+      "them",
+      "okay"
      ],
      "suggestion": "Okay. How long should I take them for?",
      "suggestionFa": "باشه. چه مدت باید بخورمشون؟",

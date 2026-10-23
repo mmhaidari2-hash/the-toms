@@ -25,7 +25,7 @@
       "training",
       "disaster",
       "looks",
-      "shirt"
+      "slept"
      ],
      "suggestion": "Disaster! I've got a job interview for the training role in an hour, and my shirt looks like I slept in it. Can you iron?",
      "suggestionFa": "فاجعه! یه ساعت دیگه برای نقش آموزشی مصاحبهٔ کاری دارم، و پیرهنم انگار توش خوابیدم. اتو بلدی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "lifesaver",
       "cupboard",
+      "squeaks",
       "ironing",
-      "kitchen",
-      "squeaks"
+      "kitchen"
      ],
      "suggestion": "You're a lifesaver. The iron's in the cupboard, and the ironing board is behind the kitchen door. It squeaks.",
      "suggestionFa": "نجات‌دهنده‌ای. اتو تو کابینته، و میز اتو پشت در آشپزخونه‌ست. جیرجیر می‌کنه.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cotton",
-      "works",
       "check",
-      "noisy",
-      "three"
+      "works",
+      "three",
+      "first"
      ],
      "suggestion": "It works, just noisy. Like me. Check the label first. Cotton? It needs a hot iron. Look for the three dots.",
      "suggestionFa": "کار می‌کنه، فقط پرسروصداست. مثل من. اول برچسب را ببین. نخیه؟ اتوی داغ لازم داره. دنبال سه تا نقطه بگرد.",
@@ -98,8 +98,8 @@
      "keywords": [
       "creases",
       "cotton",
+      "helps",
       "water",
-      "steam",
       "three"
      ],
      "suggestion": "More dots, more heat. One dot for silk, three for cotton. Have you got any water in it? Steam helps with creases.",
@@ -124,8 +124,8 @@
       "champion",
       "ironing",
       "sleeves",
-      "collar",
-      "that's"
+      "taught",
+      "maggie"
      ],
      "suggestion": "Collar first, then the cuffs, then the sleeves, then the back. That's what my mum taught me. Nana Maggie, the ironing champion.",
      "suggestionFa": "اول یقه، بعد سرآستین‌ها، بعد آستین‌ها، بعد پشت. اینو مامانم یادم داد. نانا مگی، قهرمان اتو.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "fingers",
+      "school",
       "jumper",
       "burned",
-      "secret",
-      "school"
+      "secret"
      ],
      "suggestion": "All mums know the secret! Mind your fingers. And don't leave the iron face down. Ryan burned a hole in his school jumper.",
      "suggestionFa": "همهٔ مامان‌ها راز را می‌دونن! مواظب انگشتات باش. و اتو را رو به پایین ول نکن. رایان یه سوراخ تو بلوز مدرسه‌اش سوزوند.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "manager",
+      "already",
       "shirt's",
-      "jumper",
-      "that's"
+      "that's",
+      "jumper"
      ],
      "suggestion": "Poor jumper, more like. Look at that — the shirt's nearly done. That's much better! I look like a manager already.",
      "suggestionFa": "بلوز بیچاره بهتره بگی. اینو ببین — پیرهن تقریباً تموم شد. خیلی بهتر شد! همین الان شبیه مدیرها شدم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "company",
-      "bought",
       "brings",
       "leslie",
+      "bought",
       "think"
      ],
      "suggestion": "A tie? Do you think? It's a bus company, not the bank. Hmm. The blue one. Leslie bought it. She says it \"brings out my eyes\".",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "drivers",
       "because",
-      "pigeon",
+      "drivers",
       "twenty",
+      "pigeon",
       "never"
      ],
      "suggestion": "\"Why do you want to train new drivers?\" Because I've done it for twenty years and I've never hit a pigeon!",

@@ -25,7 +25,7 @@
       "asleep",
       "would",
       "time",
-      "dear"
+      "like"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -50,7 +50,7 @@
       "down",
       "like",
       "tea",
-      "sit"
+      "how"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
      "suggestionFa": "نه، نه، بشین. مهمون منی. چای را چطوری دوست داری؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "builder's",
       "persian",
-      "strong",
       "sugars",
+      "strong",
       "likes"
      ],
      "suggestion": "Ooh, very Persian! Tom likes his tea \"builder's\" — very strong, two sugars.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "victoria",
-      "morning",
       "workers",
+      "morning",
       "strong",
       "sponge"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "nonsense",
       "anybody",
-      "small",
-      "never",
-      "piece"
+      "cream",
+      "piece",
+      "small"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "charmer",
       "there's",
+      "charmer",
       "plenty",
       "would",
       "more"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "george",
-      "years",
       "fifty",
+      "years",
       "just",
       "nice"
      ],

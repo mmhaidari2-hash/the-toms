@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
       "labels",
+      "thirty",
       "tumble",
-      "label",
-      "reads"
+      "reads",
+      "label"
      ],
      "suggestion": "The label? Who reads labels? Er… \"Wash at thirty. Do not tumble dry.\" Oh. Oops.",
      "suggestionFa": "برچسب؟ کی برچسب می‌خونه؟ اِ… «در سی درجه بشویید. در خشک‌کن نگذارید.» اوه. اوپس.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "soaking",
-      "minutes",
       "stretch",
-      "sleeve",
-      "thirty"
+      "minutes",
+      "soaking",
+      "thirty",
+      "gently"
      ],
      "suggestion": "OK, it's soaking. Thirty minutes… Right. Stretch. Pull that sleeve, I'll pull this one. Gently! GENTLY!",
      "suggestionFa": "باشه، داره خیس می‌خوره. سی دقیقه… خب. کش بده. اون آستین را بکش، منم اینو. آروم! آروم!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "whatever",
-      "before",
-      "pirate",
       "should",
-      "better"
+      "before",
+      "better",
+      "pirate"
      ],
      "suggestion": "Ha! I look like a pirate. Whatever. Better than before. What should I do now? Tell Mum, or hide it?",
      "suggestionFa": "ها! شبیه دزد دریایی شدم. مهم نیست. از قبل بهتره. حالا چی کار کنم؟ به مامان بگم یا قایمش کنم؟",
@@ -253,11 +253,11 @@
    "branches": [
     {
      "keywords": [
+      "tumble",
       "bakery",
       "washed",
-      "tumble",
-      "sorry",
-      "sixty"
+      "money",
+      "sorry"
      ],
      "suggestion": "OK, OK. I washed it at sixty. And tumble dried it. I'm sorry. I'll pay for a new one. From my bakery money.",
      "suggestionFa": "باشه باشه. تو شصت شستمش. و خشک‌کن زدم. ببخشید. پول یه جدید را میدم. از پول نونوایی.",

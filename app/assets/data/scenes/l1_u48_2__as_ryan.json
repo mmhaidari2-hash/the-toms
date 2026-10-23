@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dinner's",
-      "telly",
       "shall",
       "watch",
-      "time"
+      "telly",
+      "done"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "football",
       "playing",
-      "rather",
+      "boring",
       "rovers",
-      "boring"
+      "rather"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Rovers are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. روورز بازی داره.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "cartoons",
-      "baking",
       "nicola",
+      "baking",
       "valley",
       "wants"
      ],
@@ -99,8 +99,8 @@
       "baking",
       "what's",
       "people",
-      "loves",
-      "cakes"
+      "cakes",
+      "loves"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -125,7 +125,7 @@
       "minutes",
       "cartoon",
       "twenty",
-      "shout"
+      "match"
      ],
      "suggestion": "Good shout. Nicola's cartoon is only twenty minutes. Then Mum, then the match.",
      "suggestionFa": "فکر خوبیه. کارتون نیکولا فقط بیست دقیقه‌ست. بعد مامان، بعد بازی.",
@@ -149,8 +149,8 @@
       "spoilers",
       "record",
       "snacks",
-      "score",
-      "shall"
+      "shall",
+      "score"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cartoons",
       "remote's",
+      "cartoons",
       "starting",
       "vinegar",
       "crisps"

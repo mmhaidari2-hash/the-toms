@@ -20,8 +20,8 @@
     {
      "keywords": [
       "something",
-      "hurts",
       "tooth",
+      "hurts",
       "drink"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "morning",
-      "twice",
-      "night"
+      "night",
+      "twice"
      ],
      "suggestion": "Twice a day, morning and night.",
      "suggestionFa": "روزی دو بار، صبح و شب.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "should",
+      "really",
       "more"
      ],
      "suggestion": "Not really. I should do it more.",
@@ -163,7 +163,7 @@
     {
      "keywords": [
       "that's",
-      "week",
+      "book",
       "next",
       "fine"
      ],
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "nervous",
-      "hurt",
       "will",
+      "hurt",
       "bit"
      ],
      "suggestion": "Will it hurt? I'm a bit nervous.",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "about",
-      "was",
-      "ask"
+      "ask",
+      "was"
      ],
      "suggestion": "I was about to ask that!",
      "suggestionFa": "داشتم همینو می‌پرسیدم!",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "today",
-      "week",
       "next",
+      "week",
       "pay"
      ],
      "suggestion": "Do I pay today or next week?",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
+      "hard",
       "cola",
       "give",
-      "hard"
+      "i'll"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",

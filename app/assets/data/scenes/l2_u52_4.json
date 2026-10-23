@@ -22,7 +22,7 @@
       "morning",
       "sophie",
       "check",
-      "we'd"
+      "sure"
      ],
      "suggestion": "Sure. Good morning, Sophie. We'd like to check out.",
      "suggestionFa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "rooms",
       "leave",
+      "rooms",
       "time",
       "have"
      ],
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "leslie",
-      "check",
       "thank",
+      "check",
       "bill"
      ],
      "suggestion": "Thank you. Leslie, can you check the bill?",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "i'll",
       "call",
       "he's",
-      "him"
+      "i'll",
+      "tom"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
      "suggestionFa": "با تام تو ماشینه. صداش می‌کنم.",
@@ -295,8 +295,8 @@
      "keywords": [
       "cream",
       "pier",
-      "get",
-      "ice"
+      "ice",
+      "get"
      ],
      "suggestion": "The pier! Can we get ice cream?",
      "suggestionFa": "اسکله! میشه بستنی بخوریم؟",
@@ -382,8 +382,8 @@
      "keywords": [
       "tonight",
       "review",
-      "let's",
-      "write"
+      "write",
+      "let's"
      ],
      "suggestion": "Yes, let's write a review tonight.",
      "suggestionFa": "آره، بیا امشب یه نظر بنویسیم.",

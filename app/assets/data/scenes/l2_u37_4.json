@@ -21,8 +21,8 @@
      "keywords": [
       "missed",
       "she",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "No, I missed it. What did she say?",
      "suggestionFa": "نه، از دستش دادم. چی گفت؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "weather",
-      "check",
       "phone",
+      "check",
       "app"
      ],
      "suggestion": "I check the weather app on my phone.",
@@ -87,7 +87,7 @@
       "fourteen",
       "october",
       "that's",
-      "quite"
+      "highs"
      ],
      "suggestion": "Highs of fourteen. That's quite warm for October.",
      "suggestionFa": "حداکثر چهارده. برای اکتبر نسبتاً گرمه.",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "weather",
+      "other",
       "words",
-      "there",
-      "other"
+      "there"
      ],
      "suggestion": "What other weather words are there?",
      "suggestionFa": "دیگه چه کلمه‌های هواشناسی هست؟",
@@ -192,8 +192,8 @@
      "keywords": [
       "showers",
       "write",
-      "i'll",
-      "them"
+      "them",
+      "i'll"
      ],
      "suggestion": "Drizzle, showers, downpour. I'll write them down.",
      "suggestionFa": "دریزل، شاورز، داون‌پور. یادداشتشون می‌کنم.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "evening",
-      "going",
       "it'll",
+      "going",
       "clear"
      ],
      "suggestion": "It'll clear up by the evening. Good — I'm going to the park.",
@@ -265,7 +265,7 @@
       "seasons",
       "again",
       "frost",
-      "then"
+      "four"
      ],
      "suggestion": "Rain, then sun, then frost. Four seasons again!",
      "suggestionFa": "بارون، بعد آفتاب، بعد یخ. باز چهار فصل!",
@@ -318,7 +318,7 @@
       "london",
       "snow",
       "love",
-      "i'd"
+      "see"
      ],
      "suggestion": "I'd love to see snow in London.",
      "suggestionFa": "خیلی دوست دارم برف لندن را ببینم.",
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "hurricane",
-      "that's",
       "london",
+      "that's",
       "scary"
      ],
      "suggestion": "A hurricane in London? That's scary!",
@@ -406,8 +406,8 @@
     {
      "keywords": [
       "doris",
-      "stay",
       "here",
+      "stay",
       "dry"
      ],
      "suggestion": "Here you are. Stay dry, Doris!",
@@ -421,7 +421,7 @@
       "drizzle",
       "right",
       "knee",
-      "now"
+      "was"
      ],
      "suggestion": "It's drizzle now. Your knee was right!",
      "suggestionFa": "الان نم‌نمه. زانوتون درست گفت!",

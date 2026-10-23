@@ -21,8 +21,8 @@
      "keywords": [
       "minute",
       "here",
-      "ago",
-      "was"
+      "was",
+      "ago"
      ],
      "suggestion": "Yes! He was here a minute ago.",
      "suggestionFa": "آره! یه دقیقه پیش اینجا بود.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "didn't",
-      "like",
-      "look"
+      "look",
+      "like"
      ],
      "suggestion": "No, I didn't. What does he look like?",
      "suggestionFa": "نه، ندیدم. چه شکلیه؟",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "white",
-      "short",
       "beard",
+      "short",
       "grey"
      ],
      "suggestion": "He's got grey hair and a short white beard.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "seventy",
-      "quite",
       "think",
+      "quite",
       "about"
      ],
      "suggestion": "He's quite tall and thin. About seventy, I think.",
@@ -147,8 +147,8 @@
      "keywords": [
       "wearing",
       "green",
-      "coat",
-      "flat"
+      "flat",
+      "coat"
      ],
      "suggestion": "He was wearing a green coat and a flat cap.",
      "suggestionFa": "یه کت سبز و کلاه کپ پوشیده بود.",
@@ -160,8 +160,8 @@
      "keywords": [
       "small",
       "brown",
-      "him",
-      "dog"
+      "had",
+      "him"
      ],
      "suggestion": "He had a brown dog with him. A small one.",
      "suggestionFa": "یه سگ قهوه‌ای کوچیک همراهش بود.",
@@ -256,9 +256,9 @@
     {
      "keywords": [
       "that's",
-      "let's",
       "thank",
-      "him"
+      "let's",
+      "say"
      ],
      "suggestion": "Yes, that's him! Let's go and say thank you.",
      "suggestionFa": "آره، خودشه! بریم تشکر کنیم.",
@@ -305,8 +305,8 @@
    "branches": [
     {
      "keywords": [
-      "stripes",
       "jenkins",
+      "stripes",
       "wonky",
       "man"
      ],
@@ -359,8 +359,8 @@
     {
      "keywords": [
       "lemon",
-      "week",
       "told",
+      "week",
       "last"
      ],
      "suggestion": "He likes lemon cake. He told me last week.",
@@ -374,7 +374,7 @@
       "think",
       "more",
       "than",
-      "dog"
+      "his"
      ],
      "suggestion": "He likes his dog more than cake, I think!",
      "suggestionFa": "فکر کنم سگش را بیشتر از کیک دوست داره!",

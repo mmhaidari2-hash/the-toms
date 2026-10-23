@@ -23,9 +23,9 @@
      "keywords": [
       "there's",
       "garden",
-      "wake",
       "real",
-      "come"
+      "come",
+      "wake"
      ],
      "suggestion": "Wake up! Wake up! There's a FOX in the garden! A real one! Come and see!",
      "suggestionFa": "بیدار شو! بیدار شو! تو باغ یه روباهه! یه واقعیش! بیا ببین!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "orange",
-      "stroke",
       "please",
+      "stroke",
       "looks",
       "like"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "house",
       "where",
-      "live",
+      "house",
       "just",
-      "look"
+      "look",
+      "live"
      ],
      "suggestion": "OK. I'll just look. Where does it live? In a house?",
      "suggestionFa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "biscuit",
-      "little",
       "ginger",
+      "little",
       "cubs",
       "name"
      ],
@@ -174,8 +174,8 @@
       "because",
       "clever",
       "third",
-      "come",
-      "away"
+      "they",
+      "will"
      ],
      "suggestion": "The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back?",
      "suggestionFa": "سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "bedtime",
       "tonight",
-      "awake",
-      "night",
+      "bedtime",
+      "mummy",
+      "eight",
       "watch"
      ],
      "suggestion": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",

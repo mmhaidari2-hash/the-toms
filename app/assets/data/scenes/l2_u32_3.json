@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
-      "space",
       "class",
-      "there"
+      "there",
+      "space"
      ],
      "suggestion": "Is there space in the class?",
      "suggestionFa": "تو کلاس جا هست؟",
@@ -141,8 +141,8 @@
      "keywords": [
       "people",
       "won't",
-      "six",
-      "get"
+      "get",
+      "six"
      ],
      "suggestion": "Six people? We won't get in.",
      "suggestionFa": "شش نفر؟ جا گیرمون نمیاد.",
@@ -206,8 +206,8 @@
      "keywords": [
       "you'll",
       "there",
-      "i'll",
-      "fine"
+      "fine",
+      "i'll"
      ],
      "suggestion": "You'll be fine, Tom. I'll be there.",
      "suggestionFa": "خوب میشی تام. من اونجام.",
@@ -258,8 +258,8 @@
     },
     {
      "keywords": [
-      "boxing",
       "rather",
+      "boxing",
       "i'd"
      ],
      "suggestion": "I'd rather do boxing too.",
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "dinner",
-      "why",
-      "big"
+      "big",
+      "why"
      ],
      "suggestion": "Why no big dinner?",
      "suggestionFa": "چرا شام سنگین نه؟",
@@ -313,7 +313,7 @@
       "thursday",
       "can't",
       "come",
-      "if"
+      "we"
      ],
      "suggestion": "What if we can't come on Thursday?",
      "suggestionFa": "اگه پنج‌شنبه نتونستیم بیایم چی؟",
@@ -351,8 +351,8 @@
    "branches": [
     {
      "keywords": [
-      "curry",
       "class",
+      "curry",
       "got"
      ],
      "suggestion": "Got it. No curry before class!",

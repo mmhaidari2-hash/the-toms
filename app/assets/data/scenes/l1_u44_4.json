@@ -22,7 +22,7 @@
       "pocket",
       "money",
       "much",
-      "get"
+      "she"
      ],
      "suggestion": "How much pocket money does she get?",
      "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
@@ -113,9 +113,9 @@
    "branches": [
     {
      "keywords": [
-      "need",
-      "then",
       "save",
+      "then",
+      "need",
       "up"
      ],
      "suggestion": "Then you need to save up.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "unicorn",
-      "choose",
       "sweets",
+      "choose",
       "one"
      ],
      "suggestion": "Sweets or unicorn? Choose one!",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
-      "eight",
+      "weeks",
       "about",
-      "weeks"
+      "eight"
      ],
      "suggestion": "About eight weeks.",
      "suggestionFa": "حدود هشت هفته.",

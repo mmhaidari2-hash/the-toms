@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "drink",
-      "water",
       "hurts",
-      "tooth"
+      "drink",
+      "tooth",
+      "water"
      ],
      "suggestion": "Yes. This tooth hurts when I drink cold water.",
      "suggestionFa": "آره. این دندون وقتی آب سرد می‌خورم درد می‌گیره.",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "started",
-      "month",
       "sharp",
+      "month",
       "last"
      ],
      "suggestion": "It started last month. It's sharp!",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
-      "always"
+      "always",
+      "really"
      ],
      "suggestion": "Really? I always rinse!",
      "suggestionFa": "واقعاً؟ من همیشه آب می‌کشم!",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "thank",
-      "when",
       "come",
+      "when",
       "can"
      ],
      "suggestion": "Thank you. When can I come?",

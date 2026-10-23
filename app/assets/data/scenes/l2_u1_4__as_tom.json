@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturday",
-      "again",
       "watch",
       "hello",
-      "match"
+      "match",
+      "again"
      ],
      "suggestion": "Hello again! Did you watch the match on Saturday?",
      "suggestionFa": "دوباره سلام! شنبه مسابقه را دیدی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "ninetieth",
-      "minute",
       "didn't",
-      "score",
-      "until"
+      "minute",
+      "until",
+      "score"
      ],
      "suggestion": "We lost, two-one. I went with Ryan. We didn't score until the ninetieth minute!",
      "suggestionFa": "باختیم، دو-یک. با رایان رفتم. تا دقیقهٔ نود گل نزدیم!",
@@ -98,9 +98,9 @@
      "keywords": [
       "borrowed",
       "bovril",
-      "spilt",
       "scarf",
-      "then"
+      "spilt",
+      "over"
      ],
      "suggestion": "He borrowed my scarf. Then he spilt his Bovril all over it!",
      "suggestionFa": "شال‌گردن منو قرض گرفت. بعد بوریلش را ریخت روش!",
@@ -124,8 +124,8 @@
       "anything",
       "weekend",
       "smells",
-      "washed",
-      "leslie"
+      "leslie",
+      "washed"
      ],
      "suggestion": "Leslie washed it twice. It still smells a bit beefy! Did you do anything nice at the weekend?",
      "suggestionFa": "لزلی دوبار شستش. هنوز یه کم بوی گوشت میده! تو آخر هفته کار جالبی کردی؟",

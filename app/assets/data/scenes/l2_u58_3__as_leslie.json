@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "cushions",
-      "raining",
       "popcorn",
+      "raining",
       "cinema"
      ],
      "suggestion": "It's raining, so cinema at home today! Pop the popcorn, I'll do the cushions. William's in charge of the remote. Help!",
@@ -152,9 +152,9 @@
      "keywords": [
       "together",
       "popcorn",
-      "salted",
       "answer",
-      "month"
+      "salted",
+      "mixed"
      ],
      "suggestion": "Sixth time this month! Right. Popcorn — sweet or salted? In this house, the answer is \"both, mixed together\".",
      "suggestionFa": "ششمین بار این ماه! خب. پاپ‌کورن — شیرین یا شور؟ تو این خونه، جوابش «هر دو، قاطی» است.",
@@ -175,11 +175,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "beanbag",
+      "william",
       "nicola",
       "you've",
-      "wants"
+      "seats"
      ],
      "suggestion": "Don't knock it till you've tried it. Now, seats. Nicola wants the beanbag, William wants my lap, and Tom wants the big chair.",
      "suggestionFa": "تا امتحان نکردی ایراد نگیر. حالا جاها. نیکولا پف را می‌خواد، ویلیام بغل من را، و تام صندلی بزرگه را.",
@@ -202,9 +202,9 @@
      "keywords": [
       "pretending",
       "upstairs",
-      "minutes",
       "barnaby",
-      "wants"
+      "minutes",
+      "he'll"
      ],
      "suggestion": "Ryan? Upstairs, \"too old for Barnaby\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
      "suggestionFa": "رایان؟ طبقهٔ بالا، «برای بارنابی زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار.",
@@ -287,9 +287,9 @@
     {
      "keywords": [
       "footsteps",
+      "popcorn",
       "getting",
       "there's",
-      "popcorn",
       "stairs"
      ],
      "suggestion": "Ha — look. Footsteps on the stairs. \"I'm just getting some water.\" Sit down, Ryan. There's popcorn.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "council",
+      "exactly",
       "tax"
      ],
      "suggestion": "Yes. What is council tax exactly?",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "every",
-      "room",
-      "rent",
-      "even"
+      "even",
+      "home",
+      "room"
      ],
      "suggestion": "Every home? Even if I rent a room?",
      "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "cancelled",
-      "thank",
-      "great"
+      "great",
+      "thank"
      ],
      "suggestion": "Cancelled? Great! Thank you.",
      "suggestionFa": "لغو شد؟ عالیه! ممنون.",
@@ -257,8 +257,8 @@
      "keywords": [
       "instalments",
       "instead",
-      "pay",
-      "can"
+      "she",
+      "pay"
      ],
      "suggestion": "Can she pay in twelve instalments instead?",
      "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
@@ -299,7 +299,7 @@
       "discount",
       "maggie",
       "george",
-      "alone"
+      "lives"
      ],
      "suggestion": "And Nana Maggie lives alone with George. Do they get a discount?",
      "suggestionFa": "ننه مگی با جورج تنها زندگی می‌کنه. تخفیف می‌گیرن؟",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "leslie",
-      "i'll",
-      "good",
-      "know"
+      "know",
+      "tell",
+      "i'll"
      ],
      "suggestion": "Good to know. I'll tell Leslie.",
      "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
@@ -363,10 +363,10 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
-      "i'll",
-      "call"
+      "what's",
+      "call",
+      "them"
      ],
      "suggestion": "I'll help them call. What's the number?",
      "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",

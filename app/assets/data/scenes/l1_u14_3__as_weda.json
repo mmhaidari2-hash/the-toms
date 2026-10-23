@@ -22,9 +22,9 @@
     {
      "keywords": [
       "william's",
-      "water",
       "check",
       "ready",
+      "water",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "little",
-      "nicola",
       "bubble",
+      "nicola",
+      "little",
+      "that's",
       "just"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "rubber",
+      "yellow",
       "duck",
       "pass",
       "can"
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "floor",
       "towel",
+      "floor",
       "dear",
-      "wet",
-      "can"
+      "can",
+      "get"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "eyes",
-      "wash"
+      "hair",
+      "like"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "little",
+      "clever",
       "clean",
       "isn't",
       "time"

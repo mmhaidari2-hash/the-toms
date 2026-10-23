@@ -24,8 +24,8 @@
       "buttons",
       "please",
       "story",
-      "tell",
-      "from"
+      "iran",
+      "tell"
      ],
      "suggestion": "I'm in bed! Mr Buttons is here too. Tell me a story from Iran! Please!",
      "suggestionFa": "تو تختم! آقای دکمه هم اینجاست. یه قصه از ایران بگو! لطفاً!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "bigger",
-      "bird",
       "than",
-      "bus",
-      "big"
+      "bird",
+      "big",
+      "bus"
      ],
      "suggestion": "A big bird! How big? Bigger than a bus?",
      "suggestionFa": "یه پرندهٔ بزرگ! چقدر بزرگ؟ بزرگ‌تر از اتوبوس؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "scary",
       "kind",
-      "was",
       "ooh",
+      "was",
       "she"
      ],
      "suggestion": "Ooh. Was she kind or scary?",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "did",
-      "she"
+      "she",
+      "did"
      ],
      "suggestion": "What did she do?",
      "suggestionFa": "چی کار کرد؟",
@@ -146,8 +146,8 @@
       "william",
       "after",
       "look",
-      "like",
-      "baby"
+      "baby",
+      "like"
      ],
      "suggestion": "A baby! Like William was? Did she look after him?",
      "suggestionFa": "یه بچه! مثل ویلیام وقتی کوچیک بود؟ ازش مراقبت کرد؟",

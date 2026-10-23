@@ -20,9 +20,9 @@
     {
      "keywords": [
       "fifty",
+      "five",
       "each",
-      "sure",
-      "five"
+      "sure"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "fifteen",
-      "ten",
       "him",
-      "ask"
+      "ask",
+      "ten"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
      "suggestionFa": "ده پوند؟ ازش پونزده بخواه!",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "where's",
+      "kitchen",
       "tap"
      ],
      "suggestion": "Where's the tap? In the kitchen?",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "bottom",
+      "that's",
       "clever",
       "top"
      ],
@@ -204,9 +204,9 @@
     },
     {
      "keywords": [
-      "can't",
       "reach",
-      "step",
+      "can't",
+      "roof",
       "have"
      ],
      "suggestion": "I can't reach the roof. Have you got a step?",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "can't",
+      "where",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -332,8 +332,8 @@
     {
      "keywords": [
       "strong",
-      "ryan",
-      "hose"
+      "hose",
+      "ryan"
      ],
      "suggestion": "The hose is very strong! Sorry, Ryan!",
      "suggestionFa": "شلنگ خیلی قویه! ببخشید رایان!",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "peace",
-      "sorry"
+      "sorry",
+      "peace"
      ],
      "suggestion": "No, no! Peace! I'm sorry!",
      "suggestionFa": "نه نه! صلح! ببخشید!",
@@ -486,10 +486,10 @@
     },
     {
      "keywords": [
-      "don't",
       "money",
-      "need",
-      "ryan"
+      "don't",
+      "ryan",
+      "need"
      ],
      "suggestion": "Ten for Ryan. I don't need money.",
      "suggestionFa": "ده تا برای رایان. من پول نمی‌خوام.",

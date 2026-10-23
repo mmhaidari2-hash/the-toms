@@ -24,8 +24,8 @@
       "present",
       "bought",
       "looks",
-      "can't",
-      "awful"
+      "awful",
+      "can't"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
      "suggestionFa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "world's",
-      "driver",
       "cheesy",
-      "best",
-      "know"
+      "driver",
+      "know",
+      "says"
      ],
      "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
      "suggestionFa": "یه ماگ. روش نوشته «بهترین راننده اتوبوس دنیا». می‌دونم، لوسه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "scissors",
-      "small",
-      "paper",
       "where",
+      "paper",
+      "small",
       "first"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
@@ -98,8 +98,8 @@
      "keywords": [
       "easier",
       "genius",
-      "now",
-      "box"
+      "box",
+      "now"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -148,8 +148,8 @@
       "triangles",
       "better",
       "right",
-      "fold",
-      "ends"
+      "ends",
+      "fold"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -173,8 +173,8 @@
       "write",
       "nice",
       "gift",
-      "now",
-      "bow"
+      "tag",
+      "now"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "don't",
-      "mates",
       "soppy",
-      "love",
-      "just"
+      "mates",
+      "don't",
+      "just",
+      "ryan"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

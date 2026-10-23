@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "first",
       "write",
+      "first",
       "ok"
      ],
      "suggestion": "OK. What do I write first?",
@@ -117,8 +117,8 @@
      "keywords": [
       "postcode",
       "street",
-      "what's",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Number ten, Mare Street. What's the postcode?",
      "suggestionFa": "پلاک ده، خیابون مر. کد پستی چیه؟",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "nhs"
      ],
      "suggestion": "What's an NHS number?",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "easy"
      ],
      "suggestion": "Really? That's easy.",

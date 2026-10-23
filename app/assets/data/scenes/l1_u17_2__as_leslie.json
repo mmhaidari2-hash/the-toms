@@ -22,9 +22,9 @@
     {
      "keywords": [
       "kettle",
+      "fancy",
       "shall",
       "cuppa",
-      "fancy",
       "put"
      ],
      "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "kettle",
       "lovely",
+      "kettle",
       "first",
-      "full",
-      "fill"
+      "fill",
+      "full"
      ],
      "suggestion": "Ooh, lovely! OK, first fill the kettle. Not too full.",
      "suggestionFa": "اوه، عالی! خب، اول کتری را پر کن. نه خیلی پر.",
@@ -74,8 +74,8 @@
       "perfect",
       "that's",
       "teabag",
-      "each",
-      "turn"
+      "turn",
+      "each"
      ],
      "suggestion": "That's perfect. Turn it on. Now, a teabag in each mug.",
      "suggestionFa": "عالیه. روشنش کن. حالا، یه چای کیسه‌ای تو هر ماگ.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "kettle's",
-      "kettle",
-      "boiled",
       "teabag",
+      "boiled",
+      "kettle",
       "water"
      ],
      "suggestion": "The tin next to the kettle. The kettle's boiled! Pour the water on the teabag.",
@@ -124,8 +124,8 @@
       "minutes",
       "teabag",
       "three",
-      "wait",
-      "then"
+      "take",
+      "wait"
      ],
      "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
      "suggestionFa": "حالا دو سه دقیقه صبر کن. بعد چای کیسه‌ای را دربیار. چایت را چطوری می‌خوری؟",
@@ -148,9 +148,9 @@
      "keywords": [
       "builder's",
       "strong",
-      "sugar",
       "milky",
-      "likes"
+      "likes",
+      "sugar"
      ],
      "suggestion": "I like mine milky with one sugar. Nana likes it strong — \"builder's tea\"!",
      "suggestionFa": "من مال خودمو پرشیر با یه قند دوست دارم. نانا پررنگ دوست داره — «چای بنّایی»!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "strong",
       "sugars",
+      "strong",
       "drink",
-      "milk",
-      "iran"
+      "iran",
+      "lots"
      ],
      "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
      "suggestionFa": "پررنگ، با کلی شیر و دو تا قند. تو ایران چای را چطوری می‌خورید؟",
@@ -200,7 +200,7 @@
       "clever",
       "mouth",
       "must",
-      "how"
+      "try"
      ],
      "suggestion": "In your mouth? How clever! I must try that. Biscuit?",
      "suggestionFa": "تو دهن؟ چه هوشمندانه! باید امتحانش کنم. بیسکویت؟",
@@ -225,7 +225,7 @@
       "dunking",
       "cheers",
       "course",
-      "don't"
+      "falls"
      ],
      "suggestion": "Of course! Dunking is a national sport here. Don't leave it in too long, or it falls in! Cheers, love!",
      "suggestionFa": "البته! زدن بیسکویت تو چای اینجا ورزش ملیه! زیاد نگهش ندار، وگرنه می‌افته! به سلامتی عزیزم!",

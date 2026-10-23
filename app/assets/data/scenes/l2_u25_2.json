@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "help",
       "came",
+      "help",
       "tom"
      ],
      "suggestion": "Yes. Tom came to help me.",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "months",
+      "only",
       "four",
-      "here",
-      "been"
+      "here"
      ],
      "suggestion": "But I've only been here for four months.",
      "suggestionFa": "ولی من فقط چهار ماهه اینجام.",
@@ -389,9 +389,9 @@
     {
      "keywords": [
       "clever",
-      "was",
+      "tom",
       "dad",
-      "tom"
+      "was"
      ],
      "suggestion": "Your dad was clever, Tom.",
      "suggestionFa": "بابات زرنگ بود، تام.",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "months",
-      "i'll",
       "only",
+      "come",
       "back"
      ],
      "suggestion": "Yes. SIM-only, and I'll come back in six months.",

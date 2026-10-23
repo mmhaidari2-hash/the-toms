@@ -65,6 +65,6 @@ void main() {
       }
       router.go('/');
       await t.pump(const Duration(seconds: 1));
-    });
+    }, timeout: const Timeout(Duration(minutes: 45))); // ~2,000 routes per size
   }
 }

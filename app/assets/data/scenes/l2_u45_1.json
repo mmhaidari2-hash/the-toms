@@ -22,7 +22,7 @@
       "problem",
       "lesson",
       "often",
-      "her"
+      "how"
      ],
      "suggestion": "No problem. How often is her lesson?",
      "suggestionFa": "مشکلی نیست. کلاسش چند وقت یه باره؟",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "waving",
-      "she's",
       "happy",
+      "she's",
       "back"
      ],
      "suggestion": "She's waving back! She's so happy.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "cost",
+      "much",
       "how"
      ],
      "suggestion": "How much do the lessons cost?",
@@ -304,8 +304,8 @@
      "keywords": [
       "really",
       "can't",
-      "well",
-      "swim"
+      "swim",
+      "well"
      ],
      "suggestion": "Really? I can't swim very well.",
      "suggestionFa": "واقعاً؟ من خیلی خوب شنا بلد نیستم.",
@@ -317,7 +317,7 @@
      "keywords": [
       "pounds",
       "that's",
-      "month",
+      "cheap",
       "eight"
      ],
      "suggestion": "Forty-eight pounds a month. That's not cheap.",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "nicola",
-      "maybe",
       "teach",
-      "then"
+      "maybe",
+      "will"
      ],
      "suggestion": "Maybe I will. Then Nicola can teach me!",
      "suggestionFa": "شاید رفتم. بعد نیکولا می‌تونه بهم یاد بده!",
@@ -374,8 +374,8 @@
     {
      "keywords": [
       "reception",
-      "i'll",
       "desk",
+      "i'll",
       "ask"
      ],
      "suggestion": "OK. I'll ask at the reception desk.",
@@ -415,8 +415,8 @@
     {
      "keywords": [
       "smile",
-      "look",
       "here",
+      "look",
       "she"
      ],
      "suggestion": "Here she is! Look at her smile.",
@@ -428,8 +428,8 @@
     {
      "keywords": [
       "shivering",
-      "quick",
       "towel",
+      "quick",
       "she's"
      ],
      "suggestion": "Quick, get her towel. She's shivering!",
@@ -473,9 +473,9 @@
     {
      "keywords": [
       "teach",
-      "done",
       "swim",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done! Can you teach me to swim?",
      "suggestionFa": "آفرین! میشه بهم شنا یاد بدی؟",

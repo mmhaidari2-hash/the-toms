@@ -22,9 +22,9 @@
     {
      "keywords": [
       "finished",
-      "lunch",
-      "table",
       "mummy",
+      "table",
+      "lunch",
       "clear"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
@@ -98,9 +98,9 @@
      "keywords": [
       "packets",
       "little",
+      "crisp",
       "black",
-      "brown",
-      "crisp"
+      "caddy"
      ],
      "suggestion": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
      "suggestionFa": "آره! سطل کوچولوی قهوه‌ای. و پاکت‌های چیپس می‌رن تو سطل مشکی.",
@@ -148,8 +148,8 @@
      "keywords": [
       "another",
       "there's",
-      "crumb",
       "floor",
+      "crumb",
       "tap"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "sweeping",
-      "under",
       "sweep",
+      "under",
       "look",
-      "good"
+      "sink"
      ],
      "suggestion": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
      "suggestionFa": "زیر سینک. من می‌تونم جارو کنم! ببین، من خیلی تو جارو کردن خوبم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "finished",
-      "kitchen",
       "helpful",
-      "sweet",
+      "kitchen",
+      "mummy",
       "clean"
      ],
      "suggestion": "Finished! The kitchen is clean! Mummy, look! Can we have a sweet now? We were very helpful!",

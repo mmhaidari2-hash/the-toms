@@ -67,8 +67,8 @@
     {
      "keywords": [
       "together",
-      "let's",
       "under",
+      "let's",
       "look"
      ],
      "suggestion": "Let's look under the bed together.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "teddy",
-      "sock",
-      "only"
+      "only",
+      "sock"
      ],
      "suggestion": "Only a sock and a teddy.",
      "suggestionFa": "فقط یه جوراب و یه عروسک.",
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "here",
-      "safe",
       "he's",
+      "safe",
       "now"
      ],
      "suggestion": "Here he is. He's safe now.",
@@ -217,10 +217,10 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "scared",
-      "was",
-      "she"
+      "maggie",
+      "she",
+      "bit"
      ],
      "suggestion": "She was a bit scared, Maggie.",
      "suggestionFa": "یه کم ترسیده بود مگی.",
@@ -231,8 +231,8 @@
     {
      "keywords": [
       "buttons",
-      "found",
       "under",
+      "found",
       "bed"
      ],
      "suggestion": "We found Mr Buttons under the bed.",
@@ -264,8 +264,8 @@
     {
      "keywords": [
       "that's",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -371,8 +371,8 @@
     },
     {
      "keywords": [
-      "that's",
-      "lovely"
+      "lovely",
+      "that's"
      ],
      "suggestion": "That's lovely.",
      "suggestionFa": "قشنگه.",

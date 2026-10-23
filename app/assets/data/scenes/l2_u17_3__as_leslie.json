@@ -22,8 +22,8 @@
     {
      "keywords": [
       "supposed",
-      "starving",
       "children",
+      "starving",
       "quarter",
       "eight"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "garlic",
-      "polite",
       "pizzas",
-      "large",
-      "bread"
+      "polite",
+      "bread",
+      "seven"
      ],
      "suggestion": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
      "suggestionFa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی.",
@@ -98,8 +98,8 @@
      "keywords": [
       "sorry",
       "they",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "What did they say? Did they say sorry?",
      "suggestionFa": "چی گفتن؟ عذرخواهی کردن؟",
@@ -122,9 +122,9 @@
      "keywords": [
       "discount",
       "house",
-      "road",
       "lost",
-      "main"
+      "main",
+      "road"
      ],
      "suggestion": "Lost? Our house is on the main road! Did you ask for a discount?",
      "suggestionFa": "گم شده؟ خونهٔ ما کنار جادهٔ اصلیه! تخفیف خواستی؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "plates",
+      "please",
       "check",
-      "door",
-      "send"
+      "back",
+      "door"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
      "suggestionFa": "تو در را باز کن، من بشقاب میارم. و لطفاً چک کن داغ باشه. اگه سرد بود، پسش می‌فرستیم.",

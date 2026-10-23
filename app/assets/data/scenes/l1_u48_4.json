@@ -22,7 +22,7 @@
       "there",
       "time",
       "once",
-      "upon"
+      "bird"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
      "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
@@ -34,8 +34,8 @@
      "keywords": [
       "story",
       "about",
-      "want",
-      "king"
+      "king",
+      "want"
      ],
      "suggestion": "OK. Do you want a story about a king?",
      "suggestionFa": "باشه. یه قصه دربارهٔ یه پادشاه می‌خوای؟",
@@ -76,7 +76,7 @@
       "simorgh",
       "bigger",
       "house",
-      "than"
+      "name"
      ],
      "suggestion": "Bigger than a house! Her name was Simorgh.",
      "suggestionFa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "mountain",
-      "she",
       "big",
+      "she",
       "as"
      ],
      "suggestion": "She was as big as a mountain!",
@@ -180,8 +180,8 @@
      "keywords": [
       "people",
       "scary",
-      "but",
-      "bad"
+      "bad",
+      "but"
      ],
      "suggestion": "She was kind, but she was scary to bad people!",
      "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "kept",
-      "warm",
+      "food",
       "gave",
-      "food"
+      "kept",
+      "warm"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
@@ -326,7 +326,7 @@
       "became",
       "hero",
       "grew",
-      "up"
+      "he"
      ],
      "suggestion": "He grew up and became a hero.",
      "suggestionFa": "بزرگ شد و قهرمان شد.",

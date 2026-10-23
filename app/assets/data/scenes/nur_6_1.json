@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "A safeguarding concern",
  "titleFa": "نگرانی حفاظتی",
- "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "setting": "Safeguarding, first aid and Ofsted · Vida's Nursery",
  "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "changing",
-      "noticed",
       "child's",
+      "noticed",
       "bruise"
      ],
      "suggestion": "I noticed a bruise on a child's arm when I was changing him.",
@@ -76,7 +76,7 @@
       "bruise",
       "upper",
       "about",
-      "size"
+      "coin"
      ],
      "suggestion": "It was a bruise about the size of a coin, on his upper arm.",
      "suggestionFa": "یه کبودی تقریباً هم‌اندازهٔ سکه، رو بالای بازوش.",
@@ -88,7 +88,7 @@
      "keywords": [
       "quiet",
       "asked",
-      "then",
+      "home",
       "went"
      ],
      "suggestion": "When I asked, he said \"I fell at home\", then went quiet.",
@@ -148,7 +148,7 @@
       "questions",
       "should",
       "more",
-      "him"
+      "ask"
      ],
      "suggestion": "Should I ask him more questions?",
      "suggestionFa": "باید ازش سؤال‌های بیشتری بپرسم؟",
@@ -184,8 +184,8 @@
      "keywords": [
       "concern",
       "today",
-      "give",
-      "form"
+      "form",
+      "give"
      ],
      "suggestion": "I'll fill in a concern form and give it to Jo today.",
      "suggestionFa": "یه فرم نگرانی پر می‌کنم و امروز به جو می‌دم.",
@@ -197,8 +197,8 @@
      "keywords": [
       "parents",
       "should",
-      "seen",
-      "i've"
+      "i've",
+      "tell"
      ],
      "suggestion": "Should I tell the parents what I've seen?",
      "suggestionFa": "باید چیزی که دیدم را به والدین بگم؟",
@@ -238,8 +238,8 @@
      "keywords": [
       "confidential",
       "discuss",
-      "don't",
-      "staff"
+      "staff",
+      "don't"
      ],
      "suggestion": "Confidential — so I don't discuss it in the staff room.",
      "suggestionFa": "محرمانه — پس تو اتاق کارکنان درباره‌اش حرف نمی‌زنم.",
@@ -251,8 +251,8 @@
      "keywords": [
       "seriously",
       "taking",
-      "isn't",
-      "think"
+      "think",
+      "isn't"
      ],
      "suggestion": "What if I think Jo isn't taking it seriously?",
      "suggestionFa": "اگه فکر کنم جو جدی نمی‌گیره چی؟",

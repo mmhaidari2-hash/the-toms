@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Toilet time",
  "titleFa": "وقت دستشویی",
- "setting": "Care routines · Level 0",
+ "setting": "Care routines · Vida's Nursery",
  "settingFa": "روال مراقبت",
  "requires": null,
  "start": "n1",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "often",
-      "how",
-      "ask"
+      "ask",
+      "how"
      ],
      "suggestion": "How often do you ask?",
      "suggestionFa": "هر چند وقت می‌پرسید؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "telling",
-      "good",
-      "come"
+      "come",
+      "good"
      ],
      "suggestion": "Good telling me! Come on.",
      "suggestionFa": "آفرین که گفتی! بیا.",
@@ -177,8 +177,8 @@
      "keywords": [
       "trousers",
       "pull",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done! Pull your trousers up.",
      "suggestionFa": "آفرین! شلوارت را بکش بالا.",

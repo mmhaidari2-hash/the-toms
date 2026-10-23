@@ -25,7 +25,7 @@
       "friends",
       "bakery",
       "charge",
-      "doris"
+      "forty"
      ],
      "suggestion": "Right, dear. I'm in charge of the cake. Doris and I have been friends for forty years. Come with me to Gareth's bakery?",
      "suggestionFa": "خب عزیزم. من مسئول کیکم. من و دوریس چهل ساله دوستیم. با من میای نونوایی گرت؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "favourite",
-      "gareth",
       "school",
       "sponge",
+      "gareth",
       "lemon"
      ],
      "suggestion": "At the school gates! Our boys were in the same class. Her favourite is lemon sponge. Gareth makes the best one. Here we are.",
@@ -192,10 +192,10 @@
     {
      "keywords": [
       "fifteen",
-      "twenty",
-      "sponge",
       "arthur",
-      "horse"
+      "sponge",
+      "twenty",
+      "lemon"
      ],
      "suggestion": "Fifteen, dear, but Doris eats like a bird and Arthur eats like a horse. Let's say twenty. Lemon sponge with lemon icing.",
      "suggestionFa": "پونزده تا عزیزم، ولی دوریس مثل گنجشک می‌خوره و آرتور مثل اسب. بگیم بیست. اسفنجی لیمویی با روکش لیمویی.",
@@ -449,10 +449,10 @@
     {
      "keywords": [
       "carrying",
-      "pounds",
+      "here's",
       "gareth",
-      "heaven",
-      "here's"
+      "pounds",
+      "wallet"
      ],
      "suggestion": "Ryan carrying a cake? Heaven help us. Here's the ten pounds, Gareth. No — put your wallet away, dear. This one's from me.",
      "suggestionFa": "رایان کیک ببره؟ خدا به دادمون برسه. اینم ده پوند گرت. نه — کیف پولت را بذار کنار عزیزم. این از طرف منه.",
@@ -475,8 +475,8 @@
      "keywords": [
       "friendship",
       "deserves",
-      "certain",
       "saffron",
+      "certain",
       "that's"
      ],
      "suggestion": "Certain. You're doing the saffron rice — that's plenty. Forty years of friendship deserves a proper cake. With a bus on it!",

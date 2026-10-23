@@ -80,7 +80,7 @@ for ui,u in enumerate(units):
       for d in N.values():
         d['text']=d['text'].replace('{you}',GN); d['translations']['fa']=d['translations']['fa'].replace('{you}',GF)
         for b in d['branches']: b['suggestion']=b['suggestion'].replace('{you}',GN); b['suggestionFa']=b['suggestionFa'].replace('{you}',GF)
-    scene={'id':sid,'characterId':les['lead'],'title':les['title'],'titleFa':les['titleFa'],'setting':f"{u['title']} · Level {u['level']}",'settingFa':u['titleFa'],'requires':None,'start':'n1','level':lvl,'nodes':N,**({'guest':G} if G else {})}
+    scene={'id':sid,'characterId':les['lead'],'title':les['title'],'titleFa':les['titleFa'],'setting':(f"{u['title']} · {PACKBY[u['pack']]['title']}" if u.get('pack') else f"{u['title']} · Level {u['level']}"),'settingFa':u['titleFa'],'requires':None,'start':'n1','level':lvl,'nodes':N,**({'guest':G} if G else {})}
     scenes[sid]=scene
     cu['lessons'].append({'id':sid,'title':les['title'],'titleFa':les['titleFa'],'lead':les['lead'],'place':les['place'],'grammar':les['grammar'],'grammarFa':les['grammarFa'],'sceneIds':[sid],'words':allw,'turns':2*len(ns)-1})
   (PACKBY[u['pack']]['units'] if u.get('pack') else course['units']).append(cu)

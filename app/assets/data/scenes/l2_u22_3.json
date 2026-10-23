@@ -34,8 +34,8 @@
      "keywords": [
       "first",
       "never",
-      "show",
-      "i've"
+      "i've",
+      "show"
      ],
      "suggestion": "I've never used one. Show me first?",
      "suggestionFa": "تا حالا ازش استفاده نکردم. اول نشونم میدی؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "apples",
       "fruit",
-      "done",
-      "item"
+      "look",
+      "done"
      ],
      "suggestion": "Look up item… fruit… apples. Done!",
      "suggestionFa": "جستجوی کالا… میوه… سیب. تموم!",
@@ -303,8 +303,8 @@
      "keywords": [
       "scanned",
       "apples",
-      "think",
-      "thank"
+      "thank",
+      "twice"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
      "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "thank",
-      "paid",
       "i've",
+      "paid",
       "says"
      ],
      "suggestion": "I've paid! It says \"Thank you\".",

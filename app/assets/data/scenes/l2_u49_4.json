@@ -22,7 +22,7 @@
       "course",
       "first",
       "dough",
-      "need"
+      "make"
      ],
      "suggestion": "Of course. First, we need to make the dough.",
      "suggestionFa": "البته. اول باید خمیر را درست کنیم.",
@@ -129,7 +129,7 @@
       "flour",
       "won't",
       "more",
-      "add"
+      "bit"
      ],
      "suggestion": "Add a bit more flour. It won't be sticky.",
      "suggestionFa": "یه کم دیگه آرد اضافه کن. چسبناک نمیشه.",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "maybe",
-      "small"
+      "small",
+      "maybe"
      ],
      "suggestion": "Your thumb is very small! Maybe my thumb?",
      "suggestionFa": "شست تو خیلی کوچیکه! شاید شست من؟",
@@ -265,8 +265,8 @@
      "keywords": [
       "don't",
       "twist",
-      "push",
-      "says"
+      "says",
+      "push"
      ],
      "suggestion": "Don't twist! Nana says just push down.",
      "suggestionFa": "نچرخون! نانا میگه فقط فشار بده.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "bake",
       "long",
+      "bake",
       "how"
      ],
      "suggestion": "How long do they bake for?",
@@ -321,8 +321,8 @@
     {
      "keywords": [
       "perfect",
-      "wait",
       "look",
+      "wait",
       "now"
      ],
      "suggestion": "They look perfect. Now we wait!",
@@ -406,9 +406,9 @@
     {
      "keywords": [
       "first",
+      "which",
       "cream",
-      "right",
-      "which"
+      "right"
      ],
      "suggestion": "Jam first or cream first? Which is right?",
      "suggestionFa": "اول مربا یا اول خامه؟ کدوم درسته؟",
@@ -418,8 +418,8 @@
     },
     {
      "keywords": [
-      "i'll",
       "both",
+      "i'll",
       "each",
       "try"
      ],
@@ -466,7 +466,7 @@
       "golden",
       "nicola",
       "tall",
-      "done"
+      "well"
      ],
      "suggestion": "They're golden and tall! Well done, Nicola!",
      "suggestionFa": "طلایی و بلند شدن! آفرین نیکولا!",

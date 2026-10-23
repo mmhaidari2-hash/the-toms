@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "towel",
-      "where",
       "start",
+      "where",
+      "towel",
       "we"
      ],
      "suggestion": "Yes, and a towel. Where do we start?",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
-      "speed"
+      "speed",
+      "right"
      ],
      "suggestion": "Is this speed right?",
      "suggestionFa": "این سرعت درسته؟",
@@ -199,8 +199,8 @@
      "keywords": [
       "every",
       "wipe",
-      "time",
-      "i'll"
+      "i'll",
+      "time"
      ],
      "suggestion": "I'll wipe it. Every time.",
      "suggestionFa": "تمیزش می‌کنم. هر بار.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "that's",
+      "should",
       "times",
-      "fair"
+      "lift"
      ],
      "suggestion": "That's fair. How many times should I lift?",
      "suggestionFa": "منصفانه‌ست. چند بار بلند کنم؟",
@@ -255,8 +255,8 @@
     },
     {
      "keywords": [
-      "machine",
       "someone",
+      "machine",
       "share",
       "can"
      ],
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "shaking",
-      "ouch",
-      "arms"
+      "arms",
+      "ouch"
      ],
      "suggestion": "Ouch. My arms are shaking!",
      "suggestionFa": "آخ. دستام داره می‌لرزه!",
@@ -361,8 +361,8 @@
     },
     {
      "keywords": [
-      "really",
       "useful",
+      "really",
       "thank",
       "jade"
      ],

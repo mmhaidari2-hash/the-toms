@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "british",
-      "typical",
       "raining",
+      "typical",
+      "british",
       "summer",
-      "again"
+      "third"
      ],
      "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
      "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
@@ -50,7 +50,7 @@
       "afternoon",
       "weather",
       "what's",
-      "always"
+      "tehran"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
      "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "phone",
-      "lucky",
       "check",
       "going",
-      "stop"
+      "phone",
+      "lucky",
+      "grey"
      ],
      "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
      "suggestionFa": "گرم و خشک! خوش به حالت. اینجا خاکستری و خیسه. بند میاد؟ بذار با گوشیم ببینم.",
@@ -100,7 +100,7 @@
       "means",
       "heavy",
       "rain",
-      "then"
+      "more"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
      "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
@@ -124,8 +124,8 @@
       "driving",
       "steamy",
       "shower",
-      "from",
-      "gets"
+      "gets",
+      "from"
      ],
      "suggestion": "Ha! Yes, a shower from the sky! I'm driving all day. The bus gets so wet and steamy.",
      "suggestionFa": "ها! آره، دوش از آسمون! من کل روز رانندگی می‌کنم. اتوبوس خیلی خیس و بخار گرفته میشه.",
@@ -148,9 +148,9 @@
      "keywords": [
       "everyone's",
       "dripping",
-      "british",
       "weather",
-      "that's"
+      "british",
+      "lovely"
      ],
      "suggestion": "Loads more! Everyone's dripping. And they all say \"Lovely weather!\" That's British humour.",
      "suggestionFa": "خیلی بیشتر! همه آب ازشون می‌چکه. و همه میگن «چه هوای خوبی!» این شوخ‌طبعی بریتانیاییه.",
@@ -173,8 +173,8 @@
      "keywords": [
       "exactly",
       "leslie",
-      "watch",
       "comes",
+      "watch",
       "when"
      ],
      "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "umbrella",
-      "british",
-      "where's",
       "perfect",
+      "where's",
+      "british",
       "ryan's"
      ],
      "suggestion": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",

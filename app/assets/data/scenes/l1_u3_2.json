@@ -22,7 +22,7 @@
       "worry",
       "don't",
       "find",
-      "can"
+      "him"
      ],
      "suggestion": "Don't worry, we can find him.",
      "suggestionFa": "نگران نباش، پیداش می‌کنیم.",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "sock",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "I can see a sock under the sofa!",
      "suggestionFa": "یه جوراب زیر مبل می‌بینم!",
@@ -210,8 +210,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "smiling",
+      "william",
       "look"
      ],
      "suggestion": "Look — William is smiling.",
@@ -224,8 +224,8 @@
      "keywords": [
       "maybe",
       "he's",
-      "box",
-      "toy"
+      "toy",
+      "box"
      ],
      "suggestion": "Maybe he's in the toy box.",
      "suggestionFa": "شاید توی جعبهٔ اسباب‌بازیه.",
@@ -350,9 +350,9 @@
     {
      "keywords": [
       "behind",
-      "i'll",
+      "door",
       "hide",
-      "door"
+      "i'll"
      ],
      "suggestion": "OK! I'll hide behind the door.",
      "suggestionFa": "باشه! پشت در قایم می‌شم.",

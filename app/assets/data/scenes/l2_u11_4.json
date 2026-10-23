@@ -68,9 +68,9 @@
     {
      "keywords": [
       "nearly",
-      "b",
       "c",
-      "s"
+      "s",
+      "b"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
      "suggestionFa": "تقریباً! بی-ای-سی-ای-یو-اس-ای.",
@@ -119,10 +119,10 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "letters",
-      "that's",
-      "clever"
+      "because",
+      "clever",
+      "that's"
      ],
      "suggestion": "That's clever! The first letters spell \"because\".",
      "suggestionFa": "باهوشانه‌ست! حرف اول‌ها «because» میشه.",
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
+      "n",
       "r",
       "d",
-      "f",
-      "n"
+      "f"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
      "suggestionFa": "آره. اف-آر-آی-ای-ان-دی.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "before",
       "except",
+      "before",
       "after",
       "c"
      ],
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
+      "count",
       "seven",
       "start",
-      "count",
       "five"
      ],
      "suggestion": "Start at seven and count up five.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "that's",
+      "nicola",
       "lovely",
       "aw"
      ],

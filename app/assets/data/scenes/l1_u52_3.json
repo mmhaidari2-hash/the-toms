@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "sharp",
       "don't",
-      "touch",
-      "sharp"
+      "touch"
      ],
      "suggestion": "Don't touch it! It's sharp.",
      "suggestionFa": "دست نزن! تیزه.",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "truth",
-      "just",
       "tell",
+      "just",
       "her"
      ],
      "suggestion": "Just tell her the truth.",
@@ -210,8 +210,8 @@
      "keywords": [
       "something",
       "ryan",
-      "say",
-      "has"
+      "has",
+      "say"
      ],
      "suggestion": "Ryan has something to say.",
      "suggestionFa": "رایان یه چیزی می‌خواد بگه.",
@@ -263,8 +263,8 @@
      "keywords": [
       "carefully",
       "cleaned",
-      "up",
-      "he"
+      "he",
+      "up"
      ],
      "suggestion": "He cleaned it up carefully.",
      "suggestionFa": "با دقت تمیزش کرد.",
@@ -305,10 +305,10 @@
    "branches": [
     {
      "keywords": [
-      "angry",
       "isn't",
-      "she",
-      "see"
+      "angry",
+      "see",
+      "she"
      ],
      "suggestion": "See? She isn't angry.",
      "suggestionFa": "دیدی؟ عصبانی نیست.",

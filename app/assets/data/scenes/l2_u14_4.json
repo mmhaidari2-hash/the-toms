@@ -22,7 +22,7 @@
       "computer",
       "please",
       "here",
-      "can"
+      "use"
      ],
      "suggestion": "Yes, please. Can I use a computer here?",
      "suggestionFa": "بله، لطفاً. می‌تونم اینجا از کامپیوتر استفاده کنم؟",
@@ -228,8 +228,8 @@
     {
      "keywords": [
       "printing",
-      "much",
       "cost",
+      "much",
       "how"
      ],
      "suggestion": "How much does printing cost?",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "colour",
-      "white",
-      "black"
+      "black",
+      "white"
      ],
      "suggestion": "Is it black and white or colour?",
      "suggestionFa": "سیاه‌سفیده یا رنگی؟",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "white",
-      "black",
       "pages",
+      "black",
       "just"
      ],
      "suggestion": "Just two pages, black and white.",
@@ -296,7 +296,7 @@
       "cheaper",
       "that's",
       "cheap",
-      "than"
+      "shop"
      ],
      "suggestion": "That's cheap. Much cheaper than a shop.",
      "suggestionFa": "ارزونه. خیلی ارزون‌تر از مغازه.",
@@ -348,8 +348,8 @@
      "keywords": [
       "useful",
       "that's",
-      "book",
-      "just"
+      "come",
+      "book"
      ],
      "suggestion": "That's useful. Can I just come, or do I book?",
      "suggestionFa": "مفیده. همین‌طوری بیام، یا رزرو کنم؟",

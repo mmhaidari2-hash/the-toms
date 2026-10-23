@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Tidy up time",
  "titleFa": "وقت جمع کردن",
- "setting": "Good morning, Little Acorns! · Level 0",
+ "setting": "Good morning, Little Acorns! · Vida's Nursery",
  "settingFa": "صبح بخیر، لیتل ایکورنز!",
  "requires": null,
  "start": "n1",
@@ -112,9 +112,9 @@
    "branches": [
     {
      "keywords": [
+      "first",
       "let's",
       "photo",
-      "first",
       "tower"
      ],
      "suggestion": "Let's take a photo of your tower first.",

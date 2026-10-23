@@ -23,9 +23,9 @@
      "keywords": [
       "lollipop",
       "that's",
-      "she's",
       "stick",
-      "lady"
+      "she's",
+      "look"
      ],
      "suggestion": "Look! That's Mrs Bell. The lollipop lady! She's got a big stick like a lollipop.",
      "suggestionFa": "ببین! اون خانم بله. خانم راهنمای عبور! یه چوب بزرگ مثل آب‌نبات چوبی داره.",
@@ -49,8 +49,8 @@
       "children",
       "friend",
       "knows",
-      "she's",
-      "cross"
+      "stops",
+      "she's"
      ],
      "suggestion": "She stops the cars so children can cross. She's my friend. She knows my name!",
      "suggestionFa": "ماشین‌ها را نگه می‌داره که بچه‌ها رد بشن. دوست منه. اسمم را می‌دونه!",
@@ -73,9 +73,9 @@
      "keywords": [
       "walks",
       "wait",
-      "come",
       "have",
-      "then"
+      "kerb",
+      "says"
      ],
      "suggestion": "We have to wait at the kerb. Then she walks out. Then she says \"Come on!\"",
      "suggestionFa": "باید لب جدول وایسیم. بعد اون میره وسط. بعد میگه «بیاید!»",
@@ -98,9 +98,9 @@
      "keywords": [
       "before",
       "taught",
-      "cross",
       "mummy",
-      "right"
+      "right",
+      "cross"
      ],
      "suggestion": "Before we cross, look both ways. Left, right, left! Mummy taught me.",
      "suggestionFa": "قبل از رد شدن، هر دو طرف را نگاه کن. چپ، راست، چپ! مامانی یادم داد.",
@@ -148,9 +148,9 @@
      "keywords": [
       "morning",
       "lives",
+      "iran",
       "he's",
-      "from",
-      "iran"
+      "bell"
      ],
      "suggestion": "Good morning, Mrs Bell! This is {you}. He lives with us. He's from Iran!",
      "suggestionFa": "صبح بخیر خانم بل! این {you}ه. با ما زندگی می‌کنه. از ایرانه!",
@@ -173,9 +173,9 @@
      "keywords": [
       "sticker",
       "lovely",
+      "gave",
       "star",
-      "said",
-      "gave"
+      "meet"
      ],
      "suggestion": "She said \"Lovely to meet you, {you}\". And she gave me a sticker! A star sticker!",
      "suggestionFa": "گفت «خوشحالم از آشنایی {you}». و بهم یه برچسب داد! برچسب ستاره!",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
+      "waiting",
       "waiters",
       "sticker",
-      "waiting",
       "friday",
       "nicely"
      ],
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "stickers",
       "children",
+      "stickers",
       "there",
       "have",
       "only"

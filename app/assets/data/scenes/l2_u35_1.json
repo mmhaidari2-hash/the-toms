@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "coming",
-      "sunday",
-      "return"
+      "please",
+      "return",
+      "sunday"
      ],
      "suggestion": "A return, please. I'm coming back on Sunday.",
      "suggestionFa": "رفت‌وبرگشت، لطفاً. یکشنبه برمی‌گردم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "better",
+      "really",
       "then"
      ],
      "suggestion": "Really? Then a return is better.",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "evening",
-      "time",
       "sure",
+      "time",
       "but"
      ],
      "suggestion": "Sunday evening. But I'm not sure what time.",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "going",
+      "then",
       "back",
-      "nine",
-      "then"
+      "nine"
      ],
      "suggestion": "Nine for going, then off-peak back?",
      "suggestionFa": "نه پوند برای رفت، بعد برگشت ساعات خلوت؟",
@@ -259,10 +259,10 @@
     },
     {
      "keywords": [
-      "stress",
       "return",
-      "i'll",
-      "take"
+      "stress",
+      "take",
+      "less"
      ],
      "suggestion": "I'll take the off-peak return. Less stress.",
      "suggestionFa": "رفت‌وبرگشت ساعات خلوت را می‌گیرم. استرس کمتر.",
@@ -358,8 +358,8 @@
      "keywords": [
       "charger",
       "point",
-      "i'll",
-      "good"
+      "take",
+      "i'll"
      ],
      "suggestion": "Good point. I'll take my charger.",
      "suggestionFa": "نکتهٔ خوبیه. شارژرم را می‌برم.",

@@ -92,8 +92,8 @@
      "keywords": [
       "possible",
       "should",
-      "soon",
-      "call"
+      "call",
+      "soon"
      ],
      "suggestion": "So I should call as soon as possible.",
      "suggestionFa": "پس باید هر چه زودتر زنگ بزنم.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "appointment",
-      "monday",
       "afraid",
-      "hello"
+      "monday",
+      "can't"
      ],
      "suggestion": "Hello. I'm afraid I can't make my appointment on Monday.",
      "suggestionFa": "سلام. متأسفانه نمی‌تونم به وقتم تو دوشنبه برسم.",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "started",
       "working",
+      "started",
       "really",
       "sorry"
      ],
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "reason",
-      "need",
-      "give"
+      "give",
+      "need"
      ],
      "suggestion": "Do I need to give a reason?",
      "suggestionFa": "باید دلیل بیارم؟",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "saturday",
-      "rebook",
       "please",
+      "rebook",
       "could"
      ],
      "suggestion": "Yes please. Could I rebook for a Saturday?",
@@ -262,8 +262,8 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "call",
+      "back",
       "next"
      ],
      "suggestion": "Not now, thank you. I'll call back next week.",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "o'clock",
-      "eight",
       "great",
-      "thank"
+      "thank",
+      "eight"
      ],
      "suggestion": "Eight o'clock is great. Thank you so much.",
      "suggestionFa": "ساعت هشت عالیه. خیلی ممنون.",
@@ -406,9 +406,9 @@
    "branches": [
     {
      "keywords": [
-      "monday",
       "afraid",
-      "hello",
+      "monday",
+      "sorry",
       "can't"
      ],
      "suggestion": "Hello, it's {you}. I'm afraid I can't make Monday at ten past four. Sorry!",
@@ -419,8 +419,8 @@
     },
     {
      "keywords": [
-      "number",
-      "forgot"
+      "forgot",
+      "number"
      ],
      "suggestion": "I forgot my number! What is it?",
      "suggestionFa": "شماره‌ام یادم رفت! چنده؟",

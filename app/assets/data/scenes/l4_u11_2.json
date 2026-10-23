@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "minimum",
       "tenancy",
+      "minimum",
       "long"
      ],
      "suggestion": "How long is the minimum tenancy?",
@@ -195,8 +195,8 @@
     },
     {
      "keywords": [
-      "first",
       "could",
+      "first",
       "month",
       "work"
      ],
@@ -301,8 +301,8 @@
      "keywords": [
       "there",
       "mould",
-      "flat",
-      "damp"
+      "damp",
+      "flat"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -353,8 +353,8 @@
      "keywords": [
       "bathroom",
       "ceiling",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Can I see the bathroom ceiling?",
      "suggestionFa": "می‌تونم سقف حموم را ببینم؟",
@@ -364,9 +364,9 @@
     },
     {
      "keywords": [
+      "rating",
       "energy",
       "what's",
-      "rating",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -407,8 +407,8 @@
      "keywords": [
       "logistics",
       "company",
-      "time",
-      "full"
+      "full",
+      "time"
      ],
      "suggestion": "I work full-time at a logistics company.",
      "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",
@@ -421,7 +421,7 @@
       "references",
       "assistant",
       "teaching",
-      "need"
+      "will"
      ],
      "suggestion": "I'm a teaching assistant. Will you need references?",
      "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
@@ -458,7 +458,7 @@
       "thirty",
       "that's",
       "strict",
-      "quite"
+      "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
      "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
@@ -470,8 +470,8 @@
      "keywords": [
       "guarantor",
       "need",
-      "can",
-      "tom"
+      "tom",
+      "one"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",
      "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",

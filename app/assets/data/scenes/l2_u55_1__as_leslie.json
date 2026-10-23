@@ -22,8 +22,8 @@
     {
      "keywords": [
       "screaming",
-      "reports",
       "tonight",
+      "reports",
       "thirty",
       "ryan's"
      ],
@@ -49,8 +49,8 @@
       "router's",
       "everyone",
       "stairs",
-      "phone",
-      "don't"
+      "tom's",
+      "under"
      ],
      "suggestion": "Everyone. Ryan, me, Tom's phone. The router's under the stairs. Tom says \"turn it off and on\", but I don't know which box.",
      "suggestionFa": "همه. رایان، من، گوشی تام. روتر زیر پله‌هاست. تام میگه «خاموش و روشنش کن»، ولی نمی‌دونم کدوم جعبه‌ست.",
@@ -74,8 +74,8 @@
       "seconds",
       "thirty",
       "lights",
-      "again",
-      "let's"
+      "let's",
+      "count"
      ],
      "suggestion": "Red lights. Hmm. OK — off at the wall. Wait thirty seconds. Then on again. Let's count. One… two…",
      "suggestionFa": "چراغ قرمز. هوم. باشه — از پریز خاموشش کن. سی ثانیه صبر کن. بعد دوباره روشن. بیا بشمریم. یک… دو…",
@@ -100,7 +100,7 @@
       "shouting",
       "website",
       "orange",
-      "keeps"
+      "check"
      ],
      "suggestion": "Orange, then… red again. It keeps going red! Ryan! Stop shouting! Right — let's check the provider's website. On your phone data.",
      "suggestionFa": "نارنجی، بعد… باز قرمز. مدام قرمز میشه! رایان! داد نزن! خب — بیا سایت شرکت اینترنت را چک کنیم. با اینترنت گوشیت.",
@@ -124,8 +124,8 @@
       "outage",
       "fixed",
       "when",
-      "will",
-      "area"
+      "area",
+      "will"
      ],
      "suggestion": "An outage in our area! So it's not us. When will it be fixed? Does it say?",
      "suggestionFa": "قطعی تو منطقهٔ ما! پس مشکل از ما نیست. کی درست میشه؟ گفته؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "reports",
       "hotspot",
-      "phone",
+      "reports",
       "hours",
+      "phone",
       "just"
      ],
      "suggestion": "Nine p.m.? Two hours! My reports! Can I use your phone as a hotspot? Just for half an hour?",
@@ -175,7 +175,7 @@
       "looking",
       "outage",
       "ryan",
-      "he's"
+      "read"
      ],
      "suggestion": "You're a hero. Ryan — it's an outage. Nothing we can do. Go and read a book! … He's looking at me like I'm mad.",
      "suggestionFa": "تو قهرمانی. رایان — قطعیه. کاری از دستمون برنمیاد. برو یه کتاب بخون! … طوری نگاهم می‌کنه انگار دیوونه‌ام.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "cheering",
-      "working",
       "minutes",
+      "working",
       "ryan's",
       "lights"
      ],
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "tonight's",
-      "between",
-      "website",
       "hotspot",
+      "website",
+      "between",
       "lesson"
      ],
      "suggestion": "Thank you. Tonight's lesson: off and on, check the website, use a hotspot. And never, ever get between Ryan and his Wi-Fi!",

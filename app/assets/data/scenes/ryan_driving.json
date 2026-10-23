@@ -81,8 +81,8 @@
      "keywords": [
       "everyone",
       "stalls",
-      "don't",
-      "again"
+      "first",
+      "don't"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
      "suggestionFa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن.",
@@ -92,10 +92,10 @@
     },
     {
      "keywords": [
-      "slowly",
       "clutch",
-      "great",
-      "doing"
+      "slowly",
+      "doing",
+      "great"
      ],
      "suggestion": "You're doing great. Just bring the clutch up slowly.",
      "suggestionFa": "خوب داری پیش میری. فقط کلاچ را آروم ول کن.",
@@ -232,8 +232,8 @@
      "keywords": [
       "parallel",
       "parking",
-      "good",
-      "ryan"
+      "ryan",
+      "good"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -245,8 +245,8 @@
      "keywords": [
       "there's",
       "slowly",
-      "take",
-      "rush"
+      "rush",
+      "take"
      ],
      "suggestion": "Take it slowly, there's no rush.",
      "suggestionFa": "آروم انجامش بده، عجله‌ای نیست.",
@@ -283,8 +283,8 @@
      "keywords": [
       "lesson",
       "first",
-      "all",
-      "bad"
+      "bad",
+      "all"
      ],
      "suggestion": "Not bad at all for a first lesson!",
      "suggestionFa": "برای جلسهٔ اول اصلاً بد نیست!",
@@ -346,9 +346,9 @@
     {
      "keywords": [
       "theory",
-      "needs",
       "first",
-      "pass"
+      "needs",
+      "test"
      ],
      "suggestion": "He needs to pass the theory test first.",
      "suggestionFa": "اول باید امتحان تئوری را قبول بشه.",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
-      "week",
-      "same",
-      "well",
-      "next"
+      "done",
+      "time",
+      "next",
+      "ryan"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

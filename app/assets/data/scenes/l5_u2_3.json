@@ -33,9 +33,9 @@
     {
      "keywords": [
       "nicola",
-      "grass",
       "never",
-      "been"
+      "grass",
+      "must"
      ],
      "suggestion": "Me? I'd never grass you up. It must have been Nicola.",
      "suggestionFa": "من؟ هیچ‌وقت لوت نمی‌دم. حتماً نیکولا بوده.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "pence",
-      "size",
+      "coin",
       "ryan",
-      "coin"
+      "five"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
      "suggestionFa": "اندازهٔ یه سکهٔ پنج پنسی بود رایان.",
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "before",
-      "let's",
-      "joins"
+      "nicola",
+      "truce",
+      "let's"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
      "suggestionFa": "منصفانه. بیا قبل از اینکه نیکولا هم اضافه بشه آتش‌بس کنیم.",
@@ -137,9 +137,9 @@
     {
      "keywords": [
       "anyone",
-      "scare",
-      "alarm",
-      "would"
+      "thing",
+      "would",
+      "scare"
      ],
      "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
      "suggestionFa": "اون آژیر هر کسی را می‌ترسوند! اصلاً یکی نیست.",
@@ -188,7 +188,7 @@
       "everyone",
       "barnaby",
       "cries",
-      "law"
+      "end"
      ],
      "suggestion": "Everyone cries at the end of Barnaby 2. It's the law.",
      "suggestionFa": "همه آخر بارنابی ۲ گریه می‌کنن. قانونه.",
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "ryan",
       "low"
      ],

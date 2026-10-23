@@ -24,8 +24,8 @@
       "should",
       "choose",
       "mummy",
-      "which",
-      "cakes"
+      "cakes",
+      "which"
      ],
      "suggestion": "Look at all the cakes! Mummy said I can choose one. Which one should I have?",
      "suggestionFa": "این همه کیک را ببین! مامان گفت می‌تونم یکی انتخاب کنم. کدوم را بخورم؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "chocolate",
-      "both",
       "pink",
       "like",
+      "both",
       "one"
      ],
      "suggestion": "The chocolate one or the pink one? I like both!",
@@ -258,7 +258,7 @@
       "teamwork",
       "squares",
       "yummy",
-      "best"
+      "pink"
      ],
      "suggestion": "Teamwork! Mmm… the Battenberg is yummy! The pink squares are the best.",
      "suggestionFa": "کار گروهی! ممم… بتنبرگ خوشمزه‌ست! مربع‌های صورتی بهترینن.",
@@ -280,10 +280,10 @@
     {
      "keywords": [
       "squares",
-      "yellow",
       "here's",
+      "yellow",
       "sorry",
-      "half"
+      "pink"
      ],
      "suggestion": "Here's half! Oh, I ate the pink squares. You can have the yellow ones! Sorry! Ha ha!",
      "suggestionFa": "بیا نصفش! آه، مربع‌های صورتی را خوردم. تو زردها را بخور! ببخشید! ها ها!",

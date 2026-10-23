@@ -23,9 +23,9 @@
      "keywords": [
       "outside",
       "flowers",
-      "today",
       "let's",
-      "sunny"
+      "sunny",
+      "today"
      ],
      "suggestion": "Let's sit outside, dear. It's sunny today! Look at the flowers.",
      "suggestionFa": "بیا بیرون بشینیم عزیزم. امروز آفتابیه! به گل‌ها نگاه کن.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "favourite",
       "daffodils",
+      "favourite",
       "what's",
-      "colour",
-      "yellow"
+      "yellow",
+      "colour"
      ],
      "suggestion": "There are red roses and yellow daffodils. What's your favourite colour?",
      "suggestionFa": "رزهای قرمز و نرگس‌های زرد هست. رنگ محبوبت چیه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "there's",
-      "there",
       "fence",
+      "there",
       "under",
       "bench"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "patel's",
+      "biscuit",
       "that's",
       "worry",
       "she's"
@@ -148,9 +148,9 @@
      "keywords": [
       "there's",
       "garden",
-      "grass",
       "needs",
-      "long"
+      "grass",
+      "work"
      ],
      "suggestion": "The grass is long. Tom needs to cut it. There's a lot of work in a garden.",
      "suggestionFa": "چمن‌ها بلندن. تام باید کوتاهشون کنه. باغچه کار زیادی داره.",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "fingers",
-      "plants",
       "called",
-      "water",
+      "plants",
+      "green",
       "shall"
      ],
      "suggestion": "I love it. Green fingers, my mum called it. Shall we water the plants?",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "garden",
-      "happy",
-      "there",
       "looks",
+      "there",
+      "happy",
       "dear"
      ],
      "suggestion": "There we are. The garden looks happy now, and so do you, dear.",

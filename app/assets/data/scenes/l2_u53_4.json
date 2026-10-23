@@ -192,8 +192,8 @@
     {
      "keywords": [
       "matches",
-      "good",
-      "name"
+      "name",
+      "good"
      ],
      "suggestion": "It says, \"Name matches\". Good!",
      "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "callum",
+      "close",
       "match",
-      "byrne",
-      "close"
+      "byrne"
      ],
      "suggestion": "It says, \"Close match: Callum J Byrne\".",
      "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "legend",
-      "cheers",
       "callum",
+      "cheers",
       "got"
      ],
      "suggestion": "It's Callum: \"Got it, legend! Cheers!\"",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "thanks",
-      "fast",
       "says",
+      "fast",
       "was"
      ],
      "suggestion": "He says thanks. That was so fast!",

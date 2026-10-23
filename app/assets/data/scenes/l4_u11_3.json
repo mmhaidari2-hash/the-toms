@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "long",
       "take",
-      "will"
+      "will",
+      "long"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "what's",
       "damage",
+      "what's",
       "go"
      ],
      "suggestion": "Go on. What's the damage?",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "would",
-      "cost",
       "both",
+      "cost",
       "much"
      ],
      "suggestion": "How much would it cost to fix both?",
@@ -247,8 +247,8 @@
      "keywords": [
       "second",
       "first",
-      "could",
-      "quote"
+      "quote",
+      "could"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "today",
       "let's",
+      "today",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "good",
       "news",
+      "good",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "winter",
       "before",
+      "winter",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -416,8 +416,8 @@
     {
      "keywords": [
       "garages",
-      "honest",
       "thanks",
+      "honest",
       "upsell"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",

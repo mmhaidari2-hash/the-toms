@@ -34,7 +34,7 @@
       "standing",
       "should",
       "order",
-      "good"
+      "idea"
      ],
      "suggestion": "Good idea. Should I set up a standing order?",
      "suggestionFa": "فکر خوبیه. دستور پرداخت دائمی بذارم؟",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "how",
       "set",
+      "how",
       "up"
      ],
      "suggestion": "How do I set it up?",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "forget",
-      "every",
       "month",
+      "every",
       "if"
      ],
      "suggestion": "Every month? What if I forget?",
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "code",
-      "sort"
+      "sort",
+      "code"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "seventy",
       "account",
+      "seventy",
       "twenty",
       "three"
      ],
@@ -193,8 +193,8 @@
     },
     {
      "keywords": [
-      "slowly",
       "repeat",
+      "slowly",
       "could",
       "sorry"
      ],

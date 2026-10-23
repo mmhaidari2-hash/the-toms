@@ -25,7 +25,7 @@
       "outside",
       "what's",
       "today",
-      "have"
+      "seen"
      ],
      "suggestion": "Have you seen outside? What's the weather like today?",
      "suggestionFa": "بیرون را دیدی؟ امروز هوا چطوره؟",
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "weather",
       "typical",
+      "british",
       "sunny",
       "hour"
      ],
@@ -74,7 +74,7 @@
       "umbrella",
       "pretty",
       "windy",
-      "much",
+      "take",
       "coat"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
@@ -99,8 +99,8 @@
       "degrees",
       "october",
       "that's",
-      "trust",
-      "eight"
+      "eight",
+      "trust"
      ],
      "suggestion": "Trust me, you do! It's only eight degrees. That's cold for October.",
      "suggestionFa": "به من اعتماد کن، لازم داری! فقط هشت درجه‌ست. برای اکتبر سرده.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "october",
-      "lucky",
       "march",
+      "lucky",
       "rain",
-      "from"
+      "here"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -149,8 +149,8 @@
       "chucking",
       "stopped",
       "hasn't",
-      "down",
-      "look"
+      "look",
+      "down"
      ],
      "suggestion": "Me too. Look — it's stopped! Oh, no it hasn't. It's chucking it down!",
      "suggestionFa": "منم. ببین — بند اومد! آه، نه، نیومد. داره سیل‌آسا می‌باره!",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "wellies",
-      "heavy",
       "means",
+      "heavy",
       "rain",
       "wear"
      ],

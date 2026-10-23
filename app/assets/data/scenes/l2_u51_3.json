@@ -20,8 +20,8 @@
     {
      "keywords": [
       "victoria",
-      "from",
       "here",
+      "from",
       "park"
      ],
      "suggestion": "Victoria Park. Is it far from here?",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "o'clock",
-      "ten",
+      "now",
       "two",
-      "now"
+      "ten"
      ],
      "suggestion": "Yes, at two o'clock. It's ten to two now!",
      "suggestionFa": "آره، ساعت دو. الان ده دقیقه به دوئه!",
@@ -140,8 +140,8 @@
      "keywords": [
       "thanks",
       "stops",
-      "two",
-      "tom"
+      "tom",
+      "two"
      ],
      "suggestion": "The 277. Two stops. Thanks, Tom!",
      "suggestionFa": "۲۷۷. دو ایستگاه. مرسی تام!",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "straight",
-      "right",
       "royal",
+      "right",
       "then"
      ],
      "suggestion": "Right at the Royal Inn, then straight on.",
@@ -258,8 +258,8 @@
      "keywords": [
       "which",
       "park",
-      "gate",
-      "huge"
+      "huge",
+      "gate"
      ],
      "suggestion": "Which gate? The park is huge!",
      "suggestionFa": "کدوم در؟ پارک خیلی بزرگه!",
@@ -347,10 +347,10 @@
    "branches": [
     {
      "keywords": [
+      "idea",
       "text",
       "i'll",
-      "good",
-      "idea"
+      "good"
      ],
      "suggestion": "Good idea. I'll text now.",
      "suggestionFa": "فکر خوبیه. الان پیام میدم.",
@@ -362,8 +362,8 @@
      "keywords": [
       "britain",
       "minutes",
-      "late",
-      "five"
+      "five",
+      "late"
      ],
      "suggestion": "Five minutes late is OK in Britain?",
      "suggestionFa": "پنج دقیقه دیر تو بریتانیا اشکالی نداره؟",

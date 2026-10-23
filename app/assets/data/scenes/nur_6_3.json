@@ -3,7 +3,7 @@
  "characterId": "harris",
  "title": "The Ofsted visit",
  "titleFa": "بازدید Ofsted",
- "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "setting": "Safeguarding, first aid and Ofsted · Vida's Nursery",
  "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
  "requires": null,
  "start": "n1",
@@ -30,8 +30,8 @@
     {
      "keywords": [
       "activity",
-      "shall",
-      "carry"
+      "carry",
+      "shall"
      ],
      "suggestion": "Good morning. Shall I carry on with the activity?",
      "suggestionFa": "صبح بخیر. فعالیت را ادامه بدم؟",
@@ -126,7 +126,7 @@
       "children",
       "observe",
       "steps",
-      "plan"
+      "next"
      ],
      "suggestion": "I observe my key children and plan next steps from what I see.",
      "suggestionFa": "بچه‌های کلیدی‌ام را مشاهده می‌کنم و از روی چیزی که می‌بینم گام بعدی را برنامه‌ریزی می‌کنم.",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "report",
+      "write",
       "exact",
-      "words",
-      "write"
+      "words"
      ],
      "suggestion": "I'd write down their exact words and report it the same day.",
      "suggestionFa": "کلمات دقیقش را می‌نویسم و همون روز گزارش می‌دم.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "manager",
-      "leader",
       "deputy",
+      "leader",
       "room"
      ],
      "suggestion": "It's Jo, the room leader, and the manager is the deputy.",
@@ -253,8 +253,8 @@
      "keywords": [
       "safeguarding",
       "entrance",
-      "photo",
-      "board"
+      "board",
+      "photo"
      ],
      "suggestion": "Jo — her photo is on the safeguarding board by the entrance.",
      "suggestionFa": "جو — عکسش رو تابلوی حفاظت کنار ورودیه.",

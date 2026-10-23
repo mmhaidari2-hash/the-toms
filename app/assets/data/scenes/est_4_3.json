@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Ending your tenancy",
  "titleFa": "پایان دادن به اجاره",
- "setting": "Living there and moving out · Level 0",
+ "setting": "Living there and moving out · Fennick & Rowe Homes",
  "settingFa": "زندگی در خانه و تخلیه",
  "requires": null,
  "start": "n1",
@@ -22,7 +22,7 @@
       "closer",
       "going",
       "move",
-      "new"
+      "job"
      ],
      "suggestion": "Yes! I'm going to move closer to my new job.",
      "suggestionFa": "آره! می‌خوام به کار جدیدم نزدیک‌تر بشم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "everything's",
       "manchester",
-      "moving",
-      "spring"
+      "spring",
+      "moving"
      ],
      "suggestion": "Everything's fine. I'll be moving to Manchester in the spring.",
      "suggestionFa": "همه چی خوبه. بهار می‌رم منچستر.",
@@ -69,9 +69,9 @@
    "branches": [
     {
      "keywords": [
-      "month",
       "first",
       "leave",
+      "month",
       "rent"
      ],
      "suggestion": "My rent day is the first. So I'd leave at the end of a month?",
@@ -190,7 +190,7 @@
       "everything",
       "photos",
       "clean",
-      "i'll"
+      "take"
      ],
      "suggestion": "I'll clean everything and take photos, just in case.",
      "suggestionFa": "همه جا را تمیز می‌کنم و عکس می‌گیرم، محض احتیاط.",

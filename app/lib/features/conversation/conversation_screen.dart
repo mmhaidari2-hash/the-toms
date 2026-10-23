@@ -733,7 +733,10 @@ class _ChatState extends ConsumerState<_Chat> {
     final trust = GrowthEngine.softTrust(p.trustMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
     final sp = _who(_lineSpeaker.isEmpty ? ch.id : _lineSpeaker);
     // The painting is a proper hero: about 16:9 of the phone width, never a thin strip.
-    final bannerH = pad.top + (MediaQuery.sizeOf(context).width * .56).clamp(170.0, 250.0);
+    // Tall while the chat is short (no empty dark gap), then it settles to about 16:9 as lines arrive.
+    final scr = MediaQuery.sizeOf(context);
+    final early = _msgs.where((m) => m.system == null && m.fb == null).length <= 2;
+    final bannerH = pad.top + (early ? (scr.width * .8).clamp(128.0, scr.height * .42) : (scr.width * .5).clamp(128.0, scr.height * .24));
     final strip = _strip(cover, host);
     return CustomPaint(
       painter: _WoodGrain(),
@@ -742,8 +745,10 @@ class _ChatState extends ConsumerState<_Chat> {
         child: Stack(children: [
           Column(children: [
             // Compact header banner: the painting (or a people-free location card) with title, speaker and hearts.
-            SizedBox(
+            AnimatedContainer(
               key: const ValueKey('chat-banner'),
+              duration: const Duration(milliseconds: 320),
+              curve: Curves.easeOutCubic,
               height: bannerH,
               child: Stack(fit: StackFit.expand, children: [
                 cover != null ? _paintingLayer(cover, host, sp) : LocationCard(art: widget.c.artOf(widget.s.id), color: ch.color, compact: true),

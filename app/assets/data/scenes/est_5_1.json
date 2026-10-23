@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Mortgage in principle",
  "titleFa": "تأییدیهٔ اولیهٔ وام مسکن",
- "setting": "Buying a home · Level 0",
+ "setting": "Buying a home · Fennick & Rowe Homes",
  "settingFa": "خرید خانه",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "should",
-      "start",
       "where",
+      "start",
       "yet"
      ],
      "suggestion": "Not yet. Where should I start?",
@@ -34,8 +34,8 @@
      "keywords": [
       "principle",
       "mortgage",
-      "seen",
-      "i've"
+      "i've",
+      "word"
      ],
      "suggestion": "I've seen the word \"mortgage in principle\". What is it?",
      "suggestionFa": "کلمهٔ «mortgage in principle» را دیدم. چیه؟",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "credit",
       "affect",
+      "credit",
       "score"
      ],
      "suggestion": "Does it affect my credit score?",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "thousand",
-      "pounds",
       "twenty",
+      "pounds",
       "about"
      ],
      "suggestion": "About twenty thousand pounds.",
@@ -141,8 +141,8 @@
      "keywords": [
       "better",
       "could",
-      "rate",
-      "cent"
+      "cent",
+      "rate"
      ],
      "suggestion": "If I put down ten per cent, could I get a better rate?",
      "suggestionFa": "اگه ده درصد پیش‌پرداخت بدم، نرخ بهتری می‌گیرم؟",
@@ -202,8 +202,8 @@
      "keywords": [
       "documents",
       "lender",
-      "will",
-      "want"
+      "want",
+      "will"
      ],
      "suggestion": "What documents will the lender want?",
      "suggestionFa": "وام‌دهنده چه مدارکی می‌خواد؟",

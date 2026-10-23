@@ -22,9 +22,9 @@
     {
      "keywords": [
       "boiler's",
-      "stopped",
-      "working",
       "heating",
+      "working",
+      "stopped",
       "water"
      ],
      "suggestion": "Bad news — the boiler's stopped working again. No hot water, no heating.",
@@ -75,7 +75,7 @@
       "meanwhile",
       "washing",
       "they're",
-      "kettle"
+      "coming"
      ],
      "suggestion": "They're registered for gas work. I've rung one — he's coming at two. Meanwhile, we'll have to boil the kettle for washing.",
      "suggestionFa": "برای کار گاز ثبت شدن. به یکی زنگ زدم — ساعت دو میاد. تا اون موقع، باید برای شستشو کتری را جوش بیاریم.",
@@ -98,9 +98,9 @@
      "keywords": [
       "radiators",
       "please",
+      "funny",
       "makes",
-      "noise",
-      "while"
+      "going"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
      "suggestionFa": "آره لطفاً. و تا اینجاست، می‌خوام بدم هوای رادیاتورها را بگیرن. مال اتاق تو یه صدای عجیب می‌ده.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "cheers",
       "shower",
       "kettle",
-      "cheers",
-      "least",
-      "can't"
+      "going",
+      "least"
      ],
      "suggestion": "Cheers. Right — I'm going to put the kettle on. If we can't have a shower, at least we can have a brew!",
      "suggestionFa": "مرسی. خب — می‌رم کتری را بذارم. اگه نمی‌تونیم دوش بگیریم، حداقل می‌تونیم یه چای بخوریم!",

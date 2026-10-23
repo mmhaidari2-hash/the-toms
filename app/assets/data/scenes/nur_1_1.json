@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Your first day",
  "titleFa": "اولین روزت",
- "setting": "Good morning, Little Acorns! · Level 0",
+ "setting": "Good morning, Little Acorns! · Vida's Nursery",
  "settingFa": "صبح بخیر، لیتل ایکورنز!",
  "requires": null,
  "start": "n1",
@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
+      "vida",
       "nice",
-      "meet",
-      "vida"
+      "meet"
      ],
      "suggestion": "Nice to meet you, Vida.",
      "suggestionFa": "از آشنایی‌ات خوشحالم، ویدا.",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
-      "morning"
+      "morning",
+      "william"
      ],
      "suggestion": "Morning, William!",
      "suggestionFa": "صبح بخیر ویلیام!",

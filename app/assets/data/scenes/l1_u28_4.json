@@ -21,8 +21,8 @@
      "keywords": [
       "leslie",
       "don't",
-      "fast",
-      "talk"
+      "talk",
+      "fast"
      ],
      "suggestion": "Ha! You don't talk too fast, Leslie!",
      "suggestionFa": "ها! تو تند حرف نمی‌زنی لزلی!",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "plumber",
-      "message"
+      "message",
+      "plumber"
      ],
      "suggestion": "Hello, this is a message for the plumber.",
      "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
@@ -129,8 +129,8 @@
      "keywords": [
       "everywhere",
       "there's",
-      "water",
-      "under"
+      "under",
+      "water"
      ],
      "suggestion": "There's water everywhere under the sink.",
      "suggestionFa": "زیر سینک همه جا آبه.",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "goodbye",
-      "have",
       "nice",
+      "have",
       "day"
      ],
      "suggestion": "Goodbye. Have a nice day!",

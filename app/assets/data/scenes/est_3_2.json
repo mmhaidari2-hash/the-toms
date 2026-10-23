@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Inventory and check-in",
  "titleFa": "فهرست اموال و تحویل",
- "setting": "Moving in · Level 0",
+ "setting": "Moving in · Fennick & Rowe Homes",
  "settingFa": "اسباب‌کشی",
  "requires": null,
  "start": "n1",
@@ -21,8 +21,8 @@
      "keywords": [
       "photos",
       "take",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. Can I take my own photos too?",
      "suggestionFa": "فکر خوبیه. می‌تونم خودم هم عکس بگیرم؟",
@@ -71,7 +71,7 @@
       "that's",
       "right",
       "mark",
-      "can"
+      "see"
      ],
      "suggestion": "Yes, I can see the mark. That's right.",
      "suggestionFa": "آره، لک را می‌بینم. درسته.",
@@ -81,8 +81,8 @@
     },
     {
      "keywords": [
-      "scratch",
       "there's",
+      "scratch",
       "coffee",
       "table"
      ],
@@ -129,10 +129,10 @@
    "branches": [
     {
      "keywords": [
-      "dripping",
       "bathroom",
+      "dripping",
       "someone",
-      "can"
+      "tap"
      ],
      "suggestion": "The bathroom tap is dripping. Can someone fix it?",
      "suggestionFa": "شیر حموم چکه می‌کنه. کسی می‌تونه درستش کنه؟",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "inventory",
-      "sign",
-      "need"
+      "need",
+      "sign"
      ],
      "suggestion": "Do I need to sign the inventory?",
      "suggestionFa": "باید فهرست را امضا کنم؟",

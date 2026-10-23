@@ -23,8 +23,8 @@
      "keywords": [
       "what's",
       "nicola",
-      "hiya",
-      "name"
+      "name",
+      "hiya"
      ],
      "suggestion": "Hiya! I'm Nicola. What's your name?",
      "suggestionFa": "سلام! من نیکولا هستم. اسمت چیه؟",
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "friend",
-      "best",
+      "london",
+      "he's",
       "from",
-      "he's"
+      "best"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
      "suggestionFa": "آره! بهترین دوستمه. اهل لندنی؟",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "always",
-      "there",
       "mummy",
-      "says",
-      "cold"
+      "there",
+      "here",
+      "says"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
      "suggestionFa": "وای! اونجا گرمه؟ مامان می‌گه اینجا همیشه سرده.",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "teacher",
-      "that's",
       "name's",
+      "that's",
       "leslie",
       "she's"
      ],
@@ -252,8 +252,8 @@
       "friend",
       "later",
       "good",
-      "now",
-      "see"
+      "see",
+      "bye"
      ],
      "suggestion": "Good! You're my friend now. Bye-bye, see you later!",
      "suggestionFa": "خوبه! حالا تو دوست منی. بای‌بای، بعداً می‌بینمت!",

@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "split",
-      "ways",
-      "four"
+      "shall",
+      "four",
+      "ways"
      ],
      "suggestion": "Shall we split it four ways?",
      "suggestionFa": "چهار قسمت مساوی کنیم؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "separately",
-      "can",
       "pay",
+      "can",
       "we"
      ],
      "suggestion": "Can we pay separately?",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "fifteen",
-      "little",
       "twenty",
+      "little",
       "pay"
      ],
      "suggestion": "Fifteen is too little. Let me pay twenty.",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "phone",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by phone?",
@@ -360,7 +360,7 @@
       "coins",
       "many",
       "got",
-      "how"
+      "has"
      ],
      "suggestion": "Ha! How many coins has he got?",
      "suggestionFa": "ها! چند تا سکه داره؟",
@@ -370,9 +370,9 @@
     },
     {
      "keywords": [
+      "while",
       "let's",
       "coats",
-      "while",
       "wait"
      ],
      "suggestion": "Let's get our coats while we wait.",

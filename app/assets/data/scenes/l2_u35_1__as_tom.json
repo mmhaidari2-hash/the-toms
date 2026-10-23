@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "brighton",
       "saturday",
+      "brighton",
       "cheaper",
       "advance",
       "return"
@@ -49,7 +49,7 @@
       "britain",
       "return",
       "single",
-      "thing",
+      "funny",
       "there"
      ],
      "suggestion": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "sometimes",
-      "brighton",
       "victoria",
-      "exactly",
-      "cheaper"
+      "brighton",
+      "cheaper",
+      "singles"
      ],
      "suggestion": "Sometimes two singles are cheaper! Let's check the app. London Victoria to Brighton… When are you coming back, exactly?",
      "suggestionFa": "گاهی دو تا یک‌طرفه ارزون‌ترن! بیا تو اپ ببینیم. لندن ویکتوریا به برایتون… دقیقاً کی برمی‌گردی؟",
@@ -99,8 +99,8 @@
       "flexible",
       "return",
       "train",
-      "sure",
-      "then"
+      "more",
+      "peak"
      ],
      "suggestion": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
      "suggestionFa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر.",
@@ -123,9 +123,9 @@
      "keywords": [
       "advance",
       "pounds",
-      "twenty",
       "single",
-      "again"
+      "twenty",
+      "eight"
      ],
      "suggestion": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
      "suggestionFa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "return's",
-      "allowed",
-      "advance",
       "cheaper",
-      "thirty"
+      "advance",
+      "allowed",
+      "clever"
      ],
      "suggestion": "Clever — mixing is allowed! Advance there, off-peak back: thirty-one total. Hmm, the return's cheaper. Take the return.",
      "suggestionFa": "زرنگی — ترکیب کردن مجازه! رفت از قبل، برگشت ساعات خلوت: جمعاً سی و یک. هوم، رفت‌وبرگشت ارزون‌تره. رفت‌وبرگشت را بگیر.",
@@ -174,8 +174,8 @@
       "barriers",
       "ticket",
       "charge",
-      "phone",
-      "means"
+      "means",
+      "phone"
      ],
      "suggestion": "An e-ticket on your phone. QR code at the barriers. And charge your phone — a dead phone means no ticket!",
      "suggestionFa": "بلیت الکترونیکی رو گوشیت. کیوآرکد سر گیت. گوشیت را هم شارژ کن — گوشی خاموش یعنی بی‌بلیت!",
@@ -198,8 +198,8 @@
      "keywords": [
       "seagulls",
       "brighton",
-      "machine",
       "collect",
+      "machine",
       "braces"
      ],
      "suggestion": "You can collect paper ones from the machine. Belt and braces! Enjoy Brighton — and watch out for the seagulls. They steal chips.",

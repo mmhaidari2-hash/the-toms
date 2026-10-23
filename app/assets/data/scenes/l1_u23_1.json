@@ -20,9 +20,9 @@
     {
      "keywords": [
       "kind",
+      "want",
       "coat",
-      "sure",
-      "want"
+      "sure"
      ],
      "suggestion": "Sure. What kind of coat do you want?",
      "suggestionFa": "حتماً. چه جور کتی می‌خوای؟",
@@ -112,8 +112,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "idea",
+      "good",
       "her"
      ],
      "suggestion": "Good idea. Ask her.",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
-      "great"
+      "great",
+      "looks"
      ],
      "suggestion": "It looks great on you!",
      "suggestionFa": "خیلی بهت میاد!",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "pounds",
-      "label",
       "forty",
+      "label",
       "look"
      ],
      "suggestion": "Let me look at the label. It's forty pounds.",
@@ -417,9 +417,9 @@
     },
     {
      "keywords": [
-      "good",
-      "cold",
       "idea",
+      "cold",
+      "good",
       "hat"
      ],
      "suggestion": "A hat is a good idea. It's cold.",

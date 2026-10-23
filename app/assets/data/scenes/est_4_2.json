@@ -3,7 +3,7 @@
  "characterId": "graham",
  "title": "Damp, mould and your rights",
  "titleFa": "رطوبت، کپک و حقوق تو",
- "setting": "Living there and moving out · Level 0",
+ "setting": "Living there and moving out · Fennick & Rowe Homes",
  "settingFa": "زندگی در خانه و تخلیه",
  "requires": null,
  "start": "n1",
@@ -22,7 +22,7 @@
       "worried",
       "getting",
       "thanks",
-      "graham"
+      "health"
      ],
      "suggestion": "Thanks, Graham. It's getting worse, and I'm worried about my health.",
      "suggestionFa": "ممنون گراهام. داره بدتر می‌شه، و نگران سلامتی‌ام هستم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "cleaned",
       "coming",
-      "keeps",
-      "twice"
+      "twice",
+      "keeps"
      ],
      "suggestion": "Yes. I've cleaned it twice, but it keeps coming back.",
      "suggestionFa": "بله. دو بار تمیزش کردم، ولی مدام برمی‌گرده.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "complain",
-      "angry",
       "won't",
+      "angry",
       "if"
      ],
      "suggestion": "Won't the landlord be angry if I complain?",

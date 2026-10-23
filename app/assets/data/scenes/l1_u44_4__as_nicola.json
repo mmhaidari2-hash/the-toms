@@ -114,8 +114,8 @@
      "keywords": [
       "unicorn",
       "fifteen",
-      "pounds",
       "sweets",
+      "pounds",
       "today"
      ],
      "suggestion": "A big unicorn from the toy shop! It's fifteen pounds. And sweets. Today!",
@@ -190,10 +190,10 @@
     {
      "keywords": [
       "forever",
-      "that's",
       "sweets",
-      "weeks",
-      "eight"
+      "that's",
+      "eight",
+      "weeks"
      ],
      "suggestion": "Eight weeks?! That's forever! I need sweets now!",
      "suggestionFa": "هشت هفته؟! این یعنی یه عمر! الان آبنبات لازم دارم!",
@@ -266,11 +266,11 @@
    "branches": [
     {
      "keywords": [
-      "weeks",
       "extra",
       "money",
-      "jobs",
-      "help"
+      "weeks",
+      "help",
+      "jobs"
      ],
      "suggestion": "Ten weeks… OK. But can I help {you} with jobs? For extra money?",
      "suggestionFa": "ده هفته… باشه. ولی می‌تونم تو کارها به {you} کمک کنم؟ برای پول اضافه؟",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
       "ryan",
+      "time",
       "bed"
      ],
      "suggestion": "It's time for bed, Ryan.",
@@ -33,8 +33,8 @@
      "keywords": [
       "minutes",
       "phone",
-      "then",
-      "more"
+      "more",
+      "then"
      ],
      "suggestion": "Ten minutes more, then phone off.",
      "suggestionFa": "ده دقیقهٔ دیگه، بعد گوشی خاموش.",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "work",
-      "have",
       "nine",
+      "have",
+      "work",
       "but"
      ],
      "suggestion": "No, but I have work at nine.",
@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "maths",
       "sleep",
-      "need",
+      "maths",
+      "test",
       "then"
      ],
      "suggestion": "A maths test? Then you need sleep!",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "sure",
-      "ryan"
+      "ryan",
+      "sure"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -344,8 +344,8 @@
      "keywords": [
       "nearly",
       "seven",
-      "same",
-      "half"
+      "half",
+      "same"
      ],
      "suggestion": "At half seven. Same as you, nearly.",
      "suggestionFa": "هفت و نیم. تقریباً مثل تو.",
@@ -356,9 +356,9 @@
     {
      "keywords": [
       "early",
-      "long",
       "i've",
-      "day"
+      "long",
+      "got"
      ],
      "suggestion": "Early. I've got a long day.",
      "suggestionFa": "زود. روز طولانی‌ای دارم.",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "good",
       "luck",
       "test",
-      "ryan"
+      "ryan",
+      "good"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

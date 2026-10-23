@@ -24,8 +24,8 @@
       "william's",
       "feeling",
       "better",
-      "news",
-      "look"
+      "look",
+      "news"
      ],
      "suggestion": "Good news! William's feeling better. Look at him!",
      "suggestionFa": "خبر خوب! حال ویلیام بهتره. نگاش کن!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "yesterday",
-      "thirty",
       "normal",
+      "thirty",
       "point",
       "nine"
      ],
@@ -124,11 +124,11 @@
    "branches": [
     {
      "keywords": [
-      "eating",
-      "that's",
-      "always",
       "banana",
-      "wants"
+      "that's",
+      "eating",
+      "always",
+      "let's"
      ],
      "suggestion": "He wants to play — that's always a good sign. Is he eating more? Let's try a banana.",
      "suggestionFa": "می‌خواد بازی کنه — این همیشه نشونهٔ خوبیه. بیشتر می‌خوره؟ بیا یه موز امتحان کنیم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "brilliant",
+      "banana",
       "eating",
       "better",
-      "banana",
       "worse"
      ],
      "suggestion": "More banana! Brilliant. He's eating better too. And you, {you}? Is your cold better or worse?",
@@ -224,7 +224,7 @@
       "william's",
       "banana",
       "sorry",
-      "want",
+      "some",
       "gave"
      ],
      "suggestion": "Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha!",

@@ -25,7 +25,7 @@
       "uniform",
       "mondays",
       "please",
-      "she's"
+      "badge"
      ],
      "suggestion": "Mia goes to Rainbows! On Mondays! She's got a uniform and a badge. Can I join? PLEASE?",
      "suggestionFa": "میا میره رینبوز! دوشنبه‌ها! یونیفرم و نشان داره. منم می‌تونم عضو بشم؟ لطفاً!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "rainbows",
       "brownies",
+      "rainbows",
       "camping",
-      "scouts",
-      "little"
+      "little",
+      "scouts"
      ],
      "suggestion": "Rainbows is for little girls. Then Brownies, then Guides. Ryan did Scouts. He loved the camping!",
      "suggestionFa": "رینبوز برای دخترهای کوچیکه. بعد براونیز، بعد گایدز. رایان پیشاهنگ بود. عاشق کمپینگ بود!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "waiting",
+      "there's",
       "what's",
       "mummy",
       "have"
@@ -100,7 +100,7 @@
       "waiting",
       "boring",
       "till",
-      "long"
+      "hate"
      ],
      "suggestion": "I HATE waiting. It's so boring. How long? Till Christmas? Till I'm six?",
      "suggestionFa": "من از صبر کردن متنفرم. خیلی کسل‌کننده‌ست. چقدر؟ تا کریسمس؟ تا شش سالگیم؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "chicken",
       "crafts",
-      "trips",
+      "songs",
       "games",
-      "songs"
+      "trips"
      ],
      "suggestion": "Crafts, games and songs. And trips! Mia went to a farm and held a chicken.",
      "suggestionFa": "کاردستی، بازی و آواز. و گردش! میا رفت مزرعه و یه مرغ بغل کرد.",
@@ -175,7 +175,7 @@
       "baking",
       "badge",
       "cakes",
-      "make"
+      "want"
      ],
      "suggestion": "The baking badge. I want to make cakes. With sprinkles. Lots and lots of sprinkles.",
      "suggestionFa": "نشان شیرینی‌پزی. می‌خوام کیک درست کنم. با ترافل رنگی. کلی کلی ترافل.",

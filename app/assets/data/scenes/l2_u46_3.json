@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "could",
       "bring",
-      "from",
-      "home"
+      "could",
+      "home",
+      "from"
      ],
      "suggestion": "Oh no. Could I bring it from home?",
      "suggestionFa": "وای نه. می‌تونم از خونه بیارمش؟",
@@ -81,9 +81,9 @@
     },
     {
      "keywords": [
-      "third",
-      "ellis",
       "sorry",
+      "ellis",
+      "third",
       "time"
      ],
      "suggestion": "Third time! Sorry, Mrs Ellis.",
@@ -130,9 +130,9 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "school",
       "before",
+      "office",
       "one"
      ],
      "suggestion": "Before one. To the school office. OK.",
@@ -197,7 +197,7 @@
      "keywords": [
       "shorts",
       "white",
-      "black",
+      "pumps",
       "shirt"
      ],
      "suggestion": "White T-shirt, navy shorts, black pumps. Got it.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "definitely",
-      "then",
       "find",
+      "then",
       "kit"
      ],
      "suggestion": "Ha! Then I'll definitely find her kit.",
@@ -310,7 +310,7 @@
       "leslie",
       "that's",
       "great",
-      "i'll"
+      "idea"
      ],
      "suggestion": "That's a great idea. I'll tell Leslie.",
      "suggestionFa": "ایدهٔ عالی‌ایه. به لزلی میگم.",
@@ -322,8 +322,8 @@
      "keywords": [
       "promise",
       "happen",
-      "again",
-      "won't"
+      "won't",
+      "again"
      ],
      "suggestion": "It won't happen again. I promise.",
      "suggestionFa": "دیگه تکرار نمیشه. قول میدم.",

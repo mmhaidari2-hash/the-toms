@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "burgers",
       "ordered",
+      "burgers",
       "isn't",
       "look",
-      "bruv"
+      "here"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
      "suggestionFa": "داداش. برگرها رسیدن، ولی… این چیزی نیست که سفارش دادیم. ببین.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "chicken",
-      "burger",
       "veggie",
-      "there",
-      "asked"
+      "burger",
+      "where",
+      "rings"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -74,8 +74,8 @@
       "vegetarian",
       "complain",
       "tuesday",
-      "mostly",
-      "except"
+      "except",
+      "mostly"
      ],
      "suggestion": "Since Tuesday. I'm vegetarian now. Well, mostly. Except bacon. Can you help me complain?",
      "suggestionFa": "از سه‌شنبه. الان گیاه‌خوارم. خب، بیشترش. به جز بیکن. کمکم می‌کنی شکایت کنم؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "evidence",
       "burger",
+      "photo",
       "wants",
-      "don't",
-      "photo"
+      "don't"
      ],
      "suggestion": "Now it wants a photo. Hold the burger up. No — don't eat it! It's evidence!",
      "suggestionFa": "حالا عکس می‌خواد. برگر را بگیر بالا. نه — نخورش! مدرکه!",
@@ -150,7 +150,7 @@
       "english",
       "polite",
       "write",
-      "mine"
+      "more"
      ],
      "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
      "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
@@ -199,8 +199,8 @@
       "vegetarian",
       "tomorrow",
       "waste",
-      "shame",
-      "don't"
+      "don't",
+      "shame"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",
      "suggestionFa": "خب… حیفه هدر بره. می‌خورمش. از فردا گیاه‌خوارم. به مامان نگو!",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "languages",
-      "hello",
       "mummy",
+      "hello",
       "speak",
-      "true"
+      "says"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "bonjour",
+      "english",
       "french",
       "speak",
       "only"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "english",
+      "persian",
       "that's",
       "french",
-      "speak"
+      "merci"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "football",
-      "english",
       "there's",
-      "daddy",
-      "telly"
+      "english",
+      "talks",
+      "daddy"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
      "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
@@ -174,8 +174,8 @@
       "spelling",
       "nobody",
       "knows",
-      "ellis",
-      "knife"
+      "knife",
+      "ellis"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
@@ -198,9 +198,9 @@
      "keywords": [
       "persian",
       "english",
-      "salaam",
       "clever",
-      "teach"
+      "salaam",
+      "merci"
      ],
      "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",
      "suggestionFa": "آره! من بهت انگلیسی یاد میدم، تو بهم فارسی. هر روز! سلام! مرسی! من خیلی باهوشم.",

@@ -24,8 +24,8 @@
       "everything's",
       "handed",
       "you'll",
-      "never",
-      "thank"
+      "thank",
+      "never"
      ],
      "suggestion": "You'll never guess. A man handed in my purse at the café! Everything's still in it. I want to thank him. Did you see him?",
      "suggestionFa": "باورت نمیشه. یه آقا کیف پولم را تو کافه تحویل داده! همه‌چی هنوز توشه. می‌خوام ازش تشکر کنم. دیدیش؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "hackney",
-      "that's",
       "callum",
-      "beard",
-      "older"
+      "that's",
+      "older",
+      "beard"
      ],
      "suggestion": "Callum said \"older man, beard\". That's half of Hackney! You were by the gate. What did he look like?",
      "suggestionFa": "کالوم گفت «یه آقای مسن، ریش‌دار». این نصف هکنیه! تو کنار در بودی. چه شکلی بود؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "wearing",
-      "beard",
-      "white",
       "there",
-      "three"
+      "beard",
+      "three",
+      "white"
      ],
      "suggestion": "Grey hair, white beard, tall and thin. Good. What was he wearing? There are three old men by the pond.",
      "suggestionFa": "موی خاکستری، ریش سفید، قدبلند و لاغر. خوبه. چی پوشیده بود؟ سه تا آقای مسن کنار برکه‌ان.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "glasses",
       "grandad",
+      "glasses",
       "hackney",
-      "have",
-      "them"
+      "some",
+      "have"
      ],
      "suggestion": "A flat cap! Very Hackney grandad. And glasses? Some of them have glasses.",
      "suggestionFa": "کلاه کپ! خیلی پدربزرگ‌های هکنی. و عینک؟ بعضی‌هاشون عینک دارن.",
@@ -124,7 +124,7 @@
       "glasses",
       "little",
       "green",
-      "brown",
+      "round",
       "bench"
      ],
      "suggestion": "Look — on the bench. Green coat, flat cap, round glasses, little brown dog. That must be him!",
@@ -148,8 +148,8 @@
      "keywords": [
       "recognise",
       "jenkins",
-      "always",
       "didn't",
+      "always",
       "wears"
      ],
      "suggestion": "Oh! It's Mr Jenkins from next door! I didn't recognise him in the cap. He always wears a hat to the park.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "kind",
-      "cake",
       "talk",
+      "more",
+      "cake",
       "like",
-      "more"
+      "than"
      ],
      "suggestion": "Ha! Shh! He was so kind. I'll bake him a cake. What does he like? You talk to him more than I do.",
      "suggestionFa": "ها! هیس! خیلی مهربون بود. براش کیک می‌پزم. چی دوست داره؟ تو بیشتر از من باهاش حرف می‌زنی.",
@@ -199,8 +199,8 @@
       "jenkins",
       "waving",
       "leslie",
-      "thank",
-      "lemon"
+      "lemon",
+      "thank"
      ],
      "suggestion": "Lemon cake it is. And look — he's waving. \"Leslie! Your purse!\" Yes, Mr Jenkins! Thank you SO much!",
      "suggestionFa": "پس کیک لیمو. و ببین — داره دست تکون میده. «لزلی! کیف پولت!» آره آقای جنکینز! خیلی خیلی ممنون!",

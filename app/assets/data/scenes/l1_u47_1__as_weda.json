@@ -25,7 +25,7 @@
       "running",
       "hello",
       "duck",
-      "bath"
+      "pass"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
      "suggestionFa": "سلام عزیزم! دارم وان ویلیام را پر می‌کنم. اردکش را بهم میدی؟",
@@ -49,8 +49,8 @@
       "question",
       "always",
       "check",
-      "elbow",
-      "right"
+      "right",
+      "elbow"
      ],
      "suggestion": "Good question. I always check with my elbow. Like this. It's just right.",
      "suggestionFa": "سؤال خوبیه. من همیشه با آرنجم امتحان می‌کنم. این‌جوری. درست اندازه‌ست.",
@@ -127,8 +127,8 @@
       "splashing",
       "everyone",
       "shampoo",
-      "yellow",
-      "bottle"
+      "bottle",
+      "yellow"
      ],
      "suggestion": "Ha! He's splashing everyone. Can you hand me the baby shampoo? The yellow bottle.",
      "suggestionFa": "ها! داره رو همه آب می‌پاشه. شامپوی بچه را میدی؟ بطری زرده.",
@@ -226,10 +226,10 @@
     {
      "keywords": [
       "slippery",
-      "getting",
       "careful",
+      "getting",
       "towel",
-      "star"
+      "done"
      ],
      "suggestion": "You're a star. All done! Now I'm getting the towel. Can you hold him? Careful, he's slippery!",
      "suggestionFa": "تو ستاره‌ای. تموم شد! حالا دارم حوله را میارم. می‌تونی نگهش داری؟ مواظب باش، لیزه!",
@@ -254,7 +254,7 @@
       "little",
       "lovely",
       "night",
-      "fish"
+      "wrap"
      ],
      "suggestion": "Ha! A little fish. Wrap him up. Lovely. Now pyjamas and bed, little one. Say night night!",
      "suggestionFa": "ها! یه ماهی کوچولو. بپیچش. عالی. حالا پیژامه و تخت، کوچولو. بگو شب بخیر!",

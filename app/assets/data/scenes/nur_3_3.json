@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Messy play",
  "titleFa": "بازی کثیف‌کاری",
- "setting": "Play, songs and feelings · Level 0",
+ "setting": "Play, songs and feelings · Vida's Nursery",
  "settingFa": "بازی، آهنگ و احساسات",
  "requires": null,
  "start": "n1",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "william",
-      "feel",
-      "like"
+      "like",
+      "feel"
      ],
      "suggestion": "What does it feel like, William?",
      "suggestionFa": "ویلیام، چه حسی داره؟",
@@ -173,8 +173,8 @@
     },
     {
      "keywords": [
-      "make",
       "tray",
+      "make",
       "drip",
       "can"
      ],

@@ -23,8 +23,8 @@
      "keywords": [
       "dentist",
       "worried",
-      "starts",
       "what's",
+      "starts",
       "monday"
      ],
      "suggestion": "You look worried. What's wrong? Oh — the dentist. Monday at ten past four. And your new job starts on Monday!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "speaking",
       "practise",
+      "speaking",
       "exactly",
-      "before",
-      "hughes"
+      "dental",
+      "before"
      ],
      "suggestion": "Exactly. At least twenty-four hours before. Let's practise. I'm Mrs Hughes. Ring ring! \"Smile Dental, Mrs Hughes speaking.\"",
      "suggestionFa": "دقیقاً. حداقل بیست و چهار ساعت قبل. بیا تمرین کنیم. من خانم هیوزم. دینگ دینگ! «دندان‌پزشکی اسمایل، هیوز هستم.»",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "afraid",
-      "direct",
       "reason",
-      "cancel",
-      "lovely"
+      "lovely",
+      "direct",
+      "afraid",
+      "cancel"
      ],
      "suggestion": "Good! \"I'm afraid\" is lovely and soft. \"I want to cancel\" is a bit direct. Add a reason and say sorry. Again!",
      "suggestionFa": "خوبه! «متأسفانه» قشنگ و نرمه. «می‌خوام لغو کنم» یه کم رکه. یه دلیل اضافه کن و عذرخواهی کن. دوباره!",
@@ -124,8 +124,8 @@
       "congratulations",
       "friendly",
       "perfect",
-      "hughes",
-      "rebook"
+      "rebook",
+      "hughes"
      ],
      "suggestion": "You don't have to, but it's friendly. Perfect. Now \"Mrs Hughes\" says: \"Oh, congratulations! Would you like to rebook?\"",
      "suggestionFa": "لازم نیست، ولی دوستانه‌ست. عالی. حالا «خانم هیوز» میگه: «اوه، تبریک! می‌خواید دوباره وقت بگیرید؟»",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "saturdays",
-      "morning",
       "o'clock",
+      "morning",
       "dental",
       "eighth"
      ],
@@ -174,7 +174,7 @@
       "understanding",
       "excellent",
       "british",
-      "people",
+      "finish",
       "thanks"
      ],
      "suggestion": "Excellent. And finish nicely: \"Thanks for understanding.\" British people love that. Now do the real call!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "answerphone",
       "appointment",
+      "answerphone",
       "message",
-      "afraid",
-      "number"
+      "number",
+      "afraid"
      ],
      "suggestion": "Ha — it's the answerphone. Leave a message: your name, your appointment, \"I'm afraid I can't make it\", and your number. Slowly!",
      "suggestionFa": "ها — پیغام‌گیره. پیام بذار: اسمت، وقتت، «متأسفانه نمی‌تونم برسم»، و شماره‌ات. آروم!",
@@ -224,7 +224,7 @@
       "cancelling",
       "message",
       "perfect",
-      "polite",
+      "you'll",
       "hughes"
      ],
      "suggestion": "Perfect message! Polite, clear, sorry. Mrs Hughes will love it. You'll be cancelling like a native in no time.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
+      "there's",
       "callum",
       "think"
      ],
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "that's",
-      "thank",
       "right",
+      "thank",
       "now"
      ],
      "suggestion": "Thank you. That's right now.",
@@ -270,7 +270,7 @@
       "mistakes",
       "everyone",
       "worry",
-      "makes"
+      "don't"
      ],
      "suggestion": "Don't worry. Everyone makes mistakes.",
      "suggestionFa": "نگران نباش. همه اشتباه می‌کنن.",
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "cheese",
-      "extra",
       "argue",
-      "won't"
+      "won't",
+      "extra"
      ],
      "suggestion": "I won't argue with extra cheese!",
      "suggestionFa": "با پنیر اضافه بحث نمی‌کنم!",
@@ -362,10 +362,10 @@
    "branches": [
     {
      "keywords": [
-      "coffee",
       "always",
-      "best",
-      "back"
+      "coffee",
+      "come",
+      "best"
      ],
      "suggestion": "I'll always come back. Your coffee is the best.",
      "suggestionFa": "من همیشه برمی‌گردم. قهوهٔ تو بهترینه.",

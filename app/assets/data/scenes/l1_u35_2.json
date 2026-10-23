@@ -22,7 +22,7 @@
       "there",
       "said",
       "was",
-      "he"
+      "ha"
      ],
      "suggestion": "Ha! I was there. He said it!",
      "suggestionFa": "ها! من اونجا بودم. گفتش!",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "did",
       "say",
-      "tom"
+      "tom",
+      "did"
      ],
      "suggestion": "What did Tom say?",
      "suggestionFa": "تام چی گفت؟",
@@ -216,8 +216,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "small",
+      "don't",
       "know",
       "was"
      ],

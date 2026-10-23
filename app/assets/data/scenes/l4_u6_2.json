@@ -22,7 +22,7 @@
       "everywhere",
       "prices",
       "worse",
-      "gone"
+      "even"
      ],
      "suggestion": "Prices have gone up everywhere. Back home it's even worse.",
      "suggestionFa": "قیمت‌ها همه‌جا رفته بالا. تو کشور من حتی بدتره.",
@@ -35,7 +35,7 @@
       "salaries",
       "weren't",
       "lower",
-      "then"
+      "were"
      ],
      "suggestion": "But salaries were much lower then, weren't they?",
      "suggestionFa": "ولی اون موقع حقوق‌ها خیلی کمتر بود، نه؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "countries",
-      "people",
       "afford",
-      "that's"
+      "that's",
+      "people"
      ],
      "suggestion": "That's the same in a lot of countries. Young people can't afford to buy.",
      "suggestionFa": "تو خیلی کشورها همینه. جوون‌ها توان خرید ندارن.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "internet",
-      "didn't",
       "things",
+      "didn't",
       "other"
      ],
      "suggestion": "On the other hand, we have things they didn't have, like the internet.",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "coping",
       "moment",
+      "coping",
       "bills"
      ],
      "suggestion": "So how are you coping with the bills at the moment?",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "started",
-      "pasta",
       "brand",
-      "doing"
+      "doing",
+      "pasta"
      ],
      "suggestion": "I've started doing that too. Own-brand pasta is just as good.",
      "suggestionFa": "من هم شروع کردم. ماکارونی برند فروشگاه همون‌قدر خوبه.",
@@ -198,7 +198,7 @@
      "keywords": [
       "cooking",
       "great",
-      "could",
+      "batch",
       "teach"
      ],
      "suggestion": "Batch-cooking is a great idea. Could you teach me?",

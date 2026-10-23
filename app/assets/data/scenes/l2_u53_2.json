@@ -33,8 +33,8 @@
      "keywords": [
       "tapped",
       "didn't",
-      "work",
-      "card"
+      "card",
+      "work"
      ],
      "suggestion": "I tapped my card, but it didn't work.",
      "suggestionFa": "کارتم را زدم، ولی کار نکرد.",
@@ -75,7 +75,7 @@
       "pounds",
       "twelve",
       "shop",
-      "big"
+      "was"
      ],
      "suggestion": "It was a big shop. A hundred and twelve pounds.",
      "suggestionFa": "خرید بزرگی بود. صد و دوازده پوند.",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "party",
       "about",
+      "party",
       "ten"
      ],
      "suggestion": "About a hundred and ten. For a party.",
@@ -151,8 +151,8 @@
      "keywords": [
       "instead",
       "phone",
-      "can",
-      "pay"
+      "pay",
+      "can"
      ],
      "suggestion": "Can I pay with my phone instead?",
      "suggestionFa": "می‌تونم به‌جاش با گوشیم پرداخت کنم؟",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "pin",
-      "why",
-      "ask"
+      "ask",
+      "why"
      ],
      "suggestion": "Why does it ask for the PIN?",
      "suggestionFa": "چرا رمز می‌خواد؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "different",
       "didn't",
-      "iran",
-      "bank"
+      "bank",
+      "know"
      ],
      "suggestion": "I didn't know that. My bank in Iran is different.",
      "suggestionFa": "نمی‌دونستم. بانکم تو ایران فرق داره.",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "little",
-      "makes",
       "sense",
+      "makes",
       "test"
      ],
      "suggestion": "A little test. That makes sense.",
@@ -313,8 +313,8 @@
    "branches": [
     {
      "keywords": [
-      "freeze",
       "button",
+      "freeze",
       "got"
      ],
      "suggestion": "Freeze it. This button. Got it.",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "insert",
       "thanks",
+      "insert",
       "done",
       "pin"
      ],

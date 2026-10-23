@@ -22,10 +22,10 @@
     {
      "keywords": [
       "lemonade",
-      "lion's",
-      "rovers",
       "versus",
-      "packed"
+      "packed",
+      "valley",
+      "rovers"
      ],
      "suggestion": "Local derby! Rovers versus Lea Valley. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
      "suggestionFa": "دربی شمال لندن! روورز مقابل لی‌ولی. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟",
@@ -49,8 +49,8 @@
       "minutes",
       "texting",
       "that's",
-      "mate's",
-      "twenty"
+      "ryan's",
+      "valley"
      ],
      "suggestion": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me non-stop.",
      "suggestionFa": "صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.",
@@ -74,8 +74,8 @@
       "that's",
       "blind",
       "three",
-      "foul",
-      "just"
+      "just",
+      "foul"
      ],
      "suggestion": "That's just how we say it. Two-nil, three-nil… Oh! OH! That was a foul! Ref! Are you blind?!",
      "suggestionFa": "همین‌جوری میگیم دیگه. دو-صفر، سه-صفر… اوه! اوه! خطا بود! داور! کوری؟!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "okoro's",
-      "taking",
       "rovers",
-      "right",
-      "okoro"
+      "taking",
+      "okoro",
+      "right"
      ],
      "suggestion": "Free kick to Rovers! Right on the edge of the box. Okoro's taking it. Come on, Okoro… come on…",
      "suggestionFa": "ضربهٔ آزاد برای روورز! درست لب محوطه. اوکورو می‌زنه. یالا اوکورو… یالا…",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "spilled",
       "jumping",
-      "goaaal",
+      "spilled",
       "dave's",
-      "corner"
+      "corner",
+      "goaaal"
      ],
      "suggestion": "GOAAAL! Get IN! One-nil! Did you see that?! Top corner! The whole pub's jumping. Dave's spilled his pint!",
      "suggestionFa": "گووول! آره! یک-صفر! دیدی؟! گوشهٔ بالا! کل پاب داره بالا پایین می‌پره. دیو لیوانش را ریخت!",
@@ -150,7 +150,7 @@
       "exclamation",
       "doesn't",
       "orient",
-      "phone"
+      "eight"
      ],
      "suggestion": "Dave? He's Orient, he doesn't care. He just likes a celebration. Oh — my phone. Ryan: \"GET IN!!!!\" Eight exclamation marks.",
      "suggestionFa": "دیو؟ اون طرفدار اورینته، براش مهم نیست. فقط جشن دوست داره. اوه — گوشیم. رایان: «آره!!!!» هشت تا علامت تعجب.",
@@ -173,9 +173,9 @@
      "keywords": [
       "afternoon",
       "lemonade",
+      "seventy",
       "minutes",
-      "another",
-      "seventy"
+      "another"
      ],
      "suggestion": "Seventy minutes! Too long. My heart can't take it. Another lemonade? This could be a long afternoon.",
      "suggestionFa": "هفتاد دقیقه! خیلی زیاده. قلبم طاقت نداره. یه لیموناد دیگه؟ این می‌تونه یه بعدازظهر طولانی بشه.",

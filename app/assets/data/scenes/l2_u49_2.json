@@ -243,7 +243,7 @@
      "keywords": [
       "shall",
       "them",
-      "now",
+      "put",
       "yet"
      ],
      "suggestion": "Not yet. Shall I put them on now?",
@@ -365,9 +365,9 @@
    "branches": [
     {
      "keywords": [
-      "table",
-      "right",
       "knife",
+      "right",
+      "table",
       "lay"
      ],
      "suggestion": "I'll lay the table. Knife on the right?",
@@ -379,9 +379,9 @@
     {
      "keywords": [
       "cooking",
-      "open",
+      "keep",
       "door",
-      "keep"
+      "open"
      ],
      "suggestion": "I'll open the door. You keep cooking!",
      "suggestionFa": "من در را باز می‌کنم. تو آشپزی کن!",
@@ -428,8 +428,8 @@
     {
      "keywords": [
       "perfect",
-      "they",
       "look",
+      "they",
       "tom"
      ],
      "suggestion": "They look perfect, Tom!",
@@ -442,8 +442,8 @@
      "keywords": [
       "everyone",
       "should",
-      "down",
-      "tell"
+      "tell",
+      "down"
      ],
      "suggestion": "Should I tell everyone to sit down?",
      "suggestionFa": "به همه بگم بشینن؟",

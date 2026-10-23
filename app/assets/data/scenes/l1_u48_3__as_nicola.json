@@ -61,10 +61,10 @@
     {
      "keywords": [
       "yesterday",
-      "bath",
       "skip",
-      "but",
-      "can"
+      "bath",
+      "can",
+      "had"
      ],
      "suggestion": "But I had a bath yesterday! Can I skip the bath?",
      "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
@@ -139,9 +139,9 @@
      "keywords": [
       "stars",
       "after",
-      "milk",
       "have",
-      "then"
+      "then",
+      "milk"
      ],
      "suggestion": "The stars! Then after that, can I have milk?",
      "suggestionFa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟",
@@ -292,10 +292,10 @@
     {
      "keywords": [
       "story",
-      "tell",
-      "from",
+      "real",
       "iran",
-      "real"
+      "tell",
+      "book"
      ],
      "suggestion": "{you}! {you}! Tell me a story from Iran! Not a book. A real story!",
      "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",

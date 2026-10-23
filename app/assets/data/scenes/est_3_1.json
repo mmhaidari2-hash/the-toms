@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Your deposit and rent in advance",
  "titleFa": "ودیعه و اجارهٔ پیش‌پرداخت",
- "setting": "Moving in · Level 0",
+ "setting": "Moving in · Fennick & Rowe Homes",
  "settingFa": "اسباب‌کشی",
  "requires": null,
  "start": "n1",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "months",
-      "three",
       "first",
+      "three",
       "pay"
      ],
      "suggestion": "Can I pay the first three months now?",
@@ -70,8 +70,8 @@
      "keywords": [
       "thousand",
       "hundred",
-      "pounds",
-      "eighty"
+      "eighty",
+      "pounds"
      ],
      "suggestion": "So that's about one thousand three hundred and eighty pounds?",
      "suggestionFa": "پس حدود هزار و سیصد و هشتاد پونده؟",
@@ -83,8 +83,8 @@
      "keywords": [
       "month's",
       "first",
-      "rent",
-      "well"
+      "well",
+      "rent"
      ],
      "suggestion": "And the first month's rent as well?",
      "suggestionFa": "و اجارهٔ ماه اول هم؟",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "change",
+      "didn't",
       "know",
       "when"
      ],
@@ -134,7 +134,7 @@
       "deposit",
       "where",
       "good",
-      "kept"
+      "will"
      ],
      "suggestion": "Good. Where will my deposit be kept?",
      "suggestionFa": "خوبه. ودیعه‌م کجا نگه داشته می‌شه؟",

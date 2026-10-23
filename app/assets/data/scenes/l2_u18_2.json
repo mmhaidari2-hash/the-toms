@@ -20,8 +20,8 @@
     {
      "keywords": [
       "person",
-      "real",
       "posh",
+      "real",
       "she"
      ],
      "suggestion": "Very posh! Is she a real person?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "screen",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "I can see it on the screen too.",
      "suggestionFa": "روی صفحه هم می‌بینمش.",
@@ -244,10 +244,10 @@
     },
     {
      "keywords": [
-      "ticket",
       "that's",
-      "fair",
-      "good"
+      "ticket",
+      "same",
+      "fair"
      ],
      "suggestion": "Same ticket? Good. That's fair.",
      "suggestionFa": "همون بلیت؟ خوبه. منصفانه‌ست.",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "except",
+      "course",
       "tom"
      ],
      "suggestion": "Except Tom, of course!",

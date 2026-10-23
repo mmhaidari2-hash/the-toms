@@ -24,8 +24,8 @@
       "confusing",
       "disaster",
       "photo's",
-      "hair's",
-      "online"
+      "online",
+      "school"
      ],
      "suggestion": "Mate, my hair's a disaster. School photo's on Friday. Can you help me book Sal's online? The app is confusing.",
      "suggestionFa": "رفیق، موهام فاجعه‌ست. عکس مدرسه جمعه‌ست. میشه کمکم کنی آنلاین از سال وقت بگیرم؟ اپش گیج‌کننده‌ست.",
@@ -49,8 +49,8 @@
       "service",
       "scissor",
       "there's",
-      "choose",
-      "bird's"
+      "bird's",
+      "choose"
      ],
      "suggestion": "Fine? It's like a bird's nest. OK — \"Choose a service\". There's \"Skin fade\", \"Scissor cut\", \"Kids' cut\". Which one?",
      "suggestionFa": "خوب؟ مثل لونهٔ پرنده‌ست. خب — «یک سرویس انتخاب کنید». «فید کامل»، «کوتاهی با قیچی»، «کوتاهی بچه». کدوم؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "football",
-      "tuesday",
       "fifteen",
-      "till",
-      "have"
+      "tuesday",
+      "slot",
+      "i'll"
      ],
      "suggestion": "Tuesday… four-fifteen! One slot left. But I've got football till four. I'll have to run.",
      "suggestionFa": "سه‌شنبه… چهار و ربع! یه وقت مونده. ولی تا چهار فوتبال دارم. مجبورم بدوم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "cancellations",
       "minutes",
+      "please",
       "what's",
-      "booked",
-      "notice"
+      "hours'"
      ],
      "suggestion": "Booked! \"Please arrive five minutes early. Cancellations need 24 hours' notice.\" What's notice?",
      "suggestionFa": "رزرو شد! «لطفاً پنج دقیقه زودتر بیایید. لغو نیاز به ۲۴ ساعت اطلاع قبلی دارد.» «نوتیس» چیه؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "sounding",
-      "without",
-      "nothing",
+      "missing",
       "explain",
-      "missing"
+      "without",
+      "nothing"
      ],
      "suggestion": "Pay for nothing? No way. I'm not missing it. Thanks, legend. Now I just need to explain the fade to Sal without sounding stupid.",
      "suggestionFa": "پول بدم برای هیچی؟ عمراً. از دستش نمیدم. ممنون اسطوره. حالا فقط باید فید را بدون اینکه احمق به نظر بیام به سال توضیح بدم.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "footballer",
-      "hair's",
       "genius",
+      "hair's",
       "photo",
       "worse"
      ],

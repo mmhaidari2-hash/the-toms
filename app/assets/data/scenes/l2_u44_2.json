@@ -72,8 +72,8 @@
      "keywords": [
       "happened",
       "think",
-      "hope",
-      "next"
+      "know",
+      "hope"
      ],
      "suggestion": "A lot of hope! I think I know what happened next.",
      "suggestionFa": "کلی امید! فکر کنم می‌دونم بعدش چی شد.",
@@ -85,8 +85,8 @@
      "keywords": [
       "easily",
       "tent",
-      "did",
-      "put"
+      "put",
+      "did"
      ],
      "suggestion": "Did you put up the tent easily?",
      "suggestionFa": "چادر را راحت برپا کردید؟",
@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "tent",
       "stay",
+      "tent",
       "dry"
      ],
      "suggestion": "Did the tent stay dry?",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "sleep",
+      "where",
       "car"
      ],
      "suggestion": "No car! So where did you sleep?",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "clever",
+      "that's",
       "dryer",
       "hand"
      ],
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "leslie",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "What did Leslie say?",
      "suggestionFa": "لزلی چی گفت؟",
@@ -303,8 +303,8 @@
     {
      "keywords": [
       "stay",
-      "kind",
       "farm",
+      "kind",
       "man"
      ],
      "suggestion": "What a kind man! Did you stay on the farm?",
@@ -317,8 +317,8 @@
      "keywords": [
       "speaking",
       "without",
-      "days",
-      "poor"
+      "poor",
+      "days"
      ],
      "suggestion": "Two days without speaking? Poor Tom!",
      "suggestionFa": "دو روز بدون حرف زدن؟ تام بیچاره!",
@@ -355,7 +355,7 @@
       "lovely",
       "sounds",
       "better",
-      "than"
+      "tent"
      ],
      "suggestion": "That sounds lovely. Better than the tent!",
      "suggestionFa": "قشنگ به نظر میاد. بهتر از چادر!",

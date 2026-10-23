@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Praise that works",
  "titleFa": "تشویق مؤثر",
- "setting": "Play, songs and feelings · Level 0",
+ "setting": "Play, songs and feelings · Vida's Nursery",
  "settingFa": "بازی، آهنگ و احساسات",
  "requires": null,
  "start": "n1",
@@ -22,7 +22,7 @@
       "that's",
       "great",
       "work",
-      "why"
+      "tip"
      ],
      "suggestion": "That's a great tip. Why does it work?",
      "suggestionFa": "نکتهٔ خیلی خوبیه. چرا جواب میده؟",
@@ -140,8 +140,8 @@
     },
     {
      "keywords": [
-      "every",
       "piece",
+      "every",
       "show",
       "vida"
      ],
@@ -179,8 +179,8 @@
      "keywords": [
       "without",
       "tidied",
-      "asked",
-      "being"
+      "being",
+      "asked"
      ],
      "suggestion": "Oscar, you tidied up without being asked!",
      "suggestionFa": "اسکار، بدون اینکه کسی بگه جمع کردی!",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "course",
       "colour",
+      "course",
       "which",
       "want"
      ],

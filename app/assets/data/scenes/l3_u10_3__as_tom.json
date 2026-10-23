@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturdays",
-      "leaflet",
       "library",
       "council",
-      "wants"
+      "leaflet",
+      "close"
      ],
      "suggestion": "Have you seen this leaflet? The council wants to close the library on Saturdays to save money.",
      "suggestionFa": "این بروشور را دیدی؟ شورای شهر می‌خواد برای صرفه‌جویی، کتابخونه را شنبه‌ها ببنده.",
@@ -50,7 +50,7 @@
       "councillor",
       "there's",
       "public",
-      "write"
+      "email"
      ],
      "suggestion": "There's a public consultation. We can write to our local councillor. Will you help me draft an email?",
      "suggestionFa": "یه نظرخواهی عمومی هست. می‌تونیم به نمایندهٔ محلی‌مون نامه بنویسیم. کمکم می‌کنی یه ایمیل پیش‌نویس کنم؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "councillor",
-      "closures",
       "proposed",
-      "writing",
+      "closures",
+      "library",
       "concern"
      ],
      "suggestion": "\"Dear Councillor Shah, I am writing to express my concern about the proposed library closures.\" Too formal?",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "students",
       "resident",
+      "students",
       "families",
-      "believe",
+      "fifteen",
       "library"
      ],
      "suggestion": "Good. \"As a resident of fifteen years, I believe the library is vital for families, students and older people.\"",
@@ -124,8 +124,8 @@
       "constructive",
       "volunteers",
       "suggest",
-      "points",
-      "that's"
+      "that's",
+      "points"
      ],
      "suggestion": "Both great points. \"I would like to suggest that volunteers could help to keep it open.\" That's constructive, isn't it?",
      "suggestionFa": "هر دو نکتهٔ عالی. «مایلم پیشنهاد کنم که داوطلبان می‌توانند به باز ماندن آن کمک کنند.» سازنده‌ست، نه؟",
@@ -149,7 +149,7 @@
       "sincerely",
       "maggie",
       "nobody",
-      "doris",
+      "yours",
       "let's"
      ],
      "suggestion": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Maggie to sign it too. Nobody says no to Doris!",

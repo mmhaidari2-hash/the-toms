@@ -21,8 +21,8 @@
      "keywords": [
       "family's",
       "lodger",
-      "hello",
-      "patel"
+      "patel",
+      "hello"
      ],
      "suggestion": "Hello, Mr Patel. I'm the family's lodger.",
      "suggestionFa": "سلام آقای پاتل. من مستأجر خانواده هستم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "leslie",
-      "notes",
       "asked",
+      "notes",
       "help"
      ],
      "suggestion": "Leslie asked me to help with notes.",
@@ -246,8 +246,8 @@
     {
      "keywords": [
       "means",
-      "maybe",
       "phone",
+      "maybe",
       "bus"
      ],
      "suggestion": "Maybe on the bus means on his phone, Tom.",
@@ -300,9 +300,9 @@
     {
      "keywords": [
       "dinner",
-      "seven",
+      "after",
       "fixed",
-      "maybe"
+      "eight"
      ],
      "suggestion": "A fixed time. Maybe after dinner, from seven to eight?",
      "suggestionFa": "ساعت ثابت. شاید بعد از شام، از هفت تا هشت؟",

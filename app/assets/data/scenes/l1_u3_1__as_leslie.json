@@ -23,9 +23,9 @@
      "keywords": [
       "please",
       "shoes",
-      "come",
       "here",
-      "hall"
+      "hall",
+      "come"
      ],
      "suggestion": "Come in! This is the hall. Shoes off here, please.",
      "suggestionFa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار.",
@@ -48,8 +48,8 @@
      "keywords": [
       "umbrellas",
       "floors",
-      "house",
       "there",
+      "house",
       "three"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
@@ -74,8 +74,8 @@
       "downstairs",
       "kitchen",
       "there's",
-      "garden",
-      "living"
+      "living",
+      "garden"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
-      "bedrooms",
       "upstairs",
       "bathroom",
+      "bedrooms",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -123,9 +123,9 @@
      "keywords": [
       "bedrooms",
       "there",
-      "room",
       "loft",
-      "four"
+      "four",
+      "room"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
      "suggestionFa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا.",
@@ -148,9 +148,9 @@
      "keywords": [
       "window",
       "lovely",
-      "let's",
       "under",
-      "room"
+      "let's",
+      "roof"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "wardrobe",
       "anything",
+      "wardrobe",
       "there's",
       "there",
       "desk"
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
-      "make",
+      "home",
       "love",
-      "home"
+      "make"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

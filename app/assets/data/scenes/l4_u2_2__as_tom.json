@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "colleague",
       "deadlines",
+      "colleague",
       "sounding",
-      "opinion",
-      "without"
+      "missing",
+      "opinion"
      ],
      "suggestion": "Can I get a second opinion? A colleague keeps missing deadlines, and I need to email him without sounding like I'm having a go.",
      "suggestionFa": "می‌تونم یه نظر دوم بگیرم؟ یه همکار مدام مهلت‌ها را رد می‌کنه، و باید بهش ایمیل بزنم بدون اینکه به نظر بیاد دارم بهش می‌تازم.",
@@ -49,8 +49,8 @@
       "deadline",
       "missed",
       "blunt",
-      "again",
-      "needs"
+      "needs",
+      "again"
      ],
      "suggestion": "\"Matt, you missed the deadline again. This needs to stop.\" Too blunt?",
      "suggestionFa": "«مت، دوباره مهلت را رد کردی. این باید تموم بشه.» زیادی رکه؟",
@@ -74,8 +74,8 @@
       "wondering",
       "report's",
       "coming",
-      "along",
-      "about"
+      "about",
+      "along"
      ],
      "suggestion": "Fair. How about: \"Hi Matt, hope you're well. I was just wondering how the report's coming along?\"",
      "suggestionFa": "منصفانه. این چطوره: «سلام مت، امیدوارم خوب باشی. می‌خواستم بدونم گزارش چطور پیش می‌ره؟»",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "timelines",
       "expecting",
+      "timelines",
       "client's",
-      "having",
-      "friday"
+      "friday",
+      "having"
      ],
      "suggestion": "\"It might be worth us having a quick chat about timelines, as the client's expecting it on Friday.\"",
      "suggestionFa": "«شاید ارزشش را داشته باشه یه گپ کوتاه دربارهٔ زمان‌بندی‌ها بزنیم، چون مشتری جمعه منتظرشه.»",
@@ -125,7 +125,7 @@
       "britain",
       "cheers",
       "shout",
-      "funny"
+      "means"
      ],
      "suggestion": "Good shout. \"Let me know if I can help in any way. Cheers, Tom.\" Sent. Funny — in Britain, \"I was just wondering\" means \"do it now\"!",
      "suggestionFa": "پیشنهاد خوبی بود. «اگه هر کمکی از دستم برمیاد خبرم کن. مرسی، تام.» فرستاده شد. جالبه — تو بریتانیا، «فقط می‌خواستم بدونم» یعنی «همین الان انجامش بده»!",

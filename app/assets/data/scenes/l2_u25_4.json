@@ -73,8 +73,8 @@
      "keywords": [
       "code",
       "get",
-      "how",
-      "pac"
+      "pac",
+      "how"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "here's",
       "reply",
-      "sent",
-      "i've"
+      "i've",
+      "sent"
      ],
      "suggestion": "OK, I've sent it. Oh, here's the reply!",
      "suggestionFa": "باشه، فرستادم. اوه، جوابش اومد!",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "seven",
       "again",
+      "seven",
       "five",
-      "six"
+      "say"
      ],
      "suggestion": "Six-five-oh-seven-five? Can you say it again?",
      "suggestionFa": "شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "three",
-      "seven",
       "eight",
+      "seven",
       "nine"
      ],
      "suggestion": "It's PAC nine-eight-seven, X-Y-Z, three-two-one.",
@@ -249,8 +249,8 @@
      "keywords": [
       "weekend",
       "phone",
-      "work",
-      "will"
+      "will",
+      "work"
      ],
      "suggestion": "Will my phone work at the weekend?",
      "suggestionFa": "گوشیم آخر هفته کار می‌کنه؟",
@@ -262,7 +262,7 @@
      "keywords": [
       "monday",
       "then",
-      "sim",
+      "use",
       "new"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
@@ -312,8 +312,8 @@
     },
     {
      "keywords": [
-      "phone",
       "about",
+      "phone",
       "sell",
       "can"
      ],

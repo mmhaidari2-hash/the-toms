@@ -55,8 +55,13 @@ void main() {
     // Swap mid-call: the reply the learner owed is spoken for them, then Sian's next line is theirs.
     await t.tap(find.byKey(const ValueKey('playas-them')));
     await wait(25);
+    // The painting is a bigger hero now, so the opening may be scrolled up: scroll to it, then back down.
+    await t.drag(find.byKey(const ValueKey('chat-list')), const Offset(0, 3000));
+    await wait(3);
     expect(n1, findsOneWidget, reason: 'no restart');
     expect(find.text("Hello. I'm calling about my new bank card."), findsOneWidget);
+    await t.drag(find.byKey(const ValueKey('chat-list')), const Offset(0, -3000));
+    await wait(3);
     expect(find.byKey(const ValueKey('my-line')), findsOneWidget);
     expect(find.descendant(of: find.byKey(const ValueKey('my-line')), matching: find.text('Of course. Can I take your full name and date of birth, please?')), findsOneWidget);
 

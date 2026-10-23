@@ -23,9 +23,9 @@
      "keywords": [
       "opens",
       "lido",
+      "look",
       "week",
-      "next",
-      "look"
+      "next"
      ],
      "suggestion": "Look at the lido! It opens next week. Can you swim, {you}?",
      "suggestionFa": "استخر روباز را ببین! هفتهٔ بعد باز میشه. شنا بلدی {you}؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "great",
-      "swim",
       "well",
+      "swim",
       "can"
      ],
      "suggestion": "Great! Can you swim well?",
@@ -95,8 +95,8 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "lovely",
+      "though",
       "water",
       "lido",
       "cold"
@@ -122,8 +122,8 @@
      "keywords": [
       "sometimes",
       "eighteen",
-      "screams",
       "degrees",
+      "screams",
       "water"
      ],
      "suggestion": "Sometimes eighteen degrees! Tom can't swim in cold water. He screams!",
@@ -149,7 +149,7 @@
       "jumps",
       "can't",
       "rock",
-      "swim"
+      "dive"
      ],
      "suggestion": "Tom can swim, but he can't dive. He jumps in like a big rock! Splash!",
      "suggestionFa": "تام شنا بلده، ولی شیرجه نمی‌تونه. مثل یه سنگ بزرگ می‌پره تو! شالاپ!",
@@ -174,7 +174,7 @@
       "school",
       "really",
       "ryan",
-      "team"
+      "fast"
      ],
      "suggestion": "I can! I was in the swimming team at school. Ryan can swim really fast too.",
      "suggestionFa": "بلدم! تو مدرسه عضو تیم شنا بودم. رایان هم واقعاً تند شنا می‌کنه.",
@@ -199,7 +199,7 @@
       "armbands",
       "nicola",
       "bring",
-      "brave"
+      "towel"
      ],
      "suggestion": "Nicola can swim with armbands. Let's go on Saturday! Bring a towel and a brave face!",
      "suggestionFa": "نیکولا با بازوبند شنا می‌کنه. شنبه بریم! یه حوله و یه چهرهٔ شجاع بیار!",

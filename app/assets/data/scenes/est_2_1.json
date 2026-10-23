@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "The Right to Rent check",
  "titleFa": "بررسی حق اجاره",
- "setting": "Before you move in · Level 0",
+ "setting": "Before you move in · Fennick & Rowe Homes",
  "settingFa": "پیش از اسباب‌کشی",
  "requires": null,
  "start": "n1",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "visa",
       "have",
+      "visa",
       "can"
      ],
      "suggestion": "I have a visa. Can I do it online?",
@@ -184,8 +184,8 @@
      "keywords": [
       "tonight",
       "that's",
-      "send",
-      "i'll"
+      "fine",
+      "send"
      ],
      "suggestion": "That's fine. I'll send it tonight.",
      "suggestionFa": "اشکالی نداره. امشب می‌فرستم.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "details",
-      "will",
       "copy",
+      "will",
       "keep"
      ],
      "suggestion": "Will you keep a copy of my details?",

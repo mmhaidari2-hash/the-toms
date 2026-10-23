@@ -47,10 +47,10 @@
     {
      "keywords": [
       "recycling",
-      "black",
-      "brown",
       "green",
-      "caddy"
+      "black",
+      "caddy",
+      "brown"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "rinse",
-      "first"
+      "paper",
+      "clean"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -99,8 +99,8 @@
       "eggshells",
       "banana",
       "little",
-      "caddy",
-      "skins"
+      "skins",
+      "caddy"
      ],
      "suggestion": "Good lad. Food goes in the little caddy. Banana skins, tea bags, eggshells.",
      "suggestionFa": "آفرین. غذا میره تو سطل کوچیک. پوست موز، چای کیسه‌ای، پوست تخم‌مرغ.",
@@ -125,7 +125,7 @@
       "wrappers",
       "packets",
       "smelly",
-      "black"
+      "crisp"
      ],
      "suggestion": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
      "suggestionFa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!",
@@ -148,8 +148,8 @@
      "keywords": [
       "garden",
       "leaves",
-      "brown",
       "grass",
+      "brown",
       "which"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
@@ -175,7 +175,7 @@
       "forget",
       "always",
       "black",
-      "week"
+      "they"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -198,8 +198,8 @@
      "keywords": [
       "already",
       "legend",
-      "she's",
       "never",
+      "she's",
       "right"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",

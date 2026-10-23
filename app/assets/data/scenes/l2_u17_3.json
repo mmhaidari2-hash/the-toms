@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "check",
+      "shall",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "course",
-      "what's",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -117,8 +117,8 @@
      "keywords": [
       "supposed",
       "ordered",
-      "thirty",
-      "arrive"
+      "arrive",
+      "thirty"
      ],
      "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
      "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
@@ -183,7 +183,7 @@
       "minutes",
       "driver",
       "lost",
-      "he's"
+      "five"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "they'll",
       "percent",
+      "they'll",
       "give",
-      "ten"
+      "off"
      ],
      "suggestion": "Yes. They'll give us ten percent off.",
      "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",

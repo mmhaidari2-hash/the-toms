@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "shops",
       "there",
-      "map",
-      "kai"
+      "shops",
+      "kai",
+      "map"
      ],
      "suggestion": "Hi Kai. Is there a map of the shops?",
      "suggestionFa": "سلام کای. نقشهٔ فروشگاه‌ها هست؟",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "lift",
-      "then"
+      "then",
+      "lift"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -195,8 +195,8 @@
      "keywords": [
       "school",
       "shoes",
-      "year",
-      "five"
+      "five",
+      "year"
      ],
      "suggestion": "Yes, school shoes for a five-year-old.",
      "suggestionFa": "آره، کفش مدرسه برای یه بچهٔ پنج ساله.",
@@ -260,7 +260,7 @@
       "measure",
       "useful",
       "that's",
-      "they"
+      "feet"
      ],
      "suggestion": "They measure feet? That's useful.",
      "suggestionFa": "پا را اندازه می‌گیرن؟ چه خوب.",
@@ -312,9 +312,9 @@
     {
      "keywords": [
       "shoe",
+      "shop",
       "busy",
-      "good",
-      "shop"
+      "good"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
      "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",

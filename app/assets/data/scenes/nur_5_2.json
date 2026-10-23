@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Your key children",
  "titleFa": "بچه‌های کلیدی تو",
- "setting": "The team and EYFS · Level 0",
+ "setting": "The team and EYFS · Vida's Nursery",
  "settingFa": "تیم و EYFS",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "special",
-      "adult",
       "think",
+      "adult",
       "their"
      ],
      "suggestion": "I think it's their special adult in the room.",
@@ -119,7 +119,7 @@
      "keywords": [
       "don't",
       "heard",
-      "know",
+      "i've",
       "them"
      ],
      "suggestion": "I've heard of them, but I don't know them all.",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "development",
-      "climbing",
-      "physical"
+      "physical",
+      "climbing"
      ],
      "suggestion": "And climbing is physical development.",
      "suggestionFa": "و بالا رفتن رشد جسمیه.",
@@ -231,8 +231,8 @@
      "keywords": [
       "sharing",
       "could",
-      "step",
-      "next"
+      "next",
+      "step"
      ],
      "suggestion": "So sharing could be his next step.",
      "suggestionFa": "پس شریک شدن می‌تونه گام بعدیش باشه.",
@@ -244,8 +244,8 @@
      "keywords": [
       "friends",
       "made",
-      "any",
-      "yet"
+      "yet",
+      "any"
      ],
      "suggestion": "Has he made any friends yet?",
      "suggestionFa": "تا حالا دوستی پیدا کرده؟",

@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Looking round the flat",
  "titleFa": "دیدن آپارتمان",
- "setting": "Finding a flat · Level 0",
+ "setting": "Finding a flat · Fennick & Rowe Homes",
  "settingFa": "پیدا کردن آپارتمان",
  "requires": null,
  "start": "n1",
@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "olivia",
       "bright",
+      "olivia",
       "hi"
      ],
      "suggestion": "Hi Olivia. Yes, it's very bright.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "machine",
       "washing",
+      "machine",
       "there"
      ],
      "suggestion": "Is there a washing machine?",
@@ -244,10 +244,10 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "what's",
-      "step",
-      "next"
+      "really",
+      "next",
+      "step"
      ],
      "suggestion": "I really like it. What's the next step?",
      "suggestionFa": "خیلی خوشم اومده. قدم بعدی چیه؟",
@@ -257,8 +257,8 @@
     },
     {
      "keywords": [
-      "think",
       "about",
+      "think",
       "need",
       "but"
      ],

@@ -34,8 +34,8 @@
      "keywords": [
       "honestly",
       "doesn't",
-      "feel",
-      "real"
+      "real",
+      "feel"
      ],
      "suggestion": "Honestly, it doesn't feel real yet.",
      "suggestionFa": "راستش هنوز واقعی به نظر نمیاد.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "rehearsed",
       "terrified",
-      "sentence",
-      "remember"
+      "rehearsed",
+      "remember",
+      "sentence"
      ],
      "suggestion": "I remember being terrified to speak. I'd rehearsed that sentence for an hour.",
      "suggestionFa": "یادمه از حرف زدن وحشت داشتم. یه ساعت اون جمله را تمرین کرده بودم.",
@@ -89,7 +89,7 @@
       "understood",
       "tudors",
       "three",
-      "words"
+      "about"
      ],
      "suggestion": "You gave me a book about the Tudors, and I understood about three words.",
      "suggestionFa": "یه کتاب دربارهٔ تودورها بهم دادید، و حدود سه کلمه‌اش را فهمیدم.",
@@ -138,7 +138,7 @@
      "keywords": [
       "worth",
       "every",
-      "step",
+      "road",
       "long"
      ],
      "suggestion": "It's been a long road, but every step was worth it.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "officially",
-      "something",
       "belonging",
+      "something",
       "outsider"
      ],
      "suggestion": "Being part of something — belonging officially, after feeling like an outsider for so long.",

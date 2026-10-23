@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
+      "food",
       "take",
-      "good",
-      "food"
+      "good"
      ],
      "suggestion": "Good. Do I take it with food?",
      "suggestionFa": "خوبه. با غذا بخورمش؟",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "better",
-      "feel",
       "even",
+      "feel",
       "why"
      ],
      "suggestion": "Even if I feel better? Why?",
@@ -205,10 +205,10 @@
     },
     {
      "keywords": [
+      "phone",
       "seven",
       "alarm",
-      "phone",
-      "i'll"
+      "days"
      ],
      "suggestion": "Seven days. I'll set an alarm on my phone.",
      "suggestionFa": "هفت روز. رو گوشیم زنگ هشدار می‌ذارم.",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "prescriptions",
+      "free",
       "sure",
-      "gets",
-      "free"
+      "gets"
      ],
      "suggestion": "I'm not sure. Who gets free prescriptions?",
      "suggestionFa": "مطمئن نیستم. کی نسخهٔ رایگان می‌گیره؟",

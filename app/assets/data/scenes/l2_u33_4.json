@@ -85,9 +85,9 @@
     {
      "keywords": [
       "thompson",
-      "edward",
       "george",
-      "need"
+      "edward",
+      "card"
      ],
      "suggestion": "George Edward Thompson. Do I need his card?",
      "suggestionFa": "جورج ادوارد تامپسون. کارتش را لازم دارم؟",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "tonight",
       "tablets",
-      "needs",
-      "heart"
+      "tonight",
+      "heart",
+      "needs"
      ],
      "suggestion": "Can I take the heart tablets now? He needs them tonight.",
      "suggestionFa": "می‌تونم قرص‌های قلب را الان ببرم؟ امشب لازمشون داره.",
@@ -286,7 +286,7 @@
      "keywords": [
       "morning",
       "maggie",
-      "i'll",
+      "tell",
       "nana"
      ],
      "suggestion": "Two in the morning. I'll tell Nana Maggie.",
@@ -393,7 +393,7 @@
       "morning",
       "maggie",
       "nana",
-      "now"
+      "two"
      ],
      "suggestion": "Two in the morning now, Nana Maggie.",
      "suggestionFa": "الان صبح‌ها دو تا، ننه مگی.",
@@ -406,7 +406,7 @@
       "george",
       "that's",
       "thank",
-      "kind"
+      "tell"
      ],
      "suggestion": "Tell George thank you. That's very kind.",
      "suggestionFa": "به جورج بگو ممنون. خیلی لطف داره.",

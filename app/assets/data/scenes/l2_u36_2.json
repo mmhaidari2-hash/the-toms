@@ -20,8 +20,8 @@
     {
      "keywords": [
       "when",
-      "bin",
       "day",
+      "bin",
       "oh"
      ],
      "suggestion": "Oh no. When is your bin day?",
@@ -91,7 +91,7 @@
      "keywords": [
       "monday",
       "night",
-      "out",
+      "put",
       "did"
      ],
      "suggestion": "Did you put it out on Monday night?",
@@ -149,8 +149,8 @@
      "keywords": [
       "mondays",
       "put",
-      "out",
-      "can"
+      "can",
+      "out"
      ],
      "suggestion": "I can put it out for you on Mondays.",
      "suggestionFa": "دوشنبه‌ها می‌تونم برات بذارمش بیرون.",
@@ -204,7 +204,7 @@
       "something",
       "should",
       "about",
-      "fox"
+      "say"
      ],
      "suggestion": "Should I say something about the fox?",
      "suggestionFa": "دربارهٔ روباه چیزی بگم؟",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
+      "take",
       "they",
-      "need",
-      "from",
-      "take"
+      "door",
+      "need"
      ],
      "suggestion": "They take the bin from your door, if you need help.",
      "suggestionFa": "اگه کمک لازم داشته باشی، سطل را از دم در می‌برن.",

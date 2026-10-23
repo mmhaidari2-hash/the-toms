@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "absence",
       "calling",
+      "absence",
       "report",
-      "hello"
+      "won't"
      ],
      "suggestion": "Hello. I'm calling to report an absence. Nicola Thompson won't be in today.",
      "suggestionFa": "سلام. زنگ زدم غیبت گزارش بدم. نیکولا تامپسون امروز نمیاد.",
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "got",
-      "bad"
+      "bad",
+      "got"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -171,8 +171,8 @@
      "keywords": [
       "thursday",
       "she'll",
-      "eight",
-      "hours"
+      "hours",
+      "eight"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -230,10 +230,10 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "family",
+      "friend",
       "added",
-      "term"
+      "last"
      ],
      "suggestion": "Yes, I'm a family friend. Leslie added me last term.",
      "suggestionFa": "آره، دوست خانوادگی‌ام. لزلی ترم پیش اضافه‌م کرد.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "able",
       "will",
+      "able",
       "she"
      ],
      "suggestion": "Will she still be able to go?",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "great",
-      "would"
+      "would",
+      "thank"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

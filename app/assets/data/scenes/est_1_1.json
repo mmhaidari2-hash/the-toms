@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Booking a viewing",
  "titleFa": "گرفتن وقت بازدید",
- "setting": "Finding a flat · Level 0",
+ "setting": "Finding a flat · Fennick & Rowe Homes",
  "settingFa": "پیدا کردن آپارتمان",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "hello",
       "about",
+      "hello",
       "bed"
      ],
      "suggestion": "Hello. I'm calling about the one-bed flat on Mare Street.",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "when",
-      "come"
+      "come",
+      "when"
      ],
      "suggestion": "Yes. When can I come?",
      "suggestionFa": "آره. کِی می‌تونم بیام؟",
@@ -145,7 +145,7 @@
       "thursday",
       "please",
       "finish",
-      "work"
+      "five"
      ],
      "suggestion": "Thursday, please. I finish work at five.",
      "suggestionFa": "پنج‌شنبه لطفاً. ساعت پنج کارم تموم می‌شه.",
@@ -192,8 +192,8 @@
      "keywords": [
       "spell",
       "shall",
-      "sure",
-      "name"
+      "name",
+      "sure"
      ],
      "suggestion": "Sure. Shall I spell my name for you?",
      "suggestionFa": "حتماً. اسمم را براتون هجی کنم؟",

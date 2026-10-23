@@ -34,8 +34,8 @@
      "keywords": [
       "things",
       "first",
-      "aid",
-      "box"
+      "box",
+      "aid"
      ],
      "suggestion": "I need things for a first-aid box.",
      "suggestionFa": "برای جعبهٔ کمک‌های اولیه وسایل لازم دارم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "touched",
       "small",
-      "burn",
-      "oven"
+      "oven",
+      "burn"
      ],
      "suggestion": "For a small burn. Tom touched the oven.",
      "suggestionFa": "برای یه سوختگی کوچیک. تام به فر دست زد.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "people",
       "butter",
+      "people",
       "some",
       "use"
      ],
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "paracetamol",
       "thermometer",
+      "paracetamol",
       "children's",
       "some"
      ],
@@ -301,8 +301,8 @@
      "keywords": [
       "strawberry",
       "nicola",
-      "will",
-      "love"
+      "love",
+      "will"
      ],
      "suggestion": "Strawberry? Nicola will love it.",
      "suggestionFa": "توت‌فرنگی؟ نیکولا عاشقش میشه.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "tell",
+      "i'll",
       "him"
      ],
      "suggestion": "Ha! I'll tell him. Thank you!",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

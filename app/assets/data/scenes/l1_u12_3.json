@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "can't",
+      "where",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "window",
-      "square"
+      "square",
+      "window"
      ],
      "suggestion": "The window is a square.",
      "suggestionFa": "پنجره مربعه.",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "circles",
-      "they're"
+      "they're",
+      "circles"
      ],
      "suggestion": "They're circles.",
      "suggestionFa": "دایره‌ان.",

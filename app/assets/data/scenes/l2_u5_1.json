@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "staying",
       "morning",
-      "good",
-      "toms"
+      "staying",
+      "toms",
+      "good"
      ],
      "suggestion": "Good morning! Yes, I'm staying with the Toms.",
      "suggestionFa": "صبح بخیر! بله، پیش تامزها زندگی می‌کنم.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "things",
+      "meet",
       "says",
-      "hope",
-      "nice"
+      "hope"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -84,8 +84,8 @@
      "keywords": [
       "taking",
       "where",
-      "sure",
-      "them"
+      "them",
+      "sure"
      ],
      "suggestion": "Sure. Where are you taking them?",
      "suggestionFa": "حتماً. کجا می‌بریدشون؟",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "haven't",
-      "seen",
-      "i'll",
-      "home"
+      "home",
+      "look",
+      "seen"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
      "suggestionFa": "نه، ندیدمش. تو خونه دنبالش می‌گردم.",
@@ -286,8 +286,8 @@
     {
      "keywords": [
       "she'll",
-      "thank",
-      "happy"
+      "happy",
+      "thank"
      ],
      "suggestion": "Thank you. She'll be so happy.",
      "suggestionFa": "ممنون. خیلی خوشحال میشه.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
-      "now",
+      "put",
       "bag",
-      "her"
+      "now"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

@@ -23,8 +23,8 @@
      "keywords": [
       "shelves",
       "dusting",
-      "duster",
       "helper",
+      "duster",
       "mummy"
      ],
      "suggestion": "Mummy gave me a duster! I'm dusting the shelves. Look, I'm a big helper!",
@@ -74,8 +74,8 @@
       "biscuit",
       "daddy's",
       "that's",
-      "full",
-      "have"
+      "have",
+      "full"
      ],
      "suggestion": "That's Daddy's biscuit jar! Is it full? Can I have one?",
      "suggestionFa": "اون ظرف بیسکویت باباست! پره؟ می‌تونم یکی بخورم؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "everywhere",
-      "nana's",
       "looked",
+      "nana's",
       "lost",
-      "key"
+      "she"
      ],
      "suggestion": "A key! It's Nana's lost key! She looked everywhere!",
      "suggestionFa": "کلید! کلید گم‌شدهٔ ناناست! همه جا را گشت!",
@@ -148,8 +148,8 @@
      "keywords": [
       "there's",
       "photos",
-      "front",
       "clock",
+      "front",
       "baby"
      ],
      "suggestion": "Now the photos. There's one of me as a baby. In front of the clock!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "atchoo",
       "sneeze",
       "little",
+      "that's",
+      "atchoo",
       "makes"
      ],
      "suggestion": "That's Ryan! He was little too! Atchoo! The dust makes me sneeze!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "shelves",
+      "biscuit",
       "shiny",
       "done",
       "have"

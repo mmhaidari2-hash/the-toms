@@ -141,10 +141,10 @@
     },
     {
      "keywords": [
-      "socks",
       "pants",
-      "can",
-      "see"
+      "socks",
+      "see",
+      "but"
      ],
      "suggestion": "I can see pants, but no socks!",
      "suggestionFa": "شورت می‌بینم، ولی جوراب نه!",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "washing",
-      "they",
-      "here"
+      "here",
+      "they"
      ],
      "suggestion": "Yes! Here they are, in the washing basket.",
      "suggestionFa": "آره! ایناهاشون، تو سبد لباس‌چرک.",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "score",
-      "goal",
-      "luck"
+      "luck",
+      "goal"
      ],
      "suggestion": "Good luck! Score a goal!",
      "suggestionFa": "موفق باشی! گل بزن!",

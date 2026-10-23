@@ -32,8 +32,8 @@
     {
      "keywords": [
       "water",
-      "use",
-      "hot"
+      "hot",
+      "use"
      ],
      "suggestion": "Can you use hot water on it?",
      "suggestionFa": "میشه آب داغ روش بریزی؟",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "didn't",
-      "crack",
       "glass",
+      "crack",
       "know"
      ],
      "suggestion": "The glass can crack? I didn't know that.",
@@ -202,8 +202,8 @@
      "keywords": [
       "windscreen",
       "cracked",
-      "her",
-      "has"
+      "has",
+      "her"
      ],
      "suggestion": "Has her windscreen cracked?",
      "suggestionFa": "شیشه‌اش ترک برداشته؟",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "slipped",
       "careful",
+      "slipped",
       "nearly",
       "tom"
      ],
@@ -328,8 +328,8 @@
     {
      "keywords": [
       "should",
-      "path",
       "salt",
+      "path",
       "put"
      ],
      "suggestion": "Should we put salt on the path?",
@@ -364,10 +364,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "path",
       "grit",
-      "now"
+      "i'll",
+      "got"
      ],
      "suggestion": "Grit. Got it. I'll do the path now.",
      "suggestionFa": "گریت. فهمیدم. الان پیاده‌رو را می‌ریزم.",

@@ -22,7 +22,7 @@
       "indian",
       "what's",
       "don't",
-      "food"
+      "well"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -35,7 +35,7 @@
       "chicken",
       "please",
       "curry",
-      "i'll"
+      "have"
      ],
      "suggestion": "I'll have a chicken curry, please.",
      "suggestionFa": "من یه کاری مرغ می‌خورم، لطفاً.",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "please",
       "medium",
+      "please",
       "have",
       "one"
      ],
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
+      "but",
       "let",
-      "buy",
-      "but"
+      "buy"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

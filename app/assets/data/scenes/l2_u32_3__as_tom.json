@@ -25,7 +25,7 @@
       "thursday",
       "doctor",
       "shall",
-      "class"
+      "right"
      ],
      "suggestion": "Right, you and me. A class. Doctor says I need to get fit. Shall we book spin on Thursday? Or boxercise?",
      "suggestionFa": "خب، تو و من. یه کلاس. دکتر میگه باید رو فرم بیام. پنج‌شنبه کلاس دوچرخه رزرو کنیم؟ یا بوکسرسایز؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "shouting",
-      "someone",
-      "cycling",
       "popular",
-      "don't"
+      "cycling",
+      "someone",
+      "music"
      ],
      "suggestion": "Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app…",
      "suggestionFa": "اسپین یعنی رکاب زدن رو دوچرخه‌هایی که حرکت نمی‌کنن، با موسیقی بلند و یکی که داد می‌زنه. خیلی محبوبه. بذار تو اپ ببینم…",
@@ -74,8 +74,8 @@
       "boxercise",
       "motivate",
       "waiting",
-      "booked",
-      "people"
+      "people",
+      "spaces"
      ],
      "suggestion": "To motivate you! Oh — spin is fully booked. \"Join waiting list?\" There are six people on it. Boxercise has two spaces.",
      "suggestionFa": "برای انگیزه دادن! اوه — اسپین کاملاً پره. «به فهرست انتظار بپیوندید؟» شش نفر توشن. بوکسرسایز دو تا جا داره.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "boxercise",
       "energetic",
+      "boxercise",
       "thursday",
-      "booked",
-      "nearly"
+      "nearly",
+      "booked"
      ],
      "suggestion": "Booked! Thursday, seven p.m. Boxercise with… Jade. Oh no. Jade is very… energetic. Last time I nearly died.",
      "suggestionFa": "رزرو شد! پنج‌شنبه، هفت عصر. بوکسرسایز با… جِید. ای وای. جِید خیلی… پرانرژیه. دفعهٔ قبل نزدیک بود بمیرم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "boxing",
-      "asleep",
+      "snored",
       "filmed",
-      "rather",
-      "snored"
+      "asleep",
+      "boxing",
+      "leslie"
      ],
      "suggestion": "Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it.",
      "suggestionFa": "یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت.",
@@ -149,8 +149,8 @@
       "leslie's",
       "forever",
       "before",
-      "dinner",
-      "gloves"
+      "gloves",
+      "dinner"
      ],
      "suggestion": "It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before!",
      "suggestionFa": "تا ابد رو گوشی لزلیه. خب — چی لازم داریم؟ دستکش تو باشگاه رایگانه. حوله بیار. و قبلش شام سنگین نخور!",
@@ -174,8 +174,8 @@
       "boxercise",
       "jumping",
       "because",
-      "midday",
-      "before"
+      "before",
+      "midday"
      ],
      "suggestion": "Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No.",
      "suggestionFa": "قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه.",
@@ -199,7 +199,7 @@
       "thursday",
       "survive",
       "leslie",
-      "don't",
+      "seven",
       "can't"
      ],
      "suggestion": "Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car.",

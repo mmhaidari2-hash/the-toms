@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "prices",
-      "member"
+      "member",
+      "prices"
      ],
      "suggestion": "What are member prices?",
      "suggestionFa": "قیمت اعضا یعنی چی؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "without",
-      "more",
       "card",
+      "more",
       "pay"
      ],
      "suggestion": "So without a card I pay more?",
@@ -139,10 +139,10 @@
     },
     {
      "keywords": [
-      "anything",
       "vouchers",
+      "anything",
       "them",
-      "can"
+      "use"
      ],
      "suggestion": "Vouchers! Can I use them for anything?",
      "suggestionFa": "کوپن! برای هر چیزی می‌تونم استفاده کنم؟",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "please",
+      "number",
       "phone",
       "need"
      ],
@@ -308,8 +308,8 @@
      "keywords": [
       "brilliant",
       "tonight",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "Brilliant. I'll come tonight!",
      "suggestionFa": "عالیه. امشب میام!",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "difference",
-      "what's",
       "before",
+      "what's",
       "best"
      ],
      "suggestion": "What's the difference with \"best before\"?",

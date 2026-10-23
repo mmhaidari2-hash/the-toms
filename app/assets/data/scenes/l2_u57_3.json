@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "vegetarian",
       "parmigiana",
+      "vegetarian",
       "aubergine"
      ],
      "suggestion": "Aubergine! Is the parmigiana vegetarian?",
@@ -155,7 +155,7 @@
       "parmigiana",
       "aubergine",
       "reminds",
-      "i'll"
+      "home"
      ],
      "suggestion": "I'll have the parmigiana. Aubergine reminds me of home.",
      "suggestionFa": "پارمیجانا می‌خورم. بادمجون یاد خونه می‌اندازدم.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "cheese",
-      "please",
       "veggie",
+      "please",
       "could"
      ],
      "suggestion": "Could I have it with the veggie cheese, please?",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "leslie's",
       "allergic",
+      "leslie's",
       "lasagne",
       "nuts"
      ],
@@ -318,9 +318,9 @@
     },
     {
      "keywords": [
-      "i'll",
       "tell",
       "said",
+      "i'll",
       "her"
      ],
      "suggestion": "Ha! I'll tell her you said that.",

@@ -70,8 +70,8 @@
      "keywords": [
       "same",
       "card",
-      "bus",
-      "can"
+      "use",
+      "bus"
      ],
      "suggestion": "Can I use the same card as on the bus?",
      "suggestionFa": "می‌تونم از همون کارتی که تو اتوبوس می‌زنم استفاده کنم؟",
@@ -188,9 +188,9 @@
     },
     {
      "keywords": [
-      "i'll",
       "take",
       "card",
+      "i'll",
       "out"
      ],
      "suggestion": "OK. I'll take the card out.",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "circus",
       "oxford",
+      "circus",
       "going"
      ],
      "suggestion": "I'm going to Oxford Circus.",
@@ -243,8 +243,8 @@
      "keywords": [
       "don't",
       "line",
-      "know",
-      "find"
+      "find",
+      "know"
      ],
      "suggestion": "I don't know. How do I find the line?",
      "suggestionFa": "نمی‌دونم. چطوری خط را پیدا کنم؟",
@@ -288,8 +288,8 @@
     },
     {
      "keywords": [
-      "thank",
       "light",
+      "thank",
       "blue"
      ],
      "suggestion": "Thank you! Light blue, southbound.",

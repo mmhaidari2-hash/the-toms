@@ -3,7 +3,7 @@
  "characterId": "leslie",
  "title": "(As Leslie) Pick-up and the daily report",
  "titleFa": "(در نقش Leslie) تحویل عصر و گزارش روزانه",
- "setting": "Talking with parents · Level 0",
+ "setting": "Talking with parents · Vida's Nursery",
  "settingFa": "صحبت با والدین",
  "requires": null,
  "level": "A2",
@@ -48,10 +48,10 @@
     {
      "keywords": [
       "lovely",
-      "lunch",
       "fussy",
-      "been",
-      "week"
+      "lunch",
+      "home",
+      "been"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -74,9 +74,9 @@
      "keywords": [
       "typical",
       "have",
-      "nap",
       "did",
-      "he"
+      "nap",
+      "ha"
      ],
      "suggestion": "Ha, typical! And did he have a nap?",
      "suggestionFa": "ها، معمولیه! چرت هم زد؟",
@@ -236,8 +236,8 @@
      "keywords": [
       "practitioner",
       "fantastic",
-      "nursery",
       "already",
+      "nursery",
       "thanks"
      ],
      "suggestion": "Fantastic. Thanks, Sara. You sound like a real nursery practitioner already!",

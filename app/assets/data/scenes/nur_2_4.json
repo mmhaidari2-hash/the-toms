@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Coats on, outside we go!",
  "titleFa": "کت‌ها تن، بریم بیرون!",
- "setting": "Care routines · Level 0",
+ "setting": "Care routines · Vida's Nursery",
  "settingFa": "روال مراقبت",
  "requires": null,
  "start": "n1",
@@ -126,8 +126,8 @@
     },
     {
      "keywords": [
-      "please",
       "behind",
+      "please",
       "oscar",
       "line"
      ],
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "children",
-      "adults",
-      "twelve"
+      "twelve",
+      "adults"
      ],
      "suggestion": "Twelve children and two adults.",
      "suggestionFa": "دوازده بچه و دو بزرگسال.",

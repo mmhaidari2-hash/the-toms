@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "The holding deposit",
  "titleFa": "ودیعهٔ نگهداری",
- "setting": "Finding a flat · Level 0",
+ "setting": "Finding a flat · Fennick & Rowe Homes",
  "settingFa": "پیدا کردن آپارتمان",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "like",
       "rent",
+      "like",
       "i'd"
      ],
      "suggestion": "Yes, I'd like to rent it, please.",

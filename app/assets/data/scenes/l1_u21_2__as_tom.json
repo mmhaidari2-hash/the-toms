@@ -48,9 +48,9 @@
      "keywords": [
       "recycling",
       "garden",
-      "black",
       "green",
-      "week"
+      "black",
+      "next"
      ],
      "suggestion": "This week it's the black bin and the recycling. Next week, the green garden bin.",
      "suggestionFa": "این هفته سطل مشکی و بازیافته. هفتهٔ بعد، سطل سبز باغچه.",
@@ -98,8 +98,8 @@
      "keywords": [
       "recycling",
       "bottles",
-      "there",
       "paper",
+      "there",
       "tins"
      ],
      "suggestion": "Can you take the recycling box? Bottles, tins and paper go in there.",
@@ -123,8 +123,8 @@
      "keywords": [
       "strange",
       "greasy",
-      "black",
       "boxes",
+      "black",
       "pizza"
      ],
      "suggestion": "Pizza box… it's greasy. Greasy boxes go in the black bin. Strange, but true!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "house",
       "front",
-      "bins",
+      "house",
+      "gate",
       "road",
-      "gate"
+      "bins"
      ],
      "suggestion": "Take the bins to the front of the house. By the gate. Not in the road!",
      "suggestionFa": "سطل‌ها را ببر جلوی خونه. کنار در حیاط. نه تو خیابون!",
@@ -174,8 +174,8 @@
       "there's",
       "wheels",
       "lorry",
-      "time",
-      "just"
+      "just",
+      "time"
      ],
      "suggestion": "It's got wheels! Pull it. Look, there's the lorry! Just in time!",
      "suggestionFa": "چرخ داره! بکشش. ببین، ماشین زباله اومد! درست به موقع!",
@@ -199,8 +199,8 @@
       "morning",
       "thank",
       "they",
-      "hard",
-      "lads"
+      "lads",
+      "hard"
      ],
      "suggestion": "Morning, lads! Say thank you to the bin men. They do a hard job.",
      "suggestionFa": "صبح بخیر بچه‌ها! از رفتگرها تشکر کن. کار سختی می‌کنن.",

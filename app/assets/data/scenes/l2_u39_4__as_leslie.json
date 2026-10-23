@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "clothes",
       "minutes",
+      "clothes",
       "machine",
       "powder",
       "start"
@@ -99,8 +99,8 @@
       "machines",
       "machine",
       "there's",
-      "powder",
-      "change"
+      "tenner",
+      "little"
      ],
      "suggestion": "There's a little machine for powder. One pound. Oh — the machines take coins only. Have you got change? I've only got a tenner.",
      "suggestionFa": "یه دستگاه کوچیک برای پودر هست. یه پوند. اوه — ماشین‌ها فقط سکه قبول می‌کنن. پول خرد داری؟ من فقط یه ده‌پوندی دارم.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "delicates",
-      "perfect",
       "setting",
+      "perfect",
       "there's",
-      "things"
+      "thirty"
      ],
      "suggestion": "There's one, but it's always broken. Your coins are perfect. Which setting? Forty for most things. Thirty for the delicates.",
      "suggestionFa": "یکی هست، ولی همیشه خرابه. سکه‌هات عالین. کدوم تنظیم؟ چهل درجه برای بیشتر چیزها. سی برای لباس‌های ظریف.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "clothes",
       "minutes",
+      "clothes",
       "machine",
       "pounds",
       "that's"

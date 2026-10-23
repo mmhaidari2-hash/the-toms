@@ -62,8 +62,8 @@
     {
      "keywords": [
       "called",
-      "school",
       "dinner",
+      "school",
       "lunch"
      ],
      "suggestion": "Is lunch called \"dinner\" at school?",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "fingers",
-      "fish",
-      "like"
+      "like",
+      "fish"
      ],
      "suggestion": "I like fish fingers too.",
      "suggestionFa": "منم فیش فینگر دوست دارم.",
@@ -314,8 +314,8 @@
     },
     {
      "keywords": [
-      "mrs",
       "pat",
+      "mrs",
       "ask"
      ],
      "suggestion": "Ask Mrs Pat, not me!",

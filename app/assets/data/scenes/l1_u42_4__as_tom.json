@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "buses",
       "those",
+      "buses",
       "bikes",
-      "look",
-      "ride"
+      "ride",
+      "more"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, {you}?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "lanes",
       "there",
+      "safer",
       "cycle",
-      "safer"
+      "lanes"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -74,8 +74,8 @@
       "there",
       "ones",
       "half",
-      "hour",
-      "over"
+      "over",
+      "hour"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
+      "should",
       "pounds",
       "helmet",
-      "should",
       "wear",
       "bad"
      ],
@@ -125,7 +125,7 @@
       "pavement",
       "smart",
       "ride",
-      "but"
+      "law"
      ],
      "suggestion": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
      "suggestionFa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "cycle",
       "drive",
+      "cycle",
+      "keep",
       "lane",
-      "road",
       "left"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "pedals",
+      "know",
+      "legs",
       "down",
-      "only",
-      "bike",
-      "legs"
+      "bike"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
      "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",

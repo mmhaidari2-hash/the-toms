@@ -20,8 +20,8 @@
     {
      "keywords": [
       "films",
-      "kind",
-      "like"
+      "like",
+      "kind"
      ],
      "suggestion": "What kind of films do you like?",
      "suggestionFa": "چه نوع فیلمی دوست داری؟",
@@ -149,7 +149,7 @@
       "romcoms",
       "let's",
       "loads",
-      "seen"
+      "i've"
      ],
      "suggestion": "I've seen loads of romcoms. Let's try Barnaby.",
      "suggestionFa": "یه فیلم عاشقانه را دیدم. بیا بارنابی را امتحان کنیم.",
@@ -188,9 +188,9 @@
     {
      "keywords": [
       "immigrant",
+      "london",
       "that's",
-      "polite",
-      "london"
+      "polite"
      ],
      "suggestion": "A polite immigrant in London? That's me!",
      "suggestionFa": "یه مهاجر مؤدب تو لندن؟ این منم!",
@@ -307,8 +307,8 @@
      "keywords": [
       "biscuit",
       "first",
-      "wait",
-      "need"
+      "need",
+      "wait"
      ],
      "suggestion": "Wait — I need a biscuit first.",
      "suggestionFa": "صبر کن — اول یه بیسکویت لازم دارم.",

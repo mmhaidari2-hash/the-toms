@@ -77,8 +77,8 @@
      "keywords": [
       "onions",
       "chop",
-      "used",
-      "i'll"
+      "i'll",
+      "used"
      ],
      "suggestion": "I'll chop the onions. I'm used to it.",
      "suggestionFa": "من پیازها را خرد می‌کنم. عادت دارم.",
@@ -143,8 +143,8 @@
      "keywords": [
       "stirring",
       "golden",
-      "until",
-      "brown"
+      "brown",
+      "until"
      ],
      "suggestion": "Until golden. Not brown! Keep stirring.",
      "suggestionFa": "تا طلایی. نه قهوه‌ای! هم بزن.",
@@ -155,9 +155,9 @@
     {
      "keywords": [
       "minutes",
-      "long",
       "heat",
-      "ten"
+      "long",
+      "low"
      ],
      "suggestion": "Low heat. Is ten minutes too long?",
      "suggestionFa": "حرارت کم. ده دقیقه زیاد نیست؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "turmeric",
       "iran",
-      "lot",
-      "use"
+      "use",
+      "lot"
      ],
      "suggestion": "We use turmeric in Iran too! A lot!",
      "suggestionFa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!",
@@ -281,10 +281,10 @@
     },
     {
      "keywords": [
-      "start",
       "later",
+      "start",
       "more",
-      "can"
+      "one"
      ],
      "suggestion": "Start with one. You can add more later.",
      "suggestionFa": "با یکی شروع کن. بعداً می‌تونی بیشتر اضافه کنی.",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "amazing",
+      "already",
       "smells"
      ],
      "suggestion": "It smells amazing already.",
@@ -337,7 +337,7 @@
       "coconut",
       "creamy",
       "makes",
-      "good"
+      "idea"
      ],
      "suggestion": "Coconut milk makes it creamy. Good idea.",
      "suggestionFa": "شیر نارگیل خامه‌ایش می‌کنه. فکر خوبیه.",
@@ -381,8 +381,8 @@
      "keywords": [
       "lemon",
       "needs",
-      "more",
-      "salt"
+      "salt",
+      "more"
      ],
      "suggestion": "It needs a bit more salt. And lemon!",
      "suggestionFa": "یه کم نمک بیشتر می‌خواد. و لیمو!",
@@ -393,8 +393,8 @@
     {
      "keywords": [
       "delicious",
-      "ryan",
-      "chef"
+      "chef",
+      "ryan"
      ],
      "suggestion": "It's delicious! You're a chef, Ryan!",
      "suggestionFa": "خوشمزه‌ست! تو آشپزی رایان!",
@@ -446,9 +446,9 @@
     {
      "keywords": [
       "first",
-      "wash",
       "show",
-      "i'll"
+      "i'll",
+      "wash"
      ],
      "suggestion": "I'll show you. Wash it first.",
      "suggestionFa": "نشونت میدم. اول بشورش.",

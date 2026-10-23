@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "sorry",
-      "speak"
+      "speak",
+      "sorry"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -35,7 +35,7 @@
       "leaves",
       "house",
       "times",
-      "four"
+      "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
+      "idea",
       "sure",
       "make",
-      "good",
-      "idea"
+      "good"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "dad",
-      "tom"
+      "bus",
+      "dad"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "grandad",
-      "from",
       "gets",
+      "from",
       "his"
      ],
      "suggestion": "He gets that from his grandad.",
@@ -222,7 +222,7 @@
       "football",
       "reads",
       "count",
-      "only"
+      "news"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "library",
-      "i'll",
       "card",
-      "get"
+      "i'll",
+      "him"
      ],
      "suggestion": "I'll get him a library card.",
      "suggestionFa": "براش کارت کتابخونه می‌گیرم.",
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "friends",
+      "getting",
       "how's"
      ],
      "suggestion": "How's he getting on with his friends?",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "ready",
-      "gcses"
+      "gcses",
+      "ready"
      ],
      "suggestion": "Is he ready for his GCSEs?",
      "suggestionFa": "برای امتحانات GCSE آماده‌ست؟",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "patel",
+      "thank",
       "will",
       "mrs"
      ],
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "helpful",
-      "really",
       "thanks",
+      "really",
       "much"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",

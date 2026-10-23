@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shopping",
-      "dresses",
       "wedding",
+      "dresses",
       "dress",
-      "need"
+      "hate"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "cousin's",
       "wedding",
-      "white",
+      "bride",
       "wears",
-      "bride"
+      "white"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "excuse",
+      "twelve",
       "have",
       "nice",
       "size"
@@ -208,7 +208,7 @@
       "honest",
       "look",
       "i'll",
-      "how"
+      "try"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
      "suggestionFa": "باشه، چهارده را امتحان می‌کنم. چطوره؟ صادق باش!",
@@ -232,7 +232,7 @@
       "twelve",
       "let's",
       "order",
-      "now",
+      "big",
       "can"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
@@ -336,7 +336,7 @@
       "patience",
       "coffee",
       "thank",
-      "shoes"
+      "first"
      ],
      "suggestion": "Coffee first, definitely! Then shoes. Thank you for your patience, love. You're a star!",
      "suggestionFa": "اول قهوه، حتماً! بعد کفش. ممنون از صبرت عزیزم. تو یه ستاره‌ای!",

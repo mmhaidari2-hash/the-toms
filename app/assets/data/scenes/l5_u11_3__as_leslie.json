@@ -24,7 +24,7 @@
       "neighbours",
       "exhausted",
       "number",
-      "again",
+      "music",
       "until"
      ],
      "suggestion": "The new neighbours at number 16 had music on until three again. I'm exhausted. Will you come with me to talk to them?",
@@ -50,7 +50,7 @@
       "bother",
       "better",
       "start",
-      "sorry"
+      "hello"
      ],
      "suggestion": "Good idea. You start — you're better at staying calm. Here goes… Hello! Sorry to bother you.",
      "suggestionFa": "فکر خوبیه. تو شروع کن — تو آروم موندن بهتری. شروع شد… سلام! ببخشید مزاحم میشیم.",
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "barbecue",
+      "they've",
       "invited",
       "they'll",
-      "they've",
       "agreed"
      ],
      "suggestion": "They've agreed to eleven, and they'll put a rug down. And — they've invited us to a barbecue!",
@@ -346,10 +346,10 @@
     {
      "keywords": [
       "resolution",
-      "honestly",
       "conflict",
       "barbecue",
-      "saturday"
+      "promised",
+      "honestly"
      ],
      "suggestion": "Numbers swapped, rug promised, barbecue Saturday. Honestly, that's the most British conflict resolution I've ever seen. Let's go and sleep!",
      "suggestionFa": "شماره‌ها رد و بدل شد، فرش قول داده شد، باربیکیو شنبه. راستش، این بریتانیایی‌ترین حل اختلافی بود که تا حالا دیدم. بریم بخوابیم!",

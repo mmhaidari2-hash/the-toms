@@ -22,7 +22,7 @@
       "finished",
       "couldn't",
       "night",
-      "down"
+      "last"
      ],
      "suggestion": "Yes, I finished it last night. I couldn't put it down!",
      "suggestionFa": "آره، دیشب تمومش کردم. نمی‌تونستم زمینش بذارم!",
@@ -34,8 +34,8 @@
      "keywords": [
       "chapters",
       "almost",
-      "left",
-      "i've"
+      "i've",
+      "left"
      ],
      "suggestion": "Almost. I've got two chapters left.",
      "suggestionFa": "تقریباً. دو فصل مونده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "elizabeth",
       "clever",
-      "scary",
-      "she's"
+      "she's",
+      "scary"
      ],
      "suggestion": "Elizabeth. She's clever and a bit scary.",
      "suggestionFa": "الیزابت. باهوشه و یه کم ترسناک.",
@@ -202,10 +202,10 @@
     },
     {
      "keywords": [
+      "through",
       "guessed",
       "halfway",
-      "through",
-      "did"
+      "who"
      ],
      "suggestion": "I guessed who did it halfway through.",
      "suggestionFa": "وسطاش حدس زدم کی کرده.",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "language",
-      "funny",
       "quite",
+      "funny",
       "easy"
      ],
      "suggestion": "Yes. The language is quite easy, and it's very funny.",

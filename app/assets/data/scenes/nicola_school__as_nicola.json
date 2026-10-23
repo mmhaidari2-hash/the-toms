@@ -22,9 +22,9 @@
     {
      "keywords": [
       "nobody",
-      "feels",
-      "likes",
       "funny",
+      "likes",
+      "feels",
       "tummy"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "three",
+      "pick",
       "half",
       "will",
-      "pick",
       "up"
      ],
      "suggestion": "Will you pick me up at half three?",
@@ -73,9 +73,9 @@
      "keywords": [
       "teddy's",
       "coming",
-      "okay",
       "book",
-      "bye"
+      "okay",
+      "bag"
      ],
      "suggestion": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
      "suggestionFa": "باشه. تدی هم میاد، تو کیف کتابم. خداحافظ!",
@@ -125,7 +125,7 @@
       "drying",
       "bring",
       "guess",
-      "star"
+      "gold"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
      "suggestionFa": "داره خشک میشه. فردا میارمش خونه. و حدس بزن — یه ستارهٔ طلایی گرفتم!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "sharing",
       "crayons",
+      "sharing",
       "friend",
       "she's",
       "best"
@@ -174,8 +174,8 @@
       "sometimes",
       "voices",
       "giggly",
-      "we're",
-      "funny"
+      "funny",
+      "we're"
      ],
      "suggestion": "She does funny voices. Miss Hart says we're a bit too giggly sometimes.",
      "suggestionFa": "صداهای بامزه درمیاره. خانم هارت می‌گه گاهی زیادی ریز ریز می‌خندیم.",
@@ -200,7 +200,7 @@
       "golden",
       "lunch",
       "time",
-      "then"
+      "will"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -224,8 +224,8 @@
       "children",
       "nervous",
       "fingers",
-      "have",
-      "play"
+      "fish",
+      "have"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
      "suggestionFa": "بچه‌های خوب می‌تونن بازی کنن! دیگه استرس ندارم. می‌شه شام ماهی سوخاری بخوریم؟",
@@ -247,10 +247,10 @@
     {
      "keywords": [
       "tomorrow",
-      "again",
       "teddy",
+      "first",
       "liked",
-      "first"
+      "again"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",
      "suggestionFa": "آخ جون! بهترین روز اول دنیا. تدی هم دوستش داشت. می‌تونم فردا هم برم؟",

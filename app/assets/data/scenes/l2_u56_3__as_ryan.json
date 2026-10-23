@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "delivery",
       "doorbell",
+      "delivery",
       "game",
       "fine",
-      "i'll"
+      "come"
      ],
      "suggestion": "Doorbell. It's not for me. Bro, can you get it? I'm mid-game. … OK, fine, I'll come. Oh — it's Kev the delivery guy.",
      "suggestionFa": "زنگ در. مال من نیست. داداش، باز می‌کنی؟ وسط بازی‌ام. … باشه، باشه، میام. اوه — کِوِ پیکه.",
@@ -218,11 +218,11 @@
    "branches": [
     {
      "keywords": [
+      "should",
       "what's",
       "always",
-      "should",
       "shake",
-      "sorry"
+      "heavy"
      ],
      "suggestion": "Why does he always say sorry? Right — it's heavy. What's in it? Should we shake it?",
      "suggestionFa": "چرا همیشه میگه ببخشید؟ خب — سنگینه. توش چیه؟ تکونش بدیم؟",
@@ -243,11 +243,11 @@
    "branches": [
     {
      "keywords": [
-      "hallway",
       "fragile",
+      "hallway",
+      "should",
       "number",
-      "street",
-      "should"
+      "street"
      ],
      "suggestion": "Fragile. OK, OK. I'll put it in the hallway, by the door. Should we text her? I've got her number — she's on the street group.",
      "suggestionFa": "شکستنی. باشه باشه. تو راهرو، کنار در می‌ذارمش. بهش پیام بدیم؟ شماره‌اش را دارم — تو گروه خیابونه.",
@@ -270,9 +270,9 @@
      "keywords": [
       "exclamation",
       "darlings",
-      "replied",
       "already",
-      "samosas"
+      "samosas",
+      "replied"
      ],
      "suggestion": "Done. Oh — she's replied already. \"Thank you darlings!! Coming back at 6. Samosas for you!!\" Two exclamation marks. Samosas!",
      "suggestionFa": "انجام شد. اوه — همین الان جواب داد. «ممنون عزیزانم!! ساعت ۶ برمی‌گردم. براتون سمبوسه!!» دو تا علامت تعجب. سمبوسه!",
@@ -294,8 +294,8 @@
     {
      "keywords": [
       "finishing",
-      "samosas",
       "o'clock",
+      "samosas",
       "street",
       "she's"
      ],
@@ -320,9 +320,9 @@
      "keywords": [
       "getting",
       "samosa",
-      "fresh",
+      "sound",
       "first",
-      "sound"
+      "fresh"
      ],
      "suggestion": "Fresh air? You sound like Mum. Fine. I'll do the door. But I'm getting the first samosa. Deal?",
      "suggestionFa": "هوای تازه؟ مثل مامان حرف می‌زنی. باشه. من در را باز می‌کنم. ولی اولین سمبوسه مال منه. قبول؟",

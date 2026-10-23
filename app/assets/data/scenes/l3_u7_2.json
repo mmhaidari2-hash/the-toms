@@ -75,7 +75,7 @@
       "happens",
       "they",
       "drop",
-      "egg"
+      "got"
      ],
      "suggestion": "Got it. What happens if they drop the egg?",
      "suggestionFa": "فهمیدم. اگه تخم‌مرغ بیفته چی میشه؟",
@@ -87,8 +87,8 @@
      "keywords": [
       "children",
       "race",
-      "each",
-      "many"
+      "many",
+      "each"
      ],
      "suggestion": "How many children are in each race?",
      "suggestionFa": "تو هر مسابقه چند تا بچه‌ست؟",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "wait",
       "have",
+      "wait",
       "run"
      ],
      "suggestion": "Wait — I have to run too?",
@@ -242,9 +242,9 @@
     },
     {
      "keywords": [
-      "i'll",
-      "best",
       "fall",
+      "best",
+      "i'll",
       "over"
      ],
      "suggestion": "I'll try my best not to fall over!",

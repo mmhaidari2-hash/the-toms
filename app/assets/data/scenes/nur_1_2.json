@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Wash your hands",
  "titleFa": "دست‌هایت را بشور",
- "setting": "Good morning, Little Acorns! · Level 0",
+ "setting": "Good morning, Little Acorns! · Vida's Nursery",
  "settingFa": "صبح بخیر، لیتل ایکورنز!",
  "requires": null,
  "start": "n1",
@@ -134,9 +134,9 @@
     },
     {
      "keywords": [
-      "rinse",
+      "great",
       "hands",
-      "great"
+      "rinse"
      ],
      "suggestion": "Great! Now rinse your hands.",
      "suggestionFa": "عالی! حالا دستات را آب بکش.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "please",
-      "towel",
       "paper",
+      "towel",
       "bin"
      ],
      "suggestion": "Paper towel in the bin, please.",

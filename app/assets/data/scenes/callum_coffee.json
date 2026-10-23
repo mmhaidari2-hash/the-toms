@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "could",
       "white",
+      "could",
       "have"
      ],
      "suggestion": "Could I have a flat white, please?",
@@ -70,8 +70,8 @@
     },
     {
      "keywords": [
-      "large",
       "today",
+      "large",
       "need"
      ],
      "suggestion": "Large — I need it today!",
@@ -104,9 +104,9 @@
     {
      "keywords": [
       "regular",
-      "fine",
+      "take",
       "away",
-      "take"
+      "fine"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
      "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "i'll",
       "have",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -168,8 +168,8 @@
     },
     {
      "keywords": [
-      "that's",
       "thanks",
+      "that's",
       "all"
      ],
      "suggestion": "No thanks, that's all.",
@@ -257,9 +257,9 @@
     },
     {
      "keywords": [
+      "more",
       "nine",
       "then",
-      "more",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -294,7 +294,7 @@
       "months",
       "moved",
       "here",
-      "few"
+      "ago"
      ],
      "suggestion": "Yes, I moved here a few months ago.",
      "suggestionFa": "آره، چند ماه پیش اومدم.",
@@ -304,10 +304,10 @@
     },
     {
      "keywords": [
-      "started",
       "working",
+      "started",
       "nearby",
-      "just"
+      "i've"
      ],
      "suggestion": "I've just started working nearby.",
      "suggestionFa": "تازه کار نزدیک اینجا را شروع کردم.",
@@ -339,9 +339,9 @@
     {
      "keywords": [
       "where's",
-      "chippy",
       "thanks",
-      "callum"
+      "callum",
+      "chippy"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -351,10 +351,10 @@
     },
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "kind",
-      "sure"
+      "back"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",
      "suggestionFa": "خیلی لطف دارید. مطمئنم برمی‌گردم.",

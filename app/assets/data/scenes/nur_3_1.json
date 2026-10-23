@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Circle time",
  "titleFa": "وقت حلقه",
- "setting": "Play, songs and feelings · Level 0",
+ "setting": "Play, songs and feelings · Vida's Nursery",
  "settingFa": "بازی، آهنگ و احساسات",
  "requires": null,
  "start": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everyone",
-      "please",
       "circle",
+      "please",
       "sure"
      ],
      "suggestion": "Sure. Everyone, sit in a circle, please.",
@@ -34,8 +34,8 @@
      "keywords": [
       "don't",
       "hello",
-      "song",
-      "know"
+      "know",
+      "song"
      ],
      "suggestion": "I don't know the hello song yet.",
      "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "william",
+      "weather",
       "what's",
       "like"
      ],
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "picture",
-      "rain",
       "find",
-      "can"
+      "rain",
+      "who"
      ],
      "suggestion": "Yes, it's rainy! Who can find the rain picture?",
      "suggestionFa": "آره، بارونیه! کی می‌تونه عکس بارون را پیدا کنه؟",
@@ -136,8 +136,8 @@
     },
     {
      "keywords": [
-      "well",
       "cold",
+      "well",
       "done"
      ],
      "suggestion": "Well done! Rainy and cold.",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "daddy",
-      "oscar",
       "after",
-      "will"
+      "oscar",
+      "come"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",

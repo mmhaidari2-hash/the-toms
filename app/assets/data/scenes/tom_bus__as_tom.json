@@ -25,7 +25,7 @@
       "reader",
       "yellow",
       "headed",
-      "thing"
+      "where"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate — the yellow thing. Where you headed?",
      "suggestionFa": "سلام؟ کارتت را بزن رو دستگاه رفیق — اون زرده. کجا میری؟",
@@ -50,7 +50,7 @@
       "roadworks",
       "minutes",
       "phone's",
-      "there's"
+      "running"
      ],
      "suggestion": "Phone's fine. Beep — you're in. It goes to Piccadilly, but there's roadworks on Essex Road, so we're running about ten minutes behind.",
      "suggestionFa": "گوشی هم خوبه. بیپ — حله. میره پیکادیلی، ولی تو اسکس رود جاده‌سازیه، پس حدود ده دقیقه عقبیم.",
@@ -73,8 +73,8 @@
      "keywords": [
       "otherwise",
       "upstairs",
-      "london",
       "pushed",
+      "london",
       "angel"
      ],
      "suggestion": "Hop off at Angel and get the Tube if you're pushed. Otherwise grab a seat upstairs — best view in London.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "gutted",
       "wasn't",
       "leslie",
-      "first",
-      "there"
+      "gutted",
+      "there",
+      "first"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
      "suggestionFa": "داغون شدم. اولین قرارم اونجا بود. به لزلی نگی با اون نبود!",
@@ -148,9 +148,9 @@
      "keywords": [
       "someone's",
       "ringing",
+      "called",
       "asleep",
-      "sharon",
-      "called"
+      "sharon"
      ],
      "suggestion": "A girl called Sharon. She chose the film, then fell asleep. Hold on — someone's ringing the bell.",
      "suggestionFa": "یه دختر به اسم شارون. فیلم را اون انتخاب کرد، بعد خوابش برد. صبر کن — یکی داره زنگ می‌زنه.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "piccadilly",
-      "someone",
       "request",
-      "there's",
-      "waiting"
+      "someone",
+      "waiting",
+      "there's"
      ],
      "suggestion": "Only if someone rings or there's someone waiting. Request stops, see. Do you know the way from Piccadilly?",
      "suggestionFa": "فقط اگه کسی زنگ بزنه یا کسی منتظر باشه. ایستگاه‌های درخواستی، می‌بینی. راه از پیکادیلی را بلدی؟",

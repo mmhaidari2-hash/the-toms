@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "ticket",
       "here's",
+      "ticket",
       "going"
      ],
      "suggestion": "Here's my ticket. I'm going to York.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "stop",
-      "next",
-      "here"
+      "here",
+      "next"
      ],
      "suggestion": "Here you are. Is York the next stop?",
      "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
@@ -121,8 +121,8 @@
      "keywords": [
       "relaxing",
       "sounds",
-      "than",
-      "city"
+      "city",
+      "than"
      ],
      "suggestion": "It sounds more relaxing than a big city.",
      "suggestionFa": "از یه شهر بزرگ آرامش‌بخش‌تر به نظر میاد.",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "london",
+      "better",
       "than"
      ],
      "suggestion": "Better than London?",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "love",
-      "i'd",
       "day",
+      "i'd",
       "one"
      ],
      "suggestion": "I'd love to go one day.",

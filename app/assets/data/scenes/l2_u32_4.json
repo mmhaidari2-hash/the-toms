@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "cancel",
       "afraid",
+      "cancel",
       "like",
       "i'd"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "about",
-      "need",
+      "jade",
       "talk",
-      "jade"
+      "need"
      ],
      "suggestion": "Hi Jade. I need to talk about my membership.",
      "suggestionFa": "سلام جِید. باید دربارهٔ عضویتم صحبت کنم.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "hours",
-      "long",
       "i've",
-      "got"
+      "long",
+      "job"
      ],
      "suggestion": "I've got a new job. The hours are very long.",
      "suggestionFa": "یه کار جدید گرفتم. ساعت‌هاش خیلی طولانیه.",
@@ -238,10 +238,10 @@
    "branches": [
     {
      "keywords": [
-      "freeze",
       "that's",
+      "freeze",
       "let's",
-      "good"
+      "idea"
      ],
      "suggestion": "That's a good idea. Let's freeze it.",
      "suggestionFa": "فکر خوبیه. تعلیقش کنیم.",
@@ -251,8 +251,8 @@
     },
     {
      "keywords": [
-      "cancel",
       "rather",
+      "cancel",
       "thank",
       "i'd"
      ],
@@ -306,8 +306,8 @@
     {
      "keywords": [
       "coming",
-      "think",
       "wants",
+      "think",
       "keep"
      ],
      "suggestion": "I think Tom wants to keep coming.",

@@ -3,7 +3,7 @@
  "characterId": "leslie",
  "title": "Medicine and poorly children",
  "titleFa": "دارو و بچهٔ مریض",
- "setting": "Talking with parents · Level 0",
+ "setting": "Talking with parents · Vida's Nursery",
  "settingFa": "صحبت با والدین",
  "requires": null,
  "start": "n1",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
+      "last",
       "some",
-      "have",
       "when",
-      "last"
+      "have"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "please",
-      "sign",
-      "here"
+      "thanks",
+      "here",
+      "sign"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -144,8 +144,8 @@
     },
     {
      "keywords": [
-      "we'll",
       "write",
+      "we'll",
       "time",
       "give"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
+      "even",
       "they",
-      "seem",
-      "even"
+      "seem"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "number",
-      "phone",
       "still",
+      "phone",
       "same"
      ],
      "suggestion": "Is your phone number still the same?",

@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cleaner",
-      "hoover",
-      "chairs",
       "vacuum",
-      "brits"
+      "chairs",
+      "hoover",
+      "means"
      ],
      "suggestion": "It means vacuum. Brits say \"hoover\" for any vacuum cleaner. Can you move the chairs?",
      "suggestionFa": "یعنی جاروبرقی. بریتانیایی‌ها به هر جاروبرقی میگن هوور. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
@@ -74,8 +74,8 @@
       "everywhere",
       "everything",
       "william",
-      "upside",
-      "crumbs"
+      "crumbs",
+      "upside"
      ],
      "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
      "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
@@ -98,8 +98,8 @@
      "keywords": [
       "switching",
       "really",
-      "hear",
       "loud",
+      "hear",
       "ugh"
      ],
      "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "stopped",
-      "wait",
       "full",
+      "wait",
       "oh"
      ],
      "suggestion": "WHAT? Oh, wait. It's stopped. Is it full?",
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "cleaning",
-      "break",
       "guess",
       "march",
+      "break",
       "isn't"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",

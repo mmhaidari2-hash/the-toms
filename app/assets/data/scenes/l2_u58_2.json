@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
-      "adult",
       "under",
       "child",
+      "adult",
       "says"
      ],
      "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "ticket",
       "family",
+      "ticket",
       "adult",
       "extra"
      ],
@@ -245,9 +245,9 @@
     {
      "keywords": [
       "seats",
-      "need",
+      "only",
       "five",
-      "only"
+      "need"
      ],
      "suggestion": "Six seats? We only need five.",
      "suggestionFa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم.",

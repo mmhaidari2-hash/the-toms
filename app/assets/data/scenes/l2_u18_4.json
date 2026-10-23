@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "now",
-      "off"
+      "off",
+      "now"
      ],
      "suggestion": "Yes, I'm off. Now what?",
      "suggestionFa": "آره، پیاده شدم. حالا چی؟",
@@ -235,8 +235,8 @@
      "keywords": [
       "letter",
       "stop",
-      "can",
-      "big"
+      "see",
+      "can"
      ],
      "suggestion": "I can see a stop with a big letter \"S\".",
      "suggestionFa": "یه ایستگاه با یه حرف بزرگ «S» می‌بینم.",
@@ -302,10 +302,10 @@
     },
     {
      "keywords": [
-      "long",
-      "take",
       "home",
-      "will"
+      "take",
+      "will",
+      "long"
      ],
      "suggestion": "How long will it take to get home?",
      "suggestionFa": "چقدر طول می‌کشه برسم خونه؟",
@@ -354,8 +354,8 @@
      "keywords": [
       "awake",
       "time",
-      "i'll",
-      "stay"
+      "stay",
+      "i'll"
      ],
      "suggestion": "OK. And I'll stay awake this time!",
      "suggestionFa": "باشه. و این دفعه بیدار می‌مونم!",

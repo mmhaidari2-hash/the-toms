@@ -70,7 +70,7 @@ class _LeitnerScreenState extends ConsumerState<LeitnerScreen> {
         const Text('Box 1 every day · 2 after a day · 3 after 3 days · 4 after a week · 5 after a fortnight', style: TextStyle(fontSize: 11, color: BL.muted)),
         const SizedBox(height: 16),
         if (p.leitnerBox.isEmpty)
-          _note('Your Leitner box is empty. Press and hold any word or phrase in the app, then tap “Add to Leitner box”.', 'هر واژه یا عبارتی را در برنامه لمس کنید و نگه دارید، سپس «Add to Leitner box» را بزنید.')
+          _note('Your Leitner box is empty. In a conversation or role-play, press and hold any word in a line to add it here.', 'جعبهٔ لایتنر شما خالی است. در گفت‌وگو یا نقش‌آفرینی، روی هر واژه از یک جمله انگشت را نگه دارید تا به اینجا اضافه شود.')
         else if (c == null)
           _note(done > 0 ? 'All done for today: $right of $done right. Come back tomorrow.' : 'Nothing to review right now. Come back tomorrow.', 'برای امروز تمام شد.', key: 'leitner-done')
         else

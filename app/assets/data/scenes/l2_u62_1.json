@@ -30,10 +30,10 @@
     },
     {
      "keywords": [
-      "three",
       "times",
-      "good",
-      "news"
+      "three",
+      "news",
+      "good"
      ],
      "suggestion": "Three times? Is it good news?",
      "suggestionFa": "سه بار؟ خبر خوبیه؟",
@@ -82,10 +82,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "always",
-      "asks",
-      "true"
+      "that's",
+      "true",
+      "asks"
      ],
      "suggestion": "That's true. She always asks \"why?\"",
      "suggestionFa": "درسته. همیشه می‌پرسه «چرا؟»",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "normal",
+      "that's",
       "isn't",
       "five"
      ],
@@ -248,8 +248,8 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "towards",
+      "working",
       "nearly",
       "there"
      ],
@@ -261,8 +261,8 @@
     },
     {
      "keywords": [
-      "pizza",
       "aways",
+      "pizza",
       "take",
       "like"
      ],
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "report",
+      "last",
       "plan",
-      "good",
       "part"
      ],
      "suggestion": "Good plan! And the last part of the report?",
@@ -326,7 +326,7 @@
       "sweets",
       "nicola",
       "maths",
-      "love"
+      "will"
      ],
      "suggestion": "Sweets? Nicola will love maths now!",
      "suggestionFa": "آبنبات؟ نیکولا حالا عاشق ریاضی میشه!",

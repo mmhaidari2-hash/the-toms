@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "charged",
-      "council"
+      "council",
+      "charged"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "incorrect",
-      "believe",
       "helping",
-      "maggie"
+      "believe",
+      "that's"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "diagnosis",
-      "george",
       "leslie",
-      "after"
+      "george",
+      "moved"
      ],
      "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
      "suggestionFa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی.",
@@ -133,8 +133,8 @@
      "keywords": [
       "informed",
       "proof",
-      "have",
-      "were"
+      "were",
+      "have"
      ],
      "suggestion": "We have proof that you were informed in April.",
      "suggestionFa": "مدرک داریم که آوریل بهتون اطلاع داده شده.",
@@ -234,9 +234,9 @@
    "branches": [
     {
      "keywords": [
-      "received",
       "reminder",
-      "cancel",
+      "received",
+      "that's",
       "notice"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
@@ -250,7 +250,7 @@
       "refunded",
       "towards",
       "future",
-      "would"
+      "bills"
      ],
      "suggestion": "Would that be refunded or put towards future bills?",
      "suggestionFa": "پس داده میشه یا برای قبض‌های آینده حساب میشه؟",
@@ -355,7 +355,7 @@
       "appreciate",
       "writing",
       "could",
-      "i'd"
+      "put"
      ],
      "suggestion": "I'd appreciate it if you could put that in writing, too.",
      "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "entitled",
       "anything",
+      "entitled",
       "helpful",
       "really"
      ],

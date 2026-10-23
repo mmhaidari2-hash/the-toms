@@ -24,8 +24,8 @@
       "nicola's",
       "already",
       "report",
-      "today",
-      "times"
+      "times",
+      "today"
      ],
      "suggestion": "{you}! Nicola's end-of-year report came home today. I've read it three times already. Will you read it with me?",
      "suggestionFa": "{you}! کارنامهٔ آخر سال نیکولا امروز اومد خونه. تا حالا سه بار خوندمش. باهام می‌خونیش؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "listening",
       "questions",
+      "listening",
       "speaking",
       "nicola",
       "mostly"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "language",
-      "teacher",
-      "curious",
+      "learner",
       "talking",
-      "learner"
+      "curious",
+      "teacher"
      ],
      "suggestion": "Ha, yes! \"Nicola is a curious learner.\" That's teacher language for \"she never stops talking\". I know — I'm a teacher!",
      "suggestionFa": "ها، آره! «نیکولا یادگیرندهٔ کنجکاویه.» این زبون معلم‌هاست برای «یه لحظه ساکت نمیشه». می‌دونم — خودم معلمم!",
@@ -100,7 +100,7 @@
       "backwards",
       "letters",
       "little",
-      "snake"
+      "needs"
      ],
      "suggestion": "She needs to work on her handwriting. Her letters are very big, and her \"s\" goes backwards. Like a little snake!",
      "suggestionFa": "باید روی دست‌خطش کار کنه. حروفش خیلی بزرگن، و «اس»ش برعکسه. مثل یه مار کوچولو!",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "counting",
-      "working",
-      "towards",
       "totally",
+      "towards",
+      "working",
       "normal"
      ],
      "suggestion": "Totally normal. And in maths she's \"working towards\" the goal — not quite there yet. Counting is fine, but she hates take-aways.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "she'll",
       "sweets",
-      "learn",
+      "she'll",
       "we'll",
-      "three"
+      "three",
+      "learn"
      ],
      "suggestion": "Ha! No, not pizza. Five take away two is three. We'll use sweets. Five sweets, eat two — she'll learn very fast!",
      "suggestionFa": "ها! نه، پیتزا نه. پنج منهای دو میشه سه. با آبنبات تمرین می‌کنیم. پنج تا آبنبات، دو تا بخور — خیلی سریع یاد می‌گیره!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "always",
-      "others",
       "nicola",
-      "really"
+      "that's",
+      "others",
+      "really",
+      "always"
      ],
      "suggestion": "The last part: \"Nicola is always kind to others.\" That's the bit that made me cry. I'm really proud of her.",
      "suggestionFa": "قسمت آخر: «نیکولا همیشه با بقیه مهربونه.» همین قسمت بود که گریه‌ام انداخت. واقعاً بهش افتخار می‌کنم.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "handwriting",
-      "report",
       "nicola",
+      "report",
       "fridge",
-      "let's"
+      "cream"
      ],
      "suggestion": "You're right. Handwriting can wait. Right — let's put the report on the fridge. And Nicola gets ice cream after tea!",
      "suggestionFa": "حق با توئه. دست‌خط می‌تونه صبر کنه. خب — بیا کارنامه را بزنیم رو یخچال. و نیکولا بعد از شام بستنی می‌گیره!",

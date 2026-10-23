@@ -20,9 +20,9 @@
     {
      "keywords": [
       "course",
-      "doris",
       "phone",
-      "let"
+      "doris",
+      "see"
      ],
      "suggestion": "Of course, Doris. Let me see your phone.",
      "suggestionFa": "البته دوریس. گوشیتون را ببینم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "where",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "I'll come with you. Where is it?",
      "suggestionFa": "باهاتون میام. کجاست؟",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "towards",
-      "shops",
+      "arrow",
       "shows",
-      "arrow"
+      "shops"
      ],
      "suggestion": "The blue arrow shows us. This way — towards the shops.",
      "suggestionFa": "فلش آبی نشونمون میده. از این طرف — سمت مغازه‌ها.",
@@ -141,7 +141,7 @@
       "let's",
       "moves",
       "walk",
-      "dot"
+      "see"
      ],
      "suggestion": "Let's walk and see if the dot moves.",
      "suggestionFa": "بیاید راه بریم ببینیم نقطه تکون می‌خوره.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "hundred",
       "morning",
+      "hundred",
       "metres",
       "onto"
      ],
@@ -203,7 +203,7 @@
       "after",
       "bank",
       "sign",
-      "can"
+      "see"
      ],
      "suggestion": "Turn left after the bank. I can see the sign.",
      "suggestionFa": "بعد از بانک به چپ بپیچید. تابلو را می‌بینم.",
@@ -254,7 +254,7 @@
      "keywords": [
       "let's",
       "we've",
-      "gone",
+      "back",
       "turn"
      ],
      "suggestion": "Yes, we've gone too far. Let's turn back.",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "appointment",
-      "good",
+      "here",
       "luck",
-      "here"
+      "good"
      ],
      "suggestion": "Here it is! Good luck with your appointment.",
      "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",
@@ -375,8 +375,8 @@
     },
     {
      "keywords": [
-      "shall",
       "doris",
+      "shall",
       "wait"
      ],
      "suggestion": "Shall I wait for you, Doris?",

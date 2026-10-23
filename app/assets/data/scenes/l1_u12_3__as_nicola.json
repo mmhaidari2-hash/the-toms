@@ -23,8 +23,8 @@
      "keywords": [
       "kitchen",
       "circle",
-      "let's",
       "shape",
+      "let's",
       "game"
      ],
      "suggestion": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "sandwich",
       "triangle",
-      "well",
+      "sandwich",
       "done",
-      "turn"
+      "turn",
+      "well"
      ],
      "suggestion": "Well done! My turn. The sandwich is a triangle!",
      "suggestionFa": "آفرین! نوبت من. ساندویچ مثلثه!",
@@ -98,9 +98,9 @@
      "keywords": [
       "sandwich",
       "ryan's",
+      "shape",
       "table",
-      "cross",
-      "shape"
+      "cross"
      ],
      "suggestion": "No! It's Ryan's sandwich. He gets cross. What shape is the table?",
      "suggestionFa": "نه! ساندویچ رایانه. عصبانی می‌شه. میز چه شکلیه؟",
@@ -150,7 +150,7 @@
       "please",
       "just",
       "have",
-      "one"
+      "can"
      ],
      "suggestion": "Can I have a biscuit? Just one? Please?",
      "suggestionFa": "می‌تونم یه بیسکویت بخورم؟ فقط یکی؟ لطفاً؟",
@@ -175,7 +175,7 @@
       "round",
       "star",
       "says",
-      "now"
+      "see"
      ],
      "suggestion": "Mummy says yes! A round one. Now, a star! Can you see a star?",
      "suggestionFa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟",
@@ -199,8 +199,8 @@
       "reading",
       "school",
       "fridge",
-      "star",
-      "from"
+      "gold",
+      "star"
      ],
      "suggestion": "Yes! My gold star from school is on the fridge. I got it for reading.",
      "suggestionFa": "آره! ستارهٔ طلایی مدرسه‌ام روی یخچاله. برای کتاب خوندن گرفتمش.",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "thank",
-      "again",
       "let's",
+      "again",
       "after",
-      "game"
+      "play"
      ],
      "suggestion": "Thank you! You're good at this game. Let's play again after tea!",
      "suggestionFa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!",

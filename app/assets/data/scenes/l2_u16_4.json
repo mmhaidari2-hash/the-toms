@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "here",
       "some",
-      "can",
-      "buy"
+      "here",
+      "buy",
+      "can"
      ],
      "suggestion": "Can we buy some here?",
      "suggestionFa": "می‌تونیم از اینجا بخریم؟",
@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
-      "usually",
       "plastic",
-      "iran",
+      "usually",
+      "free",
       "bags"
      ],
      "suggestion": "In Iran, plastic bags are usually free.",
@@ -126,7 +126,7 @@
       "things",
       "let's",
       "we've",
-      "lot"
+      "got"
      ],
      "suggestion": "Let's get two. We've got a lot of things.",
      "suggestionFa": "دو تا بگیریم. چیزای زیادی داریم.",
@@ -138,8 +138,8 @@
      "keywords": [
       "enough",
       "carry",
-      "i'll",
-      "milk"
+      "milk",
+      "i'll"
      ],
      "suggestion": "One is enough. I'll carry the milk.",
      "suggestionFa": "یکی کافیه. من شیر را میارم.",
@@ -239,7 +239,7 @@
       "thank",
       "bring",
       "time",
-      "i'll"
+      "next"
      ],
      "suggestion": "Thank you! Next time I'll bring my own bag.",
      "suggestionFa": "ممنون! دفعهٔ بعد کیسهٔ خودم را میارم.",
@@ -286,9 +286,9 @@
     {
      "keywords": [
       "shall",
-      "good",
+      "home",
       "idea",
-      "home"
+      "good"
      ],
      "suggestion": "Good idea. Shall we go home now?",
      "suggestionFa": "فکر خوبیه. بریم خونه؟",

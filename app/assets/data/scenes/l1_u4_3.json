@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
+      "close",
       "worry",
-      "don't",
-      "close"
+      "don't"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "kettle",
-      "keys",
-      "next"
+      "next",
+      "keys"
      ],
      "suggestion": "Your keys are next to the kettle.",
      "suggestionFa": "کلیدهات کنار کتری‌ان.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "past",
-      "four"
+      "four",
+      "past"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "shepherd's",
-      "pie",
-      "yum"
+      "yum",
+      "pie"
      ],
      "suggestion": "Shepherd's pie? Yum!",
      "suggestionFa": "پای چوپان؟ به‌به!",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "later",
-      "tom",
-      "see"
+      "see",
+      "tom"
      ],
      "suggestion": "See you later, Tom!",
      "suggestionFa": "بعداً می‌بینمت، تام!",

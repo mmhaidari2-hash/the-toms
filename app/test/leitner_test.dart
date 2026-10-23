@@ -53,7 +53,7 @@ void main() {
     }
 
     await wait(30);
-    expect(find.byType(SelectionArea), findsOneWidget, reason: 'every text in the app is selectable');
+    expect(find.byType(SelectionArea), findsNothing, reason: 'no app-wide text selection (iOS showed Select All); long-press a word in a line instead');
     router.go('/leitner');
     await wait();
     expect(find.textContaining('Your Leitner box is empty'), findsOneWidget);

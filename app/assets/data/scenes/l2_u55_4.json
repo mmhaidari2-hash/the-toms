@@ -70,8 +70,8 @@
     {
      "keywords": [
       "always",
-      "she's",
       "awake",
+      "she's",
       "waits"
      ],
      "suggestion": "She's awake. She always waits for my call.",
@@ -85,7 +85,7 @@
       "weekend",
       "stays",
       "late",
-      "up"
+      "ok"
      ],
      "suggestion": "It's OK. She stays up late at the weekend.",
      "suggestionFa": "اشکالی نداره. آخر هفته‌ها دیر می‌خوابه.",
@@ -138,7 +138,7 @@
       "hello",
       "says",
       "hear",
-      "can"
+      "she"
      ],
      "suggestion": "She says hello. She can hear you!",
      "suggestionFa": "میگه سلام. صدات را می‌شنوه!",
@@ -204,10 +204,10 @@
     },
     {
      "keywords": [
-      "wait",
       "call",
-      "back",
-      "i'll"
+      "i'll",
+      "wait",
+      "back"
      ],
      "suggestion": "Wait. I'll call you back, Mum.",
      "suggestionFa": "صبر کن. دوباره بهت زنگ می‌زنم مامان.",
@@ -251,8 +251,8 @@
      "keywords": [
       "william",
       "hello",
-      "here",
-      "come"
+      "come",
+      "here"
      ],
      "suggestion": "William, come here! Say hello!",
      "suggestionFa": "ویلیام، بیا اینجا! سلام کن!",
@@ -262,8 +262,8 @@
     },
     {
      "keywords": [
-      "little",
       "here's",
+      "little",
       "mum",
       "one"
      ],
@@ -336,9 +336,9 @@
     {
      "keywords": [
       "laughing",
-      "loves",
       "she's",
-      "bus"
+      "loves",
+      "she"
      ],
      "suggestion": "She's laughing! She loves your bus.",
      "suggestionFa": "داره می‌خنده! عاشق اتوبوسته.",
@@ -446,7 +446,7 @@
       "william",
       "waving",
       "she's",
-      "wave"
+      "back"
      ],
      "suggestion": "She's waving. Wave back, William!",
      "suggestionFa": "داره دست تکون میده. براش دست تکون بده ویلیام!",

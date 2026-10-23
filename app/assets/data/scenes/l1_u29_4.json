@@ -30,8 +30,8 @@
     {
      "keywords": [
       "waitress",
-      "let",
-      "ask"
+      "ask",
+      "let"
      ],
      "suggestion": "Let me ask the waitress.",
      "suggestionFa": "بذار از گارسون بپرسم.",
@@ -133,8 +133,8 @@
     },
     {
      "keywords": [
-      "time",
       "i'll",
+      "time",
       "pay"
      ],
      "suggestion": "I'll pay this time.",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "separately",
-      "can",
       "pay",
+      "can",
       "we"
      ],
      "suggestion": "Can we pay separately, please?",
@@ -373,9 +373,9 @@
     {
      "keywords": [
       "we'll",
-      "back",
+      "come",
       "soon",
-      "come"
+      "back"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

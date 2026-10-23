@@ -22,7 +22,7 @@
       "morning",
       "library",
       "please",
-      "good"
+      "like"
      ],
      "suggestion": "Good morning. I'd like to join the library, please.",
      "suggestionFa": "صبح بخیر. می‌خوام عضو کتابخانه بشم، لطفاً.",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "street",
-      "live",
-      "mare"
+      "mare",
+      "live"
      ],
      "suggestion": "Yes, I live on Mare Street.",
      "suggestionFa": "بله، تو مِر استریت زندگی می‌کنم.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "will",
+      "from",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "fifteen",
-      "long",
+      "them",
       "keep",
-      "them"
+      "long"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "that's",
-      "fines",
       "great",
+      "fines",
       "news"
      ],
      "suggestion": "No fines? That's great news.",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "book",
       "lose",
+      "book",
       "if"
      ],
      "suggestion": "What if I lose a book?",
@@ -351,8 +351,8 @@
      "keywords": [
       "thank",
       "look",
-      "both",
-      "i'll"
+      "i'll",
+      "both"
      ],
      "suggestion": "Thank you. I'll look at both.",
      "suggestionFa": "ممنون. هر دو را نگاه می‌کنم.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "hello",
-      "who's"
+      "who's",
+      "hello"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "moment",
       "please",
+      "moment",
       "here",
       "one"
      ],
@@ -190,9 +190,9 @@
     },
     {
      "keywords": [
+      "pen",
       "get",
-      "let",
-      "pen"
+      "let"
      ],
      "suggestion": "Yes. Let me get a pen.",
      "suggestionFa": "آره. بذار یه خودکار بیارم.",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "instead",
       "writing",
+      "instead",
       "friday",
       "down"
      ],
@@ -318,7 +318,7 @@
       "after",
       "call",
       "back",
-      "six"
+      "got"
      ],
      "suggestion": "Call you back after six. Got it.",
      "suggestionFa": "بعد از شش بهتون زنگ بزنه. فهمیدم.",
@@ -330,8 +330,8 @@
      "keywords": [
       "number",
       "have",
-      "ok",
-      "he"
+      "he",
+      "ok"
      ],
      "suggestion": "OK. Does he have your number?",
      "suggestionFa": "باشه. شماره‌تون را داره؟",
