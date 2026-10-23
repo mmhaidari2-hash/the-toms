@@ -670,6 +670,16 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
                 trailing: Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                 onTap: () => go(sheet, route),
               ),
+            // AI disclosure (run 23): every voice in the app is generated, none is a recording of a real person.
+            Padding(
+              key: const ValueKey('ai-voices-note'),
+              padding: const EdgeInsets.fromLTRB(4, 8, 4, 4),
+              child: Row(children: [
+                const Icon(Icons.record_voice_over_outlined, color: BL.muted, size: 16),
+                const SizedBox(width: 10),
+                Expanded(child: Text(hl('Voices are AI-generated (text-to-speech), not real people.'), style: const TextStyle(fontSize: 11.5, color: BL.muted))),
+              ]),
+            ),
           ]);
         }),
       ),
