@@ -1,0 +1,1084 @@
+{
+ "roleplays": [
+  {
+   "id": "rp_cafe",
+   "level": "A1",
+   "spot": "cafe",
+   "sp": "callum",
+   "npc": "Callum · barista",
+   "title": "Order a coffee",
+   "titleFa": "سفارش قهوه",
+   "intro": {
+    "en": "You're at Callum's café. Order a drink to take away and pay.",
+    "fa": "در کافهٔ کالوم هستی. یک نوشیدنی بیرون‌بر سفارش بده و پولش را بده."
+   },
+   "goals": [
+    {
+     "en": "Order a drink",
+     "fa": "یک نوشیدنی سفارش بده"
+    },
+    {
+     "en": "Say eat in or take away",
+     "fa": "بگو همین‌جا می‌خوری یا می‌بری"
+    },
+    {
+     "en": "Pay and say thank you",
+     "fa": "پول بده و تشکر کن"
+    }
+   ],
+   "end": {
+    "en": "No worries. Have a good day!",
+    "fa": "خواهش می‌کنم. روز خوبی داشته باشید!"
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Hiya, what can I get you?",
+      "fa": "سلام، چی براتون بیارم؟"
+     },
+     "hint": {
+      "en": "Ask for your drink with 'Can I have …, please?'",
+      "fa": "نوشیدنی‌ات را با «Can I have …, please?» بخواه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "Can I have a flat white, please?",
+       "fa": "میشه یه فلت وایت بدین، لطفاً؟",
+       "fb": {
+        "en": "Perfect: polite and clear.",
+        "fa": "عالی: مؤدبانه و روشن."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "I want coffee.",
+       "fa": "قهوه می‌خوام.",
+       "fb": {
+        "en": "He understands, but it sounds blunt. 'Can I have …, please?' is friendlier.",
+        "fa": "می‌فهمد، ولی کمی خشک است. «Can I have …, please?» دوستانه‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Yes, I'm fine, thank you.",
+       "fa": "بله، خوبم، ممنون.",
+       "fb": {
+        "en": "That answers 'How are you?'. He asked what you'd like.",
+        "fa": "این جواب «حالت چطور است؟» است. او پرسید چه می‌خواهی."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Sure. Is that to eat in or take away?",
+      "fa": "حتماً. همین‌جا میل می‌کنید یا بیرون‌بر؟"
+     },
+     "hint": {
+      "en": "It's a choice: say 'eat in' or 'take away'.",
+      "fa": "سؤالِ انتخابی است: بگو «eat in» یا «take away»."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "Take away, please.",
+       "fa": "بیرون‌بر، لطفاً.",
+       "fb": {
+        "en": "Spot on.",
+        "fa": "دقیقاً درست."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "To go, please.",
+       "fa": "برای بردن، لطفاً.",
+       "fb": {
+        "en": "He'll understand, but in the UK people usually say 'take away'.",
+        "fa": "می‌فهمد، ولی در بریتانیا معمولاً می‌گویند «take away»."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Yes, please.",
+       "fa": "بله، لطفاً.",
+       "fb": {
+        "en": "It's an either/or question, so 'yes' doesn't answer it. Pick one.",
+        "fa": "این سؤالِ «این یا آن» است و «بله» جوابش نیست. یکی را انتخاب کن."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "That's three pounds twenty. Card or cash?",
+      "fa": "می‌شه سه پوند و بیست پنی. کارت یا نقد؟"
+     },
+     "hint": {
+      "en": "Say how you want to pay.",
+      "fa": "بگو چطور می‌خواهی پرداخت کنی."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": -1,
+       "en": "Card, please.",
+       "fa": "کارت، لطفاً.",
+       "fb": {
+        "en": "Great. Then just tap your card on the reader.",
+        "fa": "عالی. بعد فقط کارتت را روی دستگاه بزن."
+       }
+      },
+      {
+       "q": 1,
+       "g": -1,
+       "en": "Card.",
+       "fa": "کارت.",
+       "fb": {
+        "en": "Fine. Adding 'please' sounds friendlier.",
+        "fa": "درست است. با «please» دوستانه‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Three pounds, please.",
+       "fa": "سه پوند، لطفاً.",
+       "fb": {
+        "en": "He told you the price. Now say card or cash.",
+        "fa": "او قیمت را گفت. حالا بگو کارت یا نقد."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Lovely. There you go.",
+      "fa": "عالی. بفرمایید."
+     },
+     "hint": {
+      "en": "Take your drink and thank him.",
+      "fa": "نوشیدنی‌ات را بگیر و تشکر کن."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "Thanks very much. Cheers!",
+       "fa": "خیلی ممنون. مرسی!",
+       "fb": {
+        "en": "Very British: 'Cheers' is a friendly thank you.",
+        "fa": "خیلی بریتانیایی: «Cheers» یعنی یک تشکر خودمانی."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "OK.",
+       "fa": "باشه.",
+       "fb": {
+        "en": "Fine, but a thank you is expected here.",
+        "fa": "اشکالی ندارد، ولی این‌جا انتظار تشکر دارند."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Sorry, sorry.",
+       "fa": "ببخشید، ببخشید.",
+       "fb": {
+        "en": "No need to apologise. Just say thank you.",
+        "fa": "لازم نیست عذرخواهی کنی. فقط تشکر کن."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rp_bus",
+   "level": "A1",
+   "spot": "bus",
+   "sp": "dave",
+   "npc": "Dave · bus driver",
+   "title": "Catch the right bus",
+   "titleFa": "سوار اتوبوس درست شو",
+   "intro": {
+    "en": "You need the 38 bus to the hospital. Check the route, pay and ask where to get off.",
+    "fa": "باید با اتوبوس ۳۸ به بیمارستان بروی. مسیر را بپرس، پرداخت کن و بپرس کجا پیاده شوی."
+   },
+   "goals": [
+    {
+     "en": "Check the bus goes there",
+     "fa": "مطمئن شو اتوبوس آن‌جا می‌رود"
+    },
+    {
+     "en": "Pay the right way",
+     "fa": "درست پرداخت کن"
+    },
+    {
+     "en": "Ask where to get off",
+     "fa": "بپرس کجا پیاده شوی"
+    }
+   ],
+   "end": {
+    "en": "No problem. It's about ten minutes. I'll give you a shout.",
+    "fa": "مشکلی نیست. حدود ده دقیقه است. صدات می‌کنم."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Morning.",
+      "fa": "صبح بخیر."
+     },
+     "hint": {
+      "en": "Ask 'Does this bus go to …?'",
+      "fa": "بپرس «Does this bus go to …?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "Morning. Does this bus go to the hospital?",
+       "fa": "صبح بخیر. این اتوبوس به بیمارستان می‌رود؟",
+       "fb": {
+        "en": "Perfect question.",
+        "fa": "سؤال عالی."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "Hospital?",
+       "fa": "بیمارستان؟",
+       "fb": {
+        "en": "He'll understand, but a full question is more polite.",
+        "fa": "می‌فهمد، ولی یک سؤال کامل مؤدبانه‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Two tickets to the hospital, please.",
+       "fa": "دو بلیت به بیمارستان، لطفاً.",
+       "fb": {
+        "en": "London buses don't sell tickets on board: you tap a card. First check the route.",
+        "fa": "اتوبوس‌های لندن داخل اتوبوس بلیت نمی‌فروشند: کارت می‌زنی. اول مسیر را بپرس."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Yeah, it does. Just tap on the reader.",
+      "fa": "آره، می‌ره. فقط کارت رو روی دستگاه بزن."
+     },
+     "hint": {
+      "en": "Ask if your bank card works.",
+      "fa": "بپرس کارت بانکی‌ات کار می‌کند یا نه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "Can I use my contactless bank card?",
+       "fa": "می‌تونم با کارت بانکی بدون‌تماسم پرداخت کنم؟",
+       "fb": {
+        "en": "Yes: contactless cards, phones and Oyster cards all work.",
+        "fa": "بله: کارت بدون‌تماس، گوشی و کارت اویستر همه کار می‌کنند."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "Card here?",
+       "fa": "کارت این‌جا؟",
+       "fb": {
+        "en": "Understood, but a full question sounds better.",
+        "fa": "می‌فهمد، ولی سؤال کامل بهتر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Can I pay with cash?",
+       "fa": "می‌تونم نقدی بدم؟",
+       "fb": {
+        "en": "London buses don't take cash. Use a contactless card, an Oyster card or your phone.",
+        "fa": "اتوبوس‌های لندن پول نقد نمی‌گیرند. با کارت بدون‌تماس، کارت اویستر یا گوشی پرداخت کن."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Yep, that's fine. Take a seat.",
+      "fa": "آره، مشکلی نیست. بفرمایید بشینید."
+     },
+     "hint": {
+      "en": "Ask politely: 'Could you tell me when …?'",
+      "fa": "مؤدبانه بپرس: «Could you tell me when …?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "Could you tell me when we get to the hospital, please?",
+       "fa": "میشه وقتی به بیمارستان رسیدیم بهم بگید، لطفاً؟",
+       "fb": {
+        "en": "Lovely and polite.",
+        "fa": "عالی و مؤدبانه."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "Tell me the hospital stop.",
+       "fa": "ایستگاه بیمارستان رو بهم بگو.",
+       "fb": {
+        "en": "It sounds like an order. 'Could you …, please?' is politer.",
+        "fa": "شبیه دستور است. «Could you …, please?» مؤدبانه‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Where is the hospital doctor?",
+       "fa": "دکتر بیمارستان کجاست؟",
+       "fb": {
+        "en": "The driver can tell you the stop, not the doctor.",
+        "fa": "راننده می‌تواند ایستگاه را بگوید، نه دکتر را."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rp_pharmacy",
+   "level": "A2",
+   "spot": "pharmacy",
+   "sp": "dawson",
+   "npc": "Mr Dawson · pharmacist",
+   "title": "Ask the pharmacist",
+   "titleFa": "مشورت با داروساز",
+   "intro": {
+    "en": "You've had a sore throat for two days. Ask the pharmacist for advice.",
+    "fa": "دو روز است گلودرد داری. از داروساز راهنمایی بخواه."
+   },
+   "goals": [
+    {
+     "en": "Describe your symptom",
+     "fa": "علامتت را توضیح بده"
+    },
+    {
+     "en": "Answer the safety question",
+     "fa": "به سؤال ایمنی جواب بده"
+    },
+    {
+     "en": "Ask how often to take it",
+     "fa": "بپرس هر چند وقت بخوری"
+    }
+   ],
+   "end": {
+    "en": "You are welcome. Feel better soon.",
+    "fa": "خواهش می‌کنم. زود خوب بشید."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Hello, how can I help?",
+      "fa": "سلام، چطور می‌تونم کمک کنم؟"
+     },
+     "hint": {
+      "en": "Say what's wrong and for how long: 'I've had … for …'",
+      "fa": "بگو چه مشکلی داری و از کی: «I've had … for …»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "Hi. I've had a sore throat for two days.",
+       "fa": "سلام. دو روزه گلودرد دارم.",
+       "fb": {
+        "en": "Clear: what and how long.",
+        "fa": "روشن: چه مشکلی و از کی."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "My throat is bad.",
+       "fa": "گلوم بده.",
+       "fb": {
+        "en": "He'll understand, but say how long you've had it too.",
+        "fa": "می‌فهمد، ولی بگو از کی هم داری."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "I need a prescription for a doctor.",
+       "fa": "برای دکتر نسخه لازم دارم.",
+       "fb": {
+        "en": "Just tell the pharmacist what the problem is.",
+        "fa": "فقط به داروساز بگو مشکل چیست."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Are you taking any other medicines at the moment?",
+      "fa": "الان داروی دیگه‌ای مصرف می‌کنید؟"
+     },
+     "hint": {
+      "en": "He asks about other medicines. Answer yes or no clearly.",
+      "fa": "دربارهٔ داروهای دیگر می‌پرسد. روشن بگو بله یا نه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "No, I'm not taking anything else.",
+       "fa": "نه، چیز دیگه‌ای مصرف نمی‌کنم.",
+       "fb": {
+        "en": "A full, clear answer. Good.",
+        "fa": "جواب کامل و روشن. خوب است."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "No.",
+       "fa": "نه.",
+       "fb": {
+        "en": "Fine. A full sentence sounds more confident.",
+        "fa": "درست است. جملهٔ کامل مطمئن‌تر به نظر می‌رسد."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Yes, two days.",
+       "fa": "بله، دو روز.",
+       "fb": {
+        "en": "Listen again: he asks about other medicines, not how long.",
+        "fa": "دوباره گوش کن: دربارهٔ داروهای دیگر می‌پرسد، نه مدت."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "OK. These lozenges should help.",
+      "fa": "باشه. این قرص‌های مکیدنی کمک می‌کنن."
+     },
+     "hint": {
+      "en": "Ask 'How often should I …?'",
+      "fa": "بپرس «How often should I …?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "How often should I take them?",
+       "fa": "هر چند وقت یک‌بار بخورمشون؟",
+       "fb": {
+        "en": "Exactly the right question.",
+        "fa": "دقیقاً سؤال درست."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "How many?",
+       "fa": "چندتا؟",
+       "fb": {
+        "en": "Understood, but 'How often should I take them?' is clearer.",
+        "fa": "می‌فهمد، ولی «How often should I take them?» روشن‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "How much is the doctor?",
+       "fa": "دکتر چنده؟",
+       "fb": {
+        "en": "Ask about the lozenges, not the doctor. NHS GP visits are free anyway.",
+        "fa": "دربارهٔ قرص‌ها بپرس، نه دکتر. ویزیت پزشک عمومی NHS رایگان است."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "It's on the box. Read the leaflet, and see your GP if it's not better in a week.",
+      "fa": "روی جعبه نوشته. بروشور رو بخونید، و اگه تا یه هفته بهتر نشد، برید پیش پزشک عمومی‌تون."
+     },
+     "hint": {
+      "en": "Thank him before you go.",
+      "fa": "قبل از رفتن تشکر کن."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": -1,
+       "en": "Great, thank you for your help.",
+       "fa": "عالیه، ممنون از کمکتون.",
+       "fb": {
+        "en": "Warm and polite.",
+        "fa": "گرم و مؤدبانه."
+       }
+      },
+      {
+       "q": 1,
+       "g": -1,
+       "en": "OK, bye.",
+       "fa": "باشه، خداحافظ.",
+       "fb": {
+        "en": "Fine, but a thank you is warmer.",
+        "fa": "اشکالی ندارد، ولی تشکر گرم‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Can I have antibiotics?",
+       "fa": "می‌تونم آنتی‌بیوتیک بگیرم؟",
+       "fb": {
+        "en": "Antibiotics need a prescription, and most sore throats don't need them.",
+        "fa": "آنتی‌بیوتیک نسخه لازم دارد و بیشتر گلودردها به آن نیازی ندارند."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rp_gp",
+   "level": "A2",
+   "spot": "gp",
+   "sp": "receptionist",
+   "npc": "Receptionist · GP surgery",
+   "title": "Book a GP appointment",
+   "titleFa": "وقت گرفتن از پزشک عمومی",
+   "intro": {
+    "en": "Your back has hurt for two weeks. Book an appointment at the GP surgery.",
+    "fa": "دو هفته است کمرت درد می‌کند. در مطب پزشک عمومی وقت بگیر."
+   },
+   "goals": [
+    {
+     "en": "Ask for an appointment",
+     "fa": "وقت بخواه"
+    },
+    {
+     "en": "Say what the problem is",
+     "fa": "بگو مشکل چیست"
+    },
+    {
+     "en": "Accept a time",
+     "fa": "یک زمان را قبول کن"
+    }
+   ],
+   "end": {
+    "en": "Thank you. That's booked for Thursday at nine ten.",
+    "fa": "ممنون. برای پنجشنبه ساعت نه و ده دقیقه ثبت شد."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Good morning, how can I help?",
+      "fa": "صبح بخیر، چطور می‌تونم کمک کنم؟"
+     },
+     "hint": {
+      "en": "Use 'I'd like to book an appointment'.",
+      "fa": "از «I'd like to book an appointment» استفاده کن."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "Hello, I'd like to book an appointment with a doctor, please.",
+       "fa": "سلام، می‌خواستم یه وقت با دکتر بگیرم، لطفاً.",
+       "fb": {
+        "en": "The standard phrase. Well done.",
+        "fa": "عبارت رایج. آفرین."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "I want to see the doctor.",
+       "fa": "می‌خوام دکتر رو ببینم.",
+       "fb": {
+        "en": "Fine. 'I'd like to book an appointment' is the usual phrase.",
+        "fa": "درست است. «I'd like to book an appointment» عبارت معمول است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "I'd like to register my car.",
+       "fa": "می‌خوام ماشینم رو ثبت کنم.",
+       "fb": {
+        "en": "That's not something the surgery does. Ask for an appointment.",
+        "fa": "این کار مطب نیست. وقت بخواه."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Can I ask what it's about?",
+      "fa": "میشه بپرسم برای چیه؟"
+     },
+     "hint": {
+      "en": "Say the problem and how long you have had it.",
+      "fa": "مشکل و مدتش را بگو."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "I've had a bad back for about two weeks.",
+       "fa": "حدود دو هفته‌ست کمرم درد می‌کنه.",
+       "fb": {
+        "en": "Clear and useful for the receptionist.",
+        "fa": "روشن و مفید برای پذیرش."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "My back.",
+       "fa": "کمرم.",
+       "fb": {
+        "en": "Understood. Saying how long helps them choose the right appointment.",
+        "fa": "می‌فهمد. گفتن مدت کمک می‌کند وقت مناسب را انتخاب کنند."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "It's about two o'clock.",
+       "fa": "حدود ساعت دوئه.",
+       "fb": {
+        "en": "She asked why you need the doctor, not the time.",
+        "fa": "پرسید چرا دکتر لازم داری، نه ساعت را."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "I can offer you Thursday at ten past nine, or a phone call tomorrow.",
+      "fa": "می‌تونم پنجشنبه ساعت نه و ده دقیقه یا یه تماس تلفنی فردا بهتون بدم."
+     },
+     "hint": {
+      "en": "It's a choice. Say which one you want.",
+      "fa": "انتخابی است. بگو کدام را می‌خواهی."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "Thursday at ten past nine is fine, thanks.",
+       "fa": "پنجشنبه ساعت نه و ده دقیقه خوبه، ممنون.",
+       "fb": {
+        "en": "Clear. You repeated the time to check it.",
+        "fa": "روشن. زمان را تکرار کردی تا مطمئن شوی."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "Thursday.",
+       "fa": "پنجشنبه.",
+       "fb": {
+        "en": "Fine. Repeating the time helps avoid mistakes.",
+        "fa": "درست است. تکرار زمان جلوی اشتباه را می‌گیرد."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Yes.",
+       "fa": "بله.",
+       "fb": {
+        "en": "There are two options, so say which one.",
+        "fa": "دو گزینه هست، پس بگو کدام."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Lovely. Can I take your date of birth, please?",
+      "fa": "عالی. میشه تاریخ تولدتون رو بگید؟"
+     },
+     "hint": {
+      "en": "Say dates like 'the fourth of May, nineteen ninety'.",
+      "fa": "تاریخ را این‌طور بگو: «the fourth of May, nineteen ninety»."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": -1,
+       "en": "Yes, it's the fourth of May, nineteen ninety.",
+       "fa": "بله، چهارم مه، هزار و نهصد و نود.",
+       "fb": {
+        "en": "The British way to say a date.",
+        "fa": "روش بریتانیایی گفتن تاریخ."
+       }
+      },
+      {
+       "q": 1,
+       "g": -1,
+       "en": "Four, five, ninety.",
+       "fa": "چهار، پنج، نود.",
+       "fb": {
+        "en": "She may write it down, but 'the fourth of May' is clearer.",
+        "fa": "شاید بنویسد، ولی «the fourth of May» روشن‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "I'm thirty-six.",
+       "fa": "سی و شش سالمه.",
+       "fb": {
+        "en": "She needs the date, not your age.",
+        "fa": "تاریخ را لازم دارد، نه سنت را."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rp_post",
+   "level": "A2",
+   "spot": "postoffice",
+   "sp": "clarke",
+   "npc": "Clerk · post office",
+   "title": "Send a parcel",
+   "titleFa": "فرستادن بسته",
+   "intro": {
+    "en": "Send a parcel to Manchester, choose a service and ask for proof of postage.",
+    "fa": "یک بسته به منچستر بفرست، نوع ارسال را انتخاب کن و رسید بخواه."
+   },
+   "goals": [
+    {
+     "en": "Say what you're sending",
+     "fa": "بگو چه می‌فرستی"
+    },
+    {
+     "en": "Choose a service",
+     "fa": "نوع ارسال را انتخاب کن"
+    },
+    {
+     "en": "Ask for proof",
+     "fa": "رسید بخواه"
+    }
+   ],
+   "end": {
+    "en": "Here's your receipt. You can track it online with that number.",
+    "fa": "این رسیدتون. با این شماره می‌تونید آنلاین پیگیریش کنید."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Next, please! What are you sending today?",
+      "fa": "نفر بعد، لطفاً! امروز چی می‌فرستید؟"
+     },
+     "hint": {
+      "en": "Say 'I'd like to send this … to …'",
+      "fa": "بگو «I'd like to send this … to …»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "Hi, I'd like to send this parcel to Manchester, please.",
+       "fa": "سلام، می‌خوام این بسته رو به منچستر بفرستم، لطفاً.",
+       "fb": {
+        "en": "Clear and polite.",
+        "fa": "روشن و مؤدبانه."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "Parcel. Manchester.",
+       "fa": "بسته. منچستر.",
+       "fb": {
+        "en": "Understood, but a full sentence is friendlier.",
+        "fa": "می‌فهمد، ولی جملهٔ کامل دوستانه‌تر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "I'd like to buy a parcel.",
+       "fa": "می‌خوام یه بسته بخرم.",
+       "fb": {
+        "en": "You send a parcel. You can buy stamps or a box.",
+        "fa": "بسته را می‌فرستی. تمبر یا جعبه را می‌خری."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "First or second class?",
+      "fa": "درجه یک یا درجه دو؟"
+     },
+     "hint": {
+      "en": "First class is faster; second class is cheaper. Pick one.",
+      "fa": "درجه یک سریع‌تر است؛ درجه دو ارزان‌تر. یکی را انتخاب کن."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "Second class is fine, thanks.",
+       "fa": "درجه دو خوبه، ممنون.",
+       "fb": {
+        "en": "Good choice if it is not urgent.",
+        "fa": "اگر عجله نداری، انتخاب خوبی است."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "The cheap one.",
+       "fa": "ارزون‌تره.",
+       "fb": {
+        "en": "It works! The word for it is 'second class'.",
+        "fa": "جواب می‌دهد! اسمش «second class» است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Yes, please.",
+       "fa": "بله، لطفاً.",
+       "fb": {
+        "en": "It's a choice question. Say first or second.",
+        "fa": "سؤال انتخابی است. بگو درجه یک یا دو."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Do you want it signed for?",
+      "fa": "می‌خواید با امضای گیرنده باشه؟"
+     },
+     "hint": {
+      "en": "Say yes and ask for a 'receipt'.",
+      "fa": "بگو بله و «receipt» بخواه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "Yes, please. Can I have a receipt as well?",
+       "fa": "بله، لطفاً. میشه یه رسید هم بدید؟",
+       "fb": {
+        "en": "Great: keep the receipt as proof of postage.",
+        "fa": "عالی: رسید را به‌عنوان مدرک ارسال نگه دار."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "Yes, and a paper, please.",
+       "fa": "بله، و یه کاغذ، لطفاً.",
+       "fb": {
+        "en": "She'll get it, but the word is 'receipt'.",
+        "fa": "می‌فهمد، ولی کلمه‌اش «receipt» است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "No, I'll sign it now.",
+       "fa": "نه، الان امضاش می‌کنم.",
+       "fb": {
+        "en": "'Signed for' means the person who receives it signs.",
+        "fa": "«Signed for» یعنی گیرنده امضا می‌کند."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rp_bank",
+   "level": "B1",
+   "spot": "bank",
+   "sp": "maya",
+   "npc": "Advisor · the bank",
+   "title": "Open a bank account",
+   "titleFa": "باز کردن حساب بانکی",
+   "intro": {
+    "en": "You've just moved to the UK. Open a current account and find out when your card will come.",
+    "fa": "تازه به بریتانیا آمده‌ای. یک حساب جاری باز کن و بپرس کارتت کی می‌رسد."
+   },
+   "goals": [
+    {
+     "en": "Explain what you want",
+     "fa": "بگو چه می‌خواهی"
+    },
+    {
+     "en": "Say which documents you have",
+     "fa": "بگو چه مدارکی داری"
+    },
+    {
+     "en": "Ask about timing",
+     "fa": "دربارهٔ زمان بپرس"
+    }
+   ],
+   "end": {
+    "en": "It usually takes about a week. We'll post it to your address.",
+    "fa": "معمولاً حدود یه هفته طول می‌کشه. به آدرستون پستش می‌کنیم."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "Hi there, what can I do for you today?",
+      "fa": "سلام، امروز چه کاری می‌تونم براتون انجام بدم؟"
+     },
+     "hint": {
+      "en": "Use 'I'd like to open a current account'.",
+      "fa": "بگو «I'd like to open a current account»."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "I'd like to open a current account, please. I've just moved here.",
+       "fa": "می‌خواستم یه حساب جاری باز کنم، لطفاً. تازه اومدم این‌جا.",
+       "fb": {
+        "en": "Clear, and the extra detail helps.",
+        "fa": "روشن، و توضیح اضافه کمک می‌کند."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "Open account.",
+       "fa": "باز کردن حساب.",
+       "fb": {
+        "en": "Understood, but 'I'd like to open a current account' sounds much better.",
+        "fa": "می‌فهمد، ولی «I'd like to open a current account» خیلی بهتر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "I'd like to borrow a current account.",
+       "fa": "می‌خوام یه حساب جاری قرض بگیرم.",
+       "fb": {
+        "en": "You open an account. You borrow money.",
+        "fa": "حساب را باز می‌کنی. پول را قرض می‌گیری."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Of course. Have you got photo ID and proof of address?",
+      "fa": "حتماً. کارت شناسایی عکس‌دار و مدرک آدرس دارید؟"
+     },
+     "hint": {
+      "en": "Name your documents and check they are enough.",
+      "fa": "مدارکت را نام ببر و بپرس کافی است یا نه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "I've got my passport and my tenancy agreement. Is that enough?",
+       "fa": "پاسپورت و قرارداد اجاره‌م رو دارم. کافیه؟",
+       "fb": {
+        "en": "Great: you named both and checked.",
+        "fa": "عالی: هر دو را نام بردی و پرسیدی."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "Passport, yes.",
+       "fa": "پاسپورت، بله.",
+       "fb": {
+        "en": "Good start. Also say what proof of address you have.",
+        "fa": "شروع خوبی است. بگو مدرک آدرست چیست."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "My address is proof.",
+       "fa": "آدرسم مدرکه.",
+       "fb": {
+        "en": "She needs a document that shows your address, like a tenancy agreement or a bill.",
+        "fa": "مدرکی لازم دارد که آدرست را نشان دهد، مثل قرارداد اجاره یا قبض."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "That should be fine. I'll just check a few details.",
+      "fa": "باید کافی باشه. فقط چند تا جزئیات رو بررسی می‌کنم."
+     },
+     "hint": {
+      "en": "Ask 'How long will it take for …?'",
+      "fa": "بپرس «How long will it take for …?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "How long will it take for my card to arrive?",
+       "fa": "چقدر طول می‌کشه کارتم برسه؟",
+       "fb": {
+        "en": "A natural B1 question.",
+        "fa": "یک سؤال طبیعی در سطح B1."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "When is my card coming?",
+       "fa": "کارتم کی میاد؟",
+       "fb": {
+        "en": "Works fine. \"How long will it take …?\" is a useful pattern too.",
+        "fa": "درست است. «How long will it take …?» هم الگوی مفیدی است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "How long is the bank open?",
+       "fa": "بانک تا کی بازه؟",
+       "fb": {
+        "en": "That's about opening hours. Ask about your card.",
+        "fa": "این دربارهٔ ساعت کاری است. دربارهٔ کارتت بپرس."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
