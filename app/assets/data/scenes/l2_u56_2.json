@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "priya",
-   "text": "Morning, neighbour! Same as usual? Milk, a paper for Tom, and a Twix you think nobody knows about?",
+   "text": "Morning, neighbour! Same as usual? Milk, a paper for Tom, and a chocolate bar you think nobody knows about?",
    "translations": {
-    "fa": "صبح بخیر همسایه! مثل همیشه؟ شیر، یه روزنامه برای تام، و یه توییکسی که فکر می‌کنی کسی ازش خبر نداره؟"
+    "fa": "صبح بخیر همسایه! مثل همیشه؟ شیر، یه روزنامه برای تام، و یه شکلاتی که فکر می‌کنی کسی ازش خبر نداره؟"
    },
    "branches": [
     {
@@ -394,9 +394,9 @@
   "n8": {
    "id": "n8",
    "speaker": "priya",
-   "text": "Milk, teabags, biscuits — and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, Twix…",
+   "text": "Milk, teabags, biscuits — and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, chocolate bar…",
    "translations": {
-    "fa": "شیر، چای کیسه‌ای، بیسکویت — و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، توییکس…"
+    "fa": "شیر، چای کیسه‌ای، بیسکویت — و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، شکلات…"
    },
    "branches": [
     {
@@ -406,8 +406,8 @@
       "did",
       "how"
      ],
-     "suggestion": "How did you know about the Twix?",
-     "suggestionFa": "از کجا دربارهٔ توییکس فهمیدی؟",
+     "suggestion": "How did you know about the chocolate bar?",
+     "suggestionFa": "از کجا دربارهٔ شکلات فهمیدی؟",
      "trustDelta": 6,
      "next": "n9",
      "success": true
@@ -417,8 +417,8 @@
       "shh",
       "ok"
      ],
-     "suggestion": "OK, OK. And the Twix. Shh!",
-     "suggestionFa": "باشه باشه. و توییکس. هیس!",
+     "suggestion": "OK, OK. And the chocolate bar. Shh!",
+     "suggestionFa": "باشه باشه. و شکلات. هیس!",
      "trustDelta": 5,
      "next": "n9",
      "success": true

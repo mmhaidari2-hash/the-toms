@@ -345,13 +345,13 @@
     },
     {
      "keywords": [
-      "cookies",
+      "biscuits",
       "added",
       "free",
       "they"
      ],
-     "suggestion": "It's hot! And they added free cookies.",
-     "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",
+     "suggestion": "It's hot! And they added free biscuits.",
+     "suggestionFa": "داغه! و بیسکویتِ مجانی هم گذاشتن.",
      "trustDelta": 5,
      "next": "n8",
      "success": true
@@ -375,9 +375,9 @@
   "n8": {
    "id": "n8",
    "speaker": "leslie",
-   "text": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
+   "text": "Free biscuits? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
    "translations": {
-    "fa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند."
+    "fa": "بیسکویتِ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند."
    },
    "branches": [],
    "newWords": []

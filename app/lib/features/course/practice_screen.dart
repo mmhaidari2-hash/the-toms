@@ -48,6 +48,31 @@ class TapObject extends Item {
   const TapObject(this.place, this.target, this.label);
 }
 
+/// The words of a sentence for comparison: lower case, punctuation and curly quotes ignored.
+List<String> _normWords(Iterable<String> chips) => [
+  for (final c in chips)
+    for (final w in c.toLowerCase().replaceAll(RegExp('[’‘]'), "'").replaceAll(RegExp(r"[^a-z0-9' ]"), ' ').split(' '))
+      if (w.isNotEmpty) w,
+];
+
+/// Is the learner's order an acceptable version of the answer? Exact order always; also the same words with only
+/// capitals / punctuation in other chips, a name or "please" moved between the start and the end
+/// ("Leslie, ask her." = "Ask her, Leslie."; "Please can I…" = "Can I…, please?").
+bool sentenceMatches(List<String> built, List<String> answer, {Set<String> names = const {}}) {
+  if (built.join(' ') == answer.join(' ')) return true;
+  final b = _normWords(built), a = _normWords(answer);
+  if (b.length != a.length) return false;
+  bool same(List<String> x) => x.length == b.length && List.generate(x.length, (i) => x[i] == b[i]).every((e) => e);
+  if (same(a)) return true;
+  final movable = {'please', ...names.map((n) => n.toLowerCase())};
+  // Only single-clause answers: with two sentences ("We do! Leslie, ask her.") moving a word changes the meaning.
+  final clauses = answer.join(' ').split(RegExp(r'[.!?]+\s')).where((x) => x.trim().isNotEmpty).length;
+  if (clauses > 1) return false;
+  if (movable.contains(a.first) && same([...a.skip(1), a.first])) return true;
+  if (movable.contains(a.last) && same([a.last, ...a.take(a.length - 1)])) return true;
+  return false;
+}
+
 /// Builds a practice set from a lesson (or a whole unit for the checkpoint). Deterministic per id.
 List<Item> buildPractice(ContentBundle c, String id, {List<NewWord> review = const [], String name = ''}) {
   final course = c.course;
@@ -344,8 +369,10 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                   ],
                 ),
               ),
-              const SizedBox(height: 6),
-              Text(hl(it.fa), textDirection: helperDir, style: BL.fa(13)),
+              if (hlExact(it.fa) case final p?) ...[
+                const SizedBox(height: 6),
+                Text(p, textDirection: helperDir, style: BL.fa(13)),
+              ],
             ],
           ),
         ),
@@ -356,7 +383,20 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     BuildSentence() => ListView(
       children: [
         _prompt('Build the sentence', 'جمله را بساز'),
-        Text(hl(it.fa), textDirection: helperDir, style: BL.fa(15, color: BL.ink)),
+        // The prompt is the whole meaning of the answer in the helper language, or (no checked translation of this
+        // exact line in this language) the sentence read aloud.
+        if (hlExact(it.fa) case final p?)
+          Text(p, key: const ValueKey('bs-prompt'), textDirection: helperDir, style: BL.fa(15, color: BL.ink))
+        else
+          Align(
+            alignment: AlignmentDirectional.centerStart,
+            child: TextButton.icon(
+              key: const ValueKey('bs-listen'),
+              onPressed: () => Voice.say('me', it.answer.join(' ')),
+              icon: const Icon(Icons.volume_up_rounded),
+              label: Text(hl('Listen, then build it')),
+            ),
+          ),
         const SizedBox(height: 14),
         Container(
           constraints: const BoxConstraints(minHeight: 70),
@@ -377,8 +417,9 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                   HapticFeedback.selectionClick();
                   setState(() => _built.add(k));
                   if (_built.length == it.shuffled.length) {
-                    final s = _built.map((i) => it.shuffled[i]).join(' ');
-                    _answer(s == it.answer.join(' '), say: null);
+                    final c = ref.read(contentProvider).value;
+                    final names = <String>{for (final ch in c?.characters ?? const []) ch.name.split(' ').first};
+                    _answer(sentenceMatches([for (final i in _built) it.shuffled[i]], it.answer, names: names), say: null);
                     Voice.say('me', it.answer.join(' '));
                   }
                 }),

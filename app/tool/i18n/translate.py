@@ -10,7 +10,7 @@ NLLB = {'hi': 'hin_Deva', 'bn': 'ben_Beng', 'pa': 'pan_Guru', 'zh': 'zho_Hans', 
 SCRIPT = {'Arab': '\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200c\u200d', 'Cyrl': '\u0400-\u04FF', 'Latn': 'A-Za-z\u00C0-\u024F', 'Ethi': '\u1200-\u139F', 'Deva': '\u0900-\u097F\u200c\u200d', 'Beng': '\u0980-\u09FF', 'Guru': '\u0A00-\u0A7F', 'Hans': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF', 'Hant': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF'}
 MODEL = os.environ.get('NLLB', '/workspace/mt/onmt13')
 sp = spm.SentencePieceProcessor(model_file='/workspace/mt/nllb13/sentencepiece.bpe.model')
-tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=4)
+tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=int(os.environ.get('MT_THREADS','2')))
 src = json.load(open(os.path.join(HERE, 'sources.json')))
 FA_DIG = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
 def ok(out, srctext, code):

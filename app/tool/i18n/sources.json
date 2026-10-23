@@ -1665,7 +1665,7 @@
 "ui": false
 },
 "(در نقش Ryan) فیفا بعد از مدرسه": {
-"en": "(As Ryan) FIFA after school",
+"en": "(As Ryan) GoalRush after school",
 "kind": "text",
 "ui": false
 },
@@ -2564,6 +2564,11 @@
 "kind": "text",
 "ui": false
 },
+"Having + اسم مفعول نشان می‌دهد کاری قبل از دیگری تمام شده: Having finished work, she went home.": {
+"en": "\"Having + past participle\" shows that one action finished before another: Having finished work, she went home.",
+"kind": "text",
+"ui": false
+},
 "I didn't expect برای گفتن غافلگیری به کار می‌رود.": {
 "en": "\"I didn't expect…\" is a useful way to talk about surprises: \"I didn't expect it to be so big.\"",
 "kind": "text",
@@ -2576,6 +2581,11 @@
 },
 "I reckon یعنی فکر می‌کنم.": {
 "en": "\"I reckon\" is a common informal British way to say \"I think\".",
+"kind": "text",
+"ui": false
+},
+"I'd like (I would like) شکل مؤدبانهٔ I want است؛ در مغازه و کافه به کار ببرید.": {
+"en": "\"I'd like\" (I would like) is a polite way to say \"I want\". Use it in shops and cafés.",
 "kind": "text",
 "ui": false
 },
@@ -2789,6 +2799,11 @@
 "kind": "text",
 "ui": false
 },
+"When I got to the station, the train had left. (اول قطار رفت، بعد من رسیدم.)": {
+"en": "When I got to the station, the train had left. (First the train left, then I arrived.)",
+"kind": "text",
+"ui": false
+},
 "Would you like…? بله لطفاً / نه ممنون": {
 "en": "Would you like…? Yes, please / No, thank you",
 "kind": "text",
@@ -2799,10 +2814,20 @@
 "kind": "text",
 "ui": false
 },
+"[\\u0600-\\u06FF\\u200c][\\u0600-\\u06FF\\u200c\\\\s،؛؟!.:()«»0-9۰-۹\\\\-/]*": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "[،,]\\s*\\{you\\}": {
 "en": null,
 "kind": "text",
 "ui": true
+},
+"a lot of با هر دو می‌آید و much بیشتر در سؤال و منفی به کار می‌رود.": {
+"en": "\"A lot of\" works with both, and \"much\" is mostly used in questions and negatives.",
+"kind": "text",
+"ui": false
 },
 "advert و noticeboard بریتانیایی‌اند.": {
 "en": "British vs American: advert / ad (UK) = commercial / ad (US). \"Noticeboard\" (UK) = bulletin board (US).",
@@ -2829,6 +2854,11 @@
 "kind": "text",
 "ui": false
 },
+"as long as و provided (that) یعنی «فقط به شرطی که»: You can borrow it as long as you bring it back.": {
+"en": "\"As long as\" and \"provided (that)\" mean \"only if\": You can borrow it as long as you bring it back.",
+"kind": "text",
+"ui": false
+},
 "at the weekend (بریتانیا) = on the weekend (آمریکا).": {
 "en": "British vs American: \"at the weekend\" (UK) = \"on the weekend\" (US).",
 "kind": "text",
@@ -2846,6 +2876,11 @@
 },
 "bauble گوی درخت کریسمس.": {
 "en": "\"Baubles\" are the round shiny balls you hang on a Christmas tree.",
+"kind": "text",
+"ui": false
+},
+"be bound to یعنی حتماً؛ may/might well یعنی به احتمال زیاد؛ could hardly یعنی تقریباً ناممکن بود.": {
+"en": "\"Be bound to\" means certain; \"may/might well\" means quite likely; \"could hardly\" means it was almost impossible.",
 "kind": "text",
 "ui": false
 },
@@ -2994,6 +3029,21 @@
 "kind": "text",
 "ui": false
 },
+"could have امکانی در گذشته که اتفاق نیفتاد: You could have been hurt!": {
+"en": "\"Could have\" is a past possibility that didn't happen: You could have been hurt!",
+"kind": "text",
+"ui": false
+},
+"could گذشتهٔ can برای توانایی کلی است: I could swim when I was five.": {
+"en": "\"Could\" is the past of \"can\" for general ability: I could swim when I was five.",
+"kind": "text",
+"ui": false
+},
+"could، be able to و manage to": {
+"en": "could, be able to, manage to",
+"kind": "text",
+"ui": false
+},
 "council tax برای خدمات شهری پرداخت می‌شود.": {
 "en": "Council tax is paid to the local council for services like bins, schools and street lights. Single adults get 25% off.",
 "kind": "text",
@@ -3049,6 +3099,16 @@
 "kind": "text",
 "ui": false
 },
+"didn't need to یعنی لازم نبود و معمولاً انجامش ندادی: I didn't need to queue.": {
+"en": "\"Didn't need to\" means it wasn't necessary, and usually you didn't do it: I didn't need to queue, so I went straight in.",
+"kind": "text",
+"ui": false
+},
+"do so و one/ones جای گروه فعلی یا اسم می‌نشینند: he did so. I'd like the red one.": {
+"en": "\"Do so\" and \"one/ones\" replace a verb phrase or a noun: He promised to call, and he did so. I'd like the red one.",
+"kind": "text",
+"ui": false
+},
 "do you (گفتاری)": {
 "en": "d'you",
 "kind": "word",
@@ -3056,6 +3116,11 @@
 },
 "don't have to یعنی لازم نیست، ولی mustn't یعنی ممنوع است.": {
 "en": "\"Don't have to\" means it isn't necessary, but \"mustn't\" means don't do it: You don't have to come. You mustn't smoke here.",
+"kind": "text",
+"ui": false
+},
+"enough یعنی به اندازهٔ کافی؛ بعد از صفت (big enough) و قبل از اسم (enough money) می‌آید.": {
+"en": "\"Enough\" means as much as you need. It goes after adjectives (big enough) and before nouns (enough money).",
 "kind": "text",
 "ui": false
 },
@@ -3104,6 +3169,11 @@
 "kind": "text",
 "ui": false
 },
+"for با مدت (for two hours) و since با نقطهٔ شروع (since nine o'clock).": {
+"en": "Use \"for\" with a period (for two hours) and \"since\" with a starting point (since nine o'clock).",
+"kind": "text",
+"ui": false
+},
 "fortnight یعنی دو هفته.": {
 "en": "\"Fortnight\" (two weeks) is common in British English but rare in American English.",
 "kind": "text",
@@ -3121,6 +3191,11 @@
 },
 "gig یعنی اجرای زنده.": {
 "en": "\"Gig\" is the usual British word for a live music performance.",
+"kind": "text",
+"ui": false
+},
+"going to برای برنامه و پیش‌بینی": {
+"en": "going to for plans and predictions",
 "kind": "text",
 "ui": false
 },
@@ -3199,6 +3274,11 @@
 "kind": "text",
 "ui": false
 },
+"however جملهٔ تازه را شروع می‌کند، معمولاً با ویرگول. whereas دو واقعیت را مقایسه می‌کند.": {
+"en": "\"However\" starts a new sentence, usually with a comma: It was cold. However, we went out. \"Whereas\" compares two facts.",
+"kind": "text",
+"ui": false
+},
 "ice lolly همان popsicle است.": {
 "en": "British \"ice lolly\" = American \"popsicle\".",
 "kind": "text",
@@ -3209,6 +3289,11 @@
 "kind": "text",
 "ui": false
 },
+"in case یعنی «محض احتیاط»: Take an umbrella in case it rains.": {
+"en": "\"In case\" means as a precaution: Take an umbrella in case it rains.",
+"kind": "text",
+"ui": false
+},
 "induction آشنایی اولیه است.": {
 "en": "An \"induction\" is a short introduction to safety and equipment — most UK gyms offer one free.",
 "kind": "text",
@@ -3216,6 +3301,11 @@
 },
 "it's not cricket یعنی ناجوانمردانه است.": {
 "en": "\"It's not cricket\" is an old idiom meaning \"it's not fair or honourable\", from cricket's reputation for gentlemanly behaviour.",
+"kind": "text",
+"ui": false
+},
+"its (مال آن) را با it's (آن هست) قاطی نکنید.": {
+"en": "Don't mix up \"its\" (belonging to it) and \"it's\" (it is).",
 "kind": "text",
 "ui": false
 },
@@ -3299,6 +3389,11 @@
 "kind": "text",
 "ui": false
 },
+"like، love و hate هر دو را می‌پذیرند: I like swimming. I like to swim.": {
+"en": "Like, love and hate can take either: I like swimming. I like to swim.",
+"kind": "text",
+"ui": false
+},
 "loft چیه؟": {
 "en": "What's a loft?",
 "kind": "text",
@@ -3311,6 +3406,11 @@
 },
 "lovely در بریتانیا خیلی رایج است.": {
 "en": "\"Lovely\" is a very common British word for \"nice\" or \"great\".",
+"kind": "text",
+"ui": false
+},
+"many و a few با قابل‌شمارش، much و a little با غیرقابل‌شمارش.": {
+"en": "Use \"many\" and \"a few\" with countable nouns, \"much\" and \"a little\" with uncountable nouns.",
 "kind": "text",
 "ui": false
 },
@@ -3354,6 +3454,11 @@
 "kind": "text",
 "ui": false
 },
+"my، your، his، her و 's": {
+"en": "my, your, his, her and 's",
+"kind": "text",
+"ui": false
+},
 "nan در بریتانیا یعنی مادربزرگ.": {
 "en": "\"Nan\" or \"nana\" is a common British word for grandmother.",
 "kind": "text",
@@ -3361,6 +3466,11 @@
 },
 "national treasure یعنی چهرهٔ بسیار محبوب.": {
 "en": "A \"national treasure\" is a much-loved public figure, like a favourite TV presenter.",
+"kind": "text",
+"ui": false
+},
+"needn't have + اسم مفعول یعنی کاری کردی که لازم نبود: I needn't have cooked.": {
+"en": "\"Needn't have\" + past participle means you did something that wasn't necessary: I needn't have cooked — they'd already eaten.",
 "kind": "text",
 "ui": false
 },
@@ -3544,8 +3654,18 @@
 "kind": "text",
 "ui": false
 },
+"should have + اسم مفعول برای پشیمانی یا انتقاد دربارهٔ گذشته: I should have called you.": {
+"en": "\"Should have\" + past participle is for regret or criticism about the past: I should have called you.",
+"kind": "text",
+"ui": false
+},
 "should have برای اشتباه گذشته به کار می‌رود.": {
 "en": "\"I should have…\" talks about a past mistake: \"I should have checked\", \"I should have asked\".",
+"kind": "text",
+"ui": false
+},
+"should have، could have، would have": {
+"en": "should have, could have, would have",
 "kind": "text",
 "ui": false
 },
@@ -3556,6 +3676,16 @@
 },
 "should برای توصیه، might و could یعنی شاید: You should see a GP. It might snow tonight.": {
 "en": "\"Should\" gives advice, and \"might\" or \"could\" means maybe: You should see a GP. It might snow tonight.",
+"kind": "text",
+"ui": false
+},
+"should و shouldn't برای توصیه": {
+"en": "should and shouldn't for advice",
+"kind": "text",
+"ui": false
+},
+"shouldn't یعنی کار خوبی نیست: You shouldn't drink coffee at night.": {
+"en": "\"Shouldn't\" means it's not a good idea: You shouldn't drink coffee at night.",
 "kind": "text",
 "ui": false
 },
@@ -3591,6 +3721,11 @@
 },
 "sticky tape یعنی چسب نواری.": {
 "en": "Brits usually say \"sticky tape\"; Americans just say \"tape\".",
+"kind": "text",
+"ui": false
+},
+"stop doing یعنی دیگر انجامش ندهی؛ stop to do یعنی می‌ایستی تا کاری انجام دهی.": {
+"en": "\"Stop doing\" means you no longer do it; \"stop to do\" means you stop in order to do something.",
 "kind": "text",
 "ui": false
 },
@@ -3654,8 +3789,48 @@
 "kind": "text",
 "ui": false
 },
+"that می‌تواند جای who یا which بنشیند: The woman that lives next door…": {
+"en": "\"That\" can replace who or which in these clauses: The woman that lives next door…",
+"kind": "text",
+"ui": false
+},
+"there is (there's) برای یک چیز و there are برای چند چیز.": {
+"en": "Use \"there is\" (there's) for one thing and \"there are\" for more than one.",
+"kind": "text",
+"ui": false
+},
+"there is و there are": {
+"en": "there is, there are",
+"kind": "text",
+"ui": false
+},
+"this برای یک چیز نزدیک و that برای یک چیز دور است.": {
+"en": "Use \"this\" for one thing near you and \"that\" for one thing far away.",
+"kind": "text",
+"ui": false
+},
+"this، that، these، those": {
+"en": "this, that, these, those",
+"kind": "text",
+"ui": false
+},
 "toilet/loo و bathroom/restroom.": {
 "en": "British people say \"the toilet\" or \"the loo\"; Americans say \"the bathroom\" or \"the restroom\".",
+"kind": "text",
+"ui": false
+},
+"too much با غیرقابل‌شمارش و too many با جمع.": {
+"en": "Use \"too much\" with uncountable nouns and \"too many\" with plurals.",
+"kind": "text",
+"ui": false
+},
+"too و enough": {
+"en": "too and enough",
+"kind": "text",
+"ui": false
+},
+"too یعنی بیش از اندازه: This coat is too big.": {
+"en": "\"Too\" means more than you want: This coat is too big.",
 "kind": "text",
 "ui": false
 },
@@ -3674,6 +3849,11 @@
 "kind": "text",
 "ui": false
 },
+"try to do یعنی تلاش کردن؛ try doing یعنی امتحان کردن یک راه‌حل.": {
+"en": "\"Try to do\" is making an effort; \"try doing\" is testing a way to solve a problem.",
+"kind": "text",
+"ui": false
+},
 "tummy واژهٔ کودکانهٔ شکم.": {
 "en": "\"Tummy\" is a gentle, childish word for stomach.",
 "kind": "text",
@@ -3686,6 +3866,16 @@
 },
 "unless یعنی «اگر نه»: We'll be late unless we leave now.": {
 "en": "\"Unless\" means \"if not\": We'll be late unless we leave now.",
+"kind": "text",
+"ui": false
+},
+"unless یعنی «مگر این‌که / اگر نه»: I won't go unless you come with me.": {
+"en": "\"Unless\" means \"if not\": I won't go unless you come with me.",
+"kind": "text",
+"ui": false
+},
+"unless، in case، as long as، provided that": {
+"en": "unless, in case, as long as, provided that",
 "kind": "text",
 "ui": false
 },
@@ -3716,6 +3906,11 @@
 },
 "vet مخفف veterinary surgeon.": {
 "en": "British \"vet\" is short for \"veterinary surgeon\"; Americans also say \"veterinarian\".",
+"kind": "text",
+"ui": false
+},
+"was going to اغلب برنامه‌ای را نشان می‌دهد که انجام نشد: I was going to call you, but I forgot.": {
+"en": "\"Was going to\" often shows a plan that didn't happen: I was going to call you, but I forgot.",
 "kind": "text",
 "ui": false
 },
@@ -3759,6 +3954,21 @@
 "kind": "text",
 "ui": false
 },
+"where برای مکان و whose برای مالکیت: the town where I grew up؛ the man whose car was stolen.": {
+"en": "Use \"where\" for places and \"whose\" for possession: the town where I grew up; the man whose car was stolen.",
+"kind": "text",
+"ui": false
+},
+"which می‌تواند به کل یک فکر اشاره کند: He was late again, which annoyed everyone.": {
+"en": "\"Which\" can refer to a whole idea: He was late again, which annoyed everyone.",
+"kind": "text",
+"ui": false
+},
+"while با کار طولانی‌تر می‌آید: While we were walking, it started to rain.": {
+"en": "\"While\" goes with the longer action: While we were walking, it started to rain.",
+"kind": "text",
+"ui": false
+},
 "will برای تصمیم آنی": {
 "en": "will for offers and decisions: I'll…",
 "kind": "text",
@@ -3766,6 +3976,11 @@
 },
 "will برای تصمیم لحظه‌ای، پیشنهاد کمک و پیش‌بینی: I'll make some tea. I think it'll rain.": {
 "en": "\"Will\" is for quick decisions, offers and predictions: It's cold. I'll make some tea. I think it'll rain.",
+"kind": "text",
+"ui": false
+},
+"will برای پیشنهاد، قول و تصمیم لحظه‌ای": {
+"en": "will for offers, promises and quick decisions",
 "kind": "text",
 "ui": false
 },
@@ -3791,6 +4006,16 @@
 },
 "work experience کارآموزی کوتاه دانش‌آموزی است.": {
 "en": "\"Work experience\" is a short unpaid placement many British students do at 15–17, often for one or two weeks.",
+"kind": "text",
+"ui": false
+},
+"would have گذشته‌ای متفاوت را تصور می‌کند: I would have come, but I was ill.": {
+"en": "\"Would have\" imagines a different past: I would have come, but I was ill.",
+"kind": "text",
+"ui": false
+},
+"would like و want": {
+"en": "would like and want",
 "kind": "text",
 "ui": false
 },
@@ -3839,6 +4064,11 @@
 "kind": "text",
 "ui": false
 },
+"{you} هستم، سوم مه ۱۹۹۶.": {
+"en": "It's {you}, the third of May, 1996.",
+"kind": "text",
+"ui": false
+},
 "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!": {
 "en": "{you}! {you}! Tell me a story from Iran! Not a book. A real story!",
 "kind": "text",
@@ -3871,11 +4101,6 @@
 },
 "{you}، حدس بزن چی شده؟ برای دیوالی به خونهٔ پریا دعوت شدیم! شنبه عصر. همهٔ خانواده‌اش اونجان.": {
 "en": "{you}, guess what? We've been invited to Priya's for Diwali! Saturday evening. Her whole family will be there.",
-"kind": "text",
-"ui": false
-},
-"{you}، سوم مه ۱۹۹۶.": {
-"en": "It's {you}, the third of May, 1996.",
 "kind": "text",
 "ui": false
 },
@@ -4344,6 +4569,11 @@
 "kind": "text",
 "ui": false
 },
+"«آینده در گذشته» آنچه را در گذشته برنامه‌ریزی یا انتظار می‌رفت بیان می‌کند: was going to، would، was about to، was to.": {
+"en": "The future in the past describes what was planned or expected at an earlier time: was going to, would, was about to, was to.",
+"kind": "text",
+"ui": false
+},
 "«آینه، راهنما، حرکت. همیشه یادت باشد.»": {
 "en": "\"Mirror, signal, manoeuvre. Always remember that.\"",
 "kind": "text",
@@ -4366,6 +4596,11 @@
 },
 "«از زمانی بگویید که مجبور شدید با درگیری بین همکاران کنار بیایید.»": {
 "en": "\"Tell us about a time when you had to deal with a conflict between colleagues.\"",
+"kind": "text",
+"ui": false
+},
+"«از صف متنفرم.» «من هم همین‌طور.»": {
+"en": "\"I can't stand queues.\" \"Neither can I.\"",
 "kind": "text",
 "ui": false
 },
@@ -5259,6 +5494,11 @@
 "kind": "text",
 "ui": false
 },
+"«شیر نداریم.» «می‌روم مغازه.»": {
+"en": "\"There's no milk.\" \"I'll go to the shop.\"",
+"kind": "text",
+"ui": false
+},
 "«شیر، تخم‌مرغ، چند تا سیب، چند تا پیاز، یه‌کم پنیر، و چیپس نه، رایان.» بی‌رحمانه‌ست.": {
 "en": "\"Milk, eggs, some apples, a few onions, a bit of cheese, and NO crisps, Ryan.\" Harsh.",
 "kind": "text",
@@ -5306,6 +5546,11 @@
 },
 "«غذای محبوب راننده اتوبوس چیه؟ باس-گتی!» خودم ساختمش!": {
 "en": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
+"kind": "text",
+"ui": false
+},
+"«فردا باران می‌آید؟» «متأسفانه بله.»": {
+"en": "\"Will it rain tomorrow?\" \"I'm afraid so.\"",
 "kind": "text",
 "ui": false
 },
@@ -6650,17 +6895,17 @@
 "ui": false
 },
 "آج میں نے…": {
-"en": "Today I…",
+"en": "writeHint",
 "kind": "text",
 "ui": true
 },
 "آج کا مشن": {
-"en": "Daily mission",
+"en": "mission",
 "kind": "text",
 "ui": true
 },
 "آج کی تحریر لکھیں": {
-"en": "Write today’s entry",
+"en": "writeDiary",
 "kind": "text",
 "ui": true
 },
@@ -7485,7 +7730,7 @@
 "ui": false
 },
 "آرشیو لحظه‌های مهم": {
-"en": "Milestone archive",
+"en": "archive",
 "kind": "text",
 "ui": true
 },
@@ -8106,11 +8351,6 @@
 },
 "آره! قطعاً خطا بود!": {
 "en": "Yes! That was definitely a foul!",
-"kind": "text",
-"ui": false
-},
-"آره! لزلی، بپرس.": {
-"en": "We do! Leslie, go on, ask her.",
 "kind": "text",
 "ui": false
 },
@@ -10719,6 +10959,11 @@
 "kind": "text",
 "ui": false
 },
+"آره، کمکش می‌کنیم! لزلی، یالا، ازش بپرس.": {
+"en": "We do! Leslie, go on, ask her.",
+"kind": "text",
+"ui": false
+},
 "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره.": {
 "en": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
 "kind": "text",
@@ -11065,7 +11310,7 @@
 "ui": true
 },
 "آزمون تعیین سطح": {
-"en": "Placement quiz",
+"en": "quiz",
 "kind": "text",
 "ui": true
 },
@@ -12369,6 +12614,11 @@
 "kind": "text",
 "ui": false
 },
+"آن را به او بده.": {
+"en": "Give it to her.",
+"kind": "text",
+"ui": false
+},
 "آن را روی طبقهٔ بالای آشپزخانه گذاشت، دور از دسترس ویلیام.": {
 "en": "He put it on the top shelf in the kitchen, far away from William.",
 "kind": "text",
@@ -12401,6 +12651,16 @@
 },
 "آن قسمت": {
 "en": "the bit",
+"kind": "text",
+"ui": false
+},
+"آن همان دکتری است که به مادرم کمک کرد.": {
+"en": "That's the doctor who helped my mum.",
+"kind": "text",
+"ui": false
+},
+"آن کفش‌ها قشنگ‌اند!": {
+"en": "Those shoes are lovely!",
 "kind": "text",
 "ui": false
 },
@@ -13010,7 +13270,7 @@
 "ui": false
 },
 "آهسته": {
-"en": "Slow",
+"en": "slowly",
 "kind": "word",
 "ui": true
 },
@@ -13020,7 +13280,7 @@
 "ui": false
 },
 "آهسته‌شده": {
-"en": "Slowed",
+"en": "slowed",
 "kind": "text",
 "ui": true
 },
@@ -13160,7 +13420,7 @@
 "ui": false
 },
 "آپ کی انگریزی کیسی ہے؟": {
-"en": "How good is your English?",
+"en": "pick_level",
 "kind": "text",
 "ui": true
 },
@@ -13250,7 +13510,7 @@
 "ui": false
 },
 "آہستہ": {
-"en": "Slowed",
+"en": "slow",
 "kind": "text",
 "ui": true
 },
@@ -13309,6 +13569,36 @@
 "kind": "text",
 "ui": false
 },
+"آیندهٔ استمراری (will be + ing): کاری که در زمانی در آینده در جریان است: This time tomorrow I'll be flying.": {
+"en": "The future continuous (will be + -ing) is an action in progress at a future time: This time tomorrow I'll be flying to Tehran.",
+"kind": "text",
+"ui": false
+},
+"آیندهٔ استمراری راهی مؤدبانه برای پرسیدن برنامه است: Will you be using the car tonight?": {
+"en": "The future continuous is also a polite way to ask about plans: Will you be using the car tonight?",
+"kind": "text",
+"ui": false
+},
+"آیندهٔ استمراری و آیندهٔ کامل": {
+"en": "Future continuous and future perfect",
+"kind": "text",
+"ui": false
+},
+"آیندهٔ کامل (will have + اسم مفعول): کاری که تا زمانی در آینده تمام شده: By June I'll have finished the course.": {
+"en": "The future perfect (will have + past participle) is an action finished before a future time: By June I'll have finished the course.",
+"kind": "text",
+"ui": false
+},
+"آیندهٔ کامل استمراری (will have been + ing) از نقطه‌ای در آینده به مدت یک کار نگاه می‌کند: By May, I'll have been living here for ten years.": {
+"en": "The future perfect continuous (will have been + -ing) looks back from a future point at how long something has lasted: By May, I'll have been living here for ten years.",
+"kind": "text",
+"ui": false
+},
+"آیندهٔ کامل استمراری و «آینده در گذشته»": {
+"en": "Future perfect continuous and the future in the past",
+"kind": "text",
+"ui": false
+},
 "آیندهٔ کامل و استمراری": {
 "en": "Future perfect / future continuous: By then I'll have…",
 "kind": "text",
@@ -13345,32 +13635,32 @@
 "ui": false
 },
 "أرشيف المراحل": {
-"en": "Milestone archive",
+"en": "archive",
 "kind": "text",
 "ui": true
 },
 "أعد القراءة مع الترجمة أو استمع بسرعتك.": {
-"en": "Re-read with subtitles, or listen at your speed.",
+"en": "replay_sub",
 "kind": "text",
 "ui": true
 },
 "أنهِ 5 محادثات واكسب 60 ثقة هذا الأسبوع لتربح ختمًا": {
-"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
+"en": "weekly_sub",
 "kind": "text",
 "ui": true
 },
 "أنهِ محادثتين في المستوى السابق": {
-"en": "Finish 2 chats in the previous level to open",
+"en": "level_locked",
 "kind": "text",
 "ui": true
 },
 "إعادة": {
-"en": "Replay",
+"en": "replay",
 "kind": "text",
 "ui": true
 },
 "إعادة صياغة": {
-"en": "recast",
+"en": "recasts",
 "kind": "text",
 "ui": true
 },
@@ -13380,7 +13670,7 @@
 "ui": false
 },
 "ابدأ هنا": {
-"en": "Start here",
+"en": "start_here",
 "kind": "text",
 "ui": true
 },
@@ -13470,7 +13760,7 @@
 "ui": false
 },
 "ابھی کچھ نہیں — لکھیں یا گفتگو مکمل کریں۔": {
-"en": "No entries yet — write one, or finish a conversation.",
+"en": "diary_empty",
 "kind": "text",
 "ui": true
 },
@@ -13481,6 +13771,11 @@
 },
 "اتاق انتظار": {
 "en": "waiting room",
+"kind": "text",
+"ui": false
+},
+"اتاق بازی مهدکودک": {
+"en": "Little Acorns playroom",
 "kind": "text",
 "ui": false
 },
@@ -13576,6 +13871,11 @@
 },
 "اتاق پیش‌دبستانی": {
 "en": "pre-school room",
+"kind": "text",
+"ui": false
+},
+"اتاق کارکنان مهدکودک": {
+"en": "Little Acorns staff room",
 "kind": "text",
 "ui": false
 },
@@ -13731,6 +14031,11 @@
 },
 "اتوبوس تام، دالستون جانکشن": {
 "en": "Tom's bus, Dalston Junction",
+"kind": "text",
+"ui": false
+},
+"اتوبوس جلوی بیمارستان می‌ایستد؟": {
+"en": "Does the bus stop at the hospital?",
 "kind": "text",
 "ui": false
 },
@@ -14214,6 +14519,11 @@
 "kind": "word",
 "ui": false
 },
+"احتیاط در بیان ادعا را نرم‌تر می‌کند: It would appear that…، This tends to…، It seems likely that…": {
+"en": "Hedging makes claims softer and more careful: It would appear that…, This tends to…, It seems likely that…, There is some evidence that…",
+"kind": "text",
+"ui": false
+},
 "احساس بهتر": {
 "en": "Feeling better",
 "kind": "text",
@@ -14340,7 +14650,7 @@
 "ui": false
 },
 "اختبار تحديد المستوى": {
-"en": "Placement quiz",
+"en": "quiz",
 "kind": "text",
 "ui": true
 },
@@ -15190,7 +15500,7 @@
 "ui": false
 },
 "از این‌جا شروع کن": {
-"en": "Start here",
+"en": "start_here",
 "kind": "text",
 "ui": true
 },
@@ -15326,6 +15636,11 @@
 },
 "از جدول خیلی دورم؟": {
 "en": "Am I too far from the kerb?",
+"kind": "text",
+"ui": false
+},
+"از جلوی ادارهٔ پست رد می‌شوی؟": {
+"en": "Will you be going past the post office?",
 "kind": "text",
 "ui": false
 },
@@ -16209,8 +16524,8 @@
 "kind": "text",
 "ui": false
 },
-"از کجا دربارهٔ توییکس فهمیدی؟": {
-"en": "How did you know about the Twix?",
+"از کجا دربارهٔ شکلات فهمیدی؟": {
+"en": "How did you know about the chocolate bar?",
 "kind": "text",
 "ui": false
 },
@@ -16480,17 +16795,17 @@
 "ui": false
 },
 "اس لیول پر پہنچ کر بات کریں گے۔": {
-"en": "We’ll chat once you’ve reached this level.",
+"en": "lockedLevel",
 "kind": "text",
 "ui": true
 },
 "اس ہفتے 5 گفتگو مکمل کریں اور 60 اعتماد حاصل کریں": {
-"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
+"en": "weekly_sub",
 "kind": "text",
 "ui": true
 },
 "اس ہفتے کی مہر مل گئی!": {
-"en": "Stamp earned this week!",
+"en": "weekly_won",
 "kind": "text",
 "ui": true
 },
@@ -16825,7 +17140,7 @@
 "ui": false
 },
 "استمع": {
-"en": "Listen",
+"en": "listen",
 "kind": "text",
 "ui": true
 },
@@ -16919,6 +17234,11 @@
 "kind": "text",
 "ui": false
 },
+"اسم سگشان بیسکویت است.": {
+"en": "Their dog is called Biscuit.",
+"kind": "text",
+"ui": false
+},
 "اسم سگه بود. همه داشتن می‌خندیدن.": {
 "en": "that was the dog's name. Everyone was laughing.",
 "kind": "text",
@@ -16929,6 +17249,11 @@
 "kind": "text",
 "ui": false
 },
+"اسم قابل‌شمارش را می‌شود شمرد: one apple، two apples. اسم غیرقابل‌شمارش نه: milk، money، bread، advice.": {
+"en": "Countable nouns can be counted: one apple, two apples. Uncountable nouns can't: milk, money, bread, advice.",
+"kind": "text",
+"ui": false
+},
 "اسم قدیمی": {
 "en": "old name",
 "kind": "text",
@@ -16936,6 +17261,11 @@
 },
 "اسم مشتری‌های همیشگی و اینکه چایشان را چطور دوست دارند یاد گرفت.": {
 "en": "He learnt the names of the regulars and how they liked their tea.",
+"kind": "text",
+"ui": false
+},
+"اسم مفعول می‌تواند معنای مجهول داشته باشد: Built in 1890, the station is now a museum.": {
+"en": "A past participle can have a passive meaning: Built in 1890, the station is now a museum.",
 "kind": "text",
 "ui": false
 },
@@ -17264,6 +17594,11 @@
 "kind": "text",
 "ui": false
 },
+"اسم‌های قابل‌شمارش و غیرقابل‌شمارش: much، many، a lot of": {
+"en": "Countable and uncountable: much, many, a lot of, a few, a little",
+"kind": "text",
+"ui": false
+},
 "اسم‌های قشنگیه! بیا به مامانی بگیم.": {
 "en": "Lovely names! Let's tell Mummy.",
 "kind": "text",
@@ -17540,7 +17875,7 @@
 "ui": false
 },
 "اسے کھیلنے کے لیے کردار بدلیں۔": {
-"en": "Switch role to play this one.",
+"en": "roleStory",
 "kind": "text",
 "ui": true
 },
@@ -17731,6 +18066,11 @@
 },
 "اشکالی ندارد ویلیام را بغل کنی؟": {
 "en": "Would you mind holding William?",
+"kind": "text",
+"ui": false
+},
+"اشکالی ندارد کمی صبر کنید؟": {
+"en": "Do you mind waiting a moment?",
 "kind": "text",
 "ui": false
 },
@@ -17950,7 +18290,7 @@
 "ui": false
 },
 "اصل رفتار": {
-"en": "Native speed",
+"en": "native",
 "kind": "text",
 "ui": true
 },
@@ -17965,7 +18305,7 @@
 "ui": false
 },
 "اصلاحات": {
-"en": "recast",
+"en": "recasts",
 "kind": "text",
 "ui": true
 },
@@ -18385,7 +18725,7 @@
 "ui": false
 },
 "اعتماد هر شخصیت": {
-"en": "TRUST BY CHARACTER",
+"en": "trustBy",
 "kind": "text",
 "ui": true
 },
@@ -18395,12 +18735,12 @@
 "ui": false
 },
 "اعتماد: آپ کی طویل دوستی": {
-"en": "Trust: your long-term friendship",
+"en": "trust",
 "kind": "text",
 "ui": true
 },
 "اعتماد: دوستی‌تان در طول زمان": {
-"en": "Trust: your long-term friendship",
+"en": "trust",
 "kind": "text",
 "ui": true
 },
@@ -18551,6 +18891,16 @@
 },
 "اغلب تو گمرک نگه داشته میشه. اقلام نو هستن یا دست دوم؟": {
 "en": "it's often stopped at customs. Are the items new or used?",
+"kind": "text",
+"ui": false
+},
+"اغلب علت وضعی در گذشته را توضیح می‌دهد: She was tired because she'd been working all night.": {
+"en": "It often explains a past situation: She was tired because she'd been working all night.",
+"kind": "text",
+"ui": false
+},
+"اغلب همراه گذشتهٔ ساده می‌آید: I was cooking when the phone rang.": {
+"en": "We often use it with the past simple: I was cooking when the phone rang.",
 "kind": "text",
 "ui": false
 },
@@ -18729,6 +19079,16 @@
 "kind": "text",
 "ui": false
 },
+"افعال وجهی استنباط: must be، can't be، might have been": {
+"en": "Modals of deduction: must be, can't be, might have been",
+"kind": "text",
+"ui": false
+},
+"افعال وجهی پیشرفته: needn't have، be bound to، may well": {
+"en": "Advanced modals: needn't have, be bound to, may well",
+"kind": "text",
+"ui": false
+},
 "اقتصادی/عملی": {
 "en": "viable",
 "kind": "word",
@@ -18780,12 +19140,12 @@
 "ui": false
 },
 "اكتب يومك بالإنجليزية — ستردّ العائلة.": {
-"en": "Write your day in English — the family will answer.",
+"en": "diary_sub",
 "kind": "text",
 "ui": true
 },
 "اكتب يوميات اليوم": {
-"en": "Write today’s entry",
+"en": "writeDiary",
 "kind": "text",
 "ui": true
 },
@@ -18795,7 +19155,7 @@
 "ui": false
 },
 "اكتملت المهمة — رائع!": {
-"en": "Mission complete — brilliant!",
+"en": "mission_done",
 "kind": "text",
 "ui": true
 },
@@ -19409,8 +19769,8 @@
 "kind": "text",
 "ui": false
 },
-"البته. اینم دو پوند بقیه‌ش. یه کلوچهٔ مجانی هم برای نیکولا ببر.": {
-"en": "Course. And here's two pounds change. Take a free cookie for Nicola too.",
+"البته. اینم دو پوند بقیه‌ش. یه بیسکویتِ مجانی هم برای نیکولا ببر.": {
+"en": "Course. And here's two pounds change. Take a free biscuit for Nicola too.",
 "kind": "text",
 "ui": false
 },
@@ -19650,7 +20010,7 @@
 "ui": false
 },
 "الترجمة قريبًا — تُعرض الفارسية.": {
-"en": "Translation in your language is coming soon — Persian shown.",
+"en": "no_translation",
 "kind": "text",
 "ui": true
 },
@@ -19660,12 +20020,12 @@
 "ui": false
 },
 "الثقة لكل شخصية": {
-"en": "TRUST BY CHARACTER",
+"en": "trustBy",
 "kind": "text",
 "ui": true
 },
 "الثقة: صداقتكما الطويلة": {
-"en": "Trust: your long-term friendship",
+"en": "trust",
 "kind": "text",
 "ui": true
 },
@@ -19675,17 +20035,17 @@
 "ui": false
 },
 "السرعة الأصلية": {
-"en": "Native speed",
+"en": "native",
 "kind": "text",
 "ui": true
 },
 "العب بدور": {
-"en": "Play as",
+"en": "playAs",
 "kind": "text",
 "ui": true
 },
 "العب مجددًا": {
-"en": "Play again",
+"en": "playAgain",
 "kind": "text",
 "ui": true
 },
@@ -19705,12 +20065,12 @@
 "ui": false
 },
 "الفصل 1 · يوم مع عائلة توم": {
-"en": "Chapter 1 · A Day with the Toms",
+"en": "chapter1",
 "kind": "text",
 "ui": true
 },
 "القصة التالية": {
-"en": "Next story",
+"en": "nextStory",
 "kind": "text",
 "ui": true
 },
@@ -19720,22 +20080,22 @@
 "ui": true
 },
 "المزاج: كيف تسير المحادثة الآن": {
-"en": "Mood: how this chat is going right now",
+"en": "mood",
 "kind": "text",
 "ui": true
 },
 "المس شخصًا أو غرضًا في اللوحة": {
-"en": "Tap a person or a prop in the painting",
+"en": "tap_someone",
 "kind": "text",
 "ui": true
 },
 "النمو": {
-"en": "Growing up",
+"en": "growingUp",
 "kind": "text",
 "ui": true
 },
 "النمو: كم نمت الشخصية معك": {
-"en": "Growth: how much this character has grown with you",
+"en": "growth",
 "kind": "text",
 "ui": true
 },
@@ -19805,12 +20165,12 @@
 "ui": false
 },
 "اليوم أنا…": {
-"en": "Today I…",
+"en": "writeHint",
 "kind": "text",
 "ui": true
 },
 "اليوميات": {
-"en": "Diary",
+"en": "diary",
 "kind": "text",
 "ui": true
 },
@@ -19854,6 +20214,11 @@
 "kind": "text",
 "ui": false
 },
+"الگوی فعل‌ها: want to و enjoy -ing": {
+"en": "Verb patterns: want to, enjoy -ing",
+"kind": "text",
+"ui": false
+},
 "الیزابت. باهوشه و یه کم ترسناک.": {
 "en": "Elizabeth. She's clever and a bit scary.",
 "kind": "text",
@@ -19866,6 +20231,11 @@
 },
 "اما امشب آقای براون در تختش نیست.": {
 "en": "But tonight Mr Brown is not in her bed.",
+"kind": "text",
+"ui": false
+},
+"اما بعد از be می‌آیند: She's always late.": {
+"en": "But they go after \"be\": She's always late.",
 "kind": "text",
 "ui": false
 },
@@ -20119,6 +20489,11 @@
 "kind": "word",
 "ui": false
 },
+"امروز آدم زیادی این‌جا نیست.": {
+"en": "There aren't many people here today.",
+"kind": "text",
+"ui": false
+},
 "امروز آفتاب درآمده است.": {
 "en": "Today the sun is out.",
 "kind": "text",
@@ -20285,7 +20660,7 @@
 "ui": false
 },
 "امروز من…": {
-"en": "Today I…",
+"en": "writeHint",
 "kind": "text",
 "ui": true
 },
@@ -20426,6 +20801,11 @@
 },
 "امری به ترتیب": {
 "en": "Imperatives in order: crack, whisk, cook",
+"kind": "text",
+"ui": false
+},
+"امری: Sit down! Don't run!": {
+"en": "Imperatives: Sit down! Don't run!",
 "kind": "text",
 "ui": false
 },
@@ -20751,6 +21131,11 @@
 },
 "امکان ندارد": {
 "en": "no way",
+"kind": "text",
+"ui": false
+},
+"امکان ندارد گرسنه باشی! تازه غذا خوردی.": {
+"en": "You can't be hungry! You've just eaten.",
 "kind": "text",
 "ui": false
 },
@@ -21205,7 +21590,7 @@
 "ui": false
 },
 "انتهت القصة": {
-"en": "Story finished",
+"en": "storyDone",
 "kind": "text",
 "ui": true
 },
@@ -21524,6 +21909,11 @@
 "kind": "word",
 "ui": false
 },
+"انکار کرد که پول را برداشته.": {
+"en": "He denied taking the money.",
+"kind": "text",
+"ui": false
+},
 "انکار کردن به این معنی نیست که اتفاق نمی‌افته.": {
 "en": "Denying it doesn't mean it's not happening, though.",
 "kind": "text",
@@ -21545,7 +21935,7 @@
 "ui": false
 },
 "انگریزی میں جواب دیں…": {
-"en": "Reply in English…",
+"en": "replyHint",
 "kind": "text",
 "ui": true
 },
@@ -21665,7 +22055,7 @@
 "ui": false
 },
 "انگلیسی را با زندگی کنار یک خانوادهٔ بریتانیایی یاد بگیر.": {
-"en": "Learn English by living with a British family.",
+"en": "welcome_sub",
 "kind": "text",
 "ui": true
 },
@@ -21740,7 +22130,7 @@
 "ui": false
 },
 "انگلیسی‌ات در چه سطحی است؟": {
-"en": "How good is your English?",
+"en": "pick_level",
 "kind": "text",
 "ui": true
 },
@@ -21971,6 +22361,11 @@
 },
 "او همچنان صبح‌های جمعه به کلاس چهارمش درس می‌داد، چون بچه‌ها خواسته بودند.": {
 "en": "She would still teach her Year Four class on Friday mornings, because the children had asked for her.",
+"kind": "text",
+"ui": false
+},
+"او واقعاً دربارهٔ ترافیک هشدار داده بود.": {
+"en": "She did warn us about the traffic.",
 "kind": "text",
 "ui": false
 },
@@ -22275,7 +22670,7 @@
 "ui": false
 },
 "اول تکلیف، بعد فیفا. قبول؟": {
-"en": "Homework first, then FIFA. Deal?",
+"en": "Homework first, then GoalRush. Deal?",
 "kind": "text",
 "ui": false
 },
@@ -22364,8 +22759,8 @@
 "kind": "text",
 "ui": false
 },
-"اول ساندویچ. خسته‌کننده! باشه. ببین — کلوچهٔ دایناسوری هست! و کیک شکلاتی. کدومش؟": {
-"en": "Sandwiches first. Boring! OK. Look — there's a dinosaur cookie! And a chocolate cake. Which one?",
+"اول ساندویچ. خسته‌کننده! باشه. ببین — بیسکویتِ دایناسوری هست! و کیک شکلاتی. کدومش؟": {
+"en": "Sandwiches first. Boring! OK. Look — there's a dinosaur biscuit! And a chocolate cake. Which one?",
 "kind": "text",
 "ui": false
 },
@@ -24060,7 +24455,7 @@
 "ui": false
 },
 "اپنا دن انگریزی میں لکھیں — خاندان جواب دے گا۔": {
-"en": "Write your day in English — the family will answer.",
+"en": "diary_sub",
 "kind": "text",
 "ui": true
 },
@@ -24154,6 +24549,11 @@
 "kind": "text",
 "ui": false
 },
+"اگر این دکمه را فشار دهید، در باز می‌شود.": {
+"en": "If you press this button, the door opens.",
+"kind": "text",
+"ui": false
+},
 "اگر اینترنت خانگی مدت طولانی قطع شود، بسیاری از شرکت‌ها باید خودکار غرامت بدهند.": {
 "en": "If your broadband stops working for a long time, many UK providers must give you automatic compensation. Keep a note of the dates.",
 "kind": "text",
@@ -24181,6 +24581,11 @@
 },
 "اگر بقیه موافق باشند، من حاضرم یک پیش‌نویس آماده کنم.": {
 "en": "I'm happy to draft something, if people are up for it.",
+"kind": "text",
+"ui": false
+},
+"اگر به گیاهان آب ندهید، می‌میرند.": {
+"en": "If you don't water plants, they die.",
 "kind": "text",
 "ui": false
 },
@@ -24309,6 +24714,11 @@
 "kind": "text",
 "ui": false
 },
+"اگر هنوز ثبت‌نام نکرده‌اید، لطفاً امروز این کار را بکنید.": {
+"en": "If you haven't registered yet, please do so today.",
+"kind": "text",
+"ui": false
+},
 "اگر هوا اجازه بدهد": {
 "en": "if the weather is good enough",
 "kind": "text",
@@ -24344,13 +24754,18 @@
 "kind": "text",
 "ui": false
 },
+"اگر یخ را گرم کنید، ذوب می‌شود. اگر شب قهوه بخورم، خوابم نمی‌برد.": {
+"en": "If you heat ice, it melts. If I drink coffee at night, I can't sleep.",
+"kind": "text",
+"ui": false
+},
 "اگر … نکنند، می‌توانی…": {
 "en": "If they don't…, you can…",
 "kind": "text",
 "ui": false
 },
 "اگلی کہانی": {
-"en": "Next story",
+"en": "nextStory",
 "kind": "text",
 "ui": true
 },
@@ -25579,6 +25994,11 @@
 "kind": "text",
 "ui": false
 },
+"این آشپزخانهٔ لزلی است.": {
+"en": "This is Leslie's kitchen.",
+"kind": "text",
+"ui": false
+},
 "این آقا کوچولو کیه؟ ویلیامه؟ اولین اصلاحش! لزلی گفت میاریش. بیا بالا، رو صندلی بلند.": {
 "en": "Who's this little man? Is this William? His first haircut! Leslie said you'd bring him. Up you get, on the booster seat.",
 "kind": "text",
@@ -25664,6 +26084,11 @@
 "kind": "text",
 "ui": false
 },
+"این برادرم، رایان است.": {
+"en": "This is my brother, Ryan.",
+"kind": "text",
+"ui": false
+},
 "این براش خیلی ارزش داره. ساعت ده و نیم راه میفتیم. لباس گرم بپوش": {
 "en": "That means a lot to him. We'll leave at half ten. Wrap up warm",
 "kind": "text",
@@ -25736,6 +26161,11 @@
 },
 "این بوی چیه؟ ساندویچه؟": {
 "en": "What's that smell? Is that a sandwich?",
+"kind": "text",
+"ui": false
+},
+"این بیسکویت‌ها که در یورکشایر ساخته می‌شوند، معروف‌اند.": {
+"en": "Made in Yorkshire, these biscuits are famous.",
 "kind": "text",
 "ui": false
 },
@@ -26290,7 +26720,7 @@
 "ui": false
 },
 "این مکان هنوز قفل است": {
-"en": "This place is still locked",
+"en": "locked_place",
 "kind": "text",
 "ui": true
 },
@@ -26410,12 +26840,17 @@
 "ui": false
 },
 "این هفته ۵ گفتگو را تمام کن و ۶۰ امتیاز اعتماد جمع کن تا مُهر بگیری": {
-"en": "Finish 5 chats and earn 60 trust this week to win a passport stamp",
+"en": "weekly_sub",
 "kind": "text",
 "ui": true
 },
 "این هم اوون با پیش‌بینی هوا.": {
 "en": "Here's Owen with the weather.",
+"kind": "text",
+"ui": false
+},
+"این همان اتوبوسی است که به هکنی می‌رود؟": {
+"en": "Is this the bus which goes to Hackney?",
 "kind": "text",
 "ui": false
 },
@@ -26566,6 +27001,11 @@
 },
 "این کارتمه. یه‌کم خم شده — ویلیام به‌عنوان بلیت اتوبوس اسباب‌بازیش ازش استفاده کرد.": {
 "en": "Here's my card. It's a bit bent — William used it as a ticket for his toy bus.",
+"kind": "text",
+"ui": false
+},
+"این کافه‌ای است که اولین بار همدیگر را دیدیم.": {
+"en": "This is the café where we first met.",
 "kind": "text",
 "ui": false
 },
@@ -26720,7 +27160,7 @@
 "ui": false
 },
 "این یک داستان خصوصی خانوادگی است — اول اعتماد بیشتری بساز.": {
-"en": "This is a private family story — build more trust first.",
+"en": "privateStory",
 "kind": "text",
 "ui": true
 },
@@ -27349,8 +27789,18 @@
 "kind": "text",
 "ui": false
 },
+"این‌جا when اغلب همان معنا را دارد: When it rains, the roads get busy.": {
+"en": "\"When\" often means the same here: When it rains, the roads get busy.",
+"kind": "text",
+"ui": false
+},
 "این‌جا بهترین یورکشایر پودینگ لندن را دارد.": {
 "en": "Best Yorkshire puddings in London, this place.",
+"kind": "text",
+"ui": false
+},
+"این‌جا نمی‌توانید پارک کنید مگر مجوز داشته باشید.": {
+"en": "You can't park here unless you have a permit.",
 "kind": "text",
 "ui": false
 },
@@ -27474,6 +27924,11 @@
 "kind": "text",
 "ui": false
 },
+"این‌ها را در گزارش، شکایت و ایمیل کاری به کار ببرید، نه در گپ دوستانه.": {
+"en": "Use these in reports, complaints and work emails, not in a chat with friends.",
+"kind": "text",
+"ui": false
+},
 "این‌ها نرمن. رسیده‌ان؟": {
 "en": "These ones are soft. Are they ripe?",
 "kind": "text",
@@ -27486,6 +27941,11 @@
 },
 "این‌ها چیه؟ نیکولا، هنوز بیداری؟ ساعت نهه!": {
 "en": "What's all this? Nicola, are you still awake? It's nine o'clock!",
+"kind": "text",
+"ui": false
+},
+"این‌ها کلیدهای توست؟": {
+"en": "Are these your keys?",
 "kind": "text",
 "ui": false
 },
@@ -27530,7 +27990,7 @@
 "ui": false
 },
 "بأي لغة نشرح لك؟": {
-"en": "Which language should we explain things in?",
+"en": "pick_lang",
 "kind": "text",
 "ui": true
 },
@@ -27564,6 +28024,16 @@
 "kind": "text",
 "ui": false
 },
+"با Would you like…? تعارف کنید و جواب بدهید Yes, please یا No, thank you.": {
+"en": "Offer with \"Would you like…?\" and answer \"Yes, please\" or \"No, thank you\".",
+"kind": "text",
+"ui": false
+},
+"با already، just، before، by the time و after رایج است.": {
+"en": "It's common with already, just, before, by the time and after.",
+"kind": "text",
+"ui": false
+},
 "با am/is/are + فعل ing‌دار ساخته می‌شود: I'm reading، she's cooking، they're playing.": {
 "en": "Make it with am, is or are + the -ing form: I'm reading, she's cooking, they're playing.",
 "kind": "text",
@@ -27574,6 +28044,16 @@
 "kind": "text",
 "ui": false
 },
+"با be: Where is the station? با فعل‌های دیگر do/does: Where do you live?": {
+"en": "With \"be\": Where is the station? With other verbs use do/does: Where do you live?",
+"kind": "text",
+"ui": false
+},
+"با for و since برای مدت: We'd been living there for ten years when we moved.": {
+"en": "Use it with \"for\" and \"since\" to show how long: We'd been living there for ten years when we moved.",
+"kind": "text",
+"ui": false
+},
 "با have/has + اسم مفعول ساخته می‌شود: I've seen، she's finished، they haven't eaten.": {
 "en": "Make it with have or has + the past participle: I've seen, she's finished, they haven't eaten.",
 "kind": "text",
@@ -27581,6 +28061,16 @@
 },
 "با he، she و it، -s یا -es اضافه کنید: she works، he watches، it goes.": {
 "en": "With he, she and it, add -s or -es: she works, he watches, it goes.",
+"kind": "text",
+"ui": false
+},
+"با must، might/may/could و can't میزان اطمینان را بگویید. must = مطمئنم درست است؛ can't = مطمئنم درست نیست.": {
+"en": "Use must, might/may/could and can't to say how sure you are. \"Must\" = I'm sure it's true. \"Can't\" = I'm sure it's not true.",
+"kind": "text",
+"ui": false
+},
+"با there is معمولاً a و با there are معمولاً some یا any می‌آید.": {
+"en": "We often use \"a\" with there is, and \"some\" or \"any\" with there are.",
 "kind": "text",
 "ui": false
 },
@@ -27761,6 +28251,16 @@
 },
 "با اینکه شورا قول داده بازیافت را بهتر کند، خیلی از ساکنان می‌گویند جمع‌آوری هنوز قابل‌اعتماد نیست. بعضی‌ها طوماری راه انداخته‌اند و می‌گویند برنامهٔ جدید بدون مشورت درست اجرا شده.": {
 "en": "Although the council has promised to improve recycling, many residents say collections are still unreliable. Some have started a petition, arguing that the new schedule was introduced without proper consultation.",
+"kind": "text",
+"ui": false
+},
+"با این‌که آپارتمان کوچک است، خیلی دنج است.": {
+"en": "Although the flat is small, it's very cosy.",
+"kind": "text",
+"ui": false
+},
+"با این‌که خسته بودم، گزارش را تمام کردم.": {
+"en": "Tired as I was, I finished the report.",
 "kind": "text",
 "ui": false
 },
@@ -27975,7 +28475,7 @@
 "ui": false
 },
 "با زیرنویس دوباره بخوان یا با سرعت دلخواه گوش بده.": {
-"en": "Re-read with subtitles, or listen at your speed.",
+"en": "replay_sub",
 "kind": "text",
 "ui": true
 },
@@ -28304,6 +28804,11 @@
 "kind": "text",
 "ui": false
 },
+"با وجود ترافیک، سر وقت رسیدیم.": {
+"en": "Despite the traffic, we arrived on time.",
+"kind": "text",
+"ui": false
+},
 "با وصیت‌نامهٔ مالی فرق دارد.": {
 "en": "An advance care plan records a person's wishes about future treatment; it's different from a legal will about money and property.",
 "kind": "text",
@@ -28461,6 +28966,11 @@
 },
 "با کلمات خودش": {
 "en": "in her own words",
+"kind": "text",
+"ui": false
+},
+"با کلمات زمان گذشته به کار می‌رود: yesterday، last night، in 2019، two days ago.": {
+"en": "Use it with past time words: yesterday, last night, in 2019, two days ago.",
 "kind": "text",
 "ui": false
 },
@@ -28665,7 +29175,7 @@
 "ui": false
 },
 "باب 1 · ٹامز کے ساتھ ایک دن": {
-"en": "Chapter 1 · A Day with the Toms",
+"en": "chapter1",
 "kind": "text",
 "ui": true
 },
@@ -29519,6 +30029,11 @@
 "kind": "text",
 "ui": false
 },
+"بازدید از آپارتمان": {
+"en": "A flat viewing",
+"kind": "text",
+"ui": false
+},
 "بازدید ایستگاه آتش‌نشانی پنجشنبه‌ست. سؤالی هست؟": {
 "en": "the fire station visit is on Thursday. Any questions?",
 "kind": "text",
@@ -29680,7 +30195,7 @@
 "ui": false
 },
 "بازپخش": {
-"en": "Replay",
+"en": "replay",
 "kind": "text",
 "ui": true
 },
@@ -29964,8 +30479,8 @@
 "kind": "text",
 "ui": false
 },
-"باشه باشه. و توییکس. هیس!": {
-"en": "OK, OK. And the Twix. Shh!",
+"باشه باشه. و شکلات. هیس!": {
+"en": "OK, OK. And the chocolate bar. Shh!",
 "kind": "text",
 "ui": false
 },
@@ -31004,8 +31519,8 @@
 "kind": "text",
 "ui": false
 },
-"باشه، ولی اگه بپرسن چی کار می‌کنم چی؟ «شونزده سالمه و بیشتر FIFA بازی می‌کنم» خیلی جالب به نظر نمیاد.": {
-"en": "OK, but what if they ask what I do? \"I'm sixteen and I mostly play FIFA\" doesn't sound great.",
+"باشه، ولی اگه بپرسن چی کار می‌کنم چی؟ «شونزده سالمه و بیشتر GoalRush بازی می‌کنم» خیلی جالب به نظر نمیاد.": {
+"en": "OK, but what if they ask what I do? \"I'm sixteen and I mostly play GoalRush\" doesn't sound great.",
 "kind": "text",
 "ui": false
 },
@@ -31610,7 +32125,7 @@
 "ui": false
 },
 "بالکل درست": {
-"en": "spot on",
+"en": "spotOn",
 "kind": "text",
 "ui": true
 },
@@ -31879,6 +32394,11 @@
 "kind": "word",
 "ui": false
 },
+"باید آب بیشتری بخوری.": {
+"en": "You should drink more water.",
+"kind": "text",
+"ui": false
+},
 "باید آلارم می‌ذاشتم.": {
 "en": "I should have set an alarm.",
 "kind": "text",
@@ -32054,6 +32574,11 @@
 "kind": "text",
 "ui": false
 },
+"باید تمبر بخرم.": {
+"en": "I need to buy some stamps.",
+"kind": "text",
+"ui": false
+},
 "باید تو فرم حادثه‌اش می‌بود.": {
 "en": "It should have been on his accident form.",
 "kind": "text",
@@ -32166,6 +32691,11 @@
 },
 "باید مشکلی نباشه. و نه — از مه ۲۰۲۶ صاحبخونه‌ها نمی‌تونن فقط چون کمک‌هزینه می‌گیرید یا بچه دارید ردتون کنن.": {
 "en": "That should be fine. And no — since May 2026, landlords can't refuse you just because you get benefits or have children.",
+"kind": "text",
+"ui": false
+},
+"باید میز رزرو می‌کردیم.": {
+"en": "We should have booked a table.",
 "kind": "text",
 "ui": false
 },
@@ -33290,8 +33820,8 @@
 "ui": false
 },
 "بخش بیمارستان": {
-"en": "ward",
-"kind": "word",
+"en": "On the ward",
+"kind": "text",
 "ui": false
 },
 "بخش دوم آزمون: ۱۴ ویدیو، تشخیص خطر. نمرهٔ قبولی ۴۴ از ۷۵": {
@@ -33625,7 +34155,7 @@
 "ui": false
 },
 "بدور": {
-"en": "as",
+"en": "playingAs",
 "kind": "text",
 "ui": true
 },
@@ -34430,7 +34960,7 @@
 "ui": false
 },
 "برای این داستان باید نقشت را عوض کنی.": {
-"en": "Switch role to play this one.",
+"en": "roleStory",
 "kind": "text",
 "ui": true
 },
@@ -34475,7 +35005,7 @@
 "ui": false
 },
 "برای باز شدن، ۲ گفتگو در سطح قبل تمام کن": {
-"en": "Finish 2 chats in the previous level to open",
+"en": "level_locked",
 "kind": "text",
 "ui": true
 },
@@ -34491,6 +35021,11 @@
 },
 "برای بردن، لطفاً.": {
 "en": "To go, please.",
+"kind": "text",
+"ui": false
+},
+"برای برنامه‌ای که از قبل تصمیمش را گرفته‌اید be going to + فعل: I'm going to visit my aunt.": {
+"en": "Use \"be going to\" + verb for plans you have already decided: I'm going to visit my aunt.",
 "kind": "text",
 "ui": false
 },
@@ -34544,6 +35079,11 @@
 "kind": "text",
 "ui": false
 },
+"برای تأکید یا تضاد do/does/did را قبل از فعل اصلی بگذارید: I do like your hair! He did call.": {
+"en": "Add do/does/did before the main verb to emphasise or contrast: I do like your hair! He did call — I just missed it.",
+"kind": "text",
+"ui": false
+},
 "برای تحویل نسخهٔ دیگری، نام و آدرس و تاریخ تولد بیمار را می‌پرسند.": {
 "en": "When you collect someone else's prescription, the pharmacist asks for the patient's name, address and date of birth to check it's correct.",
 "kind": "text",
@@ -34581,6 +35121,11 @@
 },
 "برای توصیف مکان: «It's famous for…»، «It's surrounded by…».": {
 "en": "Describing a place: \"It's famous for…\", \"It's surrounded by…\", \"There are lots of…\". Use \"it's\" for the place, not \"he\" or \"she\".",
+"kind": "text",
+"ui": false
+},
+"برای توصیه should + فعل: You should see a doctor.": {
+"en": "Use \"should\" + verb to give advice: You should see a doctor.",
 "kind": "text",
 "ui": false
 },
@@ -34624,6 +35169,11 @@
 "kind": "text",
 "ui": false
 },
+"برای جمع، this می‌شود these و that می‌شود those.": {
+"en": "For more than one, \"this\" becomes \"these\" and \"that\" becomes \"those\".",
+"kind": "text",
+"ui": false
+},
 "برای جورج تامپسون آمده‌ام.": {
 "en": "I'm collecting for George Thompson.",
 "kind": "text",
@@ -34641,6 +35191,11 @@
 },
 "برای جورجه. شوهر ننه مگی.": {
 "en": "It's for George. Nana Maggie's husband.",
+"kind": "text",
+"ui": false
+},
+"برای حال: She must be at work. It might be in the car. That can't be Tom.": {
+"en": "For the present: She must be at work. It might be in the car. That can't be Tom — he's in Spain.",
 "kind": "text",
 "ui": false
 },
@@ -34789,6 +35344,11 @@
 "kind": "text",
 "ui": false
 },
+"برای سؤال بله/خیر if یا whether: Do you know if the shop is open?": {
+"en": "For yes/no questions, use \"if\" or \"whether\": Do you know if the shop is open?",
+"kind": "text",
+"ui": false
+},
 "برای سابقهٔ اعتباریم مهمه؟": {
 "en": "Is it important for my credit history?",
 "kind": "text",
@@ -34899,6 +35459,11 @@
 "kind": "text",
 "ui": false
 },
+"برای مالکیت یک شخص 's اضافه کنید: Tom's car. برای جمعِ مختوم به s فقط آپاستروف: my parents' house.": {
+"en": "For a person, add 's: Tom's car, Nicola's teddy. With a plural ending in s, add only the apostrophe: my parents' house.",
+"kind": "text",
+"ui": false
+},
 "برای مالیات لازمه. به هر حال، دربارهٔ تو به مدیر گفتم": {
 "en": "You need it for tax. Anyway, I've told the manager about you",
 "kind": "text",
@@ -34931,6 +35496,11 @@
 },
 "برای مدرسه، مشکی بهتره. اینای مشکی که کنارش برق می‌زنه را امتحان کن.": {
 "en": "For school, black is best. Try these black ones with a sparkle on the side.",
+"kind": "text",
+"ui": false
+},
+"برای مشورت بپرسید Should I…? یا What should I do?": {
+"en": "Ask for advice with \"Should I…?\" or \"What should I do?\"",
 "kind": "text",
 "ui": false
 },
@@ -35004,6 +35574,11 @@
 "kind": "text",
 "ui": false
 },
+"برای منع، Don't را اول بگذارید: Don't touch that!": {
+"en": "To say what not to do, put \"Don't\" first: Don't touch that!",
+"kind": "text",
+"ui": false
+},
 "برای منفی didn't + شکل سادهٔ فعل: I didn't go (نه I didn't went).": {
 "en": "For the negative, use \"didn't\" + the basic verb: I didn't go. Not \"I didn't went\".",
 "kind": "text",
@@ -35014,8 +35589,23 @@
 "kind": "text",
 "ui": false
 },
+"برای منفی از don't یا doesn't + فعل اصلی استفاده کنید: I don't drive. He doesn't eat meat.": {
+"en": "For negatives use don't or doesn't + the main verb: I don't drive. He doesn't eat meat.",
+"kind": "text",
+"ui": false
+},
 "برای منم مفیده. تازه اومدم.": {
 "en": "It's useful for me too. I'm new here.",
+"kind": "text",
+"ui": false
+},
+"برای موافقت So do I / So am I و Neither do I / Nor can I؛ فعل کمکی با جملهٔ اول هماهنگ است.": {
+"en": "Agree with \"So do I / So am I\" and \"Neither do I / Nor can I\". The auxiliary matches the first sentence.",
+"kind": "text",
+"ui": false
+},
+"برای موفقیت در یک موقعیت سخت was able to یا managed to: everyone was able to escape.": {
+"en": "For one success in a difficult situation, use \"was able to\" or \"managed to\": The fire spread, but everyone was able to escape.",
 "kind": "text",
 "ui": false
 },
@@ -35139,6 +35729,11 @@
 "kind": "text",
 "ui": false
 },
+"برای پرهیز از تکرار، بعد از think، hope، expect، suppose و I'm afraid از so و not استفاده کنید: I think so. I hope not.": {
+"en": "To avoid repeating words, use \"so\" and \"not\" after think, hope, expect, suppose, I'm afraid: \"Is it open?\" \"I think so.\" \"I hope not.\"",
+"kind": "text",
+"ui": false
+},
 "برای پوندت چهار دقیقه وقت داری!": {
 "en": "you've got four minutes for your pound!",
 "kind": "text",
@@ -35254,6 +35849,11 @@
 "kind": "text",
 "ui": false
 },
+"برای گذشته have + اسم مفعول: He must have forgotten. She can't have seen us.": {
+"en": "For the past, add \"have\" + past participle: He must have forgotten. They might have missed the train. She can't have seen us.",
+"kind": "text",
+"ui": false
+},
 "برای گردش بزرگسال اضافه لازم داریم؟": {
 "en": "Do we need extra adults for the trip?",
 "kind": "text",
@@ -35266,6 +35866,11 @@
 },
 "برای گزارش و شایعه: It is said that… یا He is believed to be… برای گذشته: She is thought to have left.": {
 "en": "For reports and rumours, use the passive with say, believe or think: It is said that… or He is believed to be… For the past: She is thought to have left.",
+"kind": "text",
+"ui": false
+},
+"برای گفتن این‌که کسی چه کند، فعل را به‌تنهایی به کار ببرید: Come in. Sit down.": {
+"en": "To tell someone what to do, use the verb on its own: Come in. Sit down.",
 "kind": "text",
 "ui": false
 },
@@ -35670,7 +36275,7 @@
 "ui": false
 },
 "برطانوی خاندان کے ساتھ رہ کر انگریزی سیکھیں۔": {
-"en": "Learn English by living with a British family.",
+"en": "welcome_sub",
 "kind": "text",
 "ui": true
 },
@@ -36825,7 +37430,7 @@
 "ui": false
 },
 "بزرگ شدن": {
-"en": "Growing up",
+"en": "grow up",
 "kind": "text",
 "ui": true
 },
@@ -37465,17 +38070,17 @@
 "ui": false
 },
 "بطور": {
-"en": "as",
+"en": "playingAs",
 "kind": "text",
 "ui": true
 },
 "بطور کھیلیں": {
-"en": "Play as",
+"en": "playAs",
 "kind": "text",
 "ui": true
 },
 "بطيء": {
-"en": "Slow",
+"en": "slow",
 "kind": "text",
 "ui": true
 },
@@ -37499,8 +38104,28 @@
 "kind": "word",
 "ui": false
 },
+"بعد از although و even though یک جمله می‌آید: Although it was cold, we went out.": {
+"en": "\"Although\" and \"even though\" are followed by a clause: Although it was cold, we went out.",
+"kind": "text",
+"ui": false
+},
+"بعد از despite و in spite of اسم یا ing می‌آید: Despite the cold… / Despite feeling ill…": {
+"en": "\"Despite\" and \"in spite of\" are followed by a noun or -ing: Despite the cold, we went out. Despite feeling ill, she worked.",
+"kind": "text",
+"ui": false
+},
+"بعد از does و doesn't فعل s نمی‌گیرد: Does he play? (نه Does he plays?)": {
+"en": "After does and doesn't, the verb has no -s: Does he play? (not Does he plays?)",
+"kind": "text",
+"ui": false
+},
 "بعد از s، sh، ch و x باید -es بگذارید: buses، dishes، sandwiches، boxes. بعد از حرف بی‌صدا + y، y می‌شود -ies: babies.": {
 "en": "After s, sh, ch, x, add -es: buses, dishes, sandwiches, boxes. After a consonant + y, change y to -ies: one baby, two babies.",
+"kind": "text",
+"ui": false
+},
+"بعد از would like اسم یا to + فعل می‌آید: I'd like a coffee. I'd like to pay.": {
+"en": "After \"would like\" use a noun or \"to\" + verb: I'd like a coffee. I'd like to pay.",
 "kind": "text",
 "ui": false
 },
@@ -37539,6 +38164,11 @@
 "kind": "text",
 "ui": false
 },
+"بعد از این عبارت‌ها ترتیب جملهٔ خبری می‌آید (بدون do/does): Could you tell me where the station is?": {
+"en": "After these phrases, use normal word order (no do/does): Where is the station? → Could you tell me where the station is?",
+"kind": "text",
+"ui": false
+},
 "بعد از این همه سال با هم بودن، این یه ترس کاملاً طبیعیه.": {
 "en": "That's a completely natural fear after so long together.",
 "kind": "text",
@@ -37571,6 +38201,11 @@
 },
 "بعد از بوق.": {
 "en": "after the beep.",
+"kind": "text",
+"ui": false
+},
+"بعد از خواندن نامه، به شورای شهر زنگ زد.": {
+"en": "Having read the letter, he called the council.",
 "kind": "text",
 "ui": false
 },
@@ -37636,6 +38271,11 @@
 },
 "بعد از فارغ‌التحصیلی، آلستر برای کار به مرکز مالی لندن رفته بود و تام به هاکنی برگشته بود.": {
 "en": "After graduating, Alastair had gone to work in the City, while Tom had come home to Hackney.",
+"kind": "text",
+"ui": false
+},
+"بعد از فعل‌ها و صفت‌های رسمی مثل insist، recommend، suggest، demand، essential و vital، در انگلیسی بریتانیایی should + فعل یا خودِ شکل سادهٔ فعل می‌آید.": {
+"en": "After formal verbs and adjectives like insist, recommend, suggest, demand, essential and vital, British English often uses \"should\" + verb or the bare verb.",
 "kind": "text",
 "ui": false
 },
@@ -37905,7 +38545,7 @@
 "ui": false
 },
 "بعداً با فیفا قرار دارم.": {
-"en": "I've got a date with FIFA later.",
+"en": "I've got a date with GoalRush later.",
 "kind": "text",
 "ui": false
 },
@@ -38014,6 +38654,21 @@
 "kind": "text",
 "ui": false
 },
+"بعضی بی‌قاعده‌اند: good → well، fast → fast، hard → hard.": {
+"en": "Some are irregular: good → well, fast → fast, hard → hard.",
+"kind": "text",
+"ui": false
+},
+"بعضی جدا نمی‌شوند: look after the baby، get on the bus.": {
+"en": "Others can't be split: look after the baby, get on the bus.",
+"kind": "text",
+"ui": false
+},
+"بعضی جداشدنی‌اند: Turn the TV off / Turn it off. با ضمیر حتماً وسط می‌آید: Turn it off (نه Turn off it).": {
+"en": "Some can be split: Turn the TV off / Turn it off. With a pronoun, it must go in the middle: Turn it off (not Turn off it).",
+"kind": "text",
+"ui": false
+},
 "بعضی جمع‌ها بی‌قاعده‌اند: child/children، man/men، woman/women، tooth/teeth، foot/feet، mouse/mice.": {
 "en": "Some plurals are irregular: child, children; man, men; woman, women; tooth, teeth; foot, feet; mouse, mice.",
 "kind": "text",
@@ -38021,6 +38676,21 @@
 },
 "بعضی ساکنان می‌تونن برای انتخابات محلی ثبت‌نام کنن. پس: فعلاً فقط سیم‌کارت؟": {
 "en": "some residents can register for local elections. So: SIM-only for now?",
+"kind": "text",
+"ui": false
+},
+"بعضی فعل‌ها ing می‌گیرند: enjoy، mind، finish، can't stand. I enjoy cooking.": {
+"en": "Some verbs take -ing: enjoy, mind, finish, don't mind, can't stand. I enjoy cooking.",
+"kind": "text",
+"ui": false
+},
+"بعضی فعل‌ها to + فعل می‌گیرند: want، need، decide، hope، plan، would like. I want to learn.": {
+"en": "Some verbs take \"to\" + verb: want, need, decide, hope, plan, would like. I want to learn.",
+"kind": "text",
+"ui": false
+},
+"بعضی فعل‌ها با ing یا to معنی‌شان فرق می‌کند. remember doing یعنی خاطره؛ remember to do یعنی فراموش نکردن کاری.": {
+"en": "Some verbs change meaning with -ing or \"to\". \"Remember doing\" is a memory; \"remember to do\" is not forgetting a task.",
 "kind": "text",
 "ui": false
 },
@@ -39559,11 +40229,6 @@
 "kind": "word",
 "ui": false
 },
-"بند فسخ": {
-"en": null,
-"kind": "text",
-"ui": false
-},
 "بند کفش": {
 "en": "laces",
 "kind": "word",
@@ -39699,13 +40364,18 @@
 "kind": "text",
 "ui": false
 },
+"بنگاه املاک فنیک اند رو": {
+"en": "Fennick & Rowe Homes",
+"kind": "text",
+"ui": false
+},
 "بنگاه باید همهٔ مستأجرهای بزرگسال را بررسی کند، بریتانیایی یا نه.": {
 "en": "Agents must check every adult tenant, British or not.",
 "kind": "text",
 "ui": false
 },
 "به New Life UK خوش آمدی": {
-"en": "Welcome to New Life UK",
+"en": "welcome",
 "kind": "text",
 "ui": true
 },
@@ -39721,6 +40391,11 @@
 },
 "به آن عادت دارم": {
 "en": "used to it",
+"kind": "text",
+"ui": false
+},
+"به احتمال زیاد قطارها به خاطر اعتصاب تأخیر دارند.": {
+"en": "The trains may well be delayed because of the strike.",
 "kind": "text",
 "ui": false
 },
@@ -39839,13 +40514,18 @@
 "kind": "text",
 "ui": false
 },
+"به اندازهٔ کافی صندلی داریم؟": {
+"en": "Have we got enough chairs?",
+"kind": "text",
+"ui": false
+},
 "به اندازهٔ کافی نزدیک": {
 "en": "close enough",
 "kind": "text",
 "ui": false
 },
 "به انگلیسی جواب بده…": {
-"en": "Reply in English…",
+"en": "replyHint",
 "kind": "text",
 "ui": true
 },
@@ -40084,6 +40764,11 @@
 "kind": "text",
 "ui": false
 },
+"به جای said می‌توانیم فعلی به کار ببریم که هدف گوینده را نشان دهد.": {
+"en": "Instead of \"said\", we can use a reporting verb that shows the speaker's purpose.",
+"kind": "text",
+"ui": false
+},
 "به جای آن": {
 "en": "instead",
 "kind": "word",
@@ -40179,7 +40864,7 @@
 "kind": "text",
 "ui": false
 },
-"به خاطر می‌سپارمش. ممنون شان.": {
+"به خاطر می‌سپارمش. ممنون سیان.": {
 "en": "I'll remember it. Thank you, Siân.",
 "kind": "text",
 "ui": false
@@ -40921,6 +41606,11 @@
 },
 "به نظر می‌رسد بعداً باران بیاید.": {
 "en": "Looks like rain later.",
+"kind": "text",
+"ui": false
+},
+"به نظر می‌رسد پرداخت دریافت نشده است.": {
+"en": "It would appear that the payment has not been received.",
 "kind": "text",
 "ui": false
 },
@@ -42260,7 +42950,7 @@
 "ui": false
 },
 "بولنے کی رفتار": {
-"en": "Speech speed",
+"en": "speed",
 "kind": "text",
 "ui": true
 },
@@ -42474,6 +43164,11 @@
 "kind": "text",
 "ui": false
 },
+"بچه‌ها برای سفر خیلی هیجان‌زده بودند.": {
+"en": "The kids were really excited about the trip.",
+"kind": "text",
+"ui": false
+},
 "بچه‌ها تو مدرسه منو «خانم تامپسون» صدا می‌کنن. خنده‌داره": {
 "en": "The kids call me \"Mrs Thompson\" at school. It's funny",
 "kind": "text",
@@ -42630,12 +43325,12 @@
 "ui": false
 },
 "بڑا ہونا": {
-"en": "Growing up",
+"en": "growingUp",
 "kind": "text",
 "ui": true
 },
 "بڑھا": {
-"en": "grown",
+"en": "growthPct",
 "kind": "text",
 "ui": true
 },
@@ -42746,11 +43441,6 @@
 },
 "بگو دوریس. چی شد؟": {
 "en": "Go on, Doris. What happened?",
-"kind": "text",
-"ui": false
-},
-"بگو دیگه!": {
-"en": "Go on, tell us!",
 "kind": "text",
 "ui": false
 },
@@ -42895,7 +43585,7 @@
 "ui": false
 },
 "بہت اچھی گفتگو!": {
-"en": "Lovely chat!",
+"en": "lovelyChat",
 "kind": "text",
 "ui": true
 },
@@ -43484,6 +44174,11 @@
 "kind": "text",
 "ui": false
 },
+"بیان تضاد: although، despite، however، whereas": {
+"en": "Contrast: although, despite, however, whereas",
+"kind": "text",
+"ui": false
+},
 "بیانیهٔ شخصی (درخواست دانشگاه)": {
 "en": "personal statement",
 "kind": "text",
@@ -43869,6 +44564,11 @@
 "kind": "text",
 "ui": false
 },
+"بیست دقیقه است منتظر اتوبوسم.": {
+"en": "I've been waiting for the bus for twenty minutes.",
+"kind": "text",
+"ui": false
+},
 "بیست دقیقه طول می‌کشه.": {
 "en": "It takes twenty minutes.",
 "kind": "text",
@@ -44229,6 +44929,16 @@
 "kind": "text",
 "ui": false
 },
+"بیسکویتِ دایناسوری هست! و کیک شکلاتی. کدومش؟": {
+"en": "there's a dinosaur biscuit! And a chocolate cake. Which one?",
+"kind": "text",
+"ui": false
+},
+"بیسکویتِ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.": {
+"en": "Free biscuits? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
+"kind": "text",
+"ui": false
+},
 "بیسکویت‌ها": {
 "en": "biscuits",
 "kind": "word",
@@ -44431,6 +45141,11 @@
 },
 "بیشتر صبح را روی یک صندلی کوچولو نشست، نگاه کرد، گوش داد و گاهی چیزی یادداشت کرد.": {
 "en": "He spent most of the morning sitting on a tiny chair, watching, listening and occasionally writing something down.",
+"kind": "text",
+"ui": false
+},
+"بیشتر قیدها ly می‌گیرند: quick → quickly، slow → slowly، easy → easily.": {
+"en": "Most adverbs add -ly: quick → quickly, slow → slowly, easy → easily.",
 "kind": "text",
 "ui": false
 },
@@ -45055,7 +45770,7 @@
 "ui": false
 },
 "بی‌نقص": {
-"en": "spot on",
+"en": "perfect",
 "kind": "word",
 "ui": true
 },
@@ -45147,6 +45862,11 @@
 "تأمین مالی شده": {
 "en": "funded",
 "kind": "word",
+"ui": false
+},
+"تأکید: do، فعل کمکی و جابه‌جایی": {
+"en": "Emphasis: do, auxiliaries and fronting",
+"kind": "text",
 "ui": false
 },
 "تأیید": {
@@ -45336,6 +46056,11 @@
 },
 "تا بیست می‌تونی بشمری؟": {
 "en": "Can you count to twenty?",
+"kind": "text",
+"ui": false
+},
+"تا تو برسی، من رفته‌ام.": {
+"en": "By the time you get here, I'll have left.",
 "kind": "text",
 "ui": false
 },
@@ -45546,6 +46271,11 @@
 },
 "تا دیروقت کار کردم و بعد شام درست کردم.": {
 "en": "I worked late and then cooked dinner.",
+"kind": "text",
+"ui": false
+},
+"تا رسیدیم فیلم شروع شده بود.": {
+"en": "By the time we arrived, the film had started.",
 "kind": "text",
 "ui": false
 },
@@ -45782,6 +46512,11 @@
 "تابستان": {
 "en": "summer",
 "kind": "word",
+"ui": false
+},
+"تابستان قرار است خانه عوض کنیم.": {
+"en": "We're going to move house in the summer.",
+"kind": "text",
 "ui": false
 },
 "تابستان گذشته": {
@@ -46154,6 +46889,11 @@
 "kind": "text",
 "ui": false
 },
+"تام از راندن اتوبوسش لذت می‌برد.": {
+"en": "Tom enjoys driving his bus.",
+"kind": "text",
+"ui": false
+},
 "تام از سال ۲۰۱۲ رانندگی اتوبوس را شروع کرد.": {
 "en": "Tom started driving buses in 2012.",
 "kind": "text",
@@ -46294,6 +47034,11 @@
 "kind": "text",
 "ui": false
 },
+"تام را دیده‌ای، نه؟": {
+"en": "You've met Tom, haven't you?",
+"kind": "text",
+"ui": false
+},
 "تام را می‌شناسید؟": {
 "en": "You know Tom?",
 "kind": "text",
@@ -46386,6 +47131,11 @@
 },
 "تام غلات صبحانه می‌خوره. نیکولا فرنی. و ویلیام همه چی!": {
 "en": "Tom has cereal. Nicola has porridge. And William has everything!",
+"kind": "text",
+"ui": false
+},
+"تام فوتبال دوست ندارد.": {
+"en": "Tom doesn't like football.",
 "kind": "text",
 "ui": false
 },
@@ -46955,7 +47705,7 @@
 "ui": false
 },
 "تحدي الأسبوع": {
-"en": "Weekly challenge",
+"en": "weekly",
 "kind": "text",
 "ui": true
 },
@@ -47450,7 +48200,7 @@
 "ui": false
 },
 "ترجمہ جلد آ رہا ہے — فارسی دکھائی گئی۔": {
-"en": "Translation in your language is coming soon — Persian shown.",
+"en": "no_translation",
 "kind": "text",
 "ui": true
 },
@@ -47764,6 +48514,11 @@
 "kind": "text",
 "ui": false
 },
+"ترکیب‌های مفید: How much (پول)، How many (تعداد)، How old (سن)، How long (مدت).": {
+"en": "Useful pairs: How much (money), How many (things), How old, How long.",
+"kind": "text",
+"ui": false
+},
 "ترکید": {
 "en": "burst",
 "kind": "word",
@@ -47839,6 +48594,11 @@
 "kind": "text",
 "ui": false
 },
+"تسلیم نشو! تقریباً رسیدی.": {
+"en": "Don't give up! You're nearly there.",
+"kind": "text",
+"ui": false
+},
 "تسویه و خروج": {
 "en": "Checking out",
 "kind": "text",
@@ -47880,7 +48640,7 @@
 "ui": true
 },
 "تشخیص گفتار روی این دستگاه به اینترنت نیاز دارد.": {
-"en": "Speech recognition needs the internet on this device.",
+"en": "network",
 "kind": "text",
 "ui": true
 },
@@ -47890,7 +48650,7 @@
 "ui": false
 },
 "تشغيل الكل": {
-"en": "Play all",
+"en": "play_all",
 "kind": "text",
 "ui": true
 },
@@ -48085,7 +48845,7 @@
 "ui": false
 },
 "تصویر میں کسی شخص یا چیز کو چھوئیں": {
-"en": "Tap a person or a prop in the painting",
+"en": "tap_someone",
 "kind": "text",
 "ui": true
 },
@@ -48210,7 +48970,7 @@
 "ui": false
 },
 "تعزيز السلسلة": {
-"en": "streak boost",
+"en": "streakBoost",
 "kind": "text",
 "ui": true
 },
@@ -48305,7 +49065,7 @@
 "ui": false
 },
 "تعلّم الإنجليزية بالعيش مع عائلة بريطانية.": {
-"en": "Learn English by living with a British family.",
+"en": "welcome_sub",
 "kind": "text",
 "ui": true
 },
@@ -48930,7 +49690,7 @@
 "ui": false
 },
 "تم": {
-"en": "Done",
+"en": "done",
 "kind": "text",
 "ui": true
 },
@@ -49080,7 +49840,7 @@
 "ui": false
 },
 "تمام": {
-"en": "Done",
+"en": "done",
 "kind": "word",
 "ui": true
 },
@@ -50505,7 +51265,7 @@
 "ui": false
 },
 "تو خونه؟ روزی پنج دقیقه. یه اپ هست. یا تو ماشین ازش بپرسید. همهٔ آمار بازیکن‌های فیفا را بلده، پس…": {
-"en": "At home? Five minutes a day. There's an app. Or test him in the car. He knows all the FIFA player stats, so…",
+"en": "At home? Five minutes a day. There's an app. Or test him in the car. He knows all the GoalRush player stats, so…",
 "kind": "text",
 "ui": false
 },
@@ -51409,6 +52169,11 @@
 "kind": "text",
 "ui": false
 },
+"توانست بار اول امتحان رانندگی‌اش را قبول شود.": {
+"en": "She managed to pass her driving test first time.",
+"kind": "text",
+"ui": false
+},
 "توانستم": {
 "en": "managed to",
 "kind": "text",
@@ -51594,7 +52359,7 @@
 "kind": "text",
 "ui": false
 },
-"توصیهٔ خوبیه. خیلی ممنون شان.": {
+"توصیهٔ خوبیه. خیلی ممنون سیان.": {
 "en": "Good advice. Thank you so much, Siân.",
 "kind": "text",
 "ui": false
@@ -51710,7 +52475,7 @@
 "ui": false
 },
 "توضیحات به چه زبانی باشد؟": {
-"en": "Which language should we explain things in?",
+"en": "pick_lang",
 "kind": "text",
 "ui": true
 },
@@ -52035,7 +52800,7 @@
 "ui": true
 },
 "تکرار با صدا": {
-"en": "Shadow",
+"en": "shadow",
 "kind": "text",
 "ui": true
 },
@@ -52585,17 +53350,17 @@
 "ui": false
 },
 "ثقافة": {
-"en": "Culture",
+"en": "culture",
 "kind": "text",
 "ui": true
 },
 "ثقافت": {
-"en": "Culture",
+"en": "culture",
 "kind": "text",
 "ui": true
 },
 "ثقافتی کونا": {
-"en": "Culture corner",
+"en": "cultureCorner",
 "kind": "text",
 "ui": true
 },
@@ -52757,6 +53522,11 @@
 "جابه‌جا کردن": {
 "en": "move",
 "kind": "word",
+"ui": false
+},
+"جابه‌جایی اطلاعات را برای تأکید اول جمله می‌آورد: Strange as it may seem, I enjoyed it.": {
+"en": "Fronting puts information first for focus: That film I'll never forget. Strange as it may seem, I enjoyed it.",
+"kind": "text",
 "ui": false
 },
 "جاخودکاری": {
@@ -52984,6 +53754,11 @@
 "kind": "text",
 "ui": false
 },
+"جای پارک پیدا نکردم.": {
+"en": "I couldn't find a parking space.",
+"kind": "text",
+"ui": false
+},
 "جای کسی کار کردن": {
 "en": "cover",
 "kind": "word",
@@ -53000,7 +53775,7 @@
 "ui": false
 },
 "جایزهٔ روزهای پشت‌سرهم": {
-"en": "streak boost",
+"en": "streakBoost",
 "kind": "text",
 "ui": true
 },
@@ -54090,7 +54865,7 @@
 "ui": false
 },
 "جمل قلتها": {
-"en": "sentences said",
+"en": "said",
 "kind": "text",
 "ui": true
 },
@@ -54110,7 +54885,7 @@
 "ui": true
 },
 "جمله گفتی": {
-"en": "sentences said",
+"en": "said",
 "kind": "text",
 "ui": true
 },
@@ -54125,7 +54900,7 @@
 "ui": false
 },
 "جملهٔ بهتر": {
-"en": "recast",
+"en": "recasts",
 "kind": "text",
 "ui": true
 },
@@ -54151,6 +54926,11 @@
 },
 "جملهٔ مفیدیه. ممنون!": {
 "en": "That's a useful phrase. Thanks!",
+"kind": "text",
+"ui": false
+},
+"جملهٔ منفی دنبالهٔ مثبت می‌گیرد: You don't eat meat, do you?": {
+"en": "A negative sentence takes a positive tag: You don't eat meat, do you?",
 "kind": "text",
 "ui": false
 },
@@ -54209,8 +54989,38 @@
 "kind": "text",
 "ui": false
 },
+"جمله‌وارهٔ موصولی توضیحی اطلاعات اضافه می‌دهد؛ بین ویرگول می‌آید و جمله بدون آن هم معنا دارد.": {
+"en": "Non-defining relative clauses add extra information. They go between commas, and the sentence still makes sense without them.",
+"kind": "text",
+"ui": false
+},
+"جمله‌وارهٔ موصولی توضیحی: My sister, who lives in Leeds, …": {
+"en": "Non-defining relative clauses: My sister, who lives in Leeds, …",
+"kind": "text",
+"ui": false
+},
+"جمله‌وارهٔ موصولی می‌گوید منظورمان کدام شخص یا چیز است. who برای آدم و which برای چیز.": {
+"en": "Relative clauses tell us which person or thing we mean. Use \"who\" for people and \"which\" for things.",
+"kind": "text",
+"ui": false
+},
+"جمله‌وارهٔ وصفی نوشته را کوتاه‌تر می‌کند. ing می‌تواند جای when/while/because + فاعل + فعل بنشیند: Walking home, I saw a fox.": {
+"en": "Participle clauses make writing shorter. An -ing clause can replace \"when/while/because + subject + verb\": Walking home, I saw a fox.",
+"kind": "text",
+"ui": false
+},
+"جمله‌واره‌های موصولی: who، which، that، where": {
+"en": "Relative clauses: who, which, that, where",
+"kind": "text",
+"ui": false
+},
+"جمله‌واره‌های وصفی: Walking home, I saw…": {
+"en": "Participle clauses: Walking home, I saw…",
+"kind": "text",
+"ui": false
+},
 "جملے بولے": {
-"en": "sentences said",
+"en": "said",
 "kind": "text",
 "ui": true
 },
@@ -54425,7 +55235,7 @@
 "ui": false
 },
 "جواز اللهجات": {
-"en": "Accent Passport",
+"en": "passport",
 "kind": "text",
 "ui": true
 },
@@ -54984,6 +55794,16 @@
 "kind": "text",
 "ui": false
 },
+"حال کامل استمراری = have/has been + ing؛ برای کاری که از گذشته شروع شده و هنوز ادامه دارد یا تازه تمام شده.": {
+"en": "The present perfect continuous is have/has been + -ing. It's for an activity that started in the past and is still going on, or has just stopped.",
+"kind": "text",
+"ui": false
+},
+"حال کامل استمراری: I've been waiting for…": {
+"en": "Present perfect continuous: I've been waiting for…",
+"kind": "text",
+"ui": false
+},
 "حال کامل برای تجربه‌های زندگی و کارهای گذشته‌ای است که الان مهم‌اند: I've been to Scotland. I've lost my keys!": {
 "en": "Use the present perfect for life experience and for past actions that matter now: I've been to Scotland. I've lost my keys!",
 "kind": "text",
@@ -55440,7 +56260,7 @@
 "ui": false
 },
 "حال‌وهوا: این گفتگو الان چطور پیش می‌رود": {
-"en": "Mood: how this chat is going right now",
+"en": "mood",
 "kind": "text",
 "ui": true
 },
@@ -55546,6 +56366,11 @@
 },
 "حتماً دیدن این همه آدم خوب بود.": {
 "en": "It must have been nice to meet so many people.",
+"kind": "text",
+"ui": false
+},
+"حتماً روز کباب‌پزی باران می‌آید.": {
+"en": "It's bound to rain on the day of the barbecue.",
 "kind": "text",
 "ui": false
 },
@@ -56889,6 +57714,11 @@
 "kind": "text",
 "ui": false
 },
+"حذف و جایگزینی: I hope so، so do I، do so": {
+"en": "Ellipsis and substitution: I hope so, so do I, do so",
+"kind": "text",
+"ui": false
+},
 "حذف کرد": {
 "en": "taken off",
 "kind": "text",
@@ -57091,6 +57921,11 @@
 },
 "حروف اضافه حرکت": {
 "en": "Prepositions of movement: up, down, over, through",
+"kind": "text",
+"ui": false
+},
+"حروف اضافهٔ in، on، at برای زمان و مکان": {
+"en": "in, on, at for time and place",
 "kind": "text",
 "ui": false
 },
@@ -57380,7 +58215,7 @@
 "ui": false
 },
 "حصلت على ختم هذا الأسبوع!": {
-"en": "Stamp earned this week!",
+"en": "weekly_won",
 "kind": "text",
 "ui": true
 },
@@ -57415,7 +58250,7 @@
 "ui": false
 },
 "حفظ": {
-"en": "Save",
+"en": "save",
 "kind": "text",
 "ui": true
 },
@@ -57665,7 +58500,7 @@
 "ui": false
 },
 "حلقة": {
-"en": "Episode",
+"en": "episode",
 "kind": "text",
 "ui": true
 },
@@ -58560,7 +59395,7 @@
 "ui": false
 },
 "خانوادهٔ تام": {
-"en": "The Toms",
+"en": "family",
 "kind": "text",
 "ui": true
 },
@@ -61750,7 +62585,7 @@
 "ui": false
 },
 "خود کو ریکارڈ کریں اور موازنہ کریں۔": {
-"en": "Record yourself saying the line, then compare.",
+"en": "shadowHelp",
 "kind": "text",
 "ui": true
 },
@@ -65205,12 +66040,12 @@
 "ui": false
 },
 "داستان بعدی": {
-"en": "Next story",
+"en": "nextStory",
 "kind": "text",
 "ui": true
 },
 "داستان تمام شد": {
-"en": "Story finished",
+"en": "storyDone",
 "kind": "text",
 "ui": true
 },
@@ -65339,13 +66174,18 @@
 "kind": "text",
 "ui": false
 },
+"داشتیم می‌رفتیم که تلفن زنگ زد.": {
+"en": "We were about to leave when the phone rang.",
+"kind": "text",
+"ui": false
+},
 "داغ": {
 "en": "hot",
 "kind": "word",
 "ui": false
 },
-"داغه! و کلوچهٔ مجانی هم گذاشتن.": {
-"en": "It's hot! And they added free cookies.",
+"داغه! و بیسکویتِ مجانی هم گذاشتن.": {
+"en": "It's hot! And they added free biscuits.",
 "kind": "text",
 "ui": false
 },
@@ -66004,8 +66844,18 @@
 "kind": "text",
 "ui": false
 },
+"در انگلیسی بریتانیایی می‌گوییم at the weekend و at night.": {
+"en": "Say \"at the weekend\" and \"at night\" in British English.",
+"kind": "text",
+"ui": false
+},
 "در انگلیسی روزمره معمولاً کوتاهش می‌کنیم: I'm، he's، she's، it's، you're، we're، they're.": {
 "en": "In everyday British English we usually shorten it: I'm, he's, she's, it's, you're, we're, they're.",
+"kind": "text",
+"ui": false
+},
+"در انگلیسی روزمرهٔ بریتانیایی should رایج است: The doctor recommended that I should rest.": {
+"en": "In everyday British English \"should\" is common: The doctor recommended that I should rest.",
 "kind": "text",
 "ui": false
 },
@@ -66024,6 +66874,11 @@
 "kind": "text",
 "ui": false
 },
+"در این جاده ماشین خیلی زیاد است.": {
+"en": "There are too many cars on this road.",
+"kind": "text",
+"ui": false
+},
 "در این عامیانه کلمه با عبارت هم‌قافیه جایگزین می‌شود.": {
 "en": "Cockney rhyming slang replaces a word with a phrase that rhymes with it, then often drops the rhyming part: \"stairs\" → \"apples and pears\" → \"apples\".",
 "kind": "text",
@@ -66037,6 +66892,11 @@
 "در این میان": {
 "en": "meanwhile",
 "kind": "word",
+"ui": false
+},
+"در این نوع جمله‌واره who، which، whose یا where به کار ببرید، هرگز that.": {
+"en": "Use who, which, whose or where — never \"that\" — in non-defining clauses.",
+"kind": "text",
 "ui": false
 },
 "در باغچه": {
@@ -66116,6 +66976,11 @@
 },
 "در بریتانیا برای قرارداد تلفن باید ۱۸ سال داشت؛ والدین اغلب به اسم خودشان برای نوجوان قرارداد می‌گیرند.": {
 "en": "In the UK you must be 18 to take out a phone contract. Parents often take the contract for a teenager and add parental controls.",
+"kind": "text",
+"ui": false
+},
+"در بریتانیا برای مؤدبانه بودن please اضافه کنید: Please take a seat.": {
+"en": "In Britain, add \"please\" to sound polite: Please take a seat.",
 "kind": "text",
 "ui": false
 },
@@ -66449,6 +67314,11 @@
 "kind": "text",
 "ui": false
 },
+"در خیابان اصلی داروخانه هست؟": {
+"en": "Is there a chemist on the high street?",
+"kind": "text",
+"ui": false
+},
 "در داروخانه": {
 "en": "At the chemist",
 "kind": "text",
@@ -66604,8 +67474,18 @@
 "kind": "word",
 "ui": false
 },
+"در زمان‌های دیگر be able to: I'll be able to help tomorrow. I haven't been able to sleep.": {
+"en": "Use \"be able to\" in other tenses: I'll be able to help tomorrow. I haven't been able to sleep.",
+"kind": "text",
+"ui": false
+},
 "در زمستان بریتانیایی‌ها می‌گویند «Wrap up warm!».": {
 "en": "In winter British people say \"Wrap up warm!\" — wear lots of warm clothes.",
+"kind": "text",
+"ui": false
+},
+"در سؤال do یا does را اول می‌گذاریم: Do you like tea? Does she work here?": {
+"en": "For questions we put \"do\" or \"does\" first: Do you like tea? Does she work here?",
 "kind": "text",
 "ui": false
 },
@@ -66859,6 +67739,11 @@
 "kind": "text",
 "ui": false
 },
+"در مغازه اشاره می‌کنیم و می‌گوییم: Can I have this one? How much are those?": {
+"en": "In shops we point and say: Can I have this one? How much are those?",
+"kind": "text",
+"ui": false
+},
 "در مغازه‌ها": {
 "en": "At the shops",
 "kind": "text",
@@ -66945,7 +67830,7 @@
 "ui": true
 },
 "در نقش": {
-"en": "Play as",
+"en": "playingAs",
 "kind": "text",
 "ui": true
 },
@@ -67069,6 +67954,11 @@
 "kind": "text",
 "ui": false
 },
+"در ورودی مهدکودک": {
+"en": "Little Acorns front door",
+"kind": "text",
+"ui": false
+},
 "در وضعیت اضطراری با چه شماره‌ای تماس می‌گیری؟": {
 "en": null,
 "kind": "text",
@@ -67159,6 +68049,11 @@
 "kind": "text",
 "ui": false
 },
+"در ژوئن، بیست سال است که تام اتوبوس می‌راند.": {
+"en": "In June, Tom will have been driving buses for twenty years.",
+"kind": "text",
+"ui": false
+},
 "در کارهای خانه کمک پیشنهاد دهی و بخواهی": {
 "en": "Offer and ask for help with jobs at home",
 "kind": "text",
@@ -67231,6 +68126,11 @@
 },
 "در گذرگاه پلیکان چراغ زرد چشمک می‌زند. چه کنی؟": {
 "en": null,
+"kind": "text",
+"ui": false
+},
+"در گفتار برای اصلاح حرف دیگری روی فعل کمکی تأکید کنید: I HAVE paid!": {
+"en": "Stress the auxiliary in speech to correct someone: \"You haven't paid.\" \"I HAVE paid!\"",
 "kind": "text",
 "ui": false
 },
@@ -68445,7 +69345,7 @@
 "ui": false
 },
 "درمیانہ": {
-"en": "Medium",
+"en": "medium",
 "kind": "text",
 "ui": true
 },
@@ -68568,6 +69468,11 @@
 "en": null,
 "kind": "text",
 "ui": false
+},
+"دری": {
+"en": "Dari",
+"kind": "text",
+"ui": true
 },
 "دریا": {
 "en": "sea",
@@ -69640,7 +70545,7 @@
 "ui": false
 },
 "دفترچهٔ خاطرات": {
-"en": "Diary",
+"en": "diary",
 "kind": "text",
 "ui": true
 },
@@ -71985,7 +72890,7 @@
 "ui": false
 },
 "دوباره": {
-"en": "Play again",
+"en": "again",
 "kind": "word",
 "ui": true
 },
@@ -72305,12 +73210,12 @@
 "ui": false
 },
 "دوبارہ چلائیں": {
-"en": "Replay",
+"en": "replay",
 "kind": "text",
 "ui": true
 },
 "دوبارہ کھیلیں": {
-"en": "Play again",
+"en": "playAgain",
 "kind": "text",
 "ui": true
 },
@@ -72864,6 +73769,11 @@
 "kind": "text",
 "ui": false
 },
+"دوستشان دارم. خانواده‌ام هستند.": {
+"en": "I love them. They're my family.",
+"kind": "text",
+"ui": false
+},
 "دوستشون دارم، ولی نه تو پاستا.": {
 "en": "I like them, but not in pasta.",
 "kind": "text",
@@ -73276,6 +74186,11 @@
 },
 "دکتر اوکافور. فشار خونم یه کم بالاست. گفت «قهوه را کم کن تام.» قبلاً روزی شش تا می‌خوردم. شش تا!": {
 "en": "Doctor Okafor. My blood pressure's a bit high. She said, \"Cut down on coffee, Tom.\" I used to have six a day. Six!",
+"kind": "text",
+"ui": false
+},
+"دکتر به من توصیه کرد استراحت کنم.": {
+"en": "The doctor advised me to rest.",
 "kind": "text",
 "ui": false
 },
@@ -73694,6 +74609,11 @@
 "kind": "text",
 "ui": false
 },
+"دیروز مطب دکتر بودم.": {
+"en": "I was at the doctor's yesterday.",
+"kind": "text",
+"ui": false
+},
 "دیروقت، خسته، شنی و خیلی خوشحال به خانه رسیدند.": {
 "en": "They got home late, tired, sandy and very happy.",
 "kind": "text",
@@ -73716,6 +74636,11 @@
 },
 "دیشب حدود ده. به نرده‌ها زنجیر شده بود.": {
 "en": "Last night at about ten. It was chained to the railings.",
+"kind": "text",
+"ui": false
+},
+"دیشب داشتی چه کار می‌کردی؟": {
+"en": "What were you doing last night?",
 "kind": "text",
 "ui": false
 },
@@ -74075,7 +75000,7 @@
 "ui": false
 },
 "ذخیره": {
-"en": "Save",
+"en": "save",
 "kind": "text",
 "ui": true
 },
@@ -74784,6 +75709,11 @@
 "kind": "text",
 "ui": false
 },
+"رانندگان جوان معمولاً تصادف بیشتری دارند.": {
+"en": "Young drivers tend to have more accidents.",
+"kind": "text",
+"ui": false
+},
 "رانندگی باهاش امنه؟": {
 "en": "Is it safe to drive?",
 "kind": "text",
@@ -75074,6 +76004,11 @@
 "kind": "word",
 "ui": false
 },
+"راه‌اندازی سیستم جدید زمان انتظار را کاهش داده است.": {
+"en": "The introduction of the new system has reduced waiting times.",
+"kind": "text",
+"ui": false
+},
 "راه‌اندازی کردن": {
 "en": "set up",
 "kind": "text",
@@ -75199,6 +76134,16 @@
 "kind": "text",
 "ui": false
 },
+"رایان خیلی خوب گیتار می‌زند.": {
+"en": "Ryan plays the guitar really well.",
+"kind": "text",
+"ui": false
+},
+"رایان داشت فوتبال بازی می‌کرد که زانویش آسیب دید.": {
+"en": "Ryan was playing football when he hurt his knee.",
+"kind": "text",
+"ui": false
+},
 "رایان در این بین، بی‌سروصدا وسواس پیدا کرد که بفهمد چه بر سر فرانک آمده.": {
 "en": "Ryan, meanwhile, became quietly obsessed with finding out what had happened to Frank.",
 "kind": "text",
@@ -75206,6 +76151,11 @@
 },
 "رایان در باغچه را نگاه می‌کند. خرسی نیست.": {
 "en": "Ryan looks in the garden. No teddy.",
+"kind": "text",
+"ui": false
+},
+"رایان در سال ۲۰۰۸ به دنیا آمد.": {
+"en": "Ryan was born in 2008.",
 "kind": "text",
 "ui": false
 },
@@ -75285,7 +76235,7 @@
 "ui": false
 },
 "رایان فیفا بازی کرد. نیکولا با یه خانوادهٔ کامل از لیدز دوست شد. ویلیام رو چرخ چمدون خوابید.": {
-"en": "Ryan played FIFA. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
+"en": "Ryan played GoalRush. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
 "kind": "text",
 "ui": false
 },
@@ -75341,6 +76291,11 @@
 },
 "رایان هنگام خالی کردن انباری زیر شیروانی، یک بسته نامه پیدا می‌کند که پدربزرگ جورج هیچ‌وقت حرفش را نزده.": {
 "en": "Clearing out the loft, Ryan finds a bundle of letters that Grandad George has never mentioned.",
+"kind": "text",
+"ui": false
+},
+"رایان هیچ‌وقت سر وقت نیست!": {
+"en": "Ryan is never on time!",
 "kind": "text",
 "ui": false
 },
@@ -75800,7 +76755,7 @@
 "ui": false
 },
 "ردّ بالإنجليزية…": {
-"en": "Reply in English…",
+"en": "replyHint",
 "kind": "text",
 "ui": true
 },
@@ -76170,7 +77125,7 @@
 "ui": false
 },
 "رشد": {
-"en": "grown",
+"en": "growthPct",
 "kind": "text",
 "ui": true
 },
@@ -76185,7 +77140,7 @@
 "ui": false
 },
 "رشد: این شخصیت همراه تو چقدر رشد کرده": {
-"en": "Growth: how much this character has grown with you",
+"en": "growth",
 "kind": "text",
 "ui": true
 },
@@ -76480,7 +77435,7 @@
 "ui": false
 },
 "ركن الثقافة": {
-"en": "Culture corner",
+"en": "cultureCorner",
 "kind": "text",
 "ui": true
 },
@@ -77500,7 +78455,7 @@
 "ui": false
 },
 "روزت را به انگلیسی بنویس — خانواده جواب می‌دهند.": {
-"en": "Write your day in English — the family will answer.",
+"en": "diary_sub",
 "kind": "text",
 "ui": true
 },
@@ -78060,7 +79015,7 @@
 "ui": false
 },
 "روی یک نفر یا یک وسیله در تصویر بزن": {
-"en": "Tap a person or a prop in the painting",
+"en": "tap_someone",
 "kind": "text",
 "ui": true
 },
@@ -78470,7 +79425,7 @@
 "ui": false
 },
 "زبان راهنما": {
-"en": "Helper language",
+"en": "settings_lang",
 "kind": "text",
 "ui": true
 },
@@ -78909,6 +79864,11 @@
 "kind": "text",
 "ui": false
 },
+"زمان: at برای ساعت (at six)، on برای روز و تاریخ (on Monday)، in برای ماه، سال و فصل (in May).": {
+"en": "Time: \"at\" for clock times (at six), \"on\" for days and dates (on Monday), \"in\" for months, years and seasons (in May).",
+"kind": "text",
+"ui": false
+},
 "زمان‌بندی": {
 "en": "timing",
 "kind": "word",
@@ -79011,6 +79971,11 @@
 },
 "زمین خوردی.": {
 "en": "You fell over.",
+"kind": "text",
+"ui": false
+},
+"زمین خیس بود. باران آمده بود.": {
+"en": "The ground was wet. It had been raining.",
 "kind": "text",
 "ui": false
 },
@@ -79302,6 +80267,11 @@
 "زنگ می‌زند": {
 "en": "ringing",
 "kind": "word",
+"ui": false
+},
+"زنگ نزدند، نه؟": {
+"en": "They didn't call, did they?",
+"kind": "text",
 "ui": false
 },
 "زنگ هشدار": {
@@ -79919,6 +80889,11 @@
 "kind": "text",
 "ui": false
 },
+"سؤال تأییدی برای اطمینان یا هم‌نظری است. جملهٔ مثبت دنبالهٔ منفی می‌گیرد: It's cold, isn't it?": {
+"en": "Question tags check information or invite agreement. A positive sentence takes a negative tag: It's cold, isn't it?",
+"kind": "text",
+"ui": false
+},
 "سؤال جهت‌دار نه": {
 "en": "No leading questions",
 "kind": "text",
@@ -80074,6 +81049,16 @@
 "kind": "text",
 "ui": false
 },
+"سؤال غیرمستقیم مؤدبانه: Could you tell me where…?": {
+"en": "Polite indirect questions: Could you tell me where…?",
+"kind": "text",
+"ui": false
+},
+"سؤال غیرمستقیم مؤدبانه‌تر است: Could you tell me…? Do you know…? I was wondering…": {
+"en": "Indirect questions sound more polite: Could you tell me…? Do you know…? I was wondering…",
+"kind": "text",
+"ui": false
+},
 "سؤال مؤدبانه": {
 "en": "Polite questions: Can you…? / Do you sell…?",
 "kind": "text",
@@ -80099,6 +81084,11 @@
 "kind": "text",
 "ui": false
 },
+"سؤال و منفیِ حال ساده: do و does": {
+"en": "Present simple questions and negatives: do, does",
+"kind": "text",
+"ui": false
+},
 "سؤال پرسیدن": {
 "en": "Questions: How are you feeling? What's the weather like?",
 "kind": "text",
@@ -80106,6 +81096,11 @@
 },
 "سؤال چی بود؟": {
 "en": "What's the question again?",
+"kind": "text",
+"ui": false
+},
+"سؤال: Are you going to…? منفی: I'm not going to…": {
+"en": "Question: Are you going to…? Negative: I'm not going to…",
 "kind": "text",
 "ui": false
 },
@@ -80122,6 +81117,11 @@
 "سؤال‌ها": {
 "en": "questions",
 "kind": "word",
+"ui": false
+},
+"سؤال‌های تأییدی: It's cold, isn't it?": {
+"en": "Question tags: It's cold, isn't it?",
+"kind": "text",
 "ui": false
 },
 "سؤال‌های تحویل": {
@@ -80616,6 +81616,16 @@
 },
 "ساعت نه و چهل و پنجه! بهش زنگ می‌زنم.": {
 "en": "It's nine forty-five! I'll call him.",
+"kind": "text",
+"ui": false
+},
+"ساعت هشت داشتم صبحانه می‌خوردم.": {
+"en": "At eight o'clock I was having breakfast.",
+"kind": "text",
+"ui": false
+},
+"ساعت هشت زنگ نزن. داریم شام می‌خوریم.": {
+"en": "Don't call at eight. We'll be having dinner.",
 "kind": "text",
 "ui": false
 },
@@ -81300,12 +82310,12 @@
 "ui": false
 },
 "سب ٹائٹل کے ساتھ پڑھیں یا اپنی رفتار سے سنیں۔": {
-"en": "Re-read with subtitles, or listen at your speed.",
+"en": "replay_sub",
 "kind": "text",
 "ui": true
 },
 "سب چلائیں": {
-"en": "Play all",
+"en": "play_all",
 "kind": "text",
 "ui": true
 },
@@ -81494,6 +82504,11 @@
 "kind": "text",
 "ui": false
 },
+"سبک رسمی: اسم‌سازی و احتیاط در بیان": {
+"en": "Formal style: nominalisation and hedging",
+"kind": "text",
+"ui": false
+},
 "سبک نگه دار": {
 "en": "keep it light",
 "kind": "text",
@@ -81590,7 +82605,7 @@
 "ui": false
 },
 "سجّل نفسك ثم قارن.": {
-"en": "Record yourself saying the line, then compare.",
+"en": "shadowHelp",
 "kind": "text",
 "ui": true
 },
@@ -81909,6 +82924,11 @@
 "kind": "text",
 "ui": false
 },
+"سر نوک‌تیز پایین. آروم، آروم بزن. تموم شد!": {
+"en": "Pointy end down. Pat, pat. Done!",
+"kind": "text",
+"ui": false
+},
 "سر و صدا": {
 "en": "noise",
 "kind": "word",
@@ -81916,6 +82936,11 @@
 },
 "سر وقت": {
 "en": "on time",
+"kind": "text",
+"ui": false
+},
+"سر چراغ به چپ بپیچید.": {
+"en": "Turn left at the lights.",
 "kind": "text",
 "ui": false
 },
@@ -82124,7 +83149,7 @@
 "kind": "text",
 "ui": false
 },
-"سرده! سرده!": {
+"سرده! داری سرد می‌شی!": {
 "en": "Cold! You're cold!",
 "kind": "text",
 "ui": false
@@ -82185,7 +83210,7 @@
 "ui": false
 },
 "سرعة الكلام": {
-"en": "Speech speed",
+"en": "speed",
 "kind": "text",
 "ui": true
 },
@@ -82195,7 +83220,7 @@
 "ui": false
 },
 "سرعت بومی": {
-"en": "Native speed",
+"en": "native",
 "kind": "text",
 "ui": true
 },
@@ -82205,7 +83230,7 @@
 "ui": false
 },
 "سرعت گفتار": {
-"en": "Speech speed",
+"en": "speed",
 "kind": "text",
 "ui": true
 },
@@ -82655,7 +83680,7 @@
 "ui": true
 },
 "سطح کا ٹیسٹ": {
-"en": "Placement quiz",
+"en": "quiz",
 "kind": "text",
 "ui": true
 },
@@ -84465,7 +85490,7 @@
 "ui": false
 },
 "سلسلہ بونس": {
-"en": "streak boost",
+"en": "streakBoost",
 "kind": "text",
 "ui": true
 },
@@ -84690,7 +85715,7 @@
 "ui": false
 },
 "سنتحدث عندما تصل لهذا المستوى.": {
-"en": "We’ll chat once you’ve reached this level.",
+"en": "lockedLevel",
 "kind": "text",
 "ui": true
 },
@@ -84725,7 +85750,7 @@
 "ui": false
 },
 "سنگ میل آرکائیو": {
-"en": "Milestone archive",
+"en": "archive",
 "kind": "text",
 "ui": true
 },
@@ -84795,7 +85820,7 @@
 "ui": false
 },
 "سنیں": {
-"en": "Listen",
+"en": "listen",
 "kind": "text",
 "ui": true
 },
@@ -85765,7 +86790,7 @@
 "ui": false
 },
 "سيعود غدًا في القصة": {
-"en": "COMING BACK TOMORROW IN THE STORY",
+"en": "tomorrow",
 "kind": "text",
 "ui": true
 },
@@ -86290,8 +87315,8 @@
 "ui": false
 },
 "سینما": {
-"en": "cinema",
-"kind": "word",
+"en": "The cinema",
+"kind": "text",
 "ui": false
 },
 "سینما برای پنج نفرمون پنجاه پوند خرج داره! ولی موزه‌ها مجانی‌ان. مجانی! کلمهٔ مورد علاقه‌ام.": {
@@ -87819,6 +88844,16 @@
 "kind": "text",
 "ui": false
 },
+"شرطی صفر برای چیزهایی است که همیشه درست‌اند: If + حال ساده، حال ساده.": {
+"en": "The zero conditional is for things that are always true: If + present simple, present simple.",
+"kind": "text",
+"ui": false
+},
+"شرطی صفر: If you heat ice, it melts": {
+"en": "Zero conditional: If you heat ice, it melts",
+"kind": "text",
+"ui": false
+},
 "شرطی نوع اول": {
 "en": "First conditional: If you…, you'll…",
 "kind": "text",
@@ -88984,6 +90019,11 @@
 "kind": "text",
 "ui": false
 },
+"شماره‌ام را یادداشت کن محض این‌که گم شدی.": {
+"en": "Write down my number in case you get lost.",
+"kind": "text",
+"ui": false
+},
 "شماره‌ام یادم رفت! چنده؟": {
 "en": "I forgot my number! What is it?",
 "kind": "text",
@@ -89201,6 +90241,11 @@
 },
 "شنبه میای مسابقه؟": {
 "en": "u coming to the match sat?",
+"kind": "text",
+"ui": false
+},
+"شنبه می‌توانی بیایی؟": {
+"en": "Will you be able to come on Saturday?",
 "kind": "text",
 "ui": false
 },
@@ -89744,6 +90789,11 @@
 "kind": "text",
 "ui": true
 },
+"شکل ساده تغییر نمی‌کند: It's vital that she attend (نه attends). We insist that he be informed.": {
+"en": "The bare verb doesn't change: It's vital that she attend (not attends). We insist that he be informed.",
+"kind": "text",
+"ui": false
+},
 "شکلات": {
 "en": "chocolate",
 "kind": "word",
@@ -90064,8 +91114,8 @@
 "kind": "text",
 "ui": false
 },
-"شیر، چای کیسه‌ای، بیسکویت — و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، توییکس…": {
-"en": "Milk, teabags, biscuits — and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, Twix…",
+"شیر، چای کیسه‌ای، بیسکویت — و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، شکلات…": {
+"en": "Milk, teabags, biscuits — and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, chocolate bar…",
 "kind": "text",
 "ui": false
 },
@@ -90364,6 +91414,11 @@
 "kind": "word",
 "ui": false
 },
+"صاحبخانه اصرار دارد اجاره اول ماه پرداخت شود.": {
+"en": "The landlord insists that the rent be paid on the first of the month.",
+"kind": "text",
+"ui": false
+},
 "صاحبخانه حاضر نشد مسئولیت نم را بپذیرد.": {
 "en": "The landlord refused to ___ responsibility for the damp.",
 "kind": "text",
@@ -90639,8 +91694,8 @@
 "kind": "text",
 "ui": false
 },
-"صبح بخیر همسایه! مثل همیشه؟ شیر، یه روزنامه برای تام، و یه توییکسی که فکر می‌کنی کسی ازش خبر نداره؟": {
-"en": "Morning, neighbour! Same as usual? Milk, a paper for Tom, and a Twix you think nobody knows about?",
+"صبح بخیر همسایه! مثل همیشه؟ شیر، یه روزنامه برای تام، و یه شکلاتی که فکر می‌کنی کسی ازش خبر نداره؟": {
+"en": "Morning, neighbour! Same as usual? Milk, a paper for Tom, and a chocolate bar you think nobody knows about?",
 "kind": "text",
 "ui": false
 },
@@ -91495,7 +92550,7 @@
 "ui": false
 },
 "صحيحة تمامًا": {
-"en": "spot on",
+"en": "spotOn",
 "kind": "text",
 "ui": true
 },
@@ -91700,7 +92755,7 @@
 "ui": false
 },
 "صدای خودت را موقع گفتن جمله ضبط کن و با اصلش مقایسه کن.": {
-"en": "Record yourself saying the line, then compare.",
+"en": "shadowHelp",
 "kind": "text",
 "ui": true
 },
@@ -91740,7 +92795,7 @@
 "ui": false
 },
 "صدایت را نشنیدم. میکروفون را بزن، صبر کن قرمز شود، بعد حرف بزن — یا یکی از جواب‌های بالا را بزن.": {
-"en": "I didn't catch that. Tap the mic, wait for red, then speak — or tap a reply above.",
+"en": "no-speech",
 "kind": "text",
 "ui": true
 },
@@ -91824,6 +92879,11 @@
 "kind": "word",
 "ui": false
 },
+"صفت اسم را توصیف می‌کند: a careful driver. قید فعل را: She drives carefully.": {
+"en": "An adjective describes a noun: a careful driver. An adverb describes a verb: She drives carefully.",
+"kind": "text",
+"ui": false
+},
 "صفت تفضیلی": {
 "en": "Comparatives: quicker, cheaper, more comfortable than",
 "kind": "text",
@@ -91844,8 +92904,28 @@
 "kind": "text",
 "ui": false
 },
+"صفت‌های ed احساس شخص را توصیف می‌کنند: I'm bored. I'm interested.": {
+"en": "-ed adjectives describe how a person feels: I'm bored. I'm interested.",
+"kind": "text",
+"ui": false
+},
+"صفت‌های ed و ing: bored یا boring؟": {
+"en": "-ed and -ing adjectives: bored or boring?",
+"kind": "text",
+"ui": false
+},
+"صفت‌های ing چیزی را توصیف می‌کنند که آن احساس را ایجاد می‌کند: The film was boring.": {
+"en": "-ing adjectives describe the thing that causes the feeling: The film was boring. The news is interesting.",
+"kind": "text",
+"ui": false
+},
 "صفت‌های بلند با more می‌آیند: more crowded. برای بالاترین در یک گروه: the tallest، the most beautiful.": {
 "en": "Long adjectives use \"more\": Brighton is more crowded than our street. For the top of a group, use the -est or the most: the tallest, the most beautiful.",
+"kind": "text",
+"ui": false
+},
+"صفت‌های ملکی قبل از اسم می‌آیند: my، your، his، her، its، our، their.": {
+"en": "Possessive words go before a noun: my, your, his, her, its, our, their.",
 "kind": "text",
 "ui": false
 },
@@ -91960,7 +93040,7 @@
 "ui": false
 },
 "صفر؟ پس نمی‌تونم امتیاز فیفا بخرم؟ داداش، خیلی سخت‌گیرانه‌ست.": {
-"en": "Zero? So I can't buy FIFA points? Bro, that's harsh.",
+"en": "Zero? So I can't buy GoalRush points? Bro, that's harsh.",
 "kind": "text",
 "ui": false
 },
@@ -92439,6 +93519,21 @@
 "kind": "text",
 "ui": false
 },
+"ضمایر فاعلی کار را انجام می‌دهند: I، you، he، she، it، we، they.": {
+"en": "Subject pronouns do the action: I, you, he, she, it, we, they.",
+"kind": "text",
+"ui": false
+},
+"ضمایر مفعولی بعد از فعل یا حرف اضافه می‌آیند: me، you، him، her، it، us، them.": {
+"en": "Object pronouns come after a verb or a preposition: me, you, him, her, it, us, them.",
+"kind": "text",
+"ui": false
+},
+"ضمایر مفعولی: me، him، her، us، them": {
+"en": "Object pronouns: me, him, her, us, them",
+"kind": "text",
+"ui": false
+},
 "ضمیرهای مفعولی": {
 "en": "Object pronouns: me, him, her, us, them",
 "kind": "text",
@@ -92567,6 +93662,11 @@
 "طبقهٔ بالا": {
 "en": "upstairs",
 "kind": "word",
+"ui": false
+},
+"طبقهٔ بالا سه اتاق خواب هست.": {
+"en": "There are three bedrooms upstairs.",
+"kind": "text",
 "ui": false
 },
 "طبقهٔ بالا، کنار پنجره. و یه مجموعهٔ کوچیک فارسی هم داریم": {
@@ -93175,7 +94275,7 @@
 "ui": false
 },
 "ظلّ الصوت": {
-"en": "Shadow",
+"en": "shadow",
 "kind": "text",
 "ui": true
 },
@@ -93190,7 +94290,7 @@
 "ui": false
 },
 "عائلة توم": {
-"en": "The Toms",
+"en": "family",
 "kind": "text",
 "ui": true
 },
@@ -93225,12 +94325,12 @@
 "ui": false
 },
 "عادي": {
-"en": "Normal",
+"en": "normal",
 "kind": "text",
 "ui": true
 },
 "عادی": {
-"en": "Normal",
+"en": "normal",
 "kind": "word",
 "ui": true
 },
@@ -95250,7 +96350,7 @@
 "ui": false
 },
 "عام": {
-"en": "Normal",
+"en": "normal",
 "kind": "text",
 "ui": true
 },
@@ -96074,6 +97174,11 @@
 "kind": "word",
 "ui": false
 },
+"علت وضع فعلی را هم توضیح می‌دهد: I'm tired because I've been running.": {
+"en": "It also explains present evidence: I'm tired because I've been running.",
+"kind": "text",
+"ui": false
+},
 "علف ؛ چمن": {
 "en": "grass",
 "kind": "word",
@@ -96714,6 +97819,11 @@
 "kind": "text",
 "ui": false
 },
+"غذای فوق‌العاده‌ای بود.": {
+"en": "That was an amazing meal.",
+"kind": "text",
+"ui": false
+},
 "غذای محبوب": {
 "en": "Favourite food",
 "kind": "text",
@@ -96945,7 +98055,7 @@
 "ui": false
 },
 "غيّر الدور لتلعب هذه.": {
-"en": "Switch role to play this one.",
+"en": "roleStory",
 "kind": "text",
 "ui": true
 },
@@ -97365,7 +98475,7 @@
 "ui": false
 },
 "فردا در داستان برمی‌گردد": {
-"en": "COMING BACK TOMORROW IN THE STORY",
+"en": "tomorrow",
 "kind": "text",
 "ui": true
 },
@@ -97765,7 +98875,7 @@
 "ui": false
 },
 "فرهنگ": {
-"en": "Culture",
+"en": "culture",
 "kind": "text",
 "ui": true
 },
@@ -98120,7 +99230,7 @@
 "ui": false
 },
 "فصل ۱ · یک روز با تام‌ها": {
-"en": "Chapter 1 · A Day with the Toms",
+"en": "chapter1",
 "kind": "text",
 "ui": true
 },
@@ -98189,6 +99299,21 @@
 "kind": "text",
 "ui": false
 },
+"فعل + ing یا to: stop، remember، try": {
+"en": "Verb + -ing or to: stop, remember, try",
+"kind": "text",
+"ui": false
+},
+"فعل + ing: suggest، deny، admit، recommend. suggest با that هم می‌آید: She suggested that we leave early.": {
+"en": "Verb + -ing: suggest, deny, admit, recommend. \"Suggest\" can also take \"that\": She suggested that we leave early.",
+"kind": "text",
+"ui": false
+},
+"فعل + to: agree، offer، promise، refuse. فعل + مفعول + to: advise، ask، remind، warn.": {
+"en": "Verb + to: agree, offer, promise, refuse. Verb + object + to: advise, ask, remind, warn.",
+"kind": "text",
+"ui": false
+},
 "فعل be: am، is، are": {
 "en": "The verb \"be\": am, is, are",
 "kind": "text",
@@ -98211,6 +99336,11 @@
 },
 "فعل امری و ترتیب": {
 "en": "Imperatives and sequencers: First… then… after that…",
+"kind": "text",
+"ui": false
+},
+"فعل عبارتی = فعل + یک کلمهٔ کوچک (up، off، on، out، after…) با معنای تازه.": {
+"en": "A phrasal verb is a verb + a small word (up, off, on, out, after…). Together they have a new meaning.",
 "kind": "text",
 "ui": false
 },
@@ -98274,8 +99404,18 @@
 "kind": "text",
 "ui": false
 },
+"فعل‌های عبارتی: pick up، look after، give up": {
+"en": "Phrasal verbs: pick up, look after, give up",
+"kind": "text",
+"ui": false
+},
 "فعل‌های مشخص و فعال.": {
 "en": "specific, active verbs.",
+"kind": "text",
+"ui": false
+},
+"فعل‌های نقل قول: suggest، advise، deny، offer": {
+"en": "Reporting verbs: suggest, advise, deny, offer",
 "kind": "text",
 "ui": false
 },
@@ -100835,7 +101975,7 @@
 "ui": false
 },
 "فیفا بعد از مدرسه": {
-"en": "FIFA after school",
+"en": "GoalRush after school",
 "kind": "text",
 "ui": false
 },
@@ -100871,6 +102011,11 @@
 },
 "فیلم جدید بارنابی اومده! سینمای هکنی سینما پالاس شنبه داره. کمکم می‌کنی رزرو کنم؟ سایتش ازم متنفره.": {
 "en": "The new Barnaby film's out! The Hackney Palace cinema has it on Saturday. Can you help me book? The website hates me.",
+"kind": "text",
+"ui": false
+},
+"فیلم خوب بود؟": {
+"en": "Was the film good?",
 "kind": "text",
 "ui": false
 },
@@ -101564,6 +102709,16 @@
 "kind": "text",
 "ui": false
 },
+"قبل از آمدن به انگلیس هیچ‌وقت برف ندیده بودم.": {
+"en": "I'd never seen snow before I came to England.",
+"kind": "text",
+"ui": false
+},
+"قبل از آمدن چه مدت انگلیسی یاد گرفته بودی؟": {
+"en": "How long had you been learning English before you came?",
+"kind": "text",
+"ui": false
+},
 "قبل از اخبار، برویم سراغ اوون برای وضع هوا. قرار است شب پرسروصدایی باشد؟": {
 "en": "Before the news, let's get the weather with Owen. Is it going to be a wild one?",
 "kind": "text",
@@ -101686,6 +102841,11 @@
 },
 "قبل از غذا دستام را می‌شورم.": {
 "en": "I wash my hands before I eat.",
+"kind": "text",
+"ui": false
+},
+"قبل از فعل اصلی می‌آیند: I usually walk to work.": {
+"en": "They go before the main verb: I usually walk to work.",
 "kind": "text",
 "ui": false
 },
@@ -101965,7 +103125,7 @@
 "ui": false
 },
 "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.": {
-"en": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
+"en": "Deal. Fancy a game of GoalRush now? I'll go easy on you. Maybe.",
 "kind": "text",
 "ui": false
 },
@@ -102166,6 +103326,11 @@
 },
 "قرار است بعداً باران بیاید.": {
 "en": "It's supposed to rain later.",
+"kind": "text",
+"ui": false
+},
+"قرار است مسابقه را ببینی؟": {
+"en": "Are you going to watch the match?",
 "kind": "text",
 "ui": false
 },
@@ -102525,7 +103690,7 @@
 "ui": false
 },
 "قسط": {
-"en": "Episode",
+"en": "episode",
 "kind": "text",
 "ui": true
 },
@@ -102535,7 +103700,7 @@
 "ui": false
 },
 "قسمت": {
-"en": "Episode",
+"en": "part",
 "kind": "word",
 "ui": true
 },
@@ -102884,6 +104049,11 @@
 "kind": "word",
 "ui": false
 },
+"قطار لغو شد و این یعنی عروسی را از دست دادیم.": {
+"en": "The train was cancelled, which meant we missed the wedding.",
+"kind": "text",
+"ui": false
+},
 "قطار لغوشده": {
 "en": "Cancelled train",
 "kind": "text",
@@ -102897,6 +104067,11 @@
 "قطار/سرویس": {
 "en": "service",
 "kind": "word",
+"ui": false
+},
+"قطارها باز دیر کردند.": {
+"en": "The trains were late again.",
+"kind": "text",
 "ui": false
 },
 "قطارهای بریتانیا اغلب دیر می‌کنند.": {
@@ -103614,6 +104789,11 @@
 "kind": "text",
 "ui": false
 },
+"قول می‌دهم به کسی نگویم.": {
+"en": "I promise I won't tell anyone.",
+"kind": "text",
+"ui": false
+},
 "قول می‌دهم — به هیچ قیمتی از دستش نمی‌دهم!": {
 "en": "I promise — I wouldn't miss it for the world!",
 "kind": "text",
@@ -103666,6 +104846,21 @@
 },
 "قید حالت": {
 "en": "Adverbs of manner: quickly, carefully, well, badly",
+"kind": "text",
+"ui": false
+},
+"قید حالت: quickly، carefully، well": {
+"en": "Adverbs of manner: quickly, carefully, well",
+"kind": "text",
+"ui": false
+},
+"قیدهای تکرار می‌گویند چقدر: always، usually، often، sometimes، rarely، never.": {
+"en": "Frequency words say how often: always, usually, often, sometimes, rarely, never.",
+"kind": "text",
+"ui": false
+},
+"قیدهای تکرار: always، usually، sometimes، never": {
+"en": "always, usually, sometimes, never",
 "kind": "text",
 "ui": false
 },
@@ -103790,7 +104985,7 @@
 "ui": false
 },
 "لا يوجد شيء بعد — اكتب أو أنهِ محادثة.": {
-"en": "No entries yet — write one, or finish a conversation.",
+"en": "diary_empty",
 "kind": "text",
 "ui": true
 },
@@ -103816,6 +105011,11 @@
 },
 "لازم است / باید": {
 "en": "Need to / have to",
+"kind": "text",
+"ui": false
+},
+"لازم است هر بازدیدکننده در پذیرش ثبت‌نام کند.": {
+"en": "It's essential that every visitor sign in at reception.",
 "kind": "text",
 "ui": false
 },
@@ -103846,6 +105046,11 @@
 },
 "لازم نبود این کار را بکنی!": {
 "en": "You didn't have to do that!",
+"kind": "text",
+"ui": false
+},
+"لازم نبود هدیه بیاوری، ولی ممنون!": {
+"en": "You needn't have brought a present, but thank you!",
 "kind": "text",
 "ui": false
 },
@@ -104459,6 +105664,11 @@
 "kind": "word",
 "ui": false
 },
+"لزلی از مارس در مهدکودک کار می‌کند.": {
+"en": "Leslie has been working at the nursery since March.",
+"kind": "text",
+"ui": false
+},
 "لزلی ازم خواست برای یادداشت‌برداری کمک کنم.": {
 "en": "Leslie asked me to help with notes.",
 "kind": "text",
@@ -104529,6 +105739,11 @@
 "kind": "text",
 "ui": false
 },
+"لزلی در باغچه است.": {
+"en": "Leslie is in the garden.",
+"kind": "text",
+"ui": false
+},
 "لزلی در یک دبستان درس می‌دهد.": {
 "en": "Leslie teaches at a primary school.",
 "kind": "text",
@@ -104551,6 +105766,11 @@
 },
 "لزلی ساندویچ بیکن درست کرد و تام بوقلمون را در فر گذاشت.": {
 "en": "Leslie made bacon sandwiches and Tom put the turkey in the oven.",
+"kind": "text",
+"ui": false
+},
+"لزلی سخت کار می‌کند.": {
+"en": "Leslie works hard.",
 "kind": "text",
 "ui": false
 },
@@ -104644,6 +105864,11 @@
 "kind": "text",
 "ui": false
 },
+"لزلی پیشنهاد داد ما را به خانه برساند.": {
+"en": "Leslie offered to drive us home.",
+"kind": "text",
+"ui": false
+},
 "لزلی چی گفت؟": {
 "en": "What did Leslie say?",
 "kind": "text",
@@ -104651,6 +105876,11 @@
 },
 "لزلی کتابش را خواند و ویلیام یک برج از سنگ‌ریزه ساخت.": {
 "en": "Leslie read her book and William built a tower of stones.",
+"kind": "text",
+"ui": false
+},
+"لزلی که خسته بود، زود خوابید.": {
+"en": "Feeling tired, Leslie went to bed early.",
 "kind": "text",
 "ui": false
 },
@@ -104735,7 +105965,7 @@
 "ui": false
 },
 "لست متأكدًا؟ اختبار دقيقة واحدة": {
-"en": "Not sure? Take a 1-minute placement quiz",
+"en": "take_quiz",
 "kind": "text",
 "ui": true
 },
@@ -104784,6 +106014,11 @@
 "kind": "word",
 "ui": false
 },
+"لطفاً آهسته صحبت کنید.": {
+"en": "Please speak slowly.",
+"kind": "text",
+"ui": false
+},
 "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!": {
 "en": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
 "kind": "text",
@@ -104806,6 +106041,11 @@
 },
 "لطفاً اینجا بنویسیدش. آه، چه اسم قشنگی. چطوری تلفظش می‌کنید؟": {
 "en": "Write it here, please. Oh, that's a beautiful name. How do you say it?",
+"kind": "text",
+"ui": false
+},
+"لطفاً این‌جا منتظر بمانید.": {
+"en": "Please wait here.",
 "kind": "text",
 "ui": false
 },
@@ -104904,6 +106144,11 @@
 "kind": "text",
 "ui": false
 },
+"لطفاً می‌شود کمکم کنی؟": {
+"en": "Can you help me, please?",
+"kind": "text",
+"ui": false
+},
 "لطفاً هم بزن": {
 "en": "Stir it, please",
 "kind": "text",
@@ -104990,7 +106235,7 @@
 "ui": false
 },
 "لغة المساعدة": {
-"en": "Helper language",
+"en": "settings_lang",
 "kind": "text",
 "ui": true
 },
@@ -105400,7 +106645,7 @@
 "ui": false
 },
 "لہجے کا پاسپورٹ": {
-"en": "Accent Passport",
+"en": "passport",
 "kind": "text",
 "ui": true
 },
@@ -105615,7 +106860,7 @@
 "ui": false
 },
 "مأموریت امروز": {
-"en": "Daily mission",
+"en": "mission",
 "kind": "text",
 "ui": true
 },
@@ -105625,7 +106870,7 @@
 "ui": false
 },
 "مأموریت انجام شد — عالی!": {
-"en": "Mission complete — brilliant!",
+"en": "mission_done",
 "kind": "text",
 "ui": true
 },
@@ -105795,7 +107040,7 @@
 "ui": false
 },
 "ما مستوى إنجليزيتك؟": {
-"en": "How good is your English?",
+"en": "pick_level",
 "kind": "text",
 "ui": true
 },
@@ -105926,6 +107171,11 @@
 },
 "مادرم تو بانک کار می‌کنه.": {
 "en": "My mother works in a bank.",
+"kind": "text",
+"ui": false
+},
+"مادرم جمعه‌ها از بچه‌ها مراقبت می‌کند.": {
+"en": "My mum looks after the kids on Fridays.",
 "kind": "text",
 "ui": false
 },
@@ -107690,7 +108940,7 @@
 "ui": false
 },
 "متوسط": {
-"en": "Medium",
+"en": "medium",
 "kind": "word",
 "ui": true
 },
@@ -107710,7 +108960,7 @@
 "ui": false
 },
 "متوقف شد.": {
-"en": "Stopped.",
+"en": "aborted",
 "kind": "text",
 "ui": true
 },
@@ -108270,7 +109520,7 @@
 "ui": false
 },
 "محادثة رائعة!": {
-"en": "Lovely chat!",
+"en": "lovelyChat",
 "kind": "text",
 "ui": true
 },
@@ -108450,7 +109700,7 @@
 "ui": false
 },
 "محفوظ کریں": {
-"en": "Save",
+"en": "save",
 "kind": "text",
 "ui": true
 },
@@ -108825,7 +110075,7 @@
 "ui": false
 },
 "مددگار زبان": {
-"en": "Helper language",
+"en": "settings_lang",
 "kind": "text",
 "ui": true
 },
@@ -108893,6 +110143,11 @@
 "en": "St Mary's",
 "kind": "text",
 "ui": false
+},
+"مدرسهٔ سنت مری · کلاس‌های A1 تا A2": {
+"en": "St Mary's School · Classes A1–A2",
+"kind": "text",
+"ui": true
 },
 "مدرسهٔ سنت مری — روز اول": {
 "en": "St Mary's — First Day",
@@ -109119,6 +110374,11 @@
 "kind": "text",
 "ui": false
 },
+"مراقب باشید: I'm boring یعنی دیگران شما را کسل‌کننده می‌دانند!": {
+"en": "Be careful: \"I'm boring\" means other people find you dull!",
+"kind": "text",
+"ui": false
+},
 "مراقب بودن": {
 "en": "take care",
 "kind": "text",
@@ -109320,7 +110580,7 @@
 "ui": false
 },
 "مرحبًا بك عند عائلة توم": {
-"en": "Welcome to New Life UK",
+"en": "welcome",
 "kind": "text",
 "ui": true
 },
@@ -109565,7 +110825,7 @@
 "ui": false
 },
 "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟": {
-"en": "Cheers, mate. You're a legend. Wanna play FIFA now?",
+"en": "Cheers, mate. You're a legend. Wanna play GoalRush now?",
 "kind": "text",
 "ui": false
 },
@@ -110535,7 +111795,7 @@
 "ui": false
 },
 "مشن مکمل — زبردست!": {
-"en": "Mission complete — brilliant!",
+"en": "mission_done",
 "kind": "text",
 "ui": true
 },
@@ -111245,7 +112505,7 @@
 "ui": false
 },
 "مطمئن نیستی؟ آزمون یک‌دقیقه‌ای": {
-"en": "Not sure? Take a 1-minute placement quiz",
+"en": "take_quiz",
 "kind": "text",
 "ui": true
 },
@@ -112056,6 +113316,11 @@
 },
 "مغازه و کافه": {
 "en": "Shops & cafés",
+"kind": "text",
+"ui": false
+},
+"مغازه چه ساعتی می‌بندد؟": {
+"en": "What time does the shop close?",
 "kind": "text",
 "ui": false
 },
@@ -114949,6 +116214,11 @@
 "kind": "word",
 "ui": false
 },
+"من چای دوست دارم، در حالی که شوهرم قهوه را ترجیح می‌دهد.": {
+"en": "I love tea, whereas my husband prefers coffee.",
+"kind": "text",
+"ui": false
+},
 "من چه حیوونی‌ام؟ ۱۹۹۶ به دنیا اومدم.": {
 "en": "What animal am I? I was born in 1996.",
 "kind": "text",
@@ -115634,6 +116904,21 @@
 "kind": "text",
 "ui": false
 },
+"منفی: there isn't، there aren't. سؤال: Is there…? Are there…?": {
+"en": "Negative: there isn't, there aren't. Question: Is there…? Are there…?",
+"kind": "text",
+"ui": false
+},
+"منفی: wasn't، weren't. سؤال: Was it good? Were they at home?": {
+"en": "Negative: wasn't, weren't. Question: Was it good? Were they at home?",
+"kind": "text",
+"ui": false
+},
+"منفی‌اش won't است: I won't be late.": {
+"en": "The negative is \"won't\": I won't be late.",
+"kind": "text",
+"ui": false
+},
 "منقضی شدن": {
 "en": "run out",
 "kind": "text",
@@ -115850,7 +117135,7 @@
 "ui": false
 },
 "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟": {
-"en": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
+"en": "Same. I played GoalRush till two. Mum shouted at me twice! Did you enjoy your film?",
 "kind": "text",
 "ui": false
 },
@@ -115951,6 +117236,11 @@
 },
 "منچستر به خاطر کارخانه‌های پنبه معروف است.": {
 "en": "Manchester was the world's first industrial city, famous for its cotton mills — hence the nickname \"Cottonopolis\".",
+"kind": "text",
+"ui": false
+},
+"منچستر که آن‌جا درس خواندم، شهر خیلی خوبی است.": {
+"en": "Manchester, where I studied, is a great city.",
 "kind": "text",
 "ui": false
 },
@@ -116205,7 +117495,7 @@
 "ui": false
 },
 "مهمة اليوم": {
-"en": "Daily mission",
+"en": "mission",
 "kind": "text",
 "ui": true
 },
@@ -116351,6 +117641,11 @@
 },
 "مواظب باش! الان خیلی داغه. ها!": {
 "en": "Careful! It's very hot now. Ha!",
+"kind": "text",
+"ui": false
+},
+"مواظب باش! الان می‌اندازی‌اش!": {
+"en": "Careful! You're going to drop it!",
 "kind": "text",
 "ui": false
 },
@@ -116555,8 +117850,8 @@
 "ui": false
 },
 "موزه": {
-"en": "museum",
-"kind": "word",
+"en": "The museum",
+"kind": "text",
 "ui": false
 },
 "موزها اسکن نمی‌شن. بارکد ندارن.": {
@@ -116574,11 +117869,6 @@
 "kind": "text",
 "ui": false
 },
-"موزهٔ بیتلز را دیدی؟": {
-"en": "Did you see the music museum?",
-"kind": "text",
-"ui": false
-},
 "موزهٔ تاریخ طبیعی": {
 "en": "Natural History Museum",
 "kind": "text",
@@ -116591,6 +117881,11 @@
 },
 "موزهٔ تاریخ طبیعی! مامان می‌گه تو لندنه. امیدوارم زود بریم.": {
 "en": "The Natural History Museum! Mummy says it's in London. I hope we can go soon.",
+"kind": "text",
+"ui": false
+},
+"موزهٔ موسیقی را دیدی؟": {
+"en": "Did you see the music museum?",
 "kind": "text",
 "ui": false
 },
@@ -116860,7 +118155,7 @@
 "ui": false
 },
 "موڈ: یہ گفتگو کیسی جا رہی ہے": {
-"en": "Mood: how this chat is going right now",
+"en": "mood",
 "kind": "text",
 "ui": true
 },
@@ -116885,7 +118180,7 @@
 "ui": false
 },
 "مُبطّأ": {
-"en": "Slowed",
+"en": "slowed",
 "kind": "text",
 "ui": true
 },
@@ -116895,7 +118190,7 @@
 "ui": false
 },
 "مُهر این هفته را گرفتی!": {
-"en": "Stamp earned this week!",
+"en": "weekly_won",
 "kind": "text",
 "ui": true
 },
@@ -116921,6 +118216,11 @@
 },
 "مکالمهٔ تلفنی ساده": {
 "en": "Phone basics",
+"kind": "text",
+"ui": false
+},
+"مکان: in برای داخل (in the kitchen)، on برای روی سطح (on the table)، at برای یک نقطه یا رویداد (at the bus stop، at work).": {
+"en": "Place: \"in\" for inside (in the kitchen), \"on\" for a surface (on the table), \"at\" for a point or event (at the bus stop, at work).",
 "kind": "text",
 "ui": false
 },
@@ -117705,7 +119005,7 @@
 "ui": true
 },
 "میکروفونی پیدا نشد. شاید برنامهٔ دیگری از آن استفاده می‌کند.": {
-"en": "No microphone found. Is another app using it?",
+"en": "audio-capture",
 "kind": "text",
 "ui": true
 },
@@ -117946,6 +119246,11 @@
 },
 "می‌توانست ؛ ممکن است": {
 "en": null,
+"kind": "text",
+"ui": false
+},
+"می‌توانستم پیاده بروم، ولی باران می‌آمد.": {
+"en": "I could have walked, but it was raining.",
 "kind": "text",
 "ui": false
 },
@@ -118770,7 +120075,7 @@
 "ui": false
 },
 "می‌تونی از پول نونوایی برای فیفا استفاده کنی.": {
-"en": "You can use your bakery money for FIFA.",
+"en": "You can use your bakery money for GoalRush.",
 "kind": "text",
 "ui": false
 },
@@ -119254,6 +120559,11 @@
 "kind": "text",
 "ui": false
 },
+"می‌خواستم ببینم می‌توانید کمکم کنید.": {
+"en": "I was wondering if you could help me.",
+"kind": "text",
+"ui": false
+},
 "می‌خواستم بدانم آیا": {
 "en": "I was wondering whether",
 "kind": "text",
@@ -119554,6 +120864,11 @@
 "kind": "text",
 "ui": false
 },
+"می‌خواهیم میزی برای دو نفر رزرو کنیم.": {
+"en": "We'd like to book a table for two.",
+"kind": "text",
+"ui": false
+},
 "می‌خواهیم یک کیک تولد سفارش بدهیم.": {
 "en": "We'd like to order a birthday cake.",
 "kind": "text",
@@ -119651,6 +120966,16 @@
 },
 "می‌دانستم": {
 "en": "I knew it",
+"kind": "text",
+"ui": false
+},
+"می‌دانستم پرستار فوق‌العاده‌ای می‌شود.": {
+"en": "I knew she would be a brilliant nurse.",
+"kind": "text",
+"ui": false
+},
+"می‌دانید دستشویی کجاست؟": {
+"en": "Do you know where the toilets are?",
 "kind": "text",
 "ui": false
 },
@@ -120254,8 +121579,18 @@
 "kind": "text",
 "ui": false
 },
+"می‌شود از ایستگاه دنبالم بیایی؟": {
+"en": "Can you pick me up from the station?",
+"kind": "text",
+"ui": false
+},
 "می‌شود بستهٔ … را بگیری؟ / من تحویلش می‌گیرم / اینجا امضا کن / یادداشت می‌گذارم": {
 "en": "Can you take a parcel for…? / I'll take it in / Sign here / I'll leave a note",
+"kind": "text",
+"ui": false
+},
+"می‌شود بگویید مطب چه ساعتی باز می‌شود؟": {
+"en": "Could you tell me what time the surgery opens?",
 "kind": "text",
 "ui": false
 },
@@ -120311,6 +121646,11 @@
 },
 "می‌شود کمی بیشتر کوتاه کنید؟": {
 "en": "Could you take a bit more off?",
+"kind": "text",
+"ui": false
+},
+"می‌شود کمی شکر بدهید؟": {
+"en": "Can I have a little sugar, please?",
 "kind": "text",
 "ui": false
 },
@@ -120687,6 +122027,11 @@
 "ناراحت ؛ دلخور": {
 "en": "upset",
 "kind": "word",
+"ui": false
+},
+"ناراحت بود چون کیف پولش را گم کرده بود.": {
+"en": "She was upset because she had lost her purse.",
+"kind": "text",
 "ui": false
 },
 "ناراحت کردن": {
@@ -121544,6 +122889,11 @@
 "kind": "word",
 "ui": false
 },
+"نباید این‌جا پارک کنیم.": {
+"en": "We shouldn't park here.",
+"kind": "text",
+"ui": false
+},
 "نباید به بیسکویت شکلات بدهی.": {
 "en": "You mustn't feed Biscuit chocolate.",
 "kind": "text",
@@ -121551,6 +122901,11 @@
 },
 "نباید جلوی اتوبوس من برونی! ها!": {
 "en": "you shouldn't ride in front of my bus! Ha!",
+"kind": "text",
+"ui": false
+},
+"نباید سرش داد می‌زدی.": {
+"en": "You shouldn't have shouted at her.",
 "kind": "text",
 "ui": false
 },
@@ -122044,6 +123399,11 @@
 "kind": "text",
 "ui": false
 },
+"نزدیک این‌جا زندگی می‌کنی؟": {
+"en": "Do you live near here?",
+"kind": "text",
+"ui": false
+},
 "نزدیک بندر فک دیدم!": {
 "en": "I saw seals near the harbour!",
 "kind": "text",
@@ -122071,6 +123431,11 @@
 },
 "نزدیک بیست ساله تو مهندسی کار می‌کنم. بیشتر پل و راه‌آهن.": {
 "en": "I've been working in engineering for nearly twenty years. Mostly bridges and railways.",
+"kind": "text",
+"ui": false
+},
+"نزدیک خانهٔ ما یک ایستگاه اتوبوس هست.": {
+"en": "There's a bus stop near our house.",
 "kind": "text",
 "ui": false
 },
@@ -122131,6 +123496,11 @@
 },
 "نزدیک‌ترین ایستگاه کجاست؟": {
 "en": "Where's the nearest stop?",
+"kind": "text",
+"ui": false
+},
+"نزدیک‌ترین خودپرداز کجاست؟": {
+"en": "Where's the nearest cash machine?",
 "kind": "text",
 "ui": false
 },
@@ -122420,7 +123790,7 @@
 "ui": false
 },
 "نشوونما: یہ کردار آپ کے ساتھ کتنا بڑھا": {
-"en": "Growth: how much this character has grown with you",
+"en": "growth",
 "kind": "text",
 "ui": true
 },
@@ -122940,7 +124310,7 @@
 "ui": false
 },
 "نقل کریں": {
-"en": "Shadow",
+"en": "shadow",
 "kind": "text",
 "ui": true
 },
@@ -122955,7 +124325,7 @@
 "ui": false
 },
 "نما": {
-"en": "grown",
+"en": "growthPct",
 "kind": "text",
 "ui": true
 },
@@ -123390,7 +124760,7 @@
 "ui": false
 },
 "ننصحك بالبدء من": {
-"en": "We recommend starting at",
+"en": "quiz_result",
 "kind": "text",
 "ui": true
 },
@@ -123570,7 +124940,7 @@
 "ui": false
 },
 "نه خیلی کوتاه سال — بعداً با فیفا قرار دارم.": {
-"en": "Not too short, Sal — I've got a date with FIFA later.",
+"en": "Not too short, Sal — I've got a date with GoalRush later.",
 "kind": "text",
 "ui": false
 },
@@ -125659,6 +127029,11 @@
 "kind": "word",
 "ui": false
 },
+"نوشتار رسمی اغلب فعل را به اسم تبدیل می‌کند: The decision was made to close the branch.": {
+"en": "Formal writing often turns verbs into nouns (nominalisation): \"We decided to close the branch\" becomes \"The decision was made to close the branch.\"",
+"kind": "text",
+"ui": false
+},
 "نوشتن": {
 "en": "write",
 "kind": "word",
@@ -126391,6 +127766,11 @@
 },
 "نگران نباش. یادت اومد!": {
 "en": "Don't worry. You remembered!",
+"kind": "text",
+"ui": false
+},
+"نگران نباش، آن کیف را من می‌آورم.": {
+"en": "Don't worry, I'll carry that bag.",
 "kind": "text",
 "ui": false
 },
@@ -127356,6 +128736,11 @@
 },
 "ها ها! بابات بامزه‌ست.": {
 "en": "Ha ha! Your daddy is funny.",
+"kind": "text",
+"ui": false
+},
+"ها ها! بذارشون تو جاخودکاری.": {
+"en": "Ha ha! Put them in the pot.",
 "kind": "text",
 "ui": false
 },
@@ -129245,7 +130630,7 @@
 "ui": false
 },
 "هذا المكان ما زال مغلقًا": {
-"en": "This place is still locked",
+"en": "locked_place",
 "kind": "text",
 "ui": true
 },
@@ -129255,7 +130640,7 @@
 "ui": false
 },
 "هذه قصة عائلية خاصة — ابنِ ثقة أكبر أولًا.": {
-"en": "This is a private family story — build more trust first.",
+"en": "privateStory",
 "kind": "text",
 "ui": true
 },
@@ -131059,6 +132444,11 @@
 "kind": "text",
 "ui": false
 },
+"همان فعل کمکی را تکرار کنید، و اگر نبود do/does/did: She works here, doesn't she?": {
+"en": "Use the same auxiliary, or do/does/did if there isn't one: She works here, doesn't she?",
+"kind": "text",
+"ui": false
+},
 "همان‌جا": {
 "en": "just there",
 "kind": "text",
@@ -131216,6 +132606,11 @@
 },
 "همسایه‌ام را میارم. اونم تازه اومده.": {
 "en": "I'll bring my neighbour. She's new here too.",
+"kind": "text",
+"ui": false
+},
+"همسایه‌ام که پرستار است، شب‌ها کار می‌کند.": {
+"en": "My neighbour, who is a nurse, works nights.",
 "kind": "text",
 "ui": false
 },
@@ -131719,7 +133114,7 @@
 "kind": "text",
 "ui": false
 },
-"همهٔ صداها مصنوعی (تبدیل متن به گفتار) هستند. شخصیت‌ها و داستان‌ها خیالی‌اند. نقاشی‌ها تصویرسازی‌های اختصاصی همین اپ هستند.": {
+"همهٔ صداها با هوش مصنوعی (تبدیل متن به گفتار عصبی، Microsoft Azure AI Speech) ساخته شده‌اند و صدای هیچ شخص واقعی ضبط نشده است. شخصیت‌ها و داستان‌ها خیالی‌اند. نقاشی‌ها تصویرسازی‌های اختصاصی همین اپ هستند که با کمک هوش مصنوعی ساخته شده‌اند.": {
 "en": null,
 "kind": "text",
 "ui": true
@@ -132039,6 +133434,11 @@
 "kind": "text",
 "ui": false
 },
+"همچنین برای پیشنهاد کمک و قول: I'll help you. I'll call you tomorrow.": {
+"en": "Also for offers and promises: I'll help you. I'll call you tomorrow.",
+"kind": "text",
+"ui": false
+},
 "همچنین رفیق.": {
 "en": "You too, mate.",
 "kind": "text",
@@ -132146,6 +133546,11 @@
 },
 "همیشه زنگ بزنید — همین‌طوری نرید. و آره، می‌تونه یکی را با خودش ببره. باهاش میری؟ دو جفت گوش بهتر از یکیه.": {
 "en": "Always call — don't just miss it. And yes, he can bring someone. Will you go with him? Two pairs of ears are better than one.",
+"kind": "text",
+"ui": false
+},
+"همیشه ساعت چهار چای می‌خوریم.": {
+"en": "We always have tea at four.",
 "kind": "text",
 "ui": false
 },
@@ -132820,7 +134225,7 @@
 "ui": false
 },
 "هنوز چیزی نیست — بنویس یا یک گفتگو را تمام کن.": {
-"en": "No entries yet — write one, or finish a conversation.",
+"en": "diary_empty",
 "kind": "text",
 "ui": true
 },
@@ -132976,6 +134381,11 @@
 },
 "هوای تمیزتر": {
 "en": "cleaner air",
+"kind": "text",
+"ui": false
+},
+"هوای قشنگی است، نه؟": {
+"en": "Lovely weather, isn't it?",
 "kind": "text",
 "ui": false
 },
@@ -134199,8 +135609,8 @@
 "kind": "text",
 "ui": false
 },
-"و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، توییکس…": {
-"en": "and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, Twix…",
+"و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، شکلات…": {
+"en": "and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, chocolate bar…",
 "kind": "text",
 "ui": false
 },
@@ -134679,6 +136089,11 @@
 "kind": "text",
 "ui": false
 },
+"واقعاً درک می‌کنم چه حسی داری.": {
+"en": "I do understand how you feel.",
+"kind": "text",
+"ui": false
+},
 "واقعاً سریع می‌دوه!": {
 "en": "She runs really quickly!",
 "kind": "text",
@@ -134799,8 +136214,8 @@
 "kind": "text",
 "ui": false
 },
-"واقعاً؟ اسطوره‌ای. اگه کمکم کنی، یادت می‌دم چطوری درست FIFA بازی کنی.": {
-"en": "Would you? Legend. If you help me, I'll teach you how to play FIFA properly.",
+"واقعاً؟ اسطوره‌ای. اگه کمکم کنی، یادت می‌دم چطوری درست GoalRush بازی کنی.": {
+"en": "Would you? Legend. If you help me, I'll teach you how to play GoalRush properly.",
 "kind": "text",
 "ui": false
 },
@@ -135754,6 +137169,11 @@
 "kind": "word",
 "ui": false
 },
+"وجه التزامی رسمی: It's essential that he be…": {
+"en": "Formal subjunctive: It's essential that he be…",
+"kind": "text",
+"ui": false
+},
 "وجود دارد": {
 "en": "there's",
 "kind": "word",
@@ -136559,6 +137979,11 @@
 "kind": "text",
 "ui": false
 },
+"وقتم سه‌شنبه ساعت ده و نیم است.": {
+"en": "My appointment is at half past ten on Tuesday.",
+"kind": "text",
+"ui": false
+},
 "وقتِ ... است / ... پنج دقیقه دیگه؟": {
 "en": "It's time to… / Can I… five more minutes?",
 "kind": "text",
@@ -136596,6 +138021,11 @@
 },
 "وقتی اتوبوس حرکت می‌کند با راننده صحبت نکنید.": {
 "en": "Don't chat to the driver while the bus is moving. Ask your question when the bus is at a stop.",
+"kind": "text",
+"ui": false
+},
+"وقتی استرس دارم، پیاده‌روی می‌کنم.": {
+"en": "When I'm stressed, I go for a walk.",
 "kind": "text",
 "ui": false
 },
@@ -136675,7 +138105,7 @@
 "ui": false
 },
 "وقتی به این سطح رسیدی گپ می‌زنیم.": {
-"en": "We’ll chat once you’ve reached this level.",
+"en": "lockedLevel",
 "kind": "text",
 "ui": true
 },
@@ -136829,6 +138259,11 @@
 "kind": "text",
 "ui": false
 },
+"وقتی نشانه‌ای می‌بینید هم به کار می‌رود: Look at the sky. It's going to rain.": {
+"en": "Also use it when you can see something will happen: Look at the sky. It's going to rain.",
+"kind": "text",
+"ui": false
+},
 "وقتی نفس می‌کشم سینه‌ام درد می‌کنه.": {
 "en": "My chest hurts when I breathe.",
 "kind": "text",
@@ -136846,6 +138281,11 @@
 },
 "وقتی هر دو می‌دانیم کدام است the می‌گوییم: the kitchen، the bus stop، the sun.": {
 "en": "Use \"the\" when we both know which one: the kitchen, the bus stop, the sun.",
+"kind": "text",
+"ui": false
+},
+"وقتی همان لحظه تصمیم می‌گیرید will ('ll): I'm thirsty. I'll get some water.": {
+"en": "Use \"will\" ('ll) when you decide at the moment of speaking: I'm thirsty. I'll get some water.",
 "kind": "text",
 "ui": false
 },
@@ -137855,12 +139295,12 @@
 "ui": true
 },
 "ٹام کا خاندان": {
-"en": "The Toms",
+"en": "family",
 "kind": "text",
 "ui": true
 },
 "ٹامز میں خوش آمدید": {
-"en": "Welcome to New Life UK",
+"en": "welcome",
 "kind": "text",
 "ui": true
 },
@@ -138001,6 +139441,11 @@
 },
 "پارسال زانوم آسیب دید، ولی الان خوبه.": {
 "en": "I had a knee injury last year, but it's fine now.",
+"kind": "text",
+"ui": false
+},
+"پارسال سیگار را ترک کرد.": {
+"en": "He stopped smoking last year.",
 "kind": "text",
 "ui": false
 },
@@ -138815,7 +140260,7 @@
 "ui": false
 },
 "پخش همه": {
-"en": "Play all",
+"en": "play_all",
 "kind": "text",
 "ui": true
 },
@@ -138976,6 +140421,11 @@
 },
 "پذیرش باشگاه": {
 "en": "Gym receptionist",
+"kind": "text",
+"ui": false
+},
+"پذیرش بیمارستان": {
+"en": "Hospital reception",
 "kind": "text",
 "ui": false
 },
@@ -140434,6 +141884,11 @@
 "kind": "text",
 "ui": false
 },
+"پس می‌گوییم Call me! و Come with us، نه Call I.": {
+"en": "So we say \"Call me!\" and \"Come with us\", not \"Call I\".",
+"kind": "text",
+"ui": false
+},
 "پس می‌گوییم I've been to Wales ولی I went to Wales last summer.": {
 "en": "So we say \"I've been to Wales\" but \"I went to Wales last summer\". Never \"I've been there last summer\".",
 "kind": "text",
@@ -140744,7 +142199,7 @@
 "kind": "text",
 "ui": false
 },
-"پسر خوب! پاک کن، پاک کن.": {
+"پسر خوب! پاک کن، پاک کن، پاک کن.": {
 "en": "Good boy! Wipe, wipe, wipe.",
 "kind": "text",
 "ui": false
@@ -142259,6 +143714,11 @@
 "kind": "text",
 "ui": false
 },
+"پول را قرض می‌دهم به شرطی که هفتهٔ بعد پس بدهی.": {
+"en": "I'll lend you the money as long as you pay me back next week.",
+"kind": "text",
+"ui": false
+},
 "پول زیادیه! معمولی لطفاً.": {
 "en": "That's a lot of money! Standard, please.",
 "kind": "text",
@@ -142455,7 +143915,7 @@
 "ui": false
 },
 "پچھلے لیول میں 2 گفتگو مکمل کریں": {
-"en": "Finish 2 chats in the previous level to open",
+"en": "level_locked",
 "kind": "text",
 "ui": true
 },
@@ -142463,6 +143923,11 @@
 "en": "whisper",
 "kind": "word",
 "ui": false
+},
+"پښتو": {
+"en": "Pashto",
+"kind": "text",
+"ui": true
 },
 "پکیج خراب شده": {
 "en": "The boiler's broken",
@@ -143195,7 +144660,7 @@
 "ui": false
 },
 "پیشنهاد ما شروع از این سطح است": {
-"en": "We recommend starting at",
+"en": "quiz_result",
 "kind": "text",
 "ui": true
 },
@@ -143232,6 +144697,11 @@
 "پیشنهاد کردن": {
 "en": "recommend",
 "kind": "word",
+"ui": false
+},
+"پیشنهاد کردند آنلاین درخواست بدهیم.": {
+"en": "They suggested that we should apply online.",
+"kind": "text",
 "ui": false
 },
 "پیشنهاد: ... کنم؟": {
@@ -143625,7 +145095,7 @@
 "ui": false
 },
 "چالش هفتگی": {
-"en": "Weekly challenge",
+"en": "weekly",
 "kind": "text",
 "ui": true
 },
@@ -143706,6 +145176,11 @@
 },
 "چای برای صبحونه! مثل ما. با شیر می‌خورید؟": {
 "en": "Tea for breakfast! Same as us. Do you drink it with milk?",
+"kind": "text",
+"ui": false
+},
+"چای برای نوشیدن خیلی داغ است.": {
+"en": "The tea's too hot to drink.",
 "kind": "text",
 "ui": false
 },
@@ -144444,6 +145919,11 @@
 "kind": "word",
 "ui": false
 },
+"چراغ‌ها خاموش است. حتماً خوابند.": {
+"en": "The lights are off. They must be asleep.",
+"kind": "text",
+"ui": false
+},
 "چراغ‌ها خاموش، پاپ‌کورن آماده، گوشی‌ها کنار. صبر کن": {
 "en": "Lights off, popcorn ready, phones away. Wait",
 "kind": "text",
@@ -144819,6 +146299,11 @@
 "kind": "text",
 "ui": false
 },
+"چشم‌هایت قرمز است. گریه کرده‌ای؟": {
+"en": "Your eyes are red. Have you been crying?",
+"kind": "text",
+"ui": false
+},
 "چشم‌هایش از تعجب گرد شده بود.": {
 "en": "Her eyes were as big as saucers.",
 "kind": "text",
@@ -145090,7 +146575,7 @@
 "ui": false
 },
 "چطوری؟ فیفا بلدی، یا قراره له بشی؟": {
-"en": "Alright? You any good at FIFA, or are you gonna get bodied?",
+"en": "Alright? You any good at GoalRush, or are you gonna get bodied?",
 "kind": "text",
 "ui": false
 },
@@ -145299,6 +146784,11 @@
 "kind": "text",
 "ui": false
 },
+"چقدر نان لازم داریم؟": {
+"en": "How much bread do we need?",
+"kind": "text",
+"ui": false
+},
 "چقدر نمک؟": {
 "en": "How much salt?",
 "kind": "text",
@@ -145401,6 +146891,11 @@
 },
 "چند تا بچه داره؟": {
 "en": "How many babies has she got?",
+"kind": "text",
+"ui": false
+},
+"چند تا بچه داری؟": {
+"en": "How many children have you got?",
 "kind": "text",
 "ui": false
 },
@@ -147394,6 +148889,11 @@
 "kind": "text",
 "ui": false
 },
+"چیزی بیاورم؟": {
+"en": "Should I bring anything?",
+"kind": "text",
+"ui": false
+},
 "چیزی جدید": {
 "en": "something new",
 "kind": "text",
@@ -147580,7 +149080,7 @@
 "ui": false
 },
 "ڈائری": {
-"en": "Diary",
+"en": "diary",
 "kind": "text",
 "ui": true
 },
@@ -149029,6 +150529,16 @@
 "kind": "word",
 "ui": false
 },
+"کالج بزرگسالان ریورساید": {
+"en": "Riverside Adult College",
+"kind": "text",
+"ui": false
+},
+"کالج بزرگسالان ریورساید · کلاس‌های B1 تا C1": {
+"en": "Riverside Adult College · Classes B1–C1",
+"kind": "text",
+"ui": true
+},
 "کالسکه": {
 "en": "pushchair",
 "kind": "word",
@@ -149806,6 +151316,11 @@
 },
 "کتت را بردار. اولین رأیت اینجا. لحظهٔ بزرگیه، واقعاً.": {
 "en": "grab your coat. Your first vote here. That's a big moment, that is.",
+"kind": "text",
+"ui": false
+},
+"کتت را فراموش نکن!": {
+"en": "Don't forget your coat!",
 "kind": "text",
 "ui": false
 },
@@ -151335,7 +152850,7 @@
 "ui": false
 },
 "کل کہانی میں واپس آئے گا": {
-"en": "COMING BACK TOMORROW IN THE STORY",
+"en": "tomorrow",
 "kind": "text",
 "ui": true
 },
@@ -151375,7 +152890,7 @@
 "ui": false
 },
 "کلاس دهم، تازه دورهٔ GCSE را شروع کرده. فوتبال، فیفا، کار شنبه‌ها در نانوایی و گفتن «innit» بیش از حد.": {
-"en": "Year 10, starting his GCSEs. Football, FIFA, a Saturday job at the bakery and saying 'innit' far too much.",
+"en": "Year 10, starting his GCSEs. Football, GoalRush, a Saturday job at the bakery and saying 'innit' far too much.",
 "kind": "text",
 "ui": false
 },
@@ -151521,6 +153036,16 @@
 },
 "کلاس‌ها کجاست؟": {
 "en": "Where are the lessons?",
+"kind": "text",
+"ui": false
+},
+"کلاس‌های A1 تا A2": {
+"en": "Classes A1–A2",
+"kind": "text",
+"ui": false
+},
+"کلاس‌های B1 تا C1": {
+"en": "Classes B1–C1",
 "kind": "text",
 "ui": false
 },
@@ -151689,6 +153214,16 @@
 "kind": "text",
 "ui": false
 },
+"کلمات پرسشی اول جمله می‌آیند: What، Where، When، Who، Why، How، Which، Whose.": {
+"en": "Question words come first: What, Where, When, Who, Why, How, Which, Whose.",
+"kind": "text",
+"ui": false
+},
+"کلمات پرسشی: what، where، when، who، how": {
+"en": "Question words: what, where, when, who, how",
+"kind": "text",
+"ui": false
+},
 "کلمه": {
 "en": "word",
 "kind": "word",
@@ -151787,16 +153322,6 @@
 "کلوچه": {
 "en": "cookie",
 "kind": "word",
-"ui": false
-},
-"کلوچهٔ دایناسوری هست! و کیک شکلاتی. کدومش؟": {
-"en": "there's a dinosaur cookie! And a chocolate cake. Which one?",
-"kind": "text",
-"ui": false
-},
-"کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.": {
-"en": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
-"kind": "text",
 "ui": false
 },
 "کلوچهٔ میوهٔ خشک": {
@@ -153054,6 +154579,11 @@
 "kind": "word",
 "ui": false
 },
+"کوردی": {
+"en": "Kurdish (Sorani)",
+"kind": "text",
+"ui": true
+},
 "کورما": {
 "en": "korma",
 "kind": "word",
@@ -153345,7 +154875,7 @@
 "ui": false
 },
 "کہانی ختم": {
-"en": "Story finished",
+"en": "storyDone",
 "kind": "text",
 "ui": true
 },
@@ -153649,6 +155179,11 @@
 "kind": "text",
 "ui": false
 },
+"کیف پولم را پیدا نمی‌کنم. شاید در کافه جا گذاشته‌ام.": {
+"en": "I can't find my wallet. I might have left it at the café.",
+"kind": "text",
+"ui": false
+},
 "کیف کتاب": {
 "en": "book bag",
 "kind": "text",
@@ -153864,6 +155399,11 @@
 "kind": "text",
 "ui": false
 },
+"کیک میل داری؟": {
+"en": "Would you like some cake?",
+"kind": "text",
+"ui": false
+},
 "کیک می‌خوای؟ کیک صورتی و کیک شکلاتی داریم.": {
 "en": "Do you want a cake? We've got pink cake and chocolate cake.",
 "kind": "text",
@@ -154017,6 +155557,11 @@
 "گاهی": {
 "en": "sometimes",
 "kind": "word",
+"ui": false
+},
+"گاهی با اتوبوس می‌روم.": {
+"en": "I sometimes take the bus.",
+"kind": "text",
 "ui": false
 },
 "گاهی با شماره یا نام خانواده جواب می‌دهند.": {
@@ -154175,7 +155720,7 @@
 "ui": false
 },
 "گذرنامهٔ لهجه": {
-"en": "Accent Passport",
+"en": "passport",
 "kind": "text",
 "ui": true
 },
@@ -154214,6 +155759,16 @@
 "kind": "text",
 "ui": false
 },
+"گذشتهٔ be برای I، he، she، it می‌شود was و برای you، we، they می‌شود were.": {
+"en": "The past of \"be\" is \"was\" for I, he, she, it and \"were\" for you, we, they.",
+"kind": "text",
+"ui": false
+},
+"گذشتهٔ be: was و were": {
+"en": "Past of \"be\": was and were",
+"kind": "text",
+"ui": false
+},
 "گذشتهٔ استمراری": {
 "en": "Past continuous: I was reading / were you waiting?",
 "kind": "text",
@@ -154224,8 +155779,18 @@
 "kind": "text",
 "ui": false
 },
+"گذشتهٔ استمراری = was/were + فعل ing‌دار؛ کاری که در گذشته در جریان بود.": {
+"en": "The past continuous is was/were + -ing. It describes an action in progress in the past.",
+"kind": "text",
+"ui": false
+},
 "گذشتهٔ استمراری برای پس‌زمینه": {
 "en": "Past continuous for background: It was raining…",
+"kind": "text",
+"ui": false
+},
+"گذشتهٔ استمراری: I was cooking when…": {
+"en": "Past continuous: I was cooking when…",
 "kind": "text",
 "ui": false
 },
@@ -154284,6 +155849,26 @@
 "kind": "text",
 "ui": false
 },
+"گذشتهٔ کامل = had + اسم مفعول؛ نشان می‌دهد کدام کار در گذشته زودتر اتفاق افتاده.": {
+"en": "The past perfect is had + past participle. It shows which past action happened first.",
+"kind": "text",
+"ui": false
+},
+"گذشتهٔ کامل استمراری = had been + ing؛ کاری که تا لحظه‌ای در گذشته ادامه داشت.": {
+"en": "The past perfect continuous is had been + -ing. It shows an activity that continued up to a moment in the past.",
+"kind": "text",
+"ui": false
+},
+"گذشتهٔ کامل استمراری: I'd been waiting for hours": {
+"en": "Past perfect continuous: I'd been waiting for hours",
+"kind": "text",
+"ui": false
+},
+"گذشتهٔ کامل: It had already left": {
+"en": "Past perfect: It had already left",
+"kind": "text",
+"ui": false
+},
 "گرامی داشتن": {
 "en": "treasure",
 "kind": "word",
@@ -154312,6 +155897,11 @@
 "گربه": {
 "en": "cat",
 "kind": "word",
+"ui": false
+},
+"گربه دارد شامش را می‌خورد.": {
+"en": "The cat is eating its dinner.",
+"kind": "text",
 "ui": false
 },
 "گربه نارنجی و سفید است.": {
@@ -155345,7 +156935,7 @@
 "ui": false
 },
 "گفتگوی قشنگی بود!": {
-"en": "Lovely chat!",
+"en": "lovelyChat",
 "kind": "text",
 "ui": true
 },
@@ -155845,7 +157435,7 @@
 "ui": false
 },
 "گوش بده": {
-"en": "Listen",
+"en": "listen",
 "kind": "text",
 "ui": true
 },
@@ -156050,7 +157640,7 @@
 "ui": false
 },
 "گوشهٔ فرهنگ": {
-"en": "Culture corner",
+"en": "cultureCorner",
 "kind": "text",
 "ui": true
 },
@@ -156429,6 +158019,11 @@
 "kind": "word",
 "ui": true
 },
+"گیج شده‌ام. می‌شود دوباره توضیح بدهی؟": {
+"en": "I'm confused. Can you explain again?",
+"kind": "text",
+"ui": false
+},
 "گیج می‌کند": {
 "en": "confuses",
 "kind": "word",
@@ -156515,27 +158110,27 @@
 "ui": false
 },
 "ہر کردار کا اعتماد": {
-"en": "TRUST BY CHARACTER",
+"en": "trustBy",
 "kind": "text",
 "ui": true
 },
 "ہفتہ وار چیلنج": {
-"en": "Weekly challenge",
+"en": "weekly",
 "kind": "text",
 "ui": true
 },
 "ہم کس زبان میں سمجھائیں؟": {
-"en": "Which language should we explain things in?",
+"en": "pick_lang",
 "kind": "text",
 "ui": true
 },
 "ہم یہاں سے شروع کرنے کا مشورہ دیتے ہیں": {
-"en": "We recommend starting at",
+"en": "quiz_result",
 "kind": "text",
 "ui": true
 },
 "ہو گیا": {
-"en": "Done",
+"en": "done",
 "kind": "text",
 "ui": true
 },
@@ -156734,6 +158329,11 @@
 "kind": "text",
 "ui": false
 },
+"یادت باشد در را قفل کنی!": {
+"en": "Remember to lock the door!",
+"kind": "text",
+"ui": false
+},
 "یادت بماند، یادت بماند، پنجم نوامبر!": {
 "en": "Remember, remember the fifth of November!",
 "kind": "text",
@@ -156780,7 +158380,7 @@
 "ui": false
 },
 "یادداشت امروز را بنویس": {
-"en": "Write today’s entry",
+"en": "writeDiary",
 "kind": "text",
 "ui": true
 },
@@ -156857,6 +158457,11 @@
 "یادداشت‌ها": {
 "en": "notes",
 "kind": "word",
+"ui": false
+},
+"یادم است او را در یک عروسی دیدم.": {
+"en": "I remember meeting her at a wedding.",
+"kind": "text",
 "ui": false
 },
 "یادم بده! تو این کار بدم. فقط باد میدم. پففف!": {
@@ -157006,6 +158611,11 @@
 },
 "یالا پسرها! بدوید!": {
 "en": "Come on, boys! Run!",
+"kind": "text",
+"ui": false
+},
+"یالا، بهمون بگو!": {
+"en": "Go on, tell us!",
 "kind": "text",
 "ui": false
 },
@@ -157350,7 +158960,7 @@
 "ui": false
 },
 "یقین نہیں؟ 1 منٹ کا ٹیسٹ دیں": {
-"en": "Not sure? Take a 1-minute placement quiz",
+"en": "take_quiz",
 "kind": "text",
 "ui": true
 },
@@ -158909,8 +160519,8 @@
 "kind": "text",
 "ui": false
 },
-"یه پیش‌نویس نوشته، ولی بیشترش دربارهٔ FIFA ئه.": {
-"en": "He's written a draft, but it's mostly about FIFA.",
+"یه پیش‌نویس نوشته، ولی بیشترش دربارهٔ GoalRush ئه.": {
+"en": "He's written a draft, but it's mostly about GoalRush.",
 "kind": "text",
 "ui": false
 },
@@ -159974,6 +161584,11 @@
 "kind": "text",
 "ui": false
 },
+"یک ساعت منتظر بودم که بالاخره اتوبوس آمد.": {
+"en": "I'd been waiting for an hour when the bus finally came.",
+"kind": "text",
+"ui": false
+},
 "یک ساعت پیش": {
 "en": "hour ago",
 "kind": "text",
@@ -160076,6 +161691,11 @@
 },
 "یک فنجان چای عالی می‌شه، مرسی.": {
 "en": "I'd love a cuppa, cheers.",
+"kind": "text",
+"ui": false
+},
+"یک فنجان چای می‌خواهم، لطفاً.": {
+"en": "I'd like a cup of tea, please.",
 "kind": "text",
 "ui": false
 },
@@ -160810,7 +162430,7 @@
 "ui": false
 },
 "یہ جگہ ابھی بند ہے": {
-"en": "This place is still locked",
+"en": "locked_place",
 "kind": "text",
 "ui": true
 },
@@ -160820,12 +162440,12 @@
 "ui": false
 },
 "یہ نجی خاندانی کہانی ہے — پہلے مزید اعتماد بنائیں۔": {
-"en": "This is a private family story — build more trust first.",
+"en": "privateStory",
 "kind": "text",
 "ui": true
 },
 "یہاں سے شروع کریں": {
-"en": "Start here",
+"en": "start_here",
 "kind": "text",
 "ui": true
 },
@@ -160833,6 +162453,11 @@
 "en": "It's 01-4472-26. We'll also text it. Honestly, bikes are rarely found, but it does happen.",
 "kind": "text",
 "ui": false
+},
+"۰۱۲۳۴۵۶۷۸۹": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "۱۰ مِر استریت؟": {
 "en": "10 Mare Street?",

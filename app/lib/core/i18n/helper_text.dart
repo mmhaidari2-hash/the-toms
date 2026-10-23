@@ -133,5 +133,15 @@ String _digits(String s) {
   return b.toString();
 }
 
+/// A whole helper-language prompt for a practice item, or null when this language has no checked translation of
+/// that exact line (then the exercise falls back to audio instead of a partial or word-by-word rendering). English
+/// helpers get null too: the English line is the answer itself.
+String? hlExact(String? s) {
+  if (s == null || s.trim().isEmpty) return null;
+  if (helperLang == 'fa') return s;
+  if (helperLang == 'en') return null;
+  return _table[s.trim()];
+}
+
 /// Untranslated Persian left in a string the app shows (for the language audit).
 bool hasPersian(String s) => _hasFa(s);

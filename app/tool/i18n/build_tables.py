@@ -7,6 +7,9 @@ import json, os
 H = os.path.dirname(os.path.abspath(__file__)); APP = os.path.join(H, '..', '..')
 OUT = os.path.join(APP, 'assets', 'i18n'); os.makedirs(OUT, exist_ok=True)
 src = json.load(open(os.path.join(H, 'sources.json')))
+REWRITES = json.load(open(os.path.join(H, 'fa_rewrites.json'))) if os.path.exists(os.path.join(H, 'fa_rewrites.json')) else {}
+RENAMES = json.load(open(os.path.join(H, 'brand_renames.json'))) if os.path.exists(os.path.join(H, 'brand_renames.json')) else []
+FLAGS = json.load(open(os.path.join(H, 'prompt_flags.json'))) if os.path.exists(os.path.join(H, 'prompt_flags.json')) else {}
 CODES = ['hi', 'ur', 'zh', 'ar', 'uk', 'prs', 'ps', 'bn', 'pa', 'ro', 'pl', 'ti', 'ckb', 'tr', 'es', 'pt', 'zh-Hant']
 import re
 def looped(out, en, code=''):
@@ -33,6 +36,15 @@ for c in CODES:
     try: mt = json.load(open(p))
     except Exception: print('skip (still writing):', c); old = os.path.join(OUT, c + '.json'); cov[c] = None; continue
     mt = {k: v.replace(' \u2047 ', ' — ').replace('\u2047', '—') if isinstance(v, str) else v for k, v in mt.items()}
+    # Persian prompts rewritten to match their English answer (tool/i18n/fa_rewrites.json): the new Persian key keeps the
+    # translation of the old one when that translation was made from the same English sentence.
+    for new, r in REWRITES.items():
+        if new in mt or r['old'] not in mt or not isinstance(mt[r['old']], str): continue
+        if r.get('rename'):  # a real brand renamed (tool/i18n/brand_renames.json): same rename in the translation
+            v = mt[r['old']]
+            for x, y in RENAMES: v = v.replace(x, y)
+            mt[new] = v
+        elif r.get('en') and src.get(new, {}).get('en') == r['en']: mt[new] = mt[r['old']]
     t = {k: v for k, v in mt.items() if k in src and isinstance(v, str) and v and not v.startswith('\u0000') and not looped(v, src[k].get('en'), c)}
     print(c, 'rejected as loops:', sum(1 for k, v in mt.items() if k in src and isinstance(v, str) and v and not v.startswith('\u0000') and looped(v, src[k].get('en'), c)))
     # One output reused for many unrelated, longer sources is a stock hallucination ("हयात" for "Theory test",
@@ -47,6 +59,14 @@ for c in CODES:
     print(c, 'stock outputs dropped:', len(stock))
     man = os.path.join(H, 'manual', c + '.json')  # hand-checked lines win over the machine translation
     if os.path.exists(man): t.update({k: v for k, v in json.load(open(man)).items() if k in src})
+    # Practice prompts whose translation does not carry the whole answer (tool/qa/qa_translate.py): dropped, so the
+    # exercise plays the sentence instead of showing a partial translation.
+    for k in FLAGS.get(c, []): t.pop(k, None)
+    for k, v in list(t.items()):
+        if isinstance(v, str):
+            for x, y in RENAMES: v = v.replace(x, y)
+            t[k] = v
+            if re.search(r'Twix|FIFA', v): t.pop(k)  # brand left in a machine translation: use the fallback instead
     dump(c, t); cov[c] = round(len(t) / len(src), 4)
     if all(k in mt for k in src): complete.add(c)
 # A language skipped this run keeps the coverage from the last build.
