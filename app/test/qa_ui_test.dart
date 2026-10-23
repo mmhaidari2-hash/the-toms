@@ -68,7 +68,7 @@ void main() {
           } else if (find.textContaining('Page Not Found').evaluate().isNotEmpty || find.textContaining('GoException').evaluate().isNotEmpty) {
             why = 'route not found';
           }
-          results.add({'route': r, 'lang': lang, 'size': '${size.width.toInt()}x${size.height.toInt()}', 'ok': why == null, if (why != null) 'why': why});
+          results.add({'route': r, 'lang': lang, 'size': '${size.width.toInt()}x${size.height.toInt()}', 'ok': why == null, 'why': ?why});
           if (why != null) bad.add('$r: $why');
         }
         FlutterError.onError = orig;
