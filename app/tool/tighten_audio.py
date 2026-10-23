@@ -30,6 +30,46 @@ def plan(x):
     thr = max(-50.0, np.percentile(db, 95) - 38)  # relative to the loud speech, so quiet voices are not cut
     runs = silent_runs(db, thr)
     return db, thr, runs
+CEIL = 0.84  # limiter ceiling (-1.5 dBFS): leaves headroom for MP3 encoding overshoot, so decoded peaks never hit full scale
+SEG_MAX = 9.0  # dB: most a single sentence is raised or lowered to match the others
+def level(y):
+    """Even out loudness between the sentences of one clip, then a look-ahead peak limiter. Returns (y, changed)."""
+    db = frames_db(y)
+    if len(db) < 10: return y, False
+    thr = max(-50.0, float(np.percentile(db, 95)) - 38); sp = np.where(db >= thr)[0]
+    if len(sp) == 0: return y, False
+    segs, s0 = [], sp[0]
+    for a, b in zip(sp, sp[1:]):
+        if b - a > 25: segs.append((s0, a)); s0 = b
+    segs.append((s0, sp[-1]))
+    segs = [(a, b) for a, b in segs if b - a >= 15]
+    changed = False
+    if len(segs) > 1:
+        med = [float(np.median(db[a:b + 1])) for a, b in segs]  # same measure as qa_audio's 'jump'
+        tgt = float(np.median(db[sp]))
+        gs = [float(np.clip(tgt - m, -SEG_MAX, SEG_MAX)) for m in med]
+        if max(abs(g) for g in gs) > 1.5:
+            # per-frame gain: each sentence its own gain, linear ramps across the pauses between them
+            xs = [c for (a, b) in segs for c in (a, b)]; ys = [g for g in gs for _ in (0, 1)]
+            gf = np.interp(np.arange(len(db)), xs, ys)
+            gsmp = np.repeat(10 ** (gf / 20), FR)
+            gsmp = np.concatenate([gsmp, np.full(max(0, len(y) - len(gsmp)), gsmp[-1])])[:len(y)]
+            y = y * gsmp; changed = True
+    # look-ahead limiter on 1 ms blocks: attack over 5 ms ahead of a peak, 60 ms release
+    B = 24; n = len(y) // B
+    if n > 8:
+        pk = np.abs(y[:n * B]).reshape(n, B).max(axis=1)
+        need = np.minimum(1.0, CEIL * 32768 / np.maximum(pk, 1.0))
+        if need.min() < 0.999:
+            la = np.lib.stride_tricks.sliding_window_view(np.concatenate([need, np.ones(5)]), 6).min(axis=1)[:n]
+            g = np.empty(n); cur = 1.0; rel = 1 - np.exp(-1 / 60)
+            for i, v in enumerate(la):
+                cur = v if v < cur else cur + (v - cur) * rel
+                g[i] = cur
+            gs = np.repeat(g, B); gs = np.concatenate([gs, np.full(len(y) - len(gs), g[-1])])
+            y = y * gs; changed = True
+            y = np.clip(y, -CEIL * 32768, CEIL * 32768)
+    return y, changed
 def tighten(x):
     p = plan(x)
     if p is None: return x, False
@@ -48,8 +88,9 @@ def tighten(x):
     peak = float(np.max(np.abs(x))) or 1.0
     g = min(g, 20 * np.log10(32000 / peak))  # never clip
     if abs(g) > 1.0: changed = True
-    if not changed: return x, False
     y = x[keep] * (10 ** (g / 20) if abs(g) > 1.0 else 1.0)
+    y, lc = level(y)
+    if not (changed or lc): return x, False
     f = int(0.06 * SR)  # short fade at the very end so the tail cut never clicks
     if len(y) > f: y[-f:] *= np.linspace(1, 0, f)
     return y, True

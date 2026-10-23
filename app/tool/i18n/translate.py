@@ -41,10 +41,15 @@ def fix(out, code):
     out = re.sub(r'\s*\.\.+$', '', out) if not out.endswith('…') else out
     if NLLB[code].endswith('Latn') or NLLB[code].endswith('Cyrl'): out = out.translate(FA_DIG)
     return out
+def save(done, path):
+    json.dump(done, open(path + '.tmp', 'w'), ensure_ascii=False, indent=0, sort_keys=True); os.replace(path + '.tmp', path)
 for code in sys.argv[1:]:
     path = os.path.join(HERE, 'mt', code + '.json'); os.makedirs(os.path.dirname(path), exist_ok=True)
     done = json.load(open(path)) if os.path.exists(path) else {}
-    todo = [k for k in src if k not in done]
+    # Resumable: a key is done once it has an output. Outputs that failed QA are kept with a leading NUL (build_tables
+    # skips them); MT_RETRY_BAD=1 gives those one more try.
+    retry = os.environ.get('MT_RETRY_BAD') == '1'
+    todo = [k for k in src if k not in done or (retry and str(done[k]).startswith('\u0000'))]
     todo.sort(key=lambda k: (not src[k].get('ui'), len(src[k]['en'] or k)))
     t0 = time.time(); tgt = NLLB[code]; bad = 0
     for i in range(0, len(todo), 96):
@@ -74,9 +79,9 @@ for code in sys.argv[1:]:
                     failed = [j for j in failed if j not in [jj for jj, a2 in zip(idx, ins) if ok(outs[jj], a2, code)]]
         for j in failed: bad += 1; outs[j] = '\u0000' + outs[j]
         for j, k in enumerate(chunk): done[k] = outs[j]
+        save(done, path)  # checkpoint after every chunk (atomic), so an interruption loses at most 96 lines
         if (i // 96) % 5 == 0 or i + 96 >= len(todo):
-            json.dump(done, open(path, 'w'), ensure_ascii=False, indent=0, sort_keys=True)
             el = time.time() - t0; n = i + len(chunk)
             print(f'{code} {n}/{len(todo)} {n / el:.1f}/s bad={bad} eta {int((len(todo) - n) / max(.1, n / el) / 60)}m', flush=True)
-    json.dump(done, open(path, 'w'), ensure_ascii=False, indent=0, sort_keys=True)
+    save(done, path)
     print(code, 'DONE', flush=True)
