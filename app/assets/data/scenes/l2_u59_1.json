@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "tom",
-   "text": "North London derby! Arsenal versus Spurs. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
+   "text": "Local derby! Rovers versus Lea Valley. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
    "translations": {
-    "fa": "دربی شمال لندن! آرسنال مقابل اسپرز. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟"
+    "fa": "دربی شمال لندن! روورز مقابل لی‌ولی. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟"
    },
    "branches": [
     {
@@ -68,9 +68,9 @@
   "n2": {
    "id": "n2",
    "speaker": "tom",
-   "text": "Nil-nil. Twenty minutes gone. Arsenal in red — that's us. Spurs in white. Ryan's at his mate's, texting me every thirty seconds.",
+   "text": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me every thirty seconds.",
    "translations": {
-    "fa": "صفر صفر. بیست دقیقه گذشته. آرسنال قرمز — ما هستیم. اسپرز سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده."
+    "fa": "صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده."
    },
    "branches": [
     {
@@ -184,18 +184,18 @@
   "n4": {
    "id": "n4",
    "speaker": "tom",
-   "text": "Free kick to Arsenal! Right on the edge of the box. Saka's taking it. Come on, Saka… come on…",
+   "text": "Free kick to Rovers! Right on the edge of the box. Okoro's taking it. Come on, Okoro… come on…",
    "translations": {
-    "fa": "ضربهٔ آزاد برای آرسنال! درست لب محوطه. ساکا می‌زنه. یالا ساکا… یالا…"
+    "fa": "ضربهٔ آزاد برای روورز! درست لب محوطه. اوکورو می‌زنه. یالا اوکورو… یالا…"
    },
    "branches": [
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "come"
      ],
-     "suggestion": "Come on, Arsenal!",
-     "suggestionFa": "یالا آرسنال!",
+     "suggestion": "Come on, Rovers!",
+     "suggestionFa": "یالا روورز!",
      "trustDelta": 6,
      "next": "n5",
      "success": true
@@ -203,11 +203,11 @@
     {
      "keywords": [
       "which",
-      "saka",
+      "okoro",
       "one"
      ],
-     "suggestion": "Which one is Saka?",
-     "suggestionFa": "ساکا کدومه؟",
+     "suggestion": "Which one is Okoro?",
+     "suggestionFa": "اوکورو کدومه؟",
      "trustDelta": 5,
      "next": "n5",
      "success": true

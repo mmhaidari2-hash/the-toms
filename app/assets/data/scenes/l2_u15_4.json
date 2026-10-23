@@ -3,8 +3,8 @@
  "characterId": "tom",
  "title": "Lost property",
  "titleFa": "اشیای گمشده",
- "setting": "Buses and Oyster · Level 2",
- "settingFa": "اتوبوس و کارت اویستر",
+ "setting": "Buses and travel cards · Level 2",
+ "settingFa": "اتوبوس و کارت سفر",
  "requires": null,
  "start": "n1",
  "level": "A2",
@@ -224,9 +224,9 @@
   "n5": {
    "id": "n5",
    "speaker": "tom",
-   "text": "Right. First, it goes back to the bus garage. After a few days, it goes to TfL Lost Property. You can report it online.",
+   "text": "Right. First, it goes back to the bus garage. After a few days, it goes to the lost property office. You can report it online.",
    "translations": {
-    "fa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به بخش اشیای گمشدهٔ TfL. می‌تونی آنلاین گزارشش بدی."
+    "fa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به دفتر اشیای گمشده. می‌تونی آنلاین گزارشش بدی."
    },
    "branches": [
     {
@@ -268,8 +268,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Transport for London (TfL) keeps lost items. You can report a lost item online and they'll contact you.",
-    "fa": "TfL اشیای گمشده را نگه می‌دارد."
+    "en": "London's transport lost property office keeps lost items. You can report a lost item online and they'll contact you.",
+    "fa": "دفتر اشیای گمشدهٔ حمل‌ونقل لندن وسایل را نگه می‌دارد."
    }
   },
   "n6": {

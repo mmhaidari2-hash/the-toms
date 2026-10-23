@@ -3,8 +3,8 @@
  "characterId": "doris",
  "title": "The bus is late",
  "titleFa": "اتوبوس دیر کرده",
- "setting": "Buses and Oyster · Level 2",
- "settingFa": "اتوبوس و کارت اویستر",
+ "setting": "Buses and travel cards · Level 2",
+ "settingFa": "اتوبوس و کارت سفر",
  "requires": null,
  "start": "n1",
  "level": "A2",
@@ -216,7 +216,7 @@
     }
    ],
    "cultureNote": {
-    "en": "Many Londoners use apps like Citymapper or TfL Go to check live bus times.",
+    "en": "Many Londoners use journey-planner apps to check live bus times.",
     "fa": "لندنی‌ها از برنامه‌هایی برای دیدن زمان لحظه‌ای اتوبوس استفاده می‌کنند."
    }
   },

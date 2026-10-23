@@ -157,9 +157,9 @@
   "n4": {
    "id": "n4",
    "speaker": "nicola",
-   "text": "What do you want on your toast? Jam? Butter? Marmite?",
+   "text": "What do you want on your toast? Jam? Butter? Yeast spread?",
    "translations": {
-    "fa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ مارمایت؟"
+    "fa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ کرهٔ مخمر؟"
    },
    "branches": [
     {
@@ -177,11 +177,11 @@
     },
     {
      "keywords": [
-      "marmite",
+      "spread",
       "what's"
      ],
-     "suggestion": "What's Marmite?",
-     "suggestionFa": "مارمایت چیه؟",
+     "suggestion": "What's yeast spread?",
+     "suggestionFa": "کرهٔ مخمر چیه؟",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -197,13 +197,13 @@
      "fa": "کره"
     },
     {
-     "word": "Marmite",
-     "fa": "مارمایت (خمیر مخمر)"
+     "word": "Yeast spread",
+     "fa": "کرهٔ مخمر (خمیر مخمر)"
     }
    ],
    "cultureNote": {
-    "en": "Marmite is a salty, dark spread made from yeast. British people say \"you either love it or hate it\".",
-    "fa": "مارمایت را یا دوست دارید یا متنفرید."
+    "en": "Yeast spread is salty and dark. British people say \"you either love it or hate it\".",
+    "fa": "کرهٔ مخمر را یا دوست دارید یا متنفرید."
    },
    "recasts": [
     {
@@ -220,9 +220,9 @@
   "n5": {
    "id": "n5",
    "speaker": "nicola",
-   "text": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
+   "text": "Yeast spread is brown and salty. Daddy loves it. I think it's yucky! Try some!",
    "translations": {
-    "fa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!"
+    "fa": "کرهٔ مخمر قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!"
    },
    "branches": [
     {

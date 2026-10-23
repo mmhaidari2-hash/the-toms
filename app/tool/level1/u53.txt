@@ -18,7 +18,7 @@ arthur: Good thinking. Stamps never go out of date. Now, the size. Is it a big e
 > No, it's a normal envelope. | نه، پاکت معمولیه.
 > It's a big one, A4 size. | بزرگه، اندازهٔ A4.
 W: envelope=پاکت نامه ; size=اندازه ; out of date=تاریخ‌گذشته
-C: Royal Mail prices depend on size: "Letter" (small) and "Large letter" (like A4) cost different amounts. | قیمت بر اساس اندازه.
+C: Postage prices depend on size: "Letter" (small) and "Large letter" (like A4) cost different amounts. | قیمت بر اساس اندازه.
 arthur: A big one is a "large letter". Let me check it in the slot. It fits! | بزرگه میشه «نامهٔ بزرگ». بذار تو شکاف امتحانش کنم. جا میشه!
 > What's the slot? | شکاف چیه؟
 > How much is a large letter? | نامهٔ بزرگ چنده؟
@@ -101,7 +101,7 @@ leslie: Nana got a card from the postman. "Sorry we missed you." Can you collect
 > Sure. Where do I go? | حتماً. کجا برم؟
 > What does the card say? | کارت چی میگه؟
 W: missed=نبودید ؛ از دست دادیم ; collect=تحویل گرفتن ; parcel=بسته
-C: When nobody is home, Royal Mail leaves a red "Sorry we missed you" card. | کارت قرمز «متأسفیم که نبودید».
+C: When nobody is home, the postie leaves a red "Sorry we missed you" card. | کارت قرمز «متأسفیم که نبودید».
 leslie: It says it's at the post office on the high street. You need the card and ID. | میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.
 > Whose ID? Mine or Nana's? | مدرک کی؟ مال من یا نانا؟
 > Can I take my passport? | می‌تونم پاسپورتم را ببرم؟

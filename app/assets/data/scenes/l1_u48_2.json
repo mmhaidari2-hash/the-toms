@@ -65,9 +65,9 @@
   "n2": {
    "id": "n2",
    "speaker": "ryan",
-   "text": "The news? Boring! I'd rather watch football. Arsenal are playing.",
+   "text": "The news? Boring! I'd rather watch football. Rovers are playing.",
    "translations": {
-    "fa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره."
+    "fa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. روورز بازی داره."
    },
    "branches": [
     {
@@ -121,9 +121,9 @@
   "n3": {
    "id": "n3",
    "speaker": "ryan",
-   "text": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
+   "text": "Lea Valley. Big game! But Nicola wants cartoons and Mum wants the baking show.",
    "translations": {
-    "fa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف."
+    "fa": "لی‌ولی. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان برنامهٔ شیرینی‌پزی."
    },
    "branches": [
     {
@@ -132,8 +132,8 @@
       "bake",
       "off"
      ],
-     "suggestion": "What's Bake Off?",
-     "suggestionFa": "بیک آف چیه؟",
+     "suggestion": "What's the baking show?",
+     "suggestionFa": "برنامهٔ شیرینی‌پزی چیه؟",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -162,8 +162,8 @@
     }
    ],
    "cultureNote": {
-    "en": "\"The Great British Bake Off\" is a very popular TV baking competition.",
-    "fa": "مسابقهٔ آشپزی بیک آف."
+    "en": "TV baking competitions are hugely popular in Britain.",
+    "fa": "مسابقهٔ آشپزی برنامهٔ شیرینی‌پزی."
    }
   },
   "n4": {

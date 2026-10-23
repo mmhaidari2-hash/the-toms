@@ -146,14 +146,14 @@
    "branches": [
     {
      "keywords": [
-      "jobcentre",
+      "job",
       "something",
       "office",
       "you'll",
       "worker"
      ],
-     "suggestion": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the Jobcentre is great.",
-     "suggestionFa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو جاب‌سنتر عالیه.",
+     "suggestion": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the job centre is great.",
+     "suggestionFa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو مرکز کاریابی عالیه.",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -164,9 +164,9 @@
   "r7": {
    "id": "r7",
    "speaker": "mehdi",
-   "text": "What's the Jobcentre?",
+   "text": "What's the job centre?",
    "translations": {
-    "fa": "جاب‌سنتر چیه؟"
+    "fa": "مرکز کاریابی چیه؟"
    },
    "branches": [
     {

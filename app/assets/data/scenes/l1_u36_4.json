@@ -53,9 +53,9 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "\"The Gruffalo\". The girls always choose that one! They know every word.",
+   "text": "\"The Moonlit Monster\". The girls always choose that one! They know every word.",
    "translations": {
-    "fa": "«گروفالو». دخترها همیشه همونو انتخاب می‌کنن! همهٔ کلمه‌هاش را بلدن."
+    "fa": "«هیولای مهتابی». دخترها همیشه همونو انتخاب می‌کنن! همهٔ کلمه‌هاش را بلدن."
    },
    "branches": [
     {
@@ -72,11 +72,11 @@
     },
     {
      "keywords": [
-      "gruffalo",
+      "monster",
       "what's"
      ],
-     "suggestion": "What's a Gruffalo?",
-     "suggestionFa": "گروفالو چیه؟",
+     "suggestion": "What's the Moonlit Monster?",
+     "suggestionFa": "هیولای مهتابی چیه؟",
      "trustDelta": 5,
      "next": "n3",
      "success": true
@@ -97,8 +97,8 @@
     }
    ],
    "cultureNote": {
-    "en": "\"The Gruffalo\" by Julia Donaldson is one of the best-loved British children's books.",
-    "fa": "گروفالو کتاب محبوب کودکان."
+    "en": "Rhyming picture books like \"The Moonlit Monster\" are bedtime favourites in British homes.",
+    "fa": "هیولای مهتابی کتاب محبوب کودکان."
    }
   },
   "n3": {

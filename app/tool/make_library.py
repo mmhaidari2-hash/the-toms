@@ -30,12 +30,12 @@ i'll=من … خواهم ؛ ـم (آینده) ; i've=من … ام (حال کا�
 BASE={k.strip():v.strip() for k,v in BASE.items()}
 NAMES={'William':'ویلیام','Tom':'تام','Leslie':'لزلی','Nicola':'نیکولا','Ryan':'رایان','Maggie':'مگی','Patel':'پاتل','Biscuit':'بیسکویت (اسم گربه)','Gareth':'گرت',
  'Ellis':'الیس','Khan':'خان','Hackney':'هاکنی (محله‌ای در لندن)','Mare':'مِر (اسم خیابان)','Street':'خیابان','Brown':'براون','Thompsons':'تامسون‌ها','Thompson':'تامسون',
- 'Overground':'اورگراند (قطار شهری لندن)','Highbury':'هایبری','Victoria':'ویکتوریا (ایستگاه)','Brighton':'برایتون','King':'پادشاه','Fairy':'پری','Tooth':'دندان','Happy':'مبارک','Birthday':'تولد','London':'لندن','England':'انگلستان','Spain':'اسپانیا','TV':'تلویزیون','L':'ال (حرف)',
+ 'overground':'اورگراند (قطار شهری لندن)','Highbury':'هایبری','Victoria':'ویکتوریا (ایستگاه)','Brighton':'برایتون','King':'پادشاه','Fairy':'پری','Tooth':'دندان','Happy':'مبارک','Birthday':'تولد','London':'لندن','England':'انگلستان','Spain':'اسپانیا','TV':'تلویزیون','L':'ال (حرف)',
  'Birmingham':'بیرمنگام','Dave':'دیو','Alastair':'آلستر','Know-Nothings':'هیچ‌ندان‌ها (اسم تیم)','Doris':'دوریس','Bradley':'بردلی','George':'جورج','Dover':'داور (شهری ساحلی)',
- 'France':'فرانسه','Maya':'مایا','Clarke':'کلارک','Hannah':'هانا','Mary':'مری','St':'سنت (قدیس)','Ms':'خانم','Homerton':'هومرتون (بیمارستان)','Leeds':'لیدز','Glasgow':'گلاسگو','Bennett':'بنت',
+ 'France':'فرانسه','Maya':'مایا','Clarke':'کلارک','Hannah':'هانا','Mary':'مری','St':'سنت (قدیس)','Ms':'خانم','Riverside':'ریورساید (بیمارستان)','Leeds':'لیدز','Glasgow':'گلاسگو','Bennett':'بنت',
  'Siân':'شان','Imogen':'ایموجن','Priya':'پریا','Suffolk':'سافک','Acorns':'ایکورنز (اسم مهد)','Harris':'هریس','Jo':'جو','Oscar':'اسکار','Vida':'ویدا','Canada':'کانادا','Hale':'هیل',
  'Liverpool':'لیورپول','Margaret':'مارگارت','Frank':'فرانک','Montreal':'مونترال','Ontario':'انتاریو','Arthur':'آرتور'}
-NOPREFIX={'Street','King','TV','Happy','Birthday','Fairy','Tooth','London','England','Spain','L','Birmingham','Dover','France','St','Ms','Mary','Homerton','Leeds','Glasgow','Suffolk','Acorns','Canada','Liverpool','Montreal','Ontario','Know-Nothings'}
+NOPREFIX={'Street','King','TV','Happy','Birthday','Fairy','Tooth','London','England','Spain','L','Birmingham','Dover','France','St','Ms','Mary','Riverside','Leeds','Glasgow','Suffolk','Acorns','Canada','Liverpool','Montreal','Ontario','Know-Nothings'}
 COURSE={}
 c=json.load(open(os.path.join(A,'data/course.json')))
 for u in c['units']+[u for p in c.get('packs',[]) for u in p['units']]:

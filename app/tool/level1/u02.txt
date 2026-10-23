@@ -42,13 +42,13 @@ leslie: Right, breakfast! We've got toast, cereal and eggs. What would you like?
 W: toast=نان تست ; cereal=غلات صبحانه ; egg=تخم‌مرغ ; I'd like=می‌خواهم (مؤدبانه)
 C: Say "an egg" (vowel sound) but "a piece of toast". | بگو «an egg» (صدای مصوت) ولی «a piece of toast».
 X: i want toast ; give me toast => Toast? Lovely choice — coming right up. | I'd like some toast, please. | لطفاً کمی نان تست می‌خوام.
-leslie: Good choice. Butter and jam, or Marmite? | انتخاب خوبیه. کره و مربا، یا مارمایت؟
+leslie: Good choice. Butter and jam, or yeast spread? | انتخاب خوبیه. کره و مربا، یا کرهٔ مخمر؟
 > Butter and jam, please. | کره و مربا، لطفاً.
-> What's Marmite? | مارمایت چیه؟
+> What's yeast spread? | کرهٔ مخمر چیه؟
 W: butter=کره ; jam=مربا
-nicola: Marmite is yucky! It's black and salty. | مارمایت بدمزه‌ست! سیاه و شوره.
+nicola: yeast spread is yucky! It's black and salty. | کرهٔ مخمر بدمزه‌ست! سیاه و شوره.
 > Yucky? Let me try it! | بدمزه؟ بذار امتحانش کنم!
-> OK, no Marmite for me then. | باشه، پس برای من مارمایت نه.
+> OK, no yeast spread for me then. | باشه، پس برای من کرهٔ مخمر نه.
 W: yucky=بدمزه (بچگانه) ; salty=شور ; black=سیاه
 leslie: Nicola, some people love it! Would you like orange juice? | نیکولا، بعضیا عاشقشن! آب پرتقال میل داری؟
 > Yes, a glass of orange juice, please. | بله، یه لیوان آب پرتقال، لطفاً.

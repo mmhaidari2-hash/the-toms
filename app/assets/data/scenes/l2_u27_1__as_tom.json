@@ -127,8 +127,8 @@
       "check",
       "about"
      ],
-     "suggestion": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the TfL website. You can check before you leave.",
-     "suggestionFa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت TfL هست. می‌تونی قبل از راه افتادن چک کنی.",
+     "suggestion": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the transport website. You can check before you leave.",
+     "suggestionFa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت حمل‌ونقل هست. می‌تونی قبل از راه افتادن چک کنی.",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -139,9 +139,9 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Can I check on the TfL Go app too?",
+   "text": "Can I check on the travel app too?",
    "translations": {
-    "fa": "تو اپ TfL Go هم می‌تونم چک کنم؟"
+    "fa": "تو اپ مسیریابی هم می‌تونم چک کنم؟"
    },
    "branches": [
     {

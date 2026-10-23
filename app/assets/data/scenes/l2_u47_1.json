@@ -66,9 +66,9 @@
   "n2": {
    "id": "n2",
    "speaker": "priya",
-   "text": "Welcome to Britain — a whole wall of tea! The shop's own brand is cheaper than Yorkshire Tea. One sixty versus three fifty.",
+   "text": "Welcome to Britain — a whole wall of tea! The shop's own brand is cheaper than the famous brand. One sixty versus three fifty.",
    "translations": {
-    "fa": "به بریتانیا خوش اومدی — یه دیوار کامل چای! برند خود مغازه از یورکشایر تی ارزون‌تره. یک و شصت در برابر سه و پنجاه."
+    "fa": "به بریتانیا خوش اومدی — یه دیوار کامل چای! برند خود مغازه از مارک معروف ارزون‌تره. یک و شصت در برابر سه و پنجاه."
    },
    "branches": [
     {
@@ -78,8 +78,8 @@
       "good",
       "tea"
      ],
-     "suggestion": "Is the own brand as good as Yorkshire Tea?",
-     "suggestionFa": "برند مغازه به خوبی یورکشایر تیه؟",
+     "suggestion": "Is the own brand as good as the famous brand?",
+     "suggestionFa": "برند مغازه به خوبی مارک معروفه؟",
      "trustDelta": 6,
      "next": "n3",
      "success": true
@@ -126,9 +126,9 @@
       "is it good as yorkshire tea",
       "it is as good like yorkshire"
      ],
-     "echo": "Is it as good as Yorkshire Tea? Hmm!",
-     "better": "Is it as good as Yorkshire Tea?",
-     "betterFa": "به خوبی یورکشایر تی است؟"
+     "echo": "Is it as good as the famous brand? Hmm!",
+     "better": "Is it as good as the famous brand?",
+     "betterFa": "به خوبی مارک معروف است؟"
     }
    ]
   },

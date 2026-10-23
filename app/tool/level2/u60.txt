@@ -30,13 +30,13 @@ callum: No way! You play an instrument? You have to come on Thursday. Bring it! 
 W: no way=جدی؟ ؛ امکان ندارد ; jam=نوازندگی گروهی بداهه ; legendary=افسانه‌ای ; shy=خجالتی
 callum: Deal. Listening counts. Here's your flat white — on the house today. For my new bandmate! | قبول. گوش دادن هم حساب میشه. اینم فلت وایتت — امروز مهمون مایی. برای هم‌گروهی جدیدم!
 
-# l2_u60_2 | callum | Swapping numbers | رد و بدل کردن شماره | Can I get your number? / Are you on WhatsApp? / I'll drop you a text | شماره‌ات را می‌دهی؟ / واتس‌اپ داری؟ / پیام می‌دهم | coffee
-callum: About Thursday. I'll send you the details. Can I get your number? Or are you an Instagram person? | دربارهٔ پنجشنبه. جزئیات را برات می‌فرستم. شماره‌ات را میدی؟ یا اهل اینستاگرامی؟
-> Sure. Are you on WhatsApp? | حتماً. واتس‌اپ داری؟
+# l2_u60_2 | callum | Swapping numbers | رد و بدل کردن شماره | Can I get your number? / Can I message you? / I'll drop you a text | شماره‌ات را می‌دهی؟ / گروه چت داری؟ / پیام می‌دهم | coffee
+callum: About Thursday. I'll send you the details. Can I get your number? Or are you a social-media person? | دربارهٔ پنجشنبه. جزئیات را برات می‌فرستم. شماره‌ات را میدی؟ یا اهل شبکه‌های اجتماعیی؟
+> Sure. Can I message you? | حتماً. گروه چت داری؟
 > I'll give you my number. It's oh-seven… | شماره‌ام را میدم. صفر هفت…
-W: details=جزئیات ; get your number=شماره‌ات را بگیرم ; Instagram person=اهل اینستاگرام
+W: details=جزئیات ; get your number=شماره‌ات را بگیرم ; social-media person=اهل شبکه‌های اجتماعی
 X: can i have the number of you ; give me number => Can I get your number? Sure! | Can I get your number? | شماره‌ات را می‌دهی؟
-callum: WhatsApp, yeah. Go on — read it out. Slowly. Last time I got a girl's number wrong. Never saw her again. Tragic. | واتس‌اپ، آره. یالا — بخونش. آروم. دفعهٔ پیش شمارهٔ یه دختر را اشتباه نوشتم. دیگه هیچ‌وقت ندیدمش. غم‌انگیز.
+callum: Text's fine, yeah. Go on — read it out. Slowly. Last time I got a girl's number wrong. Never saw her again. Tragic. | گروه چت، آره. یالا — بخونش. آروم. دفعهٔ پیش شمارهٔ یه دختر را اشتباه نوشتم. دیگه هیچ‌وقت ندیدمش. غم‌انگیز.
 > Oh-seven-nine-double-four, three-two-one, six-five-eight. | صفر هفت نه چهار چهار، سه دو یک، شش پنج هشت.
 > Let me type it into your phone. Easier! | بذار خودم تو گوشیت تایپش کنم. راحت‌تره!
 W: read it out=بلند بخوان ; slowly=آرام ; tragic=غم‌انگیز

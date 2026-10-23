@@ -240,19 +240,19 @@
   "x0": {
    "id": "x0",
    "speaker": "tom",
-   "text": "Toast's up. Butter or Marmite? Fair warning — Marmite's a love-it-or-hate-it thing.",
+   "text": "Toast's up. Butter or yeast spread? Fair warning — Yeast spread's a love-it-or-hate-it thing.",
    "translations": {
-    "fa": "نان تست آماده است. کره یا مارمایت؟ از قبل بگم — مارمایت یا عاشقش می‌شی یا ازش متنفری."
+    "fa": "نان تست آماده است. کره یا کرهٔ مخمر؟ از قبل بگم — کرهٔ مخمر یا عاشقش می‌شی یا ازش متنفری."
    },
    "branches": [
     {
      "keywords": [
-      "marmite",
+      "spread",
       "try",
       "go on"
      ],
-     "suggestion": "I'll try the Marmite, go on then!",
-     "suggestionFa": "مارمایت را امتحان می‌کنم، باشه!",
+     "suggestion": "I'll try the yeast spread, go on then!",
+     "suggestionFa": "کرهٔ مخمر را امتحان می‌کنم، باشه!",
      "trustDelta": 7,
      "next": "x1",
      "success": true
@@ -272,8 +272,8 @@
    ],
    "newWords": [
     {
-     "word": "Marmite",
-     "fa": "مارمایت (خمیر مخمر)"
+     "word": "Yeast spread",
+     "fa": "کرهٔ مخمر (خمیر مخمر)"
     },
     {
      "word": "love it or hate it",
@@ -281,8 +281,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Marmite is a salty yeast spread. Brits joke about it constantly — trying it wins you instant respect.",
-    "fa": "مارمایت یک خمیر شور مخمر است. بریتانیایی‌ها مدام درباره‌اش شوخی می‌کنند — امتحانش احترام می‌آورد."
+    "en": "Yeast spread is salty and dark. Brits joke about it constantly — trying it wins you instant respect.",
+    "fa": "کرهٔ مخمر یک خمیر شور مخمر است. بریتانیایی‌ها مدام درباره‌اش شوخی می‌کنند — امتحانش احترام می‌آورد."
    },
    "recasts": [
     {
@@ -460,9 +460,9 @@
   "x4": {
    "id": "x4",
    "speaker": "tom",
-   "text": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
+   "text": "Course you can — there's a spare by the door. If you're passing the supermarket, could you grab some milk?",
    "translations": {
-    "fa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی تسکو رد شدی، می‌شه شیر بگیری؟"
+    "fa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی سوپرمارکت رد شدی، می‌شه شیر بگیری؟"
    },
    "branches": [
     {

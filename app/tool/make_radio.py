@@ -40,7 +40,7 @@ for n, raw in enumerate(open(os.path.join(H, 'radio', 'segments.txt')), 1):
     if sp not in VOICES: bad.append(f'{n}: unknown voice {sp}')
     if sp not in CAST: bad.append(f'{n}: {sp} is neither a presenter nor in characters.json')
     if len(en.split()) > MAXW[sg['level']]: bad.append(f"{n}: {len(en.split())} words is too long for {sg['level']}")
-    if re.search(r'\bTfL\b|Transport for London|\bTube\b|Overground|Oyster', en): bad.append(f'{n}: no transport-operator branding')
+    if re.search(r'\bTfL\b|Transport for London|\bTube\b|overground|travel card', en): bad.append(f'{n}: no transport-operator branding')
     sg['lines'].append(dict(sp=sp, spn=CAST.get(sp, sp), en=en.strip(), fa=fa.strip()))
 
 def ms(sp, en):

@@ -7,7 +7,7 @@ H=os.path.dirname(os.path.abspath(__file__)); A=os.path.join(H,'..','assets','da
 SPOTS=[
  ('home','Home — the Toms\' house','خانهٔ خانوادهٔ تام','🏠',.47,.70,['kitchen','hallway','living','bathroom','bedroom','birthday','christmas','eveningtea','poorly'],None,None,[]),
  ('playdate','Mia\'s house','خانهٔ میا','🧸',.06,.77,['playdate'],None,None,[]),
- ('bus','The 38 bus','اتوبوس ۳۸','🚌',.36,.46,['bus'],r'\bbus\b|oyster|tapping in|next stop|missed my stop',None,[]),
+ ('bus','The 38 bus','اتوبوس ۳۸','🚌',.36,.46,['bus'],r'\bbus\b|travel card|tapping in|next stop|missed my stop',None,[]),
  ('nursery','Vida\'s Nursery','مهدکودک ویدا','🧒',.10,.53,[],None,'nursery',[]),
  ('school','St Mary\'s School','مدرسهٔ سنت مری','🏫',.25,.63,['school','firstday','parentsevening','sportsday'],r'school|parents\' evening|homework|teacher',None,[]),
  ('park','London Fields park','پارک لندن فیلدز','🌳',.82,.68,['park'],None,None,[]),
@@ -23,7 +23,7 @@ SPOTS=[
  ('postoffice','Post office','اداره پست','📮',.05,.40,['postoffice'],r'post office|parcel|stamp|posting',None,[]),
  ('bank','The bank','بانک','🏦',.42,.30,['bank'],r'\bbank|account|mortgage|cash',None,[]),
  ('gp','GP surgery & dentist','مطب پزشک و دندانپزشک','🩺',.33,.38,['gp','dentist'],r'\bgp\b|doctor|dentist|surgery|appointment',None,[]),
- ('hospital','Homerton Hospital','بیمارستان هومرتون','🏥',.30,.24,['doctor'],r'hospital|a&e|triage|outpatient|ward|discharged',None,[]),
+ ('hospital','Riverside Hospital','بیمارستان ریورساید','🏥',.30,.24,['doctor'],r'hospital|a&e|triage|outpatient|ward|discharged',None,[]),
  ('museum','Museum','موزه','🏛️',.12,.25,[],r'museum',None,[]),
  ('cinema','Cinema & arena','سینما و سالن','🎬',.75,.21,[],r'cinema|film|movie|popcorn',None,['l2_u8_4']),
  ('radio','Hackney Hum radio','رادیو هاکنی هام','📻',.55,.235,[],None,None,['l1_u6_1','l2_u37_1','l2_u37_4','l4_u8_2','l4_u8_4']),  # rooftop studio on the glass office block

@@ -215,9 +215,9 @@
   "n5": {
    "id": "n5",
    "speaker": "ryan",
-   "text": "Two Toblerones and a Coke. I thought they were free! Sorry, Mum. I'll pay you back.",
+   "text": "Two chocolate bars and a cola. I thought they were free! Sorry, Mum. I'll pay you back.",
    "translations": {
-    "fa": "دو تا تابلرون و یه کوکا. فکر کردم مجانیه! ببخشید مامان. پولش را بهت پس میدم."
+    "fa": "دو تا شکلات و یه نوشابه. فکر کردم مجانیه! ببخشید مامان. پولش را بهت پس میدم."
    },
    "branches": [
     {
@@ -235,13 +235,13 @@
     },
     {
      "keywords": [
-      "toblerones",
+      "chocolate",
       "expensive",
       "pounds",
       "eight"
      ],
-     "suggestion": "Eight pounds for two Toblerones! Expensive!",
-     "suggestionFa": "هشت پوند برای دو تا تابلرون! گرونه!",
+     "suggestion": "Eight pounds for two chocolate bar! Expensive!",
+     "suggestionFa": "هشت پوند برای دو تا شکلات! گرونه!",
      "trustDelta": 5,
      "next": "n6",
      "success": true

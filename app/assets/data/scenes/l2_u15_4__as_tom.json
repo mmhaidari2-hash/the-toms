@@ -3,8 +3,8 @@
  "characterId": "tom",
  "title": "(As Tom) Lost property",
  "titleFa": "(در نقش Tom) اشیای گمشده",
- "setting": "Buses and Oyster · Level 2",
- "settingFa": "اتوبوس و کارت اویستر",
+ "setting": "Buses and travel cards · Level 2",
+ "settingFa": "اتوبوس و کارت سفر",
  "requires": null,
  "level": "A2",
  "baseId": "l2_u15_4",
@@ -127,8 +127,8 @@
       "garage",
       "after"
      ],
-     "suggestion": "Right. First, it goes back to the bus garage. After a few days, it goes to TfL Lost Property. You can report it online.",
-     "suggestionFa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به بخش اشیای گمشدهٔ TfL. می‌تونی آنلاین گزارشش بدی.",
+     "suggestion": "Right. First, it goes back to the bus garage. After a few days, it goes to the lost property office. You can report it online.",
+     "suggestionFa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به دفتر اشیای گمشده. می‌تونی آنلاین گزارشش بدی.",
      "trustDelta": 5,
      "next": "r6",
      "success": true

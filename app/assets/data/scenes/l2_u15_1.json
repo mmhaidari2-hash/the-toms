@@ -1,10 +1,10 @@
 {
  "id": "l2_u15_1",
  "characterId": "tom",
- "title": "Topping up the Oyster card",
- "titleFa": "شارژ کردن کارت اویستر",
- "setting": "Buses and Oyster · Level 2",
- "settingFa": "اتوبوس و کارت اویستر",
+ "title": "Topping up the travel card",
+ "titleFa": "شارژ کردن کارت سفر",
+ "setting": "Buses and travel cards · Level 2",
+ "settingFa": "اتوبوس و کارت سفر",
  "requires": null,
  "start": "n1",
  "level": "A2",
@@ -24,8 +24,8 @@
       "light",
       "went"
      ],
-     "suggestion": "My Oyster card doesn't work. It beeped and the light went red.",
-     "suggestionFa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد.",
+     "suggestion": "My travel card doesn't work. It beeped and the light went red.",
+     "suggestionFa": "کارت سفرم کار نمی‌کنه. بوق زد و چراغش قرمز شد.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -37,8 +37,8 @@
       "top",
       "up"
      ],
-     "suggestion": "I need to top up my Oyster card. How do I do it?",
-     "suggestionFa": "باید کارت اویسترم را شارژ کنم. چطوری انجامش بدم؟",
+     "suggestion": "I need to top up my travel card. How do I do it?",
+     "suggestionFa": "باید کارت سفرم را شارژ کنم. چطوری انجامش بدم؟",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -46,8 +46,8 @@
    ],
    "newWords": [
     {
-     "word": "Oyster card",
-     "fa": "کارت اویستر (کارت حمل‌ونقل لندن)"
+     "word": "travel card",
+     "fa": "کارت سفر (کارت حمل‌ونقل لندن)"
     },
     {
      "word": "beeped",
@@ -157,7 +157,7 @@
     }
    ],
    "cultureNote": {
-    "en": "London buses don't take cash. You pay with an Oyster card, a contactless bank card or your phone.",
+    "en": "London buses don't take cash. You pay with an travel card, a contactless bank card or your phone.",
     "fa": "اتوبوس‌های لندن پول نقد نمی‌گیرند."
    }
   },
@@ -273,9 +273,9 @@
   "n6": {
    "id": "n6",
    "speaker": "tom",
-   "text": "Any bus. Here we are. Morning, Raj! My friend wants to top up his Oyster.",
+   "text": "Any bus. Here we are. Morning, Raj! My friend wants to top up his travel card.",
    "translations": {
-    "fa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد اویسترش را شارژ کنه."
+    "fa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد کارت سفرش را شارژ کنه."
    },
    "branches": [
     {
@@ -339,11 +339,11 @@
     {
      "keywords": [
       "happens",
-      "oyster",
+      "travel",
       "lose",
       "card"
      ],
-     "suggestion": "What happens if I lose my Oyster card?",
+     "suggestion": "What happens if I lose my travel card?",
      "suggestionFa": "اگه کارتم را گم کنم چی میشه؟",
      "trustDelta": 5,
      "next": "n8",

@@ -21,14 +21,14 @@
    "branches": [
     {
      "keywords": [
-      "playstation",
+      "console",
       "grassed",
       "nights",
       "unfair",
       "didn't"
      ],
-     "suggestion": "Mum's banned my PlayStation on school nights. Mrs Patel grassed me up, didn't she? This is so unfair.",
-     "suggestionFa": "مامان پلی‌استیشنم را شب‌های مدرسه ممنوع کرده. خانم پاتل لوم داد، نه؟ این خیلی ناعادلانه‌ست.",
+     "suggestion": "Mum's banned my games console on school nights. Mrs Patel grassed me up, didn't she? This is so unfair.",
+     "suggestionFa": "مامان کنسول بازیم را شب‌های مدرسه ممنوع کرده. خانم پاتل لوم داد، نه؟ این خیلی ناعادلانه‌ست.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -121,14 +121,14 @@
    "branches": [
     {
      "keywords": [
-      "playstation",
+      "console",
       "timetable",
       "fridays",
       "breaks",
       "asking"
      ],
-     "suggestion": "Yeah… OK. A timetable. But with breaks. And if I stick to it for a month, I'm asking Mum for my PlayStation back on Fridays. Deal?",
-     "suggestionFa": "آره… باشه. یه برنامه. ولی با استراحت. و اگه یه ماه بهش پایبند بمونم، از مامان می‌خوام جمعه‌ها پلی‌استیشنم را پس بده. قبول؟",
+     "suggestion": "Yeah… OK. A timetable. But with breaks. And if I stick to it for a month, I'm asking Mum for my games console back on Fridays. Deal?",
+     "suggestionFa": "آره… باشه. یه برنامه. ولی با استراحت. و اگه یه ماه بهش پایبند بمونم، از مامان می‌خوام جمعه‌ها کنسول بازیم را پس بده. قبول؟",
      "trustDelta": 5,
      "next": "r6",
      "success": true

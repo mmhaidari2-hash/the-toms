@@ -46,14 +46,14 @@
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "everyone",
       "uniforms",
       "mine's",
       "prison"
      ],
-     "suggestion": "Everyone cries at Paddington. It's the rules. What was the best bit for you? Mine's the prison scene. Pink uniforms!",
-     "suggestionFa": "همه سر پدینگتون گریه می‌کنن. قانونه. بهترین قسمتش برای تو چی بود؟ مال من صحنهٔ زندانه. لباس‌های صورتی!",
+     "suggestion": "Everyone cries at Barnaby. It's the rules. What was the best bit for you? Mine's the jam sandwich bit!",
+     "suggestionFa": "همه سر بارنابی گریه می‌کنن. قانونه. بهترین قسمتش برای تو چی بود؟ مال من صحنهٔ زندانه. لباس‌های صورتی!",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -121,14 +121,14 @@
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "friday",
       "would",
       "watch",
       "stars"
      ],
-     "suggestion": "Then we must watch the first one next Friday. And Paddington 3. Would you give it stars? Out of five?",
-     "suggestionFa": "پس جمعهٔ بعد باید اولی را ببینیم. و پدینگتون ۳. بهش ستاره میدی؟ از پنج؟",
+     "suggestion": "Then we must watch the first one next Friday. And Barnaby 3. Would you give it stars? Out of five?",
+     "suggestionFa": "پس جمعهٔ بعد باید اولی را ببینیم. و بارنابی ۳. بهش ستاره میدی؟ از پنج؟",
      "trustDelta": 5,
      "next": "r6",
      "success": true

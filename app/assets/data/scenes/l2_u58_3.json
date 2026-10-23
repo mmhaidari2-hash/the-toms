@@ -112,9 +112,9 @@
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "Paddington! Paddington! Bear film!",
+   "text": "Barnaby! Barnaby! Bear film!",
    "translations": {
-    "fa": "پدینگتون! پدینگتون! فیلم خرس!"
+    "fa": "بارنابی! بارنابی! فیلم خرس!"
    },
    "branches": [
     {
@@ -122,8 +122,8 @@
       "again",
       "ok"
      ],
-     "suggestion": "Paddington again? OK!",
-     "suggestionFa": "باز پدینگتون؟ باشه!",
+     "suggestion": "Barnaby again? OK!",
+     "suggestionFa": "باز بارنابی؟ باشه!",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -134,8 +134,8 @@
       "choice",
       "good"
      ],
-     "suggestion": "Good choice, William. Paddington it is.",
-     "suggestionFa": "انتخاب خوبیه ویلیام. پدینگتون پس.",
+     "suggestion": "Good choice, William. Barnaby it is.",
+     "suggestionFa": "انتخاب خوبیه ویلیام. بارنابی پس.",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -272,9 +272,9 @@
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "Ryan? Upstairs, \"too old for Paddington\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
+   "text": "Ryan? Upstairs, \"too old for Barnaby\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
    "translations": {
-    "fa": "رایان؟ طبقهٔ بالا، «برای پدینگتون زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار."
+    "fa": "رایان؟ طبقهٔ بالا، «برای بارنابی زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار."
    },
    "branches": [
     {

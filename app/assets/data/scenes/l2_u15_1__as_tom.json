@@ -1,10 +1,10 @@
 {
  "id": "l2_u15_1__as_tom",
  "characterId": "tom",
- "title": "(As Tom) Topping up the Oyster card",
- "titleFa": "(در نقش Tom) شارژ کردن کارت اویستر",
- "setting": "Buses and Oyster · Level 2",
- "settingFa": "اتوبوس و کارت اویستر",
+ "title": "(As Tom) Topping up the travel card",
+ "titleFa": "(در نقش Tom) شارژ کردن کارت سفر",
+ "setting": "Buses and travel cards · Level 2",
+ "settingFa": "اتوبوس و کارت سفر",
  "requires": null,
  "level": "A2",
  "baseId": "l2_u15_1",
@@ -39,9 +39,9 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "My Oyster card doesn't work. It beeped and the light went red.",
+   "text": "My travel card doesn't work. It beeped and the light went red.",
    "translations": {
-    "fa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد."
+    "fa": "کارت سفرم کار نمی‌کنه. بوق زد و چراغش قرمز شد."
    },
    "branches": [
     {
@@ -148,12 +148,12 @@
      "keywords": [
       "morning",
       "friend",
-      "oyster",
+      "travel",
       "wants",
       "here"
      ],
-     "suggestion": "Any bus. Here we are. Morning, Raj! My friend wants to top up his Oyster.",
-     "suggestionFa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد اویسترش را شارژ کنه.",
+     "suggestion": "Any bus. Here we are. Morning, Raj! My friend wants to top up his travel card.",
+     "suggestionFa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد کارت سفرش را شارژ کنه.",
      "trustDelta": 5,
      "next": "r7",
      "success": true

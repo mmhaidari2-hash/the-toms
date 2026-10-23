@@ -1,8 +1,8 @@
 {
  "id": "l2_u56_4",
  "characterId": "leslie",
- "title": "The street WhatsApp group",
- "titleFa": "گروه واتس‌اپ خیابان",
+ "title": "The street group chat",
+ "titleFa": "گروه چت خیابان",
  "setting": "Neighbourhood · Level 2",
  "settingFa": "محله",
  "requires": null,
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "I've added you to the Mare Street WhatsApp group! Brace yourself. Forty-two people. Two hundred messages a day.",
+   "text": "I've added you to the Mare Street group chat! Brace yourself. Forty-two people. Two hundred messages a day.",
    "translations": {
-    "fa": "تو را به گروه واتس‌اپ خیابون مِیر اضافه کردم! خودت را آماده کن. چهل و دو نفر. روزی دویست تا پیام."
+    "fa": "تو را به گروه چت خیابون مِیر اضافه کردم! خودت را آماده کن. چهل و دو نفر. روزی دویست تا پیام."
    },
    "branches": [
     {
@@ -117,8 +117,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Many UK streets have WhatsApp groups to share news, lost pets, parcel updates and help. Keep messages short and friendly.",
-    "fa": "خیلی از خیابان‌های بریتانیا گروه واتس‌اپ دارند برای اخبار، حیوانات گمشده و کمک."
+    "en": "Many UK streets have group chats to share news, lost pets, parcel updates and help. Keep messages short and friendly.",
+    "fa": "خیلی از خیابان‌های بریتانیا گروه چت دارند برای اخبار، حیوانات گمشده و کمک."
    }
   },
   "n3": {

@@ -19,13 +19,13 @@
    "branches": [
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "minutes",
       "more",
       "come"
      ],
-     "suggestion": "Ha! Five more minutes. Come on, Arsenal!",
-     "suggestionFa": "ها! پنج دقیقهٔ دیگه. یالا آرسنال!",
+     "suggestion": "Ha! Five more minutes. Come on, Rovers!",
+     "suggestionFa": "ها! پنج دقیقهٔ دیگه. یالا روورز!",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -61,9 +61,9 @@
   "n2": {
    "id": "n2",
    "speaker": "al",
-   "text": "Extra minutes for injuries and time-wasting. I'm neutral — I'm Celtic! — but this is tense. Oh no. Spurs are attacking…",
+   "text": "Extra minutes for injuries and time-wasting. I'm neutral — I'm a Glenmore fan! — but this is tense. Oh no. Lea Valley are attacking…",
    "translations": {
-    "fa": "دقیقه‌های اضافه برای مصدومیت و وقت‌کشی. من بی‌طرفم — من سلتیکی‌ام! — ولی خیلی پرتنشه. وای نه. اسپرز داره حمله می‌کنه…"
+    "fa": "دقیقه‌های اضافه برای مصدومیت و وقت‌کشی. من بی‌طرفم — من طرفدار گلنمورم! — ولی خیلی پرتنشه. وای نه. لی‌ولی داره حمله می‌کنه…"
    },
    "branches": [
     {
@@ -133,13 +133,13 @@
     },
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "result",
       "good",
       "all"
      ],
-     "suggestion": "One-all. Is that a good result for Arsenal?",
-     "suggestionFa": "یک-یک. برای آرسنال نتیجهٔ خوبیه؟",
+     "suggestion": "One-all. Is that a good result for Rovers?",
+     "suggestionFa": "یک-یک. برای روورز نتیجهٔ خوبیه؟",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -289,9 +289,9 @@
   "n6": {
    "id": "n6",
    "speaker": "al",
-   "text": "The save, easily. And Tom's face. Pure agony. And one day you're coming to Glasgow. Celtic Park. Sixty thousand people singing!",
+   "text": "The save, easily. And Tom's face. Pure agony. And one day you're coming to Glasgow. Glenmore Park. Sixty thousand people singing!",
    "translations": {
-    "fa": "مهار، معلومه. و قیافهٔ تام. عذاب خالص. و یه روز میای گلاسکو. سلتیک پارک. شصت هزار نفر در حال آواز خوندن!"
+    "fa": "مهار، معلومه. و قیافهٔ تام. عذاب خالص. و یه روز میای گلاسکو. گلنمور پارک. شصت هزار نفر در حال آواز خوندن!"
    },
    "branches": [
     {
@@ -339,9 +339,9 @@
   "n7": {
    "id": "n7",
    "speaker": "al",
-   "text": "Tom at Celtic Park? He'd cry. He cries at Paddington! Come on — Dave's ringing the bell. Last orders!",
+   "text": "Tom at Glenmore Park? He'd cry. He cries at Barnaby! Come on — Dave's ringing the bell. Last orders!",
    "translations": {
-    "fa": "تام تو سلتیک پارک؟ گریه می‌کنه. اون سر پدینگتون گریه می‌کنه! بیا — دیو داره زنگ را می‌زنه. آخرین سفارش‌ها!"
+    "fa": "تام تو گلنمور پارک؟ گریه می‌کنه. اون سر بارنابی گریه می‌کنه! بیا — دیو داره زنگ را می‌زنه. آخرین سفارش‌ها!"
    },
    "branches": [],
    "newWords": []

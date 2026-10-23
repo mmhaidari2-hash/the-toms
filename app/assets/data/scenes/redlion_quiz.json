@@ -264,30 +264,30 @@
   "n6": {
    "id": "n6",
    "speaker": "al",
-   "text": "In Persian? Away! Now the picture round. Whose face is this? Starts with a D — national treasure.",
+   "text": "In Persian? Away! Now the picture round. Whose face is this? A famous writer — a national treasure.",
    "translations": {
-    "fa": "به فارسی؟ نه بابا! حالا دور تصویر. صورت کیه؟ با «د» شروع میشه — گنج ملی."
+    "fa": "به فارسی؟ نه بابا! حالا دور تصویر. صورت کیه؟ یه نویسندهٔ معروف — گنج ملی."
    },
    "branches": [
     {
      "keywords": [
-      "attenborough",
-      "david"
+      "shakespeare",
+      "william"
      ],
-     "suggestion": "David Attenborough!",
-     "suggestionFa": "دیوید اتنبرو!",
+     "suggestion": "Shakespeare!",
+     "suggestionFa": "شکسپیر!",
      "trustDelta": 7,
      "next": "n7",
      "success": true
     },
     {
      "keywords": [
-      "dench",
-      "judi",
-      "dame"
+      "dickens",
+      "charles",
+      "is"
      ],
-     "suggestion": "Is it Dame Judi Dench?",
-     "suggestionFa": "دیم جودی دنچ؟",
+     "suggestion": "Is it Charles Dickens?",
+     "suggestionFa": "چارلز دیکنز؟",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -308,7 +308,7 @@
     }
    ],
    "cultureNote": {
-    "en": "A \"national treasure\" is a much-loved public figure, like David Attenborough.",
+    "en": "A \"national treasure\" is a much-loved public figure, like a favourite TV presenter.",
     "fa": "national treasure یعنی چهرهٔ بسیار محبوب."
    }
   },
@@ -389,13 +389,13 @@
     },
     {
      "keywords": [
-      "attenborough",
+      "shakespeare",
       "winning",
       "thanks",
       "austen"
      ],
-     "suggestion": "We're winning, thanks to Austen and Attenborough!",
-     "suggestionFa": "داریم می‌بریم، به لطف آستن و اتنبرو!",
+     "suggestion": "We're winning, thanks to Austen and Shakespeare!",
+     "suggestionFa": "داریم می‌بریم، به لطف آستن و شکسپیر!",
      "trustDelta": 6,
      "next": "n9",
      "success": true

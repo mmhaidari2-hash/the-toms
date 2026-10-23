@@ -60,7 +60,7 @@
   "n2": {
    "id": "n2",
    "speaker": "maya",
-   "text": "This is the Overground. Platform one for Stratford, platform two for Highbury.",
+   "text": "This is the overground. Platform one for Stratford, platform two for Highbury.",
    "translations": {
     "fa": "این اورگراونده. سکوی یک برای استراتفورد، سکوی دو برای هایبری."
    },
@@ -82,7 +82,7 @@
       "overground",
       "what's"
      ],
-     "suggestion": "What's the Overground?",
+     "suggestion": "What's the overground?",
      "suggestionFa": "اورگراوند چیه؟",
      "trustDelta": 5,
      "next": "n3",
@@ -91,12 +91,12 @@
    ],
    "newWords": [
     {
-     "word": "Overground",
+     "word": "overground",
      "fa": "قطار شهری روی زمین لندن"
     }
    ],
    "cultureNote": {
-    "en": "The London Overground is the orange train line. Like the Tube, you can tap in with contactless.",
+    "en": "The overground is London's orange train line. Like the Tube, you can tap in with contactless.",
     "fa": "اورگراوند خط نارنجی."
    }
   },

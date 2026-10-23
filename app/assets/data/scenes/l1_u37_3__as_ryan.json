@@ -89,21 +89,21 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "Why don't we watch Paddington?",
+   "text": "Why don't we watch Barnaby?",
    "translations": {
-    "fa": "چرا پدینگتون نبینیم؟"
+    "fa": "چرا بارنابی نبینیم؟"
    },
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "everyone",
       "cries",
       "likes",
       "even"
      ],
-     "suggestion": "Paddington! Yes. Everyone likes Paddington. Even Dad cries at the end.",
-     "suggestionFa": "پدینگتون! آره. همه پدینگتون دوست دارن. حتی بابا آخرش گریه می‌کنه.",
+     "suggestion": "Barnaby! Yes. Everyone likes Barnaby. Even Dad cries at the end.",
+     "suggestionFa": "بارنابی! آره. همه بارنابی دوست دارن. حتی بابا آخرش گریه می‌کنه.",
      "trustDelta": 5,
      "next": "r5",
      "success": true

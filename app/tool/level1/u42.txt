@@ -17,9 +17,9 @@ tom: The 38! My bus! How long does it take? | ۳۸! اتوبوس من! چقدر 
 W: how long=چه مدت ; takes=طول می‌کشد ; half an hour=نیم ساعت
 tom: In the rush hour it's forty minutes! How do you pay? | ساعت شلوغی چهل دقیقه‌ست! چطوری پرداخت می‌کنی؟
 > With my bank card. Contactless. | با کارت بانکیم. بدون تماس.
-> I've got an Oyster card. | کارت اویستر دارم.
-W: rush hour=ساعت شلوغی ; contactless=پرداخت بدون تماس ; Oyster card=کارت حمل‌ونقل لندن
-C: London buses don't take cash. Use contactless or an Oyster card. One bus fare covers unlimited buses for an hour (the "Hopper"). | اتوبوس لندن نقد نمی‌گیرد.
+> I've got an travel card. | کارت سفر دارم.
+W: rush hour=ساعت شلوغی ; contactless=پرداخت بدون تماس ; travel card=کارت حمل‌ونقل لندن
+C: London buses don't take cash. Use contactless or an travel card. One bus fare covers unlimited buses for an hour (the "Hopper"). | اتوبوس لندن نقد نمی‌گیرد.
 tom: Perfect. And with the Hopper fare, you can change buses for free in an hour. | عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی.
 > For free? That's great. | مجانی؟ عالیه.
 > What's the Hopper fare? | کرایهٔ هاپر چیه؟
@@ -39,11 +39,11 @@ maya: Hiya! Are you new on this line? You look a bit lost. | سلام! تو ای
 > Yes. Is this the train to Highbury? | آره. این قطار هایبریه؟
 > I'm going to Stratford. Which platform? | دارم میرم استراتفورد. کدوم سکو؟
 W: line=خط ; lost=گم‌شده ; platform=سکو
-maya: This is the Overground. Platform one for Stratford, platform two for Highbury. | این اورگراونده. سکوی یک برای استراتفورد، سکوی دو برای هایبری.
+maya: This is the overground. Platform one for Stratford, platform two for Highbury. | این اورگراونده. سکوی یک برای استراتفورد، سکوی دو برای هایبری.
 > Platform one. Thank you. | سکوی یک. ممنون.
-> What's the Overground? | اورگراوند چیه؟
-W: Overground=قطار شهری روی زمین لندن
-C: The London Overground is the orange train line. Like the Tube, you can tap in with contactless. | اورگراوند خط نارنجی.
+> What's the overground? | اورگراوند چیه؟
+W: overground=قطار شهری روی زمین لندن
+C: The overground is London's orange train line. Like the Tube, you can tap in with contactless. | اورگراوند خط نارنجی.
 maya: It's like the Tube, but outside. The orange line. When's your train? | مثل متروئه، ولی روی زمین. خط نارنجی. قطارت کیه؟
 > When's the next train? | قطار بعدی کیه؟
 > I don't know. Is there a timetable? | نمی‌دونم. جدول زمانی هست؟
@@ -114,7 +114,7 @@ tom: The red ones over there. You use an app. You pay by the half hour. | اون
 > Is it expensive? | گرونه؟
 > I'll download the app. | اپ را دانلود می‌کنم.
 W: app=برنامهٔ موبایل ; download=دانلود کردن
-C: London's hire bikes are often called "Boris bikes" after a former mayor. | دوچرخه‌های کرایه‌ای لندن.
+C: London's hire bikes are often called "hire bikes" after a former mayor. | دوچرخه‌های کرایه‌ای لندن.
 tom: Not bad. A few pounds. But you should wear a helmet. | بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.
 > I should wear a helmet. | باید کلاه ایمنی بذارم.
 > Is a helmet the law? | کلاه ایمنی قانونه؟

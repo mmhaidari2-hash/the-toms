@@ -46,14 +46,14 @@
    "branches": [
     {
      "keywords": [
-      "chelsea",
+      "riverside",
       "support",
       "d'you",
       "don't",
       "talk"
      ],
-     "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
-     "suggestionFa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی چلسی.",
+     "suggestion": "Big talk! Who d'you support then? Don't say Riverside City.",
+     "suggestionFa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی ریورساید سیتی.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,9 +64,9 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Arsenal, obviously. Come on you Gunners!",
+   "text": "Hackney Rovers, obviously. Come on, Rovers!",
    "translations": {
-    "fa": "آرسنال، معلومه. برو جلو گانرز!"
+    "fa": "روورز، معلومه. برو جلو روورز!"
    },
    "branches": [
     {
@@ -152,8 +152,8 @@
       "d'you",
       "can't"
      ],
-     "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
-     "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",
+     "suggestion": "Who d'you support, then? Don't say Northgate United or we can't be friends.",
+     "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی نورث‌گیت یونایتد وگرنه نمی‌تونیم دوست باشیم.",
      "trustDelta": 5,
      "next": "r7",
      "success": true

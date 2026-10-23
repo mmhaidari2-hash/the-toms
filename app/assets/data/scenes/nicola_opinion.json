@@ -133,13 +133,13 @@
     },
     {
      "keywords": [
-      "iplayer",
+      "catch-up",
       "watch",
       "next",
       "can"
      ],
-     "suggestion": "You can watch it the next day on iPlayer.",
-     "suggestionFa": "می‌تونی روز بعد تو آی‌پلیر ببینیش.",
+     "suggestion": "You can watch it the next day on catch-up.",
+     "suggestionFa": "می‌تونی روز بعد تو اپ پخش مجدد ببینیش.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -160,8 +160,8 @@
     }
    ],
    "cultureNote": {
-    "en": "BBC iPlayer lets you watch programmes later. \"Telly\" is informal for television.",
-    "fa": "آی‌پلیر برای تماشای بعدی است."
+    "en": "Catch-up TV apps let you watch programmes later. \"Telly\" is informal for television.",
+    "fa": "پخش مجدد برای تماشای بعدی است."
    }
   },
   "n4": {

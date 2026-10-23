@@ -176,20 +176,20 @@
   "n4": {
    "id": "n4",
    "speaker": "weda",
-   "text": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
+   "text": "Little ones often go off their food. Could you fetch the children's paracetamol from the cupboard and a glass of water?",
    "translations": {
-    "fa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟"
+    "fa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی شربت استامینوفن بچه را از کابینت بیاری و یه لیوان آب؟"
    },
    "branches": [
     {
      "keywords": [
-      "calpol",
+      "paracetamol",
       "course",
       "here's",
       "water"
      ],
-     "suggestion": "Of course — here's the Calpol and some water.",
-     "suggestionFa": "حتماً — اینم کالپول و یه کم آب.",
+     "suggestion": "Of course — here's the children's paracetamol and some water.",
+     "suggestionFa": "حتماً — اینم شربت استامینوفن بچه و یه کم آب.",
      "trustDelta": 7,
      "next": "n5",
      "success": true
@@ -222,13 +222,13 @@
      "fa": "کابینت"
     },
     {
-     "word": "Calpol",
+     "word": "children's paracetamol",
      "fa": "شربت پاراستامول کودکان"
     }
    ],
    "cultureNote": {
-    "en": "Calpol is a common children's paracetamol syrup in the UK. Always check the dose on the box.",
-    "fa": "کالپول شربت پاراستامول کودکان است."
+    "en": "Children's paracetamol syrup is common in UK homes. Always check the dose on the box.",
+    "fa": "شربت استامینوفن بچه شربت پاراستامول کودکان است."
    }
   },
   "n5": {

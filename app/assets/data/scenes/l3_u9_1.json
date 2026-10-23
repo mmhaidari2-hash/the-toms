@@ -181,11 +181,11 @@
    "branches": [
     {
      "keywords": [
-      "sellotape",
+      "sticky",
       "where's",
       "course"
      ],
-     "suggestion": "Of course. Where's the sellotape?",
+     "suggestion": "Of course. Where's the sticky tape?",
      "suggestionFa": "حتماً. چسب کجاست؟",
      "trustDelta": 6,
      "next": "n5",
@@ -218,13 +218,13 @@
      "fa": "هدیه‌ها"
     },
     {
-     "word": "sellotape",
+     "word": "sticky tape",
      "fa": "چسب نواری"
     }
    ],
    "cultureNote": {
-    "en": "\"Sellotape\" is a British brand name used for any sticky tape — Americans say \"Scotch tape\".",
-    "fa": "Sellotape یعنی چسب نواری."
+    "en": "Brits usually say \"sticky tape\"; Americans just say \"tape\".",
+    "fa": "sticky tape یعنی چسب نواری."
    }
   },
   "n5": {

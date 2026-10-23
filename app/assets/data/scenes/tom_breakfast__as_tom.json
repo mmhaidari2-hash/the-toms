@@ -96,14 +96,14 @@
    "branches": [
     {
      "keywords": [
-      "marmite's",
+      "spread's",
       "toast's",
       "warning",
-      "marmite",
+      "spread",
       "butter"
      ],
-     "suggestion": "Toast's up. Butter or Marmite? Fair warning — Marmite's a love-it-or-hate-it thing.",
-     "suggestionFa": "نان تست آماده است. کره یا مارمایت؟ از قبل بگم — مارمایت یا عاشقش می‌شی یا ازش متنفری.",
+     "suggestion": "Toast's up. Butter or yeast spread? Fair warning — Yeast spread's a love-it-or-hate-it thing.",
+     "suggestionFa": "نان تست آماده است. کره یا کرهٔ مخمر؟ از قبل بگم — کرهٔ مخمر یا عاشقش می‌شی یا ازش متنفری.",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -114,9 +114,9 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "I'll try the Marmite, go on then!",
+   "text": "I'll try the yeast spread, go on then!",
    "translations": {
-    "fa": "مارمایت را امتحان می‌کنم، باشه!"
+    "fa": "کرهٔ مخمر را امتحان می‌کنم، باشه!"
    },
    "branches": [
     {
@@ -199,10 +199,10 @@
       "there's",
       "course",
       "spare",
-      "tesco"
+      "supermarket"
      ],
-     "suggestion": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
-     "suggestionFa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی تسکو رد شدی، می‌شه شیر بگیری؟",
+     "suggestion": "Course you can — there's a spare by the door. If you're passing the supermarket, could you grab some milk?",
+     "suggestionFa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی سوپرمارکت رد شدی، می‌شه شیر بگیری؟",
      "trustDelta": 5,
      "next": "r9",
      "success": true

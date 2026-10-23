@@ -113,9 +113,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Paddington! Paddington! Bear film!",
+   "text": "Barnaby! Barnaby! Bear film!",
    "translations": {
-    "fa": "پدینگتون! پدینگتون! فیلم خرس!"
+    "fa": "بارنابی! بارنابی! فیلم خرس!"
    },
    "branches": [
     {
@@ -143,9 +143,9 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Paddington again? OK!",
+   "text": "Barnaby again? OK!",
    "translations": {
-    "fa": "باز پدینگتون؟ باشه!"
+    "fa": "باز بارنابی؟ باشه!"
    },
    "branches": [
     {
@@ -200,14 +200,14 @@
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "pretending",
       "upstairs",
       "minutes",
       "he'll"
      ],
-     "suggestion": "Ryan? Upstairs, \"too old for Paddington\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
-     "suggestionFa": "رایان؟ طبقهٔ بالا، «برای پدینگتون زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار.",
+     "suggestion": "Ryan? Upstairs, \"too old for Barnaby\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
+     "suggestionFa": "رایان؟ طبقهٔ بالا، «برای بارنابی زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار.",
      "trustDelta": 5,
      "next": "r9",
      "success": true

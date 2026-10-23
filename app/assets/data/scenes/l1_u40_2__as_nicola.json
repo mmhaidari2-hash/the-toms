@@ -96,14 +96,14 @@
    "branches": [
     {
      "keywords": [
-      "marmite",
+      "spread",
       "butter",
       "toast",
       "want",
       "jam"
      ],
-     "suggestion": "What do you want on your toast? Jam? Butter? Marmite?",
-     "suggestionFa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ مارمایت؟",
+     "suggestion": "What do you want on your toast? Jam? Butter? Yeast spread?",
+     "suggestionFa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ کرهٔ مخمر؟",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -121,14 +121,14 @@
    "branches": [
     {
      "keywords": [
-      "marmite",
+      "spread",
       "salty",
       "yucky",
       "daddy",
       "loves"
      ],
-     "suggestion": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
-     "suggestionFa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
+     "suggestion": "Yeast spread is brown and salty. Daddy loves it. I think it's yucky! Try some!",
+     "suggestionFa": "کرهٔ مخمر قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
      "trustDelta": 5,
      "next": "r6",
      "success": true

@@ -80,9 +80,9 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "Good choice. Butter and jam, or Marmite?",
+   "text": "Good choice. Butter and jam, or yeast spread?",
    "translations": {
-    "fa": "انتخاب خوبیه. کره و مربا، یا مارمایت؟"
+    "fa": "انتخاب خوبیه. کره و مربا، یا کرهٔ مخمر؟"
    },
    "branches": [
     {
@@ -99,11 +99,11 @@
     },
     {
      "keywords": [
-      "marmite",
+      "spread",
       "what's"
      ],
-     "suggestion": "What's Marmite?",
-     "suggestionFa": "مارمایت چیه؟",
+     "suggestion": "What's yeast spread?",
+     "suggestionFa": "کرهٔ مخمر چیه؟",
      "trustDelta": 5,
      "next": "n3",
      "success": true
@@ -123,9 +123,9 @@
   "n3": {
    "id": "n3",
    "speaker": "nicola",
-   "text": "Marmite is yucky! It's black and salty.",
+   "text": "Yeast spread is yucky! It's black and salty.",
    "translations": {
-    "fa": "مارمایت بدمزه‌ست! سیاه و شوره."
+    "fa": "کرهٔ مخمر بدمزه‌ست! سیاه و شوره."
    },
    "branches": [
     {
@@ -142,12 +142,12 @@
     },
     {
      "keywords": [
-      "marmite",
+      "spread",
       "then",
       "ok"
      ],
-     "suggestion": "OK, no Marmite for me then.",
-     "suggestionFa": "باشه، پس برای من مارمایت نه.",
+     "suggestion": "OK, no yeast spread for me then.",
+     "suggestionFa": "باشه، پس برای من کرهٔ مخمر نه.",
      "trustDelta": 5,
      "next": "n4",
      "success": true

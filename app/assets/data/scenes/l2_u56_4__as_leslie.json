@@ -1,8 +1,8 @@
 {
  "id": "l2_u56_4__as_leslie",
  "characterId": "leslie",
- "title": "(As Leslie) The street WhatsApp group",
- "titleFa": "(در نقش Leslie) گروه واتس‌اپ خیابان",
+ "title": "(As Leslie) The street group chat",
+ "titleFa": "(در نقش Leslie) گروه چت خیابان",
  "setting": "Neighbourhood · Level 2",
  "settingFa": "محله",
  "requires": null,
@@ -23,12 +23,12 @@
      "keywords": [
       "messages",
       "yourself",
-      "whatsapp",
+      "chat",
       "hundred",
       "street"
      ],
-     "suggestion": "I've added you to the Mare Street WhatsApp group! Brace yourself. Forty-two people. Two hundred messages a day.",
-     "suggestionFa": "تو را به گروه واتس‌اپ خیابون مِیر اضافه کردم! خودت را آماده کن. چهل و دو نفر. روزی دویست تا پیام.",
+     "suggestion": "I've added you to the Mare Street group chat! Brace yourself. Forty-two people. Two hundred messages a day.",
+     "suggestionFa": "تو را به گروه چت خیابون مِیر اضافه کردم! خودت را آماده کن. چهل و دو نفر. روزی دویست تا پیام.",
      "trustDelta": 5,
      "next": "r2",
      "success": true

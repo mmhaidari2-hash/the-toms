@@ -177,11 +177,11 @@
     {
      "keywords": [
       "everything",
-      "marmite",
+      "spread",
       "except"
      ],
-     "suggestion": "I eat everything. Except Marmite!",
-     "suggestionFa": "همه چی می‌خورم. جز مارمایت!",
+     "suggestion": "I eat everything. Except yeast spread!",
+     "suggestionFa": "همه چی می‌خورم. جز کرهٔ مخمر!",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -197,8 +197,8 @@
      "fa": "به جز"
     },
     {
-     "word": "Marmite",
-     "fa": "مارمایت"
+     "word": "Yeast spread",
+     "fa": "کرهٔ مخمر"
     }
    ]
   },

@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Morning! William's got a bit of a cough. Can you give him some Calpol at lunchtime?",
+   "text": "Morning! William's got a bit of a cough. Can you give him some children's paracetamol at lunchtime?",
    "translations": {
-    "fa": "صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش کالپول بدید؟"
+    "fa": "صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش شربت استامینوفن بچه بدید؟"
    },
    "branches": [
     {
@@ -48,8 +48,8 @@
      "fa": "سرفه"
     },
     {
-     "word": "Calpol",
-     "fa": "کالپول (شربت تب‌بر بچه)"
+     "word": "children's paracetamol",
+     "fa": "شربت استامینوفن بچه (شربت تب‌بر بچه)"
     },
     {
      "word": "medicine form",
@@ -57,8 +57,8 @@
     }
    ],
    "cultureNote": {
-    "en": "\"Calpol\" is a well-known UK brand of children's paracetamol. Nurseries need written permission to give any medicine.",
-    "fa": "کالپول شربت پاراستامول بچه است؛ اجازهٔ کتبی لازم است."
+    "en": "Children's paracetamol syrup is common in UK homes. Nurseries need written permission to give any medicine.",
+    "fa": "شربت استامینوفن بچه شربت پاراستامول بچه است؛ اجازهٔ کتبی لازم است."
    }
   },
   "n2": {

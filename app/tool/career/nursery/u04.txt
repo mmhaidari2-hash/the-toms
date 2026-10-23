@@ -86,11 +86,11 @@ W: sign=امضا کردن ; copy=نسخه ؛ کپی ; date=تاریخ
 vida: Perfect. Calm, clear and factual. Head bumps are different — we always phone the parent straight away. | عالی. آروم، واضح و بر اساس واقعیت. ضربه به سر فرق می‌کنه — همیشه فوراً به والدین زنگ می‌زنیم.
 
 # nur_4_4 | leslie | Medicine and poorly children | دارو و بچهٔ مریض | Can / can't + have to | می‌تواند / نمی‌تواند / باید | firstday
-leslie: Morning! William's got a bit of a cough. Can you give him some Calpol at lunchtime? | صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش کالپول بدید؟
+leslie: Morning! William's got a bit of a cough. Can you give him some children's paracetamol at lunchtime? | صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش شربت استامینوفن بچه بدید؟
 > Morning! You have to fill in a medicine form first. | صبح بخیر! اول باید فرم دارو را پر کنید.
 > Does he have a temperature? | تب داره؟
-W: cough=سرفه ; Calpol=کالپول (شربت تب‌بر بچه) ; medicine form=فرم دارو
-C: "Calpol" is a well-known UK brand of children's paracetamol. Nurseries need written permission to give any medicine. | کالپول شربت پاراستامول بچه است؛ اجازهٔ کتبی لازم است.
+W: cough=سرفه ; children's paracetamol=شربت استامینوفن بچه (شربت تب‌بر بچه) ; medicine form=فرم دارو
+C: Children's paracetamol syrup is common in UK homes. Nurseries need written permission to give any medicine. | شربت استامینوفن بچه شربت پاراستامول بچه است؛ اجازهٔ کتبی لازم است.
 leslie: No temperature this morning. Oh, a form — of course. What do you need to know? | امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟
 > The medicine, the dose and the time. | اسم دارو، مقدار و ساعت.
 > When did he last have some? | آخرین بار کی خورده؟

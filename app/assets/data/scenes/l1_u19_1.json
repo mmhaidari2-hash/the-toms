@@ -57,9 +57,9 @@
   "n2": {
    "id": "n2",
    "speaker": "ryan",
-   "text": "That's Bukayo Saka. He's a footballer. He plays for Arsenal. Do you like football?",
+   "text": "That's Danny Okoro. He's a footballer. He plays for Hackney Rovers. Do you like football?",
    "translations": {
-    "fa": "اون بوکایو ساکاست. فوتبالیسته. برای آرسنال بازی می‌کنه. فوتبال دوست داری؟"
+    "fa": "اون دنی اوکوروئه. فوتبالیسته. برای هکنی روورز بازی می‌کنه. فوتبال دوست داری؟"
    },
    "branches": [
     {
@@ -209,11 +209,11 @@
    "branches": [
     {
      "keywords": [
-      "adele",
+      "lily",
       "like"
      ],
-     "suggestion": "I like Adele.",
-     "suggestionFa": "من ادل دوست دارم.",
+     "suggestion": "I like Lily Rose.",
+     "suggestionFa": "من لیلی رز دوست دارم.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -243,17 +243,17 @@
     }
    ],
    "cultureNote": {
-    "en": "Adele is from Tottenham, in north London, not far from Hackney.",
-    "fa": "ادل اهل تاتنهام لندن است."
+    "en": "Lily Rose is a pop singer from north London, not far from Hackney.",
+    "fa": "لیلی رز خوانندهٔ پاپ اهل شمال لندن است."
    },
    "recasts": [
     {
      "match": [
-      "my favourite singer adele",
-      "adele is favourite me"
+      "my favourite singer lily rose",
+      "lily rose is favourite me"
      ],
-     "echo": "Adele is your favourite? Good choice!",
-     "better": "My favourite singer is Adele.",
+     "echo": "Lily Rose is your favourite? Good choice!",
+     "better": "My favourite singer is Lily Rose.",
      "betterFa": "خوانندهٔ مورد علاقه‌ام ادله."
     }
    ]

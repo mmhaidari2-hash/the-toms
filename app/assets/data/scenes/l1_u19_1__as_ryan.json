@@ -48,12 +48,12 @@
      "keywords": [
       "footballer",
       "football",
-      "arsenal",
+      "rovers",
       "that's",
       "bukayo"
      ],
-     "suggestion": "That's Bukayo Saka. He's a footballer. He plays for Arsenal. Do you like football?",
-     "suggestionFa": "اون بوکایو ساکاست. فوتبالیسته. برای آرسنال بازی می‌کنه. فوتبال دوست داری؟",
+     "suggestion": "That's Danny Okoro. He's a footballer. He plays for Hackney Rovers. Do you like football?",
+     "suggestionFa": "اون دنی اوکوروئه. فوتبالیسته. برای هکنی روورز بازی می‌کنه. فوتبال دوست داری؟",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -138,9 +138,9 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "I like Adele.",
+   "text": "I like Lily Rose.",
    "translations": {
-    "fa": "من ادل دوست دارم."
+    "fa": "من لیلی رز دوست دارم."
    },
    "branches": [
     {

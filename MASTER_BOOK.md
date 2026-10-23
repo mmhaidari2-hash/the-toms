@@ -418,3 +418,11 @@ The story/conversation screen (`/chat/:id`, `conversation_screen.dart`) is now a
 - **Facts (checked on gov.uk, Oct 2026):** BRPs have all expired and were replaced by eVisas (prove status with a share code). Report Fraud replaced Action Fraud on 4 Dec 2025 (reportfraud.police.uk, 0300 123 2040; Scotland: Police Scotland 101).
 - **Helper languages:** only Persian has content, so onboarding offers Persian and lists the rest as "coming soon" (`readyLanguages` in strings.dart).
 - **Menu:** 22 rows → four labelled groups of tiles (Learn · Read, watch & listen · Life in the UK · You & the family) plus a short footer (Your name, Premium, How it works, Privacy).
+
+### Name & trademark audit (2026-10-23)
+- Everything resembling a real organisation, brand, trademark or real person renamed to generic/fictional (full table: app/tool/audit/name_audit.md). Examples: Arsenal → Hackney Rovers, Bukayo Saka → Danny Okoro, Celtic → Glenmore, Adele → Lily Rose, Paddington (bear/films) → Barnaby, Gruffalo → The Moonlit Monster, Marmite → yeast spread, Tesco/Greggs/IKEA/Nando's → generic, Calpol → children's paracetamol, Oyster/TfL/Citymapper → travel card/transport/journey-planner app, Royal Mail → the post, Barclays → Thames Bank, Homerton Hospital → Riverside Hospital, Picturehouse → Hackney Palace cinema, Jobcentre Plus → job centre, YouTube/TikTok/WhatsApp/Instagram/Netflix/iPlayer → generic, Clubcard/Nectar → loyalty card, pub-quiz real faces → historical writers.
+- Persian lines and branch keywords updated to match; 359 voice clips re-rendered.
+- Kept factually: gov.uk, NHS/111, 999/101, DVSA, HMRC, Ofsted, Citizens Advice, Report Fraud, TV licence (live TV + BBC iPlayer); places/stations; historical figures.
+- Terms → "Not affiliated" now says the app is not affiliated with or endorsed by any government body, charity, company or brand; real services are named only as places to get real help.
+- Planned buildings use generic names: Advice Centre, Job Centre, Visa Help Desk, Police Station, Town Hall, College.
+- App name 'The Toms' (TOMS trademark overlap) not renamed; proposals: Next Door English, Kettle On, Hackney Lane English.

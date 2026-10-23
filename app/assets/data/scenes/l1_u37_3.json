@@ -118,13 +118,13 @@
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "watch",
       "don't",
       "why"
      ],
-     "suggestion": "Why don't we watch Paddington?",
-     "suggestionFa": "چرا پدینگتون نبینیم؟",
+     "suggestion": "Why don't we watch Barnaby?",
+     "suggestionFa": "چرا بارنابی نبینیم؟",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -156,20 +156,20 @@
     {
      "match": [
       "why we don't watch",
-      "how about watch paddington"
+      "how about watch barnaby"
      ],
-     "echo": "How about watching Paddington? Yes!",
-     "better": "How about watching Paddington?",
-     "betterFa": "دیدن پدینگتون چطوره؟"
+     "echo": "How about watching Barnaby? Yes!",
+     "better": "How about watching Barnaby?",
+     "betterFa": "دیدن بارنابی چطوره؟"
     }
    ]
   },
   "n4": {
    "id": "n4",
    "speaker": "ryan",
-   "text": "Paddington! Yes. Everyone likes Paddington. Even Dad cries at the end.",
+   "text": "Barnaby! Yes. Everyone likes Barnaby. Even Dad cries at the end.",
    "translations": {
-    "fa": "پدینگتون! آره. همه پدینگتون دوست دارن. حتی بابا آخرش گریه می‌کنه."
+    "fa": "بارنابی! آره. همه بارنابی دوست دارن. حتی بابا آخرش گریه می‌کنه."
    },
    "branches": [
     {
@@ -211,8 +211,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Paddington Bear is a much-loved British character who loves marmalade sandwiches.",
-    "fa": "پدینگتون و ساندویچ مارمالاد."
+    "en": "Barnaby Bear is a much-loved children's character in this story world — a bear who loves jam sandwiches.",
+    "fa": "بارنابی و ساندویچ مارمالاد."
    }
   },
   "n5": {

@@ -1,11 +1,11 @@
 ## U147 | Football fan | طرفدار فوتبال | pub | Watch a match in the pub, talk about teams, buy a match ticket and react to the result | در پاب مسابقه ببینی، دربارهٔ تیم‌ها حرف بزنی، بلیت مسابقه بخری و به نتیجه واکنش نشان بدهی
 
 # l2_u59_1 | tom | Watching the match | تماشای مسابقه | Who's winning? / What's the score? / Come on…! / That was a foul! | کی دارد می‌برد؟ / نتیجه چند است؟ / یالا …! / خطا بود! | pub
-tom: North London derby! Arsenal versus Spurs. The Red Lion's packed. I've saved you a stool. Pint of lemonade? | دربی شمال لندن! آرسنال مقابل اسپرز. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟
+tom: Local derby! Rovers versus Lea Valley. The Red Lion's packed. I've saved you a stool. Pint of lemonade? | دربی شمال لندن! روورز مقابل لی‌ولی. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟
 > Yes, please. What's the score? | آره، لطفاً. نتیجه چنده؟
 > Thanks! Who's winning? | ممنون! کی داره می‌بره؟
 W: derby=دربی (بازی دو تیم هم‌شهری) ; versus=مقابل ; packed=شلوغ ؛ پر ; stool=چهارپایه ; score=نتیجه
-tom: Nil-nil. Twenty minutes gone. Arsenal in red — that's us. Spurs in white. Ryan's at his mate's, texting me every thirty seconds. | صفر صفر. بیست دقیقه گذشته. آرسنال قرمز — ما هستیم. اسپرز سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.
+tom: Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me every thirty seconds. | صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.
 > Nil-nil. So it's a draw at the moment? | صفر صفر. پس فعلاً مساویه؟
 > Why "nil" and not "zero"? | چرا «نیل» و نه «زیرو»؟
 W: nil=صفر (در نتیجهٔ فوتبال) ; gone=گذشته ; mate's=خانهٔ دوست ; texting=پیام دادن
@@ -15,9 +15,9 @@ tom: That's just how we say it. Two-nil, three-nil… Oh! OH! That was a foul! R
 > Yes! That was definitely a foul! | آره! قطعاً خطا بود!
 W: foul=خطا ; ref=داور (عامیانه) ; blind=کور ; fell over=زمین خورد
 X: it was foul ; that is a foul => That was a foul! Free kick! | That was a foul! | خطا بود!
-tom: Free kick to Arsenal! Right on the edge of the box. Saka's taking it. Come on, Saka… come on… | ضربهٔ آزاد برای آرسنال! درست لب محوطه. ساکا می‌زنه. یالا ساکا… یالا…
-> Come on, Arsenal! | یالا آرسنال!
-> Which one is Saka? | ساکا کدومه؟
+tom: Free kick to Rovers! Right on the edge of the box. Okoro's taking it. Come on, Okoro… come on… | ضربهٔ آزاد برای روورز! درست لب محوطه. اوکورو می‌زنه. یالا اوکورو… یالا…
+> Come on, Rovers! | یالا روورز!
+> Which one is Okoro? | اوکورو کدومه؟
 W: free kick=ضربهٔ آزاد ; edge=لبه ; the box=محوطهٔ جریمه ; come on=یالا
 tom: GOAAAL! Get IN! One-nil! Did you see that?! Top corner! The whole pub's jumping. Dave's spilled his pint! | گووول! آره! یک-صفر! دیدی؟! گوشهٔ بالا! کل پاب داره بالا پایین می‌پره. دیو لیوانش را ریخت!
 > What a goal! Brilliant! | چه گلی! فوق‌العاده!
@@ -31,10 +31,10 @@ tom: Seventy minutes! Too long. My heart can't take it. Another lemonade? This c
 
 # l2_u59_2 | dave | Which team do you support? | طرفدار کدام تیمی؟ | Which team do you support? / I support… / I'm not really into… / We're… in the league | طرفدار کدام تیمی؟ / طرفدار … هستم / زیاد اهل … نیستم / در لیگ … هستیم | pub
 dave: All right, quiz champion? Watching football with Tom now? So which team do you support? Careful. Wrong answer, you're barred. | چطوری قهرمان مسابقه؟ الان با تام فوتبال می‌بینی؟ خب طرفدار کدوم تیمی؟ مواظب باش. جواب غلط، دیگه راهت نمیدم.
-> I support Arsenal, like Tom. | طرفدار آرسنالم، مثل تام.
+> I support Rovers, like Tom. | طرفدار روورزم، مثل تام.
 > I'm not really into football. I'm just here for Tom. | زیاد اهل فوتبال نیستم. فقط به‌خاطر تام اینجام.
 W: support=طرفدار بودن ; barred=ممنوع‌الورود ; into=علاقه‌مند به
-X: i am support arsenal ; i supporting arsenal => You support Arsenal? Oh dear! | I support Arsenal. | طرفدار آرسنال هستم.
+X: i am support rovers ; i supporting rovers => You support Rovers? Oh dear! | I support Rovers. | طرفدار روورز هستم.
 C: British people "support" a team (not "are fans of" so much). It's often a family thing, passed from parents to children. | بریتانیایی‌ها تیمی را «support» می‌کنند؛ طرفداری تیم اغلب خانوادگی است.
 dave: Ha! Honest. I like it. Me? Leyton Orient. Forty years. My dad took me when I was six. The O's! Brisbane Road! | ها! صادقانه. خوشم اومد. من؟ لیتون اورینت. چهل سال. بابام وقتی شش سالم بود منو برد. اوز! بریزبن رود!
 > Leyton Orient? Where's that? | لیتون اورینت؟ کجاست؟
@@ -44,15 +44,15 @@ dave: East London, just up the road. Good? Ha! We're in League One — the third
 > Why don't you support a big team? | چرا طرفدار یه تیم بزرگ نیستی؟
 > "We lose together." That's beautiful. | «با هم می‌بازیم.» چه قشنگه.
 W: just up the road=همین نزدیکی ; League One=لیگ یک (دستهٔ سوم) ; division=دسته ; lose=باختن
-dave: Big team? Never. A real fan supports their local team. Tom's from Hackney and supports Arsenal — I let it go. He's family. | تیم بزرگ؟ هیچ‌وقت. طرفدار واقعی از تیم محلیش حمایت می‌کنه. تام اهل هکنیه و طرفدار آرسنال — بیخیالش شدم. فامیله.
-> Arsenal isn't far from Hackney, is it? | آرسنال از هکنی دور نیست، نه؟
-> In Iran, everyone supports Persepolis or Esteghlal. | تو ایران، همه طرفدار پرسپولیس یا استقلالن.
+dave: Big team? Never. A real fan supports their local team. Tom's from Hackney and supports Rovers — I let it go. He's family. | تیم بزرگ؟ هیچ‌وقت. طرفدار واقعی از تیم محلیش حمایت می‌کنه. تام اهل هکنیه و طرفدار روورز — بیخیالش شدم. فامیله.
+> The Rovers ground isn't far from here, is it? | روورز از هکنی دور نیست، نه؟
+> In Iran, everyone supports my team back home or their rivals. | تو ایران، همه طرفدار یکی از دو تیم بزرگ تهرانن.
 W: local=محلی ; let it go=بی‌خیالش شدم ; family=خانواده ؛ مثل خانواده
-dave: Persepolis or Esteghlal! Like Celtic and Rangers, eh? Al says Glasgow's mad on match day. Which one are you? | پرسپولیس یا استقلال! مثل سلتیک و رنجرز، ها؟ آل میگه گلاسکو روز مسابقه دیوونه‌خونه‌ست. تو کدومی؟
-> Persepolis! Red, like Arsenal. | پرسپولیس! قرمز، مثل آرسنال.
-> Esteghlal. Blue, so I can't support Arsenal really! | استقلال. آبی، پس واقعاً نمی‌تونم طرفدار آرسنال باشم!
+dave: Two big rivals! Like a derby here, eh? Al says Glasgow's mad on match day. Which one are you? | دو تیم بزرگ رقیب! مثل دربی‌های اینجا، ها؟ آل میگه گلاسکو روز مسابقه دیوونه‌خونه‌ست. تو کدومی؟
+> My team back home plays in red, like Rovers. | تیمم توی ایران قرمزه، مثل روورز.
+> My team back home plays in blue, so I can't support Rovers really! | تیمم توی ایران آبیه، پس واقعاً نمی‌تونم طرفدار روورز باشم!
 W: mad=دیوانه‌وار ؛ شلوغ ; match day=روز مسابقه
-C: Big rivalries are part of British football culture: Celtic v Rangers, Arsenal v Spurs, Liverpool v Everton. Keep the banter friendly! | رقابت‌های بزرگ بخشی از فرهنگ فوتبال است؛ شوخی‌ها را دوستانه نگه دارید.
+C: Big local rivalries are part of British football culture — most towns have a derby. Keep the banter friendly! | رقابت‌های بزرگ بخشی از فرهنگ فوتبال است؛ شوخی‌ها را دوستانه نگه دارید.
 dave: Good answer. Here's an idea: come to an Orient game with me. Twenty quid. Pie at half-time. You'll fall in love. | جواب خوبی بود. یه پیشنهاد: با من بیا یه بازی اورینت. بیست پوند. پای سر نیمه. عاشقش میشی.
 > I'd love to! When's the next home game? | خیلی دوست دارم! بازی خونگی بعدی کیه؟
 > Will they win? | می‌برن؟
@@ -60,8 +60,8 @@ W: quid=پوند (عامیانه) ; pie=پای (کیک گوشتی) ; half-time=�
 dave: Win? Don't be daft. But the pies are excellent. Saturday week. I'll pick you up. Wear something warm — the stands are freezing. | ببرن؟ خل نشو. ولی پای‌هاش عالیه. شنبهٔ هفتهٔ بعد. میام دنبالت. یه چیز گرم بپوش — سکوها یخ‌زده‌ان.
 
 # l2_u59_3 | tom | Buying a ticket | خرید بلیت | Are there any tickets left? / How much is it for…? / Where can I collect…? | بلیتی مانده؟ / برای … چقدر است؟ / کجا … را تحویل بگیرم؟ | pub
-tom: Big news! Arsenal are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look? | خبر بزرگ! آرسنال بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟
-> Sure. Let's check the Arsenal website. | حتماً. بیا سایت آرسنال را چک کنیم.
+tom: Big news! Rovers are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look? | خبر بزرگ! روورز بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟
+> Sure. Let's check the club website. | حتماً. بیا سایت روورز را چک کنیم.
 > Gold dust? What do you mean? | کیمیا؟ منظورت چیه؟
 W: at home=در خانه (بازی خانگی) ; begging=التماس کردن ; gold dust=کیمیا ؛ خیلی کمیاب
 tom: Very hard to find. Most tickets go to members. I'm not a member — eighty quid a year. OK, website. "Sold out". Typical. | خیلی سخت پیدا میشه. بیشتر بلیت‌ها به اعضا می‌رسه. من عضو نیستم — سالی هشتاد پوند. باشه، سایت. «تموم شد». معمول.
@@ -90,16 +90,16 @@ tom: Good man. And Saturday week, you're at Orient with Dave. Look at you — tw
 
 # l2_u59_4 | al | The final whistle | سوت پایان | What a game! / It finished… / We were robbed! / Fair result | چه بازی‌ای! / … تمام شد / حقمان را خوردند! / نتیجهٔ منصفانه | pub
 al: Ninety minutes gone! Five minutes of added time. One-all. Tom can't watch — he's hiding behind a beer mat. | نود دقیقه گذشت! پنج دقیقه وقت اضافه. یک-یک. تام نمی‌تونه نگاه کنه — پشت زیرلیوانی قایم شده.
-> Ha! Five more minutes. Come on, Arsenal! | ها! پنج دقیقهٔ دیگه. یالا آرسنال!
+> Ha! Five more minutes. Come on, Rovers! | ها! پنج دقیقهٔ دیگه. یالا روورز!
 > What's added time? | وقت اضافه چیه؟
 W: added time=وقت تلف‌شده ؛ وقت اضافه ; hiding=قایم شدن ; beer mat=زیرلیوانی
-al: Extra minutes for injuries and time-wasting. I'm neutral — I'm Celtic! — but this is tense. Oh no. Spurs are attacking… | دقیقه‌های اضافه برای مصدومیت و وقت‌کشی. من بی‌طرفم — من سلتیکی‌ام! — ولی خیلی پرتنشه. وای نه. اسپرز داره حمله می‌کنه…
+al: Extra minutes for injuries and time-wasting. I'm neutral — I'm a Glenmore fan! — but this is tense. Oh no. Lea Valley are attacking… | دقیقه‌های اضافه برای مصدومیت و وقت‌کشی. من بی‌طرفم — من طرفدار گلنمورم! — ولی خیلی پرتنشه. وای نه. لی‌ولی داره حمله می‌کنه…
 > Oh no! Save it, save it! | وای نه! بگیرش، بگیرش!
 > Tom, don't look! | تام، نگاه نکن!
 W: injuries=مصدومیت‌ها ; time-wasting=وقت‌کشی ; neutral=بی‌طرف ; tense=پرتنش ; attacking=حمله کردن
 al: SAVED! What a save! The keeper's a hero! And — that's it! The final whistle! It finished one-all! | گرفت! چه مهاری! دروازه‌بان قهرمانه! و — تموم شد! سوت پایان! یک-یک تموم شد!
 > What a game! | چه بازی‌ای!
-> One-all. Is that a good result for Arsenal? | یک-یک. برای آرسنال نتیجهٔ خوبیه؟
+> One-all. Is that a good result for Rovers? | یک-یک. برای روورز نتیجهٔ خوبیه؟
 W: save=مهار توپ ; keeper=دروازه‌بان ; final whistle=سوت پایان ; finished=تمام شد
 X: what game ; what a match was it => What a game! Unbelievable! | What a game! | چه بازی‌ای!
 al: Depends who you ask. Listen to Tom: "We were robbed! That penalty was never a penalty!" Every week. | بستگی داره از کی بپرسی. به تام گوش کن: «حقمون را خوردن! اون پنالتی اصلاً پنالتی نبود!» هر هفته.
@@ -111,8 +111,8 @@ al: Diplomatic! You should work for the United Nations. Now, the post-match anal
 > What was the best moment for you? | بهترین لحظه برای تو چی بود؟
 > I'll get the drinks. Lemonade for me! | من نوشیدنی‌ها را می‌گیرم. لیموناد برای من!
 W: diplomatic=دیپلماتیک ; post-match=بعد از بازی ; analysis=تحلیل ; argument=بحث
-al: The save, easily. And Tom's face. Pure agony. And one day you're coming to Glasgow. Celtic Park. Sixty thousand people singing! | مهار، معلومه. و قیافهٔ تام. عذاب خالص. و یه روز میای گلاسکو. سلتیک پارک. شصت هزار نفر در حال آواز خوندن!
+al: The save, easily. And Tom's face. Pure agony. And one day you're coming to Glasgow. Glenmore Park. Sixty thousand people singing! | مهار، معلومه. و قیافهٔ تام. عذاب خالص. و یه روز میای گلاسکو. گلنمور پارک. شصت هزار نفر در حال آواز خوندن!
 > Sixty thousand! I'd love that. | شصت هزار! خیلی دوست دارم.
 > Only if Tom comes too! | فقط اگه تام هم بیاد!
 W: easily=به‌راحتی ؛ بی‌شک ; agony=عذاب ; singing=آواز خواندن
-al: Tom at Celtic Park? He'd cry. He cries at Paddington! Come on — Dave's ringing the bell. Last orders! | تام تو سلتیک پارک؟ گریه می‌کنه. اون سر پدینگتون گریه می‌کنه! بیا — دیو داره زنگ را می‌زنه. آخرین سفارش‌ها!
+al: Tom at Glenmore Park? He'd cry. He cries at Barnaby! Come on — Dave's ringing the bell. Last orders! | تام تو گلنمور پارک؟ گریه می‌کنه. اون سر بارنابی گریه می‌کنه! بیا — دیو داره زنگ را می‌زنه. آخرین سفارش‌ها!

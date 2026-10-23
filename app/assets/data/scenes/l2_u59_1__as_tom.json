@@ -22,13 +22,13 @@
     {
      "keywords": [
       "lemonade",
-      "arsenal",
+      "rovers",
       "london",
       "lion's",
       "packed"
      ],
-     "suggestion": "North London derby! Arsenal versus Spurs. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
-     "suggestionFa": "دربی شمال لندن! آرسنال مقابل اسپرز. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟",
+     "suggestion": "Local derby! Rovers versus Lea Valley. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
+     "suggestionFa": "دربی شمال لندن! روورز مقابل لی‌ولی. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -48,12 +48,12 @@
      "keywords": [
       "seconds",
       "texting",
-      "arsenal",
+      "rovers",
       "minutes",
       "twenty"
      ],
-     "suggestion": "Nil-nil. Twenty minutes gone. Arsenal in red — that's us. Spurs in white. Ryan's at his mate's, texting me every thirty seconds.",
-     "suggestionFa": "صفر صفر. بیست دقیقه گذشته. آرسنال قرمز — ما هستیم. اسپرز سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.",
+     "suggestion": "Nil-nil. Twenty minutes gone. Rovers in red — that's us. Lea Valley in white. Ryan's at his mate's, texting me every thirty seconds.",
+     "suggestionFa": "صفر صفر. بیست دقیقه گذشته. روورز قرمز — ما هستیم. لی‌ولی سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -96,14 +96,14 @@
    "branches": [
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "taking",
       "saka's",
       "right",
       "edge"
      ],
-     "suggestion": "Free kick to Arsenal! Right on the edge of the box. Saka's taking it. Come on, Saka… come on…",
-     "suggestionFa": "ضربهٔ آزاد برای آرسنال! درست لب محوطه. ساکا می‌زنه. یالا ساکا… یالا…",
+     "suggestion": "Free kick to Rovers! Right on the edge of the box. Okoro's taking it. Come on, Okoro… come on…",
+     "suggestionFa": "ضربهٔ آزاد برای روورز! درست لب محوطه. اوکورو می‌زنه. یالا اوکورو… یالا…",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -114,9 +114,9 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "Come on, Arsenal!",
+   "text": "Come on, Rovers!",
    "translations": {
-    "fa": "یالا آرسنال!"
+    "fa": "یالا روورز!"
    },
    "branches": [
     {

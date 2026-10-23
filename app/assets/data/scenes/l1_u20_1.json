@@ -263,18 +263,18 @@
   "n6": {
    "id": "n6",
    "speaker": "tom",
-   "text": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the Jobcentre is great.",
+   "text": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the job centre is great.",
    "translations": {
-    "fa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو جاب‌سنتر عالیه."
+    "fa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو مرکز کاریابی عالیه."
    },
    "branches": [
     {
      "keywords": [
-      "jobcentre",
+      "job",
       "what's"
      ],
-     "suggestion": "What's the Jobcentre?",
-     "suggestionFa": "جاب‌سنتر چیه؟",
+     "suggestion": "What's the job centre?",
+     "suggestionFa": "مرکز کاریابی چیه؟",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -295,7 +295,7 @@
    ],
    "newWords": [
     {
-     "word": "Jobcentre",
+     "word": "job centre",
      "fa": "مرکز کاریابی"
     },
     {
@@ -304,8 +304,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Jobcentre Plus is the government office that helps people find work.",
-    "fa": "جاب‌سنتر اداره دولتی کاریابی است."
+    "en": "Job centres are government offices that help people find work — free.",
+    "fa": "مرکز کاریابی اداره دولتی کاریابی است."
    }
   },
   "n7": {

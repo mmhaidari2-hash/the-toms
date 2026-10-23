@@ -48,12 +48,12 @@
      "keywords": [
       "football",
       "playing",
-      "arsenal",
+      "rovers",
       "rather",
       "boring"
      ],
-     "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
-     "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
+     "suggestion": "The news? Boring! I'd rather watch football. Rovers are playing.",
+     "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. روورز بازی داره.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -73,12 +73,12 @@
      "keywords": [
       "cartoons",
       "nicola",
-      "spurs",
+      "lea",
       "wants",
       "bake"
      ],
-     "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
-     "suggestionFa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف.",
+     "suggestion": "Lea Valley. Big game! But Nicola wants cartoons and Mum wants the baking show.",
+     "suggestionFa": "لی‌ولی. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان برنامهٔ شیرینی‌پزی.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -89,9 +89,9 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "What's Bake Off?",
+   "text": "What's the baking show?",
    "translations": {
-    "fa": "بیک آف چیه؟"
+    "fa": "برنامهٔ شیرینی‌پزی چیه؟"
    },
    "branches": [
     {

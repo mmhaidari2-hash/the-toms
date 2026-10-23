@@ -12,20 +12,20 @@
   "n1": {
    "id": "n1",
    "speaker": "tom",
-   "text": "Big news! Arsenal are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look?",
+   "text": "Big news! Rovers are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look?",
    "translations": {
-    "fa": "خبر بزرگ! آرسنال بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟"
+    "fa": "خبر بزرگ! روورز بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟"
    },
    "branches": [
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "website",
       "let's",
       "check"
      ],
-     "suggestion": "Sure. Let's check the Arsenal website.",
-     "suggestionFa": "حتماً. بیا سایت آرسنال را چک کنیم.",
+     "suggestion": "Sure. Let's check the club website.",
+     "suggestionFa": "حتماً. بیا سایت روورز را چک کنیم.",
      "trustDelta": 6,
      "next": "n2",
      "success": true

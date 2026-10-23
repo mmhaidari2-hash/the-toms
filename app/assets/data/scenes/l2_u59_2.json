@@ -20,11 +20,11 @@
     {
      "keywords": [
       "support",
-      "arsenal",
+      "rovers",
       "like"
      ],
-     "suggestion": "I support Arsenal, like Tom.",
-     "suggestionFa": "طرفدار آرسنالم، مثل تام.",
+     "suggestion": "I support Rovers, like Tom.",
+     "suggestionFa": "طرفدار روورزم، مثل تام.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -64,12 +64,12 @@
    "recasts": [
     {
      "match": [
-      "i am support arsenal",
-      "i supporting arsenal"
+      "i am support rovers",
+      "i supporting rovers"
      ],
-     "echo": "You support Arsenal? Oh dear!",
-     "better": "I support Arsenal.",
-     "betterFa": "طرفدار آرسنال هستم."
+     "echo": "You support Rovers? Oh dear!",
+     "better": "I support Rovers.",
+     "betterFa": "طرفدار روورز هستم."
     }
    ]
   },
@@ -175,33 +175,33 @@
   "n4": {
    "id": "n4",
    "speaker": "dave",
-   "text": "Big team? Never. A real fan supports their local team. Tom's from Hackney and supports Arsenal — I let it go. He's family.",
+   "text": "Big team? Never. A real fan supports their local team. Tom's from Hackney and supports Rovers — I let it go. He's family.",
    "translations": {
-    "fa": "تیم بزرگ؟ هیچ‌وقت. طرفدار واقعی از تیم محلیش حمایت می‌کنه. تام اهل هکنیه و طرفدار آرسنال — بیخیالش شدم. فامیله."
+    "fa": "تیم بزرگ؟ هیچ‌وقت. طرفدار واقعی از تیم محلیش حمایت می‌کنه. تام اهل هکنیه و طرفدار روورز — بیخیالش شدم. فامیله."
    },
    "branches": [
     {
      "keywords": [
-      "arsenal",
+      "rovers",
       "hackney",
       "isn't",
       "from"
      ],
-     "suggestion": "Arsenal isn't far from Hackney, is it?",
-     "suggestionFa": "آرسنال از هکنی دور نیست، نه؟",
+     "suggestion": "The Rovers ground isn't far from here, is it?",
+     "suggestionFa": "روورز از هکنی دور نیست، نه؟",
      "trustDelta": 6,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "persepolis",
-      "esteghlal",
+      "team",
+      "team",
       "everyone",
       "supports"
      ],
-     "suggestion": "In Iran, everyone supports Persepolis or Esteghlal.",
-     "suggestionFa": "تو ایران، همه طرفدار پرسپولیس یا استقلالن.",
+     "suggestion": "In Iran, everyone supports my team back home or their rivals.",
+     "suggestionFa": "تو ایران، همه طرفدار یکی از دو تیم بزرگ تهرانن.",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -225,32 +225,32 @@
   "n5": {
    "id": "n5",
    "speaker": "dave",
-   "text": "Persepolis or Esteghlal! Like Celtic and Rangers, eh? Al says Glasgow's mad on match day. Which one are you?",
+   "text": "Two big rivals! Like a derby here, eh? Al says Glasgow's mad on match day. Which one are you?",
    "translations": {
-    "fa": "پرسپولیس یا استقلال! مثل سلتیک و رنجرز، ها؟ آل میگه گلاسکو روز مسابقه دیوونه‌خونه‌ست. تو کدومی؟"
+    "fa": "دو تیم بزرگ رقیب! مثل دربی‌های اینجا، ها؟ آل میگه گلاسکو روز مسابقه دیوونه‌خونه‌ست. تو کدومی؟"
    },
    "branches": [
     {
      "keywords": [
-      "persepolis",
+      "team",
       "like",
       "red"
      ],
-     "suggestion": "Persepolis! Red, like Arsenal.",
-     "suggestionFa": "پرسپولیس! قرمز، مثل آرسنال.",
+     "suggestion": "My team back home plays in red, like Rovers.",
+     "suggestionFa": "تیمم توی ایران قرمزه، مثل روورز.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
     },
     {
      "keywords": [
-      "esteghlal",
+      "team",
       "support",
       "really",
       "can't"
      ],
-     "suggestion": "Esteghlal. Blue, so I can't support Arsenal really!",
-     "suggestionFa": "استقلال. آبی، پس واقعاً نمی‌تونم طرفدار آرسنال باشم!",
+     "suggestion": "My team back home plays in blue, so I can't support Rovers really!",
+     "suggestionFa": "تیمم توی ایران آبیه، پس واقعاً نمی‌تونم طرفدار روورز باشم!",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -267,7 +267,7 @@
     }
    ],
    "cultureNote": {
-    "en": "Big rivalries are part of British football culture: Celtic v Rangers, Arsenal v Spurs, Liverpool v Everton. Keep the banter friendly!",
+    "en": "Big local rivalries are part of British football culture — most towns have a derby. Keep the banter friendly!",
     "fa": "رقابت‌های بزرگ بخشی از فرهنگ فوتبال است؛ شوخی‌ها را دوستانه نگه دارید."
    }
   },

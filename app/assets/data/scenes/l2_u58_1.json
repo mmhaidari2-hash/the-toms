@@ -128,9 +128,9 @@
   "n3": {
    "id": "n3",
    "speaker": "leslie",
-   "text": "Ooh, yes. Notting Hill? Paddington 2? Paddington 2 is officially one of the best films ever. I'm not even joking.",
+   "text": "Ooh, yes. A romcom? Barnaby 2? Barnaby 2 is officially one of the best films ever. I'm not even joking.",
    "translations": {
-    "fa": "اوه، آره. ناتینگ هیل؟ پدینگتون ۲؟ پدینگتون ۲ رسماً یکی از بهترین فیلم‌های تاریخه. شوخی هم نمی‌کنم."
+    "fa": "اوه، آره. یه فیلم عاشقانه؟ بارنابی ۲؟ بارنابی ۲ رسماً یکی از بهترین فیلم‌های تاریخه. شوخی هم نمی‌کنم."
    },
    "branches": [
     {
@@ -138,8 +138,8 @@
       "children",
       "isn't"
      ],
-     "suggestion": "Paddington? Isn't that for children?",
-     "suggestionFa": "پدینگتون؟ مگه برای بچه‌ها نیست؟",
+     "suggestion": "Barnaby? Isn't that for children?",
+     "suggestionFa": "بارنابی؟ مگه برای بچه‌ها نیست؟",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -151,8 +151,8 @@
       "i've",
       "seen"
      ],
-     "suggestion": "I've seen Notting Hill. Let's try Paddington.",
-     "suggestionFa": "ناتینگ هیل را دیدم. بیا پدینگتون را امتحان کنیم.",
+     "suggestion": "I've seen loads of romcoms. Let's try Barnaby.",
+     "suggestionFa": "یه فیلم عاشقانه را دیدم. بیا بارنابی را امتحان کنیم.",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -173,8 +173,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Paddington is a bear from Peru who loves marmalade sandwiches. The films are loved by adults too — very British humour.",
-    "fa": "پدینگتون خرسی از پرو است که عاشق ساندویچ مارمالاد است؛ بزرگسالان هم عاشق این فیلم‌ها هستند."
+    "en": "Barnaby is a gentle bear who arrives in London and loves jam sandwiches. Grown-ups love the films too — very British humour.",
+    "fa": "بارنابی خرسی از پرو است که عاشق ساندویچ مارمالاد است؛ بزرگسالان هم عاشق این فیلم‌ها هستند."
    }
   },
   "n4": {
@@ -200,13 +200,13 @@
     },
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "convinced",
       "you've",
       "ok"
      ],
-     "suggestion": "OK, you've convinced me. Paddington 2.",
-     "suggestionFa": "باشه، قانعم کردی. پدینگتون ۲.",
+     "suggestion": "OK, you've convinced me. Barnaby 2.",
+     "suggestionFa": "باشه، قانعم کردی. بارنابی ۲.",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -234,9 +234,9 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "Ha! Exactly. Now — is it on Netflix? Or iPlayer? We pay for three streaming services and can never find anything.",
+   "text": "Ha! Exactly. Now — which streaming app is it on? We pay for three streaming services and can never find anything.",
    "translations": {
-    "fa": "ها! دقیقاً. حالا — تو نتفلیکسه؟ یا آی‌پلیر؟ پول سه تا سرویس پخش آنلاین را میدیم و هیچ‌وقت چیزی پیدا نمی‌کنیم."
+    "fa": "ها! دقیقاً. حالا — تو رو کدوم اپ پخش آنلاینه؟ پول سه تا سرویس پخش آنلاین را میدیم و هیچ‌وقت چیزی پیدا نمی‌کنیم."
    },
    "branches": [
     {
@@ -244,8 +244,8 @@
       "search",
       "let"
      ],
-     "suggestion": "Let me search. It's on iPlayer!",
-     "suggestionFa": "بذار سرچ کنم. تو آی‌پلیره!",
+     "suggestion": "Let me search. It's on the free catch-up app!",
+     "suggestionFa": "بذار سرچ کنم. تو اپ پخش رایگانه!",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -254,8 +254,8 @@
      "keywords": [
       "what's"
      ],
-     "suggestion": "What's iPlayer?",
-     "suggestionFa": "آی‌پلیر چیه؟",
+     "suggestion": "What's catch-up TV?",
+     "suggestionFa": "تلویزیون پخش مجدد چیه؟",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -276,16 +276,16 @@
     }
    ],
    "cultureNote": {
-    "en": "BBC iPlayer is free to stream, but by law you need a TV licence (about £175 a year) to watch BBC programmes.",
-    "fa": "آی‌پلیر بی‌بی‌سی رایگان است، اما طبق قانون برای تماشای برنامه‌های BBC مجوز تلویزیون لازم است."
+    "en": "By law you need a TV licence (about £175 a year) to watch live TV or the main public broadcaster's catch-up service.",
+    "fa": "طبق قانون برای تماشای تلویزیون زنده یا سرویس پخش مجدد رسانهٔ عمومی، مجوز تلویزیون لازم است."
    }
   },
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "Brilliant. The BBC one. We pay the TV licence, so we might as well use it. Lights off, blanket on, tea in hand. Ready?",
+   "text": "Brilliant. The free one. We pay the TV licence, so we might as well use it. Lights off, blanket on, tea in hand. Ready?",
    "translations": {
-    "fa": "عالی. مال بی‌بی‌سی. پول مجوز تلویزیون را میدیم، پس بهتره ازش استفاده کنیم. چراغ خاموش، پتو رو پا، چای تو دست. آماده‌ای؟"
+    "fa": "عالی. همون رایگانه. پول مجوز تلویزیون را میدیم، پس بهتره ازش استفاده کنیم. چراغ خاموش، پتو رو پا، چای تو دست. آماده‌ای؟"
    },
    "branches": [
     {

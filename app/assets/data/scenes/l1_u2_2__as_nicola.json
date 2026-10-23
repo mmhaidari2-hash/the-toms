@@ -79,9 +79,9 @@
   "r3": {
    "id": "r3",
    "speaker": "leslie",
-   "text": "Good choice. Butter and jam, or Marmite?",
+   "text": "Good choice. Butter and jam, or yeast spread?",
    "translations": {
-    "fa": "انتخاب خوبیه. کره و مربا، یا مارمایت؟"
+    "fa": "انتخاب خوبیه. کره و مربا، یا کرهٔ مخمر؟"
    },
    "branches": [
     {
@@ -116,13 +116,13 @@
    "branches": [
     {
      "keywords": [
-      "marmite",
+      "spread",
       "salty",
       "black",
       "yucky"
      ],
-     "suggestion": "Marmite is yucky! It's black and salty.",
-     "suggestionFa": "مارمایت بدمزه‌ست! سیاه و شوره.",
+     "suggestion": "Yeast spread is yucky! It's black and salty.",
+     "suggestionFa": "کرهٔ مخمر بدمزه‌ست! سیاه و شوره.",
      "trustDelta": 5,
      "next": "r5",
      "success": true

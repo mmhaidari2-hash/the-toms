@@ -180,12 +180,12 @@
     },
     {
      "keywords": [
-      "oyster",
+      "travel",
       "i've",
       "got"
      ],
-     "suggestion": "I've got an Oyster card.",
-     "suggestionFa": "کارت اویستر دارم.",
+     "suggestion": "I've got an travel card.",
+     "suggestionFa": "کارت سفر دارم.",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -201,12 +201,12 @@
      "fa": "پرداخت بدون تماس"
     },
     {
-     "word": "Oyster card",
+     "word": "travel card",
      "fa": "کارت حمل‌ونقل لندن"
     }
    ],
    "cultureNote": {
-    "en": "London buses don't take cash. Use contactless or an Oyster card. One bus fare covers unlimited buses for an hour (the \"Hopper\").",
+    "en": "London buses don't take cash. Use contactless or an travel card. One bus fare covers unlimited buses for an hour (the \"Hopper\").",
     "fa": "اتوبوس لندن نقد نمی‌گیرد."
    }
   },

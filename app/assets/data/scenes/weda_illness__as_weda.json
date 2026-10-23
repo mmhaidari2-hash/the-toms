@@ -98,12 +98,12 @@
      "keywords": [
       "cupboard",
       "little",
-      "calpol",
+      "paracetamol",
       "glass",
       "fetch"
      ],
-     "suggestion": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
-     "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟",
+     "suggestion": "Little ones often go off their food. Could you fetch the children's paracetamol from the cupboard and a glass of water?",
+     "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی شربت استامینوفن بچه را از کابینت بیاری و یه لیوان آب؟",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -114,9 +114,9 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "Of course — here's the Calpol and some water.",
+   "text": "Of course — here's the children's paracetamol and some water.",
    "translations": {
-    "fa": "حتماً — اینم کالپول و یه کم آب."
+    "fa": "حتماً — اینم شربت استامینوفن بچه و یه کم آب."
    },
    "branches": [
     {

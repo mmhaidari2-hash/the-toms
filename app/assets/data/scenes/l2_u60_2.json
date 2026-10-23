@@ -12,18 +12,18 @@
   "n1": {
    "id": "n1",
    "speaker": "callum",
-   "text": "About Thursday. I'll send you the details. Can I get your number? Or are you an Instagram person?",
+   "text": "About Thursday. I'll send you the details. Can I get your number? Or are you a social-media person?",
    "translations": {
-    "fa": "دربارهٔ پنجشنبه. جزئیات را برات می‌فرستم. شماره‌ات را میدی؟ یا اهل اینستاگرامی؟"
+    "fa": "دربارهٔ پنجشنبه. جزئیات را برات می‌فرستم. شماره‌ات را میدی؟ یا اهل شبکه‌های اجتماعیی؟"
    },
    "branches": [
     {
      "keywords": [
-      "whatsapp",
+      "chat",
       "sure"
      ],
-     "suggestion": "Sure. Are you on WhatsApp?",
-     "suggestionFa": "حتماً. واتس‌اپ داری؟",
+     "suggestion": "Sure. Can I message you?",
+     "suggestionFa": "حتماً. گروه چت داری؟",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -52,8 +52,8 @@
      "fa": "شماره‌ات را بگیرم"
     },
     {
-     "word": "Instagram person",
-     "fa": "اهل اینستاگرام"
+     "word": "social-media person",
+     "fa": "اهل شبکه‌های اجتماعی"
     }
    ],
    "recasts": [
@@ -71,9 +71,9 @@
   "n2": {
    "id": "n2",
    "speaker": "callum",
-   "text": "WhatsApp, yeah. Go on — read it out. Slowly. Last time I got a girl's number wrong. Never saw her again. Tragic.",
+   "text": "Text's fine, yeah. Go on — read it out. Slowly. Last time I got a girl's number wrong. Never saw her again. Tragic.",
    "translations": {
-    "fa": "واتس‌اپ، آره. یالا — بخونش. آروم. دفعهٔ پیش شمارهٔ یه دختر را اشتباه نوشتم. دیگه هیچ‌وقت ندیدمش. غم‌انگیز."
+    "fa": "گروه چت، آره. یالا — بخونش. آروم. دفعهٔ پیش شمارهٔ یه دختر را اشتباه نوشتم. دیگه هیچ‌وقت ندیدمش. غم‌انگیز."
    },
    "branches": [
     {

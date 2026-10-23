@@ -7787,7 +7787,7 @@
        "fa": "دفتر"
       },
       {
-       "word": "Jobcentre",
+       "word": "job centre",
        "fa": "مرکز کاریابی"
       },
       {
@@ -14652,7 +14652,7 @@
        "fa": "آسان‌تر"
       },
       {
-       "word": "Sellotape",
+       "word": "sticky tape",
        "fa": "چسب نواری"
       },
       {
@@ -15418,8 +15418,8 @@
        "fa": "کره"
       },
       {
-       "word": "Marmite",
-       "fa": "مارمایت (خمیر مخمر)"
+       "word": "Yeast spread",
+       "fa": "کرهٔ مخمر (خمیر مخمر)"
       },
       {
        "word": "salty",
@@ -16093,7 +16093,7 @@
        "fa": "پرداخت بدون تماس"
       },
       {
-       "word": "Oyster card",
+       "word": "travel card",
        "fa": "کارت حمل‌ونقل لندن"
       },
       {
@@ -16160,7 +16160,7 @@
        "fa": "سکو"
       },
       {
-       "word": "Overground",
+       "word": "overground",
        "fa": "قطار شهری روی زمین لندن"
       },
       {
@@ -22126,8 +22126,8 @@
        "fa": "به جز"
       },
       {
-       "word": "Marmite",
-       "fa": "مارمایت"
+       "word": "Yeast spread",
+       "fa": "کرهٔ مخمر"
       },
       {
        "word": "calendar",
@@ -26590,16 +26590,16 @@
   {
    "level": 2,
    "id": "U103",
-   "title": "Buses and Oyster",
-   "titleFa": "اتوبوس و کارت اویستر",
+   "title": "Buses and travel cards",
+   "titleFa": "اتوبوس و کارت سفر",
    "place": "bus",
-   "canDo": "Top up an Oyster card, tap in, deal with a late bus and find lost property",
-   "canDoFa": "کارت اویستر را شارژ کنی، کارت بزنی، با تأخیر اتوبوس کنار بیایی و وسیلهٔ گمشده پیدا کنی",
+   "canDo": "Top up an travel card, tap in, deal with a late bus and find lost property",
+   "canDoFa": "کارت سفر را شارژ کنی، کارت بزنی، با تأخیر اتوبوس کنار بیایی و وسیلهٔ گمشده پیدا کنی",
    "lessons": [
     {
      "id": "l2_u15_1",
-     "title": "Topping up the Oyster card",
-     "titleFa": "شارژ کردن کارت اویستر",
+     "title": "Topping up the travel card",
+     "titleFa": "شارژ کردن کارت سفر",
      "lead": "tom",
      "place": "bus",
      "grammar": "How much…? / I'd like to put… on / Does it…?",
@@ -26609,8 +26609,8 @@
      ],
      "words": [
       {
-       "word": "Oyster card",
-       "fa": "کارت اویستر (کارت حمل‌ونقل لندن)"
+       "word": "travel card",
+       "fa": "کارت سفر (کارت حمل‌ونقل لندن)"
       },
       {
        "word": "beeped",
@@ -28468,7 +28468,7 @@
        "fa": "عوض کردن (خط)"
       },
       {
-       "word": "Overground",
+       "word": "overground",
        "fa": "قطار شهری اورگراند"
       },
       {
@@ -47400,8 +47400,8 @@
    "title": "Neighbourhood",
    "titleFa": "محله",
    "place": "hallway",
-   "canDo": "Sort the bins, chat at the corner shop, take in a parcel for a neighbour and join the street WhatsApp group",
-   "canDoFa": "سطل‌ها را مرتب کنی، در سوپری گپ بزنی، بسته‌ای را برای همسایه تحویل بگیری و به گروه واتس‌اپ خیابان بپیوندی",
+   "canDo": "Sort the bins, chat at the corner shop, take in a parcel for a neighbour and join the street group chat",
+   "canDoFa": "سطل‌ها را مرتب کنی، در سوپری گپ بزنی، بسته‌ای را برای همسایه تحویل بگیری و به گروه چت خیابان بپیوندی",
    "lessons": [
     {
      "id": "l2_u56_1",
@@ -47794,8 +47794,8 @@
     },
     {
      "id": "l2_u56_4",
-     "title": "The street WhatsApp group",
-     "titleFa": "گروه واتس‌اپ خیابان",
+     "title": "The street group chat",
+     "titleFa": "گروه چت خیابان",
      "lead": "leslie",
      "place": "hallway",
      "grammar": "Has anyone seen…? / Just a reminder… / Welcome to the group! / Does anyone know…?",
@@ -49264,8 +49264,8 @@
      "titleFa": "رد و بدل کردن شماره",
      "lead": "callum",
      "place": "coffee",
-     "grammar": "Can I get your number? / Are you on WhatsApp? / I'll drop you a text",
-     "grammarFa": "شماره‌ات را می‌دهی؟ / واتس‌اپ داری؟ / پیام می‌دهم",
+     "grammar": "Can I get your number? / Can I message you? / I'll drop you a text",
+     "grammarFa": "شماره‌ات را می‌دهی؟ / گروه چت داری؟ / پیام می‌دهم",
      "sceneIds": [
       "l2_u60_2"
      ],
@@ -49279,8 +49279,8 @@
        "fa": "شماره‌ات را بگیرم"
       },
       {
-       "word": "Instagram person",
-       "fa": "اهل اینستاگرام"
+       "word": "social-media person",
+       "fa": "اهل شبکه‌های اجتماعی"
       },
       {
        "word": "read it out",
@@ -53888,7 +53888,7 @@
        "fa": "هدیه‌ها"
       },
       {
-       "word": "sellotape",
+       "word": "sticky tape",
        "fa": "چسب نواری"
       },
       {
@@ -61207,7 +61207,7 @@
        "fa": "فقط … بود که بودم"
       },
       {
-       "word": "Jobcentre",
+       "word": "job centre",
        "fa": "مرکز کاریابی"
       },
       {
@@ -63779,8 +63779,8 @@
          "fa": "سرفه"
         },
         {
-         "word": "Calpol",
-         "fa": "کالپول (شربت تب‌بر بچه)"
+         "word": "children's paracetamol",
+         "fa": "شربت استامینوفن بچه (شربت تب‌بر بچه)"
         },
         {
          "word": "medicine form",

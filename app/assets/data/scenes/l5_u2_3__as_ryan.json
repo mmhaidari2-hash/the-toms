@@ -96,14 +96,14 @@
    "branches": [
     {
      "keywords": [
-      "paddington",
+      "barnaby",
       "everyone",
       "telling",
       "spider",
       "nicola"
      ],
-     "suggestion": "Truce. But if Nicola calls me \"Spider Boy\" one more time, I'm telling everyone you cried at the end of Paddington 2.",
-     "suggestionFa": "آتش‌بس. ولی اگه نیکولا یه بار دیگه بهم بگه «پسر عنکبوتی»، به همه می‌گم آخر پدینگتون ۲ گریه کردی.",
+     "suggestion": "Truce. But if Nicola calls me \"Spider Boy\" one more time, I'm telling everyone you cried at the end of Barnaby 2.",
+     "suggestionFa": "آتش‌بس. ولی اگه نیکولا یه بار دیگه بهم بگه «پسر عنکبوتی»، به همه می‌گم آخر بارنابی ۲ گریه کردی.",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -114,9 +114,9 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "Everyone cries at the end of Paddington 2. It's the law.",
+   "text": "Everyone cries at the end of Barnaby 2. It's the law.",
    "translations": {
-    "fa": "همه آخر پدینگتون ۲ گریه می‌کنن. قانونه."
+    "fa": "همه آخر بارنابی ۲ گریه می‌کنن. قانونه."
    },
    "branches": [
     {
