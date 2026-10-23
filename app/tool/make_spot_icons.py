@@ -12,7 +12,10 @@ spots=json.load(open(os.path.join(A,'data','spots.json')))
 M=Image.open(os.path.join(A,'places','map.webp')).convert('RGB')
 for s in spots:
   pl,fx=SRC.get(s['id'],(None,0))
-  if pl:
+  own=os.path.join(H,'spot_src',s['id']+'.jpg')  # a painting made for the spot itself (e.g. the estate agent's shopfront)
+  if os.path.exists(own):
+    im=Image.open(own).convert('RGB'); w,h=im.size; c=im.crop((int(w*.2),int(h*.24),int(w*.86),int(h*.9)))
+  elif pl:
     im=Image.open(os.path.join(A,'places',pl+'.webp')).convert('RGB'); w,h=im.size; side=int(h*.8)
     x=int(min(max(fx*w-side/2,0),w-side)); y=int((h-side)*.35); c=im.crop((x,y,x+side,y+side))
   else:  # no painting of its own: a painted crop of the map around the spot

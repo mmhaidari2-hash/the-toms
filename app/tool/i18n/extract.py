@@ -7,8 +7,10 @@ LAT = re.compile('[A-Za-z]')
 SEP = re.compile(r'\s*(?:·|•|\n|\||—)\s*')
 RUN = re.compile(r'[\u0600-\u06FF\u200c][\u0600-\u06FF\u200c\s،؛؟!.:()«»0-9۰-۹\-/]*')
 out = {}
-def add(fa, en=None, kind='text'):
+UI = set()
+def add(fa, en=None, kind='text', ui=False):
     fa = fa.strip()
+    if ui and FA.search(fa): UI.add(fa)
     if not FA.search(fa): return
     if en is not None and (not isinstance(en, str) or not LAT.search(en) or FA.search(en)): en = None
     parts = SEP.split(fa)
@@ -57,10 +59,11 @@ for f in sorted(glob.glob('lib/**/*.dart', recursive=True)):
             s2 = s.replace("\\'", "'").replace('\\"', '"').replace('\\n', '\n')
             if FA.search(s2):
                 parts = INTERP.split(s2)
-                if len(parts) == 1: add(s2, prev)
+                if len(parts) == 1: add(s2, prev, ui=True)
                 else:
-                    for p in parts: add(p)
+                    for p in parts: add(p, ui=True)
             elif LAT.search(s2): prev = s2
+for k in out: out[k]['ui'] = k in UI
 json.dump(out, open('tool/i18n/sources.json', 'w'), ensure_ascii=False, indent=0, sort_keys=True)
 n = len(out); e = sum(1 for v in out.values() if v['en'])
 print(f'{n} Persian strings, {e} with English source, {sum(len(k) for k in out)} chars')

@@ -37,7 +37,7 @@ const mapRegions = [
   MapRegion('town', 'Town centre', 'مرکز شهر', 'B2 · Level 4', Offset(.30, .21), [[.03, .14, .95, .22]], level: 4),
   MapRegion('city', 'The city', 'شهر بزرگ', 'C1 · Level 5', Offset(.55, .06), [[.12, .0, .86, .14]], level: 5),
   MapRegion('nursery', "Vida's Nursery", 'مهدکودک ویدا', 'Career Pack · Premium', Offset(.11, .5), [[.02, .47, .15, .18]], pack: 'nursery'),
-  MapRegion('homes', 'Fennick & Rowe Homes', 'املاک فنیک اند رو', 'Career Pack · A2–B2', Offset(.76, .81), [[.70, .79, .12, .07]], pack: 'homes'),
+  MapRegion('homes', 'Fennick & Rowe Homes', 'املاک فنیک اند رو', 'Career Pack · A2–B2', Offset(.765, .585), [[.72, .55, .09, .08]], pack: 'homes'),
 ];
 
 /// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.
@@ -271,6 +271,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                       open: featureSpots.contains(s.id) || spotLessons(c.course, s).any((l) => ctrl.lessonOpen(c.course, l)),
                       visited: spotLessons(c.course, s).any(ctrl.lessonDone),
                       focus: spotFocus(ctrl, c.course, s),
+                      levelTag: s.pack == null ? null : spotLessons(c.course, s).map((l) => c.course.unitOf(l.id)?.cefr).whereType<String>().fold<String?>(null, (a, b) => a == null || b.compareTo(a) < 0 ? b : a),
                       onTap: () {
                         ScaffoldMessenger.of(context).hideCurrentSnackBar();
                         showSpotSheet(context, ref, s, c);

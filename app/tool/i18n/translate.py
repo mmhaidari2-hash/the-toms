@@ -5,9 +5,9 @@ Usage: python3 translate.py ar uk ps ...   (model dir: $NLLB, default /workspace
 import json, os, re, sys, time
 import ctranslate2, sentencepiece as spm
 HERE = os.path.dirname(os.path.abspath(__file__))
-NLLB = {'ar': 'arb_Arab', 'uk': 'ukr_Cyrl', 'ps': 'pbt_Arab', 'ur': 'urd_Arab', 'ckb': 'ckb_Arab', 'tr': 'tur_Latn', 'es': 'spa_Latn',
+NLLB = {'hi': 'hin_Deva', 'bn': 'ben_Beng', 'pa': 'pan_Guru', 'zh': 'zho_Hans', 'zh-Hant': 'zho_Hant', 'ar': 'arb_Arab', 'uk': 'ukr_Cyrl', 'ps': 'pbt_Arab', 'ur': 'urd_Arab', 'ckb': 'ckb_Arab', 'tr': 'tur_Latn', 'es': 'spa_Latn',
         'prs': 'prs_Arab', 'pl': 'pol_Latn', 'ro': 'ron_Latn', 'pt': 'por_Latn', 'so': 'som_Latn', 'kmr': 'kmr_Latn', 'sq': 'als_Latn', 'ti': 'tir_Ethi'}
-SCRIPT = {'Arab': '\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200c\u200d', 'Cyrl': '\u0400-\u04FF', 'Latn': 'A-Za-z\u00C0-\u024F', 'Ethi': '\u1200-\u139F'}
+SCRIPT = {'Arab': '\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200c\u200d', 'Cyrl': '\u0400-\u04FF', 'Latn': 'A-Za-z\u00C0-\u024F', 'Ethi': '\u1200-\u139F', 'Deva': '\u0900-\u097F\u200c\u200d', 'Beng': '\u0980-\u09FF', 'Guru': '\u0A00-\u0A7F', 'Hans': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF', 'Hant': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF'}
 MODEL = os.environ.get('NLLB', '/workspace/mt/onmt13')
 sp = spm.SentencePieceProcessor(model_file='/workspace/mt/nllb13/sentencepiece.bpe.model')
 tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=4)
@@ -19,7 +19,9 @@ def ok(out, srctext, code):
     if not letters: return not re.search(r'[^\W\d_]', srctext)
     native = re.findall('[' + SCRIPT[sc] + ']', out)
     foreign = [c for c in letters if not re.match('[' + SCRIPT[sc] + 'A-Za-z]', c)]
-    if foreign or re.search('[\u0900-\u0DFF\u0E00-\u0FFF\u3040-\u9FFF\uAC00-\uD7AF\u0590-\u05FF\u10A0-\u10FF\u0530-\u058F]', out): return False
+    alien = '[\u0900-\u0DFF\u0E00-\u0FFF\u3040-\u9FFF\uAC00-\uD7AF\u0590-\u05FF\u10A0-\u10FF\u0530-\u058F]'
+    if foreign or re.search(alien, re.sub('[' + SCRIPT[sc] + ']', '', out)): return False
+    if sc in ('Hans', 'Hant'): return len(native) >= 0.5 * len(letters)
     if len(native) < 0.6 * len(letters): return False
     if sc == 'Latn' and re.search('[\u0600-\u06FF\u0400-\u04FF]', out): return False
     # Latin in a non-Latin target only for names/English words that were in the source.
@@ -43,7 +45,7 @@ for code in sys.argv[1:]:
     path = os.path.join(HERE, 'mt', code + '.json'); os.makedirs(os.path.dirname(path), exist_ok=True)
     done = json.load(open(path)) if os.path.exists(path) else {}
     todo = [k for k in src if k not in done]
-    todo.sort(key=lambda k: len(src[k]['en'] or k))
+    todo.sort(key=lambda k: (not src[k].get('ui'), len(src[k]['en'] or k)))
     t0 = time.time(); tgt = NLLB[code]; bad = 0
     for i in range(0, len(todo), 96):
         chunk = todo[i:i + 96]

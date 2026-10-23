@@ -81,7 +81,9 @@ class SpotMarker extends StatelessWidget {
   /// Has lessons at the learner's current level — highlighted with a red glow so the level's places stand out.
   final bool focus;
   final VoidCallback onTap;
-  const SpotMarker({super.key, required this.s, required this.open, this.visited = false, this.focus = false, required this.onTap});
+  /// Career-pack buildings: the level they open at ("A2"), shown as a badge while the building is still locked.
+  final String? levelTag;
+  const SpotMarker({super.key, required this.s, required this.open, this.visited = false, this.focus = false, this.levelTag, required this.onTap});
   static const width = 100.0;
   @override
   Widget build(BuildContext context) => GestureDetector(
@@ -130,6 +132,16 @@ class SpotMarker extends StatelessWidget {
                     ))),
                   ),
                   if (!open) const Positioned(right: -6, bottom: -5, child: _Badge(icon: Icons.lock_rounded, color: Color(0xFF3A2E26))),
+                  if (!open && levelTag != null)
+                    Positioned(
+                      left: -10, top: -6,
+                      child: Container(
+                        key: ValueKey('spot-level-${s.id}'),
+                        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1.5),
+                        decoration: BoxDecoration(color: BL.gold, borderRadius: BorderRadius.circular(8), border: Border.all(color: Colors.white, width: 1)),
+                        child: Text('$levelTag+', style: const TextStyle(color: BL.ink, fontSize: 9, fontWeight: FontWeight.w800)),
+                      ),
+                    ),
                   if (open && visited) const Positioned(right: -6, bottom: -5, child: _Badge(icon: Icons.check_rounded, color: Color(0xFF1F7A4D))),
                 ],
               ),
@@ -157,7 +169,8 @@ class SpotMarker extends StatelessWidget {
       ),
     ),
   );
-  static String label(String t) => t.split(' — ').first.split(' & ').first;
+  // The estate agent keeps its name and says what it is; other "A & B" titles keep only the first part.
+  static String label(String t) => t.startsWith('Fennick & Rowe') ? 'Estate Agent\nFennick & Rowe' : t.split(' — ').first.split(' & ').first;
 }
 
 class _Badge extends StatelessWidget {
