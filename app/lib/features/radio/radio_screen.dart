@@ -35,7 +35,7 @@ class RadioScreen extends ConsumerWidget {
             const SizedBox(width: 10),
             Container(width: 8, height: 8, decoration: const BoxDecoration(color: onAirRed, shape: BoxShape.circle)),
             const SizedBox(width: 6),
-            const Text('ON AIR · LOCAL RADIO', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold)),
+            const Flexible(child: Text('ON AIR · LOCAL RADIO', maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold))),
           ]),
           const SizedBox(height: 10),
           Text(hl(RadioStation.station), style: BL.display(30, color: Colors.white)),

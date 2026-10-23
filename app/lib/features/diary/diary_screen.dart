@@ -41,7 +41,7 @@ class DiaryScreen extends ConsumerWidget {
                           const SizedBox(width: 10),
                           Text('Diary', style: BL.display(30)),
                           const Spacer(),
-                          Text(hl(tr(lang, 'diary')), textDirection: dirOf(lang), style: BL.fa(13)),
+                          Flexible(child: Text(hl(tr(lang, 'diary')), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: dirOf(lang), style: BL.fa(13))),
                         ],
                       ),
                     )),

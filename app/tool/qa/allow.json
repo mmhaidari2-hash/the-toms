@@ -1,0 +1,23 @@
+{
+ "words": [
+  "pants|(As Leslie) Big boy pants",
+  "pants|Big boy pants",
+  "pants|Ha! Pants. What about the washing basket?",
+  "pants|I can see pants, but no socks!",
+  "pants|Look! I've got big boy pants!"
+ ],
+ "brands": {
+  "Google": "privacy policy and microphone help must name the browser speech service (Google in Chrome)",
+  "iPhone": "device instructions (Add to Home Screen, Safari microphone settings)",
+  "BBC": "Life in the UK / TV licence fact: a licence is needed for live TV or BBC iPlayer",
+  "Oyster": "London bus fare fact: buses take contactless, phones or Oyster cards, not cash",
+  "Velcro": "genericised household noun in British English (children's shoes); kept deliberately",
+  "Tupperware": "genericised household noun in British English (food tubs); kept deliberately"
+ },
+ "spelling": [],
+ "files": {
+  "lib/features/park/park_data.dart": "UK→US word game: the American words are the quiz answers",
+  "lib/features/legal/legal_screen.dart": "privacy policy: \"cookies\" is the technical term"
+ },
+ "_why_pants": "British \"pants\" = underwear (potty training, laundry); these lines use the British sense on purpose."
+}

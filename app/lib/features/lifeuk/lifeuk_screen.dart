@@ -68,9 +68,13 @@ class LukScreen extends ConsumerWidget {
               SizedBox(width: 10),
               Icon(Icons.account_balance_rounded, size: 16, color: lukBlue),
               SizedBox(width: 4),
-              Text(
-                'STUDY CORNER · LIBRARY',
-                style: TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: lukBlue),
+              Flexible(
+                child: Text(
+                  'STUDY CORNER · LIBRARY',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: lukBlue),
+                ),
               ),
             ],
           ),

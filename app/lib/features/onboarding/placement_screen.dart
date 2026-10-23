@@ -357,7 +357,7 @@ class _PlacementState extends ConsumerState<PlacementScreen> {
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               Icon(switch (e.key) { 'listen' => Icons.headphones_rounded, 'read' => Icons.menu_book_rounded, 'vocab' => Icons.translate_rounded, _ => Icons.rule_rounded }, size: 16, color: BL.gold),
               const SizedBox(width: 6),
-              Text(hl('${e.value.$1} · ${e.value.$2}'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 12.5)),
+              Flexible(child: Text(hl('${e.value.$1} · ${e.value.$2}'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 12.5))),
             ]),
           ),
       ]),

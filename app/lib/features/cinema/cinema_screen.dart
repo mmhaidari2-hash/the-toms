@@ -33,7 +33,7 @@ class CinemaScreen extends ConsumerWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Row(children: [NavButtons(light: true), SizedBox(width: 10), Text('THE PICTURE HOUSE', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold))]),
+              const Row(children: [NavButtons(light: true), SizedBox(width: 10), Flexible(child: Text('THE PICTURE HOUSE', maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.gold)))]),
               const SizedBox(height: 10),
               Text('Cinema & dubbing', style: BL.display(28, color: Colors.white)),
               Text(hl('سینما و دوبله · صحنه‌های کوتاه بریتانیایی؛ تماشا کن، بعد خودت دوبله کن'), textDirection: helperDir, style: BL.fa(13, color: Colors.white70)),

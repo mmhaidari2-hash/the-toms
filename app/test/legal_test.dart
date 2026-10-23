@@ -93,4 +93,13 @@ void main() {
       await t.pump(const Duration(seconds: 2));
     });
   });
+
+  test('AI disclosure: voices are labelled AI-generated in the menu and in About (Azure TTS code of conduct)', () {
+    final menu = File('lib/features/map/map_home.dart').readAsStringSync();
+    expect(menu, contains("ValueKey('ai-voices-note')"));
+    expect(menu, contains('Voices are AI-generated (text-to-speech), not real people.'));
+    final legal = File('lib/features/legal/legal_screen.dart').readAsStringSync();
+    expect(legal, contains('All voices are AI-generated'));
+    expect(File('tool/render_voices.py').readAsStringSync(), isNot(contains('AZURE_SPEECH_KEY_1=')), reason: 'no key in the repo');
+  });
 }
