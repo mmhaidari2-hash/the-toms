@@ -70,9 +70,9 @@
     {
      "keywords": [
       "chairs",
-      "move",
+      "sure",
       "i'll",
-      "sure"
+      "move"
      ],
      "suggestion": "Sure. I'll move the chairs.",
      "suggestionFa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم.",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "there's",
-      "under",
       "chair",
+      "under",
       "rice"
      ],
      "suggestion": "There's rice under his chair!",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "eater",
       "messy",
+      "eater",
       "he's"
      ],
      "suggestion": "He's a messy eater.",
@@ -172,8 +172,8 @@
    "branches": [
     {
      "keywords": [
-      "sorry",
       "can't",
+      "sorry",
       "hear"
      ],
      "suggestion": "Sorry, what? I can't hear you!",
@@ -286,8 +286,8 @@
     },
     {
      "keywords": [
-      "i'll",
       "back",
+      "i'll",
       "plug"
      ],
      "suggestion": "I'll plug it back in.",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "sofa",
+      "i'll",
       "ok"
      ],
      "suggestion": "OK, I'll do under the sofa.",
@@ -335,8 +335,8 @@
     {
      "keywords": [
       "there's",
-      "sock",
-      "here"
+      "here",
+      "sock"
      ],
      "suggestion": "There's a sock under here!",
      "suggestionFa": "اینجا یه جوراب هست!",

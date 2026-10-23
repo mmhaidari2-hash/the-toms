@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "orange",
       "squash",
+      "orange",
+      "please",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "cupboard",
-      "squash",
       "little",
+      "squash",
       "strong",
       "water"
      ],
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "bottle",
       "drinks",
       "fridge",
-      "mummy",
-      "cross"
+      "bottle",
+      "cross",
+      "mummy"
      ],
      "suggestion": "Milk is in the fridge. Ryan drinks milk from the bottle! Mummy gets cross.",
      "suggestionFa": "شیر تو یخچاله. رایان از بطری شیر می‌خوره! مامان عصبانی میشه.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "which",
+      "green",
       "blue",
-      "want",
-      "milk"
+      "milk",
+      "want"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,9 +170,9 @@
    "branches": [
     {
      "keywords": [
-      "likes",
       "green",
       "daddy",
+      "likes",
       "half",
       "blue"
      ],
@@ -198,8 +198,8 @@
       "that's",
       "cheers",
       "grown",
-      "say",
-      "ups"
+      "ups",
+      "say"
      ],
      "suggestion": "Cheers! That's what grown-ups say. Cheers!",
      "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",
@@ -220,10 +220,10 @@
    "branches": [
     {
      "keywords": [
-      "spilled",
       "biscuit",
-      "mummy",
+      "spilled",
       "clink",
+      "mummy",
       "don't"
      ],
      "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",

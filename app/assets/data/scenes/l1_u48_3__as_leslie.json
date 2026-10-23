@@ -23,7 +23,7 @@
      "keywords": [
       "pyjamas",
       "nicola",
-      "teeth",
+      "story",
       "order",
       "right"
      ],
@@ -102,8 +102,8 @@
       "unicorns",
       "pyjamas",
       "stars",
-      "quick",
-      "which"
+      "which",
+      "quick"
      ],
      "suggestion": "A quick bath. Then which pyjamas? The unicorns or the stars?",
      "suggestionFa": "یه حموم سریع. بعد کدوم پیژامه؟ تک‌شاخی یا ستاره‌ای؟",
@@ -176,10 +176,10 @@
     {
      "keywords": [
       "minutes",
-      "teeth",
       "timer",
-      "help",
-      "then"
+      "teeth",
+      "then",
+      "help"
      ],
      "suggestion": "Good. Then teeth for two minutes. Use the timer. Can you help her, {you}?",
      "suggestionFa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟",
@@ -257,11 +257,11 @@
    "branches": [
     {
      "keywords": [
-      "finally",
-      "tonight",
       "reading",
-      "lovely",
-      "lights"
+      "tonight",
+      "finally",
+      "lights",
+      "lovely"
      ],
      "suggestion": "Lovely. Finally, story time and lights out. Who's reading tonight?",
      "suggestionFa": "عالی. در آخر، وقت قصه و خاموش کردن چراغ. امشب کی می‌خونه؟",

@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "council",
-      "charged"
+      "charged",
+      "council"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "incorrect",
-      "helping",
       "believe",
-      "that's"
+      "helping",
+      "maggie"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "diagnosis",
-      "leslie",
       "george",
-      "moved"
+      "leslie",
+      "after"
      ],
      "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
      "suggestionFa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی.",
@@ -133,8 +133,8 @@
      "keywords": [
       "informed",
       "proof",
-      "were",
-      "have"
+      "have",
+      "were"
      ],
      "suggestion": "We have proof that you were informed in April.",
      "suggestionFa": "مدرک داریم که آوریل بهتون اطلاع داده شده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "check",
-      "could"
+      "could",
+      "check"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -234,9 +234,9 @@
    "branches": [
     {
      "keywords": [
-      "reminder",
       "received",
-      "that's",
+      "reminder",
+      "cancel",
       "notice"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
@@ -250,7 +250,7 @@
       "refunded",
       "towards",
       "future",
-      "bills"
+      "would"
      ],
      "suggestion": "Would that be refunded or put towards future bills?",
      "suggestionFa": "پس داده میشه یا برای قبض‌های آینده حساب میشه؟",
@@ -301,8 +301,8 @@
      "keywords": [
       "george's",
       "support",
-      "maggie",
-      "carers"
+      "carers",
+      "maggie"
      ],
      "suggestion": "Maggie is George's main carer. Is there support for carers?",
      "suggestionFa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -355,7 +355,7 @@
       "appreciate",
       "writing",
       "could",
-      "put"
+      "i'd"
      ],
      "suggestion": "I'd appreciate it if you could put that in writing, too.",
      "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "anything",
       "entitled",
+      "anything",
       "helpful",
-      "really"
+      "didn't"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "escalate",
       "resolved",
+      "escalate",
       "isn't",
       "how"
      ],

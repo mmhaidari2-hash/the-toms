@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "called",
       "tahdig",
-      "that's"
+      "that's",
+      "called"
      ],
      "suggestion": "That's called tahdig.",
      "suggestionFa": "اسمش ته‌دیگه.",
@@ -284,7 +284,7 @@
       "drawing",
       "looks",
       "like",
-      "but"
+      "dog"
      ],
      "suggestion": "I'm drawing a cat, but it looks like a dog!",
      "suggestionFa": "دارم گربه می‌کشم، ولی شبیه سگ شده!",
@@ -326,8 +326,8 @@
     {
      "keywords": [
       "drawing",
-      "told",
-      "good"
+      "good",
+      "told"
      ],
      "suggestion": "I told you I'm not good at drawing!",
      "suggestionFa": "گفتم نقاشیم خوب نیست!",

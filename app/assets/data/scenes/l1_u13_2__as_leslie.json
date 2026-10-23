@@ -49,8 +49,8 @@
       "collar",
       "let's",
       "maybe",
-      "look",
-      "next"
+      "door",
+      "from"
      ],
      "suggestion": "Maybe it's from next door. Let's look at the collar. What does it say?",
      "suggestionFa": "شاید مال همسایه‌ست. بیا قلاده‌اش را ببینیم. چی نوشته؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "fourteen",
-      "that's",
       "number",
       "khan's",
-      "tiger"
+      "that's",
+      "lives"
      ],
      "suggestion": "Tiger! That's Mrs Khan's cat. She lives at number fourteen.",
      "suggestionFa": "تایگر! گربهٔ خانم خانه. پلاک چهارده زندگی می‌کنه.",
@@ -373,11 +373,11 @@
    "branches": [
     {
      "keywords": [
-      "amazing",
       "samosas",
+      "amazing",
       "makes",
-      "khan",
-      "must"
+      "must",
+      "khan"
      ],
      "suggestion": "Mrs Khan makes amazing samosas. We must go for that cup of tea!",
      "suggestionFa": "خانم خان سمبوسه‌های فوق‌العاده‌ای درست می‌کنه. حتماً باید برای اون فنجون چای بریم!",

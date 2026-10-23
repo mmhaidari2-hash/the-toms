@@ -23,9 +23,9 @@
      "keywords": [
       "sensible",
       "charge",
-      "take",
-      "he's",
-      "sent"
+      "sent",
+      "said",
+      "list"
      ],
      "suggestion": "Mum sent me with a list. She said, \"Take {you}, he's sensible.\" So, er… you're in charge.",
      "suggestionFa": "مامان با یه لیست فرستادم. گفت: «{you} را ببر، عاقله.» پس، اِ… مسئولش تویی.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "apples",
-      "crisps",
-      "onions",
       "cheese",
+      "onions",
+      "crisps",
       "harsh"
      ],
      "suggestion": "\"Milk, eggs, some apples, a few onions, a bit of cheese, and NO crisps, Ryan.\" Harsh.",
@@ -100,7 +100,7 @@
       "there's",
       "sundays",
       "twelve",
-      "types"
+      "right"
      ],
      "suggestion": "Twelve. Dad eats four on Sundays. Right, milk — what kind? There's like ten different types.",
      "suggestionFa": "دوازده تا. بابا یکشنبه‌ها چهار تا می‌خوره. خب، شیر — چه نوعی؟ انگار ده نوع مختلف هست.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "skimmed",
-      "that's",
-      "george",
       "babies",
-      "green"
+      "george",
+      "that's",
+      "whole"
      ],
      "suggestion": "Green top. That's semi-skimmed. Blue is whole milk, red is skimmed. Mum says blue is \"for babies and George\".",
      "suggestionFa": "درِ سبز. اون نیم‌چربه. آبی شیر پرچربه، قرمز بدون چربی. مامان میگه آبی «برای بچه‌ها و جورجه».",
@@ -149,8 +149,8 @@
       "grandad",
       "skimmed",
       "apples",
-      "water",
-      "pints"
+      "pints",
+      "water"
      ],
      "suggestion": "Grandad says skimmed milk is \"white water\". Four pints — done. Now, apples. Are there any red ones?",
      "suggestionFa": "پدربزرگ میگه شیر بدون چربی «آب سفیده». چهار پاینت — تموم. حالا سیب. سیب قرمز هست؟",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "anyway",
-      "onions",
       "cheese",
+      "onions",
+      "nicola",
       "nearly"
      ],
      "suggestion": "Get six. Nicola only eats the skin anyway. Weird kid. Onions, cheese… OK, we're nearly done!",
@@ -199,8 +199,8 @@
       "nothing",
       "please",
       "crisps",
-      "share",
-      "small"
+      "small",
+      "share"
      ],
      "suggestion": "Nothing! It's… it's a very small bag of crisps. Don't tell Mum. Please. I'll share!",
      "suggestionFa": "هیچی! این… یه بستهٔ خیلی کوچیک چیپسه. به مامان نگو. خواهش می‌کنم. شریکی!",

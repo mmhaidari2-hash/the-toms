@@ -32,8 +32,8 @@
     {
      "keywords": [
       "nobody",
-      "rules",
       "there",
+      "rules",
       "told"
      ],
      "suggestion": "Are there rules? Nobody told me!",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "stand",
       "right",
+      "stand",
       "left"
      ],
      "suggestion": "Stand on the right, walk on the left.",
@@ -124,9 +124,9 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "people",
       "polite",
+      "people",
+      "that's",
       "first"
      ],
      "suggestion": "Let people off first. That's polite.",
@@ -186,8 +186,8 @@
      "keywords": [
       "carriage",
       "what's",
-      "move",
-      "down"
+      "down",
+      "move"
      ],
      "suggestion": "Move down. What's a carriage?",
      "suggestionFa": "برو جلو. «کریج» چیه؟",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "always",
-      "doors",
       "sorry",
+      "doors",
       "stand"
      ],
      "suggestion": "I always stand by the doors. Sorry!",
@@ -294,9 +294,9 @@
     },
     {
      "keywords": [
-      "read",
-      "i'll",
       "book",
+      "i'll",
+      "read",
       "ok"
      ],
      "suggestion": "OK. I'll read my book.",

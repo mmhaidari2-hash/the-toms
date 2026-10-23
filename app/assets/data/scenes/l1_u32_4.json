@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "twenty",
       "people",
+      "twenty",
       "lot"
      ],
      "suggestion": "Twenty people is a lot!",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "eats",
       "ryan",
+      "eats",
       "five"
      ],
      "suggestion": "Ryan eats five!",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "don't",
-      "tom",
-      "eat"
+      "eat",
+      "tom"
      ],
      "suggestion": "I don't eat pork, Tom.",
      "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "that's",
-      "meat",
-      "much"
+      "much",
+      "meat"
      ],
      "suggestion": "Yes, that's too much meat!",
      "suggestionFa": "آره، گوشت زیادیه!",
@@ -297,8 +297,8 @@
    "branches": [
     {
      "keywords": [
-      "corn",
-      "good"
+      "good",
+      "corn"
      ],
      "suggestion": "Corn is good.",
      "suggestionFa": "ذرت خوبه.",

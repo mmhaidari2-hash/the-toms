@@ -33,9 +33,9 @@
     {
      "keywords": [
       "house",
+      "one",
       "our",
-      "red",
-      "one"
+      "red"
      ],
      "suggestion": "Is that our house? The red one?",
      "suggestionFa": "اون خونهٔ ماست؟ قرمزه؟",
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "street",
       "corner",
+      "street",
       "end"
      ],
      "suggestion": "The corner shop. It's at the end of the street.",
@@ -291,8 +291,8 @@
     {
      "keywords": [
       "between",
-      "houses",
       "what's",
+      "houses",
       "beep"
      ],
      "suggestion": "Beep beep! What's this, between the houses?",
@@ -345,8 +345,8 @@
     {
      "keywords": [
       "nursery",
-      "ride",
-      "fast"
+      "fast",
+      "ride"
      ],
      "suggestion": "You're very fast! Do you ride it to nursery?",
      "suggestionFa": "خیلی سریعی! باهاش میری مهدکودک؟",
@@ -356,10 +356,10 @@
     },
     {
      "keywords": [
-      "careful",
       "william",
-      "road",
-      "near"
+      "careful",
+      "near",
+      "road"
      ],
      "suggestion": "Be careful near the road, William!",
      "suggestionFa": "نزدیک خیابون مواظب باش ویلیام!",
@@ -399,8 +399,8 @@
      "keywords": [
       "listen",
       "stop",
-      "look",
-      "good"
+      "good",
+      "look"
      ],
      "suggestion": "Good boy. Stop, look, listen.",
      "suggestionFa": "پسر خوب. وایسا، نگاه کن، گوش کن.",
@@ -410,8 +410,8 @@
     },
     {
      "keywords": [
-      "show",
-      "kerb"
+      "kerb",
+      "show"
      ],
      "suggestion": "What is the kerb? Show me.",
      "suggestionFa": "جدول چیه؟ نشونم بده.",

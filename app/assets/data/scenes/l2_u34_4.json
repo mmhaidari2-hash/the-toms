@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "bad"
      ],
      "suggestion": "Don't worry, Ryan. It's not bad!",
@@ -55,8 +55,8 @@
    "branches": [
     {
      "keywords": [
-      "mostly",
       "wasn't",
+      "mostly",
       "ryan",
       "good"
      ],
@@ -110,8 +110,8 @@
     {
      "keywords": [
       "great",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done, Ryan! A 7 is great.",
      "suggestionFa": "آفرین رایان! ۷ عالیه.",
@@ -159,7 +159,7 @@
      "keywords": [
       "homework",
       "pieces",
-      "were",
+      "late",
       "five"
      ],
      "suggestion": "Five pieces of homework were late.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "that's",
-      "eight",
       "seven",
+      "eight",
       "plan"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
@@ -228,8 +228,8 @@
      "keywords": [
       "homework",
       "only",
-      "ryan",
-      "time"
+      "time",
+      "ryan"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "help",
+      "ryan",
       "can"
      ],
      "suggestion": "Yes, I can help you, Ryan.",
@@ -315,10 +315,10 @@
     },
     {
      "keywords": [
-      "strange",
       "numbers",
-      "like",
-      "just"
+      "strange",
+      "just",
+      "like"
      ],
      "suggestion": "Strange? I just like numbers!",
      "suggestionFa": "عجیب؟ فقط عدد دوست دارم!",
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "algebra",
-      "puzzle",
       "you'll",
+      "puzzle",
       "like"
      ],
      "suggestion": "Algebra is like a puzzle. You'll like it.",
@@ -399,8 +399,8 @@
     {
      "keywords": [
       "leslie",
-      "find",
       "will",
+      "find",
       "out"
      ],
      "suggestion": "Tom! Leslie will find out!",

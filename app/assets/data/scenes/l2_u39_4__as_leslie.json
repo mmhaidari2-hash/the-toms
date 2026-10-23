@@ -47,8 +47,8 @@
     {
      "keywords": [
       "adventure",
-      "already",
       "there's",
+      "already",
       "thanks",
       "mopped"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "machine",
       "minutes",
       "clothes",
-      "machine",
       "powder",
-      "start"
+      "forty"
      ],
      "suggestion": "Easy. Put your clothes in a machine, add powder, pay, press start. A wash takes about forty minutes.",
      "suggestionFa": "آسونه. لباس‌ها را تو یه ماشین بذار، پودر بریز، پول بده، شروع را بزن. یه شست‌وشو حدود چهل دقیقه طول می‌کشه.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "machines",
-      "machine",
       "there's",
-      "tenner",
-      "little"
+      "machine",
+      "little",
+      "change"
      ],
      "suggestion": "There's a little machine for powder. One pound. Oh — the machines take coins only. Have you got change? I've only got a tenner.",
      "suggestionFa": "یه دستگاه کوچیک برای پودر هست. یه پوند. اوه — ماشین‌ها فقط سکه قبول می‌کنن. پول خرد داری؟ من فقط یه ده‌پوندی دارم.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "delicates",
-      "setting",
       "perfect",
       "there's",
+      "setting",
       "thirty"
      ],
      "suggestion": "There's one, but it's always broken. Your coins are perfect. Which setting? Forty for most things. Thirty for the delicates.",
@@ -150,7 +150,7 @@
       "started",
       "learned",
       "things",
-      "lesson"
+      "blouse"
      ],
      "suggestion": "Ha! You learned that lesson. Delicates are soft things — silk, wool, my best blouse. Right, it's started. Now we wait.",
      "suggestionFa": "ها! اون درس را یاد گرفتی. «دلیکیتس» چیزای نرمن — ابریشم، پشم، بهترین بلوز من. خب، شروع شد. حالا صبر می‌کنیم.",
@@ -175,7 +175,7 @@
       "thursday",
       "hackney",
       "that's",
-      "knows"
+      "hello"
      ],
      "suggestion": "Read, chat, go to the café. That's Mr Okoye — he's here every Thursday. Hello! He knows everything about Hackney.",
      "suggestionFa": "می‌خونن، گپ می‌زنن، میرن کافه. اون آقای اوکویه‌ست — هر پنج‌شنبه اینجاست. سلام! همه‌چی را دربارهٔ هکنی می‌دونه.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
+      "machine",
       "minutes",
       "clothes",
-      "machine",
-      "pounds",
-      "that's"
+      "friend",
+      "spirit"
      ],
      "suggestion": "That's the spirit. Then the dryer: two pounds for twenty minutes. Clean clothes and a new friend. Not bad for a broken machine!",
      "suggestionFa": "همینه. بعد خشک‌کن: دو پوند برای بیست دقیقه. لباس تمیز و یه دوست جدید. برای یه ماشین خراب بد نیست!",

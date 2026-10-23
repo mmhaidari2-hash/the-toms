@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "split",
       "shall",
-      "four",
-      "ways"
+      "split",
+      "ways",
+      "four"
      ],
      "suggestion": "Shall we split it four ways?",
      "suggestionFa": "چهار قسمت مساوی کنیم؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "i'll",
-      "pay",
-      "had"
+      "had",
+      "pay"
      ],
      "suggestion": "I'll pay for what I had.",
      "suggestionFa": "من پول چیزی که خوردم را میدم.",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "separately",
-      "pay",
       "can",
+      "pay",
       "we"
      ],
      "suggestion": "Can we pay separately?",
@@ -155,8 +155,8 @@
     },
     {
      "keywords": [
-      "don't",
       "leave",
+      "don't",
       "need",
       "tip"
      ],
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "fifteen",
-      "twenty",
       "little",
+      "twenty",
       "pay"
      ],
      "suggestion": "Fifteen is too little. Let me pay twenty.",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "phone",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by phone?",
@@ -359,8 +359,8 @@
      "keywords": [
       "coins",
       "many",
-      "got",
-      "has"
+      "has",
+      "how"
      ],
      "suggestion": "Ha! How many coins has he got?",
      "suggestionFa": "ها! چند تا سکه داره؟",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "fifty",
-      "five",
+      "sure",
       "each",
-      "sure"
+      "five"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "fifteen",
+      "ten",
       "him",
-      "ask",
-      "ten"
+      "ask"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
      "suggestionFa": "ده پوند؟ ازش پونزده بخواه!",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "pavement",
-      "problem",
-      "bubbles"
+      "bubbles",
+      "problem"
      ],
      "suggestion": "Bubbles on the pavement? Is that a problem?",
      "suggestionFa": "کف رو پیاده‌رو؟ مشکلیه؟",
@@ -191,9 +191,9 @@
    "branches": [
     {
      "keywords": [
-      "bottom",
-      "that's",
       "clever",
+      "that's",
+      "bottom",
       "top"
      ],
      "suggestion": "Top to bottom. That's clever.",
@@ -204,10 +204,10 @@
     },
     {
      "keywords": [
-      "reach",
       "can't",
-      "roof",
-      "have"
+      "reach",
+      "have",
+      "roof"
      ],
      "suggestion": "I can't reach the roof. Have you got a step?",
      "suggestionFa": "دستم به سقف نمی‌رسه. چارپایه داری؟",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "where",
+      "can't",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -332,8 +332,8 @@
     {
      "keywords": [
       "strong",
-      "hose",
-      "ryan"
+      "ryan",
+      "hose"
      ],
      "suggestion": "The hose is very strong! Sorry, Ryan!",
      "suggestionFa": "شلنگ خیلی قویه! ببخشید رایان!",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "sorry",
-      "peace"
+      "peace",
+      "sorry"
      ],
      "suggestion": "No, no! Peace! I'm sorry!",
      "suggestionFa": "نه نه! صلح! ببخشید!",
@@ -476,7 +476,7 @@
       "worked",
       "team",
       "tom",
-      "as"
+      "we"
      ],
      "suggestion": "Yes, Tom. We worked as a team!",
      "suggestionFa": "آره تام. تیمی کار کردیم!",

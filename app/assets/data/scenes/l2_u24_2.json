@@ -21,7 +21,7 @@
      "keywords": [
       "looks",
       "warm",
-      "try",
+      "can",
       "one"
      ],
      "suggestion": "This one looks warm. Can I try it on?",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "coats",
-      "they",
       "sell",
-      "here"
+      "here",
+      "they"
      ],
      "suggestion": "Do they sell coats here? It's so big!",
      "suggestionFa": "اینجا کت می‌فروشن؟ خیلی بزرگه!",
@@ -76,7 +76,7 @@
       "jumper",
       "items",
       "take",
-      "then"
+      "i'll"
      ],
      "suggestion": "Six items? Then I'll take a jumper too.",
      "suggestionFa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "number",
       "what's",
+      "number",
       "tag"
      ],
      "suggestion": "What's the number tag for?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "sleeves",
-      "small",
-      "short"
+      "short",
+      "small"
      ],
      "suggestion": "It's too small. The sleeves are short.",
      "suggestionFa": "خیلی کوچیکه. آستیناش کوتاهه.",
@@ -304,9 +304,9 @@
    "branches": [
     {
      "keywords": [
-      "take",
-      "i'll",
       "hood",
+      "i'll",
+      "take",
       "has"
      ],
      "suggestion": "Yes, it has a hood. I'll take it.",
@@ -318,8 +318,8 @@
     {
      "keywords": [
       "sideways",
-      "real",
-      "rain"
+      "rain",
+      "real"
      ],
      "suggestion": "Sideways rain? Is that real?",
      "suggestionFa": "بارون کج؟ واقعیه؟",

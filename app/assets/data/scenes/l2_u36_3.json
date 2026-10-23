@@ -35,7 +35,7 @@
       "ticket",
       "tom's",
       "needs",
-      "got"
+      "new"
      ],
      "suggestion": "Tom's car got a ticket. He needs a new permit.",
      "suggestionFa": "ماشین تام جریمه شد. مجوز جدید لازم داره.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "forgot",
-      "last",
       "week",
-      "out"
+      "last",
+      "ran"
      ],
      "suggestion": "Yes. It ran out last week. He forgot!",
      "suggestionFa": "آره. هفتهٔ پیش تموم شد. یادش رفت!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "resident's",
-      "permit",
-      "what's"
+      "what's",
+      "permit"
      ],
      "suggestion": "What's a resident's permit?",
      "suggestionFa": "مجوز ساکنین چیه؟",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "process",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long does it take to process?",
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "ticket",
-      "pay",
       "can",
+      "pay",
       "we"
      ],
      "suggestion": "Can we pay the ticket too?",
@@ -311,10 +311,10 @@
     },
     {
      "keywords": [
-      "visitors",
       "leslie's",
-      "sister",
-      "coming"
+      "visitors",
+      "coming",
+      "sister"
      ],
      "suggestion": "And visitors? Leslie's sister is coming.",
      "suggestionFa": "مهمون‌ها چی؟ خواهر لزلی داره میاد.",
@@ -352,8 +352,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "price",
+      "let's",
       "half",
       "pay"
      ],

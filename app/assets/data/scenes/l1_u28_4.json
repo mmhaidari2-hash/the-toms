@@ -21,8 +21,8 @@
      "keywords": [
       "leslie",
       "don't",
-      "talk",
-      "fast"
+      "fast",
+      "talk"
      ],
      "suggestion": "Ha! You don't talk too fast, Leslie!",
      "suggestionFa": "ها! تو تند حرف نمی‌زنی لزلی!",
@@ -115,8 +115,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "leaking",
+      "kitchen",
       "tap"
      ],
      "suggestion": "The kitchen tap is leaking.",
@@ -129,8 +129,8 @@
      "keywords": [
       "everywhere",
       "there's",
-      "under",
-      "water"
+      "water",
+      "under"
      ],
      "suggestion": "There's water everywhere under the sink.",
      "suggestionFa": "زیر سینک همه جا آبه.",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "double",
-      "three",
       "seven",
+      "three",
       "nine"
      ],
      "suggestion": "Oh seven seven double oh, nine double oh, one two three.",

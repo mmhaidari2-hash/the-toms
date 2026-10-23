@@ -20,8 +20,8 @@
     {
      "keywords": [
       "market",
-      "stop",
       "need",
+      "stop",
       "oh"
      ],
      "suggestion": "Oh no. I need the market stop!",
@@ -86,8 +86,8 @@
      "keywords": [
       "street",
       "number",
-      "home",
-      "mare"
+      "mare",
+      "home"
      ],
      "suggestion": "Home. Number ten, Mare Street.",
      "suggestionFa": "خونه. پلاک ده، مِر استریت.",
@@ -131,8 +131,8 @@
      "keywords": [
       "minutes",
       "which",
-      "walk",
-      "five"
+      "five",
+      "walk"
      ],
      "suggestion": "Five minutes is OK. Which way do I walk?",
      "suggestionFa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "fault",
-      "whose"
+      "whose",
+      "fault"
      ],
      "suggestion": "Not your fault? Whose fault is it?",
      "suggestionFa": "تقصیر تو نیست؟ تقصیر کیه؟",
@@ -261,8 +261,8 @@
      "keywords": [
       "street",
       "weeks",
-      "poor",
-      "mare"
+      "mare",
+      "poor"
      ],
      "suggestion": "Six weeks! Poor Mare Street.",
      "suggestionFa": "شش هفته! بیچاره مِر استریت.",

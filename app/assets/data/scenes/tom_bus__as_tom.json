@@ -22,10 +22,10 @@
     {
      "keywords": [
       "alright",
-      "reader",
       "yellow",
       "headed",
-      "where"
+      "reader",
+      "thing"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate — the yellow thing. Where you headed?",
      "suggestionFa": "سلام؟ کارتت را بزن رو دستگاه رفیق — اون زرده. کجا میری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "piccadilly",
       "roadworks",
+      "there's",
       "minutes",
-      "phone's",
       "running"
      ],
      "suggestion": "Phone's fine. Beep — you're in. It goes to Piccadilly, but there's roadworks on Essex Road, so we're running about ten minutes behind.",
@@ -98,8 +98,8 @@
      "keywords": [
       "everything's",
       "building",
-      "that's",
       "cinema",
+      "that's",
       "course"
      ],
      "suggestion": "Course it is. See that building? That's the old cinema — it's flats now. Everything's flats now.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "wasn't",
-      "leslie",
       "gutted",
-      "there",
-      "first"
+      "leslie",
+      "first",
+      "don't"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
      "suggestionFa": "داغون شدم. اولین قرارم اونجا بود. به لزلی نگی با اون نبود!",
@@ -148,9 +148,9 @@
      "keywords": [
       "someone's",
       "ringing",
-      "called",
+      "sharon",
       "asleep",
-      "sharon"
+      "called"
      ],
      "suggestion": "A girl called Sharon. She chose the film, then fell asleep. Hold on — someone's ringing the bell.",
      "suggestionFa": "یه دختر به اسم شارون. فیلم را اون انتخاب کرد، بعد خوابش برد. صبر کن — یکی داره زنگ می‌زنه.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "piccadilly",
-      "request",
+      "there's",
       "someone",
-      "waiting",
-      "there's"
+      "request",
+      "waiting"
      ],
      "suggestion": "Only if someone rings or there's someone waiting. Request stops, see. Do you know the way from Piccadilly?",
      "suggestionFa": "فقط اگه کسی زنگ بزنه یا کسی منتظر باشه. ایستگاه‌های درخواستی، می‌بینی. راه از پیکادیلی را بلدی؟",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "popcorn",
-      "follow",
-      "minute",
       "crowds",
+      "minute",
+      "follow",
       "smell"
      ],
      "suggestion": "Easy — it's a five-minute walk. Just follow the crowds and the smell of popcorn.",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "piccadilly",
+      "driver",
       "that's",
       "cheers",
-      "driver",
-      "ding"
+      "mind"
      ],
      "suggestion": "Ding! That's us — Piccadilly. Off you pop, and say cheers to the driver, eh? Mind the gap!",
      "suggestionFa": "دینگ! رسیدیم — پیکادیلی. برو پایین، و به راننده بگو مرسی، ها؟ مراقب فاصله باش!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
-      "leslie's"
+      "leslie's",
+      "birthday"
      ],
      "suggestion": "Yes, it's Leslie's birthday!",
      "suggestionFa": "آره، تولد لزلیه!",
@@ -31,9 +31,9 @@
     {
      "keywords": [
       "celebrating",
-      "we're",
       "tom's",
-      "job"
+      "we're",
+      "new"
      ],
      "suggestion": "We're celebrating Tom's new job.",
      "suggestionFa": "داریم کار جدید تام را جشن می‌گیریم.",
@@ -64,8 +64,8 @@
     {
      "keywords": [
       "recommend",
-      "someone",
       "doesn't",
+      "someone",
       "would"
      ],
      "suggestion": "What would you recommend for someone who doesn't eat pork?",
@@ -79,7 +79,7 @@
       "suggest",
       "leslie",
       "loves",
-      "bass"
+      "fish"
      ],
      "suggestion": "I'd suggest the sea bass for Leslie — she loves fish.",
      "suggestionFa": "من باس دریایی را برای لزلی پیشنهاد می‌کنم — عاشق ماهیه.",
@@ -123,8 +123,8 @@
      "keywords": [
       "perfect",
       "sounds",
-      "lamb",
-      "have"
+      "have",
+      "lamb"
      ],
      "suggestion": "That sounds perfect. I'll have the lamb.",
      "suggestionFa": "عالی به نظر میاد. بره می‌خورم.",
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
-      "breads",
       "garlic",
-      "let's",
-      "table"
+      "breads",
+      "table",
+      "let's"
      ],
      "suggestion": "Let's have two garlic breads for the table.",
      "suggestionFa": "دوتا نون سیر برای میز بیارید.",

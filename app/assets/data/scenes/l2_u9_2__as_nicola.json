@@ -24,7 +24,7 @@
       "remember",
       "seaside",
       "sunday",
-      "ever",
+      "last",
       "best"
      ],
      "suggestion": "Do you remember the seaside last Sunday? It was the best day ever!",
@@ -73,9 +73,9 @@
      "keywords": [
       "knocked",
       "cried",
-      "wave",
       "came",
-      "down"
+      "huge",
+      "then"
      ],
      "suggestion": "Yes! A huge one. Then a wave came and knocked it down. I cried a bit.",
      "suggestionFa": "آره! یه دونهٔ خیلی بزرگ. بعد یه موج اومد و خرابش کرد. یه کم گریه کردم.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "seagull",
       "mummy's",
-      "beach",
+      "seagull",
       "stole",
-      "chips"
+      "chips",
+      "beach"
      ],
      "suggestion": "Fish and chips on the beach! A seagull stole Mummy's chip!",
      "suggestionFa": "ماهی و چیپس کنار ساحل! یه مرغ دریایی چیپس مامان را دزدید!",
@@ -124,8 +124,8 @@
       "weekend",
       "cream",
       "again",
-      "went",
-      "next"
+      "pier",
+      "then"
      ],
      "suggestion": "And then we had ice cream and went on the pier. Can we go again next weekend?",
      "suggestionFa": "بعدش بستنی خوردیم و رفتیم روی اسکله. میشه آخر هفتهٔ بعد دوباره بریم؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "mummy",
-      "going",
       "right",
+      "going",
+      "mummy",
       "them",
-      "ask"
+      "now"
      ],
      "suggestion": "Yes! I'm going to ask them right now. MUMMY!",
      "suggestionFa": "آره! همین الان ازشون می‌پرسم. مامااان!",

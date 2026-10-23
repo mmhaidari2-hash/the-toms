@@ -23,8 +23,8 @@
      "keywords": [
       "tonight",
       "charge",
-      "mummy",
       "table",
+      "mummy",
       "will"
      ],
      "suggestion": "Mummy says I'm in charge of the table tonight! Will you help me?",
@@ -48,9 +48,9 @@
      "keywords": [
       "cupboard",
       "spoons",
-      "plates",
       "knives",
-      "forks"
+      "plates",
+      "can't"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
-      "mummy",
-      "thank",
       "daddy",
-      "ryan"
+      "thank",
+      "mummy",
+      "many"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "special",
+      "william",
       "mummy",
-      "duck",
+      "bowl",
       "next"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "taught",
-      "ellis",
-      "knife",
       "right",
+      "knife",
+      "ellis",
       "fork"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "glasses",
-      "heavy",
       "water",
+      "heavy",
       "pour",
-      "jug"
+      "now"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -198,9 +198,9 @@
      "keywords": [
       "everybody",
       "table's",
-      "mummy",
       "ready",
-      "time"
+      "mummy",
+      "down"
      ],
      "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
      "suggestionFa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!",

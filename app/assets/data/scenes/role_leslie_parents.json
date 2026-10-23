@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "speak",
-      "sorry"
+      "sorry",
+      "speak"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -35,7 +35,7 @@
       "leaves",
       "house",
       "times",
-      "time"
+      "four"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "idea",
-      "sure",
+      "good",
       "make",
-      "good"
+      "sure",
+      "idea"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "bus",
-      "dad"
+      "dad",
+      "his"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "good"
+      "hear"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "grandad",
-      "gets",
       "from",
+      "gets",
       "his"
      ],
      "suggestion": "He gets that from his grandad.",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "football",
-      "reads",
       "count",
+      "reads",
       "news"
      ],
      "suggestion": "He only reads football news. Does that count?",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "library",
-      "card",
       "i'll",
-      "him"
+      "card",
+      "get"
      ],
      "suggestion": "I'll get him a library card.",
      "suggestionFa": "براش کارت کتابخونه می‌گیرم.",
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "friends",
       "getting",
+      "friends",
       "how's"
      ],
      "suggestion": "How's he getting on with his friends?",
@@ -385,9 +385,9 @@
     {
      "keywords": [
       "helpful",
-      "thanks",
       "really",
-      "much"
+      "thanks",
+      "been"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",
      "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",

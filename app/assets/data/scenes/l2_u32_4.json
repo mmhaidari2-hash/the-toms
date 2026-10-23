@@ -76,7 +76,7 @@
       "hours",
       "i've",
       "long",
-      "job"
+      "new"
      ],
      "suggestion": "I've got a new job. The hours are very long.",
      "suggestionFa": "یه کار جدید گرفتم. ساعت‌هاش خیلی طولانیه.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "money",
       "month",
+      "money",
       "tight"
      ],
      "suggestion": "Money is tight this month.",
@@ -238,8 +238,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "freeze",
+      "that's",
       "let's",
       "idea"
      ],

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "phone",
+      "just",
       "fine",
-      "need",
-      "just"
+      "need"
      ],
      "suggestion": "My phone is fine. I just need a UK SIM.",
      "suggestionFa": "گوشیم خوبه. فقط یه سیم‌کارت بریتانیایی لازم دارم.",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "month",
-      "only",
       "much",
-      "per"
+      "only",
+      "sim"
      ],
      "suggestion": "How much is SIM-only per month?",
      "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "family",
       "video",
-      "call",
-      "iran"
+      "iran",
+      "call"
      ],
      "suggestion": "A lot. I video call my family in Iran.",
      "suggestionFa": "زیاد. با خانواده‌ام تو ایران تماس تصویری می‌گیرم.",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "home",
       "much",
+      "home",
       "use",
-      "fi"
+      "wi"
      ],
      "suggestion": "Not much. I use Wi-Fi at home.",
      "suggestionFa": "زیاد نه. تو خونه از وای‌فای استفاده می‌کنم.",
@@ -260,8 +260,8 @@
      "keywords": [
       "include",
       "pounds",
-      "iran",
-      "five"
+      "five",
+      "iran"
      ],
      "suggestion": "Five pounds is OK. Does it include Iran?",
      "suggestionFa": "پنج پوند خوبه. ایران را هم شامل میشه؟",
@@ -355,8 +355,8 @@
      "keywords": [
       "rolling",
       "freedom",
-      "then",
-      "like"
+      "like",
+      "then"
      ],
      "suggestion": "Rolling, then. I like freedom!",
      "suggestionFa": "پس ماه‌به‌ماه. آزادی را دوست دارم!",

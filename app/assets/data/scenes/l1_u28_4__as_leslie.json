@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "answering",
       "voicemail",
-      "message",
+      "answering",
       "plumber",
-      "leave"
+      "message",
+      "isn't"
      ],
      "suggestion": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
      "suggestionFa": "لوله‌کش جواب نمی‌ده. پیغام‌گیره. تو پیغام می‌ذاری؟ من خیلی تند حرف می‌زنم!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "problem",
-      "number",
       "slowly",
+      "number",
       "after",
       "phone"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
-      "problem",
       "leaking",
+      "problem",
+      "kitchen",
       "good",
-      "tap"
+      "now"
      ],
      "suggestion": "Good! Now the problem. The kitchen tap is leaking.",
      "suggestionFa": "خوبه! حالا مشکل. شیر آشپزخونه چکه می‌کنه.",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "double",
       "number",
-      "three",
+      "double",
       "seven",
+      "three",
       "nine"
      ],
      "suggestion": "Now the number. Oh seven seven double oh, nine double oh, one two three.",
@@ -125,7 +125,7 @@
       "slowly",
       "today",
       "again",
-      "call"
+      "back"
      ],
      "suggestion": "Perfect! Say it again, slowly. And ask him to call back today.",
      "suggestionFa": "عالی! دوباره آروم بگو. و ازش بخواه امروز دوباره زنگ بزنه.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "message",
       "already",
+      "ringing",
       "plumber",
-      "phone's",
-      "ringing"
+      "message",
+      "phone's"
      ],
      "suggestion": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",
      "suggestionFa": "آه! گوشیم از الان داره زنگ می‌زنه. خودشه! لوله‌کش. دیدی؟ یه پیغام خوب جواب می‌ده!",

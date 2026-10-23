@@ -21,8 +21,8 @@
      "keywords": [
       "calling",
       "hello",
-      "bank",
-      "card"
+      "card",
+      "bank"
      ],
      "suggestion": "Hello. I'm calling about my new bank card.",
      "suggestionFa": "سلام. دربارهٔ کارت بانکی جدیدم زنگ می‌زنم.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "someone",
       "account",
-      "speak",
-      "could"
+      "someone",
+      "could",
+      "speak"
      ],
      "suggestion": "Hi. Could I speak to someone about my account?",
      "suggestionFa": "سلام. می‌تونم با کسی دربارهٔ حسابم صحبت کنم؟",
@@ -69,10 +69,13 @@
    "branches": [
     {
      "keywords": [
-      "it's"
+      "birth",
+      "march",
+      "date",
+      "th"
      ],
-     "suggestion": "It's {you}.",
-     "suggestionFa": "{you}.",
+     "suggestion": "Yes. My date of birth is the 12th of March 1995.",
+     "suggestionFa": "بله. تاریخ تولدم ۱۲ مارس ۱۹۹۵ است.",
      "trustDelta": 6,
      "next": "n3",
      "success": true
@@ -80,8 +83,8 @@
     {
      "keywords": [
       "surname",
-      "spell",
       "shall",
+      "spell",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -171,9 +174,9 @@
     {
      "keywords": [
       "thank",
-      "will",
       "have",
-      "pin"
+      "will",
+      "new"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
      "suggestionFa": "ممنون. پین جدید داره؟",
@@ -225,8 +228,8 @@
     {
      "keywords": [
       "everything",
-      "that's",
       "thanks",
+      "that's",
       "help"
      ],
      "suggestion": "No, that's everything. Thanks for your help.",
@@ -237,8 +240,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "could",
       "line"
      ],

@@ -77,7 +77,7 @@
       "nothing",
       "first",
       "buyer",
-      "time"
+      "sell"
      ],
      "suggestion": "Yes, I'm a first-time buyer with nothing to sell.",
      "suggestionFa": "بله، خریدار بار اولم و چیزی برای فروش ندارم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "middle",
-      "three",
       "could",
+      "three",
       "meet"
      ],
      "suggestion": "Could we meet in the middle at two hundred and three?",
@@ -187,10 +187,10 @@
    "branches": [
     {
      "keywords": [
+      "seller",
       "higher",
       "accept",
-      "seller",
-      "still"
+      "could"
      ],
      "suggestion": "So the seller could still accept a higher offer?",
      "suggestionFa": "یعنی فروشنده هنوز می‌تونه پیشنهاد بالاتر قبول کنه؟",

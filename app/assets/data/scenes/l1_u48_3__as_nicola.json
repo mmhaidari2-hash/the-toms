@@ -64,7 +64,7 @@
       "skip",
       "bath",
       "can",
-      "had"
+      "but"
      ],
      "suggestion": "But I had a bath yesterday! Can I skip the bath?",
      "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
@@ -214,11 +214,11 @@
    "branches": [
     {
      "keywords": [
-      "stops",
       "sings",
+      "stops",
       "when",
-      "pink",
-      "stop"
+      "song",
+      "pink"
      ],
      "suggestion": "The pink one! It sings a song. When the song stops, I stop!",
      "suggestionFa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!",
@@ -293,9 +293,9 @@
      "keywords": [
       "story",
       "real",
-      "iran",
-      "tell",
-      "book"
+      "book",
+      "from",
+      "iran"
      ],
      "suggestion": "{you}! {you}! Tell me a story from Iran! Not a book. A real story!",
      "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",

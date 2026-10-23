@@ -23,9 +23,9 @@
      "keywords": [
       "ducks",
       "have",
-      "look",
-      "pond",
-      "food"
+      "food",
+      "lots",
+      "pond"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "special",
-      "bread",
       "ducks",
-      "duck",
-      "food"
+      "bread",
+      "food",
+      "duck"
      ],
      "suggestion": "No! Not bread. Bread is bad for ducks. It's special duck food.",
      "suggestionFa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "seeds",
       "ducks",
-      "oats",
+      "seeds",
       "many",
-      "see"
+      "oats",
+      "can"
      ],
      "suggestion": "Oats and seeds. How many ducks can you see?",
      "suggestionFa": "جو دوسر و دونه. چند تا اردک می‌بینی؟",
@@ -99,8 +99,8 @@
       "grumpy",
       "swans",
       "close",
-      "don't",
-      "white"
+      "white",
+      "don't"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "little",
-      "eating",
       "babies",
+      "eating",
       "she's",
       "brown"
      ],
@@ -175,7 +175,7 @@
       "called",
       "ducks",
       "three",
-      "four"
+      "baby"
      ],
      "suggestion": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
      "suggestionFa": "یک، دو، سه، چهار، پنج! پنج جوجه اردک. به بچه اردک می‌گن جوجه اردک.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "cygnet",
       "taught",
+      "cygnet",
       "ellis",
       "gone",
       "food"
@@ -223,8 +223,8 @@
      "keywords": [
       "swings",
       "ducks",
-      "next",
       "week",
+      "next",
       "race"
      ],
      "suggestion": "Yes! Race you to the swings! Bye, ducks! See you next week!",

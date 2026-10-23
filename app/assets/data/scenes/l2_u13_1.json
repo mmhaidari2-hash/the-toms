@@ -87,8 +87,8 @@
      "keywords": [
       "register",
       "online",
-      "fine",
-      "like"
+      "like",
+      "fine"
      ],
      "suggestion": "I'd like to register, yes. Online is fine.",
      "suggestionFa": "بله، می‌خوام ثبت‌نام کنم. آنلاین خوبه.",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "hackney",
-      "street",
       "what's",
+      "street",
       "mare"
      ],
      "suggestion": "10 Mare Street, Hackney. What's the postcode?",
@@ -252,8 +252,8 @@
      "keywords": [
       "centre",
       "only",
-      "once",
-      "walk"
+      "walk",
+      "once"
      ],
      "suggestion": "Only once, at a walk-in centre.",
      "suggestionFa": "فقط یه بار، تو یه مرکز بدون وقت قبلی.",
@@ -287,8 +287,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "what's",
+      "number",
       "nhs"
      ],
      "suggestion": "What's an NHS number?",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "blank",
       "leave",
+      "blank",
       "i'll",
       "ok"
      ],
@@ -336,9 +336,9 @@
    "branches": [
     {
      "keywords": [
-      "smoke",
+      "don't",
       "drink",
-      "don't"
+      "smoke"
      ],
      "suggestion": "I don't smoke, and I don't drink.",
      "suggestionFa": "سیگار نمی‌کشم، الکل هم نمی‌خورم.",
@@ -351,7 +351,7 @@
       "stopped",
       "before",
       "smoked",
-      "last"
+      "year"
      ],
      "suggestion": "I smoked before, but I stopped last year.",
      "suggestionFa": "قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.",
@@ -399,7 +399,7 @@
       "doctor",
       "thank",
       "when",
-      "see"
+      "can"
      ],
      "suggestion": "Thank you. When can I see a doctor?",
      "suggestionFa": "ممنون. کی می‌تونم دکتر ببینم؟",

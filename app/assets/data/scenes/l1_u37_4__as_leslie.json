@@ -22,10 +22,10 @@
     {
      "keywords": [
       "stopped",
-      "front",
       "quick",
+      "front",
       "rain",
-      "look"
+      "door"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -103,10 +103,10 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "orange",
-      "green",
+      "yellow",
       "seven",
+      "green",
       "blue"
      ],
      "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, {you}?",
@@ -187,11 +187,11 @@
    "branches": [
     {
      "keywords": [
-      "we'll",
       "never",
+      "we'll",
       "moves",
       "shame",
-      "when"
+      "move"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
      "suggestionFa": "ها! هیچ‌وقت تهش را پیدا نمی‌کنیم. وقتی حرکت می‌کنی، حرکت می‌کنه. حیف!",
@@ -292,9 +292,9 @@
      "keywords": [
       "everyone",
       "wellies",
-      "typical",
       "british",
-      "that's"
+      "typical",
+      "inside"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",
      "suggestionFa": "«معمولیه!» این چیزیه که بریتانیایی‌ها میگن. همه بیاید تو! چکمه‌ها را دربیارید!",

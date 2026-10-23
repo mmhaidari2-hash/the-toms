@@ -24,8 +24,8 @@
       "wonderwall",
       "someone",
       "karaoke",
-      "room's",
-      "didn't"
+      "didn't",
+      "room's"
      ],
      "suggestion": "I didn't sleep a wink. Our room's above the bar next door. Music till two a.m. Karaoke! Someone sang \"Wonderwall\" four times.",
      "suggestionFa": "یه لحظه هم نخوابیدم. اتاقمون بالای بار بغلیه. موسیقی تا دو صبح. کارائوکه! یکی چهار بار «واندروال» خوند.",
@@ -50,7 +50,7 @@
       "earplugs",
       "humming",
       "britpop",
-      "nicely"
+      "leslie"
      ],
      "suggestion": "The kids? Like logs. Leslie wore earplugs. Me? I lay there humming Britpop. I need to say something to Sophie. Nicely.",
      "suggestionFa": "بچه‌ها؟ مثل کُنده. لزلی گوش‌گیر گذاشت. من — دراز کشیده بودم و آهنگ اوئیسیس زمزمه می‌کردم. باید یه چیزی به سوفی بگم. ولی مؤدبانه.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "there's",
       "problem",
       "morning",
-      "there's",
-      "bother",
-      "sophie"
+      "afraid",
+      "bother"
      ],
      "suggestion": "Good. \"I'm afraid there's a problem…\" Sophie! Morning. Sorry to bother you. I'm afraid our room is a bit… noisy.",
      "suggestionFa": "خوبه. «متأسفانه یه مشکلی…» سوفی! صبح بخیر. ببخشید مزاحم میشم. متأسفانه اتاقمون یه کم… پرسروصداست.",
@@ -208,7 +208,7 @@
       "smaller",
       "sophie",
       "would",
-      "thank"
+      "great"
      ],
      "suggestion": "Smaller is fine. Quiet is everything. That would be great, Sophie. Thank you.",
      "suggestionFa": "کوچیک‌تر اشکالی نداره. سکوت یعنی همه‌چی. عالی میشه سوفی. ممنون.",
@@ -279,10 +279,10 @@
     {
      "keywords": [
       "complain",
-      "that's",
-      "sophie",
       "dinner",
-      "polite"
+      "polite",
+      "that's",
+      "sophie"
      ],
      "suggestion": "Free dinner? Sophie, you're a star. See? That's how you complain. Polite, and you get dinner!",
      "suggestionFa": "شام مجانی؟ سوفی، تو یه ستاره‌ای. دیدی؟ اینجوری شکایت می‌کنن. مؤدبانه، و شام می‌گیری!",
@@ -304,9 +304,9 @@
     {
      "keywords": [
       "shouting",
-      "strange",
-      "doesn't",
       "country",
+      "doesn't",
+      "strange",
       "moving"
      ],
      "suggestion": "Shouting doesn't work here. Smile, say sorry, and they give you more. Strange country. Right — I'm moving our bags. Then a nap.",
@@ -331,8 +331,8 @@
       "wonderwall",
       "properly",
       "tonight",
-      "i'll",
-      "bags"
+      "bags",
+      "hear"
      ],
      "suggestion": "Help with the bags, yes. And if you hear Wonderwall tonight, wake me up. I'll go and sing it properly.",
      "suggestionFa": "کمک با کیف‌ها، آره. و اگه امشب واندروال شنیدی، بیدارم کن. میرم درست‌حسابی می‌خونمش.",

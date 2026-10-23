@@ -57,8 +57,8 @@
      "keywords": [
       "which",
       "song",
-      "one",
-      "bus"
+      "bus",
+      "one"
      ],
      "suggestion": "The bus song? Which one is that?",
      "suggestionFa": "آهنگ اتوبوس؟ کدوم یکی؟",
@@ -110,9 +110,9 @@
     {
      "keywords": [
       "drives",
+      "now",
       "his",
-      "dad",
-      "now"
+      "dad"
      ],
      "suggestion": "And his dad drives the 38 now!",
      "suggestionFa": "و باباش الان ۳۸ را می‌رونه!",
@@ -122,9 +122,9 @@
     },
     {
      "keywords": [
+      "words",
       "don't",
       "teach",
-      "words",
       "know"
      ],
      "suggestion": "I don't know the words. Can you teach me?",
@@ -302,8 +302,8 @@
     },
     {
      "keywords": [
-      "william",
       "library",
+      "william",
       "loud",
       "shh"
      ],
@@ -378,10 +378,10 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "which",
-      "like",
-      "book"
+      "would",
+      "book",
+      "like"
      ],
      "suggestion": "Which book would you like?",
      "suggestionFa": "کدوم کتاب را می‌خوای؟",
@@ -436,8 +436,8 @@
     },
     {
      "keywords": [
-      "william",
       "choices",
+      "william",
       "good"
      ],
      "suggestion": "Good choices, William!",

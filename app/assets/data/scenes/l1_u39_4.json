@@ -31,9 +31,9 @@
     {
      "keywords": [
       "there",
-      "sure",
       "many",
-      "bins"
+      "bins",
+      "sure"
      ],
      "suggestion": "Sure. How many bins are there?",
      "suggestionFa": "حتماً. چند تا سطل هست؟",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "dirty",
       "rinse",
+      "dirty",
       "i'll"
      ],
      "suggestion": "No, it's dirty. I'll rinse it.",
@@ -218,8 +218,8 @@
     },
     {
      "keywords": [
-      "brown",
       "where",
+      "brown",
       "go"
      ],
      "suggestion": "Where does the brown bin go?",
@@ -330,8 +330,8 @@
      "keywords": [
       "monday",
       "night",
-      "i'll",
-      "text"
+      "text",
+      "i'll"
      ],
      "suggestion": "I'll text you on Monday night.",
      "suggestionFa": "دوشنبه شب بهت پیام میدم.",

@@ -22,7 +22,7 @@
       "that's",
       "great",
       "news",
-      "wait"
+      "long"
      ],
      "suggestion": "That's great news! How long do we wait?",
      "suggestionFa": "خبر خیلی خوبیه! چقدر منتظر بمونیم؟",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "maggie",
-      "hours",
       "shall",
+      "hours",
       "tell"
      ],
      "suggestion": "Two hours! Shall I tell Maggie?",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "scales",
-      "i'll",
       "help",
+      "i'll",
       "him"
      ],
      "suggestion": "I'll help him with the scales.",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "without",
       "persian",
+      "without",
       "tasty",
       "herbs"
      ],
@@ -269,7 +269,7 @@
      "keywords": [
       "george",
       "still",
-      "fish",
+      "have",
       "less"
      ],
      "suggestion": "You can still have fish, George. Just less salt.",
@@ -305,8 +305,8 @@
     {
      "keywords": [
       "sunday",
-      "cook",
-      "deal"
+      "deal",
+      "cook"
      ],
      "suggestion": "Deal! I'll cook on Sunday.",
      "suggestionFa": "قبول! یکشنبه آشپزی می‌کنم.",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "pharmacy",
-      "now",
       "ask",
+      "now",
       "go"
      ],
      "suggestion": "I'll go and ask the pharmacy now.",

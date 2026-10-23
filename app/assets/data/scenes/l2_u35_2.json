@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "refund",
       "didn't",
+      "refund",
       "know",
-      "get"
+      "can"
      ],
      "suggestion": "I didn't know that. Can I get a refund?",
      "suggestionFa": "نمی‌دونستم. می‌تونم پولم را پس بگیرم؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "after",
-      "half",
       "peak",
-      "nine"
+      "nine",
+      "half"
      ],
      "suggestion": "So after half nine, I buy off-peak?",
      "suggestionFa": "پس بعد از نه و نیم، بلیت ساعات خلوت بخرم؟",
@@ -155,8 +155,8 @@
      "keywords": [
       "don't",
       "think",
-      "cost",
-      "much"
+      "much",
+      "cost"
      ],
      "suggestion": "I don't think so. How much does it cost?",
      "suggestionFa": "فکر نکنم. چقدر هزینه داره؟",
@@ -310,8 +310,8 @@
      "keywords": [
       "tonight",
       "thank",
-      "maya",
-      "i'll"
+      "i'll",
+      "maya"
      ],
      "suggestion": "I'll buy it tonight. Thank you, Maya!",
      "suggestionFa": "امشب می‌خرمش. ممنون مایا!",

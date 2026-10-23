@@ -86,9 +86,9 @@
     {
      "keywords": [
       "please",
+      "seat",
       "take",
-      "here",
-      "seat"
+      "here"
      ],
      "suggestion": "Hi. Here, please take my seat.",
      "suggestionFa": "سلام. بفرمایید، جای من بشینید.",
@@ -133,8 +133,8 @@
    "branches": [
     {
      "keywords": [
-      "buggy",
       "where",
+      "buggy",
       "go"
      ],
      "suggestion": "Where does the buggy go?",
@@ -196,8 +196,8 @@
      "keywords": [
       "everyone",
       "that's",
-      "good",
-      "fair"
+      "fair",
+      "rule"
      ],
      "suggestion": "That's a good rule. Fair for everyone.",
      "suggestionFa": "قانون خوبیه. برای همه منصفانه‌ست.",
@@ -237,7 +237,7 @@
      "keywords": [
       "there's",
       "hello",
-      "here",
+      "seat",
       "hand"
      ],
      "suggestion": "Hello, sir. Do you need a hand? There's a seat here.",
@@ -248,8 +248,8 @@
     },
     {
      "keywords": [
-      "hold",
       "help",
+      "hold",
       "arm",
       "can"
      ],
@@ -292,7 +292,7 @@
       "standing",
       "don't",
       "feels",
-      "mind"
+      "good"
      ],
      "suggestion": "It feels good. I don't mind standing.",
      "suggestionFa": "حس خوبی داره. وایسادن برام مهم نیست.",

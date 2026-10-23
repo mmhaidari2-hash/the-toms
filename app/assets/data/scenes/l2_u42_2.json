@@ -85,9 +85,9 @@
     },
     {
      "keywords": [
-      "worry",
-      "we'll",
       "don't",
+      "we'll",
+      "worry",
       "find"
      ],
      "suggestion": "Leo, don't worry. We'll find your mum.",
@@ -193,8 +193,8 @@
      "keywords": [
       "raincoat",
       "little",
-      "yours",
-      "about"
+      "about",
+      "yours"
      ],
      "suggestion": "A little boy, about four, red raincoat. Is he yours?",
      "suggestionFa": "یه پسر کوچولو، حدوداً چهار ساله، بارونی قرمز. مال شماست؟",
@@ -206,8 +206,8 @@
      "keywords": [
       "looking",
       "anyone",
-      "leo's",
-      "shout"
+      "shout",
+      "leo's"
      ],
      "suggestion": "I'll shout. LEO'S MUM! Is anyone looking for Leo?",
      "suggestionFa": "داد می‌زنم. مامان لئو! کسی دنبال لئوئه؟",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "mum",
-      "leo"
+      "leo",
+      "mum"
      ],
      "suggestion": "Is that your mum, Leo?",
      "suggestionFa": "اون مامانته لئو؟",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "here",
-      "over",
       "he's",
+      "over",
       "ok"
      ],
      "suggestion": "Over here! He's here and he's OK!",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "second",
-      "woman",
       "takes",
+      "woman",
       "poor"
      ],
      "suggestion": "One second is all it takes. Poor woman.",
@@ -366,8 +366,8 @@
      "keywords": [
       "happy",
       "were",
-      "fine",
-      "help"
+      "help",
+      "fine"
      ],
      "suggestion": "No, no, it's fine. We were happy to help.",
      "suggestionFa": "نه نه، اشکالی نداره. خوشحال شدیم کمک کردیم.",

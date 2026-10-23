@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "like",
-      "pay",
-      "i'd"
+      "i'd",
+      "pay"
      ],
      "suggestion": "I'd like to pay in this cheque, please.",
      "suggestionFa": "می‌خوام این چک را واریز کنم، لطفاً.",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "maggie's",
+      "birthday",
       "husband",
       "george"
      ],
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "helped",
-      "old",
-      "man"
+      "man",
+      "old"
      ],
      "suggestion": "It's from an old man I helped.",
      "suggestionFa": "از یه آقای پیری که کمکش کردم.",
@@ -249,9 +249,9 @@
     {
      "keywords": [
       "instead",
-      "pay",
       "can",
-      "app"
+      "app",
+      "pay"
      ],
      "suggestion": "Can I pay it in with the app instead?",
      "suggestionFa": "به‌جاش می‌تونم با اپ واریزش کنم؟",

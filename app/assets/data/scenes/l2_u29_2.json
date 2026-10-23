@@ -74,8 +74,8 @@
     {
      "keywords": [
       "school",
-      "photo",
       "about",
+      "photo",
       "tell"
      ],
      "suggestion": "Ryan, tell Sal about the school photo.",
@@ -212,10 +212,10 @@
     },
     {
      "keywords": [
+      "much",
       "take",
       "will",
-      "much",
-      "top"
+      "how"
      ],
      "suggestion": "How much will you take off the top?",
      "suggestionFa": "از بالا چقدر کوتاه می‌کنی؟",
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "think",
       "looks",
+      "think",
       "good"
      ],
      "suggestion": "It looks good. What do you think, Ryan?",
@@ -404,8 +404,8 @@
      "keywords": [
       "please",
       "ryan",
-      "pay",
-      "sal"
+      "sal",
+      "pay"
      ],
      "suggestion": "Ryan, pay Sal, please.",
      "suggestionFa": "رایان، پول سال را بده، لطفاً.",

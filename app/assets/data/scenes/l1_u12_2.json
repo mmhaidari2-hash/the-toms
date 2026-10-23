@@ -33,8 +33,8 @@
      "keywords": [
       "that's",
       "socks",
-      "lot",
-      "wow"
+      "wow",
+      "lot"
      ],
      "suggestion": "Wow, that's a lot of socks!",
      "suggestionFa": "وای، چه‌قدر جوراب!",
@@ -79,8 +79,8 @@
     {
      "keywords": [
       "can't",
-      "see",
-      "one"
+      "one",
+      "see"
      ],
      "suggestion": "No, I can't see one.",
      "suggestionFa": "نه، نمی‌بینم.",
@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "red",
-      "one"
+      "one",
+      "red"
      ],
      "suggestion": "Pink? Is this one pink or red?",
      "suggestionFa": "صورتی؟ این صورتیه یا قرمز؟",
@@ -208,8 +208,8 @@
    "branches": [
     {
      "keywords": [
-      "socks",
       "needs",
+      "socks",
       "new",
       "tom"
      ],
@@ -223,8 +223,8 @@
      "keywords": [
       "shall",
       "them",
-      "put",
-      "bin"
+      "bin",
+      "put"
      ],
      "suggestion": "Shall I put them in the bin?",
      "suggestionFa": "بندازمشون سطل آشغال؟",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
-      "under",
       "don't",
       "table",
+      "under",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… eight pairs!",
      "suggestionFa": "یک، دو، سه… هشت جفت!",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "we've",
       "think",
+      "we've",
       "got"
      ],
      "suggestion": "I think we've got eight pairs.",

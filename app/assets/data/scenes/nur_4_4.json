@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "dose",
-      "time"
+      "time",
+      "dose"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "last",
-      "some",
       "when",
-      "have"
+      "some",
+      "have",
+      "last"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "hours",
       "after",
+      "hours",
       "time",
       "last"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
+      "seem",
       "even",
-      "they",
-      "seem"
+      "they"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -233,8 +233,8 @@
      "keywords": [
       "worse",
       "we'll",
-      "call",
-      "gets"
+      "gets",
+      "call"
      ],
      "suggestion": "We'll call you if he gets worse.",
      "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "number",
-      "still",
       "phone",
+      "still",
       "same"
      ],
      "suggestion": "Is your phone number still the same?",

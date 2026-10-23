@@ -21,8 +21,8 @@
      "keywords": [
       "course",
       "maggie",
-      "cake",
-      "kind"
+      "kind",
+      "cake"
      ],
      "suggestion": "Of course, Maggie. What kind of cake?",
      "suggestionFa": "البته مگی. چه جور کیکی؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "perfect",
-      "sounds",
       "sponge",
+      "sounds",
       "lemon"
      ],
      "suggestion": "Lemon sponge sounds perfect.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "maggie",
       "gareth",
+      "maggie",
       "hello",
       "look"
      ],
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "perfect",
-      "lemon",
-      "icing"
+      "icing",
+      "lemon"
      ],
      "suggestion": "Lemon icing too. Perfect.",
      "suggestionFa": "روکش لیمویی هم. عالی.",
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "portions",
-      "twenty",
       "gareth",
+      "twenty",
       "then"
      ],
      "suggestion": "Twenty portions, then. Is that OK, Gareth?",
@@ -274,9 +274,9 @@
     {
      "keywords": [
       "birthday",
-      "happy",
       "write",
-      "could"
+      "could",
+      "happy"
      ],
      "suggestion": "Could you write \"Happy 80th Birthday, Doris\"?",
      "suggestionFa": "میشه بنویسید «تولد هشتاد سالگیت مبارک دوریس»؟",
@@ -384,7 +384,7 @@
       "saturday",
       "after",
       "eight",
-      "will"
+      "much"
      ],
      "suggestion": "After eight on Saturday. How much will it be?",
      "suggestionFa": "شنبه بعد از هشت. چقدر میشه؟",
@@ -437,8 +437,8 @@
      "keywords": [
       "carrying",
       "idea",
-      "cake",
-      "ryan"
+      "ryan",
+      "cake"
      ],
      "suggestion": "Ryan carrying a cake? Is that a good idea?",
      "suggestionFa": "رایان کیک ببره؟ فکر خوبیه؟",
@@ -450,8 +450,8 @@
      "keywords": [
       "deposit",
       "maggie",
-      "pay",
-      "can"
+      "can",
+      "pay"
      ],
      "suggestion": "Can I pay the deposit, Maggie?",
      "suggestionFa": "می‌تونم بیعانه را بدم مگی؟",
@@ -483,8 +483,8 @@
      "keywords": [
       "perfect",
       "maggie",
-      "going",
-      "thank"
+      "thank",
+      "going"
      ],
      "suggestion": "Thank you, Maggie. It's going to be perfect.",
      "suggestionFa": "ممنون مگی. عالی میشه.",
@@ -494,10 +494,10 @@
     },
     {
      "keywords": [
-      "half",
       "sure",
-      "pay",
-      "let"
+      "half",
+      "let",
+      "pay"
      ],
      "suggestion": "Are you sure? Let me pay for half.",
      "suggestionFa": "مطمئنید؟ بذارید نصفش را من بدم.",

@@ -123,8 +123,8 @@
     {
      "keywords": [
       "brilliant",
-      "deck",
       "love",
+      "deck",
       "top"
      ],
      "suggestion": "Brilliant, I love the top deck!",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
-      "down",
       "chat",
-      "here"
+      "stay",
+      "i'll"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -237,8 +237,8 @@
     },
     {
      "keywords": [
-      "who",
-      "was"
+      "was",
+      "who"
      ],
      "suggestion": "Who was it with?",
      "suggestionFa": "با کی بود؟",
@@ -328,8 +328,8 @@
      "keywords": [
       "leicester",
       "meeting",
-      "really",
-      "square"
+      "square",
+      "friend"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -341,8 +341,8 @@
      "keywords": [
       "phone",
       "i'll",
-      "map",
-      "use"
+      "use",
+      "map"
      ],
      "suggestion": "I'll use the map on my phone.",
      "suggestionFa": "از نقشهٔ گوشیم استفاده می‌کنم.",
@@ -373,10 +373,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "better",
+      "thanks",
       "than",
-      "map"
+      "tom"
      ],
      "suggestion": "Thanks, Tom. You're better than a map!",
      "suggestionFa": "ممنون تام. از نقشه بهتری!",

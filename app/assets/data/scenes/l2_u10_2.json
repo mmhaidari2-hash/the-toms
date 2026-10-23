@@ -56,8 +56,8 @@
     {
      "keywords": [
       "under",
-      "name",
       "five",
+      "name",
       "tom"
      ],
      "suggestion": "Yes, under the name Tom, for five.",
@@ -70,8 +70,8 @@
      "keywords": [
       "o'clock",
       "booked",
-      "table",
-      "seven"
+      "seven",
+      "table"
      ],
      "suggestion": "We booked a table for seven o'clock.",
      "suggestionFa": "برای ساعت هفت میز رزرو کردیم.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
       "there's",
+      "mistake",
       "think",
       "been"
      ],
@@ -118,8 +118,8 @@
     },
     {
      "keywords": [
-      "online",
       "booked",
+      "online",
       "sure",
       "we"
      ],

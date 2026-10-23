@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "think",
       "fever",
+      "think",
       "i've",
-      "hay"
+      "got"
      ],
      "suggestion": "Yes! I think I've got hay fever.",
      "suggestionFa": "آره! فکر کنم حساسیت فصلی دارم.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "drowsy",
-      "make",
       "they",
-      "work"
+      "work",
+      "make"
      ],
      "suggestion": "Do they make you drowsy? I work in the day.",
      "suggestionFa": "خواب‌آورند؟ من روزها کار می‌کنم.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "tablets",
-      "take",
       "many",
+      "take",
       "can"
      ],
      "suggestion": "How many tablets can I take a day?",
@@ -194,7 +194,7 @@
      "keywords": [
       "night",
       "take",
-      "day",
+      "can",
       "one"
      ],
      "suggestion": "One a day. Can I take it at night?",
@@ -207,8 +207,8 @@
      "keywords": [
       "perfect",
       "drowsy",
-      "they",
-      "much"
+      "much",
+      "they"
      ],
      "suggestion": "Non-drowsy. Perfect. How much are they?",
      "suggestionFa": "غیر خواب‌آور. عالیه. چنده؟",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "helpful",
-      "that's",
       "dawson",
+      "that's",
       "thank"
      ],
      "suggestion": "Thank you, Mr Dawson. That's very helpful.",

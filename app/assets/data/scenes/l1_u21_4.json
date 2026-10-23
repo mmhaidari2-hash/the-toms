@@ -124,8 +124,8 @@
     {
      "keywords": [
       "remembered",
-      "worry",
-      "don't"
+      "don't",
+      "worry"
      ],
      "suggestion": "Don't worry. You remembered!",
      "suggestionFa": "نگران نباش. یادت اومد!",
@@ -313,10 +313,10 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "don't",
-      "look",
-      "know"
+      "let's",
+      "know",
+      "look"
      ],
      "suggestion": "I don't know. Let's look.",
      "suggestionFa": "نمی‌دونم. بیا نگاه کنیم.",

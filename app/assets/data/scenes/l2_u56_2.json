@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everything",
-      "usual",
       "priya",
+      "usual",
       "same"
      ],
      "suggestion": "Ha! Same as usual. You know everything, Priya.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "different",
       "something",
+      "different",
       "looking",
       "today"
      ],
@@ -137,8 +137,8 @@
      "keywords": [
       "pounds",
       "that's",
-      "same",
-      "iran"
+      "tiny",
+      "five"
      ],
      "suggestion": "Five pounds for a tiny box. That's the same in Iran!",
      "suggestionFa": "پنج پوند برای یه جعبهٔ کوچیک. تو ایران هم همینه!",
@@ -217,8 +217,8 @@
     {
      "keywords": [
       "moving",
-      "last",
       "week",
+      "last",
       "saw"
      ],
      "suggestion": "I saw a moving van last week.",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "midnight",
-      "late",
       "open",
+      "late",
       "shop"
      ],
      "suggestion": "Midnight! Is the shop open that late?",
@@ -364,10 +364,10 @@
     },
     {
      "keywords": [
+      "from",
       "take",
       "them",
-      "card",
-      "i'll"
+      "card"
      ],
      "suggestion": "I'll take them a card from all of us.",
      "suggestionFa": "از طرف همه‌مون یه کارت براشون می‌برم.",

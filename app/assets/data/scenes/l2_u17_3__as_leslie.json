@@ -25,7 +25,7 @@
       "children",
       "starving",
       "quarter",
-      "eight"
+      "pizza"
      ],
      "suggestion": "The pizza was supposed to be here at seven. It's quarter to eight! The children are starving.",
      "suggestionFa": "قرار بود پیتزا ساعت هفت اینجا باشه. یه ربع به هشته! بچه‌ها از گشنگی دارن می‌میرن.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "garlic",
       "pizzas",
       "polite",
-      "bread",
-      "seven"
+      "garlic",
+      "large",
+      "bread"
      ],
      "suggestion": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
      "suggestionFa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی.",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "plates",
       "please",
+      "plates",
       "check",
       "back",
-      "door"
+      "send"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
      "suggestionFa": "تو در را باز کن، من بشقاب میارم. و لطفاً چک کن داغ باشه. اگه سرد بود، پسش می‌فرستیم.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "goodness",
       "children",
       "forgiven",
+      "goodness",
       "cookies",
-      "never"
+      "pizza"
      ],
      "suggestion": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
      "suggestionFa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.",

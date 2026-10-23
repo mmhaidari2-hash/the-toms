@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
+      "can",
       "top",
       "bus",
-      "can",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -120,7 +120,7 @@
       "thanks",
       "should",
       "much",
-      "put"
+      "how"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "didn't",
-      "cash",
       "know",
+      "cash",
       "free"
      ],
      "suggestion": "Cash-free? I didn't know that.",
@@ -183,9 +183,9 @@
     },
     {
      "keywords": [
-      "twenty",
       "enough",
       "pounds",
+      "twenty",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -245,8 +245,8 @@
      "keywords": [
       "different",
       "within",
-      "even",
-      "hour"
+      "hour",
+      "even"
      ],
      "suggestion": "Within one hour? Even a different bus?",
      "suggestionFa": "تو یه ساعت؟ حتی یه اتوبوس دیگه؟",
@@ -295,8 +295,8 @@
      "keywords": [
       "can",
       "pay",
-      "hi",
-      "by"
+      "by",
+      "hi"
      ],
      "suggestion": "Hi. Can I pay by card?",
      "suggestionFa": "سلام. می‌تونم با کارت پرداخت کنم؟",

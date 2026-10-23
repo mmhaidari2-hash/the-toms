@@ -83,9 +83,9 @@
     {
      "keywords": [
       "every",
-      "even",
-      "home",
-      "room"
+      "room",
+      "rent",
+      "home"
      ],
      "suggestion": "Every home? Even if I rent a room?",
      "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "cancelled",
-      "great",
-      "thank"
+      "thank",
+      "great"
      ],
      "suggestion": "Cancelled? Great! Thank you.",
      "suggestionFa": "لغو شد؟ عالیه! ممنون.",
@@ -258,7 +258,7 @@
       "instalments",
       "instead",
       "she",
-      "pay"
+      "can"
      ],
      "suggestion": "Can she pay in twelve instalments instead?",
      "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "discount",
-      "maggie",
       "george",
-      "lives"
+      "maggie",
+      "alone"
      ],
      "suggestion": "And Nana Maggie lives alone with George. Do they get a discount?",
      "suggestionFa": "ننه مگی با جورج تنها زندگی می‌کنه. تخفیف می‌گیرن؟",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "leslie",
-      "know",
       "tell",
-      "i'll"
+      "know",
+      "good"
      ],
      "suggestion": "Good to know. I'll tell Leslie.",
      "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
@@ -352,8 +352,8 @@
      "keywords": [
       "that's",
       "thank",
-      "ward",
-      "kind"
+      "kind",
+      "ward"
      ],
      "suggestion": "Thank you, Ms Ward. That's very kind.",
      "suggestionFa": "ممنون خانم وارد. خیلی لطف دارید.",
@@ -363,10 +363,10 @@
     },
     {
      "keywords": [
-      "number",
       "what's",
-      "call",
-      "them"
+      "number",
+      "help",
+      "call"
      ],
      "suggestion": "I'll help them call. What's the number?",
      "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",

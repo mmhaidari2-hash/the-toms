@@ -106,8 +106,8 @@
       "contract",
       "signed",
       "moved",
-      "when",
-      "next"
+      "room",
+      "when"
      ],
      "suggestion": "It's the contract for your room. You signed it when you moved in next door.",
      "suggestionFa": "قرارداد اتاقته. وقتی اومدی خونهٔ بغلی امضاش کردی.",
@@ -370,8 +370,8 @@
      "keywords": [
       "pressure",
       "doctor",
-      "height",
       "weight",
+      "height",
       "quick"
      ],
      "suggestion": "It's a quick chat with a nurse or doctor. Blood pressure, height, weight. Easy!",
@@ -396,8 +396,8 @@
       "healthy",
       "coffee",
       "carrot",
-      "let's",
-      "cakes"
+      "cakes",
+      "let's"
      ],
      "suggestion": "Ha! My cakes are very healthy. Well, the carrot one is. Come on, let's get a coffee. Job done!",
      "suggestionFa": "ها! کیک‌های من خیلی سالمن. خب، کیک هویجیه هست. بیا، بریم یه قهوه بخوریم. کار تموم شد!",

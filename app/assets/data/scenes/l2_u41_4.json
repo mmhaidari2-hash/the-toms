@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "fifteen",
+      "minutes",
       "there",
       "about"
      ],
@@ -87,8 +87,8 @@
      "keywords": [
       "accident",
       "there's",
-      "sure",
-      "road"
+      "been",
+      "sure"
      ],
      "suggestion": "I'm not sure. There's been an accident on the road.",
      "suggestionFa": "مطمئن نیستم. تو جاده تصادف شده.",
@@ -208,8 +208,8 @@
     },
     {
      "keywords": [
-      "haven't",
       "minutes",
+      "haven't",
       "number",
       "moved"
      ],
@@ -248,7 +248,7 @@
       "getting",
       "idea",
       "good",
-      "off"
+      "now"
      ],
      "suggestion": "Good idea. I'm getting off now.",
      "suggestionFa": "فکر خوبیه. دارم پیاده میشم.",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "library",
-      "after",
       "thank",
+      "after",
       "ok"
      ],
      "suggestion": "After the library. OK, thank you!",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "hughes",
-      "sorry",
       "delay",
+      "sorry",
       "mrs"
      ],
      "suggestion": "Sorry for the delay, Mrs Hughes.",
@@ -318,8 +318,8 @@
      "keywords": [
       "library",
       "from",
-      "way",
-      "all"
+      "all",
+      "ran"
      ],
      "suggestion": "I ran all the way from the library!",
      "suggestionFa": "از کتابخونه تا اینجا دویدم!",

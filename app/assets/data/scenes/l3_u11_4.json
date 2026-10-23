@@ -33,9 +33,9 @@
     {
      "keywords": [
       "thompson",
-      "george",
       "behalf",
-      "come"
+      "george",
+      "i've"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
      "suggestionFa": "آره. از طرف جورج تامپسون اومدم.",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "missing",
-      "mistake",
       "there's",
+      "mistake",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "expecting",
-      "again",
+      "could",
       "check",
-      "could"
+      "again"
      ],
      "suggestion": "Could you check again? We were expecting four.",
      "suggestionFa": "می‌شه دوباره چک کنید؟ منتظر چهار تا بودیم.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "should",
-      "every",
       "takes",
-      "day"
+      "every",
+      "but"
      ],
      "suggestion": "But he takes it every day. What should we do?",
      "suggestionFa": "ولی هر روز می‌خوره. چی کار کنیم؟",
@@ -196,8 +196,8 @@
     },
     {
      "keywords": [
-      "surgery",
       "mistake",
+      "surgery",
       "by"
      ],
      "suggestion": "Is that a mistake by the surgery?",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "surgery",
       "contact",
+      "surgery",
       "us"
      ],
      "suggestion": "Can you contact the surgery for us?",
@@ -327,8 +327,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "relief",
+      "number",
       "where",
       "find"
      ],
@@ -395,8 +395,8 @@
      "keywords": [
       "download",
       "george",
-      "i'll",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "I'll help George download it.",
      "suggestionFa": "به جورج کمک می‌کنم دانلودش کنه.",

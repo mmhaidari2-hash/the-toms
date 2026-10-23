@@ -21,8 +21,8 @@
      "keywords": [
       "details",
       "doris",
-      "ask",
-      "any"
+      "any",
+      "ask"
      ],
      "suggestion": "Oh no. Did he ask you for any details, Doris?",
      "suggestionFa": "ای وای. ازتون اطلاعاتی خواست دوریس؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "whatever",
       "money",
-      "banks",
-      "don't"
+      "don't",
+      "never"
      ],
      "suggestion": "Whatever you do, don't move any money. Banks never ask you to do that.",
      "suggestionFa": "هر کاری می‌کنید، هیچ پولی منتقل نکنید. بانک‌ها هیچ‌وقت چنین چیزی نمی‌خوان.",
@@ -89,7 +89,7 @@
       "anything",
       "code",
       "give",
-      "did"
+      "him"
      ],
      "suggestion": "Did you give him anything — your PIN or a code?",
      "suggestionFa": "چیزی بهش دادید — پین یا کد؟",
@@ -150,7 +150,7 @@
      "keywords": [
       "different",
       "number",
-      "using",
+      "phone",
       "let's"
      ],
      "suggestion": "Let's call your bank using the number on your card — from a different phone.",
@@ -200,8 +200,8 @@
      "keywords": [
       "someone",
       "number",
-      "never",
-      "gives"
+      "gives",
+      "never"
      ],
      "suggestion": "Just to be safe. Never ring back a number someone gives you.",
      "suggestionFa": "فقط محض احتیاط. هیچ‌وقت به شماره‌ای که کسی بهتون داده زنگ نزنید.",

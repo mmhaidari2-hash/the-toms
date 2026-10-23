@@ -29,9 +29,9 @@
     },
     {
      "keywords": [
-      "doris",
       "about",
       "talks",
+      "doris",
       "tom"
      ],
      "suggestion": "Hello, Doris! Tom talks about you too.",
@@ -53,10 +53,10 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "didn't",
+      "maggie",
       "nana",
-      "tap"
+      "why"
      ],
      "suggestion": "Why didn't you tap, Nana Maggie?",
      "suggestionFa": "چرا کارت نزدی ننه مگی؟",
@@ -118,10 +118,10 @@
     },
     {
      "keywords": [
-      "age",
-      "can",
       "get",
-      "one"
+      "can",
+      "one",
+      "age"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -176,8 +176,8 @@
      "keywords": [
       "years",
       "must",
-      "use",
-      "lot"
+      "lot",
+      "use"
      ],
      "suggestion": "Ten years! You must use it a lot.",
      "suggestionFa": "ده سال! حتماً زیاد ازش استفاده می‌کنی.",
@@ -228,8 +228,8 @@
      "keywords": [
       "that's",
       "years",
-      "time",
-      "long"
+      "five",
+      "time"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -388,9 +388,9 @@
     {
      "keywords": [
       "maggie",
-      "home",
+      "nana",
       "take",
-      "nana"
+      "home"
      ],
      "suggestion": "Nana Maggie, we can take it at home.",
      "suggestionFa": "ننه مگی، می‌تونیم تو خونه بگیریمش.",

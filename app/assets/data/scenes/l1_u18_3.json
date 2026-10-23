@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
+      "what's",
       "hungry",
-      "what's"
+      "fridge"
      ],
      "suggestion": "I'm hungry too. What's in the fridge?",
      "suggestionFa": "منم گرسنه‌ام. تو یخچال چی هست؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "something",
-      "let's",
       "quick",
+      "let's",
       "have"
      ],
      "suggestion": "Let's have something quick.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "opener",
-      "pull",
-      "ring"
+      "ring",
+      "pull"
      ],
      "suggestion": "It's a ring pull. No opener!",
      "suggestionFa": "درش حلقه داره. دربازکن نمی‌خواد!",
@@ -332,8 +332,8 @@
      "keywords": [
       "strange",
       "good",
-      "bit",
-      "but"
+      "but",
+      "bit"
      ],
      "suggestion": "It's a bit strange, but good!",
      "suggestionFa": "یه کم عجیبه، ولی خوبه!",

@@ -23,9 +23,9 @@
      "keywords": [
       "downstairs",
       "calling",
-      "busy",
       "room",
-      "come"
+      "busy",
+      "from"
      ],
      "suggestion": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
      "suggestionFa": "سلام، منم. سرت شلوغه؟ از اتاقم زنگ می‌زنم — حال ندارم بیام پایین!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "picking",
+      "getting",
       "jake's",
       "we're",
-      "town"
+      "then"
      ],
      "suggestion": "We're getting the 42 into town. Then Jake's dad is picking us up at six.",
      "suggestionFa": "با ۴۲ می‌ریم مرکز شهر. بعد بابای جیک ساعت شش میاد دنبالمون.",
@@ -123,8 +123,8 @@
      "keywords": [
       "obviously",
       "tickets",
-      "chicken",
       "booking",
+      "chicken",
       "place"
      ],
      "suggestion": "The chicken place, obviously! OK, I'm booking the tickets now. Don't tell Mum it's a 15!",
@@ -148,8 +148,8 @@
      "keywords": [
       "downstairs",
       "minutes",
-      "hungry",
       "sorted",
+      "hungry",
       "five"
      ],
      "suggestion": "Sorted. See you downstairs in five minutes — I'm hungry!",

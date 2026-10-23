@@ -20,8 +20,8 @@
     {
      "keywords": [
       "afternoon",
-      "morning",
       "showing",
+      "morning",
       "which"
      ],
      "suggestion": "Sure. Which showing? Morning or afternoon?",
@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
+      "adult",
       "under",
       "child",
-      "adult",
       "says"
      ],
      "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "ticket",
-      "adult",
-      "extra"
+      "family",
+      "extra",
+      "adult"
      ],
      "suggestion": "Yes, a family ticket for four. Plus one extra adult.",
      "suggestionFa": "آره، یه بلیت خانوادگی برای چهار نفر. به‌اضافهٔ یه بزرگسال اضافه.",
@@ -199,8 +199,8 @@
     },
     {
      "keywords": [
-      "toilet",
       "middle",
+      "toilet",
       "aisle",
       "near"
      ],
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "seats",
-      "only",
       "five",
+      "only",
       "need"
      ],
      "suggestion": "Six seats? We only need five.",

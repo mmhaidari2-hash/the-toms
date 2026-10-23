@@ -21,8 +21,8 @@
      "keywords": [
       "cough",
       "i've",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "I've got a bad cough.",
      "suggestionFa": "سرفهٔ بدی دارم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "breathe",
-      "chest",
       "hurts",
+      "chest",
       "when"
      ],
      "suggestion": "My chest hurts when I breathe.",
@@ -229,8 +229,8 @@
     },
     {
      "keywords": [
-      "where",
       "thank",
+      "where",
       "get"
      ],
      "suggestion": "Thank you. Where do I get them?",
@@ -269,9 +269,9 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "times",
       "seven",
+      "three",
       "days"
      ],
      "suggestion": "Three times a day for seven days.",

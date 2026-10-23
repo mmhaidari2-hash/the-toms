@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "holt",
       "nice",
       "meet",
+      "holt",
       "mr"
      ],
      "suggestion": "Nice to meet you, Mr Holt.",
@@ -35,7 +35,7 @@
       "shorthold",
       "assured",
       "tenancy",
-      "thanks"
+      "friend"
      ],
      "suggestion": "Thanks. My friend said I'd get an \"assured shorthold\" tenancy.",
      "suggestionFa": "ممنون. دوستم گفت یه قرارداد «assured shorthold» می‌گیرم.",
@@ -130,9 +130,9 @@
    "branches": [
     {
      "keywords": [
-      "stay",
       "long",
       "want",
+      "stay",
       "as"
      ],
      "suggestion": "So I can stay as long as I want?",
@@ -180,9 +180,9 @@
     {
      "keywords": [
       "after",
-      "they",
       "sell",
-      "want"
+      "want",
+      "they"
      ],
      "suggestion": "And if they want to sell after that?",
      "suggestionFa": "و اگه بعدش بخواد بفروشه؟",
@@ -195,7 +195,7 @@
       "about",
       "rent",
       "can",
-      "up"
+      "go"
      ],
      "suggestion": "What about the rent? Can it go up?",
      "suggestionFa": "اجاره چی؟ می‌تونه بالا بره؟",
@@ -232,7 +232,7 @@
       "clearer",
       "before",
       "that's",
-      "read"
+      "sign"
      ],
      "suggestion": "That's much clearer. Can I read it before I sign?",
      "suggestionFa": "خیلی روشن‌تر شد. می‌تونم قبل از امضا بخونمش؟",

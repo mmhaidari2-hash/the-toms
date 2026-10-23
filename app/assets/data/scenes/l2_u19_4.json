@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "delays",
       "severe",
+      "delays",
       "long",
       "how"
      ],
@@ -200,7 +200,7 @@
       "company",
       "should",
       "might",
-      "late"
+      "tell"
      ],
      "suggestion": "Should I tell the company I might be late?",
      "suggestionFa": "به شرکت بگم ممکنه دیر برسم؟",
@@ -238,9 +238,9 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "minutes",
       "failure",
+      "minutes",
+      "there's",
       "signal"
      ],
      "suggestion": "\"Sorry, there's a signal failure. I might be ten minutes late.\"",

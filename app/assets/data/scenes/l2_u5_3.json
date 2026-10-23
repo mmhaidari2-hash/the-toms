@@ -79,7 +79,7 @@
       "finished",
       "science",
       "project",
-      "his"
+      "has"
      ],
      "suggestion": "Has he finished his science project?",
      "suggestionFa": "پروژهٔ علومش را تموم کرده؟",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "home",
       "week",
-      "i'll",
-      "help"
+      "help",
+      "home",
+      "i'll"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "done",
-      "far",
       "has",
+      "far",
       "he"
      ],
      "suggestion": "What has he done so far?",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "volcano",
       "erupted",
+      "volcano",
       "model",
       "yet"
      ],
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "pleased",
-      "really",
       "she'll",
+      "really",
       "will"
      ],
      "suggestion": "I will. She'll be really pleased.",

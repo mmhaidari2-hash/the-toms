@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "faulty",
       "return",
+      "faulty",
       "like",
       "i'd"
      ],
@@ -75,8 +75,8 @@
      "keywords": [
       "receipt",
       "here's",
-      "paid",
-      "card"
+      "card",
+      "paid"
      ],
      "suggestion": "Here's the receipt. I paid by card, too.",
      "suggestionFa": "اینم رسید. با کارت هم پرداخت کردم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "statement",
       "helps",
-      "bank",
-      "i've"
+      "i've",
+      "bank"
      ],
      "suggestion": "I've got the bank statement, if that helps.",
      "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "refund",
       "please",
-      "don't",
-      "trust"
+      "refund",
+      "trust",
+      "don't"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -181,9 +181,9 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "stopped",
       "heating",
+      "morning",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",

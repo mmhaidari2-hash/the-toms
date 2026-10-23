@@ -24,7 +24,7 @@
       "slippers",
       "fluffy",
       "bother",
-      "pink",
+      "have",
       "seen"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
@@ -49,8 +49,8 @@
       "remember",
       "terrible",
       "memory",
-      "under",
-      "don't"
+      "these",
+      "under"
      ],
      "suggestion": "I don't remember! My memory is terrible these days. Are they under the bath?",
      "suggestionFa": "یادم نیست! این روزا حافظه‌م افتضاحه. زیر وانن؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "where's",
       "slipper",
-      "other",
       "can't",
+      "other",
       "walk"
      ],
      "suggestion": "One! Where's the other one? I can't walk with one slipper!",
@@ -150,8 +150,8 @@
     {
      "keywords": [
       "chewing",
-      "monkey",
       "cheeky",
+      "monkey",
       "he"
      ],
      "suggestion": "You cheeky monkey! Is he chewing it?",
@@ -174,10 +174,10 @@
     {
      "keywords": [
       "glasses",
-      "thank",
       "never",
+      "thank",
       "seen",
-      "have"
+      "dear"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
      "suggestionFa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "without",
-      "william",
       "helpers",
+      "william",
       "little",
       "silly"
      ],

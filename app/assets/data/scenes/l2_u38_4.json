@@ -135,10 +135,10 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "minutes",
+      "already",
       "tired",
-      "arm"
+      "two"
      ],
      "suggestion": "Two minutes. My arm is tired already!",
      "suggestionFa": "دو دقیقه. دستم همین الان خسته شد!",
@@ -213,9 +213,9 @@
     {
      "keywords": [
       "dripped",
+      "shoe",
       "oops",
-      "late",
-      "shoe"
+      "late"
      ],
      "suggestion": "Oops. Too late. I dripped on my shoe.",
      "suggestionFa": "اوه. دیر شد. رو کفشم چکه کرد.",
@@ -261,9 +261,9 @@
    "branches": [
     {
      "keywords": [
-      "whole",
-      "fence",
       "twice",
+      "fence",
+      "whole",
       "coats"
      ],
      "suggestion": "Two coats? The whole fence twice?",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "hours",
       "until",
+      "hours",
       "four",
       "then"
      ],
@@ -331,8 +331,8 @@
     {
      "keywords": [
       "admiring",
-      "part",
       "like",
+      "part",
       "tea"
      ],
      "suggestion": "I like this part. Tea and admiring!",

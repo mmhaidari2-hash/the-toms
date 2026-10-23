@@ -33,8 +33,8 @@
     {
      "keywords": [
       "midnight",
-      "tehran",
       "nearly",
+      "tehran",
       "but"
      ],
      "suggestion": "Yes! But it's nearly midnight in Tehran.",
@@ -71,8 +71,8 @@
      "keywords": [
       "always",
       "awake",
-      "she's",
-      "waits"
+      "waits",
+      "she's"
      ],
      "suggestion": "She's awake. She always waits for my call.",
      "suggestionFa": "بیداره. همیشه منتظر تماسمه.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "parvin",
+      "leslie",
       "mum"
      ],
      "suggestion": "Mum, this is Leslie. Leslie, this is my mum, Parvin.",
@@ -204,10 +204,10 @@
     },
     {
      "keywords": [
-      "call",
-      "i'll",
+      "back",
       "wait",
-      "back"
+      "i'll",
+      "call"
      ],
      "suggestion": "Wait. I'll call you back, Mum.",
      "suggestionFa": "صبر کن. دوباره بهت زنگ می‌زنم مامان.",
@@ -251,8 +251,8 @@
      "keywords": [
       "william",
       "hello",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "William, come here! Say hello!",
      "suggestionFa": "ویلیام، بیا اینجا! سلام کن!",
@@ -264,8 +264,8 @@
      "keywords": [
       "here's",
       "little",
-      "mum",
-      "one"
+      "one",
+      "mum"
      ],
      "suggestion": "Mum, here's the little one.",
      "suggestionFa": "مامان، اینم کوچولوئه.",
@@ -336,8 +336,8 @@
     {
      "keywords": [
       "laughing",
-      "she's",
       "loves",
+      "she's",
       "she"
      ],
      "suggestion": "She's laughing! She loves your bus.",

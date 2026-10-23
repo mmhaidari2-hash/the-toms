@@ -21,8 +21,8 @@
      "keywords": [
       "cheers",
       "thanks",
-      "she's",
-      "knees"
+      "knees",
+      "she's"
      ],
      "suggestion": "Cheers, Doris! She's very well, thanks. How are your knees?",
      "suggestionFa": "مرسی دوریس! خیلی خوبه، ممنون. زانوهات چطورن؟",
@@ -81,8 +81,8 @@
      "keywords": [
       "doctor",
       "about",
-      "have",
-      "them"
+      "them",
+      "been"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "leave",
       "don't",
+      "leave",
       "doris",
       "long"
      ],
@@ -164,9 +164,9 @@
     {
      "keywords": [
       "always",
-      "front",
       "saved",
-      "seat"
+      "front",
+      "i've"
      ],
      "suggestion": "I've saved you the front seat as always.",
      "suggestionFa": "مثل همیشه صندلی جلو را برات نگه داشتم.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
-      "move",
       "sure",
-      "will"
+      "will",
+      "move"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "exams",
       "glued",
+      "exams",
       "went",
       "well"
      ],
@@ -277,7 +277,7 @@
       "learning",
       "heaven",
       "drive",
-      "help"
+      "he's"
      ],
      "suggestion": "He's learning to drive now, heaven help us!",
      "suggestionFa": "الان داره رانندگی یاد می‌گیره، خدا به دادمون برسه!",
@@ -311,7 +311,7 @@
       "driving",
       "thirty",
       "don't",
-      "years"
+      "worry"
      ],
      "suggestion": "I see him, don't worry. Thirty years driving!",
      "suggestionFa": "می‌بینمش، نگران نباش. سی سال رانندگی!",
@@ -324,7 +324,7 @@
       "second",
       "thanks",
       "doris",
-      "pair"
+      "eyes"
      ],
      "suggestion": "Thanks, Doris. You're my second pair of eyes.",
      "suggestionFa": "ممنون دوریس. جفت چشم دوم منی.",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "slowing",
-      "still",
       "about",
-      "route"
+      "route",
+      "still"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",
      "suggestionFa": "داره کند میشه، ولی هنوز سراغ این مسیر قدیمی را می‌گیره.",

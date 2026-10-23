@@ -20,9 +20,9 @@
     {
      "keywords": [
       "let's",
-      "find",
       "some",
-      "ones"
+      "ones",
+      "find"
      ],
      "suggestion": "Let's find some new ones.",
      "suggestionFa": "بیا یه جفت نو پیدا کنیم.",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "nicola",
+      "colour",
       "which"
      ],
      "suggestion": "Which colour, Nicola?",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "mirror",
       "nicola",
+      "mirror",
       "walk"
      ],
      "suggestion": "Walk to the mirror, Nicola.",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

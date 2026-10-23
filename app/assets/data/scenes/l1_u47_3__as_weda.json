@@ -24,8 +24,8 @@
       "cupboard",
       "photo",
       "would",
-      "album",
-      "found"
+      "found",
+      "album"
      ],
      "suggestion": "Look what I found in the cupboard! My old photo album. Would you like to see?",
      "suggestionFa": "ببین تو کمد چی پیدا کردم! آلبوم عکس قدیمیم. می‌خوای ببینی؟",
@@ -49,8 +49,8 @@
       "wasn't",
       "pretty",
       "twenty",
-      "old",
-      "was"
+      "was",
+      "old"
      ],
      "suggestion": "Very old! This is me. I was twenty. Wasn't I pretty?",
      "suggestionFa": "خیلی قدیمی! این منم. بیست سالم بود. خوشگل نبودم؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "handsome",
       "brighton",
+      "handsome",
       "seaside",
       "george",
       "was"
@@ -99,8 +99,8 @@
       "piccadilly",
       "manchester",
       "station",
-      "here's",
-      "little"
+      "little",
+      "here's"
      ],
      "suggestion": "Yes, he was a porter at Piccadilly station, in Manchester. And look — here's a little boy. Who is it?",
      "suggestionFa": "آره، باربر ایستگاه پیکادلی منچستر بود. و ببین — اینم یه پسر کوچولو. کیه؟",
@@ -124,8 +124,8 @@
       "naughty",
       "always",
       "even",
-      "then",
-      "five"
+      "five",
+      "then"
      ],
      "suggestion": "It's Tom! He was five. He was very naughty. He was always on a bus, even then!",
      "suggestionFa": "تامه! پنج سالش بود. خیلی شیطون بود. حتی اون موقع هم همیشه تو اتوبوس بود!",
@@ -149,8 +149,8 @@
       "parents",
       "photos",
       "young",
-      "times",
-      "happy"
+      "happy",
+      "times"
      ],
      "suggestion": "Very happy. Times were hard, but we were happy. Were your parents young in your photos?",
      "suggestionFa": "خیلی خوشحال. اوضاع سخت بود، ولی خوشحال بودیم. پدر و مادرت تو عکس‌هات جوون بودن؟",
@@ -175,7 +175,7 @@
       "phone",
       "kind",
       "eyes",
-      "want"
+      "dear"
      ],
      "suggestion": "On your phone! Show me one, dear. I want to see your family. Is that your mum? She has kind eyes.",
      "suggestionFa": "تو گوشیت! یکی نشونم بده عزیزم. می‌خوام خانواده‌ت را ببینم. این مامانته؟ چشمای مهربونی داره.",

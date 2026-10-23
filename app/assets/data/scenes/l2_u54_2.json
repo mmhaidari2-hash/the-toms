@@ -22,7 +22,7 @@
       "counting",
       "birds",
       "hour",
-      "fun"
+      "one"
      ],
      "suggestion": "One hour of counting birds? Fun!",
      "suggestionFa": "یه ساعت شمردن پرنده؟ جالبه!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "birdwatch",
-      "garden",
       "what's",
+      "garden",
       "big"
      ],
      "suggestion": "What's the Big Garden Birdwatch?",
@@ -150,9 +150,9 @@
     {
      "keywords": [
       "them",
-      "see",
       "can",
-      "two"
+      "two",
+      "see"
      ],
      "suggestion": "I can see two of them.",
      "suggestionFa": "دو تا ازشون می‌بینم.",
@@ -253,8 +253,8 @@
      "keywords": [
       "yellow",
       "birds",
-      "tiny",
-      "blue"
+      "blue",
+      "tiny"
      ],
      "suggestion": "Tiny blue and yellow birds!",
      "suggestionFa": "پرنده‌های کوچولوی آبی و زرد!",
@@ -305,8 +305,8 @@
      "keywords": [
       "sparrows",
       "magpies",
-      "three",
-      "robin"
+      "robin",
+      "three"
      ],
      "suggestion": "One robin, two magpies, three blue tits, two sparrows. Eight!",
      "suggestionFa": "یه سینه‌سرخ، دو تا زاغی، سه تا چرخ‌ریسک، دو تا گنجشک. هشت تا!",
@@ -369,10 +369,10 @@
     },
     {
      "keywords": [
-      "look",
       "bird",
+      "look",
       "pond",
-      "shh"
+      "big"
      ],
      "suggestion": "Shh! Look — a big bird by the pond!",
      "suggestionFa": "هیس! ببین — یه پرندهٔ بزرگ کنار برکه!",

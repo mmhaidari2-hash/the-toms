@@ -48,9 +48,9 @@
      "keywords": [
       "school",
       "can't",
-      "late",
       "wait",
-      "cube"
+      "cube",
+      "late"
      ],
      "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
      "suggestionFa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "milky",
-      "cold",
-      "idea",
       "milk",
-      "good"
+      "cold",
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
      "suggestionFa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!",
@@ -99,7 +99,7 @@
       "seconds",
       "sugars",
       "twenty",
-      "there",
+      "sweet",
       "three"
      ],
      "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "always",
+      "nicola",
       "make",
       "want",
       "i'll"
@@ -174,8 +174,8 @@
       "sugar",
       "right",
       "water",
-      "just",
-      "milk"
+      "milk",
+      "just"
      ],
      "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
      "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
@@ -198,8 +198,8 @@
      "keywords": [
       "goldilocks",
       "drink",
-      "late",
       "time",
+      "late",
       "look"
      ],
      "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",
@@ -225,7 +225,7 @@
       "cheers",
       "later",
       "tell",
-      "see"
+      "mum"
      ],
      "suggestion": "Cheers! See you later! Tell Mum I had breakfast!",
      "suggestionFa": "ممنون! بعداً می‌بینمت! به مامان بگو صبحونه خوردم!",

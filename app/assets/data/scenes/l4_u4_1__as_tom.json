@@ -24,8 +24,8 @@
       "something",
       "nicola",
       "didn't",
-      "sleep",
-      "don't"
+      "don't",
+      "again"
      ],
      "suggestion": "The new lot next door had music on until three a.m. again. Nicola didn't sleep a wink. I need to say something, but I don't want to start a feud.",
      "suggestionFa": "همسایه‌های جدید بغلی دوباره تا سه صبح موسیقی گذاشته بودن. نیکولا یه لحظه هم نخوابید. باید یه چیزی بگم، ولی نمی‌خوام دعوا راه بندازم.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "something",
-      "twelve",
       "number",
+      "twelve",
       "don't",
-      "make"
+      "like"
      ],
      "suggestion": "Good idea. So something like: \"Hi, I'm Tom from number twelve. I don't want to make a fuss, but…\"",
      "suggestionFa": "فکر خوبیه. پس یه چیزی مثل: «سلام، من تام از شمارهٔ دوازده‌ام. نمی‌خوام شلوغش کنم، ولی…»",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "shortbread",
-      "offering",
       "leslie's",
       "biscuits",
+      "offering",
       "someone"
      ],
      "suggestion": "You're right. I'll take round a few of Leslie's biscuits as a peace offering. Hard to stay cross with someone who brings shortbread.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "support",
       "talking",
-      "temper",
-      "better"
+      "english",
+      "better",
+      "temper"
      ],
      "suggestion": "Ha! Yes, come with me — moral support. If it goes badly, you can do the talking. Your English is better than my temper.",
      "suggestionFa": "ها! آره، بیا — حمایت روحی. اگه بد پیش رفت، تو حرف بزن. انگلیسی تو از اعصاب من بهتره.",

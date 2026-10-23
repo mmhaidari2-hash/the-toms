@@ -22,7 +22,7 @@
       "closer",
       "going",
       "move",
-      "job"
+      "new"
      ],
      "suggestion": "Yes! I'm going to move closer to my new job.",
      "suggestionFa": "آره! می‌خوام به کار جدیدم نزدیک‌تر بشم.",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "leave",
+      "first",
       "month",
       "rent"
      ],
@@ -190,7 +190,7 @@
       "everything",
       "photos",
       "clean",
-      "take"
+      "just"
      ],
      "suggestion": "I'll clean everything and take photos, just in case.",
      "suggestionFa": "همه جا را تمیز می‌کنم و عکس می‌گیرم، محض احتیاط.",
@@ -202,8 +202,8 @@
      "keywords": [
       "counts",
       "normal",
-      "tear",
-      "wear"
+      "wear",
+      "tear"
      ],
      "suggestion": "What counts as normal wear and tear?",
      "suggestionFa": "استهلاک عادی شامل چی می‌شه؟",

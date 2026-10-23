@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "make",
       "sure",
+      "make",
       "ok"
      ],
      "suggestion": "Make sure I clip it. OK!",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "speed",
-      "right"
+      "right",
+      "speed"
      ],
      "suggestion": "Is this speed right?",
      "suggestionFa": "این سرعت درسته؟",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "every",
-      "wipe",
       "i'll",
+      "wipe",
       "time"
      ],
      "suggestion": "I'll wipe it. Every time.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "should",
+      "that's",
       "times",
-      "lift"
+      "many"
      ],
      "suggestion": "That's fair. How many times should I lift?",
      "suggestionFa": "منصفانه‌ست. چند بار بلند کنم؟",
@@ -255,8 +255,8 @@
     },
     {
      "keywords": [
-      "someone",
       "machine",
+      "someone",
       "share",
       "can"
      ],
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "shaking",
-      "arms",
-      "ouch"
+      "ouch",
+      "arms"
      ],
      "suggestion": "Ouch. My arms are shaking!",
      "suggestionFa": "آخ. دستام داره می‌لرزه!",
@@ -361,8 +361,8 @@
     },
     {
      "keywords": [
-      "useful",
       "really",
+      "useful",
       "thank",
       "jade"
      ],

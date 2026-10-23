@@ -23,9 +23,9 @@
      "keywords": [
       "there's",
       "garden",
+      "wake",
       "real",
-      "come",
-      "wake"
+      "come"
      ],
      "suggestion": "Wake up! Wake up! There's a FOX in the garden! A real one! Come and see!",
      "suggestionFa": "بیدار شو! بیدار شو! تو باغ یه روباهه! یه واقعیش! بیا ببین!",
@@ -49,8 +49,8 @@
       "something",
       "sandwich",
       "daddy's",
-      "eating",
-      "orange"
+      "orange",
+      "eating"
      ],
      "suggestion": "By the shed! It's orange with a white tail tip. It's eating something. Is it eating Daddy's sandwich?",
      "suggestionFa": "کنار انباری! نارنجیه با نوک دم سفید. داره یه چیزی می‌خوره. داره ساندویچ بابایی را می‌خوره؟",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "orange",
-      "please",
       "stroke",
+      "please",
+      "orange",
       "looks",
       "like"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "house",
-      "just",
+      "where",
       "look",
-      "live"
+      "live",
+      "just"
      ],
      "suggestion": "OK. I'll just look. Where does it live? In a house?",
      "suggestionFa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "playing",
+      "they're",
       "babies",
       "three",
       "look"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "biscuit",
-      "ginger",
       "little",
-      "cubs",
-      "name"
+      "ginger",
+      "name",
+      "them"
      ],
      "suggestion": "Cubs! Can we give them a name? The big one is Ginger. The little one is Biscuit!",
      "suggestionFa": "توله! میشه براشون اسم بذاریم؟ بزرگه زنجبیله. کوچولوئه بیسکویت!",
@@ -174,8 +174,8 @@
       "because",
       "clever",
       "third",
-      "they",
-      "will"
+      "will",
+      "back"
      ],
      "suggestion": "The third one is {you}! Because it's clever. Oh no — they ran away. Will they come back?",
      "suggestionFa": "سومی {you}ه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "tonight",
       "bedtime",
-      "mummy",
-      "eight",
+      "awake",
+      "night",
       "watch"
      ],
      "suggestion": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",

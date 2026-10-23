@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
+      "these",
       "pairs",
       "socks",
-      "these",
-      "look",
-      "find"
+      "find",
+      "need"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
      "suggestionFa": "این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.",
@@ -48,9 +48,9 @@
      "keywords": [
       "another",
       "stars",
-      "blue",
       "sock",
-      "see"
+      "blue",
+      "can"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "william's",
       "aren't",
-      "one's",
       "sweet",
-      "white"
+      "one's",
+      "these"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "they've",
+      "these",
       "tom's",
       "socks",
-      "these",
       "grey"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
@@ -150,7 +150,7 @@
       "other",
       "green",
       "sock",
-      "bin"
+      "now"
      ],
      "suggestion": "Yes, in the bin! Now, one green sock. Where's the other green sock?",
      "suggestionFa": "آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "nobody",
-      "knows",
       "pairs",
       "count",
+      "knows",
       "have"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "drawers",
+      "pairs",
       "eight",
-      "thank",
       "let's",
-      "pairs"
+      "thank"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
      "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",

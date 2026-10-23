@@ -165,14 +165,14 @@ class _ChatState extends ConsumerState<_Chat> {
   String get _partnerId => widget.s.playAs ?? widget.s.guest ?? 'learner';
   bool get _canSwap => widget.s.nodes.values.any((n) => n.speaker == ch.id) && ch.id != _partnerId;
   /// What the learner can say now: the reply options, or (swapped) the character's line.
-  List<(String, String?)> get _targets => _swap && _mine != null
-      ? [(_t(_mine!.text), _tFa(lineTranslation(_mine!.translations, _lang)))]
+  List<(String, String?)> get _targets => _swap
+      ? [if (_mine != null) (_t(_mine!.text), _tFa(lineTranslation(_mine!.translations, _lang)))]
       : [for (final b in _node?.branches ?? const <Branch>[]) (_t(b.suggestion), _tFa(b.suggestionFa))];
 
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) {
     final c = widget.c.characterOrNull(id) ?? ch;
-    return id == 'learner' ? c.copyWithName(_learner.isEmpty ? 'Your neighbour' : _learner) : c;
+    return id == 'learner' ? c.copyWithName(_learner.isEmpty ? 'Newcomer' : _learner) : c;
   }
   MoodInfo get _mood => EmotionEngine.label(ref.watch(progressProvider).moodMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
   /// The learner's own name (empty: lines read with no name; the audio never says one).
@@ -1338,7 +1338,8 @@ class _ChatState extends ConsumerState<_Chat> {
     );
   }
 
-  Widget _hintChips() => _swap && _mine != null ? _lineCard() : Padding(
+  // Swapped and the other side is still talking: no stale reply chips from the usual part.
+  Widget _hintChips() => _swap ? (_mine != null ? _lineCard() : const SizedBox.shrink()) : Padding(
     padding: const EdgeInsets.only(top: 10),
     child: SizedBox(
       height: 62,

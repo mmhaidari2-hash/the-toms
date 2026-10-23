@@ -23,8 +23,8 @@
      "keywords": [
       "returning",
       "seeing",
-      "fancy",
       "hello",
+      "fancy",
       "books"
      ],
      "suggestion": "Hello, love! Fancy seeing you here. I'm returning my books. Well — some of them.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "finished",
-      "haven't",
       "mystery",
+      "haven't",
       "murder",
       "one's"
      ],
@@ -73,9 +73,9 @@
      "keywords": [
       "renew",
       "pence",
-      "paid",
       "fine",
-      "can"
+      "paid",
+      "two"
      ],
      "suggestion": "Renew it? Can you do that? In my day you paid a fine of two pence a day!",
      "suggestionFa": "تمدیدش کنم؟ میشه؟ زمان ما روزی دو پنی جریمه می‌دادی!",
@@ -99,7 +99,7 @@
       "grandchildren",
       "online",
       "photos",
-      "phone",
+      "can't",
       "calls"
      ],
      "suggestion": "Online? I can't do online. My phone is for calls and photos of the grandchildren. Will you show me?",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "william",
-      "here's",
       "ticket",
+      "here's",
       "bent",
-      "card"
+      "used"
      ],
      "suggestion": "Here's my card. It's a bit bent — William used it as a ticket for his toy bus.",
      "suggestionFa": "این کارتمه. یه‌کم خم شده — ویلیام به‌عنوان بلیت اتوبوس اسباب‌بازیش ازش استفاده کرد.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "george's",
       "birthday",
+      "george's",
       "wants",
       "dear",
-      "pin"
+      "now"
      ],
      "suggestion": "Now it wants a PIN. Oh dear. Is it my birthday? Or George's?",
      "suggestionFa": "حالا رمز می‌خواد. ای وای. تاریخ تولد خودمه؟ یا جورج؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "george's",
       "married",
-      "george",
       "always",
-      "eight"
+      "george",
+      "forty"
      ],
      "suggestion": "It's George's. Forty-eight years married — it's always George. Right — \"renew\". Shall I press it?",
      "suggestionFa": "مال جورجه. چهل و هشت سال ازدواج — همیشه جورجه. خب — «تمدید». فشارش بدم؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "renewed",
       "window",
-      "thank",
-      "going",
-      "three"
+      "weeks",
+      "three",
+      "going"
      ],
      "suggestion": "Renewed! Three more weeks! Thank you, love. Now I'm going to sit by the window and find out who did it.",
      "suggestionFa": "تمدید شد! سه هفتهٔ دیگه! ممنونم عزیزم. حالا می‌رم کنار پنجره بشینم و بفهمم کار کی بوده.",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "languages",
-      "mummy",
-      "hello",
       "speak",
-      "says"
+      "hello",
+      "mummy",
+      "true"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "persian",
       "salaam",
-      "thank",
+      "speak",
       "about",
-      "speak"
+      "thank"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
      "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "persian",
-      "that's",
+      "english",
       "french",
-      "merci"
+      "that's",
+      "speak"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -149,8 +149,8 @@
       "football",
       "there's",
       "english",
-      "talks",
-      "daddy"
+      "telly",
+      "talks"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
      "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "spelling",
       "nobody",
-      "knows",
       "knife",
-      "ellis"
+      "ellis",
+      "knows"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",

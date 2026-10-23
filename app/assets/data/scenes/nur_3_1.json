@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everyone",
-      "circle",
       "please",
+      "circle",
       "sure"
      ],
      "suggestion": "Sure. Everyone, sit in a circle, please.",
@@ -34,8 +34,8 @@
      "keywords": [
       "don't",
       "hello",
-      "know",
-      "song"
+      "song",
+      "know"
      ],
      "suggestion": "I don't know the hello song yet.",
      "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "weather",
+      "william",
       "what's",
       "like"
      ],
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "picture",
-      "find",
       "rain",
+      "find",
       "who"
      ],
      "suggestion": "Yes, it's rainy! Who can find the rain picture?",
@@ -136,9 +136,9 @@
     },
     {
      "keywords": [
-      "cold",
+      "done",
       "well",
-      "done"
+      "cold"
      ],
      "suggestion": "Well done! Rainy and cold.",
      "suggestionFa": "آفرین! بارونی و سرد.",
@@ -219,7 +219,7 @@
       "daddy",
       "after",
       "oscar",
-      "come"
+      "back"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",
@@ -269,7 +269,7 @@
       "swimming",
       "little",
       "ducks",
-      "went"
+      "five"
      ],
      "suggestion": "Five little ducks went swimming one day!",
      "suggestionFa": "پنج اردک کوچولو یه روز رفتن شنا!",

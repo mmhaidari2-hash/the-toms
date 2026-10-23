@@ -22,10 +22,10 @@
     {
      "keywords": [
       "garden",
-      "hands",
       "dirty",
+      "hands",
       "look",
-      "mud"
+      "was"
      ],
      "suggestion": "My hands are dirty! I was in the garden. Look — mud!",
      "suggestionFa": "دستام کثیفه! تو باغ بودم. ببین — گِل!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "reach",
       "can't",
+      "reach",
       "help",
       "can",
       "tap"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "water",
+      "warm",
       "want",
       "cold",
-      "warm",
       "brr"
      ],
      "suggestion": "Brr! It's cold! I want warm water.",
@@ -98,9 +98,9 @@
      "keywords": [
       "seconds",
       "twenty",
-      "mummy",
       "first",
-      "water"
+      "water",
+      "mummy"
      ],
      "suggestion": "First water, then soap. Mummy says twenty seconds.",
      "suggestionFa": "اول آب، بعد صابون. مامان می‌گه بیست ثانیه.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "where's",
-      "clean",
       "towel",
+      "clean",
       "all"
      ],
      "suggestion": "All clean! Where's the towel?",
@@ -174,7 +174,7 @@
       "hands",
       "lunch",
       "when",
-      "wash"
+      "them"
      ],
      "suggestion": "When do you wash your hands? I wash them before lunch.",
      "suggestionFa": "تو کِی دستات را می‌شوری؟ من قبل از ناهار می‌شورم.",
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "biscuit",
-      "tiger",
-      "touch",
       "after",
+      "touch",
+      "tiger",
       "have"
      ],
      "suggestion": "Me too! And after I touch Tiger the cat. Can I have a biscuit now?",

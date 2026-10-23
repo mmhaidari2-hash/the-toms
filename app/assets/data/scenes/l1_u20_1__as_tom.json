@@ -22,9 +22,9 @@
     {
      "keywords": [
       "morning",
-      "work",
       "know",
       "soon",
+      "work",
       "off"
      ],
      "suggestion": "Morning! Off to work soon. Do you know what I do?",
@@ -48,8 +48,8 @@
      "keywords": [
       "through",
       "hackney",
-      "number",
       "driver",
+      "number",
       "drive"
      ],
      "suggestion": "I'm a bus driver. I drive the number 38 bus through Hackney every day.",
@@ -74,8 +74,8 @@
       "hundreds",
       "people",
       "crazy",
-      "love",
-      "most"
+      "most",
+      "days"
      ],
      "suggestion": "I love it, most days! Rush hour is crazy. Hundreds of people!",
      "suggestionFa": "بیشتر روزها عاشقشم! ساعت شلوغی دیوونه‌کننده‌ست. صدها نفر!",
@@ -98,9 +98,9 @@
      "keywords": [
       "sometimes",
       "finish",
-      "start",
+      "three",
       "about",
-      "three"
+      "start"
      ],
      "suggestion": "Sometimes. I start at six and finish at three. What about you? What do you do?",
      "suggestionFa": "گاهی. ساعت شش شروع می‌کنم و سه تموم می‌کنم. تو چی؟ چه کاره‌ای؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "country",
-      "home",
-      "find",
       "back",
-      "easy"
+      "find",
+      "home",
+      "good"
      ],
      "suggestion": "Good for you. It's not easy to find a job in a new country. What did you do back home?",
      "suggestionFa": "آفرین بهت. پیدا کردن کار تو یه کشور جدید آسون نیست. تو کشورت چی کار می‌کردی؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "something",
-      "worker",
       "friend",
-      "you'll",
-      "office"
+      "centre",
+      "office",
+      "worker"
      ],
      "suggestion": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the job centre is great.",
      "suggestionFa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو مرکز کاریابی عالیه.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "government",
-      "people",
       "office",
+      "people",
       "they",
-      "work"
+      "find"
      ],
      "suggestion": "It's a government office. They help people find work. Free!",
      "suggestionFa": "یه ادارهٔ دولتیه. به مردم کمک می‌کنن کار پیدا کنن. رایگان!",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "teatime",
-      "where",
       "right",
-      "keys",
-      "i'll"
+      "where",
+      "here",
+      "keys"
      ],
      "suggestion": "I'll text it to you. Right, I'm off. Where are my keys? Ah, here! See you at teatime!",
      "suggestionFa": "برات پیامکش می‌کنم. خب، من رفتم. کلیدام کجان؟ آه، اینجان! سر شام می‌بینمت!",
@@ -225,7 +225,7 @@
       "nicola",
       "cheers",
       "don't",
-      "eat"
+      "let"
      ],
      "suggestion": "Cheers! Don't let Nicola eat all the biscuits!",
      "suggestionFa": "ممنون! نذار نیکولا همهٔ بیسکویت‌ها را بخوره!",

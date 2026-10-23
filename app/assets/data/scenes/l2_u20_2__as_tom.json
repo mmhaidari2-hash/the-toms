@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "hospitals",
       "riverside",
+      "hospitals",
       "parking",
-      "check",
-      "costs"
+      "lunch",
+      "check"
      ],
      "suggestion": "Here we are, Riverside. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
      "suggestionFa": "رسیدیم، ریورساید. از بیمارستان متنفرم — پارکینگش از ناهارم گرون‌تره. بابا، بشین. می‌تونی پذیرشمون را انجام بدی؟",
@@ -103,10 +103,10 @@
    "branches": [
     {
      "keywords": [
-      "thompson",
       "nineteen",
+      "thompson",
       "surname",
-      "third",
+      "march",
       "birth"
      ],
      "suggestion": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
@@ -131,7 +131,7 @@
       "hospitals",
       "coloured",
       "follow",
-      "floor",
+      "lines",
       "green"
      ],
      "suggestion": "Area C — follow the green line on the floor. Hospitals love coloured lines. Dad, follow the green line!",
@@ -216,7 +216,7 @@
       "running",
       "screen",
       "course",
-      "names"
+      "forty"
      ],
      "suggestion": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
      "suggestionFa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره.",

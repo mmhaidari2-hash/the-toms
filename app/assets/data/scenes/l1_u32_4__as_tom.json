@@ -24,8 +24,8 @@
       "barbecue",
       "saturday",
       "sausages",
-      "people",
-      "twenty"
+      "buying",
+      "people"
      ],
      "suggestion": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
      "suggestionFa": "خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟",
@@ -100,10 +100,10 @@
     {
      "keywords": [
       "burgers",
-      "enough",
       "thirty",
-      "true",
-      "five"
+      "enough",
+      "five",
+      "true"
      ],
      "suggestion": "Ha! True. OK, thirty-five. And burgers. Is ten enough?",
      "suggestionFa": "ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟",
@@ -204,7 +204,7 @@
       "thinking",
       "kebabs",
       "grown",
-      "meat"
+      "plus"
      ],
      "suggestion": "Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat?",
      "suggestionFa": "فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟",
@@ -229,7 +229,7 @@
       "barbecue",
       "leslie",
       "some",
-      "fine"
+      "corn"
      ],
      "suggestion": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
      "suggestionFa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.",
@@ -305,9 +305,9 @@
      "keywords": [
       "leslie's",
       "hackney",
-      "enough",
+      "that's",
       "pounds",
-      "that's"
+      "enough"
      ],
      "suggestion": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
      "suggestionFa": "این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه.",

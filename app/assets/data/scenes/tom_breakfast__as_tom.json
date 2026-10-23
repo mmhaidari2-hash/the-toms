@@ -24,8 +24,8 @@
       "kettle's",
       "morning",
       "boiled",
-      "fancy",
-      "cuppa"
+      "cuppa",
+      "fancy"
      ],
      "suggestion": "Morning! Kettle's just boiled — fancy a cuppa?",
      "suggestionFa": "صبح بخیر! کتری تازه جوش آمده — یک چای می‌خوری؟",
@@ -74,8 +74,8 @@
       "what're",
       "itself",
       "drive",
-      "won't",
-      "right"
+      "right",
+      "today"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "spread's",
-      "warning",
       "toast's",
-      "butter",
-      "spread"
+      "warning",
+      "spread",
+      "butter"
      ],
      "suggestion": "Toast's up. Butter or yeast spread? Fair warning — Yeast spread's a love-it-or-hate-it thing.",
      "suggestionFa": "نان تست آماده است. کره یا کرهٔ مخمر؟ از قبل بگم — کرهٔ مخمر یا عاشقش می‌شی یا ازش متنفری.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
+      "sleep",
       "lorry",
-      "brave",
       "sorry",
-      "sleep"
+      "brave"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "supermarket",
-      "passing",
       "there's",
+      "passing",
       "course",
       "spare"
      ],
@@ -224,7 +224,7 @@
       "skimmed",
       "pints",
       "right",
-      "dash"
+      "i've"
      ],
      "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
      "suggestionFa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!",
@@ -247,8 +247,8 @@
      "keywords": [
       "biscuit",
       "don't",
-      "ryan",
       "have",
+      "ryan",
       "nick"
      ],
      "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",

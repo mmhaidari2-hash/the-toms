@@ -197,8 +197,8 @@
      "keywords": [
       "should",
       "check",
-      "shed",
-      "done"
+      "done",
+      "shed"
      ],
      "suggestion": "Done. Should I check the shed?",
      "suggestionFa": "انجام شد. انباری را چک کنم؟",
@@ -210,8 +210,8 @@
      "keywords": [
       "exclamation",
       "coming",
-      "three",
-      "marks"
+      "marks",
+      "three"
      ],
      "suggestion": "Mrs Khan says \"Coming now!!!\" Three exclamation marks!",
      "suggestionFa": "خانم خان میگه «الان میام!!!» سه تا علامت تعجب!",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "happy",
       "looks",
+      "happy",
       "here",
       "he"
      ],
@@ -296,7 +296,7 @@
       "sleepy",
       "found",
       "tiger",
-      "fine"
+      "he's"
      ],
      "suggestion": "\"Found Tiger! He's fine and very sleepy.\"",
      "suggestionFa": "«تایگر پیدا شد! حالش خوبه و خیلی خواب‌آلوده.»",
@@ -348,9 +348,9 @@
     {
      "keywords": [
       "group",
-      "good",
       "idea",
-      "mute"
+      "mute",
+      "good"
      ],
      "suggestion": "Mute the group. Good idea!",
      "suggestionFa": "گروه را بی‌صدا کنم. فکر خوبیه!",
@@ -363,7 +363,7 @@
       "reminder",
       "first",
       "check",
-      "shed"
+      "just"
      ],
      "suggestion": "Just a reminder for Tom: check the shed first!",
      "suggestionFa": "فقط یه یادآوری برای تام: اول انباری را چک کن!",

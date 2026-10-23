@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "waiting",
       "there's",
+      "waiting",
       "hello",
       "amina",
-      "look"
+      "khan"
      ],
      "suggestion": "Look, there's Mrs Khan in the waiting room. Hello, Amina! Are you OK?",
      "suggestionFa": "ببین، خانم خان تو اتاق انتظاره. سلام آمینا! خوبی؟",
@@ -162,11 +162,11 @@
    "branches": [
     {
      "keywords": [
-      "shopping",
       "anything",
+      "shopping",
       "walking",
-      "tiger",
-      "don't"
+      "don't",
+      "tiger"
      ],
      "suggestion": "Can we do anything? Shopping? Walking Tiger? Ha, cats don't need walking.",
      "suggestionFa": "کاری از دستمون برمیاد؟ خرید؟ گردوندن تایگر؟ ها، گربه‌ها که گردوندن نمی‌خوان.",
@@ -349,8 +349,8 @@
     {
      "keywords": [
       "tonight",
-      "nicola",
       "she'll",
+      "nicola",
       "let's",
       "amina"
      ],

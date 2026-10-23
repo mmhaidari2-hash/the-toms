@@ -20,8 +20,8 @@
     {
      "keywords": [
       "don't",
-      "help",
       "know",
+      "help",
       "can"
      ],
      "suggestion": "I don't know. Can you help me?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "trousers",
-      "think",
-      "shirt"
+      "shirt",
+      "think"
      ],
      "suggestion": "A shirt and trousers, I think.",
      "suggestionFa": "فکر کنم یه پیراهن و شلوار.",
@@ -239,9 +239,9 @@
     {
      "keywords": [
       "instead",
-      "take",
       "i'll",
-      "coat"
+      "coat",
+      "take"
      ],
      "suggestion": "I'll take my coat instead.",
      "suggestionFa": "به جاش کتم را می‌برم.",
@@ -338,8 +338,8 @@
     {
      "keywords": [
       "yesterday",
-      "cleaned",
       "they're",
+      "cleaned",
       "clean"
      ],
      "suggestion": "They're clean. I cleaned them yesterday.",

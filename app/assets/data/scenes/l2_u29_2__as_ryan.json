@@ -51,7 +51,7 @@
       "please",
       "photo",
       "short",
-      "skin",
+      "like",
       "fade"
      ],
      "suggestion": "Er… a skin fade, please. Like this photo. But… not too short.",
@@ -178,9 +178,9 @@
      "keywords": [
       "scissors",
       "length",
-      "just",
+      "yeah",
       "keep",
-      "yeah"
+      "tidy"
      ],
      "suggestion": "Yeah, scissors on top. Just tidy it. Keep the length.",
      "suggestionFa": "آره، بالا قیچی. فقط مرتبش کن. بلندی را نگه دار.",
@@ -304,11 +304,11 @@
    "branches": [
     {
      "keywords": [
-      "front",
       "still",
+      "front",
       "could",
       "more",
-      "long"
+      "take"
      ],
      "suggestion": "Could you take a bit more off the top? It's still a bit long at the front.",
      "suggestionFa": "میشه یه‌کم بیشتر از بالا کوتاه کنی؟ جلوش هنوز یه‌کم بلنده.",
@@ -372,11 +372,11 @@
    "branches": [
     {
      "keywords": [
+      "change",
       "that's",
       "twenty",
-      "change",
       "right",
-      "keep"
+      "five"
      ],
      "suggestion": "Mum gave me twenty-five. Keep the change, Sal. That's a tip. Right?",
      "suggestionFa": "مامان بیست و پنج داد. باقیش مال خودت سال. انعامه. درسته؟",

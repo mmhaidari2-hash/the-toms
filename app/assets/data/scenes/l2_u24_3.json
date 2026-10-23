@@ -138,10 +138,10 @@
     },
     {
      "keywords": [
-      "sounds",
       "ticket",
-      "easy",
-      "type"
+      "sounds",
+      "type",
+      "easy"
      ],
      "suggestion": "Type, ticket, board. Sounds easy!",
      "suggestionFa": "تایپ، برگه، تابلو. آسون به نظر میاد!",
@@ -180,8 +180,8 @@
     {
      "keywords": [
       "usually",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long does it usually take?",
@@ -291,8 +291,8 @@
     {
      "keywords": [
       "reserved",
-      "great",
       "carry",
+      "great",
       "home"
      ],
      "suggestion": "Reserved. Great. How do I carry it home?",

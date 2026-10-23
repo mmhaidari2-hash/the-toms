@@ -68,8 +68,8 @@
     {
      "keywords": [
       "pounds",
-      "get",
       "two",
+      "get",
       "one"
      ],
      "suggestion": "Two pounds! How do I get one?",
@@ -128,8 +128,8 @@
      "keywords": [
       "number",
       "phone",
-      "give",
-      "have"
+      "have",
+      "give"
      ],
      "suggestion": "Do I have to give my phone number?",
      "suggestionFa": "باید شمارهٔ تلفنم را بدم؟",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "great",
-      "card",
       "i'll",
+      "card",
       "by"
      ],
      "suggestion": "Great! I'll pay by card.",
@@ -285,9 +285,9 @@
     },
     {
      "keywords": [
-      "that's",
-      "better",
       "hourly",
+      "better",
+      "that's",
       "than"
      ],
      "suggestion": "That's better than my hourly pay!",

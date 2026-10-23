@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "absence",
+      "calling",
       "report",
       "won't"
      ],
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "friend",
+      "family",
       "added",
       "last"
      ],
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "asked",
-      "call",
-      "sure"
+      "sure",
+      "call"
      ],
      "suggestion": "I'm not sure. Leslie asked me to call.",
      "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "will",
       "able",
+      "will",
       "she"
      ],
      "suggestion": "Will she still be able to go?",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
+      "thank",
       "great",
-      "would",
-      "thank"
+      "would"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

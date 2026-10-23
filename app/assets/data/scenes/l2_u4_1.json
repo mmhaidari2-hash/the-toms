@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "have",
       "i'll",
-      "tea",
-      "pot"
+      "have",
+      "pot",
+      "tea"
      ],
      "suggestion": "I'll have a pot of tea, please.",
      "suggestionFa": "یه قوری چای می‌خوام لطفاً.",
@@ -141,8 +141,8 @@
     },
     {
      "keywords": [
-      "normal",
       "thanks",
+      "normal",
       "fine"
      ],
      "suggestion": "Normal is fine, thanks.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "phone",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by phone?",

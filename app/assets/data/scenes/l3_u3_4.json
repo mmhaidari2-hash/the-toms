@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "say",
-      "did",
       "why",
+      "did",
+      "say",
       "he"
      ],
      "suggestion": "Did he say why?",
@@ -176,9 +176,9 @@
    "branches": [
     {
      "keywords": [
+      "sign",
       "come",
-      "i'll",
-      "sign"
+      "i'll"
      ],
      "suggestion": "I'll sign it. And I'll come with you.",
      "suggestionFa": "امضاش می‌کنم. و باهاتون میام.",
@@ -229,8 +229,8 @@
      "keywords": [
       "listen",
       "we'll",
-      "they",
-      "have"
+      "have",
+      "they"
      ],
      "suggestion": "We'll all go. They have to listen to us.",
      "suggestionFa": "همه می‌ریم. باید به حرفمون گوش کنن.",
@@ -240,10 +240,10 @@
     },
     {
      "keywords": [
-      "drive",
       "there",
-      "told",
-      "he'd"
+      "drive",
+      "he'd",
+      "told"
      ],
      "suggestion": "Tom told me he'd drive us there.",
      "suggestionFa": "تام بهم گفت ما را می‌رسونه.",

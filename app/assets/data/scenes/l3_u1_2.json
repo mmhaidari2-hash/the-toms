@@ -22,7 +22,7 @@
       "restaurant",
       "worked",
       "years",
-      "home"
+      "back"
      ],
      "suggestion": "Yes, I worked in a restaurant back home for two years.",
      "suggestionFa": "آره، تو کشور خودم دو سال تو یه رستوران کار کردم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "never",
-      "did",
       "get",
+      "did",
       "how"
      ],
      "suggestion": "No, never. How did you get it?",
@@ -75,8 +75,8 @@
      "keywords": [
       "found",
       "have",
-      "far",
-      "how"
+      "how",
+      "far"
      ],
      "suggestion": "How have you found it so far?",
      "suggestionFa": "تا حالا چطور بوده؟",
@@ -133,8 +133,8 @@
      "keywords": [
       "actually",
       "barista",
-      "before",
-      "worked"
+      "worked",
+      "before"
      ],
      "suggestion": "I've worked as a barista before, actually.",
      "suggestionFa": "راستش قبلاً باریستا بودم.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
-      "paid",
       "have",
       "they",
+      "paid",
       "yet"
      ],
      "suggestion": "Have they paid you yet?",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "thanks",
-      "one",
       "owe",
+      "one",
       "al"
      ],
      "suggestion": "Thanks, Al. I owe you one.",

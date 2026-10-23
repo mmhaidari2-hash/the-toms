@@ -34,8 +34,8 @@
      "keywords": [
       "there",
       "shops",
-      "kai",
-      "map"
+      "map",
+      "kai"
      ],
      "suggestion": "Hi Kai. Is there a map of the shops?",
      "suggestionFa": "سلام کای. نقشهٔ فروشگاه‌ها هست؟",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "shoes",
       "which",
+      "shoes",
       "see"
      ],
      "suggestion": "I see it. Which floor are the shoes on?",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "measure",
-      "useful",
       "that's",
+      "useful",
       "feet"
      ],
      "suggestion": "They measure feet? That's useful.",
@@ -311,10 +311,10 @@
     },
     {
      "keywords": [
-      "shoe",
-      "shop",
       "busy",
-      "good"
+      "shoe",
+      "good",
+      "shop"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
      "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "counter",
-      "deli",
-      "like"
+      "like",
+      "deli"
      ],
      "suggestion": "A ticket? Like at the deli counter?",
      "suggestionFa": "نوبت؟ مثل پیشخوان اغذیه؟",

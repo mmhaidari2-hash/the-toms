@@ -21,8 +21,8 @@
      "keywords": [
       "wheelchair",
       "priority",
-      "has",
-      "who"
+      "who",
+      "has"
      ],
      "suggestion": "Who has priority, the wheelchair or the pushchair?",
      "suggestionFa": "کی اولویت داره، ویلچر یا کالسکه؟",
@@ -75,8 +75,8 @@
    "branches": [
     {
      "keywords": [
-      "fold",
       "help",
+      "fold",
       "can",
       "her"
      ],
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "course",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Of course. Come here, William.",
      "suggestionFa": "البته. بیا اینجا ویلیام.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
+      "fold",
       "i'll",
-      "hold",
-      "fold"
+      "hold"
      ],
      "suggestion": "I'll fold it. You hold William.",
      "suggestionFa": "من تاش می‌کنم. تو ویلیام را بغل کن.",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "we're",
       "going",
+      "we're",
       "home"
      ],
      "suggestion": "We're going home, William.",
@@ -204,8 +204,8 @@
     {
      "keywords": [
       "look",
-      "shh",
-      "man"
+      "man",
+      "shh"
      ],
      "suggestion": "Shh, William. Look at the man!",
      "suggestionFa": "هیس ویلیام. اون آقا را ببین!",
@@ -240,9 +240,9 @@
     {
      "keywords": [
       "didn't",
-      "ramp",
       "know",
-      "bus"
+      "ramp",
+      "has"
      ],
      "suggestion": "The bus has a ramp? I didn't know!",
      "suggestionFa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "wheels",
-      "three",
+      "loves",
       "sorry",
-      "loves"
+      "three"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",
@@ -352,9 +352,9 @@
     {
      "keywords": [
       "william",
+      "sure",
       "hold",
-      "hand",
-      "sure"
+      "hand"
      ],
      "suggestion": "Sure. William, hold my hand.",
      "suggestionFa": "حتماً. ویلیام، دستم را بگیر.",

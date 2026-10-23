@@ -22,10 +22,10 @@
     {
      "keywords": [
       "morning",
-      "watch",
       "can't",
-      "time",
-      "find"
+      "watch",
+      "find",
+      "time"
      ],
      "suggestion": "Morning! What time is it? I can't find my watch.",
      "suggestionFa": "صبح بخیر! ساعت چنده؟ ساعتم را پیدا نمی‌کنم.",
@@ -49,8 +49,8 @@
       "quarter",
       "eight",
       "train",
-      "past",
-      "late"
+      "half",
+      "past"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
      "suggestionFa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "quick",
       "table",
+      "quick",
+      "where",
       "keys",
       "they"
      ],
@@ -99,8 +99,8 @@
       "finish",
       "thanks",
       "today",
-      "time",
-      "them"
+      "them",
+      "time"
      ],
      "suggestion": "Got them, thanks! What time do you finish today?",
      "suggestionFa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "shepherd's",
-      "lovely",
       "making",
+      "lovely",
       "nana's",
       "don't"
      ],
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "right",
-      "see",
       "bye",
       "six",
+      "see",
       "off"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
@@ -173,8 +173,8 @@
      "keywords": [
       "time's",
       "cheers",
-      "clock",
       "silly",
+      "clock",
       "oven"
      ],
      "suggestion": "Oh — the time's on the oven clock! Silly me. Cheers!",

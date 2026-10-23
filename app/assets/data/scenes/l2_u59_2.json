@@ -33,8 +33,8 @@
      "keywords": [
       "football",
       "really",
-      "here",
-      "into"
+      "into",
+      "just"
      ],
      "suggestion": "I'm not really into football. I'm just here for Tom.",
      "suggestionFa": "زیاد اهل فوتبال نیستم. فقط به‌خاطر تام اینجام.",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "where's",
-      "orient",
-      "leyton"
+      "leyton",
+      "orient"
      ],
      "suggestion": "Leyton Orient? Where's that?",
      "suggestionFa": "لیتون اورینت؟ کجاست؟",
@@ -97,7 +97,7 @@
      "keywords": [
       "years",
       "forty",
-      "they",
+      "good",
       "team"
      ],
      "suggestion": "Forty years! Are they a good team?",
@@ -185,7 +185,7 @@
       "ground",
       "rovers",
       "isn't",
-      "here"
+      "from"
      ],
      "suggestion": "The Rovers ground isn't far from here, is it?",
      "suggestionFa": "روورز از هکنی دور نیست، نه؟",
@@ -195,8 +195,8 @@
     },
     {
      "keywords": [
-      "supports",
       "everyone",
+      "supports",
       "rivals",
       "their"
      ],
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "when's",
-      "home",
       "game",
-      "next"
+      "next",
+      "home"
      ],
      "suggestion": "I'd love to! When's the next home game?",
      "suggestionFa": "خیلی دوست دارم! بازی خونگی بعدی کیه؟",
@@ -293,8 +293,8 @@
     },
     {
      "keywords": [
-      "will",
       "they",
+      "will",
       "win"
      ],
      "suggestion": "Will they win?",

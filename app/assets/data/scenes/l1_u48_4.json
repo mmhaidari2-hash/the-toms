@@ -20,9 +20,9 @@
     {
      "keywords": [
       "there",
-      "time",
-      "once",
-      "bird"
+      "bird",
+      "upon",
+      "time"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
      "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
@@ -76,7 +76,7 @@
       "simorgh",
       "bigger",
       "house",
-      "name"
+      "than"
      ],
      "suggestion": "Bigger than a house! Her name was Simorgh.",
      "suggestionFa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود.",
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "magic",
-      "nest",
-      "tree"
+      "tree",
+      "nest"
      ],
      "suggestion": "In a nest in a magic tree.",
      "suggestionFa": "تو یه لونه رو یه درخت جادویی.",
@@ -180,8 +180,8 @@
      "keywords": [
       "people",
       "scary",
-      "bad",
-      "but"
+      "but",
+      "bad"
      ],
      "suggestion": "She was kind, but she was scary to bad people!",
      "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
@@ -218,7 +218,7 @@
       "little",
       "found",
       "boy",
-      "day"
+      "one"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "food",
       "gave",
+      "warm",
       "kept",
-      "warm"
+      "food"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "became",
-      "hero",
       "grew",
+      "hero",
       "he"
      ],
      "suggestion": "He grew up and became a hero.",

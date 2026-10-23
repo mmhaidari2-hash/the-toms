@@ -25,7 +25,7 @@
       "sleep",
       "point",
       "need",
-      "but"
+      "see"
      ],
      "suggestion": "I see your point, but you need your sleep for school.",
      "suggestionFa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری.",
@@ -36,9 +36,9 @@
     {
      "keywords": [
       "really",
-      "you'd",
-      "don't",
-      "tired"
+      "tired",
+      "agree",
+      "don't"
      ],
      "suggestion": "I don't agree — you'd be really tired at school.",
      "suggestionFa": "موافق نیستم — تو مدرسه خیلی خسته می‌شی.",
@@ -75,8 +75,8 @@
      "keywords": [
       "fifteen",
       "ryan's",
-      "older",
-      "later"
+      "later",
+      "older"
      ],
      "suggestion": "Ryan's older. When you're fifteen, you can stay up later too.",
      "suggestionFa": "رایان بزرگ‌تره. وقتی پونزده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی.",
@@ -89,7 +89,7 @@
       "afraid",
       "always",
       "isn't",
-      "life"
+      "fair"
      ],
      "suggestion": "Life isn't always fair, I'm afraid.",
      "suggestionFa": "زندگی همیشه عادلانه نیست، متأسفانه.",
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "catch",
       "watch",
+      "catch",
       "next",
-      "day"
+      "can"
      ],
      "suggestion": "You can watch it the next day on catch-up.",
      "suggestionFa": "می‌تونی روز بعد تو اپ پخش مجدد ببینیش.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "because",
-      "school",
       "starts",
+      "school",
       "early"
      ],
      "suggestion": "They go to bed early because school starts very early.",
@@ -341,8 +341,8 @@
      "keywords": [
       "together",
       "let's",
-      "dad",
-      "ask"
+      "mum",
+      "dad"
      ],
      "suggestion": "Let's ask your mum and dad together.",
      "suggestionFa": "بیا با هم از مامان و بابات بپرسیم.",

@@ -34,8 +34,8 @@
      "keywords": [
       "throat",
       "cough",
-      "days",
-      "sore"
+      "sore",
+      "days"
      ],
      "suggestion": "I've had a sore throat and a cough for a few days.",
      "suggestionFa": "چند روزه گلودرد و سرفه دارم.",
@@ -258,7 +258,7 @@
       "anything",
       "that's",
       "there",
-      "fine"
+      "eyes"
      ],
      "suggestion": "That's fine. Is there anything for my eyes too?",
      "suggestionFa": "باشه. برای چشمام هم چیزی هست؟",
@@ -271,7 +271,7 @@
       "should",
       "take",
       "them",
-      "okay"
+      "long"
      ],
      "suggestion": "Okay. How long should I take them for?",
      "suggestionFa": "باشه. چه مدت باید بخورمشون؟",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thank",
-      "they",
       "much",
+      "they",
       "how"
      ],
      "suggestion": "Thank you. How much are they?",

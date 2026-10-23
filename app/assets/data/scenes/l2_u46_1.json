@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where",
-      "i'll",
       "help",
+      "i'll",
       "her"
      ],
      "suggestion": "I'll help. Where are her shoes?",
@@ -89,9 +89,9 @@
     {
      "keywords": [
       "upstairs",
+      "help",
       "look",
-      "i'll",
-      "help"
+      "i'll"
      ],
      "suggestion": "I'll look upstairs. Nicola, help me!",
      "suggestionFa": "من طبقهٔ بالا را می‌گردم. نیکولا، کمکم کن!",
@@ -182,8 +182,8 @@
      "keywords": [
       "reading",
       "table",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can see the reading book on the table.",
      "suggestionFa": "کتاب خوندن را رو میز می‌بینم.",
@@ -341,8 +341,8 @@
    "branches": [
     {
      "keywords": [
-      "luck",
       "good",
+      "luck",
       "bye"
      ],
      "suggestion": "Bye! Good luck!",

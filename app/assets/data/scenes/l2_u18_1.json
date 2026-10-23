@@ -20,8 +20,8 @@
     {
      "keywords": [
       "angel",
-      "tom",
       "bus",
+      "tom",
       "hi"
      ],
      "suggestion": "Hi, Tom! Does this bus go to Angel?",
@@ -71,8 +71,8 @@
      "keywords": [
       "paying",
       "phone",
-      "ok",
-      "by"
+      "by",
+      "ok"
      ],
      "suggestion": "I'm paying by phone. Is that OK?",
      "suggestionFa": "با گوشی پرداخت می‌کنم. اشکالی نداره؟",
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "street",
-      "upper",
       "which",
+      "upper",
       "stop"
      ],
      "suggestion": "Which stop is best for Upper Street?",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "hall",
-      "sure",
       "town",
-      "near"
+      "sure",
+      "near",
+      "hall"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
      "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
@@ -186,7 +186,7 @@
       "minutes",
       "twenty",
       "that's",
-      "fine"
+      "five"
      ],
      "suggestion": "Twenty-five minutes. That's fine.",
      "suggestionFa": "بیست و پنج دقیقه. خوبه.",
@@ -234,9 +234,9 @@
     {
      "keywords": [
       "something",
-      "drive",
       "while",
-      "ask"
+      "drive",
+      "can"
      ],
      "suggestion": "Ha! Can I ask you something while you drive?",
      "suggestionFa": "ها! وقتی رانندگی می‌کنی می‌تونم یه چیزی بپرسم؟",
@@ -289,8 +289,8 @@
      "keywords": [
       "coming",
       "right",
-      "side",
-      "back"
+      "back",
+      "side"
      ],
      "suggestion": "OK. Is this the right side for coming back?",
      "suggestionFa": "باشه. برای برگشتن همین طرفه؟",

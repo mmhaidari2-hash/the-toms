@@ -86,8 +86,8 @@
     {
      "keywords": [
       "should",
-      "little",
       "always",
+      "little",
       "carry"
      ],
      "suggestion": "So I should always carry a little cash.",
@@ -133,7 +133,7 @@
       "cashpoint",
       "charges",
       "nearby",
-      "money"
+      "there"
      ],
      "suggestion": "It charges money? Is there a free cashpoint nearby?",
      "suggestionFa": "پول می‌گیره؟ این نزدیکی خودپرداز رایگان هست؟",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "ninety",
-      "cash",
+      "nine",
       "just",
-      "nine"
+      "cash"
      ],
      "suggestion": "One ninety-nine just to get cash?",
      "suggestionFa": "یک و نود و نه فقط برای گرفتن پول؟",
@@ -198,7 +198,7 @@
       "coffee",
       "there",
       "let's",
-      "then"
+      "card"
      ],
      "suggestion": "OK. Then let's get a coffee. Can I pay by card there?",
      "suggestionFa": "باشه. بعد بریم قهوه بگیریم. اونجا می‌تونم با کارت بدم؟",
@@ -209,9 +209,9 @@
     {
      "keywords": [
       "cashpoints",
-      "bank",
       "free",
-      "good"
+      "good",
+      "bank"
      ],
      "suggestion": "Good tip. Bank cashpoints are free.",
      "suggestionFa": "نکتهٔ خوبیه. خودپردازهای بانک رایگانن.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "taking",
-      "time",
       "long",
-      "need"
+      "help",
+      "time"
      ],
      "suggestion": "Do you need help? You're taking a long time!",
      "suggestionFa": "کمک لازم داری؟ خیلی طولش دادی!",
@@ -264,8 +264,8 @@
      "keywords": [
       "keypad",
       "cover",
-      "type",
-      "when"
+      "when",
+      "type"
      ],
      "suggestion": "Cover the keypad when you type your PIN.",
      "suggestionFa": "وقتی رمزت را می‌زنی صفحه‌کلید را بپوشون.",
@@ -316,8 +316,8 @@
      "keywords": [
       "thirty",
       "market",
-      "take",
-      "i'll"
+      "i'll",
+      "take"
      ],
      "suggestion": "I'll take thirty for the market.",
      "suggestionFa": "من سی تا برای بازار می‌گیرم.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "what's",
+      "course",
       "leek"
      ],
      "suggestion": "Of course. What's a leek?",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "like",
-      "sure"
+      "sure",
+      "like"
      ],
      "suggestion": "Sure. Like this?",
      "suggestionFa": "حتماً. این‌جوری؟",
@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "problem",
+      "where's",
       "peeler"
      ],
      "suggestion": "No problem. Where's the peeler?",
@@ -172,8 +172,8 @@
      "keywords": [
       "there's",
       "inside",
-      "mud",
-      "one"
+      "one",
+      "mud"
      ],
      "suggestion": "There's mud inside this one!",
      "suggestionFa": "تو این یکی گله!",
@@ -219,8 +219,8 @@
     },
     {
      "keywords": [
-      "pan",
-      "big"
+      "big",
+      "pan"
      ],
      "suggestion": "In the big pan?",
      "suggestionFa": "تو قابلمهٔ بزرگ؟",

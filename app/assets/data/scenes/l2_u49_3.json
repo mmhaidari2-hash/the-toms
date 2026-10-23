@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "recipe",
-      "love",
-      "sure"
+      "sure",
+      "love"
      ],
      "suggestion": "Sure. I love cooking. Where's the recipe?",
      "suggestionFa": "حتماً. عاشق آشپزی‌ام. دستورش کجاست؟",
@@ -89,9 +89,9 @@
     {
      "keywords": [
       "fridge",
-      "first",
       "onion",
-      "helps"
+      "helps",
+      "first"
      ],
      "suggestion": "Put the onion in the fridge first. It helps!",
      "suggestionFa": "اول پیاز را بذار تو یخچال. کمک می‌کنه!",
@@ -143,8 +143,8 @@
      "keywords": [
       "stirring",
       "golden",
-      "brown",
-      "until"
+      "until",
+      "brown"
      ],
      "suggestion": "Until golden. Not brown! Keep stirring.",
      "suggestionFa": "تا طلایی. نه قهوه‌ای! هم بزن.",
@@ -212,8 +212,8 @@
      "keywords": [
       "turmeric",
       "iran",
-      "use",
-      "lot"
+      "lot",
+      "use"
      ],
      "suggestion": "We use turmeric in Iran too! A lot!",
      "suggestionFa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "william",
-      "eating",
       "nicola",
+      "eating",
       "three"
      ],
      "suggestion": "Three? William and Nicola are eating too!",
@@ -284,7 +284,7 @@
       "later",
       "start",
       "more",
-      "one"
+      "add"
      ],
      "suggestion": "Start with one. You can add more later.",
      "suggestionFa": "با یکی شروع کن. بعداً می‌تونی بیشتر اضافه کنی.",
@@ -379,10 +379,10 @@
    "branches": [
     {
      "keywords": [
-      "lemon",
       "needs",
-      "salt",
-      "more"
+      "lemon",
+      "more",
+      "salt"
      ],
      "suggestion": "It needs a bit more salt. And lemon!",
      "suggestionFa": "یه کم نمک بیشتر می‌خواد. و لیمو!",
@@ -393,8 +393,8 @@
     {
      "keywords": [
       "delicious",
-      "chef",
-      "ryan"
+      "ryan",
+      "chef"
      ],
      "suggestion": "It's delicious! You're a chef, Ryan!",
      "suggestionFa": "خوشمزه‌ست! تو آشپزی رایان!",
@@ -434,8 +434,8 @@
      "keywords": [
       "persian",
       "leave",
-      "best",
-      "rice"
+      "rice",
+      "best"
      ],
      "suggestion": "Leave the rice to me. Persian rice is the best!",
      "suggestionFa": "برنج را بسپار به من. برنج ایرانی بهترینه!",
@@ -446,9 +446,9 @@
     {
      "keywords": [
       "first",
-      "show",
+      "wash",
       "i'll",
-      "wash"
+      "show"
      ],
      "suggestion": "I'll show you. Wash it first.",
      "suggestionFa": "نشونت میدم. اول بشورش.",

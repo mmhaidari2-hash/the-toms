@@ -21,8 +21,8 @@
      "keywords": [
       "maggie",
       "hello",
-      "only",
-      "some"
+      "some",
+      "only"
      ],
      "suggestion": "Hello, Maggie! Why only some?",
      "suggestionFa": "سلام مگی! چرا فقط بعضی‌هاش؟",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "bennett",
-      "he's",
+      "kind",
       "help",
-      "kind"
+      "he's"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
      "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "course",
-      "have",
       "card",
+      "have",
       "got"
      ],
      "suggestion": "Of course. Have you got your library card?",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "first",
-      "open",
       "sure",
+      "open",
       "app"
      ],
      "suggestion": "Sure. First, open the library app.",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "still",
       "works",
+      "still",
       "here",
       "ha"
      ],
@@ -240,8 +240,8 @@
     },
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "i'll"
      ],
      "suggestion": "Don't worry. I'll type the number for you.",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "renew",
-      "press"
+      "press",
+      "renew"
      ],
      "suggestion": "Yes. Press \"renew all\".",
      "suggestionFa": "آره. «تمدید همه» را بزن.",

@@ -30,8 +30,8 @@
     {
      "keywords": [
       "restaurant",
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see. Is it the wrong restaurant?",
      "suggestionFa": "بذار ببینم. رستورانش اشتباهه؟",
@@ -66,8 +66,8 @@
     {
      "keywords": [
       "veggie",
-      "since",
       "asked",
+      "since",
       "when"
      ],
      "suggestion": "You asked for veggie? Since when?",
@@ -169,8 +169,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
-      "press"
+      "press",
+      "first"
      ],
      "suggestion": "Press \"wrong item\" first.",
      "suggestionFa": "اول «قلم اشتباه» را بزن.",
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
-      "photo",
       "taken",
       "click",
+      "photo",
       "ok"
      ],
      "suggestion": "OK. Click! Photo taken.",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "course",
-      "phone",
       "doris",
-      "see"
+      "phone",
+      "let"
      ],
      "suggestion": "Of course, Doris. Let me see your phone.",
      "suggestionFa": "البته دوریس. گوشیتون را ببینم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "street",
       "north",
-      "mare",
-      "head"
+      "head",
+      "mare"
      ],
      "suggestion": "It says, \"Head north on Mare Street.\"",
      "suggestionFa": "میگه «به سمت شمال خیابون مِیر برید.»",
@@ -138,10 +138,10 @@
     },
     {
      "keywords": [
-      "let's",
       "moves",
+      "let's",
       "walk",
-      "see"
+      "dot"
      ],
      "suggestion": "Let's walk and see if the dot moves.",
      "suggestionFa": "بیاید راه بریم ببینیم نقطه تکون می‌خوره.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "hundred",
+      "morning",
       "metres",
       "onto"
      ],
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "after",
-      "bank",
       "sign",
-      "see"
+      "bank",
+      "can"
      ],
      "suggestion": "Turn left after the bank. I can see the sign.",
      "suggestionFa": "بعد از بانک به چپ بپیچید. تابلو را می‌بینم.",
@@ -252,8 +252,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "we've",
+      "let's",
       "back",
       "turn"
      ],
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "second",
+      "just",
       "slow",
-      "wait",
-      "just"
+      "wait"
      ],
      "suggestion": "No, it's just slow. Wait one second.",
      "suggestionFa": "نه، فقط کنده. یه ثانیه صبر کنید.",
@@ -364,8 +364,8 @@
      "keywords": [
       "appointment",
       "here",
-      "luck",
-      "good"
+      "good",
+      "luck"
      ],
      "suggestion": "Here it is! Good luck with your appointment.",
      "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",

@@ -23,9 +23,9 @@
      "keywords": [
       "puddles",
       "stopped",
-      "rain",
-      "look",
-      "jump"
+      "jump",
+      "them",
+      "rain"
      ],
      "suggestion": "Look! Big puddles! The rain stopped. Can we jump in them?",
      "suggestionFa": "ببین! چاله‌های آب بزرگ! بارون بند اومد. می‌تونیم توشون بپریم؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "wellies",
       "splash",
-      "ready",
       "three",
+      "ready",
       "two"
      ],
      "suggestion": "Yes! Wellies on! Ready? One, two, three… SPLASH!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cartoon",
-      "jump",
       "like",
-      "big",
-      "now"
+      "jump",
+      "now",
+      "one"
      ],
      "suggestion": "Like the pig in the cartoon! Now you jump! In the big one!",
      "suggestionFa": "مثل کارتون خوکه! حالا تو بپر! تو اون بزرگه!",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "rainbow",
+      "trees",
       "above",
       "there",
-      "trees",
       "look"
      ],
      "suggestion": "Look! A rainbow! Over there, above the trees!",
@@ -145,9 +145,9 @@
    "branches": [
     {
      "keywords": [
-      "purple",
-      "yellow",
       "orange",
+      "yellow",
+      "purple",
       "green",
       "blue"
      ],
@@ -172,9 +172,9 @@
      "keywords": [
       "wellies",
       "inside",
-      "socks",
       "seven",
-      "brrr"
+      "socks",
+      "cold"
      ],
      "suggestion": "Seven! Brrr. I'm cold now. My socks are wet inside my wellies.",
      "suggestionFa": "هفت تا! بررر. الان سردمه. جوراب‌هام تو چکمه خیس شدن.",
@@ -197,9 +197,9 @@
      "keywords": [
       "chocolate",
       "jumped",
-      "let's",
       "silly",
-      "home"
+      "let's",
+      "warm"
      ],
      "suggestion": "Yes! I jumped too high! Silly me! Let's go home for a warm bath and hot chocolate!",
      "suggestionFa": "آره! خیلی بالا پریدم! چه خنگم! بیا بریم خونه یه حموم گرم و هات چاکلت!",

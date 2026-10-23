@@ -67,10 +67,10 @@
    "branches": [
     {
      "keywords": [
-      "driving",
       "weather",
-      "food",
-      "left"
+      "driving",
+      "left",
+      "food"
      ],
      "suggestion": "The food, the weather, and driving on the left!",
      "suggestionFa": "غذا، هوا، و رانندگی از سمت چپ!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "wrong",
+      "first",
       "took",
       "day"
      ],
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "anyone",
+      "didn't",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -235,8 +235,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "chips",
+      "great",
       "fish",
       "ate"
      ],
@@ -250,8 +250,8 @@
      "keywords": [
       "cooked",
       "didn't",
-      "shops",
-      "every"
+      "every",
+      "shops"
      ],
      "suggestion": "I cooked rice every day. I didn't know the shops.",
      "suggestionFa": "هر روز برنج پختم. مغازه‌ها را نمی‌شناختم.",
@@ -292,7 +292,7 @@
       "people",
       "sorry",
       "time",
-      "say"
+      "all"
      ],
      "suggestion": "People say \"sorry\" all the time!",
      "suggestionFa": "مردم مدام میگن «ببخشید»!",
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "even",
-      "stop"
+      "stop",
+      "even"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",

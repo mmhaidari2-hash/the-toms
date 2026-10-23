@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "desperate",
       "william's",
+      "desperate",
       "calling",
       "hello",
-      "wave"
+      "meet"
      ],
      "suggestion": "You're calling your mum? Can we say hello? I'd love to meet her! William's desperate to wave.",
      "suggestionFa": "داری به مامانت زنگ می‌زنی؟ می‌تونیم سلام کنیم؟ خیلی دوست دارم ببینمش! ویلیام برای دست تکون دادن بی‌تابه.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "midnight",
-      "forget",
       "always",
-      "three",
+      "forget",
+      "thing",
       "awake"
      ],
      "suggestion": "Midnight? Oh, poor thing — is she awake? Three and a half hours ahead. I always forget.",
@@ -73,9 +73,9 @@
      "keywords": [
       "ringing",
       "lovely",
-      "there",
+      "she's",
       "hello",
-      "she's"
+      "bless"
      ],
      "suggestion": "Bless her. OK, it's ringing… There she is! Hello! Oh, she's lovely! Can you hear me? Hello, Mrs…?",
      "suggestionFa": "خدا حفظش کنه. باشه، داره زنگ می‌خوره… ایناهاش! سلام! اوه، چه نازه! صدام را می‌شنوید؟ سلام خانم…؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "wonderful",
       "picture's",
+      "wonderful",
       "parvin",
-      "frozen",
-      "family"
+      "family",
+      "frozen"
      ],
      "suggestion": "Hello, Parvin! Your son is wonderful. He's like family. Oh — she's frozen. The picture's stuck.",
      "suggestionFa": "سلام پروین! پسرت فوق‌العاده‌ست. مثل خانواده‌ست. اوه — تصویرش ثابت مونده. تصویر گیر کرده.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "william",
-      "mummy",
       "audio",
       "hello",
-      "first"
+      "first",
+      "maybe"
      ],
      "suggestion": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to {you}'s mummy!",
      "suggestionFa": "دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ {you} سلام کن!",
@@ -262,7 +262,7 @@
       "saying",
       "she's",
       "tell",
-      "did"
+      "she"
      ],
      "suggestion": "Ha! She's saying something. What did she say? Tell me!",
      "suggestionFa": "ها! داره یه چیزی میگه. چی گفت؟ بهم بگو!",
@@ -286,8 +286,8 @@
       "goodnight",
       "pleasure",
       "parvin",
-      "visit",
-      "merci"
+      "merci",
+      "right"
      ],
      "suggestion": "Oh, tell her it's our pleasure. And tell her we'd love to visit. One day! Goodnight, Parvin! Merci! Did I say that right?",
      "suggestionFa": "اوه، بهش بگو باعث افتخار ماست. و بگو خیلی دوست داریم بیایم. یه روز! شب بخیر پروین! مرسی! درست گفتم؟",

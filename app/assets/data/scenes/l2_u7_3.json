@@ -74,8 +74,8 @@
      "keywords": [
       "play",
       "team",
-      "use",
-      "did"
+      "did",
+      "use"
      ],
      "suggestion": "Did you use to play for a team?",
      "suggestionFa": "تو تیم بازی می‌کردید؟",
@@ -106,9 +106,9 @@
     {
      "keywords": [
       "didn't",
-      "they",
+      "have",
       "ball",
-      "have"
+      "they"
      ],
      "suggestion": "A tin can? Didn't they have a ball?",
      "suggestionFa": "قوطی حلبی؟ توپ نداشتن؟",
@@ -225,8 +225,8 @@
      "keywords": [
       "happened",
       "doing",
-      "were",
-      "when"
+      "when",
+      "were"
      ],
      "suggestion": "What were you doing when it happened?",
      "suggestionFa": "وقتی اتفاق افتاد داشتید چی کار می‌کردید؟",
@@ -269,8 +269,8 @@
      "keywords": [
       "broken",
       "lucky",
-      "leg",
-      "was"
+      "was",
+      "leg"
      ],
      "suggestion": "So the broken leg was lucky!",
      "suggestionFa": "پس پای شکسته شانس بود!",

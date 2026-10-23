@@ -75,8 +75,8 @@
      "keywords": [
       "bother",
       "sorry",
-      "bit",
-      "but"
+      "but",
+      "bit"
      ],
      "suggestion": "Sorry to bother you, but it's a bit cold.",
      "suggestionFa": "ببخشید مزاحم میشم، ولی یه کم سرده.",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "another",
-      "that's",
       "please",
+      "that's",
       "could"
      ],
      "suggestion": "That's OK. Could I have another one, please?",
@@ -155,8 +155,8 @@
     {
      "keywords": [
       "lukewarm",
-      "drinks",
       "coffee",
+      "drinks",
       "who"
      ],
      "suggestion": "Lukewarm? Who drinks lukewarm coffee?",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "worries",
       "machine",
+      "worries",
       "coffee",
       "new"
      ],
@@ -208,9 +208,9 @@
     },
     {
      "keywords": [
-      "worry",
+      "don't",
       "hurry",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry, I'm not in a hurry.",
      "suggestionFa": "نگران نباش، عجله ندارم.",
@@ -253,9 +253,9 @@
     {
      "keywords": [
       "perfect",
-      "that's",
+      "better",
       "thanks",
-      "better"
+      "that's"
      ],
      "suggestion": "Perfect. That's much better, thanks.",
      "suggestionFa": "عالی. خیلی بهتره، مرسی.",
@@ -308,8 +308,8 @@
      "keywords": [
       "that's",
       "stars",
-      "five",
-      "kind"
+      "kind",
+      "five"
      ],
      "suggestion": "That's very kind. Five stars!",
      "suggestionFa": "خیلی لطف داری. پنج ستاره!",
@@ -375,8 +375,8 @@
      "keywords": [
       "complaint",
       "better",
-      "small",
-      "agree"
+      "agree",
+      "small"
      ],
      "suggestion": "I agree. A small complaint is better.",
      "suggestionFa": "موافقم. یه شکایت کوچیک بهتره.",

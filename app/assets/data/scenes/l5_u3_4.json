@@ -34,7 +34,7 @@
      "keywords": [
       "stairs",
       "apples",
-      "pears",
+      "isn't",
       "heard"
      ],
      "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "confusing",
+      "brilliant",
       "that's",
       "but"
      ],
@@ -97,7 +97,7 @@
       "phrase",
       "you'd",
       "don't",
-      "full"
+      "have"
      ],
      "suggestion": "So if you don't know the full phrase, you'd have no idea!",
      "suggestionFa": "پس اگه عبارت کامل را ندونی، هیچی نمی‌فهمی!",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "secret",
-      "code",
       "like",
+      "code",
       "was"
      ],
      "suggestion": "So it was like a secret code.",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "he'll",
-      "i'll",
+      "have",
       "love",
-      "have"
+      "i'll"
      ],
      "suggestion": "I'll have to tell Tom. He'll love this.",
      "suggestionFa": "باید به تام بگم. عاشقش میشه.",

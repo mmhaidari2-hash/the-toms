@@ -26,7 +26,7 @@
       "william",
       "today",
       "must",
-      "says"
+      "vida"
      ],
      "suggestion": "Hi! You must be Sara — Vida says you're brilliant. How was William today?",
      "suggestionFa": "سلام! تو باید سارا باشی — ویدا میگه فوق‌العاده‌ای. ویلیام امروز چطور بود؟",
@@ -50,8 +50,8 @@
       "lovely",
       "fussy",
       "lunch",
-      "home",
-      "been"
+      "week",
+      "home"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -76,7 +76,7 @@
       "have",
       "did",
       "nap",
-      "ha"
+      "he"
      ],
      "suggestion": "Ha, typical! And did he have a nap?",
      "suggestionFa": "ها، معمولیه! چرت هم زد؟",
@@ -209,11 +209,11 @@
    "branches": [
     {
      "keywords": [
-      "accidents",
       "brilliant",
+      "accidents",
       "toilet",
       "today",
-      "wow"
+      "any"
      ],
      "suggestion": "Wow, it's brilliant! Any toilet accidents today?",
      "suggestionFa": "وای، عالیه! امروز خیس‌کاری داشت؟",

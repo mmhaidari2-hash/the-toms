@@ -20,9 +20,9 @@
     {
      "keywords": [
       "hurts",
-      "drink",
+      "water",
       "tooth",
-      "water"
+      "drink"
      ],
      "suggestion": "Yes. This tooth hurts when I drink cold water.",
      "suggestionFa": "آره. این دندون وقتی آب سرد می‌خورم درد می‌گیره.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "what's",
-      "dull",
-      "ache"
+      "ache",
+      "dull"
      ],
      "suggestion": "What's a dull ache?",
      "suggestionFa": "درد مبهم یعنی چی؟",
@@ -203,8 +203,8 @@
      "keywords": [
       "remember",
       "don't",
-      "spit",
-      "i'll"
+      "i'll",
+      "spit"
      ],
      "suggestion": "Spit, don't rinse. I'll remember.",
      "suggestionFa": "تف کن، آب نکش. یادم می‌مونه.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "hurts",
-      "aah",
-      "one"
+      "one",
+      "aah"
      ],
      "suggestion": "Aah! Yes, that one hurts!",
      "suggestionFa": "آخ! آره، اون یکی درد داره!",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "thank",
-      "come",
       "when",
+      "come",
       "can"
      ],
      "suggestion": "Thank you. When can I come?",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "filling",
-      "will",
-      "hurt"
+      "hurt",
+      "will"
      ],
      "suggestion": "Will the filling hurt?",
      "suggestionFa": "پرکردن درد داره؟",

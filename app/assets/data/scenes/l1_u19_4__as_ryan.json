@@ -23,8 +23,8 @@
      "keywords": [
       "already",
       "o'clock",
-      "school",
       "lights",
+      "school",
       "nights"
      ],
      "suggestion": "Is it ten o'clock already? Mum says lights out at ten on school nights.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "minutes",
-      "middle",
       "please",
+      "middle",
       "don't",
-      "more"
+      "game"
      ],
      "suggestion": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
      "suggestionFa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "minutes",
+      "o'clock",
       "alarm",
       "seven",
       "five"
@@ -98,9 +98,9 @@
      "keywords": [
       "curtains",
       "please",
+      "shower",
       "school",
-      "before",
-      "shower"
+      "before"
      ],
      "suggestion": "I need to shower before school. Can you close the curtains, please?",
      "suggestionFa": "باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "charger",
       "where's",
+      "charger",
       "thanks",
       "phone",
-      "lost"
+      "game"
      ],
      "suggestion": "Thanks. OK, game over. I lost! Where's my phone charger?",
      "suggestionFa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟",
@@ -148,8 +148,8 @@
      "keywords": [
       "classic",
       "phones",
-      "that's",
       "pillow",
+      "that's",
       "under"
      ],
      "suggestion": "Under my pillow! Classic. Mum says no phones in bed. Do you think that's fair?",
@@ -174,7 +174,7 @@
       "light",
       "phone",
       "mums",
-      "desk",
+      "same",
       "turn"
      ],
      "suggestion": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",

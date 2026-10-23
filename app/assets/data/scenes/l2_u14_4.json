@@ -22,7 +22,7 @@
       "computer",
       "please",
       "here",
-      "use"
+      "can"
      ],
      "suggestion": "Yes, please. Can I use a computer here?",
      "suggestionFa": "بله، لطفاً. می‌تونم اینجا از کامپیوتر استفاده کنم؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "wrong",
       "says",
-      "pin",
-      "hmm"
+      "hmm",
+      "pin"
      ],
      "suggestion": "It says \"wrong PIN\". Hmm.",
      "suggestionFa": "نوشته «رمز اشتباه». هوم.",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
-      "white",
-      "pages",
       "black",
+      "pages",
+      "white",
       "just"
      ],
      "suggestion": "Just two pages, black and white.",
@@ -296,7 +296,7 @@
       "cheaper",
       "that's",
       "cheap",
-      "shop"
+      "than"
      ],
      "suggestion": "That's cheap. Much cheaper than a shop.",
      "suggestionFa": "ارزونه. خیلی ارزون‌تر از مغازه.",
@@ -346,10 +346,10 @@
     },
     {
      "keywords": [
-      "useful",
       "that's",
-      "come",
-      "book"
+      "useful",
+      "just",
+      "come"
      ],
      "suggestion": "That's useful. Can I just come, or do I book?",
      "suggestionFa": "مفیده. همین‌طوری بیام، یا رزرو کنم؟",

@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "plaits",
+      "colour",
       "eyes",
       "two"
      ],
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "chocolate",
-      "that's",
       "lovely",
+      "that's",
       "brown"
      ],
      "suggestion": "Brown, like chocolate. That's lovely.",
@@ -200,7 +200,7 @@
       "glitter",
       "strong",
       "views",
-      "both"
+      "like"
      ],
      "suggestion": "Strong views on glitter! What do you both like?",
      "suggestionFa": "نظرات محکم دربارهٔ اکلیل! هر دوتون چی دوست دارید؟",
@@ -306,10 +306,10 @@
    "branches": [
     {
      "keywords": [
-      "tehran",
       "friend",
-      "laugh",
-      "black"
+      "tehran",
+      "black",
+      "laugh"
      ],
      "suggestion": "My best friend is in Tehran. He's got black hair and a big laugh.",
      "suggestionFa": "بهترین دوستم تو تهرانه. موهاش مشکیه و بلند می‌خنده.",
@@ -321,8 +321,8 @@
      "keywords": [
       "glasses",
       "tall",
-      "reza",
-      "name"
+      "name",
+      "reza"
      ],
      "suggestion": "He's tall with glasses. His name is Reza.",
      "suggestionFa": "قدبلنده با عینک. اسمش رضاست.",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "other",
-      "miss",
       "each",
+      "miss",
       "ok"
      ],
      "suggestion": "Yes, we miss each other. But it's OK.",

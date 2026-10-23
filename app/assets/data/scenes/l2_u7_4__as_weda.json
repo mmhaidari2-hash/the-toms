@@ -22,8 +22,8 @@
     {
      "keywords": [
       "asleep",
-      "night",
       "power",
+      "night",
       "about",
       "were"
      ],
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "suddenly",
-      "blowing",
-      "raining",
       "reading",
+      "raining",
+      "blowing",
       "george"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
@@ -73,9 +73,9 @@
      "keywords": [
       "candles",
       "looking",
-      "scared",
       "george",
-      "torch"
+      "scared",
+      "worse"
      ],
      "suggestion": "Not scared — I've had worse! I found the candles while George was looking for the torch.",
      "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی جورج دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
@@ -99,7 +99,7 @@
       "candlelight",
       "batteries",
       "drinking",
-      "sitting",
+      "stories",
       "telling"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "kettle's",
       "electric",
+      "kettle's",
       "lights",
       "asleep",
       "george"
@@ -149,8 +149,8 @@
       "batteries",
       "buying",
       "first",
-      "time",
-      "fine"
+      "fine",
+      "next"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",
      "suggestionFa": "الان همه چی خوبه. ولی دفعهٔ بعد، اول باتری نو می‌خرم!",

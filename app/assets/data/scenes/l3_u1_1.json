@@ -72,7 +72,7 @@
       "working",
       "tom's",
       "line",
-      "tram"
+      "been"
      ],
      "suggestion": "Tom's been working on the new tram line too.",
      "suggestionFa": "تام روی خط تراموای جدید هم کار کرده.",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "projects",
       "managing",
+      "projects",
       "since"
      ],
      "suggestion": "He's been managing projects since 2019.",
@@ -176,10 +176,10 @@
     },
     {
      "keywords": [
-      "family",
       "closer",
-      "home",
-      "more"
+      "family",
+      "more",
+      "like"
      ],
      "suggestion": "I'd like to work closer to home and see my family more.",
      "suggestionFa": "دوست دارم نزدیک‌تر به خونه کار کنم و خانواده‌ام را بیشتر ببینم.",
@@ -223,8 +223,8 @@
      "keywords": [
       "sometimes",
       "extra",
-      "find",
-      "hard"
+      "hard",
+      "find"
      ],
      "suggestion": "I sometimes find it hard to say no to extra work.",
      "suggestionFa": "گاهی سخته که به کار اضافه نه بگم.",
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "decision",
+      "when",
       "make",
-      "will",
-      "when"
+      "will"
      ],
      "suggestion": "When will you make a decision?",
      "suggestionFa": "کی تصمیم می‌گیرید؟",

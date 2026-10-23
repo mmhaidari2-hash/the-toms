@@ -84,7 +84,7 @@
       "yoghurt",
       "before",
       "salad",
-      "meal"
+      "have"
      ],
      "suggestion": "In Iran we have salad and yoghurt before the meal.",
      "suggestionFa": "تو ایران قبل از غذا سالاد و ماست داریم.",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "share",
+      "let's",
       "idea",
       "both"
      ],
@@ -200,8 +200,8 @@
      "keywords": [
       "decide",
       "can't",
-      "hi",
-      "we"
+      "we",
+      "hi"
      ],
      "suggestion": "Hi Sophie! We can't decide.",
      "suggestionFa": "سلام سوفی! نمی‌تونیم تصمیم بگیریم.",
@@ -237,8 +237,8 @@
      "keywords": [
       "calamari",
       "garlic",
-      "bread",
-      "share"
+      "share",
+      "bread"
      ],
      "suggestion": "We'd like the garlic bread and the calamari to share.",
      "suggestionFa": "نون سیر و کالاماری را برای شریک شدن می‌خوایم.",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "please",
-      "table",
       "water",
+      "table",
       "tap"
      ],
      "suggestion": "Tap water for the table, please.",
@@ -335,9 +335,9 @@
     {
      "keywords": [
       "shall",
-      "home",
+      "some",
       "take",
-      "poor"
+      "home"
      ],
      "suggestion": "Poor Tom! Shall we take him some home?",
      "suggestionFa": "تام بیچاره! براش یه کم ببریم خونه؟",

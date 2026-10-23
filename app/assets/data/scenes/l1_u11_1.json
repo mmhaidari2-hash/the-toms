@@ -220,8 +220,8 @@
    "branches": [
     {
      "keywords": [
-      "eight",
       "leave",
+      "eight",
       "half"
      ],
      "suggestion": "I leave at half eight.",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "mondays",
-      "home",
       "from",
-      "work"
+      "work",
+      "home"
      ],
      "suggestion": "I work from home on Mondays.",
      "suggestionFa": "دوشنبه‌ها از خونه کار می‌کنم.",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "take",
-      "can",
-      "him"
+      "him",
+      "can"
      ],
      "suggestion": "I can take it to him.",
      "suggestionFa": "می‌تونم براش ببرم.",
@@ -392,8 +392,8 @@
      "keywords": [
       "always",
       "busy",
-      "bus",
-      "run"
+      "run",
+      "bus"
      ],
      "suggestion": "Busy! I always run for the bus.",
      "suggestionFa": "شلوغ! همیشه دنبال اتوبوس می‌دوم.",

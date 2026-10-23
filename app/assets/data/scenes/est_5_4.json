@@ -21,8 +21,8 @@
      "keywords": [
       "thousand",
       "hundred",
-      "will",
-      "five"
+      "five",
+      "much"
      ],
      "suggestion": "How much will I pay on two hundred and five thousand?",
      "suggestionFa": "برای دویست و پنج هزار چقدر می‌دم؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "scotland",
-      "wales",
-      "about"
+      "about",
+      "wales"
      ],
      "suggestion": "What about Scotland and Wales?",
      "suggestionFa": "اسکاتلند و ولز چی؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "buyers",
-      "first",
       "there",
+      "first",
       "limit"
      ],
      "suggestion": "Is there a limit for first-time buyers?",
@@ -124,8 +124,8 @@
      "keywords": [
       "thousand",
       "hundred",
-      "four",
-      "five"
+      "five",
+      "four"
      ],
      "suggestion": "So on four hundred thousand, I'd pay five thousand?",
      "suggestionFa": "پس برای چهارصد هزار، پنج هزار می‌دم؟",
@@ -194,7 +194,7 @@
       "calculator",
       "check",
       "i'll",
-      "gov"
+      "use"
      ],
      "suggestion": "I'll use the GOV.UK calculator to check.",
      "suggestionFa": "با ماشین‌حساب GOV.UK چک می‌کنم.",
@@ -205,8 +205,8 @@
     {
      "keywords": [
       "helpful",
+      "graham",
       "really",
-      "that's",
       "thanks"
      ],
      "suggestion": "Thanks, Graham. That's really helpful.",

@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "register",
       "everyone",
-      "surgery",
+      "register",
       "hackney",
+      "surgery",
       "should"
      ],
      "suggestion": "Right, this is our surgery. Everyone in Hackney should register with a GP. It's free. Shall we go in?",
@@ -107,7 +107,7 @@
       "that's",
       "paper",
       "birth",
-      "let's"
+      "first"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
      "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
@@ -204,10 +204,10 @@
     {
      "keywords": [
       "questions",
-      "register",
       "drinking",
+      "register",
       "smoking",
-      "you'll"
+      "health"
      ],
      "suggestion": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
      "suggestionFa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…",
@@ -231,8 +231,8 @@
       "receptionist",
       "bottom",
       "boxes",
-      "let's",
-      "these"
+      "these",
+      "let's"
      ],
      "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
      "suggestionFa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.",

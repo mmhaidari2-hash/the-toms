@@ -32,9 +32,9 @@
     {
      "keywords": [
       "little",
-      "take",
+      "long",
       "will",
-      "long"
+      "take"
      ],
      "suggestion": "A little. Will it take long?",
      "suggestionFa": "یه‌کم. طول می‌کشه؟",
@@ -74,8 +74,8 @@
      "keywords": [
       "raise",
       "helps",
-      "left",
-      "hand"
+      "hand",
+      "left"
      ],
      "suggestion": "Raise my left hand. OK. That helps.",
      "suggestionFa": "دست چپم را بالا ببرم. باشه. کمک می‌کنه.",
@@ -138,8 +138,8 @@
     {
      "keywords": [
       "wasn't",
-      "bad",
-      "all"
+      "all",
+      "bad"
      ],
      "suggestion": "That wasn't bad at all!",
      "suggestionFa": "اصلاً بد نبود!",
@@ -193,10 +193,10 @@
    "branches": [
     {
      "keywords": [
-      "feels",
       "can't",
-      "numb",
-      "feel"
+      "feels",
+      "feel",
+      "numb"
      ],
      "suggestion": "No, I can't feel it. It feels numb.",
      "suggestionFa": "نه، حسش نمی‌کنم. بی‌حسه.",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "side",
       "high",
+      "side",
       "bit"
      ],
      "suggestion": "It feels a bit high on this side.",
@@ -369,8 +369,8 @@
      "keywords": [
       "british",
       "that's",
-      "home",
-      "hard"
+      "hard",
+      "home"
      ],
      "suggestion": "No hot tea? That's hard for a British home!",
      "suggestionFa": "چای داغ نه؟ برای یه خونهٔ بریتانیایی سخته!",

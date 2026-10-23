@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "look",
       "list",
+      "look",
       "let"
      ],
      "suggestion": "Let me look at the list.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "ones",
-      "just"
+      "just",
+      "ones"
      ],
      "suggestion": "Just the red ones.",
      "suggestionFa": "فقط قرمزها.",
@@ -219,9 +219,9 @@
    "branches": [
     {
      "keywords": [
-      "ripe",
+      "i'll",
       "take",
-      "i'll"
+      "ripe"
      ],
      "suggestion": "I'll take the ripe ones.",
      "suggestionFa": "رسیده‌ها را برمی‌دارم.",
@@ -231,8 +231,8 @@
     },
     {
      "keywords": [
-      "longer",
       "please",
+      "longer",
       "green",
       "last"
      ],
@@ -368,8 +368,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

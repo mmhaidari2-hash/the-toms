@@ -79,8 +79,8 @@
      "keywords": [
       "lovely",
       "please",
-      "bill",
-      "have"
+      "have",
+      "bill"
      ],
      "suggestion": "Yes, lovely. Can we have the bill, please?",
      "suggestionFa": "آره، عالی. می‌شه صورت‌حساب را بیارید، لطفاً؟",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "pounds",
-      "three",
-      "about"
+      "about",
+      "three"
      ],
      "suggestion": "So about three pounds?",
      "suggestionFa": "پس حدود سه پوند؟",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "separately",
-      "pay",
       "can",
+      "pay",
       "we"
      ],
      "suggestion": "Can we pay separately, please?",
@@ -373,9 +373,9 @@
     {
      "keywords": [
       "we'll",
+      "back",
       "come",
-      "soon",
-      "back"
+      "soon"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

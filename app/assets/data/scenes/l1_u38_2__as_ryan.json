@@ -23,9 +23,9 @@
      "keywords": [
       "present",
       "bought",
+      "can't",
       "looks",
-      "awful",
-      "can't"
+      "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
      "suggestionFa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "world's",
-      "cheesy",
       "driver",
+      "cheesy",
       "know",
       "says"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "scissors",
-      "where",
-      "paper",
       "small",
-      "first"
+      "paper",
+      "first",
+      "where"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
      "suggestionFa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "easier",
       "genius",
-      "box",
-      "now"
+      "easier",
+      "now",
+      "box"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -148,7 +148,7 @@
       "triangles",
       "better",
       "right",
-      "ends",
+      "like",
       "fold"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
@@ -173,8 +173,8 @@
       "write",
       "nice",
       "gift",
-      "tag",
-      "now"
+      "now",
+      "bow"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -198,8 +198,8 @@
       "soppy",
       "mates",
       "don't",
-      "just",
-      "ryan"
+      "ryan",
+      "fine"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

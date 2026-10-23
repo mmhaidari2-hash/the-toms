@@ -48,9 +48,9 @@
      "keywords": [
       "recycling",
       "green",
+      "brown",
       "black",
-      "caddy",
-      "brown"
+      "caddy"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -75,7 +75,7 @@
       "bottles",
       "yogurt",
       "paper",
-      "clean"
+      "first"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "eggshells",
-      "banana",
       "little",
+      "banana",
       "skins",
       "caddy"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "garden",
       "leaves",
+      "garden",
       "grass",
-      "brown",
-      "which"
+      "which",
+      "brown"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
      "suggestionFa": "سطل قهوه‌ای برای باغچه‌ست. چمن و برگ. حالا، کدوم روز میان؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "recycling",
-      "forget",
       "always",
+      "forget",
       "black",
-      "they"
+      "swap"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -198,8 +198,8 @@
      "keywords": [
       "already",
       "legend",
-      "never",
       "she's",
+      "never",
       "right"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",

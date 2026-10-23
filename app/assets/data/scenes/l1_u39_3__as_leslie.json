@@ -25,7 +25,7 @@
       "shopping",
       "helping",
       "thanks",
-      "mess"
+      "away"
      ],
      "suggestion": "Thanks for helping, {you}. The kitchen's a mess. Can you put the shopping away?",
      "suggestionFa": "ممنون که کمک می‌کنی {you}. آشپزخونه به هم ریخته‌ست. می‌تونی خریدها را بچینی؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "bottom",
       "fridge",
+      "bottom",
       "milk",
       "door",
       "goes"
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "cupboard",
-      "butter",
       "fridge",
+      "butter",
       "eggs",
       "goes"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "bananas",
       "toaster",
-      "bread",
+      "bananas",
       "fruit",
-      "next"
+      "bread",
+      "bowl"
      ],
      "suggestion": "In the bread bin, next to the toaster. And the bananas go in the fruit bowl.",
      "suggestionFa": "تو جانونی، کنار توستر. و موزها میرن تو کاسهٔ میوه.",

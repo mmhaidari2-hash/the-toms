@@ -20,8 +20,8 @@
     {
      "keywords": [
       "people",
-      "sure",
       "many",
+      "sure",
       "day"
      ],
      "suggestion": "Sure. How many people, and what day?",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "time",
+      "want",
       "ring",
-      "i'll",
-      "want"
+      "i'll"
      ],
      "suggestion": "Ha! OK, I'll ring. What time do you want?",
      "suggestionFa": "ها! باشه، زنگ می‌زنم. چه ساعتی می‌خوای؟",
@@ -150,8 +150,8 @@
     },
     {
      "keywords": [
-      "they've",
       "o'clock",
+      "they've",
       "they",
       "say"
      ],
@@ -244,7 +244,7 @@
       "thompson",
       "under",
       "name",
-      "p"
+      "n"
      ],
      "suggestion": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
      "suggestionFa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن.",
@@ -255,8 +255,8 @@
     {
      "keywords": [
       "number",
-      "yours",
       "phone",
+      "yours",
       "mine"
      ],
      "suggestion": "They want a phone number too. Yours or mine?",

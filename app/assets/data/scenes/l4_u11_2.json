@@ -87,8 +87,8 @@
     {
      "keywords": [
       "negotiable",
-      "that's",
       "budget",
+      "that's",
       "over"
      ],
      "suggestion": "That's a bit over my budget. Is it negotiable?",
@@ -287,8 +287,8 @@
    "branches": [
     {
      "keywords": [
-      "smoke",
       "don't",
+      "smoke",
       "pets"
      ],
      "suggestion": "No pets, and I don't smoke.",
@@ -301,8 +301,8 @@
      "keywords": [
       "there",
       "mould",
-      "damp",
-      "flat"
+      "flat",
+      "damp"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -353,8 +353,8 @@
      "keywords": [
       "bathroom",
       "ceiling",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see the bathroom ceiling?",
      "suggestionFa": "می‌تونم سقف حموم را ببینم؟",
@@ -364,9 +364,9 @@
     },
     {
      "keywords": [
-      "rating",
       "energy",
       "what's",
+      "rating",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -455,9 +455,9 @@
    "branches": [
     {
      "keywords": [
+      "strict",
       "thirty",
       "that's",
-      "strict",
       "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
@@ -470,7 +470,7 @@
      "keywords": [
       "guarantor",
       "need",
-      "tom",
+      "can",
       "one"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",

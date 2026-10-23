@@ -20,9 +20,9 @@
     {
      "keywords": [
       "careful",
-      "claim",
       "where",
-      "read"
+      "claim",
+      "kind"
      ],
      "suggestion": "Where did you read that? I'd be careful with that kind of claim.",
      "suggestionFa": "کجا خوندی؟ با این جور ادعاها محتاط باش.",
@@ -35,7 +35,7 @@
       "generalisation",
       "eligible",
       "migrants",
-      "that's"
+      "aren't"
      ],
      "suggestion": "That's a bit of a generalisation, Dave. Most migrants aren't eligible at first.",
      "suggestionFa": "این یه کم تعمیم‌دادنه، دیو. بیشتر مهاجرها اولش واجد شرایط نیستن.",
@@ -94,8 +94,8 @@
     },
     {
      "keywords": [
-      "decades",
       "problem",
+      "decades",
       "houses",
       "enough"
      ],
@@ -154,8 +154,8 @@
      "keywords": [
       "understand",
       "people",
-      "anger",
-      "aimed"
+      "wrong",
+      "anger"
      ],
      "suggestion": "I understand the anger. But it's aimed at the wrong people.",
      "suggestionFa": "خشم را می‌فهمم. ولی به سمت آدم‌های اشتباهیه.",

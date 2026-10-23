@@ -49,8 +49,8 @@
       "chicken",
       "veggie",
       "burger",
-      "where",
-      "rings"
+      "asked",
+      "onion"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -74,8 +74,8 @@
       "vegetarian",
       "complain",
       "tuesday",
-      "except",
-      "mostly"
+      "mostly",
+      "except"
      ],
      "suggestion": "Since Tuesday. I'm vegetarian now. Well, mostly. Except bacon. Can you help me complain?",
      "suggestionFa": "از سه‌شنبه. الان گیاه‌خوارم. خب، بیشترش. به جز بیکن. کمکم می‌کنی شکایت کنم؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "missing",
       "quality",
+      "missing",
       "what's",
-      "wrong",
-      "order"
+      "order",
+      "wrong"
      ],
      "suggestion": "OK, \"help\". It says: \"What's wrong with your order?\" Missing item, wrong item, or quality?",
      "suggestionFa": "باشه، «کمک». نوشته: «سفارشت چه مشکلی داره؟» قلم جاافتاده، قلم اشتباه، یا کیفیت؟",
@@ -150,7 +150,7 @@
       "english",
       "polite",
       "write",
-      "more"
+      "mine"
      ],
      "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
      "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "vegetarian",
       "tomorrow",
+      "shame",
       "waste",
-      "don't",
-      "shame"
+      "don't"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",
      "suggestionFa": "خب… حیفه هدر بره. می‌خورمش. از فردا گیاه‌خوارم. به مامان نگو!",

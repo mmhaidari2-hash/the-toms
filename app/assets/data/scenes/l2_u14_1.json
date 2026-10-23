@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "library",
+      "morning",
       "please",
       "like"
      ],
@@ -81,8 +81,8 @@
      "keywords": [
       "minutes",
       "about",
-      "away",
-      "five"
+      "five",
+      "away"
      ],
      "suggestion": "Yes, about five minutes away.",
      "suggestionFa": "بله، حدود پنج دقیقه فاصله.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "from",
+      "will",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "here's",
-      "bank",
-      "card"
+      "card",
+      "bank"
      ],
      "suggestion": "Here's my bank card and a letter.",
      "suggestionFa": "این کارت بانکیم و یه نامه.",
@@ -350,9 +350,9 @@
     {
      "keywords": [
       "thank",
-      "look",
       "i'll",
-      "both"
+      "both",
+      "look"
      ],
      "suggestion": "Thank you. I'll look at both.",
      "suggestionFa": "ممنون. هر دو را نگاه می‌کنم.",

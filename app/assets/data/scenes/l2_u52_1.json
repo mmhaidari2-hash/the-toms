@@ -72,8 +72,8 @@
     {
      "keywords": [
       "booking",
-      "under",
       "rooms",
+      "under",
       "i've"
      ],
      "suggestion": "Yes. I've got a booking under Thompson. Two rooms.",
@@ -302,8 +302,8 @@
      "keywords": [
       "breakfast",
       "lovely",
-      "time",
-      "view"
+      "view",
+      "time"
      ],
      "suggestion": "A sea view! Lovely. What time is breakfast?",
      "suggestionFa": "منظرهٔ دریا! عالی. صبحانه ساعت چنده؟",
@@ -315,8 +315,8 @@
      "keywords": [
       "there",
       "room",
-      "wi",
-      "fi"
+      "fi",
+      "wi"
      ],
      "suggestion": "Is there Wi-Fi in the room?",
      "suggestionFa": "تو اتاق وای‌فای هست؟",
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "eleven",
-      "come",
+      "late",
       "back",
-      "late"
+      "come"
      ],
      "suggestion": "Eleven? What if we come back late?",
      "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",

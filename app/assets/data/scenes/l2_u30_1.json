@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "current",
       "account",
+      "current",
       "like",
       "open"
      ],
@@ -147,10 +147,10 @@
     },
     {
      "keywords": [
-      "family",
       "aren't",
+      "family",
       "bills",
-      "name"
+      "live"
      ],
      "suggestion": "I live with a family. The bills aren't in my name.",
      "suggestionFa": "با یه خانواده زندگی می‌کنم. قبض‌ها به اسم من نیست.",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "thompson",
-      "that's",
       "family",
+      "that's",
       "right"
      ],
      "suggestion": "Yes, that's right. With the Thompson family.",
@@ -205,8 +205,8 @@
     },
     {
      "keywords": [
-      "take",
       "long",
+      "take",
       "open",
       "how"
      ],
@@ -245,7 +245,7 @@
       "arrives",
       "before",
       "phone",
-      "use"
+      "can"
      ],
      "suggestion": "Can I use my phone before the card arrives?",
      "suggestionFa": "قبل از رسیدن کارت می‌تونم از گوشیم استفاده کنم؟",
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "great",
-      "pin",
       "get",
-      "how"
+      "how",
+      "pin"
      ],
      "suggestion": "Great. And how do I get my PIN?",
      "suggestionFa": "عالیه. رمزم را چطوری می‌گیرم؟",

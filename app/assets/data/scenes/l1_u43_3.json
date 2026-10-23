@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "we're",
       "going",
+      "we're",
       "hold"
      ],
      "suggestion": "Hold on, we're going!",
@@ -115,9 +115,9 @@
     {
      "keywords": [
       "bakery",
-      "then",
       "left",
-      "past"
+      "past",
+      "then"
      ],
      "suggestion": "Past the bakery, then left.",
      "suggestionFa": "بعد از نونوایی، بعد چپ.",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "there's",
-      "sink",
       "soap",
+      "sink",
       "by"
      ],
      "suggestion": "Yes, there's soap by the sink.",
@@ -266,8 +266,8 @@
     },
     {
      "keywords": [
-      "dryer",
       "there",
+      "dryer",
       "hand"
      ],
      "suggestion": "Is there a hand dryer?",

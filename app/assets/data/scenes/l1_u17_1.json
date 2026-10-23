@@ -152,10 +152,10 @@
     },
     {
      "keywords": [
-      "thank",
       "glass",
-      "milk",
-      "like"
+      "thank",
+      "like",
+      "milk"
      ],
      "suggestion": "No, thank you. I'd like a glass of milk.",
      "suggestionFa": "نه، ممنون. یه لیوان شیر می‌خوام.",
@@ -293,8 +293,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "i'll",
+      "have",
       "one"
      ],
      "suggestion": "I'll have the green one.",
@@ -306,8 +306,8 @@
     {
      "keywords": [
       "please",
-      "good",
-      "half"
+      "half",
+      "good"
      ],
      "suggestion": "Green, please. Half is good.",
      "suggestionFa": "سبز، لطفاً. نصفه خوبه.",

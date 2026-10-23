@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "we're",
       "sorry",
       "hello",
+      "we're",
       "late"
      ],
      "suggestion": "Hello! Sorry we're a bit late.",
@@ -129,10 +129,10 @@
     },
     {
      "keywords": [
-      "brought",
       "persian",
+      "brought",
       "sweets",
-      "from"
+      "some"
      ],
      "suggestion": "I brought some sweets from the Persian shop.",
      "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "after",
       "thank",
+      "after",
       "khan",
       "mrs"
      ],
@@ -236,8 +236,8 @@
      "keywords": [
       "george",
       "chair",
-      "own",
-      "his"
+      "his",
+      "has"
      ],
      "suggestion": "George has his own chair?",
      "suggestionFa": "جورج صندلی مخصوص داره؟",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "lovely",
-      "house",
-      "thank"
+      "thank",
+      "house"
      ],
      "suggestion": "Thank you. Your house is lovely.",
      "suggestionFa": "ممنون. خونه‌تون قشنگه.",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "awake"
+      "awake",
+      "think"
      ],
      "suggestion": "I think he's awake.",
      "suggestionFa": "فکر کنم بیداره.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "receipt",
-      "have",
       "sure",
+      "have",
       "got"
      ],
      "suggestion": "Sure. Have you got the receipt?",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "come",
       "till",
+      "come",
       "i'll"
      ],
      "suggestion": "I'll come with you to the till.",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "him",
-      "big"
+      "big",
+      "him"
      ],
      "suggestion": "It's too big for him.",
      "suggestionFa": "براش خیلی بزرگه.",
@@ -329,8 +329,8 @@
      "keywords": [
       "thanks",
       "going",
-      "wear",
-      "he's"
+      "he's",
+      "wear"
      ],
      "suggestion": "No, thanks. He's going to wear it!",
      "suggestionFa": "نه، ممنون. می‌خواد بپوشدش!",
@@ -399,8 +399,8 @@
      "keywords": [
       "lovely",
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… lovely!",
      "suggestionFa": "یک، دو، سه… عالی!",

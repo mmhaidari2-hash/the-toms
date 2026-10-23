@@ -71,8 +71,8 @@
      "keywords": [
       "small",
       "peel",
-      "how",
-      "cut"
+      "cut",
+      "how"
      ],
      "suggestion": "Peel and cut. How small?",
      "suggestionFa": "پوست بکنم و ببرم. چقدر کوچیک؟",
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "apples",
-      "green",
       "which",
+      "green",
       "red"
      ],
      "suggestion": "Which apples? Red or green?",
@@ -313,10 +313,10 @@
    "branches": [
     {
      "keywords": [
-      "beach",
       "looks",
-      "like",
-      "sand"
+      "beach",
+      "sand",
+      "like"
      ],
      "suggestion": "It looks like sand on a beach!",
      "suggestionFa": "شبیه شن ساحله!",

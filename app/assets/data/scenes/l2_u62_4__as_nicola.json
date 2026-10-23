@@ -23,9 +23,9 @@
      "keywords": [
       "assembly",
       "ellis",
-      "gold",
-      "look",
-      "week"
+      "week",
+      "star",
+      "gold"
      ],
      "suggestion": "{you}! Look! A gold star! I'm Star of the Week! Miss Ellis said it in assembly!",
      "suggestionFa": "{you}! نگاه کن! یه ستارهٔ طلایی! من ستارهٔ هفته‌ام! خانم الیس سر صف گفت!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
-      "doesn't",
       "there's",
-      "played",
-      "nobody"
+      "doesn't",
+      "english",
+      "nobody",
+      "played"
      ],
      "suggestion": "There's a new girl. Zofia. She doesn't speak much English. Nobody played with her. So I did.",
      "suggestionFa": "یه دختر جدید هست. زوفیا. زیاد انگلیسی بلد نیست. هیچ‌کس باهاش بازی نمی‌کرد. پس من بازی کردم.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "poland",
-      "swings",
       "taught",
+      "swings",
+      "poland",
       "means",
       "hello"
      ],
@@ -99,8 +99,8 @@
       "pasghetti",
       "english",
       "didn't",
-      "first",
-      "words"
+      "words",
+      "first"
      ],
      "suggestion": "Like you! You didn't know English words at first. Now you know loads. Like \"pasghetti\".",
      "suggestionFa": "مثل تو! تو اولش کلمه‌های انگلیسی بلد نبودی. الان کلی بلدی. مثل «پسگتی».",
@@ -124,7 +124,7 @@
       "laughed",
       "inside",
       "monday",
-      "zofia",
+      "today",
       "happy"
      ],
      "suggestion": "Joke! Zofia was sad on Monday. Today she laughed. That made me feel happy inside.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "they're",
-      "mummy",
-      "grown",
       "cried",
-      "happy"
+      "happy",
+      "grown",
+      "mummy"
      ],
      "suggestion": "Mummy cried when she saw my star. Grown-ups cry a lot. Why do they cry when they're happy?",
      "suggestionFa": "مامانی وقتی ستاره‌ام را دید گریه کرد. بزرگ‌ترها زیاد گریه می‌کنن. چرا وقتی خوشحالن گریه می‌کنن؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "feelings",
-      "swings",
       "please",
-      "zofia",
-      "house"
+      "swings",
+      "house",
+      "zofia"
      ],
      "suggestion": "Big feelings! Can Zofia come to our house for tea? Please? We can play on the swings!",
      "suggestionFa": "احساس‌های بزرگ! زوفیا می‌تونه برای شام بیاد خونه‌مون؟ لطفاً؟ می‌تونیم تاب بازی کنیم!",
@@ -199,8 +199,8 @@
       "sometimes",
       "everybody",
       "needs",
-      "i'll",
-      "card"
+      "star",
+      "make"
      ],
      "suggestion": "Yay! I'll make her a card. With a star on it. Everybody needs a star sometimes!",
      "suggestionFa": "آخ جون! براش یه کارت درست می‌کنم. با یه ستاره روش. همه گاهی یه ستاره لازم دارن!",

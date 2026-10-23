@@ -22,9 +22,9 @@
     {
      "keywords": [
       "chinatown",
-      "chinese",
-      "massive",
       "there's",
+      "massive",
+      "chinese",
       "coming"
      ],
      "suggestion": "Yo, {you}. You coming to Chinatown on Sunday? It's Chinese New Year. There's a massive parade. Me and Leo are going.",
@@ -50,7 +50,7 @@
       "leicester",
       "calendar",
       "square",
-      "every"
+      "innit"
      ],
      "suggestion": "Yeah, it moves every year. It's the moon calendar, innit. Chinatown's in the West End, near Leicester Square.",
      "suggestionFa": "آره، هر سال جابه‌جا میشه. تقویم قمریه دیگه. محلهٔ چینی‌ها تو وست‌اند، نزدیک میدون لستره.",
@@ -124,8 +124,8 @@
       "envelope",
       "chinese",
       "twenty",
-      "lucky",
-      "leo's"
+      "leo's",
+      "lucky"
      ],
      "suggestion": "Ha! Leo's nan gave him a red envelope with twenty quid in it. For luck. Red is lucky. I need a Chinese nan!",
      "suggestionFa": "ها! مادربزرگ لئو یه پاکت قرمز با بیست پوند توش بهش داد. برای شانس. قرمز خوش‌شانسیه. من یه مادربزرگ چینی لازم دارم!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "saying",
       "nowruz",
+      "saying",
       "money",
       "doing",
       "right"
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "wishing",
       "another",
+      "wishing",
       "wealth",
       "twenty",
       "means"

@@ -31,8 +31,8 @@
     {
      "keywords": [
       "today",
-      "pay",
-      "let"
+      "let",
+      "pay"
      ],
      "suggestion": "Let me pay today.",
      "suggestionFa": "بذار امروز من حساب کنم.",
@@ -62,8 +62,8 @@
    "branches": [
     {
      "keywords": [
-      "normal",
       "please",
+      "normal",
       "just"
      ],
      "suggestion": "Just a normal tea, please.",
@@ -74,9 +74,9 @@
     },
     {
      "keywords": [
+      "mint",
       "have",
       "they",
-      "mint",
       "got"
      ],
      "suggestion": "Have they got mint tea?",

@@ -75,7 +75,7 @@
       "minutes",
       "that's",
       "short",
-      "only"
+      "five"
      ],
      "suggestion": "Only five minutes? That's very short.",
      "suggestionFa": "فقط پنج دقیقه؟ خیلی کوتاهه.",
@@ -143,10 +143,10 @@
     },
     {
      "keywords": [
+      "seven",
       "fifty",
       "taken",
-      "seven",
-      "only"
+      "most"
      ],
      "suggestion": "Most are taken. Only seven-fifty is left.",
      "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
@@ -197,8 +197,8 @@
      "keywords": [
       "thirty",
       "ellis",
-      "six",
-      "has"
+      "has",
+      "six"
      ],
      "suggestion": "Ms Ellis has six-thirty. Is that OK?",
      "suggestionFa": "خانم الیس شش و نیم داره. خوبه؟",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "person",
       "parent",
-      "one",
-      "can"
+      "person",
+      "can",
+      "one"
      ],
      "suggestion": "Can one parent go in person and one online?",
      "suggestionFa": "میشه یه والد حضوری بیاد و یکی آنلاین؟",
@@ -303,8 +303,8 @@
      "keywords": [
       "william",
       "after",
-      "come",
-      "look"
+      "will",
+      "come"
      ],
      "suggestion": "Will you come too? I can look after William.",
      "suggestionFa": "تو هم میای؟ من می‌تونم مراقب ویلیام باشم.",
@@ -356,8 +356,8 @@
     {
      "keywords": [
       "question",
-      "first",
       "doing",
+      "first",
       "idea"
      ],
      "suggestion": "Good idea. First question: \"How is he doing?\"",

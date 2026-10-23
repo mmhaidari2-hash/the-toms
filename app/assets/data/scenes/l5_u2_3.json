@@ -33,9 +33,9 @@
     {
      "keywords": [
       "nicola",
-      "never",
       "grass",
-      "must"
+      "never",
+      "been"
      ],
      "suggestion": "Me? I'd never grass you up. It must have been Nicola.",
      "suggestionFa": "من؟ هیچ‌وقت لوت نمی‌دم. حتماً نیکولا بوده.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "pence",
+      "five",
       "coin",
-      "ryan",
-      "five"
+      "ryan"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
      "suggestionFa": "اندازهٔ یه سکهٔ پنج پنسی بود رایان.",
@@ -89,7 +89,7 @@
       "everyone",
       "course",
       "that's",
-      "manly"
+      "shout"
      ],
      "suggestion": "A manly shout. Of course. That's what I'll tell everyone.",
      "suggestionFa": "یه فریاد مردونه. البته. همینو به همه می‌گم.",
@@ -123,9 +123,9 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "nicola",
-      "truce",
+      "before",
+      "joins",
       "let's"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
@@ -137,9 +137,9 @@
     {
      "keywords": [
       "anyone",
+      "alarm",
       "thing",
-      "would",
-      "scare"
+      "would"
      ],
      "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
      "suggestionFa": "اون آژیر هر کسی را می‌ترسوند! اصلاً یکی نیست.",
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "that's",
       "really",
+      "that's",
       "ryan",
       "low"
      ],

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "dentist",
       "worried",
+      "dentist",
+      "monday",
       "what's",
-      "starts",
-      "monday"
+      "starts"
      ],
      "suggestion": "You look worried. What's wrong? Oh — the dentist. Monday at ten past four. And your new job starts on Monday!",
      "suggestionFa": "نگران به نظر میای. چی شده؟ اوه — دندون‌پزشکی. دوشنبه چهار و ده. و کار جدیدت دوشنبه شروع میشه!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "dentists",
       "everyone",
+      "dentists",
       "cancels",
       "turning",
       "charge"
@@ -75,7 +75,7 @@
       "speaking",
       "exactly",
       "dental",
-      "before"
+      "hughes"
      ],
      "suggestion": "Exactly. At least twenty-four hours before. Let's practise. I'm Mrs Hughes. Ring ring! \"Smile Dental, Mrs Hughes speaking.\"",
      "suggestionFa": "دقیقاً. حداقل بیست و چهار ساعت قبل. بیا تمرین کنیم. من خانم هیوزم. دینگ دینگ! «دندان‌پزشکی اسمایل، هیوز هستم.»",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "reason",
+      "afraid",
       "lovely",
       "direct",
-      "afraid",
+      "reason",
       "cancel"
      ],
      "suggestion": "Good! \"I'm afraid\" is lovely and soft. \"I want to cancel\" is a bit direct. Add a reason and say sorry. Again!",
@@ -124,8 +124,8 @@
       "congratulations",
       "friendly",
       "perfect",
-      "rebook",
-      "hughes"
+      "hughes",
+      "rebook"
      ],
      "suggestion": "You don't have to, but it's friendly. Perfect. Now \"Mrs Hughes\" says: \"Oh, congratulations! Would you like to rebook?\"",
      "suggestionFa": "لازم نیست، ولی دوستانه‌ست. عالی. حالا «خانم هیوز» میگه: «اوه، تبریک! می‌خواید دوباره وقت بگیرید؟»",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "saturdays",
-      "o'clock",
       "morning",
-      "dental",
+      "o'clock",
+      "closed",
       "eighth"
      ],
      "suggestion": "Hmm, Smile Dental is closed on Saturdays. \"How about early morning? I've got eight o'clock on the twenty-eighth.\"",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "appointment",
       "answerphone",
+      "appointment",
       "message",
-      "number",
-      "afraid"
+      "afraid",
+      "slowly"
      ],
      "suggestion": "Ha — it's the answerphone. Leave a message: your name, your appointment, \"I'm afraid I can't make it\", and your number. Slowly!",
      "suggestionFa": "ها — پیغام‌گیره. پیام بذار: اسمت، وقتت، «متأسفانه نمی‌تونم برسم»، و شماره‌ات. آروم!",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "cancelling",
-      "message",
       "perfect",
-      "you'll",
-      "hughes"
+      "message",
+      "polite",
+      "native"
      ],
      "suggestion": "Perfect message! Polite, clear, sorry. Mrs Hughes will love it. You'll be cancelling like a native in no time.",
      "suggestionFa": "پیام عالی! مؤدب، واضح، با عذرخواهی. خانم هیوز عاشقش میشه. به‌زودی مثل یه بومی لغو می‌کنی.",

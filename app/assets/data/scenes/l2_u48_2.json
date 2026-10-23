@@ -22,7 +22,7 @@
       "drinking",
       "coffee",
       "stop",
-      "did"
+      "why"
      ],
      "suggestion": "Why did you stop drinking coffee?",
      "suggestionFa": "چرا قهوه را کنار گذاشتی؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "three",
       "water",
-      "poor",
-      "want"
+      "want",
+      "poor"
      ],
      "suggestion": "Day three! Poor Tom. Do you want water?",
      "suggestionFa": "روز سوم! تام بیچاره. آب می‌خوای؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "that's",
-      "day",
       "six",
+      "day",
       "lot"
      ],
      "suggestion": "Six a day? That's a lot!",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "morning",
-      "that's",
       "enough",
+      "that's",
       "lunch"
      ],
      "suggestion": "One in the morning, one at lunch. That's enough.",
@@ -257,7 +257,7 @@
       "drink",
       "five",
       "used",
-      "ten"
+      "day"
      ],
      "suggestion": "I used to drink ten a day. Now five.",
      "suggestionFa": "قبلاً روزی ده تا می‌خوردم. الان پنج تا.",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "mum's",
-      "best",
       "many",
+      "best",
       "tea"
      ],
      "suggestion": "Too many! My mum's tea is the best.",

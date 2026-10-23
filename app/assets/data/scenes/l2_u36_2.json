@@ -91,8 +91,8 @@
      "keywords": [
       "monday",
       "night",
-      "put",
-      "did"
+      "did",
+      "out"
      ],
      "suggestion": "Did you put it out on Monday night?",
      "suggestionFa": "دوشنبه شب گذاشتیش بیرون؟",
@@ -148,9 +148,9 @@
     {
      "keywords": [
       "mondays",
-      "put",
       "can",
-      "out"
+      "out",
+      "put"
      ],
      "suggestion": "I can put it out for you on Mondays.",
      "suggestionFa": "دوشنبه‌ها می‌تونم برات بذارمش بیرون.",
@@ -204,7 +204,7 @@
       "something",
       "should",
       "about",
-      "say"
+      "fox"
      ],
      "suggestion": "Should I say something about the fox?",
      "suggestionFa": "دربارهٔ روباه چیزی بگم؟",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
-      "take",
-      "they",
+      "from",
       "door",
-      "need"
+      "take",
+      "help"
      ],
      "suggestion": "They take the bin from your door, if you need help.",
      "suggestionFa": "اگه کمک لازم داشته باشی، سطل را از دم در می‌برن.",

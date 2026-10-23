@@ -125,10 +125,10 @@
    "branches": [
     {
      "keywords": [
-      "quicker",
       "changes",
+      "quicker",
       "there",
-      "way"
+      "two"
      ],
      "suggestion": "Two changes? Is there a quicker way?",
      "suggestionFa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "teacher",
-      "lesson",
       "what's",
+      "lesson",
       "two"
      ],
      "suggestion": "OK, teacher! What's lesson two?",
@@ -290,8 +290,8 @@
      "keywords": [
       "alone",
       "easy",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "That was easy. I can do it alone next time.",
      "suggestionFa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "which",
-      "exit",
       "take",
+      "exit",
       "we"
      ],
      "suggestion": "Which exit do we take?",

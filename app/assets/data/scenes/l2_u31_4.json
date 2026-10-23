@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "worry",
       "don't",
+      "worry",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "freya",
       "wrong",
+      "freya",
       "look",
       "they"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "nicola",
-      "magic",
       "chair",
+      "magic",
       "sit"
      ],
      "suggestion": "Go on, Nicola. Sit on the magic chair!",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "think",
-      "goes",
-      "high"
+      "high",
+      "goes"
      ],
      "suggestion": "I think it goes very high!",
      "suggestionFa": "فکر کنم خیلی بالا میره!",
@@ -230,8 +230,8 @@
      "keywords": [
       "let's",
       "count",
-      "four",
-      "five"
+      "five",
+      "four"
      ],
      "suggestion": "Let's count, Nicola! Four, five, six…",
      "suggestionFa": "بیا بشمریم نیکولا! چهار، پنج، شش…",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
+      "lion",
       "like",
       "roar",
-      "lion",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -284,8 +284,8 @@
      "keywords": [
       "wobbly",
       "tooth",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "A wobbly tooth! Well done, Nicola!",
      "suggestionFa": "دندون لق! آفرین نیکولا!",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "bring",
-      "tooth",
       "fairy",
+      "tooth",
       "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
@@ -336,9 +336,9 @@
     {
      "keywords": [
       "pillow",
-      "under",
+      "falls",
       "maybe",
-      "falls"
+      "under"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
      "suggestionFa": "شاید! وقتی افتاد، بذارش زیر بالشت.",
@@ -380,9 +380,9 @@
    "branches": [
     {
      "keywords": [
+      "nicola",
       "leslie",
       "sweets",
-      "nicola",
       "eats"
      ],
      "suggestion": "Leslie, Nicola eats a lot of sweets!",
@@ -447,8 +447,8 @@
     {
      "keywords": [
       "choose",
-      "girl",
       "good",
+      "girl",
       "one"
      ],
      "suggestion": "Good girl, Nicola. Choose one!",
@@ -482,8 +482,8 @@
     },
     {
      "keywords": [
-      "william",
       "jealous",
+      "william",
       "will"
      ],
      "suggestion": "William will be so jealous!",

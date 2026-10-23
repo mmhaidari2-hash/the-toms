@@ -125,10 +125,10 @@
     },
     {
      "keywords": [
-      "family",
       "please",
+      "family",
       "i've",
-      "next"
+      "door"
      ],
      "suggestion": "The big one, please. I've got a big family next door!",
      "suggestionFa": "بزرگه، لطفاً. همسایه‌م خانوادهٔ بزرگی داره!",
@@ -162,8 +162,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "sliced"
+      "sliced",
+      "please"
      ],
      "suggestion": "Sliced, please.",
      "suggestionFa": "برش‌خورده، لطفاً.",
@@ -324,8 +324,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "pounds",
+      "here's",
       "four"
      ],
      "suggestion": "Here's four pounds.",
@@ -337,8 +337,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

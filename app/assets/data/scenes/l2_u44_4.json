@@ -21,8 +21,8 @@
      "keywords": [
       "beach",
       "ives",
-      "ok",
-      "st"
+      "st",
+      "ok"
      ],
      "suggestion": "OK! This is me on the beach at St Ives.",
      "suggestionFa": "باشه! این منم تو ساحل سنت آیوز.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "station",
-      "that's",
       "here's",
-      "first"
+      "that's",
+      "train"
      ],
      "suggestion": "Here's the first one. That's the train station.",
      "suggestionFa": "اینم اولی. اون ایستگاه قطاره.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "really",
-      "first",
       "taken",
+      "first",
       "day"
      ],
      "suggestion": "Really! That was taken on the first day.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "lucky",
       "sunny",
-      "only",
-      "hour"
+      "lucky",
+      "hour",
+      "only"
      ],
      "suggestion": "It was only sunny for one hour. I was lucky!",
      "suggestionFa": "فقط یه ساعت آفتابی بود. شانس آوردم!",
@@ -249,8 +249,8 @@
    "branches": [
     {
      "keywords": [
-      "across",
       "walked",
+      "across",
       "came",
       "then"
      ],
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "boat",
-      "came",
       "back",
+      "came",
       "fun"
      ],
      "suggestion": "We came back by boat! It was fun.",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "together",
-      "friends",
       "english",
+      "friends",
       "class"
      ],
      "suggestion": "My friends from my English class. We went together.",

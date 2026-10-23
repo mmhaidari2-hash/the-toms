@@ -20,9 +20,9 @@
     {
      "keywords": [
       "looks",
-      "like",
       "just",
-      "she"
+      "like",
+      "him"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "that's",
       "small",
-      "was",
-      "tom"
+      "tom",
+      "was"
      ],
      "suggestion": "That's Tom? He was so small!",
      "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
@@ -77,7 +77,7 @@
    "branches": [
     {
      "keywords": [
-      "look",
+      "cute",
       "like",
       "ryan",
       "ears"
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "takes",
+      "after",
       "mean"
      ],
      "suggestion": "What does \"takes after\" mean?",
@@ -214,8 +214,8 @@
      "keywords": [
       "nobody",
       "like",
-      "just",
-      "he's"
+      "he's",
+      "just"
      ],
      "suggestion": "William is like nobody! He's just William.",
      "suggestionFa": "ویلیام مثل هیچ‌کس نیست! فقط ویلیامه.",
@@ -354,8 +354,8 @@
      "keywords": [
       "daddy",
       "mummy",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
      "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",
@@ -367,8 +367,8 @@
      "keywords": [
       "looking",
       "photos",
-      "we're",
-      "hello"
+      "hello",
+      "we're"
      ],
      "suggestion": "Hello, Nicola! We're looking at old photos.",
      "suggestionFa": "سلام نیکولا! داریم عکس‌های قدیمی می‌بینیم.",
@@ -410,10 +410,10 @@
     },
     {
      "keywords": [
-      "you've",
       "nicola",
-      "dad's",
-      "smile"
+      "you've",
+      "smile",
+      "dad's"
      ],
      "suggestion": "You've got your dad's smile, Nicola.",
      "suggestionFa": "تو لبخند بابات را داری نیکولا.",

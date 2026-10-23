@@ -76,8 +76,8 @@
      "keywords": [
       "street",
       "didn't",
-      "mare",
-      "know"
+      "know",
+      "mare"
      ],
      "suggestion": "On Mare Street? I didn't know that!",
      "suggestionFa": "تو خیابون مِیر؟ نمی‌دونستم!",
@@ -87,8 +87,8 @@
     },
     {
      "keywords": [
-      "white",
       "clock",
+      "white",
       "big",
       "one"
      ],
@@ -128,10 +128,10 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "which",
-      "stop",
-      "from"
+      "thank",
+      "from",
+      "stop"
      ],
      "suggestion": "Thank you. Which way do I go from the stop?",
      "suggestionFa": "ممنون. از ایستگاه کدوم طرف برم؟",
@@ -143,8 +143,8 @@
      "keywords": [
       "write",
       "tell",
-      "i'll",
-      "down"
+      "down",
+      "i'll"
      ],
      "suggestion": "Can you tell me now? I'll write it down.",
      "suggestionFa": "میشه الان بگید؟ یادداشتش می‌کنم.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "cross",
-      "road",
-      "need"
+      "need",
+      "road"
      ],
      "suggestion": "Do I need to cross the road?",
      "suggestionFa": "باید از خیابون رد بشم؟",
@@ -259,8 +259,8 @@
     },
     {
      "keywords": [
-      "opposite",
       "confused",
+      "opposite",
       "sorry"
      ],
      "suggestion": "Opposite or next to? Sorry, I'm confused!",
@@ -318,8 +318,8 @@
      "keywords": [
       "phrase",
       "can't",
-      "miss",
-      "love"
+      "love",
+      "miss"
      ],
      "suggestion": "\"You can't miss it.\" I love that phrase.",
      "suggestionFa": "«نمیشه نبینیش.» این عبارت را دوست دارم.",

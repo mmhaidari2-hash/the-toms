@@ -73,8 +73,8 @@
      "keywords": [
       "code",
       "get",
-      "pac",
-      "how"
+      "how",
+      "pac"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "again",
       "seven",
+      "again",
       "five",
-      "say"
+      "can"
      ],
      "suggestion": "Six-five-oh-seven-five? Can you say it again?",
      "suggestionFa": "شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟",
@@ -194,9 +194,9 @@
    "branches": [
     {
      "keywords": [
-      "three",
-      "eight",
       "seven",
+      "eight",
+      "three",
       "nine"
      ],
      "suggestion": "It's PAC nine-eight-seven, X-Y-Z, three-two-one.",
@@ -249,8 +249,8 @@
      "keywords": [
       "weekend",
       "phone",
-      "will",
-      "work"
+      "work",
+      "will"
      ],
      "suggestion": "Will my phone work at the weekend?",
      "suggestionFa": "گوشیم آخر هفته کار می‌کنه؟",
@@ -262,7 +262,7 @@
      "keywords": [
       "monday",
       "then",
-      "use",
+      "sim",
       "new"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
@@ -356,7 +356,7 @@
       "pounds",
       "maggie",
       "forty",
-      "give"
+      "nana"
      ],
      "suggestion": "Forty pounds? Or I give it to Nana Maggie.",
      "suggestionFa": "چهل پوند؟ یا می‌دمش به ننه مگی.",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "locked",
-      "great",
       "phone",
+      "great",
       "old"
      ],
      "suggestion": "Great! Is the old phone locked?",

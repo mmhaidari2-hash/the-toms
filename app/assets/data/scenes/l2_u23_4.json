@@ -84,8 +84,8 @@
     {
      "keywords": [
       "three",
-      "ok",
-      "go"
+      "go",
+      "ok"
      ],
      "suggestion": "Three? OK. Go on.",
      "suggestionFa": "سه تا؟ باشه. بگید.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "drink",
-      "four",
       "fine",
+      "four",
       "lot"
      ],
      "suggestion": "Four pints is fine. We drink a lot.",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "cheddar",
-      "leslie",
       "mature",
+      "leslie",
       "extra"
      ],
      "suggestion": "Leslie, do you like extra mature cheddar?",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "substitution",
-      "please",
       "what's",
+      "please",
       "third"
      ],
      "suggestion": "What's the third substitution, please?",
@@ -307,9 +307,9 @@
     },
     {
      "keywords": [
-      "pasta",
-      "still",
       "let's",
+      "still",
+      "pasta",
       "ask"
      ],
      "suggestion": "It's still pasta. Let's ask William.",

@@ -24,7 +24,7 @@
       "tomorrow",
       "leaving",
       "seaside",
-      "bailey",
+      "moving",
       "number"
      ],
      "suggestion": "Did you hear? Mr Bailey at number six is moving to the seaside. He's leaving tomorrow.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "daughter",
       "brighton",
+      "daughter",
       "goodbye",
       "let's",
       "near"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "picture",
-      "nicola",
       "bailey",
+      "nicola",
       "hello",
-      "made"
+      "card"
      ],
      "suggestion": "Yes, Nicola made a card. Look — a picture of him and his dog. Hello, Mr Bailey!",
      "suggestionFa": "آره، نیکولا یه کارت درست کرده. ببین — عکس خودش و سگش. سلام آقای بیلی!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "fridge",
-      "thank",
       "forty",
+      "lived",
       "he'll",
       "years"
      ],
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "sweets",
       "always",
+      "sweets",
       "about",
-      "ryan",
-      "gave"
+      "will",
+      "ryan"
      ],
      "suggestion": "We will. He always gave Ryan sweets. Ask him about his new home.",
      "suggestionFa": "تنگ میشه. همیشه به رایان شکلات می‌داد. ازش دربارهٔ خونهٔ جدیدش بپرس.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "bedroom",
+      "morning",
       "eighty",
-      "going",
-      "every"
+      "every",
+      "going"
      ],
      "suggestion": "He can see the sea from his bedroom! And he's going to swim every morning. At eighty!",
      "suggestionFa": "از اتاق خوابش دریا را می‌بینه! و قراره هر روز صبح شنا کنه. تو هشتاد سالگی!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "goodbye",
-      "leaving",
       "someone",
-      "who's",
+      "leaving",
+      "goodbye",
+      "right",
       "let's"
      ],
      "suggestion": "Right. Let's say goodbye. What do you say to someone who's leaving?",
@@ -199,8 +199,8 @@
       "perfect",
       "bucket",
       "street",
-      "bring",
-      "spade"
+      "won't",
+      "bring"
      ],
      "suggestion": "Perfect. He says, \"Come and visit! Bring a bucket and spade!\" The street won't be the same.",
      "suggestionFa": "عالی. می‌گه «بیاید دیدنم! سطل و بیلچه بیارید!» خیابون دیگه مثل قبل نمی‌شه.",

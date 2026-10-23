@@ -33,8 +33,8 @@
     {
      "keywords": [
       "every",
-      "went",
       "busy",
+      "went",
       "work"
      ],
      "suggestion": "It was busy. I went to work every day.",
@@ -180,8 +180,8 @@
     {
      "keywords": [
       "children",
-      "grow",
-      "fast"
+      "fast",
+      "grow"
      ],
      "suggestion": "Children grow so fast.",
      "suggestionFa": "بچه‌ها خیلی زود بزرگ می‌شن.",
@@ -193,8 +193,8 @@
      "keywords": [
       "shoes",
       "like",
-      "she",
-      "did"
+      "did",
+      "she"
      ],
      "suggestion": "Did she like the shoes?",
      "suggestionFa": "از کفش‌ها خوشش اومد؟",
@@ -232,10 +232,10 @@
    "branches": [
     {
      "keywords": [
-      "bought",
       "market",
+      "bought",
       "fruit",
-      "went"
+      "some"
      ],
      "suggestion": "I went to the market and bought some fruit.",
      "suggestionFa": "رفتم بازار و یه کم میوه خریدم.",
@@ -247,8 +247,8 @@
      "keywords": [
       "friend",
       "lunch",
-      "met",
-      "had"
+      "had",
+      "met"
      ],
      "suggestion": "I met a friend and we had lunch.",
      "suggestionFa": "یه دوست را دیدم و ناهار خوردیم.",
@@ -343,8 +343,8 @@
     {
      "keywords": [
       "yours",
-      "bad",
-      "how"
+      "how",
+      "bad"
      ],
      "suggestion": "Not bad. How was yours?",
      "suggestionFa": "بد نبود. مال تو چطور بود؟",

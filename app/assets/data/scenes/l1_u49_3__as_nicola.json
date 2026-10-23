@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "write",
       "right",
+      "write",
       "name",
       "look",
       "can"
@@ -48,9 +48,9 @@
      "keywords": [
       "letters",
       "letter",
-      "names",
-      "start",
-      "small"
+      "small",
+      "ellis",
+      "start"
      ],
      "suggestion": "Mrs Ellis says names start with a big letter. Big N, then small letters.",
      "suggestionFa": "خانم الیس میگه اسم‌ها با حرف بزرگ شروع میشن. N بزرگ، بعد حروف کوچیک.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "start",
       "write",
+      "start",
       "name",
-      "can",
-      "now"
+      "now",
+      "can"
      ],
      "suggestion": "Now can I write YOUR name? How do I start?",
      "suggestionFa": "حالا می‌تونم اسم تو را بنویسم؟ چطوری شروع کنم؟",
@@ -125,7 +125,7 @@
       "capital",
       "persian",
       "letter",
-      "there"
+      "right"
      ],
      "suggestion": "Right to left! Backwards! Is there a capital letter in Persian?",
      "suggestionFa": "از راست به چپ! برعکس! تو فارسی حرف بزرگ هست؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "little",
       "pretty",
+      "ellis",
       "going",
-      "snake",
-      "ellis"
+      "snake"
      ],
      "suggestion": "It's so pretty! Like a little snake and dots! I'm going to show Mrs Ellis!",
      "suggestionFa": "خیلی قشنگه! مثل یه مار کوچولو و نقطه! می‌خوام به خانم الیس نشونش بدم!",

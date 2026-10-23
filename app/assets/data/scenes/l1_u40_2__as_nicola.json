@@ -22,10 +22,10 @@
     {
      "keywords": [
       "button",
-      "mummy",
-      "toast",
       "press",
-      "lets"
+      "toast",
+      "mummy",
+      "make"
      ],
      "suggestion": "Can I make toast? Mummy lets me press the button!",
      "suggestionFa": "می‌تونم نون تست درست کنم؟ مامان میذاره دکمه را بزنم!",
@@ -49,7 +49,7 @@
       "bread",
       "press",
       "down",
-      "put",
+      "two",
       "now"
      ],
      "suggestion": "Two for me and two for you! Put the bread in. Now I press… down!",
@@ -73,8 +73,8 @@
      "keywords": [
       "ready",
       "take",
-      "out",
       "can",
+      "pop",
       "ooh"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "spread",
+      "butter",
       "toast",
       "yeast",
       "want"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "spread",
-      "salty",
-      "think",
       "yucky",
-      "loves"
+      "brown",
+      "think",
+      "daddy"
      ],
      "suggestion": "yeast spread is brown and salty. Daddy loves it. I think it's yucky! Try some!",
      "suggestionFa": "کرهٔ مخمر قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "funny",
-      "like",
-      "face"
+      "face",
+      "like"
      ],
      "suggestion": "Do you like it? Your face is funny!",
      "suggestionFa": "دوستش داری؟ صورتت خنده‌دار شده!",
@@ -172,8 +172,8 @@
       "triangles",
       "putting",
       "daddy",
-      "into",
-      "mine"
+      "mine",
+      "like"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
      "suggestionFa": "مثل بابایی! حالا رو مال خودم مربا می‌زنم. کلی مربا! می‌تونم مثلثی ببرمش؟",
@@ -198,7 +198,7 @@
       "everybody",
       "tastes",
       "better",
-      "knows"
+      "toast"
      ],
      "suggestion": "Triangles! Toast tastes better in triangles. Everybody knows that!",
      "suggestionFa": "مثلث! نون تست مثلثی خوشمزه‌تره. همه اینو می‌دونن!",

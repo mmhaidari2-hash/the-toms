@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "won",
-      "who"
+      "who",
+      "won"
      ],
      "suggestion": "Who won?",
      "suggestionFa": "کی برد؟",
@@ -77,8 +77,8 @@
     {
      "keywords": [
       "catch",
-      "mia",
-      "did"
+      "did",
+      "mia"
      ],
      "suggestion": "Did Mia catch you?",
      "suggestionFa": "میا گرفتت؟",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "lot",
-      "ran"
+      "ran",
+      "lot"
      ],
      "suggestion": "You ran a lot!",
      "suggestionFa": "خیلی دویدی!",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "sticker",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see the sticker?",
      "suggestionFa": "می‌تونم برچسب را ببینم؟",
@@ -317,8 +317,8 @@
     },
     {
      "keywords": [
-      "game",
       "like",
+      "game",
       "tag"
      ],
      "suggestion": "We played a game like tag.",

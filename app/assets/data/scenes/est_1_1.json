@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "about",
       "hello",
+      "about",
       "bed"
      ],
      "suggestion": "Hello. I'm calling about the one-bed flat on Mare Street.",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "come",
-      "when"
+      "when",
+      "come"
      ],
      "suggestion": "Yes. When can I come?",
      "suggestionFa": "آره. کِی می‌تونم بیام؟",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "thursday",
-      "please",
       "finish",
+      "please",
       "five"
      ],
      "suggestion": "Thursday, please. I finish work at five.",
@@ -190,10 +190,10 @@
     },
     {
      "keywords": [
-      "spell",
       "shall",
-      "name",
-      "sure"
+      "spell",
+      "sure",
+      "name"
      ],
      "suggestion": "Sure. Shall I spell my name for you?",
      "suggestionFa": "حتماً. اسمم را براتون هجی کنم؟",

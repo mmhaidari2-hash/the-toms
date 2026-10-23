@@ -22,7 +22,7 @@
       "william",
       "three",
       "can't",
-      "find"
+      "he's"
      ],
      "suggestion": "I can't find William! He's three.",
      "suggestionFa": "ویلیام را پیدا نمی‌کنم! سه سالشه.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "wearing",
-      "coat",
-      "he's"
+      "william",
+      "he's",
+      "coat"
      ],
      "suggestion": "William Tom. He's wearing a red coat.",
      "suggestionFa": "ویلیام تام. یه کت قرمز پوشیده.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "minutes",
-      "shop",
       "five",
+      "shop",
       "toy"
      ],
      "suggestion": "Five minutes ago, at the toy shop.",
@@ -152,9 +152,9 @@
     {
      "keywords": [
       "escalator",
-      "turned",
       "around",
-      "near"
+      "turned",
+      "gone"
      ],
      "suggestion": "Near the escalator. I turned around, and he was gone.",
      "suggestionFa": "نزدیک پله‌برقی. برگشتم دیدم نیست.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "adam",
       "code",
+      "adam",
       "mean"
      ],
      "suggestion": "What does Code Adam mean?",
@@ -264,8 +264,8 @@
      "keywords": [
       "driving",
       "he's",
-      "bus",
-      "his"
+      "his",
+      "bus"
      ],
      "suggestion": "His dad is Tom. He's driving the bus.",
      "suggestionFa": "باباش تامه. داره اتوبوس می‌رونه.",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "goodness",
-      "thank",
       "sweet",
+      "thank",
       "shop"
      ],
      "suggestion": "Oh, thank goodness! The sweet shop!",
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "sweets",
       "course",
+      "sweets",
       "loves",
       "he"
      ],
@@ -370,8 +370,8 @@
     },
     {
      "keywords": [
-      "lolly",
       "where",
+      "lolly",
       "get",
       "did"
      ],

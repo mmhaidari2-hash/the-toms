@@ -73,8 +73,8 @@
     {
      "keywords": [
       "white",
-      "beard",
       "short",
+      "beard",
       "grey"
      ],
      "suggestion": "He's got grey hair and a short white beard.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "seventy",
-      "think",
       "quite",
+      "think",
       "about"
      ],
      "suggestion": "He's quite tall and thin. About seventy, I think.",
@@ -158,9 +158,9 @@
     },
     {
      "keywords": [
-      "small",
       "brown",
-      "had",
+      "small",
+      "dog",
       "him"
      ],
      "suggestion": "He had a brown dog with him. A small one.",
@@ -203,8 +203,8 @@
    "branches": [
     {
      "keywords": [
-      "round",
       "smile",
+      "round",
       "big"
      ],
      "suggestion": "Yes, round glasses. And a big smile.",
@@ -215,8 +215,8 @@
     },
     {
      "keywords": [
-      "sorry",
       "about",
+      "sorry",
       "sure"
      ],
      "suggestion": "I'm not sure about glasses. Sorry.",
@@ -256,9 +256,9 @@
     {
      "keywords": [
       "that's",
-      "thank",
       "let's",
-      "say"
+      "thank",
+      "him"
      ],
      "suggestion": "Yes, that's him! Let's go and say thank you.",
      "suggestionFa": "آره، خودشه! بریم تشکر کنیم.",
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "lemon",
-      "told",
       "week",
-      "last"
+      "last",
+      "told"
      ],
      "suggestion": "He likes lemon cake. He told me last week.",
      "suggestionFa": "کیک لیمو دوست داره. هفتهٔ پیش بهم گفت.",
@@ -374,7 +374,7 @@
       "think",
       "more",
       "than",
-      "his"
+      "dog"
      ],
      "suggestion": "He likes his dog more than cake, I think!",
      "suggestionFa": "فکر کنم سگش را بیشتر از کیک دوست داره!",

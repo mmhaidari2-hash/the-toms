@@ -25,7 +25,7 @@
       "surgery",
       "here's",
       "first",
-      "help"
+      "form"
      ],
      "suggestion": "First, you need to register at the surgery. Here's the form. I'll help you.",
      "suggestionFa": "اول باید تو مطب ثبت‌نام کنی. اینم فرم. کمکت می‌کنم.",
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "surname",
       "letters",
       "capital",
-      "surname",
       "office",
       "first"
      ],
@@ -73,8 +73,8 @@
      "keywords": [
       "address",
       "number",
-      "street",
       "family",
+      "street",
       "name"
      ],
      "suggestion": "Your family name. Then your address. You're at number ten, Mare Street.",
@@ -98,9 +98,9 @@
      "keywords": [
       "postcode",
       "birth",
-      "month",
       "write",
-      "year"
+      "month",
+      "same"
      ],
      "suggestion": "The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year.",
      "suggestionFa": "کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال.",

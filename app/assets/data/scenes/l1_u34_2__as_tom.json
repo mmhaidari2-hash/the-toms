@@ -72,8 +72,8 @@
     {
      "keywords": [
       "there's",
-      "behind",
       "john's",
+      "behind",
       "clock",
       "park"
      ],
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "stops",
       "other",
-      "there",
-      "helps"
+      "which",
+      "helps",
+      "there"
      ],
      "suggestion": "There are lots of stops near each other. The letter helps. Which bus do you need?",
      "suggestionFa": "کلی ایستگاه نزدیک هم هست. حرفه کمک می‌کنه. کدوم اتوبوس لازمته؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "seven",
       "stops",
       "angel",
-      "seven",
-      "get",
-      "bus"
+      "bus",
+      "get"
      ],
      "suggestion": "My bus! The 38. Get off at the Angel. Seven stops.",
      "suggestionFa": "اتوبوس خودم! ۳۸. ایستگاه انجل پیاده شو. هفت ایستگاه.",
@@ -174,8 +174,8 @@
       "there's",
       "inside",
       "screen",
-      "voice",
-      "shows"
+      "shows",
+      "voice"
      ],
      "suggestion": "There's a screen inside. It shows the next stop. And a voice says it.",
      "suggestionFa": "داخلش یه صفحه هست. ایستگاه بعدی را نشون میده. یه صدا هم میگه.",

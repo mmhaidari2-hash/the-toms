@@ -22,7 +22,7 @@
       "pounds",
       "sixty",
       "send",
-      "owe"
+      "how"
      ],
      "suggestion": "I owe my friend sixty pounds. How do I send it?",
      "suggestionFa": "شصت پوند به دوستم بدهکارم. چطوری بفرستمش؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "transfer",
-      "bank",
       "back",
-      "like"
+      "like",
+      "bank"
      ],
      "suggestion": "I'd like to pay a friend back by bank transfer.",
      "suggestionFa": "می‌خوام پول یه دوست را با انتقال بانکی پس بدم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "concert",
       "ticket",
-      "paid",
-      "from"
+      "from",
+      "paid"
      ],
      "suggestion": "Callum from the café. He paid for my concert ticket.",
      "suggestionFa": "کالوم از کافه. پول بلیت کنسرتم را داد.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "barista",
-      "called",
       "friend",
+      "called",
       "he's"
      ],
      "suggestion": "A friend called Callum. He's a barista.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "matches",
-      "name",
-      "good"
+      "good",
+      "name"
      ],
      "suggestion": "It says, \"Name matches\". Good!",
      "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
@@ -205,8 +205,8 @@
      "keywords": [
       "callum",
       "close",
-      "match",
-      "byrne"
+      "byrne",
+      "match"
      ],
      "suggestion": "It says, \"Close match: Callum J Byrne\".",
      "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
@@ -308,9 +308,9 @@
     },
     {
      "keywords": [
-      "take",
       "long",
       "done",
+      "take",
       "how"
      ],
      "suggestion": "Done. How long does it take?",
@@ -353,9 +353,9 @@
    "branches": [
     {
      "keywords": [
-      "legend",
       "callum",
       "cheers",
+      "legend",
       "got"
      ],
      "suggestion": "It's Callum: \"Got it, legend! Cheers!\"",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "thanks",
-      "says",
       "fast",
+      "says",
       "was"
      ],
      "suggestion": "He says thanks. That was so fast!",

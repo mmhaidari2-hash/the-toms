@@ -22,9 +22,9 @@
     {
      "keywords": [
       "parents'",
+      "minutes",
       "evening",
       "booking",
-      "minutes",
       "school"
      ],
      "suggestion": "Help! Parents' evening booking opens at seven, and the good slots go in five minutes. Can you help me book on the school app?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola's",
       "meetings",
+      "nicola's",
       "minutes",
       "teacher",
       "ryan's"
@@ -73,9 +73,9 @@
      "keywords": [
       "thursday",
       "what's",
-      "first",
-      "times",
-      "patel"
+      "patel",
+      "quick",
+      "first"
      ],
      "suggestion": "Quick! Mr Patel first. What's free on Thursday? Read me the times.",
      "suggestionFa": "سریع! اول آقای پاتل. پنج‌شنبه چه ساعت‌هایی خالیه؟ ساعت‌ها را برام بخون.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "classrooms",
-      "minutes",
       "between",
+      "minutes",
       "apart",
-      "least"
+      "ellis"
      ],
      "suggestion": "Six-ten, take it! Now Ms Ellis. We need at least ten minutes between them — the classrooms are far apart.",
      "suggestionFa": "شش و ده، بگیرش! حالا خانم الیس. حداقل ده دقیقه بینشون فاصله لازم داریم — کلاس‌ها از هم دورن.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "perfect",
-      "online",
       "thirty",
+      "online",
       "person",
       "booked"
      ],
@@ -150,7 +150,7 @@
       "family",
       "watch",
       "he'll",
-      "phone"
+      "depot"
      ],
      "suggestion": "The school says one link per family, so Tom can watch on his phone in the bus depot. He'll love that.",
      "suggestionFa": "مدرسه میگه هر خانواده یه لینک، پس تام می‌تونه تو پارکینگ اتوبوس‌ها رو گوشیش ببینه. عاشقش میشه.",
@@ -173,9 +173,9 @@
      "keywords": [
       "questions",
       "parents'",
-      "evening",
       "minutes",
-      "william"
+      "evening",
+      "teacher"
      ],
      "suggestion": "Oh, would you? William at parents' evening is chaos. Let's write three questions for each teacher. Five minutes goes fast!",
      "suggestionFa": "وای، این کار را می‌کنی؟ ویلیام تو جلسهٔ اولیا یعنی هرج‌ومرج. بیا برای هر معلم سه تا سؤال بنویسیم. پنج دقیقه زود می‌گذره!",
@@ -198,9 +198,9 @@
      "keywords": [
       "perfect",
       "parent",
-      "you'd",
       "doing",
-      "great"
+      "you'd",
+      "three"
      ],
      "suggestion": "Perfect. \"How is he doing, what can we do at home, and is he happy?\" The three big ones. You'd make a great parent, you know.",
      "suggestionFa": "عالیه. «چطور پیش میره، تو خونه چی کار می‌تونیم بکنیم، و خوشحاله؟» سه تا سؤال اصلی. می‌دونی، تو پدر یا مادر خوبی می‌شدی.",

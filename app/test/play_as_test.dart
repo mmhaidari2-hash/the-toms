@@ -54,6 +54,8 @@ void main() {
 
     // Swap mid-call: the reply the learner owed is spoken for them, then Sian's next line is theirs.
     await t.tap(find.byKey(const ValueKey('playas-them')));
+    await t.pump(const Duration(milliseconds: 200));
+    expect(find.text('Hi. Could I speak to someone about my account?'), findsNothing, reason: 'no stale reply chips while the other side is talking');
     await wait(25);
     // The painting is a bigger hero now, so the opening may be scrolled up: scroll to it, then back down.
     await t.drag(find.byKey(const ValueKey('chat-list')), const Offset(0, 3000));

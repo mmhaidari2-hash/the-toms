@@ -22,7 +22,7 @@
       "included",
       "service",
       "first",
-      "let's"
+      "check"
      ],
      "suggestion": "First, let's check if service is included.",
      "suggestionFa": "اول ببینیم سرویس شامله یا نه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "usually",
       "people",
-      "here",
-      "much"
+      "much",
+      "here"
      ],
      "suggestion": "How much do people usually tip here?",
      "suggestionFa": "اینجا معمولاً مردم چقدر انعام میدن؟",
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "sophie",
       "pounds",
+      "sophie",
       "six",
       "ok"
      ],
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "let's",
       "leave",
+      "let's",
       "cash",
-      "then"
+      "goes"
      ],
      "suggestion": "Let's leave it in cash. Then it goes to her.",
      "suggestionFa": "بیا نقد بذاریم. اون‌وقت به خودش می‌رسه.",
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "audition",
-      "luck",
-      "good"
+      "good",
+      "luck"
      ],
      "suggestion": "Good luck with the audition!",
      "suggestionFa": "تو تست بازیگری موفق باشی!",
@@ -298,10 +298,10 @@
     },
     {
      "keywords": [
-      "month",
       "we'll",
-      "next",
-      "back"
+      "month",
+      "back",
+      "next"
      ],
      "suggestion": "We'll be back next month.",
      "suggestionFa": "ماه بعد برمی‌گردیم.",

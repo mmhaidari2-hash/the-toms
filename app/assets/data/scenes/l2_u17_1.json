@@ -142,8 +142,8 @@
      "keywords": [
       "vindaloo",
       "spicy",
-      "food",
-      "like"
+      "like",
+      "food"
      ],
      "suggestion": "I like spicy food. I'll try the vindaloo!",
      "suggestionFa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "medium",
       "please",
+      "medium",
       "have",
       "one"
      ],
@@ -197,7 +197,7 @@
       "persian",
       "please",
       "pilau",
-      "rice"
+      "like"
      ],
      "suggestion": "Pilau rice, please. Like Persian rice!",
      "suggestionFa": "برنج پلو، لطفاً. مثل برنج ایرانی!",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "much",
-      "all",
-      "how"
+      "how",
+      "all"
      ],
      "suggestion": "How much is it all?",
      "suggestionFa": "همه‌ش چقدر میشه؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
+      "buy",
       "but",
-      "let",
-      "buy"
+      "let"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

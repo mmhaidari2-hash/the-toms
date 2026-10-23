@@ -22,7 +22,7 @@
       "morning",
       "sophie",
       "check",
-      "sure"
+      "like"
      ],
      "suggestion": "Sure. Good morning, Sophie. We'd like to check out.",
      "suggestionFa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "leave",
       "rooms",
-      "time",
-      "have"
+      "have",
+      "time"
      ],
      "suggestion": "What time do we have to leave the rooms?",
      "suggestionFa": "ساعت چند باید اتاق‌ها را خالی کنیم؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "leslie",
-      "thank",
       "check",
+      "thank",
       "bill"
      ],
      "suggestion": "Thank you. Leslie, can you check the bill?",
@@ -116,9 +116,9 @@
     {
      "keywords": [
       "minibar",
-      "charge",
       "please",
-      "check"
+      "charge",
+      "could"
      ],
      "suggestion": "Could you check the minibar charge, please?",
      "suggestionFa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "minute",
-      "come",
       "here",
+      "come",
       "ryan"
      ],
      "suggestion": "Ryan, come here a minute.",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "call",
       "he's",
+      "call",
       "i'll",
-      "tom"
+      "him"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
      "suggestionFa": "با تام تو ماشینه. صداش می‌کنم.",
@@ -222,10 +222,10 @@
    "branches": [
     {
      "keywords": [
-      "nothing",
       "minibar",
-      "ryan",
-      "free"
+      "nothing",
+      "free",
+      "ryan"
      ],
      "suggestion": "Nothing in a minibar is free, Ryan!",
      "suggestionFa": "هیچ‌چیز تو مینی‌بار مجانی نیست رایان!",
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "carry",
-      "desk",
+      "help",
       "bags",
-      "help"
+      "desk"
      ],
      "suggestion": "Can I help carry the bags to the desk?",
      "suggestionFa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟",
@@ -423,8 +423,8 @@
     {
      "keywords": [
       "everything",
-      "stars",
       "thank",
+      "stars",
       "five"
      ],
      "suggestion": "Five stars! Thank you for everything.",

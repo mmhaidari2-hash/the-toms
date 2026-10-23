@@ -49,8 +49,8 @@
       "everyone",
       "happens",
       "station",
-      "means",
-      "money"
+      "light",
+      "means"
      ],
      "suggestion": "Red light means no money on it. Happens to everyone. You can top up at the shop, the station, or on the app.",
      "suggestionFa": "چراغ قرمز یعنی پول روش نیست. واسه همه پیش میاد. می‌تونی تو مغازه، ایستگاه، یا با برنامه شارژش کنی.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "corner",
       "london",
+      "corner",
       "buses",
-      "shop",
-      "free"
+      "cash",
+      "show"
      ],
      "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
      "suggestionFa": "تو اتوبوس نه. اتوبوس‌های لندن پول نقد قبول نمی‌کنن. مغازهٔ سر کوچه شارژ می‌کنه. بیا، نشونت میدم.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "seventy",
       "there's",
+      "seventy",
       "pounds",
-      "daily",
-      "never"
+      "never",
+      "buses"
      ],
      "suggestion": "A bus fare is one seventy-five. There's a daily cap, so you never pay more than about five pounds a day on buses.",
      "suggestionFa": "کرایهٔ اتوبوس یک پوند و هفتاد و پنج پنسه. یه سقف روزانه هست، پس روزانه هیچ‌وقت بیشتر از حدود پنج پوند برای اتوبوس نمیدی.",
@@ -123,9 +123,9 @@
      "keywords": [
       "twenty's",
       "exactly",
-      "second",
-      "hopper",
-      "change"
+      "change",
+      "plenty",
+      "second"
      ],
      "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
      "suggestionFa": "دقیقاً — بیست تا کافیه. و «کرایهٔ هاپر»: تو یه ساعت اتوبوس عوض کنی، دومی مجانیه.",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "balance",
+      "yellow",
       "pounds",
       "reader",
-      "yellow",
       "twenty"
      ],
      "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
@@ -199,8 +199,8 @@
       "register",
       "driving",
       "minutes",
-      "online",
-      "leaves"
+      "leaves",
+      "online"
      ],
      "suggestion": "Register it online. Then if you lose it, you keep your money. Right — my bus leaves in four minutes. And I'm driving it!",
      "suggestionFa": "آنلاین ثبتش کن. بعد اگه گمش کنی، پولت می‌مونه. خب — اتوبوسم چهار دقیقهٔ دیگه حرکت می‌کنه. و راننده‌ش منم!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "time",
+      "ryan",
       "bed"
      ],
      "suggestion": "It's time for bed, Ryan.",
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "sleep",
       "maths",
+      "sleep",
       "test",
-      "then"
+      "need"
      ],
      "suggestion": "A maths test? Then you need sleep!",
      "suggestionFa": "امتحان ریاضی؟ پس خواب لازم داری!",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "set",
-      "off"
+      "off",
+      "set"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -224,7 +224,7 @@
       "radiator",
       "morning",
       "it'll",
-      "put"
+      "dry"
      ],
      "suggestion": "Put it on the radiator. It'll be dry by morning.",
      "suggestionFa": "بذارش رو شوفاژ. تا صبح خشک میشه.",
@@ -236,8 +236,8 @@
      "keywords": [
       "tomorrow",
       "wear",
-      "old",
-      "one"
+      "one",
+      "old"
      ],
      "suggestion": "Wear your old one tomorrow.",
      "suggestionFa": "فردا قدیمیه را بپوش.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "ryan",
-      "sure"
+      "sure",
+      "ryan"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -344,8 +344,8 @@
      "keywords": [
       "nearly",
       "seven",
-      "half",
-      "same"
+      "same",
+      "half"
      ],
      "suggestion": "At half seven. Same as you, nearly.",
      "suggestionFa": "هفت و نیم. تقریباً مثل تو.",
@@ -358,7 +358,7 @@
       "early",
       "i've",
       "long",
-      "got"
+      "day"
      ],
      "suggestion": "Early. I've got a long day.",
      "suggestionFa": "زود. روز طولانی‌ای دارم.",
@@ -392,8 +392,8 @@
    "branches": [
     {
      "keywords": [
-      "funny",
       "thing",
+      "funny",
       "say"
      ],
      "suggestion": "It's a funny thing to say! Night!",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "luck",
       "test",
       "ryan",
-      "good"
+      "good",
+      "luck"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

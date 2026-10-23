@@ -79,9 +79,9 @@
     {
      "keywords": [
       "agreement",
-      "address",
       "tenancy",
-      "okay"
+      "address",
+      "i've"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "thousand",
-      "pounds",
       "salary",
+      "pounds",
       "about"
      ],
      "suggestion": "About two thousand pounds, from my salary.",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "first",
       "month",
+      "first",
       "sure",
       "yet"
      ],
@@ -166,10 +166,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "rather",
+      "thanks",
       "avoid",
-      "now"
+      "i'd"
      ],
      "suggestion": "I'd rather avoid an overdraft for now, thanks.",
      "suggestionFa": "ترجیح می‌دم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
@@ -226,9 +226,9 @@
     {
      "keywords": [
       "later",
-      "know",
+      "good",
       "need",
-      "good"
+      "know"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "what's",
-      "code",
-      "sort"
+      "sort",
+      "code"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "thanks",
-      "scams",
       "about",
+      "scams",
       "heard"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
@@ -377,9 +377,9 @@
     {
      "keywords": [
       "careful",
+      "i'll",
       "good",
-      "know",
-      "i'll"
+      "know"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",

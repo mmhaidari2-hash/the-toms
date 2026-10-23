@@ -25,7 +25,7 @@
       "delivery",
       "game",
       "fine",
-      "come"
+      "i'll"
      ],
      "suggestion": "Doorbell. It's not for me. Bro, can you get it? I'm mid-game. … OK, fine, I'll come. Oh — it's Kev the delivery guy.",
      "suggestionFa": "زنگ در. مال من نیست. داداش، باز می‌کنی؟ وسط بازی‌ام. … باشه، باشه، میام. اوه — کِوِ پیکه.",
@@ -218,11 +218,11 @@
    "branches": [
     {
      "keywords": [
+      "always",
       "should",
       "what's",
-      "always",
       "shake",
-      "heavy"
+      "right"
      ],
      "suggestion": "Why does he always say sorry? Right — it's heavy. What's in it? Should we shake it?",
      "suggestionFa": "چرا همیشه میگه ببخشید؟ خب — سنگینه. توش چیه؟ تکونش بدیم؟",
@@ -243,8 +243,8 @@
    "branches": [
     {
      "keywords": [
-      "fragile",
       "hallway",
+      "fragile",
       "should",
       "number",
       "street"
@@ -294,10 +294,10 @@
     {
      "keywords": [
       "finishing",
-      "o'clock",
       "samosas",
+      "o'clock",
       "street",
-      "she's"
+      "right"
      ],
      "suggestion": "Best on the street. Right — six o'clock, she's back. You do the door. I'm finishing my game. But call me for the samosas.",
      "suggestionFa": "بهترین تو خیابون. خب — ساعت شش برمی‌گرده. تو در را باز کن. من بازیم را تموم می‌کنم. ولی برای سمبوسه صدام کن.",
@@ -320,9 +320,9 @@
      "keywords": [
       "getting",
       "samosa",
-      "sound",
+      "fresh",
       "first",
-      "fresh"
+      "sound"
      ],
      "suggestion": "Fresh air? You sound like Mum. Fine. I'll do the door. But I'm getting the first samosa. Deal?",
      "suggestionFa": "هوای تازه؟ مثل مامان حرف می‌زنی. باشه. من در را باز می‌کنم. ولی اولین سمبوسه مال منه. قبول؟",

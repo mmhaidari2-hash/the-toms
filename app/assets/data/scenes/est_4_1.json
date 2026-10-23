@@ -22,7 +22,7 @@
       "working",
       "stopped",
       "afraid",
-      "olivia"
+      "boiler"
      ],
      "suggestion": "Hi Olivia. I'm afraid the boiler has stopped working.",
      "suggestionFa": "سلام اولیویا. متأسفانه دیگ شوفاژ از کار افتاده.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "sunday",
-      "since",
       "night",
+      "since",
       "been"
      ],
      "suggestion": "It's been off since Sunday night.",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "turning",
       "minutes",
+      "turning",
       "every",
       "keeps"
      ],
@@ -132,8 +132,8 @@
      "keywords": [
       "engineer",
       "course",
-      "come",
-      "when"
+      "when",
+      "come"
      ],
      "suggestion": "Of course. When can the engineer come?",
      "suggestionFa": "حتماً. تعمیرکار کِی می‌تونه بیاد؟",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "tomorrow",
+      "from",
       "home",
-      "i'll",
-      "from"
+      "i'll"
      ],
      "suggestion": "Yes, I'll work from home tomorrow.",
      "suggestionFa": "آره، فردا از خونه کار می‌کنم.",
@@ -196,9 +196,9 @@
     },
     {
      "keywords": [
-      "twenty",
       "hours'",
       "notice",
+      "twenty",
       "four"
      ],
      "suggestion": "Can you give me twenty-four hours' notice next time?",

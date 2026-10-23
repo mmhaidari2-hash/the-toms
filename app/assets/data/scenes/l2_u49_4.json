@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "first",
       "dough",
+      "first",
       "make"
      ],
      "suggestion": "Of course. First, we need to make the dough.",
@@ -34,8 +34,8 @@
      "keywords": [
       "scones",
       "round",
-      "they",
-      "star"
+      "star",
+      "have"
      ],
      "suggestion": "Star scones! Do they have to be round?",
      "suggestionFa": "اسکون ستاره‌ای! باید گرد باشن؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "nicola",
-      "white",
       "hands",
+      "white",
       "all"
      ],
      "suggestion": "Your hands are all white, Nicola!",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "flour",
       "won't",
+      "flour",
       "more",
       "bit"
      ],
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "let's",
       "table",
+      "let's",
       "put",
       "ok"
      ],
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "small",
-      "maybe"
+      "maybe",
+      "small"
      ],
      "suggestion": "Your thumb is very small! Maybe my thumb?",
      "suggestionFa": "شست تو خیلی کوچیکه! شاید شست من؟",
@@ -266,7 +266,7 @@
       "don't",
       "twist",
       "says",
-      "push"
+      "nana"
      ],
      "suggestion": "Don't twist! Nana says just push down.",
      "suggestionFa": "نچرخون! نانا میگه فقط فشار بده.",
@@ -321,8 +321,8 @@
     {
      "keywords": [
       "perfect",
-      "look",
       "wait",
+      "look",
       "now"
      ],
      "suggestion": "They look perfect. Now we wait!",
@@ -405,10 +405,10 @@
    "branches": [
     {
      "keywords": [
-      "first",
-      "which",
       "cream",
-      "right"
+      "first",
+      "right",
+      "which"
      ],
      "suggestion": "Jam first or cream first? Which is right?",
      "suggestionFa": "اول مربا یا اول خامه؟ کدوم درسته؟",
@@ -419,8 +419,8 @@
     {
      "keywords": [
       "both",
-      "i'll",
       "each",
+      "i'll",
       "try"
      ],
      "suggestion": "I'll try both! One of each.",
@@ -463,10 +463,10 @@
    "branches": [
     {
      "keywords": [
-      "golden",
       "nicola",
-      "tall",
-      "well"
+      "golden",
+      "well",
+      "tall"
      ],
      "suggestion": "They're golden and tall! Well done, Nicola!",
      "suggestionFa": "طلایی و بلند شدن! آفرین نیکولا!",

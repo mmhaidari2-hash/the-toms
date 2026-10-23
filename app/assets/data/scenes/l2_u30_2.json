@@ -73,9 +73,9 @@
     {
      "keywords": [
       "entered",
-      "three",
       "times",
-      "wrong"
+      "wrong",
+      "three"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
      "suggestionFa": "آره. سه بار رمز اشتباه زدم.",
@@ -87,8 +87,8 @@
      "keywords": [
       "didn't",
       "come",
-      "put",
-      "out"
+      "out",
+      "put"
      ],
      "suggestion": "No! I put it in and it didn't come out.",
      "suggestionFa": "نه! گذاشتمش تو و بیرون نیومد.",
@@ -196,7 +196,7 @@
       "when",
       "will",
       "card",
-      "get"
+      "new"
      ],
      "suggestion": "When will I get the new card?",
      "suggestionFa": "کارت جدید را کی می‌گیرم؟",
@@ -209,7 +209,7 @@
       "cancel",
       "phone",
       "still",
-      "use"
+      "can"
      ],
      "suggestion": "Cancel it? Can I still use my phone?",
      "suggestionFa": "باطلش کنید؟ هنوز می‌تونم از گوشیم استفاده کنم؟",
@@ -260,9 +260,9 @@
     },
     {
      "keywords": [
-      "days",
-      "food",
       "five",
+      "food",
+      "days",
       "buy"
      ],
      "suggestion": "Five days? How do I buy food?",
@@ -351,8 +351,8 @@
      "keywords": [
       "changed",
       "forgot",
-      "last",
-      "know"
+      "know",
+      "week"
      ],
      "suggestion": "I know. I changed it last week and forgot!",
      "suggestionFa": "می‌دونم. هفتهٔ پیش عوضش کردم و یادم رفت!",
@@ -364,8 +364,8 @@
      "keywords": [
       "advice",
       "thank",
-      "good",
-      "much"
+      "much",
+      "good"
      ],
      "suggestion": "Good advice. Thank you so much, Siân.",
      "suggestionFa": "توصیهٔ خوبیه. خیلی ممنون شان.",

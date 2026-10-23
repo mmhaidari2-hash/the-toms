@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "bottle",
       "please",
+      "bottle",
       "water",
       "have"
      ],
@@ -81,8 +81,8 @@
     },
     {
      "keywords": [
-      "petrol",
       "thanks",
+      "petrol",
       "just"
      ],
      "suggestion": "No, thanks. Just the petrol.",
@@ -132,8 +132,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "what's",
+      "please",
       "still",
       "deal"
      ],
@@ -147,8 +147,8 @@
      "keywords": [
       "sparkling",
       "deals",
-      "two",
-      "tom"
+      "tom",
+      "two"
      ],
      "suggestion": "Sparkling. And two meal deals, for me and Tom.",
      "suggestionFa": "گازدار. و دو تا میل دیل، برای من و تام.",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "please",
-      "wants",
       "check",
+      "wants",
       "tom"
      ],
      "suggestion": "Yes, please. Tom wants to check it.",

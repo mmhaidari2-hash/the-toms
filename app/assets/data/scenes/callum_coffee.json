@@ -70,8 +70,8 @@
     },
     {
      "keywords": [
-      "today",
       "large",
+      "today",
       "need"
      ],
      "suggestion": "Large — I need it today!",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "have",
       "then",
-      "i'll"
+      "i'll",
+      "have"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -257,8 +257,8 @@
     },
     {
      "keywords": [
-      "more",
       "nine",
+      "more",
       "then",
       "go"
      ],
@@ -294,7 +294,7 @@
       "months",
       "moved",
       "here",
-      "ago"
+      "few"
      ],
      "suggestion": "Yes, I moved here a few months ago.",
      "suggestionFa": "آره، چند ماه پیش اومدم.",
@@ -304,8 +304,8 @@
     },
     {
      "keywords": [
-      "working",
       "started",
+      "working",
       "nearby",
       "i've"
      ],
@@ -339,9 +339,9 @@
     {
      "keywords": [
       "where's",
-      "thanks",
+      "chippy",
       "callum",
-      "chippy"
+      "thanks"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -351,9 +351,9 @@
     },
     {
      "keywords": [
-      "that's",
       "really",
-      "kind",
+      "that's",
+      "i'll",
       "back"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",

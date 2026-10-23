@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "shelf",
       "empty",
+      "shelf",
       "sold",
       "out"
      ],
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "stock",
-      "will",
       "when",
+      "will",
       "out"
      ],
      "suggestion": "Out of stock? When will it be back?",
@@ -152,8 +152,8 @@
      "keywords": [
       "lunchtime",
       "morning",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "Six in the morning? I'll come at lunchtime.",
      "suggestionFa": "شش صبح؟ ظهر میام.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "price",
-      "i'll",
       "half",
+      "i'll",
       "try"
      ],
      "suggestion": "Half the price? I'll try it.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "toiletries",
-      "friend",
-      "what's"
+      "what's",
+      "friend"
      ],
      "suggestion": "No, for a friend. What's \"toiletries\"?",
      "suggestionFa": "نه، برای یه دوست. «تویلِتریز» چیه؟",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "free",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "Three for two? So one is free?",
      "suggestionFa": "سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟",
@@ -364,8 +364,8 @@
      "keywords": [
       "packs",
       "great",
-      "take",
-      "i'll"
+      "i'll",
+      "take"
      ],
      "suggestion": "Great. I'll take three packs.",
      "suggestionFa": "عالیه. سه بسته برمی‌دارم.",

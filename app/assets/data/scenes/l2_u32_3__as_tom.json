@@ -47,9 +47,9 @@
     {
      "keywords": [
       "shouting",
+      "someone",
       "popular",
       "cycling",
-      "someone",
       "music"
      ],
      "suggestion": "Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app…",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "energetic",
       "boxercise",
+      "energetic",
       "thursday",
-      "nearly",
-      "booked"
+      "booked",
+      "nearly"
      ],
      "suggestion": "Booked! Thursday, seven p.m. Boxercise with… Jade. Oh no. Jade is very… energetic. Last time I nearly died.",
      "suggestionFa": "رزرو شد! پنج‌شنبه، هفت عصر. بوکسرسایز با… جِید. ای وای. جِید خیلی… پرانرژیه. دفعهٔ قبل نزدیک بود بمیرم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "snored",
-      "filmed",
+      "rather",
       "asleep",
-      "boxing",
-      "leslie"
+      "leslie",
+      "snored",
+      "filmed"
      ],
      "suggestion": "Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it.",
      "suggestionFa": "یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت.",
@@ -149,8 +149,8 @@
       "leslie's",
       "forever",
       "before",
-      "gloves",
-      "dinner"
+      "dinner",
+      "gloves"
      ],
      "suggestion": "It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before!",
      "suggestionFa": "تا ابد رو گوشی لزلیه. خب — چی لازم داریم؟ دستکش تو باشگاه رایگانه. حوله بیار. و قبلش شام سنگین نخور!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "boxercise",
-      "jumping",
       "because",
-      "before",
-      "midday"
+      "jumping",
+      "dinner",
+      "cancel"
      ],
      "suggestion": "Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No.",
      "suggestionFa": "قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه.",
@@ -199,8 +199,8 @@
       "thursday",
       "survive",
       "leslie",
-      "seven",
-      "can't"
+      "can't",
+      "seven"
      ],
      "suggestion": "Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car.",
      "suggestionFa": "آفرین. پنج‌شنبه، هفت. اگه زنده نموندم، به لزلی بگو دوستش دارم. و به رایان بگو ماشینم مال اون نمیشه.",

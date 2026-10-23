@@ -73,9 +73,9 @@
     {
      "keywords": [
       "iron",
-      "hot",
       "yet",
-      "got"
+      "got",
+      "hot"
      ],
      "suggestion": "Got it. Is the iron hot yet?",
      "suggestionFa": "فهمیدم. اتو داغ شد؟",
@@ -264,8 +264,8 @@
     {
      "keywords": [
       "same",
-      "mum",
-      "way"
+      "way",
+      "mum"
      ],
      "suggestion": "My mum does it the same way!",
      "suggestionFa": "مامانم هم همین‌جوری می‌کنه!",
@@ -303,9 +303,9 @@
    "branches": [
     {
      "keywords": [
-      "hole",
       "ryan",
-      "poor"
+      "poor",
+      "hole"
      ],
      "suggestion": "A hole? Poor Ryan!",
      "suggestionFa": "سوراخ؟ رایان بیچاره!",
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "stand",
-      "stop",
       "when",
+      "stop",
       "i'll"
      ],
      "suggestion": "I'll stand it up when I stop.",
@@ -426,8 +426,8 @@
     },
     {
      "keywords": [
-      "interview",
-      "questions"
+      "questions",
+      "interview"
      ],
      "suggestion": "What are the interview questions?",
      "suggestionFa": "سؤال‌های مصاحبه چیه؟",

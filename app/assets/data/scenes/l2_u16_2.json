@@ -30,9 +30,9 @@
     },
     {
      "keywords": [
+      "labels",
       "yellow",
       "didn't",
-      "labels",
       "know"
      ],
      "suggestion": "Yellow labels? I didn't know that.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
-      "where"
+      "where",
+      "price"
      ],
      "suggestion": "Price per kilo? Where is it?",
      "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "small",
       "alone",
+      "small",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -328,10 +328,10 @@
    "branches": [
     {
      "keywords": [
-      "pence",
       "seven",
-      "come",
-      "back"
+      "pence",
+      "back",
+      "come"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",
@@ -395,8 +395,8 @@
      "keywords": [
       "don't",
       "pasta",
-      "much",
-      "just"
+      "just",
+      "much"
      ],
      "suggestion": "Just one. I don't eat much pasta.",
      "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",

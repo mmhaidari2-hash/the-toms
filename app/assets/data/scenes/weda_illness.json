@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "quite",
       "shall",
+      "quite",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "like",
-      "he's"
+      "he's",
+      "like"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "dinner",
       "pushed",
+      "dinner",
       "away",
       "much"
      ],
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "ages",
       "says",
+      "ages",
       "two"
      ],
      "suggestion": "It says five ml for ages two to four.",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "every",
       "hours",
+      "every",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -303,10 +303,10 @@
     },
     {
      "keywords": [
-      "jumper",
       "should",
+      "jumper",
       "take",
-      "off"
+      "his"
      ],
      "suggestion": "Should I take his jumper off?",
      "suggestionFa": "ژاکتش را دربیارم؟",
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "change",
+      "things",
       "don't",
       "they"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "lullaby",
       "persian",
+      "lullaby",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

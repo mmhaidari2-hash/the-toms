@@ -22,9 +22,9 @@
     {
      "keywords": [
       "school",
-      "socks",
-      "about",
       "today",
+      "about",
+      "socks",
       "know"
      ],
      "suggestion": "Is it \"Odd Socks Day\" at school today? Mum says it is. Do you know about it?",
@@ -73,9 +73,9 @@
      "keywords": [
       "different",
       "because",
-      "that's",
       "choose",
-      "socks"
+      "that's",
+      "we're"
      ],
      "suggestion": "Because we're all different. And that's OK! So, which socks? Help me choose.",
      "suggestionFa": "چون همه‌مون فرق داریم. و اشکالی نداره! خب، کدوم جوراب‌ها؟ کمکم کن انتخاب کنم.",
@@ -100,7 +100,7 @@
       "nicola's",
       "stripes",
       "nice",
-      "old"
+      "got"
      ],
      "suggestion": "Stripes! Nice. And this one has got dinosaurs on it. It's Nicola's old one!",
      "suggestionFa": "راه‌راه! خوبه. و این یکی دایناسور داره. مال قدیمی نیکولاست!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "trousers",
       "everyone",
+      "trousers",
       "uniform",
       "school",
       "jumper"
@@ -174,8 +174,8 @@
       "sometimes",
       "school",
       "socks",
-      "wear",
-      "hate"
+      "most",
+      "ties"
      ],
      "suggestion": "Most do. My school has a tie too. I hate ties! Do you wear odd socks sometimes?",
      "suggestionFa": "بیشترشون. مدرسهٔ من کراوات هم داره. از کراوات متنفرم! تو گاهی جوراب ناجور می‌پوشی؟",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "socks",
       "every",
       "right",
+      "socks",
       "late",
       "odd"
      ],

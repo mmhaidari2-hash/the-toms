@@ -61,9 +61,9 @@
    "branches": [
     {
      "keywords": [
-      "called",
       "dinner",
       "school",
+      "called",
       "lunch"
      ],
      "suggestion": "Is lunch called \"dinner\" at school?",
@@ -269,8 +269,8 @@
      "keywords": [
       "tomorrow",
       "three",
-      "peas",
-      "just"
+      "just",
+      "peas"
      ],
      "suggestion": "Eat three peas tomorrow. Just three!",
      "suggestionFa": "فردا سه تا نخود فرنگی بخور. فقط سه تا!",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "pat",
-      "mrs",
-      "ask"
+      "ask",
+      "mrs"
      ],
      "suggestion": "Ask Mrs Pat, not me!",
      "suggestionFa": "از خانم پت بپرس، نه از من!",

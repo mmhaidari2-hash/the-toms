@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "what's",
       "course",
-      "number",
-      "what's"
+      "number"
      ],
      "suggestion": "Of course. What's the number?",
      "suggestionFa": "حتماً. شماره چیه؟",
@@ -33,8 +33,8 @@
      "keywords": [
       "biscuit",
       "call",
-      "poor",
-      "i'll"
+      "i'll",
+      "poor"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -88,7 +88,7 @@
       "looking",
       "unwell",
       "after",
-      "we're"
+      "seems"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
      "suggestionFa": "سلام. گربه‌ای که ازش نگهداری می‌کنیم مریض به نظر میاد.",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "slowly",
       "moving",
+      "slowly",
       "but"
      ],
      "suggestion": "She's moving, but very slowly.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",

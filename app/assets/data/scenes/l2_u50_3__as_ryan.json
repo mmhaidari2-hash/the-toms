@@ -25,7 +25,7 @@
       "eighty",
       "people",
       "party",
-      "right"
+      "eaten"
      ],
      "suggestion": "Right, the old people have eaten. Nan says we need party games. For pensioners! What do eighty-year-olds even play?",
      "suggestionFa": "خب، پیرها غذا خوردن. مادربزرگ میگه بازی مهمونی لازمه. برای بازنشسته‌ها! آدم‌های هشتاد ساله اصلاً چی بازی می‌کنن؟",
@@ -49,8 +49,8 @@
       "actually",
       "guests",
       "that's",
-      "senior",
-      "parcel"
+      "parcel",
+      "senior"
      ],
      "suggestion": "Fine, \"senior guests\". Pass the parcel? That's for kids! Actually… Doris might love it. Is there a parcel?",
      "suggestionFa": "باشه، «مهمون‌های ارشد». بسته را رد کن؟ اون برای بچه‌هاست! راستش… شاید دوریس عاشقش بشه. بسته داریم؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "everyone",
       "circle",
-      "music",
-      "stops",
-      "plays"
+      "plays",
+      "layer",
+      "music"
      ],
      "suggestion": "OK. Everyone in a circle! I'm the DJ. Pass it on when the music plays. When the music stops, take off one layer.",
      "suggestionFa": "باشه. همه دایره‌وار! من دی‌جی‌ام. وقتی موسیقی پخش میشه ردش کنید. وقتی قطع شد، یه لایه را باز کنید.",
@@ -99,8 +99,8 @@
       "inside",
       "what's",
       "you've",
-      "elvis",
-      "doris"
+      "sweet",
+      "layer"
      ],
      "suggestion": "Ha! Doris, you've got it! Open one layer. What's inside? A sweet! Again! Elvis, go!",
      "suggestionFa": "ها! دوریس، دست توئه! یه لایه باز کن. توش چیه؟ آب‌نبات! دوباره! الویس، شروع!",
@@ -124,7 +124,7 @@
       "knitted",
       "crying",
       "never",
-      "scarf",
+      "layer",
       "doris"
      ],
      "suggestion": "Me? Never. Maybe. OK, last layer! Doris wins! It's a… scarf. Nana knitted it. In bus-red. She's crying. Good crying.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "statues",
       "someone",
       "instead",
+      "statues",
       "musical",
-      "freeze"
+      "chairs"
      ],
      "suggestion": "Musical chairs. But — no. Nan says no. \"Someone will break a hip.\" Musical statues instead. When the music stops, freeze!",
      "suggestionFa": "صندلی موزیکال. ولی — نه. مادربزرگ میگه نه. «یکی لگنش می‌شکنه.» به‌جاش مجسمهٔ موزیکال. وقتی موسیقی قطع شد، خشک شید!",
@@ -173,8 +173,8 @@
      "keywords": [
       "scratching",
       "arthur's",
-      "dancing",
       "arguing",
+      "dancing",
       "doris"
      ],
      "suggestion": "Arthur's out! He's arguing. \"I was scratching my nose!\" Ha! OK, it's your turn to be DJ. I'm dancing with Doris.",
@@ -198,9 +198,9 @@
      "keywords": [
       "teaching",
       "online",
-      "she's",
       "right",
-      "don't"
+      "don't",
+      "she's"
      ],
      "suggestion": "She is! She's teaching me the jive. Don't film this. If this goes online, my life is over. Right, cake time!",
      "suggestionFa": "هست! داره جایو یادم میده. ازش فیلم نگیر. اگه بره شبکه‌های اجتماعی، زندگیم تمومه. خب، وقت کیکه!",

@@ -57,9 +57,9 @@
     {
      "keywords": [
       "dolls",
-      "play",
-      "want",
       "lots",
+      "want",
+      "play",
       "got"
      ],
      "suggestion": "But I want to play with it! Mia has got lots of dolls.",
@@ -135,8 +135,8 @@
      "keywords": [
       "bored",
       "play",
-      "can",
-      "now"
+      "now",
+      "can"
      ],
      "suggestion": "What can I play with now? I'm bored.",
      "suggestionFa": "حالا با چی بازی کنم؟ حوصله‌ام سر رفته.",
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "block",
       "tower",
+      "block",
       "tall",
       "put",
       "red"
@@ -287,10 +287,10 @@
     {
      "keywords": [
       "minutes",
-      "ding",
+      "doll",
       "turn",
       "five",
-      "doll"
+      "ding"
      ],
      "suggestion": "Ding! Five minutes! It's my turn with the doll now!",
      "suggestionFa": "دینگ! پنج دقیقه! حالا نوبت منه با عروسک!",

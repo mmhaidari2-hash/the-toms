@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "drink",
       "today",
+      "drink",
+      "let's",
       "have",
-      "down"
+      "cold"
      ],
      "suggestion": "It's so hot today! Let's sit down and have a cold drink.",
      "suggestionFa": "امروز خیلی گرمه! بیا بشینیم و یه نوشیدنی خنک بخوریم.",
@@ -215,11 +215,11 @@
    "branches": [
     {
      "keywords": [
-      "callum",
       "please",
       "always",
+      "callum",
       "latte",
-      "busy"
+      "have"
      ],
      "suggestion": "And I'll have an iced latte, please. Callum, is it always this busy?",
      "suggestionFa": "و من یه لاته سرد می‌خوام، لطفاً. کالوم، همیشه این‌قدر شلوغه؟",
@@ -359,8 +359,8 @@
       "thanks",
       "callum",
       "treat",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "No, no, my treat! You can buy next time. Thanks, Callum!",
      "suggestionFa": "نه نه، مهمون من! دفعهٔ بعد تو بخر. ممنون کالوم!",
@@ -382,10 +382,10 @@
     {
      "keywords": [
       "nothing",
+      "better",
       "that's",
       "cheers",
-      "better",
-      "beats"
+      "drink"
      ],
      "suggestion": "Ahh, that's better. Nothing beats a cold drink on a hot day. Cheers!",
      "suggestionFa": "آه، بهتر شد. هیچی مثل یه نوشیدنی خنک تو یه روز گرم نیست. به سلامتی!",

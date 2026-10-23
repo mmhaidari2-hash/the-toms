@@ -63,8 +63,8 @@
       "favourite",
       "minutes",
       "ryan's",
-      "ready",
-      "table"
+      "table",
+      "ready"
      ],
      "suggestion": "Spag bol! Ryan's favourite. It's ready in ten minutes. Can you lay the table, Tom?",
      "suggestionFa": "اسپاگ بول! غذای محبوب رایان. ده دقیقه دیگه آماده‌ست. میز را می‌چینی تام؟",
@@ -253,11 +253,11 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "parmesan",
-      "ready",
+      "everyone",
       "tea's",
-      "would"
+      "would",
+      "ready"
      ],
      "suggestion": "Tea's ready! Everyone sit down. Would you like parmesan, {you}?",
      "suggestionFa": "شام آماده‌ست! همه بشینید. پارمزان می‌خوای {you}؟",

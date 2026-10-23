@@ -25,7 +25,7 @@
       "nominated",
       "pharmacy",
       "that's",
-      "where"
+      "thing"
      ],
      "suggestion": "One more thing — the form asks for your \"nominated pharmacy\". That's where your prescriptions go.",
      "suggestionFa": "یه چیز دیگه — فرم «داروخانهٔ انتخابی» را می‌پرسه. نسخه‌هات اونجا میره.",
@@ -48,9 +48,9 @@
      "keywords": [
       "prescription",
       "computer",
-      "doctor",
       "choose",
-      "means"
+      "doctor",
+      "sends"
      ],
      "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
      "suggestionFa": "یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!",
@@ -73,8 +73,8 @@
      "keywords": [
       "supermarket",
       "dawson's",
-      "exactly",
       "there's",
+      "exactly",
       "street"
      ],
      "suggestion": "Exactly. Now, there's Dawson's on the high street, or the big one in the supermarket.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "supermarket",
-      "minutes'",
       "dawson's",
+      "minutes'",
       "nearer",
       "closes"
      ],
@@ -123,8 +123,8 @@
      "keywords": [
       "dawson's",
       "advice",
-      "lovely",
       "maggie",
+      "lovely",
       "gives"
      ],
      "suggestion": "Nana Maggie uses Dawson's. Mr Dawson's lovely. He gives good advice — free!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "prescriptions",
-      "they're",
       "quicker",
-      "coughs",
-      "rashes"
+      "they're",
+      "rashes",
+      "coughs"
      ],
      "suggestion": "Yes! For coughs, colds, rashes. And they're much quicker than the GP. Do prescriptions cost money in Iran?",
      "suggestionFa": "آره! برای سرفه، سرماخوردگی، جوش. و خیلی سریع‌تر از پزشک عمومی‌ان. تو ایران نسخه پول داره؟",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "children",
-      "sixties",
       "england",
+      "sixties",
       "pounds",
       "fixed"
      ],
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "dawson's",
       "maggie's",
+      "dawson's",
       "george",
-      "write",
-      "thing"
+      "thing",
+      "right"
      ],
      "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",
      "suggestionFa": "نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!",

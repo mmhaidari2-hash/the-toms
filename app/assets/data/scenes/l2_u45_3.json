@@ -189,9 +189,9 @@
     {
      "keywords": [
       "inside",
+      "head",
       "foot",
-      "keep",
-      "head"
+      "keep"
      ],
      "suggestion": "Keep your head up! Use the inside of your foot!",
      "suggestionFa": "سرتون را بالا نگه دارید! از داخل پا استفاده کنید!",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "inside",
-      "like",
       "foot",
+      "like",
       "try"
      ],
      "suggestion": "Jamal, try to use the inside of your foot. Like this.",
@@ -304,7 +304,7 @@
       "better",
       "jamal",
       "well",
-      "done"
+      "much"
      ],
      "suggestion": "Well done, Jamal! Much better!",
      "suggestionFa": "آفرین جمال! خیلی بهتر!",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "that's",
-      "foul",
-      "ryan"
+      "ryan",
+      "foul"
      ],
      "suggestion": "Ryan, that's a foul! Free kick!",
      "suggestionFa": "رایان، این خطاست! ضربهٔ آزاد!",

@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "hungry",
       "always",
+      "hungry",
       "first",
       "he's",
-      "his"
+      "bib"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -73,9 +73,9 @@
      "keywords": [
       "careful",
       "booster",
-      "drawer",
       "fridge",
-      "legs"
+      "drawer",
+      "seat"
      ],
      "suggestion": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
      "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش.",
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "here's",
+      "dinner",
       "potato",
       "carrot",
-      "dinner",
       "mashed"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
@@ -172,8 +172,8 @@
      "keywords": [
       "spoonfuls",
       "william",
-      "comes",
       "small",
+      "comes",
       "brrrm"
      ],
      "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
@@ -244,8 +244,8 @@
      "keywords": [
       "orange",
       "buses",
-      "loves",
       "right",
+      "loves",
       "like"
      ],
      "suggestion": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
