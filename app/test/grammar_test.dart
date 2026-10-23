@@ -25,11 +25,17 @@ void main() {
   final lessonIds = {for (final u in course) for (final l in u['lessons'] as List) l['id'] as String};
 
   test('Classes A1 to C1 are complete and well formed', () {
-    expect(topics.where((t) => t.level == 'A1').length, greaterThanOrEqualTo(6));
-    expect(topics.where((t) => t.level == 'A2').length, greaterThanOrEqualTo(5));
-    expect(topics.where((t) => t.level == 'B1').length, greaterThanOrEqualTo(5));
-    expect(topics.where((t) => t.level == 'B2').length, greaterThanOrEqualTo(5));
-    expect(topics.where((t) => t.level == 'C1').length, greaterThanOrEqualTo(5));
+    expect(topics.where((t) => t.level == 'A1').length, greaterThanOrEqualTo(16));
+    expect(topics.where((t) => t.level == 'A2').length, greaterThanOrEqualTo(14));
+    expect(topics.where((t) => t.level == 'B1').length, greaterThanOrEqualTo(15));
+    expect(topics.where((t) => t.level == 'B2').length, greaterThanOrEqualTo(14));
+    expect(topics.where((t) => t.level == 'C1').length, greaterThanOrEqualTo(11));
+    // Every English tense is taught, in the class where CEFR puts it.
+    const tenses = {
+      'a1_present': 'A1', 'a2_cont': 'A2', 'a2_past_reg': 'A2', 'a2_past_cont': 'A2', 'a2_going_to': 'A2', 'a2_will': 'A2',
+      'b1_pp': 'B1', 'b1_ppc': 'B1', 'b1_pastperf': 'B1', 'b1_future': 'B1', 'b2_ppc_past': 'B2', 'b2_future': 'B2', 'c1_future_past': 'C1',
+    };
+    tenses.forEach((id, lv) => expect(topics.where((t) => t.id == id && t.level == lv), hasLength(1), reason: '$id in Class $lv'));
     expect(topics.map((t) => t.id).toSet().length, topics.length, reason: 'unique ids');
     for (final t in topics) {
       for (final id in t.related) {
@@ -168,7 +174,8 @@ void main() {
       expect(find.byKey(const ValueKey('class-A1')), findsOneWidget);
       expect(find.text('Class A1 · مبتدی'), findsOneWidget);
       await t.scrollUntilVisible(find.byKey(const ValueKey('class-B2')), 200, scrollable: find.byType(Scrollable).first);
-      expect(find.text('0 of 5 topics passed'), findsWidgets, reason: 'B1/B2 have topics now');
+      expect(find.text('0 of 14 topics passed'), findsWidgets, reason: 'B2 has 14 topics');
+      expect(find.byKey(const ValueKey('campus-college')), findsOneWidget, reason: 'B1–C1 are at the college');
       await t.scrollUntilVisible(find.byKey(const ValueKey('class-A1')), -200, scrollable: find.byType(Scrollable).first);
       await t.tap(find.byKey(const ValueKey('class-A1')));
       await settle();
@@ -225,10 +232,10 @@ void main() {
       expect(find.text('Next topic  →'), findsOneWidget);
       await t.tap(find.byKey(const ValueKey('celebrate-next')));
       await settle();
-      expect(find.byKey(const ValueKey('topic-screen-a1_have')), findsOneWidget, reason: 'goes on to the next topic');
+      expect(find.byKey(const ValueKey('topic-screen-a1_this')), findsOneWidget, reason: 'goes on to the next topic');
       router.go('/school/A1');
       await settle();
-      expect(find.byKey(const ValueKey('topic-a1_have')), findsOneWidget);
+      expect(find.byKey(const ValueKey('topic-a1_this')), findsOneWidget);
       await t.pump(const Duration(seconds: 3));
     });
 

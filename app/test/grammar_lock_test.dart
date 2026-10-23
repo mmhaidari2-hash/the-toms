@@ -49,10 +49,10 @@ void main() {
       }
 
       // Next topic in an open class: locked, with a button to the topic that opens it.
-      router.go('/grammar/a1_have');
+      router.go('/grammar/a1_this');
       await settle();
       expect(find.byKey(const ValueKey('topic-locked')), findsOneWidget);
-      expect(find.byKey(const ValueKey('topic-screen-a1_have')), findsNothing);
+      expect(find.byKey(const ValueKey('topic-screen-a1_this')), findsNothing);
       expect(find.byKey(const ValueKey('start-practice'), skipOffstage: false), findsNothing);
       expect(find.textContaining('Pass "The verb "be"'), findsOneWidget);
       await t.tap(find.byKey(const ValueKey('topic-locked-next')));
@@ -72,10 +72,10 @@ void main() {
       // Passing the first topic opens the second one for deep links too.
       final ctrl = ProviderScope.containerOf(t.element(find.byKey(const ValueKey('class-A1')))).read(progressProvider.notifier);
       ctrl.saveGrammar('a1_be', 80);
-      router.go('/grammar/a1_have');
+      router.go('/grammar/a1_this');
       await settle();
       expect(find.byKey(const ValueKey('topic-locked')), findsNothing);
-      expect(find.byKey(const ValueKey('topic-screen-a1_have')), findsOneWidget);
+      expect(find.byKey(const ValueKey('topic-screen-a1_this')), findsOneWidget);
       await t.pump(const Duration(seconds: 3));
     });
   });
