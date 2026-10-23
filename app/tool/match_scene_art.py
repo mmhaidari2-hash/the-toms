@@ -2,7 +2,7 @@
 """Scene art audit + mapping (2026-10): every conversation opens on a painting that matches ITS setting and the
 people in it. -> assets/data/scene_art.json  {sceneId: {"img": painting|null, "place": place id|null, "spot": icon, "label": setting}}
 Rules: the setting comes from the lesson's place (or a hotspot), overridden by strong cues in the titles (nursery,
-hospital, museum, Tube...). A painting may be used only if it shows that setting (or a room of the same kind) AND
+hospital, museum, Tube...). (Superseded 2026-10-23: the best painting of the setting is always used.) Was: a painting may be used only if it shows that setting (or a room of the same kind) AND
 every main character painted in it (the family) actually speaks in the scene: never a main character who
 isn't there (a location's own background staff may stay in a painting of that location). Otherwise the
 scene gets a neutral, people-free location card: the setting's painting blurred beyond recognition (no faces)
@@ -53,8 +53,10 @@ for sid, s in scenes.items():
     if '__' in sid: continue  # role variants use their base scene's art
     loc, S = setting(sid, s), speakers(s)
     g = GROUP.get(loc, loc)
-    cands = [pid for pid, p in places.items() if (pid == loc or (GROUP.get(pid) == g and pid not in EVENT)) and mains(p) <= S]
-    cands.sort(key=lambda pid: (pid != loc, -len(people(places[pid]) & S)))
+    # 2026-10-23: a painting of the setting always beats a blurred card. Prefer the setting itself, then
+    # paintings with no absent main character, then the most speakers shown; event paintings come last.
+    cands = [pid for pid, p in places.items() if pid == loc or GROUP.get(pid) == g]
+    cands.sort(key=lambda pid: (pid != loc, pid in EVENT, len(mains(places[pid]) - S), -len(people(places[pid]) & S)))
     lab = LABEL.get(loc) or ((places[loc]['title'], places[loc]['titleFa']) if loc in places else (s.get('setting', ''), s.get('settingFa', '')))
     if cands:
         out[sid] = dict(img=places[cands[0]]['image'], place=cands[0], spot=f"assets/spots/{SPOT.get(g, SPOT.get(loc, 'home'))}.webp", label=lab[0], labelFa=lab[1])

@@ -32,7 +32,16 @@
   </script>
   <script>
     // Offline: cache the app shell + assets (no network needed after first load).
-    if ('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); }); });
+    // ?reset (or #reset) wipes every service worker and cache, then reloads: the escape hatch for a stuck phone.
+    if (/[?&#]reset\b/.test(location.href) && 'serviceWorker' in navigator) {
+      Promise.all([navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.map(function(r){ return r.unregister(); })); }),
+        window.caches ? caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); }) : null])
+        .then(function(){ location.replace(location.pathname); });
+    } else if ('serviceWorker' in navigator) window.addEventListener('load', function(){
+      // Any leftover worker that isn't sw.js (e.g. an old flutter_service_worker.js) is removed.
+      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister(); }); });
+      navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') r.update(); }); });
+    });
     // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).
     if ('serviceWorker' in navigator) { var hadController = !!navigator.serviceWorker.controller, reloaded = false;
       navigator.serviceWorker.addEventListener('controllerchange', function(){ if (hadController && !reloaded) { reloaded = true; location.reload(); } }); }

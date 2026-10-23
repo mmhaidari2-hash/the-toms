@@ -18,6 +18,7 @@ const CACHE = 'thetoms-{ver}';
 const FILES = {json.dumps(['./'] + files)};
 const AUDIO_CACHE = 'thetoms-audio-v2'; // v2 (2026-10-18): 109 clips re-rendered in their current voice. Content-addressed clips otherwise never go stale: kept across deploys, filled as you play
 self.addEventListener('install', e => e.waitUntil(caches.open(CACHE).then(c => Promise.allSettled(FILES.map(f => c.add(f)))).then(() => self.skipWaiting())));
+// Every deploy gets a new CACHE name; on activate every other cache (old versions, Flutter's own) is deleted.
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== AUDIO_CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 // Voices: cached on first play (and when the app asks to prefetch a lesson), never re-downloaded after a deploy.
 async function clip(url) {{
@@ -52,6 +53,22 @@ self.addEventListener('fetch', e => {{
       const m = /bytes=(\\d*)-(\\d*)/.exec(range) || [];
       const start = m[1] ? +m[1] : 0, end = m[2] ? +m[2] : buf.byteLength - 1;
       return new Response(buf.slice(start, end + 1), {{status: 206, headers: {{'Content-Type': 'audio/mpeg', 'Content-Range': `bytes ${{start}}-${{end}}/${{buf.byteLength}}`, 'Content-Length': String(end - start + 1), 'Accept-Ranges': 'bytes'}}}});
+    }}));
+    return;
+  }}
+  // Pictures: cache-first, but a cached entry that isn't a real image (old/broken caches, notably on iOS
+  // home-screen apps) is thrown away and fetched fresh, bypassing the HTTP cache.
+  if (/\.(webp|png|jpe?g|svg|gif)$/i.test(path)) {{
+    e.respondWith(caches.open(CACHE).then(async c => {{
+      const hit = await c.match(req, {{ignoreSearch: true}});
+      const good = r => r && r.ok && r.status === 200 && /^image\//.test(r.headers.get('content-type') || '');
+      if (good(hit)) return hit;
+      if (hit) await c.delete(req, {{ignoreSearch: true}});
+      try {{
+        const res = await fetch(req.url.split('?')[0] + '?v=' + CACHE, {{cache: 'reload'}});
+        if (good(res)) await c.put(req.url.split('?')[0], res.clone());
+        return res;
+      }} catch (err) {{ return hit || Response.error(); }}
     }}));
     return;
   }}

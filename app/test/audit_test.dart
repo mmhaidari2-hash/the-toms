@@ -99,9 +99,8 @@ void main() {
       ..writeAsStringSync(jsonEncode(spoken(c)));
   });
 
-  test('every story opens on a picture that matches its setting and people (tool/match_scene_art.py)', () {
-    // Main characters are never painted into a scene they're not in; no painting -> people-free location card.
-    const main = {'tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george', 'mehdi'};
+  test('every story opens on a picture that matches its setting (tool/match_scene_art.py)', () {
+    // A painting of the setting always; a people-free location card only where no painting of that place exists.
     final lessonIds = {for (final u in c.course.allUnits) for (final l in u.lessons) ...l.sceneIds};
     final nursery = {for (final l in c.course.pack('nursery')?.lessons ?? const <Lesson>[]) ...l.sceneIds};
     final bad = <String>[];
@@ -121,9 +120,8 @@ void main() {
         continue;
       }
       if (!File(a.img!).existsSync()) bad.add('${s.id}: missing painting ${a.img}');
-      final painted = {for (final h in c.place(a.place!)!.hotspots) h.characterId};
-      final wrong = painted.intersection(main).difference(speakers);
-      if (wrong.isNotEmpty) bad.add('${s.id}: painting ${a.place} shows $wrong who are not in the scene');
+      // 2026-10-23: the best painting of the setting is always used, even if it shows someone not in the scene.
+      if (speakers.isEmpty) bad.add('${s.id}: no speakers');
       if (nursery.contains(base.id)) bad.add('${s.id}: nursery scene on a painting of ${a.place}');
       if (cv.image != a.img) bad.add('${s.id}: cover ${cv.image} != art ${a.img}');
     }

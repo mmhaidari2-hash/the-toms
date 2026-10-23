@@ -73,10 +73,10 @@ for e in out:
     if e['video'] and not os.path.exists(os.path.join(A, '..', e['video'])): bad.append(f"{e['id']}: video {e['video']} not found")
     pid, icon = ART.get(e['scene'], (None, 'home'))
     sp = {l['sp'] for l in e['lines']}
-    ok = pid in PLACES and {h['characterId'] for h in PLACES[pid]['hotspots']} & MAIN <= sp
-    e['img'] = PLACES[pid]['image'] if ok else None
-    e['bg'] = f'assets/places/blur/{pid}.webp' if pid in PLACES and not ok else None
-    if e['scene'] == 'garage': e['bg'] = 'assets/places/blur/petrol.webp'  # Mick's Motors shares the forecourt
+    if e['scene'] == 'garage': pid = 'petrol'  # Mick's Motors shares the forecourt
+    # 2026-10-23: a painting of the setting always beats a blurred card.
+    e['img'] = PLACES[pid]['image'] if pid in PLACES else None
+    e['bg'] = None
     e['icon'] = icon
     if not e['scene']: bad.append(f"{e['id']}: needs scene:")
     if not e['note']: bad.append(f"{e['id']}: needs note:")
