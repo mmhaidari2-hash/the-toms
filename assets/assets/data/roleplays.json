@@ -1079,6 +1079,165 @@
      ]
     }
    ]
+  },
+  {
+   "id": "rp_homes",
+   "level": "B1",
+   "spot": "homes",
+   "sp": "agent",
+   "npc": "Olivia · Fennick & Rowe Homes",
+   "title": "Rent a flat",
+   "titleFa": "اجارهٔ آپارتمان",
+   "intro": {
+    "en": "You're at Fennick & Rowe Homes after a viewing. Find out about bills, the deposit and the Right to Rent check.",
+    "fa": "بعد از بازدید در املاک فنیک اند رو هستی. دربارهٔ قبض‌ها، ودیعه و بررسی حق اجاره بپرس."
+   },
+   "goals": [
+    {
+     "en": "Ask what the rent includes",
+     "fa": "بپرس اجاره شامل چه چیزهایی است"
+    },
+    {
+     "en": "Check the deposit is protected",
+     "fa": "مطمئن شو ودیعه حفاظت می‌شود"
+    },
+    {
+     "en": "Ask what you need for the Right to Rent check",
+     "fa": "بپرس برای بررسی حق اجاره چه لازم است"
+    }
+   ],
+   "end": {
+    "en": "Brilliant. Send me the code tonight and I'll get the paperwork started.",
+    "fa": "عالیه. امشب کد را بفرستید تا کارهای اداری را شروع کنم."
+   },
+   "turns": [
+    {
+     "npc": {
+      "en": "So, what did you think of the flat?",
+      "fa": "خب، آپارتمان چطور بود؟"
+     },
+     "hint": {
+      "en": "Say you liked it, then ask 'Are any bills included?'",
+      "fa": "بگو خوشت آمد، بعد بپرس «Are any bills included?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 0,
+       "en": "I really liked it. Are any bills included in the rent?",
+       "fa": "خیلی خوشم اومد. قبضی تو اجاره حساب شده؟",
+       "fb": {
+        "en": "Polite and precise: exactly what to ask.",
+        "fa": "مؤدبانه و دقیق: دقیقاً همان سؤال درست."
+       }
+      },
+      {
+       "q": 1,
+       "g": 0,
+       "en": "Nice. Bills?",
+       "fa": "خوب بود. قبض‌ها؟",
+       "fb": {
+        "en": "She understands, but a full question sounds better: 'Are any bills included?'",
+        "fa": "می‌فهمد، ولی سؤال کامل بهتر است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Can I pay more than the asking rent to get it?",
+       "fa": "می‌تونم بیشتر از اجارهٔ آگهی بدم که مال من بشه؟",
+       "fb": {
+        "en": "Since May 2026 agents in England can't accept offers above the advertised rent.",
+        "fa": "از مه ۲۰۲۶ بنگاه‌ها در انگلستان نمی‌توانند بیشتر از اجارهٔ آگهی‌شده بپذیرند."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "No bills, I'm afraid. The deposit is five weeks' rent.",
+      "fa": "متأسفانه قبض‌ها حساب نیست. ودیعه اجارهٔ پنج هفته‌ست."
+     },
+     "hint": {
+      "en": "Ask if it goes into a protection scheme.",
+      "fa": "بپرس در طرح حفاظت قرار می‌گیرد یا نه."
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 1,
+       "en": "Will the deposit be protected in a government-approved scheme?",
+       "fa": "ودیعه تو یه طرح تأییدشدهٔ دولتی حفاظت می‌شه؟",
+       "fb": {
+        "en": "Great: landlords must protect it within 30 days.",
+        "fa": "عالی: صاحبخانه باید ظرف ۳۰ روز آن را حفاظت کند."
+       }
+      },
+      {
+       "q": 1,
+       "g": 1,
+       "en": "Is the deposit safe?",
+       "fa": "ودیعه امنه؟",
+       "fb": {
+        "en": "Good idea. The key word is 'protected': 'Is it in a protection scheme?'",
+        "fa": "فکر خوبی است. واژهٔ کلیدی «protected» است."
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Can I pay you the deposit in cash with no receipt?",
+       "fa": "می‌تونم ودیعه را نقد بدون رسید بدم؟",
+       "fb": {
+        "en": "Always get a receipt, and make sure the deposit is protected.",
+        "fa": "همیشه رسید بگیر و مطمئن شو ودیعه حفاظت می‌شود."
+       }
+      }
+     ]
+    },
+    {
+     "npc": {
+      "en": "Of course, it'll be with the DPS. Last thing: we need to do your Right to Rent check.",
+      "fa": "حتماً، تو DPS خواهد بود. آخرین مورد: باید بررسی حق اجاره را انجام بدیم."
+     },
+     "hint": {
+      "en": "Ask what you need: 'What do I need to show you?'",
+      "fa": "بپرس «What do I need to show you?»"
+     },
+     "opts": [
+      {
+       "q": 2,
+       "g": 2,
+       "en": "What do I need to show you? I can send a share code from GOV.UK.",
+       "fa": "چی باید نشونتون بدم؟ می‌تونم یه کد اشتراک از GOV.UK بفرستم.",
+       "fb": {
+        "en": "Perfect: a share code is the online way to prove it.",
+        "fa": "عالی: کد اشتراک راه آنلاین اثبات است."
+       }
+      },
+      {
+       "q": 1,
+       "g": 2,
+       "en": "What do you need?",
+       "fa": "چی لازم دارید؟",
+       "fb": {
+        "en": "Fine. You could also offer: 'I can send a share code.'",
+        "fa": "خوب است. می‌توانی پیشنهاد هم بدهی: «I can send a share code.»"
+       }
+      },
+      {
+       "q": 0,
+       "g": -1,
+       "en": "Why me? Do you only check foreigners?",
+       "fa": "چرا من؟ فقط خارجی‌ها را چک می‌کنید؟",
+       "fb": {
+        "en": "Agents must check every adult tenant, British or not.",
+        "fa": "بنگاه باید همهٔ مستأجرهای بزرگسال را بررسی کند، بریتانیایی یا نه."
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }

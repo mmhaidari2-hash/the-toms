@@ -15418,7 +15418,7 @@
        "fa": "کره"
       },
       {
-       "word": "Yeast spread",
+       "word": "yeast spread",
        "fa": "کرهٔ مخمر (خمیر مخمر)"
       },
       {
@@ -22126,7 +22126,7 @@
        "fa": "به جز"
       },
       {
-       "word": "Yeast spread",
+       "word": "yeast spread",
        "fa": "کرهٔ مخمر"
       },
       {
@@ -25844,6 +25844,10 @@
       {
        "word": "eVisa",
        "fa": "ویزای الکترونیکی"
+      },
+      {
+       "word": "share code",
+       "fa": "کد اشتراک"
       },
       {
        "word": "registration",
@@ -58542,12 +58546,16 @@
        "fa": "حداقل"
       },
       {
-       "word": "break clause",
-       "fa": "بند فسخ"
+       "word": "roll on",
+       "fa": "ادامه پیدا کردن ؛ تمدید خودکار"
       },
       {
-       "word": "exactly",
-       "fa": "دقیقاً"
+       "word": "notice",
+       "fa": "اطلاع قبلی ؛ اخطار"
+      },
+      {
+       "word": "fixed term",
+       "fa": "مدت ثابت"
       },
       {
        "word": "deposit",
@@ -62643,6 +62651,1216 @@
   }
  ],
  "packs": [
+  {
+   "id": "homes",
+   "title": "Fennick & Rowe Homes",
+   "titleFa": "املاک فنیک اند رو",
+   "lead": "agent",
+   "place": "hallway",
+   "premium": false,
+   "gated": true,
+   "blurb": "Renting and buying a home in England with Olivia and her manager Graham Holt: viewings, deposits, Right to Rent, your tenancy, repairs, moving out, offers, mortgages, solicitors and stamp duty. Checked against GOV.UK (October 2026). Fennick & Rowe Homes is fictional; real bodies are named only as facts and we are not affiliated with them. This is not legal advice.",
+   "blurbFa": "اجاره و خرید خانه در انگلستان با اولیویا و مدیرش گراهام هولت: بازدید، ودیعه، بررسی حق اجاره، قرارداد، تعمیرات، تخلیه، پیشنهاد خرید، وام مسکن، وکیل و مالیات تمبر. بررسی‌شده با GOV.UK (اکتبر ۲۰۲۶). املاک فنیک اند رو خیالی است؛ نهادهای واقعی فقط به‌عنوان واقعیت نام برده شده‌اند و ما وابسته به آن‌ها نیستیم. این مشاورهٔ حقوقی نیست.",
+   "levels": "A2–B2",
+   "units": [
+    {
+     "level": 0,
+     "id": "H1",
+     "title": "Finding a flat",
+     "titleFa": "پیدا کردن آپارتمان",
+     "place": "hallway",
+     "canDo": "Book a viewing, look round a flat and ask about rent and bills",
+     "canDoFa": "وقت بازدید بگیری، آپارتمان را ببینی و دربارهٔ اجاره و قبض‌ها بپرسی",
+     "cefr": "A2",
+     "lessons": [
+      {
+       "id": "est_1_1",
+       "title": "Booking a viewing",
+       "titleFa": "گرفتن وقت بازدید",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Can I…? / Is it still available?",
+       "grammarFa": "می‌تونم…؟ / هنوز موجوده؟",
+       "sceneIds": [
+        "est_1_1"
+       ],
+       "words": [
+        {
+         "word": "one-bed",
+         "fa": "یک‌خوابه"
+        },
+        {
+         "word": "available",
+         "fa": "موجود ؛ آزاد"
+        },
+        {
+         "word": "calling about",
+         "fa": "زنگ زدن دربارهٔ"
+        },
+        {
+         "word": "a month",
+         "fa": "ماهانه ؛ در ماه"
+        },
+        {
+         "word": "see it",
+         "fa": "دیدنش"
+        },
+        {
+         "word": "this week",
+         "fa": "این هفته"
+        },
+        {
+         "word": "half past five",
+         "fa": "پنج و نیم"
+        },
+        {
+         "word": "which is better",
+         "fa": "کدام بهتر است"
+        },
+        {
+         "word": "finish work",
+         "fa": "کار را تمام کردن"
+        },
+        {
+         "word": "take your name",
+         "fa": "اسم کسی را یادداشت کردن"
+        },
+        {
+         "word": "spell",
+         "fa": "هجی کردن"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_1_2",
+       "title": "Looking round the flat",
+       "titleFa": "دیدن آپارتمان",
+       "lead": "agent",
+       "place": "living",
+       "grammar": "Is there…? / Are there…? / How much is…?",
+       "grammarFa": "آیا … هست؟ / … چقدره؟",
+       "sceneIds": [
+        "est_1_2"
+       ],
+       "words": [
+        {
+         "word": "living room",
+         "fa": "اتاق نشیمن"
+        },
+        {
+         "word": "light",
+         "fa": "نور"
+        },
+        {
+         "word": "bright",
+         "fa": "روشن"
+        },
+        {
+         "word": "furnished",
+         "fa": "مبله"
+        },
+        {
+         "word": "part-furnished",
+         "fa": "نیمه‌مبله"
+        },
+        {
+         "word": "fridge-freezer",
+         "fa": "یخچال‌فریزر"
+        },
+        {
+         "word": "washing machine",
+         "fa": "ماشین لباسشویی"
+        },
+        {
+         "word": "oven",
+         "fa": "فر ؛ اجاق"
+        },
+        {
+         "word": "cooker",
+         "fa": "اجاق"
+        },
+        {
+         "word": "central heating",
+         "fa": "شوفاژ ؛ گرمایش مرکزی"
+        },
+        {
+         "word": "bills",
+         "fa": "قبض‌ها"
+        },
+        {
+         "word": "roughly",
+         "fa": "تقریباً"
+        },
+        {
+         "word": "included",
+         "fa": "شامل ؛ حساب‌شده"
+        },
+        {
+         "word": "broadband",
+         "fa": "اینترنت ؛ پهن‌باند"
+        },
+        {
+         "word": "council tax",
+         "fa": "مالیات شورا"
+        },
+        {
+         "word": "noise",
+         "fa": "سر و صدا"
+        },
+        {
+         "word": "double-glazed",
+         "fa": "دوجداره"
+        },
+        {
+         "word": "quiet",
+         "fa": "ساکت"
+        },
+        {
+         "word": "next step",
+         "fa": "قدم بعدی"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "est_1_3",
+       "title": "The holding deposit",
+       "titleFa": "ودیعهٔ نگهداری",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Would like to… / How long…?",
+       "grammarFa": "می‌خواهم… / چقدر طول می‌کشد؟",
+       "sceneIds": [
+        "est_1_3"
+       ],
+       "words": [
+        {
+         "word": "go ahead",
+         "fa": "اقدام کردن ؛ ادامه دادن"
+        },
+        {
+         "word": "rent",
+         "fa": "اجاره کردن ؛ اجاره"
+        },
+        {
+         "word": "holding deposit",
+         "fa": "ودیعهٔ نگهداری"
+        },
+        {
+         "word": "take it off the market",
+         "fa": "از بازار خارج کردن"
+        },
+        {
+         "word": "work out",
+         "fa": "حساب کردن"
+        },
+        {
+         "word": "times",
+         "fa": "ضربدر"
+        },
+        {
+         "word": "divided by",
+         "fa": "تقسیم بر"
+        },
+        {
+         "word": "legal maximum",
+         "fa": "حداکثر قانونی"
+        },
+        {
+         "word": "get it back",
+         "fa": "پس گرفتن"
+        },
+        {
+         "word": "pull out",
+         "fa": "منصرف شدن ؛ کنار کشیدن"
+        },
+        {
+         "word": "change my mind",
+         "fa": "نظرم عوض شود"
+        },
+        {
+         "word": "keep",
+         "fa": "نگه داشتن"
+        },
+        {
+         "word": "false information",
+         "fa": "اطلاعات نادرست"
+        },
+        {
+         "word": "in writing",
+         "fa": "کتبی"
+        },
+        {
+         "word": "fifteen days",
+         "fa": "پانزده روز"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "H2",
+     "title": "Before you move in",
+     "titleFa": "پیش از اسباب‌کشی",
+     "place": "hallway",
+     "canDo": "Do a Right to Rent check, give references and understand your tenancy agreement",
+     "canDoFa": "بررسی حق اجاره را انجام بدهی، معرف معرفی کنی و قراردادت را بفهمی",
+     "cefr": "B1",
+     "lessons": [
+      {
+       "id": "est_2_1",
+       "title": "The Right to Rent check",
+       "titleFa": "بررسی حق اجاره",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Have to / need to",
+       "grammarFa": "باید / لازم است",
+       "sceneIds": [
+        "est_2_1"
+       ],
+       "words": [
+        {
+         "word": "Right to Rent",
+         "fa": "حق اجاره ؛ مجوز اجاره"
+        },
+        {
+         "word": "the law",
+         "fa": "قانون"
+        },
+        {
+         "word": "adult",
+         "fa": "بزرگسال"
+        },
+        {
+         "word": "tenant",
+         "fa": "مستأجر"
+        },
+        {
+         "word": "original",
+         "fa": "اصلی ؛ اصل"
+        },
+        {
+         "word": "passport",
+         "fa": "گذرنامه ؛ پاسپورت"
+        },
+        {
+         "word": "online",
+         "fa": "آنلاین"
+        },
+        {
+         "word": "share code",
+         "fa": "کد اشتراک"
+        },
+        {
+         "word": "date of birth",
+         "fa": "تاریخ تولد"
+        },
+        {
+         "word": "valid",
+         "fa": "معتبر"
+        },
+        {
+         "word": "time limit",
+         "fa": "محدودیت زمانی"
+        },
+        {
+         "word": "check again",
+         "fa": "دوباره بررسی کردن"
+        },
+        {
+         "word": "keep a copy",
+         "fa": "کپی نگه داشتن"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_2_2",
+       "title": "References and a guarantor",
+       "titleFa": "معرف و ضامن",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Could you…? / I've been… for…",
+       "grammarFa": "می‌تونید…؟ / … مدت است که…",
+       "sceneIds": [
+        "est_2_2"
+       ],
+       "words": [
+        {
+         "word": "reference",
+         "fa": "معرف ؛ معرفی‌نامه"
+        },
+        {
+         "word": "employer",
+         "fa": "کارفرما"
+        },
+        {
+         "word": "current landlord",
+         "fa": "صاحبخانهٔ فعلی"
+        },
+        {
+         "word": "affordability",
+         "fa": "توان پرداخت"
+        },
+        {
+         "word": "yearly income",
+         "fa": "درآمد سالانه"
+        },
+        {
+         "word": "earn",
+         "fa": "درآمد داشتن"
+        },
+        {
+         "word": "guarantor",
+         "fa": "ضامن"
+        },
+        {
+         "word": "less",
+         "fa": "کمتر"
+        },
+        {
+         "word": "cousin",
+         "fa": "پسرخاله/دخترخاله ؛ عموزاده"
+        },
+        {
+         "word": "agrees to pay",
+         "fa": "قبول می‌کند بپردازد"
+        },
+        {
+         "word": "full-time",
+         "fa": "تمام‌وقت"
+        },
+        {
+         "word": "Universal Credit",
+         "fa": "یونیورسال کردیت (کمک‌هزینهٔ دولتی)"
+        },
+        {
+         "word": "refuse",
+         "fa": "رد کردن"
+        },
+        {
+         "word": "benefits",
+         "fa": "کمک‌هزینه‌های دولتی"
+        },
+        {
+         "word": "good to know",
+         "fa": "خوب است بدانم"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "est_2_3",
+       "title": "Your tenancy agreement",
+       "titleFa": "قرارداد اجاره‌ات",
+       "lead": "graham",
+       "place": "hallway",
+       "grammar": "Present perfect: has replaced / have changed",
+       "grammarFa": "حال کامل",
+       "sceneIds": [
+        "est_2_3"
+       ],
+       "words": [
+        {
+         "word": "branch manager",
+         "fa": "مدیر شعبه"
+        },
+        {
+         "word": "go through",
+         "fa": "مرور کردن"
+        },
+        {
+         "word": "tenancy agreement",
+         "fa": "قرارداد اجاره"
+        },
+        {
+         "word": "replaced",
+         "fa": "جایگزین شده"
+        },
+        {
+         "word": "old name",
+         "fa": "اسم قدیمی"
+        },
+        {
+         "word": "hear",
+         "fa": "شنیدن"
+        },
+        {
+         "word": "periodic",
+         "fa": "دوره‌ای ؛ ماه‌به‌ماه"
+        },
+        {
+         "word": "fixed term",
+         "fa": "مدت ثابت"
+        },
+        {
+         "word": "rolls on",
+         "fa": "ادامه پیدا می‌کند"
+        },
+        {
+         "word": "give notice",
+         "fa": "اطلاع دادن ؛ اخطار دادن"
+        },
+        {
+         "word": "legal reason",
+         "fa": "دلیل قانونی"
+        },
+        {
+         "word": "go up",
+         "fa": "بالا رفتن"
+        },
+        {
+         "word": "court",
+         "fa": "دادگاه"
+        },
+        {
+         "word": "once a year",
+         "fa": "سالی یک بار"
+        },
+        {
+         "word": "challenge",
+         "fa": "اعتراض کردن"
+        },
+        {
+         "word": "tribunal",
+         "fa": "دادگاه ویژه"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "H3",
+     "title": "Moving in",
+     "titleFa": "اسباب‌کشی",
+     "place": "hallway",
+     "canDo": "Check your deposit is protected, do the inventory and set up bills and council tax",
+     "canDoFa": "مطمئن شوی ودیعه حفاظت شده، فهرست اموال را چک کنی و قبض‌ها و مالیات شورا را راه بیندازی",
+     "cefr": "B1",
+     "lessons": [
+      {
+       "id": "est_3_1",
+       "title": "Your deposit and rent in advance",
+       "titleFa": "ودیعه و اجارهٔ پیش‌پرداخت",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Must / mustn't / don't have to",
+       "grammarFa": "باید / نباید / لازم نیست",
+       "sceneIds": [
+        "est_3_1"
+       ],
+       "words": [
+        {
+         "word": "keys",
+         "fa": "کلیدها"
+        },
+        {
+         "word": "tenancy deposit",
+         "fa": "ودیعهٔ اجاره"
+        },
+        {
+         "word": "first month's rent",
+         "fa": "اجارهٔ ماه اول"
+        },
+        {
+         "word": "five weeks' rent",
+         "fa": "اجارهٔ پنج هفته"
+        },
+        {
+         "word": "legal limit",
+         "fa": "حد قانونی"
+        },
+        {
+         "word": "under",
+         "fa": "زیر ؛ کمتر از"
+        },
+        {
+         "word": "in advance",
+         "fa": "پیش‌پرداخت ؛ از قبل"
+        },
+        {
+         "word": "not allowed",
+         "fa": "مجاز نیست"
+        },
+        {
+         "word": "any more",
+         "fa": "دیگر"
+        },
+        {
+         "word": "government-approved",
+         "fa": "تأییدشده توسط دولت"
+        },
+        {
+         "word": "scheme",
+         "fa": "طرح"
+        },
+        {
+         "word": "within thirty days",
+         "fa": "ظرف سی روز"
+        },
+        {
+         "word": "protected",
+         "fa": "حفاظت‌شده"
+        },
+        {
+         "word": "prescribed information",
+         "fa": "اطلاعات الزامی ؛ اطلاعات مقرر"
+        },
+        {
+         "word": "amount",
+         "fa": "مبلغ"
+        },
+        {
+         "word": "keep it safe",
+         "fa": "نگهش دار"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "est_3_2",
+       "title": "Inventory and check-in",
+       "titleFa": "فهرست اموال و تحویل",
+       "lead": "agent",
+       "place": "living",
+       "grammar": "There's a… on the… / It's been…",
+       "grammarFa": "یک … روی … هست",
+       "sceneIds": [
+        "est_3_2"
+       ],
+       "words": [
+        {
+         "word": "inventory",
+         "fa": "فهرست اموال ؛ صورت‌جلسهٔ تحویل"
+        },
+        {
+         "word": "condition",
+         "fa": "وضعیت ؛ حالت"
+        },
+        {
+         "word": "room by room",
+         "fa": "اتاق به اتاق"
+        },
+        {
+         "word": "mark",
+         "fa": "لک ؛ لکه"
+        },
+        {
+         "word": "scratch",
+         "fa": "خط ؛ خراش"
+        },
+        {
+         "word": "coffee table",
+         "fa": "میز جلومبلی"
+        },
+        {
+         "word": "well spotted",
+         "fa": "خوب دیدی"
+        },
+        {
+         "word": "notice",
+         "fa": "متوجه شدن"
+        },
+        {
+         "word": "tap",
+         "fa": "شیر آب"
+        },
+        {
+         "word": "dripping",
+         "fa": "چکه کردن"
+        },
+        {
+         "word": "report",
+         "fa": "گزارش دادن"
+        },
+        {
+         "word": "sign",
+         "fa": "امضا کردن"
+        },
+        {
+         "word": "meter reading",
+         "fa": "شمارهٔ کنتور"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_3_3",
+       "title": "Bills and council tax",
+       "titleFa": "قبض‌ها و مالیات شورا",
+       "lead": "agent",
+       "place": "kitchen",
+       "grammar": "First…, then…, after that…",
+       "grammarFa": "اول…، بعد…، بعد از آن…",
+       "sceneIds": [
+        "est_3_3"
+       ],
+       "words": [
+        {
+         "word": "settle in",
+         "fa": "جا افتادن ؛ مستقر شدن"
+        },
+        {
+         "word": "set up",
+         "fa": "راه انداختن"
+        },
+        {
+         "word": "council",
+         "fa": "شورای محلی ؛ شهرداری"
+        },
+        {
+         "word": "instalments",
+         "fa": "قسط‌ها"
+        },
+        {
+         "word": "sets its own price",
+         "fa": "قیمت خودش را تعیین می‌کند"
+        },
+        {
+         "word": "discount",
+         "fa": "تخفیف"
+        },
+        {
+         "word": "twenty-five per cent off",
+         "fa": "بیست و پنج درصد تخفیف"
+        },
+        {
+         "word": "single person discount",
+         "fa": "تخفیف تک‌نفره"
+        },
+        {
+         "word": "after that",
+         "fa": "بعد از آن"
+        },
+        {
+         "word": "energy supplier",
+         "fa": "شرکت تأمین انرژی"
+        },
+        {
+         "word": "water company",
+         "fa": "شرکت آب"
+        },
+        {
+         "word": "TV licence",
+         "fa": "مجوز تلویزیون"
+        }
+       ],
+       "turns": 9
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "H4",
+     "title": "Living there and moving out",
+     "titleFa": "زندگی در خانه و تخلیه",
+     "place": "bathroom",
+     "canDo": "Report a repair, know your rights and end your tenancy properly",
+     "canDoFa": "تعمیری را گزارش بدهی، حقوقت را بدانی و قرارداد را درست تمام کنی",
+     "cefr": "B1",
+     "lessons": [
+      {
+       "id": "est_4_1",
+       "title": "Reporting a repair",
+       "titleFa": "گزارش تعمیر",
+       "lead": "agent",
+       "place": "bathroom",
+       "grammar": "It's been… since… / It keeps…",
+       "grammarFa": "از … تا حالا… / مدام…",
+       "sceneIds": [
+        "est_4_1"
+       ],
+       "words": [
+        {
+         "word": "I'm afraid",
+         "fa": "متأسفانه"
+        },
+        {
+         "word": "boiler",
+         "fa": "دیگ آب گرم ؛ پکیج"
+        },
+        {
+         "word": "hot water",
+         "fa": "آب گرم"
+        },
+        {
+         "word": "how long",
+         "fa": "چه مدت"
+        },
+        {
+         "word": "since",
+         "fa": "از ؛ از وقتی که"
+        },
+        {
+         "word": "keeps turning off",
+         "fa": "مدام خاموش می‌شود"
+        },
+        {
+         "word": "responsibility",
+         "fa": "مسئولیت"
+        },
+        {
+         "word": "engineer",
+         "fa": "تعمیرکار ؛ مهندس"
+        },
+        {
+         "word": "display",
+         "fa": "صفحه‌نمایش"
+        },
+        {
+         "word": "record",
+         "fa": "سابقه ؛ مدرک"
+        },
+        {
+         "word": "be in",
+         "fa": "خانه بودن"
+        },
+        {
+         "word": "notice",
+         "fa": "اطلاع قبلی"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_4_2",
+       "title": "Damp, mould and your rights",
+       "titleFa": "رطوبت، کپک و حقوق تو",
+       "lead": "graham",
+       "place": "bathroom",
+       "grammar": "If they don't…, you can…",
+       "grammarFa": "اگر … نکنند، می‌توانی…",
+       "sceneIds": [
+        "est_4_2"
+       ],
+       "words": [
+        {
+         "word": "mould",
+         "fa": "کپک"
+        },
+        {
+         "word": "getting worse",
+         "fa": "بدتر شدن"
+        },
+        {
+         "word": "health",
+         "fa": "سلامتی"
+        },
+        {
+         "word": "keeps coming back",
+         "fa": "مدام برمی‌گردد"
+        },
+        {
+         "word": "serious",
+         "fa": "جدی"
+        },
+        {
+         "word": "safe",
+         "fa": "امن ؛ سالم"
+        },
+        {
+         "word": "surveyor",
+         "fa": "کارشناس ساختمان"
+        },
+        {
+         "word": "cause",
+         "fa": "علت"
+        },
+        {
+         "word": "leak",
+         "fa": "نشتی"
+        },
+        {
+         "word": "ventilation",
+         "fa": "تهویه"
+        },
+        {
+         "word": "hazard",
+         "fa": "خطر"
+        },
+        {
+         "word": "private housing team",
+         "fa": "تیم مسکن خصوصی"
+        },
+        {
+         "word": "inspect",
+         "fa": "بازرسی کردن"
+        },
+        {
+         "word": "evictions",
+         "fa": "تخلیه‌ها ؛ بیرون کردن مستأجر"
+        },
+        {
+         "word": "complaining",
+         "fa": "شکایت کردن"
+        },
+        {
+         "word": "meanwhile",
+         "fa": "در این میان"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_4_3",
+       "title": "Ending your tenancy",
+       "titleFa": "پایان دادن به اجاره",
+       "lead": "agent",
+       "place": "hallway",
+       "grammar": "Future plans: I'm going to… / I'll be moving…",
+       "grammarFa": "برنامهٔ آینده",
+       "sceneIds": [
+        "est_4_3"
+       ],
+       "words": [
+        {
+         "word": "moving out",
+         "fa": "تخلیه کردن ؛ رفتن از خانه"
+        },
+        {
+         "word": "closer to",
+         "fa": "نزدیک‌تر به"
+        },
+        {
+         "word": "spring",
+         "fa": "بهار"
+        },
+        {
+         "word": "congratulations",
+         "fa": "تبریک"
+        },
+        {
+         "word": "in writing",
+         "fa": "کتبی"
+        },
+        {
+         "word": "rent period",
+         "fa": "دورهٔ اجاره"
+        },
+        {
+         "word": "instead",
+         "fa": "به جای آن"
+        },
+        {
+         "word": "sooner",
+         "fa": "زودتر"
+        },
+        {
+         "word": "check-out inspection",
+         "fa": "بازدید تحویل نهایی"
+        },
+        {
+         "word": "deposit back",
+         "fa": "پس گرفتن ودیعه"
+        },
+        {
+         "word": "compare",
+         "fa": "مقایسه کردن"
+        },
+        {
+         "word": "dispute service",
+         "fa": "خدمات حل اختلاف"
+        },
+        {
+         "word": "just in case",
+         "fa": "محض احتیاط"
+        },
+        {
+         "word": "wear and tear",
+         "fa": "استهلاک عادی"
+        }
+       ],
+       "turns": 9
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "H5",
+     "title": "Buying a home",
+     "titleFa": "خرید خانه",
+     "place": "bank",
+     "canDo": "Make an offer, get a mortgage in principle, instruct a solicitor and understand surveys and stamp duty",
+     "canDoFa": "پیشنهاد خرید بدهی، تأییدیهٔ اولیهٔ وام بگیری، وکیل بگیری و ارزیابی و مالیات تمبر را بفهمی",
+     "cefr": "B2",
+     "lessons": [
+      {
+       "id": "est_5_1",
+       "title": "Mortgage in principle",
+       "titleFa": "تأییدیهٔ اولیهٔ وام مسکن",
+       "lead": "graham",
+       "place": "bank",
+       "grammar": "Conditionals: If I put down…, I could…",
+       "grammarFa": "جمله‌های شرطی",
+       "sceneIds": [
+        "est_5_1"
+       ],
+       "words": [
+        {
+         "word": "lender",
+         "fa": "وام‌دهنده"
+        },
+        {
+         "word": "rather than",
+         "fa": "به جای"
+        },
+        {
+         "word": "mortgage",
+         "fa": "وام مسکن"
+        },
+        {
+         "word": "agreement in principle",
+         "fa": "تأییدیهٔ اولیه"
+        },
+        {
+         "word": "roughly",
+         "fa": "تقریباً"
+        },
+        {
+         "word": "guarantee",
+         "fa": "تضمین"
+        },
+        {
+         "word": "credit score",
+         "fa": "امتیاز اعتباری"
+        },
+        {
+         "word": "deposit",
+         "fa": "پیش‌پرداخت ؛ ودیعه"
+        },
+        {
+         "word": "saved",
+         "fa": "پس‌انداز کرده"
+        },
+        {
+         "word": "rate",
+         "fa": "نرخ (بهره)"
+        },
+        {
+         "word": "generally",
+         "fa": "معمولاً ؛ به طور کلی"
+        },
+        {
+         "word": "mortgage broker",
+         "fa": "مشاور ؛ کارگزار وام مسکن"
+        },
+        {
+         "word": "documents",
+         "fa": "مدارک"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_5_2",
+       "title": "Making an offer",
+       "titleFa": "پیشنهاد خرید دادن",
+       "lead": "graham",
+       "place": "living",
+       "grammar": "Would you accept…? / I'm prepared to…",
+       "grammarFa": "آیا … را می‌پذیرید؟ / حاضرم…",
+       "sceneIds": [
+        "est_5_2"
+       ],
+       "words": [
+        {
+         "word": "sellers",
+         "fa": "فروشنده‌ها"
+        },
+        {
+         "word": "asking price",
+         "fa": "قیمت درخواستی"
+        },
+        {
+         "word": "make an offer",
+         "fa": "پیشنهاد دادن"
+        },
+        {
+         "word": "prepared to",
+         "fa": "حاضرم"
+        },
+        {
+         "word": "position",
+         "fa": "موقعیت ؛ وضعیت"
+        },
+        {
+         "word": "first-time buyer",
+         "fa": "خریدار بار اول"
+        },
+        {
+         "word": "nothing to sell",
+         "fa": "چیزی برای فروش نداشتن"
+        },
+        {
+         "word": "chain",
+         "fa": "زنجیرهٔ خرید و فروش"
+        },
+        {
+         "word": "come back at",
+         "fa": "با … جواب دادن"
+        },
+        {
+         "word": "meet in the middle",
+         "fa": "وسطش توافق کردن"
+        },
+        {
+         "word": "legally binding",
+         "fa": "الزام‌آور قانونی"
+        },
+        {
+         "word": "exchange contracts",
+         "fa": "مبادلهٔ قراردادها"
+        },
+        {
+         "word": "subject to contract",
+         "fa": "منوط به قرارداد"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_5_3",
+       "title": "Solicitors and surveys",
+       "titleFa": "وکیل و ارزیابی ساختمان",
+       "lead": "graham",
+       "place": "bank",
+       "grammar": "The passive: is checked / will be done",
+       "grammarFa": "مجهول",
+       "sceneIds": [
+        "est_5_3"
+       ],
+       "words": [
+        {
+         "word": "solicitor",
+         "fa": "وکیل"
+        },
+        {
+         "word": "licensed conveyancer",
+         "fa": "کارشناس مجاز انتقال ملک"
+        },
+        {
+         "word": "conveyancing",
+         "fa": "انتقال حقوقی ملک"
+        },
+        {
+         "word": "contract",
+         "fa": "قرارداد"
+        },
+        {
+         "word": "searches",
+         "fa": "استعلام‌ها"
+        },
+        {
+         "word": "planning",
+         "fa": "مجوز ساخت ؛ برنامه‌ریزی شهری"
+        },
+        {
+         "word": "quotes",
+         "fa": "برآورد قیمت"
+        },
+        {
+         "word": "survey",
+         "fa": "ارزیابی ساختمان"
+        },
+        {
+         "word": "valuation",
+         "fa": "قیمت‌گذاری"
+        },
+        {
+         "word": "separate",
+         "fa": "جدا"
+        },
+        {
+         "word": "modern",
+         "fa": "نوساز ؛ مدرن"
+        },
+        {
+         "word": "Victorian",
+         "fa": "ویکتوریایی ؛ قدیمی (قرن ۱۹)"
+        },
+        {
+         "word": "save you thousands",
+         "fa": "هزاران پوند صرفه‌جویی"
+        }
+       ],
+       "turns": 9
+      },
+      {
+       "id": "est_5_4",
+       "title": "Stamp duty basics",
+       "titleFa": "مبانی مالیات تمبر",
+       "lead": "graham",
+       "place": "bank",
+       "grammar": "Numbers and percentages: 5% on the portion above…",
+       "grammarFa": "عدد و درصد",
+       "sceneIds": [
+        "est_5_4"
+       ],
+       "words": [
+        {
+         "word": "Stamp Duty Land Tax",
+         "fa": "مالیات تمبر زمین (SDLT)"
+        },
+        {
+         "word": "a certain price",
+         "fa": "یک قیمت مشخص"
+        },
+        {
+         "word": "plan for",
+         "fa": "برنامه‌ریزی کردن برای"
+        },
+        {
+         "word": "first-time buyer",
+         "fa": "خریدار بار اول"
+        },
+        {
+         "word": "up to",
+         "fa": "تا"
+        },
+        {
+         "word": "nothing at all",
+         "fa": "اصلاً هیچ"
+        },
+        {
+         "word": "five per cent",
+         "fa": "پنج درصد"
+        },
+        {
+         "word": "the part above",
+         "fa": "بخش بالای"
+        },
+        {
+         "word": "relief",
+         "fa": "تخفیف ؛ معافیت"
+        },
+        {
+         "word": "apply",
+         "fa": "اعمال شدن"
+        },
+        {
+         "word": "files",
+         "fa": "ثبت می‌کند ؛ اظهار می‌کند"
+        },
+        {
+         "word": "within fourteen days",
+         "fa": "ظرف چهارده روز"
+        },
+        {
+         "word": "calculator",
+         "fa": "ماشین‌حساب"
+        }
+       ],
+       "turns": 9
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "nursery",
    "title": "Vida's Nursery",
