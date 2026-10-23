@@ -1,13 +1,10 @@
-import 'dart:convert';
 import 'dart:io';
 import 'package:british_life/app/app.dart';
 import 'package:british_life/app/router.dart';
 import 'package:british_life/app/theme.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
-import 'package:british_life/core/models/course.dart';
 import 'package:british_life/core/models/user_progress.dart';
-import 'package:british_life/features/course/lesson_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
