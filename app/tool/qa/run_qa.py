@@ -228,6 +228,19 @@ def audio_checks():
     lv = {'block': 'block', 'warn': 'warn', 'fix': 'fixed' if '--fix' in ARGS else 'warn', 'rerender': 'fixed' if '--fix' in ARGS and r['fixed']['rerendered'] else 'warn'}
     for l, check, k, t in r['issues']: add(lv[l], 'audio', check, k, t)
 
+def voice_checks():
+    """Voice identity (blocking): clips match the cast, re-voiced characters really sound different, scenes distinct."""
+    import qa_voice
+    subprocess.run([sys.executable, os.path.join(qa_voice.AUDIT, 'voice_groups.py')], capture_output=True)  # who speaks together, from the data
+    bk = os.path.join(qa_voice.AUDIT, 'voice_backup_dirs.json')  # local backups of replaced clips (not in the repo)
+    dirs = [d for d in os.environ.get('QA_OLD_CLIPS', '').split(':') if d] or (json.load(open(bk)) if os.path.exists(bk) else [])
+    r = qa_voice.run(fix='--fix' in ARGS, log=log, old_dirs=[d for d in dirs if os.path.isdir(d)])
+    stats['voice: stale clips'] = r['stale']; stats['voice: re-voiced characters checked'] = len(r['revoiced'])
+    for l, check, k, t in r['issues']: add('fixed' if l == 'rerender' and r['fixed'] else 'block', 'voice', check, k, t)
+    t = subprocess.run([sys.executable, '-m', 'unittest', '-q', 'test_qa_voice'], cwd=os.path.dirname(os.path.abspath(__file__)), capture_output=True, text=True)
+    stats['voice: unit tests'] = 'pass' if t.returncode == 0 else 'FAIL'
+    if t.returncode: add('block', 'voice', 'voice-identity unit tests failed', 'tool/qa/test_qa_voice.py', t.stderr[-300:])
+
 def report(t0):
     by = collections.Counter((i[0], i[1]) for i in issues)
     blocking = sum(1 for i in issues if i[0] == 'block')
@@ -236,7 +249,7 @@ def report(t0):
           f"{sum(1 for i in issues if i[0] == 'warn')} warnings, {sum(1 for i in issues if i[0] == 'fixed')} auto-fixed) in {int(time.time() - t0)} s", '', '## Coverage']
     md += [f'- {k}: {v}' for k, v in stats.items()]
     md += ['', '## Issues by section', '', '| section | blocking | warnings | auto-fixed |', '|---|---|---|---|']
-    for sec in ('text', 'translation', 'content', 'ui', 'audio'):
+    for sec in ('text', 'translation', 'content', 'ui', 'audio', 'voice'):
         md.append(f"| {sec} | {by[('block', sec)]} | {by[('warn', sec)]} | {by[('fixed', sec)]} |")
     for lvl, title in (('block', 'Blocking'), ('warn', 'Warnings'), ('fixed', 'Auto-fixed')):
         rows = [i for i in issues if i[0] == lvl]
@@ -272,7 +285,7 @@ if __name__ == '__main__':
     only = opt('--only')
     secs = [('text', text_checks), ('translation', translation_checks), ('content', content_checks)]
     if '--no-ui' not in ARGS: secs.append(('ui', ui_checks))
-    if '--no-audio' not in ARGS: secs.append(('audio', audio_checks))
+    if '--no-audio' not in ARGS: secs.append(('audio', audio_checks)); secs.append(('voice', voice_checks))
     if opt('--shots'): secs.append(('shots', lambda: shots(opt('--shots'))))
     for name, fn in secs:
         if only and name not in only.split(','): continue
