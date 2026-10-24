@@ -5,7 +5,7 @@ import edge_tts
 A=os.path.join(os.path.dirname(__file__),'..','assets'); OUT=os.path.join(A,'audio'); os.makedirs(OUT,exist_ok=True)
 V={ # speaker -> (voice, pitch, rate)
  'tom':('en-GB-OllieMultilingualNeural','+0Hz','-4%'),'leslie':('en-GB-AdaMultilingualNeural','+0Hz','-4%'),
- 'nicola':('en-GB-MaisieNeural','+0Hz','-4%'),'ryan':('en-GB-ElliotNeural','+0Hz','-2%'),
+ 'nicola':('en-GB-AbbiNeural','+25Hz','+2%'),'ryan':('en-GB-ElliotNeural','+0Hz','-2%'),
  'weda':('en-GB-LibbyNeural','-2Hz','-7%'),'william':('en-GB-MaisieNeural','+5Hz','-6%'),
  'mia':('en-GB-MaisieNeural','+5Hz','-2%'),'me':('en-GB-RyanNeural','+0Hz','-4%'),'learner':('en-GB-RyanNeural','+0Hz','-4%'),
  'priya':('en-IN-NeerjaNeural','+0Hz','-4%'),'patel':('en-IN-PrabhatNeural','+0Hz','-4%'),

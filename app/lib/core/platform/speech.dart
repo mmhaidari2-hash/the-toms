@@ -1,1 +1,1 @@
-export 'speech_stub.dart' if (dart.library.js_interop) 'speech_web.dart';
+export 'speech_io.dart' if (dart.library.js_interop) 'speech_web.dart';

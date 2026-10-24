@@ -1,8 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The only permission: voice clips stream from the app's own site (they are too big to pack in the APK). -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="New Life UK"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:allowBackup="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"
