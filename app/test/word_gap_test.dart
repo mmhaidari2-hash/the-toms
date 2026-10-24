@@ -87,7 +87,7 @@ void main() {
         expect(find.byType(GlossLabel), findsWidgets, reason: '$c $id');
         final glued = [
           for (final e in find.byType(RichText).evaluate())
-            if (gluedScripts((e.widget as RichText).text) case final g?) g,
+            ?gluedScripts((e.widget as RichText).text),
         ];
         expect(glued, isEmpty, reason: '$c $id: ${glued.take(5).join(' / ')}');
         if (c != 'fa' && c != 'en') {
