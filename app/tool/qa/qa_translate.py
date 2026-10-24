@@ -100,7 +100,7 @@ def pairs():
                 if b.get('suggestion') and b.get('suggestionFa'): out.append((os.path.basename(f)[:-5], nid, i, b['suggestion'], b['suggestionFa']))
     return out
 def fa_words(s): return len([w for w in re.split(r'[\s\u200c]+', re.sub(r'[^\w\s\u200c]', ' ', s)) if w])
-def clauses(s): return len([x for x in re.split(r'[.!?؟,،;؛…:—–]+', s) if x.strip()])
+def clauses(s): return len([x for x in re.split(r'[.!?؟,،;؛…:—–۔।]+', s) if x.strip()])
 _FILL = r'(I think|I guess|I suppose|then|too|please|actually|obviously|definitely|maybe|really|roughly|nearly|exactly|originally|either|though|sadly|to be honest|honestly|of course|mind)'
 _VOC = r'(Mrs |Mr |Dr |Miss )?([A-Z][a-z]+|\{you\}|doctor|love|dear|mate|sweetheart|everybody|everyone|sir|boss|chef|teacher|girls|boys)'
 def clauses_en(s):
@@ -158,7 +158,7 @@ def run(log=print, allow_mt=True, per_lang=int(os.environ.get('QA_MT_PER_LANG', 
     # ---- other helper languages: sample, back-translate, flag
     flags_p = os.path.join(APP, 'tool', 'i18n', 'prompt_flags.json')
     flags = json.load(open(flags_p)) if os.path.exists(flags_p) else {}
-    en_of = {}
+    en_of = {}; quality = {}
     for p in P:
         if build_eligible(p[3]): en_of.setdefault(p[4], p[3])
     for code, src in NLLB.items():
@@ -174,13 +174,13 @@ def run(log=print, allow_mt=True, per_lang=int(os.environ.get('QA_MT_PER_LANG', 
             got = mt([tab[fa] for fa in todo], src)
             for fa in todo: c[f'{fa}\u0001{tab[fa]}'] = got.get(tab[fa], [])
             json.dump(c, open(cpl, 'w'), ensure_ascii=False)
-        fl = set(flags.get(code, [])); checked = 0
+        fl = set(flags.get(code, [])); checked = 0; btbad = 0
         for fa in have:
             outs = c.get(f'{fa}\u0001{tab[fa]}')
             if not outs: continue
             checked += 1; r = best(en_of[fa], outs)
             if r and r['bad'] and fa not in fl:
-                issues.append(('warn', f'{code}: back-translation does not cover the answer (sampled)', fa, f"{en_of[fa]} ↔ {tab[fa]} (back: “{outs[0]}”)"))
+                btbad += 1; issues.append(('warn', f'{code}: back-translation does not cover the answer (sampled)', fa, f"{en_of[fa]} ↔ {tab[fa]} (back: “{outs[0]}”)"))
         # Deterministic checks on every build prompt: machine-translation garbage, or a length far from this language's
         # usual ratio to English (a dropped or repeated clause). Those prompts are dropped from the table at build time,
         # so the exercise plays the sentence instead.
@@ -193,6 +193,10 @@ def run(log=print, allow_mt=True, per_lang=int(os.environ.get('QA_MT_PER_LANG', 
             if (bad or few or q < 0.62 or q > 2.1) and fa not in fl:
                 fl.add(fa); issues.append(('fixed', f'{code}: prompt translation unreliable → audio prompt instead', fa, f"{en_of[fa]} ↔ {t} ({'garbage' if bad else 'fewer clauses' if few else f'length ×{q:.2f}'})"))
         flags[code] = sorted(fl)
+        quality[code] = {'prompts': len(en_of), 'flagged': len(fl), 'flag_share': round(len(fl) / max(1, len(en_of)), 4),
+                         'bt_checked': checked, 'bt_mismatch': btbad, 'bt_mismatch_rate': round(btbad / max(1, checked), 4)}
         stats[f'{code}: prompts back-translated (sampled, total) / flagged'] = f'{checked} / {len(fl)}'
     json.dump(flags, open(flags_p, 'w'), ensure_ascii=False, indent=0, sort_keys=True)
+    # Per-language quality, read by tool/i18n/build_tables.py to decide ready vs beta.
+    json.dump(quality, open(os.path.join(APP, 'tool', 'i18n', 'quality.json'), 'w'), indent=1, sort_keys=True)
     return {'issues': issues, 'stats': stats}

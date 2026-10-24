@@ -1,6 +1,7 @@
 """Build the helper-language tables the app loads: assets/i18n/<code>.json = {Persian source: translation}, plus
 assets/i18n/en.json (Persian -> English, the fallback for beta languages), and lib/core/i18n/coverage.g.dart
-(share of strings translated per language; a finished run with >= 85% kept shows as ready, anything less as beta, nothing as coming soon).
+(share of strings translated per language; a finished run with >= 85% kept and passing the quality bar in quality.json shows as ready,
+anything less as beta, nothing as coming soon).
 Safe to run while translate.py is still writing: a table that does not parse yet is skipped this time.
 Usage: python3 tool/i18n/build_tables.py"""
 import json, os
@@ -10,6 +11,7 @@ src = json.load(open(os.path.join(H, 'sources.json')))
 REWRITES = json.load(open(os.path.join(H, 'fa_rewrites.json'))) if os.path.exists(os.path.join(H, 'fa_rewrites.json')) else {}
 RENAMES = json.load(open(os.path.join(H, 'brand_renames.json'))) if os.path.exists(os.path.join(H, 'brand_renames.json')) else []
 FLAGS = json.load(open(os.path.join(H, 'prompt_flags.json'))) if os.path.exists(os.path.join(H, 'prompt_flags.json')) else {}
+QUALITY = json.load(open(os.path.join(H, 'quality.json'))) if os.path.exists(os.path.join(H, 'quality.json')) else {}
 CODES = ['hi', 'ur', 'zh', 'ar', 'uk', 'prs', 'ps', 'bn', 'pa', 'ro', 'pl', 'ti', 'ckb', 'tr', 'es', 'pt', 'zh-Hant']
 import re
 def looped(out, en, code=''):
@@ -68,7 +70,12 @@ for c in CODES:
             t[k] = v
             if re.search(r'Twix|FIFA', v): t.pop(k)  # brand left in a machine translation: use the fallback instead
     dump(c, t); cov[c] = round(len(t) / len(src), 4)
-    if all(k in mt for k in src): complete.add(c)
+    # Ready needs the whole run finished AND quality from the QA (tool/qa/qa_translate.py -> quality.json): at most 10%
+    # of practice prompts dropped as unreliable and at most 10% of sampled back-translations missing the answer.
+    # Anything else stays beta (English fallback for the lines that failed).
+    q = QUALITY.get(c)
+    if all(k in mt for k in src) and q and q['flag_share'] <= 0.10 and q['bt_mismatch_rate'] <= 0.10: complete.add(c)
+    if q: print(c, 'quality: prompts flagged', q['flag_share'], 'back-translation mismatch', q['bt_mismatch_rate'], 'ready-eligible' if c in complete else 'beta')
 # A language skipped this run keeps the coverage from the last build.
 prev = {}; prevc = set()
 g = os.path.join(APP, 'lib', 'core', 'i18n', 'coverage.g.dart')
