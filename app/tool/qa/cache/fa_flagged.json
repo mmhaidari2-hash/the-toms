@@ -450,21 +450,6 @@
 "mname": []
 },
 {
-"scene": "doris_bus",
-"node": "n6",
-"i": 1,
-"en": "Yes, but they're still back home.",
-"fa": "آره، ولی هنوز تو کشورمن.",
-"bad": true,
-"cov": 0.33,
-"ratio": 1.14,
-"miss": [
-"back",
-"home"
-],
-"mname": []
-},
-{
 "scene": "ep1_morning_table",
 "node": "k3",
 "i": 0,
@@ -5275,21 +5260,6 @@
 "miss": [
 "mm",
 "hm"
-],
-"mname": []
-},
-{
-"scene": "l1_u20_4",
-"node": "n7",
-"i": 1,
-"en": "Rawr! Great job!",
-"fa": "غرررر! آفرین!",
-"bad": true,
-"cov": 0.33,
-"ratio": 2.0,
-"miss": [
-"rawr",
-"great"
 ],
 "mname": []
 },
@@ -12433,21 +12403,6 @@
 "ride",
 "holding",
 "holding"
-],
-"mname": []
-},
-{
-"scene": "l1_u45_3",
-"node": "n1",
-"i": 1,
-"en": "No, I can't whistle either.",
-"fa": "نه، منم سوت زدن بلد نیستم.",
-"bad": true,
-"cov": 0.33,
-"ratio": 1.5,
-"miss": [
-"ca",
-"whistle"
 ],
 "mname": []
 },
@@ -23884,30 +23839,6 @@
 },
 {
 "scene": "l2_u34_1__as_leslie",
-"node": "r2",
-"i": 0,
-"en": "It feels like one! Two meetings: Ryan's form tutor, Mr Patel, and Nicola's teacher, Ms Ellis. Each slot lasts five minutes.",
-"fa": "حس مسابقه داره! دو تا جلسه: معلم راهنمای رایان، آقای پاتل، و معلم نیکولا، خانم الیس. هر نوبت پنج دقیقه طول می‌کشه.",
-"bad": true,
-"cov": 0.5,
-"ratio": 1.09,
-"miss": [
-"feels",
-"like",
-"meetings",
-"form",
-"tutor",
-"ms",
-"each",
-"slot",
-"lasts"
-],
-"mname": [
-"Ms"
-]
-},
-{
-"scene": "l2_u34_1__as_leslie",
 "node": "r3",
 "i": 0,
 "en": "Quick! Mr Patel first. What's free on Thursday? Read me the times.",
@@ -29140,21 +29071,6 @@
 "mind",
 "coat",
 "bye"
-],
-"mname": []
-},
-{
-"scene": "l2_u46_2",
-"node": "n8",
-"i": 0,
-"en": "You're the best waiter, Nicola.",
-"fa": "تو بهترین گارسونی نیکولا.",
-"bad": true,
-"cov": 0.33,
-"ratio": 1.0,
-"miss": [
-"best",
-"waiter"
 ],
 "mname": []
 },
@@ -37230,22 +37146,6 @@
 {
 "scene": "l2_u8_2",
 "node": "n2",
-"i": 0,
-"en": "Yes, it's about Ryan.",
-"fa": "بله، دربارهٔ رایان است.",
-"bad": true,
-"cov": 0.0,
-"ratio": 0.8,
-"miss": [
-"ryan"
-],
-"mname": [
-"Ryan"
-]
-},
-{
-"scene": "l2_u8_2",
-"node": "n2",
 "i": 1,
 "en": "Thanks for ringing back, doctor.",
 "fa": "ممنون که زنگ زدید، دکتر.",
@@ -38785,21 +38685,6 @@
 "miss": [
 "bit",
 "bigger"
-],
-"mname": []
-},
-{
-"scene": "l3_u8_1",
-"node": "n2",
-"i": 0,
-"en": "How soon can someone come?",
-"fa": "زودتر از همه کِی می‌تونه یکی بیاد؟",
-"bad": true,
-"cov": 0.33,
-"ratio": 0.8,
-"miss": [
-"soon",
-"someone"
 ],
 "mname": []
 },
@@ -46542,22 +46427,6 @@
 "mum",
 "fine",
 "quick"
-],
-"mname": []
-},
-{
-"scene": "role_ryan_mum__as_leslie",
-"node": "r2",
-"i": 0,
-"en": "Homework first, then GoalRush. Deal?",
-"fa": "اول تکلیف، بعد گل‌راش. قبول؟",
-"bad": true,
-"cov": 0.25,
-"ratio": 0.8,
-"miss": [
-"homework",
-"goalrush",
-"deal"
 ],
 "mname": []
 },
