@@ -1,6 +1,7 @@
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 
+import '../shared/gloss.dart';
 import '../shared/nav.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -156,22 +157,11 @@ class LessonScreen extends ConsumerWidget {
                                   borderRadius: BorderRadius.circular(99),
                                   border: Border.all(color: BL.mist),
                                 ),
-                                child: Text.rich(
-                                  TextSpan(
-                                    children: [
-                                      TextSpan(
-                                        text: hl(w.word),
-                                        style: const TextStyle(
-                                          fontWeight: FontWeight.w700,
-                                          color: BL.ink,
-                                        ),
-                                      ),
-                                      TextSpan(
-                                        text: hl('  ${w.fa}'),
-                                        style: BL.fa(12),
-                                      ),
-                                    ],
-                                  ),
+                                child: GlossLabel(
+                                  w.word,
+                                  w.fa,
+                                  enStyle: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink),
+                                  glossStyle: BL.fa(12),
                                 ),
                               ),
                             ),

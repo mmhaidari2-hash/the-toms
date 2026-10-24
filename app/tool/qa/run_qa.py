@@ -159,7 +159,7 @@ def content_checks():
 def flutter(test_files, label):
     env = dict(os.environ, PATH='/home/box/flutter/bin:' + os.environ.get('PATH', ''))
     for attempt in range(3):
-        r = subprocess.run(['timeout', '1500', 'flutter', 'test', *test_files], capture_output=True, text=True, env=env)
+        r = subprocess.run(['timeout', '2700', 'flutter', 'test', *test_files], capture_output=True, text=True, env=env)
         if 'No file or variants found for asset' not in r.stdout + r.stderr: break
         time.sleep(5)  # a clip being written while the asset bundle was built: try again
     tail = (r.stdout + r.stderr)[-4000:]
@@ -197,10 +197,10 @@ def ui_routes():
 
 def ui_checks():
     routes = ui_routes()
-    cfg = {'routes': routes, 'sizes': [[320, 568], [375, 667], [414, 896]], 'langs': ['fa', 'ar', 'en']}
+    cfg = {'routes': routes, 'sizes': [[320, 568], [375, 667], [414, 896]], 'langs': ['fa', 'ar', 'ur', 'hi', 'en']}
     json.dump(cfg, open(os.path.join(OUT, 'routes.json'), 'w'))
-    stats['UI routes x sizes x languages'] = f"{len(routes)} x 3 x 3 = {len(routes) * 9} screens"
-    ok, _ = flutter(['test/qa_content_test.dart', 'test/qa_ui_test.dart'], 'ui')
+    stats['UI routes x sizes x languages'] = f"{len(routes)} x 3 x {len(cfg['langs'])} = {len(routes) * 3 * len(cfg['langs'])} screens"
+    ok, _ = flutter(['test/qa_content_test.dart', 'test/qa_ui_test.dart', 'test/word_gap_test.dart', 'test/map_loupe_test.dart'], 'ui')  # word_gap: English and gloss never glued; map_loupe: glass exactly on its pin
     try:
         res = json.load(open(os.path.join(OUT, 'ui_results.json')))
         stats['UI screens rendered'] = len(res)

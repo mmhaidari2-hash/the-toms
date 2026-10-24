@@ -25,9 +25,6 @@ class MapLoupe extends StatelessWidget {
 
   static const size = 124.0;
   static const zoom = 1.9;
-  /// The lens floats above the finger so the finger never hides what it magnifies.
-  static const lift = 92.0;
-
   @override
   Widget build(BuildContext context) => TweenAnimationBuilder<Offset>(
     tween: Tween(end: focal),
@@ -37,22 +34,14 @@ class MapLoupe extends StatelessWidget {
   );
 
   Widget _lens(Offset f) {
-    final at = Offset(f.dx - scrollX, f.dy); // screen position of the focal point
+    // Run 26: the glass sits exactly on the point it magnifies (a pin centre when snapped), in both axes,
+    // at any scroll offset and even at a screen edge, so the enlarged icon is where the real icon is.
+    final centre = Offset(f.dx - scrollX, f.dy); // screen position of the focal point = lens centre
     final title = spot?.title;
-    final below = at.dy - lift - size / 2 - (title == null ? 0 : 60) < topSafe;
-    final dy = below ? lift : -lift;
-    final cx = at.dx.clamp(size / 2 + 4, viewWidth - size / 2 - 4).toDouble();
-    final centre = Offset(cx, at.dy + dy);
-    final labelLeft = (cx - 110).clamp(6.0, viewWidth - 226).toDouble();
+    // The name tag goes above the glass, or below it when the title bar is in the way.
+    final below = centre.dy - size / 2 - 58 < topSafe;
+    final labelLeft = (centre.dx - 110).clamp(6.0, viewWidth - 226).toDouble();
     return Stack(clipBehavior: Clip.none, children: [
-      // A thin stem from the lens to the finger point, so it's clear what is being magnified.
-      Positioned(
-        left: at.dx - 1,
-        top: below ? at.dy + 8 : centre.dy + size / 2,
-        width: 2,
-        height: (lift - size / 2 - 8).clamp(0, 100).toDouble(),
-        child: const DecoratedBox(decoration: BoxDecoration(color: Color(0x99FFF4DC))),
-      ),
       Positioned(
         left: centre.dx - size / 2,
         top: centre.dy - size / 2,
@@ -83,7 +72,8 @@ class MapLoupe extends StatelessWidget {
                       width: 44 * zoom,
                       height: 44 * zoom,
                       decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: open ? BL.gold : Colors.white54, width: 3.2), boxShadow: const [BoxShadow(color: Color(0x66000000), blurRadius: 8, offset: Offset(0, 4))]),
-                      child: ClipOval(child: SpotIcon(spot!, size: 44 * zoom, dim: !open)),
+                      alignment: Alignment.center,
+                      child: ClipOval(child: SpotIcon(spot!, size: 38 * zoom, dim: !open)),
                     ),
                   ),
                 // Frosted rim.

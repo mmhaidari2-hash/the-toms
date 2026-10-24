@@ -58,7 +58,10 @@ void main() {
     await t.pump(const Duration(milliseconds: 300));
     final lens = t.getRect(find.byKey(const ValueKey('loupe-lens')));
     final orbNow = t.getRect(find.byKey(ValueKey('spot-$id')));
-    if (orbNow.center.dx > 70 && orbNow.center.dx < 305) expect((lens.center.dx - orbNow.center.dx).abs(), lessThan(1.5), reason: 'lens centred on the pin');
+    expect(orbNow.isEmpty, isFalse);
+    // Run 26: centred in BOTH axes on the real orb centre, with no edge exemption (no lift, no clamping).
+    expect((lens.center - orb).distance, lessThan(1.5), reason: 'lens centred on the pin: lens ${lens.center} vs orb $orb');
+    expect(lens.width, closeTo(MapLoupe.size, .5));
     // Small jitter around the pin keeps the same pin (hysteresis), no jumping.
     for (final d in const [Offset(20, 8), Offset(-25, -10), Offset(30, 20), Offset(0, 0)]) {
       await g.moveTo(orb + d);
@@ -95,9 +98,10 @@ void main() {
     expect(find.byType(MapLoupe), findsNothing, reason: 'no lens over empty map');
     await mouse.moveTo(orb + const Offset(6, 4));
     await t.pump(const Duration(milliseconds: 400));
+    await t.pump(const Duration(milliseconds: 300));
     expect(find.byType(MapLoupe), findsOneWidget, reason: 'hovering a pin raises the lens');
     final lens = t.getRect(find.byKey(const ValueKey('loupe-lens')));
-    if (orb.dx > 70 && orb.dx < 1210) expect((lens.center.dx - orb.dx).abs(), lessThan(1.5), reason: 'lens centred on the hovered pin');
+    expect((lens.center - orb).distance, lessThan(1.5), reason: 'lens centred on the hovered pin: lens ${lens.center} vs orb $orb');
     // Scroll the map with the wheel: the hover lens goes away rather than drifting off its pin.
     await mouse.moveTo(orb);
     await t.pump();
@@ -106,6 +110,44 @@ void main() {
     t.state<ScrollableState>(find.descendant(of: pos, matching: find.byType(Scrollable))).position.jumpTo(200);
     await t.pump(const Duration(milliseconds: 300));
     expect(find.byType(MapLoupe), findsNothing, reason: 'scrolling hides the hover lens');
+    await mouse.removePointer();
+    expect(t.takeException(), isNull);
+  });
+
+  testWidgets('every pin, even at a screen edge, gets the glass exactly over it', (t) async {
+    t.view.physicalSize = const Size(375, 667) * 2;
+    t.view.devicePixelRatio = 2;
+    addTearDown(t.view.reset);
+    await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore()..data = const UserProgress(onboarded: true).encode())], child: const BritishLifeApp()));
+    router.go('/');
+    for (var i = 0; i < 40 && find.byKey(const ValueKey('spot-home')).evaluate().isEmpty; i++) {
+      await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200)));
+      await t.pump(const Duration(milliseconds: 200));
+    }
+    await t.pump(const Duration(seconds: 1));
+    final spots = find.byWidgetPredicate((w) => w.key is ValueKey && '${(w.key as ValueKey).value}'.startsWith('spot-') && !'${(w.key as ValueKey).value}'.startsWith('spot-focus') && !'${(w.key as ValueKey).value}'.startsWith('spot-level') && !'${(w.key as ValueKey).value}'.startsWith('spot-sheet'));
+    final orbs = <String, Offset>{};
+    for (final e in spots.evaluate()) {
+      final k = '${((e.widget.key) as ValueKey).value}';
+      final r = t.getRect(find.byKey(ValueKey(k)));
+      final o = Offset(r.center.dx, r.top + 22);
+      if (o.dx > 4 && o.dx < 371 && o.dy > 230 && o.dy < 520) orbs[k] = o;
+    }
+    expect(orbs.length, greaterThan(3));
+    expect(orbs.values.any((o) => o.dx < 66 || o.dx > 309), isTrue, reason: 'covers a pin near a screen edge');
+    final mouse = await t.createGesture(kind: PointerDeviceKind.mouse);
+    await mouse.addPointer(location: const Offset(187, 640));
+    for (final e in orbs.entries) {
+      await mouse.moveTo(e.value + const Offset(3, 2));
+      await t.pump(const Duration(milliseconds: 300));
+      await t.pump(const Duration(milliseconds: 300));
+      final loupe = find.byType(MapLoupe);
+      if (loupe.evaluate().isEmpty) continue; // covered by another pin's hit area
+      final lens = t.getRect(find.byKey(const ValueKey('loupe-lens')));
+      final id = t.widget<MapLoupe>(loupe).spot?.id;
+      final o = orbs['spot-$id'] ?? e.value;
+      expect((lens.center - o).distance, lessThan(1.5), reason: '${e.key}: lens ${lens.center} vs orb $o');
+    }
     await mouse.removePointer();
     expect(t.takeException(), isNull);
   });

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/painting.dart';
 import 'package:flutter/services.dart';
 
 import 'strings.dart';
@@ -79,8 +80,10 @@ bool _hasFa(String s) {
 String hl(String? s) {
   if (s == null) return '';
   if (helperLang == 'fa' || !_hasFa(s)) return s;
-  final whole = _look(s.trim());
-  if (whole != null) return whole;
+  final core = s.trim();
+  final whole = _look(core);
+  // Keep the spacing around the line ("  گلوله" -> "  गोली"): it separates the helper text from the English before it.
+  if (whole != null) return core.length == s.length ? whole : s.replaceFirst(core, whole);
   return _digits(_compose(s));
 }
 
@@ -145,3 +148,30 @@ String? hlExact(String? s) {
 
 /// Untranslated Persian left in a string the app shows (for the language audit).
 bool hasPersian(String s) => _hasFa(s);
+
+/// Two scripts glued together where one piece of text ends and the next begins ("readingپڑھنا"): a letter of the
+/// Latin script directly against a letter of a right-to-left or Indic script, or the other way round. Used by the QA
+/// gate (test/qa_ui_test.dart, test/word_gap_test.dart) on every rendered rich text.
+final _latin = RegExp(r'[\p{Script=Latin}]', unicode: true);
+final _other = RegExp(r'[\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Devanagari}\p{Script=Bengali}\p{Script=Gurmukhi}\p{Script=Ethiopic}\p{Script=Cyrillic}\p{Script=Thaana}\p{Script=Syriac}]', unicode: true);
+bool _glue(String a, String b) {
+  if (a.isEmpty || b.isEmpty) return false;
+  final x = String.fromCharCode(a.runes.last), y = String.fromCharCode(b.runes.first);
+  return (_latin.hasMatch(x) && _other.hasMatch(y)) || (_other.hasMatch(x) && _latin.hasMatch(y));
+}
+
+/// The first place in [span] where two text pieces of different scripts touch with no space between them, or null.
+String? gluedScripts(InlineSpan span) {
+  final parts = <String>[];
+  span.visitChildren((s) {
+    if (s is TextSpan && (s.text ?? '').isNotEmpty) parts.add(s.text!);
+    return true;
+  });
+  for (var i = 1; i < parts.length; i++) {
+    if (_glue(parts[i - 1], parts[i])) {
+      final a = parts[i - 1], b = parts[i];
+      return '${a.length > 20 ? a.substring(a.length - 20) : a}|${b.length > 20 ? b.substring(0, 20) : b}';
+    }
+  }
+  return null;
+}

@@ -1,6 +1,6 @@
 // QA gate (tool/qa/run_qa.py): every route in build/qa/routes.json at each phone size and helper language
 // (incl. right-to-left Arabic/Persian) must render with no overflow, no exception, no missing image and no
-// "page not found". Results go to build/qa/ui_results.json for the QA report.
+// "page not found", and no English and helper text run together. Results go to build/qa/ui_results.json for the QA report.
 import 'dart:convert';
 import 'dart:io';
 import 'package:british_life/app/app.dart';
@@ -8,6 +8,7 @@ import 'package:british_life/app/router.dart';
 import 'package:british_life/app/theme.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
+import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -67,6 +68,15 @@ void main() {
             if (where.isNotEmpty) why = '$why @ ${where.toSet().join(', ')}';
           } else if (find.textContaining('Page Not Found').evaluate().isNotEmpty || find.textContaining('GoException').evaluate().isNotEmpty) {
             why = 'route not found';
+          } else {
+            // English and helper text glued together ("readingپڑھنا"): two pieces of different scripts with no space.
+            for (final e in find.byType(RichText).evaluate()) {
+              final g = gluedScripts((e.widget as RichText).text);
+              if (g != null) {
+                why = 'scripts run together: "$g"';
+                break;
+              }
+            }
           }
           results.add({'route': r, 'lang': lang, 'size': '${size.width.toInt()}x${size.height.toInt()}', 'ok': why == null, 'why': ?why});
           if (why != null) bad.add('$r: $why');
