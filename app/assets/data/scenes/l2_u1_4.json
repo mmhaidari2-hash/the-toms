@@ -173,18 +173,18 @@
   "n4": {
    "id": "n4",
    "speaker": "tom",
-   "text": "He borrowed my scarf. Then he spilt his Bovril all over it!",
+   "text": "He borrowed my scarf. Then he spilt his beef tea all over it!",
    "translations": {
-    "fa": "شال‌گردن منو قرض گرفت. بعد بوریلش را ریخت روش!"
+    "fa": "شال‌گردن منو قرض گرفت. بعد چای گوشتش را ریخت روش!"
    },
    "branches": [
     {
      "keywords": [
       "what's",
-      "bovril"
+      "beef"
      ],
-     "suggestion": "What's Bovril?",
-     "suggestionFa": "Bovril چیه؟",
+     "suggestion": "What's beef tea?",
+     "suggestionFa": "«بیف تی» چیه؟",
      "trustDelta": 6,
      "next": "n5",
      "success": true
@@ -214,8 +214,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Bovril is a hot, salty beef drink — a classic at British football grounds in winter.",
-    "fa": "Bovril یک نوشیدنی داغ و شور گوشتی است، کلاسیک ورزشگاه‌های بریتانیا."
+    "en": "Beef tea is a hot, salty beef drink — a classic at British football grounds in winter.",
+    "fa": "«بیف تی» (چای گوشت) یک نوشیدنی داغ و شور گوشتی است، کلاسیک ورزشگاه‌های بریتانیا."
    }
   },
   "n5": {

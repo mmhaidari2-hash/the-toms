@@ -1664,7 +1664,7 @@
 "kind": "text",
 "ui": false
 },
-"(در نقش Ryan) فیفا بعد از مدرسه": {
+"(در نقش Ryan) گل‌راش بعد از مدرسه": {
 "en": "(As Ryan) GoalRush after school",
 "kind": "text",
 "ui": false
@@ -2454,13 +2454,13 @@
 "kind": "text",
 "ui": false
 },
-"Bovril چیه؟": {
-"en": "What's Bovril?",
+"«بیف تی» چیه؟": {
+"en": "What's beef tea?",
 "kind": "text",
 "ui": false
 },
-"Bovril یک نوشیدنی داغ و شور گوشتی است، کلاسیک ورزشگاه‌های بریتانیا.": {
-"en": "Bovril is a hot, salty beef drink — a classic at British football grounds in winter.",
+"«بیف تی» (چای گوشت) یک نوشیدنی داغ و شور گوشتی است، کلاسیک ورزشگاه‌های بریتانیا.": {
+"en": "Beef tea is a hot, salty beef drink — a classic at British football grounds in winter.",
 "kind": "text",
 "ui": false
 },
@@ -10804,7 +10804,7 @@
 "kind": "text",
 "ui": false
 },
-"آره، ولی هنوز تو کشورمه.": {
+"آره، ولی هنوز تو کشورمن.": {
 "en": "Yes, but they're still back home.",
 "kind": "text",
 "ui": false
@@ -14140,7 +14140,7 @@
 "ui": false
 },
 "اتوبوس لندن نقد نمی‌گیرد.": {
-"en": "London buses don't take cash. Use contactless or an travel card. One bus fare covers unlimited buses for an hour (the \"Hopper\").",
+"en": "London buses don't take cash. Use contactless or a travel card. One bus fare covers unlimited buses for an hour (the \"Hopper\").",
 "kind": "text",
 "ui": false
 },
@@ -14270,12 +14270,12 @@
 "ui": false
 },
 "اتوبوس‌های لندن پول نقد نمی‌گیرند.": {
-"en": "London buses don't take cash. You pay with an travel card, a contactless bank card or your phone.",
+"en": "London buses don't take cash. You pay with a travel card, a contactless bank card or your phone.",
 "kind": "text",
 "ui": false
 },
-"اتوبوس‌های لندن پول نقد نمی‌گیرند. با کارت بدون‌تماس، کارت اویستر یا گوشی پرداخت کن.": {
-"en": "London buses don't take cash. Use a contactless card, an Oyster card or your phone.",
+"اتوبوس‌های لندن پول نقد نمی‌گیرند. با کارت بدون‌تماس، کارت سفر یا گوشی پرداخت کن.": {
+"en": "London buses don't take cash. Use a contactless card, a travel card or your phone.",
 "kind": "text",
 "ui": false
 },
@@ -22669,7 +22669,7 @@
 "kind": "text",
 "ui": false
 },
-"اول تکلیف، بعد فیفا. قبول؟": {
+"اول تکلیف، بعد گل‌راش. قبول؟": {
 "en": "Homework first, then GoalRush. Deal?",
 "kind": "text",
 "ui": false
@@ -38544,7 +38544,7 @@
 "kind": "word",
 "ui": false
 },
-"بعداً با فیفا قرار دارم.": {
+"بعداً با گل‌راش قرار دارم.": {
 "en": "I've got a date with GoalRush later.",
 "kind": "text",
 "ui": false
@@ -39679,8 +39679,8 @@
 "kind": "text",
 "ui": false
 },
-"بله: کارت بدون‌تماس، گوشی و کارت اویستر همه کار می‌کنند.": {
-"en": "Yes: contactless cards, phones and Oyster cards all work.",
+"بله: کارت بدون‌تماس، گوشی و کارت سفر همه کار می‌کنند.": {
+"en": "Yes: contactless cards, phones and travel cards all work.",
 "kind": "text",
 "ui": false
 },
@@ -39794,7 +39794,7 @@
 "kind": "text",
 "ui": false
 },
-"بله، دربارهٔ رایانه.": {
+"بله، دربارهٔ رایان است.": {
 "en": "Yes, it's about Ryan.",
 "kind": "text",
 "ui": false
@@ -51109,7 +51109,7 @@
 "kind": "text",
 "ui": false
 },
-"تو بهترین صبرکننده‌ای نیکولا.": {
+"تو بهترین گارسونی نیکولا.": {
 "en": "You're the best waiter, Nicola.",
 "kind": "text",
 "ui": false
@@ -51264,7 +51264,7 @@
 "kind": "text",
 "ui": false
 },
-"تو خونه؟ روزی پنج دقیقه. یه اپ هست. یا تو ماشین ازش بپرسید. همهٔ آمار بازیکن‌های فیفا را بلده، پس…": {
+"تو خونه؟ روزی پنج دقیقه. یه اپ هست. یا تو ماشین ازش بپرسید. همهٔ آمار بازیکن‌های گل‌راش را بلده، پس…": {
 "en": "At home? Five minutes a day. There's an app. Or test him in the car. He knows all the GoalRush player stats, so…",
 "kind": "text",
 "ui": false
@@ -58024,7 +58024,7 @@
 "kind": "text",
 "ui": false
 },
-"حس مسابقه داره! دو تا جلسه: معلم راهنمای رایان، آقای پاتل، و معلم نیکولا، خانم الیس. هر وقت پنج دقیقه طول می‌کشه.": {
+"حس مسابقه داره! دو تا جلسه: معلم راهنمای رایان، آقای پاتل، و معلم نیکولا، خانم الیس. هر نوبت پنج دقیقه طول می‌کشه.": {
 "en": "It feels like one! Two meetings: Ryan's form tutor, Mr Patel, and Nicola's teacher, Ms Ellis. Each slot lasts five minutes.",
 "kind": "text",
 "ui": false
@@ -66695,7 +66695,7 @@
 "ui": false
 },
 "در اتوبوس می‌توان با کارت سفر، کارت بانکی بی‌تماس یا گوشی پرداخت کرد.": {
-"en": "You can pay on London buses with an travel card, a contactless bank card, or a phone. Always use the same one all day.",
+"en": "You can pay on London buses with a travel card, a contactless bank card, or a phone. Always use the same one all day.",
 "kind": "text",
 "ui": false
 },
@@ -76234,7 +76234,7 @@
 "kind": "text",
 "ui": false
 },
-"رایان فیفا بازی کرد. نیکولا با یه خانوادهٔ کامل از لیدز دوست شد. ویلیام رو چرخ چمدون خوابید.": {
+"رایان گل‌راش بازی کرد. نیکولا با یه خانوادهٔ کامل از لیدز دوست شد. ویلیام رو چرخ چمدون خوابید.": {
 "en": "Ryan played GoalRush. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
 "kind": "text",
 "ui": false
@@ -87564,8 +87564,8 @@
 "kind": "word",
 "ui": false
 },
-"شال‌گردن منو قرض گرفت. بعد بوریلش را ریخت روش!": {
-"en": "He borrowed my scarf. Then he spilt his Bovril all over it!",
+"شال‌گردن منو قرض گرفت. بعد چای گوشتش را ریخت روش!": {
+"en": "He borrowed my scarf. Then he spilt his beef tea all over it!",
 "kind": "text",
 "ui": false
 },
@@ -93039,7 +93039,7 @@
 "kind": "text",
 "ui": false
 },
-"صفر؟ پس نمی‌تونم امتیاز فیفا بخرم؟ داداش، خیلی سخت‌گیرانه‌ست.": {
+"صفر؟ پس نمی‌تونم امتیاز گل‌راش بخرم؟ داداش، خیلی سخت‌گیرانه‌ست.": {
 "en": "Zero? So I can't buy GoalRush points? Bro, that's harsh.",
 "kind": "text",
 "ui": false
@@ -97889,7 +97889,7 @@
 "kind": "text",
 "ui": false
 },
-"غرررر! شغل خوبیه!": {
+"غرررر! آفرین!": {
 "en": "Rawr! Great job!",
 "kind": "text",
 "ui": false
@@ -101974,7 +101974,7 @@
 "kind": "text",
 "ui": false
 },
-"فیفا بعد از مدرسه": {
+"گل‌راش بعد از مدرسه": {
 "en": "GoalRush after school",
 "kind": "text",
 "ui": false
@@ -103124,7 +103124,7 @@
 "kind": "text",
 "ui": false
 },
-"قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.": {
+"قبول. حالا یه دست گل‌راش پایه‌ای؟ باهات راه میام. شاید.": {
 "en": "Deal. Fancy a game of GoalRush now? I'll go easy on you. Maybe.",
 "kind": "text",
 "ui": false
@@ -110824,7 +110824,7 @@
 "kind": "text",
 "ui": false
 },
-"مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟": {
+"مرسی رفیق. تو بی‌نظیری. حالا گل‌راش بازی کنیم؟": {
 "en": "Cheers, mate. You're a legend. Wanna play GoalRush now?",
 "kind": "text",
 "ui": false
@@ -117134,7 +117134,7 @@
 "kind": "text",
 "ui": false
 },
-"منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟": {
+"منم. تا ساعت دو گل‌راش بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟": {
 "en": "Same. I played GoalRush till two. Mum shouted at me twice! Did you enjoy your film?",
 "kind": "text",
 "ui": false
@@ -120074,7 +120074,7 @@
 "kind": "text",
 "ui": false
 },
-"می‌تونی از پول نونوایی برای فیفا استفاده کنی.": {
+"می‌تونی از پول نونوایی برای گل‌راش استفاده کنی.": {
 "en": "You can use your bakery money for GoalRush.",
 "kind": "text",
 "ui": false
@@ -124939,7 +124939,7 @@
 "kind": "text",
 "ui": false
 },
-"نه خیلی کوتاه سال — بعداً با فیفا قرار دارم.": {
+"نه خیلی کوتاه سال — بعداً با گل‌راش قرار دارم.": {
 "en": "Not too short, Sal — I've got a date with GoalRush later.",
 "kind": "text",
 "ui": false
@@ -126244,7 +126244,7 @@
 "kind": "text",
 "ui": false
 },
-"نه، منم بلد نیستم.": {
+"نه، منم سوت زدن بلد نیستم.": {
 "en": "No, I can't whistle either.",
 "kind": "text",
 "ui": false
@@ -146574,7 +146574,7 @@
 "kind": "text",
 "ui": false
 },
-"چطوری؟ فیفا بلدی، یا قراره له بشی؟": {
+"چطوری؟ گل‌راش بلدی، یا قراره له بشی؟": {
 "en": "Alright? You any good at GoalRush, or are you gonna get bodied?",
 "kind": "text",
 "ui": false
@@ -149700,12 +149700,12 @@
 "ui": false
 },
 "کارت سفر دارم.": {
-"en": "I've got an travel card.",
+"en": "I've got a travel card.",
 "kind": "text",
 "ui": false
 },
 "کارت سفر را شارژ کنی، کارت بزنی، با تأخیر اتوبوس کنار بیایی و وسیلهٔ گمشده پیدا کنی": {
-"en": "Top up an travel card, tap in, deal with a late bus and find lost property",
+"en": "Top up a travel card, tap in, deal with a late bus and find lost property",
 "kind": "text",
 "ui": false
 },
@@ -152889,7 +152889,7 @@
 "kind": "text",
 "ui": false
 },
-"کلاس دهم، تازه دورهٔ GCSE را شروع کرده. فوتبال، فیفا، کار شنبه‌ها در نانوایی و گفتن «innit» بیش از حد.": {
+"کلاس دهم، تازه دورهٔ GCSE را شروع کرده. فوتبال، گل‌راش، کار شنبه‌ها در نانوایی و گفتن «innit» بیش از حد.": {
 "en": "Year 10, starting his GCSEs. Football, GoalRush, a Saturday job at the bakery and saying 'innit' far too much.",
 "kind": "text",
 "ui": false
@@ -154979,7 +154979,7 @@
 "kind": "text",
 "ui": false
 },
-"کی زودتر می‌تونه یکی بیاد؟": {
+"زودتر از همه کِی می‌تونه یکی بیاد؟": {
 "en": "How soon can someone come?",
 "kind": "text",
 "ui": false

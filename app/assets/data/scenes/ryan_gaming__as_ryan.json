@@ -2,7 +2,7 @@
  "id": "ryan_gaming__as_ryan",
  "characterId": "ryan",
  "title": "(As Ryan) GoalRush after school",
- "titleFa": "(در نقش Ryan) فیفا بعد از مدرسه",
+ "titleFa": "(در نقش Ryan) گل‌راش بعد از مدرسه",
  "setting": "Ryan's bedroom",
  "settingFa": "اتاق رایان",
  "requires": null,
@@ -28,7 +28,7 @@
       "good"
      ],
      "suggestion": "Alright? You any good at GoalRush, or are you gonna get bodied?",
-     "suggestionFa": "چطوری؟ فیفا بلدی، یا قراره له بشی؟",
+     "suggestionFa": "چطوری؟ گل‌راش بلدی، یا قراره له بشی؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true

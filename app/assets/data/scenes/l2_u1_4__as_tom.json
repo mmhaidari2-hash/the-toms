@@ -97,13 +97,13 @@
     {
      "keywords": [
       "borrowed",
-      "bovril",
+      "beef",
       "scarf",
       "spilt",
       "over"
      ],
-     "suggestion": "He borrowed my scarf. Then he spilt his Bovril all over it!",
-     "suggestionFa": "شال‌گردن منو قرض گرفت. بعد بوریلش را ریخت روش!",
+     "suggestion": "He borrowed my scarf. Then he spilt his beef tea all over it!",
+     "suggestionFa": "شال‌گردن منو قرض گرفت. بعد چای گوشتش را ریخت روش!",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -114,9 +114,9 @@
   "r5": {
    "id": "r5",
    "speaker": "learner",
-   "text": "What's Bovril?",
+   "text": "What's beef tea?",
    "translations": {
-    "fa": "Bovril چیه؟"
+    "fa": "«بیف تی» چیه؟"
    },
    "branches": [
     {

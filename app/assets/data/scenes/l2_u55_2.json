@@ -267,7 +267,7 @@
    "speaker": "ryan",
    "text": "Zero? So I can't buy GoalRush points? Bro, that's harsh.",
    "translations": {
-    "fa": "صفر؟ پس نمی‌تونم امتیاز فیفا بخرم؟ داداش، خیلی سخت‌گیرانه‌ست."
+    "fa": "صفر؟ پس نمی‌تونم امتیاز گل‌راش بخرم؟ داداش، خیلی سخت‌گیرانه‌ست."
    },
    "branches": [
     {
@@ -291,7 +291,7 @@
       "can"
      ],
      "suggestion": "You can use your bakery money for GoalRush.",
-     "suggestionFa": "می‌تونی از پول نونوایی برای فیفا استفاده کنی.",
+     "suggestionFa": "می‌تونی از پول نونوایی برای گل‌راش استفاده کنی.",
      "trustDelta": 5,
      "next": "n7",
      "success": true
