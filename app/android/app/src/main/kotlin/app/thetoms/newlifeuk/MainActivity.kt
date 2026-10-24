@@ -1,4 +1,4 @@
-package uk.britishlife.british_life
+package app.thetoms.newlifeuk
 
 import io.flutter.embedding.android.FlutterActivity
 
