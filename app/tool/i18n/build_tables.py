@@ -37,6 +37,10 @@ for c in CODES:
     if not os.path.exists(p): cov[c] = 0.0; continue
     try: mt = json.load(open(p))
     except Exception: print('skip (still writing):', c); old = os.path.join(OUT, c + '.json'); cov[c] = None; continue
+    # Skip incomplete or high-NUL MT so mid-run langs are not shipped.
+    _nul = sum(1 for v in mt.values() if isinstance(v, str) and v.startswith('\u0000'))
+    if len(mt) < 0.85 * len(src) or _nul > 0.12 * max(1, len(mt)):
+        print('skip (incomplete or dirty):', c, f'keys={len(mt)}/{len(src)} nul={_nul}'); cov[c] = 0.0; continue
     mt = {k: v.replace(' \u2047 ', ' — ').replace('\u2047', '—') if isinstance(v, str) else v for k, v in mt.items()}
     # Persian prompts rewritten to match their English answer (tool/i18n/fa_rewrites.json): the new Persian key keeps the
     # translation of the old one when that translation was made from the same English sentence.

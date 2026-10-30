@@ -24,17 +24,26 @@ def ok(out, srctext, code):
     if sc in ('Hans', 'Hant'): return len(native) >= 0.5 * len(letters)
     if len(native) < 0.6 * len(letters): return False
     if sc == 'Latn' and re.search('[\u0600-\u06FF\u0400-\u04FF]', out): return False
-    # Latin in a non-Latin target only for names/English words that were in the source.
-    for w in re.findall('[A-Za-z]{3,}', out):
-        if w.lower() not in srctext.lower(): return False
+    # Latin tokens in a non-Latin target only for names/English words that were in the source.
+    # Skip this for Latn targets — native words (pl/ro/tr/es/pt) are ASCII-letter sequences.
+    if sc != 'Latn':
+        for w in re.findall('[A-Za-z]{3,}', out):
+            if w.lower() not in srctext.lower(): return False
     if re.search(r'(\b\w+\b)(?:\W+\1\b){3,}', out): return False
     r = len(out) / max(1, len(srctext))
     return 0.25 < r < 3.5 or len(srctext) < 12
 def run(texts, srclang, tgt, strict=False):
     toks = [[srclang] + sp.encode(t, out_type=str) + ['</s>'] for t in texts]
-    res = tr.translate_batch(toks, target_prefix=[[tgt]] * len(texts), beam_size=5 if strict else 2, max_batch_size=48, batch_type='examples',
-                             max_decoding_length=min(400, 40 + 3 * max(len(t) for t in toks)), repetition_penalty=1.15 if strict else 1.0,
-                             no_repeat_ngram_size=4 if strict else 0)
+    fast = os.environ.get('MT_FAST') == '1'
+    if strict:
+        beam, rep, ngram = 5, 1.15, 4
+    elif fast:
+        beam, rep, ngram = 1, 1.0, 0
+    else:
+        beam, rep, ngram = 2, 1.0, 0
+    res = tr.translate_batch(toks, target_prefix=[[tgt]] * len(texts), beam_size=beam, max_batch_size=64 if fast else 48, batch_type='examples',
+                             max_decoding_length=min(400, 40 + 3 * max(len(t) for t in toks)), repetition_penalty=rep,
+                             no_repeat_ngram_size=ngram)
     return [sp.decode(r.hypotheses[0][1:]) for r in res]
 def fix(out, code):
     out = out.strip()
