@@ -1,0 +1,65 @@
+{
+  "title": "Visa Help Desk",
+  "titleFa": "میز کمک ویزا",
+  "disclaimer_en": "General information only. New Life UK is not regulated by the OISC and does not give immigration advice. For your own situation, use GOV.UK and an OISC-regulated adviser.",
+  "disclaimer_fa": "فقط اطلاعات عمومی. New Life UK تحت نظارت OISC نیست و مشاورهٔ مهاجرتی نمی‌دهد. برای وضعیت خودتان از GOV.UK و مشاور تحت نظارت OISC استفاده کنید.",
+  "topics": [
+    {
+      "id": "govuk",
+      "title": "Start on GOV.UK",
+      "titleFa": "از GOV.UK شروع کنید",
+      "body": "The official source for visas, immigration rules, fees and forms is GOV.UK. Pages change — always read the live page, not a screenshot or a friend’s summary.",
+      "bodyFa": "منبع رسمی ویزا، قوانین مهاجرت، هزینه و فرم‌ها GOV.UK است. صفحات عوض می‌شوند — همیشه صفحهٔ زنده را بخوانید، نه عکس صفحه یا حرف دوستان.",
+      "links": [
+        {"label": "Visas and immigration", "url": "https://www.gov.uk/browse/visas-immigration"},
+        {"label": "Check if you need a UK visa", "url": "https://www.gov.uk/check-uk-visa"},
+        {"label": "Visa fees", "url": "https://www.gov.uk/visa-fees"}
+      ]
+    },
+    {
+      "id": "oisc",
+      "title": "Who can give immigration advice",
+      "titleFa": "چه کسی می‌تواند مشاورهٔ مهاجرتی بدهد",
+      "body": "In the UK, immigration advice is regulated. Only OISC-regulated advisers, solicitors, barristers or legal executives with the right authorisation may advise on your case. Friends, unregulated agents and apps (including this one) must not.",
+      "bodyFa": "در بریتانیا مشاورهٔ مهاجرتی تحت نظارت است. فقط مشاوران تحت نظارت OISC، وکلا و افراد دارای مجوز می‌توانند دربارهٔ پروندهٔ شما مشاوره بدهند. دوستان، واسطه‌های بدون مجوز و اپ‌ها (از جمله این اپ) نباید.",
+      "links": [
+        {"label": "Find an OISC adviser", "url": "https://www.gov.uk/find-an-immigration-adviser"},
+        {"label": "OISC — Office of the Immigration Services Commissioner", "url": "https://www.gov.uk/government/organisations/office-of-the-immigration-services-commissioner"}
+      ]
+    },
+    {
+      "id": "ilr",
+      "title": "Settlement / ILR — general facts",
+      "titleFa": "اقامت دائم / ILR — واقعیت‌های عمومی",
+      "body": "Indefinite Leave to Remain (ILR), often called settlement, is permission to stay without a time limit. Routes, waiting times and absences rules differ by visa. This app only teaches English for the journey — check GOV.UK for the rules that apply to you.",
+      "bodyFa": "اقامت نامحدود (ILR) یعنی اجازهٔ ماندن بدون محدودیت زمانی. مسیر، زمان انتظار و قوانین غیبت برای هر ویزا فرق دارد. این اپ فقط انگلیسی راه را آموزش می‌دهد — قوانین مربوط به خودتان را در GOV.UK ببینید.",
+      "links": [
+        {"label": "Indefinite leave to remain", "url": "https://www.gov.uk/indefinite-leave-to-remain"},
+        {"label": "Settle in the UK", "url": "https://www.gov.uk/settle-in-the-uk"}
+      ]
+    },
+    {
+      "id": "english",
+      "title": "English for visas (general)",
+      "titleFa": "انگلیسی برای ویزا (عمومی)",
+      "body": "Many visa and settlement routes need an approved English qualification (often CEFR B1 speaking and listening, or a degree taught in English). Life in the UK is a separate handbook test. New Life UK practice is not a Home Office-approved SELT.",
+      "bodyFa": "بسیاری از مسیرهای ویزا و اقامت به مدرک انگلیسی تأییدشده نیاز دارند (غالباً B1 گفتاری و شنیداری، یا مدرک دانشگاهی به انگلیسی). آزمون Life in the UK جداست. تمرین New Life UK آزمون SELT مورد تأیید وزارت کشور نیست.",
+      "links": [
+        {"label": "Prove your English for visas", "url": "https://www.gov.uk/english-language"},
+        {"label": "Life in the UK test", "url": "https://www.gov.uk/life-in-the-uk-test"},
+        {"label": "SELT — Secure English Language Tests", "url": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt"}
+      ]
+    },
+    {
+      "id": "help",
+      "title": "Free / low-cost help signposts",
+      "titleFa": "راهنمای کمک رایگان یا کم‌هزینه",
+      "body": "Citizens Advice can help you find the right kind of support. For asylum or complex cases, ask an OISC adviser or regulated solicitor. Emergency: 999. Non-emergency police: 101. NHS: 111.",
+      "bodyFa": "Citizens Advice می‌تواند شما را به کمک مناسب راهنمایی کند. برای پناهندگی یا پرونده‌های پیچیده از مشاور OISC یا وکیل دارای مجوز بپرسید. اضطراری: ۹۹۹. پلیس غیر اضطراری: ۱۰۱. NHS: ۱۱۱.",
+      "links": [
+        {"label": "Citizens Advice", "url": "https://www.citizensadvice.org.uk/"},
+        {"label": "Get immigration advice (GOV.UK)", "url": "https://www.gov.uk/government/publications/how-to-get-immigration-advice/how-to-get-immigration-advice"}
+      ]
+    }
+  ]
+}

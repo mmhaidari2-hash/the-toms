@@ -34,7 +34,9 @@ void main() {
     for (final r in routes) {
       router.go(r);
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
-      for (var i = 0; i < 8; i++) await t.pump(const Duration(milliseconds: 400));
+      for (var i = 0; i < 8; i++) {
+        await t.pump(const Duration(milliseconds: 400));
+      }
       for (var i = 0; i < 20 && find.byType(NavLoading, skipOffstage: false).evaluate().isNotEmpty; i++) {
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200)));
         await t.pump(const Duration(milliseconds: 200));

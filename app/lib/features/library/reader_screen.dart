@@ -92,6 +92,7 @@ class _ReaderState extends ConsumerState<_Reader> {
   static const speeds = [0.75, 0.9, 1.0, 1.15];
   late int ch = widget.chapter;
   int cur = -1; // sentence being read / last tapped
+  int wordIdx = -1; // karaoke word within cur (-1 = none)
   bool playing = false;
   int _run = 0;
   _Mode mode = _Mode.read;
@@ -121,32 +122,43 @@ class _ReaderState extends ConsumerState<_Reader> {
   void _stop() {
     _run++;
     Voice.stop();
-    if (mounted) setState(() => playing = false);
+    if (mounted) setState(() { playing = false; wordIdx = -1; });
   }
 
   Future<void> _play([int? from]) async {
     final run = ++_run;
     Voice.stop();
-    setState(() => playing = true);
+    setState(() { playing = true; wordIdx = -1; });
     for (var i = from ?? max(cur, 0); i < c.sentences.length; i++) {
       if (run != _run || !mounted) return;
-      setState(() => cur = i);
+      setState(() { cur = i; wordIdx = 0; });
       final ctx = _keys[i]?.currentContext;
       if (ctx != null && ctx.mounted) Scrollable.ensureVisible(ctx, alignment: .3, duration: const Duration(milliseconds: 350));
       final s = c.sentences[i];
+      final words = s.en.trim().isEmpty ? <String>[] : s.en.split(RegExp(r'\s+'));
+      // Karaoke: advance word highlight while Azure clip plays (est. timings; $0 extra Azure).
+      final msPer = (330 / rate).round().clamp(160, 700);
+      final karaoke = () async {
+        for (var w = 0; w < words.length; w++) {
+          if (run != _run || !mounted) return;
+          setState(() => wordIdx = w);
+          await Future.delayed(Duration(milliseconds: msPer));
+        }
+      }();
       final t0 = DateTime.now();
-      if (!await Voice.say(s.voice, s.en, rate: rate)) {
-        if (run == _run && mounted) setState(() => playing = false);
+      final ok = await Voice.say(s.voice, s.en, rate: rate);
+      await karaoke;
+      if (!ok) {
+        if (run == _run && mounted) setState(() { playing = false; wordIdx = -1; });
         return;
       }
-      // No clip (or audio blocked): give a reading pause so highlighting still flows.
-      final min = Duration(milliseconds: (s.en.split(' ').length * 330 / rate).round());
+      final min = Duration(milliseconds: words.length * msPer);
       final left = min - DateTime.now().difference(t0);
       if (!Voice.has(s.voice, s.en) && left > Duration.zero) await Future.delayed(left);
       if (run != _run || !mounted) return;
       await Future.delayed(const Duration(milliseconds: 250));
     }
-    if (run == _run && mounted) setState(() => playing = false);
+    if (run == _run && mounted) setState(() { playing = false; wordIdx = -1; });
   }
 
   void _word(String surface, String key) {
@@ -185,6 +197,28 @@ class _ReaderState extends ConsumerState<_Reader> {
     );
   }
 
+
+  Widget _karaokeLine(String en, int hi, {Key? key}) {
+    final words = en.trim().isEmpty ? const <String>[] : en.split(RegExp(r'\s+'));
+    final base = BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0);
+    return Wrap(
+      key: key,
+      spacing: 5,
+      runSpacing: 2,
+      children: [
+        for (var w = 0; w < words.length; w++)
+          Text(
+            hl(words[w]),
+            style: w == hi
+                ? base.copyWith(color: BL.red, fontWeight: FontWeight.w800, backgroundColor: BL.gold.withValues(alpha: .45))
+                : w < hi
+                    ? base.copyWith(color: BL.muted)
+                    : base,
+          ),
+      ],
+    );
+  }
+
   Widget _sentence(int i) {
     final s = c.sentences[i];
     final on = i == cur;
@@ -208,7 +242,9 @@ class _ReaderState extends ConsumerState<_Reader> {
         decoration: BoxDecoration(color: on ? BL.gold.withValues(alpha: .32) : Colors.transparent, borderRadius: BorderRadius.circular(10)),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           if (s.spName != null) Text(hl(s.spName!.toUpperCase()), key: ValueKey('spk-$i'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red)),
-          Text.rich(TextSpan(children: spans), key: ValueKey('sent-$i'), style: BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0)),
+          on && playing
+              ? _karaokeLine(s.en, wordIdx, key: ValueKey('sent-$i'))
+              : Text.rich(TextSpan(children: spans), key: ValueKey('sent-$i'), style: BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0)),
           if (showFa) Text(hl(s.fa), key: ValueKey('fa-$i'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(14.5, color: BL.muted)),
         ]),
       ),

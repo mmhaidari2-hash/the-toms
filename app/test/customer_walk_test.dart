@@ -134,6 +134,11 @@ void main() {
         '/place/cinema',
         '/mistakes',
         '/settings',
+        '/visa',
+        '/settlement',
+        '/coach',
+        '/premium',
+        '/read/a1_bus?ch=0',
       ];
       final ok = <String>[];
       final bad = <String>[];

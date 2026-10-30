@@ -18,7 +18,7 @@ import '../models/place.dart';
 import '../models/user_progress.dart';
 import 'progress_store.dart';
 import 'repository.dart';
-import 'premium.dart';
+import '../billing/entitlements.dart';
 export 'premium.dart';
 
 final progressStoreProvider = Provider<ProgressStore>((_) => MemoryProgressStore());
@@ -629,7 +629,7 @@ class ProgressController extends Notifier<UserProgress> {
   }
 
   // ---- Premium (display-only until real payments exist; see PremiumConfig).
-  bool get hasPremium => PremiumConfig.betaFree || state.unlockAll || state.missionsDone['pref:premium'] == 'on';
+  bool get hasPremium => Entitlements.isPremium || state.unlockAll || state.missionsDone['pref:premium'] == 'on';
   bool packOwned(Pack p) => !p.premium || hasPremium || state.missionsDone['pack:${p.id}'] == 'owned';
 
   // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).

@@ -12,15 +12,17 @@ class LegalDoc {
   const LegalDoc(this.id, this.title, this.titleFa, this.updated, this.sections);
 }
 
-const legalPlaceholders = '[BUSINESS NAME], [POSTAL ADDRESS], [CONTACT EMAIL]';
+const legalPlaceholders = 'TODO: [BUSINESS NAME], TODO: [POSTAL ADDRESS — UK], TODO: [CONTACT EMAIL]';
 
-const privacyDoc = LegalDoc('privacy', 'Privacy Policy', 'سیاست حریم خصوصی', 'Draft · 17 October 2026', [
-  ('Who we are', 'New Life UK is run by [BUSINESS NAME], [POSTAL ADDRESS]. Contact: [CONTACT EMAIL]. We are the controller for the little personal data described here.',
-      'اپ New Life UK را [BUSINESS NAME] به نشانی [POSTAL ADDRESS] اداره می‌کند. تماس: [CONTACT EMAIL]. ما مسئول (کنترل‌کنندهٔ) همان دادهٔ اندکی هستیم که اینجا توضیح داده شده است.'),
+const privacyDoc = LegalDoc('privacy', 'Privacy Policy', 'سیاست حریم خصوصی', 'Updated · 30 October 2026', [
+  ('Who we are', 'New Life UK is a British-English learning app. The publisher is TODO: [BUSINESS NAME], TODO: [POSTAL ADDRESS — UK]. Privacy contact: TODO: [CONTACT EMAIL]. Until those details are filled in, treat the product name “New Life UK” as the service you are using. We are the controller for the little personal data described here (normally none on our servers).',
+      'New Life UK اپ یادگیری انگلیسی بریتانیایی است. ناشر: TODO: [BUSINESS NAME]، نشانی: TODO: [POSTAL ADDRESS — UK]. تماس حریم خصوصی: TODO: [CONTACT EMAIL]. تا پر شدن این موارد، نام «New Life UK» همان خدمتی است که استفاده می‌کنید. ما مسئول (کنترل‌کنندهٔ) همان دادهٔ اندکی هستیم که اینجا آمده (معمولاً هیچ داده‌ای روی سرور ما نیست).'),
   ('No account, no analytics, no ads', 'You do not create an account. The app has no analytics, advertising or tracking tools, and fonts are bundled with the app (no calls to Google Fonts).',
       'حساب کاربری نمی‌سازید. اپ هیچ ابزار آمار، تبلیغات یا ردیابی ندارد و فونت‌ها داخل خود اپ هستند (به Google Fonts وصل نمی‌شود).'),
-  ('What stays on your device', 'Your progress (lessons, XP, streak, saved words, diary, settings) and any name you type on a certificate are stored only in your browser or app storage on this device. A service-worker cache keeps the app and audio for offline use. This storage is strictly necessary for the features you use, so no cookie consent is needed. Clearing site data or uninstalling deletes it; we cannot recover it.',
-      'پیشرفت شما (درس‌ها، امتیاز، رکورد روزانه، واژه‌های ذخیره‌شده، دفتر خاطرات، تنظیمات) و نامی که روی گواهی می‌نویسید فقط در حافظهٔ مرورگر یا اپ روی همین دستگاه ذخیره می‌شود. حافظهٔ پنهان سرویس‌ورکر اپ و صداها را برای استفادهٔ آفلاین نگه می‌دارد. این ذخیره‌سازی برای کارکرد اپ ضروری است و نیاز به رضایت کوکی ندارد. با پاک کردن دادهٔ سایت یا حذف اپ همه‌چیز پاک می‌شود و ما نمی‌توانیم آن را بازگردانیم.'),
+  ('Internet use', 'The app needs an Internet connection to download course content, paintings and voice clips. Audio is streamed or cached from our static host (currently GitHub Pages). We do not run our own user database. If a future release adds error reporting (for example Sentry), it will only send technical crash data when a DSN is configured, and this policy will be updated first.',
+      'اپ برای دانلود محتوای دوره، نقاشی‌ها و صداها به اینترنت نیاز دارد. صدا از میزبان ایستای ما (فعلاً GitHub Pages) پخش یا ذخیره می‌شود. پایگاه‌دادهٔ کاربر نداریم. اگر نسخهٔ بعدی گزارش خطا (مثلاً Sentry) اضافه کند، فقط دادهٔ فنی کرش با تنظیم DSN فرستاده می‌شود و این سیاست اول به‌روز خواهد شد.'),
+  ('What stays on your device', 'There is no account and no sign-in. Your progress (lessons, XP, streak, saved words, diary, settings) and any name you type on a certificate are stored only in local storage on this device (browser storage / app sandbox). The app uses the Internet only to load lessons, images and Azure voice clips from our host. A service-worker (web) or on-device cache (Android) may keep those files for offline use. This storage is strictly necessary for the features you use, so no cookie consent banner is required. Clearing site data or uninstalling deletes it; we cannot recover it.',
+      'حساب کاربری و ورود وجود ندارد. پیشرفت شما (درس‌ها، امتیاز، رکورد روزانه، واژه‌های ذخیره‌شده، دفتر خاطرات، تنظیمات) و نام روی گواهی فقط در حافظهٔ محلی همین دستگاه ذخیره می‌شود. اپ اینترنت را فقط برای بارگذاری درس‌ها، تصویرها و صداهای Azure از میزبان ما به‌کار می‌برد. سرویس‌ورکر (وب) یا حافظهٔ روی دستگاه (اندروید) ممکن است این فایل‌ها را برای آفلاین نگه دارد. این ذخیره‌سازی برای کارکرد اپ ضروری است و بنر رضایت کوکی لازم نیست. با پاک کردن داده یا حذف اپ همه‌چیز پاک می‌شود و ما نمی‌توانیم برگردانیم.'),
   ('Microphone and speech', 'The microphone is used only when you tap it. Speech-to-text is done by your browser\'s own speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers under its own privacy policy. New Life UK does not receive, store or send your recordings itself. "Record" clips for shadowing stay on your device and are discarded when you leave.',
       'میکروفون فقط وقتی رویش می‌زنید استفاده می‌شود. تبدیل گفتار به متن را سرویس گفتار خود مرورگر انجام می‌دهد (گوگل در کروم، اپل در سافاری) که ممکن است صدای شما را طبق سیاست حریم خصوصی خودش روی سرورهایش پردازش کند. New Life UK خودش صدای شما را دریافت، ذخیره یا ارسال نمی‌کند. ضبط‌های «Record» روی دستگاه می‌مانند و با خروج پاک می‌شوند.'),
   ('Hosting', 'The web app is hosted on GitHub Pages (GitHub, Inc.). Like any web host, GitHub may log your IP address and browser details when you load the app, under GitHub\'s privacy statement. We do not receive these logs.',
@@ -35,9 +37,9 @@ const privacyDoc = LegalDoc('privacy', 'Privacy Policy', 'سیاست حریم خ
       'طبق قانون حفاظت از دادهٔ بریتانیا می‌توانید دربارهٔ هر دادهٔ شخصی که از شما داریم بپرسید (معمولاً هیچ داده‌ای نداریم). می‌توانید به دفتر کمیسر اطلاعات (ico.org.uk) شکایت کنید.'),
 ]);
 
-const termsDoc = LegalDoc('terms', 'Terms of Use', 'شرایط استفاده', 'Draft · 17 October 2026', [
-  ('Agreement', 'These terms are between you and [BUSINESS NAME] ([CONTACT EMAIL]). By using New Life UK you agree to them. If you do not agree, please do not use the app.',
-      'این شرایط میان شما و [BUSINESS NAME] ([CONTACT EMAIL]) است. با استفاده از New Life UK آن را می‌پذیرید؛ اگر موافق نیستید از اپ استفاده نکنید.'),
+const termsDoc = LegalDoc('terms', 'Terms of Use', 'شرایط استفاده', 'Updated · 30 October 2026', [
+  ('Agreement', 'These terms are between you and TODO: [BUSINESS NAME] (privacy contact TODO: [CONTACT EMAIL]). By using New Life UK you agree to them. If you do not agree, please do not use the app.',
+      'این شرایط میان شما و TODO: [BUSINESS NAME] (تماس حریم خصوصی TODO: [CONTACT EMAIL]) است. با استفاده از New Life UK آن را می‌پذیرید؛ اگر موافق نیستید از اپ استفاده نکنید.'),
   ('Beta', 'The app is in a free beta. Features and content may change, and things may occasionally break. No payment is taken; prices shown are examples only.',
       'اپ در دورهٔ آزمایشی رایگان است. امکانات و محتوا ممکن است تغییر کند و گاهی خطا رخ دهد. هیچ پولی دریافت نمی‌شود و قیمت‌های نمایش‌داده فقط نمونه‌اند.'),
   ('Licence', 'You may use the app for your own personal learning. Please do not copy, resell or redistribute its lessons, stories, paintings or audio.',
@@ -53,8 +55,8 @@ const termsDoc = LegalDoc('terms', 'Terms of Use', 'شرایط استفاده', 
 ]);
 
 const aboutDoc = LegalDoc('about', 'About & credits', 'دربارهٔ اپ و منابع', '', [
-  ('New Life UK', 'British English through the everyday life of a London family. Made by [BUSINESS NAME]. Contact: [CONTACT EMAIL].',
-      'انگلیسی بریتانیایی از دل زندگی روزمرهٔ یک خانوادهٔ لندنی. ساخت [BUSINESS NAME]. تماس: [CONTACT EMAIL].'),
+  ('New Life UK', 'British English through the everyday life of a London family. Published as New Life UK. Publisher TODO: [BUSINESS NAME]. Contact TODO: [CONTACT EMAIL].',
+      'انگلیسی بریتانیایی از دل زندگی روزمرهٔ یک خانوادهٔ لندنی. منتشرشده با نام New Life UK. ناشر TODO: [BUSINESS NAME]. تماس TODO: [CONTACT EMAIL].'),
   ('Voices and pictures', 'All voices are AI-generated with neural text-to-speech (Microsoft Azure AI Speech); none is a recording of a real person. Characters and stories are fictional. Paintings are original AI-assisted illustrations made for the app.',
       'همهٔ صداها با هوش مصنوعی (تبدیل متن به گفتار عصبی، Microsoft Azure AI Speech) ساخته شده‌اند و صدای هیچ شخص واقعی ضبط نشده است. شخصیت‌ها و داستان‌ها خیالی‌اند. نقاشی‌ها تصویرسازی‌های اختصاصی همین اپ هستند که با کمک هوش مصنوعی ساخته شده‌اند.'),
   ('Trade marks', 'Brand and place names are used for realistic, descriptive purposes. New Life UK is not affiliated with or endorsed by any of them.',

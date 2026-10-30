@@ -1,0 +1,45 @@
+{
+  "title": "Settlement pathway (B2)",
+  "titleFa": "مسیر اقامت (B2)",
+  "cefr": "B2",
+  "disclaimer_en": "General study pathway only — not immigration advice. Confirm every rule on GOV.UK or with an OISC-regulated adviser.",
+  "disclaimer_fa": "فقط مسیر مطالعاتی عمومی — مشاورهٔ مهاجرتی نیست. هر قانون را در GOV.UK یا با مشاور تحت نظارت OISC چک کنید.",
+  "modules": [
+    {
+      "id": "lifeuk",
+      "title": "Life in the UK prep",
+      "titleFa": "آمادگی آزمون زندگی در بریتانیا",
+      "blurb": "Study the handbook themes with our graded chapters and mocks. The official test is booked on GOV.UK.",
+      "blurbFa": "موضوعات کتاب راهنما را با فصل‌ها و آزمون‌های آزمایشی ما بخوانید. آزمون رسمی از GOV.UK رزرو می‌شود.",
+      "route": "/lifeuk",
+      "gov": "https://www.gov.uk/life-in-the-uk-test"
+    },
+    {
+      "id": "ilr",
+      "title": "ILR / settlement — general info",
+      "titleFa": "اقامت دائم / ILR — اطلاعات عمومی",
+      "blurb": "What settlement means in plain English, and where to read the live rules. No case advice here.",
+      "blurbFa": "معنی اقامت به زبان ساده و جای خواندن قوانین زنده. اینجا مشاورهٔ پرونده نیست.",
+      "route": "/visa",
+      "gov": "https://www.gov.uk/indefinite-leave-to-remain"
+    },
+    {
+      "id": "b2en",
+      "title": "B2 English for the journey",
+      "titleFa": "انگلیسی B2 برای این مسیر",
+      "blurb": "Practice upper-intermediate English in our B2 course units and Riverside grammar (B1–C1). For a visa English requirement you still need an approved SELT where the rules say so.",
+      "blurbFa": "انگلیسی سطح متوسط به بالا را در واحدهای B2 و گرامر Riverside تمرین کنید. برای شرط زبان ویزا در صورت نیاز هنوز به SELT تأییدشده احتیاج دارید.",
+      "route": "/course?level=4",
+      "gov": "https://www.gov.uk/english-language"
+    },
+    {
+      "id": "school_b2",
+      "title": "Grammar campus · Class B2",
+      "titleFa": "کلاس گرامر B2",
+      "blurb": "Open Class B2 for tense and structure practice that supports formal reading and writing.",
+      "blurbFa": "کلاس B2 را برای تمرین زمان‌ها و ساختارهایی که به خواندن و نوشتن رسمی کمک می‌کنند باز کنید.",
+      "route": "/school/B2",
+      "gov": null
+    }
+  ]
+}

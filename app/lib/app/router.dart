@@ -20,6 +20,9 @@ import '../features/legal/legal_screen.dart';
 import '../features/cinema/cinema_screen.dart';
 import '../features/cinema/scene_screen.dart';
 import '../features/lifeuk/lifeuk_screen.dart';
+import '../features/visa/visa_screen.dart';
+import '../features/settlement/settlement_screen.dart';
+import '../features/coach/coach_screen.dart';
 import '../features/lifeuk/luk_quiz_screen.dart';
 import '../features/messages/inbox_screen.dart';
 import '../features/seasons/seasons_screen.dart';
@@ -112,6 +115,9 @@ final router = GoRouter(
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),
     GoRoute(path: '/cinema', pageBuilder: (_, s) => _fade(const CinemaScreen(), s)),
     GoRoute(path: '/lifeuk', pageBuilder: (_, s) => _fade(const LukScreen(), s)),
+    GoRoute(path: '/visa', pageBuilder: (_, s) => _fade(const VisaScreen(), s)),
+    GoRoute(path: '/settlement', pageBuilder: (_, s) => _fade(const SettlementScreen(), s)),
+    GoRoute(path: '/coach', pageBuilder: (_, s) => _fade(CoachScreen(seed: s.uri.queryParameters['q']), s)),
     GoRoute(path: '/lifeuk/mock', pageBuilder: (_, s) => _fade(LukQuizScreen(key: ValueKey('luk-mock-${s.uri.queryParameters['r']}')), s)),
     GoRoute(path: '/lifeuk/:ch', pageBuilder: (_, s) => _fade(LukChapterScreen(id: s.pathParameters['ch']!), s)),
     GoRoute(path: '/lifeuk/:ch/cards', pageBuilder: (_, s) => _fade(LukCardsScreen(key: ValueKey('luk-cards-${s.pathParameters['ch']}'), id: s.pathParameters['ch']!), s)),

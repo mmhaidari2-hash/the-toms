@@ -11,12 +11,14 @@ import 'core/data/progress_store.dart';
 import 'core/data/providers.dart';
 import 'core/i18n/helper_text.dart';
 import 'core/models/user_progress.dart';
+import 'core/observability/sentry_gate.dart';
 
 Future<void> main() async {
   // push() must create real browser-history entries, so browser back / iOS swipe-back pops one screen.
   GoRouter.optionURLReflectsImperativeAPIs = true;
   seedRootHistory();
   WidgetsFlutterBinding.ensureInitialized();
+  await SentryGate.init();
   // Fully offline: Inter, Fraunces and Vazirmatn are bundled in assets/google_fonts (OFL).
   GoogleFonts.config.allowRuntimeFetching = false;
   await Voice.load();

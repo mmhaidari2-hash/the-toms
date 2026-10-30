@@ -36,7 +36,7 @@ bool spotFocus(ProgressController ctrl, Course c, MapSpot s) {
 }
 
 /// Spots that open a whole section (each has A1 content for everyone), so their marker is never shown locked.
-const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park', 'garage'};
+const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park', 'garage', 'visa', 'settlement'};
 
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
@@ -358,6 +358,60 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
                 ),
               ),
             ),
+          ],
+          if (s.id == 'settlement') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF1F3A68),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-settlement'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () { Navigator.of(sheet).pop(); context.push('/settlement'); },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.account_balance_rounded, color: BL.gold),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('B2 settlement pathway · Life in the UK, ILR info, B2 English', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
+          if (s.id == 'visa') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: const Color(0xFF0B3D5C),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-visa'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/visa');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(
+                    children: [
+                      Icon(Icons.badge_rounded, color: BL.gold),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          'General visa info · GOV.UK & OISC signposts',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15),
+                        ),
+                      ),
+                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(hl('Not immigration advice. For your case, use GOV.UK and an OISC-regulated adviser.'), style: const TextStyle(fontSize: 12.5, color: BL.muted, height: 1.35)),
           ],
           if (s.id == 'cinema') ...[
             const SizedBox(height: 12),
