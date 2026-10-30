@@ -97,7 +97,8 @@ class _ExplorerState extends ConsumerState<_Explorer> {
   Widget build(BuildContext context) {
     final place = widget.place;
     final open = ref.read(progressProvider.notifier).placeOpen(place.id, widget.c);
-    final tier = widget.c.tiers[widget.c.tierIndexOfPlace(place.id)];
+    final ti = widget.c.tierIndexOfPlace(place.id);
+    final tier = ti >= 0 ? widget.c.tiers[ti] : null; // art places (nursery, homes, …) have no CEFR tier
     final pad = MediaQuery.paddingOf(context);
     return Stack(
       children: [
@@ -144,7 +145,7 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                     style: IconButton.styleFrom(backgroundColor: Colors.white.withValues(alpha: .18)),
                     icon: Icon(ref.watch(progressProvider).missionsDone['pref:motion'] != 'off' ? Icons.motion_photos_on_rounded : Icons.motion_photos_off_rounded, color: Colors.white, size: 18),
                   ),
-                LevelChip(tier.id, dark: true),
+                if (tier != null) LevelChip(tier.id, dark: true),
               ],
             ),
           ),

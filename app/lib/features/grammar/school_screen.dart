@@ -132,10 +132,16 @@ class _ClassCard extends StatelessWidget {
                 context.push('/school/${c.code}');
                 return;
               }
+              final prev = Grammar.classes.indexOf(c);
+              final prevCode = prev > 0 ? Grammar.classes[prev - 1].code : null;
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                 behavior: SnackBarBehavior.floating,
                 duration: const Duration(seconds: 2),
-                content: Text(hl(soon ? 'Class ${c.code} is coming soon · به‌زودی' : 'Pass Class ${Grammar.classes[Grammar.classes.indexOf(c) - 1].code} first, or reach this level in the course.')),
+                content: Text(hl(soon
+                    ? 'Class ${c.code} is coming soon · به‌زودی'
+                    : prevCode == null
+                        ? 'Reach this level in the course first.'
+                        : 'Pass Class $prevCode first, or reach this level in the course.')),
               ));
             },
             child: Container(

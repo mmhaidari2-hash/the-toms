@@ -297,6 +297,8 @@ class SpeechInput {
   // iOS: media may only start inside a user gesture. On the very first touch we play a silent
   // clip on the shared element; from then on Safari lets it play programmatically (auto-play lines).
   static bool _unlocked = false;
+  static Future<void> initAudio() async {}
+
   static void unlockOnFirstTap() {
     late final JSFunction h;
     h = ((web.Event _) {

@@ -21,4 +21,5 @@ class SpeechInput {
   static void playFx(String asset, {double volume = .5}) {}
   static void stopFx() {}
   static void unlockOnFirstTap() {}
+  static Future<void> initAudio() async {}
 }

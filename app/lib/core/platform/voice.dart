@@ -16,6 +16,7 @@ class Voice {
     try {
       _index = (jsonDecode(await loadAssetText('assets/audio/index.json')) as List).cast<String>().toSet();
     } catch (_) {}
+    await SpeechInput.initAudio();
     SpeechInput.unlockOnFirstTap();
   }
 

@@ -98,7 +98,10 @@ class ProgressController extends Notifier<UserProgress> {
     if (p == null) return false;
     final gated = p.requiresMilestone != null && !state.unlockAll && p.sceneIds.any((id) => !state.unlockedScenes.contains(id));
     final seasonal = p.season == null || state.unlockAll || _now.month == p.season || state.completedScenes.length >= Place.earlyAccessChats;
-    return !gated && seasonal && tierUnlocked(c.tierIndexOfPlace(placeId), c);
+    final ti = c.tierIndexOfPlace(placeId);
+    // Art places (nursery, homes, museum…) sit outside CEFR tiers — always open at the tier gate.
+    final tierOk = ti < 0 || tierUnlocked(ti, c);
+    return !gated && seasonal && tierOk;
   }
 
   void finishOnboarding({required int startTier, required String lang}) {

@@ -228,6 +228,15 @@ def audio_checks():
     lv = {'block': 'block', 'warn': 'warn', 'fix': 'fixed' if '--fix' in ARGS else 'warn', 'rerender': 'fixed' if '--fix' in ARGS and r['fixed']['rerendered'] else 'warn'}
     for l, check, k, t in r['issues']: add(lv[l], 'audio', check, k, t)
 
+
+def android_audio_checks():
+    """Android must stream/bundled-play Azure clips — never device TTS."""
+    import qa_android_audio
+    iss = qa_android_audio.main()
+    stats['android-audio: checks'] = len(iss)
+    for l, sec, c, k, msg in iss:
+        add(l, sec, c, k, msg)
+
 def voice_checks():
     """Voice identity (blocking): clips match the cast, re-voiced characters really sound different, scenes distinct."""
     import qa_voice
@@ -285,7 +294,8 @@ if __name__ == '__main__':
     only = opt('--only')
     secs = [('text', text_checks), ('translation', translation_checks), ('content', content_checks)]
     if '--no-ui' not in ARGS: secs.append(('ui', ui_checks))
-    if '--no-audio' not in ARGS: secs.append(('audio', audio_checks)); secs.append(('voice', voice_checks))
+    if '--no-audio' not in ARGS:
+        secs.append(('audio', audio_checks)); secs.append(('voice', voice_checks)); secs.append(('android-audio', android_audio_checks))
     if opt('--shots'): secs.append(('shots', lambda: shots(opt('--shots'))))
     for name, fn in secs:
         if only and name not in only.split(','): continue
