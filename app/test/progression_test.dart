@@ -123,7 +123,7 @@ void main() {
     expect(course.packs, isNotEmpty);
     expect(PremiumConfig.betaFree, isTrue, reason: 'no real payments yet: the beta must stay free');
     final c = ctrlWith();
-    // Free, level-gated packs (Fennick & Rowe Homes) are covered in homes_test.dart.
+    // Free, level-gated packs (Hartley & Wren Homes) are covered in homes_test.dart.
     for (final pk in course.packs.where((p) => !p.gated)) {
       expect(pk.premium, isTrue, reason: pk.id);
       expect(pk.unlocked, isTrue, reason: '${pk.id}: the pack region stays visible (free preview)');

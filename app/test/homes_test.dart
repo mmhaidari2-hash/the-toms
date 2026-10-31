@@ -8,7 +8,7 @@ import 'package:british_life/core/models/user_progress.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// Fennick & Rowe Homes (fictional estate agent): free, level-gated A2–B2, own map building and role-play.
+/// Hartley & Wren Homes (fictional estate agent): free, level-gated A2–B2, own map building and role-play.
 void main() {
   final raw = jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map<String, dynamic>;
   final course = Course.fromJson(raw);

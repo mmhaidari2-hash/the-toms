@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'dart:typed_data';
 
 import '../models/learner_profile.dart';
 import '../engine/weekly.dart';
@@ -22,12 +24,33 @@ abstract class ProgressStore {
 
   CalmCircle readCircle();
   Future<void> writeCircle(CalmCircle c);
+
+  /// Wipe every profile, circle and legacy blob on this device (UK GDPR erasure / Play data deletion).
+  Future<void> clearAllLocalData();
+
+  /// Machine-readable export of all local progress for the active device (portability).
+  Map<String, String> exportAllLocalData();
 }
 
 const _metaKey = 'meta';
 const _legacyKey = 'v1';
 const _circleKey = 'circle';
 String _p(String id) => 'p:$id';
+
+Future<HiveAesCipher> _progressCipher() async {
+  const storage = FlutterSecureStorage(
+    aOptions: AndroidOptions(encryptedSharedPreferences: true),
+  );
+  const keyName = 'nluk_progress_aes_v1';
+  var b64 = await storage.read(key: keyName);
+  if (b64 == null || b64.isEmpty) {
+    final rnd = Random.secure();
+    final bytes = Uint8List.fromList(List<int>.generate(32, (_) => rnd.nextInt(256)));
+    b64 = base64Encode(bytes);
+    await storage.write(key: keyName, value: b64);
+  }
+  return HiveAesCipher(base64Decode(b64));
+}
 
 Map<String, dynamic> _defaultMeta() => {
       'active': 'adult',
@@ -43,7 +66,21 @@ class HiveProgressStore implements ProgressStore {
 
   static Future<HiveProgressStore> open() async {
     await Hive.initFlutter();
-    final s = HiveProgressStore(await Hive.openBox<String>(_boxName));
+    final cipher = await _progressCipher();
+    Box<String> box;
+    try {
+      box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
+    } catch (_) {
+      // Migrate from a legacy unencrypted box if present.
+      final legacy = await Hive.openBox<String>(_boxName);
+      final data = <String, String>{for (final k in legacy.keys) k.toString(): legacy.get(k) ?? ''};
+      await legacy.deleteFromDisk();
+      box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
+      for (final e in data.entries) {
+        if (e.value.isNotEmpty) await box.put(e.key, e.value);
+      }
+    }
+    final s = HiveProgressStore(box);
     await s._migrate();
     return s;
   }
@@ -154,6 +191,22 @@ class HiveProgressStore implements ProgressStore {
 
   @override
   Future<void> writeCircle(CalmCircle c) => box.put(_circleKey, c.encode());
+
+  @override
+  Future<void> clearAllLocalData() async {
+    await box.clear();
+    await box.put(_metaKey, jsonEncode(_defaultMeta()));
+  }
+
+  @override
+  Map<String, String> exportAllLocalData() {
+    final out = <String, String>{};
+    for (final k in box.keys) {
+      final v = box.get(k);
+      if (v != null) out[k.toString()] = v;
+    }
+    return out;
+  }
 }
 
 class MemoryProgressStore implements ProgressStore {
@@ -248,6 +301,21 @@ class MemoryProgressStore implements ProgressStore {
 
   @override
   Future<void> writeCircle(CalmCircle c) async => _circle = c.encode();
+
+  @override
+  Future<void> clearAllLocalData() async {
+    _blobs.clear();
+    _circle = null;
+    _meta = _defaultMeta();
+  }
+
+  @override
+  Map<String, String> exportAllLocalData() {
+    final out = <String, String>{for (final e in _blobs.entries) e.key: e.value};
+    out[_metaKey] = jsonEncode(_meta);
+    if (_circle != null) out[_circleKey] = _circle!;
+    return out;
+  }
 }
 
 /// Generate a private study-buddy code (local only; no server).
@@ -258,8 +326,9 @@ String newBuddyCode([Random? rng]) {
 }
 
 bool validBuddyCode(String raw) {
-  final c = raw.trim().toUpperCase().replaceAll(RegExp(r'[^A-Z0-9]'), '');
-  return c.length == 6;
+  final c = normalizeBuddyCode(raw);
+  // Exact alphabet used by [newBuddyCode] — reject lookalikes (0/O, 1/I) and wrong length.
+  return RegExp(r'^[ABCDEFGHJKLMNPQRSTUVWXYZ23456789]{6}$').hasMatch(c);
 }
 
 String normalizeBuddyCode(String raw) => raw.trim().toUpperCase().replaceAll(RegExp(r'[^A-Z0-9]'), '');

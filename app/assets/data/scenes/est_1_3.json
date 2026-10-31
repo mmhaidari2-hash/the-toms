@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "The holding deposit",
  "titleFa": "ودیعهٔ نگهداری",
- "setting": "Finding a flat · Fennick & Rowe Homes",
+ "setting": "Finding a flat · Hartley & Wren Homes",
  "settingFa": "پیدا کردن آپارتمان",
  "requires": null,
  "start": "n1",
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "agent",
-   "text": "Hi {you}, it's Olivia from Fennick and Rowe. You wanted to go ahead with the Mare Street flat?",
+   "text": "Hi {you}, it's Olivia from Hartley and Wren. You wanted to go ahead with the Mare Street flat?",
    "translations": {
-    "fa": "سلام {you}، اولیویا از فنیک اند رو هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟"
+    "fa": "سلام {you}، اولیویا از هارتلی و رن هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟"
    },
    "branches": [
     {

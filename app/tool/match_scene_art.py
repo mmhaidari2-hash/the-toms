@@ -27,8 +27,8 @@ SPOT = {'home': 'home', 'school': 'school', 'shops': 'shops', 'health': 'gp', 'u
         'bus': 'bus', 'train': 'station', 'bank': 'bank', 'postoffice': 'postoffice', 'library': 'library', 'park': 'park', 'coffee': 'cafe',
         'restaurant': 'restaurant', 'pub': 'pub', 'gym': 'gym', 'barber': 'barber', 'petrol': 'garage', 'driving': 'garage', 'interview': 'work',
         'playdate': 'playdate', 'nursery': 'nursery', 'hospital': 'hospital', 'museum': 'museum', 'cinema': 'cinema', 'work': 'work', 'homes': 'homes'}
-LABEL = {'nursery': ("Vida's nursery", 'مهدکودک ویدا'), 'hospital': ('The hospital', 'بیمارستان'), 'museum': ('The museum', 'موزه'),
-         'cinema': ('The cinema', 'سینما'), 'homes': ('Fennick & Rowe Homes', 'املاک فنیک اند رو'), 'work': ('At work', 'سر کار')}
+LABEL = {'nursery': ("Vida's nursery", 'مهدکودک پرایمروز لین'), 'hospital': ('The hospital', 'بیمارستان'), 'museum': ('The museum', 'موزه'),
+         'cinema': ('The cinema', 'سینما'), 'homes': ('Hartley & Wren Homes', 'املاک هارتلی و رن'), 'work': ('At work', 'سر کار')}
 CUES = [(r'\bnursery\b|\bVida\b', 'nursery'), (r'\bhospital\b|\bA&E\b|\bward\b', 'hospital'), (r'\bmuseum\b', 'museum'),
         (r'\bthe Tube\b|\bUnderground\b', 'train'), (r'\bcinema\b', 'cinema')]
 NONSPEAK = {'me', 'learner', 'narrator'}
@@ -77,7 +77,7 @@ BORROW = {
     'nur_6_1': 'parentsevening', 'nur_6_2': 'eveningtea', 'nur_6_3': 'school', 'nur_6_4': 'parentsevening',
     'l2_u20_1': 'doctor', 'l2_u20_2': 'doctor', 'l2_u20_3': 'doctor', 'l2_u20_4': 'doctor', 'l3_u11_1': 'doctor',
     'l2_u21_1': 'library', 'l2_u21_2': 'train', 'l2_u21_3': 'coffee', 'l2_u21_4': 'library',
-    # Fennick & Rowe Homes (estate agent): no painting of its own yet; office talks borrow the bank desk, home visits the rooms
+    # Hartley & Wren Homes (estate agent): no painting of its own yet; office talks borrow the bank desk, home visits the rooms
     'est_1_1': 'hallway', 'est_1_2': 'living', 'est_1_3': 'bank', 'est_2_1': 'bank', 'est_2_2': 'bank', 'est_2_3': 'interview',
     'est_3_1': 'bank', 'est_3_2': 'living', 'est_3_3': 'kitchen', 'est_4_1': 'bathroom', 'est_4_2': 'bedroom', 'est_4_3': 'hallway',
     'est_5_1': 'bank', 'est_5_2': 'living', 'est_5_3': 'interview', 'est_5_4': 'bank',

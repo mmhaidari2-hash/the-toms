@@ -6,7 +6,7 @@
 
 | Setting | Scenes | Currently shows |
 |---|---|---|
-| Fennick & Rowe Homes | 16 | est_1_1→hallway, est_1_2→living, est_1_3→bank, est_2_1→bank, est_2_2→bank, est_2_3→interview, est_3_1→bank, est_3_2→living, est_3_3→kitchen, est_4_1→bathroom, est_4_2→bedroom, est_4_3→hallway, est_5_1→bank, est_5_2→living, est_5_3→interview, est_5_4→bank |
+| Hartley & Wren Homes | 16 | est_1_1→hallway, est_1_2→living, est_1_3→bank, est_2_1→bank, est_2_2→bank, est_2_3→interview, est_3_1→bank, est_3_2→living, est_3_3→kitchen, est_4_1→bathroom, est_4_2→bedroom, est_4_3→hallway, est_5_1→bank, est_5_2→living, est_5_3→interview, est_5_4→bank |
 | The hospital | 5 | l2_u20_1→doctor, l2_u20_2→doctor, l2_u20_3→doctor, l2_u20_4→doctor, l3_u11_1→doctor |
 | The museum | 4 | l2_u21_1→library, l2_u21_2→train, l2_u21_3→coffee, l2_u21_4→library |
 | The cinema | 4 | l2_u58_1→living, l2_u58_2→living, l2_u58_3→conference, l2_u58_4→pub |

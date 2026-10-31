@@ -17,17 +17,17 @@ import 'package:flutter_test/flutter_test.dart';
 /// Legal fixes (docs/LEGAL_REVIEW.md): privacy/terms screens, certificate wording, pack disclaimers, no risky claims.
 void main() {
   test('privacy policy is accurate and bilingual; no risky claims in the app', () {
-    final all = [privacyDoc, termsDoc, aboutDoc].expand((d) => d.sections).toList();
+    final all = [privacyDoc, termsDoc, childrenDoc, aboutDoc].expand((d) => d.sections).toList();
     for (final (h, en, fa) in all) {
       expect(en, isNotEmpty, reason: h);
       expect(RegExp(r'[\u0600-\u06FF]').hasMatch(fa), isTrue, reason: '$h has Persian');
     }
     final p = privacyDoc.sections.map((s) => s.$2).join(' ');
-    for (final must in ['Google in Chrome', 'Apple in Safari', 'GitHub Pages', 'no analytics', 'only in your browser', '[BUSINESS NAME]', '[CONTACT EMAIL]', 'ico.org.uk']) {
+    for (final must in ['GitHub Pages', 'no analytics', 'ico.org.uk', 'PLACEHOLDER', 'Azure']) {
       expect(p.toLowerCase(), contains(must.toLowerCase()), reason: must);
     }
     final t = termsDoc.sections.map((s) => s.$2).join(' ');
-    for (final must in ['not an accredited qualification', 'DVSA', 'Home Office', 'England and Wales']) {
+    for (final must in ['not an accredited qualification', 'DVSA', 'Home Office', 'England and Wales', 'OISC', 'cooling-off']) {
       expect(t.toLowerCase(), contains(must.toLowerCase()), reason: must);
     }
     expect(CertificateScreen.disclaimer, startsWith('Not an accredited qualification. CEFR level is an indication only.'));
@@ -77,7 +77,7 @@ void main() {
 
       await go('/legal');
       expect(find.text('Privacy Policy'), findsOneWidget);
-      for (final tab in ['terms', 'about', 'privacy']) {
+      for (final tab in ['terms', 'children', 'about', 'privacy']) {
         await t.tap(find.byKey(ValueKey('legal-tab-$tab')));
         await t.pump(const Duration(milliseconds: 500));
         expect(find.byKey(ValueKey('legal-$tab')), findsOneWidget);
@@ -99,7 +99,7 @@ void main() {
     expect(menu, contains("ValueKey('ai-voices-note')"));
     expect(menu, contains('Voices are AI-generated (text-to-speech), not real people.'));
     final legal = File('lib/features/legal/legal_screen.dart').readAsStringSync();
-    expect(legal, contains('All voices are AI-generated'));
+    expect(legal, contains('AI-generated neural text-to-speech'));
     expect(File('tool/render_voices.py').readAsStringSync(), isNot(contains('AZURE_SPEECH_KEY_1=')), reason: 'no key in the repo');
   });
 }

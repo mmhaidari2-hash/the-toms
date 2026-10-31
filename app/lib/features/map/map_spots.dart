@@ -41,7 +41,7 @@ const featureSpots = {'library', 'school', 'cinema', 'radio', 'missions', 'park'
 /// The lessons of a spot, in course order, that exist in this build.
 List<Lesson> spotLessons(Course c, MapSpot s) => [for (final id in s.lessons) ?c.lesson(id)];
 
-/// Level / pack label for a lesson ("Level 2 · Unit 5", "Vida's Nursery · A1").
+/// Level / pack label for a lesson ("Level 2 · Unit 5", "Primrose Lane Nursery · A1").
 String lessonWhere(Course c, Lesson l) {
   final u = c.unitOf(l.id)!;
   final pk = c.packOf(u);
@@ -171,7 +171,7 @@ class SpotMarker extends StatelessWidget {
     ),
   );
   // The estate agent keeps its name and says what it is; other "A & B" titles keep only the first part.
-  static String label(String t) => t.startsWith('Fennick & Rowe') ? 'Estate Agent\nFennick & Rowe' : t.split(' — ').first.split(' & ').first;
+  static String label(String t) => t.startsWith('Hartley & Wren') ? 'Estate Agent\nHartley & Wren' : t.split(' — ').first.split(' & ').first;
 }
 
 class _Badge extends StatelessWidget {

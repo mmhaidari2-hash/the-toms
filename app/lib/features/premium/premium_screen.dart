@@ -85,7 +85,8 @@ class PremiumScreen extends ConsumerWidget {
             child: Text(hl(beta ? 'Continue free (beta)' : 'Maybe later'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
           ),
           const SizedBox(height: 10),
-          const Text('Prices are examples and may change. No payment is taken in this version.', textAlign: TextAlign.center, style: TextStyle(fontSize: 11.5, color: BL.muted)),
+          Text(hl('Prices are examples only. No payment is taken in this version. When billing goes live: clear price & period before pay; cancel via the store; UK 14-day cooling-off (digital content may end early if you ask to start immediately and acknowledge that).'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 11.5, color: BL.muted, height: 1.35)),
+          Text(hl('قیمت‌ها نمونه‌اند. در این نسخه پولی گرفته نمی‌شود. با شروع پرداخت: قیمت روشن، لغو از فروشگاه، مهلت ۱۴روزه بریتانیا.'), textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(11, color: BL.muted)),
         ],
       ),
     );

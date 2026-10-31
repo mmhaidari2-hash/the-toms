@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 
 /// Map buildings -> lessons: each lesson lives in exactly ONE building, and pack lessons
-/// (Vida's Nursery, Fennick & Rowe Homes) never leak into another building's sheet.
+/// (Primrose Lane Nursery, Hartley & Wren Homes) never leak into another building's sheet.
 void main() {
   final course = jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map<String, dynamic>;
   final spots = (jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List).cast<Map<String, dynamic>>();
@@ -51,7 +51,7 @@ void main() {
     }
   });
 
-  test("St Mary's School does not list Vida's Nursery lessons", () {
+  test("Maple Grove Primary does not list Primrose Lane Nursery lessons", () {
     final school = spots.firstWhere((s) => s['id'] == 'school');
     expect(ids(school).where((id) => packOf[id] == 'nursery'), isEmpty);
     expect(ids(school).where((id) => id.startsWith('nur')), isEmpty);

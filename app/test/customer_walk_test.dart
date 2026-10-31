@@ -56,7 +56,7 @@ void main() {
       await settle(t);
       // Name field + continue through onboarding steps when present.
       if (find.byKey(const ValueKey('onb-name')).evaluate().isNotEmpty) {
-        await t.enterText(find.byKey(const ValueKey('onb-name')), 'Mahdi');
+        await t.enterText(find.byKey(const ValueKey('onb-name')), 'Alex');
         await t.pump(const Duration(milliseconds: 300));
       }
       // Advance howto if shown.
@@ -124,6 +124,7 @@ void main() {
         '/diary',
         '/legal?tab=privacy',
         '/legal?tab=terms',
+        '/legal?tab=children',
         '/place/kitchen',
         '/place/nursery',
         '/place/homes',

@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Reporting a repair",
  "titleFa": "گزارش تعمیر",
- "setting": "Living there and moving out · Fennick & Rowe Homes",
+ "setting": "Living there and moving out · Hartley & Wren Homes",
  "settingFa": "زندگی در خانه و تخلیه",
  "requires": null,
  "start": "n1",
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "agent",
-   "text": "Fennick and Rowe, Olivia speaking. Oh hi, {you}! How's the flat?",
+   "text": "Hartley and Wren, Olivia speaking. Oh hi, {you}! How's the flat?",
    "translations": {
-    "fa": "فنیک اند رو، اولیویا هستم. اوه سلام {you}! آپارتمان چطوره؟"
+    "fa": "هارتلی و رن، اولیویا هستم. اوه سلام {you}! آپارتمان چطوره؟"
    },
    "branches": [
     {

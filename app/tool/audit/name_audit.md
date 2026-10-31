@@ -126,3 +126,16 @@ adele, arsenal, barclays, calpol, chelsea, esteghlal, greggs, gruffalo, homerton
 3. **Hackney Lane English** — fictional street, keeps the setting.
 
 Check each on the UK IPO and EUIPO trademark search and app stores before choosing.
+
+## Pass 31 October 2026 (compliance)
+
+| Old | New | Why |
+|---|---|---|
+| Fennick & Rowe Homes | Hartley & Wren Homes | Too close to real “Fenn Wright” / “Hyde & Rowe” estate agents |
+| Little Acorns Nursery | Primrose Lane Nursery | Many real Ofsted “Little Acorns” settings |
+| Vida's Nursery (map/pack label) | Primrose Lane Nursery | Align pack to fictional workplace; character Vida remains |
+| St Mary's (school) | Maple Grove Primary | Common real school dedication name |
+| IELTS (learner-facing) | English exam | Avoid exam-board trademark in marketing/UI |
+| Test learner name Mahdi | Alex | No-Mahdi rule |
+
+Companies House spot-checks (web search UI): no company named Fennick & Rowe; Vida Nursery / St Marys School Hackney queries returned no conflicting hit in our scrape. Not a guarantee.

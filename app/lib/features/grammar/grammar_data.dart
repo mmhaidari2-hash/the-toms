@@ -69,7 +69,7 @@ class Grammar {
     GClass('C1', 'Advanced', 'پیشرفته', 'future perfect continuous, future in the past, inversion, mixed conditionals, wish, cleft sentences, subjunctive, ellipsis, formal style'),
   ];
   static const pass = 60;
-  /// A1–A2 are taught at St Mary's School; B1–C1 at Riverside Adult College (fictional).
+  /// A1–A2 are taught at Maple Grove Primary; B1–C1 at Riverside Adult College (fictional).
   static bool atCollege(String code) => const {'B1', 'B2', 'C1'}.contains(code);
   static int courseLevel(String code) => classes.indexWhere((c) => c.code == code) + 1;
   static List<GTopic> parse(String raw) => [for (final t in (jsonDecode(raw) as Map)['topics'] as List) GTopic.fromJson(t)];

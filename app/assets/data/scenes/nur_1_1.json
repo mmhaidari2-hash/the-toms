@@ -3,7 +3,7 @@
  "characterId": "vida",
  "title": "Your first day",
  "titleFa": "اولین روزت",
- "setting": "Good morning, Little Acorns! · Vida's Nursery",
+ "setting": "Good morning, Primrose Lane! · Primrose Lane Nursery",
  "settingFa": "صبح بخیر، لیتل ایکورنز!",
  "requires": null,
  "start": "n1",
@@ -12,7 +12,7 @@
   "n1": {
    "id": "n1",
    "speaker": "vida",
-   "text": "Welcome to Little Acorns, Sara! I'm Vida, Leslie's sister. You're with me in the pre-school room.",
+   "text": "Welcome to Primrose Lane, Sara! I'm Vida, Leslie's sister. You're with me in the pre-school room.",
    "translations": {
     "fa": "به لیتل ایکورنز خوش اومدی سارا! من ویدام، خواهر لزلی. تو با من تو اتاق پیش‌دبستانی هستی."
    },

@@ -3,8 +3,8 @@
   "characterId": "vida",
   "title": "The nursery interview",
   "titleFa": "مصاحبهٔ مهدکودک",
-  "setting": "Getting the job · Vida's Nursery",
-  "settingFa": "گرفتن شغل · مهدکودک ویدا",
+  "setting": "Getting the job · Primrose Lane Nursery",
+  "settingFa": "گرفتن شغل · مهدکودک پرایمروز لین",
   "requires": null,
   "start": "n1",
   "level": "B1",
@@ -308,7 +308,7 @@
     "end": {
       "id": "end",
       "speaker": "vida",
-      "text": "Bring comfortable clothes, your ID for the DBS form, and a big smile. Welcome to Little Acorns — see you Thursday.",
+      "text": "Bring comfortable clothes, your ID for the DBS form, and a big smile. Welcome to Primrose Lane — see you Thursday.",
       "translations": {
         "fa": "لباس راحت، مدرک شناسایی برای فرم DBS و یه لبخند بزرگ بیار. به لیتل ایکورنز خوش اومدی — پنجشنبه می‌بینمت."
       },

@@ -3,7 +3,7 @@
  "characterId": "agent",
  "title": "Booking a viewing",
  "titleFa": "گرفتن وقت بازدید",
- "setting": "Finding a flat · Fennick & Rowe Homes",
+ "setting": "Finding a flat · Hartley & Wren Homes",
  "settingFa": "پیدا کردن آپارتمان",
  "requires": null,
  "start": "n1",
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "agent",
-   "text": "Good morning, Fennick and Rowe Homes, Olivia speaking. How can I help?",
+   "text": "Good morning, Hartley and Wren Homes, Olivia speaking. How can I help?",
    "translations": {
-    "fa": "صبح بخیر، املاک فنیک اند رو، اولیویا هستم. چه کمکی از دستم برمیاد؟"
+    "fa": "صبح بخیر، املاک هارتلی و رن، اولیویا هستم. چه کمکی از دستم برمیاد؟"
    },
    "branches": [
     {

@@ -38,8 +38,8 @@ const mapRegions = [
   MapRegion('highstreet', 'High Street', 'خیابان اصلی', 'B1 · Level 3', Offset(.53, .40), [[.28, .36, .46, .19]], level: 3),
   MapRegion('town', 'Town centre', 'مرکز شهر', 'B2 · Level 4', Offset(.30, .21), [[.03, .14, .95, .22]], level: 4),
   MapRegion('city', 'The city', 'شهر بزرگ', 'C1 · Level 5', Offset(.55, .06), [[.12, .0, .86, .14]], level: 5),
-  MapRegion('nursery', "Vida's Nursery", 'مهدکودک ویدا', 'Career Pack · Premium', Offset(.11, .5), [[.02, .47, .15, .18]], pack: 'nursery'),
-  MapRegion('homes', 'Fennick & Rowe Homes', 'املاک فنیک اند رو', 'Career Pack · A2–B2', Offset(.765, .585), [[.72, .55, .09, .08]], pack: 'homes'),
+  MapRegion('nursery', "Primrose Lane Nursery", 'مهدکودک پرایمروز لین', 'Career Pack · Premium', Offset(.11, .5), [[.02, .47, .15, .18]], pack: 'nursery'),
+  MapRegion('homes', 'Hartley & Wren Homes', 'املاک هارتلی و رن', 'Career Pack · A2–B2', Offset(.765, .585), [[.72, .55, .09, .08]], pack: 'homes'),
 ];
 
 /// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.

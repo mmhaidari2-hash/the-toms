@@ -117,8 +117,8 @@ rp('rp_bank', 'B1', 'bank', 'maya', 'Advisor · the bank', 'Open a bank account'
       (1, 2, 'When is my card coming?', 'کارتم کی میاد؟', 'Works fine. "How long will it take …?" is a useful pattern too.', 'درست است. «How long will it take …?» هم الگوی مفیدی است.'),
       (0, -1, 'How long is the bank open?', 'بانک تا کی بازه؟', "That's about opening hours. Ask about your card.", 'این دربارهٔ ساعت کاری است. دربارهٔ کارتت بپرس.')])],
    ("It usually takes about a week. We'll post it to your address.", 'معمولاً حدود یه هفته طول می‌کشه. به آدرستون پستش می‌کنیم.'))
-rp('rp_homes', 'B1', 'homes', 'agent', 'Olivia · Fennick & Rowe Homes', 'Rent a flat', 'اجارهٔ آپارتمان',
-   ("You're at Fennick & Rowe Homes after a viewing. Find out about bills, the deposit and the Right to Rent check.", 'بعد از بازدید در املاک فنیک اند رو هستی. دربارهٔ قبض‌ها، ودیعه و بررسی حق اجاره بپرس.'),
+rp('rp_homes', 'B1', 'homes', 'agent', 'Olivia · Hartley & Wren Homes', 'Rent a flat', 'اجارهٔ آپارتمان',
+   ("You're at Hartley & Wren Homes after a viewing. Find out about bills, the deposit and the Right to Rent check.", 'بعد از بازدید در املاک هارتلی و رن هستی. دربارهٔ قبض‌ها، ودیعه و بررسی حق اجاره بپرس.'),
    [('Ask what the rent includes', 'بپرس اجاره شامل چه چیزهایی است'), ('Check the deposit is protected', 'مطمئن شو ودیعه حفاظت می‌شود'), ('Ask what you need for the Right to Rent check', 'بپرس برای بررسی حق اجاره چه لازم است')],
    [(("So, what did you think of the flat?", 'خب، آپارتمان چطور بود؟'), ("Say you liked it, then ask 'Are any bills included?'", "بگو خوشت آمد، بعد بپرس «Are any bills included?»"),
      [(2, 0, "I really liked it. Are any bills included in the rent?", 'خیلی خوشم اومد. قبضی تو اجاره حساب شده؟', 'Polite and precise: exactly what to ask.', 'مؤدبانه و دقیق: دقیقاً همان سؤال درست.'),

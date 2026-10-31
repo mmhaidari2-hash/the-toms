@@ -19,8 +19,8 @@ const certLevels = {
 class CertificateScreen extends ConsumerStatefulWidget {
   final int level;
   const CertificateScreen({super.key, required this.level});
-  static const disclaimer = 'Not an accredited qualification. CEFR level is an indication only. Not a CEFR, IELTS, Ofqual-regulated or Home Office-approved English test.';
-  static const disclaimerFa = 'این یک مدرک معتبر/رسمی نیست و سطح CEFR فقط تقریبی است؛ آزمون رسمی زبان (مثل IELTS یا آزمون مورد تأیید وزارت کشور) هم نیست.';
+  static const disclaimer = 'Not an accredited qualification. CEFR level is an indication only. Not a CEFR, English exam, Ofqual-regulated or Home Office-approved English test.';
+  static const disclaimerFa = 'این یک مدرک معتبر/رسمی نیست و سطح CEFR فقط تقریبی است؛ آزمون رسمی زبان (مثل English exam یا آزمون مورد تأیید وزارت کشور) هم نیست.';
   @override
   ConsumerState<CertificateScreen> createState() => _CertificateScreenState();
 }

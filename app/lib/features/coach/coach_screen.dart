@@ -95,6 +95,14 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
                 const SizedBox(height: 6),
                 Text(hl('مدل را بشنو، بعد همان جمله را بگو. مرورگر صدایت را به متن تبدیل می‌کند — اپ چیزی آپلود نمی‌کند.'),
                     textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(13, color: BL.muted)),
+                const SizedBox(height: 10),
+                Container(
+                  key: const ValueKey('ai-coach-note'),
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12), border: Border.all(color: BL.mist)),
+                  child: Text(hl('AI aid: model audio is neural text-to-speech; scoring uses your device/browser speech-to-text — not a human teacher.\nکمک هوش مصنوعی: صدای نمونه TTS است؛ امتیازدهی با گفتار به متن دستگاه/مرورگر — معلم انسان نیست.'),
+                      style: const TextStyle(fontSize: 12, height: 1.35, color: BL.muted)),
+                ),
                 const SizedBox(height: 18),
                 Container(
                   padding: const EdgeInsets.all(18),

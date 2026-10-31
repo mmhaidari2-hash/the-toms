@@ -25,7 +25,7 @@ for sid in idx:
     n['_best']=br[0] if br else None
     cur=br[0]['next'] if br else None
   speakers=[n['speaker'] for n in path]
-  G=s.get('guest','learner')  # the guest who becomes the NPC (Sara in Vida's Nursery)
+  G=s.get('guest','learner')  # the guest who becomes the NPC (Sara in Primrose Lane Nursery)
   for L in FAMILY:
     if speakers.count(L)<2: continue
     U=[]  # (who, text, fa, node)  who: 'USER' or speaker id

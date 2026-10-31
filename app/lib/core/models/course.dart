@@ -23,11 +23,11 @@ class Unit {
   List<NewWord> get words => [for (final l in lessons) ...l.words];
 }
 
-/// A Career Pack: a premium, profession-specific track with its own lead character (e.g. Vida's Nursery).
+/// A Career Pack: a premium, profession-specific track with its own lead character (e.g. Primrose Lane Nursery).
 class Pack {
   final String id, title, titleFa, lead, place, blurb, blurbFa, levels;
   final bool premium;
-  /// Level-gated pack (e.g. Fennick & Rowe Homes): a unit opens when the learner's course level reaches its CEFR level,
+  /// Level-gated pack (e.g. Hartley & Wren Homes): a unit opens when the learner's course level reaches its CEFR level,
   /// the same rule as the Library, Cinema, Missions and Grammar School.
   final bool gated;
   final List<Unit> units;

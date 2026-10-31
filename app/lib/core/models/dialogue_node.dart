@@ -122,7 +122,7 @@ class Scene {
   /// Role switching: this is a variant of [baseId] where the learner speaks as [playAs] and the learner is an NPC.
   final String? baseId, playAs;
 
-  /// Career Packs with their own playable guest (e.g. Sara in Vida's Nursery) instead of the learner.
+  /// Career Packs with their own playable guest (e.g. Sara in Primrose Lane Nursery) instead of the learner.
   final String? guest;
 
   /// Optional painting (place id) for scenes not hosted by a place hotspot or lesson.

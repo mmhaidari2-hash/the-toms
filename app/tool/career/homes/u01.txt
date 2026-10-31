@@ -1,7 +1,7 @@
 ## H1 | Finding a flat | پیدا کردن آپارتمان | hallway | Book a viewing, look round a flat and ask about rent and bills | وقت بازدید بگیری، آپارتمان را ببینی و دربارهٔ اجاره و قبض‌ها بپرسی | A2
 
 # est_1_1 | agent | Booking a viewing | گرفتن وقت بازدید | Can I…? / Is it still available? | می‌تونم…؟ / هنوز موجوده؟ | hallway
-agent: Good morning, Fennick and Rowe Homes, Olivia speaking. How can I help? | صبح بخیر، املاک فنیک اند رو، اولیویا هستم. چه کمکی از دستم برمیاد؟
+agent: Good morning, Hartley and Wren Homes, Olivia speaking. How can I help? | صبح بخیر، املاک هارتلی و رن، اولیویا هستم. چه کمکی از دستم برمیاد؟
 > Hello. I'm calling about the one-bed flat on Mare Street. | سلام. دربارهٔ آپارتمان یه‌خوابهٔ خیابون میر زنگ می‌زنم.
 > Hi. Is the flat on Mare Street still available? | سلام. آپارتمان خیابون میر هنوز موجوده؟
 W: one-bed=یک‌خوابه ; available=موجود ؛ آزاد ; calling about=زنگ زدن دربارهٔ
@@ -48,7 +48,7 @@ agent: No problem. And the advertised rent is the rent: since May 2026 we can't 
 C: In England, landlords and agents must publish an asking rent and can't ask for or accept offers above it (Renters' Rights Act, from 1 May 2026). | در انگلستان صاحبخانه و بنگاه نباید پیشنهاد بالاتر از اجارهٔ آگهی‌شده بپذیرند (از ۱ مه ۲۰۲۶).
 
 # est_1_3 | agent | The holding deposit | ودیعهٔ نگهداری | Would like to… / How long…? | می‌خواهم… / چقدر طول می‌کشد؟ | hallway
-agent: Hi {you}, it's Olivia from Fennick and Rowe. You wanted to go ahead with the Mare Street flat? | سلام {you}، اولیویا از فنیک اند رو هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟
+agent: Hi {you}, it's Olivia from Hartley and Wren. You wanted to go ahead with the Mare Street flat? | سلام {you}، اولیویا از هارتلی و رن هستم. می‌خواستید آپارتمان خیابون میر را بگیرید؟
 > Yes, I'd like to rent it, please. | بله، می‌خوام اجاره‌ش کنم لطفاً.
 > Yes! Is it still free? | آره! هنوز آزاده؟
 W: go ahead=اقدام کردن ؛ ادامه دادن ; rent=اجاره کردن ؛ اجاره

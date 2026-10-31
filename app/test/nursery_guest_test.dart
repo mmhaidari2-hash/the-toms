@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// Vida's Nursery is played as Sara (a new practitioner), never as the learner.
+/// Primrose Lane Nursery is played as Sara (a new practitioner), never as the learner.
 void main() {
   final course = jsonDecode(File('assets/data/course.json').readAsStringSync());
   final pack = (course['packs'] as List).firstWhere((p) => p['id'] == 'nursery');
