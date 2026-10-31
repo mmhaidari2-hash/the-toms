@@ -69,7 +69,7 @@ class _SettlementScreenState extends State<SettlementScreen> {
                       TextButton.icon(
                         onPressed: () => launchUrl(Uri.parse(m['gov'] as String), mode: LaunchMode.externalApplication),
                         icon: const Icon(Icons.open_in_new_rounded, size: 16),
-                        label: Text(hl('Official GOV.UK page')),
+                        label: Text(hl('GOV.UK page')),
                       ),
                     ],
                   ]),
