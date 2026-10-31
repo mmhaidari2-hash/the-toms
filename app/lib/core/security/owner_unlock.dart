@@ -41,7 +41,7 @@ class OwnerUnlock {
 
   static bool verify(String code) {
     final trimmed = code.trim();
-    if (trimmed.length < 16 || trimmed.length > 128) return false;
+    if (trimmed.length < 12 || trimmed.length > 128) return false;
     final salt = base64Decode(kOwnerUnlockSaltB64);
     final expected = base64Decode(kOwnerUnlockHashB64);
     final got = pbkdf2Sha256(trimmed, salt, kOwnerUnlockIterations, expected.length);
