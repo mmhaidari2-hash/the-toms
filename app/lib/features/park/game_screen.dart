@@ -66,7 +66,7 @@ class _ParkGameScreenState extends ConsumerState<ParkGameScreen> {
         ),
       );
     }
-    final gate = ParkGate(ctrl, content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = ParkGate(ctrl, content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(widget.level)) return _Locked(level: widget.level, g: g);
     if (award != null) {
       final pass = pct >= Park.pass;

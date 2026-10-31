@@ -22,7 +22,7 @@ class ParkScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (topics == null || content == null) return const NavLoading();
-    final gate = ParkGate(ctrl, content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = ParkGate(ctrl, content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     var level = ctrl.pref('parkLevel', 'A1');
     if (!gate.levelOpen(level)) level = 'A1';
     final pw = ParkWords.of(ctrl, content.course, level);

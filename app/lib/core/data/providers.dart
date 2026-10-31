@@ -21,6 +21,7 @@ import '../models/learner_profile.dart';
 import 'repository.dart';
 import '../billing/entitlements.dart';
 export 'premium.dart';
+import '../security/owner_unlock.dart';
 
 final progressStoreProvider = Provider<ProgressStore>((_) => MemoryProgressStore());
 final clockProvider = Provider<DateTime Function()>((_) => DateTime.now);
@@ -68,13 +69,13 @@ class ProgressController extends Notifier<UserProgress> {
     return state.leitnerBox.values.where((w) => w.box == 5 && words.contains(w.word)).length;
   }
 
-  bool isUnlocked(Scene s) => state.unlockAll || !s.isGated || state.unlockedScenes.contains(s.id);
+  bool isUnlocked(Scene s) => state.gatesOpen || !s.isGated || state.unlockedScenes.contains(s.id);
 
   static const tierGate = 2; // dialogues to finish in a level before the next opens
 
   int completedInTier(int i, ContentBundle c) => i < 0 || i >= c.tiers.length ? 0 : c.tiers[i].sceneIds.where(state.completedScenes.contains).length;
 
-  bool tierUnlocked(int i, ContentBundle c) => state.unlockAll || i <= state.startTier || completedInTier(i - 1, c) >= tierGate;
+  bool tierUnlocked(int i, ContentBundle c) => state.gatesOpen || i <= state.startTier || completedInTier(i - 1, c) >= tierGate;
 
   /// Highest unlocked level index — the learner's current level.
   int currentTier(ContentBundle c) {
@@ -89,16 +90,16 @@ class ProgressController extends Notifier<UserProgress> {
     final host = c.places.where((p) => p.sceneIds.contains(s.id)).firstOrNull;
     if (host?.season != null && !placeOpen(host!.id, c)) return false;
     final role = c.roleOfScene(s.id);
-    if (role != null && role != state.role && !state.unlockAll) return false;
-    if (s.requiresTrust != null && !state.unlockAll && GrowthEngine.softTrust(state.trustMap[s.characterId] ?? 0) < s.requiresTrust!) return false;
+    if (role != null && role != state.role && !state.gatesOpen) return false;
+    if (s.requiresTrust != null && !state.gatesOpen && GrowthEngine.softTrust(state.trustMap[s.characterId] ?? 0) < s.requiresTrust!) return false;
     return isUnlocked(s) && tierUnlocked(c.tierIndexOfScene(s.id), c);
   }
 
   bool placeOpen(String placeId, ContentBundle c) {
     final p = c.place(placeId);
     if (p == null) return false;
-    final gated = p.requiresMilestone != null && !state.unlockAll && p.sceneIds.any((id) => !state.unlockedScenes.contains(id));
-    final seasonal = p.season == null || state.unlockAll || _now.month == p.season || state.completedScenes.length >= Place.earlyAccessChats;
+    final gated = p.requiresMilestone != null && !state.gatesOpen && p.sceneIds.any((id) => !state.unlockedScenes.contains(id));
+    final seasonal = p.season == null || state.gatesOpen || _now.month == p.season || state.completedScenes.length >= Place.earlyAccessChats;
     final ti = c.tierIndexOfPlace(placeId);
     // Art places (nursery, homes, museum…) sit outside CEFR tiers — always open at the tier gate.
     final tierOk = ti < 0 || tierUnlocked(ti, c);
@@ -547,7 +548,7 @@ class ProgressController extends Notifier<UserProgress> {
   /// first unit opens straight away, the rest follow as the previous unit is finished or its test passed.
   /// A unit the learner has already played in never locks again.
   bool unitOpen(Course c, int i) {
-    if (state.unlockAll || i == 0) return true;
+    if (state.gatesOpen || i == 0) return true;
     final u = c.units[i];
     final cur = currentLevel(c);
     if (u.level < cur) return true;
@@ -619,18 +620,18 @@ class ProgressController extends Notifier<UserProgress> {
       if (pk != null && pk.gated && !packUnitLevelOpen(c, u)) return false;
       return pk == null || packOwned(pk) || pk.lessons.first.id == l.id;
     }
-    return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
+    return unitOpen(c, ui) && (state.gatesOpen || li == 0 || lessonDone(u.lessons[li - 1]));
   }
 
   /// A gated pack unit opens once the learner's course level reaches its CEFR level (A2 = Level 2 …).
   bool packUnitLevelOpen(Course c, Unit u) {
-    if (state.unlockAll || u.cefr == null) return true;
+    if (state.gatesOpen || u.cefr == null) return true;
     final need = cefr.indexOf(u.cefr!) + 1;
     return need <= 1 || currentLevel(c) >= need;
   }
 
   // ---- Premium (display-only until real payments exist; see PremiumConfig).
-  bool get hasPremium => Entitlements.isPremium || state.unlockAll || state.missionsDone['pref:premium'] == 'on';
+  bool get hasPremium => Entitlements.isPremium || state.gatesOpen || state.missionsDone['pref:premium'] == 'on';
   bool packOwned(Pack p) => !p.premium || hasPremium || state.missionsDone['pack:${p.id}'] == 'owned';
 
   // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).
@@ -673,10 +674,45 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
+  bool get gatesOpen => state.gatesOpen;
+
   void setUnlockAll(bool v) {
     state = state.copyWith(unlockAll: v);
     _save();
   }
+
+  void setOwnerMode(bool v) {
+    state = state.copyWith(ownerMode: v);
+    _save();
+  }
+
+  /// Activate owner mode with the private code. Rate-limited locally.
+  /// Returns null on success, or an error message key for the UI.
+  String? tryActivateOwner(String code) {
+    final stamp = state.missionsDone['pref:ownerAttempts'];
+    final wait = OwnerUnlock.lockoutRemainingMs(stamp, _now);
+    if (wait > 0) {
+      final mins = (wait / 60000).ceil();
+      return 'Too many attempts. Try again in $mins min.';
+    }
+    final ok = OwnerUnlock.verify(code);
+    final next = OwnerUnlock.nextStamp(stamp, _now, success: ok);
+    final mis = {...state.missionsDone};
+    if (next.isEmpty) {
+      mis.remove('pref:ownerAttempts');
+    } else {
+      mis['pref:ownerAttempts'] = next;
+    }
+    if (ok) {
+      state = state.copyWith(ownerMode: true, missionsDone: mis);
+      _save();
+      return null;
+    }
+    state = state.copyWith(missionsDone: mis);
+    _save();
+    return 'Incorrect code';
+  }
+
 
   /// "Add to Leitner box" from any text: a new card in box 1, due now. Returns false if it was already there.
   bool addToLeitner(String word, String fa, {String ex = '', String exSp = '', String src = ''}) {

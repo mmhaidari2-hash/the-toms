@@ -21,7 +21,7 @@ class InboxScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final ts = ref.watch(messagesProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (ts == null || topics == null || content == null) return const NavLoading();
-    final gate = ThreadGate(ctrl, content, topics, ts, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = ThreadGate(ctrl, content, topics, ts, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     final unread = ts.where((t) => gate.levelOpen(t.level) && !ctrl.threadDone(t.id)).length;
     return Scaffold(

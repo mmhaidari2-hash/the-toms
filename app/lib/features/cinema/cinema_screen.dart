@@ -21,7 +21,7 @@ class CinemaScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final scenes = ref.watch(cinemaProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (scenes == null || topics == null || content == null) return const NavLoading();
-    final gate = CinemaGate(ctrl, content, topics, scenes, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = CinemaGate(ctrl, content, topics, scenes, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     final watched = scenes.where((s) => ctrl.sceneDone(s.id)).length;
     return Scaffold(

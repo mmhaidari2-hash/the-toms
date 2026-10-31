@@ -54,7 +54,7 @@ class SchoolScreen extends ConsumerWidget {
     final content = ref.watch(contentProvider).value;
     ref.watch(progressProvider);
     if (topics == null || content == null) return const NavLoading();
-    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     return Scaffold(
       backgroundColor: BL.cream,
@@ -184,7 +184,7 @@ class ClassScreen extends ConsumerWidget {
     final content = ref.watch(contentProvider).value;
     ref.watch(progressProvider);
     if (topics == null || content == null) return const NavLoading();
-    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     final c = Grammar.classes.firstWhere((x) => x.code == code, orElse: () => Grammar.classes.first);
     final ts = g.of(c.code);
     final pad = MediaQuery.paddingOf(context);

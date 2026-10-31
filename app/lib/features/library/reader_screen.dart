@@ -32,7 +32,7 @@ class ReaderScreen extends ConsumerWidget {
       return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/library'), child: const Text('Book not found — back to the Library'))));
     }
     // Strict lock: a deep link to a book on a shut shelf never opens the reader.
-    final gate = LibraryGate(ref.read(progressProvider.notifier), content, topics, books, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = LibraryGate(ref.read(progressProvider.notifier), content, topics, books, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.shelfOpen(b.level)) return BookLocked(book: b);
     return _Reader(key: ValueKey('reader-${b.id}-$chapter'), book: b, chapter: chapter.clamp(0, b.chapters.length - 1));
   }

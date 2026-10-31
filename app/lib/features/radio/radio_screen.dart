@@ -21,7 +21,7 @@ class RadioScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final segs = ref.watch(radioProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (segs == null || topics == null || content == null) return const NavLoading();
-    final gate = RadioGate(ctrl, content, topics, segs, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = RadioGate(ctrl, content, topics, segs, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     final done = segs.where((s) => ctrl.segmentDone(s.id)).length;
     return Scaffold(

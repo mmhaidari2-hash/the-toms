@@ -25,7 +25,7 @@ class RoleplayScreen extends ConsumerWidget {
     if (r == null) {
       return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/missions'), child: const Text('Role-play not found · back to Missions'))));
     }
-    final gate = MissionGate(ref.read(progressProvider.notifier), content, topics, ms, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = MissionGate(ref.read(progressProvider.notifier), content, topics, ms, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(r.level)) {
       return MissionLocked(m: Mission(id: r.id, level: r.level, spot: r.spot, title: r.title, titleFa: r.titleFa, goal: '', goalFa: '', say: const [], hear: const [], tip: ('', '')));
     }

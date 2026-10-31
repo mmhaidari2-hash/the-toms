@@ -26,7 +26,7 @@ class DrivingScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final es = ref.watch(drivingProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (es == null || topics == null || content == null) return const NavLoading();
-    final gate = DriveGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = DriveGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     final rows = <Widget>[];
     for (final lv in Library.levels) {
@@ -236,7 +236,7 @@ class _EventState extends ConsumerState<DrivingLessonScreen> {
     final e = es.where((x) => x.id == widget.id).firstOrNull;
     final pad = MediaQuery.paddingOf(context);
     if (e == null) return Scaffold(body: Center(child: TextButton(onPressed: () => context.go('/driving'), child: const Text('Not found — back to the Driving School'))));
-    final gate = DriveGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = DriveGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(e.level)) {
       final (en, fa) = DriveGate.why(e.level);
       return Scaffold(

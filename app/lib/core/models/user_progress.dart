@@ -78,6 +78,8 @@ class UserProgress {
   final int streak;
   final String? lastActive;
   final bool unlockAll;
+  /// Device-local owner unlock (not a purchase). Prefer [gatesOpen] for locks.
+  final bool ownerMode;
   final List<String> rewards;
   final WeeklyStats weekly;
   final String lang;
@@ -106,6 +108,7 @@ class UserProgress {
     this.streak = 0,
     this.lastActive,
     this.unlockAll = false,
+    this.ownerMode = false,
     this.moodMap = const {},
     this.diary = const [],
     this.onboarded = false,
@@ -135,6 +138,7 @@ class UserProgress {
     int? streak,
     String? lastActive,
     bool? unlockAll,
+    bool? ownerMode,
     Map<String, double>? moodMap,
     List<DiaryEntry>? diary,
     bool? onboarded,
@@ -162,6 +166,7 @@ class UserProgress {
     streak: streak ?? this.streak,
     lastActive: lastActive ?? this.lastActive,
     unlockAll: unlockAll ?? this.unlockAll,
+    ownerMode: ownerMode ?? this.ownerMode,
     moodMap: moodMap ?? this.moodMap,
     diary: diary ?? this.diary,
     onboarded: onboarded ?? this.onboarded,
@@ -178,6 +183,9 @@ class UserProgress {
     role: role ?? this.role,
   );
 
+  /// True when demo unlock or owner mode is on — use this for lesson/building gates.
+  bool get gatesOpen => unlockAll || ownerMode;
+
   String encode() => jsonEncode({
     'growth': growthMap,
     'milestone': milestoneMap,
@@ -191,6 +199,7 @@ class UserProgress {
     'streak': streak,
     'last': lastActive,
     'all': unlockAll,
+    'own': ownerMode,
     'mood': moodMap,
     'diary': [for (final d in diary) d.toJson()],
     'onb': onboarded,
@@ -223,6 +232,7 @@ class UserProgress {
       streak: j['streak'] ?? 0,
       lastActive: j['last'],
       unlockAll: j['all'] ?? false,
+      ownerMode: j['own'] ?? false,
       moodMap: ((j['mood'] ?? {}) as Map).map((k, v) => MapEntry(k as String, (v as num).toDouble())),
       diary: [for (final d in (j['diary'] ?? const [])) DiaryEntry.fromJson(Map<String, dynamic>.from(d))],
       onboarded: j['onb'] ?? false,

@@ -21,7 +21,7 @@ class MissionsScreen extends ConsumerWidget {
     final rps = ref.watch(roleplaysProvider).value ?? const <Roleplay>[];
     final ms = ref.watch(missionsProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (ms == null || topics == null || content == null) return const NavLoading();
-    final gate = MissionGate(ctrl, content, topics, ms, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = MissionGate(ctrl, content, topics, ms, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     return Scaffold(
       backgroundColor: BL.cream,

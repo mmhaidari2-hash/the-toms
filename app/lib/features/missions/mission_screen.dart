@@ -24,7 +24,7 @@ class MissionScreen extends ConsumerWidget {
     if (m == null) {
       return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/missions'), child: const Text('Mission not found — back to Missions'))));
     }
-    final gate = MissionGate(ref.read(progressProvider.notifier), content, topics, ms, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = MissionGate(ref.read(progressProvider.notifier), content, topics, ms, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(m.level)) return MissionLocked(m: m);
     return _Mission(key: ValueKey('mission-screen-${m.id}'), m: m);
   }

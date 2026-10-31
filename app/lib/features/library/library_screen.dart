@@ -23,7 +23,7 @@ class LibraryScreen extends ConsumerWidget {
     final pad = MediaQuery.paddingOf(context);
     final books = lib.value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (books == null || topics == null || content == null) return const NavLoading();
-    final gate = LibraryGate(ctrl, content, topics, books, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = LibraryGate(ctrl, content, topics, books, unlockAll: ref.read(progressProvider).gatesOpen);
     return Scaffold(
       backgroundColor: _wall,
       body: ListView(

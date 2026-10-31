@@ -283,7 +283,7 @@ class _Stones extends ConsumerWidget {
           for (final (i, (l, check)) in items.indexed)
             Builder(
               builder: (context) {
-                final open = check ? (ui < 0 || ctrl.unitOpen(course, ui)) && u.lessons.every(ctrl.lessonDone) || p.unlockAll : ctrl.lessonOpen(course, l);
+                final open = check ? (ui < 0 || ctrl.unitOpen(course, ui)) && u.lessons.every(ctrl.lessonDone) || p.gatesOpen : ctrl.lessonOpen(course, l);
                 final done = check ? ctrl.unitPassed(u) : ctrl.lessonDone(l);
                 final here = !check && l == current;
                 final dx = const [0.0, .32, .5, .32, 0.0, -.32, -.5, -.32][i % 8];

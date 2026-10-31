@@ -44,7 +44,8 @@ const mapRegions = [
 
 /// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.
 bool regionOpen(ProgressController ctrl, Course course, MapRegion r) {
-  if (r.pack != null) return course.pack(r.pack!)?.unlocked ?? false;
+  if (ctrl.gatesOpen) return true;
+  if (r.pack != null) return (course.pack(r.pack!)?.unlocked ?? false) || ctrl.hasPremium;
   final i = course.units.indexWhere((u) => u.level == r.level);
   return i >= 0 && ctrl.unitOpen(course, i);
 }
@@ -361,6 +362,40 @@ class _MapHomeState extends ConsumerState<MapHome> {
               ],
             ),
           ),
+
+          if (ref.watch(progressProvider).ownerMode)
+            Positioned(
+              left: 16,
+              bottom: 88,
+              child: Material(
+                color: const Color(0xE6C9A04C),
+                borderRadius: BorderRadius.circular(20),
+                child: InkWell(
+                  key: const ValueKey('owner-badge'),
+                  borderRadius: BorderRadius.circular(20),
+                  onTap: () async {
+                    final off = await showDialog<bool>(
+                      context: context,
+                      builder: (ctx) => AlertDialog(
+                        title: Text(hl('Owner mode')),
+                        content: Text(hl('Every lesson and pack is unlocked on this device. Turn off to restore normal gates. Your progress stays.')),
+                        actions: [
+                          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(hl('Keep on'))),
+                          FilledButton(key: const ValueKey('owner-turn-off'), onPressed: () => Navigator.pop(ctx, true), child: Text(hl('Turn off'))),
+                        ],
+                      ),
+                    );
+                    if (off == true && context.mounted) {
+                      ref.read(progressProvider.notifier).setOwnerMode(false);
+                    }
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                    child: Text('Owner mode', style: TextStyle(color: Color(0xFF1B2A4A), fontWeight: FontWeight.w800, fontSize: 12)),
+                  ),
+                ),
+              ),
+            ),
           // One big Continue button
           Positioned(
             left: 16, right: 16, bottom: 12,

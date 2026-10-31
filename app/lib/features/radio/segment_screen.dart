@@ -28,7 +28,7 @@ class SegmentScreen extends ConsumerWidget {
       return Scaffold(backgroundColor: radioDark, body: Center(child: TextButton(onPressed: () => context.go('/radio'), child: const Text('Programme not found — back to the radio'))));
     }
     // Strict lock: a deep link to a programme on a shut level never plays it.
-    final gate = RadioGate(ref.read(progressProvider.notifier), content, topics, segs, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = RadioGate(ref.read(progressProvider.notifier), content, topics, segs, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(s.level)) return SegmentLocked(seg: s);
     return _Player(key: ValueKey('seg-screen-${s.id}'), seg: s);
   }

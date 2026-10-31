@@ -99,6 +99,93 @@ class LegalScreen extends ConsumerStatefulWidget {
 class _LegalScreenState extends ConsumerState<LegalScreen> {
   static final docs = [privacyDoc, termsDoc, childrenDoc, aboutDoc];
   late String tab = docs.any((d) => d.id == widget.tab) ? widget.tab : 'privacy';
+  int _versionTaps = 0;
+  DateTime? _lastTap;
+
+
+  Future<void> _onVersionTap() async {
+    final now = DateTime.now();
+    if (_lastTap != null && now.difference(_lastTap!) > const Duration(seconds: 2)) {
+      _versionTaps = 0;
+    }
+    _lastTap = now;
+    _versionTaps += 1;
+    if (_versionTaps < 7) return;
+    _versionTaps = 0;
+    await _showOwnerDialog();
+  }
+
+  Future<void> _showOwnerDialog() async {
+    final ctrl = ref.read(progressProvider.notifier);
+    final p = ref.read(progressProvider);
+    if (p.ownerMode) {
+      final off = await showDialog<bool>(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: Text(hl('Owner mode')),
+          content: Text(hl('Owner mode is on. Turn it off to restore normal lesson locks on this device.')),
+          actions: [
+            TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(hl('Keep on'))),
+            FilledButton(key: const ValueKey('owner-about-off'), onPressed: () => Navigator.pop(ctx, true), child: Text(hl('Turn off'))),
+          ],
+        ),
+      );
+      if (off == true) ctrl.setOwnerMode(false);
+      return;
+    }
+    final box = TextEditingController();
+    final err = ValueNotifier<String?>(null);
+    final ok = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        key: const ValueKey('owner-code-dialog'),
+        title: Text(hl('Owner unlock')),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(hl('Enter the owner code for this device. Attempts are limited.')),
+            const SizedBox(height: 12),
+            TextField(
+              key: const ValueKey('owner-code-field'),
+              controller: box,
+              obscureText: true,
+              autocorrect: false,
+              enableSuggestions: false,
+              decoration: InputDecoration(labelText: hl('Code')),
+              onSubmitted: (_) => Navigator.pop(ctx, true),
+            ),
+            ValueListenableBuilder<String?>(
+              valueListenable: err,
+              builder: (_, e, _) => e == null
+                  ? const SizedBox.shrink()
+                  : Padding(padding: const EdgeInsets.only(top: 8), child: Text(hl(e), style: const TextStyle(color: BL.red, fontSize: 13))),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(hl('Cancel'))),
+          FilledButton(
+            key: const ValueKey('owner-code-submit'),
+            onPressed: () {
+              final e = ctrl.tryActivateOwner(box.text);
+              if (e == null) {
+                Navigator.pop(ctx, true);
+              } else {
+                err.value = e;
+              }
+            },
+            child: Text(hl('Unlock')),
+          ),
+        ],
+      ),
+    );
+    box.dispose();
+    err.dispose();
+    if (ok == true && mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(hl('Owner mode on — everything unlocked on this device.'))));
+    }
+  }
 
   Future<void> _export() async {
     final store = ref.read(progressStoreProvider);
@@ -190,6 +277,28 @@ class _LegalScreenState extends ConsumerState<LegalScreen> {
           if (d.id == 'about') ...[
             const SizedBox(height: 16),
             OutlinedButton.icon(onPressed: () => showLicensePage(context: context, applicationName: 'New Life UK'), icon: const Icon(Icons.description_outlined), label: Text(hl('Open-source licences'))),
+            const SizedBox(height: 20),
+            GestureDetector(
+              key: const ValueKey('about-version'),
+              behavior: HitTestBehavior.opaque,
+              onTap: _onVersionTap,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(hl('Version 1.1.0 (5)'), style: const TextStyle(fontSize: 13, color: BL.muted, fontWeight: FontWeight.w600)),
+                  Text(hl('New Life UK · local build'), style: const TextStyle(fontSize: 12, color: BL.muted)),
+                  if (ref.watch(progressProvider).ownerMode)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: TextButton(
+                        key: const ValueKey('owner-about-badge'),
+                        onPressed: _showOwnerDialog,
+                        child: Text(hl('Owner mode on — tap to manage')),
+                      ),
+                    ),
+                ]),
+              ),
+            ),
           ],
         ],
       ),

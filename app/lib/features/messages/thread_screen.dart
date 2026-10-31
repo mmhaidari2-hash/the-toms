@@ -42,7 +42,7 @@ class ThreadScreen extends ConsumerWidget {
         ),
       );
     }
-    final gate = ThreadGate(ref.read(progressProvider.notifier), content, topics, ts, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = ThreadGate(ref.read(progressProvider.notifier), content, topics, ts, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(t.level)) return ThreadLocked(t: t);
     return _Thread(key: ValueKey('thread-screen-${t.id}'), t: t);
   }

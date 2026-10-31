@@ -37,7 +37,7 @@ class SceneScreen extends ConsumerWidget {
       return Scaffold(backgroundColor: cinemaDark, body: Center(child: TextButton(onPressed: () => context.go('/cinema'), child: const Text('Scene not found — back to the Cinema'))));
     }
     // Strict lock: a deep link to a scene on a shut level never plays it.
-    final gate = CinemaGate(ref.read(progressProvider.notifier), content, topics, scenes, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = CinemaGate(ref.read(progressProvider.notifier), content, topics, scenes, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(s.level)) return SceneLocked(scene: s);
     return _Scene(key: ValueKey('scene-screen-${s.id}'), scene: s);
   }

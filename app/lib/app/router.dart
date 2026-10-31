@@ -17,6 +17,7 @@ import '../features/premium/premium_screen.dart';
 import '../features/grammar/school_screen.dart';
 import '../features/grammar/topic_screen.dart';
 import '../features/legal/legal_screen.dart';
+import '../features/owner/owner_screen.dart';
 import '../features/cinema/cinema_screen.dart';
 import '../features/cinema/scene_screen.dart';
 import '../features/lifeuk/lifeuk_screen.dart';
@@ -111,6 +112,7 @@ final router = GoRouter(
     GoRoute(path: '/placement', pageBuilder: (_, s) => _fade(const PlacementScreen(), s)),
     GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),
+    GoRoute(path: '/owner', pageBuilder: (_, s) => _fade(OwnerScreen(code: s.uri.queryParameters['code']), s)),
     GoRoute(path: '/legal', pageBuilder: (_, s) => _fade(LegalScreen(key: ValueKey('legal-${s.uri.queryParameters['tab']}'), tab: s.uri.queryParameters['tab'] ?? 'privacy'), s)),
     GoRoute(path: '/school', pageBuilder: (_, s) => _fade(SchoolScreen(college: s.uri.queryParameters['campus'] == 'college'), s)),
     GoRoute(path: '/school/:level', pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),

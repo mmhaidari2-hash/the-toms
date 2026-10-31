@@ -28,7 +28,7 @@ class TopicScreen extends ConsumerWidget {
     final t = topics.where((x) => x.id == id).firstOrNull;
     if (t == null) return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/school'), child: const Text('Topic not found — back to school'))));
     ref.watch(progressProvider);
-    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).unlockAll);
+    final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     // Strict lock: a deep link to a locked topic never shows the lesson.
     if (!g.topicOpen(t)) return TopicLocked(topic: t, gate: g);
     return _Topic(key: ValueKey('topic-screen-${t.id}'), topic: t, all: topics, content: content);
@@ -172,7 +172,7 @@ class _TopicState extends ConsumerState<_Topic> {
     final pad = MediaQuery.paddingOf(context);
     if (stage == _Stage.done && award != null) {
       final pct = (right * 100 / max(t.test.length, 1)).round(), pass = pct >= Grammar.pass;
-      final g = GrammarGate(ref.read(progressProvider.notifier), widget.content, widget.all, unlockAll: ref.read(progressProvider).unlockAll);
+      final g = GrammarGate(ref.read(progressProvider.notifier), widget.content, widget.all, unlockAll: ref.read(progressProvider).gatesOpen);
       final same = g.of(t.level), idx = same.indexOf(t);
       final next = idx + 1 < same.length ? same[idx + 1] : null;
       return Scaffold(

@@ -24,7 +24,7 @@ class SeasonsScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final es = ref.watch(seasonsProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (es == null || topics == null || content == null) return const NavLoading();
-    final gate = SeasonGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = SeasonGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).gatesOpen);
     final pad = MediaQuery.paddingOf(context);
     final up = Seasons.upcoming(es), feat = Seasons.featured(es);
     final rows = <Widget>[];
@@ -275,7 +275,7 @@ class _EventState extends ConsumerState<SeasonEventScreen> {
     final e = es.where((x) => x.id == widget.id).firstOrNull;
     final pad = MediaQuery.paddingOf(context);
     if (e == null) return Scaffold(body: Center(child: TextButton(onPressed: () => context.go('/seasons'), child: const Text('Not found — back to the calendar'))));
-    final gate = SeasonGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).unlockAll);
+    final gate = SeasonGate(ctrl, content, topics, es, unlockAll: ref.read(progressProvider).gatesOpen);
     if (!gate.levelOpen(e.level)) {
       final (en, fa) = SeasonGate.why(e.level);
       return Scaffold(

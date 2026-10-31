@@ -47,7 +47,7 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
     if (c == null) return const NavLoading();
     final lv = widget.level.clamp(1, 5);
     final (name, nameFa, cefr) = certLevels[lv]!;
-    final done = ctrl.levelComplete(c.course, lv) || p.unlockAll;
+    final done = ctrl.levelComplete(c.course, lv) || p.gatesOpen;
     final prog = ctrl.levelProgress(c.course, lv);
     final units = ctrl.levelUnits(c.course, lv);
     final pad = MediaQuery.paddingOf(context);
@@ -67,7 +67,7 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
                   child: ChoiceChip(
                     key: ValueKey('cert-level-$l'),
                     label: Text(hl('Level $l')),
-                    avatar: Icon(ctrl.levelComplete(c.course, l) || p.unlockAll ? Icons.verified_rounded : Icons.lock_outline_rounded, size: 16),
+                    avatar: Icon(ctrl.levelComplete(c.course, l) || p.gatesOpen ? Icons.verified_rounded : Icons.lock_outline_rounded, size: 16),
                     selected: l == lv,
                     onSelected: (_) => context.go('/certificate/$l'),
                   ),
