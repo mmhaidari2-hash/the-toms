@@ -1,0 +1,111 @@
+{
+  "main_protection": [
+    200,
+    {
+      "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/main/protection",
+      "required_pull_request_reviews": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/main/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/main/protection/required_signatures",
+        "enabled": false
+      },
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/main/protection/enforce_admins",
+        "enabled": false
+      },
+      "required_linear_history": {
+        "enabled": false
+      },
+      "allow_force_pushes": {
+        "enabled": false
+      },
+      "allow_deletions": {
+        "enabled": false
+      },
+      "block_creations": {
+        "enabled": false
+      },
+      "required_conversation_resolution": {
+        "enabled": false
+      },
+      "lock_branch": {
+        "enabled": false
+      },
+      "allow_fork_syncing": {
+        "enabled": false
+      }
+    }
+  ],
+  "source_protection": [
+    200,
+    {
+      "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/source/protection",
+      "required_pull_request_reviews": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/source/protection/required_pull_request_reviews",
+        "dismiss_stale_reviews": true,
+        "require_code_owner_reviews": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 1
+      },
+      "required_signatures": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/source/protection/required_signatures",
+        "enabled": false
+      },
+      "enforce_admins": {
+        "url": "https://api.github.com/repos/mmhaidari2-hash/the-toms/branches/source/protection/enforce_admins",
+        "enabled": false
+      },
+      "required_linear_history": {
+        "enabled": false
+      },
+      "allow_force_pushes": {
+        "enabled": false
+      },
+      "allow_deletions": {
+        "enabled": false
+      },
+      "block_creations": {
+        "enabled": false
+      },
+      "required_conversation_resolution": {
+        "enabled": false
+      },
+      "lock_branch": {
+        "enabled": false
+      },
+      "allow_fork_syncing": {
+        "enabled": false
+      }
+    }
+  ],
+  "secret_alerts": [
+    200,
+    []
+  ],
+  "dependabot_alerts": [
+    200,
+    []
+  ],
+  "codeql_default": [
+    200,
+    {
+      "state": "not-configured",
+      "languages": [
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "query_suite": "default",
+      "threat_model": "remote",
+      "updated_at": null,
+      "schedule": null,
+      "runner_type": "standard",
+      "runner_label": null
+    }
+  ]
+}

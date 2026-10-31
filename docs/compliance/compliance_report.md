@@ -1,5 +1,7 @@
 # New Life UK — Self-serve compliance & security report
 
+**Live deploy hash:** `thetoms-bd4f5aebf18c` (main `f5f58fa6`, source `c4415bec`) — Europe/London 31 Oct 2026 ~15:08
+
 **Date:** 31 October 2026 (Europe/London)  
 **Scope:** Android / Google Play + PWA (GitHub Pages), UK publisher, global users  
 **Important:** This is a **self-review by the product team / automation**, **not legal advice**. It does not create a solicitor–client relationship. For paid launch, have a qualified UK solicitor (and, for immigration wording, someone who understands OISC boundaries) review the live texts and Play Console answers.
@@ -120,6 +122,8 @@ Publisher fields still use `[PLACEHOLDER: …]` in `lib/core/legal/publisher_con
 
 ## A) Likeness & IP audit (this pass)
 
+Screenshots: `/workspace/legal/shots/legal_{privacy,terms,children,about}.png` (About includes fictional-characters notice).
+
 See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines re-rendered with same Azure voice map.
 
 ## B) Security hardening
@@ -137,7 +141,7 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 | Branch protection main+source | **done** | API 200; force-push disabled; 1 review |
 | Dependabot | **done** | `.github/dependabot.yml` (source tree) |
 | Secret scanning alerts API | **done** | HTTP 200 on public repo |
-| CodeQL default setup API | **needs user** | API 404 — enable in repo Settings → Code security, or add workflow |
+| CodeQL default setup API | **needs user** | API 200 `state: not-configured` — enable in Settings → Code security (languages detected: JS/TS) |
 | SECURITY.md + security.txt | **done** | App root + `web/.well-known/security.txt` |
 
 ### OWASP MASVS-L1 checklist (summary)
