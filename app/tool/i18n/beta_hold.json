@@ -1,0 +1,4 @@
+{
+ "hi": "2026-10-31 spot-check: ~20-33% of 75 sampled sentence-builder items unfaithful (e.g. kettle->cattery, 'best waiter'->'most patient', itchy->painful, dropped clauses) although flag_share 0.0137 / bt 0.0929 pass",
+ "ps": "bt_mismatch 0.2045 > 0.10; 2026-10-31 spot-check ~30% of 50 sampled items unfaithful (Pancake Day, mince pie, jam, horn mistranslated)"
+}

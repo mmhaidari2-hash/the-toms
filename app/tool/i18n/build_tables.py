@@ -32,7 +32,16 @@ def dump(name, d):
 dump('en', {k: v['en'] for k, v in src.items() if v.get('en')})
 cov = {}
 complete = set()  # every source line went through the translator (rejected ones fall back to English)
+# Languages whose machine-translation run has not passed its gate yet (tool/i18n/hold.json): kept at 'coming soon'
+# and their table removed, even if a half-finished mt/<code>.json already clears the 85% key bar. Remove a code from
+# hold.json once its run has passed (e.g. /workspace/run31/robust_mt.passed) and its QA has been reviewed.
+BETA_HOLD = json.load(open(os.path.join(H, 'beta_hold.json'))) if os.path.exists(os.path.join(H, 'beta_hold.json')) else {}
+HOLD = set(json.load(open(os.path.join(H, 'hold.json')))) if os.path.exists(os.path.join(H, 'hold.json')) else set()
 for c in CODES:
+    if c in HOLD:
+        cov[c] = 0.0; print('hold (not shipped):', c)
+        if os.path.exists(os.path.join(OUT, c + '.json')): os.remove(os.path.join(OUT, c + '.json'))
+        continue
     p = os.path.join(H, 'mt', c + '.json')
     if not os.path.exists(p): cov[c] = 0.0; continue
     try: mt = json.load(open(p))
@@ -78,7 +87,9 @@ for c in CODES:
     # of practice prompts dropped as unreliable and at most 10% of sampled back-translations missing the answer.
     # Anything else stays beta (English fallback for the lines that failed).
     q = QUALITY.get(c)
-    if all(k in mt for k in src) and q and q['flag_share'] <= 0.10 and q['bt_mismatch_rate'] <= 0.10: complete.add(c)
+    # Human spot-check veto (tool/i18n/beta_hold.json, code -> reason): a language whose sampled sentence-builder items
+    # are often unfaithful stays beta even when the automatic metrics pass.
+    if all(k in mt for k in src) and q and q['flag_share'] <= 0.10 and q['bt_mismatch_rate'] <= 0.10 and c not in BETA_HOLD: complete.add(c)
     if q: print(c, 'quality: prompts flagged', q['flag_share'], 'back-translation mismatch', q['bt_mismatch_rate'], 'ready-eligible' if c in complete else 'beta')
 # A language skipped this run keeps the coverage from the last build.
 prev = {}; prevc = set()
@@ -88,6 +99,7 @@ if os.path.exists(g):
         if line.strip().startswith("const helperComplete"): prevc = set(re.findall(r"'([a-zA-Z-]+)'", line))
         elif line.strip().startswith("'"): k, v = line.strip().rstrip(',').split(': '); prev[k.strip("'")] = float(v)
 for c in CODES:
+    if c in HOLD: continue
     if cov[c] is None:
         cov[c] = prev.get(c, 0.0)
         if c in prevc: complete.add(c)
