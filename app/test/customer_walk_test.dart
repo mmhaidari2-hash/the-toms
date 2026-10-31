@@ -137,8 +137,6 @@ void main() {
         '/visa',
         '/settlement',
         '/coach',
-        '/forms',
-        '/forms/gp_register',
         '/premium',
         '/read/a1_bus?ch=0',
       ];

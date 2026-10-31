@@ -1,40 +1,40 @@
 {
  "ar": {
-  "bt_checked": 1299,
-  "bt_mismatch": 12,
-  "bt_mismatch_rate": 0.0092,
+  "bt_checked": 1338,
+  "bt_mismatch": 17,
+  "bt_mismatch_rate": 0.0127,
   "flag_share": 0.089,
   "flagged": 590,
   "prompts": 6630
  },
  "hi": {
-  "bt_checked": 1486,
-  "bt_mismatch": 136,
-  "bt_mismatch_rate": 0.0915,
+  "bt_checked": 1523,
+  "bt_mismatch": 138,
+  "bt_mismatch_rate": 0.0906,
   "flag_share": 0.0312,
   "flagged": 207,
   "prompts": 6630
  },
  "pl": {
-  "bt_checked": 681,
-  "bt_mismatch": 45,
-  "bt_mismatch_rate": 0.0661,
+  "bt_checked": 721,
+  "bt_mismatch": 47,
+  "bt_mismatch_rate": 0.0652,
   "flag_share": 0.2452,
   "flagged": 1626,
   "prompts": 6630
  },
  "ps": {
-  "bt_checked": 609,
-  "bt_mismatch": 110,
-  "bt_mismatch_rate": 0.1806,
+  "bt_checked": 648,
+  "bt_mismatch": 113,
+  "bt_mismatch_rate": 0.1744,
   "flag_share": 0.0238,
   "flagged": 158,
   "prompts": 6630
  },
  "ur": {
-  "bt_checked": 1034,
-  "bt_mismatch": 35,
-  "bt_mismatch_rate": 0.0338,
+  "bt_checked": 1074,
+  "bt_mismatch": 37,
+  "bt_mismatch_rate": 0.0345,
   "flag_share": 0.0879,
   "flagged": 583,
   "prompts": 6630
