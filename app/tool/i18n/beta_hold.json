@@ -1,5 +1,6 @@
 {
- "hi": "2026-10-31 spot-check: ~20-33% of 75 sampled sentence-builder items unfaithful (e.g. kettle->cattery, 'best waiter'->'most patient', itchy->painful, dropped clauses) although flag_share 0.0137 / bt 0.0929 pass",
- "ps": "bt_mismatch 0.2045 > 0.10; 2026-10-31 spot-check ~30% of 50 sampled items unfaithful (Pancake Day, mince pie, jam, horn mistranslated)",
- "pl": "2026-10-31 batch3: flag_share 0.23, bt_mismatch ~0.17-0.26; spot-check ~40% of 60 shipped sentence-builder items unfaithful (dropped clauses, garbage tokens). 9354 garbage lines dropped via tool/i18n/drop/pl.json (English fallback); 91 hand fixes in manual/pl.json"
+  "hi": "run32 independent 75-sample (seed 991177) 5.3% — not the claimed 0%; keep beta (≤3% to promote)",
+  "ps": "run32 beta; sample ~16% > 3% promote gate",
+  "pl": "2026-10-31 batch3: flag_share 0.23, bt_mismatch ~0.17-0.26; spot-check ~40% of 60 shipped sentence-builder items unfaithful (dropped clauses, garbage tokens). 9354 garbage lines dropped via tool/i18n/drop/pl.json (English fallback); 91 hand fixes in manual/pl.json",
+  "ar": "run32 demote to beta; sample ~12–14.7% > 5%"
 }
