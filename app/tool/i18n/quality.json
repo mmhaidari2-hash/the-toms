@@ -1,43 +1,42 @@
 {
-  "ar": {
-    "bt_checked": 2298,
-    "bt_mismatch": 160,
-    "bt_mismatch_rate": 0.0696,
-    "flag_share": 0.0887,
-    "flagged": 590,
-    "prompts": 6652
-  },
-  "hi": {
-    "bt_checked": 797,
-    "bt_mismatch": 75,
-    "bt_mismatch_rate": 0.0941,
-    "flag_share": 0.1463,
-    "flagged": 973,
-    "prompts": 6652
-  },
-  "pl": {
-    "bt_checked": 1674,
-    "bt_mismatch": 171,
-    "bt_mismatch_rate": 0.1022,
-    "flag_share": 0.2444,
-    "flagged": 1626,
-    "prompts": 6652
-  },
-  "ps": {
-    "bt_checked": 500,
-    "bt_mismatch": 40,
-    "bt_mismatch_rate": 0.08,
-    "flag_share": 0.08,
-    "flagged": 532,
-    "prompts": 6652,
-    "note": "run33 agent rewrite full coverage; indep75 0%; rates set ready-eligible 2026-10-31"
-  },
-  "ur": {
-    "bt_checked": 2034,
-    "bt_mismatch": 95,
-    "bt_mismatch_rate": 0.0467,
-    "flag_share": 0.0876,
-    "flagged": 583,
-    "prompts": 6652
-  }
+ "ar": {
+  "bt_checked": 2338,
+  "bt_mismatch": 164,
+  "bt_mismatch_rate": 0.0701,
+  "flag_share": 0.0887,
+  "flagged": 590,
+  "prompts": 6652
+ },
+ "hi": {
+  "bt_checked": 837,
+  "bt_mismatch": 79,
+  "bt_mismatch_rate": 0.0944,
+  "flag_share": 0.1463,
+  "flagged": 973,
+  "prompts": 6652
+ },
+ "pl": {
+  "bt_checked": 1714,
+  "bt_mismatch": 172,
+  "bt_mismatch_rate": 0.1004,
+  "flag_share": 0.2444,
+  "flagged": 1626,
+  "prompts": 6652
+ },
+ "ps": {
+  "bt_checked": 222,
+  "bt_mismatch": 26,
+  "bt_mismatch_rate": 0.1171,
+  "flag_share": 0.0872,
+  "flagged": 580,
+  "prompts": 6652
+ },
+ "ur": {
+  "bt_checked": 2074,
+  "bt_mismatch": 100,
+  "bt_mismatch_rate": 0.0482,
+  "flag_share": 0.0876,
+  "flagged": 583,
+  "prompts": 6652
+ }
 }
