@@ -72,6 +72,11 @@ for c in CODES:
     stock |= {v for v in uses if v.strip(' .') in ('हयात',)}
     t = {k: v for k, v in t.items() if v not in stock}
     print(c, 'stock outputs dropped:', len(stock))
+    # Lines whose machine translation carries non-words / foreign-language garbage (tool/i18n/drop/<code>.json, made by a
+    # lexicon check such as /workspace/run31/pl_lexcheck.py): dropped so they fall back to English.
+    dp = os.path.join(H, 'drop', c + '.json')
+    if os.path.exists(dp):
+        _drop = set(json.load(open(dp))); t = {k: v for k, v in t.items() if k not in _drop}; print(c, 'dropped (lexicon garbage):', len(_drop))
     man = os.path.join(H, 'manual', c + '.json')  # hand-checked lines win over the machine translation
     if os.path.exists(man): t.update({k: v for k, v in json.load(open(man)).items() if k in src})
     # Practice prompts whose translation does not carry the whole answer (tool/qa/qa_translate.py): dropped, so the
