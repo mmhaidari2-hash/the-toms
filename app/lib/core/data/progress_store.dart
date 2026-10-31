@@ -4,8 +4,6 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'dart:typed_data';
-
 import '../models/learner_profile.dart';
 import '../engine/weekly.dart';
 
