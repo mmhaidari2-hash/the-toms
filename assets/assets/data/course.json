@@ -62653,14 +62653,14 @@
  "packs": [
   {
    "id": "homes",
-   "title": "Fennick & Rowe Homes",
-   "titleFa": "املاک فنیک اند رو",
+   "title": "Hartley & Wren Homes",
+   "titleFa": "املاک هارتلی و رن",
    "lead": "agent",
    "place": "hallway",
    "premium": false,
    "gated": true,
-   "blurb": "Renting and buying a home in England with Olivia and her manager Graham Holt: viewings, deposits, Right to Rent, your tenancy, repairs, moving out, offers, mortgages, solicitors and stamp duty. Checked against GOV.UK (October 2026). Fennick & Rowe Homes is fictional; real bodies are named only as facts and we are not affiliated with them. This is not legal advice.",
-   "blurbFa": "اجاره و خرید خانه در انگلستان با اولیویا و مدیرش گراهام هولت: بازدید، ودیعه، بررسی حق اجاره، قرارداد، تعمیرات، تخلیه، پیشنهاد خرید، وام مسکن، وکیل و مالیات تمبر. بررسی‌شده با GOV.UK (اکتبر ۲۰۲۶). املاک فنیک اند رو خیالی است؛ نهادهای واقعی فقط به‌عنوان واقعیت نام برده شده‌اند و ما وابسته به آن‌ها نیستیم. این مشاورهٔ حقوقی نیست.",
+   "blurb": "Renting and buying a home in England with Olivia and her manager Graham Holt: viewings, deposits, Right to Rent, your tenancy, repairs, moving out, offers, mortgages, solicitors and stamp duty. Checked against GOV.UK (October 2026). Hartley & Wren Homes is fictional; real bodies are named only as facts and we are not affiliated with them. This is not legal advice.",
+   "blurbFa": "اجاره و خرید خانه در انگلستان با اولیویا و مدیرش گراهام هولت: بازدید، ودیعه، بررسی حق اجاره، قرارداد، تعمیرات، تخلیه، پیشنهاد خرید، وام مسکن، وکیل و مالیات تمبر. بررسی‌شده با GOV.UK (اکتبر ۲۰۲۶). املاک هارتلی و رن خیالی است؛ نهادهای واقعی فقط به‌عنوان واقعیت نام برده شده‌اند و ما وابسته به آن‌ها نیستیم. این مشاورهٔ حقوقی نیست.",
    "levels": "A2–B2",
    "units": [
     {
@@ -63863,8 +63863,8 @@
   },
   {
    "id": "nursery",
-   "title": "Vida's Nursery",
-   "titleFa": "مهدکودک ویدا",
+   "title": "Primrose Lane Nursery",
+   "titleFa": "مهدکودک پرایمروز لین",
    "lead": "vida",
    "place": "firstday",
    "premium": true,
@@ -63971,7 +63971,7 @@
     {
      "level": 0,
      "id": "N1",
-     "title": "Good morning, Little Acorns!",
+     "title": "Good morning, Primrose Lane!",
      "titleFa": "صبح بخیر، لیتل ایکورنز!",
      "place": "firstday",
      "canDo": "Greet children, give simple instructions, wash hands and snack time",
