@@ -1,0 +1,329 @@
+{
+  "id": "nur_0_1",
+  "characterId": "vida",
+  "title": "The nursery interview",
+  "titleFa": "مصاحبهٔ مهدکودک",
+  "setting": "Getting the job · Vida's Nursery",
+  "settingFa": "گرفتن شغل · مهدکودک ویدا",
+  "requires": null,
+  "start": "n1",
+  "level": "B1",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "speaker": "vida",
+      "text": "Come in, Sara. I'm Vida — room leader for pre-school. Thanks for applying for the nursery assistant post.",
+      "translations": {
+        "fa": "بیا تو سارا. من ویدام — سرپرست اتاق پیش‌دبستانی. ممنون که برای پست دستیار مهدکودک درخواست دادی."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "thank",
+            "thanks",
+            "morning"
+          ],
+          "suggestion": "Thank you for seeing me, Vida.",
+          "suggestionFa": "ممنون که وقت گذاشتی ویدا.",
+          "trustDelta": 6,
+          "next": "n2",
+          "success": true
+        },
+        {
+          "keywords": [
+            "pleasure",
+            "meet",
+            "nice"
+          ],
+          "suggestion": "Nice to meet you. Thank you.",
+          "suggestionFa": "از آشنایی‌ات خوشحالم. ممنون.",
+          "trustDelta": 5,
+          "next": "n2",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "room leader",
+          "fa": "سرپرست اتاق"
+        },
+        {
+          "word": "nursery assistant",
+          "fa": "دستیار مهدکودک"
+        },
+        {
+          "word": "post",
+          "fa": "پست ؛ سمت"
+        }
+      ],
+      "cultureNote": {
+        "en": "UK early-years interviews often mix warm chat with safeguarding and EYFS questions.",
+        "fa": "مصاحبه‌های مهد معمولاً گپ گرم را با سؤال‌های حفاظت و EYFS قاطی می‌کنند."
+      }
+    },
+    "n2": {
+      "id": "n2",
+      "speaker": "vida",
+      "text": "Tell me briefly why you want to work with children in a British nursery.",
+      "translations": {
+        "fa": "کوتاه بگو چرا می‌خوای تو یک مهد بریتانیایی با بچه‌ها کار کنی."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "reliable",
+            "calm",
+            "learn",
+            "british",
+            "early"
+          ],
+          "suggestion": "I am calm with children and keen to learn British early-years practice.",
+          "suggestionFa": "با بچه‌ها آرامم و مشتاق یادگیری کار واقعی مهد در بریتانیایم.",
+          "trustDelta": 6,
+          "next": "n3",
+          "success": true
+        },
+        {
+          "keywords": [
+            "love",
+            "children",
+            "help"
+          ],
+          "suggestion": "I love working with children and want to help them feel safe.",
+          "suggestionFa": "عاشق کار با بچه‌ام و می‌خوام احساس امنیت کنند.",
+          "trustDelta": 5,
+          "next": "n3",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "early-years",
+          "fa": "سال‌های اولیهٔ کودکی"
+        },
+        {
+          "word": "keen",
+          "fa": "مشتاق"
+        },
+        {
+          "word": "practice",
+          "fa": "کار عملی ؛ رویه"
+        }
+      ]
+    },
+    "n3": {
+      "id": "n3",
+      "speaker": "vida",
+      "text": "Good. What would you do if a child told you a secret that worried you — for example, that someone at home had hurt them?",
+      "translations": {
+        "fa": "خوبه. اگر بچه‌ای رازی بگه که نگران‌ات کنه — مثلاً کسی در خانه اذیتش کرده — چی کار می‌کنی؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "safeguarding",
+            "dsl",
+            "report",
+            "designated",
+            "record"
+          ],
+          "suggestion": "I would listen, not ask leading questions, and report straight to the Designated Safeguarding Lead.",
+          "suggestionFa": "گوش می‌دم، سؤال جهت‌دار نمی‌پرسم و فوری به مسئول حفاظت (DSL) گزارش می‌دم.",
+          "trustDelta": 6,
+          "next": "n4",
+          "success": true
+        },
+        {
+          "keywords": [
+            "manager",
+            "tell",
+            "write"
+          ],
+          "suggestion": "I would tell the manager and write it down carefully.",
+          "suggestionFa": "به مدیر می‌گم و با دقت می‌نویسم.",
+          "trustDelta": 5,
+          "next": "n4",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "Designated Safeguarding Lead",
+          "fa": "مسئول تعیین‌شدهٔ حفاظت از کودک"
+        },
+        {
+          "word": "leading questions",
+          "fa": "سؤال‌های جهت‌دار"
+        },
+        {
+          "word": "report",
+          "fa": "گزارش دادن"
+        }
+      ],
+      "cultureNote": {
+        "en": "Never promise to keep a safeguarding secret. Record facts and tell the DSL the same day.",
+        "fa": "هرگز قول راز نگه‌داشتن نگرانی حفاظتی نده. همان روز به DSL بگو."
+      }
+    },
+    "n4": {
+      "id": "n4",
+      "speaker": "vida",
+      "text": "And are you happy to complete a DBS check and paediatric first-aid training?",
+      "translations": {
+        "fa": "و آماده‌ای بررسی DBS و آموزش کمک‌های اولیهٔ کودکان را انجام بدی؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "yes",
+            "happy",
+            "dbs",
+            "first"
+          ],
+          "suggestion": "Yes — I am happy to complete a DBS check and first-aid training.",
+          "suggestionFa": "بله — آماده‌ام DBS و کمک اولیه را انجام بدهم.",
+          "trustDelta": 6,
+          "next": "n5",
+          "success": true
+        },
+        {
+          "keywords": [
+            "what",
+            "dbs",
+            "mean"
+          ],
+          "suggestion": "Yes. Could you explain what DBS covers?",
+          "suggestionFa": "بله. می‌تونی بگی DBS شامل چیه؟",
+          "trustDelta": 5,
+          "next": "n5",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "DBS check",
+          "fa": "بررسی سابقهٔ کیفری برای کار با کودکان"
+        },
+        {
+          "word": "paediatric first aid",
+          "fa": "کمک‌های اولیهٔ کودکان"
+        }
+      ]
+    },
+    "n5": {
+      "id": "n5",
+      "speaker": "vida",
+      "text": "DBS is an enhanced criminal-record check for anyone working with children. Last question: what does 'in ratio' mean to you?",
+      "translations": {
+        "fa": "DBS بررسی سابقه برای کار با کودک است. سؤال آخر: «in ratio» برات یعنی چی؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "staff",
+            "children",
+            "legal",
+            "enough",
+            "adults"
+          ],
+          "suggestion": "It means having enough staff for the number of children — the legal staff-to-child ratio.",
+          "suggestionFa": "یعنی به‌اندازهٔ کافی پرسنل نسبت به تعداد بچه‌ها — نسبت قانونی.",
+          "trustDelta": 6,
+          "next": "n6",
+          "success": true
+        },
+        {
+          "keywords": [
+            "numbers",
+            "safe",
+            "enough"
+          ],
+          "suggestion": "Enough adults so children stay safe.",
+          "suggestionFa": "به‌اندازهٔ کافی بزرگسال تا بچه‌ها امن بمانند.",
+          "trustDelta": 5,
+          "next": "n6",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "in ratio",
+          "fa": "در نسبت قانونی پرسنل به کودک"
+        },
+        {
+          "word": "staff-to-child ratio",
+          "fa": "نسبت پرسنل به کودک"
+        }
+      ]
+    },
+    "n6": {
+      "id": "n6",
+      "speaker": "vida",
+      "text": "Exactly. Under-twos need more adults than pre-school. Sara, we'd love to offer you a trial morning. Can you start Thursday?",
+      "translations": {
+        "fa": "دقیقاً. زیر دو سال بزرگسال بیشتری لازم دارند. سارا، دوست داریم یک صبح آزمایشی بهت بدیم. پنجشنبه می‌تونی بیای؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "thursday",
+            "yes",
+            "start",
+            "can"
+          ],
+          "suggestion": "Yes, I can start on Thursday. Thank you so much.",
+          "suggestionFa": "بله، پنجشنبه می‌تونم شروع کنم. خیلی ممنونم.",
+          "trustDelta": 6,
+          "next": "end",
+          "success": true
+        },
+        {
+          "keywords": [
+            "trial",
+            "what",
+            "morning"
+          ],
+          "suggestion": "Yes. What should I bring for the trial morning?",
+          "suggestionFa": "بله. برای صبح آزمایشی چی بیارم؟",
+          "trustDelta": 5,
+          "next": "end",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "trial morning",
+          "fa": "صبح آزمایشی"
+        },
+        {
+          "word": "offer",
+          "fa": "پیشنهاد شغل"
+        }
+      ],
+      "cultureNote": {
+        "en": "A trial / taster session lets the nursery and you check the fit before a contract.",
+        "fa": "صبح آزمایشی قبل از قرارداد است تا طرفین همدیگر را بسنجند."
+      }
+    },
+    "end": {
+      "id": "end",
+      "speaker": "vida",
+      "text": "Bring comfortable clothes, your ID for the DBS form, and a big smile. Welcome to Little Acorns — see you Thursday.",
+      "translations": {
+        "fa": "لباس راحت، مدرک شناسایی برای فرم DBS و یه لبخند بزرگ بیار. به لیتل ایکورنز خوش اومدی — پنجشنبه می‌بینمت."
+      },
+      "branches": [],
+      "newWords": [
+        {
+          "word": "ID",
+          "fa": "مدرک شناسایی"
+        },
+        {
+          "word": "comfortable clothes",
+          "fa": "لباس راحت"
+        }
+      ]
+    }
+  },
+  "guest": "sara"
+}

@@ -11,8 +11,8 @@ void main() {
   final ids = [for (final u in pack['units']) for (final l in u['lessons']) ...List<String>.from(l['sceneIds'])];
   final learner = RegExp(r'\{you\}');
 
-  test('the nursery pack has 24 lessons and its own guest, Sara', () {
-    expect(ids.length, 24);
+  test('the nursery pack has 29 lessons and its own guest, Sara', () {
+    expect(ids.length, 29);
     expect(pack['guest'], 'sara');
     final chars = jsonDecode(File('assets/data/characters.json').readAsStringSync()) as List;
     final sara = chars.firstWhere((c) => c['id'] == 'sara');

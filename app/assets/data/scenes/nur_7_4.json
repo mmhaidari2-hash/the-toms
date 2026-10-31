@@ -1,0 +1,273 @@
+{
+  "id": "nur_7_4",
+  "characterId": "vida",
+  "title": "Talking to children",
+  "titleFa": "حرف زدن با کودکان",
+  "setting": "Ratios, registers and logs · Vida's Nursery",
+  "settingFa": "نسبت‌ها، حضور و غیاب و لاگ‌ها",
+  "requires": null,
+  "start": "n1",
+  "level": "A2",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "speaker": "vida",
+      "text": "Get down to their level, make eye contact, and use their name. Try: 'William, I can see you're building.'",
+      "translations": {
+        "fa": "برس به سطح قدشون، چشم در چشم، و اسمشون را بگو. امتحان کن: «ویلیام، می‌بینم داری می‌سازی.»"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "william",
+            "building",
+            "see"
+          ],
+          "suggestion": "William, I can see you're building.",
+          "suggestionFa": "ویلیام، می‌بینم داری می‌سازی.",
+          "trustDelta": 6,
+          "next": "n2",
+          "success": true
+        },
+        {
+          "keywords": [
+            "level",
+            "why",
+            "down"
+          ],
+          "suggestion": "Why do we get down to their level?",
+          "suggestionFa": "چرا باید بیاییم هم‌سطح قدشان؟",
+          "trustDelta": 5,
+          "next": "n2",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "eye contact",
+          "fa": "تماس چشمی"
+        },
+        {
+          "word": "get down to their level",
+          "fa": "آمدن هم‌سطح قد کودک"
+        },
+        {
+          "word": "building",
+          "fa": "در حال ساختن"
+        }
+      ],
+      "cultureNote": {
+        "en": "Commentary — saying what you see — builds language without testing the child.",
+        "fa": "توصیف آنچه می‌بینی زبان را می‌سازد بدون امتحان کردن کودک."
+      }
+    },
+    "n2": {
+      "id": "n2",
+      "speaker": "vida",
+      "text": "Open questions help more than yes/no. Instead of 'Is it a tower?', try 'What are you making?'",
+      "translations": {
+        "fa": "سؤال باز بهتر از بله/خیر است. به‌جای «برج است؟» بگو «چی درست می‌کنی؟»"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "what",
+            "making",
+            "are"
+          ],
+          "suggestion": "What are you making?",
+          "suggestionFa": "چی درست می‌کنی؟",
+          "trustDelta": 6,
+          "next": "n3",
+          "success": true
+        },
+        {
+          "keywords": [
+            "open",
+            "question"
+          ],
+          "suggestion": "That's an open question — thank you.",
+          "suggestionFa": "این سؤال باز است — ممنون.",
+          "trustDelta": 5,
+          "next": "n3",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "open question",
+          "fa": "سؤال باز"
+        },
+        {
+          "word": "yes/no",
+          "fa": "بله/خیر"
+        }
+      ]
+    },
+    "n3": {
+      "id": "n3",
+      "speaker": "william",
+      "text": "A rocket! It goes whoosh to the moon!",
+      "translations": {
+        "fa": "یه موشک! می‌ره ووش به ماه!"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "whoosh",
+            "moon",
+            "rocket",
+            "wonderful"
+          ],
+          "suggestion": "A rocket to the moon — whoosh! How exciting!",
+          "suggestionFa": "موشک به ماه — ووش! چه هیجان‌انگیز!",
+          "trustDelta": 6,
+          "next": "n4",
+          "success": true
+        },
+        {
+          "keywords": [
+            "blocks",
+            "many",
+            "how"
+          ],
+          "suggestion": "How many blocks did you use for your rocket?",
+          "suggestionFa": "برای موشکت چند تا بلوک استفاده کردی؟",
+          "trustDelta": 5,
+          "next": "n4",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "rocket",
+          "fa": "موشک"
+        },
+        {
+          "word": "whoosh",
+          "fa": "ووش (صدای حرکت سریع)"
+        },
+        {
+          "word": "moon",
+          "fa": "ماه"
+        }
+      ]
+    },
+    "n4": {
+      "id": "n4",
+      "speaker": "vida",
+      "text": "If two children want the same toy, coach the words: 'Can I have a turn when you're finished?'",
+      "translations": {
+        "fa": "اگر دو بچه یک اسباب‌بازی بخواهند، کلمه‌ها را یاد بده: «وقتی تموم کردی نوبت من می‌شه؟»"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "turn",
+            "finished",
+            "can"
+          ],
+          "suggestion": "Can I have a turn when you're finished?",
+          "suggestionFa": "وقتی تموم کردی نوبت من می‌شه؟",
+          "trustDelta": 6,
+          "next": "n5",
+          "success": true
+        },
+        {
+          "keywords": [
+            "gentle",
+            "hands",
+            "use",
+            "words"
+          ],
+          "suggestion": "Use gentle hands and use your words.",
+          "suggestionFa": "دست‌های مهربان و با کلمه بگو.",
+          "trustDelta": 5,
+          "next": "n5",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "turn",
+          "fa": "نوبت"
+        },
+        {
+          "word": "coach",
+          "fa": "آموزش دادن با راهنمایی"
+        },
+        {
+          "word": "gentle hands",
+          "fa": "دست‌های مهربان"
+        }
+      ]
+    },
+    "n5": {
+      "id": "n5",
+      "speaker": "vida",
+      "text": "Praise the effort, not just the result: 'You kept trying — that was persevering.' That's EYFS language.",
+      "translations": {
+        "fa": "تلاش را تشویق کن، نه فقط نتیجه را: «ادامه دادی — این پشتکار بود.» این زبان EYFS است."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "trying",
+            "persevering",
+            "kept"
+          ],
+          "suggestion": "You kept trying — that was persevering.",
+          "suggestionFa": "ادامه دادی — این پشتکار بود.",
+          "trustDelta": 6,
+          "next": "end",
+          "success": true
+        },
+        {
+          "keywords": [
+            "eyfs",
+            "language"
+          ],
+          "suggestion": "So we use EYFS words when we praise.",
+          "suggestionFa": "پس موقع تشویق از واژه‌های EYFS استفاده می‌کنیم.",
+          "trustDelta": 5,
+          "next": "end",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "persevering",
+          "fa": "پشتکار داشتن"
+        },
+        {
+          "word": "praise",
+          "fa": "تشویق"
+        },
+        {
+          "word": "EYFS",
+          "fa": "چارچوب سال‌های اولیه"
+        }
+      ]
+    },
+    "end": {
+      "id": "end",
+      "speaker": "vida",
+      "text": "You're a language role model every minute you're on the floor. Short, warm, clear — that's the job.",
+      "translations": {
+        "fa": "هر دقیقه‌ای که روی کف اتاق هستی الگوی زبانی هستی. کوتاه، گرم، واضح — این همان کار است."
+      },
+      "branches": [],
+      "newWords": [
+        {
+          "word": "role model",
+          "fa": "الگو"
+        },
+        {
+          "word": "on the floor",
+          "fa": "روی کف اتاق ؛ در کنار بچه‌ها"
+        }
+      ]
+    }
+  },
+  "guest": "sara"
+}

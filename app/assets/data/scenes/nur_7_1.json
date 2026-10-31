@@ -1,0 +1,268 @@
+{
+  "id": "nur_7_1",
+  "characterId": "jo",
+  "title": "Staff ratios",
+  "titleFa": "نسبت پرسنل به کودک",
+  "setting": "Ratios, registers and logs · Vida's Nursery",
+  "settingFa": "نسبت‌ها، حضور و غیاب و لاگ‌ها",
+  "requires": null,
+  "start": "n1",
+  "level": "B1",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "speaker": "jo",
+      "text": "Sara, before we open the garden — quick check. How many children have we got in pre-school this morning?",
+      "translations": {
+        "fa": "سارا، قبل از باز کردن حیاط — یه چک سریع. امروز صبح چند تا بچه تو پیش‌دبستانی داریم؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "eighteen",
+            "18",
+            "counted"
+          ],
+          "suggestion": "I've counted eighteen on the register.",
+          "suggestionFa": "روی دفتر حضور هیجده تا شمردم.",
+          "trustDelta": 6,
+          "next": "n2",
+          "success": true
+        },
+        {
+          "keywords": [
+            "register",
+            "check",
+            "let"
+          ],
+          "suggestion": "Let me check the register.",
+          "suggestionFa": "بذار دفتر حضور را چک کنم.",
+          "trustDelta": 5,
+          "next": "n2",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "register",
+          "fa": "دفتر حضور و غیاب"
+        },
+        {
+          "word": "pre-school",
+          "fa": "پیش‌دبستانی"
+        },
+        {
+          "word": "count",
+          "fa": "شمردن"
+        }
+      ]
+    },
+    "n2": {
+      "id": "n2",
+      "speaker": "jo",
+      "text": "Eighteen with three of us: that's one to six. Pre-school ratio is usually 1:8, so we're fine. What about the toddler room?",
+      "translations": {
+        "fa": "هیجده تا با سه نفرمون: می‌شه یک به شش. نسبت پیش‌دبستانی معمولاً ۱ به ۸ است، پس اوکییم. اتاق نوپا چی؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "toddlers",
+            "one",
+            "four",
+            "1:4",
+            "ratio"
+          ],
+          "suggestion": "Toddlers are usually one adult to four children.",
+          "suggestionFa": "نوپاها معمولاً یک بزرگسال به چهار کودک‌اند.",
+          "trustDelta": 6,
+          "next": "n3",
+          "success": true
+        },
+        {
+          "keywords": [
+            "stricter",
+            "tighter",
+            "younger"
+          ],
+          "suggestion": "Younger children need a tighter ratio.",
+          "suggestionFa": "بچه‌های کوچک‌تر نسبت سخت‌گیرانه‌تری لازم دارند.",
+          "trustDelta": 5,
+          "next": "n3",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "toddler room",
+          "fa": "اتاق نوپا"
+        },
+        {
+          "word": "1:8",
+          "fa": "یک به هشت"
+        },
+        {
+          "word": "ratio",
+          "fa": "نسبت"
+        }
+      ],
+      "cultureNote": {
+        "en": "England EYFS ratios (typical): babies often 1:3, 2-year-olds 1:5 or 1:4 depending on qualifications, 3+ often 1:8 (or 1:13 with a teacher). Always follow your setting's policy and the current EYFS.",
+        "fa": "نسبت‌های معمول EYFS در انگلستان سخت‌گیرانه‌تر برای نوزادان است. همیشه سیاست مهد و EYFS جاری را دنبال کن."
+      }
+    },
+    "n3": {
+      "id": "n3",
+      "speaker": "jo",
+      "text": "Right. If someone goes on break, we must stay in ratio — never leave the room short. Who is covering your break?",
+      "translations": {
+        "fa": "درسته. اگر کسی بره استراحت، باید در نسبت بمانیم — اتاق را کم‌نفر نگذار. استراحت تو را کی پوشش می‌ده؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "vida",
+            "cover",
+            "covering"
+          ],
+          "suggestion": "Vida's covering me at half twelve.",
+          "suggestionFa": "ویدا ساعت دوازده و نیم جای من را پر می‌کنه.",
+          "trustDelta": 6,
+          "next": "n4",
+          "success": true
+        },
+        {
+          "keywords": [
+            "manager",
+            "office"
+          ],
+          "suggestion": "The manager can cover from the office if needed.",
+          "suggestionFa": "اگر لازم باشد مدیر از دفتر پوشش می‌دهد.",
+          "trustDelta": 5,
+          "next": "n4",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "cover",
+          "fa": "پوشش دادن ؛ جای کسی کار کردن"
+        },
+        {
+          "word": "short",
+          "fa": "کم‌نفر"
+        },
+        {
+          "word": "break",
+          "fa": "استراحت"
+        }
+      ]
+    },
+    "n4": {
+      "id": "n4",
+      "speaker": "jo",
+      "text": "Good. Headcount when we go out and when we come in — every transition. Say it with me: 'I have eighteen children.'",
+      "translations": {
+        "fa": "خوبه. هنگام خروج و ورود، تعداد را بشمار — در هر جابه‌جایی. با من بگو: «هیجده کودک دارم.»"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "eighteen",
+            "children",
+            "have"
+          ],
+          "suggestion": "I have eighteen children.",
+          "suggestionFa": "هیجده کودک دارم.",
+          "trustDelta": 6,
+          "next": "n5",
+          "success": true
+        },
+        {
+          "keywords": [
+            "headcount",
+            "why"
+          ],
+          "suggestion": "Why do we headcount at every transition?",
+          "suggestionFa": "چرا در هر جابه‌جایی تعداد را می‌شماریم؟",
+          "trustDelta": 5,
+          "next": "n5",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "headcount",
+          "fa": "شمارش تعداد سرها"
+        },
+        {
+          "word": "transition",
+          "fa": "جابه‌جایی ؛ تغییر مکان"
+        }
+      ]
+    },
+    "n5": {
+      "id": "n5",
+      "speaker": "jo",
+      "text": "Because children move fast. One missing child is an emergency. If your count doesn't match the register, stop and tell me immediately.",
+      "translations": {
+        "fa": "چون بچه‌ها تند جابه‌جا می‌شوند. یک کودک گمشده اورژانسی است. اگر تعدادت با دفتر جور نبود، بایست و فوری به من بگو."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "stop",
+            "tell",
+            "match"
+          ],
+          "suggestion": "If it doesn't match, I stop and tell you straight away.",
+          "suggestionFa": "اگر جور نبود می‌ایستم و فوری بهت می‌گم.",
+          "trustDelta": 6,
+          "next": "end",
+          "success": true
+        },
+        {
+          "keywords": [
+            "emergency",
+            "missing"
+          ],
+          "suggestion": "A missing child is treated as an emergency.",
+          "suggestionFa": "کودک گمشده مثل اورژانس برخورد می‌شود.",
+          "trustDelta": 5,
+          "next": "end",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "missing child",
+          "fa": "کودک گمشده"
+        },
+        {
+          "word": "straight away",
+          "fa": "فوراً"
+        }
+      ]
+    },
+    "end": {
+      "id": "end",
+      "speaker": "jo",
+      "text": "Perfect. Ratios keep children safe and keep Ofsted happy. Let's open the garden — I'll take the back, you take the gate.",
+      "translations": {
+        "fa": "عالی. نسبت‌ها بچه‌ها را امن و Ofsted را راضی نگه می‌دارد. حیاط را باز کنیم — من عقب، تو دروازه."
+      },
+      "branches": [],
+      "newWords": [
+        {
+          "word": "gate",
+          "fa": "دروازه"
+        },
+        {
+          "word": "Ofsted",
+          "fa": "بازرسی کیفیت آموزش"
+        }
+      ]
+    }
+  },
+  "guest": "sara"
+}

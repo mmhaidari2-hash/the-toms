@@ -63868,11 +63868,106 @@
    "lead": "vida",
    "place": "firstday",
    "premium": true,
-   "blurb": "Real early-years English for working in a UK nursery: routines, children, parents, colleagues, safeguarding, EYFS and Ofsted.",
-   "blurbFa": "انگلیسی واقعی برای کار در مهدکودک‌های بریتانیا: روال روزانه، بچه‌ها، والدین، همکاران، حفاظت از کودک، EYFS و Ofsted.",
+   "blurb": "Real early-years English for working in a UK nursery: interview, routines, ratios, care logs, parents, safeguarding, EYFS and Ofsted.",
+   "blurbFa": "انگلیسی واقعی کار در مهد بریتانیا: مصاحبه، روال روزانه، نسبت‌ها، لاگ مراقبت، والدین، حفاظت، EYFS و Ofsted.",
    "levels": "A1–B2",
    "guest": "sara",
    "units": [
+    {
+     "level": 0,
+     "id": "N0",
+     "title": "Getting the job",
+     "titleFa": "گرفتن شغل",
+     "place": "interview",
+     "canDo": "Handle a UK nursery interview: experience, safeguarding, DBS and ratios",
+     "canDoFa": "مصاحبهٔ مهد بریتانیا را مدیریت کنی: تجربه، حفاظت، DBS و نسبت‌ها",
+     "cefr": "B1",
+     "lessons": [
+      {
+       "id": "nur_0_1",
+       "title": "The nursery interview",
+       "titleFa": "مصاحبهٔ مهدکودک",
+       "lead": "vida",
+       "place": "interview",
+       "grammar": "Present simple for experience + would for hypotheticals",
+       "grammarFa": "حال ساده برای تجربه + would",
+       "sceneIds": [
+        "nur_0_1"
+       ],
+       "words": [
+        {
+         "word": "room leader",
+         "fa": "سرپرست اتاق"
+        },
+        {
+         "word": "nursery assistant",
+         "fa": "دستیار مهدکودک"
+        },
+        {
+         "word": "post",
+         "fa": "پست ؛ سمت"
+        },
+        {
+         "word": "early-years",
+         "fa": "سال‌های اولیهٔ کودکی"
+        },
+        {
+         "word": "keen",
+         "fa": "مشتاق"
+        },
+        {
+         "word": "practice",
+         "fa": "کار عملی ؛ رویه"
+        },
+        {
+         "word": "Designated Safeguarding Lead",
+         "fa": "مسئول تعیین‌شدهٔ حفاظت از کودک"
+        },
+        {
+         "word": "leading questions",
+         "fa": "سؤال‌های جهت‌دار"
+        },
+        {
+         "word": "report",
+         "fa": "گزارش دادن"
+        },
+        {
+         "word": "DBS check",
+         "fa": "بررسی سابقهٔ کیفری برای کار با کودکان"
+        },
+        {
+         "word": "paediatric first aid",
+         "fa": "کمک‌های اولیهٔ کودکان"
+        },
+        {
+         "word": "in ratio",
+         "fa": "در نسبت قانونی پرسنل به کودک"
+        },
+        {
+         "word": "staff-to-child ratio",
+         "fa": "نسبت پرسنل به کودک"
+        },
+        {
+         "word": "trial morning",
+         "fa": "صبح آزمایشی"
+        },
+        {
+         "word": "offer",
+         "fa": "پیشنهاد شغل"
+        },
+        {
+         "word": "ID",
+         "fa": "مدرک شناسایی"
+        },
+        {
+         "word": "comfortable clothes",
+         "fa": "لباس راحت"
+        }
+       ],
+       "turns": 12
+      }
+     ]
+    },
     {
      "level": 0,
      "id": "N1",
@@ -65655,6 +65750,330 @@
         {
          "word": "update",
          "fa": "خبر دادن"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N7",
+     "title": "Ratios, registers and logs",
+     "titleFa": "نسبت‌ها، حضور و لاگ‌ها",
+     "place": "firstday",
+     "canDo": "Explain ratios, complete care logs, speak at parents evening, and talk with children using EYFS language",
+     "canDoFa": "نسبت‌ها را توضیح بدهی، لاگ مراقبت پر کنی، در شب والدین حرف بزنی و با زبان EYFS با بچه‌ها حرف بزنی",
+     "cefr": "A2–B1",
+     "lessons": [
+      {
+       "id": "nur_7_1",
+       "title": "Staff ratios",
+       "titleFa": "نسبت پرسنل به کودک",
+       "lead": "jo",
+       "place": "firstday",
+       "grammar": "Numbers and obligation: must / have to stay in ratio",
+       "grammarFa": "الزام: must",
+       "sceneIds": [
+        "nur_7_1"
+       ],
+       "words": [
+        {
+         "word": "register",
+         "fa": "دفتر حضور و غیاب"
+        },
+        {
+         "word": "pre-school",
+         "fa": "پیش‌دبستانی"
+        },
+        {
+         "word": "count",
+         "fa": "شمردن"
+        },
+        {
+         "word": "toddler room",
+         "fa": "اتاق نوپا"
+        },
+        {
+         "word": "1:8",
+         "fa": "یک به هشت"
+        },
+        {
+         "word": "ratio",
+         "fa": "نسبت"
+        },
+        {
+         "word": "cover",
+         "fa": "پوشش دادن ؛ جای کسی کار کردن"
+        },
+        {
+         "word": "short",
+         "fa": "کم‌نفر"
+        },
+        {
+         "word": "break",
+         "fa": "استراحت"
+        },
+        {
+         "word": "headcount",
+         "fa": "شمارش تعداد سرها"
+        },
+        {
+         "word": "transition",
+         "fa": "جابه‌جایی ؛ تغییر مکان"
+        },
+        {
+         "word": "missing child",
+         "fa": "کودک گمشده"
+        },
+        {
+         "word": "straight away",
+         "fa": "فوراً"
+        },
+        {
+         "word": "gate",
+         "fa": "دروازه"
+        },
+        {
+         "word": "Ofsted",
+         "fa": "بازرسی کیفیت آموزش"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_7_2",
+       "title": "Nappy, food and sleep logs",
+       "titleFa": "لاگ پوشک، غذا و خواب",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Past simple for care records: He ate / He slept",
+       "grammarFa": "گذشتهٔ ساده برای ثبت مراقبت",
+       "sceneIds": [
+        "nur_7_2"
+       ],
+       "words": [
+        {
+         "word": "care log",
+         "fa": "لاگ مراقبت"
+        },
+        {
+         "word": "soiled",
+         "fa": "کثیف (مدفوع)"
+        },
+        {
+         "word": "nappy cream",
+         "fa": "کرم پوشک"
+        },
+        {
+         "word": "changing mat",
+         "fa": "تشک تعویض"
+        },
+        {
+         "word": "front to back",
+         "fa": "از جلو به عقب"
+        },
+        {
+         "word": "gloves",
+         "fa": "دستکش"
+        },
+        {
+         "word": "food log",
+         "fa": "لاگ غذا"
+        },
+        {
+         "word": "most",
+         "fa": "بیشترش"
+        },
+        {
+         "word": "allergy note",
+         "fa": "یادداشت حساسیت"
+        },
+        {
+         "word": "sleep log",
+         "fa": "لاگ خواب"
+        },
+        {
+         "word": "went down",
+         "fa": "خوابید ؛ گذاشته شد برای خواب"
+        },
+        {
+         "word": "pick-up",
+         "fa": "تحویل عصر"
+        },
+        {
+         "word": "invent",
+         "fa": "از خود درآوردن"
+        },
+        {
+         "word": "trust",
+         "fa": "اعتماد"
+        },
+        {
+         "word": "log sheet",
+         "fa": "برگهٔ لاگ"
+        },
+        {
+         "word": "home time",
+         "fa": "ساعت رفتن به خانه"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_7_3",
+       "title": "Parents' evening",
+       "titleFa": "شب والدین",
+       "lead": "vida",
+       "place": "parentsevening",
+       "grammar": "Specific feedback: He built… / A next step is…",
+       "grammarFa": "بازخورد مشخص",
+       "sceneIds": [
+        "nur_7_3"
+       ],
+       "words": [
+        {
+         "word": "parents' evening",
+         "fa": "شب والدین ؛ جلسه با اولیا"
+        },
+        {
+         "word": "slot",
+         "fa": "نوبت زمانی"
+        },
+        {
+         "word": "specific",
+         "fa": "مشخص ؛ دقیق"
+        },
+        {
+         "word": "settling",
+         "fa": "جا افتادن"
+        },
+        {
+         "word": "drop-off",
+         "fa": "تحویل صبح"
+        },
+        {
+         "word": "key person",
+         "fa": "فرد کلیدی"
+        },
+        {
+         "word": "observation",
+         "fa": "مشاهده"
+        },
+        {
+         "word": "out loud",
+         "fa": "بلند بلند"
+        },
+        {
+         "word": "take turns",
+         "fa": "نوبت گرفتن"
+        },
+        {
+         "word": "next step",
+         "fa": "گام بعدی"
+        },
+        {
+         "word": "numerals",
+         "fa": "اعداد نوشته‌شده"
+        },
+        {
+         "word": "environment",
+         "fa": "محیط"
+        },
+        {
+         "word": "summary",
+         "fa": "خلاصه"
+        },
+        {
+         "word": "pick-up",
+         "fa": "تحویل عصر"
+        },
+        {
+         "word": "concrete",
+         "fa": "مشخص ؛ ملموس"
+        },
+        {
+         "word": "vague",
+         "fa": "مبهم"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_7_4",
+       "title": "Talking to children",
+       "titleFa": "حرف زدن با کودکان",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Commentary and open questions",
+       "grammarFa": "توصیف و سؤال باز",
+       "sceneIds": [
+        "nur_7_4"
+       ],
+       "words": [
+        {
+         "word": "eye contact",
+         "fa": "تماس چشمی"
+        },
+        {
+         "word": "get down to their level",
+         "fa": "آمدن هم‌سطح قد کودک"
+        },
+        {
+         "word": "building",
+         "fa": "در حال ساختن"
+        },
+        {
+         "word": "open question",
+         "fa": "سؤال باز"
+        },
+        {
+         "word": "yes/no",
+         "fa": "بله/خیر"
+        },
+        {
+         "word": "rocket",
+         "fa": "موشک"
+        },
+        {
+         "word": "whoosh",
+         "fa": "ووش (صدای حرکت سریع)"
+        },
+        {
+         "word": "moon",
+         "fa": "ماه"
+        },
+        {
+         "word": "turn",
+         "fa": "نوبت"
+        },
+        {
+         "word": "coach",
+         "fa": "آموزش دادن با راهنمایی"
+        },
+        {
+         "word": "gentle hands",
+         "fa": "دست‌های مهربان"
+        },
+        {
+         "word": "persevering",
+         "fa": "پشتکار داشتن"
+        },
+        {
+         "word": "praise",
+         "fa": "تشویق"
+        },
+        {
+         "word": "EYFS",
+         "fa": "چارچوب سال‌های اولیه"
+        },
+        {
+         "word": "role model",
+         "fa": "الگو"
+        },
+        {
+         "word": "on the floor",
+         "fa": "روی کف اتاق ؛ در کنار بچه‌ها"
         }
        ],
        "turns": 11

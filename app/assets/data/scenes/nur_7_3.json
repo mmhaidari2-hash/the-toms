@@ -1,0 +1,269 @@
+{
+  "id": "nur_7_3",
+  "characterId": "vida",
+  "title": "Parents' evening",
+  "titleFa": "شب والدین",
+  "setting": "Ratios, registers and logs · Vida's Nursery",
+  "settingFa": "نسبت‌ها، حضور و غیاب و لاگ‌ها",
+  "requires": null,
+  "start": "n1",
+  "level": "B1",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "speaker": "vida",
+      "text": "Tonight is parents' evening. You're sitting with me for William's ten-minute slot. Smile, be specific, and listen.",
+      "translations": {
+        "fa": "امشب شب والدین است. برای نوبت ده دقیقه‌ای ویلیام با من می‌نشینی. لبخند بزن، مشخص حرف بزن، و گوش بده."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "ready",
+            "specific",
+            "listen"
+          ],
+          "suggestion": "I'm ready. I'll be specific and listen.",
+          "suggestionFa": "آماده‌ام. مشخص حرف می‌زنم و گوش می‌دم.",
+          "trustDelta": 6,
+          "next": "n2",
+          "success": true
+        },
+        {
+          "keywords": [
+            "nervous",
+            "bit"
+          ],
+          "suggestion": "I'm a bit nervous — but I'll follow your lead.",
+          "suggestionFa": "یه کم استرس دارم — اما از تو پیروی می‌کنم.",
+          "trustDelta": 5,
+          "next": "n2",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "parents' evening",
+          "fa": "شب والدین ؛ جلسه با اولیا"
+        },
+        {
+          "word": "slot",
+          "fa": "نوبت زمانی"
+        },
+        {
+          "word": "specific",
+          "fa": "مشخص ؛ دقیق"
+        }
+      ]
+    },
+    "n2": {
+      "id": "n2",
+      "speaker": "leslie",
+      "text": "Hi Vida — hi Sara. How's William settling? We've had a few tears at drop-off.",
+      "translations": {
+        "fa": "سلام ویدا — سلام سارا. ویلیام چطور جا افتاده؟ صبح‌ها موقع تحویل چند بار گریه داشته."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "settling",
+            "well",
+            "better"
+          ],
+          "suggestion": "He's settling well. Drop-off tears are getting shorter.",
+          "suggestionFa": "خوب جا می‌افتد. گریه‌های صبح کوتاه‌تر شده.",
+          "trustDelta": 6,
+          "next": "n3",
+          "success": true
+        },
+        {
+          "keywords": [
+            "key",
+            "person",
+            "bond"
+          ],
+          "suggestion": "I'm his key person — we're building a good bond.",
+          "suggestionFa": "من فرد کلیدی‌اش هستم — پیوند خوبی می‌سازیم.",
+          "trustDelta": 5,
+          "next": "n3",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "settling",
+          "fa": "جا افتادن"
+        },
+        {
+          "word": "drop-off",
+          "fa": "تحویل صبح"
+        },
+        {
+          "word": "key person",
+          "fa": "فرد کلیدی"
+        }
+      ]
+    },
+    "n3": {
+      "id": "n3",
+      "speaker": "vida",
+      "text": "Sara, share one observation from this week — something William did, not just 'he's lovely'.",
+      "translations": {
+        "fa": "سارا، یک مشاهده از این هفته بگو — کاری که ویلیام کرد، نه فقط «دوست‌داشتنی است»."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "tower",
+            "counted",
+            "blocks",
+            "built"
+          ],
+          "suggestion": "He built a tower of eight blocks and counted them out loud.",
+          "suggestionFa": "برج هشت‌تایی ساخت و بلند بلند شمرد.",
+          "trustDelta": 6,
+          "next": "n4",
+          "success": true
+        },
+        {
+          "keywords": [
+            "shared",
+            "timer",
+            "sand"
+          ],
+          "suggestion": "He used the sand timer to take turns with the bikes.",
+          "suggestionFa": "با ساعت شنی نوبت دوچرخه را رعایت کرد.",
+          "trustDelta": 5,
+          "next": "n4",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "observation",
+          "fa": "مشاهده"
+        },
+        {
+          "word": "out loud",
+          "fa": "بلند بلند"
+        },
+        {
+          "word": "take turns",
+          "fa": "نوبت گرفتن"
+        }
+      ]
+    },
+    "n4": {
+      "id": "n4",
+      "speaker": "leslie",
+      "text": "That's lovely to hear. Is there anything we should practise at home?",
+      "translations": {
+        "fa": "چه خوب. چیزی هست که در خانه تمرین کنیم؟"
+      },
+      "branches": [
+        {
+          "keywords": [
+            "next",
+            "step",
+            "counting",
+            "name"
+          ],
+          "suggestion": "A next step is recognising numerals up to ten in the environment.",
+          "suggestionFa": "گام بعدی این است که اعداد نوشته‌شده تا ده را در محیط بشناسد.",
+          "trustDelta": 6,
+          "next": "n5",
+          "success": true
+        },
+        {
+          "keywords": [
+            "sharing",
+            "words",
+            "use"
+          ],
+          "suggestion": "Keep practising \"Can I have a turn?\" at home.",
+          "suggestionFa": "در خانه «نوبت من می‌شه؟» را تمرین کنید.",
+          "trustDelta": 5,
+          "next": "n5",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "next step",
+          "fa": "گام بعدی"
+        },
+        {
+          "word": "numerals",
+          "fa": "اعداد نوشته‌شده"
+        },
+        {
+          "word": "environment",
+          "fa": "محیط"
+        }
+      ]
+    },
+    "n5": {
+      "id": "n5",
+      "speaker": "vida",
+      "text": "We'll email a short summary. Thank you both — see you at pick-up tomorrow.",
+      "translations": {
+        "fa": "یه خلاصه کوتاه ایمیل می‌کنیم. ممنون از هر دو — فردا موقع تحویل می‌بینمتون."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "thank",
+            "see",
+            "tomorrow"
+          ],
+          "suggestion": "Thank you. See you tomorrow at pick-up.",
+          "suggestionFa": "ممنون. فردا موقع تحویل می‌بینمتون.",
+          "trustDelta": 6,
+          "next": "end",
+          "success": true
+        },
+        {
+          "keywords": [
+            "summary",
+            "email"
+          ],
+          "suggestion": "Looking forward to the summary email.",
+          "suggestionFa": "منتظر ایمیل خلاصه هستم.",
+          "trustDelta": 5,
+          "next": "end",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "summary",
+          "fa": "خلاصه"
+        },
+        {
+          "word": "pick-up",
+          "fa": "تحویل عصر"
+        }
+      ]
+    },
+    "end": {
+      "id": "end",
+      "speaker": "vida",
+      "text": "Well done. Parents remember concrete stories more than vague praise. That's professional early-years talk.",
+      "translations": {
+        "fa": "آفرین. والدین داستان مشخص را بیشتر از تعریف مبهم به یاد می‌سپارند. این حرفه‌ای حرف زدن در مهد است."
+      },
+      "branches": [],
+      "newWords": [
+        {
+          "word": "concrete",
+          "fa": "مشخص ؛ ملموس"
+        },
+        {
+          "word": "vague",
+          "fa": "مبهم"
+        }
+      ]
+    }
+  },
+  "guest": "sara"
+}

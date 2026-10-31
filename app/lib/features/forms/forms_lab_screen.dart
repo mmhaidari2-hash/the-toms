@@ -31,6 +31,7 @@ class FormsLabScreen extends ConsumerWidget {
         error: (e, _) => Center(child: Text(hl('$e'))),
         data: (lab) => ListView(
           key: const ValueKey('forms-lab'),
+          // ignore: deprecated_member_use
           cacheExtent: 4000,
           padding: EdgeInsets.fromLTRB(20, pad.top + 6, 20, pad.bottom + 32),
           children: [

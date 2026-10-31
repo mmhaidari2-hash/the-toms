@@ -1,0 +1,272 @@
+{
+  "id": "nur_7_2",
+  "characterId": "vida",
+  "title": "Nappy, food and sleep logs",
+  "titleFa": "لاگ پوشک، غذا و خواب",
+  "setting": "Ratios, registers and logs · Vida's Nursery",
+  "settingFa": "نسبت‌ها، حضور و غیاب و لاگ‌ها",
+  "requires": null,
+  "start": "n1",
+  "level": "A2",
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "speaker": "vida",
+      "text": "After each nappy change, write it on the care log: time, wet or soiled, and cream if you used any.",
+      "translations": {
+        "fa": "بعد از هر تعویض پوشک، روی لاگ مراقبت بنویس: ساعت، خیس یا کثیف، و اگر کرم زدی."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "wet",
+            "soiled",
+            "time",
+            "write"
+          ],
+          "suggestion": "So I write the time, then wet or soiled?",
+          "suggestionFa": "پس ساعت را می‌نویسم، بعد خیس یا کثیف؟",
+          "trustDelta": 6,
+          "next": "n2",
+          "success": true
+        },
+        {
+          "keywords": [
+            "cream",
+            "where"
+          ],
+          "suggestion": "Where do I record nappy cream?",
+          "suggestionFa": "کرم پوشک را کجا ثبت کنم؟",
+          "trustDelta": 5,
+          "next": "n2",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "care log",
+          "fa": "لاگ مراقبت"
+        },
+        {
+          "word": "soiled",
+          "fa": "کثیف (مدفوع)"
+        },
+        {
+          "word": "nappy cream",
+          "fa": "کرم پوشک"
+        }
+      ],
+      "cultureNote": {
+        "en": "Parents expect accurate care logs. Write facts only — never guess.",
+        "fa": "والدین لاگ دقیق می‌خواهند. فقط واقعیت بنویس."
+      }
+    },
+    "n2": {
+      "id": "n2",
+      "speaker": "vida",
+      "text": "Yes. Use gloves, wipe front to back for girls, bag the nappy, wash your hands, then log it. Never leave a child alone on the mat.",
+      "translations": {
+        "fa": "بله. دستکش بزن، برای دخترها از جلو به عقب پاک کن، پوشک را کیسه کن، دست‌ها را بشور، بعد ثبت کن. هیچ‌وقت بچه را تنها روی تشک نگذار."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "gloves",
+            "hands",
+            "alone",
+            "never"
+          ],
+          "suggestion": "Never leave a child alone on the changing mat.",
+          "suggestionFa": "هیچ‌وقت کودک را تنها روی تشک تعویض نگذار.",
+          "trustDelta": 6,
+          "next": "n3",
+          "success": true
+        },
+        {
+          "keywords": [
+            "front",
+            "back"
+          ],
+          "suggestion": "Wipe front to back — got it.",
+          "suggestionFa": "از جلو به عقب — فهمیدم.",
+          "trustDelta": 5,
+          "next": "n3",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "changing mat",
+          "fa": "تشک تعویض"
+        },
+        {
+          "word": "front to back",
+          "fa": "از جلو به عقب"
+        },
+        {
+          "word": "gloves",
+          "fa": "دستکش"
+        }
+      ]
+    },
+    "n3": {
+      "id": "n3",
+      "speaker": "vida",
+      "text": "Food log at lunch: what they ate, how much — all, most, some, or none — and any allergy note.",
+      "translations": {
+        "fa": "لاگ غذا موقع ناهار: چی خورد، چقدر — همه، بیشتر، کمی، یا هیچ — و یادداشت حساسیت."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "most",
+            "peas",
+            "ate"
+          ],
+          "suggestion": "William ate most of his peas.",
+          "suggestionFa": "ویلیام بیشتر نخودفرنگی‌اش را خورد.",
+          "trustDelta": 6,
+          "next": "n4",
+          "success": true
+        },
+        {
+          "keywords": [
+            "none",
+            "allergy"
+          ],
+          "suggestion": "Mia ate none of the yoghurt — dairy allergy.",
+          "suggestionFa": "میا هیچ ماستی نخورد — حساسیت لبنیات.",
+          "trustDelta": 5,
+          "next": "n4",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "food log",
+          "fa": "لاگ غذا"
+        },
+        {
+          "word": "most",
+          "fa": "بیشترش"
+        },
+        {
+          "word": "allergy note",
+          "fa": "یادداشت حساسیت"
+        }
+      ]
+    },
+    "n4": {
+      "id": "n4",
+      "speaker": "vida",
+      "text": "Sleep log: time they went down, time they woke, and how long they slept. Parents use this at pick-up.",
+      "translations": {
+        "fa": "لاگ خواب: کی خوابید، کی بیدار شد، و چقدر خوابید. والدین موقع تحویل عصر از این استفاده می‌کنند."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "went",
+            "down",
+            "woke",
+            "slept"
+          ],
+          "suggestion": "He went down at twelve and woke at one thirty — one and a half hours.",
+          "suggestionFa": "ساعت دوازده خوابید و یک و نیم بیدار شد — یک و نیم ساعت.",
+          "trustDelta": 6,
+          "next": "n5",
+          "success": true
+        },
+        {
+          "keywords": [
+            "pick-up",
+            "parents",
+            "tell"
+          ],
+          "suggestion": "So at pick-up I can tell parents exactly how long they slept.",
+          "suggestionFa": "پس موقع تحویل دقیق به والدین می‌گم چقدر خوابیدند.",
+          "trustDelta": 5,
+          "next": "n5",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "sleep log",
+          "fa": "لاگ خواب"
+        },
+        {
+          "word": "went down",
+          "fa": "خوابید ؛ گذاشته شد برای خواب"
+        },
+        {
+          "word": "pick-up",
+          "fa": "تحویل عصر"
+        }
+      ]
+    },
+    "n5": {
+      "id": "n5",
+      "speaker": "vida",
+      "text": "Brilliant. If you're unsure what to write, ask — don't invent. Logs are part of safeguarding and parent trust.",
+      "translations": {
+        "fa": "عالی. اگر مطمئن نیستی چی بنویسی، بپرس — از خودت درنیار. لاگ‌ها بخشی از حفاظت و اعتماد والدین‌اند."
+      },
+      "branches": [
+        {
+          "keywords": [
+            "ask",
+            "invent",
+            "not"
+          ],
+          "suggestion": "I won't invent — I'll ask if I'm unsure.",
+          "suggestionFa": "از خودم درنمیارم — اگر مطمئن نباشم می‌پرسم.",
+          "trustDelta": 6,
+          "next": "end",
+          "success": true
+        },
+        {
+          "keywords": [
+            "safeguarding",
+            "trust"
+          ],
+          "suggestion": "Logs support safeguarding and parent trust.",
+          "suggestionFa": "لاگ‌ها از حفاظت و اعتماد والدین حمایت می‌کنند.",
+          "trustDelta": 5,
+          "next": "end",
+          "success": true
+        }
+      ],
+      "newWords": [
+        {
+          "word": "invent",
+          "fa": "از خود درآوردن"
+        },
+        {
+          "word": "trust",
+          "fa": "اعتماد"
+        }
+      ]
+    },
+    "end": {
+      "id": "end",
+      "speaker": "vida",
+      "text": "Here's today's blank log sheet. Fill as you go — don't leave it all until home time.",
+      "translations": {
+        "fa": "برگهٔ خالی امروز. همزمان پر کن — همه را نگذار برای آخر وقت."
+      },
+      "branches": [],
+      "newWords": [
+        {
+          "word": "log sheet",
+          "fa": "برگهٔ لاگ"
+        },
+        {
+          "word": "home time",
+          "fa": "ساعت رفتن به خانه"
+        }
+      ]
+    }
+  },
+  "guest": "sara"
+}
