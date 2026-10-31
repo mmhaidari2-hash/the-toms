@@ -592,6 +592,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
       (Icons.account_balance_rounded, 'Life in the UK test', 'آزمون زندگی در بریتانیا', '/lifeuk'),
       (Icons.badge_rounded, 'Visa Help Desk', 'میز کمک ویزا', '/visa'),
       (Icons.account_balance_outlined, 'Settlement pathway (B2)', 'مسیر اقامت (B2)', '/settlement'),
+      (Icons.offline_pin_rounded, 'Arrival Offline Pack', 'بستهٔ آفلاین ورود', '/arrival'),
       (Icons.description_rounded, 'UK Forms Practice Lab', 'آزمایشگاه فرم‌های بریتانیا', '/forms'),
       (Icons.record_voice_over_rounded, 'Pronunciation coach', 'مربی تلفظ', '/coach'),
       (Icons.directions_car_rounded, 'Driving School', 'آموزشگاه رانندگی', '/driving'),

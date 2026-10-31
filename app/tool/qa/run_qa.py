@@ -172,7 +172,7 @@ def flutter(test_files, label):
 def ui_routes():
     j = lambda p: json.load(open(p))
     rnd = random.Random(int(time.time()) // 86400)  # a different sample each day, stable within a day
-    R = ['/', '/family', '/plan', '/placement', '/howto', '/legal', '/school', '/library', '/cinema', '/lifeuk', '/lifeuk/mock', '/park', '/messages',
+    R = ['/', '/family', '/plan', '/placement', '/howto', '/legal', '/forms', '/forms/gp_register', '/arrival', '/school', '/library', '/cinema', '/lifeuk', '/lifeuk/mock', '/park', '/messages',
          '/driving', '/theory', '/theory/mock', '/seasons', '/missions', '/radio', '/progress', '/premium', '/leitner', '/diary', '/course', '/practice/mistakes']
     R += [f'/school/{lv}' for lv in range(1, 6)] + [f'/certificate/{lv}' for lv in (1, 3, 5)]
     def some(xs, n): xs = list(xs); rnd.shuffle(xs); return xs[:n]

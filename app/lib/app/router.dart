@@ -25,6 +25,7 @@ import '../features/settlement/settlement_screen.dart';
 import '../features/coach/coach_screen.dart';
 import '../features/forms/forms_lab_screen.dart';
 import '../features/forms/form_practice_screen.dart';
+import '../features/arrival/arrival_pack_screen.dart';
 import '../features/lifeuk/luk_quiz_screen.dart';
 import '../features/messages/inbox_screen.dart';
 import '../features/seasons/seasons_screen.dart';
@@ -146,6 +147,7 @@ final router = GoRouter(
     GoRoute(path: '/progress', pageBuilder: (_, s) => _fade(const ProgressScreen(), s)),
     GoRoute(path: '/premium', pageBuilder: (_, s) => _fade(PremiumScreen(key: ValueKey('premium-${s.uri.queryParameters['pack']}'), pack: s.uri.queryParameters['pack']), s)),
     GoRoute(path: '/forms', pageBuilder: (_, s) => _fade(const FormsLabScreen(), s)),
+    GoRoute(path: '/arrival', pageBuilder: (_, s) => _fade(const ArrivalPackScreen(), s)),
     GoRoute(path: '/forms/:id', pageBuilder: (_, s) => _fade(FormPracticeScreen(key: ValueKey('forms-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/certificate/:level', pageBuilder: (_, s) => _fade(CertificateScreen(key: ValueKey('cert-${s.pathParameters['level']}'), level: int.tryParse(s.pathParameters['level']!) ?? 1), s)),
     GoRoute(path: '/leitner', pageBuilder: (_, s) => _fade(const LeitnerScreen(), s)),
