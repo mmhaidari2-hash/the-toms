@@ -3,10 +3,10 @@ const helperCoverage = <String, double>{
   'hi': 0.9694,
   'ur': 0.9652,
   'zh': 0.0,
-  'ar': 0.9625,
+  'ar': 0.9647,
   'uk': 0.0,
   'prs': 0.0,
-  'ps': 0.9819,
+  'ps': 0.9815,
   'bn': 0.0,
   'pa': 0.0,
   'ro': 0.0,
@@ -19,4 +19,4 @@ const helperCoverage = <String, double>{
   'zh-Hant': 0.0,
 };
 // Languages whose whole translation run has finished.
-const helperComplete = <String>{'hi', 'ps', 'ur'};
+const helperComplete = <String>{'ur'};
