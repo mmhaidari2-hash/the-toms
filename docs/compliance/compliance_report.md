@@ -126,13 +126,13 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 
 | Control | Status | Note |
 |---|---|---|
-| CSP + security meta | **done** | `web/index.html` + `web/_headers` (GH Pages ignores `_headers`; meta applies) |
+| CSP + security meta | **done** | Meta CSP allows self + Flutter CanvasKit (`https://www.gstatic.com`); `frame-ancestors` only in `_headers` (meta ignores it). GH Pages ignores `_headers`. |
 | Dependency advisories | **done** | `flutter pub outdated` reviewed; Dependabot config written; GH vulnerability alerts enabled (API 204) |
 | Secret scan | **done** | `/workspace/legal/secret_scan.txt` — **0** pattern hits in trees; rotate if any key ever leaked via chat/logs (**needs user** operational hygiene). Azure key only in env, not source |
 | Android cleartext off / allowBackup false / R8 | **done** | Manifest + network_security_config + minify |
 | Exported components | **done** | Only MAIN/LAUNCHER activity exported |
 | Play Integrity | **needs user** | Wire when Play Cloud project ready |
-| Hive encryption | **done** | AES + `flutter_secure_storage` key; migrate legacy box |
+| Hive encryption | **done** | Mobile: AES + `flutter_secure_storage`; Web/PWA: unencrypted IndexedDB (documented residual risk) |
 | Buddy code validation | **done** | Strict alphabet/length |
 | Branch protection main+source | **done** | API 200; force-push disabled; 1 review |
 | Dependabot | **done** | `.github/dependabot.yml` (source tree) |
@@ -145,7 +145,7 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 | MASVS-L1 theme | Status |
 |---|---|
 | Architecture / threat notes | **partial** — this report |
-| Data storage (encrypted sensitive) | **done** (mobile); PWA **risk accepted** |
+| Data storage (encrypted sensitive) | **done** (Android/iOS AES); PWA unencrypted IndexedDB **risk accepted** |
 | Crypto | **done** (platform secure storage + AES) |
 | Auth | **N/A** (no accounts) |
 | Network (TLS, no cleartext) | **done** |
@@ -155,6 +155,11 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 
 ---
 
+
+
+### Dependency audit detail (31 Oct 2026)
+
+`flutter pub outdated` saved at `docs/compliance/pub_outdated.txt`. Direct deps: crypto/go_router/flutter_svg/web have patch upgrades available; `flutter_secure_storage` 9.2.4 → 11.x is a major (defer until after launch). No known Critical advisories in-tree from this scan; Dependabot will flag CVEs. Discontinued: `flutter_secure_storage_macos` / `js` (transitive).
 ## Things only the user must do before launch
 
 1. Fill every `[PLACEHOLDER: …]` in `PublisherConfig` (legal name, UK address, emails, ICO/Companies House, public privacy/deletion URLs).

@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'dart:typed_data';
@@ -66,18 +67,24 @@ class HiveProgressStore implements ProgressStore {
 
   static Future<HiveProgressStore> open() async {
     await Hive.initFlutter();
-    final cipher = await _progressCipher();
     Box<String> box;
-    try {
-      box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
-    } catch (_) {
-      // Migrate from a legacy unencrypted box if present.
-      final legacy = await Hive.openBox<String>(_boxName);
-      final data = <String, String>{for (final k in legacy.keys) k.toString(): legacy.get(k) ?? ''};
-      await legacy.deleteFromDisk();
-      box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
-      for (final e in data.entries) {
-        if (e.value.isNotEmpty) await box.put(e.key, e.value);
+    // Web/PWA: unencrypted IndexedDB (CSP + QA seeding; accepted residual risk in compliance report).
+    // Mobile: AES via flutter_secure_storage-backed HiveAesCipher.
+    if (kIsWeb) {
+      box = await Hive.openBox<String>(_boxName);
+    } else {
+      final cipher = await _progressCipher();
+      try {
+        box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
+      } catch (_) {
+        // Migrate from a legacy unencrypted box if present.
+        final legacy = await Hive.openBox<String>(_boxName);
+        final data = <String, String>{for (final k in legacy.keys) k.toString(): legacy.get(k) ?? ''};
+        await legacy.deleteFromDisk();
+        box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
+        for (final e in data.entries) {
+          if (e.value.isNotEmpty) await box.put(e.key, e.value);
+        }
       }
     }
     final s = HiveProgressStore(box);
