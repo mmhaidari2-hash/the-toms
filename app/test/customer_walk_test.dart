@@ -138,6 +138,8 @@ void main() {
         '/settlement',
         '/coach',
         '/forms',
+        '/arrival',
+        '/profiles',
         '/forms/gp_register',
         '/premium',
         '/read/a1_bus?ch=0',

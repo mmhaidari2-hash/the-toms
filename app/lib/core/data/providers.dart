@@ -17,6 +17,7 @@ import '../models/milestone.dart';
 import '../models/place.dart';
 import '../models/user_progress.dart';
 import 'progress_store.dart';
+import '../models/learner_profile.dart';
 import 'repository.dart';
 import '../billing/entitlements.dart';
 export 'premium.dart';
@@ -320,7 +321,7 @@ class ProgressController extends Notifier<UserProgress> {
       'perfect' => scores.values.any((v) => v >= 100),
       'goal7' => goalDays >= 7,
       'words50' => state.leitnerBox.length >= 50,
-      'league' => leagueTier >= 1,
+      'league' => xpWeek >= calmCircle.goalXp || familyChallengeRows().any((r) => r.$2 >= calmCircle.goalXp),
       'mission1' => missionsCompleted >= 1,
       'mission5' => missionsCompleted >= 5,
       'book1' => booksDone >= 1,
@@ -810,7 +811,100 @@ class ProgressController extends Notifier<UserProgress> {
     awardXp(storyFirstTime ? Motivation.storyXp : Motivation.storyXp ~/ 2);
   }
 
-  Future<void> reset() async {
+
+  // ---- Dual profiles + calm circle (local-first; no kids' data leaves the device).
+  LearnerProfile? get profile => ref.read(progressStoreProvider).activeProfile();
+  bool get kidMode => profile?.isChild ?? false;
+  List<LearnerProfile> get allProfiles => ref.read(progressStoreProvider).profiles();
+
+  Future<void> switchProfile(String id) async {
+    final store = ref.read(progressStoreProvider);
+    await store.write(state.encode());
+    await store.switchTo(id);
+    final raw = store.read();
+    state = raw == null ? const UserProgress() : UserProgress.decode(raw);
+  }
+
+  Future<LearnerProfile> addProfile({required String displayName, required ProfileKind kind}) async {
+    final store = ref.read(progressStoreProvider);
+    await store.write(state.encode());
+    final p = await store.addProfile(displayName: displayName, kind: kind);
+    return p;
+  }
+
+  Future<void> renameProfile(String id, String displayName) async {
+    await ref.read(progressStoreProvider).renameProfile(id, displayName);
+    state = UserProgress.decode(state.encode());
+  }
+
+  Future<void> removeProfile(String id) async {
+    final store = ref.read(progressStoreProvider);
+    await store.write(state.encode());
+    await store.removeProfile(id);
+    final raw = store.read();
+    state = raw == null ? const UserProgress() : UserProgress.decode(raw);
+  }
+
+  CalmCircle get calmCircle {
+    var c = ref.read(progressStoreProvider).readCircle();
+    final wk = WeeklyChallenge.weekKey(_now);
+    if (c.week != wk) c = CalmCircle(week: wk, goalXp: c.goalXp, myCode: c.myCode); // reset buddy join each week, keep code
+    return c;
+  }
+
+  Future<void> setCircleGoal(int xp) async {
+    final c = calmCircle.copyWith(goalXp: xp.clamp(20, 200));
+    await ref.read(progressStoreProvider).writeCircle(c);
+    state = UserProgress.decode(state.encode());
+  }
+
+  Future<String> ensureBuddyCode() async {
+    var c = calmCircle;
+    if (c.myCode == null || c.myCode!.isEmpty) {
+      c = c.copyWith(myCode: newBuddyCode());
+      await ref.read(progressStoreProvider).writeCircle(c);
+      state = UserProgress.decode(state.encode());
+    }
+    return c.myCode!;
+  }
+
+  Future<void> joinBuddyCode(String raw, {String label = ''}) async {
+    final code = normalizeBuddyCode(raw);
+    if (!validBuddyCode(code)) throw FormatException('invalid code');
+    final mine = calmCircle.myCode;
+    if (mine != null && code == mine) throw FormatException('own code');
+    final c = calmCircle.copyWith(buddyCode: code, buddyLabel: label.trim().isEmpty ? 'Study buddy' : label.trim());
+    await ref.read(progressStoreProvider).writeCircle(c);
+    state = UserProgress.decode(state.encode());
+  }
+
+  Future<void> clearBuddy() async {
+    final c = calmCircle.copyWith(clearBuddy: true);
+    await ref.read(progressStoreProvider).writeCircle(c);
+    state = UserProgress.decode(state.encode());
+  }
+
+  /// Same-device family challenge rows: (name, weekXp, isActive, isChild).
+  List<(String, int, bool, bool)> familyChallengeRows() {
+    final store = ref.read(progressStoreProvider);
+    final active = store.activeId;
+    final out = <(String, int, bool, bool)>[];
+    for (final p in store.profiles()) {
+      final raw = p.id == active ? state.encode() : store.readOf(p.id);
+      var xp = 0;
+      if (raw != null) {
+        try {
+          final u = UserProgress.decode(raw);
+          xp = Motivation.weekXp(Motivation.parseLog(u.missionsDone['xp:log']), _now);
+        } catch (_) {}
+      }
+      out.add((p.displayName, xp, p.id == active, p.isChild));
+    }
+    out.sort((a, b) => b.$2.compareTo(a.$2));
+    return out;
+  }
+
+    Future<void> reset() async {
     await ref.read(progressStoreProvider).clear();
     state = const UserProgress();
   }

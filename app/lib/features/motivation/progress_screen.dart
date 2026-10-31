@@ -6,9 +6,10 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/platform/remind.dart';
 import '../shared/nav.dart';
+import 'package:go_router/go_router.dart';
 import 'motivation_widgets.dart';
 
-/// One calm screen for streak, daily goal, league, badges and reminders.
+/// One calm screen for streak, daily goal, calm circle, badges and reminders.
 class ProgressScreen extends ConsumerWidget {
   const ProgressScreen({super.key});
   @override
@@ -17,10 +18,10 @@ class ProgressScreen extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final pad = MediaQuery.paddingOf(context);
     final streak = ctrl.currentStreak, today = ctrl.xpToday, goal = ctrl.dailyGoal;
-    final rows = ctrl.leagueBoard();
-    final rank = Motivation.rank(rows);
-    final tier = Motivation.tiers[ctrl.leagueTier];
+    final circle = ctrl.calmCircle;
+    final family = ctrl.familyChallengeRows();
     final earned = ctrl.badgesEarned;
+    final kid = ctrl.kidMode;
     Widget card({required Widget child, Key? key}) => Container(
           key: key,
           margin: const EdgeInsets.only(top: 14),
@@ -37,7 +38,22 @@ class ProgressScreen extends ConsumerWidget {
       body: ListView(
         padding: EdgeInsets.fromLTRB(20, pad.top + 6, 20, pad.bottom + 32),
         children: [
-          const Row(children: [NavButtons(), SizedBox(width: 10), Text('YOUR PROGRESS', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))]),
+          Row(children: [
+            const NavButtons(),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(kid ? 'KID MODE' : 'YOUR PROGRESS',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: kid ? BL.navy : BL.red)),
+            ),
+            IconButton(
+              key: const ValueKey('progress-profiles'),
+              tooltip: hl('Profiles'),
+              onPressed: () => context.push('/profiles'),
+              icon: const Icon(Icons.manage_accounts_rounded, color: BL.navy),
+            ),
+          ]),
           // Streak + today
           card(
             key: const ValueKey('progress-top'),
@@ -70,31 +86,93 @@ class ProgressScreen extends ConsumerWidget {
               Text(hl('Total: ${ctrl.xpTotal} XP · this week: ${ctrl.xpWeek} XP'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
             ]),
           ),
-          // League
+          // Calm circle (no toxic leagues)
           card(
-            key: const ValueKey('league'),
+            key: const ValueKey('calm-circle'),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Row(children: [
-                Icon(Icons.shield_rounded, color: Color(tier.$3), size: 26),
+                const Icon(Icons.favorite_rounded, color: BL.red, size: 26),
                 const SizedBox(width: 8),
-                Expanded(child: h('${tier.$1} League', 'لیگ ${tier.$2}')),
-                Text(hl('#$rank'), style: BL.display(20, color: BL.navy)),
+                Expanded(child: h('Calm circle', 'حلقهٔ آرام')),
+                TextButton(onPressed: () => context.push('/profiles'), child: Text(hl('Profiles'))),
               ]),
-              const SizedBox(height: 4),
-              const Text('Weekly XP · top 3 move up, bottom 2 move down · ends Sunday night', style: TextStyle(fontSize: 12, color: BL.muted)),
+              Text(hl('Private family challenge and study-buddy codes — no public leagues, no shame.'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+              Text(hl('چالش خانوادگی خصوصی و کد هم‌مطالعه — بدون لیگ عمومی و بدون شرمساری.'), textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
               const SizedBox(height: 8),
-              for (final (i, r) in rows.indexed)
+              Text(hl('This week · goal ${circle.goalXp} XP each'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 13.5)),
+              const SizedBox(height: 6),
+              for (final (name, xp, isYou, isChild) in family)
                 Container(
                   margin: const EdgeInsets.only(bottom: 4),
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
-                  decoration: BoxDecoration(color: r.$3 ? const Color(0xFFFFF4D6) : (i < 3 ? const Color(0xFFF1F7F3) : Colors.transparent), borderRadius: BorderRadius.circular(10)),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: isYou ? const Color(0xFFFFF4D6) : Colors.transparent,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
                   child: Row(children: [
-                    SizedBox(width: 26, child: Text(hl('${i + 1}'), style: TextStyle(fontWeight: FontWeight.w800, color: i < 3 ? BL.green : BL.muted))),
-                    Expanded(child: Text(hl(r.$1), style: TextStyle(fontWeight: r.$3 ? FontWeight.w900 : FontWeight.w600))),
-                    Text(hl('${r.$2} XP'), style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13)),
+                    Icon(isChild ? Icons.child_care_rounded : Icons.person_rounded, size: 18, color: BL.navy),
+                    const SizedBox(width: 8),
+                    Expanded(child: Text(hl(name + (isYou ? ' · you' : '')), style: TextStyle(fontWeight: isYou ? FontWeight.w900 : FontWeight.w600))),
+                    Text(hl('$xp / ${circle.goalXp} XP'), style: TextStyle(fontWeight: FontWeight.w700, color: xp >= circle.goalXp ? BL.green : BL.ink)),
                   ]),
                 ),
-              const Text('Practice league with friendly bots while online leagues are being built.', style: TextStyle(fontSize: 11, color: BL.muted, fontStyle: FontStyle.italic)),
+              if (circle.buddyCode != null) ...[
+                const SizedBox(height: 6),
+                Text(hl('Study buddy: ${circle.buddyLabel ?? 'Buddy'} · code ${circle.buddyCode} (progress stays on each device)'),
+                    style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+              ],
+              const SizedBox(height: 8),
+              Wrap(spacing: 8, runSpacing: 8, children: [
+                FilledButton.tonal(
+                  key: const ValueKey('buddy-share'),
+                  onPressed: () async {
+                    final code = await ctrl.ensureBuddyCode();
+                    if (!context.mounted) return;
+                    await showDialog<void>(
+                      context: context,
+                      builder: (ctx) => AlertDialog(
+                        title: Text(hl('Your study-buddy code')),
+                        content: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+                          SelectableText(code, style: BL.display(28, color: BL.navy)),
+                          const SizedBox(height: 8),
+                          Text(hl('Share this private code with one person. They enter it on their device to join the same weekly XP goal. Progress does not sync online yet.'), style: const TextStyle(fontSize: 13)),
+                          Text(hl('این کد خصوصی را با یک نفر شریک شوید. همان هدف هفتگی را روی دستگاه خودشان وارد می‌کنند. پیشرفت فعلاً آنلاین همگام نمی‌شود.'), textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                        ]),
+                        actions: [TextButton(onPressed: () => Navigator.pop(ctx), child: Text(hl('Done')))],
+                      ),
+                    );
+                  },
+                  child: Text(hl('Share buddy code')),
+                ),
+                OutlinedButton(
+                  key: const ValueKey('buddy-join'),
+                  onPressed: () async {
+                    final c = TextEditingController();
+                    final ok = await showDialog<String>(
+                      context: context,
+                      builder: (ctx) => AlertDialog(
+                        title: Text(hl('Join a buddy code')),
+                        content: TextField(controller: c, decoration: InputDecoration(labelText: hl('6-letter code')), textCapitalization: TextCapitalization.characters),
+                        actions: [
+                          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(hl('Cancel'))),
+                          FilledButton(onPressed: () => Navigator.pop(ctx, c.text), child: Text(hl('Join'))),
+                        ],
+                      ),
+                    );
+                    if (ok == null || !context.mounted) return;
+                    try {
+                      await ctrl.joinBuddyCode(ok);
+                    } catch (e) {
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(hl('Could not join that code.'))));
+                      }
+                    }
+                  },
+                  child: Text(hl('Enter code')),
+                ),
+                if (!kid)
+                  TextButton(onPressed: () => context.push('/profiles'), child: Text(hl(family.length < 2 ? 'Add child profile' : 'Manage profiles'))),
+              ]),
             ]),
           ),
           // Badges

@@ -30,7 +30,7 @@ void main() {
     final store = MemoryProgressStore()..data = const UserProgress(onboarded: true, startTier: 1, lang: 'fa', unlockAll: true).encode();
     await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
     for (var i = 0; i < 40; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200))); await t.pump(const Duration(milliseconds: 100)); }
-    const routes = ['/','/family','/course?level=1','/lesson/l1_u1_1','/practice/l1_u1_1','/school','/school/A1','/school/B1','/school/C1','/library','/cinema','/lifeuk','/park','/messages','/driving','/theory','/seasons','/missions','/radio','/progress','/leitner','/diary','/legal?tab=privacy','/place/kitchen','/place/nursery','/place/homes','/howto','/plan','/place/hospital','/place/museum','/place/cinema','/place/viewing','/mistakes','/settings','/glossary'];
+    const routes = ['/','/family','/course?level=1','/lesson/l1_u1_1','/practice/l1_u1_1','/school','/school/A1','/school/B1','/school/C1','/library','/cinema','/lifeuk','/park','/messages','/driving','/theory','/seasons','/missions','/radio','/progress','/profiles','/leitner','/diary','/legal?tab=privacy','/place/kitchen','/place/nursery','/place/homes','/howto','/plan','/place/hospital','/place/museum','/place/cinema','/place/viewing','/mistakes','/settings','/glossary'];
     for (final r in routes) {
       router.go(r);
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));

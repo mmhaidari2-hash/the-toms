@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'weekly.dart';
 
-/// Motivation layer: XP, daily goal, streak freezes, a simulated weekly league and badges.
+/// Motivation layer: XP, daily goal, streak freezes, gentle streaks, calm family/buddy challenges (no toxic leagues), and badges.
 /// Pure logic (no Flutter), stored by ProgressController in `missionsDone` under small prefixed keys.
 class Motivation {
   static const List<(int, String, String)> goals = [(10, 'Casual', 'آرام'), (20, 'Regular', 'معمولی'), (30, 'Serious', 'جدی'), (50, 'Intense', 'فشرده')];
@@ -62,7 +62,7 @@ class Motivation {
     Achievement('perfect', 'Spot on!', 'بی‌نقص', 'Score 100% in a practice'),
     Achievement('goal7', 'Goal getter', 'هدف‌گیر', 'Hit your daily goal 7 times'),
     Achievement('words50', 'Word collector', 'کلکسیون واژه', 'Collect 50 words'),
-    Achievement('league', 'Promoted', 'صعود', 'Reach the Silver league'),
+    Achievement('league', 'Calm circle', 'حلقهٔ آرام', 'Hit a weekly calm-circle goal with family or a buddy'),
     Achievement('book1', 'Finished!', 'تمامش کردم!', 'Finish a book in the Library'),
     Achievement('book5', 'Bookworm', 'کتاب‌خوان', 'Finish 5 books in the Library'),
     Achievement('mission1', 'Out and about', 'بیرون از خانه', 'Complete a real-life mission'),

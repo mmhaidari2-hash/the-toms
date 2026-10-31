@@ -160,7 +160,7 @@ void main() {
       await go('/');
       expect(find.byKey(const ValueKey('stats-chip'), skipOffstage: false), findsOneWidget);
       await go('/progress');
-      for (final k in ['progress-top', 'league']) {
+      for (final k in ['progress-top', 'calm-circle']) {
         expect(find.byKey(ValueKey(k), skipOffstage: false), findsOneWidget, reason: k);
       }
       final sc = t.state<ScrollableState>(find.descendant(of: find.byType(ProgressScreen, skipOffstage: false), matching: find.byType(Scrollable, skipOffstage: false)).first);

@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
+import '../../core/models/learner_profile.dart';
 import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
 import '../motivation/motivation_widgets.dart';
@@ -604,6 +605,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
       (Icons.flag_rounded, 'My study plan', 'برنامهٔ مطالعه', '/plan'),
       (Icons.replay_rounded, 'My mistakes', 'اشتباه‌های من', '/practice/mistakes'),
       (Icons.local_fire_department_rounded, 'Progress', 'پیشرفت و نشان‌ها', '/progress'),
+      (Icons.manage_accounts_rounded, 'Profiles', 'پروفایل‌ها', '/profiles'),
       (Icons.family_restroom_rounded, 'Family', 'خانواده و داستان‌ها', '/family'),
       (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
       (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
@@ -625,6 +627,10 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     }
   }
 
+  final kid = ref.read(progressProvider.notifier).kidMode;
+  List<_MI> filt(List<_MI> items) => [for (final it in items) if (!kid || !kidBlocks(it.$4)) it];
+  final groupsView = [for (final (en, fa, items) in groups) (en, fa, filt(items))];
+  final moreView = filt(more);
   showModalBottomSheet<void>(
     context: context,
     backgroundColor: BL.cream,
@@ -638,7 +644,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
         child: LayoutBuilder(builder: (context, box) {
           final w = (box.maxWidth - 16) / 3;
           return Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-            for (final (en, fa, items) in groups) ...[
+            for (final (en, fa, items) in groupsView) ...[
               Padding(
                 padding: const EdgeInsets.fromLTRB(4, 10, 4, 8),
                 child: Row(children: [
@@ -665,7 +671,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
               ]),
             ),
             const Padding(padding: EdgeInsets.fromLTRB(4, 0, 4, 8), child: HelperLangBar()),
-            for (final (icon, en, fa, route) in more)
+            for (final (icon, en, fa, route) in moreView)
               ListTile(
                 key: ValueKey('menu-$route'),
                 dense: true,
