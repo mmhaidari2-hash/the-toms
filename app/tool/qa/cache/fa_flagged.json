@@ -45234,6 +45234,107 @@
 "mname": []
 },
 {
+"scene": "nur_0_1",
+"node": "n1",
+"i": 0,
+"en": "Thank you for seeing me, Vida.",
+"fa": "ممنون که وقت گذاشتی ویدا.",
+"bad": true,
+"cov": 0.0,
+"ratio": 1.0,
+"miss": [
+"seeing",
+"vida"
+],
+"mname": [
+"Vida"
+]
+},
+{
+"scene": "nur_0_1",
+"node": "n2",
+"i": 0,
+"en": "I am calm with children and keen to learn British early-years practice.",
+"fa": "با بچه‌ها آرامم و مشتاق یادگیری کار واقعی مهد در بریتانیایم.",
+"bad": true,
+"cov": 0.5,
+"ratio": 1.31,
+"miss": [
+"keen",
+"early",
+"years",
+"practice"
+],
+"mname": []
+},
+{
+"scene": "nur_0_1",
+"node": "n3",
+"i": 0,
+"en": "I would listen, not ask leading questions, and report straight to the Designated Safeguarding Lead.",
+"fa": "گوش می‌دم، سؤال جهت‌دار نمی‌پرسم و فوری به مسئول حفاظت (DSL) گزارش می‌دم.",
+"bad": true,
+"cov": 0.44,
+"ratio": 0.93,
+"miss": [
+"leading",
+"straight",
+"designated",
+"safeguarding",
+"lead"
+],
+"mname": []
+},
+{
+"scene": "nur_0_1",
+"node": "n4",
+"i": 0,
+"en": "Yes — I am happy to complete a DBS check and first-aid training.",
+"fa": "بله — آماده‌ام DBS و کمک اولیه را انجام بدهم.",
+"bad": true,
+"cov": 0.14,
+"ratio": 0.69,
+"miss": [
+"happy",
+"complete",
+"check",
+"first",
+"aid",
+"training"
+],
+"mname": []
+},
+{
+"scene": "nur_0_1",
+"node": "n4",
+"i": 1,
+"en": "Yes. Could you explain what DBS covers?",
+"fa": "بله. می‌تونی بگی DBS شامل چیه؟",
+"bad": true,
+"cov": 0.33,
+"ratio": 1.29,
+"miss": [
+"explain",
+"covers"
+],
+"mname": []
+},
+{
+"scene": "nur_0_1",
+"node": "n6",
+"i": 1,
+"en": "Yes. What should I bring for the trial morning?",
+"fa": "بله. برای صبح آزمایشی چی بیارم؟",
+"bad": true,
+"cov": 0.33,
+"ratio": 1.11,
+"miss": [
+"bring",
+"trial"
+],
+"mname": []
+},
+{
 "scene": "nur_1_1",
 "node": "n1",
 "i": 1,
@@ -45834,6 +45935,188 @@
 "given"
 ],
 "mname": []
+},
+{
+"scene": "nur_7_1",
+"node": "n1",
+"i": 0,
+"en": "I've counted eighteen on the register.",
+"fa": "روی دفتر حضور هیجده تا شمردم.",
+"bad": true,
+"cov": 0.33,
+"ratio": 1.0,
+"miss": [
+"eighteen",
+"register"
+],
+"mname": []
+},
+{
+"scene": "nur_7_1",
+"node": "n3",
+"i": 0,
+"en": "Vida's covering me at half twelve.",
+"fa": "ویدا ساعت دوازده و نیم جای من را پر می‌کنه.",
+"bad": true,
+"cov": 0.25,
+"ratio": 1.29,
+"miss": [
+"vida",
+"covering",
+"half"
+],
+"mname": [
+"Vida"
+]
+},
+{
+"scene": "nur_7_1",
+"node": "n4",
+"i": 1,
+"en": "Why do we headcount at every transition?",
+"fa": "چرا در هر جابه‌جایی تعداد را می‌شماریم؟",
+"bad": true,
+"cov": 0.33,
+"ratio": 0.86,
+"miss": [
+"headcount",
+"transition"
+],
+"mname": []
+},
+{
+"scene": "nur_7_1",
+"node": "n5",
+"i": 0,
+"en": "If it doesn't match, I stop and tell you straight away.",
+"fa": "اگر جور نبود می‌ایستم و فوری بهت می‌گم.",
+"bad": true,
+"cov": 0.2,
+"ratio": 1.08,
+"miss": [
+"match",
+"stop",
+"straight",
+"away"
+],
+"mname": []
+},
+{
+"scene": "nur_7_2",
+"node": "n3",
+"i": 1,
+"en": "Mia ate none of the yoghurt — dairy allergy.",
+"fa": "میا هیچ ماستی نخورد — حساسیت لبنیات.",
+"bad": true,
+"cov": 0.17,
+"ratio": 0.75,
+"miss": [
+"ate",
+"none",
+"yoghurt",
+"dairy",
+"allergy"
+],
+"mname": []
+},
+{
+"scene": "nur_7_2",
+"node": "n5",
+"i": 0,
+"en": "I won't invent — I'll ask if I'm unsure.",
+"fa": "از خودم درنمیارم — اگر مطمئن نباشم می‌پرسم.",
+"bad": true,
+"cov": 0.25,
+"ratio": 1.0,
+"miss": [
+"wo",
+"invent",
+"unsure"
+],
+"mname": []
+},
+{
+"scene": "nur_7_3",
+"node": "n1",
+"i": 1,
+"en": "I'm a bit nervous — but I'll follow your lead.",
+"fa": "یه کم استرس دارم — اما از تو پیروی می‌کنم.",
+"bad": true,
+"cov": 0.25,
+"ratio": 0.91,
+"miss": [
+"bit",
+"nervous",
+"lead"
+],
+"mname": []
+},
+{
+"scene": "nur_7_3",
+"node": "n2",
+"i": 0,
+"en": "He's settling well. Drop-off tears are getting shorter.",
+"fa": "خوب جا می‌افتد. گریه‌های صبح کوتاه‌تر شده.",
+"bad": true,
+"cov": 0.4,
+"ratio": 1.0,
+"miss": [
+"settling",
+"drop",
+"tears"
+],
+"mname": []
+},
+{
+"scene": "nur_7_3",
+"node": "n3",
+"i": 0,
+"en": "He built a tower of eight blocks and counted them out loud.",
+"fa": "برج هشت‌تایی ساخت و بلند بلند شمرد.",
+"bad": true,
+"cov": 0.5,
+"ratio": 0.92,
+"miss": [
+"blocks",
+"counted",
+"loud"
+],
+"mname": []
+},
+{
+"scene": "nur_7_3",
+"node": "n3",
+"i": 1,
+"en": "He used the sand timer to take turns with the bikes.",
+"fa": "با ساعت شنی نوبت دوچرخه را رعایت کرد.",
+"bad": true,
+"cov": 0.17,
+"ratio": 0.82,
+"miss": [
+"used",
+"sand",
+"timer",
+"take",
+"bikes"
+],
+"mname": []
+},
+{
+"scene": "nur_7_4",
+"node": "n5",
+"i": 0,
+"en": "You kept trying — that was persevering.",
+"fa": "ادامه دادی — این پشتکار بود.",
+"bad": true,
+"cov": 0.33,
+"ratio": 0.5,
+"miss": [
+"kept",
+"trying"
+],
+"mname": [
+"You"
+]
 },
 {
 "scene": "okafor_followup",

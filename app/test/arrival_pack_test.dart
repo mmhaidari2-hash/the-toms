@@ -39,8 +39,8 @@ void main() {
     t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);
     final router = GoRouter(routes: [
-      GoRoute(path: '/', builder: (_, __) => const ArrivalPackScreen()),
-      GoRoute(path: '/forms', builder: (_, __) => const SizedBox()),
+      GoRoute(path: '/', builder: (_, _) => const ArrivalPackScreen()),
+      GoRoute(path: '/forms', builder: (_, _) => const SizedBox()),
     ]);
     await t.pumpWidget(ProviderScope(
       overrides: [arrivalPackProvider.overrideWith((ref) async => pack)],

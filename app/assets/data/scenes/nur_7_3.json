@@ -224,10 +224,12 @@
         },
         {
           "keywords": [
+            "wait",
+            "waiting",
             "summary",
             "email"
           ],
-          "suggestion": "Looking forward to the summary email.",
+          "suggestion": "I'm waiting for the summary email.",
           "suggestionFa": "منتظر ایمیل خلاصه هستم.",
           "trustDelta": 5,
           "next": "end",

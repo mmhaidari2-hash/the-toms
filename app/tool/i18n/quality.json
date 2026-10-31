@@ -1,42 +1,42 @@
 {
  "ar": {
-  "bt_checked": 1338,
-  "bt_mismatch": 17,
-  "bt_mismatch_rate": 0.0127,
-  "flag_share": 0.089,
+  "bt_checked": 1538,
+  "bt_mismatch": 39,
+  "bt_mismatch_rate": 0.0254,
+  "flag_share": 0.0887,
   "flagged": 590,
-  "prompts": 6630
+  "prompts": 6652
  },
  "hi": {
-  "bt_checked": 1523,
-  "bt_mismatch": 138,
-  "bt_mismatch_rate": 0.0906,
-  "flag_share": 0.0312,
-  "flagged": 207,
-  "prompts": 6630
+  "bt_checked": 1384,
+  "bt_mismatch": 122,
+  "bt_mismatch_rate": 0.0882,
+  "flag_share": 0.0564,
+  "flagged": 375,
+  "prompts": 6652
  },
  "pl": {
-  "bt_checked": 721,
-  "bt_mismatch": 47,
-  "bt_mismatch_rate": 0.0652,
-  "flag_share": 0.2452,
+  "bt_checked": 916,
+  "bt_mismatch": 70,
+  "bt_mismatch_rate": 0.0764,
+  "flag_share": 0.2444,
   "flagged": 1626,
-  "prompts": 6630
+  "prompts": 6652
  },
  "ps": {
-  "bt_checked": 648,
-  "bt_mismatch": 113,
-  "bt_mismatch_rate": 0.1744,
+  "bt_checked": 846,
+  "bt_mismatch": 137,
+  "bt_mismatch_rate": 0.1619,
   "flag_share": 0.0238,
   "flagged": 158,
-  "prompts": 6630
+  "prompts": 6652
  },
  "ur": {
-  "bt_checked": 1074,
-  "bt_mismatch": 37,
-  "bt_mismatch_rate": 0.0345,
-  "flag_share": 0.0879,
+  "bt_checked": 1274,
+  "bt_mismatch": 46,
+  "bt_mismatch_rate": 0.0361,
+  "flag_share": 0.0876,
   "flagged": 583,
-  "prompts": 6630
+  "prompts": 6652
  }
 }
