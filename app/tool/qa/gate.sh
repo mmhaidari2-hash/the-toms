@@ -4,6 +4,11 @@
 # Any blocking issue exits non-zero and the deploy script stops. Report: build/qa/report.html
 set -o pipefail
 cd "$(dirname "$0")/../.."
+# ready_pin regression guard: fail if a pinned READY lang dropped from helperComplete
+if [ "$1" != "post" ]; then
+  python3 tool/qa/check_ready_pin.py || exit 1
+fi
+
 if [ "$1" = "post" ]; then
   python3 tool/qa/run_qa.py --only shots --shots "${QA_URL:-http://localhost:8765/}"
 else

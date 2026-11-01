@@ -200,7 +200,7 @@ def ui_checks():
     cfg = {'routes': routes, 'sizes': [[320, 568], [375, 667], [414, 896]], 'langs': ['fa', 'ar', 'ur', 'hi', 'en']}
     json.dump(cfg, open(os.path.join(OUT, 'routes.json'), 'w'))
     stats['UI routes x sizes x languages'] = f"{len(routes)} x 3 x {len(cfg['langs'])} = {len(routes) * 3 * len(cfg['langs'])} screens"
-    ok, _ = flutter(['test/qa_content_test.dart', 'test/qa_ui_test.dart', 'test/word_gap_test.dart', 'test/map_loupe_test.dart'], 'ui')  # word_gap: English and gloss never glued; map_loupe: glass exactly on its pin
+    ok, _ = flutter(['test/qa_content_test.dart', 'test/qa_ui_test.dart', 'test/word_gap_test.dart', 'test/map_loupe_test.dart', 'test/ready_pin_regression_test.dart'], 'ui')  # word_gap: English and gloss never glued; map_loupe: glass exactly on its pin
     try:
         res = json.load(open(os.path.join(OUT, 'ui_results.json')))
         stats['UI screens rendered'] = len(res)
