@@ -3,7 +3,7 @@ const helperCoverage = <String, double>{
   'hi': 0.9694,
   'ur': 0.9652,
   'zh': 0.0,
-  'ar': 0.9637,
+  'ar': 0.9639,
   'uk': 0.0,
   'prs': 0.0,
   'ps': 0.9815,
