@@ -174,7 +174,7 @@ def ui_routes():
     rnd = random.Random(int(time.time()) // 86400)  # a different sample each day, stable within a day
     R = ['/', '/family', '/plan', '/placement', '/howto', '/legal', '/forms', '/forms/gp_register', '/arrival', '/profiles', '/school', '/library', '/cinema', '/lifeuk', '/lifeuk/mock', '/park', '/messages',
          '/driving', '/theory', '/theory/mock', '/seasons', '/missions', '/radio', '/progress', '/premium', '/leitner', '/diary', '/course', '/practice/mistakes']
-    R += [f'/school/{lv}' for lv in range(1, 6)] + [f'/certificate/{lv}' for lv in (1, 3, 5)]
+    R += [f'/school/{lv}' for lv in ('A1', 'A2', 'B1', 'B2', 'C1')] + [f'/certificate/{lv}' for lv in (1, 3, 5)]
     def some(xs, n): xs = list(xs); rnd.shuffle(xs); return xs[:n]
     R += ['/grammar/' + t['id'] for t in some(j('assets/data/grammar.json')['topics'], 3)]
     R += ['/read/' + t['id'] for t in some(j('assets/data/library.json')['books'], 3)]

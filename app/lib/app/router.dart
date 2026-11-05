@@ -1,3 +1,4 @@
+import '../features/grammar/grammar_data.dart';
 import '../features/leitner/leitner_screen.dart';
 import '../features/map/map_home.dart';
 import '../features/onboarding/placement_screen.dart';
@@ -115,7 +116,15 @@ final router = GoRouter(
     GoRoute(path: '/owner', pageBuilder: (_, s) => _fade(OwnerScreen(code: s.uri.queryParameters['code']), s)),
     GoRoute(path: '/legal', pageBuilder: (_, s) => _fade(LegalScreen(key: ValueKey('legal-${s.uri.queryParameters['tab']}'), tab: s.uri.queryParameters['tab'] ?? 'privacy'), s)),
     GoRoute(path: '/school', pageBuilder: (_, s) => _fade(SchoolScreen(college: s.uri.queryParameters['campus'] == 'college'), s)),
-    GoRoute(path: '/school/:level', pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),
+    // One class = one CEFR level (A1–C1). /school/a1 is accepted; an unknown class goes back to the school, never silently to A1.
+    GoRoute(
+        path: '/school/:level',
+        redirect: (_, s) {
+          final raw = s.pathParameters['level']!, code = raw.toUpperCase();
+          if (!Grammar.classes.any((c) => c.code == code)) return '/school';
+          return raw == code ? null : '/school/$code';
+        },
+        pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),
     GoRoute(path: '/grammar/:id', pageBuilder: (_, s) => _fade(TopicScreen(key: ValueKey('grammar-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),
