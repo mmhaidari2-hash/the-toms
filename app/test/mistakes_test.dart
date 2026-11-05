@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:british_life/app/app.dart';
@@ -7,64 +6,88 @@ import 'package:british_life/app/theme.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/models/user_progress.dart';
-import 'package:british_life/features/course/practice_screen.dart';
+import 'package:british_life/features/grammar/grammar_data.dart';
+import 'package:british_life/features/shared/nav.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// "My mistakes": wrong answers are saved, come back as their own lesson, and leave once answered right.
+/// "Common mistakes of Persian speakers": content rules and the screens open without a class lock.
 void main() {
-  setUp(() => BL.useGoogleFonts = false);
-  final word = (jsonDecode(File('assets/data/course.json').readAsStringSync())['units'][0]['lessons'][0]['words'][0]['word']) as String;
+  final topics = Grammar.parse(File('assets/data/mistakes.json').readAsStringSync());
+  final grammarIds = {for (final t in Grammar.parse(File('assets/data/grammar.json').readAsStringSync())) t.id};
 
-  test('record, repeat, order and clear', () {
-    final store = MemoryProgressStore()..data = const UserProgress(onboarded: true).encode();
-    final c = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(store)]).read(progressProvider.notifier);
-    final a = mistakeOf(const ListenPick('kettle', ['kettle', 'mug', 'tea']), 'L1')!;
-    final b = mistakeOf(const BuildSentence(['I', 'like', 'tea'], ['tea', 'I', 'like'], 'من چای دوست دارم'), 'L1')!;
-    expect(mistakeOf(const FillGap('A ', ' please', 'tea', ['tea', 'x', 'y'], ''), 'L1')!.$1, 'f:A _ please');
-    c.recordMistake(a.$1, a.$2);
-    c.recordMistake(b.$1, b.$2);
-    c.recordMistake(b.$1, b.$2);
-    expect(c.mistakeList.map((e) => e.$1).toList(), ['s:I like tea', 'w:kettle']); // repeated first
-    expect(c.mistakeList.first.$2['n'], 2);
-    c.clearMistake('s:I like tea');
-    expect(c.mistakeList.map((e) => e.$1).toList(), ['w:kettle']);
-    for (var i = 0; i < 70; i++) {
-      c.recordMistake('w:x$i', {'t': 'w', 'w': 'x$i'});
+  test('ten well-formed lessons, ids never clash with the grammar ladder', () {
+    expect(topics.length, greaterThanOrEqualTo(10));
+    expect({for (final t in topics) t.id}.length, topics.length);
+    final us = RegExp(r"\b(color|favorite|mom|apartment|cookie|candy|pants|vacation|soccer|gotten|center|realize|trash|movie)\b", caseSensitive: false);
+    for (final t in topics) {
+      expect(t.level, 'PM');
+      expect(isMistakeTopic(t.id), isTrue);
+      expect(grammarIds, isNot(contains(t.id)));
+      expect(t.practice.length, greaterThanOrEqualTo(12), reason: t.id);
+      expect(t.test.length, greaterThanOrEqualTo(5), reason: t.id);
+      expect(t.practice.map((e) => e.kind).toSet(), containsAll(['gap', 'choose', 'order', 'transform']), reason: t.id);
+      for (final l in [...t.teach, ...t.examples]) {
+        expect(RegExp(r'[\u0600-\u06FF]').hasMatch(l.fa), isTrue, reason: l.en);
+        expect(us.hasMatch(l.en), isFalse, reason: l.en);
+      }
+      for (final it in [...t.practice, ...t.test]) {
+        expect(us.hasMatch(it.prompt + it.answers.join(' ')), isFalse, reason: it.prompt);
+        if (it.kind == 'gap' || it.kind == 'choose') expect(it.answers.toSet().length, 3, reason: it.prompt);
+        if (it.kind == 'gap') expect(it.fill(it.answers.first), isNot(contains('___')), reason: it.prompt);
+        if (it.kind == 'order') expect(it.answers.first.split(' ').length, greaterThanOrEqualTo(3), reason: it.prompt);
+        if (it.kind == 'transform') expect(it.check(it.answers.first), isTrue, reason: it.prompt);
+      }
     }
-    expect(c.mistakeList.length, 60);
   });
 
-  Future<ProviderContainer> boot(WidgetTester t, Map<String, String> mist) async {
-    t.view.physicalSize = const Size(750, 1334);
-    t.view.devicePixelRatio = 2;
+  setUp(() => BL.useGoogleFonts = false);
+  setUpAll(() async {
+    for (final (fam, file) in [('Roboto', 'Inter'), ('Inter', 'Inter'), ('Fraunces', 'Fraunces'), ('Vazirmatn', 'Vazirmatn')]) {
+      final l = FontLoader(fam);
+      for (final w in ['Regular', 'Medium', 'SemiBold', 'Bold', 'ExtraBold']) {
+        l.addFont(Future.value(ByteData.sublistView(File('assets/google_fonts/$file-$w.ttf').readAsBytesSync())));
+      }
+      await l.load();
+    }
+  });
+
+  testWidgets('school → mistakes list → a lesson opens straight away (no lock)', (t) async {
+    t.view.physicalSize = const Size(375, 667) * 3;
+    t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);
-    await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore()..data = UserProgress(onboarded: true, mistakes: mist, missionsDone: const {'pref:lvseen': '1'}).encode())], child: const BritishLifeApp()));
-    for (var i = 0; i < 40 && find.byKey(const ValueKey('continue')).evaluate().isEmpty; i++) {
+    final store = MemoryProgressStore()..data = const UserProgress(onboarded: true, missionsDone: {'pref:chapter': '99'}).encode();
+    await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
+    Future<void> settle() async {
+      await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
+      for (var i = 0; i < 4; i++) {
+        await t.pump(const Duration(milliseconds: 400));
+      }
+      for (var i = 0; i < 40 && find.byType(NavLoading, skipOffstage: false).evaluate().isNotEmpty; i++) {
+        await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
+        await t.pump(const Duration(milliseconds: 200));
+      }
+      expect(t.takeException(), isNull);
+    }
+
+    for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) {
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
       await t.pump(const Duration(milliseconds: 100));
     }
-    await t.pump(const Duration(milliseconds: 500));
-    return ProviderScope.containerOf(t.element(find.byType(MaterialApp).first));
-  }
-
-  testWidgets('no mistakes: a friendly empty screen', (t) async {
-    await boot(t, const {});
-    router.go('/practice/mistakes');
-    for (var i = 0; i < 6; i++) { await t.pump(const Duration(milliseconds: 200)); }
-    expect(find.byKey(const ValueKey('mistakes-empty')), findsOneWidget);
-    expect(t.takeException(), isNull);
-  });
-
-  testWidgets('a saved mistake comes back and is cleared when answered right', (t) async {
-    final c = await boot(t, {'w:${word.toLowerCase()}': jsonEncode({'t': 'w', 'w': word, 'n': 1, 'd': '2026-10-20'})});
-    router.go('/practice/mistakes');
-    for (var i = 0; i < 6; i++) { await t.pump(const Duration(milliseconds: 200)); }
-    expect(find.text('1/1'), findsOneWidget);
-    await t.tap(find.text(word).first);
-    for (var i = 0; i < 4; i++) { await t.pump(const Duration(milliseconds: 200)); }
-    expect(c.read(progressProvider).mistakes, isEmpty);
-    expect(t.takeException(), isNull);
+    router.go('/school');
+    await settle();
+    expect(find.byKey(const ValueKey('school-mistakes')), findsOneWidget);
+    await t.tap(find.byKey(const ValueKey('school-mistakes')));
+    await settle();
+    expect(find.byKey(const ValueKey('mistakes-list')), findsOneWidget);
+    expect(find.textContaining('0 of ${topics.length} passed'), findsOneWidget);
+    final last = find.byKey(ValueKey('mistake-${topics.last.id}'));
+    await t.scrollUntilVisible(last, 200, scrollable: find.byType(Scrollable).first);
+    await t.tap(last);
+    await settle();
+    expect(find.byKey(const ValueKey('topic-locked')), findsNothing, reason: 'mistakes are never locked');
+    expect(find.textContaining('Persian speakers · Lesson'), findsOneWidget);
   });
 }

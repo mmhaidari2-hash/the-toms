@@ -1,0 +1,1858 @@
+{
+ "topics": [
+  {
+   "id": "pm_articles",
+   "level": "PM",
+   "title": "No article? Add \"a\" or \"the\"",
+   "titleFa": "حرف تعریف را جا نیندازید: a / an / the",
+   "teach": [
+    {
+     "en": "Persian has no word like \"a\" or \"the\", so we often drop them in English. Let's fix that today.",
+     "fa": "فارسی کلمه‌ای مثل a یا the ندارد؛ برای همین در انگلیسی جا می‌اندازیم. امروز درستش می‌کنیم."
+    },
+    {
+     "en": "Jobs need \"a\" or \"an\": not \"I am teacher\", but \"I'm a teacher\".",
+     "fa": "برای شغل a یا an لازم است: نه I am teacher، بلکه I'm a teacher."
+    },
+    {
+     "en": "Use \"the\" when we both know which one: \"Close the door, please.\"",
+     "fa": "وقتی هر دو می‌دانیم کدام است the می‌گوییم: Close the door, please."
+    },
+    {
+     "en": "Use \"an\" before a vowel sound: an apple, an hour. Use \"a\" before a consonant sound: a university.",
+     "fa": "قبل از صدای مصوت an (an hour) و قبل از صدای صامت a (a university)."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My husband is a builder.",
+     "fa": "شوهرم بنّاست."
+    },
+    {
+     "en": "Can you open the window?",
+     "fa": "می‌شود پنجره را باز کنید؟"
+    },
+    {
+     "en": "I waited an hour at the GP surgery.",
+     "fa": "یک ساعت در درمانگاه منتظر ماندم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "I'm ___ nurse.",
+     "answers": [
+      "a",
+      "an",
+      "the"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "She's ___ engineer.",
+     "answers": [
+      "an",
+      "a",
+      "the"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Please pass me ___ salt.",
+     "answers": [
+      "the",
+      "a",
+      "an"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "He's a taxi driver.",
+      "He's taxi driver.",
+      "He's an taxi driver."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I've got an appointment.",
+      "I've got appointment.",
+      "I've got a appointment."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "We live in ___ flat near the station.",
+     "answers": [
+      "a",
+      "an",
+      "the"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "It takes ___ hour by bus.",
+     "answers": [
+      "an",
+      "a",
+      "the"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "She goes to a university in Leeds.",
+      "She goes to an university in Leeds.",
+      "She goes to university the in Leeds."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "My brother is a doctor.",
+     "answers": [
+      "My brother is a doctor."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Turn off the lights, please.",
+     "answers": [
+      "Turn off the lights, please."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Add the missing article: \"I am student.\"",
+     "answers": [
+      "I am a student.",
+      "I'm a student."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Add the missing article: \"She bought umbrella.\"",
+     "answers": [
+      "She bought an umbrella."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "My dad is ___ electrician.",
+     "answers": [
+      "an",
+      "a",
+      "the"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I need a new phone.",
+      "I need new phone.",
+      "I need an new phone."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Where is ___ toilet, please?",
+     "answers": [
+      "the",
+      "a",
+      "an"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I'm a cleaner at the hospital.",
+     "answers": [
+      "I'm a cleaner at the hospital."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Add the missing article: \"He is cook.\"",
+     "answers": [
+      "He is a cook.",
+      "He's a cook."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_he_she",
+   "level": "PM",
+   "title": "\"He\" or \"she\"? Not the same!",
+   "titleFa": "he یا she؟ «او» در انگلیسی دوتاست",
+   "teach": [
+    {
+     "en": "In Persian, one word, \"u\", means both he and she. In English we must choose.",
+     "fa": "در فارسی «او» هم برای مرد است هم زن؛ در انگلیسی باید انتخاب کنیم."
+    },
+    {
+     "en": "A man is \"he\", \"him\", \"his\". A woman is \"she\", \"her\", \"her\".",
+     "fa": "مرد: he، him، his. زن: she، her، her."
+    },
+    {
+     "en": "A thing or an animal we don't know is \"it\", \"its\".",
+     "fa": "چیز یا حیوان: it و its."
+    },
+    {
+     "en": "Tip: before you say it, think — man or woman? Then pick the word.",
+     "fa": "نکته: قبل از گفتن فکر کنید مرد است یا زن، بعد کلمه را انتخاب کنید."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My sister is a dentist. She works in Croydon.",
+     "fa": "خواهرم دندانپزشک است. او در کرویدن کار می‌کند."
+    },
+    {
+     "en": "Tom loves his bus.",
+     "fa": "تام اتوبوسش را دوست دارد."
+    },
+    {
+     "en": "I called my mum and told her the news.",
+     "fa": "به مادرم زنگ زدم و خبر را به او گفتم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "My wife is tired. ___ works nights.",
+     "answers": [
+      "She",
+      "He",
+      "It"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Ask Tom. ___ knows the way.",
+     "answers": [
+      "He",
+      "She",
+      "It"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Leslie lost ___ keys.",
+     "answers": [
+      "her",
+      "his",
+      "its"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I saw William and gave ___ the book.",
+     "answers": [
+      "him",
+      "her",
+      "he"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "My mother lives with her sister.",
+      "My mother lives with his sister.",
+      "My mother lives with he sister."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Ryan is late. He missed his bus.",
+      "Ryan is late. She missed her bus.",
+      "Ryan is late. He missed her bus."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "The cat is eating ___ food.",
+     "answers": [
+      "its",
+      "his",
+      "it's"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Maisie said ___ was hungry.",
+     "answers": [
+      "she",
+      "he",
+      "her"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "My daughter loves her school.",
+     "answers": [
+      "My daughter loves her school."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Tell him I'm sorry.",
+     "answers": [
+      "Tell him I'm sorry."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it (talking about a woman): \"He is my manager, his name is Sara.\"",
+     "answers": [
+      "She is my manager, her name is Sara.",
+      "She's my manager, her name is Sara.",
+      "She's my manager. Her name is Sara."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it (Ali is a man): \"Ali lost her phone.\"",
+     "answers": [
+      "Ali lost his phone."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "My son broke ___ arm.",
+     "answers": [
+      "his",
+      "her",
+      "its"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Nicola? I'll call ___ later.",
+     "answers": [
+      "her",
+      "him",
+      "she"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Ali's mum is a teacher. She teaches maths.",
+      "Ali's mum is a teacher. He teaches maths.",
+      "Ali's mum is a teacher. His teaches maths."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "He gave her his number.",
+     "answers": [
+      "He gave her his number."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Your uncle is here. ___ is waiting outside.",
+     "answers": [
+      "He",
+      "She",
+      "Her"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_word_order",
+   "level": "PM",
+   "title": "Word order: subject, verb, object",
+   "titleFa": "ترتیب کلمات: فاعل + فعل + مفعول",
+   "teach": [
+    {
+     "en": "Persian puts the verb at the end. English puts it right after the subject.",
+     "fa": "فارسی فعل را آخر جمله می‌گذارد؛ انگلیسی درست بعد از فاعل."
+    },
+    {
+     "en": "Not \"I English study\", but \"I study English\".",
+     "fa": "نه I English study، بلکه I study English."
+    },
+    {
+     "en": "Adjectives go before the noun: \"a red car\", not \"a car red\".",
+     "fa": "صفت قبل از اسم می‌آید: a red car، نه a car red."
+    },
+    {
+     "en": "Time usually goes at the end: \"I go to work every day.\"",
+     "fa": "زمان معمولاً آخر جمله می‌آید: I go to work every day."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I bought a new coat yesterday.",
+     "fa": "دیروز یک کت نو خریدم."
+    },
+    {
+     "en": "She speaks English very well.",
+     "fa": "او انگلیسی را خیلی خوب صحبت می‌کند."
+    },
+    {
+     "en": "We visited my aunt last weekend.",
+     "fa": "آخر هفتهٔ پیش به خاله‌ام سر زدیم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I drink tea every morning.",
+      "I tea every morning drink.",
+      "I every morning tea drink."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "She has a big house.",
+      "She has a house big.",
+      "She a big house has."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "We watch TV in the evening.",
+     "answers": [
+      "We watch TV in the evening."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "He bought a blue jumper.",
+     "answers": [
+      "He bought a blue jumper."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I learn English at college.",
+     "answers": [
+      "I learn English at college."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "My son plays football on Saturdays.",
+     "answers": [
+      "My son plays football on Saturdays."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I like British food very much.",
+      "I like very much British food.",
+      "I very much like food British."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "They live in a small flat.",
+      "They in a small flat live.",
+      "They live in a flat small."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix the order: \"I my keys lost.\"",
+     "answers": [
+      "I lost my keys."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix the order: \"She a dress red bought.\"",
+     "answers": [
+      "She bought a red dress."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Can you help me with this form?",
+     "answers": [
+      "Can you help me with this form?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ every morning.",
+     "answers": [
+      "drink tea",
+      "tea drink",
+      "tea every drink"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "order",
+     "prompt": "I go to the gym twice a week.",
+     "answers": [
+      "I go to the gym twice a week."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "We need a bigger car.",
+      "We need a car bigger.",
+      "We a bigger car need."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix the order: \"I English study.\"",
+     "answers": [
+      "I study English."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "She cooked a delicious meal.",
+     "answers": [
+      "She cooked a delicious meal."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I saw an old friend yesterday.",
+      "I yesterday saw a friend old.",
+      "I an old friend saw yesterday."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_questions",
+   "level": "PM",
+   "title": "Questions need \"do\", \"does\" or a swap",
+   "titleFa": "سؤال‌سازی: do / does یا جابه‌جایی",
+   "teach": [
+    {
+     "en": "In Persian a question can sound just like a statement. In English we change the words.",
+     "fa": "در فارسی سؤال گاهی فقط با لحن است؛ در انگلیسی ساختار جمله عوض می‌شود."
+    },
+    {
+     "en": "With \"be\" and \"can\", swap them: \"You are ready\" becomes \"Are you ready?\"",
+     "fa": "با be و can جایشان را عوض کنید: Are you ready?"
+    },
+    {
+     "en": "With other verbs, add \"do\" or \"does\": \"Where do you live?\", not \"Where you live?\"",
+     "fa": "با فعل‌های دیگر do یا does اضافه کنید: Where do you live?"
+    },
+    {
+     "en": "After \"does\", the verb has no -s: \"Does she work?\", not \"Does she works?\"",
+     "fa": "بعد از does فعل s نمی‌گیرد: Does she work?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where do you work?",
+     "fa": "کجا کار می‌کنید؟"
+    },
+    {
+     "en": "Does your son go to school?",
+     "fa": "پسرتان مدرسه می‌رود؟"
+    },
+    {
+     "en": "Can I pay by card?",
+     "fa": "می‌توانم با کارت پرداخت کنم؟"
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "Where ___ you live?",
+     "answers": [
+      "do",
+      "does",
+      "are"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ she speak English?",
+     "answers": [
+      "Does",
+      "Do",
+      "Is"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "What time ___ the shop open?",
+     "answers": [
+      "does",
+      "do",
+      "is"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Are you married?",
+      "You are married?",
+      "Do you married?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Does he work here?",
+      "Does he works here?",
+      "He works here?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "How much does it cost?",
+      "How much it costs?",
+      "How much is it cost?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Where do you come from?",
+     "answers": [
+      "Where do you come from?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Can you speak more slowly?",
+     "answers": [
+      "Can you speak more slowly?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"You like tea.\"",
+     "answers": [
+      "Do you like tea?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"She lives in Leeds.\"",
+     "answers": [
+      "Does she live in Leeds?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ you ready?",
+     "answers": [
+      "Are",
+      "Do",
+      "Does"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "What does this word mean?",
+     "answers": [
+      "What does this word mean?"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "How ___ you spell your name?",
+     "answers": [
+      "do",
+      "does",
+      "are"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Do you have an appointment?",
+      "You have an appointment?",
+      "Have you an appointment do?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"He works on Sundays.\"",
+     "answers": [
+      "Does he work on Sundays?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Where can I park my car?",
+     "answers": [
+      "Where can I park my car?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "What does she do?",
+      "What she does?",
+      "What does she does?"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_be_have",
+   "level": "PM",
+   "title": "\"I'm 30\", not \"I have 30 years\"",
+   "titleFa": "I'm 30 نه I have 30 years — be و have",
+   "teach": [
+    {
+     "en": "Some Persian phrases use \"have\" where English uses \"be\", and the other way round.",
+     "fa": "بعضی عبارت‌ها در فارسی با «داشتن» است ولی در انگلیسی با be، و برعکس."
+    },
+    {
+     "en": "Age uses \"be\": \"I'm thirty\", not \"I have thirty years\".",
+     "fa": "سن با be: I'm thirty، نه I have thirty years."
+    },
+    {
+     "en": "Feelings like \"agree\" are verbs: \"I agree\", not \"I am agree\".",
+     "fa": "agree فعل است: I agree، نه I am agree."
+    },
+    {
+     "en": "But: \"I'm hungry\", \"I'm cold\", \"I'm right\" — these use \"be\".",
+     "fa": "ولی: I'm hungry، I'm cold، I'm right با be هستند."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My daughter is seven.",
+     "fa": "دخترم هفت سالش است."
+    },
+    {
+     "en": "I agree with you.",
+     "fa": "با شما موافقم."
+    },
+    {
+     "en": "I'm cold. Can you close the window?",
+     "fa": "سردم است. پنجره را می‌بندید؟"
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I'm 35.",
+      "I have 35 years.",
+      "I am 35 years."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I agree.",
+      "I am agree.",
+      "I agreed am."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "My son ___ ten years old.",
+     "answers": [
+      "is",
+      "has",
+      "have"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ hungry. Let's eat.",
+     "answers": [
+      "'m",
+      "have",
+      "has"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Are you cold?",
+      "Do you have cold?",
+      "Have you cold?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "She's right.",
+      "She has right.",
+      "She have right."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ with your idea.",
+     "answers": [
+      "agree",
+      "am agree",
+      "agreeing"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "We ___ three children.",
+     "answers": [
+      "have",
+      "are",
+      "has"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "How old is your daughter?",
+     "answers": [
+      "How old is your daughter?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I don't agree with him.",
+     "answers": [
+      "I don't agree with him."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"I have 40 years.\"",
+     "answers": [
+      "I'm 40.",
+      "I am 40.",
+      "I'm 40 years old.",
+      "I am 40 years old."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"He is agree.\"",
+     "answers": [
+      "He agrees."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "How old are you?",
+      "How many years do you have?",
+      "How old do you have?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ sleepy.",
+     "answers": [
+      "'m",
+      "have",
+      "has"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"We are agree.\"",
+     "answers": [
+      "We agree."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "My mum ___ sixty.",
+     "answers": [
+      "is",
+      "has",
+      "have"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I'm afraid of dogs.",
+     "answers": [
+      "I'm afraid of dogs."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_plurals",
+   "level": "PM",
+   "title": "Plurals: \"two books\", no \"informations\"",
+   "titleFa": "جمع: two books — و information بدون s",
+   "teach": [
+    {
+     "en": "In Persian, after a number the noun stays singular: \"do ketab\". In English we add -s: \"two books\".",
+     "fa": "در فارسی بعد از عدد اسم مفرد می‌ماند (دو کتاب)؛ در انگلیسی s می‌گیرد: two books."
+    },
+    {
+     "en": "Some words never take -s: information, advice, furniture, luggage, homework, news.",
+     "fa": "بعضی اسم‌ها هرگز s نمی‌گیرند: information، advice، furniture، luggage، homework، news."
+    },
+    {
+     "en": "For these, say \"some advice\" or \"a piece of advice\", and use \"much\", not \"many\".",
+     "fa": "برای این‌ها بگویید some advice یا a piece of advice، و much نه many."
+    },
+    {
+     "en": "\"People\" is already plural: \"people are\", not \"peoples is\".",
+     "fa": "people خودش جمع است: people are."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have three children.",
+     "fa": "سه بچه دارم."
+    },
+    {
+     "en": "Can you give me some information?",
+     "fa": "می‌شود کمی اطلاعات بدهید؟"
+    },
+    {
+     "en": "The news is good today.",
+     "fa": "خبرهای امروز خوب است."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "I bought two ___.",
+     "answers": [
+      "tickets",
+      "ticket",
+      "ticketes"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "She gave me some good advice.",
+      "She gave me some good advices.",
+      "She gave me an advice."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I need more information.",
+      "I need more informations.",
+      "I need an information."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "There are five ___ in the room.",
+     "answers": [
+      "people",
+      "peoples",
+      "person"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "How ___ luggage do you have?",
+     "answers": [
+      "much",
+      "many",
+      "a"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "We bought new furniture.",
+      "We bought new furnitures.",
+      "We bought a furniture."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "My son has a lot of ___ tonight.",
+     "answers": [
+      "homework",
+      "homeworks",
+      "a homework"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I've got three ___.",
+     "answers": [
+      "brothers",
+      "brother",
+      "brotheres"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Can I have two coffees, please?",
+     "answers": [
+      "Can I have two coffees, please?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "The news is on at six.",
+     "answers": [
+      "The news is on at six."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"I have two daughter.\"",
+     "answers": [
+      "I have two daughters.",
+      "I've got two daughters."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"Thanks for the informations.\"",
+     "answers": [
+      "Thanks for the information."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "We waited for ten ___.",
+     "answers": [
+      "minutes",
+      "minute",
+      "minuts"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Let me give you some advice.",
+      "Let me give you some advices.",
+      "Let me give you an advice."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "How ___ people came?",
+     "answers": [
+      "many",
+      "much",
+      "lot"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"She bought three apple.\"",
+     "answers": [
+      "She bought three apples."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Our luggage is very heavy.",
+     "answers": [
+      "Our luggage is very heavy."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_prepositions",
+   "level": "PM",
+   "title": "Prepositions: in, on, at, to, with",
+   "titleFa": "حرف اضافه: in، on، at، to، with",
+   "teach": [
+    {
+     "en": "Prepositions don't match Persian one-to-one, so learn them in chunks.",
+     "fa": "حرف اضافه‌ها یک‌به‌یک با فارسی جور نیستند؛ آن‌ها را تکه‌تکه حفظ کنید."
+    },
+    {
+     "en": "Time: at 9 o'clock, on Monday, in June, in the morning, at the weekend.",
+     "fa": "زمان: at 9، on Monday، in June، in the morning، at the weekend."
+    },
+    {
+     "en": "Common chunks: married to, angry with, depend on, listen to, wait for.",
+     "fa": "تکه‌های رایج: married to، angry with، depend on، listen to، wait for."
+    },
+    {
+     "en": "Not \"married with\", not \"depend to\", not \"listen music\".",
+     "fa": "نه married with، نه depend to، نه listen music."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My appointment is on Tuesday at ten.",
+     "fa": "وقت من سه‌شنبه ساعت ده است."
+    },
+    {
+     "en": "She's married to a Scottish man.",
+     "fa": "او با یک مرد اسکاتلندی ازدواج کرده."
+    },
+    {
+     "en": "I'm waiting for the bus.",
+     "fa": "منتظر اتوبوسم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "The class starts ___ 9 o'clock.",
+     "answers": [
+      "at",
+      "on",
+      "in"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I was born ___ 1990.",
+     "answers": [
+      "in",
+      "on",
+      "at"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "See you ___ Friday!",
+     "answers": [
+      "on",
+      "in",
+      "at"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "She's married to my cousin.",
+      "She's married with my cousin.",
+      "She's married by my cousin."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "It depends on the weather.",
+      "It depends to the weather.",
+      "It depends of the weather."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I listen to the radio.",
+      "I listen the radio.",
+      "I listen at the radio."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "We're waiting ___ the doctor.",
+     "answers": [
+      "for",
+      "to",
+      "at"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Don't be angry ___ me!",
+     "answers": [
+      "with",
+      "from",
+      "to"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I work ___ the morning.",
+     "answers": [
+      "in",
+      "on",
+      "at"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I'll see you at the weekend.",
+     "answers": [
+      "I'll see you at the weekend."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"I am waiting the train.\"",
+     "answers": [
+      "I am waiting for the train.",
+      "I'm waiting for the train."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"He is married with Sara.\"",
+     "answers": [
+      "He is married to Sara.",
+      "He's married to Sara."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "The shop closes ___ Sundays.",
+     "answers": [
+      "on",
+      "in",
+      "at"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Can you wait for me?",
+      "Can you wait me?",
+      "Can you wait to me?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "We moved here ___ March.",
+     "answers": [
+      "in",
+      "on",
+      "at"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"I listen music every day.\"",
+     "answers": [
+      "I listen to music every day."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Are you angry with me?",
+     "answers": [
+      "Are you angry with me?"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_tenses",
+   "level": "PM",
+   "title": "Past and present perfect: \"I've lived here since…\"",
+   "titleFa": "زمان گذشته و حال کامل",
+   "teach": [
+    {
+     "en": "Persian often uses the present for something that started in the past. English uses the present perfect.",
+     "fa": "فارسی برای کاری که از گذشته شروع شده گاهی حال می‌گوید؛ انگلیسی حال کامل."
+    },
+    {
+     "en": "Not \"I live here since 2020\", but \"I've lived here since 2020\".",
+     "fa": "نه I live here since 2020، بلکه I've lived here since 2020."
+    },
+    {
+     "en": "With a finished time (yesterday, last week, in 2019) use the past: \"I went yesterday\".",
+     "fa": "با زمان تمام‌شده (yesterday، last week) گذشتهٔ ساده: I went yesterday."
+    },
+    {
+     "en": "Not \"Yesterday I go\": the verb must change — went, saw, bought.",
+     "fa": "نه Yesterday I go؛ فعل عوض می‌شود: went، saw، bought."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've lived in London for five years.",
+     "fa": "پنج سال است در لندن زندگی می‌کنم."
+    },
+    {
+     "en": "I saw the doctor last Monday.",
+     "fa": "دوشنبهٔ پیش دکتر رفتم."
+    },
+    {
+     "en": "Have you ever been to Scotland?",
+     "fa": "تا حالا اسکاتلند رفته‌ای؟"
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I've worked here since May.",
+      "I work here since May.",
+      "I am working here since May."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Yesterday I ___ to the bank.",
+     "answers": [
+      "went",
+      "go",
+      "have gone"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "She ___ in the UK for three years.",
+     "answers": [
+      "has lived",
+      "lives",
+      "is living"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I bought this coat last week.",
+      "I have bought this coat last week.",
+      "I buy this coat last week."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "We ___ each other since school.",
+     "answers": [
+      "have known",
+      "know",
+      "are knowing"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Last night I ___ a film.",
+     "answers": [
+      "watched",
+      "watch",
+      "have watched"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "How long have you been here?",
+      "How long are you here?",
+      "How long you are here?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I've never been to Wales.",
+     "answers": [
+      "I've never been to Wales."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "We moved here two years ago.",
+     "answers": [
+      "We moved here two years ago."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ you ever tried fish and chips?",
+     "answers": [
+      "Have",
+      "Did",
+      "Do"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"I live here since 2021.\"",
+     "answers": [
+      "I've lived here since 2021.",
+      "I have lived here since 2021."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"Yesterday I see my friend.\"",
+     "answers": [
+      "Yesterday I saw my friend."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "He ___ his job in 2022.",
+     "answers": [
+      "started",
+      "has started",
+      "starts"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I've known her for ten years.",
+      "I know her for ten years.",
+      "I am knowing her for ten years."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Fix it: \"Last week I buy a car.\"",
+     "answers": [
+      "Last week I bought a car."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Have you finished your homework?",
+     "answers": [
+      "Have you finished your homework?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "They ___ married since 2015.",
+     "answers": [
+      "have been",
+      "are",
+      "were"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_sounds",
+   "level": "PM",
+   "title": "Sounds: w/v, th, and no extra \"e\"",
+   "titleFa": "تلفظ: w و v، صدای th، و «اِ» اضافه نگذارید",
+   "teach": [
+    {
+     "en": "Persian has one sound between \"w\" and \"v\". In English they change the meaning: wine and vine.",
+     "fa": "فارسی بین w و v یک صدا دارد؛ در انگلیسی معنی را عوض می‌کنند: wine و vine."
+    },
+    {
+     "en": "For \"w\", round your lips like a kiss. For \"v\", touch your top teeth on your bottom lip.",
+     "fa": "برای w لب‌ها را غنچه کنید؛ برای v دندان بالا را روی لب پایین بگذارید."
+    },
+    {
+     "en": "For \"th\", put your tongue between your teeth: think, three, this, mother.",
+     "fa": "برای th زبان را بین دندان‌ها بگذارید: think، three، this."
+    },
+    {
+     "en": "Don't add a vowel before \"s\": say \"school\", \"station\", \"Spain\" — not \"eschool\", \"estation\".",
+     "fa": "قبل از s صدای «اِ» نگذارید: school نه اِسکول، station نه اِستیشن."
+    }
+   ],
+   "examples": [
+    {
+     "en": "We went to the west of Wales.",
+     "fa": "به غرب ولز رفتیم."
+    },
+    {
+     "en": "I think there are three of them.",
+     "fa": "فکر کنم سه تا هستند."
+    },
+    {
+     "en": "The station is near my school.",
+     "fa": "ایستگاه نزدیک مدرسهٔ من است."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which word is a drink made from grapes?",
+     "answers": [
+      "wine",
+      "vine",
+      "vain"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word fits: \"It's ___ cold today.\"",
+     "answers": [
+      "very",
+      "wary",
+      "weary"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word is a number?",
+     "answers": [
+      "three",
+      "tree",
+      "free"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word means the opposite of \"thin\"?",
+     "answers": [
+      "thick",
+      "sick",
+      "tick"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "A car has four of these. Which word?",
+     "answers": [
+      "wheels",
+      "veals",
+      "feels"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word means \"not dry\"?",
+     "answers": [
+      "wet",
+      "vet",
+      "bet"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Our cat went to the ___ for an injection.",
+     "answers": [
+      "vet",
+      "wet",
+      "bet"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Write the number that comes after two (in letters):",
+     "answers": [
+      "three"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which spelling is right?",
+     "answers": [
+      "station",
+      "estation",
+      "istation"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which spelling is right?",
+     "answers": [
+      "school",
+      "eschool",
+      "iskool"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I think it is Thursday.",
+     "answers": [
+      "I think it is Thursday."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "We visited Wales in the winter.",
+     "answers": [
+      "We visited Wales in the winter."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "Which word is a big group of water moving to the beach?",
+     "answers": [
+      "wave",
+      "vave",
+      "fave"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word means a road you can drive on? (lips rounded)",
+     "answers": [
+      "way",
+      "vay",
+      "bay"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which word is the day after Wednesday?",
+     "answers": [
+      "Thursday",
+      "Sursday",
+      "Tursday"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which spelling is right?",
+     "answers": [
+      "Spain",
+      "Espain",
+      "Ispain"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Three of us went to the west.",
+     "answers": [
+      "Three of us went to the west."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "pm_polite",
+   "level": "PM",
+   "title": "Sounding polite: \"Could I…?\" not \"Give me\"",
+   "titleFa": "مؤدبانه حرف زدن: Could I… به‌جای Give me",
+   "teach": [
+    {
+     "en": "A direct order can sound rude in British English, even when you don't mean it.",
+     "fa": "در انگلیسی بریتانیایی دستور مستقیم حتی بی‌منظور هم بی‌ادبانه به نظر می‌رسد."
+    },
+    {
+     "en": "Not \"Give me a coffee\", but \"Could I have a coffee, please?\"",
+     "fa": "نه Give me a coffee، بلکه Could I have a coffee, please?"
+    },
+    {
+     "en": "Use \"please\", \"thank you\", and \"sorry\" a lot — more than in Persian.",
+     "fa": "please، thank you و sorry را زیاد بگویید؛ بیشتر از فارسی."
+    },
+    {
+     "en": "To ask for help: \"Could you…?\", \"Would you mind…?\", \"Excuse me, …\"",
+     "fa": "برای کمک خواستن: Could you…؟، Would you mind…؟، Excuse me…"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could I have a glass of water, please?",
+     "fa": "می‌شود یک لیوان آب بدهید، لطفاً؟"
+    },
+    {
+     "en": "Excuse me, could you help me?",
+     "fa": "ببخشید، می‌شود کمکم کنید؟"
+    },
+    {
+     "en": "Would you mind opening the window?",
+     "fa": "زحمت می‌کشید پنجره را باز کنید؟"
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which is the most polite?",
+     "answers": [
+      "Could I have the bill, please?",
+      "Give me the bill.",
+      "Bill!"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which is the most polite?",
+     "answers": [
+      "Excuse me, where is the toilet?",
+      "Where is toilet?",
+      "Toilet where?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which is the most polite?",
+     "answers": [
+      "Would you mind waiting a moment?",
+      "Wait.",
+      "You wait now."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ I have a receipt, please?",
+     "answers": [
+      "Could",
+      "Give",
+      "Do"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Would you mind ___ the door?",
+     "answers": [
+      "closing",
+      "close",
+      "to close"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ me, is this seat free?",
+     "answers": [
+      "Excuse",
+      "Sorry for",
+      "Pardon to"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Someone holds the door for you. You say:",
+     "answers": [
+      "Thank you.",
+      "OK.",
+      "Good."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "You bump into someone. You say:",
+     "answers": [
+      "Sorry!",
+      "Careful!",
+      "Why?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Could you say that again, please?",
+     "answers": [
+      "Could you say that again, please?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Could I have a coffee, please?",
+     "answers": [
+      "Could I have a coffee, please?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"Give me a ticket.\"",
+     "answers": [
+      "Could I have a ticket, please?",
+      "Can I have a ticket, please?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"Help me.\"",
+     "answers": [
+      "Could you help me, please?",
+      "Can you help me, please?",
+      "Excuse me, could you help me?"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "Which is the most polite?",
+     "answers": [
+      "Could you speak more slowly, please?",
+      "Speak slowly.",
+      "Slowly!"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Would you ___ helping me with this bag?",
+     "answers": [
+      "mind",
+      "like",
+      "want"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"Give me water.\"",
+     "answers": [
+      "Could I have some water, please?",
+      "Can I have some water, please?",
+      "Could I have water, please?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Excuse me, could you help me?",
+     "answers": [
+      "Excuse me, could you help me?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "A shop assistant helps you. You say:",
+     "answers": [
+      "Thanks very much.",
+      "Fine.",
+      "Yes."
+     ]
+    }
+   ],
+   "related": []
+  }
+ ]
+}

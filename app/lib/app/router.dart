@@ -1,3 +1,4 @@
+import '../features/grammar/mistakes_screen.dart';
 import '../features/grammar/exam_screen.dart';
 import '../features/grammar/grammar_data.dart';
 import '../features/leitner/leitner_screen.dart';
@@ -128,6 +129,7 @@ final router = GoRouter(
           return raw == code ? null : '/school/$code';
         },
         pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),
+    GoRoute(path: '/mistakes', pageBuilder: (_, s) => _fade(const MistakesScreen(), s)),
     GoRoute(path: '/grammar/:id', pageBuilder: (_, s) => _fade(TopicScreen(key: ValueKey('grammar-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),

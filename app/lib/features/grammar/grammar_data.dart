@@ -82,3 +82,7 @@ class Grammar {
 }
 
 final grammarProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/grammar.json')));
+
+/// "Common mistakes of Persian speakers" (level PM): always open, outside the A1–C2 ladder.
+final mistakesProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/mistakes.json')));
+bool isMistakeTopic(String id) => id.startsWith('pm_');

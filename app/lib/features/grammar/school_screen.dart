@@ -79,6 +79,20 @@ class SchoolScreen extends ConsumerWidget {
               ),
             ),
           ]),
+          const SizedBox(height: 14),
+          Material(
+            color: BL.paper,
+            borderRadius: BorderRadius.circular(18),
+            child: ListTile(
+              key: const ValueKey('school-mistakes'),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+              leading: const Icon(Icons.translate_rounded, color: BL.red),
+              title: Text(hl('Common mistakes of Persian speakers'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink, fontSize: 14.5)),
+              subtitle: Text(hl('اشتباهات رایج فارسی‌زبان‌ها · ۱۰ درس کوتاه'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+              trailing: const Icon(Icons.chevron_right_rounded, color: BL.muted),
+              onTap: () => context.push('/mistakes'),
+            ),
+          ),
           const SizedBox(height: 18),
           for (final c in [...Grammar.classes.where((c) => Grammar.atCollege(c.code) == college), ...Grammar.classes.where((c) => Grammar.atCollege(c.code) != college)]) ...[
             if (c.code == 'A1') ...[if (college) const SizedBox(height: 8), const _Campus("Maple Grove Primary · Classes A1–A2", 'مدرسهٔ میپل گروو · کلاس‌های A1 تا A2', key: ValueKey('campus-school'))],
