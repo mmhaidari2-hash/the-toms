@@ -228,6 +228,21 @@ class ClassScreen extends ConsumerWidget {
                 ),
               );
             }),
+          const SizedBox(height: 6),
+          Material(
+            color: g.classDone(c.code) || g.unlockAll ? BL.red : BL.mist,
+            borderRadius: BorderRadius.circular(18),
+            child: ListTile(
+              key: ValueKey('class-exam-${c.code}'),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+              leading: Icon(g.ctrl.grammarExamDate(c.code) != null ? Icons.workspace_premium_rounded : Icons.assignment_rounded,
+                  color: g.classDone(c.code) || g.unlockAll ? Colors.white : BL.muted, size: 30),
+              title: Text(hl('Final exam & certificate'), style: TextStyle(fontWeight: FontWeight.w800, color: g.classDone(c.code) || g.unlockAll ? Colors.white : BL.muted)),
+              subtitle: Text(hl('آزمون پایانی و گواهی کلاس ${c.code}'), textDirection: helperDir,
+                  style: BL.fa(12.5, color: g.classDone(c.code) || g.unlockAll ? Colors.white70 : BL.muted)),
+              onTap: () => context.push('/school/${c.code}/exam'),
+            ),
+          ),
         ],
       ),
     );

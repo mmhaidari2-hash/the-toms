@@ -342,6 +342,18 @@ class ProgressController extends Notifier<UserProgress> {
     return awardXp(pct >= 60 ? (pct >= 100 ? 15 : 10) : 3);
   }
 
+  // ---- Grammar class final exam: best % in 'gramexam:<class>', first pass date in 'gramexam:<class>:date'.
+  int? grammarExamScore(String code) => int.tryParse(state.missionsDone['gramexam:$code'] ?? '');
+  String? grammarExamDate(String code) => state.missionsDone['gramexam:$code:date'];
+  XpAward saveGrammarExam(String code, int pct, {required int passMark}) {
+    final mis = {...state.missionsDone};
+    if (pct > (grammarExamScore(code) ?? -1)) mis['gramexam:$code'] = '$pct';
+    if (pct >= passMark && !mis.containsKey('gramexam:$code:date')) mis['gramexam:$code:date'] = _now.toIso8601String().substring(0, 10);
+    state = state.copyWith(missionsDone: mis);
+    _save();
+    return awardXp(pct >= passMark ? 40 : 5);
+  }
+
   // ---- Library (graded readers): best quiz % per chapter in 'read:<book>:<ch>', finished books in 'read:done:<book>'.
   int? readScore(String book, int ch) => int.tryParse(state.missionsDone['read:$book:$ch'] ?? '');
   bool bookDone(String book) => state.missionsDone.containsKey('read:done:$book');

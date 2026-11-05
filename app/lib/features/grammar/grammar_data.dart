@@ -63,12 +63,15 @@ class GClass {
 class Grammar {
   static const classes = [
     GClass('A1', 'Beginner', 'مبتدی', 'be, this/that, possessives, there is, have got, present simple & questions, can, imperatives, prepositions, would like'),
-    GClass('A2', 'Elementary', 'مقدماتی', 'present continuous, past simple & past continuous, going to & will, countable nouns, comparatives, adverbs, should, verb patterns'),
-    GClass('B1', 'Intermediate', 'متوسط', 'present perfect (simple & continuous), past perfect, future forms, zero & first conditionals, modals, relative clauses, question tags, phrasal verbs'),
-    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'past perfect continuous, future continuous & perfect, second & third conditionals, passive, reported speech, deduction, contrast linkers'),
+    GClass('A2', 'Elementary', 'مقدماتی', 'present continuous, past simple & past continuous, used to, going to & will, countable nouns, comparatives, adverbs, should, verb patterns'),
+    GClass('B1', 'Intermediate', 'متوسط', 'present perfect (simple & continuous), past perfect, future forms, zero, first & second conditionals, modals, relative clauses, question tags, phrasal verbs, the passive'),
+    GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'used to / would / be used to, past perfect continuous, future continuous & perfect, third conditional, unless & in case, reported speech, deduction, contrast linkers'),
     GClass('C1', 'Advanced', 'پیشرفته', 'future perfect continuous, future in the past, inversion, mixed conditionals, wish, cleft sentences, subjunctive, ellipsis, formal style'),
   ];
   static const pass = 60;
+  /// Class final exam: 20 questions drawn from every topic's mini test; 80% earns the class certificate.
+  static const examPass = 80;
+  static const examSize = 20;
   /// A1–A2 are taught at Maple Grove Primary; B1–C1 at Riverside Adult College (fictional).
   static bool atCollege(String code) => const {'B1', 'B2', 'C1'}.contains(code);
   static int courseLevel(String code) => classes.indexWhere((c) => c.code == code) + 1;

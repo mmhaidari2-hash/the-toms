@@ -1,3 +1,4 @@
+import '../features/grammar/exam_screen.dart';
 import '../features/grammar/grammar_data.dart';
 import '../features/leitner/leitner_screen.dart';
 import '../features/map/map_home.dart';
@@ -116,6 +117,8 @@ final router = GoRouter(
     GoRoute(path: '/owner', pageBuilder: (_, s) => _fade(OwnerScreen(code: s.uri.queryParameters['code']), s)),
     GoRoute(path: '/legal', pageBuilder: (_, s) => _fade(LegalScreen(key: ValueKey('legal-${s.uri.queryParameters['tab']}'), tab: s.uri.queryParameters['tab'] ?? 'privacy'), s)),
     GoRoute(path: '/school', pageBuilder: (_, s) => _fade(SchoolScreen(college: s.uri.queryParameters['campus'] == 'college'), s)),
+    GoRoute(path: '/school/:level/exam', redirect: (_, s) => Grammar.classes.any((c) => c.code == s.pathParameters['level']!.toUpperCase()) ? null : '/school',
+        pageBuilder: (_, s) => _fade(ClassExamScreen(key: ValueKey('exam-${s.pathParameters['level']}'), code: s.pathParameters['level']!.toUpperCase()), s)),
     // One class = one CEFR level (A1–C1). /school/a1 is accepted; an unknown class goes back to the school, never silently to A1.
     GoRoute(
         path: '/school/:level',
