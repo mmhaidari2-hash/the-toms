@@ -6,6 +6,7 @@ REGION = 'uksouth'
 URL = f'https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1'
 FMT = 'audio-24khz-48kbitrate-mono-mp3'
 
+CODES = {}  # non-200 HTTP status -> count (0 = curl timeout / network)
 BILLED = [0]  # billable characters sent (text + markup inside <voice>), for the cost report
 
 def ssml(text, voice, pitch='+0Hz', rate='+0%', style=None):
@@ -20,16 +21,20 @@ def ssml(text, voice, pitch='+0Hz', rate='+0%', style=None):
 
 def _curl(body, out):
     """Credential-proxy path: curl honours the injected proxy reliably; returns the HTTP status."""
-    r = subprocess.run(['curl', '-s', '-m', '60', '-o', out + '.tmp', '-w', '%{http_code}', '-X', 'POST',
+    r = subprocess.run(['curl', '-sS', '-m', '60', '-o', out + '.tmp', '-w', '%{http_code}', '-X', 'POST',
                         '-H', 'Content-Type: application/ssml+xml', '-H', f'X-Microsoft-OutputFormat: {FMT}',
                         '-H', 'User-Agent: newlifeuk-render', '--data-binary', '@-', URL],
                        input=body, capture_output=True)
     try:
-        return int(r.stdout.decode() or 0)
+        code = int(r.stdout.decode() or 0)
     except ValueError:
-        return 0
+        code = 0
+    if code == 0 and os.environ.get('AZ_TTS_DEBUG_LOG'):
+        with open(os.environ['AZ_TTS_DEBUG_LOG'], 'a') as f:
+            f.write(f'curl exit {r.returncode}: {r.stderr.decode(errors="replace")[:200]!r} body={len(body)}B\n')
+    return code
 
-def synth(text, voice, out, pitch='+0Hz', rate='+0%', style=None, tries=6):
+def synth(text, voice, out, pitch='+0Hz', rate='+0%', style=None, tries=12):
     body, billed = ssml(text, voice, pitch, rate, style); body = body.encode('utf-8')
     if not os.environ.get('AZURE_SPEECH_KEY_1'):
         for i in range(tries):
@@ -39,6 +44,7 @@ def synth(text, voice, out, pitch='+0Hz', rate='+0%', style=None, tries=6):
                 return True
             if code in (400, 401, 403, 404):
                 raise RuntimeError(f'HTTP {code}')
+            CODES[code] = CODES.get(code, 0) + 1  # failure statistics for the render log
             time.sleep(min(60, 2 ** i))
         return False
     for i in range(tries):

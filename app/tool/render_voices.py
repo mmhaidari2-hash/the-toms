@@ -197,7 +197,7 @@ if '--dry-run' in sys.argv:
   sys.exit(0)
 import threading,time
 from concurrent.futures import ThreadPoolExecutor
-from az_tts import synth, BILLED
+from az_tts import synth, BILLED, CODES
 import compress_audio, tighten_audio
 lock=threading.Lock(); done=[0]; fails=[]; t0=time.time()
 def save_state():
@@ -214,7 +214,7 @@ def one(kv):
     else: fails.append(k)
     done[0]+=1
     if done[0]%250==0:
-      save_state(); el=time.time()-t0; print(f'{done[0]}/{len(todo)} {done[0]/el:.1f}/s fails={len(fails)} billed={BILLED[0]} eta {int((len(todo)-done[0])/(done[0]/el)/60)}m',flush=True)
+      save_state(); el=time.time()-t0; print(f'{done[0]}/{len(todo)} {done[0]/el:.1f}/s fails={len(fails)} billed={BILLED[0]} codes={CODES} eta {int((len(todo)-done[0])/(done[0]/el)/60)}m',flush=True)
 with ThreadPoolExecutor(int(os.environ.get('RENDER_THREADS','8'))) as ex: list(ex.map(one,todo))
 save_state(); print('rendered',done[0]-len(fails),'fails',len(fails),'billed characters',BILLED[0])
 if fails: print('FAILED',fails[:20])
