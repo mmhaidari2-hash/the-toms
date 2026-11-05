@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'core/billing/billing.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -31,6 +34,8 @@ Future<void> main() async {
       'Vazirmatn',
     ], await rootBundle.loadString('assets/google_fonts/OFL.txt'));
   });
+  // Sets Entitlements.paidBuild synchronously; the RevenueCat handshake continues in the background.
+  unawaited(Billing.init());
   await Voice.load();
   final store = await HiveProgressStore.open();
   // Activate the saved helper language before the first frame, so screens never flash the wrong language.

@@ -2,12 +2,16 @@ import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../app/theme.dart';
+import '../../core/billing/billing.dart';
+import '../../core/billing/entitlements.dart';
 import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 
-/// Premium / paywall. Display-only: no payment is ever taken. During the beta everything is free.
+/// Premium / paywall. Beta: display-only, everything free. Paid build: Google Play Billing via RevenueCat
+/// ([Billing]), with the UK pre-contract information and 14-day cancellation consent shown before paying.
 class PremiumScreen extends ConsumerWidget {
   final String? pack;
   const PremiumScreen({super.key, this.pack});
@@ -18,10 +22,32 @@ class PremiumScreen extends ConsumerWidget {
     final pad = MediaQuery.paddingOf(context);
     final beta = PremiumConfig.betaFree;
     final pk = pack == null ? null : c?.course.pack(pack!);
-    void tapPlan(String what) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          behavior: SnackBarBehavior.floating,
-          content: Text(hl(beta ? 'Free during the beta. No payment is taken. Enjoy!' : '$what: payments are coming soon.')),
-        ));
+    final paid = Entitlements.paidBuild;
+    void say(String m) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(hl(m))));
+    Future<void> tapPlan(String what) async {
+      if (!paid) return say(beta ? 'Free during the beta. No payment is taken. Enjoy!' : '$what: payments are coming soon.');
+      final (productId, terms, termsFa) = switch (what) {
+        'Yearly' => (Entitlements.premiumYearly,
+            '${PremiumConfig.price(PremiumConfig.yearly)} a year after a ${PremiumConfig.trialDays}-day free trial (founding members: first year ${PremiumConfig.price(PremiumConfig.foundingYear)}). Renews automatically every year until you cancel in Google Play. Cancel before the trial ends and you pay nothing.',
+            'سالانه ${PremiumConfig.price(PremiumConfig.yearly)} بعد از ${PremiumConfig.trialDays} روز رایگان. هر سال خودکار تمدید می‌شود تا در گوگل‌پلی لغو کنید. اگر قبل از پایان دورهٔ رایگان لغو کنید، چیزی پرداخت نمی‌کنید.'),
+        'Monthly' => (Entitlements.premiumMonthly,
+            '${PremiumConfig.price(PremiumConfig.monthly)} a month. Renews automatically every month until you cancel in Google Play.',
+            'ماهانه ${PremiumConfig.price(PremiumConfig.monthly)}. هر ماه خودکار تمدید می‌شود تا در گوگل‌پلی لغو کنید.'),
+        _ => ('${Entitlements.careerPackPrefix}${pk?.id ?? 'nursery'}',
+            '${PremiumConfig.price(PremiumConfig.careerPack)} once. No subscription.', 'یک بار ${PremiumConfig.price(PremiumConfig.careerPack)}. بدون اشتراک.'),
+      };
+      final ok = await showDialog<bool>(context: context, builder: (_) => _Consent(terms: terms, termsFa: termsFa));
+      if (ok != true) return;
+      final r = await Billing.buy(productId);
+      if (!context.mounted) return;
+      say(switch (r) {
+        BillingOutcome.success => 'Thank you. Unlocked.',
+        BillingOutcome.cancelled => 'Purchase cancelled. You were not charged.',
+        BillingOutcome.pending => 'Payment pending. It unlocks as soon as Google Play confirms it.',
+        BillingOutcome.unavailable => 'The store is not available right now. Please try again later.',
+        BillingOutcome.failed => 'Something went wrong. You were not charged.',
+      });
+    }
     return Scaffold(
       backgroundColor: BL.cream,
       body: ListView(
@@ -87,13 +113,75 @@ class PremiumScreen extends ConsumerWidget {
             onPressed: () => pk != null ? context.go('/pack/${pk.id}') : (context.canPop() ? context.pop() : context.go('/')),
             child: Text(hl(beta ? 'Continue free (beta)' : 'Maybe later'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
           ),
+          if (paid) ...[
+            const SizedBox(height: 6),
+            Wrap(alignment: WrapAlignment.center, children: [
+              TextButton(
+                key: const ValueKey('restore-purchases'),
+                onPressed: () async {
+                  final r = await Billing.restore();
+                  if (context.mounted) say(r == BillingOutcome.success ? 'Purchases restored.' : 'Could not restore purchases. Please try again later.');
+                },
+                child: Text(hl('Restore purchases')),
+              ),
+              TextButton(
+                key: const ValueKey('manage-subscription'),
+                onPressed: () => launchUrl(Billing.manageUrl('app.thetoms.newlifeuk'), mode: LaunchMode.externalApplication),
+                child: Text(hl('Manage or cancel')),
+              ),
+            ]),
+            Text(hl('Payments are handled by Google Play. Cancel any time in Google Play; you keep access until the end of the paid period.'),
+                textAlign: TextAlign.center, style: const TextStyle(fontSize: 11.5, color: BL.muted, height: 1.35)),
+            Text(hl('پرداخت با گوگل‌پلی است. هر وقت بخواهید از گوگل‌پلی لغو کنید؛ تا پایان دورهٔ پرداخت‌شده دسترسی دارید.'),
+                textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(11, color: BL.muted)),
+          ] else ...[
           const SizedBox(height: 10),
           Text(hl('Prices are examples only. No payment is taken in this version. When billing goes live: clear price & period before pay; cancel via the store; UK 14-day cooling-off (digital content may end early if you ask to start immediately and acknowledge that).'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 11.5, color: BL.muted, height: 1.35)),
           Text(hl('قیمت‌ها نمونه‌اند. در این نسخه پولی گرفته نمی‌شود. با شروع پرداخت: قیمت روشن، لغو از فروشگاه، مهلت ۱۴روزه بریتانیا.'), textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(11, color: BL.muted)),
+          ],
         ],
       ),
     );
   }
+}
+
+/// UK pre-contract information + express consent to start digital content inside the 14-day
+/// cancellation period (Consumer Contracts Regulations 2013, reg. 37). Pay stays disabled until ticked.
+class _Consent extends StatefulWidget {
+  final String terms, termsFa;
+  const _Consent({required this.terms, required this.termsFa});
+  @override
+  State<_Consent> createState() => _ConsentState();
+}
+
+class _ConsentState extends State<_Consent> {
+  bool _agree = false;
+  @override
+  Widget build(BuildContext context) => AlertDialog(
+        key: const ValueKey('purchase-consent'),
+        title: Text(hl('Before you pay')),
+        content: SingleChildScrollView(
+          child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(hl(widget.terms), style: const TextStyle(fontWeight: FontWeight.w700, height: 1.35)),
+            const SizedBox(height: 4),
+            Text(hl(widget.termsFa), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+            const SizedBox(height: 10),
+            CheckboxListTile(
+              key: const ValueKey('consent-box'),
+              contentPadding: EdgeInsets.zero,
+              controlAffinity: ListTileControlAffinity.leading,
+              value: _agree,
+              onChanged: (v) => setState(() => _agree = v ?? false),
+              title: Text(hl('I want access to start now. I understand that once it starts I lose my 14-day right to cancel this purchase.'), style: const TextStyle(fontSize: 13)),
+              subtitle: Text(hl('می‌خواهم دسترسی همین حالا شروع شود و می‌دانم با شروع آن، حق انصراف ۱۴ روزه این خرید را از دست می‌دهم.'), textDirection: helperDir, style: BL.fa(11.5)),
+            ),
+          ]),
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(context, false), child: Text(hl('Not now'))),
+          FilledButton(key: const ValueKey('consent-pay'), onPressed: _agree ? () => Navigator.pop(context, true) : null, child: Text(hl('Continue to Google Play'))),
+        ],
+      );
 }
 
 class _Plan extends StatelessWidget {
@@ -114,9 +202,10 @@ class _Plan extends StatelessWidget {
               padding: const EdgeInsets.all(14),
               child: Row(children: [
                 Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Row(children: [
-                    Flexible(child: Text(hl(title), overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16))),
-                    if (best) ...[const SizedBox(width: 8), const PremiumPill('BEST VALUE')],
+                  // Wrap, not Row: the pill drops to the next line on narrow phones / large text instead of overflowing.
+                  Wrap(spacing: 8, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                    Text(hl(title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+                    if (best) const PremiumPill('BEST VALUE'),
                   ]),
                   Text(hl(fa), textDirection: helperDir, style: BL.fa(11.5, color: BL.muted)),
                   const SizedBox(height: 2),

@@ -631,8 +631,11 @@ class ProgressController extends Notifier<UserProgress> {
   }
 
   // ---- Premium (display-only until real payments exist; see PremiumConfig).
-  bool get hasPremium => Entitlements.isPremium || state.gatesOpen || state.missionsDone['pref:premium'] == 'on';
-  bool packOwned(Pack p) => !p.premium || hasPremium || state.missionsDone['pack:${p.id}'] == 'owned';
+  // In a paid build only server-verified entitlements count; demo/owner mode and local prefs are beta/dev aids only.
+  bool get hasPremium =>
+      Entitlements.isPremium || (!Entitlements.paidBuild && (state.gatesOpen || state.missionsDone['pref:premium'] == 'on'));
+  bool packOwned(Pack p) =>
+      !p.premium || hasPremium || Entitlements.packUnlocked(p.id) || (!Entitlements.paidBuild && state.missionsDone['pack:${p.id}'] == 'owned');
 
   // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).
   List<Unit> levelUnits(Course c, int level) => c.units.where((u) => u.level == level).toList();

@@ -108,10 +108,11 @@ const mapRegions = [
 
 /// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.
 bool regionOpen(ProgressController ctrl, Course course, MapRegion r) {
-  if (ctrl.gatesOpen) return true;
   if (r.pack != null) {
+    // hasPremium already honours demo/owner mode in the beta, and ignores them in a paid build.
     return (course.pack(r.pack!)?.unlocked ?? false) || ctrl.hasPremium;
   }
+  if (ctrl.gatesOpen) return true;
   final i = course.units.indexWhere((u) => u.level == r.level);
   return i >= 0 && ctrl.unitOpen(course, i);
 }
