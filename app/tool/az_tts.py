@@ -1,6 +1,6 @@
 """Azure Speech (uksouth) text-to-speech over REST. The key comes from env AZURE_SPEECH_KEY_1 or a
 host-scoped HTTPS credential proxy; it is never printed."""
-import os, time, urllib.request, urllib.error
+import os, subprocess, time, urllib.request, urllib.error
 from xml.sax.saxutils import escape
 REGION = 'uksouth'
 URL = f'https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1'
@@ -18,8 +18,29 @@ def ssml(text, voice, pitch='+0Hz', rate='+0%', style=None):
     return (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" '
             f'xml:lang="{lang}"><voice name="{voice}">{inner}</voice></speak>'), len(inner)
 
+def _curl(body, out):
+    """Credential-proxy path: curl honours the injected proxy reliably; returns the HTTP status."""
+    r = subprocess.run(['curl', '-s', '-m', '60', '-o', out + '.tmp', '-w', '%{http_code}', '-X', 'POST',
+                        '-H', 'Content-Type: application/ssml+xml', '-H', f'X-Microsoft-OutputFormat: {FMT}',
+                        '-H', 'User-Agent: newlifeuk-render', '--data-binary', '@-', URL],
+                       input=body, capture_output=True)
+    try:
+        return int(r.stdout.decode() or 0)
+    except ValueError:
+        return 0
+
 def synth(text, voice, out, pitch='+0Hz', rate='+0%', style=None, tries=6):
     body, billed = ssml(text, voice, pitch, rate, style); body = body.encode('utf-8')
+    if not os.environ.get('AZURE_SPEECH_KEY_1'):
+        for i in range(tries):
+            code = _curl(body, out)
+            if code == 200 and os.path.getsize(out + '.tmp') >= 200:
+                os.replace(out + '.tmp', out); BILLED[0] += billed
+                return True
+            if code in (400, 401, 403, 404):
+                raise RuntimeError(f'HTTP {code}')
+            time.sleep(min(60, 2 ** i))
+        return False
     for i in range(tries):
         headers = {'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': FMT, 'User-Agent': 'newlifeuk-render'}
         key = os.environ.get('AZURE_SPEECH_KEY_1')

@@ -341,6 +341,7 @@ class _ExerciseViewState extends State<ExerciseView> {
   bool get ready => switch (it.kind) { 'order' => placed.length == tiles.length, 'transform' => text.text.trim().isNotEmpty, _ => pick != null };
 
   void _check() {
+    FocusManager.instance.primaryFocus?.unfocus(); // hide the keyboard so the result is visible
     final r = it.check(given);
     widget.onAnswered(r);
     setState(() => ok = r);

@@ -511,6 +511,7 @@ class _SpellState extends State<_Spell> {
   }
 
   void _check() {
+    FocusManager.instance.primaryFocus?.unfocus(); // hide the keyboard so the result is visible
     if (ok != null || ctl.text.trim().isEmpty) return;
     final good = ctl.text.trim().toLowerCase() == widget.words[i].word.toLowerCase();
     setState(() {
@@ -767,6 +768,7 @@ class _BuildState extends State<_Build> {
   }
 
   void _check() {
+    FocusManager.instance.primaryFocus?.unfocus(); // hide the keyboard so the result is visible
     final good = placed.map((k) => tokens[order[k]]).join(' ') == tokens.join(' ');
     setState(() {
       ok = good;

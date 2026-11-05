@@ -297,6 +297,8 @@ class _ChatState extends ConsumerState<_Chat> {
     final text = (preset ?? _input.text).trim();
     final node = _node;
     if (text.isEmpty || _typing || _ended || node == null) return;
+    // Close the keyboard once a reply is sent, so the conversation is visible again.
+    _focus.unfocus();
     if (_swap && _mine != null) return _sendAsLine(text);
     HapticFeedback.lightImpact();
     _input.clear();
@@ -827,7 +829,7 @@ class _ChatState extends ConsumerState<_Chat> {
       if (_typing) Align(key: const ValueKey('typing'), alignment: Alignment.centerLeft, child: Padding(padding: const EdgeInsets.only(left: 42, top: 4, bottom: 4), child: _bubbleBox(const _Dots(), const Color(0xFFFBF3E4), left: true))),
       for (var i = _msgs.length - 1; i >= 0; i--) _row(i),
     ];
-    return ListView(key: const ValueKey('chat-list'), controller: _scroll, reverse: true, padding: const EdgeInsets.fromLTRB(10, 10, 10, 8), children: items);
+    return ListView(key: const ValueKey('chat-list'), controller: _scroll, reverse: true, keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag, padding: const EdgeInsets.fromLTRB(10, 10, 10, 8), children: items);
   }
 
   Widget _bubbleBox(Widget child, Color color, {required bool left}) => Container(
@@ -1485,10 +1487,8 @@ class _ChatState extends ConsumerState<_Chat> {
           focusNode: _focus,
           enabled: !_ended,
           textInputAction: TextInputAction.send,
-          onSubmitted: (_) {
-            _send();
-            _focus.requestFocus();
-          },
+          onSubmitted: (_) => _send(),
+          onTapOutside: (_) => _focus.unfocus(),
           style: const TextStyle(fontSize: 16, color: Colors.white), // ≥16 avoids iOS zoom
           cursorColor: BL.gold,
           decoration: InputDecoration(

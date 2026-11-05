@@ -212,6 +212,7 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
   }
 
   void _checkTyped() {
+    FocusManager.instance.primaryFocus?.unfocus(); // hide the keyboard so the result is visible
     final s = _typed.text.trim();
     if (s.isEmpty) return;
     final r = Pronunciation.score(t.say, s);
