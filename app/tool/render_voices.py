@@ -188,6 +188,12 @@ ENG=set(json.load(open(ENGP))) if os.path.exists(ENGP) else set()
 todo=[(k,v) for k,v in items.items() if k in REDO or k not in ENG or not os.path.exists(f'{OUT}/{k}.mp3') or (k in MAN and MAN[k]!=[v[0],sig(v[0])])]
 OLDER=float(os.environ.get('RENDER_OLDER_THAN','0') or 0)  # re-render every clip whose file is older than this epoch time
 if OLDER: todo=[(k,v) for k,v in items.items() if not os.path.exists(f'{OUT}/{k}.mp3') or os.path.getmtime(f'{OUT}/{k}.mp3')<OLDER]
+FRESH=float(os.environ.get('RENDER_FRESH_SINCE','0') or 0)  # resume: a clip written after this epoch time is already re-rendered
+def _fresh(k): return os.path.exists(f'{OUT}/{k}.mp3') and os.path.getmtime(f'{OUT}/{k}.mp3')>=FRESH
+if FRESH:
+  for k,v in todo:
+    if _fresh(k): ENG.add(k); MAN[k]=[v[0],sig(v[0])]
+  todo=[(k,v) for k,v in todo if not _fresh(k)]
 LIMIT=int(os.environ.get('RENDER_LIMIT','0') or 0)
 if LIMIT: todo=todo[:LIMIT]
 print(len(items),'lines,',len(todo),'to render,',sum(len(t) for _,(_,t) in todo),'characters')
