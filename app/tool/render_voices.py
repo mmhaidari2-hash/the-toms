@@ -205,12 +205,26 @@ import threading,time
 from concurrent.futures import ThreadPoolExecutor
 from az_tts import synth, BILLED, CODES
 import compress_audio, tighten_audio
-lock=threading.Lock(); done=[0]; fails=[]; t0=time.time()
+lock=threading.Lock(); done=[0]; fails=[]; skipped=[0]; t0=time.time()
+# Monthly character cap (RENDER_CHAR_CAP, e.g. 480000 = inside Azure's free 0.5M neural characters a month on an F0 key).
+# The ledger tool/audit/tts_month.json keeps what this tool billed per calendar month across runs; at the cap it stops.
+LEDP=os.path.join(os.path.dirname(MANP),'tts_month.json'); MONTH=time.strftime('%Y-%m')
+LED=json.load(open(LEDP)) if os.path.exists(LEDP) else {}
+CAP=int(os.environ.get('RENDER_CHAR_CAP','0') or 0); BASE=LED.get(MONTH,0)
+if CAP:
+  left=CAP-BASE; print(f'cap {CAP} for {MONTH}: {BASE} already billed, {max(0,left)} left',flush=True)
+  if left<=0: print('monthly cap reached; nothing rendered'); sys.exit(0)
+def save_ledger():
+  LED[MONTH]=BASE+BILLED[0]; json.dump(LED,open(LEDP+'.tmp','w'),indent=1); os.replace(LEDP+'.tmp',LEDP)
 def save_state():
   json.dump(sorted(ENG),open(ENGP+'.tmp','w')); os.replace(ENGP+'.tmp',ENGP)
   json.dump(MAN,open(MANP+'.tmp','w'),separators=(',',':')); os.replace(MANP+'.tmp',MANP)
 def one(kv):
-  k,(sp,t)=kv; v,p,r=V[sp][:3]; st=V[sp][3] if len(V[sp])>3 else None
+  k,(sp,t)=kv
+  if CAP and BASE+BILLED[0]+len(t)+400>CAP:  # 400 = SSML markup that Azure also bills
+    with lock: done[0]+=1; skipped[0]+=1
+    return
+  v,p,r=V[sp][:3]; st=V[sp][3] if len(V[sp])>3 else None
   try: ok=synth(t,v,f'{OUT}/{k}.az.mp3',pitch=p,rate=r,style=st)
   except Exception as e: ok=False; print('ERR',k,sp,e,flush=True)
   if ok:
@@ -220,9 +234,9 @@ def one(kv):
     else: fails.append(k)
     done[0]+=1
     if done[0]%250==0:
-      save_state(); el=time.time()-t0; print(f'{done[0]}/{len(todo)} {done[0]/el:.1f}/s fails={len(fails)} billed={BILLED[0]} codes={CODES} eta {int((len(todo)-done[0])/(done[0]/el)/60)}m',flush=True)
+      save_state(); save_ledger(); el=time.time()-t0; print(f'{done[0]}/{len(todo)} {done[0]/el:.1f}/s fails={len(fails)} billed={BILLED[0]} codes={CODES} eta {int((len(todo)-done[0])/(done[0]/el)/60)}m',flush=True)
 with ThreadPoolExecutor(int(os.environ.get('RENDER_THREADS','8'))) as ex: list(ex.map(one,todo))
-save_state(); print('rendered',done[0]-len(fails),'fails',len(fails),'billed characters',BILLED[0])
+save_state(); save_ledger(); print('rendered',done[0]-len(fails)-skipped[0],'skipped (cap)',skipped[0],'fails',len(fails),'billed characters',BILLED[0])
 if fails: print('FAILED',fails[:20])
 if os.environ.get('RENDER_PRUNE_OBSOLETE') == '1':
   for f in os.listdir(OUT):
