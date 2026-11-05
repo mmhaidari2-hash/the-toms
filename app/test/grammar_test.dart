@@ -330,7 +330,7 @@ void main() {
         expect(
           find.byKey(const ValueKey('campus-college')),
           findsOneWidget,
-          reason: 'B1–C1 are at the college',
+          reason: 'B1–C2 are at the college',
         );
         await t.scrollUntilVisible(
           find.byKey(const ValueKey('class-A1')),

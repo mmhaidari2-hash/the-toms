@@ -974,7 +974,7 @@ Future<void> showSpotSheet(
                         child: Text(
                           s.id == 'school'
                               ? 'Grammar School · Mrs Ellis\'s classes A1–A2'
-                              : 'Riverside Adult College · grammar classes B1–C1',
+                              : 'Riverside Adult College · grammar classes B1–C2',
                           style: const TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w800,

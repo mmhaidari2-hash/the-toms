@@ -45,7 +45,7 @@ class GrammarGate {
 }
 
 class SchoolScreen extends ConsumerWidget {
-  /// Opened from the college on the map: B1–C1 are listed first.
+  /// Opened from the college on the map: B1–C2 are listed first.
   final bool college;
   const SchoolScreen({super.key, this.college = false});
   @override
@@ -82,7 +82,7 @@ class SchoolScreen extends ConsumerWidget {
           const SizedBox(height: 18),
           for (final c in [...Grammar.classes.where((c) => Grammar.atCollege(c.code) == college), ...Grammar.classes.where((c) => Grammar.atCollege(c.code) != college)]) ...[
             if (c.code == 'A1') ...[if (college) const SizedBox(height: 8), const _Campus("Maple Grove Primary · Classes A1–A2", 'مدرسهٔ میپل گروو · کلاس‌های A1 تا A2', key: ValueKey('campus-school'))],
-            if (c.code == 'B1') ...[if (!college) const SizedBox(height: 8), const _Campus('Riverside Adult College · Classes B1–C1', 'کالج بزرگسالان ریورساید · کلاس‌های B1 تا C1', key: ValueKey('campus-college'))],
+            if (c.code == 'B1') ...[if (!college) const SizedBox(height: 8), const _Campus('Riverside Adult College · Classes B1–C2', 'کالج بزرگسالان ریورساید · کلاس‌های B1 تا C2', key: ValueKey('campus-college'))],
             _ClassCard(c, g),
           ],
         ],
