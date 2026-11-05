@@ -1,5 +1,10 @@
 # New Life UK (formerly "The Toms: British Life Immersion"): UK legal and compliance review
 
+> 5 November 2026: historical research, not current clearance. Do not interpret
+> the previous "quick clearance" note as a completed UKIPO similarity search or
+> approval for free public release. Updated open questions and source-checked
+> risk notes are in `docs/compliance/OPEN_QUESTIONS_FA.md`.
+
 > **App renamed to "New Life UK" (2026-10-23).** The family in the stories is still "the Toms". Quick clearance check done (see below); **a solicitor / trade mark attorney must confirm the name before monetising.**
 
 *Prepared 17 October 2026. Research summary only. Personal and situation-specific details were removed before publishing (18 Oct 2026).*

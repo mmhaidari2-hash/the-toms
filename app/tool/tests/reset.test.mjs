@@ -7,7 +7,7 @@ const html = fs.readFileSync(new URL('../../web/index.html', import.meta.url), '
 const resetScript = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)]
   .map(m => m[1]).find(s => s.includes('var appScope'));
 
-async function run(reset) {
+async function run(reset, failure) {
   const removedWorkers = [], removedCaches = [], listeners = {};
   const own = 'https://example.test/the-toms/';
   const workers = [
@@ -16,13 +16,22 @@ async function run(reset) {
   ];
   const sw = {
     controller: null,
-    getRegistrations: async () => workers,
+    getRegistrations: async () => {
+      if (failure === 'lookup') throw new Error('unavailable');
+      return workers;
+    },
     addEventListener() {},
-    register: async () => ({update() {}}),
+    register: async () => {
+      if (failure === 'register') throw new Error('denied');
+      if (failure === 'undefined') return undefined;
+      return {update() {
+        if (failure === 'update') return Promise.reject(new Error('offline'));
+      }};
+    },
   };
   const cacheNames = ['thetoms:/the-toms/:shell:old', 'thetoms:/neighbor/:shell:old', 'neighbor-progress'];
   const context = {
-    URL, navigator: {serviceWorker: sw}, document: {baseURI: own, addEventListener() {}},
+    URL, console: {warn() {}}, navigator: {serviceWorker: sw}, document: {baseURI: own, addEventListener() {}},
     window: {caches: true, addEventListener(type, fn) { listeners[type] = fn; }},
     caches: {keys: async () => cacheNames, delete: async name => removedCaches.push(name)},
     location: {href: own + (reset ? '?reset' : ''), pathname: '/the-toms/', replace() {}},
@@ -46,3 +55,8 @@ test('legacy worker cleanup is restricted to this app registration', async () =>
 test('viewport permits user zoom', () => {
   assert.doesNotMatch(html, /user-scalable=no|maximum-scale=1/);
 });
+for (const mode of ['lookup', 'register', 'undefined', 'update']) {
+  test(`unavailable service worker (${mode}) does not cause an unhandled error`, async () => {
+    await run(false, mode);
+  });
+}

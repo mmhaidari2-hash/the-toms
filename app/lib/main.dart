@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'app/app.dart';
+
 import 'package:go_router/go_router.dart';
 
 import 'core/platform/history.dart';
@@ -21,6 +24,13 @@ Future<void> main() async {
   await SentryGate.init();
   // Fully offline: Inter, Fraunces and Vazirmatn are bundled in assets/google_fonts (OFL).
   GoogleFonts.config.allowRuntimeFetching = false;
+  LicenseRegistry.addLicense(() async* {
+    yield LicenseEntryWithLineBreaks(const [
+      'Inter',
+      'Fraunces',
+      'Vazirmatn',
+    ], await rootBundle.loadString('assets/google_fonts/OFL.txt'));
+  });
   await Voice.load();
   final store = await HiveProgressStore.open();
   // Activate the saved helper language before the first frame, so screens never flash the wrong language.
@@ -28,5 +38,10 @@ Future<void> main() async {
     final raw = store.read();
     if (raw != null) await useHelperLang(UserProgress.decode(raw).lang);
   } catch (_) {}
-  runApp(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
+  runApp(
+    ProviderScope(
+      overrides: [progressStoreProvider.overrideWithValue(store)],
+      child: const BritishLifeApp(),
+    ),
+  );
 }

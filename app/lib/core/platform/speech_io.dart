@@ -18,7 +18,8 @@ export 'speech_result.dart';
 /// 3. URLs carry ?v=`audioCacheVer` so a re-voice never returns a stale HTTP/MediaPlayer cache.
 /// 4. mimeType is always audio/mpeg (GitHub Pages sends audio/mp3, which some MediaPlayers reject).
 class SpeechInput {
-  static const remoteBase = 'https://mmhaidari2-hash.github.io/the-toms/assets/';
+  static const remoteBase =
+      'https://mmhaidari2-hash.github.io/the-toms/assets/';
   static final bool _native = Platform.isAndroid;
 
   static bool get sttSupported => false;
@@ -28,8 +29,9 @@ class SpeechInput {
   static bool get isIos => false;
   static bool get isStandalone => false;
   static Future<String?> listen() async => null;
-  static Future<SpeechResult> listenDetailed({void Function(String partial)? onPartial}) async =>
-      const SpeechResult(error: 'unsupported');
+  static Future<SpeechResult> listenDetailed({
+    void Function(String partial)? onPartial,
+  }) async => const SpeechResult(error: 'unsupported');
   static void stop() {}
   static Future<String> micPermission() async => 'unknown';
   static Future<void> startRecording() async {}
@@ -45,7 +47,8 @@ class SpeechInput {
   static String _ver = kAudioCacheVer;
   static Directory? _cacheDir;
   static bool _ready = false;
-  static final HttpClient _http = HttpClient()..connectionTimeout = const Duration(seconds: 12);
+  static final HttpClient _http = HttpClient()
+    ..connectionTimeout = const Duration(seconds: 12);
 
   /// Exposed for tests / QA gate.
   static String get audioVer => _ver;
@@ -79,7 +82,11 @@ class SpeechInput {
     }
     try {
       // Prefer the live site's audio version so a re-voice without a new APK still busts the cache.
-      final req = await _http.getUrl(Uri.parse('${remoteBase}assets/audio/ver.json?ts=${DateTime.now().millisecondsSinceEpoch}'));
+      final req = await _http.getUrl(
+        Uri.parse(
+          '${remoteBase}assets/audio/ver.json?ts=${DateTime.now().millisecondsSinceEpoch}',
+        ),
+      );
       req.headers.set(HttpHeaders.cacheControlHeader, 'no-cache');
       final res = await req.close().timeout(const Duration(seconds: 8));
       if (res.statusCode == 200) {
@@ -94,7 +101,9 @@ class SpeechInput {
       await _cacheDir!.create(recursive: true);
       // Drop caches from older voice casts.
       await for (final e in base.list()) {
-        if (e is Directory && e.path.contains('nl_audio_') && e.path != _cacheDir!.path) {
+        if (e is Directory &&
+            e.path.contains('nl_audio_') &&
+            e.path != _cacheDir!.path) {
           try {
             await e.delete(recursive: true);
           } catch (_) {}
@@ -118,10 +127,16 @@ class SpeechInput {
     final name = asset.split('/').last; // KEY.mp3
     final key = name.replaceAll('.mp3', '');
     if (asset.endsWith('/silence.mp3') || asset.endsWith('silence.mp3')) {
-      return AssetSource(asset.replaceFirst('assets/', ''), mimeType: 'audio/mpeg');
+      return AssetSource(
+        asset.replaceFirst('assets/', ''),
+        mimeType: 'audio/mpeg',
+      );
     }
     if (_bundled.contains(key)) {
-      return AssetSource(asset.replaceFirst('assets/', ''), mimeType: 'audio/mpeg');
+      return AssetSource(
+        asset.replaceFirst('assets/', ''),
+        mimeType: 'audio/mpeg',
+      );
     }
     final dir = _cacheDir;
     if (dir != null) {
@@ -171,14 +186,22 @@ class SpeechInput {
   static Source sourceFor(String asset) {
     final name = asset.split('/').last;
     final key = name.replaceAll('.mp3', '');
-    if (asset.startsWith('assets/audio/') && !asset.endsWith('/silence.mp3') && !asset.endsWith('silence.mp3')) {
+    if (asset.startsWith('assets/audio/') &&
+        !asset.endsWith('/silence.mp3') &&
+        !asset.endsWith('silence.mp3')) {
       if (_bundled.contains(key)) {
-        return AssetSource(asset.replaceFirst('assets/', ''), mimeType: 'audio/mpeg');
+        return AssetSource(
+          asset.replaceFirst('assets/', ''),
+          mimeType: 'audio/mpeg',
+        );
       }
       return UrlSource(remoteUrlFor(asset), mimeType: 'audio/mpeg');
     }
     if (asset.endsWith('silence.mp3')) {
-      return AssetSource(asset.replaceFirst('assets/', ''), mimeType: 'audio/mpeg');
+      return AssetSource(
+        asset.replaceFirst('assets/', ''),
+        mimeType: 'audio/mpeg',
+      );
     }
     return AssetSource(asset.replaceFirst('assets/', ''));
   }
@@ -195,7 +218,7 @@ class SpeechInput {
     if (!_native) return false;
     if (!_ready) await initAudio();
     final old = _pending;
-    if (old != null && !old.isCompleted) old.complete(true);
+    if (old != null && !old.isCompleted) old.complete(false);
     final c = _pending = Completer<bool>();
     await _doneSub?.cancel();
     _doneSub = _voice.onPlayerComplete.listen((_) {
@@ -212,7 +235,9 @@ class SpeechInput {
       // One more attempt via direct URL stream — still Azure, never TTS.
       try {
         await _voice.stop();
-        await _voice.play(UrlSource(remoteUrlFor(asset), mimeType: 'audio/mpeg')).timeout(const Duration(seconds: 25));
+        await _voice
+            .play(UrlSource(remoteUrlFor(asset), mimeType: 'audio/mpeg'))
+            .timeout(const Duration(seconds: 25));
         await _voice.setPlaybackRate(rate.clamp(0.5, 2.0));
       } catch (_) {
         if (!c.isCompleted) c.complete(false);
@@ -224,7 +249,7 @@ class SpeechInput {
   static void stopClip() {
     if (_native) _voice.stop();
     final old = _pending;
-    if (old != null && !old.isCompleted) old.complete(true);
+    if (old != null && !old.isCompleted) old.complete(false);
     _pending = null;
   }
 

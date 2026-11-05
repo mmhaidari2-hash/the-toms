@@ -3,6 +3,29 @@
 Scope: repair the existing app, not redesign it. Preserve artwork, curriculum,
 saved progress and public routes. Do not deploy to production or merge main/source.
 
+## Current upgrade pass
+
+Baseline re-opened at the first conversation before editing. Existing lesson reply
+and navigation semantics were present. The previous repair commit has since been
+pushed only to `fix/offline-audio-content`; the earlier delivery notes below
+describe the first pass, not the current remote state.
+
+- Shared audio: missing recording and failed playback return false, stop play-all
+  loops and show a dismissible explanation without substituting device TTS.
+- A newer audio request or Stop must not let an older failure overwrite its state.
+- Speed controls must preserve pitch; real recordings are not retuned in bulk.
+- App menu: English/Persian search filters every section, supports clearing, shows
+  a useful no-results state and still navigates to the actual destination.
+- Library: highlighting stops when actual speech finishes; a long estimated
+  karaoke duration must not add artificial pauses.
+- Arrival pack: incomplete/cancelled downloads never display a complete-ready
+  banner, and unexpected errors let the user retry.
+- Natural voice replacements: original service credentials and a reviewed sample
+  are required before replacing characters. No unsupported “all voices fixed”
+  claim, no bulk paid calls without explicit scope approval.
+- Regression: desktop/mobile onboarding, map, menu, course/lesson/conversation,
+  library, grammar, radio/cinema and arrival navigation; list exclusions honestly.
+
 ## Observed baseline
 - Onboarding: Persian helper language, optional name, skip tutorial, select A0–A1.
 - Town: map, Home, locked later tiers and Continue card are visible.
@@ -83,7 +106,52 @@ voice manifests or import the paid API client.
 
 ## Delivery boundary
 
-No push, PR, merge or production deployment has been made. Private preview
+The first repair pass was pushed as `83faff53` to `fix/offline-audio-content`.
+No merge or production deployment has been made. Private preview
 deployment was attempted twice, but the tool incorrectly reported that the
 verified index.html did not exist; the failure was recorded. Browser checks above
 use the local final build. A hosted preview is not available.
+
+## Second-pass QA inventory and open decisions
+
+Current central register: `docs/compliance/OPEN_QUESTIONS_FA.md`, Q01–Q40.
+An implementation or an automated test is not legal approval or user acceptance.
+The public-release evidence check deliberately fails while identity and reviews
+are incomplete. Its integration currently covers the Cloudflare script only.
+
+| Change / claim | Required check | Current scope |
+|---|---|---|
+| Missing/failed audio is not reported as success | Missing, false, exception, retry, superseded request, stop, bounded rate | Unit tests |
+| Shared audio feedback | Visible at 375px, dismiss, missing has no futile retry | Widget test; browser visual check pending |
+| Search all sections | English/Persian, Arabic keyboard variants, no results, clear, child filtering retained | Normalization test; mobile browser check pending |
+| Reader timing | Actual completion stops estimated highlight timer; next clip not held by text estimate | Implementation + library regression; real playback review pending |
+| Arrival downloads | Complete only, partial, thrown error, cancel, HTTP/MP3 validation | Three injected-result widget cases; seven actual clips still absent |
+| Native offline playback | Same cache path for warmer and player, airplane mode | OPEN: existing cache-path mismatch, Q29 |
+| Privacy / terms | No false completed DPIA or blanket local-storage exemption | Legal text regression; controller/professional approval pending |
+| Font notices | Full OFL bundled, registered with licence UI | Source check; provenance matching remains Q10 |
+| Public-release check | Missing identities/evidence and rubber-stamp approvals fail | Three Python tests; gate intentionally blocked |
+| Responsive regression | 375px search/keyboard/no-results and legal page; desktop return | Browser check pending |
+
+Second-pass evidence, 5 November 2026:
+- Release web build passed; analyzer reported no issues.
+- Final focused Flutter run: 23 passed, 1 failed on seven absent arrival clips.
+  Full suite and exhaustive overflow traversals were not rerun to completion.
+- Worker/reset/built-output Node checks: 34 passed. Generator/safe dry-run Python
+  checks: 6 passed. Public-release gate unit checks: 3 passed.
+- Browser 375×812: Persian filtering and no-results view inspected; missing
+  `hiya` recording correctly surfaced; notice dismissed. Final isolated-context
+  runtime error list was empty after worker-registration error handling.
+- Retry success is widget-tested. Forced playback-failure browser scenario
+  did not run to completion because the chosen word itself had no recording;
+  do not count that scenario as browser playback-failure signoff.
+- Full clear-search restore, real keyboard, child mode, Safari/native playback
+  and the native cache-path mismatch remain open in the central register.
+- Isolated QA context closed, network interception removed; server and other
+  contexts retained for continuation.
+- User chose to change the product name, then deferred choosing a replacement.
+  Do not rebrand or rename the story family without that later decision.
+
+Off-happy-path browser checks: search with no matches and return to all sections;
+force audio playback failure in an isolated local test context and dismiss it.
+Do not treat this focused inventory as exhaustive app signoff or natural-voice
+approval. Do not clear the user's real saved data for QA.

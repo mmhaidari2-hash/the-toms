@@ -14,8 +14,12 @@ export 'speech_result.dart';
 /// which may send the audio to its servers. New Life UK never stores or uploads recordings itself;
 /// MediaRecorder clips stay in memory on the device.
 class SpeechInput {
-  static JSFunction? get _ctor => (globalContext['SpeechRecognition'] ?? globalContext['webkitSpeechRecognition']) as JSFunction?;
+  static JSFunction? get _ctor =>
+      (globalContext['SpeechRecognition'] ??
+              globalContext['webkitSpeechRecognition'])
+          as JSFunction?;
   static bool get sttSupported => _ctor != null;
+
   /// Set when this device's speech service failed to start (iOS Home Screen app, Siri/Dictation off, no
   /// network): the mic then goes straight to the keyboard's own dictation mic, which works everywhere.
   static bool get sttBroken {
@@ -28,14 +32,19 @@ class SpeechInput {
 
   static void setBroken(bool v) {
     try {
-      v ? web.window.localStorage.setItem('nl_stt_broken', '1') : web.window.localStorage.removeItem('nl_stt_broken');
+      v
+          ? web.window.localStorage.setItem('nl_stt_broken', '1')
+          : web.window.localStorage.removeItem('nl_stt_broken');
       if (!v) web.window.localStorage.removeItem('nl_stt_fail');
     } catch (_) {}
   }
 
   static int _bumpFail() {
     try {
-      final n = (int.tryParse(web.window.localStorage.getItem('nl_stt_fail') ?? '') ?? 0) + 1;
+      final n =
+          (int.tryParse(web.window.localStorage.getItem('nl_stt_fail') ?? '') ??
+              0) +
+          1;
       web.window.localStorage.setItem('nl_stt_fail', '$n');
       return n;
     } catch (_) {
@@ -43,7 +52,9 @@ class SpeechInput {
     }
   }
 
-  static bool get recordSupported => globalContext.has('MediaRecorder') && web.window.navigator.mediaDevices.isA<web.MediaDevices>();
+  static bool get recordSupported =>
+      globalContext.has('MediaRecorder') &&
+      web.window.navigator.mediaDevices.isA<web.MediaDevices>();
 
   static Future<String?> listen() {
     final c = Completer<String?>();
@@ -55,7 +66,10 @@ class SpeechInput {
     rec['maxAlternatives'] = 1.toJS;
     rec['onresult'] = ((JSObject e) {
       final results = e['results'] as JSObject;
-      final first = (results.callMethod<JSObject>('item'.toJS, 0.toJS)).callMethod<JSObject>('item'.toJS, 0.toJS);
+      final first = (results.callMethod<JSObject>(
+        'item'.toJS,
+        0.toJS,
+      )).callMethod<JSObject>('item'.toJS, 0.toJS);
       if (!c.isCompleted) c.complete((first['transcript'] as JSString).toDart);
     }).toJS;
     rec['onerror'] = ((JSObject _) {
@@ -74,7 +88,8 @@ class SpeechInput {
   /// iPhone / iPad (including iPadOS that reports itself as a Mac).
   static bool get isIos {
     final ua = web.window.navigator.userAgent;
-    return RegExp('iPhone|iPad|iPod').hasMatch(ua) || (ua.contains('Macintosh') && web.window.navigator.maxTouchPoints > 1);
+    return RegExp('iPhone|iPad|iPod').hasMatch(ua) ||
+        (ua.contains('Macintosh') && web.window.navigator.maxTouchPoints > 1);
   }
 
   /// Opened from the Home Screen (iOS standalone web app), where Apple's speech service is often unavailable.
@@ -96,10 +111,14 @@ class SpeechInput {
   /// iOS Safari quirks handled here: it often never marks a result final and may not end by itself after the
   /// learner stops talking, and a tap on "stop" ends without a final result. So the latest partial text counts
   /// as the answer, ~1.4 s of silence after speech ends the turn, and the turn is capped at 10 s.
-  static Future<SpeechResult> listenDetailed({void Function(String partial)? onPartial}) {
+  static Future<SpeechResult> listenDetailed({
+    void Function(String partial)? onPartial,
+  }) {
     final c = Completer<SpeechResult>();
     final ctor = _ctor;
-    if (ctor == null) return Future.value(const SpeechResult(error: 'unsupported'));
+    if (ctor == null) {
+      return Future.value(const SpeechResult(error: 'unsupported'));
+    }
     stop();
     // Our own clips must be silent first: iOS will not record while an audio element is playing.
     stopClip();
@@ -130,8 +149,11 @@ class SpeechInput {
       if (!c.isCompleted) c.complete(r);
     }
 
-    SpeechResult soFar(String err) =>
-        alts.isNotEmpty ? SpeechResult(alternatives: List.of(alts), confidence: conf) : partial.trim().isNotEmpty ? SpeechResult(alternatives: [partial.trim()], confidence: .6) : SpeechResult(error: err);
+    SpeechResult soFar(String err) => alts.isNotEmpty
+        ? SpeechResult(alternatives: List.of(alts), confidence: conf)
+        : partial.trim().isNotEmpty
+        ? SpeechResult(alternatives: [partial.trim()], confidence: .6)
+        : SpeechResult(error: err);
     void endSoon() {
       // Ask the browser to finish; if it never answers (iOS), use what we heard.
       try {
@@ -158,7 +180,9 @@ class SpeechInput {
       for (var i = 0; i < n; i++) {
         final r = results.callMethod<JSObject>('item'.toJS, i.toJS);
         if (!((r['isFinal'] as JSBoolean?)?.toDart ?? true)) allFinal = false;
-        buf.write('${((r.callMethod<JSObject>('item'.toJS, 0.toJS))['transcript'] as JSString).toDart} ');
+        buf.write(
+          '${((r.callMethod<JSObject>('item'.toJS, 0.toJS))['transcript'] as JSString).toDart} ',
+        );
       }
       final text = buf.toString().replaceAll(RegExp(r'\s+'), ' ').trim();
       final last = results.callMethod<JSObject>('item'.toJS, (n - 1).toJS);
@@ -170,11 +194,34 @@ class SpeechInput {
         return;
       }
       final m = (last['length'] as JSNumber).toDartInt;
-      final prefix = n > 1 ? text.substring(0, text.length - ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['transcript'] as JSString).toDart.trim().length).trim() : '';
+      final prefix = n > 1
+          ? text
+                .substring(
+                  0,
+                  text.length -
+                      ((last.callMethod<JSObject>(
+                                'item'.toJS,
+                                0.toJS,
+                              ))['transcript']
+                              as JSString)
+                          .toDart
+                          .trim()
+                          .length,
+                )
+                .trim()
+          : '';
       alts
         ..clear()
-        ..addAll([for (var i = 0; i < m; i++) '$prefix ${((last.callMethod<JSObject>('item'.toJS, i.toJS))['transcript'] as JSString).toDart}'.trim()]);
-      conf = ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['confidence'] as JSNumber?)?.toDartDouble ?? 0;
+        ..addAll([
+          for (var i = 0; i < m; i++)
+            '$prefix ${((last.callMethod<JSObject>('item'.toJS, i.toJS))['transcript'] as JSString).toDart}'
+                .trim(),
+        ]);
+      conf =
+          ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['confidence']
+                  as JSNumber?)
+              ?.toDartDouble ??
+          0;
       if (conf == 0) conf = .8; // Safari reports 0 for confident results.
       finish(SpeechResult(alternatives: alts, confidence: conf));
       try {
@@ -184,7 +231,8 @@ class SpeechInput {
     rec['onerror'] = ((JSObject e) {
       final code = (e['error'] as JSString?)?.toDart ?? 'error';
       // 'aborted'/'no-speech' after we already heard words: keep the words.
-      if ((code == 'aborted' || code == 'no-speech') && (alts.isNotEmpty || partial.isNotEmpty)) {
+      if ((code == 'aborted' || code == 'no-speech') &&
+          (alts.isNotEmpty || partial.isNotEmpty)) {
         finish(soFar(code));
       } else {
         finish(SpeechResult(error: code));
@@ -208,14 +256,17 @@ class SpeechInput {
         finish(const SpeechResult(error: 'start-failed'));
       }
     });
-    return c.future.timeout(const Duration(seconds: 10), onTimeout: () {
-      _quiet?.cancel();
-      try {
-        rec.callMethod('abort'.toJS);
-      } catch (_) {}
-      if (_active == rec) _active = null;
-      return soFar('no-speech');
-    });
+    return c.future.timeout(
+      const Duration(seconds: 10),
+      onTimeout: () {
+        _quiet?.cancel();
+        try {
+          rec.callMethod('abort'.toJS);
+        } catch (_) {}
+        if (_active == rec) _active = null;
+        return soFar('no-speech');
+      },
+    );
   }
 
   /// Stops listening early (the result so far is still delivered).
@@ -232,7 +283,9 @@ class SpeechInput {
   static Future<String> micPermission() async {
     try {
       final perms = web.window.navigator.permissions;
-      final st = await perms.query({'name': 'microphone'}.jsify() as JSObject).toDart;
+      final st = await perms
+          .query({'name': 'microphone'}.jsify() as JSObject)
+          .toDart;
       return st.state;
     } catch (_) {
       return 'unknown';
@@ -243,7 +296,9 @@ class SpeechInput {
   static final _chunks = <web.Blob>[];
 
   static Future<void> startRecording() async {
-    final stream = await web.window.navigator.mediaDevices.getUserMedia(web.MediaStreamConstraints(audio: true.toJS)).toDart;
+    final stream = await web.window.navigator.mediaDevices
+        .getUserMedia(web.MediaStreamConstraints(audio: true.toJS))
+        .toDart;
     _chunks.clear();
     final r = web.MediaRecorder(stream);
     r.ondataavailable = ((web.BlobEvent e) => _chunks.add(e.data)).toJS;
@@ -269,13 +324,14 @@ class SpeechInput {
     ..play();
 
   // One shared element: once iOS has seen it play inside a tap, later programmatic plays are allowed.
-  static final web.HTMLAudioElement _el = web.HTMLAudioElement()..preload = 'auto';
+  static final web.HTMLAudioElement _el = web.HTMLAudioElement()
+    ..preload = 'auto';
   static Completer<bool>? _pending;
 
   /// Plays a bundled clip; completes true when it finished, false if it could not play.
   static Future<bool> playClip(String asset, double rate) {
     final old = _pending;
-    if (old != null && !old.isCompleted) old.complete(true);
+    if (old != null && !old.isCompleted) old.complete(false);
     final c = _pending = Completer<bool>();
     void done(bool ok) {
       if (!c.isCompleted) c.complete(ok);
@@ -284,13 +340,17 @@ class SpeechInput {
     _el.onended = ((web.Event _) => done(true)).toJS;
     _el.onerror = ((web.Event _) => done(false)).toJS;
     _el.src = ui_web.assetManager.getAssetUrl(asset);
+    _el.preservesPitch = true;
     _el.playbackRate = rate;
     _el.defaultPlaybackRate = rate;
-    _el.play().toDart.then((_) {
-      _el.playbackRate = rate;
-    }, onError: (_) {
-      done(false);
-    });
+    _el.play().toDart.then(
+      (_) {
+        _el.playbackRate = rate;
+      },
+      onError: (_) {
+        done(false);
+      },
+    );
     return c.future;
   }
 
@@ -316,18 +376,20 @@ class SpeechInput {
   }
 
   /// Sound effects on their own channel, so they never cut a voice clip.
-  static final web.HTMLAudioElement _fx = web.HTMLAudioElement()..preload = 'auto';
+  static final web.HTMLAudioElement _fx = web.HTMLAudioElement()
+    ..preload = 'auto';
   static void playFx(String asset, {double volume = .5}) {
     _fx.src = ui_web.assetManager.getAssetUrl(asset);
     _fx.volume = volume;
     _fx.play().toDart.then((_) {}, onError: (_) {});
   }
+
   static void stopFx() => _fx.pause();
 
   static void stopClip() {
     _el.pause();
     final old = _pending;
-    if (old != null && !old.isCompleted) old.complete(true);
+    if (old != null && !old.isCompleted) old.complete(false);
     _pending = null;
   }
 }

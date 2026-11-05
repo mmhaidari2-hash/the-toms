@@ -49,8 +49,14 @@
         .then(function(){ location.replace(location.pathname); });
     } else if ('serviceWorker' in navigator) window.addEventListener('load', function(){
       // Any leftover worker that isn't sw.js (e.g. an old flutter_service_worker.js) is removed.
-      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.filter(ownRegistration).forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister(); }); });
-      navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') r.update(); }); });
+      function offlineUnavailable(error) { console.warn('Offline cache is unavailable in this browser session.', error); }
+      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.filter(ownRegistration).forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister().catch(offlineUnavailable); }); }).catch(offlineUnavailable);
+      navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){
+        if (!r) return;
+        function checkUpdate() { Promise.resolve().then(function(){ return r.update(); }).catch(offlineUnavailable); }
+        checkUpdate();
+        document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') checkUpdate(); });
+      }).catch(offlineUnavailable);
     });
     // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).
     if ('serviceWorker' in navigator) { var hadController = !!navigator.serviceWorker.controller, reloaded = false;

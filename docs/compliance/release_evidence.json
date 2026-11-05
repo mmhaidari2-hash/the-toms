@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-11-05",
+  "notice": "Pending is not infringement, but it is not clearance. Do not replace with approved without dated evidence and accountable review. Do not put secrets or personal home addresses in this file.",
+  "controls": {
+    "brand_clearance": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "art_and_content_rights": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "speech_output_rights": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "children_and_privacy": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "hosting_and_transfers": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "regulated_content_review": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "consumer_and_store_terms": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []},
+    "accessibility_and_release_qa": {"status": "pending", "reviewer": "", "reviewed_on": "", "evidence": []}
+  }
+}

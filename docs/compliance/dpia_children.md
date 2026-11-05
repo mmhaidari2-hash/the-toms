@@ -1,5 +1,11 @@
 # DPIA — Children’s use of New Life UK (kid-friendly mode)
 
+> Review correction, 5 November 2026: DRAFT, NOT APPROVED. The earlier
+> "accepted for beta" wording is not a current approval. This draft omits a full
+> hosting/speech transfer assessment, age assurance, shared-device controls and
+> documented review against all Children's Code standards. Owner/controller and
+> qualified privacy review are pending; see `OPEN_QUESTIONS_FA.md`.
+
 **Date:** 31 October 2026 (Europe/London)  
 **Status:** Internal self-assessment (not legal advice)  
 **Controller:** `[PLACEHOLDER: BUSINESS LEGAL NAME]`  

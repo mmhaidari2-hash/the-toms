@@ -1,5 +1,7 @@
 import 'package:british_life/core/i18n/helper_text.dart';
+
 import 'dart:math';
+import 'dart:async';
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -24,17 +26,39 @@ class ReaderScreen extends ConsumerWidget {
   const ReaderScreen({super.key, required this.bookId, this.chapter = 0});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final books = ref.watch(libraryProvider).value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
+    final books = ref.watch(libraryProvider).value,
+        topics = ref.watch(grammarProvider).value,
+        content = ref.watch(contentProvider).value;
     ref.watch(progressProvider);
-    if (books == null || topics == null || content == null) return const NavLoading();
+    if (books == null || topics == null || content == null) {
+      return const NavLoading();
+    }
     final b = books.where((x) => x.id == bookId).firstOrNull;
     if (b == null) {
-      return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/library'), child: const Text('Book not found — back to the Library'))));
+      return Scaffold(
+        backgroundColor: BL.cream,
+        body: Center(
+          child: TextButton(
+            onPressed: () => context.go('/library'),
+            child: const Text('Book not found — back to the Library'),
+          ),
+        ),
+      );
     }
     // Strict lock: a deep link to a book on a shut shelf never opens the reader.
-    final gate = LibraryGate(ref.read(progressProvider.notifier), content, topics, books, unlockAll: ref.read(progressProvider).gatesOpen);
+    final gate = LibraryGate(
+      ref.read(progressProvider.notifier),
+      content,
+      topics,
+      books,
+      unlockAll: ref.read(progressProvider).gatesOpen,
+    );
     if (!gate.shelfOpen(b.level)) return BookLocked(book: b);
-    return _Reader(key: ValueKey('reader-${b.id}-$chapter'), book: b, chapter: chapter.clamp(0, b.chapters.length - 1));
+    return _Reader(
+      key: ValueKey('reader-${b.id}-$chapter'),
+      book: b,
+      chapter: chapter.clamp(0, b.chapters.length - 1),
+    );
   }
 }
 
@@ -49,30 +73,78 @@ class BookLocked extends StatelessWidget {
       key: const ValueKey('book-locked'),
       backgroundColor: BL.cream,
       body: SafeArea(
-        child: Column(children: [
-          const Align(alignment: Alignment.centerLeft, child: Padding(padding: EdgeInsets.all(12), child: NavBack(fallback: '/library'))),
-          Expanded(
-            child: Center(
+        child: Column(
+          children: [
+            const Align(
+              alignment: Alignment.centerLeft,
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 28),
-                child: Column(mainAxisSize: MainAxisSize.min, children: [
-                  const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
-                  const SizedBox(height: 14),
-                  Text(hl(book.title), textAlign: TextAlign.center, style: BL.display(24)),
-                  Text(hl(book.titleFa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
-                  const SizedBox(height: 16),
-                  Text(hl('This book is on the ${book.level} shelf, which is still locked'), textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15.5, color: BL.ink)),
-                  const SizedBox(height: 10),
-                  Text(hl(en), key: const ValueKey('book-locked-why'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 14, color: BL.ink, height: 1.4)),
-                  const SizedBox(height: 4),
-                  Text(hl(fa), textDirection: helperDir, textAlign: TextAlign.center, style: BL.fa(13, color: BL.muted)),
-                  const SizedBox(height: 22),
-                  TextButton(key: const ValueKey('book-locked-library'), onPressed: () => context.go('/library'), child: const Text('Back to the Library')),
-                ]),
+                padding: EdgeInsets.all(12),
+                child: NavBack(fallback: '/library'),
               ),
             ),
-          ),
-        ]),
+            Expanded(
+              child: Center(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 28),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.lock_rounded, size: 56, color: BL.muted),
+                      const SizedBox(height: 14),
+                      Text(
+                        hl(book.title),
+                        textAlign: TextAlign.center,
+                        style: BL.display(24),
+                      ),
+                      Text(
+                        hl(book.titleFa),
+                        textDirection: helperDir,
+                        textAlign: TextAlign.center,
+                        style: BL.fa(14, color: BL.muted),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        hl(
+                          'This book is on the ${book.level} shelf, which is still locked',
+                        ),
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          fontSize: 15.5,
+                          color: BL.ink,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        hl(en),
+                        key: const ValueKey('book-locked-why'),
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 14,
+                          color: BL.ink,
+                          height: 1.4,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        hl(fa),
+                        textDirection: helperDir,
+                        textAlign: TextAlign.center,
+                        style: BL.fa(13, color: BL.muted),
+                      ),
+                      const SizedBox(height: 22),
+                      TextButton(
+                        key: const ValueKey('book-locked-library'),
+                        onPressed: () => context.go('/library'),
+                        child: const Text('Back to the Library'),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -95,6 +167,7 @@ class _ReaderState extends ConsumerState<_Reader> {
   int wordIdx = -1; // karaoke word within cur (-1 = none)
   bool playing = false;
   int _run = 0;
+  Timer? _karaoke;
   _Mode mode = _Mode.read;
   final _keys = <int, GlobalKey>{};
   final _taps = <TapGestureRecognizer>[];
@@ -112,6 +185,7 @@ class _ReaderState extends ConsumerState<_Reader> {
   @override
   void dispose() {
     _run++;
+    _karaoke?.cancel();
     Voice.stop();
     for (final t in _taps) {
       t.dispose();
@@ -121,44 +195,76 @@ class _ReaderState extends ConsumerState<_Reader> {
 
   void _stop() {
     _run++;
+    _karaoke?.cancel();
     Voice.stop();
-    if (mounted) setState(() { playing = false; wordIdx = -1; });
+    if (mounted) {
+      setState(() {
+        playing = false;
+        wordIdx = -1;
+      });
+    }
   }
 
   Future<void> _play([int? from]) async {
     final run = ++_run;
+    _karaoke?.cancel();
     Voice.stop();
-    setState(() { playing = true; wordIdx = -1; });
+    setState(() {
+      playing = true;
+      wordIdx = -1;
+    });
     for (var i = from ?? max(cur, 0); i < c.sentences.length; i++) {
       if (run != _run || !mounted) return;
-      setState(() { cur = i; wordIdx = 0; });
+      setState(() {
+        cur = i;
+        wordIdx = 0;
+      });
       final ctx = _keys[i]?.currentContext;
-      if (ctx != null && ctx.mounted) Scrollable.ensureVisible(ctx, alignment: .3, duration: const Duration(milliseconds: 350));
+      if (ctx != null && ctx.mounted) {
+        Scrollable.ensureVisible(
+          ctx,
+          alignment: .3,
+          duration: const Duration(milliseconds: 350),
+        );
+      }
       final s = c.sentences[i];
-      final words = s.en.trim().isEmpty ? <String>[] : s.en.split(RegExp(r'\s+'));
+      final words = s.en.trim().isEmpty
+          ? <String>[]
+          : s.en.split(RegExp(r'\s+'));
       // Karaoke: advance word highlight while Azure clip plays (est. timings; $0 extra Azure).
       final msPer = (330 / rate).round().clamp(160, 700);
-      final karaoke = () async {
-        for (var w = 0; w < words.length; w++) {
-          if (run != _run || !mounted) return;
-          setState(() => wordIdx = w);
-          await Future.delayed(Duration(milliseconds: msPer));
+      _karaoke = Timer.periodic(Duration(milliseconds: msPer), (timer) {
+        if (run != _run || !mounted || timer.tick >= words.length) {
+          timer.cancel();
+          return;
         }
-      }();
-      final t0 = DateTime.now();
-      final ok = await Voice.say(s.voice, s.en, rate: rate);
-      await karaoke;
+        setState(() => wordIdx = timer.tick);
+      });
+      // Highlighting estimates timing, but must never hold up the next recording.
+      bool ok;
+      try {
+        ok = await Voice.say(s.voice, s.en, rate: rate);
+      } finally {
+        if (run == _run) _karaoke?.cancel();
+      }
       if (!ok) {
-        if (run == _run && mounted) setState(() { playing = false; wordIdx = -1; });
+        if (run == _run && mounted) {
+          setState(() {
+            playing = false;
+            wordIdx = -1;
+          });
+        }
         return;
       }
-      final min = Duration(milliseconds: words.length * msPer);
-      final left = min - DateTime.now().difference(t0);
-      if (!Voice.has(s.voice, s.en) && left > Duration.zero) await Future.delayed(left);
       if (run != _run || !mounted) return;
       await Future.delayed(const Duration(milliseconds: 250));
     }
-    if (run == _run && mounted) setState(() { playing = false; wordIdx = -1; });
+    if (run == _run && mounted) {
+      setState(() {
+        playing = false;
+        wordIdx = -1;
+      });
+    }
   }
 
   void _word(String surface, String key) {
@@ -168,39 +274,82 @@ class _ReaderState extends ConsumerState<_Reader> {
       context: context,
       backgroundColor: BL.cream,
       showDragHandle: true,
-      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(24))),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
       builder: (sheet) => SafeArea(
         child: Padding(
           key: const ValueKey('word-sheet'),
           padding: const EdgeInsets.fromLTRB(22, 0, 22, 18),
-          child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-            Text(hl(key.contains(' ') ? key : surface.replaceAll(RegExp(r"^\W+|\W+$"), '')), style: BL.display(28)),
-            const SizedBox(height: 6),
-            Text(hl(fa.isEmpty ? '—' : fa), key: const ValueKey('word-fa'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(20, color: BL.ink, w: FontWeight.w600)),
-            const SizedBox(height: 16),
-            FilledButton.icon(
-              key: const ValueKey('word-save'),
-              onPressed: saved || fa.isEmpty || fa.startsWith('اسم:')
-                  ? null
-                  : () {
-                      ctrl.seeWords([NewWord(key, fa)]);
-                      Navigator.of(sheet).pop();
-                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 2), content: Text(hl('“$key” saved to your words · به واژه‌هایت اضافه شد'))));
-                    },
-              style: FilledButton.styleFrom(backgroundColor: BL.green, padding: const EdgeInsets.symmetric(vertical: 13), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
-              icon: Icon(saved ? Icons.check_rounded : Icons.bookmark_add_rounded),
-              label: Text(hl(saved ? 'Already in your words' : 'Save to my words'), style: const TextStyle(fontWeight: FontWeight.w800)),
-            ),
-          ]),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text(
+                hl(
+                  key.contains(' ')
+                      ? key
+                      : surface.replaceAll(RegExp(r"^\W+|\W+$"), ''),
+                ),
+                style: BL.display(28),
+              ),
+              const SizedBox(height: 6),
+              Text(
+                hl(fa.isEmpty ? '—' : fa),
+                key: const ValueKey('word-fa'),
+                textDirection: helperDir,
+                textAlign: TextAlign.right,
+                style: BL.fa(20, color: BL.ink, w: FontWeight.w600),
+              ),
+              const SizedBox(height: 16),
+              FilledButton.icon(
+                key: const ValueKey('word-save'),
+                onPressed: saved || fa.isEmpty || fa.startsWith('اسم:')
+                    ? null
+                    : () {
+                        ctrl.seeWords([NewWord(key, fa)]);
+                        Navigator.of(sheet).pop();
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            behavior: SnackBarBehavior.floating,
+                            duration: const Duration(seconds: 2),
+                            content: Text(
+                              hl(
+                                '“$key” saved to your words · به واژه‌هایت اضافه شد',
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                style: FilledButton.styleFrom(
+                  backgroundColor: BL.green,
+                  padding: const EdgeInsets.symmetric(vertical: 13),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                ),
+                icon: Icon(
+                  saved ? Icons.check_rounded : Icons.bookmark_add_rounded,
+                ),
+                label: Text(
+                  hl(saved ? 'Already in your words' : 'Save to my words'),
+                  style: const TextStyle(fontWeight: FontWeight.w800),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 
-
   Widget _karaokeLine(String en, int hi, {Key? key}) {
-    final words = en.trim().isEmpty ? const <String>[] : en.split(RegExp(r'\s+'));
-    final base = BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0);
+    final words = en.trim().isEmpty
+        ? const <String>[]
+        : en.split(RegExp(r'\s+'));
+    final base = BL
+        .display(19, w: FontWeight.w400)
+        .copyWith(height: 1.5, letterSpacing: 0);
     return Wrap(
       key: key,
       spacing: 5,
@@ -210,10 +359,14 @@ class _ReaderState extends ConsumerState<_Reader> {
           Text(
             hl(words[w]),
             style: w == hi
-                ? base.copyWith(color: BL.red, fontWeight: FontWeight.w800, backgroundColor: BL.gold.withValues(alpha: .45))
+                ? base.copyWith(
+                    color: BL.red,
+                    fontWeight: FontWeight.w800,
+                    backgroundColor: BL.gold.withValues(alpha: .45),
+                  )
                 : w < hi
-                    ? base.copyWith(color: BL.muted)
-                    : base,
+                ? base.copyWith(color: BL.muted)
+                : base,
           ),
       ],
     );
@@ -239,14 +392,43 @@ class _ReaderState extends ConsumerState<_Reader> {
         duration: const Duration(milliseconds: 250),
         margin: const EdgeInsets.only(bottom: 6),
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
-        decoration: BoxDecoration(color: on ? BL.gold.withValues(alpha: .32) : Colors.transparent, borderRadius: BorderRadius.circular(10)),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          if (s.spName != null) Text(hl(s.spName!.toUpperCase()), key: ValueKey('spk-$i'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: BL.red)),
-          on && playing
-              ? _karaokeLine(s.en, wordIdx, key: ValueKey('sent-$i'))
-              : Text.rich(TextSpan(children: spans), key: ValueKey('sent-$i'), style: BL.display(19, w: FontWeight.w400).copyWith(height: 1.5, letterSpacing: 0)),
-          if (showFa) Text(hl(s.fa), key: ValueKey('fa-$i'), textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(14.5, color: BL.muted)),
-        ]),
+        decoration: BoxDecoration(
+          color: on ? BL.gold.withValues(alpha: .32) : Colors.transparent,
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            if (s.spName != null)
+              Text(
+                hl(s.spName!.toUpperCase()),
+                key: ValueKey('spk-$i'),
+                style: const TextStyle(
+                  fontSize: 10.5,
+                  letterSpacing: 1.2,
+                  fontWeight: FontWeight.w800,
+                  color: BL.red,
+                ),
+              ),
+            on && playing
+                ? _karaokeLine(s.en, wordIdx, key: ValueKey('sent-$i'))
+                : Text.rich(
+                    TextSpan(children: spans),
+                    key: ValueKey('sent-$i'),
+                    style: BL
+                        .display(19, w: FontWeight.w400)
+                        .copyWith(height: 1.5, letterSpacing: 0),
+                  ),
+            if (showFa)
+              Text(
+                hl(s.fa),
+                key: ValueKey('fa-$i'),
+                textDirection: helperDir,
+                textAlign: TextAlign.right,
+                style: BL.fa(14.5, color: BL.muted),
+              ),
+          ],
+        ),
       ),
     );
   }
@@ -254,7 +436,10 @@ class _ReaderState extends ConsumerState<_Reader> {
   void _startQuiz() {
     _stop();
     final rnd = Random(widget.book.id.hashCode + ch);
-    order = [for (final q in c.quiz) (List.generate(q.options.length, (i) => i)..shuffle(rnd))];
+    order = [
+      for (final q in c.quiz)
+        (List.generate(q.options.length, (i) => i)..shuffle(rnd)),
+    ];
     setState(() {
       mode = _Mode.quiz;
       qi = 0;
@@ -279,7 +464,12 @@ class _ReaderState extends ConsumerState<_Reader> {
         });
       } else {
         final pct = (right * 100 / c.quiz.length).round();
-        final a = ctrl.saveChapter(widget.book.id, ch, pct, widget.book.chapters.length);
+        final a = ctrl.saveChapter(
+          widget.book.id,
+          ch,
+          pct,
+          widget.book.chapters.length,
+        );
         setState(() {
           award = a;
           mode = _Mode.done;
@@ -310,10 +500,18 @@ class _ReaderState extends ConsumerState<_Reader> {
           checkpoint: false,
           right: right,
           total: c.quiz.length,
-          title: pass ? (finished ? 'Book finished!' : 'Chapter complete!') : 'Good effort!',
-          titleFa: pass ? (finished ? 'کتاب تمام شد! نشان «تمامش کردم» برای توست.' : 'آفرین! فصل بعد آماده است.') : 'فصل را دوباره بخوان و دوباره امتحان کن.',
+          title: pass
+              ? (finished ? 'Book finished!' : 'Chapter complete!')
+              : 'Good effort!',
+          titleFa: pass
+              ? (finished
+                    ? 'کتاب تمام شد! نشان «تمامش کردم» برای توست.'
+                    : 'آفرین! فصل بعد آماده است.')
+              : 'فصل را دوباره بخوان و دوباره امتحان کن.',
           onRetry: pass ? null : () => setState(() => mode = _Mode.read),
-          onNext: pass && !last ? () => context.pushReplacement('/read/${b.id}?ch=${ch + 1}') : null,
+          onNext: pass && !last
+              ? () => context.pushReplacement('/read/${b.id}?ch=${ch + 1}')
+              : null,
           nextLabel: 'Next chapter',
           onContinue: () => goBack(context, '/library'),
         ),
@@ -321,86 +519,159 @@ class _ReaderState extends ConsumerState<_Reader> {
     }
     return Scaffold(
       backgroundColor: const Color(0xFFFCF8F1),
-      body: Column(children: [
-        Padding(
-          padding: EdgeInsets.fromLTRB(14, pad.top + 6, 14, 4),
-          child: Row(children: [
-            const NavBack(fallback: '/library'),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(hl(b.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-                Text(hl('Chapter ${ch + 1} of ${b.chapters.length}  ·  ${b.level}'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
-              ]),
+      body: Column(
+        children: [
+          Padding(
+            padding: EdgeInsets.fromLTRB(14, pad.top + 6, 14, 4),
+            child: Row(
+              children: [
+                const NavBack(fallback: '/library'),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        hl(b.title),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          fontSize: 15,
+                          color: BL.ink,
+                        ),
+                      ),
+                      Text(
+                        hl(
+                          'Chapter ${ch + 1} of ${b.chapters.length}  ·  ${b.level}',
+                        ),
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: BL.muted,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                IconButton(
+                  key: const ValueKey('toggle-fa'),
+                  tooltip: 'Persian translation',
+                  onPressed: () => ctrl.setPref('libFa', showFa ? 'off' : 'on'),
+                  icon: Icon(
+                    Icons.translate_rounded,
+                    color: showFa ? BL.red : BL.muted,
+                  ),
+                ),
+              ],
             ),
-            IconButton(
-              key: const ValueKey('toggle-fa'),
-              tooltip: 'Persian translation',
-              onPressed: () => ctrl.setPref('libFa', showFa ? 'off' : 'on'),
-              icon: Icon(Icons.translate_rounded, color: showFa ? BL.red : BL.muted),
-            ),
-          ]),
-        ),
-        Expanded(child: mode == _Mode.quiz ? _quiz() : _text()),
-        if (mode == _Mode.read) _player(pad.bottom),
-      ]),
+          ),
+          Expanded(child: mode == _Mode.quiz ? _quiz() : _text()),
+          if (mode == _Mode.read) _player(pad.bottom),
+        ],
+      ),
     );
   }
 
   Widget _text() => ListView(
-        key: const ValueKey('reader-text'),
-        padding: const EdgeInsets.fromLTRB(18, 8, 18, 24),
-        children: [
-          Text(hl(c.title), style: BL.display(26)),
-          Text(hl(c.titleFa), textDirection: helperDir, style: BL.fa(14)),
-          const SizedBox(height: 4),
-          Text(hl('Tap a word for its meaning · برای معنی روی هر کلمه بزن'), style: TextStyle(fontSize: 11.5, color: BL.muted)),
-          const SizedBox(height: 14),
-          for (var i = 0; i < c.sentences.length; i++) _sentence(i),
-          const SizedBox(height: 18),
-          FilledButton.icon(
-            key: const ValueKey('start-quiz'),
-            onPressed: _startQuiz,
-            style: FilledButton.styleFrom(backgroundColor: BL.navy, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
-            icon: const Icon(Icons.quiz_rounded),
-            label: Text(hl('Chapter quiz · ${c.quiz.length} questions'), style: const TextStyle(fontWeight: FontWeight.w800)),
+    key: const ValueKey('reader-text'),
+    padding: const EdgeInsets.fromLTRB(18, 8, 18, 24),
+    children: [
+      Text(hl(c.title), style: BL.display(26)),
+      Text(hl(c.titleFa), textDirection: helperDir, style: BL.fa(14)),
+      const SizedBox(height: 4),
+      Text(
+        hl('Tap a word for its meaning · برای معنی روی هر کلمه بزن'),
+        style: TextStyle(fontSize: 11.5, color: BL.muted),
+      ),
+      const SizedBox(height: 14),
+      for (var i = 0; i < c.sentences.length; i++) _sentence(i),
+      const SizedBox(height: 18),
+      FilledButton.icon(
+        key: const ValueKey('start-quiz'),
+        onPressed: _startQuiz,
+        style: FilledButton.styleFrom(
+          backgroundColor: BL.navy,
+          padding: const EdgeInsets.symmetric(vertical: 14),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18),
           ),
-        ],
-      );
+        ),
+        icon: const Icon(Icons.quiz_rounded),
+        label: Text(
+          hl('Chapter quiz · ${c.quiz.length} questions'),
+          style: const TextStyle(fontWeight: FontWeight.w800),
+        ),
+      ),
+    ],
+  );
 
   Widget _player(double bottom) => Container(
-        padding: EdgeInsets.fromLTRB(12, 8, 12, bottom + 8),
-        decoration: BoxDecoration(color: BL.paper, boxShadow: BL.shadow(.12)),
-        child: Row(children: [
-          PopupMenuButton<double>(
-            key: const ValueKey('speed'),
-            tooltip: 'Reading speed',
-            initialValue: rate,
-            onSelected: (v) => ctrl.setPref('libRate', '$v'),
-            itemBuilder: (_) => [for (final s in speeds) PopupMenuItem(value: s, child: Text(hl('$s×')))],
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
-              decoration: BoxDecoration(color: BL.mist, borderRadius: BorderRadius.circular(12)),
-              child: Text(hl('$rate×'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink)),
+    padding: EdgeInsets.fromLTRB(12, 8, 12, bottom + 8),
+    decoration: BoxDecoration(color: BL.paper, boxShadow: BL.shadow(.12)),
+    child: Row(
+      children: [
+        PopupMenuButton<double>(
+          key: const ValueKey('speed'),
+          tooltip: 'Reading speed',
+          initialValue: rate,
+          onSelected: (v) => ctrl.setPref('libRate', '$v'),
+          itemBuilder: (_) => [
+            for (final s in speeds)
+              PopupMenuItem(value: s, child: Text(hl('$s×'))),
+          ],
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+            decoration: BoxDecoration(
+              color: BL.mist,
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Text(
+              hl('$rate×'),
+              style: const TextStyle(
+                fontWeight: FontWeight.w800,
+                color: BL.ink,
+              ),
             ),
           ),
-          const Spacer(),
-          IconButton(key: const ValueKey('prev'), onPressed: cur <= 0 ? null : () => _play(cur - 1), icon: const Icon(Icons.skip_previous_rounded)),
-          SizedBox(
-            width: 58,
-            height: 58,
-            child: FilledButton(
-              key: const ValueKey('play'),
-              onPressed: () => playing ? _stop() : _play(cur >= c.sentences.length - 1 ? 0 : null),
-              style: FilledButton.styleFrom(backgroundColor: BL.red, shape: const CircleBorder(), padding: EdgeInsets.zero),
-              child: Icon(playing ? Icons.pause_rounded : Icons.play_arrow_rounded, size: 32),
+        ),
+        const Spacer(),
+        IconButton(
+          key: const ValueKey('prev'),
+          onPressed: cur <= 0 ? null : () => _play(cur - 1),
+          icon: const Icon(Icons.skip_previous_rounded),
+        ),
+        SizedBox(
+          width: 58,
+          height: 58,
+          child: FilledButton(
+            key: const ValueKey('play'),
+            onPressed: () => playing
+                ? _stop()
+                : _play(cur >= c.sentences.length - 1 ? 0 : null),
+            style: FilledButton.styleFrom(
+              backgroundColor: BL.red,
+              shape: const CircleBorder(),
+              padding: EdgeInsets.zero,
+            ),
+            child: Icon(
+              playing ? Icons.pause_rounded : Icons.play_arrow_rounded,
+              size: 32,
             ),
           ),
-          IconButton(key: const ValueKey('next'), onPressed: cur >= c.sentences.length - 1 ? null : () => _play(cur + 1), icon: const Icon(Icons.skip_next_rounded)),
-          const Spacer(),
-          const SizedBox(width: 52),
-        ]),
-      );
+        ),
+        IconButton(
+          key: const ValueKey('next'),
+          onPressed: cur >= c.sentences.length - 1
+              ? null
+              : () => _play(cur + 1),
+          icon: const Icon(Icons.skip_next_rounded),
+        ),
+        const Spacer(),
+        const SizedBox(width: 52),
+      ],
+    ),
+  );
 
   Widget _quiz() {
     final q = c.quiz[qi];
@@ -408,36 +679,80 @@ class _ReaderState extends ConsumerState<_Reader> {
       key: const ValueKey('reader-quiz'),
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 24),
       children: [
-        Text(hl('QUESTION ${qi + 1} OF ${c.quiz.length}'), style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+        Text(
+          hl('QUESTION ${qi + 1} OF ${c.quiz.length}'),
+          style: const TextStyle(
+            fontSize: 11,
+            letterSpacing: 1.4,
+            fontWeight: FontWeight.w800,
+            color: BL.red,
+          ),
+        ),
         const SizedBox(height: 8),
         Text(hl(q.q), key: const ValueKey('quiz-q'), style: BL.display(24)),
         const SizedBox(height: 18),
         for (final o in order[qi])
-          Builder(builder: (_) {
-            final isAns = o == q.answer, isPicked = o == picked;
-            final col = picked == null ? BL.paper : (isAns ? BL.green.withValues(alpha: .14) : (isPicked ? BL.red.withValues(alpha: .12) : BL.paper));
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 10),
-              child: Material(
-                color: col,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16), side: BorderSide(color: picked != null && isAns ? BL.green : BL.mist, width: 1.5)),
-                child: InkWell(
-                  key: ValueKey('opt-$o'),
-                  borderRadius: BorderRadius.circular(16),
-                  onTap: () => _pick(o),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 15),
-                    child: Row(children: [
-                      Expanded(child: Text(hl(q.options[o]), style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: BL.ink))),
-                      if (picked != null && isAns) const Icon(Icons.check_circle_rounded, color: BL.green),
-                      if (isPicked && !isAns) const Icon(Icons.cancel_rounded, color: BL.red),
-                    ]),
+          Builder(
+            builder: (_) {
+              final isAns = o == q.answer, isPicked = o == picked;
+              final col = picked == null
+                  ? BL.paper
+                  : (isAns
+                        ? BL.green.withValues(alpha: .14)
+                        : (isPicked
+                              ? BL.red.withValues(alpha: .12)
+                              : BL.paper));
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Material(
+                  color: col,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                    side: BorderSide(
+                      color: picked != null && isAns ? BL.green : BL.mist,
+                      width: 1.5,
+                    ),
+                  ),
+                  child: InkWell(
+                    key: ValueKey('opt-$o'),
+                    borderRadius: BorderRadius.circular(16),
+                    onTap: () => _pick(o),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 15,
+                      ),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              hl(q.options[o]),
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                                color: BL.ink,
+                              ),
+                            ),
+                          ),
+                          if (picked != null && isAns)
+                            const Icon(
+                              Icons.check_circle_rounded,
+                              color: BL.green,
+                            ),
+                          if (isPicked && !isAns)
+                            const Icon(Icons.cancel_rounded, color: BL.red),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
-              ),
-            );
-          }),
-        TextButton(onPressed: () => setState(() => mode = _Mode.read), child: Text(hl('Back to the text · برگشت به متن'))),
+              );
+            },
+          ),
+        TextButton(
+          onPressed: () => setState(() => mode = _Mode.read),
+          child: Text(hl('Back to the text · برگشت به متن')),
+        ),
       ],
     );
   }

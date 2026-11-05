@@ -1,5 +1,11 @@
 # New Life UK — Self-serve compliance & security report
 
+> Status correction, 5 November 2026: historical self-review only. Entries marked
+> "done" below are not current legal clearance. Children's Code, international
+> transfers, identity, rights evidence and store declarations remain open.
+> Use `OPEN_QUESTIONS_FA.md` and `release_evidence.json` for release decisions.
+> A 13+ label does not, by itself, exclude responsibilities toward under-18s.
+
 **Live deploy hash:** `thetoms-bd4f5aebf18c` (main `f5f58fa6`, source `c4415bec`) — Europe/London 31 Oct 2026 ~15:08
 
 **Date:** 31 October 2026 (Europe/London)  
@@ -182,4 +188,3 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 2. **OISC boundary:** Any future visa content that tips into case-specific advice would be unlawful without regulation — process needed for content edits.  
 3. **PWA storage:** Not as strong as mobile encrypted Hive; prefer Android for child profiles.  
 4. **Self-review limit:** Without a solicitor, residual regulatory risk remains — acceptable for beta, not a guarantee for paid scale.
-

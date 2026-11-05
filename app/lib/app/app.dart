@@ -6,6 +6,7 @@ import '../core/i18n/helper_text.dart';
 
 import '../core/platform/retry_bundle.dart';
 import '../features/leitner/leitner_add.dart';
+import '../features/shared/voice_feedback.dart';
 import 'router.dart';
 import 'theme.dart';
 
@@ -18,13 +19,23 @@ class BritishLifeApp extends StatelessWidget {
     debugShowCheckedModeBanner: false,
     theme: BL.theme(),
     routerConfig: router,
-    builder: (context, child) => DefaultAssetBundle(bundle: bundle, child: ColoredBox(
-      color: const Color(0xFFE9E2D6),
-      // Keep a phone-width column on tablets/desktop browsers.
-      child: Center(
-        child: ConstrainedBox(constraints: const BoxConstraints(maxWidth: 520), child: HelperLangScope(child: LeitnerSelect(child: child ?? const SizedBox()))),
+    builder: (context, child) => DefaultAssetBundle(
+      bundle: bundle,
+      child: ColoredBox(
+        color: const Color(0xFFE9E2D6),
+        // Keep a phone-width column on tablets/desktop browsers.
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 520),
+            child: HelperLangScope(
+              child: VoiceFeedback(
+                child: LeitnerSelect(child: child ?? const SizedBox()),
+              ),
+            ),
+          ),
+        ),
       ),
-    )),
+    ),
   );
 }
 
@@ -59,7 +70,9 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
     if (lang != helperLang && lang != _want) {
       if (isHelperLoaded(lang)) {
         useHelperLang(lang);
-        WidgetsBinding.instance.addPostFrameCallback((_) { if (mounted) (context as Element).visitChildren(_rebuildAll); });
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) (context as Element).visitChildren(_rebuildAll);
+        });
       } else {
         _switch(lang);
       }
