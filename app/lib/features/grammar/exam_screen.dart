@@ -9,6 +9,7 @@ import '../../core/data/providers.dart';
 import '../motivation/motivation_widgets.dart';
 import '../premium/certificate_screen.dart';
 import '../shared/nav.dart';
+import '../shared/share.dart';
 import 'grammar_data.dart';
 import 'school_screen.dart';
 import 'topic_screen.dart';
@@ -37,6 +38,7 @@ class ClassExamScreen extends ConsumerStatefulWidget {
 class _ClassExamScreenState extends ConsumerState<ClassExamScreen> {
   int attempt = 0, i = 0, right = 0;
   bool started = false;
+  final _certKey = GlobalKey();
   XpAward? award;
   List<GItem> items = const [];
 
@@ -133,7 +135,8 @@ class _ClassExamScreenState extends ConsumerState<ClassExamScreen> {
           ),
           if (passed) ...[
             const SizedBox(height: 20),
-            _ClassCertificate(code: c.code, name: c.name, nameFa: c.nameFa, score: best!, date: date, learner: ctrl.certName),
+            RepaintBoundary(key: _certKey, child: _ClassCertificate(code: c.code, name: c.name, nameFa: c.nameFa, score: best!, date: date, learner: ctrl.certName)),
+            if (!ctrl.kidMode) ...[const SizedBox(height: 12), CertificateShareRow(boundary: _certKey, keyPrefix: 'class-cert', text: 'I passed the Class ${c.code} grammar exam (${c.name}) in New Life UK with $best%. $inviteUrl\nآزمون کلاس ${c.code} گرامر New Life UK را با $best٪ قبول شدم.')],
           ],
         ],
       ),

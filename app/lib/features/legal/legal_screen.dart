@@ -51,6 +51,11 @@ final privacyDoc = LegalDoc(
       "پیشرفت، واژه‌ها، دفترچه، تنظیمات، پروفایل و نام گواهی روی همین دستگاه ذخیره می‌شود. فایل درس ممکن است در کش آفلاین بماند. ذخیرهٔ لازم برای قابلیت صریحاً درخواستی ممکن است از رضایت PECR معاف باشد؛ این معافیت کلیِ همهٔ حافظه یا ردیابی آینده نیست. «حذف داده‌های من» سوابق اپ را پاک می‌کند؛ فایل کش ممکن است تا پاک‌کردن حافظهٔ سایت یا اپ بماند. اول از پیشرفت خروجی بگیرید؛ بازیابی ممکن نیست.",
     ),
     (
+      "Sharing certificates and invites",
+      "Share certificate and Invite a friend open your device's own share sheet only when you tap them. The certificate image (with the name you typed) or the invite text goes to the app or person you choose; nothing is sent to us, and the invite link has no referral code or tracking. These buttons are hidden in child profiles.",
+      "دکمه‌های «اشتراک گواهی» و «دعوت از دوست» فقط وقتی خودتان بزنید پنجرهٔ اشتراک دستگاه را باز می‌کنند. تصویر گواهی (با نامی که نوشته‌اید) یا متن دعوت فقط به برنامه یا کسی که خودتان انتخاب می‌کنید می‌رود؛ چیزی برای ما ارسال نمی‌شود و لینک دعوت کد معرف یا ردیابی ندارد. این دکمه‌ها در پروفایل کودک نمایش داده نمی‌شوند.",
+    ),
+    (
       "Internet use and international transfers",
       "The app needs the Internet to download course content, paintings and pre-rendered Azure neural TTS voice clips from our static host (currently GitHub Pages, GitHub Inc., USA). Clips are app assets, not recordings of you. GitHub may log IP and browser metadata under its own privacy statement; we do not receive those logs. Azure Speech was used by us at build time to create clips; your device does not send your voice to Azure during normal play. Browser speech-to-text (microphone coach) may process audio on Google/Apple servers under their policies when you tap the mic.",
       "اپ برای محتوای دوره، تصویر و صداهای ازپیش‌ساختهٔ Azure به اینترنت نیاز دارد (میزبان: GitHub Pages در آمریکا). این کلیپ‌ها دارایی اپ‌اند نه صدای شما. GitHub ممکن است IP را ثبت کند؛ ما آن را نمی‌گیریم. Azure در زمان ساخت کلیپ استفاده شده؛ هنگام بازی صدای شما به Azure نمی‌رود. گفتار به متن مرورگر هنگام زدن میکروفون ممکن است روی سرورهای گوگل/اپل پردازش شود.",

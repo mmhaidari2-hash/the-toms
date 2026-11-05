@@ -9,6 +9,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/models/learner_profile.dart';
 import '../../core/data/repository.dart';
+import '../shared/share.dart';
 import '../shared/widgets.dart';
 import '../motivation/motivation_widgets.dart';
 import '../../core/platform/remind.dart';
@@ -1255,6 +1256,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
   final more = <_MI>[
     (Icons.badge_rounded, 'Your name', 'نام شما', '#name'),
     (Icons.workspace_premium_outlined, 'Premium', 'اشتراک ویژه', '/premium'),
+    (Icons.person_add_alt_1_rounded, 'Invite a friend', 'دعوت از دوست', '#invite'),
     (Icons.help_outline_rounded, 'How it works', 'راهنما', '/howto'),
     (Icons.gavel_rounded, 'Privacy & terms', 'حریم خصوصی', '/legal'),
   ];
@@ -1262,6 +1264,8 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     Navigator.of(sheet).pop();
     if (route == '#name') {
       showNameDialog(context, ref);
+    } else if (route == '#invite') {
+      shareInvite(context);
     } else {
       context.push(route);
     }

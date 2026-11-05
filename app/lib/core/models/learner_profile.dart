@@ -73,6 +73,7 @@ class CalmCircle {
 
 /// Routes hidden in kid-friendly mode (UK Children's Code: minimise data & adult bureaucracy practice).
 const kidBlockedRoutes = <String>{
+  '#invite', // children's code: no prompts to share outside the app
   '/forms',
   '/visa',
   '/settlement',
