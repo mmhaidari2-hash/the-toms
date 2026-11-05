@@ -49,7 +49,9 @@ class TopicLocked extends StatelessWidget {
     final GTopic? next = classOpen ? l.where((x) => gate.topicOpen(x) && !gate.ctrl.grammarPassed(x.id)).firstOrNull : null;
     final (en, fa) = classOpen
         ? ('Pass "${l[i - 1].title}" first. Topics open one by one.', 'اول درس قبلی را با موفقیت تمام کنید؛ درس‌ها به ترتیب باز می‌شوند.')
-        : ('Class ${topic.level} opens when you pass Class $prevClass, or reach Level ${Grammar.courseLevel(topic.level)} in the course.', 'کلاس ${topic.level} وقتی باز می‌شود که کلاس $prevClass را تمام کنید یا در دوره به سطح ${Grammar.courseLevel(topic.level)} برسید.');
+        : Grammar.hasCourseLevel(topic.level)
+            ? ('Class ${topic.level} opens when you pass Class $prevClass, or reach Level ${Grammar.courseLevel(topic.level)} in the course.', 'کلاس ${topic.level} وقتی باز می‌شود که کلاس $prevClass را تمام کنید یا در دوره به سطح ${Grammar.courseLevel(topic.level)} برسید.')
+            : ('Class ${topic.level} opens when you pass Class $prevClass.', 'کلاس ${topic.level} وقتی باز می‌شود که کلاس $prevClass را تمام کنید.');
     return Scaffold(
       key: const ValueKey('topic-locked'),
       backgroundColor: BL.cream,

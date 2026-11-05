@@ -141,7 +141,9 @@ class _ClassCard extends StatelessWidget {
                     ? 'Class ${c.code} is coming soon · به‌زودی'
                     : prevCode == null
                         ? 'Reach this level in the course first.'
-                        : 'Pass Class $prevCode first, or reach this level in the course.')),
+                        : Grammar.hasCourseLevel(c.code)
+                            ? 'Pass Class $prevCode first, or reach this level in the course.'
+                            : 'Pass Class $prevCode first.')),
               ));
             },
             child: Container(

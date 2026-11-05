@@ -67,14 +67,17 @@ class Grammar {
     GClass('B1', 'Intermediate', 'متوسط', 'present perfect (simple & continuous), past perfect, future forms, zero, first & second conditionals, modals, relative clauses, question tags, phrasal verbs, the passive'),
     GClass('B2', 'Upper-intermediate', 'فوق‌متوسط', 'used to / would / be used to, past perfect continuous, future continuous & perfect, third conditional, unless & in case, reported speech, deduction, contrast linkers'),
     GClass('C1', 'Advanced', 'پیشرفته', 'future perfect continuous, future in the past, inversion, mixed conditionals, wish, cleft sentences, subjunctive, ellipsis, formal style'),
+    GClass('C2', 'Proficiency', 'تسلط', 'conditionals without if, tense for tact, will/would for habits, discourse markers, vague language, absolute phrases, I\'d rather / as if, focus adverbs, no matter / the more…, complex noun phrases'),
   ];
   static const pass = 60;
   /// Class final exam: 20 questions drawn from every topic's mini test; 80% earns the class certificate.
   static const examPass = 80;
   static const examSize = 20;
-  /// A1–A2 are taught at Maple Grove Primary; B1–C1 at Riverside Adult College (fictional).
-  static bool atCollege(String code) => const {'B1', 'B2', 'C1'}.contains(code);
+  /// A1–A2 are taught at Maple Grove Primary; B1–C2 at Riverside Adult College (fictional).
+  static bool atCollege(String code) => const {'B1', 'B2', 'C1', 'C2'}.contains(code);
   static int courseLevel(String code) => classes.indexWhere((c) => c.code == code) + 1;
+  /// The course has 5 levels (A1–C1); Class C2 opens only after Class C1 is passed.
+  static bool hasCourseLevel(String code) => courseLevel(code) <= 5;
   static List<GTopic> parse(String raw) => [for (final t in (jsonDecode(raw) as Map)['topics'] as List) GTopic.fromJson(t)];
 }
 

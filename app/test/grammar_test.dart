@@ -55,6 +55,10 @@ void main() {
       topics.where((t) => t.level == 'C1').length,
       greaterThanOrEqualTo(11),
     );
+    expect(
+      topics.where((t) => t.level == 'C2').length,
+      greaterThanOrEqualTo(10),
+    );
     // Every English tense is taught, in the class where CEFR puts it.
     const tenses = {
       'a1_present': 'A1',
@@ -220,6 +224,13 @@ void main() {
     expect(gate().classOpen('C1'), isTrue);
     expect(gate().topicOpen(gate().of('C1').first), isTrue);
     expect(gate().topicOpen(gate().of('C1')[1]), isFalse);
+    expect(gate().classOpen('C2'), isFalse, reason: 'no course level 6: C2 needs C1');
+    for (final t in gate().of('C1')) {
+      ctrl.saveGrammar(t.id, 80);
+    }
+    expect(gate().classOpen('C2'), isTrue);
+    expect(gate().topicOpen(gate().of('C2').first), isTrue);
+    expect(gate().topicOpen(gate().of('C2')[1]), isFalse);
   });
 
   group('screens at 375x667', () {
