@@ -8,6 +8,7 @@ import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:british_life/features/theory/thy_quiz_screen.dart';
 import 'package:british_life/features/shared/nav.dart';
+import 'package:british_life/core/platform/voice.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -52,7 +53,9 @@ void main() {
       Future<void> tapKey(String k) async {
         final f = find.byKey(ValueKey(k));
         await t.scrollUntilVisible(f, 200, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first);
-        await t.pump(const Duration(milliseconds: 200));
+        Voice.failure.value = null; // no audio in tests: hide the 'voice unavailable' note so it never covers buttons
+        await t.pump(const Duration(milliseconds: 100));
+        await t.pump(const Duration(milliseconds: 100));
         await t.tap(f);
         await t.pump(const Duration(milliseconds: 500));
       }

@@ -184,7 +184,7 @@ class UserProgress {
   );
 
   /// True when demo unlock or owner mode is on — use this for lesson/building gates.
-  bool get gatesOpen => unlockAll || ownerMode;
+  bool get gatesOpen => unlockAll || ownerMode || kPreviewUnlock;
 
   String encode() => jsonEncode({
     'growth': growthMap,
@@ -250,3 +250,7 @@ class UserProgress {
     );
   }
 }
+
+/// Review builds only (`--dart-define=PREVIEW_UNLOCK=true`): every lesson and level is open and a
+/// PREVIEW ribbon is shown. Never set for store or public releases (check_public_release.py blocks it).
+const kPreviewUnlock = bool.fromEnvironment('PREVIEW_UNLOCK');

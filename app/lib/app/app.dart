@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/data/providers.dart';
 import '../core/i18n/helper_text.dart';
+import '../core/models/user_progress.dart';
 
 import '../core/platform/retry_bundle.dart';
 import '../features/leitner/leitner_add.dart';
@@ -29,7 +30,7 @@ class BritishLifeApp extends StatelessWidget {
             constraints: const BoxConstraints(maxWidth: 520),
             child: HelperLangScope(
               child: VoiceFeedback(
-                child: LeitnerSelect(child: child ?? const SizedBox()),
+                child: LeitnerSelect(child: kPreviewUnlock ? Banner(message: 'PREVIEW', location: BannerLocation.topEnd, color: const Color(0xFF1F3A5F), child: child ?? const SizedBox()) : child ?? const SizedBox()),
               ),
             ),
           ),

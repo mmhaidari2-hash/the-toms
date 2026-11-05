@@ -14,22 +14,22 @@
     {
      "en": "The Highway Code puts the people most at risk first: pedestrians, cyclists, horse riders and motorcyclists. If you drive something that can cause more harm, you have more responsibility to take care.",
      "fa": "قوانین راهنمایی بریتانیا آسیب‌پذیرترین‌ها را در اولویت می‌گذارد: عابران، دوچرخه‌سواران، سوارکاران و موتورسواران. هر چه وسیلهٔ تو آسیب بیشتری بزند، مسئولیتت بیشتر است.",
-     "ms": 14232
+     "ms": 13540
     },
     {
      "en": "At a junction, give way to pedestrians who are crossing or waiting to cross the road you are turning into or out of. When you overtake a cyclist at up to 30 miles an hour, leave at least one and a half metres.",
      "fa": "در تقاطع به عابرانی که در حال عبور یا منتظر عبور از خیابانی‌اند که به آن می‌پیچی یا از آن خارج می‌شوی راه بده. هنگام سبقت از دوچرخه‌سوار تا سرعت ۳۰ مایل، دست‌کم یک‌ونیم متر فاصله بگذار.",
-     "ms": 14352
+     "ms": 13670
     },
     {
      "en": "Tiredness is dangerous. Take a break of at least fifteen minutes after every two hours of driving, and if you feel sleepy, stop somewhere safe, not on the hard shoulder.",
      "fa": "خستگی خطرناک است. پس از هر دو ساعت رانندگی دست‌کم پانزده دقیقه استراحت کن و اگر خوابت گرفت، جای امنی توقف کن، نه روی شانهٔ اضطراری بزرگراه.",
-     "ms": 12216
+     "ms": 11440
     },
     {
      "en": "Before you open your door, look all around. The Code suggests the \"Dutch reach\": open the door with the hand furthest from it, so you turn and look behind you for cyclists.",
      "fa": "پیش از باز کردن در، همه طرف را نگاه کن. قوانین «دستگیرهٔ هلندی» را پیشنهاد می‌کند: در را با دست دورتر باز کن تا برگردی و پشت سرت دوچرخه‌سوار را ببینی.",
-     "ms": 11952
+     "ms": 11150
     }
    ],
    "cards": [
@@ -77,8 +77,8 @@
    "qs": [
     {
      "id": "attitude_01",
-     "q": "Under the hierarchy of road users, who has the greatest responsibility to reduce danger?",
-     "fa": "طبق سلسله‌مراتب کاربران راه، چه کسی بیشترین مسئولیت کاهش خطر را دارد؟",
+     "q": "Leslie asks Tom why the Code says a lorry driver must take more care than a cyclist. Who carries the most responsibility to reduce danger?",
+     "fa": "لزلی از تام می‌پرسد چرا آیین‌نامه از رانندهٔ کامیون مراقبت بیشتری می‌خواهد تا از دوچرخه‌سوار. مسئولیت اصلی کاهش خطر با کیست؟",
      "options": [
       "Those driving vehicles that can cause the most harm",
       "Pedestrians, because they are slowest",
@@ -92,8 +92,8 @@
     },
     {
      "id": "attitude_02",
-     "q": "You are turning left into a side road. A pedestrian is waiting to cross it. What should you do?",
-     "fa": "به خیابان فرعی سمت چپ می‌پیچی و عابری منتظر عبور از آن است. چه کنی؟",
+     "q": "Leslie is turning left into Mare Street's side road and a man is standing at the kerb, ready to cross it. What should she do?",
+     "fa": "لزلی به خیابان فرعی سمت چپ می‌پیچد و مردی لب جدول آمادهٔ عبور از همان خیابان است. چه باید بکند؟",
      "options": [
       "Give way and let them cross",
       "Sound your horn so they wait",
@@ -107,8 +107,8 @@
     },
     {
      "id": "attitude_03",
-     "q": "What is the minimum gap the Highway Code advises when overtaking a cyclist at up to 30 mph?",
-     "fa": "هنگام سبقت از دوچرخه‌سوار تا سرعت ۳۰ مایل، کمترین فاصلهٔ توصیه‌شده چقدر است؟",
+     "q": "Leslie wants to pass a cyclist on a 30 mph road in Hackney. What is the least space the Code advises her to leave?",
+     "fa": "لزلی می‌خواهد در خیابانی با سرعت ۳۰ مایل از کنار یک دوچرخه‌سوار رد شود. آیین‌نامه دست‌کم چه فاصله‌ای را توصیه می‌کند؟",
      "options": [
       "1.5 metres",
       "50 centimetres",
@@ -122,8 +122,8 @@
     },
     {
      "id": "attitude_04",
-     "q": "How should you pass a horse rider on the road?",
-     "fa": "چگونه از کنار سوارکار در جاده عبور کنی؟",
+     "q": "On a country lane near Epping, Leslie comes up behind someone riding a horse. How should she pass?",
+     "fa": "لزلی در جادهٔ روستایی نزدیک اپینگ پشت یک سوارکار می‌رسد. چگونه باید از کنارش رد شود؟",
      "options": [
       "Under 10 mph, leaving at least 2 metres",
       "Quickly, to get past before the horse moves",
@@ -137,8 +137,8 @@
     },
     {
      "id": "attitude_05",
-     "q": "How often does the Highway Code recommend a break on a long journey?",
-     "fa": "قوانین راهنمایی در سفر طولانی هر چند وقت استراحت را توصیه می‌کند؟",
+     "q": "The family are driving to Cornwall for the holidays. How often does the Code suggest the driver takes a break?",
+     "fa": "خانواده برای تعطیلات با ماشین به کورنوال می‌روند. آیین‌نامه پیشنهاد می‌کند راننده هر چند وقت استراحت کند؟",
      "options": [
       "At least 15 minutes after every two hours",
       "Five minutes every four hours",
@@ -152,8 +152,8 @@
     },
     {
      "id": "attitude_06",
-     "q": "You feel sleepy on the motorway. Where should you stop?",
-     "fa": "در بزرگراه خوابت می‌گیرد. کجا توقف کنی؟",
+     "q": "Late at night on the M11, Tom starts yawning and his eyes feel heavy. Where should he stop?",
+     "fa": "دیروقت در بزرگراه M11 تام خمیازه می‌کشد و چشم‌هایش سنگین شده. کجا باید توقف کند؟",
      "options": [
       "At a services or other safe place off the motorway",
       "On the hard shoulder",
@@ -167,8 +167,8 @@
     },
     {
      "id": "attitude_07",
-     "q": "Another driver flashes their headlights at you at a junction. What does it officially mean?",
-     "fa": "راننده‌ای در تقاطع برایت چراغ می‌زند. معنای رسمی‌اش چیست؟",
+     "q": "At a junction, a van driver flashes his headlights at Leslie. According to the Code, what does that flash mean?",
+     "fa": "سر تقاطع رانندهٔ یک ون برای لزلی چراغ می‌زند. طبق آیین‌نامه این چراغ زدن چه معنایی دارد؟",
      "options": [
       "Only that they are there",
       "That you may go first",
@@ -182,8 +182,8 @@
     },
     {
      "id": "attitude_08",
-     "q": "Which way of opening your car door does the Highway Code suggest?",
-     "fa": "قوانین راهنمایی کدام شیوهٔ باز کردن در را پیشنهاد می‌کند؟",
+     "q": "Tom has parked on a busy street and wants to get out. Which way of opening his door does the Code recommend?",
+     "fa": "تام در خیابانی شلوغ پارک کرده و می‌خواهد پیاده شود. آیین‌نامه کدام روش باز کردن در را توصیه می‌کند؟",
      "options": [
       "With the hand furthest from the door, so you look behind",
       "Quickly, before traffic arrives",
@@ -197,8 +197,8 @@
     },
     {
      "id": "attitude_09",
-     "q": "A driver pulls out in front of you and you have to brake. What should you do?",
-     "fa": "راننده‌ای جلویت می‌پیچد و ناچار ترمز می‌کنی. چه کنی؟",
+     "q": "A car suddenly pulls out in front of Leslie and she has to brake hard. What is the right reaction?",
+     "fa": "ماشینی ناگهان جلوی لزلی می‌پیچد و او مجبور می‌شود محکم ترمز کند. واکنش درست چیست؟",
      "options": [
       "Hold back, stay calm and let them get clear",
       "Drive close behind to show you are annoyed",
@@ -212,8 +212,8 @@
     },
     {
      "id": "attitude_10",
-     "q": "Children are walking towards a school near parked cars. What is the main danger?",
-     "fa": "بچه‌ها نزدیک ماشین‌های پارک‌شده به سمت مدرسه می‌روند. خطر اصلی چیست؟",
+     "q": "Leslie drives past Nicola's school at home time, with cars parked along both kerbs. What is the biggest risk?",
+     "fa": "لزلی وقت تعطیلی مدرسهٔ نیکولا از جلوی آن رد می‌شود و دو طرف خیابان ماشین پارک است. بزرگ‌ترین خطر چیست؟",
      "options": [
       "A child may run out between the parked cars",
       "The parked cars may move off quickly",
@@ -227,8 +227,8 @@
     },
     {
      "id": "attitude_11",
-     "q": "You may use your horn in a built-up area at midnight if you are stationary. True or false?",
-     "fa": "در منطقهٔ مسکونی نیمه‌شب، وقتی ایستاده‌ای، می‌توانی بوق بزنی. درست یا نادرست؟",
+     "q": "Tom is parked outside a friend's flat at midnight and wants to beep to say he has arrived. That is allowed in a built-up area. True or false?",
+     "fa": "تام نیمه‌شب جلوی خانهٔ دوستش پارک کرده و می‌خواهد با بوق خبر بدهد که رسیده. در منطقهٔ مسکونی این کار مجاز است. درست یا نادرست؟",
      "options": [
       "FALSE",
       "TRUE"
@@ -240,8 +240,8 @@
     },
     {
      "id": "attitude_12",
-     "q": "Which of these is most likely to distract you while driving?",
-     "fa": "کدام بیشتر احتمال دارد حواست را پرت کند؟",
+     "q": "Ryan is in the back seat during Leslie's practice drive. Which of these is most likely to take her attention off the road?",
+     "fa": "ریان در صندلی عقب نشسته و لزلی تمرین رانندگی می‌کند. کدام بیشتر احتمال دارد حواس لزلی را از جاده پرت کند؟",
      "options": [
       "Adjusting the music or arguing with passengers",
       "Checking your mirrors",
@@ -255,8 +255,8 @@
     },
     {
      "id": "attitude_13",
-     "q": "Older or disabled pedestrians may take longer to cross. What should you do?",
-     "fa": "عابران سالمند یا دارای معلولیت ممکن است دیرتر عبور کنند. چه کنی؟",
+     "q": "Nana Maggie is crossing slowly with her stick as Leslie waits at the junction. What should Leslie do?",
+     "fa": "نانا مگی با عصا آرام از خیابان رد می‌شود و لزلی سر تقاطع منتظر است. لزلی چه باید بکند؟",
      "options": [
       "Be patient and give them time",
       "Edge forward to hurry them",
@@ -270,8 +270,8 @@
     },
     {
      "id": "attitude_14",
-     "q": "When you are dazzled by bright, low sunlight, what should you do?",
-     "fa": "وقتی نور تند و کم‌ارتفاع خورشید چشمت را می‌زند چه کنی؟",
+     "q": "Driving west in the late afternoon, Leslie is blinded by low winter sun. What should she do?",
+     "fa": "لزلی عصر به سمت غرب رانندگی می‌کند و آفتاب کم‌ارتفاع زمستان چشمش را می‌زند. چه باید بکند؟",
      "options": [
       "Slow down, and stop if necessary",
       "Speed up to get out of it",
@@ -298,22 +298,22 @@
     {
      "en": "For a car, the national limits are thirty miles an hour in built-up areas in England and Scotland, sixty on single carriageways, and seventy on dual carriageways and motorways. In Wales, most built-up roads are twenty.",
      "fa": "محدودیت‌های سراسری برای خودرو: ۳۰ مایل در مناطق مسکونی انگلستان و اسکاتلند، ۶۰ در جادهٔ یک‌بانده و ۷۰ در جادهٔ دوبانده و بزرگراه. در ولز بیشتر خیابان‌های مسکونی ۲۰ است.",
-     "ms": 15576
+     "ms": 14850
     },
     {
      "en": "A speed limit is a maximum, not a target. Slow down for bends, bad weather, darkness, and when there are people walking or cycling.",
      "fa": "محدودیت سرعت حداکثر است، نه هدف. در پیچ‌ها، هوای بد، تاریکی و کنار عابر و دوچرخه‌سوار آهسته کن.",
-     "ms": 10464
+     "ms": 9630
     },
     {
      "en": "Typical stopping distances on a dry road are twelve metres at twenty, twenty-three metres at thirty, fifty-three at fifty, and ninety-six metres at seventy miles an hour.",
      "fa": "فاصلهٔ توقف معمول در جادهٔ خشک: ۱۲ متر در ۲۰ مایل، ۲۳ متر در ۳۰، ۵۳ متر در ۵۰ و ۹۶ متر در ۷۰ مایل.",
-     "ms": 11784
+     "ms": 11520
     },
     {
      "en": "Keep at least a two-second gap from the vehicle in front. Double it on wet roads, and leave up to ten times the gap on ice.",
      "fa": "دست‌کم دو ثانیه از ماشین جلویی فاصله بگیر. در جادهٔ خیس دو برابر و در یخ تا ده برابر.",
-     "ms": 9312
+     "ms": 8410
     }
    ],
    "cards": [
@@ -361,8 +361,8 @@
    "qs": [
     {
      "id": "speed_01",
-     "q": "What is the usual speed limit for a car on a road with street lights in England?",
-     "fa": "محدودیت سرعت معمول خودرو در خیابان چراغ‌دار در انگلستان چند است؟",
+     "q": "Leslie is on a street with lamp posts in London and sees no speed signs. What is the usual limit?",
+     "fa": "لزلی در خیابانی چراغ‌دار در لندن است و هیچ تابلوی سرعتی نمی‌بیند. محدودیت معمول چقدر است؟",
      "options": [
       "30 mph",
       "20 mph",
@@ -376,8 +376,8 @@
     },
     {
      "id": "speed_02",
-     "q": "What is the national speed limit for a car on a single carriageway?",
-     "fa": "محدودیت سرعت سراسری خودرو در جادهٔ یک‌بانده چند است؟",
+     "q": "Tom drives a car on a single carriageway where the national speed limit sign is shown. How fast may he go?",
+     "fa": "تام با ماشین سواری در جادهٔ تک‌مسیره (single carriageway) است که تابلوی محدودیت ملی دارد. حداکثر با چه سرعتی می‌تواند برود؟",
      "options": [
       "60 mph",
       "50 mph",
@@ -391,8 +391,8 @@
     },
     {
      "id": "speed_03",
-     "q": "What is the speed limit for a car on a motorway?",
-     "fa": "محدودیت سرعت خودرو در بزرگراه چند است؟",
+     "q": "The family join the M1 heading north in their car. What is the top legal speed if no lower limit is shown?",
+     "fa": "خانواده با ماشین سواری وارد بزرگراه M1 به سمت شمال می‌شوند. اگر محدودیت کمتری نشان داده نشده باشد، حداکثر سرعت مجاز چقدر است؟",
      "options": [
       "70 mph",
       "60 mph",
@@ -406,8 +406,8 @@
     },
     {
      "id": "speed_04",
-     "q": "In Wales, what is the default limit on most built-up roads with street lights?",
-     "fa": "در ولز محدودیت پیش‌فرض بیشتر خیابان‌های مسکونی چراغ‌دار چند است؟",
+     "q": "On a visit to Mrs Hughes's home town in Wales, Leslie drives on a lit street with no signs. What limit usually applies?",
+     "fa": "لزلی در سفر به شهر خانم هیوز در ولز در خیابانی چراغ‌دار و بی‌تابلو رانندگی می‌کند. معمولاً چه محدودیتی برقرار است؟",
      "options": [
       "20 mph",
       "30 mph",
@@ -421,8 +421,8 @@
     },
     {
      "id": "speed_05",
-     "q": "You are towing a caravan on a single carriageway. What is your speed limit?",
-     "fa": "روی جادهٔ یک‌بانده کاروان یدک می‌کشی. محدودیت سرعتت چند است؟",
+     "q": "Grandad George is towing a small caravan on a single carriageway. What is his speed limit?",
+     "fa": "پدربزرگ جرج روی جادهٔ تک‌مسیره (single carriageway) یک کاروان کوچک را می‌کشد. محدودیت سرعتش چقدر است؟",
      "options": [
       "50 mph",
       "60 mph",
@@ -436,8 +436,8 @@
     },
     {
      "id": "speed_06",
-     "q": "What is the typical stopping distance at 30 mph on a dry road?",
-     "fa": "فاصلهٔ توقف معمول در ۳۰ مایل روی جادهٔ خشک چقدر است؟",
+     "q": "Leslie is doing 30 mph on a dry road and a child steps out. What is the typical stopping distance?",
+     "fa": "لزلی روی جادهٔ خشک با سرعت ۳۰ مایل می‌رود که کودکی ناگهان وارد خیابان می‌شود. فاصلهٔ توقف معمول چقدر است؟",
      "options": [
       "23 metres",
       "12 metres",
@@ -451,8 +451,8 @@
     },
     {
      "id": "speed_07",
-     "q": "What is the typical stopping distance at 70 mph on a dry road?",
-     "fa": "فاصلهٔ توقف معمول در ۷۰ مایل روی جادهٔ خشک چقدر است؟",
+     "q": "Tom is driving at 70 mph on a dry motorway. Roughly how far will it take him to stop?",
+     "fa": "تام با سرعت ۷۰ مایل روی بزرگراه خشک می‌رود. تقریباً چقدر طول می‌کشد تا بایستد؟",
      "options": [
       "96 metres",
       "73 metres",
@@ -466,8 +466,8 @@
     },
     {
      "id": "speed_08",
-     "q": "What is the typical stopping distance at 20 mph?",
-     "fa": "فاصلهٔ توقف معمول در ۲۰ مایل چقدر است؟",
+     "q": "Leslie is going through a 20 mph zone near the park. What is her typical stopping distance?",
+     "fa": "لزلی از منطقهٔ ۲۰ مایلی کنار پارک رد می‌شود. فاصلهٔ توقف معمولش چقدر است؟",
      "options": [
       "12 metres",
       "6 metres",
@@ -481,8 +481,8 @@
     },
     {
      "id": "speed_09",
-     "q": "What is the minimum gap you should leave behind the vehicle in front on a fast, dry road?",
-     "fa": "در جادهٔ سریع و خشک کمترین فاصله با ماشین جلویی چقدر باشد؟",
+     "q": "On a fast dry dual carriageway, Tom checks the gap to the car ahead. What is the least he should leave?",
+     "fa": "تام در جادهٔ دوبانده، سریع و خشک فاصله‌اش را با ماشین جلویی می‌سنجد. دست‌کم چقدر باید فاصله بگذارد؟",
      "options": [
       "Two seconds",
       "Half a second",
@@ -496,8 +496,8 @@
     },
     {
      "id": "speed_10",
-     "q": "The road is wet. How should your gap change?",
-     "fa": "جاده خیس است. فاصله‌ات چطور تغییر کند؟",
+     "q": "It starts to rain hard on Leslie's drive home. What should she do with her following gap?",
+     "fa": "در راه خانه باران تندی می‌گیرد. لزلی با فاصله‌اش از ماشین جلویی چه کند؟",
      "options": [
       "At least double it",
       "Keep it the same",
@@ -511,8 +511,8 @@
     },
     {
      "id": "speed_11",
-     "q": "On an icy road, stopping distances can be up to how many times longer?",
-     "fa": "در جادهٔ یخ‌زده فاصلهٔ توقف تا چند برابر می‌شود؟",
+     "q": "One frosty January morning, the roads are icy. How much longer can stopping distances become?",
+     "fa": "یک صبح یخ‌زدهٔ ژانویه جاده‌ها یخ بسته‌اند. فاصلهٔ توقف تا چند برابر بیشتر می‌شود؟",
      "options": [
       "Ten times",
       "Twice",
@@ -526,8 +526,8 @@
     },
     {
      "id": "speed_12",
-     "q": "A speed limit of 60 mph means 60 mph is always a safe speed on that road. True or false?",
-     "fa": "محدودیت ۶۰ مایل یعنی ۶۰ مایل همیشه در آن جاده امن است. درست یا نادرست؟",
+     "q": "Ryan says: \"The sign says 60, so 60 is always safe there.\" Is Ryan right? True or false?",
+     "fa": "ریان می‌گوید: «تابلو نوشته ۶۰، پس ۶۰ آنجا همیشه امن است.» حرفش درست است یا نادرست؟",
      "options": [
       "FALSE",
       "TRUE"
@@ -539,8 +539,8 @@
     },
     {
      "id": "speed_13",
-     "q": "What is \"tailgating\"?",
-     "fa": "«چسبیدن به ماشین جلو» (تیل‌گیتینگ) چیست؟",
+     "q": "Tom complains about a driver \"tailgating\" his bus. What does tailgating mean?",
+     "fa": "تام از راننده‌ای گله می‌کند که پشت اتوبوسش tailgating می‌کرد. این کلمه یعنی چه؟",
      "options": [
       "Driving too close to the vehicle in front",
       "Driving with the boot open",
@@ -554,8 +554,8 @@
     },
     {
      "id": "speed_14",
-     "q": "When must you use headlights because of fog?",
-     "fa": "به خاطر مه کی باید چراغ جلو روشن کنی؟",
+     "q": "Fog rolls in on the A12 and Leslie can hardly see ahead. When must she switch on her headlights?",
+     "fa": "روی جادهٔ A12 مه می‌آید و لزلی به‌سختی جلو را می‌بیند. کِی باید چراغ‌های جلو را روشن کند؟",
      "options": [
       "When you cannot see more than about 100 metres",
       "Only at night",
@@ -583,22 +583,22 @@
     {
      "en": "Sign shapes tell you a lot. Circles give orders, triangles warn you, and rectangles give information. A red circle usually tells you what you must not do, and a blue circle tells you what you must do.",
      "fa": "شکل تابلو خیلی چیز می‌گوید: دایره دستور می‌دهد، مثلث هشدار می‌دهد و مستطیل اطلاعات می‌دهد. دایرهٔ قرمز معمولاً ممنوعیت است و دایرهٔ آبی دستور انجام کار.",
-     "ms": 15264
+     "ms": 14020
     },
     {
      "en": "Traffic lights go red, then red and amber, then green, then amber. Amber alone means stop, unless you have already crossed the line or stopping would cause a collision.",
      "fa": "چراغ راهنمایی: قرمز، بعد قرمز و زرد، بعد سبز، بعد زرد. زرد تنها یعنی بایست، مگر از خط گذشته باشی یا توقف تصادف بسازد.",
-     "ms": 12072
+     "ms": 11240
     },
     {
      "en": "Road studs have colours too: white for lanes, red for the left edge, amber by the central reservation, and green where slip roads and lay-bys join.",
      "fa": "گل‌میخ‌های جاده هم رنگ دارند: سفید برای خطوط، قرمز لبهٔ چپ، زرد کنار جداکنندهٔ وسط و سبز محل ورودی‌ها و توقفگاه‌ها.",
-     "ms": 10464
+     "ms": 10170
     },
     {
      "en": "Where a solid white line is on your side of a double white line, you must not cross it, except in a few cases, such as passing a cyclist doing ten miles an hour or less.",
      "fa": "جایی که خط سفید ممتد سمت توست، نباید از آن عبور کنی، جز چند مورد مثل سبقت از دوچرخه‌سواری با سرعت ۱۰ مایل یا کمتر.",
-     "ms": 12096
+     "ms": 11680
     }
    ],
    "cards": [
@@ -646,8 +646,8 @@
    "qs": [
     {
      "id": "signs_01",
-     "q": "What does a circular traffic sign usually do?",
-     "fa": "تابلوی دایره‌ای معمولاً چه کار می‌کند؟",
+     "q": "Ryan points at a round sign and asks what round signs are for. What does a circular sign usually do?",
+     "fa": "ریان به یک تابلوی گرد اشاره می‌کند و می‌پرسد تابلوهای گرد برای چیست. تابلوی دایره‌ای معمولاً چه می‌کند؟",
      "options": [
       "Gives an order",
       "Gives a warning",
@@ -661,8 +661,8 @@
     },
     {
      "id": "signs_02",
-     "q": "What does a triangular sign with a red border usually do?",
-     "fa": "تابلوی مثلثی با حاشیهٔ قرمز معمولاً چه کار می‌کند؟",
+     "q": "Leslie sees a triangle with a red edge ahead. What is that kind of sign usually doing?",
+     "fa": "لزلی جلوتر یک مثلث با لبهٔ قرمز می‌بیند. این نوع تابلو معمولاً چه کاری می‌کند؟",
      "options": [
       "Warns you of something ahead",
       "Tells you what you must do",
@@ -676,8 +676,8 @@
     },
     {
      "id": "signs_03",
-     "q": "What do blue circular signs usually tell you?",
-     "fa": "تابلوهای دایره‌ای آبی معمولاً چه می‌گویند؟",
+     "q": "Near the bus station there is a blue round sign. What do blue circles usually tell drivers?",
+     "fa": "نزدیک ایستگاه اتوبوس یک تابلوی گرد آبی هست. دایره‌های آبی معمولاً به رانندگان چه می‌گویند؟",
      "options": [
       "What you must do",
       "What you must not do",
@@ -691,8 +691,8 @@
     },
     {
      "id": "signs_04",
-     "q": "Which sign is the only eight-sided sign?",
-     "fa": "تنها تابلوی هشت‌ضلعی کدام است؟",
+     "q": "Tom says one sign has eight sides, so you know it even under snow. Which one is it?",
+     "fa": "تام می‌گوید یک تابلو هشت ضلع دارد تا حتی زیر برف هم شناخته شود. کدام است؟",
      "options": [
       "STOP",
       "Give way",
@@ -706,8 +706,8 @@
     },
     {
      "id": "signs_05",
-     "q": "The traffic light shows amber only. What does it mean?",
-     "fa": "چراغ فقط زرد است. یعنی چه؟",
+     "q": "Leslie is approaching the lights when they change to amber alone. What does that mean for her?",
+     "fa": "لزلی به چراغ نزدیک می‌شود که فقط زرد روشن می‌شود. این برای او چه معنایی دارد؟",
      "options": [
       "Stop, unless you have crossed the line or stopping could cause a collision",
       "Go faster to get through",
@@ -721,8 +721,8 @@
     },
     {
      "id": "signs_06",
-     "q": "The lights show red and amber together. What should you do?",
-     "fa": "چراغ قرمز و زرد با هم روشن است. چه کنی؟",
+     "q": "Leslie is waiting at a red light and the amber comes on with it. What should she do?",
+     "fa": "لزلی پشت چراغ قرمز منتظر است و زرد هم کنارش روشن می‌شود. چه باید بکند؟",
      "options": [
       "Stay stopped, and do not go until green",
       "Go if the road is clear",
@@ -736,8 +736,8 @@
     },
     {
      "id": "signs_07",
-     "q": "At a pelican crossing the amber light is flashing. What should you do?",
-     "fa": "در گذرگاه پلیکان چراغ زرد چشمک می‌زند. چه کنی؟",
+     "q": "At a pelican crossing in Dalston the amber light starts flashing. What should Leslie do?",
+     "fa": "سر گذرگاه pelican در دالستون چراغ زرد چشمک می‌زند. لزلی چه باید بکند؟",
      "options": [
       "Give way to pedestrians on the crossing, then go if it is clear",
       "Stop and wait for green",
@@ -751,8 +751,8 @@
     },
     {
      "id": "signs_08",
-     "q": "What colour are the reflective studs between the motorway and the central reservation?",
-     "fa": "گل‌میخ‌های بازتابی بین بزرگراه و جداکنندهٔ وسط چه رنگی‌اند؟",
+     "q": "Driving at night on the M25, Ryan notices coloured studs by the central reservation. What colour are they?",
+     "fa": "ریان شب در بزرگراه M25 گل‌میخ‌های رنگی کنار حائل وسط را می‌بیند. چه رنگی هستند؟",
      "options": [
       "Amber",
       "Red",
@@ -766,8 +766,8 @@
     },
     {
      "id": "signs_09",
-     "q": "What do red reflective studs mark?",
-     "fa": "گل‌میخ‌های قرمز چه چیزی را نشان می‌دهند؟",
+     "q": "On a dark road Leslie sees red reflective studs. What do they show?",
+     "fa": "لزلی در جاده‌ای تاریک گل‌میخ‌های بازتابندهٔ قرمز می‌بیند. این‌ها چه چیزی را نشان می‌دهند؟",
      "options": [
       "The left edge of the road",
       "The central reservation",
@@ -781,8 +781,8 @@
     },
     {
      "id": "signs_10",
-     "q": "You may park on the zigzag lines next to a zebra crossing if you are quick. True or false?",
-     "fa": "اگر سریع باشی می‌توانی روی خطوط زیگزاگ کنار گذرگاه عابر پارک کنی. درست یا نادرست؟",
+     "q": "Tom needs to drop a parcel and thinks about stopping on the zigzags by a zebra crossing for a minute. That is fine. True or false?",
+     "fa": "تام باید بسته‌ای را تحویل بدهد و فکر می‌کند یک دقیقه روی خطوط زیگزاگ کنار گذرگاه عابر بایستد. این کار اشکالی ندارد. درست یا نادرست؟",
      "options": [
       "FALSE",
       "TRUE"
@@ -794,8 +794,8 @@
     },
     {
      "id": "signs_11",
-     "q": "A double white line has a solid line on your side. When may you cross it?",
-     "fa": "خط دوبل سفید سمت تو ممتد است. کی می‌توانی از آن عبور کنی؟",
+     "q": "Leslie is on a road with double white lines and the line nearest her is solid. When may she cross it?",
+     "fa": "لزلی در جاده‌ای با دو خط سفید است و خط سمت او ممتد است. کِی می‌تواند از آن عبور کند؟",
      "options": [
       "To pass a cyclist doing 10 mph or less, if the road is clear",
       "Whenever you want to overtake",
@@ -809,8 +809,8 @@
     },
     {
      "id": "signs_12",
-     "q": "The broken white line in the middle of the road has longer lines and shorter gaps. What does it mean?",
-     "fa": "خط سفید منقطع وسط جاده خط‌های بلندتر و فاصلهٔ کوتاه‌تر پیدا کرده. یعنی چه؟",
+     "q": "The white centre line ahead of Leslie changes: the lines get longer and the gaps shorter. What is it telling her?",
+     "fa": "خط سفید وسط جاده جلوی لزلی عوض می‌شود: خط‌ها بلندتر و فاصله‌ها کوتاه‌تر. چه پیامی دارد؟",
      "options": [
       "There is a hazard ahead",
       "You may overtake now",
@@ -824,8 +824,8 @@
     },
     {
      "id": "signs_13",
-     "q": "When may you drive into a yellow box junction?",
-     "fa": "کی می‌توانی وارد تقاطع جعبهٔ زرد شوی؟",
+     "q": "Leslie reaches a junction painted with a yellow criss-cross box. When may she drive into it?",
+     "fa": "لزلی به تقاطعی با خطوط زرد ضربدری (box junction) می‌رسد. کِی می‌تواند وارد آن شود؟",
      "options": [
       "When your exit road is clear",
       "Whenever the lights are green",
@@ -839,8 +839,8 @@
     },
     {
      "id": "signs_14",
-     "q": "A police officer signals you to stop. What must you do?",
-     "fa": "مأمور پلیس علامت توقف می‌دهد. چه باید بکنی؟",
+     "q": "A police officer in the road raises a hand for Leslie to stop. What must she do?",
+     "fa": "افسر پلیس وسط خیابان دستش را بالا می‌برد تا لزلی بایستد. لزلی چه باید بکند؟",
      "options": [
       "Obey the signal and stop safely",
       "Carry on if the lights are green",
@@ -867,17 +867,17 @@
     {
      "en": "Mirrors, signal, manoeuvre. Check your mirrors, signal clearly in good time, and only then change speed or direction. You'll hear this at every lesson.",
      "fa": "آینه، راهنما، مانور. آینه‌ها را نگاه کن، به‌موقع راهنما بزن و فقط بعد سرعت یا جهت را عوض کن. در هر جلسهٔ آموزش این را می‌شنوی.",
-     "ms": 12384
+     "ms": 11110
     },
     {
      "en": "At a roundabout, give priority to traffic coming from your right. For the first exit, signal left and use the left lane. For an exit to the right, signal right, keep right, then signal left after the exit before yours.",
      "fa": "در میدان به ترافیک سمت راست حق تقدم بده. برای خروجی اول راهنمای چپ بزن و از خط چپ برو. برای خروجی سمت راست راهنمای راست بزن، سمت راست بمان و بعد از خروجی قبل از خروجی‌ات راهنمای چپ بزن.",
-     "ms": 17136
+     "ms": 15870
     },
     {
      "en": "On a motorway, keep in the left lane unless you are overtaking. A red X above a lane means it is closed. Learners may only drive on motorways with an approved instructor in a car with dual controls.",
      "fa": "در بزرگراه در خط چپ بمان مگر در حال سبقت باشی. ضربدر قرمز بالای خط یعنی بسته است. هنرجو فقط با مربی رسمی و ماشین دوفرمان می‌تواند در بزرگراه براند.",
-     "ms": 14904
+     "ms": 13670
     }
    ],
    "cards": [
@@ -925,8 +925,8 @@
    "qs": [
     {
      "id": "roads_01",
-     "q": "What is the correct order before you change speed or direction?",
-     "fa": "پیش از تغییر سرعت یا جهت ترتیب درست کدام است؟",
+     "q": "Tom tells Leslie the three-step routine before she slows down or turns. What is the right order?",
+     "fa": "تام به لزلی روال سه‌مرحله‌ای پیش از کم کردن سرعت یا پیچیدن را یاد می‌دهد. ترتیب درست چیست؟",
      "options": [
       "Mirrors, signal, manoeuvre",
       "Signal, manoeuvre, mirrors",
@@ -940,8 +940,8 @@
     },
     {
      "id": "roads_02",
-     "q": "At a roundabout, who normally has priority?",
-     "fa": "در میدان معمولاً حق تقدم با کیست؟",
+     "q": "Leslie arrives at the Hackney Wick roundabout. Who normally goes first?",
+     "fa": "لزلی به میدان هکنی ویک می‌رسد. معمولاً حق تقدم با کیست؟",
      "options": [
       "Traffic approaching from your right",
       "Traffic approaching from your left",
@@ -955,8 +955,8 @@
     },
     {
      "id": "roads_03",
-     "q": "You are taking the first exit at a roundabout. How should you approach?",
-     "fa": "خروجی اول میدان را می‌خواهی. چگونه نزدیک شوی؟",
+     "q": "Leslie wants the first exit off the roundabout. How should she approach it?",
+     "fa": "لزلی می‌خواهد از خروجی اول میدان بیرون برود. چگونه باید نزدیک شود؟",
      "options": [
       "Signal left and approach in the left-hand lane",
       "Signal right and use the right-hand lane",
@@ -970,8 +970,8 @@
     },
     {
      "id": "roads_04",
-     "q": "You are turning right at a roundabout. When should you signal left?",
-     "fa": "در میدان به راست می‌روی. کی راهنمای چپ بزنی؟",
+     "q": "Leslie is turning right at the roundabout. When should she change to a left signal?",
+     "fa": "لزلی در میدان به راست می‌پیچد. کِی باید راهنما را به چپ عوض کند؟",
      "options": [
       "After passing the exit before the one you want",
       "As you enter the roundabout",
@@ -985,8 +985,8 @@
     },
     {
      "id": "roads_05",
-     "q": "A cyclist is on the roundabout as you approach. What should you do?",
-     "fa": "دوچرخه‌سواری در میدان است و تو نزدیک می‌شوی. چه کنی؟",
+     "q": "As Leslie reaches the roundabout, a cyclist is already going round it. What should she do?",
+     "fa": "وقتی لزلی به میدان می‌رسد، یک دوچرخه‌سوار در حال دور زدن است. چه باید بکند؟",
      "options": [
       "Give them priority and plenty of room",
       "Overtake them within their lane",
@@ -1000,8 +1000,8 @@
     },
     {
      "id": "roads_06",
-     "q": "When is overtaking on the left allowed?",
-     "fa": "سبقت از سمت چپ کی مجاز است؟",
+     "q": "Ryan asks Tom: \"Can you ever overtake on the left?\" When is it allowed?",
+     "fa": "ریان از تام می‌پرسد: «آیا هیچ‌وقت می‌شود از چپ سبقت گرفت؟» چه زمانی مجاز است؟",
      "options": [
       "When the vehicle in front is signalling to turn right and there is room",
       "Whenever the left lane is empty",
@@ -1015,8 +1015,8 @@
     },
     {
      "id": "roads_07",
-     "q": "On a two-lane dual carriageway, which lane should you normally use?",
-     "fa": "در جادهٔ دوبانده با دو خط معمولاً از کدام خط استفاده کنی؟",
+     "q": "Leslie is on a two-lane dual carriageway with light traffic. Which lane should she normally drive in?",
+     "fa": "لزلی در جادهٔ دوبانده با ترافیک کم است. معمولاً در کدام لاین باید براند؟",
      "options": [
       "The left-hand lane",
       "The right-hand lane",
@@ -1030,8 +1030,8 @@
     },
     {
      "id": "roads_08",
-     "q": "On a motorway, when should you use the hard shoulder?",
-     "fa": "در بزرگراه کی از شانهٔ اضطراری استفاده کنی؟",
+     "q": "Leslie asks when you are allowed to drive or stop on a motorway's hard shoulder. What is the answer?",
+     "fa": "لزلی می‌پرسد چه زمانی می‌شود روی شانهٔ بزرگراه رانندگی کرد یا ایستاد. پاسخ چیست؟",
      "options": [
       "Only in an emergency or when signs tell you to",
       "To overtake slow traffic",
@@ -1045,8 +1045,8 @@
     },
     {
      "id": "roads_09",
-     "q": "A red X is shown above your lane on a motorway. What does it mean?",
-     "fa": "بالای خط تو در بزرگراه ضربدر قرمز است. یعنی چه؟",
+     "q": "A red X lights up on the gantry above Tom's lane on the M4. What does it mean?",
+     "fa": "روی تابلوی بالای لاین تام در بزرگراه M4 یک ضربدر قرمز روشن می‌شود. یعنی چه؟",
      "options": [
       "The lane is closed, so move into an open lane",
       "Slow down to 50 mph",
@@ -1060,8 +1060,8 @@
     },
     {
      "id": "roads_10",
-     "q": "Which lane should you use on a motorway when you are not overtaking?",
-     "fa": "وقتی در بزرگراه سبقت نمی‌گیری از کدام خط برو؟",
+     "q": "Tom is cruising on the motorway and not overtaking anyone. Which lane belongs to him?",
+     "fa": "تام در بزرگراه با سرعت ثابت می‌رود و از کسی سبقت نمی‌گیرد. جای او کدام لاین است؟",
      "options": [
       "The left-hand lane",
       "The middle lane",
@@ -1075,8 +1075,8 @@
     },
     {
      "id": "roads_11",
-     "q": "Can a learner driver have a motorway lesson?",
-     "fa": "آیا هنرجو می‌تواند در بزرگراه آموزش ببیند؟",
+     "q": "Leslie, still a learner, wants to try the motorway. Is that possible?",
+     "fa": "لزلی که هنوز رانندهٔ تازه‌کار (learner) است، می‌خواهد بزرگراه را امتحان کند. ممکن است؟",
      "options": [
       "Yes, with an approved instructor in a car with dual controls",
       "Yes, with any adult who has a licence",
@@ -1090,8 +1090,8 @@
     },
     {
      "id": "roads_12",
-     "q": "On a single-track road, a car is coming towards you and the passing place is on your right. What should you do?",
-     "fa": "در جادهٔ یک‌خطه ماشینی روبه‌رو می‌آید و جای عبور سمت راست توست. چه کنی؟",
+     "q": "On holiday in the Highlands, Tom meets a car on a single-track road and the passing place is on his right. What should he do?",
+     "fa": "تام در تعطیلات در ارتفاعات اسکاتلند در جادهٔ یک‌خطه با ماشینی روبه‌رو می‌شود و جای عبور سمت راست اوست. چه کند؟",
      "options": [
       "Wait opposite the passing place",
       "Drive into the passing place on the right",
@@ -1105,8 +1105,8 @@
     },
     {
      "id": "roads_13",
-     "q": "Traffic is in slow queues and the lane on your right is moving more slowly than yours. May you pass it on the left?",
-     "fa": "ترافیک در صف کند است و خط راستت کندتر از خط توست. می‌توانی از چپ عبور کنی؟",
+     "q": "Leslie is in a slow traffic queue and the queue in the lane to her right is crawling even slower. May she move past it on the left?",
+     "fa": "لزلی در صف کند ترافیک است و صف لاین سمت راستش از او هم کندتر می‌رود. آیا می‌تواند از چپ از آن جلو بزند؟",
      "options": [
       "Yes",
       "No",
@@ -1120,8 +1120,8 @@
     },
     {
      "id": "roads_14",
-     "q": "You want to park. How close to a junction may you stop?",
-     "fa": "می‌خواهی پارک کنی. تا چه فاصله‌ای از تقاطع می‌توانی بایستی؟",
+     "q": "Leslie is looking for a parking space near a junction. How near the junction may she park?",
+     "fa": "لزلی نزدیک یک تقاطع دنبال جای پارک است. تا چه فاصله‌ای از تقاطع می‌تواند پارک کند؟",
      "options": [
       "No closer than 10 metres, unless in a marked bay",
       "2 metres",
@@ -1154,22 +1154,22 @@
     {
      "en": "You can apply for a provisional licence at fifteen years and nine months, and usually start driving a car at seventeen. Anyone who supervises you without being paid must be over twenty-one and have held a full licence for three years.",
      "fa": "از ۱۵ سال و ۹ ماهگی می‌توانی گواهی موقت بگیری و معمولاً از ۱۷ سالگی رانندگی را شروع کنی. هر کسی که بدون دستمزد همراهت است باید بالای ۲۱ سال باشد و سه سال گواهی کامل داشته باشد.",
-     "ms": 15984
+     "ms": 15330
     },
     {
      "en": "Holding and using a phone while driving costs six penalty points and a two-hundred-pound fine. If you passed your test in the last two years, six points means you lose your licence.",
      "fa": "گرفتن و استفاده از گوشی هنگام رانندگی شش امتیاز منفی و دویست پوند جریمه دارد. اگر در دو سال اخیر قبول شده باشی، شش امتیاز یعنی گواهی‌ات باطل می‌شود.",
-     "ms": 13320
+     "ms": 12570
     },
     {
      "en": "The drink-drive limit is lower in Scotland than in the rest of the UK, but the safest choice is not to drink at all if you are driving.",
      "fa": "حد مجاز الکل در اسکاتلند پایین‌تر از بقیهٔ بریتانیاست، اما امن‌ترین کار این است که اگر رانندگی می‌کنی اصلاً ننوشی.",
-     "ms": 8760
+     "ms": 8390
     },
     {
      "en": "Car tyres need at least one point six millimetres of tread. Children must use a child car seat until they are twelve or one hundred and thirty-five centimetres tall, and the driver is responsible for passengers under fourteen.",
      "fa": "لاستیک خودرو دست‌کم ۱٫۶ میلی‌متر آج لازم دارد. کودک تا ۱۲ سالگی یا قد ۱۳۵ سانتی‌متر باید صندلی کودک داشته باشد و رانندهٔ مسئول کمربند سرنشینان زیر ۱۴ سال است.",
-     "ms": 15648
+     "ms": 15010
     }
    ],
    "cards": [
@@ -1217,8 +1217,8 @@
    "qs": [
     {
      "id": "law_01",
-     "q": "What is the youngest age at which you can apply for a first provisional car licence?",
-     "fa": "کمترین سن برای درخواست نخستین گواهی موقت خودرو چند است؟",
+     "q": "Ryan, aged 15, is excited to start driving. What is the earliest age he can apply for a provisional licence?",
+     "fa": "ریانِ ۱۵ ساله برای رانندگی هیجان دارد. زودترین سنی که می‌تواند گواهی‌نامهٔ موقت (provisional) بگیرد چیست؟",
      "options": [
       "15 years and 9 months",
       "16 years",
@@ -1232,8 +1232,8 @@
     },
     {
      "id": "law_02",
-     "q": "How much does a first provisional licence cost if you apply online?",
-     "fa": "نخستین گواهی موقت اگر آنلاین درخواست بدهی چقدر هزینه دارد؟",
+     "q": "Leslie applies online for her first provisional licence. How much does it cost?",
+     "fa": "لزلی برای اولین گواهی‌نامهٔ موقتش آنلاین درخواست می‌دهد. هزینه‌اش چقدر است؟",
      "options": [
       "£34",
       "£23",
@@ -1247,8 +1247,8 @@
     },
     {
      "id": "law_03",
-     "q": "Your friend wants to supervise your practice in their car. Which is required?",
-     "fa": "دوستت می‌خواهد در ماشین خودش همراه تمرینت باشد. کدام لازم است؟",
+     "q": "Callum offers to sit with Leslie while she practises in his car. What must he have?",
+     "fa": "کالوم پیشنهاد می‌دهد وقتی لزلی با ماشین او تمرین می‌کند کنارش بنشیند. کالوم چه شرطی باید داشته باشد؟",
      "options": [
       "Be over 21 and have held a full licence for 3 years",
       "Be over 18 and have any licence",
@@ -1262,8 +1262,8 @@
     },
     {
      "id": "law_04",
-     "q": "What is the penalty for holding and using a phone while driving?",
-     "fa": "جریمهٔ گرفتن و استفاده از گوشی هنگام رانندگی چیست؟",
+     "q": "A driver is caught holding a phone and using it at the wheel. What is the penalty?",
+     "fa": "راننده‌ای را می‌گیرند که پشت فرمان گوشی دستش بوده و با آن کار می‌کرده. جریمه‌اش چیست؟",
      "options": [
       "6 penalty points and a £200 fine",
       "3 points and a £100 fine",
@@ -1277,8 +1277,8 @@
     },
     {
      "id": "law_05",
-     "q": "You are stopped at red traffic lights. May you hold your phone to send a quick text?",
-     "fa": "پشت چراغ قرمز ایستاده‌ای. می‌توانی گوشی را بگیری و سریع پیام بدهی؟",
+     "q": "Leslie is waiting at red lights and wants to pick up her phone to text Tom. Is that allowed?",
+     "fa": "لزلی پشت چراغ قرمز است و می‌خواهد گوشی را بردارد و به تام پیام بدهد. مجاز است؟",
      "options": [
       "No, the law still applies",
       "Yes, the car is not moving",
@@ -1292,8 +1292,8 @@
     },
     {
      "id": "law_06",
-     "q": "You passed your test a year ago and get 6 penalty points. What happens?",
-     "fa": "یک سال پیش قبول شده‌ای و شش امتیاز منفی می‌گیری. چه می‌شود؟",
+     "q": "Callum passed his test ten months ago and has just got 6 penalty points. What happens?",
+     "fa": "کالوم ده ماه پیش قبول شده و حالا ۶ امتیاز منفی گرفته. چه اتفاقی می‌افتد؟",
      "options": [
       "Your licence is revoked and you must retake both tests",
       "Nothing until you get 12 points",
@@ -1307,8 +1307,8 @@
     },
     {
      "id": "law_07",
-     "q": "Where in Great Britain is the drink-drive limit lower?",
-     "fa": "حد مجاز الکل در کجای بریتانیا پایین‌تر است؟",
+     "q": "The family plan a road trip around Great Britain. In which country is the drink-drive limit lower?",
+     "fa": "خانواده برای یک سفر جاده‌ای دور بریتانیای کبیر برنامه می‌ریزند. حد مجاز الکل برای رانندگی در کدام کشور پایین‌تر است؟",
      "options": [
       "Scotland",
       "England",
@@ -1322,8 +1322,8 @@
     },
     {
      "id": "law_08",
-     "q": "You drank alcohol late last night. Which is true this morning?",
-     "fa": "دیشب دیروقت الکل نوشیدی. امروز صبح کدام درست است؟",
+     "q": "After a late party, Tom wonders if he can drive to work in the morning. Which is true?",
+     "fa": "تام بعد از یک مهمانی دیروقت فکر می‌کند صبح می‌تواند تا محل کار رانندگی کند یا نه. کدام درست است؟",
      "options": [
       "You may still be over the limit or unfit to drive",
       "Sleep removes all alcohol",
@@ -1337,8 +1337,8 @@
     },
     {
      "id": "law_09",
-     "q": "What is the minimum legal tread depth for car tyres?",
-     "fa": "کمترین عمق آج قانونی لاستیک خودرو چقدر است؟",
+     "q": "Grandad George checks his car tyres. What is the legal minimum tread depth?",
+     "fa": "پدربزرگ جرج آج لاستیک‌های ماشینش را بررسی می‌کند. حداقل عمق قانونی آج چقدر است؟",
      "options": [
       "1.6 mm",
       "1 mm",
@@ -1352,8 +1352,8 @@
     },
     {
      "id": "law_10",
-     "q": "Until when must a child normally use a child car seat?",
-     "fa": "کودک معمولاً تا کی باید صندلی کودک داشته باشد؟",
+     "q": "Nicola is 5 and William is 3. Until when must children normally use a child car seat?",
+     "fa": "نیکولا ۵ ساله و ویلیام ۳ ساله است. بچه‌ها معمولاً تا کِی باید از صندلی کودک استفاده کنند؟",
      "options": [
       "Until they are 12 or 135 cm tall, whichever comes first",
       "Until they are 5",
@@ -1367,8 +1367,8 @@
     },
     {
      "id": "law_11",
-     "q": "Who is responsible for making sure a 13-year-old passenger wears a seat belt?",
-     "fa": "چه کسی مسئول بستن کمربند سرنشین ۱۳ ساله است؟",
+     "q": "Tom gives Ryan's 13-year-old friend a lift. Who must make sure the friend wears a seat belt?",
+     "fa": "تام دوست ۱۳ سالهٔ ریان را می‌رساند. چه کسی باید مطمئن شود که او کمربند بسته است؟",
      "options": [
       "The driver",
       "The passenger",
@@ -1382,8 +1382,8 @@
     },
     {
      "id": "law_12",
-     "q": "When does a car normally need its first MOT?",
-     "fa": "خودرو معمولاً کی نخستین معاینهٔ فنی (MOT) را لازم دارد؟",
+     "q": "Leslie buys a brand-new car. When will it normally need its first MOT?",
+     "fa": "لزلی یک ماشین نو می‌خرد. معمولاً کِی به اولین MOT نیاز دارد؟",
      "options": [
       "When it is three years old",
       "When it is one year old",
@@ -1397,8 +1397,8 @@
     },
     {
      "id": "law_13",
-     "q": "What score do you need in the multiple-choice part of the car theory test?",
-     "fa": "در بخش چندگزینه‌ای آزمون تئوری خودرو چه نمره‌ای لازم است؟",
+     "q": "Leslie is booking her car theory test. What score does she need in the multiple-choice part?",
+     "fa": "لزلی آزمون تئوری رانندگی را رزرو می‌کند. در بخش چندگزینه‌ای چه نمره‌ای لازم دارد؟",
      "options": [
       "43 out of 50",
       "35 out of 50",
@@ -1412,8 +1412,8 @@
     },
     {
      "id": "law_14",
-     "q": "How long does a theory test pass certificate last?",
-     "fa": "گواهی قبولی آزمون تئوری چقدر اعتبار دارد؟",
+     "q": "Leslie has just passed her theory test. How long is her pass certificate valid?",
+     "fa": "لزلی تازه آزمون تئوری را قبول شده. گواهی قبولی‌اش چه مدت اعتبار دارد؟",
      "options": [
       "2 years",
       "6 months",
