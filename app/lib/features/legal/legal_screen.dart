@@ -116,8 +116,8 @@ final termsDoc = LegalDoc(
     ),
     (
       "AI voices and AI coach",
-      "All spoken character voices are AI-generated neural text-to-speech (Microsoft Azure AI Speech), not recordings of real people. The pronunciation coach scores your speech with on-device / browser speech-to-text — it is an automated aid, not a human teacher. AI-assisted illustrations are used for scenes. Characters, places and businesses in the stories are fictional unless clearly labelled as real public services.",
-      "همهٔ صداها با هوش مصنوعی (Azure TTS) ساخته شده‌اند. مربی تلفظ خودکار است نه معلم انسان. شخصیت‌ها و کسب‌وکارهای داستان خیالی‌اند مگر خدمات عمومی واقعی.",
+      "All spoken character voices are AI-generated neural text-to-speech (Microsoft Azure AI Speech), not recordings of real people. The pronunciation coach scores your speech with on-device / browser speech-to-text — it is an automated aid, not a human teacher. Illustrations were created with Grok (xAI). Characters, places and businesses in the stories are fictional unless clearly labelled as real public services.",
+      "همهٔ صداها با هوش مصنوعی (Azure TTS) ساخته شده‌اند. مربی تلفظ خودکار است نه معلم انسان. تصویرها با Grok ساخته شده‌اند. شخصیت‌ها و کسب‌وکارهای داستان خیالی‌اند مگر خدمات عمومی واقعی.",
     ),
     (
       "Not affiliated",
@@ -184,8 +184,8 @@ final aboutDoc = LegalDoc("about", "About & licences", "درباره و مجوز
   ),
   (
     "AI voices and pictures",
-    "Voices: Microsoft Azure AI Speech neural TTS (pre-rendered). Illustrations: original AI-assisted art for the app. All voices are AI-generated neural text-to-speech.",
-    "صداها: Azure TTS. تصویرها: هنر اختصاصی با کمک هوش مصنوعی. همهٔ صداها با هوش مصنوعی ساخته شده‌اند.",
+    "Voices: Microsoft Azure AI Speech neural TTS (pre-rendered). Illustrations: Created with Grok. All voices are AI-generated neural text-to-speech.",
+    "صداها: Azure TTS. تصویرها: ساخته‌شده با Grok (Created with Grok). همهٔ صداها با هوش مصنوعی ساخته شده‌اند.",
   ),
   (
     "Open source and fonts",

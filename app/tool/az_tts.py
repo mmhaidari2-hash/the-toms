@@ -1,4 +1,5 @@
-"""Azure Speech (uksouth) text-to-speech over REST. The key is read from env AZURE_SPEECH_KEY_1 and never printed."""
+"""Azure Speech (uksouth) text-to-speech over REST. The key comes from env AZURE_SPEECH_KEY_1 or a
+host-scoped HTTPS credential proxy; it is never printed."""
 import os, time, urllib.request, urllib.error
 from xml.sax.saxutils import escape
 REGION = 'uksouth'
@@ -20,9 +21,11 @@ def ssml(text, voice, pitch='+0Hz', rate='+0%', style=None):
 def synth(text, voice, out, pitch='+0Hz', rate='+0%', style=None, tries=6):
     body, billed = ssml(text, voice, pitch, rate, style); body = body.encode('utf-8')
     for i in range(tries):
-        req = urllib.request.Request(URL, data=body, method='POST', headers={
-            'Ocp-Apim-Subscription-Key': os.environ['AZURE_SPEECH_KEY_1'],
-            'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': FMT, 'User-Agent': 'newlifeuk-render'})
+        headers = {'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': FMT, 'User-Agent': 'newlifeuk-render'}
+        key = os.environ.get('AZURE_SPEECH_KEY_1')
+        if key:  # otherwise a host-scoped credential proxy injects the header
+            headers['Ocp-Apim-Subscription-Key'] = key
+        req = urllib.request.Request(URL, data=body, method='POST', headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 data = r.read()
