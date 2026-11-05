@@ -105,6 +105,7 @@ void main() {
         containsAll(['gap', 'choose', 'order', 'transform']),
         reason: '${t.id} uses every exercise type',
       );
+      expect(t.practice.length, greaterThanOrEqualTo(12), reason: '${t.id}: 12 practice items');
       expect(t.test.length, greaterThanOrEqualTo(5), reason: t.id);
       expect(t.related, isNotEmpty, reason: '${t.id} links to lessons');
       for (final id in t.related) {
