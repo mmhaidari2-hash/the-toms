@@ -333,6 +333,21 @@ class _SceneState extends ConsumerState<_Scene> with TickerProviderStateMixin {
         ),
         if (mode == _Mode.quiz)
           Expanded(child: _quiz())
+        else if (MediaQuery.sizeOf(context).width > MediaQuery.sizeOf(context).height)
+          // Landscape phone: picture and controls on the left, script on the right, so nothing is cut off.
+          Expanded(
+            child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Expanded(
+                flex: 5,
+                child: Column(children: [
+                  Flexible(child: Center(child: _screen())),
+                  _controls(),
+                  SizedBox(height: pad.bottom),
+                ]),
+              ),
+              Expanded(flex: 4, child: _script(pad.bottom)),
+            ]),
+          )
         else ...[
           _screen(),
           _controls(),

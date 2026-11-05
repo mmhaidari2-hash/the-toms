@@ -4,17 +4,17 @@ Use --dry-run for a read-only inventory with no API calls.
 Obsolete clips are retained unless RENDER_PRUNE_OBSOLETE=1 is explicitly set."""
 import json,glob,hashlib,os,re,asyncio,sys
 A=os.path.join(os.path.dirname(__file__),'..','assets'); OUT=os.path.join(A,'audio'); os.makedirs(OUT,exist_ok=True)
-V={ # speaker -> (voice, pitch, rate). Run 28 recast: distinct voice per scene (tool/audit/verify_voices.py), |pitch|<=8Hz except the young children
- 'tom':('en-GB-OllieMultilingualNeural','+0Hz','-4%'),
+V={ # speaker -> (voice, pitch, rate[, style]). 2026-11 A/B: nicola B, william B, tom B, learner/me C. Run 28 recast: distinct voice per scene (tool/audit/verify_voices.py), |pitch|<=8Hz except the young children
+ 'tom':('en-GB-OllieMultilingualNeural','+0Hz','+0%'),
  'leslie':('en-GB-AdaMultilingualNeural','+0Hz','-4%'),
- 'nicola':('en-GB-AbbiNeural','+25Hz','+2%'),
+ 'nicola':('en-GB-AbbiNeural','+0Hz','-2%'),
  'ryan':('en-GB-ElliotNeural','+0Hz','-2%'),
  'weda':('en-GB-MiaNeural','+0Hz','-8%'),
- 'william':('en-GB-MaisieNeural','+0Hz','-3%'),
+ 'william':('en-GB-MaisieNeural','+0Hz','+0%'),
  'george':('en-GB-ThomasNeural','-4Hz','-8%'),
  'vida':('en-GB-HollieNeural','+0Hz','-8%'),
- 'me':('en-GB-RyanNeural','+0Hz','-4%'),
- 'learner':('en-GB-RyanNeural','+0Hz','-4%'),
+ 'me':('en-GB-RyanNeural','+0Hz','-2%','chat'),
+ 'learner':('en-GB-RyanNeural','+0Hz','-2%','chat'),
  'narrator':('en-GB-SoniaNeural','+0Hz','-7%'),
  'agent':('en-GB-LibbyNeural','+0Hz','+0%'),
  'al':('en-GB-AlfieNeural','+0Hz','-4%'),
@@ -80,6 +80,7 @@ def clean(t):
   t=neutral(t)  # never say a name: the learner's name is theirs (shown in text only)
   for a,b in PRON.items(): t=re.sub(a,b,t)
   t=re.sub(r'\*[^*]*\*','',t)
+  t=re.sub(r'\s+[—–]\s+',', ',t)  # A/B run 2026-11: a spaced dash made the voices pause unnaturally
   t=re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t); return t.strip()
 items={}
 NAMED=set()
@@ -203,8 +204,8 @@ def save_state():
   json.dump(sorted(ENG),open(ENGP+'.tmp','w')); os.replace(ENGP+'.tmp',ENGP)
   json.dump(MAN,open(MANP+'.tmp','w'),separators=(',',':')); os.replace(MANP+'.tmp',MANP)
 def one(kv):
-  k,(sp,t)=kv; v,p,r=V[sp]
-  try: ok=synth(t,v,f'{OUT}/{k}.az.mp3',pitch=p,rate=r)
+  k,(sp,t)=kv; v,p,r=V[sp][:3]; st=V[sp][3] if len(V[sp])>3 else None
+  try: ok=synth(t,v,f'{OUT}/{k}.az.mp3',pitch=p,rate=r,style=st)
   except Exception as e: ok=False; print('ERR',k,sp,e,flush=True)
   if ok:
     os.replace(f'{OUT}/{k}.az.mp3',f'{OUT}/{k}.mp3'); compress_audio.one(f'{k}.mp3'); tighten_audio.one(k)  # short sentence pauses, trimmed lead-in/tail

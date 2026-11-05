@@ -118,15 +118,15 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
                         ),
                       ),
                     ),
+                    // No tooltip: this notice sits above the Navigator, where there is no Overlay for one.
                     IconButton(
                       key: const ValueKey('voice-dismiss'),
-                      tooltip: 'Dismiss audio message',
                       color: Colors.white,
                       onPressed: () {
                         _timer?.cancel();
                         setState(() => _visible = null);
                       },
-                      icon: const Icon(Icons.close_rounded, size: 19),
+                      icon: const Icon(Icons.close_rounded, size: 19, semanticLabel: 'Dismiss audio message'),
                     ),
                   ],
                 ),
