@@ -339,7 +339,7 @@ class SpeechInput {
 
     _el.onended = ((web.Event _) => done(true)).toJS;
     _el.onerror = ((web.Event _) => done(false)).toJS;
-    _el.src = ui_web.assetManager.getAssetUrl(asset);
+    _el.src = _voiceUrl(asset);
     _el.preservesPitch = true;
     _el.playbackRate = rate;
     _el.defaultPlaybackRate = rate;
@@ -393,3 +393,10 @@ class SpeechInput {
     _pending = null;
   }
 }
+
+/// Review builds only: `--dart-define=PREVIEW_AUDIO_BASE=<url>/` streams voice clips from that base
+/// (the branch's files), so a preview can ship without its 22k mp3 files. Empty in every real build.
+const _previewAudioBase = String.fromEnvironment('PREVIEW_AUDIO_BASE');
+String _voiceUrl(String asset) => _previewAudioBase.isNotEmpty && asset.startsWith('assets/audio/') && asset.endsWith('.mp3') && !asset.endsWith('/silence.mp3')
+    ? '$_previewAudioBase${asset.substring('assets/audio/'.length)}'
+    : ui_web.assetManager.getAssetUrl(asset);
