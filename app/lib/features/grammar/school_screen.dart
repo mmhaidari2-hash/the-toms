@@ -217,6 +217,7 @@ class ClassScreen extends ConsumerWidget {
     final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     final c = Grammar.classes.firstWhere((x) => x.code == code, orElse: () => Grammar.classes.first);
     final ts = g.of(c.code);
+    final done = ts.where((t) => g.ctrl.grammarPassed(t.id)).length;
     final pad = MediaQuery.paddingOf(context);
     return Scaffold(
       backgroundColor: BL.cream,
@@ -259,6 +260,22 @@ class ClassScreen extends ConsumerWidget {
               );
             }),
           const SizedBox(height: 6),
+          if (done >= 2) ...[
+            Material(
+              color: BL.paper,
+              borderRadius: BorderRadius.circular(18),
+              child: ListTile(
+                key: ValueKey('class-review-${c.code}'),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                leading: const Icon(Icons.shuffle_rounded, color: BL.green, size: 28),
+                title: Text(hl('Mixed review'), style: const TextStyle(fontWeight: FontWeight.w800)),
+                subtitle: Text(hl('مرور ترکیبی $done درسِ قبول‌شده'), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () => context.push('/school/${c.code}/review'),
+              ),
+            ),
+            const SizedBox(height: 8),
+          ],
           Material(
             color: g.classDone(c.code) || g.unlockAll ? BL.red : BL.mist,
             borderRadius: BorderRadius.circular(18),
