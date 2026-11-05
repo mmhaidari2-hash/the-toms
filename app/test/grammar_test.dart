@@ -413,7 +413,7 @@ void main() {
           await solve();
           n++;
         }
-        expect(n, 11, reason: '6 practice + 5 test');
+        expect(n, 17, reason: '12 practice + 5 test');
         await t.pump(const Duration(seconds: 1));
         expect(find.byKey(const ValueKey('grammar-celebrate')), findsOneWidget);
         expect(find.text('Topic passed!'), findsOneWidget);
