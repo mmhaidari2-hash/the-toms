@@ -16,6 +16,16 @@ class ConversationEngine {
 
   static MatchResult match(DialogueNode node, String input, {List<String> vocab = const []}) {
     final norm = normalise(input);
+    final used = <String>[
+      for (final w in vocab)
+        if (_contains(norm, w.replaceAll(RegExp(r"[?!]"), ''))) w,
+    ];
+    // An authored reply must follow its own branch, even when another branch
+    // happens to contain more of its common keywords (yes / could / please).
+    final exact = node.branches.where((b) => normalise(b.suggestion) == norm).firstOrNull;
+    if (norm.trim().isNotEmpty && exact != null) {
+      return MatchResult(exact, 1, used);
+    }
     Branch? best;
     var bestScore = 0.0;
     for (final b in node.branches) {
@@ -28,10 +38,6 @@ class ConversationEngine {
         best = b;
       }
     }
-    final used = <String>[
-      for (final w in vocab)
-        if (_contains(norm, w.replaceAll(RegExp(r"[?!]"), ''))) w,
-    ];
     return MatchResult(best, bestScore, used);
   }
 }

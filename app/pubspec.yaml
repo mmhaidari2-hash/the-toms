@@ -79,6 +79,45 @@ flutter:
     - assets/audio/
     - assets/sfx/
 
+  # Explicit families also cover mixed English/Persian button labels offline.
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/google_fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/google_fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/google_fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/google_fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/google_fonts/Inter-ExtraBold.ttf
+          weight: 800
+    - family: Fraunces
+      fonts:
+        - asset: assets/google_fonts/Fraunces-Regular.ttf
+          weight: 400
+        - asset: assets/google_fonts/Fraunces-Medium.ttf
+          weight: 500
+        - asset: assets/google_fonts/Fraunces-SemiBold.ttf
+          weight: 600
+        - asset: assets/google_fonts/Fraunces-Bold.ttf
+          weight: 700
+        - asset: assets/google_fonts/Fraunces-ExtraBold.ttf
+          weight: 800
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/google_fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: assets/google_fonts/Vazirmatn-Medium.ttf
+          weight: 500
+        - asset: assets/google_fonts/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: assets/google_fonts/Vazirmatn-Bold.ttf
+          weight: 700
+        - asset: assets/google_fonts/Vazirmatn-ExtraBold.ttf
+          weight: 800
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -746,10 +746,10 @@ class _MenuTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           onTap: onTap,
           child: Container(
-            height: 92,
+            constraints: const BoxConstraints(minHeight: 104),
             padding: const EdgeInsets.fromLTRB(6, 10, 6, 6),
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(16), border: Border.all(color: BL.mist)),
-            child: Column(children: [
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
               Container(
                 width: 34,
                 height: 34,
@@ -762,7 +762,7 @@ class _MenuTile extends StatelessWidget {
               ),
               const SizedBox(height: 6),
               Text(hl(en), maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11.5, height: 1.1)),
-              const Spacer(),
+              const SizedBox(height: 4),
               Text(hl(fa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(9.5, color: BL.muted)),
             ]),
           ),

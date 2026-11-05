@@ -336,6 +336,7 @@
     "y": 0.53,
     "pack": "nursery",
     "lessons": [
+      "nur_0_1",
       "nur_1_1",
       "nur_1_2",
       "nur_1_3",
@@ -359,7 +360,11 @@
       "nur_6_1",
       "nur_6_2",
       "nur_6_3",
-      "nur_6_4"
+      "nur_6_4",
+      "nur_7_1",
+      "nur_7_2",
+      "nur_7_3",
+      "nur_7_4"
     ]
   },
   {
@@ -977,8 +982,8 @@
     "title": "Visa Help Desk",
     "titleFa": "میز کمک ویزا",
     "icon": "🛂",
-    "x": 0.58,
-    "y": 0.28,
+    "x": 0.55,
+    "y": 0.37,
     "pack": null,
     "lessons": []
   },
@@ -987,8 +992,8 @@
     "title": "Settlement pathway (B2)",
     "titleFa": "مسیر اقامت (B2)",
     "icon": "🏛️",
-    "x": 0.62,
-    "y": 0.36,
+    "x": 0.72,
+    "y": 0.43,
     "pack": null,
     "lessons": []
   }

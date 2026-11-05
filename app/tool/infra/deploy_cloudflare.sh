@@ -8,6 +8,8 @@ cd "$ROOT"
 : "${CF_PAGES_PROJECT:?set CF_PAGES_PROJECT}"
 : "${CLOUDFLARE_ACCOUNT_ID:?set CLOUDFLARE_ACCOUNT_ID}"
 : "${CLOUDFLARE_API_TOKEN:?set CLOUDFLARE_API_TOKEN}"
-flutter build web --release --base-href=/
+python3 tool/bundle_scenes.py --check
+flutter build web --release --base-href=/ --no-web-resources-cdn
+python3 tool/make_sw.py
 npx --yes wrangler pages deploy build/web --project-name="$CF_PAGES_PROJECT" --commit-dirty=true
 echo "Cloudflare Pages deploy requested for $CF_PAGES_PROJECT"

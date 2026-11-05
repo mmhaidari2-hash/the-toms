@@ -3,7 +3,7 @@
 <head>
   <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Learn British English by living with a British family.">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'unsafe-inline' https://www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self' https: blob:; worker-src 'self' blob:; child-src 'self' blob:; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -40,14 +40,16 @@
   </script>
   <script>
     // Offline: cache the app shell + assets (no network needed after first load).
-    // ?reset (or #reset) wipes every service worker and cache, then reloads: the escape hatch for a stuck phone.
+    // Reset only this app's scope. Never unregister a neighbor app's worker.
+    var appScope = new URL(document.baseURI), cachePrefix = 'thetoms:' + appScope.pathname + ':';
+    function ownRegistration(r) { return r.scope === appScope.href; }
     if (/[?&#]reset\b/.test(location.href) && 'serviceWorker' in navigator) {
-      Promise.all([navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.map(function(r){ return r.unregister(); })); }),
-        window.caches ? caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); }) : null])
+      Promise.all([navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.filter(ownRegistration).map(function(r){ return r.unregister(); })); }),
+        window.caches ? caches.keys().then(function(ks){ return Promise.all(ks.filter(function(k){ return k.indexOf(cachePrefix) === 0; }).map(function(k){ return caches.delete(k); })); }) : null])
         .then(function(){ location.replace(location.pathname); });
     } else if ('serviceWorker' in navigator) window.addEventListener('load', function(){
       // Any leftover worker that isn't sw.js (e.g. an old flutter_service_worker.js) is removed.
-      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister(); }); });
+      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.filter(ownRegistration).forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister(); }); });
       navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') r.update(); }); });
     });
     // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).

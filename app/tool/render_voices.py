@@ -1,7 +1,8 @@
 """Pre-render every spoken line with British neural voices (Azure Speech, uksouth; edge-tts before run 23). Content-addressed:
-key = md5('speaker|text')[:16] -> assets/audio/<key>.mp3 (24kHz mono 48kbps). Re-run after editing dialogue."""
+key = md5('speaker|text')[:16] -> assets/audio/<key>.mp3 (24kHz mono 48kbps). Re-run after editing dialogue.
+Use --dry-run for a read-only inventory with no API calls.
+Obsolete clips are retained unless RENDER_PRUNE_OBSOLETE=1 is explicitly set."""
 import json,glob,hashlib,os,re,asyncio,sys
-import edge_tts
 A=os.path.join(os.path.dirname(__file__),'..','assets'); OUT=os.path.join(A,'audio'); os.makedirs(OUT,exist_ok=True)
 V={ # speaker -> (voice, pitch, rate). Run 28 recast: distinct voice per scene (tool/audit/verify_voices.py), |pitch|<=8Hz except the young children
  'tom':('en-GB-OllieMultilingualNeural','+0Hz','-4%'),
@@ -158,6 +159,10 @@ if os.path.exists(drv):
     for l in e['lines']: add(l['sp'],l['en'])
     for w in e['words']: add('narrator',w['w'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
+arrival=os.path.join(A,'data','arrival_pack.json')
+if os.path.exists(arrival):
+  for phrase in json.load(open(arrival)).get('phrases',[]):
+    add(phrase.get('sp','narrator'),phrase['en'])
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)
 # One line = one clip in its speaker's own voice. No silent narrator fallback for a speaker without a voice,
@@ -165,7 +170,8 @@ if os.path.exists(dump):
 nov=sorted({sp for sp,_ in items.values() if sp not in V})
 if nov: sys.exit(f'NO VOICE for speakers {nov}: add them to V')
 # The exact text of every clip, for the audio QA (speech-to-text comparison and re-renders): tool/qa/qa_audio.py
-json.dump({k:v[1] for k,v in sorted(items.items())},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_texts.json'),'w'),ensure_ascii=False,separators=(',',':'))
+if '--dry-run' not in sys.argv:
+  json.dump({k:v[1] for k,v in sorted(items.items())},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_texts.json'),'w'),ensure_ascii=False,separators=(',',':'))
 if os.environ.get('RENDER_LIST_ONLY'): sys.exit(0)
 def sig(sp): return '|'.join(V[sp])
 MANP=os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_manifest.json')
@@ -184,6 +190,10 @@ if OLDER: todo=[(k,v) for k,v in items.items() if not os.path.exists(f'{OUT}/{k}
 LIMIT=int(os.environ.get('RENDER_LIMIT','0') or 0)
 if LIMIT: todo=todo[:LIMIT]
 print(len(items),'lines,',len(todo),'to render,',sum(len(t) for _,(_,t) in todo),'characters')
+if '--dry-run' in sys.argv:
+  missing=[{'key':k,'speaker':sp,'text':t} for k,(sp,t) in sorted(items.items()) if not os.path.exists(f'{OUT}/{k}.mp3')]
+  print(json.dumps({'missing':missing,'obsoleteRetained':sum(1 for f in os.listdir(OUT) if re.fullmatch(r'[0-9a-f]{16}\.mp3',f) and f[:-4] not in items)},ensure_ascii=False))
+  sys.exit(0)
 import threading,time
 from concurrent.futures import ThreadPoolExecutor
 from az_tts import synth, BILLED
@@ -207,9 +217,10 @@ def one(kv):
 with ThreadPoolExecutor(int(os.environ.get('RENDER_THREADS','8'))) as ex: list(ex.map(one,todo))
 save_state(); print('rendered',done[0]-len(fails),'fails',len(fails),'billed characters',BILLED[0])
 if fails: print('FAILED',fails[:20])
-for f in os.listdir(OUT):
-  if f.endswith('.mp3') and f!='silence.mp3' and f[:-4] not in items: os.remove(f'{OUT}/{f}')
-json.dump(sorted(k for k in items if os.path.exists(f'{OUT}/{k}.mp3')),open(f'{OUT}/index.json','w'))
+if os.environ.get('RENDER_PRUNE_OBSOLETE') == '1':
+  for f in os.listdir(OUT):
+    if re.fullmatch(r'[0-9a-f]{16}\.mp3',f) and f[:-4] not in items: os.remove(f'{OUT}/{f}')
+json.dump(sorted(f[:-4] for f in os.listdir(OUT) if re.fullmatch(r'[0-9a-f]{16}\.mp3',f)),open(f'{OUT}/index.json','w'))
 os.makedirs(os.path.dirname(MANP),exist_ok=True)
-json.dump({k:MAN[k] for k in sorted(items) if k in MAN and os.path.exists(f'{OUT}/{k}.mp3')},open(MANP,'w'),separators=(',',':'))  # the voice that really rendered each clip
+json.dump({k:MAN[k] for k in sorted(MAN) if os.path.exists(f'{OUT}/{k}.mp3')},open(MANP,'w'),separators=(',',':'))  # the voice that really rendered each clip
 open(YOUF,'w').write('clips with the learner name re-rendered neutrally\n')

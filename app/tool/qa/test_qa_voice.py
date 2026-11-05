@@ -61,15 +61,19 @@ class Scenes(unittest.TestCase):
 
 class AudioCache(unittest.TestCase):
     def test_audio_cache_name_changes_when_a_clip_is_revoiced(self):
-        # load audio_version() from make_sw.py without running the script body
-        src = open(os.path.join(Q.APP, 'tool', 'make_sw.py')).read()
-        start = src.index('def audio_version'); end = src.index('aver = audio_version')
-        ns = {'os': os, 'hashlib': __import__('hashlib'), '__file__': os.path.join(Q.APP, 'tool', 'make_sw.py')}; exec(src[start:end], ns)
+        # Importing the generator must not mutate build or source assets.
+        import importlib.util
+        path = os.path.join(Q.APP, 'tool', 'make_sw.py')
+        spec = importlib.util.spec_from_file_location('make_sw', path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        with open(path) as source:
+            src = source.read()
         root = tempfile.mkdtemp(); os.makedirs(os.path.join(root, 'a', 'audio'))
         f = os.path.join(root, 'a', 'audio', 'k.mp3'); open(f, 'wb').write(b'x' * 10)
-        v1 = ns['audio_version'](root, ['a/audio/k.mp3'])
+        v1 = module.audio_version(root, ['a/audio/k.mp3'])
         open(f, 'wb').write(b'y' * 12)
-        v2 = ns['audio_version'](root, ['a/audio/k.mp3'])
+        v2 = module.audio_version(root, ['a/audio/k.mp3'])
         self.assertNotEqual(v1, v2); shutil.rmtree(root)
         self.assertNotIn("thetoms-audio-v3'", src)  # never a hand-bumped constant again
 

@@ -1,6 +1,5 @@
 import '../core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 /// "Postbox & Paper" design system — London palette, editorial serif + clean sans.
 class BL {
@@ -14,12 +13,13 @@ class BL {
   static const mist = Color(0xFFEEE8DD);
   static const muted = Color(0xFF6B7385);
   static const radius = 22.0;
+  // Legacy test switch; production now uses declared, bundled font families.
   static bool useGoogleFonts = true;
 
   static TextStyle display(double size, {Color color = ink, FontWeight w = FontWeight.w600}) =>
-      useGoogleFonts ? GoogleFonts.fraunces(fontSize: size, color: color, fontWeight: w, height: 1.1, letterSpacing: -0.3) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.1);
+      useGoogleFonts ? TextStyle(fontFamily: 'Fraunces', fontFamilyFallback: const ['Vazirmatn', 'Inter'], fontSize: size, color: color, fontWeight: w, height: 1.1, letterSpacing: -0.3) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.1);
   static TextStyle fa(double size, {Color color = muted, FontWeight w = FontWeight.w400}) =>
-      useGoogleFonts ? (helperArabicScript ? GoogleFonts.vazirmatn(fontSize: size, color: color, fontWeight: w, height: 1.6) : GoogleFonts.inter(fontSize: size, color: color, fontWeight: w, height: 1.45)) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.6);
+      useGoogleFonts ? TextStyle(fontFamily: helperArabicScript ? 'Vazirmatn' : 'Inter', fontFamilyFallback: const ['Vazirmatn'], fontSize: size, color: color, fontWeight: w, height: helperArabicScript ? 1.6 : 1.45) : TextStyle(fontSize: size, color: color, fontWeight: w, height: 1.6);
 
   static List<BoxShadow> shadow([double o = .07]) => [
     BoxShadow(
@@ -41,9 +41,9 @@ class BL {
       scaffoldBackgroundColor: cream,
       splashFactory: InkSparkle.splashFactory,
     );
-    final family = useGoogleFonts ? GoogleFonts.inter().fontFamily : null;
+    final family = useGoogleFonts ? 'Inter' : null;
     return base.copyWith(
-      textTheme: base.textTheme.apply(bodyColor: ink, displayColor: ink, fontFamily: family),
+      textTheme: base.textTheme.apply(bodyColor: ink, displayColor: ink, fontFamily: family, fontFamilyFallback: const ['Vazirmatn']),
     );
   }
 }

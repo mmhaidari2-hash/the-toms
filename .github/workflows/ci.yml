@@ -17,6 +17,14 @@ jobs:
           channel: stable
           flutter-version: 3.47.7
       - run: flutter pub get
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 tool/bundle_scenes.py --check
+      - run: python3 -m unittest discover -s tool/tests -p 'test_*.py'
+      - run: node --test tool/tests/service_worker.test.mjs tool/tests/reset.test.mjs
       - run: flutter analyze
       - run: flutter test
-      - run: flutter build web --release --base-href /the-toms/
+      - run: flutter build web --release --base-href /the-toms/ --no-web-resources-cdn
+      - run: python3 tool/make_sw.py
+      - run: node --test tool/tests/built_worker.test.mjs
