@@ -31,6 +31,8 @@ void main() {
     expect(PremiumConfig.yearly, lessThan(PremiumConfig.monthly * 12));
     expect(PremiumConfig.yearlySaving, inInclusiveRange(1, 90));
     expect(PremiumConfig.price(4.99), '£4.99');
+    expect([PremiumConfig.monthly, PremiumConfig.yearly, PremiumConfig.foundingYear, PremiumConfig.careerPack], [6.99, 44.99, 29.99, 7.99]);
+    expect(PremiumConfig.foundingYear, lessThan(PremiumConfig.yearly));
   });
 
   testWidgets('premium, certificates and pack lock render at 375x667 (beta on, then payments on)', (t) async {
