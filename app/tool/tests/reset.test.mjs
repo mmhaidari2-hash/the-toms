@@ -3,9 +3,13 @@ import vm from 'node:vm';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
+const resetScript = fs.readFileSync(new URL('../../web/boot.js', import.meta.url), 'utf8');
 const html = fs.readFileSync(new URL('../../web/index.html', import.meta.url), 'utf8');
-const resetScript = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)]
-  .map(m => m[1]).find(s => s.includes('var appScope'));
+test('index.html loads boot.js and allows no inline script', () => {
+  assert.match(html, /<script src="boot.js"><\/script>/);
+  assert.doesNotMatch(html, /<script>/);
+  assert.doesNotMatch(html, /'unsafe-inline' https:\/\/www.gstatic.com|script-src[^;]*'unsafe-inline'/);
+});
 
 async function run(reset, failure) {
   const removedWorkers = [], removedCaches = [], listeners = {};

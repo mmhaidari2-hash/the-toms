@@ -49,7 +49,8 @@ android {
 
     buildTypes {
         release {
-            // Signed with the upload key when key.properties exists; otherwise debug keys (local runs only).
+            // Signed with the upload key when key.properties exists. Debug keys only with ALLOW_DEBUG_SIGNED_RELEASE=1
+            // (local smoke tests); otherwise the build stops, so a debug-signed build can never be uploaded by mistake.
             signingConfig = if (keyPropsFile.exists()) signingConfigs.getByName("release") else signingConfigs.getByName("debug")
             isMinifyEnabled = true
             isShrinkResources = true
@@ -69,4 +70,11 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+gradle.taskGraph.whenReady {
+    val wantsRelease = allTasks.any { it.name.contains("Release") && (it.name.startsWith("assemble") || it.name.startsWith("bundle")) }
+    if (wantsRelease && !keyPropsFile.exists() && System.getenv("ALLOW_DEBUG_SIGNED_RELEASE") != "1") {
+        throw GradleException("Release build needs the upload key (NEWLIFE_KEY_PROPERTIES). Set ALLOW_DEBUG_SIGNED_RELEASE=1 only for local tests.")
+    }
 }

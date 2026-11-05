@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Learn British English by living with a British family.">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'unsafe-inline' https://www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self' https: blob:; worker-src 'self' blob:; child-src 'self' blob:; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self' blob: https://*.ingest.sentry.io https://*.ingest.de.sentry.io; worker-src 'self' blob:; child-src 'self' blob:; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(self), camera=(), payment=(), usb=(), interest-cohort=()">
@@ -35,33 +35,7 @@
 <body>
   <div id="app"></div>
   <div id="splash" style="background:#FBF7F0"><img src="icons/nl3-192.png?v=3" alt="" style="border-radius:22%"><div style="font-size:22px">New Life UK</div><div class="dot"></div></div>
-  <script>
-    window.addEventListener('flutter-first-frame', function(){var s=document.getElementById('splash');s.style.opacity=0;setTimeout(function(){s.remove()},450);});
-  </script>
-  <script>
-    // Offline: cache the app shell + assets (no network needed after first load).
-    // Reset only this app's scope. Never unregister a neighbor app's worker.
-    var appScope = new URL(document.baseURI), cachePrefix = 'thetoms:' + appScope.pathname + ':';
-    function ownRegistration(r) { return r.scope === appScope.href; }
-    if (/[?&#]reset\b/.test(location.href) && 'serviceWorker' in navigator) {
-      Promise.all([navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.filter(ownRegistration).map(function(r){ return r.unregister(); })); }),
-        window.caches ? caches.keys().then(function(ks){ return Promise.all(ks.filter(function(k){ return k.indexOf(cachePrefix) === 0; }).map(function(k){ return caches.delete(k); })); }) : null])
-        .then(function(){ location.replace(location.pathname); });
-    } else if ('serviceWorker' in navigator) window.addEventListener('load', function(){
-      // Any leftover worker that isn't sw.js (e.g. an old flutter_service_worker.js) is removed.
-      function offlineUnavailable(error) { console.warn('Offline cache is unavailable in this browser session.', error); }
-      navigator.serviceWorker.getRegistrations().then(function(rs){ rs.filter(ownRegistration).forEach(function(r){ var w = r.active || r.waiting || r.installing; if (w && !/\/sw\.js(\?|$)/.test(w.scriptURL)) r.unregister().catch(offlineUnavailable); }); }).catch(offlineUnavailable);
-      navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){
-        if (!r) return;
-        function checkUpdate() { Promise.resolve().then(function(){ return r.update(); }).catch(offlineUnavailable); }
-        checkUpdate();
-        document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') checkUpdate(); });
-      }).catch(offlineUnavailable);
-    });
-    // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).
-    if ('serviceWorker' in navigator) { var hadController = !!navigator.serviceWorker.controller, reloaded = false;
-      navigator.serviceWorker.addEventListener('controllerchange', function(){ if (hadController && !reloaded) { reloaded = true; location.reload(); } }); }
-  </script>
+  <script src="boot.js"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
