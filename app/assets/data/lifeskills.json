@@ -1,0 +1,1494 @@
+{
+ "topics": [
+  {
+   "id": "ls_format",
+   "level": "LS",
+   "title": "How the test works",
+   "titleFa": "آزمون چطور برگزار می‌شود",
+   "teach": [
+    {
+     "en": "IELTS Life Skills tests only speaking and listening. There is no reading or writing.",
+     "fa": "آزمون IELTS Life Skills فقط گفتار و شنیدار را می‌سنجد؛ خواندن و نوشتن ندارد."
+    },
+    {
+     "en": "You sit with an examiner and one other test taker. You talk to both of them.",
+     "fa": "با یک ممتحن و یک داوطلب دیگر می‌نشینید و با هر دو صحبت می‌کنید."
+    },
+    {
+     "en": "A1 takes up to eighteen minutes, A2 up to twenty, and B1 up to twenty-two.",
+     "fa": "A1 حداکثر ۱۸ دقیقه، A2 حداکثر ۲۰ و B1 حداکثر ۲۲ دقیقه طول می‌کشد."
+    },
+    {
+     "en": "There is no score: you get a pass or a fail. Topics are everyday life: family, work, shopping, health, transport, housing and the weather.",
+     "fa": "نمره ندارد؛ فقط قبول یا رد. موضوع‌ها زندگی روزمره است: خانواده، کار، خرید، سلامت، حمل‌ونقل، مسکن و هوا."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Phase one: the examiner asks about you, then you and your partner ask each other questions.",
+     "fa": "بخش اول: ممتحن دربارهٔ خودتان می‌پرسد، بعد شما و هم‌گروهتان از هم سؤال می‌کنید."
+    },
+    {
+     "en": "Phase two: you listen to two short recordings and answer questions.",
+     "fa": "بخش دوم: دو ضبط کوتاه گوش می‌دهید و به سؤال‌ها جواب می‌دهید."
+    },
+    {
+     "en": "Then you talk together about an everyday topic.",
+     "fa": "بعد با هم دربارهٔ یک موضوع روزمره صحبت می‌کنید."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Which skills does IELTS Life Skills test?",
+     "answers": [
+      "speaking and listening",
+      "reading and writing",
+      "all four skills"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Who is in the room with you?",
+     "answers": [
+      "an examiner and one other test taker",
+      "only a computer",
+      "a group of ten students"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "How long is the A1 test?",
+     "answers": [
+      "up to 18 minutes",
+      "about 2 hours",
+      "45 minutes"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "What result do you get?",
+     "answers": [
+      "pass or fail",
+      "a band score from 1 to 9",
+      "a percentage"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "At B1 the test lasts up to ___ minutes.",
+     "answers": [
+      "22",
+      "18",
+      "60"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "You talk to the examiner and to your ___.",
+     "answers": [
+      "partner",
+      "teacher",
+      "manager"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which topic is most likely?",
+     "answers": [
+      "shopping",
+      "nuclear physics",
+      "ancient Greek poetry"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "In phase two you…",
+     "answers": [
+      "listen to two recordings",
+      "write an essay",
+      "read a long article"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "The test has two phases.",
+     "answers": [
+      "The test has two phases."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "We talk about everyday life.",
+     "answers": [
+      "We talk about everyday life."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it negative: \"There is a writing test.\"",
+     "answers": [
+      "There isn't a writing test.",
+      "There is not a writing test.",
+      "There is no writing test."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"The test is twenty minutes long.\"",
+     "answers": [
+      "Is the test twenty minutes long?"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "Is there a reading paper?",
+     "answers": [
+      "No, only speaking and listening.",
+      "Yes, one hour.",
+      "Yes, but only at B1."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "The result is pass or ___.",
+     "answers": [
+      "fail",
+      "five",
+      "fine"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "How many test takers sit together?",
+     "answers": [
+      "two",
+      "one",
+      "six"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I will listen to two recordings.",
+     "answers": [
+      "I will listen to two recordings."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"You talk to your partner.\"",
+     "answers": [
+      "Do you talk to your partner?"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_about_you",
+   "level": "LS",
+   "title": "Phase 1a: talking about yourself",
+   "titleFa": "بخش ۱الف: صحبت دربارهٔ خودتان",
+   "teach": [
+    {
+     "en": "First the examiner asks simple questions: your name, where you are from, where you live, your work and your free time.",
+     "fa": "اول ممتحن سؤال‌های ساده می‌پرسد: اسم، اهل کجا، کجا زندگی می‌کنید، کار و اوقات فراغت."
+    },
+    {
+     "en": "Answer in a full sentence and add one more detail. Not just \"Kabul\", but \"I'm from Kabul. It's the capital.\"",
+     "fa": "با جملهٔ کامل جواب بدهید و یک جزئیات اضافه کنید: نه فقط Kabul، بلکه I'm from Kabul. It's the capital."
+    },
+    {
+     "en": "Listen to the tense of the question. \"What do you do?\" means your job now.",
+     "fa": "به زمان فعل سؤال دقت کنید. What do you do? یعنی شغل فعلی‌تان."
+    },
+    {
+     "en": "If you don't understand, it's fine to ask: \"Sorry, could you repeat that, please?\"",
+     "fa": "اگر نفهمیدید اشکالی ندارد بپرسید: Sorry, could you repeat that, please?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My name's Reza. I'm from Shiraz, in the south of Iran.",
+     "fa": "اسمم رضاست. اهل شیرازم، در جنوب ایران."
+    },
+    {
+     "en": "I live in a flat in Croydon with my wife and two children.",
+     "fa": "با همسر و دو بچه‌ام در یک آپارتمان در کرویدن زندگی می‌کنم."
+    },
+    {
+     "en": "In my free time I like walking in the park and cooking.",
+     "fa": "در وقت آزاد پیاده‌روی در پارک و آشپزی را دوست دارم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Examiner: \"Where are you from?\" Best answer:",
+     "answers": [
+      "I'm from Herat, in the west of Afghanistan.",
+      "Herat.",
+      "I am live Herat."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Examiner: \"What do you do?\" Best answer:",
+     "answers": [
+      "I'm a delivery driver. I work five days a week.",
+      "I'm fine, thanks.",
+      "I do in the morning."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Examiner: \"How long have you lived here?\" Best answer:",
+     "answers": [
+      "I've lived here for two years.",
+      "I live here two years.",
+      "Since two years."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "You didn't hear the question. You say:",
+     "answers": [
+      "Sorry, could you repeat that, please?",
+      "What?",
+      "Again!"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ in Leeds with my husband.",
+     "answers": [
+      "live",
+      "living",
+      "lives"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I'm ___ Tehran.",
+     "answers": [
+      "from",
+      "of",
+      "in"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "In my free time I ___ playing football.",
+     "answers": [
+      "enjoy",
+      "enjoying",
+      "am enjoy"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I ___ a cleaner at a hotel.",
+     "answers": [
+      "work as",
+      "work like",
+      "am work"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I live in a small house near the station.",
+     "answers": [
+      "I live in a small house near the station."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I have two daughters and a son.",
+     "answers": [
+      "I have two daughters and a son."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it a full answer: \"Name? — Sara.\"",
+     "answers": [
+      "My name is Sara.",
+      "My name's Sara."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Add a detail: \"I like cooking.\" (+ Persian food)",
+     "answers": [
+      "I like cooking Persian food.",
+      "I like cooking, especially Persian food."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "Examiner: \"What do you like doing at the weekend?\" Best answer:",
+     "answers": [
+      "I like visiting my friends and going to the market.",
+      "Yes, I like.",
+      "Weekend is Saturday."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I'm ___ Mashhad, in the north-east of Iran.",
+     "answers": [
+      "from",
+      "at",
+      "on"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Could you repeat the question, please?",
+     "answers": [
+      "Could you repeat the question, please?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it a full answer: \"Job? — nurse.\"",
+     "answers": [
+      "I'm a nurse.",
+      "I am a nurse."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Examiner: \"Who do you live with?\" Best answer:",
+     "answers": [
+      "I live with my wife and my son.",
+      "I live in London.",
+      "I'm living alone with."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_ask_partner",
+   "level": "LS",
+   "title": "Phase 1b: asking your partner questions",
+   "titleFa": "بخش ۱ب: سؤال پرسیدن از هم‌گروه",
+   "teach": [
+    {
+     "en": "The examiner gives you a topic, for example \"your partner's neighbours\". You have a minute and a half to think of questions.",
+     "fa": "ممتحن موضوعی می‌دهد، مثلاً «همسایه‌های هم‌گروه». یک دقیقه و نیم وقت دارید سؤال آماده کنید."
+    },
+    {
+     "en": "Use question words: who, what, where, when, how many, how often, why.",
+     "fa": "از کلمات پرسشی استفاده کنید: who، what، where، when، how many، how often، why."
+    },
+    {
+     "en": "Remember \"do\" and \"does\": \"Where do your neighbours come from?\"",
+     "fa": "do و does یادتان نرود: Where do your neighbours come from?"
+    },
+    {
+     "en": "Listen to the answer and ask a follow-up: \"Really? Why?\" This shows you are listening.",
+     "fa": "به جواب گوش دهید و سؤال دنباله‌دار بپرسید: Really? Why? این نشان می‌دهد گوش می‌دهید."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you know your neighbours well?",
+     "fa": "همسایه‌هایتان را خوب می‌شناسید؟"
+    },
+    {
+     "en": "How often do you see them?",
+     "fa": "چقدر وقت‌ها می‌بینیدشان؟"
+    },
+    {
+     "en": "What's your favourite time of year, and why?",
+     "fa": "فصل محبوبتان چیست و چرا؟"
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "___ do your neighbours come from?",
+     "answers": [
+      "Where",
+      "Who",
+      "How many"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "How ___ do you go shopping?",
+     "answers": [
+      "often",
+      "much",
+      "long"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ is your favourite season?",
+     "answers": [
+      "What",
+      "Where",
+      "Who"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ children do they have?",
+     "answers": [
+      "How many",
+      "How much",
+      "How often"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which question is correct?",
+     "answers": [
+      "Do you like your neighbours?",
+      "You like your neighbours?",
+      "Like you your neighbours?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which question is correct?",
+     "answers": [
+      "What does your neighbour do?",
+      "What your neighbour does?",
+      "What does your neighbour does?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Your partner says: \"I love winter.\" Best follow-up:",
+     "answers": [
+      "Really? Why do you like it?",
+      "OK. Next question.",
+      "Winter is cold."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Topic: your partner's weekend. Best question:",
+     "answers": [
+      "What do you usually do at the weekend?",
+      "Weekend?",
+      "Do you weekend?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "How long have you lived there?",
+     "answers": [
+      "How long have you lived there?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Why do you like the summer?",
+     "answers": [
+      "Why do you like the summer?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question with \"where\": \"They live next door.\"",
+     "answers": [
+      "Where do they live?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"She sees her neighbours every day.\"",
+     "answers": [
+      "Does she see her neighbours every day?"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "___ do you usually go on holiday?",
+     "answers": [
+      "Where",
+      "What",
+      "Who"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which question is correct?",
+     "answers": [
+      "How often do you cook?",
+      "How often you cook?",
+      "How often do you cooks?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a question: \"He works at the hospital.\"",
+     "answers": [
+      "Does he work at the hospital?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "What do you do in the evenings?",
+     "answers": [
+      "What do you do in the evenings?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Your partner says: \"My neighbours are noisy.\" Best follow-up:",
+     "answers": [
+      "Oh no! What do they do?",
+      "Good.",
+      "Neighbours are people."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_listening",
+   "level": "LS",
+   "title": "Phase 2a: listening for details",
+   "titleFa": "بخش ۲الف: گوش دادن برای جزئیات",
+   "teach": [
+    {
+     "en": "You hear two short recordings. First you answer a general question, then you listen again for details.",
+     "fa": "دو ضبط کوتاه می‌شنوید. اول یک سؤال کلی، بعد بار دوم جزئیات را گوش می‌دهید."
+    },
+    {
+     "en": "Read or hear the question first, then listen for key words: names, places, numbers, prices and times.",
+     "fa": "اول سؤال را بخوانید یا بشنوید، بعد دنبال کلمات کلیدی باشید: اسم، مکان، عدد، قیمت و ساعت."
+    },
+    {
+     "en": "Numbers are easy to mix up: thirteen and thirty, fifteen and fifty. Listen for the stress.",
+     "fa": "عددها قاطی می‌شوند: thirteen و thirty، fifteen و fifty. به تکیهٔ صدا گوش دهید."
+    },
+    {
+     "en": "You can make notes. Write short words, not full sentences.",
+     "fa": "می‌توانید یادداشت بنویسید؛ کلمات کوتاه، نه جملهٔ کامل."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Listen: \"The surgery opens at half past eight, and you can book online.\"",
+     "fa": "گوش کنید: درمانگاه ساعت هشت و نیم باز می‌شود و می‌شود آنلاین وقت گرفت."
+    },
+    {
+     "en": "Listen: \"A day ticket on the bus costs five pounds fifty.\"",
+     "fa": "گوش کنید: بلیت یک‌روزهٔ اتوبوس پنج پوند و پنجاه پنس است."
+    },
+    {
+     "en": "Listen: \"I'm meeting my sister at the market on Saturday, because she wants new shoes.\"",
+     "fa": "گوش کنید: شنبه خواهرم را در بازار می‌بینم چون کفش نو می‌خواهد."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "\"The surgery opens at half past eight.\" When does it open?",
+     "answers": [
+      "8:30",
+      "8:00",
+      "9:30"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "\"A day ticket costs five pounds fifty.\" How much is it?",
+     "answers": [
+      "£5.50",
+      "£15.50",
+      "£5.15"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "\"I'm meeting my sister at the market.\" Where is she going?",
+     "answers": [
+      "to the market",
+      "to the cinema",
+      "to the station"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "\"She wants new shoes.\" What does the sister want?",
+     "answers": [
+      "shoes",
+      "a coat",
+      "a phone"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "\"The train leaves at thirteen minutes past four.\" What time?",
+     "answers": [
+      "4:13",
+      "4:30",
+      "3:13"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which pair is easy to confuse?",
+     "answers": [
+      "fifteen and fifty",
+      "red and blue",
+      "Monday and May"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Write short ___, not full sentences.",
+     "answers": [
+      "notes",
+      "letters",
+      "emails"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Listen for the ___: thirTEEN or THIRty.",
+     "answers": [
+      "stress",
+      "colour",
+      "spelling"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Listen to the question first.",
+     "answers": [
+      "Listen to the question first."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "The shop closes at six o'clock.",
+     "answers": [
+      "The shop closes at six o'clock."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Write the price in words: \"£7\"",
+     "answers": [
+      "seven pounds",
+      "Seven pounds"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Write the time in words: \"9:30\"",
+     "answers": [
+      "half past nine",
+      "nine thirty",
+      "Half past nine"
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "\"The class is on Tuesday at seven in the evening.\" When is the class?",
+     "answers": [
+      "Tuesday evening",
+      "Thursday morning",
+      "Tuesday morning"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "\"It takes about forty minutes by bus.\" How long?",
+     "answers": [
+      "about 40 minutes",
+      "about 14 minutes",
+      "about 4 hours"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "First answer a general question, then listen for ___.",
+     "answers": [
+      "details",
+      "music",
+      "grammar"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Write the price in words: \"£3\"",
+     "answers": [
+      "three pounds",
+      "Three pounds"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "The bus stop is next to the bank.",
+     "answers": [
+      "The bus stop is next to the bank."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_together",
+   "level": "LS",
+   "title": "Phase 2b: talking together",
+   "titleFa": "بخش ۲ب: گفت‌وگوی دونفره",
+   "teach": [
+    {
+     "en": "At the end you and your partner talk together about an everyday topic, like places you go at the weekend.",
+     "fa": "در پایان شما و هم‌گروه دربارهٔ یک موضوع روزمره حرف می‌زنید، مثلاً جاهایی که آخر هفته می‌روید."
+    },
+    {
+     "en": "Talk to your partner, not only to the examiner. Look at them and ask: \"What about you?\"",
+     "fa": "با هم‌گروه حرف بزنید نه فقط با ممتحن. نگاهش کنید و بپرسید: What about you?"
+    },
+    {
+     "en": "Agree and disagree politely: \"I agree.\" \"That's true.\" \"I'm not sure. I think…\"",
+     "fa": "مؤدبانه موافقت و مخالفت کنید: I agree. / That's true. / I'm not sure. I think…"
+    },
+    {
+     "en": "Give a reason with \"because\": \"I like the park because my children can play.\"",
+     "fa": "با because دلیل بیاورید: I like the park because my children can play."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I like going to the market because it's cheap. What about you?",
+     "fa": "بازار را دوست دارم چون ارزان است. تو چی؟"
+    },
+    {
+     "en": "That's true, but it's very busy on Saturdays.",
+     "fa": "درست است، ولی شنبه‌ها خیلی شلوغ است."
+    },
+    {
+     "en": "I'm not sure. I think the park is better for children.",
+     "fa": "مطمئن نیستم. فکر می‌کنم پارک برای بچه‌ها بهتر است."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "Best way to bring your partner in:",
+     "answers": [
+      "What about you?",
+      "Be quiet.",
+      "My turn again."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Polite way to disagree:",
+     "answers": [
+      "I'm not sure. I think…",
+      "You are wrong.",
+      "No, no, no."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Best way to agree:",
+     "answers": [
+      "That's true.",
+      "Whatever.",
+      "Fine, stop."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I like the library ___ it's quiet.",
+     "answers": [
+      "because",
+      "but",
+      "so"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "It's cheap, ___ it's very busy.",
+     "answers": [
+      "but",
+      "because",
+      "or"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "What do you ___?",
+     "answers": [
+      "think",
+      "thinking",
+      "thinks"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Your partner says: \"I love the beach.\" Best reply:",
+     "answers": [
+      "Me too! Which beach do you go to?",
+      "Beach.",
+      "I don't care."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Who should you talk to in this part?",
+     "answers": [
+      "your partner, and the examiner if asked",
+      "only the examiner",
+      "nobody"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I agree with you about the park.",
+     "answers": [
+      "I agree with you about the park."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "What do you think about the market?",
+     "answers": [
+      "What do you think about the market?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Join with \"because\": \"I go to the gym. It helps me relax.\"",
+     "answers": [
+      "I go to the gym because it helps me relax."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"You are wrong.\"",
+     "answers": [
+      "I'm not sure. I think…",
+      "I'm not sure about that.",
+      "I don't really agree."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "I prefer the cinema ___ it's warm.",
+     "answers": [
+      "because",
+      "but",
+      "or"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Best way to bring your partner in:",
+     "answers": [
+      "And you? What do you like doing?",
+      "Next.",
+      "I finished."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "That's true, but it's expensive.",
+     "answers": [
+      "That's true, but it's expensive."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Join with \"because\": \"We like the park. It's free.\"",
+     "answers": [
+      "We like the park because it's free.",
+      "We like the park because it is free."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Polite way to disagree:",
+     "answers": [
+      "Maybe, but I think the bus is better.",
+      "No. Bus.",
+      "That's stupid."
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_b1_talk",
+   "level": "LS",
+   "title": "B1: talk for a minute and a half",
+   "titleFa": "B1: یک دقیقه و نیم صحبت",
+   "teach": [
+    {
+     "en": "At B1 you talk on your own for about a minute and a half. Then your partner asks you three questions.",
+     "fa": "در B1 حدود یک دقیقه و نیم تنها صحبت می‌کنید، بعد هم‌گروه سه سؤال از شما می‌پرسد."
+    },
+    {
+     "en": "Plan a beginning, a middle and an end. Use \"first\", \"then\", \"after that\" and \"finally\".",
+     "fa": "شروع، وسط و پایان داشته باشید: first، then، after that، finally."
+    },
+    {
+     "en": "Join ideas with \"because\", \"so\", \"but\" and \"although\".",
+     "fa": "ایده‌ها را با because، so، but و although به هم وصل کنید."
+    },
+    {
+     "en": "Mix the past and the future: what you used to do, and what you are going to do.",
+     "fa": "گذشته و آینده را ترکیب کنید: کاری که قبلاً می‌کردید و کاری که قرار است بکنید."
+    }
+   ],
+   "examples": [
+    {
+     "en": "When I was younger, I used to play volleyball every weekend.",
+     "fa": "وقتی جوان‌تر بودم، هر آخر هفته والیبال بازی می‌کردم."
+    },
+    {
+     "en": "Although I'm very busy now, I still go swimming on Fridays.",
+     "fa": "با اینکه الان خیلی سرم شلوغ است، هنوز جمعه‌ها شنا می‌روم."
+    },
+    {
+     "en": "Next year I'm going to join a running club, so I'm buying new trainers.",
+     "fa": "سال بعد قرار است به باشگاه دو بپیوندم، برای همین کفش ورزشی نو می‌خرم."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "When I was a child, I ___ play in the street.",
+     "answers": [
+      "used to",
+      "use to",
+      "was use to"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ it was raining, we went for a walk.",
+     "answers": [
+      "Although",
+      "Because",
+      "So"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "I was tired, ___ I went to bed early.",
+     "answers": [
+      "so",
+      "although",
+      "because"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Next month I'm ___ to start a new job.",
+     "answers": [
+      "going",
+      "go",
+      "went"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___, I left school. Then I started work.",
+     "answers": [
+      "First",
+      "Finally",
+      "Although"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "I used to live in a village.",
+      "I use to live in a village.",
+      "I used to living in a village."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Although it's expensive, I love London.",
+      "Although it's expensive, but I love London.",
+      "Although expensive it, I love London."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Best linking word to end your talk:",
+     "answers": [
+      "Finally",
+      "Firstly",
+      "Because"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "I used to work in a bakery.",
+     "answers": [
+      "I used to work in a bakery."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "After that, I moved to Manchester.",
+     "answers": [
+      "After that, I moved to Manchester."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Join with \"although\": \"It was cold. We went to the beach.\"",
+     "answers": [
+      "Although it was cold, we went to the beach.",
+      "We went to the beach although it was cold."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Change to the past habit with \"used to\": \"I play chess.\"",
+     "answers": [
+      "I used to play chess."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "I'm ___ to visit my family in the summer.",
+     "answers": [
+      "going",
+      "go",
+      "goes"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "We moved because my husband found a job.",
+      "We moved because of my husband found a job.",
+      "Because we moved my husband found job."
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Finally, I want to say thank you.",
+     "answers": [
+      "Finally, I want to say thank you."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Join with \"so\": \"The bus was late. I took a taxi.\"",
+     "answers": [
+      "The bus was late, so I took a taxi."
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "When I lived in Iran, I ___ to cook every day.",
+     "answers": [
+      "used",
+      "use",
+      "using"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_b1_plan",
+   "level": "LS",
+   "title": "B1: planning together",
+   "titleFa": "B1: برنامه‌ریزی دونفره",
+   "teach": [
+    {
+     "en": "At B1 there is a planning task. You and your partner decide something together, for example how a friend should travel.",
+     "fa": "در B1 یک کار برنامه‌ریزی هست؛ با هم‌گروه دربارهٔ چیزی تصمیم می‌گیرید، مثلاً یک دوست چطور سفر کند."
+    },
+    {
+     "en": "Make suggestions: \"Shall we…?\", \"Why don't we…?\", \"How about…?\", \"Let's…\"",
+     "fa": "پیشنهاد بدهید: Shall we…؟، Why don't we…؟، How about…؟، Let's…"
+    },
+    {
+     "en": "Compare: \"The train is faster, but the coach is cheaper.\"",
+     "fa": "مقایسه کنید: The train is faster, but the coach is cheaper."
+    },
+    {
+     "en": "Finish with a decision: \"So, we agree — the train is the best idea.\"",
+     "fa": "با یک تصمیم تمام کنید: So, we agree — the train is the best idea."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Why don't we look at the prices first?",
+     "fa": "چرا اول قیمت‌ها را نگاه نکنیم؟"
+    },
+    {
+     "en": "How about the coach? It's cheaper than the train.",
+     "fa": "اتوبوس بین‌شهری چطور؟ از قطار ارزان‌تر است."
+    },
+    {
+     "en": "OK, let's choose the train, because it's quicker.",
+     "fa": "باشه، قطار را انتخاب کنیم چون سریع‌تر است."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "gap",
+     "prompt": "___ we take the train?",
+     "answers": [
+      "Shall",
+      "Do",
+      "Are"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Why don't we ___ a taxi?",
+     "answers": [
+      "get",
+      "getting",
+      "to get"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "How about ___ the bus?",
+     "answers": [
+      "taking",
+      "take",
+      "to take"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "___ choose the cheaper one.",
+     "answers": [
+      "Let's",
+      "Let",
+      "Lets to"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "The train is ___ than the coach.",
+     "answers": [
+      "faster",
+      "more fast",
+      "fastest"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "The coach is the ___ option.",
+     "answers": [
+      "cheapest",
+      "most cheap",
+      "cheaper"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Best way to finish:",
+     "answers": [
+      "So, we agree: the train is best.",
+      "Bye.",
+      "I don't know, you choose."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "How about going on Saturday?",
+      "How about go on Saturday?",
+      "How about to go on Saturday?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Why don't we book the tickets online?",
+     "answers": [
+      "Why don't we book the tickets online?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "The train is quicker than the coach.",
+     "answers": [
+      "The train is quicker than the coach."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a suggestion with \"Let's\": \"We take the bus.\"",
+     "answers": [
+      "Let's take the bus."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Compare: \"The bus is cheap. The train is cheaper.\" → one sentence with \"than\"",
+     "answers": [
+      "The train is cheaper than the bus."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "gap",
+     "prompt": "Shall we ___ on Friday?",
+     "answers": [
+      "go",
+      "going",
+      "to go"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Which sentence is correct?",
+     "answers": [
+      "Why don't we ask Ali?",
+      "Why we don't ask Ali?",
+      "Why don't we asking Ali?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Let's meet at the station at ten.",
+     "answers": [
+      "Let's meet at the station at ten."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make a suggestion with \"How about\": \"We go by car.\"",
+     "answers": [
+      "How about going by car?"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "A car is ___ comfortable than a coach.",
+     "answers": [
+      "more",
+      "most",
+      "much"
+     ]
+    }
+   ],
+   "related": []
+  },
+  {
+   "id": "ls_on_the_day",
+   "level": "LS",
+   "title": "On the day: tips and useful phrases",
+   "titleFa": "روز آزمون: نکته‌ها و جمله‌های کاربردی",
+   "teach": [
+    {
+     "en": "Book only with the official test provider, and bring the same ID you used to book.",
+     "fa": "فقط از طریق برگزارکنندهٔ رسمی ثبت‌نام کنید و همان مدرک شناسایی ثبت‌نام را همراه ببرید."
+    },
+    {
+     "en": "Arrive early. Being calm helps your English.",
+     "fa": "زود برسید؛ آرامش به انگلیسی حرف زدنتان کمک می‌کند."
+    },
+    {
+     "en": "If you need time, say: \"That's a good question. Let me think.\"",
+     "fa": "اگر وقت لازم دارید بگویید: That's a good question. Let me think."
+    },
+    {
+     "en": "If you make a mistake, just correct it and continue: \"Sorry, I mean…\" Nobody expects perfect English.",
+     "fa": "اگر اشتباه کردید درستش کنید و ادامه دهید: Sorry, I mean… کسی انگلیسی بی‌نقص انتظار ندارد."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sorry, could you say that again, please?",
+     "fa": "ببخشید، می‌شود دوباره بگویید؟"
+    },
+    {
+     "en": "Let me think… I'd say the park, because it's free.",
+     "fa": "بگذارید فکر کنم… می‌گویم پارک، چون رایگان است."
+    },
+    {
+     "en": "Sorry, I mean Tuesday, not Thursday.",
+     "fa": "ببخشید، منظورم سه‌شنبه است نه پنجشنبه."
+    }
+   ],
+   "practice": [
+    {
+     "kind": "choose",
+     "prompt": "You need a moment to think. You say:",
+     "answers": [
+      "That's a good question. Let me think.",
+      "…(silence for a minute)",
+      "I don't know. Next."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "You said the wrong day. You say:",
+     "answers": [
+      "Sorry, I mean Tuesday.",
+      "Oh no, I failed.",
+      "Forget it."
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Where should you book the test?",
+     "answers": [
+      "with the official test provider",
+      "with a stranger on social media",
+      "at the post office"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "What should you bring?",
+     "answers": [
+      "the same ID you used to book",
+      "nothing",
+      "a dictionary"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Sorry, could you ___ that again?",
+     "answers": [
+      "say",
+      "tell",
+      "speak"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Let me ___.",
+     "answers": [
+      "think",
+      "thinking",
+      "to think"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "Sorry, I ___ Friday, not Monday.",
+     "answers": [
+      "mean",
+      "means",
+      "meaning"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Your partner is quiet. You say:",
+     "answers": [
+      "What do you think?",
+      "Hurry up.",
+      "Say something!"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Could you speak more slowly, please?",
+     "answers": [
+      "Could you speak more slowly, please?"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Let me think for a moment.",
+     "answers": [
+      "Let me think for a moment."
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"Repeat.\"",
+     "answers": [
+      "Could you repeat that, please?",
+      "Sorry, could you repeat that, please?",
+      "Can you repeat that, please?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Correct yourself: say you mean \"nine\", not \"five\". Start with \"Sorry, I mean\"",
+     "answers": [
+      "Sorry, I mean nine.",
+      "Sorry, I mean nine, not five."
+     ]
+    }
+   ],
+   "test": [
+    {
+     "kind": "choose",
+     "prompt": "You didn't understand a word. You say:",
+     "answers": [
+      "Sorry, what does that word mean?",
+      "What?!",
+      "…(say nothing)"
+     ]
+    },
+    {
+     "kind": "gap",
+     "prompt": "That's a good ___.",
+     "answers": [
+      "question",
+      "ask",
+      "asking"
+     ]
+    },
+    {
+     "kind": "order",
+     "prompt": "Sorry, could you say that again?",
+     "answers": [
+      "Sorry, could you say that again?"
+     ]
+    },
+    {
+     "kind": "transform",
+     "prompt": "Make it polite: \"Speak slowly.\"",
+     "answers": [
+      "Could you speak more slowly, please?",
+      "Can you speak more slowly, please?",
+      "Could you speak slowly, please?"
+     ]
+    },
+    {
+     "kind": "choose",
+     "prompt": "Is it OK to make small mistakes?",
+     "answers": [
+      "Yes — correct yourself and carry on.",
+      "No — you fail at once.",
+      "Only at A1."
+     ]
+    }
+   ],
+   "related": []
+  }
+ ]
+}

@@ -83,6 +83,14 @@ class Grammar {
 
 final grammarProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/grammar.json')));
 
-/// "Common mistakes of Persian speakers" (level PM): always open, outside the A1–C2 ladder.
+/// Extra lesson packs outside the A1–C2 ladder, always open, played by the same topic screen:
+/// "Common mistakes of Persian speakers" (ids pm_, level PM) and IELTS Life Skills prep (ids ls_, level LS).
 final mistakesProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/mistakes.json')));
+final lifeSkillsProvider = FutureProvider<List<GTopic>>((ref) async => Grammar.parse(await loadAssetText('assets/data/lifeskills.json')));
 bool isMistakeTopic(String id) => id.startsWith('pm_');
+bool isLifeSkillsTopic(String id) => id.startsWith('ls_');
+bool isPackTopic(String id) => isMistakeTopic(id) || isLifeSkillsTopic(id);
+bool isPackLevel(String level) => level == 'PM' || level == 'LS';
+FutureProvider<List<GTopic>> topicSource(String id) => isLifeSkillsTopic(id) ? lifeSkillsProvider : isMistakeTopic(id) ? mistakesProvider : grammarProvider;
+String packHome(String level) => level == 'LS' ? '/lifeskills' : '/mistakes';
+String packLabel(String level) => level == 'LS' ? 'IELTS Life Skills' : 'Persian speakers';

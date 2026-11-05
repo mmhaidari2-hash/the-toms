@@ -16,15 +16,22 @@ import 'package:flutter_test/flutter_test.dart';
 /// "Common mistakes of Persian speakers": content rules and the screens open without a class lock.
 void main() {
   final topics = Grammar.parse(File('assets/data/mistakes.json').readAsStringSync());
+  final ls = Grammar.parse(File('assets/data/lifeskills.json').readAsStringSync());
   final grammarIds = {for (final t in Grammar.parse(File('assets/data/grammar.json').readAsStringSync())) t.id};
 
-  test('ten well-formed lessons, ids never clash with the grammar ladder', () {
+  test('both packs are well formed, ids never clash with the grammar ladder', () {
     expect(topics.length, greaterThanOrEqualTo(10));
-    expect({for (final t in topics) t.id}.length, topics.length);
+    expect(ls.length, greaterThanOrEqualTo(8));
+    expect({for (final t in [...topics, ...ls]) t.id}.length, topics.length + ls.length);
+    for (final t in ls) {
+      expect(t.level, 'LS');
+      expect(isLifeSkillsTopic(t.id), isTrue);
+      expect(topicSource(t.id), same(lifeSkillsProvider));
+    }
     final us = RegExp(r"\b(color|favorite|mom|apartment|cookie|candy|pants|vacation|soccer|gotten|center|realize|trash|movie)\b", caseSensitive: false);
-    for (final t in topics) {
-      expect(t.level, 'PM');
-      expect(isMistakeTopic(t.id), isTrue);
+    for (final t in [...topics, ...ls]) {
+      expect(isPackLevel(t.level), isTrue);
+      expect(isPackTopic(t.id), isTrue);
       expect(grammarIds, isNot(contains(t.id)));
       expect(t.practice.length, greaterThanOrEqualTo(12), reason: t.id);
       expect(t.test.length, greaterThanOrEqualTo(5), reason: t.id);
@@ -83,11 +90,25 @@ void main() {
     await settle();
     expect(find.byKey(const ValueKey('mistakes-list')), findsOneWidget);
     expect(find.textContaining('0 of ${topics.length} passed'), findsOneWidget);
-    final last = find.byKey(ValueKey('mistake-${topics.last.id}'));
+    final last = find.byKey(ValueKey('pack-${topics.last.id}'));
     await t.scrollUntilVisible(last, 200, scrollable: find.byType(Scrollable).first);
     await t.tap(last);
     await settle();
     expect(find.byKey(const ValueKey('topic-locked')), findsNothing, reason: 'mistakes are never locked');
     expect(find.textContaining('Persian speakers · Lesson'), findsOneWidget);
+
+    router.go('/lifeuk');
+    await settle();
+    await t.scrollUntilVisible(find.byKey(const ValueKey('luk-open-lifeskills')), 200, scrollable: find.byType(Scrollable).first);
+    await t.tap(find.byKey(const ValueKey('luk-open-lifeskills')));
+    await settle();
+    expect(find.byKey(const ValueKey('lifeskills-list')), findsOneWidget);
+    expect(find.byKey(const ValueKey('ls-2027')), findsOneWidget, reason: 'the B2-from-2027 warning is shown');
+    final first = find.byKey(ValueKey('pack-${ls.first.id}'));
+    await t.scrollUntilVisible(first, 200, scrollable: find.byType(Scrollable).first);
+    await t.tap(first);
+    await settle();
+    expect(find.byKey(const ValueKey('topic-locked')), findsNothing);
+    expect(find.textContaining('IELTS Life Skills · Lesson'), findsOneWidget);
   });
 }

@@ -22,14 +22,14 @@ class TopicScreen extends ConsumerWidget {
   const TopicScreen({super.key, required this.id});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final pm = isMistakeTopic(id);
-    final topics = ref.watch(pm ? mistakesProvider : grammarProvider).value;
+    final pack = isPackTopic(id);
+    final topics = ref.watch(topicSource(id)).value;
     final content = ref.watch(contentProvider).value;
     if (topics == null || content == null) return const NavLoading();
     final t = topics.where((x) => x.id == id).firstOrNull;
     if (t == null) return Scaffold(backgroundColor: BL.cream, body: Center(child: TextButton(onPressed: () => context.go('/school'), child: const Text('Topic not found — back to school'))));
     ref.watch(progressProvider);
-    if (pm) return _Topic(key: ValueKey('topic-screen-${t.id}'), topic: t, all: topics, content: content);
+    if (pack) return _Topic(key: ValueKey('topic-screen-${t.id}'), topic: t, all: topics, content: content);
     final g = GrammarGate(ref.read(progressProvider.notifier), content, topics, unlockAll: ref.read(progressProvider).gatesOpen);
     // Strict lock: a deep link to a locked topic never shows the lesson.
     if (!g.topicOpen(t)) return TopicLocked(topic: t, gate: g);
@@ -160,7 +160,7 @@ class _TopicState extends ConsumerState<_Topic> {
     if (ok) right++;
   }
 
-  String get _home => t.level == 'PM' ? '/mistakes' : '/school/${t.level}';
+  String get _home => isPackLevel(t.level) ? packHome(t.level) : '/school/${t.level}';
 
   void _next() {
     if (i + 1 < items.length) return setState(() => i++);
@@ -179,7 +179,7 @@ class _TopicState extends ConsumerState<_Topic> {
     if (stage == _Stage.done && award != null) {
       final pct = (right * 100 / max(t.test.length, 1)).round(), pass = pct >= Grammar.pass;
       final g = GrammarGate(ref.read(progressProvider.notifier), widget.content, widget.all, unlockAll: ref.read(progressProvider).gatesOpen);
-      final same = g.of(t.level), idx = same.indexOf(t), pm = t.level == 'PM';
+      final same = g.of(t.level), idx = same.indexOf(t), pm = isPackLevel(t.level);
       final next = idx + 1 < same.length ? same[idx + 1] : null;
       return Scaffold(
         backgroundColor: BL.cream,
@@ -210,7 +210,7 @@ class _TopicState extends ConsumerState<_Topic> {
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text(hl(t.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-                Text(hl('${t.level == 'PM' ? 'Persian speakers' : 'Class ${t.level}'} · ${switch (stage) { _Stage.learn => 'Lesson', _Stage.practice => 'Practice ${i + 1}/${items.length}', _ => 'Mini test ${i + 1}/${items.length}' }}'), key: const ValueKey('topic-stage'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
+                Text(hl('${isPackLevel(t.level) ? packLabel(t.level) : 'Class ${t.level}'} · ${switch (stage) { _Stage.learn => 'Lesson', _Stage.practice => 'Practice ${i + 1}/${items.length}', _ => 'Mini test ${i + 1}/${items.length}' }}'), key: const ValueKey('topic-stage'), style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600)),
               ]),
             ),
           ]),

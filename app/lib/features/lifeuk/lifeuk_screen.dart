@@ -87,6 +87,20 @@ class LukScreen extends ConsumerWidget {
           ),
           lukNote(key: const ValueKey('luk-disclaimer'), icon: Icons.info_outline_rounded, en: Luk.disclaimer, fa: Luk.disclaimerFa, color: BL.red),
           lukNote(key: const ValueKey('luk-level-note'), icon: Icons.translate_rounded, en: Luk.levelNote, fa: Luk.levelNoteFa),
+          const SizedBox(height: 10),
+          Material(
+            color: BL.paper,
+            borderRadius: BorderRadius.circular(18),
+            child: ListTile(
+              key: const ValueKey('luk-open-lifeskills'),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
+              leading: const Icon(Icons.record_voice_over_rounded, color: lukBlue),
+              title: Text(hl('IELTS Life Skills (A1–B1) prep'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink, fontSize: 14.5)),
+              subtitle: Text(hl('آزمون انگلیسی گفتار و شنیدار برای ویزا · ۸ درس'), textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+              trailing: const Icon(Icons.chevron_right_rounded, color: BL.muted),
+              onTap: () => context.push('/lifeskills'),
+            ),
+          ),
           const SizedBox(height: 14),
           Material(
             color: lukBlue,

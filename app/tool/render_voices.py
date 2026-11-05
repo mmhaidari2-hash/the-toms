@@ -108,8 +108,10 @@ def walk(o):
   elif isinstance(o,list):
     for v in o: walk(v)
 walk(json.load(open(os.path.join(A,'data/places.json'))))
-gram=os.path.join(A,'data/grammar.json')  # Grammar School (tool/make_grammar.py): Mrs Ellis reads explanations + examples
-if os.path.exists(gram):
+# Grammar School (tool/make_grammar.py), Persian speakers' mistakes and IELTS Life Skills prep (tool/content/):
+# Mrs Ellis reads explanations + examples
+for gram in [os.path.join(A,'data',f) for f in ('grammar.json','mistakes.json','lifeskills.json')]:
+  if not os.path.exists(gram): continue
   for t in json.load(open(gram))['topics']:
     for x in t['teach']+t['examples']: add('ellis',x['en'])
 lib=os.path.join(A,'data/library.json')  # graded readers (tool/make_library.py): narrator reads every sentence
@@ -194,6 +196,15 @@ if FRESH:
   for k,v in todo:
     if _fresh(k): ENG.add(k); MAN[k]=[v[0],sig(v[0])]
   todo=[(k,v) for k,v in todo if not _fresh(k)]
+# The free tier only covers ~0.5M characters a month, so the newest packs go first: Persian speakers' mistakes,
+# IELTS Life Skills, then Life in the UK (stable sort keeps the old order inside each group).
+PRIO={}
+for n,f in enumerate(('mistakes.json','lifeskills.json')):
+  fp=os.path.join(A,'data',f)
+  if os.path.exists(fp):
+    for t in json.load(open(fp))['topics']:
+      for x in t['teach']+t['examples']: PRIO.setdefault(x['en'],n)
+todo.sort(key=lambda kv: (PRIO.get(kv[1][1],9), 0 if kv[1][0]=='ellis' else 1) if kv[1][1] in PRIO else (9,1))
 LIMIT=int(os.environ.get('RENDER_LIMIT','0') or 0)
 if LIMIT: todo=todo[:LIMIT]
 print(len(items),'lines,',len(todo),'to render,',sum(len(t) for _,(_,t) in todo),'characters')
