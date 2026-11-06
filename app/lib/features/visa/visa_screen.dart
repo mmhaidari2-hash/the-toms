@@ -8,7 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../app/theme.dart';
 import '../shared/nav.dart';
 
-/// Visa Help Desk — general information and signposts only (GOV.UK + OISC). Never case advice.
+/// Visa Help Desk — general information and signposts only (GOV.UK + IAA). Never case advice.
 class VisaScreen extends StatefulWidget {
   const VisaScreen({super.key});
   @override

@@ -1,8 +1,8 @@
 {
   "title": "Visa Help Desk",
   "titleFa": "میز کمک ویزا",
-  "disclaimer_en": "General information only. New Life UK is not regulated by the OISC and does not give immigration advice. For your own situation, use GOV.UK and an OISC-regulated adviser.",
-  "disclaimer_fa": "فقط اطلاعات عمومی. New Life UK تحت نظارت OISC نیست و مشاورهٔ مهاجرتی نمی‌دهد. برای وضعیت خودتان از GOV.UK و مشاور تحت نظارت OISC استفاده کنید.",
+  "disclaimer_en": "General information only. New Life UK is not regulated by the Immigration Advice Authority (IAA, formerly OISC) and does not give immigration advice. For your own situation, use GOV.UK and an IAA-regulated adviser.",
+  "disclaimer_fa": "فقط اطلاعات عمومی. New Life UK تحت نظارت سازمان مشاورهٔ مهاجرت (IAA، نام پیشین OISC) نیست و مشاورهٔ مهاجرتی نمی‌دهد. برای وضعیت خودتان از GOV.UK و مشاور تحت نظارت IAA استفاده کنید.",
   "topics": [
     {
       "id": "govuk",
@@ -20,11 +20,11 @@
       "id": "oisc",
       "title": "Who can give immigration advice",
       "titleFa": "چه کسی می‌تواند مشاورهٔ مهاجرتی بدهد",
-      "body": "In the UK, immigration advice is regulated. Only OISC-regulated advisers, solicitors, barristers or legal executives with the right authorisation may advise on your case. Friends, unregulated agents and apps (including this one) must not.",
-      "bodyFa": "در بریتانیا مشاورهٔ مهاجرتی تحت نظارت است. فقط مشاوران تحت نظارت OISC، وکلا و افراد دارای مجوز می‌توانند دربارهٔ پروندهٔ شما مشاوره بدهند. دوستان، واسطه‌های بدون مجوز و اپ‌ها (از جمله این اپ) نباید.",
+      "body": "In the UK, immigration advice is regulated. Only advisers regulated by the Immigration Advice Authority (IAA, formerly OISC), solicitors, barristers or legal executives with the right authorisation may advise on your case. Friends, unregulated agents and apps (including this one) must not.",
+      "bodyFa": "در بریتانیا مشاورهٔ مهاجرتی تحت نظارت است. فقط مشاوران تحت نظارت IAA (نام پیشین OISC)، وکلا و افراد دارای مجوز می‌توانند دربارهٔ پروندهٔ شما مشاوره بدهند. دوستان، واسطه‌های بدون مجوز و اپ‌ها (از جمله این اپ) نباید.",
       "links": [
-        {"label": "Find an OISC adviser", "url": "https://www.gov.uk/find-an-immigration-adviser"},
-        {"label": "OISC — Office of the Immigration Services Commissioner", "url": "https://www.gov.uk/government/organisations/office-of-the-immigration-services-commissioner"}
+        {"label": "Find an immigration adviser", "url": "https://www.gov.uk/find-an-immigration-adviser"},
+        {"label": "Immigration Advice Authority (IAA, formerly OISC)", "url": "https://www.gov.uk/government/organisations/immigration-advice-authority"}
       ]
     },
     {
@@ -54,8 +54,8 @@
       "id": "help",
       "title": "Free / low-cost help signposts",
       "titleFa": "راهنمای کمک رایگان یا کم‌هزینه",
-      "body": "Citizens Advice can help you find the right kind of support. For asylum or complex cases, ask an OISC adviser or regulated solicitor. Emergency: 999. Non-emergency police: 101. NHS: 111.",
-      "bodyFa": "Citizens Advice می‌تواند شما را به کمک مناسب راهنمایی کند. برای پناهندگی یا پرونده‌های پیچیده از مشاور OISC یا وکیل دارای مجوز بپرسید. اضطراری: ۹۹۹. پلیس غیر اضطراری: ۱۰۱. NHS: ۱۱۱.",
+      "body": "Citizens Advice can help you find the right kind of support. For asylum or complex cases, ask an IAA-regulated adviser (formerly OISC) or a regulated solicitor. Emergency: 999. Non-emergency police: 101. NHS: 111.",
+      "bodyFa": "Citizens Advice می‌تواند شما را به کمک مناسب راهنمایی کند. برای پناهندگی یا پرونده‌های پیچیده از مشاور تحت نظارت IAA (نام پیشین OISC) یا وکیل دارای مجوز بپرسید. اضطراری: ۹۹۹. پلیس غیر اضطراری: ۱۰۱. NHS: ۱۱۱.",
       "links": [
         {"label": "Citizens Advice", "url": "https://www.citizensadvice.org.uk/"},
         {"label": "Get immigration advice (GOV.UK)", "url": "https://www.gov.uk/government/publications/how-to-get-immigration-advice/how-to-get-immigration-advice"}

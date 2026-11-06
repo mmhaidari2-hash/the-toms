@@ -610,23 +610,33 @@ Future<void> showSpotSheet(
                   Navigator.of(sheet).pop();
                   context.push('/visa');
                 },
-                child: const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
                   child: Row(
                     children: [
-                      Icon(Icons.badge_rounded, color: BL.gold),
-                      SizedBox(width: 12),
+                      const Icon(Icons.badge_rounded, color: BL.gold),
+                      const SizedBox(width: 12),
                       Expanded(
-                        child: Text(
-                          'General visa info · GOV.UK & OISC signposts',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w800,
-                            fontSize: 15,
-                          ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text(
+                              'General visa info · GOV.UK & IAA signposts',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                                fontSize: 15,
+                              ),
+                            ),
+                            Text(
+                              hl('اطلاعات عمومی ویزا · راهنمای GOV.UK و IAA'),
+                              textDirection: helperDir,
+                              style: BL.fa(12, color: Colors.white70),
+                            ),
+                          ],
                         ),
                       ),
-                      Icon(Icons.chevron_right_rounded, color: Colors.white),
+                      const Icon(Icons.chevron_right_rounded, color: Colors.white),
                     ],
                   ),
                 ),
@@ -634,14 +644,17 @@ Future<void> showSpotSheet(
             ),
             const SizedBox(height: 8),
             Text(
-              hl(
-                'Not immigration advice. For your case, use GOV.UK and an OISC-regulated adviser.',
-              ),
+              'Not immigration advice. For your case, use GOV.UK and an adviser regulated by the IAA (formerly OISC).',
               style: const TextStyle(
                 fontSize: 12.5,
                 color: BL.muted,
                 height: 1.35,
               ),
+            ),
+            Text(
+              hl('مشاورهٔ مهاجرتی نیست. برای پروندهٔ خودتان از GOV.UK و مشاور تحت نظارت IAA (نام پیشین OISC) استفاده کنید.'),
+              textDirection: helperDir,
+              style: BL.fa(12, color: BL.muted),
             ),
           ],
           if (s.id == 'cinema') ...[

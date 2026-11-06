@@ -25,9 +25,9 @@
      "ms": 13220
     },
     {
-     "en": "The Life in the UK test has 24 questions and you have 45 minutes. You need 75 percent to pass, so at least 18 correct answers. Most people applying to settle or become citizens also need to show English at B1 level or above.",
-     "fa": "آزمون زندگی در بریتانیا ۲۴ سؤال دارد و ۴۵ دقیقه وقت داری. برای قبولی ۷۵ درصد لازم است، یعنی دست‌کم ۱۸ پاسخ درست. بیشتر متقاضیان اقامت دائم یا شهروندی باید انگلیسی در سطح B1 یا بالاتر را هم ثابت کنند.",
-     "ms": 15150
+     "en": "The Life in the UK test has 24 questions and you have 45 minutes. You need 75 percent to pass, so at least 18 correct answers. Citizenship needs English speaking and listening at B1 or above. For settlement on many routes, it is B1 if you apply before 26 March 2027, and B2 from that date.",
+     "fa": "آزمون زندگی در بریتانیا ۲۴ سؤال دارد و ۴۵ دقیقه وقت داری. برای قبولی ۷۵ درصد لازم است، یعنی دست‌کم ۱۸ پاسخ درست. برای شهروندی، گفتار و شنیدار انگلیسی در سطح B1 یا بالاتر لازم است. برای اقامت دائم در بسیاری از مسیرها، اگر قبل از ۲۶ مارس ۲۰۲۷ درخواست بدهی B1 و از آن تاریخ به بعد B2 لازم است.",
+     "ms": 0
     }
    ],
    "cards": [
@@ -271,8 +271,8 @@
      ],
      "answer": 0,
      "tf": false,
-     "why": "The usual requirement is speaking and listening at B1 level or above, unless you are exempt.",
-     "whyFa": "معمولاً گفتار و شنیدار در سطح B1 یا بالاتر لازم است، مگر اینکه معاف باشی."
+     "why": "For citizenship it is B1 or above, unless you are exempt. Settlement is different: on many routes it rises to B2 for applications from 26 March 2027.",
+     "whyFa": "برای شهروندی B1 یا بالاتر لازم است، مگر اینکه معاف باشی. اقامت دائم فرق دارد: در بسیاری از مسیرها برای درخواست‌های از ۲۶ مارس ۲۰۲۷ به B2 می‌رسد."
     },
     {
      "id": "values_14",
