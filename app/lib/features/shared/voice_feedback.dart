@@ -19,6 +19,7 @@ class VoiceFeedback extends StatefulWidget {
 class _VoiceFeedbackState extends State<VoiceFeedback> {
   Timer? _timer;
   VoiceFailure? _visible;
+  int _gen = 0;
 
   @override
   void initState() {
@@ -28,13 +29,16 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
 
   void _changed() {
     _timer?.cancel();
+    // Several missing lines can report in one frame. Only the latest callback
+    // may start the auto-hide timer, or an earlier one stays pending.
+    final gen = ++_gen;
     // Some screens request speech during mount; never rebuild during that build.
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!mounted) return;
+      if (!mounted || gen != _gen) return;
       setState(() => _visible = Voice.failure.value);
       if (_visible != null) {
         _timer = Timer(const Duration(seconds: 7), () {
-          if (mounted) setState(() => _visible = null);
+          if (mounted && gen == _gen) setState(() => _visible = null);
         });
       }
     });
@@ -43,6 +47,7 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
 
   @override
   void dispose() {
+    _gen++;
     _timer?.cancel();
     Voice.failure.removeListener(_changed);
     super.dispose();
