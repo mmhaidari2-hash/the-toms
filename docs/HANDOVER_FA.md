@@ -4,16 +4,17 @@
 مخزن: https://github.com/mmhaidari2-hash/the-toms
 شاخهٔ کار: `fix/offline-audio-content` — **همیشه روی همین شاخه کار کنید.**
 
-## از اینجا ادامه دهید — ۶ نوامبر ۲۰۲۶، بعد از گزارش چرخش
+## از اینجا ادامه دهید — ۶ نوامبر ۲۰۲۶، بعد از جواب پریا و وضعیت صدا
 
 رکورد معتبر ادامه این است، نه جست‌وجوی دوبارهٔ کار تمام‌شده:
 
-- [نقطهٔ ثبت ۶ نوامبر ۲۰۲۶](CHECKPOINT_2026-11-06_FA.md) — چهار اصلاح قبلی، و پایین همان فایل: چرخش درس پریا و بنر صدا (t237u / t238u) به‌همراه مشکل بازِ جواب خارج از متن (t236u).
-- نوک مجاز همان `origin/fix/offline-audio-content` است. کامیت‌های `51754c98b`، `f65208064`، `42ac8ee96`، `8cfbe9e89` و `555884785` از قبل نیا هستند. دوباره ادغام، cherry-pick، squash یا اعمال نکنید.
+- [نقطهٔ ثبت ۶ نوامبر ۲۰۲۶](CHECKPOINT_2026-11-06_FA.md) — چهار اصلاح قبلی، چرخش درس پریا (تمام)، و بخش «جواب خارج از متن و وضعیت صدا». t236u در سورس بسته شده است. چرخش را دوباره نسازید.
+- نوک مجاز همان `origin/fix/offline-audio-content` است. کامیت‌های `51754c98b`، `f65208064`، `42ac8ee96`، `8cfbe9e89`، `555884785` و `171a75cdc` از قبل نیا هستند. دوباره ادغام، cherry-pick، squash یا اعمال نکنید.
 - SHA سورس را از `.last_build_id` پیش‌نمایش حدس نزنید. پیش‌نمایش ساعت ۱۳:۲۱ با HEAD فعلی یکی نیست و در این مرحله منتشر نشد.
 - بخش‌های «کارهای در حال اجرا» و «انجام‌شده تا صبح ۶ نوامبر» پایین همین فایل، عکس لحظهٔ صبح‌اند و وضعیت فعلی را ثابت نمی‌کنند.
+- نتیجهٔ مجموعهٔ کامل، اگر در نقطهٔ ثبت برای همین SHA نوشته نشده باشد، هنوز ادعا نشده است. `+242 ~2 -10` و `+17` و `+19` نتیجه‌های قدیمی‌اند.
 
-English: Continue from [the 6 Nov 2026 checkpoint](CHECKPOINT_2026-11-06_FA.md), including the Priya shop rotation section, and from the latest `origin/fix/offline-audio-content`. Do not reapply the commits already listed there. The preview was not republished. The sections below are the morning snapshot.
+English: Continue from [the 6 Nov 2026 checkpoint](CHECKPOINT_2026-11-06_FA.md). The Priya rotation work and the candy-reply fix are already recorded there. Do not reapply those commits. The preview was not republished. The sections below are the morning snapshot. Old full-suite counts are not a new pass.
 
 ## قوانین مهم مالک
 - **هرگز** شاخه‌های `main` و `source` و نسخهٔ زندهٔ سایت را تغییر ندهید و چیزی منتشر نکنید.

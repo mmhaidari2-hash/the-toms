@@ -232,7 +232,7 @@ class _ChatState extends ConsumerState<_Chat> {
 
   List<String> get _vocab => ref.read(progressProvider).leitnerBox.keys.toList();
 
-  Future<void> _show(String speaker, String text, String? fa, {int delay = 700}) async {
+  Future<void> _show(String speaker, String text, String? fa, {int delay = 700, bool scripted = true}) async {
     setState(() => _typing = true);
     await Future.delayed(Duration(milliseconds: delay));
     if (!mounted) return;
@@ -248,7 +248,7 @@ class _ChatState extends ConsumerState<_Chat> {
       _msgs.add(_Msg(speaker, _t(text), fa: fa, raw: text));
     });
     // Wait for the whole clip so the next line never cuts this one off mid-sentence.
-    await Voice.say(speaker, text, rate: _autoRate, shown: _t(text));
+    await Voice.say(speaker, text, rate: _autoRate, shown: _t(text), scripted: scripted);
   }
 
   Future<void> _say(DialogueNode n0, {bool first = false}) async {
@@ -307,8 +307,8 @@ class _ChatState extends ConsumerState<_Chat> {
       _msgs.add(_Msg('me', text));
     });
     final r = brain is OfflineBrain
-        ? (brain as OfflineBrain).respondSync(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab))
-        : await brain.respond(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab));
+        ? (brain as OfflineBrain).respondSync(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab, nodes: widget.s.nodes))
+        : await brain.respond(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab, nodes: widget.s.nodes));
     final ctrl = ref.read(progressProvider.notifier);
     final speaker = _who(node.speaker);
     if (_srs != null && text.toLowerCase().contains(_srs!.phrase.toLowerCase().split(' / ').first.replaceAll(RegExp(r'[.!?]'), ''))) {
@@ -326,7 +326,7 @@ class _ChatState extends ConsumerState<_Chat> {
         _hints = _misses >= 2;
         _fb = _Feedback(_FbKind.ghost, 'Ghost hint', _t(ghost.replaceAll('You mean… ', '')), _tFa(node.branches.first.suggestionFa));
       });
-      await _show(speaker.id, _misses == 1 ? _t(ghost) : 'No worries — have a peek at these 👇', null);
+      await _show(speaker.id, _misses == 1 ? _t(ghost) : 'No worries — have a peek at these 👇', null, scripted: false);
       return;
     }
     _correct += r.recastTip == null ? 1 : 0;
@@ -437,7 +437,8 @@ class _ChatState extends ConsumerState<_Chat> {
   Future<void> _speak(Speed sp) {
     final m = _activeMsg;
     if (m == null) return Voice.say(_lineSpeaker, _raw, rate: Voice.rates[sp.index], shown: _line);
-    return Voice.say(m.speaker, m.raw ?? m.text, rate: Voice.rates[sp.index], shown: m.text);
+    final ownWords = m.speaker == 'me' && m.raw == null;
+    return Voice.say(m.speaker, m.raw ?? m.text, rate: Voice.rates[sp.index], shown: m.text, scripted: !ownWords);
   }
 
   Future<void> _speakText(String t, double rate) => Voice.say(_activeMsg?.speaker ?? _lineSpeaker, t, rate: rate);

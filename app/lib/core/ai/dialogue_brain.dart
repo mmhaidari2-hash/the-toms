@@ -12,7 +12,8 @@ class BrainRequest {
   final String sceneId, characterId, nodeId, userText, level;
   final DialogueNode node;
   final List<String> vocab;
-  const BrainRequest({required this.sceneId, required this.characterId, required this.node, required this.userText, required this.level, this.vocab = const []}) : nodeId = '';
+  final Map<String, DialogueNode>? nodes;
+  const BrainRequest({required this.sceneId, required this.characterId, required this.node, required this.userText, required this.level, this.vocab = const [], this.nodes}) : nodeId = '';
   Map<String, dynamic> toJson() => {'scene_id': sceneId, 'character_id': characterId, 'node_id': node.id, 'user_text': userText, 'level': level};
 }
 
@@ -46,12 +47,14 @@ class OfflineBrain implements DialogueBrain {
   Future<BrainReply> respond(BrainRequest r) async => respondSync(r);
 
   BrainReply respondSync(BrainRequest r) {
-    final m = ConversationEngine.match(r.node, r.userText, vocab: r.vocab);
+    final m = r.nodes == null
+        ? ConversationEngine.match(r.node, r.userText, vocab: r.vocab)
+        : ConversationEngine.route(r.nodes!, r.node, r.userText, vocab: r.vocab);
     final recast = RecastEngine.recast(r.node, r.userText);
     final pol = PolitenessEngine.score(r.userText);
     final xray = ConnectedSpeech.of(r.node);
-    // A recast with no keyword match still moves the story on along the best branch (meaning was clear enough).
-    final branch = m.branch ?? (recast != null ? r.node.branches.firstWhere((b) => b.success, orElse: () => r.node.branches.first) : null);
+    // A recast explains the English. It does not invent a lesson step the words did not take.
+    final branch = m.branch;
     if (branch == null) return BrainReply(connectedSpeechXray: xray, trustDelta: 0, register: pol.register);
     var trust = branch.trustDelta + pol.bonus;
     String? reply = recast?.echo;

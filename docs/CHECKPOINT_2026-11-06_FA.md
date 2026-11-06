@@ -4,9 +4,9 @@
 
 English: Start here and from the latest `origin/fix/offline-audio-content`. Do not reapply the finished commits below.
 
-ادامهٔ همان روز، گزارش چرخش درس پریا، در بخش «درس پریا — چرخش و بنر صدا» پایین همین فایل است. آن بخش را هم بخوانید و جداگانه از نو کشف نکنید.
+ادامهٔ همان روز، گزارش چرخش درس پریا، در بخش «درس پریا — چرخش و بنر صدا» پایین همین فایل است. آن بخش تمام است. بعد از آن، بخش «جواب خارج از متن و وضعیت صدا» را بخوانید. t236u دیگر باز نیست.
 
-English: The later Priya shop rotation section in this same file is also already done. Do not rediscover it.
+English: The Priya shop rotation section is done. The later alternate-reply and audio-status section is the next record. Do not rediscover either.
 
 ورود از [سند تحویل](HANDOVER_FA.md). سؤال‌های باز حقوقی همچنان در [OPEN_QUESTIONS_FA.md](compliance/OPEN_QUESTIONS_FA.md) است. این نقطه آن دفتر را نمی‌بندد و تأیید حقوقی، تأیید کامل آزمون، یا آمادگی Play نیست.
 
@@ -162,11 +162,11 @@ English: Rotating this lesson after the chat had grown threw `ArgumentError` fro
 
 English: The covering notice matches the old bottom banner. On this branch the notice stays at the top and the short layout keeps the line and controls clear of it. The Newcomer saffron line resolves through the existing `learner` → `me` clip. Missing audio is not solved by moving the notice.
 
-### t236u — هنوز باز
+### t236u — در بخش بعدی بسته شد
 
-«yes please can i have candy» واژهٔ `can` را دارد و شاخهٔ اول گره `n1` با کلیدواژه‌های excuse / help / can همان را می‌پذیرد و به «Of course! What are you looking for?» می‌رود. این در آزمون و در عکس عمودی دوباره دیده شد. به گفت‌وگوی عمومی هوش مصنوعی تبدیل نشد و باز می‌ماند.
+قبل از اصلاح، «yes please can i have candy» به‌خاطر واژهٔ `can` به شاخهٔ اول می‌رفت و پریا می‌گفت «Of course! What are you looking for?». همان رفتار در آزمونِ قبل از اصلاح دوباره دیده شد. اصلاح و آزمونش در بخش «جواب خارج از متن و وضعیت صدا» است، نه اینجا. عکس عمودیِ قدیمیِ «جواب تایپ‌شده» هنوز همان جواب نادرست را نشان می‌دهد و سندِ قبل از اصلاح است.
 
-English: The off-script candy reply is the existing keyword match. It stays open.
+English: The candy mismatch was real. The fix is in the next section. The older portrait screenshot still shows the wrong reply.
 
 ### آزمون این مرحله
 
@@ -185,4 +185,40 @@ Flutter 3.47.7. فرمان:
 - [افقی، خط پریا زیر بنر نرفته](checkpoint/2026-11-06/roleplay-after-landscape-notice.png)
 - [افقی با صفحه‌کلید، نقش و ارسال پیدا است](checkpoint/2026-11-06/roleplay-after-landscape-keyboard.png)
 
-English: Focused serial result `+19`. Not a full suite and not a Play-ready claim.
+English: Focused serial result `+19` on `171a75cdc`. Not a full suite and not a Play-ready claim.
+
+## جواب خارج از متن و وضعیت صدا
+
+این بخش بعد از `171a75cdc` است. چرخش و جای بنر دوباره ساخته نشد.
+
+### جواب فروشگاه پریا
+
+`ConversationEngine.match` دیگر با `can` / `please` / `yes` به‌تنهایی جمله‌ای را قبول نمی‌کند که واژهٔ محتواییِ خارج از درس داشته باشد. جملهٔ دقیقِ نوشته‌شده در درس همچنان شاخهٔ خودش را می‌برد. یک حرفِ جاافتاده در واژهٔ بلند (saffron / safron، please / pleas) و علامت‌ها هنوز قبول‌اند. نفی (`don't` / `no` / `not`) شاخهٔ مثبت را جلو نمی‌برد، مگر خودِ پیشنهادِ درس همان جملهٔ منفی باشد.
+
+اگر همان جمله از قبل به سؤال بعدی جواب داده باشد، داستان یک قدم به خطِ نوشته‌شدهٔ بعد می‌رود. «Do you sell saffron?» و «I'm looking for saffron» از گرهٔ کمک به توضیح راهرو می‌رسند، نه به «دنبال چه می‌گردید؟». «Excuse me, can you help me?» و «yes please» هنوز همان سؤال را می‌آورند. «candy» و «yes pleas can i have candy» شاخه نمی‌گیرند، اعتماد و شمارش موفقیت اضافه نمی‌کنند، و راهنمای دوزبانهٔ همان درس («You mean…» به‌علاوهٔ فارسیِ پیشنهاد) می‌ماند. قیمت و موجودی ساخته نمی‌شود. بازنویسیِ ادب، اگر واژهٔ درس را نزده باشد، دیگر خودش داستان را جلو نمی‌برد. گراف درس و هدف‌ها عوض نشدند. نقش عوض‌شده و چرخش در `priya_shop_layout_test` ماندند؛ انتظارِ قدیمیِ «Of course» بعد از آب‌نبات برداشته شد، نه پوششِ چرخش.
+
+آزمون قبل از اصلاح، روی همین فایل و کدِ قبلی، چهار انتظار را رد کرد: آب‌نبات شاخه می‌گرفت، زعفران روی `n2` می‌ماند، «I don't want saffron» قبول می‌شد، و `successMap` از ۰ به ۱ می‌رفت. بعد از اصلاح همان آزمون‌ها گذشتند.
+
+English: Weak words no longer accept an unnamed item. A supported item continues to the authored answer. An unsupported request gets the existing bilingual hint and no success. The lesson graph was not rewritten around one sentence.
+
+### صدا — چه چیزی «No recording» می‌سازد
+
+روی این شاخه و روی ایندکسِ پیش‌نمایشِ ۱۳:۲۱ (خواندنی، ۴۴۶۲۸۰ بایت، Last-Modified همان ساعت)، این کلیدها هستند: `7f6d6c589b18837c` و `8db96d4723b8e439` و `9289f78efa9292f6` و `b5a1fd4a8c2b34ed`. کلیدهای آب‌نبات نیستند. هر خطِ نوشته‌شدهٔ `l1_u43_1` با ایندکسِ شاخه پیدا می‌شود (learner به me). پس خودِ «Do you sell saffron?» وقتی ایندکس بار شده باشد کلیپِ گم‌شده نیست.
+
+GET خواندنیِ همان کلید از `raw.githubusercontent.com/.../fix/offline-audio-content/app/assets/audio/7f6d6c589b18837c.mp3` برابر فایل شاخه است: ۴۱۲۴ بایت، SHA-256 `caf0a85b044f5434a03a3e5cd8badd13e3f3202559cc86408f0207bb8571376c`. `main.dart.js` پیش‌نمایش همین پایه را برای mp3 می‌گذارد. پخش در مرورگر انجام نشد. فایلِ همان کلید روی سایتِ `the-toms` (نه پیش‌نمایش) ۴۵۵۶ بایت و SHA-256 دیگری است (`c135025ae657786e…`). آن سایت تغییر داده نشد و این تفاوت با یک نام مستعار در ایندکس حل نشد.
+
+در سورس، «No recording» فقط وقتی است که ایندکس آماده است و کلیدِ یک خطِ درسی نیست. سه وضعیت جدا شد:
+
+- ایندکس هنوز بار نشده یا بارگذاری‌اش شکست خورده: «The audio list is not ready yet / فهرست صدا هنوز آماده نیست» و تلاش دوباره همان بارگذاری را تکرار می‌کند. این دیگر جملهٔ «صدای این جمله نیست» نیست.
+- کلید هست و پخش false برمی‌گرداند: «Audio could not play». روی لینوکس `playClip` فوراً false است؛ آزمون همان را برای خط زعفران ثبت کرد، نه missing.
+- جملهٔ خودِ یادگیرنده که کلیپ ندارد، و جملهٔ راهنمای Ghost، دیگر بنرِ «این خط ضبط نشده» نمی‌سازند و به‌جای یک کلیپ دیگر پخش نمی‌شوند. تمرین ادامه دارد. خطِ درسیِ بی‌کلیپ هنوز همان بنرِ صادق را دارد و تلاش دوباره برای missing همچنان false است.
+
+این مرحله کلیپ، کلید ایندکس، یا mp3 خالی اضافه نکرد.
+
+English: Supported shop lines resolve when the index is loaded. The branch clip matches the raw URL byte for byte. An unloaded index, a failed play, and the learner's own unrecorded words are three different statuses. No clip was invented. The preview page was not driven, and the live site was not changed.
+
+### آزمون این بخش
+
+Flutter 3.47.7. قبل از اصلاح: `test/priya_shop_reply_test.dart` چهار شکست (خروجی در لاگِ قبل). بعد از اصلاح، همین فایل به‌همراه `voice_feedback_test` و `engine_test` و `conversation_suggestions_test`: `+42` و `All tests passed`. سپس `priya_shop_layout_test` و `messages_flow_test` و `play_as_test` و `chat_bubbles_test` و `roleplay_test`: `+9` و `All tests passed`. مجموعهٔ کامل روی این SHA در همین بخش، تا وقتی عدد دقیق نوشته شود، اجرا نشده است.
+
+English: Focused tests passed after the fix. The four reply failures above are the before evidence. This paragraph does not claim a new full-suite pass.

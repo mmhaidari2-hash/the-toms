@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart';
 import '../i18n/you.dart';
 import 'speech.dart';
 
-enum VoiceFailureKind { missing, playback }
+enum VoiceFailureKind { missing, playback, notReady }
 
 class VoiceFailure {
   final VoiceFailureKind kind;
@@ -25,15 +25,32 @@ class Voice {
   static final failure = ValueNotifier<VoiceFailure?>(null);
   static Future<bool> Function(String, double) _play = SpeechInput.playClip;
   static const rates = [0.72, 0.86, 1.0]; // slow, medium, normal
+  static bool _ready = false;
+  static bool _allowLoad = true;
+  static Future<void>? _loading;
 
-  static Future<void> load() async {
+  static Future<void> load() {
+    if (!_allowLoad) {
+      _ready = false;
+      return Future.value();
+    }
+    return _loading ??= _readIndex();
+  }
+
+  static Future<void> _readIndex() async {
     try {
       _index = (jsonDecode(
         await loadAssetText('assets/audio/index.json'),
       ) as List).cast<String>().toSet();
+      _ready = true;
+    } catch (_) {
+      _ready = false;
+      _loading = null;
+    }
+    try {
+      await SpeechInput.initAudio();
+      SpeechInput.unlockOnFirstTap();
     } catch (_) {}
-    await SpeechInput.initAudio();
-    SpeechInput.unlockOnFirstTap();
   }
 
   /// Career-pack guests (played instead of the learner) whose replies are recorded under their own voice.
@@ -74,22 +91,36 @@ class Voice {
     failure.value = null;
   }
 
-  static Future<bool> retry() {
+  static Future<bool> retry() async {
     final last = failure.value;
-    if (last == null || last.kind == VoiceFailureKind.missing) {
-      return Future.value(false);
+    if (last == null || last.kind == VoiceFailureKind.missing) return false;
+    if (last.kind == VoiceFailureKind.notReady) {
+      _ready = false;
+      _loading = null;
+      _allowLoad = true;
+      await load();
     }
     return say(last.speaker, last.text, rate: last.rate, shown: last.shown);
   }
 
   @visibleForTesting
   static void debugSetAudio({
-    required Set<String> keys,
+    Set<String>? keys,
     Future<bool> Function(String, double)? player,
+    bool ready = true,
+    bool allowLoad = true,
+    bool clear = true,
   }) {
-    stop();
-    _index = Set.of(keys);
-    _play = player ?? SpeechInput.playClip;
+    if (clear) stop();
+    if (keys != null) _index = Set.of(keys);
+    if (player != null) {
+      _play = player;
+    } else if (keys != null) {
+      _play = SpeechInput.playClip;
+    }
+    _ready = ready;
+    _allowLoad = allowLoad;
+    if (!allowLoad) _loading = null;
   }
 
   /// Plays one whole line as one clip in its speaker's voice. Returns false when the clip was cut short by
@@ -99,7 +130,11 @@ class Voice {
     String text, {
     double rate = 1,
     String? shown,
+    bool scripted = true,
   }) async {
+    final ticket = _gen;
+    if (!_ready) await load();
+    if (ticket != _gen) return false;
     final g = ++_gen;
     failure.value = null;
     final safeRate = rate.isFinite ? rate.clamp(.5, 2.0).toDouble() : 1.0;
@@ -107,8 +142,11 @@ class Voice {
         _find(speaker, text) ?? (shown == null ? null : _find(speaker, shown));
     if (k == null) {
       SpeechInput.stopClip();
+      if (g != _gen) return false;
+      // The learner's own unrecorded words are not a missing lesson line.
+      if (!scripted) return false;
       failure.value = VoiceFailure(
-        VoiceFailureKind.missing,
+        _ready ? VoiceFailureKind.missing : VoiceFailureKind.notReady,
         speaker,
         text,
         safeRate,

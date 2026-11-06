@@ -99,11 +99,11 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    hl(
-                                      issue.kind == VoiceFailureKind.missing
-                                          ? 'No recording for this line yet. You can keep reading.'
-                                          : 'Audio could not play. Check your connection or try again.',
-                                    ),
+                                    hl(switch (issue.kind) {
+                                      VoiceFailureKind.missing => 'No recording for this line yet. You can keep reading.',
+                                      VoiceFailureKind.playback => 'Audio could not play. Check your connection or try again.',
+                                      VoiceFailureKind.notReady => 'The audio list is not ready yet. You can keep reading, or retry.',
+                                    }),
                                     style: const TextStyle(
                                       color: Colors.white,
                                       fontSize: 13,
@@ -112,9 +112,11 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
                                   ),
                                   if (helperLang == 'fa')
                                     Text(
-                                      issue.kind == VoiceFailureKind.missing
-                                          ? 'صدای این جمله هنوز آماده نیست؛ می‌توانی خواندن را ادامه بدهی.'
-                                          : 'صدا پخش نشد؛ اتصال را بررسی کن یا دوباره امتحان کن.',
+                                      switch (issue.kind) {
+                                        VoiceFailureKind.missing => 'صدای این جمله هنوز آماده نیست؛ می‌توانی خواندن را ادامه بدهی.',
+                                        VoiceFailureKind.playback => 'صدا پخش نشد؛ اتصال را بررسی کن یا دوباره امتحان کن.',
+                                        VoiceFailureKind.notReady => 'فهرست صدا هنوز آماده نیست؛ می‌توانی بخوانی یا دوباره امتحان کنی.',
+                                      },
                                       textDirection: TextDirection.rtl,
                                       style: BL.fa(12, color: Colors.white),
                                     ),
@@ -134,7 +136,7 @@ class _VoiceFeedbackState extends State<VoiceFeedback> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      if (issue.kind == VoiceFailureKind.playback)
+                      if (issue.kind != VoiceFailureKind.missing)
                         TextButton(
                           key: const ValueKey('voice-retry'),
                           style: TextButton.styleFrom(foregroundColor: Colors.white),

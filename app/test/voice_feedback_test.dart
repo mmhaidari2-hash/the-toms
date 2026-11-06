@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:british_life/app/theme.dart';
 import 'package:british_life/core/platform/voice.dart';
@@ -201,4 +202,67 @@ void main() {
       await t.pumpWidget(const SizedBox());
     },
   );
+
+  test('an unloaded audio list is not the same as a missing line', () async {
+    Voice.debugSetAudio(keys: {}, ready: false, allowLoad: false);
+    expect(await Voice.say('learner', 'Do you sell saffron?'), isFalse);
+    expect(Voice.failure.value?.kind, VoiceFailureKind.notReady);
+    expect(await Voice.say('me', 'yes please can i have candy', scripted: false), isFalse);
+    expect(Voice.failure.value, isNull);
+  });
+
+  test('recorded saffron lines resolve; typed candy is not a recorded line', () async {
+    const saffron = 'Do you sell saffron?';
+    const aisle = "We do! Spices are in aisle six. But saffron is behind the till. It's very expensive!";
+    expect(File('assets/audio/7f6d6c589b18837c.mp3').lengthSync(), greaterThan(1000));
+    expect(File('assets/audio/8db96d4723b8e439.mp3').lengthSync(), greaterThan(1000));
+    expect(File('assets/audio/b922edc0347e152d.mp3').existsSync(), isFalse);
+    expect(File('assets/audio/f42e529f09e12a54.mp3').existsSync(), isFalse);
+
+    await Voice.load();
+    expect(Voice.has('learner', saffron), isTrue);
+    expect(Voice.key('learner', saffron), '2baed0e7dbf8c870');
+    expect(Voice.key('me', saffron), '7f6d6c589b18837c');
+    expect(Voice.has('priya', aisle), isTrue);
+    expect(Voice.has('me', 'yes please can i have candy'), isFalse);
+
+    expect(await Voice.say('learner', saffron), isFalse);
+    expect(Voice.failure.value?.kind, VoiceFailureKind.playback);
+
+    final played = <String>[];
+    Voice.debugSetAudio(player: (asset, _) async {
+      played.add(asset);
+      return false;
+    });
+    expect(await Voice.say('learner', saffron), isFalse);
+    expect(Voice.failure.value?.kind, VoiceFailureKind.playback);
+    expect(played, ['assets/audio/7f6d6c589b18837c.mp3']);
+
+    expect(await Voice.say('priya', aisle), isFalse);
+    expect(played.last, 'assets/audio/8db96d4723b8e439.mp3');
+    expect(Voice.failure.value?.kind, VoiceFailureKind.playback);
+
+    expect(await Voice.say('me', 'yes please can i have candy', scripted: false), isFalse);
+    expect(Voice.failure.value, isNull);
+    expect(played, ['assets/audio/7f6d6c589b18837c.mp3', 'assets/audio/8db96d4723b8e439.mp3']);
+  });
+
+  test('retry after the audio list loads plays the recorded line', () async {
+    const saffron = 'Do you sell saffron?';
+    Voice.debugSetAudio(keys: {}, ready: false, allowLoad: false);
+    expect(await Voice.say('learner', saffron), isFalse);
+    expect(Voice.failure.value?.kind, VoiceFailureKind.notReady);
+    final played = <String>[];
+    Voice.debugSetAudio(
+      player: (asset, _) async {
+        played.add(asset);
+        return true;
+      },
+      clear: false,
+      ready: false,
+    );
+    expect(await Voice.retry(), isTrue);
+    expect(played, ['assets/audio/7f6d6c589b18837c.mp3']);
+    expect(Voice.failure.value, isNull);
+  });
 }

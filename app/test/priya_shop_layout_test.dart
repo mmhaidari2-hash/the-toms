@@ -116,9 +116,16 @@ void main() {
     await t.tap(find.byTooltip('Send'));
     await wait(18);
     expect(find.text('yes please can i have candy', skipOffstage: false), findsOneWidget);
-    expect(find.text('Of course! What are you looking for?', skipOffstage: false), findsOneWidget);
+    expect(find.text('Of course! What are you looking for?', skipOffstage: false), findsNothing);
+    expect(find.textContaining('You mean', skipOffstage: false), findsWidgets);
     await reveal(find.text('yes please can i have candy'));
     await shoot('after-portrait-typed');
+
+    await t.enterText(find.byType(TextField), 'Excuse me, can you help me?');
+    await t.tap(find.byTooltip('Send'));
+    await wait(18);
+    expect(find.text('Of course! What are you looking for?', skipOffstage: false), findsOneWidget);
+    expect(find.text('yes please can i have candy', skipOffstage: false), findsOneWidget);
 
     await size(const Size(844, 390));
     await wait(4);
