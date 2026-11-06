@@ -12,10 +12,11 @@
 - نوک مجاز همان `origin/fix/offline-audio-content` است. کامیت‌های `51754c98b`، `f65208064`، `42ac8ee96`، `8cfbe9e89`، `555884785` و `171a75cdc` از قبل نیا هستند. دوباره ادغام، cherry-pick، squash یا اعمال نکنید.
 - SHA سورس را از `.last_build_id` پیش‌نمایش حدس نزنید. پیش‌نمایش ساعت ۱۳:۲۱ با HEAD فعلی یکی نیست و در این مرحله منتشر نشد.
 - بخش‌های «کارهای در حال اجرا» و «انجام‌شده تا صبح ۶ نوامبر» پایین همین فایل، عکس لحظهٔ صبح‌اند و وضعیت فعلی را ثابت نمی‌کنند.
-- مجموعهٔ کامل روی `9daa52a988fd7abda121a759ff2a683d02694b2b`: `+259 ~2 -4`، خروج ۱. چهار شکست کلیپ غایب‌اند (arrival و سه آزمون audit). `+242 ~2 -10` و `+220 ~2 -16` نتیجه‌های قدیمی‌ترند، نه این SHA.
+- مجموعهٔ کامل روی `9daa52a988fd7abda121a759ff2a683d02694b2b`: `+259 ~2 -4`، خروج ۱. چهار شکست کلیپ غایب‌اند (arrival و سه آزمون audit). `+242 ~2 -10` و `+220 ~2 -16` نتیجه‌های قدیمی‌ترند، نه این SHA. این عدد تاریخی است و پذیرش مرورگر پایین آن را سبز یا آمادهٔ Play نمی‌کند.
 - بررسی زندهٔ Azure در ۶ نوامبر ۱۸:۲۵ لندن به ورود حساب نرسید (`401` / `CredentialUnavailableException`). تا وقتی مالک `az login` نکند، SKU و سهمیهٔ F0 اثبات نشده و کلیپ تازه ساخته نمی‌شود. جزئیات در نقطهٔ ثبت است.
+- پذیرش یک‌بارهٔ مرورگر محلی، بخش «پذیرش مرورگر محلی — سه مسئلهٔ پریا» در نقطهٔ ثبت: ساخت تازهٔ `--release --csp --no-web-resources-cdn --no-wasm-dry-run` بدون dart-define، از درخت `c2a81fa6d` (Dart برابر `9daa52a98`)، فقط روی `http://127.0.0.1:7358/#/chat/l1_u43_1`. آب‌نبات، کمک، زعفران، و نپریدن صفحه در چرخش PASS. املای نزدیک و پیش‌نویسِ نفرستاده NOT-RUN. بنر خطای صدا دیده نشد و عمداً ساخته نشد. پیش‌نمایش منتشر نشد.
 
-English: Continue from [the 6 Nov 2026 checkpoint](CHECKPOINT_2026-11-06_FA.md). The Priya rotation work and the candy-reply fix are already recorded there. Do not reapply those commits. The preview was not republished. The sections below are the morning snapshot. Old full-suite counts are not a new pass.
+English: Continue from [the 6 Nov 2026 checkpoint](CHECKPOINT_2026-11-06_FA.md). The Priya rotation work and the candy-reply fix are already recorded there. Do not reapply those commits. The preview was not republished. The sections below are the morning snapshot. Old full-suite counts are not a new pass. The local browser check is in the checkpoint’s “local browser acceptance” section: candy, help, saffron, and rotation passed on a fresh unreleased web build; the typo and an unsent draft were not run; no audio-failure notice was seen or forced.
 
 ## قوانین مهم مالک
 - **هرگز** شاخه‌های `main` و `source` و نسخهٔ زندهٔ سایت را تغییر ندهید و چیزی منتشر نکنید.

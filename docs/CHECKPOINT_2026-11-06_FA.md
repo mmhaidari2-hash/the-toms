@@ -4,9 +4,9 @@
 
 English: Start here and from the latest `origin/fix/offline-audio-content`. Do not reapply the finished commits below.
 
-ادامهٔ همان روز، گزارش چرخش درس پریا، در بخش «درس پریا — چرخش و بنر صدا» پایین همین فایل است. آن بخش تمام است. بعد از آن، بخش «جواب خارج از متن و وضعیت صدا» را بخوانید. t236u دیگر باز نیست.
+ادامهٔ همان روز، گزارش چرخش درس پریا، در بخش «درس پریا — چرخش و بنر صدا» پایین همین فایل است. آن بخش تمام است. بعد از آن، بخش «جواب خارج از متن و وضعیت صدا» و سپس «پذیرش مرورگر محلی — سه مسئلهٔ پریا» را بخوانید. t236u دیگر باز نیست. مجموعهٔ `+259 ~2 -4` روی `9daa52a98` تاریخی است و این پذیرش مرورگر آن را سبز یا آمادهٔ Play نمی‌کند.
 
-English: The Priya shop rotation section is done. The later alternate-reply and audio-status section is the next record. Do not rediscover either.
+English: The Priya shop rotation section is done. Read the alternate-reply section, then the local-browser acceptance section. The `+259 ~2 -4` result on `9daa52a98` stays historical. This browser check is not a green suite or Play approval.
 
 ورود از [سند تحویل](HANDOVER_FA.md). سؤال‌های باز حقوقی همچنان در [OPEN_QUESTIONS_FA.md](compliance/OPEN_QUESTIONS_FA.md) است. این نقطه آن دفتر را نمی‌بندد و تأیید حقوقی، تأیید کامل آزمون، یا آمادگی Play نیست.
 
@@ -265,3 +265,34 @@ English: The notice no longer marks the tree dirty during dispose. Radio and cin
 چرخش سه‌اندازه، رادیو، سینما، پروفایل، و جواب پریا در همین اجرا پاس شدند. پیش‌نمایش و سایت زنده منتشر نشدند. آمادهٔ Play نیست. ساخت کلیپ تازه همچنان به ورود Azure و اثبات F0 بسته است.
 
 English: Full serial on `9daa52a98` was `+259 ~2 -4`, exit 1, about 38m38s. The four failures are missing clips in the arrival pack and the three audio audits. Overflow, radio, cinema, profiles, and the Priya reply passed in that same run. Not Play-ready. A docs-only commit after this log does not change the tested tree.
+
+## پذیرش مرورگر محلی — سه مسئلهٔ پریا
+
+یک بار، روی همین درخت، بدون تغییر کد محصول و بدون انتشار. سرور اشکال‌زدایی `flutter run -d web-server` روی `http://127.0.0.1:7357` (بدون `--dart-define`) از صفحهٔ بارگذاری HTML جلوتر نرفت: CSP خودِ `index.html` یک اسکریپت درون‌خطی بوت را بست (`script-src 'self' 'wasm-unsafe-eval'`). آن نشانی برای این سه بررسی استفاده نشد.
+
+بررسی روی ساخت تازهٔ محلی انجام شد، نه روی پیش‌نمایش عمومی و نه روی ساخت قدیمی:
+
+- درخت: `c2a81fa6d2561543bc8ad9b7199049bd253adf3e`. تفاوتش با `9daa52a988fd7abda121a759ff2a683d02694b2b` فقط همین سند و سند تحویل است. کد Dart همان `9daa52a98` است.
+- فرمان: `flutter build web --release --csp --no-web-resources-cdn --no-wasm-dry-run` از `app/`. هیچ `--dart-define` نبود. `PREVIEW_UNLOCK` و `PREVIEW_AUDIO_BASE` در `main.dart.js` نیستند.
+- خروجی فقط محلی: `/tmp/priya-web-c2a81fa6d`. شناسهٔ ساخت فلاتر `aa46d49ec36aede385c850422eb91ba5` است و SHA گیت نیست. `version.json`: british_life 1.1.0+5. `assets/assets/audio/index.json` برابر سورس است (۴۴۶۲۶۰ بایت).
+- سرویس: `python3 -m http.server 7358` روی `127.0.0.1`. مرورگر: Headless Chrome 156.0.8078.47 با SwiftShader. دستگاه واقعی نیست.
+- نشانی: `http://127.0.0.1:7358/#/chat/l1_u43_1`. مسیر مستقیم صحنه را باز کرد. `localStorage` خالی بود و فشار طولانیِ حالت دمو زده نشد. این مشاهده قفل کارت دوره را تأیید یا رد نمی‌کند.
+
+سه نمای تمام‌صفحه، نه برش ویجت:
+
+- `priya-runtime-candy.png` — ۳۹۰×۸۴۴
+- `priya-runtime-landscape.png` — ۸۴۴×۳۹۰ (ستون اپ وسط قاب؛ عرض بیشینهٔ اپ)
+- `priya-runtime-role.png` — ۳۹۰×۵۲۰، نمای کوتاه، نه صفحه‌کلید سیستم
+
+نتیجه:
+
+- PASS — «yes please can i have candy» خط کاربر ماند، راهنمای Ghost دوزبانه آمد، و جواب پریا «You mean… Excuse me, can you help me?» بود، نه «Of course! What are you looking for?».
+- NOT-RUN — املای نزدیک مثل «yes pleas» در این مرورگر تایپ نشد.
+- PASS — بعدش «Excuse me, can you help me?» به «Of course! What are you looking for?» رسید، و «Do you sell saffron?» به «We do! Spices are in aisle six…». هر دو در درخت دسترسی بعد از چرخش هنوز بودند.
+- PASS — بعد از چند خط، پرتره به منظره و برگشت، صفحه خاکستری یا خالی نشد. نقش تا قبل از تعویض «You» ماند. خط‌های فرستاده‌شده، از جمله آب‌نبات و راهرو، در درخت دسترسی برگشت ماندند. پیش‌نویسِ نفرستاده در فیلد گذاشته نشد، پس نگهداری پیش‌نویس NOT-RUN است. نمای منظره آخرین خط (راهرو) و دکمه‌ها را نشان می‌دهد، نه کل تاریخچه را یکجا.
+- PASS — تعویض نقش به Priya بنر «Now you are Priya · نقش عوض شد» را نشان داد. «YOUR LINE AS PRIYA» و پاسخ و Send در نمای کوتاه ۳۹۰×۵۲۰ دیده می‌شوند. خط روی صفحه «People steal it! It's like gold. What are you cooking?» است، یعنی ادامهٔ همان گره بعد از «Why is it behind the till?»، نه برگشت به اول درس.
+- NOT OBSERVED — بنر ریشهٔ «No recording…» / «Audio could not play…» / «not ready» در این اجرا دیده نشد. شکست کنترل‌شده ساخته نشد. این مشاهده علت توستِ نصب‌شدهٔ مالک را ثابت یا رد نمی‌کند.
+
+مجموعهٔ سریال دوباره اجرا نشد. APK/AAB ساخته نشد. پیش‌نمایش، سایت زنده، `main` و `source` دست نخوردند. آمادهٔ Play نیست.
+
+English: One local browser pass, no product edit and no publish. The debug web-server at port 7357 never left the HTML splash because the app CSP blocked an inline bootstrap script, so it was not used. The checks ran on a fresh release build of `c2a81fa6d` (Dart identical to `9daa52a98`) with `--release --csp --no-web-resources-cdn --no-wasm-dry-run` and no dart-defines, served only at `http://127.0.0.1:7358/#/chat/l1_u43_1` in Headless Chrome. Candy kept the line and the bilingual “You mean” hint instead of “Of course”. The typo variant was not typed. Help reached “Of course”, and saffron reached the aisle line. Rotation did not blank the lesson; sent lines stayed in the accessibility tree. An unsent draft was not tested. Role swap to Priya kept YOUR LINE and Send on a 390×520 short viewport. No root audio-failure notice appeared, and none was forced. Not Play-ready. The historical `+259 ~2 -4` is unchanged.
