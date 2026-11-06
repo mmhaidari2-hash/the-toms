@@ -1,0 +1,43 @@
+# سند تحویل کار — New Life UK (The Toms)
+
+تاریخ: ۶ نوامبر ۲۰۲۶
+مخزن: https://github.com/mmhaidari2-hash/the-toms
+شاخهٔ کار: `fix/offline-audio-content` — **همیشه روی همین شاخه کار کنید.**
+
+## قوانین مهم مالک
+- **هرگز** شاخه‌های `main` و `source` و نسخهٔ زندهٔ سایت را تغییر ندهید و چیزی منتشر نکنید.
+- **بعد از هر مرحله** commit و push کنید تا کار از بین نرود.
+- نام و ایمیل git: `mmhaidari2-hash <317994101+mmhaidari2-hash@users.noreply.github.com>`
+- همهٔ متن‌های رو‌به‌کاربر باید فارسی + انگلیسی باشند.
+- پاسخ‌های کاربر را به فارسی بنویسید و تصمیم‌ها را یکی‌یکی بپرسید.
+- صداها فقط با سهمیهٔ **رایگان ماهانهٔ Azure (F0)** ساخته شوند؛ استفاده از کلید پولی S1 ممنوع است مگر با اجازهٔ صریح مالک.
+- ترجمه‌ها فقط با ابزار آفلاین رایگان (NLLB)، نه سرویس پولی.
+- آثار هنری، ساختار درس‌ها، پیشرفت ذخیره‌شده و مسیرهای فعلی حفظ شوند.
+- من وکیل نیستم؛ در پرونده‌های حقوقی هرگز «تأیید کامل» اعلام نکنید.
+
+## ساختار پروژه
+- اپ Flutter در `app/` (وب + اندروید). SDK فلاتر: نسخهٔ 3.47.7.
+- داده‌ها در `app/assets/data/*.json` و تولیدکننده‌هایشان در `app/tool/**`.
+- آزمون‌ها: `cd app && flutter test -j 1` (به‌خاطر حافظهٔ کم، موازی نکنید).
+- ساخت وب از یک کپی rsync بدون فایل‌های `*.tmp` و `*.az.mp3` انجام می‌شود.
+- ساخت بازبینی (همهٔ درس‌ها باز): `--dart-define=PREVIEW_UNLOCK=true`؛ پخش صدا از گیت‌هاب: `--dart-define=PREVIEW_AUDIO_BASE=https://raw.githubusercontent.com/mmhaidari2-hash/the-toms/fix/offline-audio-content/app/assets/audio/`. هر دو فقط برای بازبینی‌اند و در نسخهٔ واقعی خالی‌اند.
+
+## کارهای در حال اجرا (پس‌زمینه)
+1. **ساخت صدا (TTS):** `app/tool/render_voices.py` با متغیرهای `RENDER_THREADS=1 RENDER_CHAR_CAP=480000 RENDER_FRESH_SINCE=<epoch>` و کلید F0. دفتر حساب: `app/tool/audit/tts_month.json` (سقف ۴۸۰ هزار نویسه در ماه). حدود ۳۳ هزار کلیپ مانده؛ با سهمیهٔ رایگان حدود ۳ ماه طول می‌کشد. کلیپ‌های تازه (اشتباهات رایج و Life Skills) اولویت دارند. خطاها در اجرای بعدی دوباره ساخته می‌شوند. `autosave_audio.sh` هر چند دقیقه کلیپ‌های تازه را commit می‌کند.
+2. **ترجمه:** `app/tool/i18n/translate.py <lang>` با مدل آفلاین NLLB (`/workspace/mt/onmt13` و `sentencepiece.bpe.model`). صف: prs (تا ۳۰٬۰۰۰ از ۳۲٬۵۶۴ ذخیره شده)، uk (در جریان)، ckb، pa، tr، bn، es، pt، zh، zh-Hant، ti. بعد از اتمام هر زبان: حذف از `tool/i18n/hold.json`، اجرای `build_tables.py`، کنترل کیفیت `tool/qa/qa_translate.py`، آزمون `test/lang_test.dart` و `test/onb_lang_test.dart`، سپس commit فقط فایل‌های i18n.
+
+## انجام‌شده در این دوره (همه روی شاخه)
+- اشتباهات رایج فارسی‌زبان‌ها: `assets/data/mistakes.json`، مسیر `/mistakes` (commit 7de88729).
+- آمادگی IELTS Life Skills: `assets/data/lifeskills.json`، مسیر `/lifeskills`، هشدار قانون B2 از ۲۶ مارس ۲۰۲۷ (commit c6975835).
+- اشتراک گواهی به‌صورت تصویر + دعوت از دوست (بدون ردیابی، پنهان در پروفایل کودک، توضیح در سیاست حریم خصوصی): `lib/features/shared/share.dart` (commit 4cfb64a9).
+- مرور ترکیبی هر کلاس گرامر: `lib/features/grammar/review_screen.dart` (commit 21af01e2).
+- Q10: منشأ فونت‌ها در `docs/compliance/font_provenance.md` (commit 1a66ce8b).
+- Q11: مدرک Azure TTS در `docs/compliance/azure_tts_evidence.md` — حساب شخصی مالک (commit ba9e2da4).
+- Q12: بازنویسی هر ۱۵۱ سؤال رانندگی و Life in the UK در قالب صحنه‌های خانواده (واقعیت‌ها، گزینه‌ها، شناسه‌ها و صداها دست‌نخورده) (commit 68b3a8a8).
+- سند سؤال‌های باز: `docs/compliance/OPEN_QUESTIONS_FA.md` (Q43/Q44/Q45/Q46 ثبت شد).
+
+## نکات برای ادامهٔ کار روی ماشین دیگر
+- **کلید Azure F0** در یک credential store محلی ذخیره است و قابل انتقال نیست؛ مالک باید خودش کلید را به ابزار بعدی بدهد.
+- **مدل NLLB** (`/workspace/mt/onmt13`) فایل محلی است و باید روی ماشین جدید دانلود شود.
+- فرایندهای پس‌زمینه (render، translate) روی ماشین فعلی‌اند؛ روی ماشین جدید باید دوباره اجرا شوند. هر دو از محل توقف ادامه می‌دهند (checkpoint دارند).
+- نسخهٔ بازبینی: https://mmhaidari2-hash.github.io/the-toms-preview/ (مخزن `the-toms-preview`).
