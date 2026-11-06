@@ -222,3 +222,33 @@ English: Supported shop lines resolve when the index is loaded. The branch clip 
 Flutter 3.47.7. قبل از اصلاح: `test/priya_shop_reply_test.dart` چهار شکست (خروجی در لاگِ قبل). بعد از اصلاح، همین فایل به‌همراه `voice_feedback_test` و `engine_test` و `conversation_suggestions_test`: `+42` و `All tests passed`. سپس `priya_shop_layout_test` و `messages_flow_test` و `play_as_test` و `chat_bubbles_test` و `roleplay_test`: `+9` و `All tests passed`. مجموعهٔ کامل روی این SHA در همین بخش، تا وقتی عدد دقیق نوشته شود، اجرا نشده است.
 
 English: Focused tests passed after the fix. The four reply failures above are the before evidence. This paragraph does not claim a new full-suite pass.
+
+## Azure — ورود حساب در ۱۸:۲۵ لندن بسته بود
+
+بررسی فقط‌خواندنی در `2026-11-06 18:25:53 Europe/London`. اتصال ابزار Azure برقرار بود، اما هر سه خواندن (`subscription_list`، پرس‌وجوی Speech، و ساخت دستور منبع) با `401 CredentialUnavailableException` / `ChainedTokenCredential` برگشت: `az login` لازم است. نام منبع Speech، شناسه، SKU (F0 یا S1)، منطقه، سهمیهٔ مانده، و اتصال کلید خوانده نشد. کلیدی خوانده نشد و کلیپی ساخته نشد. سقف ۴۸۰٬۰۰۰ نویسه در ماه فقط سیاست برنامه است، نه اندازه‌گیری زنده. تا ورود خود مالک، ساخت کلیپ تازه مجاز نیست. این مانع تعمیر سورس و آزمون همین مرحله نیست.
+
+English: A live read-only Azure check at 18:25 London found the connector up and the credential chain unsigned-in. No Speech resource, SKU, region, remaining quota, or key binding was proven. No login, no TTS, and no resource change was made. New clips stay blocked. Source and test repairs are not.
+
+## مجموعهٔ سریال روی `104f7500d` — تمام شد، سبز نیست
+
+فرمان: `cd app && flutter test -j 1`. SHA درخت در شروع اجرا: `104f7500d92dd629074bd94aa5c86040fd0d0c27`. زمان آزمون حدود ۲۵:۲۷. نتیجه: `+220 ~2 -16` و `EXIT:1`. این عدد مجموعهٔ کاملِ همین SHA است و با `+242 ~2 -10` یکی نیست.
+
+شکست‌های واقعی همین اجرا:
+
+- `arrival_pack_test`: هفت کلید arrival هنوز کلیپ ندارند. کلیپ ساخته نشد.
+- `widget_test` در هر سه اندازه: باز کردن چت و رفتن به مسیر بعد، `ListenableBuilder` را وسط ساخت درخت کثیف می‌کرد (`markNeedsBuild` وقتی درخت قفل است). صفحهٔ خاکستریِ چرخش نیست؛ همان بنر صداست.
+- `radio_flow_test`: بعد از پخش، `radio-stop` نبود. روی لینوکس `playClip` فوراً false است و برنامه همان را «قطع توسط کلیپ دیگر» می‌گرفت و متوقف می‌شد.
+- سه آزمون `audit_test`: خط‌های بدون mp3، از جمله راهنمای Ghost، بازتاب‌های سراسری، واژه‌های راوی، و خط‌های شغلی مثل خوشامد Vida. آستانهٔ `n > 30000` هم به‌خاطر همین غیبت‌ها رد شد. آزمون حذف یا شل نشد. کلیپ جعلی اضافه نشد.
+- `profiles_test`: یادداشت حریم کودک زیر اولین صفحهٔ فهرست بود و پیدا نمی‌شد.
+
+هفت بارگذاریِ بعدی (`voice_feedback`، `park_flow`، `driving_flow`، `cinema_flow`، `roleplay`، `onb_lang`، `speaking`) خطای کامپایل `instanceOrNull` بودند، چون وسط همان اجرا فایل صوت عوض شده بود. آن ویرایش برگردانده شد و آن هفت نتیجهٔ محصول نیستند. بعد از برگشت، بقیهٔ مجموعه روی کدِ کامیت ادامه یافت. آن هفت فایل بعداً جدا پاس شدند؛ این پاس‌ها جای عددِ `+220 ~2 -16` را نمی‌گیرد.
+
+English: Full serial on `104f7500d` was `+220 ~2 -16`, exit 1. Arrival clips, audit gaps, the locked audio notice, radio stop, and the profiles note are real. Seven later load failures were a compile break from an edit during that run, not product failures. They were re-run afterwards and are not a new full-suite total.
+
+## ادامهٔ همان شب — بنر، رادیو، سینما، پروفایل
+
+اعلام وضعیت صدا اگر وسط ساخت درخت باشد به فریم بعد موکول می‌شود تا بستن چت درخت را قفل نکند. اگر پخش false بدهد و کلیپِ دیگری جایش را نگرفته باشد، رادیو و سینما سرعت نوشته‌شدهٔ خط را نگه می‌دارند و بنرِ «پخش نشد» سر جایش می‌ماند؛ صدای موفق جعل نمی‌شود. آزمون پروفایل تا یادداشت حریم کودک می‌لغزد و همان جملهٔ انگلیسی و فارسی را می‌خواهد. آزمون کوتاه `chat_notice_dispose_test` ورود و خروج `/chat/nicola_park` را بدون استثنا می‌سنجد.
+
+این اصلاح‌ها در SHA مجموعهٔ `104f7500d` نیستند. مجموعهٔ کاملِ SHA بعدی، وقتی تمام شود، در همین فایل با همان عدد ثبت می‌شود. تا آن ثبت، ادعای سبزِ جدید نیست.
+
+English: The notice no longer marks the tree dirty during dispose. Radio and cinema keep their written pace when playback returns false without being replaced, and the failure notice stays. The profiles test scrolls to the child-privacy note and still requires its wording. The full suite of the following commit is not claimed until its own log is written here.

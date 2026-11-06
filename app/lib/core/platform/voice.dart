@@ -4,6 +4,7 @@ import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 
 import '../i18n/you.dart';
 import 'speech.dart';
@@ -84,11 +85,42 @@ class Voice {
   /// Bumped whenever a clip starts or playback is stopped: one clip plays at a time, always to its end
   /// unless something else replaces it.
   static int _gen = 0;
+  static int _pub = 0;
+
+  /// How many clips have started or been stopped. Store this before [say]
+  /// and call [interrupted] as soon as [say] returns.
+  static int get epoch => _gen;
+
+  /// True when something other than that one [say] moved [epoch].
+  static bool interrupted(int before) => _gen != before + 1;
+
+  /// Notifies after the current build. A route change stops audio while the
+  /// tree is locked; publishing in that moment was marking the lesson dirty.
+  static void _publish(VoiceFailure? next) {
+    final id = ++_pub;
+    void apply() {
+      if (_pub != id) return;
+      failure.value = next;
+    }
+
+    SchedulerBinding? binding;
+    try {
+      binding = SchedulerBinding.instance;
+    } catch (_) {
+      binding = null;
+    }
+    final phase = binding?.schedulerPhase;
+    if (binding != null && (phase == SchedulerPhase.persistentCallbacks || phase == SchedulerPhase.midFrameMicrotasks)) {
+      binding.addPostFrameCallback((_) => apply());
+    } else {
+      apply();
+    }
+  }
 
   static void stop() {
     _gen++;
     SpeechInput.stopClip();
-    failure.value = null;
+    _publish(null);
   }
 
   static Future<bool> retry() async {
@@ -136,7 +168,7 @@ class Voice {
     if (!_ready) await load();
     if (ticket != _gen) return false;
     final g = ++_gen;
-    failure.value = null;
+    _publish(null);
     final safeRate = rate.isFinite ? rate.clamp(.5, 2.0).toDouble() : 1.0;
     final k =
         _find(speaker, text) ?? (shown == null ? null : _find(speaker, shown));
@@ -145,13 +177,13 @@ class Voice {
       if (g != _gen) return false;
       // The learner's own unrecorded words are not a missing lesson line.
       if (!scripted) return false;
-      failure.value = VoiceFailure(
+      _publish(VoiceFailure(
         _ready ? VoiceFailureKind.missing : VoiceFailureKind.notReady,
         speaker,
         text,
         safeRate,
         shown,
-      );
+      ));
       return false;
     }
     var ok = false;
@@ -162,13 +194,13 @@ class Voice {
     }
     if (g != _gen) return false;
     if (!ok) {
-      failure.value = VoiceFailure(
+      _publish(VoiceFailure(
         VoiceFailureKind.playback,
         speaker,
         text,
         safeRate,
         shown,
-      );
+      ));
     }
     return ok;
   }

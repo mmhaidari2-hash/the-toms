@@ -203,6 +203,17 @@ void main() {
     },
   );
 
+  test('a failed play is not treated as a clip that was replaced', () async {
+    Voice.debugSetAudio(keys: {key}, player: (_, _) async => false);
+    final before = Voice.epoch;
+    expect(await Voice.say('narrator', text), isFalse);
+    expect(Voice.interrupted(before), isFalse);
+    expect(Voice.failure.value?.kind, VoiceFailureKind.playback);
+    final started = Voice.epoch;
+    Voice.stop();
+    expect(Voice.epoch, started + 1);
+  });
+
   test('an unloaded audio list is not the same as a missing line', () async {
     Voice.debugSetAudio(keys: {}, ready: false, allowLoad: false);
     expect(await Voice.say('learner', 'Do you sell saffron?'), isFalse);

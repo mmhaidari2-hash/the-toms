@@ -66,8 +66,14 @@ void main() {
     await t.pump();
     await t.pump(const Duration(milliseconds: 200));
     expect(find.byKey(const ValueKey('profiles-screen')), findsOneWidget);
-    expect(find.byKey(const ValueKey('profiles-privacy')), findsOneWidget);
     expect(find.byKey(const ValueKey('add-child-profile')), findsOneWidget);
+    // The privacy note is below the first screen of the list. Scrolling to it
+    // still requires the child-profile wording to be there.
+    final privacy = find.byKey(const ValueKey('profiles-privacy'));
+    await t.scrollUntilVisible(privacy, 160);
+    expect(privacy, findsOneWidget);
+    expect(find.textContaining('Child profiles stay on this device only'), findsOneWidget);
+    expect(find.textContaining('پروفایل کودک فقط روی همین دستگاه'), findsOneWidget);
   });
 
   testWidgets('progress shows calm-circle not league', (t) async {
