@@ -1,8 +1,19 @@
 # سند تحویل کار — New Life UK (The Toms)
 
-تاریخ: ۶ نوامبر ۲۰۲۶
+تاریخ نخستین این سند: ۶ نوامبر ۲۰۲۶، صبح (کامیت `4e2046e69`).
 مخزن: https://github.com/mmhaidari2-hash/the-toms
 شاخهٔ کار: `fix/offline-audio-content` — **همیشه روی همین شاخه کار کنید.**
+
+## از اینجا ادامه دهید — ۶ نوامبر ۲۰۲۶، ۱۵:۵۵ لندن
+
+رکورد معتبر ادامه این است، نه جست‌وجوی دوبارهٔ کار تمام‌شده:
+
+- [نقطهٔ ثبت ۶ نوامبر ۲۰۲۶](CHECKPOINT_2026-11-06_FA.md) — اثر چهار کامیت، آزمون‌ها، منشأ پیش‌نمایش، فرادادهٔ ساخت خصوصی، و مانع‌های باز.
+- نوک مجاز همان `origin/fix/offline-audio-content` است. چهار کامیت `51754c98b`، `f65208064`، `42ac8ee96` و `8cfbe9e89` از قبل نیای نوک‌اند. دوباره ادغام، cherry-pick، squash یا اعمال نکنید.
+- SHA سورس را از `.last_build_id` پیش‌نمایش حدس نزنید. پیش‌نمایش با HEAD فعلی یکی نیست.
+- بخش‌های «کارهای در حال اجرا» و «انجام‌شده تا صبح ۶ نوامبر» پایین همین فایل، عکس لحظهٔ صبح‌اند و وضعیت فعلی را ثابت نمی‌کنند.
+
+English: Continue from [the 6 Nov 2026 checkpoint](CHECKPOINT_2026-11-06_FA.md) and the latest `origin/fix/offline-audio-content`. Those four commits are already ancestors. Do not reapply them, and do not treat the preview build id as a source SHA. The sections below are the morning snapshot.
 
 ## قوانین مهم مالک
 - **هرگز** شاخه‌های `main` و `source` و نسخهٔ زندهٔ سایت را تغییر ندهید و چیزی منتشر نکنید.
@@ -22,11 +33,15 @@
 - ساخت وب از یک کپی rsync بدون فایل‌های `*.tmp` و `*.az.mp3` انجام می‌شود.
 - ساخت بازبینی (همهٔ درس‌ها باز): `--dart-define=PREVIEW_UNLOCK=true`؛ پخش صدا از گیت‌هاب: `--dart-define=PREVIEW_AUDIO_BASE=https://raw.githubusercontent.com/mmhaidari2-hash/the-toms/fix/offline-audio-content/app/assets/audio/`. هر دو فقط برای بازبینی‌اند و در نسخهٔ واقعی خالی‌اند.
 
-## کارهای در حال اجرا (پس‌زمینه)
+## کارهای در حال اجرا (پس‌زمینه) — عکس لحظهٔ صبح ۶ نوامبر، تأییدنشده
+
+این فهرست وضعیت صوت و ترجمه را در زمان سند صبح ثبت کرده است. ادامهٔ کار نباید آن را گزارش فعلی بداند و نباید کار ثبت‌شده در نقطهٔ ثبت را دوباره بسازد.
 1. **ساخت صدا (TTS):** `app/tool/render_voices.py` با متغیرهای `RENDER_THREADS=1 RENDER_CHAR_CAP=480000 RENDER_FRESH_SINCE=<epoch>` و کلید F0. دفتر حساب: `app/tool/audit/tts_month.json` (سقف ۴۸۰ هزار نویسه در ماه). حدود ۳۳ هزار کلیپ مانده؛ با سهمیهٔ رایگان حدود ۳ ماه طول می‌کشد. کلیپ‌های تازه (اشتباهات رایج و Life Skills) اولویت دارند. خطاها در اجرای بعدی دوباره ساخته می‌شوند. `autosave_audio.sh` هر چند دقیقه کلیپ‌های تازه را commit می‌کند.
 2. **ترجمه:** `app/tool/i18n/translate.py <lang>` با مدل آفلاین NLLB (`/workspace/mt/onmt13` و `sentencepiece.bpe.model`). صف: prs (تا ۳۰٬۰۰۰ از ۳۲٬۵۶۴ ذخیره شده)، uk (در جریان)، ckb، pa، tr، bn، es، pt، zh، zh-Hant، ti. بعد از اتمام هر زبان: حذف از `tool/i18n/hold.json`، اجرای `build_tables.py`، کنترل کیفیت `tool/qa/qa_translate.py`، آزمون `test/lang_test.dart` و `test/onb_lang_test.dart`، سپس commit فقط فایل‌های i18n.
 
-## انجام‌شده در این دوره (همه روی شاخه)
+## انجام‌شده تا صبح ۶ نوامبر (عکس لحظه؛ همه روی شاخه)
+
+این فهرست تا کامیت `4e2046e69` است. اصلاح‌های بعدازظهر در [نقطهٔ ثبت](CHECKPOINT_2026-11-06_FA.md) آمده‌اند و اینجا تکرار نمی‌شوند.
 - اشتباهات رایج فارسی‌زبان‌ها: `assets/data/mistakes.json`، مسیر `/mistakes` (commit 7de88729).
 - آمادگی IELTS Life Skills: `assets/data/lifeskills.json`، مسیر `/lifeskills`، هشدار قانون B2 از ۲۶ مارس ۲۰۲۷ (commit c6975835).
 - اشتراک گواهی به‌صورت تصویر + دعوت از دوست (بدون ردیابی، پنهان در پروفایل کودک، توضیح در سیاست حریم خصوصی): `lib/features/shared/share.dart` (commit 4cfb64a9).
@@ -40,4 +55,4 @@
 - **کلید Azure F0** در یک credential store محلی ذخیره است و قابل انتقال نیست؛ مالک باید خودش کلید را به ابزار بعدی بدهد.
 - **مدل NLLB** (`/workspace/mt/onmt13`) فایل محلی است و باید روی ماشین جدید دانلود شود.
 - فرایندهای پس‌زمینه (render، translate) روی ماشین فعلی‌اند؛ روی ماشین جدید باید دوباره اجرا شوند. هر دو از محل توقف ادامه می‌دهند (checkpoint دارند).
-- نسخهٔ بازبینی: https://mmhaidari2-hash.github.io/the-toms-preview/ (مخزن `the-toms-preview`).
+- نسخهٔ بازبینی: https://mmhaidari2-hash.github.io/the-toms-preview/ (مخزن `the-toms-preview`). مشاهدهٔ ۶ نوامبر بعدازظهر در نقطهٔ ثبت است: خروجی سایت کامیت `fd32df7992` است و SHA سورسش معلوم نیست. این نشانی مجوز تغییر آن مخزن یا سایت نیست.
