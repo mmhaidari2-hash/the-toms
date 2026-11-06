@@ -116,6 +116,68 @@ void main() {
     await t.pumpWidget(const SizedBox());
   });
 
+  testWidgets('missing-audio notice stays visible and does not block the reply', (t) async {
+    BL.useGoogleFonts = false;
+    t.view.physicalSize = const Size(375, 667);
+    t.view.devicePixelRatio = 1;
+    addTearDown(t.view.reset);
+    var replyTaps = 0;
+    var bodyTaps = 0;
+    Voice.debugSetAudio(keys: {});
+    await t.pumpWidget(MaterialApp(
+      home: VoiceFeedback(
+        child: Scaffold(
+          body: Stack(
+            children: [
+              Align(
+                alignment: Alignment.topCenter,
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 88,
+                    child: FilledButton(
+                      key: const ValueKey('under-notice'),
+                      onPressed: () => bodyTaps++,
+                      child: const Text('Covered'),
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.bottomRight,
+                child: IconButton.filled(
+                  key: const ValueKey('msg-send'),
+                  onPressed: () => replyTaps++,
+                  icon: const Icon(Icons.send_rounded),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    ));
+    await Voice.say('narrator', text);
+    await t.pump();
+    await t.pump();
+    final notice = t.getRect(find.byKey(const ValueKey('voice-feedback')));
+    final covered = t.getRect(find.byKey(const ValueKey('under-notice')));
+    final send = t.getRect(find.byKey(const ValueKey('msg-send')));
+    expect(notice.intersect(covered).height, greaterThan(8));
+    expect(notice.overlaps(send), isFalse);
+    await t.tapAt(notice.intersect(covered).center);
+    await t.tap(find.byKey(const ValueKey('msg-send')));
+    await t.pump();
+    expect(bodyTaps, 1, reason: 'the missing-audio note must not take the tap');
+    expect(replyTaps, 1, reason: 'the reply send control must stay clear of the note');
+    expect(find.byKey(const ValueKey('voice-feedback')), findsOneWidget);
+    expect(find.textContaining('No recording for this line yet'), findsOneWidget);
+    await t.tap(find.byKey(const ValueKey('voice-dismiss')));
+    await t.pump();
+    expect(find.byKey(const ValueKey('voice-feedback')), findsNothing);
+    expect(t.takeException(), isNull);
+  });
+
   testWidgets(
     'audio failure feedback is visible and dismissible at mobile width',
     (t) async {
