@@ -5,10 +5,25 @@ import 'package:crypto/crypto.dart';
 
 import 'owner_unlock_hash.dart';
 
+/// Salt, hash and iteration count for [OwnerUnlock.verify].
+/// Production uses [OwnerUnlock.productionMaterial]. Tests pass a synthetic one.
+class OwnerUnlockMaterial {
+  final String saltB64;
+  final String hashB64;
+  final int iterations;
+  const OwnerUnlockMaterial({required this.saltB64, required this.hashB64, required this.iterations});
+}
+
 /// Local owner-mode unlock: verifies a code against a salted PBKDF2-HMAC-SHA256
 /// hash baked into the app. The plain code is never shipped in the bundle.
 class OwnerUnlock {
   OwnerUnlock._();
+
+  static const productionMaterial = OwnerUnlockMaterial(
+    saltB64: kOwnerUnlockSaltB64,
+    hashB64: kOwnerUnlockHashB64,
+    iterations: kOwnerUnlockIterations,
+  );
 
   static const maxAttempts = 5;
   static const lockoutMs = 15 * 60 * 1000;
@@ -39,12 +54,14 @@ class OwnerUnlock {
     return t;
   }
 
-  static bool verify(String code) {
+  /// Checks [code] against [material], or the baked production hash when omitted.
+  static bool verify(String code, {OwnerUnlockMaterial? material}) {
     final trimmed = code.trim();
     if (trimmed.length < 12 || trimmed.length > 128) return false;
-    final salt = base64Decode(kOwnerUnlockSaltB64);
-    final expected = base64Decode(kOwnerUnlockHashB64);
-    final got = pbkdf2Sha256(trimmed, salt, kOwnerUnlockIterations, expected.length);
+    final m = material ?? productionMaterial;
+    final salt = base64Decode(m.saltB64);
+    final expected = base64Decode(m.hashB64);
+    final got = pbkdf2Sha256(trimmed, salt, m.iterations, expected.length);
     return _constEq(got, expected);
   }
 

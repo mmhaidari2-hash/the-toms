@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../engine/emotion_engine.dart';
@@ -703,14 +704,17 @@ class ProgressController extends Notifier<UserProgress> {
 
   /// Activate owner mode with the private code. Rate-limited locally.
   /// Returns null on success, or an error message key for the UI.
-  String? tryActivateOwner(String code) {
+  ///
+  /// [material] is for tests with a synthetic code. Release builds ignore it and
+  /// always check the baked hash. The production UI never passes [material].
+  String? tryActivateOwner(String code, {OwnerUnlockMaterial? material}) {
     final stamp = state.missionsDone['pref:ownerAttempts'];
     final wait = OwnerUnlock.lockoutRemainingMs(stamp, _now);
     if (wait > 0) {
       final mins = (wait / 60000).ceil();
       return 'Too many attempts. Try again in $mins min.';
     }
-    final ok = OwnerUnlock.verify(code);
+    final ok = OwnerUnlock.verify(code, material: kReleaseMode ? null : material);
     final next = OwnerUnlock.nextStamp(stamp, _now, success: ok);
     final mis = {...state.missionsDone};
     if (next.isEmpty) {

@@ -1,5 +1,9 @@
 import 'dart:convert';
 
+import '../platform/preview_flags.dart';
+
+export '../platform/preview_flags.dart' show kPreviewUnlock;
+
 class LeitnerCard {
   final String word, fa;
   final int box; // 1..5
@@ -250,7 +254,3 @@ class UserProgress {
     );
   }
 }
-
-/// Review builds only (`--dart-define=PREVIEW_UNLOCK=true`): every lesson and level is open and a
-/// PREVIEW ribbon is shown. Never set for store or public releases (check_public_release.py blocks it).
-const kPreviewUnlock = bool.fromEnvironment('PREVIEW_UNLOCK');

@@ -6,6 +6,7 @@ import 'dart:ui_web' as ui_web;
 
 import 'package:web/web.dart' as web;
 
+import 'preview_flags.dart';
 import 'speech_result.dart';
 export 'speech_result.dart';
 
@@ -394,9 +395,8 @@ class SpeechInput {
   }
 }
 
-/// Review builds only: `--dart-define=PREVIEW_AUDIO_BASE=<url>/` streams voice clips from that base
-/// (the branch's files), so a preview can ship without its 22k mp3 files. Empty in every real build.
-const _previewAudioBase = String.fromEnvironment('PREVIEW_AUDIO_BASE');
-String _voiceUrl(String asset) => _previewAudioBase.isNotEmpty && asset.startsWith('assets/audio/') && asset.endsWith('.mp3') && !asset.endsWith('/silence.mp3')
-    ? '$_previewAudioBase${asset.substring('assets/audio/'.length)}'
+/// Review builds only: [kPreviewAudioBase] streams voice clips from that base
+/// (the branch's files), so a preview can ship without its mp3 files. Empty unless the define is set.
+String _voiceUrl(String asset) => kPreviewAudioBase.isNotEmpty && asset.startsWith('assets/audio/') && asset.endsWith('.mp3') && !asset.endsWith('/silence.mp3')
+    ? '$kPreviewAudioBase${asset.substring('assets/audio/'.length)}'
     : ui_web.assetManager.getAssetUrl(asset);
