@@ -751,11 +751,57 @@ class _ChatState extends ConsumerState<_Chat> {
     final sp = _who(_lineSpeaker.isEmpty ? ch.id : _lineSpeaker);
     // The painting is a proper hero: about 16:9 of the phone width, never a thin strip.
     // Tall while the chat is short (no empty dark gap), then it settles to about 16:9 as lines arrive.
-    final scr = MediaQuery.sizeOf(context);
     final early = _msgs.where((m) => m.system == null && m.fb == null).length <= 2;
-    final bannerH = pad.top + (early ? (scr.width * .8).clamp(128.0, scr.height * .42) : (scr.width * .5).clamp(128.0, scr.height * .24));
     final strip = _strip(cover, host);
-    return CustomPaint(
+    // The scaffold already shrinks for the keyboard. This builder only watches
+    // the shared audio notice so a short landscape lesson can stay below it.
+    return ListenableBuilder(
+      listenable: Voice.failure,
+      builder: (context, _) {
+    final roomBox = MediaQuery.sizeOf(context);
+    return LayoutBuilder(builder: (context, box) {
+    final full = box.maxHeight.isFinite ? box.maxHeight : roomBox.height;
+    // The missing-audio note is a top overlay. On a short phone (or with the
+    // keyboard up) it would sit on the role row, so the lesson starts below it.
+    // Tall portrait keeps the old layout: the note only covers the painting.
+    final notice = Voice.failure.value != null && full < 640;
+    final clearance = !notice ? 0.0 : (full - 108 >= 128 ? 108.0 : (full > 168 ? full - 168 : 0.0));
+    final room = full - clearance;
+    final wide = box.maxWidth.isFinite ? box.maxWidth : roomBox.width;
+    final stripH = strip == null ? 0.0 : 44.0;
+    final chatFloor = room >= 640 ? 88.0 : (room >= 360 ? 36.0 : 0.0);
+    final lineOpen = _swap && _mine != null;
+    final bottomReserve = room >= 360 ? (lineOpen ? 200.0 : 120.0) : 72.0;
+    // Preferred painting, then the same caps as before. The old clamp threw
+    // ArgumentError when the cap dropped below 128 (a phone on its side after
+    // a few lines). That replaced the whole lesson with the empty grey page.
+    final preferred = early ? wide * .8 : wide * .5;
+    final cap = early ? room * .42 : room * .24;
+    var bannerH = pad.top + preferred;
+    if (cap < 128) {
+      bannerH = pad.top + (cap < 0 ? 0 : cap);
+    } else {
+      if (preferred < 128) bannerH = pad.top + 128;
+      if (preferred > cap) bannerH = pad.top + cap;
+    }
+    final limit = room - stripH - chatFloor - (bottomReserve < roomBox.height * .45 ? bottomReserve : roomBox.height * .45);
+    if (bannerH > limit) bannerH = limit < 0 ? 0.0 : limit;
+    // The notice is a top overlay. On a short screen the role row would sit
+    // underneath it, so keep the painting at least as tall as that overlay.
+    if (clearance == 0 && Voice.failure.value != null && bannerH < pad.top + 120 && room > pad.top + 120 + stripH + 72) {
+      bannerH = pad.top + 120;
+    }
+    if (bannerH + stripH > room) bannerH = room > stripH ? room - stripH : 0;
+    if (bannerH < 0) bannerH = 0;
+    final available = room - bannerH - stripH;
+    var bottomMax = roomBox.height * .45;
+    final aboveChat = available - chatFloor;
+    if (aboveChat < bottomMax) bottomMax = aboveChat;
+    if (bottomMax > available) bottomMax = available;
+    if (bottomMax < 1) bottomMax = 1;
+    return Padding(
+      padding: EdgeInsets.only(top: clearance),
+      child: CustomPaint(
       painter: _WoodGrain(),
       child: DecoratedBox(
         decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xF22A1D14), Color(0xFA140E0A)])),
@@ -764,7 +810,9 @@ class _ChatState extends ConsumerState<_Chat> {
             // Compact header banner: the painting (or a people-free location card) with title, speaker and hearts.
             AnimatedContainer(
               key: const ValueKey('chat-banner'),
-              duration: const Duration(milliseconds: 320),
+              // A tall portrait painting cannot animate down on a short phone:
+              // the in-between height overflows the column and the lesson breaks.
+              duration: room < 640 ? Duration.zero : const Duration(milliseconds: 320),
               curve: Curves.easeOutCubic,
               height: bannerH,
               child: Stack(fit: StackFit.expand, children: [
@@ -814,11 +862,15 @@ class _ChatState extends ConsumerState<_Chat> {
             ),
             ?strip,
             Expanded(child: _chatList()),
-            _bottom(pad),
+            _bottom(pad, bottomMax),
           ]),
           if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + (strip == null ? 6 : 50), child: _tapCard(_tapped!)),
         ]),
       ),
+    ),
+    );
+    });
+      },
     );
   }
 
@@ -911,12 +963,13 @@ class _ChatState extends ConsumerState<_Chat> {
   }
 
   /// The fixed bottom: hints, pronunciation result, notes and the composer.
-  Widget _bottom(EdgeInsets pad) => Container(
-    padding: EdgeInsets.fromLTRB(14, 6, 14, pad.bottom + 10),
-    decoration: const BoxDecoration(color: Color(0xF5140E0A), border: Border(top: BorderSide(color: Color(0x55C9A45C)))),
-    child: ConstrainedBox(
-      constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * .45),
+  Widget _bottom(EdgeInsets pad, double maxHeight) => ConstrainedBox(
+    constraints: BoxConstraints(maxHeight: maxHeight < 1 ? 1 : maxHeight),
+    child: DecoratedBox(
+      decoration: const BoxDecoration(color: Color(0xF5140E0A), border: Border(top: BorderSide(color: Color(0x55C9A45C)))),
       child: SingleChildScrollView(
+        key: const ValueKey('chat-bottom'),
+        padding: EdgeInsets.fromLTRB(14, 6, 14, pad.bottom + 10),
         child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
           if ((_hints || _speaking) && !_ended && _pron == null) _hintChips(),
           if (_pron != null)

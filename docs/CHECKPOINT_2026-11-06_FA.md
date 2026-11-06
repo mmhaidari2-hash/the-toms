@@ -4,6 +4,10 @@
 
 English: Start here and from the latest `origin/fix/offline-audio-content`. Do not reapply the finished commits below.
 
+ادامهٔ همان روز، گزارش چرخش درس پریا، در بخش «درس پریا — چرخش و بنر صدا» پایین همین فایل است. آن بخش را هم بخوانید و جداگانه از نو کشف نکنید.
+
+English: The later Priya shop rotation section in this same file is also already done. Do not rediscover it.
+
 ورود از [سند تحویل](HANDOVER_FA.md). سؤال‌های باز حقوقی همچنان در [OPEN_QUESTIONS_FA.md](compliance/OPEN_QUESTIONS_FA.md) است. این نقطه آن دفتر را نمی‌بندد و تأیید حقوقی، تأیید کامل آزمون، یا آمادگی Play نیست.
 
 ## شاخه و قانون
@@ -117,3 +121,68 @@ English: Debug-signed `1.1.0+5` metadata only. The binaries were not exported an
 - زبان‌هایی که قبلاً نگه داشته شده‌اند (از جمله لهستانی، رومانیایی، بنگالی) ارتقا داده نشدند. وصلهٔ مسدود لهستانی بازیابی نشد
 
 English: These are the verified gaps from this run, not a claim that nothing else is open.
+
+## درس پریا — چرخش و بنر صدا، ۱۶:۳۵ تا ۱۶:۳۷ لندن
+
+همان درس. مسیر واقعی `/chat/l1_u43_1`. شناسهٔ صحنه `l1_u43_1`. عنوان «Excuse me, can you help me?» / «ببخشید، می‌توانید کمکم کنید؟». تنظیم «Asking for help · Level 1»، سطح A1، گوینده Priya. این شناسه از فایل صحنه است، نه یک مسیر ساخته‌شده.
+
+نوک والد پیش از این اصلاح `5558847851ccf9fb4acc464e4f33c30aac74fde2` بود. پیش‌نمایش ساعت ۱۳:۲۱ تغییر داده نشد.
+
+### t237u — صفحهٔ خاکستری بعد از چرخش
+
+گزارش: همان درس، بعد از حالت عمودی که کاربر «yes please can i have candy» نوشته بود و پریا «Of course! What are you looking for?» گفته بود، گوشی ۹۰ درجه چرخید. والد یک صفحهٔ خاکستری/خالی دید که فقط روبان PREVIEW داشت. فایل اصلی آن عکس دیگر در دسترس نیست؛ این مشاهده است، نه یک آزمون ساختگی.
+
+علت، روی کد قبل از این اصلاح: بعد از بیش از دو خط گفتگو ارتفاع نقاشی این بود:
+
+`(width * .5).clamp(128.0, height * .24)`
+
+ستون اپ حداکثر ۵۲۰ عرض دارد. در افقی با ارتفاع ۳۹۰، سقف `height * .24` حدود ۹۳٫۶ است و از کف ۱۲۸ کمتر است. `num.clamp` در این حالت `ArgumentError` می‌دهد و مسیر درس با صفحهٔ خطا عوض می‌شود. روبان PREVIEW بیرون از آن مسیر است (`app.dart`) و می‌ماند. در حالت آزمون ویجت، صفحهٔ خطا قرمز است؛ در ساخت release همان خطا صفحهٔ خاکستری است. تا وقتی گفتگو هنوز «اوایل» است (حداکثر دو خط) سقف `height * .42` است و روی ارتفاع ۳۹۰ پرتاب نمی‌کند. گزارش بعد از جواب پریا بوده، پس با این شرط می‌خواند.
+
+با اجرای همان مسیر روی کدِ قبل از اصلاح، بعد از همان جواب و چرخش به ۸۴۴×۳۹۰، خروجی آزمون این بود: `ArgumentError Invalid argument(s): 128.0`.
+
+اصلاح: اگر سقف از ۱۲۸ کوتاه‌تر باشد، همان سقف استفاده می‌شود و استثنا پرتاب نمی‌شود. روی صفحهٔ کوتاه، اگر بنر صدا روشن باشد درس از زیر بنرِ بالای صفحه شروع می‌شود تا ردیف نقش زیر آن نرود. ارتفاع نقاشی روی صفحهٔ کوتاه انیمیشن جمع‌شدن ندارد، چون ارتفاع میانیِ عمودی ستون را سرریز می‌کرد.
+
+English: Rotating this lesson after the chat had grown threw `ArgumentError` from an inverted `clamp` and replaced the route with the error page. The fix keeps a legal painting height. The 390×844 and 844×390 sizes are test viewports, not a measured handset.
+
+### t238u — بنر روی «YOUR LINE AS PRIYA»
+
+عکس پیوست‌شده عمودی است، نه عکس چرخش: نقش Priya انتخاب شده، Newcomer می‌گوید «Do you sell saffron?»، و بنر دوزبانهٔ «No recording for this line yet» روی کارت خط یادگیرنده نشسته است. این هندسه بنرِ پایینِ قدیمی است. کامیت `42ac8ee96` بنر را در همین شاخه به بالای صفحه برده بود. پیش‌نمایش ۱۳:۲۱ قبل از آن ساخته شده و اینجا دوباره منتشر نشد. اگر علامت روی شاخهٔ فعلی دیگر دیده نشود، وضعیت «در شاخه درست شده، روی پیش‌نمایشِ ۱۳:۲۱ نه» است. این مرحله علاوه بر آن، در افقیِ کوتاه و با صفحه‌کلید باز، ردیف نقش و خط و دکمه‌ها را زیر همان بنرِ بالا نمی‌گذارد. متن بنر همان انگلیسی و فارسی است و برای خاموش کردن خطا مخفی نشده است.
+
+جابه‌جا کردن بنر صوت گم‌شده را درست نمی‌کند. کلیدها با `md5(speaker|text)` شانزده‌رقمی، روی ایندکس و فایل‌های همین شاخه:
+
+- `learner|Do you sell saffron?` = `2baed0e7dbf8c870` — در ایندکس نیست و فایل ندارد.
+- `me|Do you sell saffron?` = `7f6d6c589b18837c` — در ایندکس هست، ۴۱۲۴ بایت. `Voice._find` برای گویندهٔ `learner` کلید `me` را هم می‌گردد، پس همین جملهٔ Newcomer روی این شاخه، اگر ایندکس بار شده باشد، کلیپ گم‌شده نیست.
+- `priya|Do you sell saffron?` = `2ef642b86cdfef76` — نیست. پریا این جمله را نمی‌گوید.
+- خط خود پریا در همین نوبت، `priya|We do! Spices are in aisle six. But saffron is behind the till. It's very expensive!` = `8db96d4723b8e439` — هست، ۲۰۹۰۰ بایت.
+- `priya|Of course! What are you looking for?` = `9289f78efa9292f6` — هست، ۸۳۰۰ بایت.
+- `priya|Hi there! You look a bit lost. Can I help you with anything?` = `b5a1fd4a8c2b34ed` — هست، ۱۳۹۸۸ بایت.
+- جملهٔ تایپ‌شدهٔ کاربر کلیپ ندارد: `me` = `b922edc0347e152d` و `learner` = `f42e529f09e12a54`.
+
+پس بنر «No recording» در آن عکس با غایب بودنِ خودِ «Do you sell saffron?» توضیح داده نمی‌شود، مگر ایندکس هنوز بار نشده باشد، متن دقیق خط چیز دیگری بوده باشد، یا ساخت پیش‌نمایش مسیر دیگری داشته باشد. این مرحله کلیپی اضافه نکرد.
+
+English: The covering notice matches the old bottom banner. On this branch the notice stays at the top and the short layout keeps the line and controls clear of it. The Newcomer saffron line resolves through the existing `learner` → `me` clip. Missing audio is not solved by moving the notice.
+
+### t236u — هنوز باز
+
+«yes please can i have candy» واژهٔ `can` را دارد و شاخهٔ اول گره `n1` با کلیدواژه‌های excuse / help / can همان را می‌پذیرد و به «Of course! What are you looking for?» می‌رود. این در آزمون و در عکس عمودی دوباره دیده شد. به گفت‌وگوی عمومی هوش مصنوعی تبدیل نشد و باز می‌ماند.
+
+English: The off-script candy reply is the existing keyword match. It stays open.
+
+### آزمون این مرحله
+
+Flutter 3.47.7. فرمان:
+
+`cd app && flutter test -j 1 test/priya_shop_layout_test.dart test/voice_feedback_test.dart test/messages_flow_test.dart test/play_as_test.dart test/chat_bubbles_test.dart test/roleplay_test.dart`
+
+نتیجه: `+19` و `All tests passed`. مجموعهٔ کامل دوباره اجرا نشد. نتیجهٔ تاریخی `+242 ~2 -10` روی `42ac8ee96` و `+17` روی `8cfbe9e89` سر جایش است. شکست‌های arrival، audit، رادیو، سینما و `profiles-privacy` حل‌شده علامت نخوردند. نماهای ۳۹۰×۸۴۴ و ۸۴۴×۳۹۰ اندازهٔ دستگاه مالک نیستند. آزمون لینوکس mp3 پخش نمی‌کند.
+
+عکس‌ها از همان آزمون ویجت‌اند. عکس «قبل» صفحهٔ خطای حالت آزمون است (قرمز)، نه قاب release خاکستری؛ استثنا همان `ArgumentError` بود.
+
+- [افقی، قبل از اصلاح، صفحهٔ خطا](checkpoint/2026-11-06/roleplay-before-landscape-error.png)
+- [عمودی، جواب تایپ‌شده مانده](checkpoint/2026-11-06/roleplay-after-portrait-typed.png)
+- [افقی، گفتگو مانده](checkpoint/2026-11-06/roleplay-after-landscape.png)
+- [عمودی، خط پریا پیدا است](checkpoint/2026-11-06/roleplay-after-portrait-line.png)
+- [افقی، خط پریا زیر بنر نرفته](checkpoint/2026-11-06/roleplay-after-landscape-notice.png)
+- [افقی با صفحه‌کلید، نقش و ارسال پیدا است](checkpoint/2026-11-06/roleplay-after-landscape-keyboard.png)
+
+English: Focused serial result `+19`. Not a full suite and not a Play-ready claim.
