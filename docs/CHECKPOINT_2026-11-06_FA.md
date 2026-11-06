@@ -249,6 +249,19 @@ English: Full serial on `104f7500d` was `+220 ~2 -16`, exit 1. Arrival clips, au
 
 اعلام وضعیت صدا اگر وسط ساخت درخت باشد به فریم بعد موکول می‌شود تا بستن چت درخت را قفل نکند. اگر پخش false بدهد و کلیپِ دیگری جایش را نگرفته باشد، رادیو و سینما سرعت نوشته‌شدهٔ خط را نگه می‌دارند و بنرِ «پخش نشد» سر جایش می‌ماند؛ صدای موفق جعل نمی‌شود. آزمون پروفایل تا یادداشت حریم کودک می‌لغزد و همان جملهٔ انگلیسی و فارسی را می‌خواهد. آزمون کوتاه `chat_notice_dispose_test` ورود و خروج `/chat/nicola_park` را بدون استثنا می‌سنجد.
 
-این اصلاح‌ها در SHA مجموعهٔ `104f7500d` نیستند. مجموعهٔ کاملِ SHA بعدی، وقتی تمام شود، در همین فایل با همان عدد ثبت می‌شود. تا آن ثبت، ادعای سبزِ جدید نیست.
+این اصلاح‌ها در SHA مجموعهٔ `104f7500d` نیستند. مجموعهٔ کاملِ بعد از آن‌ها روی `9daa52a988fd7abda121a759ff2a683d02694b2b` اجرا شد.
 
-English: The notice no longer marks the tree dirty during dispose. Radio and cinema keep their written pace when playback returns false without being replaced, and the failure notice stays. The profiles test scrolls to the child-privacy note and still requires its wording. The full suite of the following commit is not claimed until its own log is written here.
+English: The notice no longer marks the tree dirty during dispose. Radio and cinema keep their written pace when playback returns false without being replaced, and the failure notice stays. The profiles test scrolls to the child-privacy note and still requires its wording.
+
+## مجموعهٔ سریال روی `9daa52a98`
+
+همان فرمان، Flutter 3.47.7، `-j 1`. لاگ با `SHA:9daa52a988fd7abda121a759ff2a683d02694b2b` شروع شد. زمان حدود ۳۸:۳۸. نتیجه: `+259 ~2 -4` و `EXIT:1`. این اجرای کاملِ همین SHA است، نه `+220` و نه عددهای قدیمی.
+
+چهار شکست، همه کلیپِ غایب، و آزمونشان شل نشد:
+
+- `arrival_pack_test` — کلیدهای `087cc7d72afdb4af`، `30d6184f7e89755f`، `356cbff6b133709e`، `41f7ba1b5bec01ca`، `aff7622e07e6c48a`، `d8460a4b3cebf583`، `da6a5e64cdb062a6`.
+- `audit_test` سه آزمون صوت: خط‌های بدون mp3 (راهنمای Ghost، بازتاب سراسری، واژهٔ راوی، و خط‌های شغلی از جمله خوشامد Vida) و به‌خاطر همان غیبت‌ها `n > 30000` رد شد.
+
+چرخش سه‌اندازه، رادیو، سینما، پروفایل، و جواب پریا در همین اجرا پاس شدند. پیش‌نمایش و سایت زنده منتشر نشدند. آمادهٔ Play نیست. ساخت کلیپ تازه همچنان به ورود Azure و اثبات F0 بسته است.
+
+English: Full serial on `9daa52a98` was `+259 ~2 -4`, exit 1, about 38m38s. The four failures are missing clips in the arrival pack and the three audio audits. Overflow, radio, cinema, profiles, and the Priya reply passed in that same run. Not Play-ready. A docs-only commit after this log does not change the tested tree.
