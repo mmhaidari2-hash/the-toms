@@ -93,11 +93,13 @@ def add(sp,t):
   return key(sp,t)
 # Learner path: scene id -> its position in the main course (A1 unit 1 lesson 1 = 0), used to order the render queue.
 PATH={}
+POS=[]  # course position -> (level, lesson id), for --coverage
 _course=os.path.join(A,'data','course.json')
 if os.path.exists(_course):
   for _u in sorted(json.load(open(_course))['units'],key=lambda u:u['level']):  # stable: keeps unit order inside a level
     for _l in _u['lessons']:
-      for _s in _l.get('sceneIds',[]): PATH.setdefault(_s,len(PATH))
+      for _s in _l.get('sceneIds',[]):
+        if _s not in PATH: PATH[_s]=len(PATH); POS.append((_u['level'],_l.get('id',_s)))
 RANK={}  # clip key -> earliest course position of a scene that speaks it
 _add=add
 for f in sorted(glob.glob(os.path.join(A,'data/scenes/*.json'))):
@@ -189,7 +191,7 @@ if os.path.exists(dump):
 nov=sorted({sp for sp,_ in items.values() if sp not in V})
 if nov: sys.exit(f'NO VOICE for speakers {nov}: add them to V')
 # The exact text of every clip, for the audio QA (speech-to-text comparison and re-renders): tool/qa/qa_audio.py
-if '--dry-run' not in sys.argv:
+if '--dry-run' not in sys.argv and '--coverage' not in sys.argv:
   json.dump({k:v[1] for k,v in sorted(items.items())},open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'audit','voice_texts.json'),'w'),ensure_ascii=False,separators=(',',':'))
 if os.environ.get('RENDER_LIST_ONLY'): sys.exit(0)
 def sig(sp): return '|'.join(V[sp])
@@ -231,6 +233,19 @@ else:
 LIMIT=int(os.environ.get('RENDER_LIMIT','0') or 0)
 if LIMIT: todo=todo[:LIMIT]
 print(len(items),'lines,',len(todo),'to render,',sum(len(t) for _,(_,t) in todo),'characters')
+if '--coverage' in sys.argv:
+  # Read-only report: how much of each course level a learner will hear. A line counts as voiced when its
+  # clip file exists (a clip queued only for a voice refresh still plays, so it counts).
+  per={}; gap=None
+  for k,r in sorted(RANK.items(),key=lambda kv:kv[1]):
+    lv=POS[r][0]; ok=os.path.exists(f'{OUT}/{k}.mp3')
+    d=per.setdefault(lv,[0,0]); d[0]+=ok; d[1]+=1
+    if not ok and gap is None: gap=POS[r][1]
+  print('Course audio coverage (lesson scene lines with a clip):')
+  for lv in sorted(per):
+    a,b=per[lv]; print(f'  Level {lv}: {a}/{b} = {100*a/max(1,b):.1f}%')
+  print('  first lesson with a silent line:',gap or 'none')
+  sys.exit(0)
 if '--dry-run' in sys.argv:
   print('queue head:',[(k,RANK.get(k)) for k,_ in todo[:5]])
   missing=[{'key':k,'speaker':sp,'text':t} for k,(sp,t) in sorted(items.items()) if not os.path.exists(f'{OUT}/{k}.mp3')]
