@@ -8,6 +8,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
+import '../../core/data/backup.dart';
 import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 
@@ -349,6 +350,97 @@ class _LegalScreenState extends ConsumerState<LegalScreen> {
     );
   }
 
+  /// Restore a copy made by [_export] (for example on a new phone). Checked first, then confirmed, because it
+  /// replaces every profile on this device.
+  Future<void> _restore() async {
+    final box = TextEditingController();
+    final err = ValueNotifier<String?>(null);
+    final paste = await showDialog<Map<String, String>>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        key: const ValueKey('legal-restore-dialog'),
+        title: Text(hl('Restore from a copy')),
+        content: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(hl('Paste the text you saved with "Export all local data".')),
+              Text(
+                hl('متنی را که با «Export all local data» ذخیره کردید اینجا بچسبانید.'),
+                textDirection: helperDir,
+                style: BL.fa(12, color: BL.muted),
+              ),
+              const SizedBox(height: 10),
+              TextField(
+                key: const ValueKey('legal-restore-input'),
+                controller: box,
+                minLines: 3,
+                maxLines: 6,
+                decoration: const InputDecoration(border: OutlineInputBorder(), hintText: '{ "meta": … }'),
+              ),
+              ValueListenableBuilder<String?>(
+                valueListenable: err,
+                builder: (_, e, _) => e == null
+                    ? const SizedBox.shrink()
+                    : Padding(
+                        padding: const EdgeInsets.only(top: 8),
+                        child: Text(e, key: const ValueKey('legal-restore-error'), style: const TextStyle(color: BL.red, fontSize: 13)),
+                      ),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(hl('Cancel'))),
+          FilledButton(
+            key: const ValueKey('legal-restore-check'),
+            onPressed: () {
+              final c = parseBackup(box.text);
+              if (c.ok) {
+                Navigator.pop(ctx, c.data);
+              } else {
+                err.value = '${c.error}\n${hl(c.errorFa)}';
+              }
+            },
+            child: Text(hl('Next')),
+          ),
+        ],
+      ),
+    );
+    box.dispose();
+    err.dispose();
+    if (paste == null || !mounted) return;
+    final n = BackupCheck.ok(paste).profileCount;
+    final sure = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        key: const ValueKey('legal-restore-confirm-dialog'),
+        title: Text(hl('Replace the progress on this device?')),
+        content: Text(
+          '${hl('The copy has $n learner profile(s). Everything on this device now will be replaced by it.')}\n\n'
+          '${hl('این نسخه $n پروفایل دارد. همهٔ داده‌های فعلی این دستگاه با آن جایگزین می‌شود.')}',
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(hl('Cancel'))),
+          FilledButton(
+            key: const ValueKey('legal-restore-confirm'),
+            onPressed: () => Navigator.pop(ctx, true),
+            child: Text(hl('Restore')),
+          ),
+        ],
+      ),
+    );
+    if (sure != true) return;
+    await ref.read(progressStoreProvider).importAllLocalData(paste);
+    ref.invalidate(progressProvider);
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('${hl('Progress restored.')} ${hl('پیشرفت بازگردانده شد.')}')),
+    );
+    context.go('/');
+  }
+
   Future<void> _deleteAll() async {
     final ok = await showDialog<bool>(
       context: context,
@@ -486,6 +578,13 @@ class _LegalScreenState extends ConsumerState<LegalScreen> {
             ),
             const SizedBox(height: 8),
             OutlinedButton.icon(
+              key: const ValueKey('legal-restore'),
+              onPressed: _restore,
+              icon: const Icon(Icons.upload_outlined),
+              label: Text(hl('Restore from a copy')),
+            ),
+            const SizedBox(height: 8),
+            OutlinedButton.icon(
               key: const ValueKey('legal-delete'),
               onPressed: _deleteAll,
               icon: const Icon(Icons.delete_forever_outlined, color: BL.red),
@@ -496,7 +595,7 @@ class _LegalScreenState extends ConsumerState<LegalScreen> {
             ),
             const SizedBox(height: 6),
             Text(
-              hl('خروجی گرفتن از همهٔ داده‌های محلی / حذف همهٔ داده‌های محلی'),
+              hl('خروجی گرفتن از همهٔ داده‌های محلی / بازگرداندن از یک نسخه / حذف همهٔ داده‌های محلی'),
               textDirection: helperDir,
               style: BL.fa(12, color: BL.muted),
             ),

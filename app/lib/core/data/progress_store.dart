@@ -29,6 +29,9 @@ abstract class ProgressStore {
 
   /// Machine-readable export of all local progress for the active device (portability).
   Map<String, String> exportAllLocalData();
+
+  /// Replace everything on this device with a copy from [exportAllLocalData], already checked by `parseBackup`.
+  Future<void> importAllLocalData(Map<String, String> data);
 }
 
 const _metaKey = 'meta';
@@ -212,6 +215,13 @@ class HiveProgressStore implements ProgressStore {
     }
     return out;
   }
+
+  @override
+  Future<void> importAllLocalData(Map<String, String> data) async {
+    await box.clear();
+    await box.putAll(data);
+    if (!box.containsKey(_metaKey)) await box.put(_metaKey, jsonEncode(_defaultMeta()));
+  }
 }
 
 class MemoryProgressStore implements ProgressStore {
@@ -320,6 +330,15 @@ class MemoryProgressStore implements ProgressStore {
     out[_metaKey] = jsonEncode(_meta);
     if (_circle != null) out[_circleKey] = _circle!;
     return out;
+  }
+
+  @override
+  Future<void> importAllLocalData(Map<String, String> data) async {
+    _blobs
+      ..clear()
+      ..addAll({for (final e in data.entries) if (e.key != _metaKey && e.key != _circleKey) e.key: e.value});
+    _meta = data[_metaKey] == null ? _defaultMeta() : Map<String, dynamic>.from(jsonDecode(data[_metaKey]!) as Map);
+    _circle = data[_circleKey];
   }
 }
 
