@@ -90,13 +90,29 @@ def add(sp,t):
   if len(re.sub(r'\W','',c))<2: return
   items[key(sp,t)]=(sp,c)
   if '{you}' in t: NAMED.add(key(sp,t))
-for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
+  return key(sp,t)
+# Learner path: scene id -> its position in the main course (A1 unit 1 lesson 1 = 0), used to order the render queue.
+PATH={}
+_course=os.path.join(A,'data','course.json')
+if os.path.exists(_course):
+  for _u in sorted(json.load(open(_course))['units'],key=lambda u:u['level']):  # stable: keeps unit order inside a level
+    for _l in _u['lessons']:
+      for _s in _l.get('sceneIds',[]): PATH.setdefault(_s,len(PATH))
+RANK={}  # clip key -> earliest course position of a scene that speaks it
+_add=add
+for f in sorted(glob.glob(os.path.join(A,'data/scenes/*.json'))):
   d=json.load(open(f))
+  _r=PATH.get(d.get('id'))
+  def add(sp,t,_r=_r):
+    k=_add(sp,t)
+    if k and _r is not None: RANK[k]=min(RANK.get(k,_r),_r)
+    return k
   for n in d['nodes'].values():
     sp=n['speaker']; add(sp,n['text']); add(sp,n.get('coolReply'))
     if n.get('xray'): add(sp,n['xray'].get('connected'))
     for r in n.get('recasts') or []: add(sp,r.get('echo'))
     for b in n.get('branches',[]): add(d.get('guest','me'),b.get('suggestion'))
+add=_add
 def walk(o):
   if isinstance(o,dict):
     if o.get('characterId') and isinstance(o.get('ambient'),dict): add(o['characterId'],o['ambient'].get('en'))
@@ -205,10 +221,18 @@ for n,f in enumerate(('mistakes.json','lifeskills.json')):
     for t in json.load(open(fp))['topics']:
       for x in t['teach']+t['examples']: PRIO.setdefault(x['en'],n)
 todo.sort(key=lambda kv: (PRIO.get(kv[1][1],9), 0 if kv[1][0]=='ellis' else 1) if kv[1][1] in PRIO else (9,1))
+# Then the main course in the order a learner meets it (A1 unit 1 lesson 1 first), so the first lessons are never silent.
+# Default: inside the "everything else" group only. RENDER_ORDER=path puts the course path ahead of the packs above.
+_N=len(PATH)+1
+if os.environ.get('RENDER_ORDER')=='path':
+  todo.sort(key=lambda kv: RANK.get(kv[0],_N))
+else:
+  todo.sort(key=lambda kv: (1, RANK.get(kv[0],_N)) if kv[1][1] not in PRIO else (0,0))
 LIMIT=int(os.environ.get('RENDER_LIMIT','0') or 0)
 if LIMIT: todo=todo[:LIMIT]
 print(len(items),'lines,',len(todo),'to render,',sum(len(t) for _,(_,t) in todo),'characters')
 if '--dry-run' in sys.argv:
+  print('queue head:',[(k,RANK.get(k)) for k,_ in todo[:5]])
   missing=[{'key':k,'speaker':sp,'text':t} for k,(sp,t) in sorted(items.items()) if not os.path.exists(f'{OUT}/{k}.mp3')]
   print(json.dumps({'missing':missing,'obsoleteRetained':sum(1 for f in os.listdir(OUT) if re.fullmatch(r'[0-9a-f]{16}\.mp3',f) and f[:-4] not in items)},ensure_ascii=False))
   sys.exit(0)
