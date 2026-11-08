@@ -1,9 +1,10 @@
 name: CI
 on:
   push:
-    branches: [source]
+    branches: [source, 'improve/**']
   pull_request:
     branches: [source]
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
