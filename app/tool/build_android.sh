@@ -61,9 +61,27 @@ for k in keys:
 print(f'synced app; bundled {n}/{len(keys)} early-lesson clips into APK tree')
 PY
 cd $B
+# Guard: only the early-lesson clips may be packed (the rest stream and cache on the device).
+MP3S=$(find assets/audio -name '*.mp3' ! -name silence.mp3 | wc -l)
+LIMIT=$(python3 -c "import json;print(len(json.load(open('assets/audio/bundled.json'))))")
+if [ "$MP3S" -gt "$LIMIT" ]; then
+  echo "STOP: $MP3S clips in the build tree, only $LIMIT allowed (assets/audio/bundled.json). Full audio must not go in the APK." >&2
+  exit 1
+fi
 rm -f android/local.properties
 flutter pub get >/dev/null
 yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses >/dev/null || true
 flutter build apk --release
 flutter build appbundle --release
 ls -la build/app/outputs/flutter-apk/app-release.apk build/app/outputs/bundle/release/app-release.aab
+# Guard: a correct build is well under 150 MB (about 56 MB of non-audio assets plus the engine).
+# The 6 Nov private build was 363 MB, which means it packed the full audio.
+MAXB=$((150*1024*1024))
+for f in build/app/outputs/flutter-apk/app-release.apk build/app/outputs/bundle/release/app-release.aab; do
+  SZ=$(stat -c %s "$f")
+  if [ "$SZ" -gt "$MAXB" ]; then
+    echo "STOP: $f is $((SZ/1048576)) MB (limit 150 MB). Check that the full audio was not packed." >&2
+    exit 1
+  fi
+done
+echo "size check passed"
