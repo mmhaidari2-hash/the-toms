@@ -31,7 +31,8 @@
 
 ## Growth & Monetisation Strategy (added 2026-10-16)
 ### Revenue
-- Freemium: A0–A2 + Tom's home free; B1+ via subscription (~£7.99/mo, £49/yr).
+- Freemium: A0–A2 + Tom's home free; B1+ via subscription (~£7.99/mo, £49/yr). *(Superseded: prices agreed 2026-11-05 are £6.99/mo, £44.99/yr, £29.99 founding year, £7.99 per Career Pack — see `PremiumConfig`.)*
+- **Decision 2026-11-08 (owner):** the paywall moves to UK-life content, and B1 is built out next (it has 44 lessons, the plan says ~240); whether B1+ ever carries a price is decided after that. Once payments are on, Premium = every Career Pack + Life in the UK beyond chapter 1 and the mock test + IELTS Life Skills prep + practice/certificates. Free for now: every course level, the Life in the UK hub and chapter 1, visa and settlement guides, Grammar A1, the Arrival pack. Code: `PremiumGate` (`lib/features/premium/premium_gate.dart`). The beta (`betaFree`) keeps everything open. *Fa:* دیوار پرداخت به محتوای زندگی در بریتانیا منتقل شد و B1 پیش از پولی شدن کامل می‌شود.
 - Themed packs: English-for-exams / Life in the UK prep (original questions; not affiliated with the Home Office), NHS workplace English, job interview, banking & housing.
 - B2B: colleges, local councils, refugee charities, employers of overseas workers (care, warehouse).
 - Live tutor add-on: 15-min calls with British tutors, revenue share.
