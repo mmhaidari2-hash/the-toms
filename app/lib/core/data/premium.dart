@@ -21,10 +21,13 @@ class PremiumConfig {
   static String price(double v) => '$currency${v.toStringAsFixed(2)}';
   /// Yearly saving against twelve monthly payments, in whole percent.
   static int get yearlySaving => ((1 - yearly / (monthly * 12)) * 100).round();
+  // Every perk must be something Premium really unlocks (consumer law: no claim the app does not deliver).
+  // "Offline voices for every lesson" was removed on 2026-11-08: on Android most clips download on first play.
   static const List<(String, String)> perks = [
     ('Every Career Pack (Nursery and more to come)', 'همهٔ بسته‌های شغلی (مهدکودک و بسته‌های بعدی)'),
+    ('Life in the UK test prep: every chapter and mock tests', 'آمادگی آزمون Life in the UK: همهٔ فصل‌ها و آزمون‌های نمونه'),
+    ('IELTS Life Skills prep for visas and settlement', 'آمادگی IELTS Life Skills برای ویزا و اقامت'),
     ('Unlimited practice and unit reviews', 'تمرین و مرور نامحدود'),
     ('Certificates for every level', 'گواهی پایان هر سطح'),
-    ('Offline voices for every lesson', 'صداهای آفلاین برای همهٔ درس‌ها'),
   ];
 }

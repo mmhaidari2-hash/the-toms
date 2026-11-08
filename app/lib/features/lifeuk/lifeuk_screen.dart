@@ -45,7 +45,8 @@ Widget lukNote({required Key key, required IconData icon, required String en, re
   ),
 );
 
-/// Life in the UK test prep hub: notes, the mock test and four chapters. Always open (see MASTER_BOOK).
+/// Life in the UK test prep hub: notes, the mock test and four chapters. The hub is always open; once payments are on,
+/// chapters after the first and the mock test are Premium (`PremiumGate`, decision 2026-11-08).
 class LukScreen extends ConsumerWidget {
   const LukScreen({super.key});
   @override
