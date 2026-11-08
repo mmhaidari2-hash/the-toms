@@ -60,6 +60,12 @@ void main() {
       t.takeException();
     }
 
+    // Start every check from the map: the page we left (mid-transition) then never holds a gate, so counts are exact.
+    Future<void> open(String r) async {
+      await go('/');
+      await go(r);
+    }
+
     Finder gate() => find.byType(PremiumGate, skipOffstage: false);
     Finder paywall() => find.descendant(of: gate(), matching: find.byType(PremiumScreen, skipOffstage: false), skipOffstage: false);
     Finder inside(Type ty) => find.descendant(of: gate(), matching: find.byType(ty, skipOffstage: false), skipOffstage: false);
@@ -71,33 +77,33 @@ void main() {
 
     // Beta: every gate is open.
     PremiumConfig.betaFree = true;
-    await go('/lifeskills');
+    await open('/lifeskills');
     expect(inside(LifeSkillsScreen), findsOneWidget);
-    await go('/lifeuk/${chapters[1]}');
+    await open('/lifeuk/${chapters[1]}');
     expect(inside(LukChapterScreen), findsOneWidget);
 
     // Payments on, no Premium.
     PremiumConfig.betaFree = false;
     Entitlements.paidBuild = true;
-    await go('/lifeuk/${chapters.first}');
+    await open('/lifeuk/${chapters.first}');
     expect(inside(LukChapterScreen), findsOneWidget, reason: 'chapter 1 is the free sample');
     expect(paywall(), findsNothing);
-    await go('/lifeuk/${chapters[1]}');
+    await open('/lifeuk/${chapters[1]}');
     expect(paywall(), findsOneWidget);
-    await go('/lifeuk/${chapters[1]}/quiz');
+    await open('/lifeuk/${chapters[1]}/quiz');
     expect(paywall(), findsOneWidget);
-    await go('/lifeuk/mock');
+    await open('/lifeuk/mock');
     expect(paywall(), findsOneWidget);
-    await go('/lifeskills');
+    await open('/lifeskills');
     expect(paywall(), findsOneWidget);
-    await go('/lifeuk');
+    await open('/lifeuk');
     expect(find.byType(LukScreen, skipOffstage: false), findsOneWidget, reason: 'the Life in the UK hub stays free');
 
     // Server-verified Premium opens everything.
     Entitlements.applyServerState(premium: true, packs: {});
-    await go('/lifeskills');
+    await open('/lifeskills');
     expect(inside(LifeSkillsScreen), findsOneWidget);
-    await go('/lifeuk/mock');
+    await open('/lifeuk/mock');
     expect(paywall(), findsNothing);
 
     router.go('/');
