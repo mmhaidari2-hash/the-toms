@@ -49,4 +49,32 @@ English: Facts read from `51d67f6d`. No product or legal-policy edit. Not legal 
 
 مرحلهٔ بعدی امن و مستقل از متن فروشگاه: یک اصلاح کوتاه انگلیسی+فارسی تا راهنمای میکروفون، تشخیص گفتار سیستم را برای اندروید وعده ندهد؛ مطابق `speech_io.dart` خط ۲۵–۲۶. پیش‌نویس حقوقی نویسنده دست نخورد. APK ساخته نشود. صوت تازه ساخته نشود. مجموعهٔ کامل تکرار نشود.
 
-English: Next safe code stage is a short EN+FA mic-help correction so Android is not described as having OS speech recognition. Leave the writer’s legal drafts, audio generation, signing, and the full suite alone.
+English: The mic-help correction below is that next stage. Leave the writer’s legal drafts, audio generation, signing, and the full suite alone.
+
+## مرحلهٔ کد — راهنمای میکروفون، ۱۰ نوامبر ۲۰۲۶
+
+Azure تازه، جدا از ۶ نوامبر: والد در ۱۰ نوامبر ۲۰۲۶ ساعت ۲۲:۴۳:۳۸ اروپا/لندن یک `subscription_list` زندهٔ مجاز را خواند و دوباره `401` / `CredentialUnavailableException` / `ChainedTokenCredential` گرفت. ورود `az login` لازم است. منبع، اشتراک، SKU، F0، نقطهٔ پایانی و ظرفیت رایگان نوامبر اثبات نشد. این مرحله همان را دوباره نپرسید، کلید نخواند و کلیپ نساخت. فایل اعلام‌شده `newlife-f0-check-20261110/f0-check-evidence.txt` در این محیط نبود؛ این بند نقل همان خواندن والد است، نه یک بررسی تازهٔ Azure. این مدرک جایگزینِ تکیهٔ تنها بر `401` ششم نوامبر است و اجازهٔ ساخت صدا نیست.
+
+اصلاح: وقتی وب نیست و `sttSupported` و `recordSupported` هر دو false هستند (همان `speech_io.dart`)، متن راهنما دیگر مرورگر، ضبط، دیکتهٔ صفحه‌کلید، یا تشخیص گفتار اندروید را وعده نمی‌دهد. مسیر وب همان تشخیص اختیاری مرورگر (گوگل/اپل) و در صورت نبودن API، میکروفون کیبورد یا تایپ را می‌گوید. پیش‌نویس `/legal` دست نخورد. زبان‌های helper و جدول پوشش عوض نشد. مسیر، اثر، متن درس و پیشرفت عوض نشد. SDK گفتار تازه اضافه نشد.
+
+فایل‌ها:
+
+- `app/lib/features/speaking/speaking_widgets.dart`
+- `app/lib/features/conversation/conversation_screen.dart`
+- `app/lib/features/coach/coach_screen.dart`
+- `app/lib/features/messages/thread_screen.dart`
+- `app/test/speaking_test.dart`
+- `app/test/priya_shop_layout_test.dart` فقط راهنمای tooltip میکروفون، چون در آزمون VM دیگر «Speak with the keyboard mic» نیست
+
+آزمون، بدون مجموعهٔ کامل: `cd app && flutter test -j 1 test/speaking_test.dart` با Flutter 3.47.7. نتیجه: `+12`، همه قبول، حدود ۶ ثانیه بعد از بارگذاری. لاگ: `speaking-mic-2026-11-10.log`. مجموعهٔ `+259 ~2 -4` روی `9daa52a98` تاریخی ماند. APK و مرورگر ساخته نشد.
+
+مانع‌های بعدی که این مرحله باز نکرد:
+
+1. جای‌خالی ناشر تا ثبت شرکت (Q03 پرسیده نشود).
+2. کلیپ‌های arrival و audit، تا اثبات F0. مدرک ۱۰ نوامبر هنوز `401` است.
+3. مجوزهای ادغام‌شدهٔ APK هنوز UNKNOWN. بسته ساخته نشود.
+4. پیش‌نویس حقوقی منتظر نویسنده است.
+5. امضای تولید داخل مخزن نیست.
+6. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
+
+English: Parent’s 10 Nov 2026 22:43:38 Europe/London Azure read was again 401 CredentialUnavailable / ChainedTokenCredential. No F0 proof and no new audio. The installed-app mic help now says it cannot transcribe or record; web copy still names browser speech. Focused `speaking_test.dart` was +12. Not Play-ready.

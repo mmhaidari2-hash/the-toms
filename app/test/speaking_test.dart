@@ -83,6 +83,43 @@ void main() {
     expect(retried && sent, isTrue);
   });
 
+  test('installed app copy does not promise recognition or recording; web copy still names the browser', () {
+    const installed = MicHelpCopy(
+      "Speaking isn't available in this app",
+      "This installed app cannot turn your voice into text, and it does not record you. It does not use Android speech recognition. Type a reply, or tap one of the answers.",
+      "این نسخهٔ نصب‌شده گفتار را به متن تبدیل نمی‌کند و صدایت را ضبط نمی‌کند. تشخیص گفتار اندروید در این برنامه نیست. جواب را بنویس، یا یکی از پاسخ‌ها را بزن.",
+    );
+    for (final e in ['unsupported', 'not-allowed', 'service-not-allowed', 'mic']) {
+      final c = micHelpCopy(e, web: false, sttSupported: false, recordSupported: false);
+      expect(c.title, installed.title, reason: e);
+      expect(c.body, installed.body);
+      expect(c.bodyFa, contains('ضبط نمی‌کند'));
+      expect(c.body, isNot(contains('tap Record')));
+      expect(c.body, isNot(contains('Keyboard')));
+      expect(c.body, isNot(contains('Chrome')));
+    }
+    final webOff = micHelpCopy('unsupported', web: true, sttSupported: false, recordSupported: true);
+    expect(webOff.body, contains('Safari'));
+    expect(webOff.body, contains('Chrome'));
+    expect(webOff.body, contains('Record'));
+    expect(webOff.bodyFa, contains('سافاری'));
+    final webScore = scoreMicNote(web: true, sttSupported: true);
+    expect(webScore.$1, contains('Google in Chrome, Apple in Safari'));
+    expect(webScore.$2, contains('مرورگر'));
+    final nativeScore = scoreMicNote(web: false, sttSupported: false);
+    expect(nativeScore.$1, contains('does not record'));
+    expect(nativeScore.$1, isNot(contains('browser')));
+    final nativeCoach = coachIntro(web: false, sttSupported: false);
+    expect(nativeCoach.$1, contains('does not record'));
+    expect(coachAiNote(web: false, sttSupported: false).$1, isNot(contains('device/browser')));
+    expect(coachIntro(web: true, sttSupported: true).$1, contains('browser'));
+    expect(dictateFallback(web: false, sttSupported: false, recordSupported: false).$1, isNot(contains('Keyboard')));
+    expect(dictateFallback(web: true, sttSupported: false, recordSupported: false).$1, contains('Keyboard mic'));
+    expect(replyMicTip(web: false, sttSupported: false, sttBroken: false, recordSupported: false), 'Type your reply');
+    expect(replyMicTip(web: true, sttSupported: false, sttBroken: true, recordSupported: true), 'Speak with the keyboard mic');
+    expect(replyMicTip(web: false, sttSupported: true, sttBroken: false, recordSupported: false), 'Speak your replies');
+  });
+
   for (final e in ['unsupported', 'not-allowed', 'service-not-allowed']) {
     testWidgets('mic help explains "$e" without overflow', (t) async {
       t.view.physicalSize = const Size(375, 667) * 3;
@@ -94,12 +131,12 @@ void main() {
       await t.pumpAndSettle();
       expect(t.takeException(), isNull);
       expect(find.byKey(const ValueKey('mic-help')), findsOneWidget);
-      expect(find.text(e == 'unsupported' ? "Speaking isn't available here" : e == 'service-not-allowed' ? 'Turn on Dictation' : 'Allow the microphone'), findsOneWidget);
-      if (e == 'not-allowed') {
-        final w = t.widget<Text>(find.byKey(const ValueKey('mic-privacy')));
-        expect(w.data, contains('Google in Chrome, Apple in Safari'), reason: 'accurate speech-privacy wording (legal review §7)');
-        expect(w.data, isNot(contains('nothing is recorded or sent')));
-      }
+      expect(find.text("Speaking isn't available in this app"), findsOneWidget);
+      final w = t.widget<Text>(find.byKey(const ValueKey('mic-privacy')));
+      expect(w.data, contains('does not record you'));
+      expect(w.data, isNot(contains('Record')));
+      expect(w.data, isNot(contains('Chrome')));
+      expect(find.textContaining('ضبط نمی‌کند'), findsOneWidget);
       await t.ensureVisible(find.text('Type instead'));
       await t.pumpAndSettle();
       await t.tap(find.text('Type instead'));
@@ -128,15 +165,17 @@ void main() {
     expect(t.takeException(), isNull);
     // Speech isn't available in tests: speak mode stays off (typing composer) even though the pref is on.
     expect(find.byKey(const ValueKey('speak-mic'), skipOffstage: false), findsNothing);
-    final mic = find.byTooltip('Speak with the keyboard mic', skipOffstage: false);
+    final mic = find.byTooltip('Type your reply', skipOffstage: false);
     expect(mic, findsOneWidget);
     await t.tap(mic, warnIfMissed: false);
     await t.pump(const Duration(seconds: 1));
-    // Fallback (e.g. iPhone Home Screen app): the keyboard's own dictation mic, the field focused, a retry.
+    // Installed app: no speech recogniser and no recorder, so the fallback is typing, not a keyboard dictation mic.
     expect(find.byKey(const ValueKey('speak-note'), skipOffstage: false), findsOneWidget);
-    expect(find.text('Keyboard mic', skipOffstage: false), findsOneWidget);
-    expect(find.byKey(const ValueKey('speak-retry'), skipOffstage: false), findsOneWidget);
-    expect(FocusManager.instance.primaryFocus?.context?.findAncestorWidgetOfExactType<EditableText>(), isNotNull, reason: 'the reply field is focused, so the keyboard (and its mic) opens');
+    expect(find.textContaining('does not record you', skipOffstage: false), findsWidgets);
+    expect(find.text('Keyboard mic', skipOffstage: false), findsNothing);
+    expect(find.byKey(const ValueKey('speak-retry'), skipOffstage: false), findsNothing);
+    expect(find.textContaining('بنویس', skipOffstage: false), findsWidgets);
+    expect(FocusManager.instance.primaryFocus?.context?.findAncestorWidgetOfExactType<EditableText>(), isNotNull, reason: 'the reply field is focused so the learner can type');
     t.widget<ButtonStyleButton>(find.byKey(const ValueKey('speak-note-type'), skipOffstage: false)).onPressed!();
     await t.pump(const Duration(milliseconds: 500));
     expect(find.byKey(const ValueKey('speak-note'), skipOffstage: false), findsNothing);

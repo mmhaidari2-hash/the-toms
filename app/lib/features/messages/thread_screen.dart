@@ -726,11 +726,17 @@ class _ThreadState extends ConsumerState<_Thread> with SingleTickerProviderState
               ),
               if (tried != null) _feedback(),
               const SizedBox(height: 6),
-              const Text(
-                'Your browser turns your speech into text for the score. New Life UK never records, keeps or uploads your voice.',
-                key: ValueKey('msg-mic-note'),
+              Text(
+                scoreMicNote().$1,
+                key: const ValueKey('msg-mic-note'),
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 11, color: BL.muted),
+                style: const TextStyle(fontSize: 11, color: BL.muted),
+              ),
+              Text(
+                scoreMicNote().$2,
+                textDirection: helperDir,
+                textAlign: TextAlign.center,
+                style: BL.fa(11, color: BL.muted),
               ),
             ],
           },

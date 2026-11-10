@@ -1,4 +1,5 @@
 import 'package:british_life/core/i18n/helper_text.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../../app/theme.dart';
@@ -164,10 +165,132 @@ class _Legend extends StatelessWidget {
   );
 }
 
+/// Android/native builds report both flags false. Do not promise OS recognition or in-app recording there.
+bool get nativeSpeechOff => !kIsWeb && !SpeechInput.sttSupported && !SpeechInput.recordSupported;
+
+/// Tooltip for the reply microphone. Web can still point at the keyboard mic; the installed app cannot.
+String replyMicTip({bool? web, bool? sttSupported, bool? sttBroken, bool? recordSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  final broken = sttBroken ?? SpeechInput.sttBroken;
+  final record = recordSupported ?? SpeechInput.recordSupported;
+  if (stt && !broken) return 'Speak your replies';
+  if (!webOn && !stt && !record) return 'Type your reply';
+  return 'Speak with the keyboard mic';
+}
+
+class MicHelpCopy {
+  final String title, body, bodyFa;
+  const MicHelpCopy(this.title, this.body, this.bodyFa);
+}
+
+/// Wording for the microphone sheet. [web] false with both capabilities false is the installed app.
+MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? recordSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  final record = recordSupported ?? SpeechInput.recordSupported;
+  final installed = !webOn && !stt && !record;
+  if (installed) {
+    return const MicHelpCopy(
+      "Speaking isn't available in this app",
+      "This installed app cannot turn your voice into text, and it does not record you. It does not use Android speech recognition. Type a reply, or tap one of the answers.",
+      "این نسخهٔ نصب‌شده گفتار را به متن تبدیل نمی‌کند و صدایت را ضبط نمی‌کند. تشخیص گفتار اندروید در این برنامه نیست. جواب را بنویس، یا یکی از پاسخ‌ها را بزن.",
+    );
+  }
+  if (error == 'unsupported') {
+    final extra = record
+        ? ' You can still tap Record to hear yourself and compare with the character. That clip stays in this browser; this app does not upload it.'
+        : ' This browser cannot record you either. Type a reply, or tap one of the answers.';
+    return MicHelpCopy(
+      "Speaking isn't available here",
+      "This browser can't recognise speech. Open the app in Safari (iPhone) or Chrome (Android, computer) to speak your replies.$extra",
+      "تشخیص گفتار در این مرورگر در دسترس نیست. سافاری یا کروم را امتحان کن، یا جواب را بنویس یا انتخاب کن.",
+    );
+  }
+  if (error == 'service-not-allowed') {
+    return const MicHelpCopy(
+      'Turn on Dictation',
+      'On iPhone, Safari needs Dictation for speech recognition: Settings › General › Keyboard › Enable Dictation (on). Then come back and tap the microphone again.',
+      'در آیفون، سافاری برای تشخیص گفتار به Dictation نیاز دارد. بعد برگرد و میکروفون را دوباره بزن، یا جواب را بنویس.',
+    );
+  }
+  final recordLine = record ? ' "Record" clips stay on your device.' : '';
+  return MicHelpCopy(
+    'Allow the microphone',
+    "New Life UK only listens while the microphone is red. Your speech is turned into text by your browser's speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers. The app does not store or send your recordings itself.$recordLine",
+    'میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. New Life UK خودش صدای شما را ذخیره یا ارسال نمی‌کند.',
+  );
+}
+
+/// Note under a web scoring microphone, or the honest installed-app substitute.
+(String, String) scoreMicNote({bool? web, bool? sttSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && !stt) {
+    return (
+      'This installed app cannot turn your voice into text, and it does not record you. Type your answer instead.',
+      'این نسخهٔ نصب‌شده گفتار را به متن تبدیل نمی‌کند و صدایت را ضبط نمی‌کند. به‌جای آن جواب را بنویس.',
+    );
+  }
+  return (
+    "Your browser turns your speech into text (Google in Chrome, Apple in Safari) and may process your voice on its servers. This screen does not keep a recording.",
+    'مرورگر گفتار را به متن تبدیل می‌کند (گوگل در کروم، اپل در سافاری) و ممکن است صدا را روی سرورهای خودش پردازش کند. این صفحه ضبط را نگه نمی‌دارد.',
+  );
+}
+
+/// Coach introduction. The installed app must not claim device or browser scoring.
+(String, String) coachIntro({bool? web, bool? sttSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && !stt) {
+    return (
+      'This installed app cannot score your voice and does not record you. Hear the model, then type the line if you want to practise the words.',
+      'این نسخهٔ نصب‌شده صدایت را امتیاز نمی‌دهد و ضبط نمی‌کند. مدل را بشنو؛ اگر می‌خواهی واژه‌ها را تمرین کنی، جمله را بنویس.',
+    );
+  }
+  return (
+    'Hear the model, then say the same line. Your browser turns speech into text for the score — nothing is uploaded by New Life UK.',
+    'مدل را بشنو، بعد همان جمله را بگو. مرورگر صدایت را به متن تبدیل می‌کند — اپ چیزی آپلود نمی‌کند.',
+  );
+}
+
+(String, String) coachAiNote({bool? web, bool? sttSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && !stt) {
+    return (
+      'AI aid: the model audio is neural text-to-speech. This installed app does not turn your speech into text.',
+      'کمک هوش مصنوعی: صدای نمونه با TTS ساخته شده است. این نسخهٔ نصب‌شده گفتار را به متن تبدیل نمی‌کند.',
+    );
+  }
+  return (
+    'AI aid: model audio is neural text-to-speech; scoring uses your browser\'s speech-to-text — not a human teacher.',
+    'کمک هوش مصنوعی: صدای نمونه TTS است؛ امتیازدهی با گفتار به متن مرورگر — معلم انسان نیست.',
+  );
+}
+
+/// Chat fallback when the app microphone cannot start. Web may use the keyboard mic; the installed app may only type.
+(String, String) dictateFallback({bool? web, bool? sttSupported, bool? recordSupported}) {
+  final webOn = web ?? kIsWeb;
+  final stt = sttSupported ?? SpeechInput.sttSupported;
+  final record = recordSupported ?? SpeechInput.recordSupported;
+  if (!webOn && !stt && !record) {
+    return (
+      'This app cannot turn speech into text on this device, and it does not record you. Type your reply, or tap one above.',
+      'این برنامه روی این دستگاه گفتار را به متن تبدیل نمی‌کند و صدایت را ضبط نمی‌کند. جواب را بنویس، یا یکی از جواب‌های بالا را بزن.',
+    );
+  }
+  return (
+    'Speech recognition isn\'t available in this browser mode. Tap “Keyboard mic”, then the 🎤 on your keyboard and say your reply — or just type it.',
+    'تشخیص گفتار در این حالت مرورگر در دسترس نیست. «Keyboard mic» را بزن، بعد 🎤 روی کیبورد را بزن و جوابت را بگو — یا فقط تایپش کن.',
+  );
+}
+
 /// Friendly help when the microphone or speech recognition is blocked, or not available at all.
 Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onType}) {
-  final unsupported = error == 'unsupported';
-  final dictation = error == 'service-not-allowed';
+  final copy = micHelpCopy(error);
+  final unsupported = error == 'unsupported' || nativeSpeechOff;
+  final dictation = error == 'service-not-allowed' && !nativeSpeechOff;
   return showModalBottomSheet<void>(
     context: context,
     backgroundColor: BL.cream,
@@ -186,51 +309,23 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                 children: [
                   Icon(unsupported ? Icons.mic_off_rounded : Icons.mic_none_rounded, color: BL.red, size: 28),
                   const SizedBox(width: 10),
-                  Expanded(
-                    child: Text(
-                      hl(unsupported
-                          ? 'Speaking isn\'t available here'
-                          : dictation
-                          ? 'Turn on Dictation'
-                          : 'Allow the microphone'),
-                      style: BL.display(22),
-                    ),
-                  ),
+                  Expanded(child: Text(copy.title, style: BL.display(22))),
                 ],
               ),
               const SizedBox(height: 10),
-              if (unsupported) ...[
-                const Text('This browser can\'t recognise speech. Open the app in Safari (iPhone) or Chrome (Android, computer) to speak your replies.'),
+              Text(copy.body, key: const ValueKey('mic-privacy')),
+              const SizedBox(height: 6),
+              Text(copy.bodyFa, textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
+              if (dictation && SpeechInput.isStandalone) ...[
                 const SizedBox(height: 6),
-                const Text('Meanwhile you can still tap "Record" to hear yourself and compare with the character.'),
-              ] else if (dictation) ...[
-                const Text('On iPhone, Safari needs Dictation for speech recognition:'),
-                const SizedBox(height: 6),
-                const Text('Settings › General › Keyboard › Enable Dictation (on).'),
-                const SizedBox(height: 6),
-                const Text('Then come back and tap the microphone again.'),
-                if (SpeechInput.isStandalone) ...[
-                  const SizedBox(height: 6),
-                  const Text(key: ValueKey('mic-help-standalone'), 'Opened from your Home Screen? Apple may not allow speech there: open New Life UK in Safari to speak, or type / tap your reply.'),
-                ],
-              ] else ...[
-                const Text(
-                  key: ValueKey('mic-privacy'),
-                  'New Life UK only listens while the microphone is red. Your speech is turned into text by your browser\'s speech service (Google in Chrome, Apple in Safari), which may process your voice on its servers. The Toms doesn\'t store or send your recordings itself; "Record" clips stay on your device.',
-                ),
-                const SizedBox(height: 4),
-                Text(hl('میکروفون فقط وقتی قرمز است گوش می‌دهد. گفتار شما را سرویس گفتار مرورگرتان (گوگل در کروم، اپل در سافاری) به متن تبدیل می‌کند و ممکن است صدایتان را روی سرورهای خودش پردازش کند. New Life UK خودش صدای شما را ذخیره یا ارسال نمی‌کند؛ ضبط‌های «Record» فقط روی دستگاه شما می‌مانند.'), textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
+                const Text(key: ValueKey('mic-help-standalone'), 'Opened from your Home Screen? Apple may not allow speech there: open New Life UK in Safari to speak, or type / tap your reply.'),
+              ],
+              if (!unsupported && !dictation) ...[
                 const SizedBox(height: 8),
                 const Text('iPhone (Safari): tap "aA" in the address bar › Website Settings › Microphone › Allow. Or Settings › Apps › Safari › Microphone.'),
                 const SizedBox(height: 6),
                 const Text('Android / Chrome: tap the lock icon by the address › Permissions › Microphone › Allow.'),
               ],
-              const SizedBox(height: 6),
-              Text(
-                hl(unsupported ? 'تشخیص گفتار در این مرورگر در دسترس نیست. سافاری یا کروم را امتحان کنید.' : 'اجازهٔ میکروفون را در تنظیمات مرورگر بدهید و دوباره امتحان کنید.'),
-                textDirection: helperDir,
-                style: BL.fa(12.5, color: BL.muted),
-              ),
               const SizedBox(height: 14),
               Row(
                 children: [

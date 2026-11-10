@@ -509,11 +509,12 @@ class _ChatState extends ConsumerState<_Chat> {
     _send(ts[i].$1);
   }
 
-  /// Fallback note: speak with the keyboard's dictation mic instead (typed text is matched like a spoken reply).
+  /// Fallback note. The installed app can only type; a browser may still use its keyboard mic.
   void _dictateNote() => setState(() {
     _dictate = true;
-    _speakNote = 'Speech recognition isn\'t available in this browser mode. Tap “Keyboard mic”, then the 🎤 on your keyboard and say your reply — or just type it.';
-    _speakNoteFa = 'تشخیص گفتار در این حالت مرورگر در دسترس نیست. «Keyboard mic» را بزن، بعد 🎤 روی کیبورد را بزن و جوابت را بگو — یا فقط تایپش کن.';
+    final note = dictateFallback();
+    _speakNote = note.$1;
+    _speakNoteFa = note.$2;
   });
 
   void _setSpeakMode(bool on) {
@@ -1481,10 +1482,10 @@ class _ChatState extends ConsumerState<_Chat> {
             _setSpeakMode(false);
             _focus.requestFocus();
           },
-          icon: Icon(_dictate ? Icons.keyboard_voice_rounded : Icons.keyboard_rounded, size: 16),
-          label: Text(hl(_dictate ? 'Keyboard mic' : 'Type it · بنویس')),
+          icon: Icon(_dictate && !nativeSpeechOff ? Icons.keyboard_voice_rounded : Icons.keyboard_rounded, size: 16),
+          label: Text(hl(_dictate && !nativeSpeechOff ? 'Keyboard mic' : 'Type it · بنویس')),
         ),
-        if (_dictate)
+        if (_dictate && !nativeSpeechOff)
           TextButton(
             key: const ValueKey('speak-retry'),
             style: TextButton.styleFrom(foregroundColor: const Color(0xFFE8C987), visualDensity: VisualDensity.compact),
@@ -1556,7 +1557,7 @@ class _ChatState extends ConsumerState<_Chat> {
         ),
       ),
       const SizedBox(width: 8),
-      _round(Icons.mic_rounded, Colors.white.withValues(alpha: .1), _ended ? null : () => _setSpeakMode(true), tip: SpeechInput.sttSupported && !SpeechInput.sttBroken ? 'Speak your replies' : 'Speak with the keyboard mic'),
+      _round(Icons.mic_rounded, Colors.white.withValues(alpha: .1), _ended ? null : () => _setSpeakMode(true), tip: replyMicTip()),
       const SizedBox(width: 8),
       _round(Icons.arrow_upward_rounded, BL.red, _ended ? null : _send, tip: 'Send'),
     ],

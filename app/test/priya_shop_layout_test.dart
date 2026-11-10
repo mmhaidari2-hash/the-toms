@@ -160,7 +160,7 @@ void main() {
     clearOfNotice(find.byKey(const ValueKey('my-line')), 'your line');
     clearOfNotice(find.byKey(const ValueKey('play-as')), 'role switch');
     clearOfNotice(find.byTooltip('Send'), 'send');
-    clearOfNotice(find.byTooltip('Speak with the keyboard mic'), 'microphone');
+    clearOfNotice(find.byTooltip('Type your reply'), 'microphone');
     await shoot('after-portrait-notice');
 
     await size(const Size(844, 390));

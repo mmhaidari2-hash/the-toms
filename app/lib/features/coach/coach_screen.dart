@@ -52,6 +52,10 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
   }
 
   Future<void> _speak() async {
+    if (!SpeechInput.sttSupported) {
+      setState(() { _listening = false; _err = 'unsupported'; _result = null; });
+      return;
+    }
     setState(() { _listening = true; _err = null; _result = null; });
     try {
       final heard = await SpeechInput.listen();
@@ -90,17 +94,15 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
             child: ListView(
               padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
               children: [
-                Text(hl('Hear the model, then say the same line. Your browser turns speech into text for the score — nothing is uploaded by New Life UK.'),
-                    style: const TextStyle(fontSize: 13.5, height: 1.4, color: BL.ink)),
+                Text(coachIntro().$1, style: const TextStyle(fontSize: 13.5, height: 1.4, color: BL.ink)),
                 const SizedBox(height: 6),
-                Text(hl('مدل را بشنو، بعد همان جمله را بگو. مرورگر صدایت را به متن تبدیل می‌کند — اپ چیزی آپلود نمی‌کند.'),
-                    textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(13, color: BL.muted)),
+                Text(coachIntro().$2, textDirection: helperDir, textAlign: TextAlign.right, style: BL.fa(13, color: BL.muted)),
                 const SizedBox(height: 10),
                 Container(
                   key: const ValueKey('ai-coach-note'),
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12), border: Border.all(color: BL.mist)),
-                  child: Text(hl('AI aid: model audio is neural text-to-speech; scoring uses your device/browser speech-to-text — not a human teacher.\nکمک هوش مصنوعی: صدای نمونه TTS است؛ امتیازدهی با گفتار به متن دستگاه/مرورگر — معلم انسان نیست.'),
+                  child: Text('${coachAiNote().$1}\n${coachAiNote().$2}',
                       style: const TextStyle(fontSize: 12, height: 1.35, color: BL.muted)),
                 ),
                 const SizedBox(height: 18),
@@ -141,7 +143,7 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
                     key: const ValueKey('coach-mic-help'),
                     onPressed: () => showMicHelp(context, _err, onType: null),
                     icon: const Icon(Icons.mic_off_rounded),
-                    label: Text(hl('Microphone help — tap to see how to allow it')),
+                    label: Text(_err == 'unsupported' ? 'Why speaking is unavailable' : 'Microphone help — tap to see how to allow it'),
                   ),
                 ],
                 if (r != null) ...[
