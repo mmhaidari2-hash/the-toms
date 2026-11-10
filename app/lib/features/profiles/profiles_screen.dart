@@ -8,7 +8,7 @@ import '../../core/i18n/helper_text.dart';
 import '../../core/models/learner_profile.dart';
 import '../shared/nav.dart';
 
-/// Parent–child dual profiles on one device: separate calm progress, kid-friendly mode.
+/// Adult profiles for this version's 18+ intended audience. Existing child profiles stay selectable.
 class ProfilesScreen extends ConsumerWidget {
   const ProfilesScreen({super.key});
 
@@ -49,18 +49,12 @@ class ProfilesScreen extends ConsumerWidget {
             style: BL.fa(13.5, color: BL.muted),
           ),
           const SizedBox(height: 6),
-          Text(
-            hl(
-              'Parent and child can share one phone. Streaks and lessons stay separate. '
-              'Kid mode hides adult paperwork practice. Profiles stay locally; online downloads still contact the host. See Privacy before using optional speech services with children.',
-            ),
-            style: const TextStyle(fontSize: 13.5, height: 1.45, color: BL.ink),
+          const Text(
+            'This version is for adults aged 18 and over. This screen does not check anyone\'s age. New profiles here are adult profiles.',
+            style: TextStyle(fontSize: 13.5, height: 1.45, color: BL.ink),
           ),
           Text(
-            hl(
-              'والد و فرزند می‌توانند یک گوشی را شریک شوند. رکورد روزانه و درس‌ها جدا می‌مانند. '
-              'حالت کودک تمرین فرم بزرگسال را پنهان می‌کند. پروفایل محلی است، اما دانلود به میزبان وصل می‌شود. پیش از گفتار اختیاری کودک، حریم خصوصی را بخوانید.',
-            ),
+            'این نسخه برای بزرگسالان ۱۸ سال به بالا است. این صفحه سن کسی را بررسی نمی‌کند. پروفایل تازه اینجا بزرگسال است.',
             textDirection: helperDir,
             style: BL.fa(12.5, color: BL.muted),
           ),
@@ -148,15 +142,9 @@ class ProfilesScreen extends ConsumerWidget {
             ),
           if (profiles.length < 4) ...[
             const SizedBox(height: 6),
-            OutlinedButton.icon(
-              key: const ValueKey('add-child-profile'),
-              onPressed: () => _add(context, ref, ProfileKind.child),
-              icon: const Icon(Icons.child_care_rounded),
-              label: Text(hl('Add child profile')),
-            ),
             TextButton(
               key: const ValueKey('add-adult-profile'),
-              onPressed: () => _add(context, ref, ProfileKind.adult),
+              onPressed: () => _add(context, ref),
               child: Text(hl('Add another adult profile')),
             ),
           ],
@@ -177,19 +165,35 @@ class ProfilesScreen extends ConsumerWidget {
                   style: const TextStyle(fontWeight: FontWeight.w800),
                 ),
                 const SizedBox(height: 4),
-                Text(
-                  'A child profile keeps a name and learning progress on this device. We do not create a learner account, and this app does not upload that profile to a server of ours. Downloading lesson audio can still contact the audio host. Switching profiles is not a lock for parents or carers. See Privacy for the UK Children\'s Code note.',
-                  style: const TextStyle(
+                const Text(
+                  'This version is intended for adults aged 18 and over. Adding a profile here does not verify age.',
+                  style: TextStyle(
                     fontSize: 12.5,
                     height: 1.4,
                     color: BL.ink,
                   ),
                 ),
                 Text(
-                  'پروفایل کودک نام و پیشرفت یادگیری را روی همین دستگاه نگه می‌دارد. حساب یادگیرنده نمی‌سازیم و این برنامه آن پروفایل را به سرور ما نمی‌فرستد. دانلود صدای درس هنوز می‌تواند به میزبان صدا وصل شود. عوض کردن پروفایل قفل والد یا سرپرست نیست.',
+                  'مخاطب این نسخه بزرگسالان ۱۸ سال به بالا است. ساختن پروفایل اینجا سن را تأیید نمی‌کند.',
                   textDirection: helperDir,
                   style: BL.fa(12, color: BL.muted),
                 ),
+                if (profiles.any((p) => p.isChild)) ...[
+                  const SizedBox(height: 8),
+                  const Text(
+                    'A child profile already on this device keeps its name and learning progress. We do not create a learner account, and this app does not upload that profile to a server of ours. Downloading lesson audio can still contact the audio host. Switching profiles is not a lock for parents or carers, and it is not age verification. Kid-mode limits stay as they are.',
+                    style: TextStyle(
+                      fontSize: 12.5,
+                      height: 1.4,
+                      color: BL.ink,
+                    ),
+                  ),
+                  Text(
+                    'پروفایل کودکی که از قبل روی این دستگاه است نام و پیشرفت خودش را نگه می‌دارد. حساب یادگیرنده نمی‌سازیم و این برنامه آن پروفایل را به سرور ما نمی‌فرستد. دانلود صدای درس هنوز می‌تواند به میزبان صدا وصل شود. عوض کردن پروفایل قفل والد یا بررسی سن نیست. محدودیت حالت کودک همان می‌ماند.',
+                    textDirection: helperDir,
+                    style: BL.fa(12, color: BL.muted),
+                  ),
+                ],
                 TextButton(
                   onPressed: () => context.push('/legal?tab=privacy'),
                   child: Text(hl('Open privacy policy')),
@@ -202,20 +206,12 @@ class ProfilesScreen extends ConsumerWidget {
     );
   }
 
-  Future<void> _add(
-    BuildContext context,
-    WidgetRef ref,
-    ProfileKind kind,
-  ) async {
-    final nameCtrl = TextEditingController(
-      text: kind == ProfileKind.child ? 'Child' : 'Me',
-    );
+  Future<void> _add(BuildContext context, WidgetRef ref) async {
+    final nameCtrl = TextEditingController(text: 'Me');
     final ok = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: Text(
-          hl(kind == ProfileKind.child ? 'Child profile' : 'Adult profile'),
-        ),
+        title: Text(hl('Adult profile')),
         content: TextField(
           controller: nameCtrl,
           decoration: InputDecoration(labelText: hl('Display name')),
@@ -235,7 +231,7 @@ class ProfilesScreen extends ConsumerWidget {
     );
     if (ok != true || !context.mounted) return;
     final ctrl = ref.read(progressProvider.notifier);
-    final p = await ctrl.addProfile(displayName: nameCtrl.text, kind: kind);
+    final p = await ctrl.addProfile(displayName: nameCtrl.text, kind: ProfileKind.adult);
     await ctrl.switchProfile(p.id);
   }
 }

@@ -50,7 +50,7 @@ void main() {
     expect(d.goalXp, 50);
   });
 
-  testWidgets('profiles screen lists adult and can add child', (t) async {
+  testWidgets('profiles screen adds an adult and does not offer a child profile', (t) async {
     BL.useGoogleFonts = false;
     t.view.physicalSize = const Size(390, 844) * 2;
     t.view.devicePixelRatio = 2;
@@ -66,26 +66,59 @@ void main() {
     await t.pump();
     await t.pump(const Duration(milliseconds: 200));
     expect(find.byKey(const ValueKey('profiles-screen')), findsOneWidget);
-    expect(find.byKey(const ValueKey('add-child-profile')), findsOneWidget);
-    // The privacy note is below the first screen of the list. Scrolling to it
-    // still requires the child-profile wording to be there.
+    expect(find.byKey(const ValueKey('add-child-profile')), findsNothing);
+    expect(find.text('Add child profile'), findsNothing);
+    expect(find.textContaining('adults aged 18 and over'), findsWidgets);
+    expect(find.textContaining('does not check anyone\'s age'), findsOneWidget);
+    expect(find.textContaining('does not verify age'), findsOneWidget);
+    expect(find.textContaining('بزرگسالان ۱۸ سال به بالا'), findsWidgets);
+    expect(find.textContaining('سن کسی را بررسی نمی‌کند'), findsOneWidget);
+    expect(find.textContaining('keeps its name and learning progress'), findsNothing);
+    await t.tap(find.byKey(const ValueKey('add-adult-profile')));
+    await t.pumpAndSettle();
+    expect(find.text('Child profile'), findsNothing);
+    await t.tap(find.text('Add'));
+    await t.pumpAndSettle();
+    expect(store.profiles().where((p) => p.isChild), isEmpty);
+    expect(store.profiles().where((p) => p.isAdult).length, 2);
+  });
+
+  testWidgets('an existing child profile stays selectable and restricted', (t) async {
+    BL.useGoogleFonts = false;
+    t.view.physicalSize = const Size(390, 844) * 2;
+    t.view.devicePixelRatio = 2;
+    addTearDown(t.view.reset);
+    final store = MemoryProgressStore()..data = const UserProgress(streak: 5, onboarded: true).encode();
+    final child = await store.addProfile(displayName: 'Sara', kind: ProfileKind.child);
+    await store.switchTo(child.id);
+    await store.write(const UserProgress(streak: 2, onboarded: true).encode());
+    await store.switchTo('adult');
+    await t.pumpWidget(ProviderScope(
+      overrides: [progressStoreProvider.overrideWithValue(store)],
+      child: MaterialApp(theme: BL.theme(), home: const ProfilesScreen()),
+    ));
+    await t.pump();
+    expect(find.byKey(ValueKey('profile-${child.id}')), findsOneWidget);
+    expect(find.textContaining('Kid-friendly'), findsOneWidget);
+    expect(find.byKey(const ValueKey('add-child-profile')), findsNothing);
     final privacy = find.byKey(const ValueKey('profiles-privacy'));
     await t.scrollUntilVisible(privacy, 160);
-    expect(privacy, findsOneWidget);
-    expect(find.textContaining('keeps a name and learning progress on this device'), findsOneWidget);
-    expect(find.textContaining('do not create a learner account'), findsOneWidget);
+    expect(find.textContaining('keeps its name and learning progress'), findsOneWidget);
     expect(find.textContaining('does not upload that profile'), findsOneWidget);
     expect(find.textContaining('contact the audio host'), findsOneWidget);
     expect(find.textContaining('not a lock for parents or carers'), findsOneWidget);
-    expect(find.textContaining('نام و پیشرفت یادگیری را روی همین دستگاه'), findsOneWidget);
-    expect(find.textContaining('حساب یادگیرنده نمی‌سازیم'), findsOneWidget);
-    expect(find.textContaining('به سرور ما نمی‌فرستد'), findsOneWidget);
-    expect(find.textContaining('میزبان صدا'), findsOneWidget);
-    expect(find.textContaining('قفل والد یا سرپرست نیست'), findsOneWidget);
+    expect(find.textContaining('not age verification'), findsOneWidget);
+    expect(find.textContaining('محدودیت حالت کودک همان می‌ماند'), findsOneWidget);
     expect(find.textContaining('do not collect their data'), findsNothing);
-    expect(find.textContaining('only on this device'), findsNothing);
-    expect(find.textContaining('داده‌اش را جمع نمی‌کنیم'), findsNothing);
-    expect(find.textContaining('فقط روی همین دستگاه'), findsNothing);
+    await t.tap(find.byKey(ValueKey('profile-${child.id}')));
+    await t.pumpAndSettle();
+    expect(store.activeProfile()!.id, child.id);
+    expect(store.activeProfile()!.isChild, isTrue);
+    expect(UserProgress.decode(store.read()!).streak, 2);
+    expect(kidBlocks('/visa'), isTrue);
+    await store.switchTo('adult');
+    expect(UserProgress.decode(store.read()!).streak, 5);
+    expect(store.profiles().where((p) => p.id == child.id).single.kind, ProfileKind.child);
   });
 
   testWidgets('progress shows calm-circle not league', (t) async {

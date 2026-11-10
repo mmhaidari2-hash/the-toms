@@ -171,7 +171,7 @@ class ProgressScreen extends ConsumerWidget {
                   child: Text(hl('Enter code')),
                 ),
                 if (!kid)
-                  TextButton(onPressed: () => context.push('/profiles'), child: Text(hl(family.length < 2 ? 'Add child profile' : 'Manage profiles'))),
+                  TextButton(onPressed: () => context.push('/profiles'), child: Text(hl('Manage profiles'))),
               ]),
             ]),
           ),

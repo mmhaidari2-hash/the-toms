@@ -136,3 +136,11 @@ Q13: متن محصول میز ویزا، مسیر اقامت، و نقطهٔ ن�
 تصمیم‌هایی که از همین رکوردها بسته نمی‌شوند: تأیید کتبی استفادهٔ تجاری Grok Bot، نوع حساب و تاریخ ساخت، بازبینی تصویری شباهت و لوگو، و پذیرش خود Q13. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
 
 English: The inventory lists 345 tracked images and leaves every file's source and licence UNKNOWN. It does not clear Q09. The Q13 product strings already signpost IAA and say the app does not give immigration advice, so no product text was changed. Tests were not run. Legal drafts were not edited. Not Play-ready.
+
+## مخاطب ۱۸+ — رابط پروفایل، ۱۰ نوامبر ۲۰۲۶، ۲۳:۱۴ لندن
+
+مالک مخاطب نسخهٔ اول را فقط ۱۸+ اعلام کرد. رابط پروفایل: دکمه و دعوت ساخت پروفایل کودک برداشته شد؛ پروفایل تازه فقط بزرگسال است؛ متن می‌گوید این صفحه سن را بررسی نمی‌کند و تعویض پروفایل تأیید سن یا قفل والد نیست. پروفایل کودکِ موجود در فهرست می‌ماند، قابل انتخاب است، kind عوض نمی‌شود، پیشرفت جدا می‌ماند، و `kidBlocks` همان است. درس‌های خانواده و مهد دست نخورد. `legal_screen` دست نخورد.
+
+آزمون: `cd app && flutter test -j 1 test/profiles_test.dart`. Flutter 3.47.7. نتیجه `+7`، همه قبول. لاگ: `profiles-18-2026-11-10.log`. `+21` روی `082600210` و `+259 ~2 -4` روی `9daa52a98` جدا ماندند. Q17 و DPIA بسته نشدند. مجوز ادغام‌شدهٔ release همچنان UNKNOWN است. Azure ۱۰ نوامبر ۲۲:۴۳:۳۸ لندن همچنان `401` است.
+
+English: The owner set the first version's intended audience to 18+ only. The profile screen no longer creates a child profile and does not claim to verify age. Existing child profiles, their progress, and kid-mode route blocks remain. Q17 and the DPIA stay open. Focused profiles tests were +7. Not Play-ready.
