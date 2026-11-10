@@ -118,3 +118,21 @@ Azure ۱۰ نوامبر ۲۲:۴۳:۳۸ اروپا/لندن همچنان `401` / 
 7. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
 
 English: The profiles privacy box now says a child profile keeps a name and progress on the device, that there is no learner account and no upload of that profile to our server, that lesson-audio download can still contact the audio host, and that switching profiles is not a parent lock. It does not say no data is collected, only-on-device, or no third party. Legal drafts were not edited. Serial focused tests were +21. The merged release manifest was not generated: no Android SDK and no upload key. Merged permissions stay UNKNOWN. Cached plugin library manifests are not that proof. The 10 Nov 22:43:38 London Azure read is still 401. Not Play-ready.
+
+## مرحلهٔ منبع — فهرست تصویر و مرور Q13، ۱۰ نوامبر ۲۰۲۶
+
+پایه `5077252e2c3c303ba2aa345a21d143291b829c96`. والد محصول اعلان پروفایل `082600210fa5a5346786216851b57ca99d8ad226`. این مرحله کد محصول، پیش‌نویس `legal_screen`، آثار، صدا، و ساخت را عوض نکرد. آزمون این مرحله NOT-RUN. `+21` روی `082600210` و `+259 ~2 -4` روی `9daa52a988fd7abda121a759ff2a683d02694b2b` جدا ماندند. Azure ۱۰ نوامبر ۲۲:۴۳:۳۸ اروپا/لندن همچنان `401` است.
+
+Q09: فهرست ساخته شد چون در سؤال‌های باز نوشته شده بود که فهرست منشأ ۱۸۳ تصویر هنوز نیست. جدول `docs/compliance/image_inventory_2026-11-10.tsv`، توضیح `docs/compliance/image_inventory_2026-11-10.md`. SHA-256 جدول `dba891018f5b352164055912b9327fe3e895b465134544482709a1efef281a85`. ۳۴۵ فایل ردیابی‌شده. ۱۸۳ = `places` ۹۷ + `portraits` ۵۵ + `spots` ۳۱. منشأ و مجوز هر فایل UNKNOWN. هیچ سربرگی حق‌نشر یا نام Grok نداشت. پاسخ مالک «Grok» و بعد «Grok Bot» برای یک فایل اثبات نشد. تأیید کتبی xAI در مخزن نیست. فونت‌ها در `docs/compliance/font_provenance.md` ماندند و دوباره کشف نشدند.
+
+Q13: متن محصول میز ویزا، مسیر اقامت، و نقطهٔ نقشه از قبل «IAA (formerly OISC)» و ارجاع GOV.UK است و مشاورهٔ پرونده را از خود برمی‌دارد. گفت‌وگوی داستانی درس‌ها جدا از این ادعاهای محصول است و بازنویسی نشد. اصلاح تازه‌ای در کد لازم نبود. Q13 بسته نشد.
+
+عبارت‌های مانده برای ادغام بعدی، نه برای این مرحله:
+
+- `app/lib/features/legal/legal_screen.dart` خط ۶۰ و ۶۵: «or the OS service» و ماندن ضبط Shadowing روی دستگاه. در `speech_io.dart` هر دو `sttSupported` و `recordSupported` برای اپ نصب‌شده false است.
+- همان فایل خط ۱۹۱–۱۹۳: «Created with Grok»، در حالی که پاسخ تکمیلی مالک Grok Bot است.
+- `docs/compliance/compliance_report.md` خط ۱۳، ۹۴، ۹۸ و ۱۸۸ هنوز OISC را منبع جاری می‌نامد و خط ۹۸ به نشانی قدیمی `office-of-the-immigration-services-commissioner` لینک می‌دهد. دادهٔ محصول به `https://www.gov.uk/government/organisations/immigration-advice-authority` اشاره می‌کند.
+
+تصمیم‌هایی که از همین رکوردها بسته نمی‌شوند: تأیید کتبی استفادهٔ تجاری Grok Bot، نوع حساب و تاریخ ساخت، بازبینی تصویری شباهت و لوگو، و پذیرش خود Q13. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
+
+English: The inventory lists 345 tracked images and leaves every file's source and licence UNKNOWN. It does not clear Q09. The Q13 product strings already signpost IAA and say the app does not give immigration advice, so no product text was changed. Tests were not run. Legal drafts were not edited. Not Play-ready.
