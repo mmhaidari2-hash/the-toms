@@ -154,3 +154,20 @@ English: The owner set the first version's intended audience to 18+ only. The pr
 آزمون: `cd app && flutter test -j 1 test/legal_test.dart`. نتیجه `+3`. لاگ: `legal-accuracy-2026-11-10.log`. `+7` روی `af6e61ec6` و `+21` روی `082600210` جدا ماندند.
 
 English: The existing legal screen now matches installed-app speech limits, the 18+ intended audience, adult-only new profiles, and retained child-profile limits. It no longer gives a blanket Grok or ownership line. Focused legal tests were +3. Not legal approval.
+
+## مانیفست ادغام‌شدهٔ release
+
+SDK رسمی رایگان نصب شد: Android SDK 36، build-tools 36.0.0، platform-tools 37.0.1، cmdline-tools. `ANDROID_HOME=$HOME/android-sdk`. کلید امضا ساخته نشد و `ALLOW_DEBUG_SIGNED_RELEASE` ست نشد. نگهبان `build.gradle.kts` عوض نشد.
+
+دستور: از `app/android` با Gradle 9.3.1 همان `gradle-wrapper.properties`: `:app:processReleaseManifest`. نتیجه: `BUILD SUCCESSFUL`. این assemble یا bundle نیست، پس نگهبان امضا این وظیفه را نگرفت. APK/AAB ساخته نشد. `versionCode`/`versionName` در این خروجی `1`/`1.0` است چون Gradle مستقیم اجرا شد؛ نسخهٔ pubspec `1.1.0+5` است و این اعداد نسخهٔ فروشگاه نیستند.
+
+گره‌های `uses-permission` در `app/build/app/intermediates/merged_manifests/release/processReleaseManifest/AndroidManifest.xml`، واریانت release:
+
+- `android.permission.INTERNET` از `src/main` خط ۳. همان نام در `purchases:11.0.1` و `transport-backend-cct:3.1.8` هم بود و ادغام شد.
+- `android.permission.ACCESS_NETWORK_STATE` از `com.revenuecat.purchases:purchases:11.0.1`.
+- `com.android.vending.BILLING` از `com.android.billingclient:billing:9.1.0`.
+- `app.thetoms.newlifeuk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` از `androidx.core:core:1.17.0`، همراه یک گره `permission` همان کتابخانه.
+
+پرداخت در کد هنوز خاموش است؛ مجوز BILLING به‌خاطر وابستگی کتابخانه داخل مانیفست release آمده است. این باینری فروشگاه نیست.
+
+English: The release merged manifest was produced by processReleaseManifest. It is not a signed APK. INTERNET comes from the app source. ACCESS_NETWORK_STATE, BILLING, and the AndroidX exported-receiver permission come from libraries. The upload key is still absent.
