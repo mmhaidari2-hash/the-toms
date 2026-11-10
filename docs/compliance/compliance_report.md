@@ -10,7 +10,7 @@
 
 **Date:** 31 October 2026 (Europe/London)  
 **Scope:** Android / Google Play + PWA (GitHub Pages), UK publisher, global users  
-**Important:** This is a **self-review by the product team / automation**, **not legal advice**. It does not create a solicitor–client relationship. For paid launch, have a qualified UK solicitor (and, for immigration wording, someone who understands OISC boundaries) review the live texts and Play Console answers.
+**Important:** This is a **self-review by the product team / automation**, **not legal advice**. It does not create a solicitor–client relationship. For paid launch, have a qualified UK solicitor (and, for immigration wording, someone who understands IAA boundaries (IAA, formerly OISC)) review the live texts and Play Console answers.
 
 Publisher fields still use `[PLACEHOLDER: …]` in `lib/core/legal/publisher_config.dart` — fill before store submission.
 
@@ -91,11 +91,11 @@ Publisher fields still use `[PLACEHOLDER: …]` in `lib/core/legal/publisher_con
 | Label AI voices | [Art. 50 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act) | **done** | Map note + About + listing |
 | Label AI coach | same | **done** | Coach screen AI aid banner |
 
-## 8. Immigration content / OISC
+## 8. Immigration content / IAA (formerly OISC)
 
 | Item | Source | Status | Note |
 |---|---|---|---|
-| Not immigration advice | [OISC](https://www.gov.uk/government/organisations/office-of-the-immigration-services-commissioner) | **done** | Visa + Settlement disclaimers + Terms; GOV.UK links |
+| Not immigration advice | [IAA (formerly OISC)](https://www.gov.uk/government/organisations/immigration-advice-authority) | **done** | Visa + Settlement disclaimers + Terms; GOV.UK links. Historical self-review label, not new clearance. |
 | No casework advice | same | **done** / monitor | Content is signposting only — keep reviews when editing visa JSON |
 
 ## 9. IP / likeness / trademarks
@@ -185,6 +185,6 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 ## Real legal risks (honest)
 
 1. **Trademark:** “New Life UK” / “NEWLIFE” adjacent marks exist in other classes; education/app class clearance not formally opined — brand risk if you invest heavily without a TM search opinion.  
-2. **OISC boundary:** Any future visa content that tips into case-specific advice would be unlawful without regulation — process needed for content edits.  
+2. **IAA boundary (formerly OISC):** Any future visa content that tips into case-specific advice would be unlawful without regulation — process needed for content edits.  
 3. **PWA storage:** Not as strong as mobile encrypted Hive; prefer Android for child profiles.  
 4. **Self-review limit:** Without a solicitor, residual regulatory risk remains — acceptable for beta, not a guarantee for paid scale.

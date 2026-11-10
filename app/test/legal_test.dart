@@ -31,6 +31,19 @@ void main() {
       expect(t.toLowerCase(), contains(must.toLowerCase()), reason: must);
     }
     expect(CertificateScreen.disclaimer, startsWith('Not an accredited qualification. CEFR level is an indication only.'));
+    final joined = all.map((s) => '${s.$2}\n${s.$3}').join('\n');
+    expect(joined, contains('does not transcribe'));
+    expect(joined, contains('does not record'));
+    expect(joined, contains('does not verify age'));
+    expect(joined, contains('18 and over'));
+    expect(joined, contains('adult profiles'));
+    expect(joined, contains('kid-mode limits'));
+    expect(joined.toLowerCase(), isNot(contains('os service')));
+    expect(joined, isNot(contains('Shadowing Record')));
+    expect(joined, isNot(contains('Created with Grok')));
+    expect(joined, isNot(contains('on-device / browser')));
+    expect(joined, contains('سن را بررسی نمی‌کند'));
+    expect(joined, contains('ضبط نمی‌کند'));
     // No "certify", "official" or "nothing is sent" claims anywhere in the UI code.
     for (final f in Directory('lib').listSync(recursive: true).whereType<File>().where((f) => f.path.endsWith('.dart'))) {
       final src = f.readAsStringSync();

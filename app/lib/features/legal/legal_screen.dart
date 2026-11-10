@@ -57,18 +57,18 @@ final privacyDoc = LegalDoc(
     ),
     (
       "Internet use and international transfers",
-      "The app needs the Internet to download course content, paintings and pre-rendered Azure neural TTS voice clips from our static host (currently GitHub Pages, GitHub Inc., USA). Clips are app assets, not recordings of you. GitHub may log IP and browser metadata under its own privacy statement; we do not receive those logs. Azure Speech was used by us at build time to create clips; your device does not send your voice to Azure during normal play. Browser speech-to-text (microphone coach) may process audio on Google/Apple servers under their policies when you tap the mic.",
-      "اپ برای محتوای دوره، تصویر و صداهای ازپیش‌ساختهٔ Azure به اینترنت نیاز دارد (میزبان: GitHub Pages در آمریکا). این کلیپ‌ها دارایی اپ‌اند نه صدای شما. GitHub ممکن است IP را ثبت کند؛ ما آن را نمی‌گیریم. Azure در زمان ساخت کلیپ استفاده شده؛ هنگام بازی صدای شما به Azure نمی‌رود. گفتار به متن مرورگر هنگام زدن میکروفون ممکن است روی سرورهای گوگل/اپل پردازش شود.",
+      "The app needs the Internet to download course content, paintings and pre-rendered Azure neural TTS voice clips from our static host (currently GitHub Pages, GitHub Inc., USA). Clips are app assets, not recordings of you. GitHub may log IP and browser metadata under its own privacy statement; we do not receive those logs. Azure Speech was used by us at build time to create clips; the installed app does not send your voice to Azure. Optional browser speech-to-text, only when that browser offers it, may process audio under the browser provider's policy.",
+      "اپ برای محتوای دوره، تصویر و صداهای ازپیش‌ساختهٔ Azure به اینترنت نیاز دارد (میزبان: GitHub Pages در آمریکا). این کلیپ‌ها دارایی اپ‌اند نه صدای شما. GitHub ممکن است IP را ثبت کند؛ ما آن را نمی‌گیریم. Azure در زمان ساخت کلیپ استفاده شده؛ اپ نصب‌شده صدای شما را به Azure نمی‌فرستد. گفتار به متن اختیاری فقط در مرورگر، اگر خود مرورگر آن را داشته باشد، ممکن است طبق سیاست همان مرورگر پردازش شود.",
     ),
     (
       "Microphone and speech",
-      "The microphone is used only when you tap it. Speech-to-text is done by your browser's own speech service (Google in Chrome, Apple in Safari) or the OS service. New Life UK does not upload or store your recordings on our servers. Shadowing Record clips stay on device and are discarded when you leave.",
-      "میکروفون فقط با لمس شما روشن می‌شود. تبدیل گفتار را سرویس گفتار مرورگر (گوگل در کروم، اپل در سافاری) یا سیستم‌عامل انجام می‌دهد. New Life UK ضبط شما را روی سرور ذخیره یا آپلود نمی‌کند. ضبط‌های Record روی دستگاه می‌مانند و با خروج پاک می‌شوند.",
+      "The installed app does not transcribe speech and does not record you. It does not use Android or other operating-system speech recognition. In a browser, speech-to-text is optional and only if that browser offers it (Google in Chrome, Apple in Safari). This app does not upload a recording to a server of ours. The installed app has no shadowing recorder.",
+      "اپ نصب‌شده گفتار را به متن تبدیل نمی‌کند و ضبط نمی‌کند. تشخیص گفتار اندروید یا سیستم‌عامل دیگری را به کار نمی‌برد. در مرورگر، گفتار به متن اختیاری است و فقط اگر خود مرورگر آن را داشته باشد (گوگل در کروم، اپل در سافاری). این اپ ضبطی را به سرور ما نمی‌فرستد. اپ نصب‌شده ضبط سایه ندارد.",
     ),
     (
       "Children (Children's Code)",
-      "The app includes kid-friendly profiles. The publisher must assess under-18 use rather than rely on an adult label or a 13+ store rating. Children should use it with a parent/carer. Progress is local, but online downloads contact the host and optional browser speech services may process microphone audio. High privacy defaults alone do not establish compliance with the ICO Children's Code. The release assessment is pending. See the Children tab.",
-      "اپ پروفایل کودک دارد؛ ناشر باید استفادهٔ زیر ۱۸ سال را ارزیابی کند و برچسب بزرگسال یا ۱۳+ کافی نیست. کودک با والد استفاده کند. پیشرفت محلی است، اما دانلود به میزبان وصل می‌شود و سرویس گفتار اختیاری ممکن است صدا را پردازش کند. تنظیمات خصوصی به‌تنهایی اثبات انطباق نیست؛ ارزیابی انتشار نهایی نشده است.",
+      "This version is intended for adults aged 18 and over. The app does not verify age. New profiles are adult profiles. A child profile already stored on the device stays available and keeps its kid-mode limits. Switching profiles is not age verification. Lesson downloads can still contact the audio host. This is not a completed Children's Code assessment. See the Children tab.",
+      "مخاطب این نسخه بزرگسالان ۱۸ سال به بالا است. اپ سن را بررسی نمی‌کند. پروفایل تازه بزرگسال است. پروفایل کودکی که از قبل روی دستگاه است می‌ماند و محدودیت حالت کودک را نگه می‌دارد. عوض کردن پروفایل بررسی سن نیست. دانلود درس هنوز می‌تواند به میزبان صدا وصل شود. این ارزیابی تمام‌شدهٔ آیین کودکان نیست.",
     ),
     (
       "Retention",
@@ -121,8 +121,8 @@ final termsDoc = LegalDoc(
     ),
     (
       "AI voices and AI coach",
-      "All spoken character voices are AI-generated neural text-to-speech (Microsoft Azure AI Speech), not recordings of real people. The pronunciation coach scores your speech with on-device / browser speech-to-text — it is an automated aid, not a human teacher. Illustrations were created with Grok (xAI). Characters, places and businesses in the stories are fictional unless clearly labelled as real public services.",
-      "همهٔ صداها با هوش مصنوعی (Azure TTS) ساخته شده‌اند. مربی تلفظ خودکار است نه معلم انسان. تصویرها با Grok ساخته شده‌اند. شخصیت‌ها و کسب‌وکارهای داستان خیالی‌اند مگر خدمات عمومی واقعی.",
+      "All spoken character voices are AI-generated neural text-to-speech (Microsoft Azure AI Speech), not recordings of real people. The installed app does not transcribe or record. In a browser the pronunciation coach can use that browser's optional speech-to-text. It is an automated aid, not a human teacher. This notice does not state which tool made each illustration or who owns it. Characters, places and businesses in the stories are fictional unless clearly labelled as real public services.",
+      "همهٔ صداها با هوش مصنوعی (Azure TTS) ساخته شده‌اند، نه صدای افراد واقعی. اپ نصب‌شده رونویسی یا ضبط نمی‌کند. در مرورگر مربی تلفظ می‌تواند از گفتار به متن اختیاری همان مرورگر استفاده کند. کمک خودکار است نه معلم انسان. این متن نمی‌گوید هر تصویر با چه ابزاری ساخته شده یا مالک آن کیست. شخصیت‌ها و کسب‌وکارهای داستان خیالی‌اند مگر خدمات عمومی واقعی.",
     ),
     (
       "Not affiliated",
@@ -155,13 +155,13 @@ final childrenDoc = LegalDoc(
   [
     (
       "Who this is for",
-      "New Life UK includes family and kid-friendly learning. Children should use it with a parent or carer. Profile switching is not age verification or a secure parental lock. The publisher must confirm age suitability and store declarations before public release.",
-      "اپ یادگیری خانوادگی و کودک دارد. کودک با والد یا سرپرست استفاده کند. تعویض پروفایل احراز سن یا قفل امن والد نیست. ناشر باید تناسب سنی و اظهارنامهٔ فروشگاه را پیش از انتشار تأیید کند.",
+      "This version is intended for adults aged 18 and over. The app does not verify age. New profiles are adult profiles. A child profile already stored on the device stays available, with the same kid-mode limits. Switching profiles is not age verification or a parent lock. Age suitability and store declarations are not finished.",
+      "مخاطب این نسخه بزرگسالان ۱۸ سال به بالا است. اپ سن را بررسی نمی‌کند. پروفایل تازه بزرگسال است. پروفایل کودکِ موجود می‌ماند و همان محدودیت حالت کودک را دارد. تعویض پروفایل بررسی سن یا قفل والد نیست. تناسب سنی و اظهارنامهٔ فروشگاه تمام نشده است.",
     ),
     (
       "Best interests and high privacy",
-      "If a child uses kid mode: progress stays only on this device; no child account; no ads; no tracking; no public leagues; geolocation off; no prompts to turn off privacy. Parents can delete the child profile or all local data any time.",
-      "در حالت کودک: پیشرفت فقط روی دستگاه؛ بدون حساب کودک، تبلیغ، ردیابی، لیگ عمومی؛ موقعیت خاموش. والد می‌تواند پروفایل یا همهٔ داده را پاک کند.",
+      "If an existing child profile is in kid mode, that profile keeps its own progress on the device and the app does not create a learner account for it. Lesson downloads can still contact the audio host. There is no separate control that deletes only that profile; Delete my data clears saved records for every profile on this device. Geolocation stays off. This is not a claim that no data exists.",
+      "اگر پروفایل کودک موجود در حالت کودک باشد، پیشرفت همان پروفایل روی دستگاه می‌ماند و برایش حساب یادگیرنده ساخته نمی‌شود. دانلود درس هنوز می‌تواند به میزبان صدا وصل شود. دکمهٔ جدا برای حذف فقط همان پروفایل نیست؛ «حذف داده‌های من» سوابق همهٔ پروفایل‌های این دستگاه را پاک می‌کند. موقعیت مکانی خاموش است. این جمله نمی‌گوید هیچ داده‌ای وجود ندارد.",
     ),
     (
       "Children's risk assessment",
@@ -170,8 +170,8 @@ final childrenDoc = LegalDoc(
     ),
     (
       "Speak with a parent",
-      "If you are under 13, please use the app with a parent or carer.",
-      "اگر زیر ۱۳ سال هستید، با والد یا سرپرست استفاده کنید.",
+      "This version is not aimed at children. It does not check a person's age. An existing child profile is not converted into an adult profile.",
+      "این نسخه برای کودکان ساخته نشده است. سن شخص را بررسی نمی‌کند. پروفایل کودک موجود به پروفایل بزرگسال تبدیل نمی‌شود.",
     ),
   ],
 );
@@ -184,13 +184,13 @@ final aboutDoc = LegalDoc("about", "About & licences", "درباره و مجوز
   ),
   (
     "Characters are fictional",
-    "All characters, family names, schools, nurseries, estate agencies and other businesses in the stories (for example Hartley and Wren Homes, Primrose Lane Nursery, Maple Grove Primary) are fictional. Any likeness to real people or companies is unintended. Paintings and avatars are original AI-assisted illustrations, not photos of real people or logos.",
-    "همهٔ شخصیت‌ها، مدارس، مهدکودک‌ها و کسب‌وکارهای داستان (مثل Hartley and Wren، Primrose Lane، Maple Grove) خیالی‌اند. شباهت اتفاقی به افراد یا شرکت‌های واقعی ناخواسته است. تصویرها عکس افراد واقعی یا لوگو نیستند.",
+    "All characters, family names, schools, nurseries, estate agencies and other businesses in the stories (for example Hartley and Wren Homes, Primrose Lane Nursery, Maple Grove Primary) are fictional. Any likeness to real people or companies is unintended. This notice does not decide who owns each picture or which tool made it.",
+    "همهٔ شخصیت‌ها، مدارس، مهدکودک‌ها و کسب‌وکارهای داستان (مثل Hartley and Wren، Primrose Lane، Maple Grove) خیالی‌اند. شباهت اتفاقی به افراد یا شرکت‌های واقعی ناخواسته است. این متن مالک هر تصویر یا ابزار ساخت آن را تعیین نمی‌کند.",
   ),
   (
     "AI voices and pictures",
-    "Voices: Microsoft Azure AI Speech neural TTS (pre-rendered). Illustrations: Created with Grok. All voices are AI-generated neural text-to-speech.",
-    "صداها: Azure TTS. تصویرها: ساخته‌شده با Grok (Created with Grok). همهٔ صداها با هوش مصنوعی ساخته شده‌اند.",
+    "Voices: Microsoft Azure AI Speech neural TTS (pre-rendered). This screen does not state which tool made each illustration or who owns it. All voices are AI-generated neural text-to-speech.",
+    "صداها: Azure TTS ازپیش‌ساخته. این صفحه نمی‌گوید هر تصویر با چه ابزاری ساخته شده یا مالک آن کیست. همهٔ صداها با هوش مصنوعی ساخته شده‌اند.",
   ),
   (
     "Open source and fonts",

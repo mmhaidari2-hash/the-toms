@@ -144,3 +144,13 @@ English: The inventory lists 345 tracked images and leaves every file's source a
 آزمون: `cd app && flutter test -j 1 test/profiles_test.dart`. Flutter 3.47.7. نتیجه `+7`، همه قبول. لاگ: `profiles-18-2026-11-10.log`. `+21` روی `082600210` و `+259 ~2 -4` روی `9daa52a98` جدا ماندند. Q17 و DPIA بسته نشدند. مجوز ادغام‌شدهٔ release همچنان UNKNOWN است. Azure ۱۰ نوامبر ۲۲:۴۳:۳۸ لندن همچنان `401` است.
 
 English: The owner set the first version's intended audience to 18+ only. The profile screen no longer creates a child profile and does not claim to verify age. Existing child profiles, their progress, and kid-mode route blocks remain. Q17 and the DPIA stay open. Focused profiles tests were +7. Not Play-ready.
+
+## اصلاح واقع‌بینانهٔ متن موجود legal_screen
+
+`legal_screen.dart` فقط در جمله‌های ناسازگار با کد عوض شد. اپ نصب‌شده گفتار را رونویسی یا ضبط نمی‌کند و تشخیص سیستم‌عامل ندارد. گفتار به متن فقط در مرورگر و در صورت وجود همان مرورگر اختیاری است. مخاطب نسخه ۱۸+ است، سن بررسی نمی‌شود، پروفایل تازه بزرگسال است، و پروفایل کودک موجود با محدودیت می‌ماند. جملهٔ «Created with Grok» و ادعای مالکیت یا اصالت هر تصویر برداشته شد. جای‌خالی ناشر ماند. تأیید حقوقی، DPIA، Q17 و Q09 بسته نشد. پیش‌نویس چت فروشگاه وارد محصول نشد.
+
+`docs/compliance/compliance_report.md` فقط نام و پیوند قدیمی OISC را به IAA (formerly OISC) و نشانی `immigration-advice-authority` عوض کرد. برچسب تاریخی «done» ترخیص تازه نیست.
+
+آزمون: `cd app && flutter test -j 1 test/legal_test.dart`. نتیجه `+3`. لاگ: `legal-accuracy-2026-11-10.log`. `+7` روی `af6e61ec6` و `+21` روی `082600210` جدا ماندند.
+
+English: The existing legal screen now matches installed-app speech limits, the 18+ intended audience, adult-only new profiles, and retained child-profile limits. It no longer gives a blanket Grok or ownership line. Focused legal tests were +3. Not legal approval.
