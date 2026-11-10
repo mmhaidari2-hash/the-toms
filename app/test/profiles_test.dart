@@ -72,8 +72,20 @@ void main() {
     final privacy = find.byKey(const ValueKey('profiles-privacy'));
     await t.scrollUntilVisible(privacy, 160);
     expect(privacy, findsOneWidget);
-    expect(find.textContaining('Child profiles stay on this device only'), findsOneWidget);
-    expect(find.textContaining('پروفایل کودک فقط روی همین دستگاه'), findsOneWidget);
+    expect(find.textContaining('keeps a name and learning progress on this device'), findsOneWidget);
+    expect(find.textContaining('do not create a learner account'), findsOneWidget);
+    expect(find.textContaining('does not upload that profile'), findsOneWidget);
+    expect(find.textContaining('contact the audio host'), findsOneWidget);
+    expect(find.textContaining('not a lock for parents or carers'), findsOneWidget);
+    expect(find.textContaining('نام و پیشرفت یادگیری را روی همین دستگاه'), findsOneWidget);
+    expect(find.textContaining('حساب یادگیرنده نمی‌سازیم'), findsOneWidget);
+    expect(find.textContaining('به سرور ما نمی‌فرستد'), findsOneWidget);
+    expect(find.textContaining('میزبان صدا'), findsOneWidget);
+    expect(find.textContaining('قفل والد یا سرپرست نیست'), findsOneWidget);
+    expect(find.textContaining('do not collect their data'), findsNothing);
+    expect(find.textContaining('only on this device'), findsNothing);
+    expect(find.textContaining('داده‌اش را جمع نمی‌کنیم'), findsNothing);
+    expect(find.textContaining('فقط روی همین دستگاه'), findsNothing);
   });
 
   testWidgets('progress shows calm-circle not league', (t) async {

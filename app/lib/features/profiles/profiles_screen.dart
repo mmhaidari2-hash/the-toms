@@ -178,10 +178,7 @@ class ProfilesScreen extends ConsumerWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  hl(
-                    'Child profiles stay on this device only. We do not create accounts for children, and we do not collect their data. '
-                    'A parent or carer should switch profiles. See Privacy for the UK Children\'s Code note.',
-                  ),
+                  'A child profile keeps a name and learning progress on this device. We do not create a learner account, and this app does not upload that profile to a server of ours. Downloading lesson audio can still contact the audio host. Switching profiles is not a lock for parents or carers. See Privacy for the UK Children\'s Code note.',
                   style: const TextStyle(
                     fontSize: 12.5,
                     height: 1.4,
@@ -189,10 +186,7 @@ class ProfilesScreen extends ConsumerWidget {
                   ),
                 ),
                 Text(
-                  hl(
-                    'پروفایل کودک فقط روی همین دستگاه می‌ماند. برای کودک حساب نمی‌سازیم و داده‌اش را جمع نمی‌کنیم. '
-                    'والد یا سرپرست باید پروفایل را عوض کند.',
-                  ),
+                  'پروفایل کودک نام و پیشرفت یادگیری را روی همین دستگاه نگه می‌دارد. حساب یادگیرنده نمی‌سازیم و این برنامه آن پروفایل را به سرور ما نمی‌فرستد. دانلود صدای درس هنوز می‌تواند به میزبان صدا وصل شود. عوض کردن پروفایل قفل والد یا سرپرست نیست.',
                   textDirection: helperDir,
                   style: BL.fa(12, color: BL.muted),
                 ),

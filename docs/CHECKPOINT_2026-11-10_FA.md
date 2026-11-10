@@ -22,7 +22,7 @@ English: Facts read from `51d67f6d`. No product or legal-policy edit. Not legal 
 ## داده و صدا — رفتار کد
 
 - حساب و سرور یادگیرنده نیست. Hive جعبهٔ `progress` (`progress_store.dart` خط ۶۲–۷۲). وب بدون رمز IndexedDB. اندروید AES با کلید دستگاهی `nluk_progress_aes_v1` (خط ۳۹–۵۱). کلید اینجا چاپ نشد.
-- پروفایل بزرگسال/کودک محلی است (`learner_profile.dart` خط ۳–۲۰). تعویض پروفایل قفل والد نیست (legal خط ۱۵۷–۱۵۸). مسیرهای کودک‌مخفی خط ۷۴–۸۵. جملهٔ مطلق «دادهٔ کودک جمع نمی‌شود» در `profiles_screen.dart` خط ۱۸۲ با پیش‌نویس حریم (ذخیرهٔ محلی و تماس دانلود) یکی نیست؛ برای فروشگاه پیش‌نویس حریم ملاک است.
+- پروفایل بزرگسال/کودک محلی است (`learner_profile.dart` خط ۳–۲۰). تعویض پروفایل قفل والد نیست (legal خط ۱۵۷–۱۵۸). مسیرهای کودک‌مخفی خط ۷۴–۸۵. در درخت `51d67f6d` جملهٔ مطلق «دادهٔ کودک جمع نمی‌شود» در `profiles_screen.dart` با پیش‌نویس حریم (ذخیرهٔ محلی و تماس دانلود) یکی نبود. آن جمله در بخش «اعلان پروفایل کودک» همین سند اصلاح شد. پیش‌نویس `legal_screen` دست نخورد و برای فروشگاه همان پیش‌نویس نویسنده ملاک است.
 - خروجی: JSON در کلیپ‌بورد (legal خط ۳۳۵–۳۴۸). حذف: پاک‌کردن جعبهٔ محلی پس از تأیید (خط ۳۵۲–۳۸۲). کش صدا ممکن است بماند (خط ۵۰).
 - گفت‌وگو آفلاین و فیلمنامه‌ای است (`dialogue_brain.dart` خط ۴۳–۵۸)، نه چت آزاد.
 - TTS زمان اجرا فقط کلیپ ازپیش‌ساخته است. مربی تلفظ Azure Pronunciation Assessment ندارد (`coach_screen.dart` خط ۱۳–۱۴).
@@ -78,3 +78,41 @@ Azure تازه، جدا از ۶ نوامبر: والد در ۱۰ نوامبر ۲
 6. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
 
 English: Parent’s 10 Nov 2026 22:43:38 Europe/London Azure read was again 401 CredentialUnavailable / ChainedTokenCredential. No F0 proof and no new audio. The installed-app mic help now says it cannot transcribe or record; web copy still names browser speech. Focused `speaking_test.dart` was +12. Not Play-ready.
+
+## مرحلهٔ کد — اعلان پروفایل کودک، ۱۰ نوامبر ۲۰۲۶
+
+جملهٔ مطلق جعبهٔ `profiles-privacy` برداشته شد. متن جدید، انگلیسی و فارسی، این‌ها را جدا می‌گوید: پروفایل کودک نام و پیشرفت را روی همین دستگاه نگه می‌دارد؛ حساب یادگیرنده ساخته نمی‌شود و این برنامه آن پروفایل را به سرور ما نمی‌فرستد؛ دانلود صدای درس هنوز می‌تواند به میزبان صدا وصل شود؛ عوض کردن پروفایل قفل والد یا سرپرست نیست. وعدهٔ مطلق «هیچ داده‌ای جمع نمی‌شود»، «فقط روی دستگاه»، یا «هیچ شخص ثالثی» داده نشد. دکمهٔ سیاست حریم، مسیر `/legal`، مخفی‌بودن مسیرهای بزرگسال برای کودک، جعبهٔ پیشرفت، و جریان داده عوض نشد. `legal_screen.dart` دست نخورد. زبان‌های helper و جدول پوشش عوض نشد.
+
+فایل‌های این مرحله:
+
+- `app/lib/features/profiles/profiles_screen.dart`
+- `app/test/profiles_test.dart`
+
+آزمون سریال، بدون مجموعهٔ کامل، بعد از اصلاح یک یابنده. یابندهٔ اول «does not create» می‌خواست و جمله «We do not create» است؛ همان اجرا `+20 -1` شد و فقط همان رشتهٔ آزمون عوض شد. اجرای ثبت‌شده:
+
+`cd app && flutter test -j 1 test/speaking_test.dart test/profiles_test.dart test/messages_flow_test.dart test/priya_shop_layout_test.dart`
+
+Flutter 3.47.7، Dart 3.13.5. نتیجه: `+21`، همه قبول. لاگ: `profiles-notice-focused-2026-11-10.log`. فایل‌ها: `speaking_test.dart` (۱۲، شامل متن مربی)، `profiles_test.dart` (۶، شامل اعلان دوزبانه و آزمون‌های قفل مسیر و پیشرفت)، `messages_flow_test.dart` (۱، محل `msg-mic-note`)، `priya_shop_layout_test.dart` (۲، شامل tooltip «Type your reply» از کامیت `8bf230814`). `messages_test.dart` آزمون محتوا و فهرست صوت است و اجرا نشد تا شکاف کلیپ‌های شناخته‌شده این مرحله را نشکند. مجموعهٔ `+259 ~2 -4` روی `9daa52a98` تاریخی ماند.
+
+مجوزها — ادغام release ساخته نشد. مانع دقیق: `ANDROID_HOME` و `ANDROID_SDK_ROOT` خالی‌اند، SDK اندروید روی این ماشین نیست، و `/home/box/keys/key.properties` نیست. `processReleaseManifest` اجرا نشد. `ALLOW_DEBUG_SIGNED_RELEASE` ست نشد. نگهبان `build.gradle.kts` خط ۷۵–۸۰ عوض نشد. هیچ APK یا AAB ساخته یا باز نشد. پس مجوزهای مانیفست ادغام‌شدهٔ release همین الان UNKNOWN است.
+
+آنچه از سورس خود اپ خوانده شد، و ادغام نیست:
+
+- `src/main`: یک گره `android.permission.INTERNET` (خط ۳). نظر خط ۲ که «تنها مجوز» است فقط نظر سورس است.
+- `src/debug` و `src/profile`: هر کدام همان `INTERNET` را برای ابزار توسعه تکرار می‌کنند. واریانت release پوشهٔ `src/release` ندارد، پس از سمت سورس اپ فقط main وارد release می‌شود. پلاگین‌ها جدا ادغام می‌شوند و این جمله آن ادغام را ثابت نمی‌کند.
+
+مانیفست کتابخانهٔ کش‌شده در pub-cache (فهرست `.flutter-plugins-dependencies` تاریخ ۲۰۲۶-۱۱-۱۰ ۲۲:۵۰، Flutter 3.47.7) فقط به‌عنوان سهم احتمالی خوانده شد، نه اثبات ادغام. در `android/src/main` این‌ها گره `uses-permission` ندارند: `audioplayers_android` 5.3.0، `flutter_secure_storage` 9.2.4 (فقط `uses-sdk tools:overrideLibrary="androidx.security"`)، `jni` 1.1.0، `jni_flutter` 1.0.4+1، `purchases_flutter` 11.0.1، `share_plus` 12.0.2 (FileProvider و receiver با `exported=false`)، `url_launcher_android` 6.3.33 (فعالیت WebView با `exported=false`). `path_provider_android` 2.3.1 در این کش پوشهٔ کتابخانهٔ اندروید و مانیفست کتابخانه ندارد (پیاده‌سازی Dart/JNI است)؛ مانیفست example آن سهم اپ ما نیست. AAR وابستگی `com.revenuecat.purchases:purchases-hybrid-common:20.3.0` دانلود نشده و مانیفستش UNKNOWN است. مانیفست example پلاگین‌ها (از جمله INTERNET یا WAKE_LOCK نمونهٔ audioplayers) مانیفست این اپ نیست.
+
+Azure ۱۰ نوامبر ۲۲:۴۳:۳۸ اروپا/لندن همچنان `401` / `CredentialUnavailableException` / `ChainedTokenCredential` است. این مرحله دوباره نپرسید و کلیپ نساخت. Q03 پرسیده نشد.
+
+مانع‌های بعدی که فقط مالک باز می‌کند:
+
+1. جای‌خالی ناشر تا ثبت شرکت. Q03 پرسیده نشود.
+2. کلیپ‌های arrival و audit، تا اثبات F0. مدرک تازه همان `401` است.
+3. مانیفست ادغام‌شدهٔ release هنوز UNKNOWN، تا وقتی SDK باشد و امضا یا نگهبان فعلی عوض نشود.
+4. پیش‌نویس حقوقی هنوز مال نویسنده است. این مرحله آن را وارد محصول نکرد.
+5. کلید امضای تولید نیست و ساخته نشود.
+6. Q15 و Q17 بازند.
+7. آمادهٔ Play نیست و تأیید حقوقی کامل نیست.
+
+English: The profiles privacy box now says a child profile keeps a name and progress on the device, that there is no learner account and no upload of that profile to our server, that lesson-audio download can still contact the audio host, and that switching profiles is not a parent lock. It does not say no data is collected, only-on-device, or no third party. Legal drafts were not edited. Serial focused tests were +21. The merged release manifest was not generated: no Android SDK and no upload key. Merged permissions stay UNKNOWN. Cached plugin library manifests are not that proof. The 10 Nov 22:43:38 London Azure read is still 401. Not Play-ready.
