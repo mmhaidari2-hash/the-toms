@@ -191,3 +191,21 @@ English: The full serial suite on 8785e94c4 was +261 ~2 -4, exit 1. The four fai
 پیش از ساخت پولی این خط حذف شود، و `betaFree` نادرست و کلید عمومی RevenueCat گذاشته شود. مجموعهٔ `+261 ~2 -4` همچنان مال درخت `8785e94c4` است و اینجا تکرار نشد.
 
 English: The free build strips only the Play Billing permission. The purchase scaffold stays. Delete the remove-node before a paid build. The historical suite result stays on 8785e94c4.
+
+## دادهٔ محلی — ۱۱ نوامبر ۲۰۲۶
+
+این مرحله Azure، امضا، ناشر و بازنویسی حقوقی را باز نکرد. وابستگی‌ها بررسی نشدند.
+
+بازتولید روی پوشهٔ موقت، قبل از اصلاح: جعبهٔ رمزشده با کلید دیگر و `crashRecovery` پیش‌فرض Hive باز شد، پیام `Recovering corrupted box.` آمد، فایل از ۱۲۹ بایت به ۰ رسید و کلید `p:child_legacy` نبود. با `crashRecovery: false` همان باز کردن `HiveError: Wrong checksum` داد و طول فایل ماند.
+
+اصلاح: `HiveProgressStore.openAt` همیشه `crashRecovery: false` است. کلید نادرست یا کلید گم‌شده فایل را عوض نمی‌کند و کلید تازه نوشته نمی‌شود. جعبهٔ بدون رمز قدیمی اول در `.hive.kept` کپی می‌شود، بعد به جعبهٔ رمزشده با همان نام کلید `nluk_progress_aes_v1` منتقل می‌شود، و فقط بعد از خواندن دوبارهٔ مقدارها نسخهٔ موقت پاک می‌شود. اگر انتقال شکست بخورد، نسخهٔ موقت برمی‌گردد. اگر فایل رمزشده باشد و کلید خوانده نشود، `ProgressStoreLocked` پرتاب می‌شود و `ProgressLockedScreen` متن انگلیسی و فارسی نشان می‌دهد که چیزی پاک نشده است. دکمهٔ پاک کردن ندارد.
+
+پشتیبان: در AOSP برچسب `android-15.0.0_r36`، `BackupEligibilityRules` تغییر `IGNORE_ALLOW_BACKUP_IN_D2D` (۱۸۳۱۴۷۲۴۹) را از targetSdk ۳۱ برای اپ غیرسیستمی روشن می‌داند. این اپ targetSdk ۳۶ است (`FlutterExtension` مقدار ۳۶). پس `allowBackup="false"` پشتیبان ابری را می‌بندد و برای ساخت غیراشکال‌زدایی، `adb backup` را هم می‌بندد، اما انتقال دستگاه را نه. `FullBackup.java` بدون قاعده «همه چیز را کپی می‌کند». قاعدهٔ جدید هر دامنه را در `cloud-backup` و `device-transfer` مستثنی می‌کند. مطابقت AOSP روی مسیر پوشهٔ دامنه است و فرزندان را صف نمی‌کند. این انتقال واقعی روی گوشی اجرا نشد.
+
+آزمون: `cd app && flutter test -j 1 test/progress_at_rest_test.dart`. نتیجه: `+7`، همه قبول. کلید نادرست، کلید گم‌شده، انتقال جعبهٔ قدیمی، برگرداندن `.kept`، جعبهٔ رمزشدهٔ خالی روی نسخهٔ موقت، قاعدهٔ XML، و متن دوزبانه. لاگ این اجرا در مخزن ذخیره نشد.
+
+`:app:processReleaseManifest` با Gradle 9.3.1 و SDK موجود: `BUILD SUCCESSFUL`. APK/AAB ساخته نشد. `ALLOW_DEBUG_SIGNED_RELEASE` ست نشد. مانیفست ادغام‌شده `android:allowBackup="false"` و `android:dataExtractionRules="@xml/data_extraction_rules"` دارد. `com.android.vending.BILLING` در همان فایل نیست. مجموعهٔ `+261 ~2 -4` مال `8785e94c4` است و تکرار نشد.
+
+مانع‌هایی که این مرحله باز نکرد: ورود Azure و کلیپ‌های غایب، کلید امضای اصلی، جای‌خالی ناشر، Q09 و Q17 و DPIA، IndexedDB بدون رمز در وب، و بازنشانی عمدی داده وقتی کلید دستگاه واقعاً از بین رفته باشد. برای آن حالت دکمهٔ پاک کردن اضافه نشد.
+
+English: A wrong Hive key used to truncate the progress file under Hive's default crash recovery. The open path now refuses to truncate or replace the key, migrates a readable plaintext box, and shows a bilingual notice when an encrypted file cannot be unlocked. Device-to-device transfer is excluded because allowBackup=false does not apply to it on targetSdk 36. Focused test +7. processReleaseManifest succeeded. The historical full suite stays +261 ~2 -4 on 8785e94c4. No Azure work and no clearance.

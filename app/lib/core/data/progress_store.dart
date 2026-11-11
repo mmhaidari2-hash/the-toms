@@ -1,11 +1,14 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:path_provider/path_provider.dart';
 import '../models/learner_profile.dart';
 import '../engine/weekly.dart';
+import 'progress_hive_file.dart';
 
 abstract class ProgressStore {
   String? read();
@@ -36,19 +39,51 @@ const _legacyKey = 'v1';
 const _circleKey = 'circle';
 String _p(String id) => 'p:$id';
 
-Future<HiveAesCipher> _progressCipher() async {
-  const storage = FlutterSecureStorage(
+/// Existing progress file could not be opened. The file and any stored key are left in place.
+class ProgressStoreLocked implements Exception {
+  const ProgressStoreLocked();
+}
+
+/// Reads and writes the Hive AES key. Production uses encrypted platform storage.
+abstract class ProgressKeyStore {
+  Future<String?> readKey();
+  Future<void> writeKey(String value);
+}
+
+class SecureProgressKeyStore implements ProgressKeyStore {
+  const SecureProgressKeyStore();
+  static const _keyName = 'nluk_progress_aes_v1';
+
+  static const _storage = FlutterSecureStorage(
     aOptions: AndroidOptions(encryptedSharedPreferences: true),
   );
-  const keyName = 'nluk_progress_aes_v1';
-  var b64 = await storage.read(key: keyName);
-  if (b64 == null || b64.isEmpty) {
-    final rnd = Random.secure();
-    final bytes = Uint8List.fromList(List<int>.generate(32, (_) => rnd.nextInt(256)));
-    b64 = base64Encode(bytes);
-    await storage.write(key: keyName, value: b64);
+
+  @override
+  Future<String?> readKey() async {
+    final b64 = await _storage.read(key: _keyName);
+    if (b64 == null || b64.isEmpty) return null;
+    return b64;
   }
-  return HiveAesCipher(base64Decode(b64));
+
+  @override
+  Future<void> writeKey(String value) => _storage.write(key: _keyName, value: value);
+}
+
+String _newKeyB64() {
+  final rnd = Random.secure();
+  final bytes = Uint8List.fromList(List<int>.generate(32, (_) => rnd.nextInt(256)));
+  return base64Encode(bytes);
+}
+
+HiveAesCipher? _cipherOrNull(String? b64) {
+  if (b64 == null || b64.isEmpty) return null;
+  try {
+    return HiveAesCipher(base64Decode(b64));
+  } on FormatException {
+    return null;
+  } on ArgumentError {
+    return null;
+  }
 }
 
 Map<String, dynamic> _defaultMeta() => {
@@ -65,29 +100,115 @@ class HiveProgressStore implements ProgressStore {
 
   static Future<HiveProgressStore> open() async {
     await Hive.initFlutter();
-    Box<String> box;
-    // Web/PWA: unencrypted IndexedDB (CSP + QA seeding; accepted residual risk in compliance report).
-    // Mobile: AES via flutter_secure_storage-backed HiveAesCipher.
+    // Web/PWA: unencrypted IndexedDB (accepted residual risk in the compliance report).
     if (kIsWeb) {
-      box = await Hive.openBox<String>(_boxName);
-    } else {
-      final cipher = await _progressCipher();
-      try {
-        box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
-      } catch (_) {
-        // Migrate from a legacy unencrypted box if present.
-        final legacy = await Hive.openBox<String>(_boxName);
-        final data = <String, String>{for (final k in legacy.keys) k.toString(): legacy.get(k) ?? ''};
-        await legacy.deleteFromDisk();
-        box = await Hive.openBox<String>(_boxName, encryptionCipher: cipher);
-        for (final e in data.entries) {
-          if (e.value.isNotEmpty) await box.put(e.key, e.value);
+      final box = await Hive.openBox<String>(_boxName);
+      final store = HiveProgressStore(box);
+      await store._migrate();
+      return store;
+    }
+    final dir = await getApplicationDocumentsDirectory();
+    return openAt(dir.path, keys: const SecureProgressKeyStore());
+  }
+
+  /// Opens [directory] with [keys]. A checksum mismatch does not truncate the file.
+  @visibleForTesting
+  static Future<HiveProgressStore> openAt(String directory, {required ProgressKeyStore keys}) async {
+    Hive.init(directory);
+    if (!await progressHiveHasBytes(directory, _boxName) && await progressHiveKeptExists(directory, _boxName)) {
+      await progressHiveRestoreKept(directory, _boxName);
+    }
+
+    final stored = await keys.readKey();
+    final cipher = _cipherOrNull(stored);
+    if (!await progressHiveHasBytes(directory, _boxName)) {
+      final b64 = cipher != null ? stored! : _newKeyB64();
+      if (cipher == null) await keys.writeKey(b64);
+      final box = await _openProgressBox(cipher: HiveAesCipher(base64Decode(b64)));
+      if (box == null) throw const ProgressStoreLocked();
+      await progressHiveDeleteKept(directory, _boxName);
+      final store = HiveProgressStore(box);
+      await store._migrate();
+      return store;
+    }
+
+    if (cipher != null) {
+      final box = await _openProgressBox(cipher: cipher);
+      if (box != null) {
+        if (await progressHiveKeptExists(directory, _boxName) && box.isEmpty) {
+          await box.close();
+          await Hive.deleteBoxFromDisk(_boxName);
+          await progressHiveRestoreKept(directory, _boxName);
+        } else {
+          await progressHiveDeleteKept(directory, _boxName);
+          final store = HiveProgressStore(box);
+          await store._migrate();
+          return store;
         }
       }
     }
-    final s = HiveProgressStore(box);
-    await s._migrate();
-    return s;
+
+    final legacy = await _openProgressBox();
+    if (legacy == null) throw const ProgressStoreLocked();
+    final data = <String, String>{for (final k in legacy.keys) k.toString(): legacy.get(k) ?? ''};
+    await legacy.close();
+    final b64 = cipher != null ? stored! : _newKeyB64();
+    if (cipher == null) await keys.writeKey(b64);
+    final box = await _replaceWithEncrypted(directory, data, HiveAesCipher(base64Decode(b64)));
+    final store = HiveProgressStore(box);
+    await store._migrate();
+    return store;
+  }
+
+  /// Hive's default crash recovery truncates a box when the frame checksum
+  /// does not match, including when the cipher is wrong. That would delete
+  /// progress. A mismatch throws instead, and the caller leaves the file in place.
+  static Future<Box<String>?> _openProgressBox({HiveAesCipher? cipher}) async {
+    Box<String>? opened;
+    Object? failure;
+    final pending = runZonedGuarded(() async {
+      try {
+        opened = await Hive.openBox<String>(_boxName, encryptionCipher: cipher, crashRecovery: false);
+      } catch (error) {
+        failure = error;
+      }
+    }, (error, stack) {
+      final parent = Zone.current.parent;
+      if (error is! HiveError && parent != null) parent.handleUncaughtError(error, stack);
+    });
+    if (pending != null) await pending;
+    if (opened != null) return opened;
+    if (failure is HiveError || failure == null) return null;
+    throw failure!;
+  }
+
+  static Future<Box<String>> _replaceWithEncrypted(String directory, Map<String, String> data, HiveAesCipher cipher) async {
+    await progressHiveCopyToKept(directory, _boxName);
+    await Hive.deleteBoxFromDisk(_boxName);
+    Box<String>? box;
+    try {
+      box = await _openProgressBox(cipher: cipher);
+      if (box == null) throw const ProgressStoreLocked();
+      for (final e in data.entries) {
+        if (e.value.isNotEmpty) await box.put(e.key, e.value);
+      }
+      for (final e in data.entries) {
+        if (e.value.isNotEmpty && box.get(e.key) != e.value) throw const ProgressStoreLocked();
+      }
+      await progressHiveDeleteKept(directory, _boxName);
+      return box;
+    } catch (e) {
+      try {
+        await box?.close();
+      } catch (_) {}
+      try {
+        await Hive.deleteBoxFromDisk(_boxName);
+      } catch (_) {}
+      await progressHiveRestoreKept(directory, _boxName);
+      await progressHiveDeleteKept(directory, _boxName);
+      if (e is ProgressStoreLocked) rethrow;
+      throw const ProgressStoreLocked();
+    }
   }
 
   Future<void> _migrate() async {

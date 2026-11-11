@@ -13,6 +13,7 @@ import 'package:go_router/go_router.dart';
 
 import 'core/platform/history.dart';
 import 'core/platform/voice.dart';
+import 'core/data/progress_locked_screen.dart';
 import 'core/data/progress_store.dart';
 import 'core/data/providers.dart';
 import 'core/i18n/helper_text.dart';
@@ -37,7 +38,13 @@ Future<void> main() async {
   // Sets Entitlements.paidBuild synchronously; the RevenueCat handshake continues in the background.
   unawaited(Billing.init());
   await Voice.load();
-  final store = await HiveProgressStore.open();
+  final HiveProgressStore store;
+  try {
+    store = await HiveProgressStore.open();
+  } on ProgressStoreLocked {
+    runApp(const MaterialApp(debugShowCheckedModeBanner: false, home: ProgressLockedScreen()));
+    return;
+  }
   // Activate the saved helper language before the first frame, so screens never flash the wrong language.
   try {
     final raw = store.read();

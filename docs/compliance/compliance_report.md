@@ -139,10 +139,10 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 | CSP + security meta | **done** | Meta CSP allows self + Flutter CanvasKit (`https://www.gstatic.com`); `frame-ancestors` only in `_headers` (meta ignores it). GH Pages ignores `_headers`. |
 | Dependency advisories | **done** | `flutter pub outdated` reviewed; Dependabot config written; GH vulnerability alerts enabled (API 204) |
 | Secret scan | **done** | `/workspace/legal/secret_scan.txt` — **0** pattern hits in trees; rotate if any key ever leaked via chat/logs (**needs user** operational hygiene). Azure key only in env, not source |
-| Android cleartext off / allowBackup false / R8 | **done** | Manifest + network_security_config + minify |
+| Android cleartext off / allowBackup false / data extraction rules / R8 | **done for this check** | `allowBackup=false` does not stop device-to-device transfer on targetSdk 31+. `data_extraction_rules.xml` excludes cloud backup and device transfer. Not a clearance. |
 | Exported components | **done** | Only MAIN/LAUNCHER activity exported |
 | Play Integrity | **needs user** | Wire when Play Cloud project ready |
-| Hive encryption | **done** | Mobile: AES + `flutter_secure_storage`; Web/PWA: unencrypted IndexedDB (documented residual risk) |
+| Hive encryption | **done for this check** | Mobile: AES + `flutter_secure_storage`. A wrong or missing key does not truncate the box or mint a replacement key. Legacy plaintext still migrates. Web/PWA: unencrypted IndexedDB (documented residual risk) |
 | Buddy code validation | **done** | Strict alphabet/length |
 | Branch protection main+source | **done** | API 200; force-push disabled; 1 review |
 | Dependabot | **done** | `.github/dependabot.yml` (source tree) |
@@ -159,7 +159,7 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 | Crypto | **done** (platform secure storage + AES) |
 | Auth | **N/A** (no accounts) |
 | Network (TLS, no cleartext) | **done** |
-| Platform (backup, exports) | **done** |
+| Platform (backup, exports) | **done for this check** | Cloud and device-transfer rules exclude the app domains. This is not a clearance. |
 | Code quality / obfuscation | **done** (R8 release) |
 | Resilience | **partial** — Play Integrity **needs user** |
 
