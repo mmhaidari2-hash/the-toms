@@ -137,7 +137,7 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 | Control | Status | Note |
 |---|---|---|
 | CSP + security meta | **done** | Meta CSP allows self + Flutter CanvasKit (`https://www.gstatic.com`); `frame-ancestors` only in `_headers` (meta ignores it). GH Pages ignores `_headers`. |
-| Dependency advisories | **done** | `flutter pub outdated` reviewed; Dependabot config written; GH vulnerability alerts enabled (API 204) |
+| Dependency advisories | **not a clearance** | 11 Nov 2026 OSV/GHSA version check of the lockfile and Android release classpath. Locked packages were outside published affected ranges. Dart 3.13.5 / Flutter 3.47.7 are inside GHSA-frr6-h895-5pxp; the floor is Dart `^3.13.7` (Flutter 3.47.8). Outdated packages were not treated as vulnerabilities. |
 | Secret scan | **done** | `/workspace/legal/secret_scan.txt` — **0** pattern hits in trees; rotate if any key ever leaked via chat/logs (**needs user** operational hygiene). Azure key only in env, not source |
 | Android cleartext off / allowBackup false / data extraction rules / R8 | **done for this check** | `allowBackup=false` does not stop device-to-device transfer on targetSdk 31+. `data_extraction_rules.xml` excludes cloud backup and device transfer. Not a clearance. |
 | Exported components | **done** | Only MAIN/LAUNCHER activity exported |

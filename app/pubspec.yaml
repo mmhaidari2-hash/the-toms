@@ -19,7 +19,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.1.0+5
 
 environment:
-  sdk: ^3.13.5
+  # GHSA-frr6-h895-5pxp: Dart below 3.13.7 (Flutter below 3.47.8) trusts compromised eMudhra intermediates.
+  sdk: ^3.13.7
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions

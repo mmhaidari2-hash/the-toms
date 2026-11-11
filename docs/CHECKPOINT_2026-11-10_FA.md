@@ -223,3 +223,19 @@ English: A wrong Hive key used to truncate the progress file under Hive's defaul
 آزمون: `cd app && flutter test -j 1 test/progress_at_rest_test.dart`. نتیجهٔ بعد از اصلاح: `+10`، خروج ۰. `+7` همان نتیجهٔ `7fb47b4ab` است و این عدد جای آن را نمی‌گیرد. لاگ: `progress-at-rest-interruption.log`.
 
 English: On 7fb47b4ab a nonempty partial encrypted box deleted the complete .kept copy and the missing child entry was null. The open path now restores that copy unless every non-empty kept entry is already present, and it does not rotate the key. A platform exception from readKey becomes ProgressStoreLocked before any file change, so the bilingual screen can catch it. A checksum-invalid hive file is not replaced from .kept. New focused result +10. The earlier +7 stays on 7fb47b4ab.
+
+## وابستگی زمان اجرا — ۱۱ نوامبر ۲۰۲۶
+
+نقطهٔ شروع `ecb0860afbd05d22e683a9bbb63c6106b06529ee`. مرحلهٔ دادهٔ محلی دوباره باز نشد.
+
+روش: `app/pubspec.lock` (۱۰۷ بسته؛ ۵ تای SDK با نسخهٔ `0.0.0` جدا). بستار اجرا از `dart pub deps --json`، بدون `flutter_lints`/`lints` که فقط dev هستند. Android: `gradle :app:dependencies --configuration releaseRuntimeClasspath` آفلاین، ۸۲ مختصاتِ حل‌شده، هر کدام یک نسخه. پرسش دسته‌ای `POST https://api.osv.dev/v1/querybatch` برای نسخهٔ قفل‌شده و جدا برای «هر توصیهٔ تاریخی این نام». کنترل: PyPI `jinja2` 2.4.1 و Maven `log4j-core` 2.14.1 هر دو توصیه برگرداندند، پس خالی بودن نتیجه خطای API نیست. موتور Flutter با commit `deb287481e3ce9468f3434937ced4240a70539ca` هم خالی بود. فهرست GitHub برای `dart-lang/sdk` جدا خوانده شد چون OSV اکوسیستم Pub خودِ SDK را با نسخهٔ 3.13.5 پوشش نمی‌دهد.
+
+بستهٔ قفل‌شده داخل بازهٔ آسیب‌دیده نبود. تنها توصیهٔ Pub روی نام `http` است: GHSA-4rgh-jx4f-qfcq / CVE-2020-35669، اصلاح در `0.13.3`؛ قفل `1.6.0` است. Maven تاریخی و خارج از نسخهٔ حل‌شده: `play-services-basement` GHSA-cm6r-892j-jv2g تا قبل از `18.0.2` (حل‌شده `18.9.0`)، `gson` GHSA-4jrv-ppp4-jm57 تا قبل از `2.8.9` (حل‌شده `2.10.1`)، `kotlin-stdlib` GHSA-2qp4-g3q3-f92w و GHSA-cqj8-47ch-rvvq تا قبل از `1.6.0` و `1.4.21` (حل‌شده `2.4.0`).
+
+`dart pub outdated --json`: ۳۵ بسته latest جدیدتر دارند. این به‌تنهایی آسیب‌پذیری نیست و ارتقای عمده انجام نشد. از جمله `flutter_secure_storage` 9.2.4 در برابر 11.2.0.
+
+مورد تأییدشده: [GHSA-frr6-h895-5pxp](https://github.com/dart-lang/sdk/security/advisories/GHSA-frr6-h895-5pxp). Dart پایدار قبل از `3.13.7` و Flutter پایدار قبل از `3.47.8`. شدت high. `dart:io` روی Android و Windows و لینوکسِ بدون بستهٔ به‌روز CA، به CA میانی لو رفتهٔ eMudhra اعتماد می‌کند. وب و iOS و macOS در خودِ توصیه خارج‌اند. این درخت Flutter 3.47.7 / Dart 3.13.5 بود. اصلاح کمینه: کف `pubspec.yaml` برابر `^3.13.7`. Flutter 3.47.8 همان Dart 3.13.7 را دارد (`releases_linux.json`). 3.47.9 هم همان Dart را دارد و انتخاب نشد. APK ساخته نشد؛ باینری نصب‌شده تا بازسازی با این SDK همان آسیب را دارد.
+
+حد: OSV ممکن است دیر به‌روز شود. classpath اندروید حضور در APK بعد از R8 نیست. SDK در مخزن vendored نیست. تأیید کامل نیست.
+
+English: Locked Pub and resolved Android runtime versions were not inside OSV affected ranges. The one confirmed issue is GHSA-frr6-h895-5pxp in Dart 3.13.5 / Flutter 3.47.7. The pubspec floor is now Dart ^3.13.7, which Flutter 3.47.8 provides. Newer package versions were not treated as vulnerabilities. No release binary was built.
