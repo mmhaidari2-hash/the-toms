@@ -279,3 +279,9 @@ English: No Data safety file existed. The new map is a ten-row draft for the fre
 غربال تازه فقط برای ساخت رایگان اندروید است. مخاطب مورد نظر ۱۸+ است و سن بررسی نمی‌شود. پروفایل کودک موجود می‌ماند و تعویض پروفایل قفل والد نیست. دانلود درس می‌تواند به میزبان گیت‌هاب برسد. حذف، لاگ میزبان را پاک نمی‌کند. رونویسی و ضبط اندروید برای همه خاموش است؛ Q17 بسته نیست. طبق متن ICO، «likely» یعنی محتمل‌تر از غیرمحتمل، و خدمتِ غیرمختص کودک هم می‌تواند داخل آیین باشد. لزوم DPIA هم، با وجود توصیهٔ ICO در حالت تردید، اینجا امضا نشده است. تعداد کاربر، مبنای قانونی، قرارداد پردازشگر و مشورت ساخته نشد.
 
 English: The 11 Nov children’s screening does not approve a DPIA. An 18+ label is not an exemption. Likely under-18 access and the need for a DPIA stay undecided, and residual risk is not accepted. Q17 is not closed. Android speech recognition and recording are off for every profile.
+
+## راهنمای امضا — ۱۱ نوامبر ۲۰۲۶
+
+`docs/ANDROID_RELEASE.md` می‌گفت بدون `key.properties` ساخت release به کلید debug برمی‌گردد. کد این را نمی‌گوید. در `app/android/app/build.gradle.kts` اگر فایل `NEWLIFE_KEY_PROPERTIES`، یا اگر آن متغیر تنظیم نشده باشد مسیر `/home/box/keys/key.properties`، نباشد، وظیفهٔ `assemble` یا `bundle` که نامش `Release` دارد قبل از امضا متوقف می‌شود. امضای debug فقط با `ALLOW_DEBUG_SIGNED_RELEASE` برابر `1` است. این متغیر روشن نشد. کلید ساخته نشد. نگهبان و اسکریپت ساخت عوض نشدند. این اصلاح آمادگی Play یا هویت فروشگاه نیست.
+
+English: The Android release note no longer says a missing key file falls back to debug signing. The Gradle guard is unchanged: assemble/bundle Release stops without that file. The existing `ALLOW_DEBUG_SIGNED_RELEASE=1` switch was not set.
