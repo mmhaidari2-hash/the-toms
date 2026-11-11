@@ -7,3 +7,5 @@ Future<void> progressHiveCopyToKept(String directory, String boxName) async {}
 Future<void> progressHiveRestoreKept(String directory, String boxName) async {}
 
 Future<void> progressHiveDeleteKept(String directory, String boxName) async {}
+
+Future<void> progressHiveCopyKeptAsBox(String directory, String boxName, String sideBox) async {}

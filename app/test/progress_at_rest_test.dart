@@ -5,8 +5,19 @@ import 'package:british_life/core/data/progress_locked_screen.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/models/learner_profile.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
+
+class _ThrowingKeys implements ProgressKeyStore {
+  int writes = 0;
+
+  @override
+  Future<String?> readKey() async => throw PlatformException(code: 'keystore_unavailable');
+
+  @override
+  Future<void> writeKey(String next) async => writes += 1;
+}
 
 class _MemoryKeys implements ProgressKeyStore {
   String? value;
@@ -126,6 +137,85 @@ void main() {
     expect(store.read(), 'KEPT_MARKER');
     expect(File('${dir.path}/progress.hive.kept').existsSync(), isFalse);
     await store.box.close();
+  });
+
+  test('a nonempty partial encrypted box keeps every legacy entry from .kept', () async {
+    Hive.init(dir.path);
+    final plain = await Hive.openBox<String>('progress', crashRecovery: false);
+    await plain.put('p:adult', 'ADULT_MARKER');
+    await plain.put('p:child_legacy', 'CHILD_PROGRESS_MARKER');
+    await plain.close();
+    await File('${dir.path}/progress.hive').copy('${dir.path}/progress.hive.kept');
+    await File('${dir.path}/progress.hive').delete();
+    final key = _key(8);
+    final partial = await Hive.openBox<String>('progress', encryptionCipher: HiveAesCipher(base64Decode(key)), crashRecovery: false);
+    await partial.put('p:adult', 'ADULT_MARKER');
+    await partial.close();
+    expect(partial.isOpen, isFalse);
+    final keys = _MemoryKeys()..value = key;
+    final keptBefore = await File('${dir.path}/progress.hive.kept').readAsBytes();
+
+    final store = await HiveProgressStore.openAt(dir.path, keys: keys);
+
+    expect(store.readOf('adult'), 'ADULT_MARKER');
+    expect(store.readOf('child_legacy'), 'CHILD_PROGRESS_MARKER');
+    expect(keys.value, key);
+    expect(keys.writes, 0);
+    expect(File('${dir.path}/progress.hive.kept').existsSync(), isFalse);
+    await store.box.close();
+
+    final again = await HiveProgressStore.openAt(dir.path, keys: keys);
+    expect(again.readOf('child_legacy'), 'CHILD_PROGRESS_MARKER');
+    expect(keys.writes, 0);
+    await again.box.close();
+    expect(keptBefore, isNotEmpty);
+  });
+
+  test('a finished encrypted box plus a leftover .kept drops only the copy', () async {
+    Hive.init(dir.path);
+    final key = _key(11);
+    final plain = await Hive.openBox<String>('progress', crashRecovery: false);
+    await plain.put('p:adult', 'ADULT_MARKER');
+    await plain.put('p:child_legacy', 'CHILD_PROGRESS_MARKER');
+    await plain.put('empty_note', '');
+    await plain.close();
+    await File('${dir.path}/progress.hive').copy('${dir.path}/progress.hive.kept');
+    await File('${dir.path}/progress.hive').delete();
+    final done = await Hive.openBox<String>('progress', encryptionCipher: HiveAesCipher(base64Decode(key)), crashRecovery: false);
+    await done.put('p:adult', 'ADULT_MARKER');
+    await done.put('p:child_legacy', 'CHILD_PROGRESS_MARKER');
+    await done.close();
+    final keys = _MemoryKeys()..value = key;
+
+    final store = await HiveProgressStore.openAt(dir.path, keys: keys);
+
+    expect(store.readOf('adult'), 'ADULT_MARKER');
+    expect(store.readOf('child_legacy'), 'CHILD_PROGRESS_MARKER');
+    expect(keys.writes, 0);
+    expect(File('${dir.path}/progress.hive.kept').existsSync(), isFalse);
+    await store.box.close();
+  });
+
+  test('readKey platform exception locks without changing either file', () async {
+    Hive.init(dir.path);
+    final key = _key(12);
+    final box = await Hive.openBox<String>('progress', encryptionCipher: HiveAesCipher(base64Decode(key)), crashRecovery: false);
+    await box.put('p:child_legacy', 'CHILD_PROGRESS_MARKER');
+    await box.close();
+    await File('${dir.path}/progress.hive').copy('${dir.path}/progress.hive.kept');
+    final before = await File('${dir.path}/progress.hive').readAsBytes();
+    final keptBefore = await File('${dir.path}/progress.hive.kept').readAsBytes();
+    final keys = _ThrowingKeys();
+
+    await expectLater(HiveProgressStore.openAt(dir.path, keys: keys), throwsA(isA<ProgressStoreLocked>()));
+
+    expect(await File('${dir.path}/progress.hive').readAsBytes(), before);
+    expect(await File('${dir.path}/progress.hive.kept').readAsBytes(), keptBefore);
+    expect(keys.writes, 0);
+    expect(File('${dir.path}/progress_kept_check.hive').existsSync(), isFalse);
+    final again = await Hive.openBox<String>('progress', encryptionCipher: HiveAesCipher(base64Decode(key)), crashRecovery: false);
+    expect(again.get('p:child_legacy'), 'CHILD_PROGRESS_MARKER');
+    await again.close();
   });
 
   test('an empty encrypted box does not discard a kept plaintext copy', () async {

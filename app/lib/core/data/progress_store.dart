@@ -115,12 +115,17 @@ class HiveProgressStore implements ProgressStore {
   @visibleForTesting
   static Future<HiveProgressStore> openAt(String directory, {required ProgressKeyStore keys}) async {
     Hive.init(directory);
+    final String? stored;
+    try {
+      stored = await keys.readKey();
+    } catch (_) {
+      // A platform failure is not a missing key. Do not mint a key or touch the files.
+      throw const ProgressStoreLocked();
+    }
+    final cipher = _cipherOrNull(stored);
     if (!await progressHiveHasBytes(directory, _boxName) && await progressHiveKeptExists(directory, _boxName)) {
       await progressHiveRestoreKept(directory, _boxName);
     }
-
-    final stored = await keys.readKey();
-    final cipher = _cipherOrNull(stored);
     if (!await progressHiveHasBytes(directory, _boxName)) {
       final b64 = cipher != null ? stored! : _newKeyB64();
       if (cipher == null) await keys.writeKey(b64);
@@ -135,16 +140,22 @@ class HiveProgressStore implements ProgressStore {
     if (cipher != null) {
       final box = await _openProgressBox(cipher: cipher);
       if (box != null) {
-        if (await progressHiveKeptExists(directory, _boxName) && box.isEmpty) {
-          await box.close();
-          await Hive.deleteBoxFromDisk(_boxName);
-          await progressHiveRestoreKept(directory, _boxName);
-        } else {
+        if (!await progressHiveKeptExists(directory, _boxName)) {
+          final store = HiveProgressStore(box);
+          await store._migrate();
+          return store;
+        }
+        final complete = await _keptFullyPresent(box, directory);
+        if (complete) {
           await progressHiveDeleteKept(directory, _boxName);
           final store = HiveProgressStore(box);
           await store._migrate();
           return store;
         }
+        // Nonempty partial box: the kept file is the last complete copy.
+        await box.close();
+        await Hive.deleteBoxFromDisk(_boxName);
+        await progressHiveRestoreKept(directory, _boxName);
       }
     }
 
@@ -158,6 +169,41 @@ class HiveProgressStore implements ProgressStore {
     final store = HiveProgressStore(box);
     await store._migrate();
     return store;
+  }
+
+  /// True when every non-empty entry in the plaintext `.hive.kept` copy is already in [encrypted].
+  /// Empty values are skipped, matching the migration writer. A failure to read the copy
+  /// leaves both files in place and locks.
+  static Future<bool> _keptFullyPresent(Box<String> encrypted, String directory) async {
+    const sideBox = 'progress_kept_check';
+    Box<String>? plain;
+    try {
+      await progressHiveCopyKeptAsBox(directory, _boxName, sideBox);
+      try {
+        plain = await Hive.openBox<String>(sideBox, crashRecovery: false);
+      } on HiveError {
+        throw const ProgressStoreLocked();
+      }
+      for (final key in plain.keys) {
+        final value = plain.get(key);
+        if (value == null || value.isEmpty) continue;
+        if (encrypted.get(key) != value) return false;
+      }
+      return true;
+    } catch (e) {
+      try {
+        await encrypted.close();
+      } catch (_) {}
+      if (e is ProgressStoreLocked) rethrow;
+      throw const ProgressStoreLocked();
+    } finally {
+      try {
+        await plain?.close();
+      } catch (_) {}
+      try {
+        await Hive.deleteBoxFromDisk(sideBox);
+      } catch (_) {}
+    }
   }
 
   /// Hive's default crash recovery truncates a box when the frame checksum

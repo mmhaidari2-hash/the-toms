@@ -208,4 +208,18 @@ English: The free build strips only the Play Billing permission. The purchase sc
 
 مانع‌هایی که این مرحله باز نکرد: ورود Azure و کلیپ‌های غایب، کلید امضای اصلی، جای‌خالی ناشر، Q09 و Q17 و DPIA، IndexedDB بدون رمز در وب، و بازنشانی عمدی داده وقتی کلید دستگاه واقعاً از بین رفته باشد. برای آن حالت دکمهٔ پاک کردن اضافه نشد.
 
-English: A wrong Hive key used to truncate the progress file under Hive's default crash recovery. The open path now refuses to truncate or replace the key, migrates a readable plaintext box, and shows a bilingual notice when an encrypted file cannot be unlocked. Device-to-device transfer is excluded because allowBackup=false does not apply to it on targetSdk 36. Focused test +7. processReleaseManifest succeeded. The historical full suite stays +261 ~2 -4 on 8785e94c4. No Azure work and no clearance.
+English: A wrong Hive key used to truncate the progress file under Hive's default crash recovery. The open path now refuses to truncate or replace the key, migrates a readable plaintext box, and shows a bilingual notice when an encrypted file cannot be unlocked. Device-to-device transfer is excluded because allowBackup=false does not apply to it on targetSdk 36. Focused test +7 on 7fb47b4ab. processReleaseManifest succeeded. The historical full suite stays +261 ~2 -4 on 8785e94c4. No Azure work and no clearance.
+
+## دنبالهٔ همان مرحله — قطع مهاجرت
+
+روی کد `7fb47b4ab`، قبل از این اصلاح، فیکسچر جدا این حالت را ساخت: `.hive.kept` شامل `ADULT_MARKER` و `CHILD_PROGRESS_MARKER`، و جعبهٔ رمزشده فقط `p:adult`. `openAt` جعبه را غیرخالی دید، `.kept` را پاک کرد، و `readOf('child_legacy')` برابر `null` بود. این شکستِ آزمون بود، نه یک استثنای گرفته‌شده داخل انتقال.
+
+اصلاح: اگر `.kept` هست، مقدارهای غیرخالی‌اش با جعبهٔ بازشده مقایسه می‌شود. مقدار خالی شمرده نمی‌شود، چون نویسندهٔ انتقال هم آن را نمی‌نویسد. اگر یکی کم باشد، جعبهٔ ناتمام پاک می‌شود، نسخهٔ کامل برمی‌گردد، و با همان کلید از نو نوشته می‌شود. کلید تازه ساخته نمی‌شود. اگر همه باشند، فقط `.kept` پاک می‌شود.
+
+`keys.readKey()` اگر به‌جای `null` استثنا بدهد، از جمله `PlatformException`، همان‌جا `ProgressStoreLocked` می‌شود. `main` فقط همین نوع را به صفحهٔ دوزبانه می‌برد. پیش از این، استثنا از `await` رد می‌شد. در این مسیر هیچ فایلی کپی یا پاک نمی‌شود و `writeKey` صدا نمی‌شود.
+
+حد: اگر خودِ فایل رمزشده چک‌سام را رد کند و باز نشود، از `.kept` جایگزین نمی‌شود. هر دو فایل می‌مانند و صفحهٔ قفل می‌آید. این گم شدنِ بی‌صدا نیست. انتقال واقعیِ گوشی و مجموعهٔ کامل تکرار نشد.
+
+آزمون: `cd app && flutter test -j 1 test/progress_at_rest_test.dart`. نتیجهٔ بعد از اصلاح: `+10`، خروج ۰. `+7` همان نتیجهٔ `7fb47b4ab` است و این عدد جای آن را نمی‌گیرد. لاگ: `progress-at-rest-interruption.log`.
+
+English: On 7fb47b4ab a nonempty partial encrypted box deleted the complete .kept copy and the missing child entry was null. The open path now restores that copy unless every non-empty kept entry is already present, and it does not rotate the key. A platform exception from readKey becomes ProgressStoreLocked before any file change, so the bilingual screen can catch it. A checksum-invalid hive file is not replaced from .kept. New focused result +10. The earlier +7 stays on 7fb47b4ab.
