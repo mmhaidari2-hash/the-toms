@@ -285,3 +285,11 @@ English: The 11 Nov children’s screening does not approve a DPIA. An 18+ label
 `docs/ANDROID_RELEASE.md` می‌گفت بدون `key.properties` ساخت release به کلید debug برمی‌گردد. کد این را نمی‌گوید. در `app/android/app/build.gradle.kts` اگر فایل `NEWLIFE_KEY_PROPERTIES`، یا اگر آن متغیر تنظیم نشده باشد مسیر `/home/box/keys/key.properties`، نباشد، وظیفهٔ `assemble` یا `bundle` که نامش `Release` دارد قبل از امضا متوقف می‌شود. امضای debug فقط با `ALLOW_DEBUG_SIGNED_RELEASE` برابر `1` است. این متغیر روشن نشد. کلید ساخته نشد. نگهبان و اسکریپت ساخت عوض نشدند. این اصلاح آمادگی Play یا هویت فروشگاه نیست.
 
 English: The Android release note no longer says a missing key file falls back to debug signing. The Gradle guard is unchanged: assemble/bundle Release stops without that file. The existing `ALLOW_DEBUG_SIGNED_RELEASE=1` switch was not set.
+
+## کش Arrival — ۱۱ نوامبر ۲۰۲۶
+
+گرم‌کننده در `arrival_prefetch_io.dart` به `Directory.systemTemp/newlifeuk_arrival` می‌نوشت. پخش‌کننده در `speech_io.dart` از `systemTemp/newlifeuk_audio/nl_audio_<ver>` می‌خواند. حالا هر دو `SpeechInput.clipCacheDirectory` را استفاده می‌کنند و دانلود غایب از `remoteUrlFor` همان نسخه است. فایل صوتی، ترجمه، و Azure دست نخوردند. وب همان service worker ماند.
+
+آزمون فقط همین تمرکز، Flutter 3.47.8 / Dart 3.13.7. قبل از جابه‌جایی پوشه: `cd app && flutter test -j 1 test/arrival_cache_test.dart` نتیجهٔ `+0 -1`. انتظار `1`، نتیجهٔ `0`، چون فایلِ از قبل گذاشته‌شده در کش پخش‌کننده دیده نشد. بعد: `cd app && flutter test -j 1 test/arrival_cache_test.dart test/speech_io_test.dart` نتیجهٔ `+6`. لاگ: `arrival-cache-q29-2026-11-11.log`. مجموعهٔ کامل اجرا نشد. این نتیجه کلیپ غایب را نمی‌سازد و پخش آفلاین روی گوشی را ثابت نمی‌کند.
+
+English: The native Arrival warmer and the player now share `systemTemp/newlifeuk_audio/nl_audio_<ver>`. The focused test was `+0 -1` before and the two focused files were `+6` after. Missing clips and a device offline play were not tested.

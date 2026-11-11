@@ -96,14 +96,12 @@ class SpeechInput {
       }
     } catch (_) {}
     try {
-      final base = await _cacheRoot();
-      _cacheDir = Directory('${base.path}/nl_audio_$_ver');
-      await _cacheDir!.create(recursive: true);
+      final dir = await clipCacheDirectory();
       // Drop caches from older voice casts.
-      await for (final e in base.list()) {
+      await for (final e in dir.parent.list()) {
         if (e is Directory &&
             e.path.contains('nl_audio_') &&
-            e.path != _cacheDir!.path) {
+            e.path != dir.path) {
           try {
             await e.delete(recursive: true);
           } catch (_) {}
@@ -111,6 +109,15 @@ class SpeechInput {
       }
     } catch (_) {}
     _ready = true;
+  }
+
+  /// Versioned folder [resolveClip] reads. Arrival warming writes this same folder.
+  static Future<Directory> clipCacheDirectory() async {
+    final base = await _cacheRoot();
+    final dir = Directory('${base.path}/nl_audio_$_ver');
+    await dir.create(recursive: true);
+    _cacheDir = dir;
+    return dir;
   }
 
   static Future<Directory> _cacheRoot() async {
