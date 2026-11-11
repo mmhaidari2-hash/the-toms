@@ -171,3 +171,11 @@ SDK رسمی رایگان نصب شد: Android SDK 36، build-tools 36.0.0، pla
 پرداخت در کد هنوز خاموش است؛ مجوز BILLING به‌خاطر وابستگی کتابخانه داخل مانیفست release آمده است. این باینری فروشگاه نیست.
 
 English: The release merged manifest was produced by processReleaseManifest. It is not a signed APK. INTERNET comes from the app source. ACCESS_NETWORK_STATE, BILLING, and the AndroidX exported-receiver permission come from libraries. The upload key is still absent.
+
+## مجموعهٔ سریال روی درخت legal
+
+دستور: `cd app && flutter test -j 1`. درخت Dart `8785e94c4ec634fb49ded445101e4d7812caef82` (سند مانیفست `c365676e5` فقط سند است). نتیجه: `+261 ~2 -4`، خروج ۱، زمان آزمون ۳۸:۰۳. لاگ: `full-suite-2026-11-10.log`.
+
+چهار شکست همان کمبود صداست، نه رگرسیون متن: arrival کلیدهای `087cc7d72afdb4af`، `30d6184f7e89755f`، `356cbff6b133709e`، `41f7ba1b5bec01ca`، `aff7622e07e6c48a`، `d8460a4b3cebf583`، `da6a5e64cdb062a6`؛ و سه آزمون audit از جمله شمار کلیپ `22209` که از ۳۰۰۰۰ بیشتر نیست. آزمون‌ها ضعیف نشدند و کلیپ ساخته نشد. این سبز نیست. `+259 ~2 -4` روی `9daa52a98`، `+21` روی `082600210` و `+7` روی `af6e61ec6` تاریخی و جدا هستند.
+
+English: The full serial suite on 8785e94c4 was +261 ~2 -4, exit 1. The four failures are the known missing clips. Not a green suite and not Play-ready.
