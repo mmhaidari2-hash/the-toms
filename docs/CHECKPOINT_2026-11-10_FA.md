@@ -168,7 +168,7 @@ SDK رسمی رایگان نصب شد: Android SDK 36، build-tools 36.0.0، pla
 - `com.android.vending.BILLING` از `com.android.billingclient:billing:9.1.0`.
 - `app.thetoms.newlifeuk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` از `androidx.core:core:1.17.0`، همراه یک گره `permission` همان کتابخانه.
 
-پرداخت در کد هنوز خاموش است؛ مجوز BILLING به‌خاطر وابستگی کتابخانه داخل مانیفست release آمده است. این باینری فروشگاه نیست.
+پرداخت در کد هنوز خاموش است؛ مجوز BILLING به‌خاطر وابستگی کتابخانه داخل مانیفست release آمده است. این بند وضعیت پیش از حذف همان مجوز است. بخش بعدی را ببینید. این باینری فروشگاه نیست.
 
 English: The release merged manifest was produced by processReleaseManifest. It is not a signed APK. INTERNET comes from the app source. ACCESS_NETWORK_STATE, BILLING, and the AndroidX exported-receiver permission come from libraries. The upload key is still absent.
 
@@ -179,3 +179,15 @@ English: The release merged manifest was produced by processReleaseManifest. It 
 چهار شکست همان کمبود صداست، نه رگرسیون متن: arrival کلیدهای `087cc7d72afdb4af`، `30d6184f7e89755f`، `356cbff6b133709e`، `41f7ba1b5bec01ca`، `aff7622e07e6c48a`، `d8460a4b3cebf583`، `da6a5e64cdb062a6`؛ و سه آزمون audit از جمله شمار کلیپ `22209` که از ۳۰۰۰۰ بیشتر نیست. آزمون‌ها ضعیف نشدند و کلیپ ساخته نشد. این سبز نیست. `+259 ~2 -4` روی `9daa52a98`، `+21` روی `082600210` و `+7` روی `af6e61ec6` تاریخی و جدا هستند.
 
 English: The full serial suite on 8785e94c4 was +261 ~2 -4, exit 1. The four failures are the known missing clips. Not a green suite and not Play-ready.
+
+## حذف BILLING از ساخت رایگان
+
+`Billing.available` فقط وقتی روشن است که `PremiumConfig.betaFree` نادرست باشد، `RC_GOOGLE_KEY` پر باشد و پلتفرم اندروید باشد. پیش‌فرض بتا `betaFree = true` و کلید خالی است، پس `Billing.init` به RevenueCat وصل نمی‌شود. وابستگی `purchases_flutter` ماند.
+
+در `app/android/app/src/main/AndroidManifest.xml` یک گره `uses-permission` برای `com.android.vending.BILLING` با `tools:node="remove"` اضافه شد. نگهبان امضا عوض نشد.
+
+دوباره `:app:processReleaseManifest` با Gradle 9.3.1: `BUILD SUCCESSFUL`. APK/AAB ساخته نشد. در مانیفست ادغام‌شدهٔ release این سه `uses-permission` ماندند: `INTERNET`، `ACCESS_NETWORK_STATE`، `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`. رشتهٔ `com.android.vending.BILLING` در فایل ادغام‌شده نیست. گزارش ادغام: همان مجوز از `billing:9.1.0` با برچسب `REJECTED` رد شد، چون `tools:node` از مانیفست اپ آمد. لاگ: `billing-manifest-2026-11-11.log`.
+
+پیش از ساخت پولی این خط حذف شود، و `betaFree` نادرست و کلید عمومی RevenueCat گذاشته شود. مجموعهٔ `+261 ~2 -4` همچنان مال درخت `8785e94c4` است و اینجا تکرار نشد.
+
+English: The free build strips only the Play Billing permission. The purchase scaffold stays. Delete the remove-node before a paid build. The historical suite result stays on 8785e94c4.

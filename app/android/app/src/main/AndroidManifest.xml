@@ -1,6 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- The only permission: voice clips stream from the app's own site (they are too big to pack in the APK). -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Voice clips stream from the app's own site (they are too big to pack in the APK). -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Free build: purchases_flutter stays, but Play Billing is not used.
+         Billing.available is false while PremiumConfig.betaFree is true and RC_GOOGLE_KEY is empty.
+         Delete this line before a paid build (betaFree false and a public RC_GOOGLE_KEY). -->
+    <uses-permission android:name="com.android.vending.BILLING" tools:node="remove"/>
     <application
         android:label="New Life UK"
         android:name="${applicationName}"
