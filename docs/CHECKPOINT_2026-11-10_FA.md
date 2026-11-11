@@ -263,3 +263,11 @@ NOT-RUN پذیرش مرورگر ۶ نوامبر («yes pleas» و پیش‌نو�
 آزمون: `cd app && flutter test -j 1 test/priya_shop_reply_test.dart test/chat_draft_typing_test.dart` با Flutter 3.47.8 و Dart 3.13.7. نتیجهٔ بعد از اصلاح: `+7`. این ویجتِ بدون مرورگر است. مرورگر واقعی، صفحه‌کلید فیزیکی، و گوشی NOT-RUN ماندند. لاگ: `chat-draft-typing-2026-11-11.log`.
 
 English: The unsent shop line stayed in the composer across a profile switch and the next send would belong to the profile then active. The composer now clears when the active profile id changes, and that clear does not send. Role swap and another character's chat do not send it. “yes pleas” continues the lesson; “yes ples” does not. The check is a headless widget test, not a browser or a device.
+
+## پیش‌نویس Data safety — ۱۱ نوامبر ۲۰۲۶
+
+جست‌وجو: فایل `data_safety` در مخزن و در `/workspace/play_listing/` نبود. ردیف گزارش انطباق که آن مسیر گم‌شده را «انجام‌شده» می‌گفت به `docs/compliance/play-data-safety-draft.md` اشاره می‌کند و دیگر انجام‌شده نیست. HTML حریم `7a5982c0`، شرایط استفاده، و متن فروشگاه بازنویسی نشد.
+
+نقشه ده ردیف است، نه فرم کامل. تعریف جمع‌آوری و اشتراک از صفحهٔ رسمی Play است. گیت‌هاب در صفحهٔ Pages می‌گوید IP بازدیدکننده برای امنیت ثبت و ذخیره می‌شود؛ بیانیهٔ حریم (تاریخ اجرا ۲۷ آوریل ۲۰۲۶) مدت ثابت این لاگ و قرارداد پردازشگرِ این ناشر را نمی‌دهد. `purchases_flutter` 11.0.1 داخل اپ است و `Purchases.configure` در این ساخت صدا نمی‌شود. صفحهٔ RevenueCat برای SDKِ در حال استفاده است و به این ساختِ پیکربندی‌نشده چسبانده نشد. ضبط بسته انجام نشد. Q03 و نشانی سیاست و DPIA باز ماندند. کنسول Play باز نشد.
+
+English: No Data safety file existed. The new map is a ten-row draft for the free Android 18+ build and is not for submission. Local progress is not “no data collected”, and a source reading is not a packet capture.

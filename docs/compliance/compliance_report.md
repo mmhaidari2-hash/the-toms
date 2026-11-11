@@ -60,7 +60,7 @@ Publisher fields still use `[PLACEHOLDER: …]` in `lib/core/legal/publisher_con
 
 | Requirement | Source | Status | Note |
 |---|---|---|---|
-| Data safety accuracy | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311) | **done** | `/workspace/play_listing/data_safety.md` |
+| Data safety accuracy | [User Data](https://support.google.com/googleplay/android-developer/answer/10144311) | **draft, not for submission** | `docs/compliance/play-data-safety-draft.md`. The old `/workspace/play_listing/data_safety.md` path is not in this tree. |
 | Families / audience | [Families](https://support.google.com/googleplay/android-developer/answer/9893335) | **done** | Declare **13+**; not Designed for Families |
 | Account deletion | [Account deletion](https://support.google.com/googleplay/android-developer/answer/13327111) | **done** (N/A account) | No accounts; still provide in-app delete-all + future web URL placeholder |
 | AI-generated content | Play AI/gen policies | **done** | TTS + coach labelled in-app / About / listing |
@@ -174,7 +174,7 @@ See §9. Map/pack/character bios/scenes/i18n updated consistently; 10 TTS lines 
 
 1. Fill every `[PLACEHOLDER: …]` in `PublisherConfig` (legal name, UK address, emails, ICO/Companies House, public privacy/deletion URLs).
 2. Confirm ICO data-protection fee / registration for your entity.
-3. Paste Data safety + 13+ audience answers into Play Console from `play_listing/data_safety.md`.
+3. Do not paste `docs/compliance/play-data-safety-draft.md` into Play Console. It is not a finished form, and the old 13+ line in this report is not its audience answer.
 4. Set Play external data-deletion URL once the public page exists.
 5. Complete real billing (Play Billing) with DMCC cancel + cooling-off UI before charging.
 6. Optional: solicitor review of Privacy/Terms + UKIPO filing strategy for “New Life UK”.
