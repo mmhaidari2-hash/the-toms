@@ -239,3 +239,13 @@ English: On 7fb47b4ab a nonempty partial encrypted box deleted the complete .kep
 حد: OSV ممکن است دیر به‌روز شود. classpath اندروید حضور در APK بعد از R8 نیست. SDK در مخزن vendored نیست. تأیید کامل نیست.
 
 English: Locked Pub and resolved Android runtime versions were not inside OSV affected ranges. The one confirmed issue is GHSA-frr6-h895-5pxp in Dart 3.13.5 / Flutter 3.47.7. The pubspec floor is now Dart ^3.13.7, which Flutter 3.47.8 provides. Newer package versions were not treated as vulnerabilities. No release binary was built.
+
+## پیش‌نویس HTML حریم — ۱۱ نوامبر ۲۰۲۶
+
+جست‌وجو: تنها HTML مخزن `app/web/index.html` است و پوستهٔ اپ است، نه سیاست حریم. عوض نشد. `privacy-store-facts-2026-11-10.md` یادداشت واقعیت است و بخش‌هایی از آن (جملهٔ پروفایل، مانیفست UNKNOWN، رمز قبل از اصلاح قطع مهاجرت) کهنه است. متن داخل `legal_screen.dart` و شرایط استفاده بازنویسی نشد.
+
+فایل تازه: `docs/compliance/privacy-android-18-draft.html`. برچسب انگلیسی و فارسی «برای انتشار نیست». دامنه فقط ساخت اندروید ۱۸+ رایگان است. مرورگر بیرون از اطلاعیه است. جای‌خالی نام، نشانی، ایمیل، ICO و نشانی عمومی دیده می‌شود. سن بررسی نمی‌شود؛ پروفایل تازه بزرگسال است و پروفایل کودک موجود می‌ماند. رمز و استثنای پشتیبان گواهی امنیت کامل نیست. اپ اندروید رونویسی و ضبط ندارد. پرداخت در این ساخت گرفته نمی‌شود و `Purchases.configure` با پرچم رایگان و کلید خالی صدا نمی‌شود؛ پیش‌نویس نمی‌گوید کتابخانهٔ بسته‌شده هرگز داده نمی‌فرستد. حذف جعبهٔ پیشرفت را پاک می‌کند و کلید رمز و کش درس را پاک نمی‌کند. مهلت پاسخ و صندوق تماس وعده نشده است.
+
+این فایل تأیید حقوقی، آمادگی Play، یا نشانی عمومی نیست. Q03، میزبان عمومی، Q09، Q13، Q17 و DPIA، امضا، کلیپ‌های غایب، و بازسازی باینری با Flutter 3.47.8+ باز ماندند.
+
+English: No privacy HTML existed. The new file is a marked draft for the intended free Android 18+ build. In-app terms were not overwritten. It does not claim legal clearance or a public URL.
