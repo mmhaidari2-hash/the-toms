@@ -61,6 +61,7 @@ void main() {
   test('help, a lesson item, spelling, and punctuation still continue', () {
     expect(say('Excuse me, can you help me?').branch!.next, 'n2');
     expect(say('yes please').branch!.next, 'n2');
+    expect(say('yes pleas').branch!.next, 'n2');
     expect(say('Yes, please!').branch!.next, 'n2');
     expect(say('can you help').branch!.next, 'n2');
 
@@ -82,6 +83,8 @@ void main() {
     }
     expect(ConversationEngine.match(breakfast, 'YES, please!!').branch!.next, 't2');
     expect(ConversationEngine.match(breakfast, 'asdf qwerty').matched, isFalse);
+    // Four letters is under the one-edit floor, so "ples" is not "please".
+    expect(say('yes ples').branch, isNull);
   });
 
   test('an unsupported request does not add a successful branch', () {

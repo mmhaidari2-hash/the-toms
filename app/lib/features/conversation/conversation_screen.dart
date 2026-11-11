@@ -160,6 +160,8 @@ class _ChatState extends ConsumerState<_Chat> {
   // (the other side is then voiced for them). Switching never restarts the scene: it carries on from the
   // current line in the new role.
   bool _swap = false;
+  /// Profile that owns the unsent composer text. A switch must not leave that text for the next profile.
+  String? _composerProfile;
   /// While swapped: the line the learner now has to say.
   DialogueNode? _mine;
   /// Who the learner usually is in this story (and who speaks the replies once they swap).
@@ -190,6 +192,7 @@ class _ChatState extends ConsumerState<_Chat> {
   @override
   void initState() {
     super.initState();
+    _composerProfile = ref.read(progressStoreProvider).activeId;
     _ctrl; // capture the notifier while ref is valid
     WidgetsBinding.instance.addPostFrameCallback((_) => _open());
   }
@@ -744,6 +747,12 @@ class _ChatState extends ConsumerState<_Chat> {
 
   @override
   Widget build(BuildContext context) {
+    ref.listen(progressProvider, (previous, next) {
+      final id = ref.read(progressStoreProvider).activeId;
+      if (_composerProfile == id) return;
+      _composerProfile = id;
+      if (_input.text.isNotEmpty) _input.clear();
+    });
     final p = ref.watch(progressProvider);
     final cv = widget.c.coverOf(widget.s.id);
     final host = cv.host;
