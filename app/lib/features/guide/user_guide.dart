@@ -77,9 +77,10 @@ abstract final class UserGuide {
     ]),
     ('Read, watch & listen', 'بخوان، ببین، گوش کن', [
       GuideEntry('/library', Icons.local_library_rounded, 'Library', 'کتابخانه',
-          'Graded books on shelves by level, read aloud with sentence highlighting.', 'کتاب‌های درجه‌بندی‌شده در قفسه‌های هر سطح، با خواندن بلند و نشانه‌گذاری جمله.',
-          'Tap a word for Persian and save it, change speed, turn translation on/off, and answer the quiz after each chapter.',
-          'روی واژه بزن تا فارسی‌اش را ببینی و ذخیره کنی، سرعت را تغییر بده، ترجمه را روشن/خاموش کن و بعد از هر فصل به کوییز جواب بده.', GuideAccess.free),
+          'A British public library: a front desk (continue reading, new arrivals, your loans), signed sections (fiction, science, history and more) with swipeable aisles and level-coloured shelves. Any book can be opened; one above your level just shows a notice.',
+          'یک کتابخانهٔ عمومی بریتانیایی: میز امانت (ادامهٔ خواندن، تازه‌ها، امانت‌های تو)، بخش‌های تابلودار (داستان، علم، تاریخ و…) با راهروهای کشیدنی و قفسه‌های رنگی هر سطح. هر کتابی باز می‌شود؛ کتاب بالاتر از سطحت فقط یک هشدار نشان می‌دهد.',
+          'Tap a spine to pull the book out, then Read. The narrator reads the chapter or the whole book with the sentence highlighted (recorded voice, or your phone\'s own voice where a book has none — it is labelled). Tap any word for its dictionary card (Persian, part of speech, definition, example, pronunciation) and Add to Leitner; the book shows how many new words it has and can send them all. Change font, spacing and light/sepia/dark, open the chapter list, and answer the quiz after each chapter. There is also a list view with search, filter and sort.',
+          'روی عطف کتاب بزن تا بیرون بیاید، بعد «Read». راوی فصل یا کل کتاب را می‌خواند و جمله پررنگ می‌شود (صدای ضبط‌شده، یا صدای خود گوشی برای کتاب‌های بدون صدا — برچسب دارد). روی هر واژه بزن تا کارت دیکشنری (فارسی، نوع واژه، تعریف، مثال، تلفظ) باز شود و به لایتنر بفرستی؛ کتاب تعداد واژه‌های تازه‌اش را نشان می‌دهد و می‌تواند همه را بفرستد. اندازهٔ قلم، فاصلهٔ خط و تم روشن/کاغذی/تیره را عوض کن، فهرست فصل‌ها را باز کن و بعد از هر فصل به کوییز جواب بده. نمای فهرستی با جست‌وجو، فیلتر و مرتب‌سازی هم هست.', GuideAccess.free),
       GuideEntry('/cinema', Icons.movie_rounded, 'Cinema', 'سینما و دوبله',
           'Short scenes to watch with subtitles, dub a character and answer questions.', 'صحنه‌های کوتاه برای دیدن با زیرنویس، دوبله کردن یک شخصیت و جواب به سؤال‌ها.',
           'Watch first, then say the character\'s lines (speech recognition scores the words), then the questions.', 'اول ببین، بعد جمله‌های شخصیت را بگو (بازشناسی گفتار واژه‌ها را می‌سنجد)، بعد سؤال‌ها.', GuideAccess.free),

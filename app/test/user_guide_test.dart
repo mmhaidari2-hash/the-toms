@@ -37,6 +37,16 @@ void main() {
     }
   });
 
+  test('library entry matches the t310 library (hall, narrator, dictionary card, Leitner, any book opens)', () {
+    final lib = [for (final g in UserGuide.groups) ...g.$3].firstWhere((e) => e.route == '/library');
+    for (final w in ['front desk', 'sections', 'level-coloured shelves', 'Any book can be opened', 'narrator', 'dictionary card', 'Add to Leitner', 'new words', 'search']) {
+      expect('${lib.what} ${lib.how}'.contains(w), isTrue, reason: w);
+    }
+    for (final w in ['راوی', 'دیکشنری', 'لایتنر', 'میز امانت']) {
+      expect('${lib.whatFa} ${lib.howFa}'.contains(w), isTrue, reason: w);
+    }
+  });
+
   test('every guide entry is EN+FA, points at a real route, and paid wording matches the guard', () {
     final routes = RegExp(r"GoRoute\(path: '([^']+)'").allMatches(File('lib/app/router.dart').readAsStringSync()).map((m) => m.group(1)!).toSet();
     final all = [for (final g in UserGuide.groups) ...g.$3];

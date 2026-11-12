@@ -141,7 +141,9 @@ class _FeedbackState extends ConsumerState<FeedbackScreen> {
     if (!mounted) return;
     messenger.showSnackBar(SnackBar(
       content: Text(hl(ok
-          ? 'Your mail app is open — check it and press send there. · برنامهٔ ایمیل باز شد؛ آن‌جا بررسی کن و ارسال را بزن.'
+          ? (_shot && _png != null
+              ? 'Share menu opened — pick your email app, check it and press send there. · منوی اشتراک باز شد؛ برنامهٔ ایمیل را انتخاب کن، بررسی کن و ارسال را بزن.'
+              : 'Your mail app is open — check it and press send there. · برنامهٔ ایمیل باز شد؛ آن‌جا بررسی کن و ارسال را بزن.')
           : 'No mail app found. Use "Copy report" and email it to $_email. · برنامهٔ ایمیل پیدا نشد؛ «Copy report» را بزن و به $_email بفرست.')),
     ));
   }
