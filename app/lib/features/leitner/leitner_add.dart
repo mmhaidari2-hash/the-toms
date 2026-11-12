@@ -119,7 +119,7 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
                 isDense: true,
                 filled: true,
                 fillColor: Colors.white,
-                hintText: 'معنی فارسی (اختیاری)',
+                hintText: hl('معنی فارسی (اختیاری)'),
                 hintTextDirection: helperDir,
                 border: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide.none),
               ),

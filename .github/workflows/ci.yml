@@ -15,7 +15,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: 3.47.7
+          flutter-version: 3.47.8 # Dart 3.13.7: pubspec sdk floor ^3.13.7 (GHSA-frr6-h895-5pxp); 3.47.7 fails pub get
       - run: flutter pub get
       - uses: actions/setup-node@v4
         with:

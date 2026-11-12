@@ -1,6 +1,7 @@
 import 'package:british_life/app/app.dart';
 import 'package:british_life/app/router.dart';
 import 'package:british_life/app/theme.dart';
+import 'package:british_life/core/billing/entitlements.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/models/user_progress.dart';
@@ -74,6 +75,20 @@ void main() {
       await go('/lesson/nur_1_2');
       expect(find.byKey(const ValueKey('beta-banner'), skipOffstage: false), beta ? findsNothing : findsOneWidget);
     }
+    // Paid build (billing configured): the banner must not claim payments are "coming soon", and restore/manage show.
+    addTearDown(() => Entitlements.paidBuild = false);
+    await go('/'); // leave the beta/"coming soon" pages before switching the build mode
+    PremiumConfig.betaFree = false;
+    Entitlements.paidBuild = true;
+    await go('/premium?pack=nursery');
+    expect(find.text('Coming soon', skipOffstage: false), findsNothing);
+    expect(find.textContaining('not switched on', skipOffstage: false), findsNothing);
+    expect(find.text('Unlock every Career Pack', skipOffstage: false), findsOneWidget);
+    await t.dragUntilVisible(find.byKey(const ValueKey('restore-purchases')), find.byType(Scrollable).first, const Offset(0, -300));
+    expect(find.byKey(const ValueKey('restore-purchases'), skipOffstage: false), findsOneWidget);
+    expect(find.byKey(const ValueKey('manage-subscription'), skipOffstage: false), findsOneWidget);
+    Entitlements.paidBuild = false;
+    PremiumConfig.betaFree = true;
     router.go('/');
     await t.pump(const Duration(seconds: 1));
   });

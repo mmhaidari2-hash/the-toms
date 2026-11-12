@@ -69,12 +69,13 @@ class PremiumScreen extends ConsumerWidget {
             padding: const EdgeInsets.all(14),
             decoration: BoxDecoration(color: beta ? BL.green : BL.navy, borderRadius: BorderRadius.circular(16)),
             child: Column(children: [
-              Text(hl(beta ? 'Beta: everything is free' : 'Coming soon'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 16)),
+              // A paid build sells through Google Play, so it must not say payments are "coming soon".
+              Text(hl(beta ? 'Beta: everything is free' : paid ? 'Unlock every Career Pack' : 'Coming soon'), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 16)),
               const SizedBox(height: 4),
-              Text(hl(beta ? 'Premium and every Career Pack are open while we test. No card, no payment.' : 'Payments are not switched on yet. Your first lesson in every pack stays free.'),
+              Text(hl(beta ? 'Premium and every Career Pack are open while we test. No card, no payment.' : paid ? 'Your first lesson in every pack is free. Premium or a one-off pack unlocks the rest.' : 'Payments are not switched on yet. Your first lesson in every pack stays free.'),
                   textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 13, height: 1.3)),
               const SizedBox(height: 4),
-              Text(hl(beta ? 'در دورهٔ آزمایشی همه چیز رایگان است. بدون کارت و بدون پرداخت.' : 'پرداخت هنوز فعال نشده است. درس اول هر بسته رایگان است.'),
+              Text(hl(beta ? 'در دورهٔ آزمایشی همه چیز رایگان است. بدون کارت و بدون پرداخت.' : paid ? 'درس اول هر بسته رایگان است. با اشتراک ویژه یا خرید یک‌بارهٔ بسته، بقیه باز می‌شود.' : 'پرداخت هنوز فعال نشده است. درس اول هر بسته رایگان است.'),
                   textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(12.5, color: Colors.white70)),
             ]),
           ),

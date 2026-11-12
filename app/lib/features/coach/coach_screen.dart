@@ -102,8 +102,12 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
                   key: const ValueKey('ai-coach-note'),
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12), border: Border.all(color: BL.mist)),
-                  child: Text('${coachAiNote().$1}\n${coachAiNote().$2}',
-                      style: const TextStyle(fontSize: 12, height: 1.35, color: BL.muted)),
+                  // English line LTR, Persian line its own RTL Text (was one LTR Text: Persian punctuation flipped). The coach strings
+                  // have no helper-table entries yet, so they stay Persian rather than going through hl() word by word.
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                    Text(coachAiNote().$1, style: const TextStyle(fontSize: 12, height: 1.35, color: BL.muted)),
+                    Text(coachAiNote().$2, key: const ValueKey('ai-coach-note-helper'), textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                  ]),
                 ),
                 const SizedBox(height: 18),
                 Container(
