@@ -51,6 +51,20 @@ void main() {
   final books = Library.parse(File('assets/data/library.json').readAsStringSync());
   Book book(String id) => books.firstWhere((b) => b.id == id);
 
+  test('science, biography and reference each have several books across levels', () {
+    for (final id in ['science', 'biography', 'reference']) {
+      final shelf = books.where((b) => b.category == id).toList();
+      expect(shelf.length, greaterThanOrEqualTo(4), reason: id);
+      expect({for (final b in shelf) b.level}.length, greaterThanOrEqualTo(3), reason: '$id spans levels');
+      for (final b in shelf.where((b) => b.deviceVoice)) {
+        expect(b.source, isNotEmpty, reason: b.id);
+        expect(b.chapters.length, greaterThanOrEqualTo(3), reason: b.id);
+        expect(b.blurbFa, isNotEmpty, reason: b.id);
+      }
+    }
+    expect(books.length, greaterThanOrEqualTo(53));
+  });
+
   test('every book is shelved in a known section; every section has books; new books carry sources', () {
     final ids = Library.categories.map((c) => c.id).toSet();
     expect(ids, containsAll(['fiction', 'children', 'poetry', 'history', 'science', 'biography', 'uklife', 'reference']));

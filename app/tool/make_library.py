@@ -35,7 +35,11 @@ NAMES={'William':'ویلیام','Tom':'تام','Leslie':'لزلی','Nicola':'ن�
  'Birmingham':'بیرمنگام','Dave':'دیو','Alastair':'آلستر','Know-Nothings':'هیچ‌ندان‌ها (اسم تیم)','Doris':'دوریس','Bradley':'بردلی','George':'جورج','Dover':'داور (شهری ساحلی)',
  'France':'فرانسه','Maya':'مایا','Clarke':'کلارک','Hannah':'هانا','Mary':'مری','St':'سنت (قدیس)','Ms':'خانم','Riverside':'ریورساید (بیمارستان)','Leeds':'لیدز','Glasgow':'گلاسگو','Bennett':'بنت',
  'Siân':'شان','Imogen':'ایموجن','Priya':'پریا','Suffolk':'سافک','Acorns':'ایکورنز (اسم مهد)','Harris':'هریس','Jo':'جو','Oscar':'اسکار','Vida':'ویدا','Canada':'کانادا','Hale':'هیل',
- 'Liverpool':'لیورپول','Margaret':'مارگارت','Frank':'فرانک','Montreal':'مونترال','Ontario':'انتاریو','Arthur':'آرتور'}
+ 'Liverpool':'لیورپول','Margaret':'مارگارت','Frank':'فرانک','Montreal':'مونترال','Ontario':'انتاریو','Arthur':'آرتور','Seacole':'سیکول','Jamaica':'جامائیکا','Kingston':'کینگستون','Edwin':'ادوین','Horatio':'هوریشیو','Jane':'جین','Grant':'گرانت','Florence':'فلورنس','Nightingale':'نایتینگل','Balaclava':'بالاکلاوا','Panama':'پاناما','Crimea':'کریمه',
+ 'Brunel':'برونل','Isambard':'ایزامبارد','Marc':'مارک','Rotherhithe':'رادرهایث','Wapping':'وپینگ','Clifton':'کلیفتون','Bristol':'بریستول','Bridgewater':'بریج‌واتر','Avon':'ایون','Cornwall':'کورنوال','America':'آمریکا','Kingdom':'کینگدم ؛ پادشاهی',
+ 'Lovelace':'لاولیس','Ada':'آدا','Augusta':'آگوستا','Byron':'بایرون','Annabella':'آنا بلا','Babbage':'ببیج','Menabrea':'منابریا','Luigi':'لوئیجی','Federico':'فدریکو','Italian':'ایتالیایی','Marylebone':'مریلبون','Terrace':'ترِس (نام خیابان)','Turing':'تورینگ','Alan':'آلن','Augustus':'آگوستوس','Charles':'چارلز','Lord':'لرد','Objection':'ایراد',
+ 'DESNZ':'دزنز (وزارتخانهٔ انرژی)','Trends':'ترندز (نام مجموعهٔ آماری)','Emergency':'اضطراری','Western':'غربی ؛ وسترن','Eastern':'شرقی ؛ ایسترن','Gallery':'گالری','Portrait':'پرتره','SS':'اس‌اس (پیشوند کشتی)','GWR':'جی‌دبلیودبلیوآر (راه‌آهن بزرگ غربی)',
+ 'Gas-fired':'گازسوز','National':'ملی','Library':'کتابخانه','Welsh':'ولزی','Majesty':'اعلیحضرت',"Majesty's":'مالِ اعلیحضرت','April':'آوریل','NI':'ان‌آی (بیمهٔ ملی)'}
 NOPREFIX={'Street','King','TV','Happy','Birthday','Fairy','Tooth','London','England','Spain','L','Birmingham','Dover','France','St','Ms','Mary','Riverside','Leeds','Glasgow','Suffolk','Acorns','Canada','Liverpool','Montreal','Ontario','Know-Nothings'}
 COURSE={}
 c=json.load(open(os.path.join(A,'data/course.json')))
