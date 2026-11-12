@@ -25,6 +25,15 @@ Color levelColor(String level) => switch (level) {
 
 const _spineCols = [Color(0xFF7B2D26), Color(0xFF1F4E5F), Color(0xFF3D5A3A), Color(0xFF5B3A6B), Color(0xFF8C6A2F), Color(0xFF2C3E66), Color(0xFF6E3B2A), Color(0xFF34584F), Color(0xFF7A4B5E), Color(0xFF4A4A6A)];
 
+/// Zero-duration when the OS asks for reduced motion (accessibility).
+Duration libraryMotion(BuildContext context, [int ms = 420]) => MediaQuery.disableAnimationsOf(context) ? Duration.zero : Duration(milliseconds: ms);
+
+/// Shelf height grows a little with large text, but stays on the shelf plank.
+double libraryShelfHeight(BuildContext context) {
+  final s = MediaQuery.textScalerOf(context).scale(1).clamp(1.0, 1.55);
+  return (168 * s).clamp(148.0, 250.0);
+}
+
 /// The Library: a British public library you walk through. Front desk (continue reading, new arrivals, your
 /// loans), section signs as a mini-map, one aisle per section (Dewey-style order) with a bookcase whose shelves
 /// are arranged by level; tap a spine and the book slides out. A plain searchable list is one tap away.
@@ -37,6 +46,7 @@ class LibraryScreen extends ConsumerStatefulWidget {
 
 class _LibraryScreenState extends ConsumerState<LibraryScreen> {
   final _pages = PageController();
+  final _aisleBox = GlobalKey();
   int aisle = 0;
   // list view filters
   String query = '', status = 'all', sort = 'level';
@@ -84,22 +94,42 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
           ),
           SliverToBoxAdapter(child: _Facade(booksDone: ctrl.booksDone, total: books.length)),
           if (!listMode) ...[
-            SliverToBoxAdapter(child: _FrontDesk(books: books)),
-            SliverToBoxAdapter(
-              child: _AisleSigns(
-                sections: sections,
-                current: aisle,
-                onTap: (i) => _pages.animateToPage(i, duration: const Duration(milliseconds: 420), curve: Curves.easeOutCubic),
+            if (MediaQuery.sizeOf(context).height < 520) ...[
+              SliverToBoxAdapter(
+                child: _AisleSigns(
+                  sections: sections,
+                  current: aisle,
+                  onTap: (i) => _walkToAisle(i),
+                ),
               ),
-            ),
+              SliverToBoxAdapter(child: _FrontDesk(books: books, compact: true)),
+            ] else ...[
+              SliverToBoxAdapter(child: _FrontDesk(books: books)),
+              SliverToBoxAdapter(
+                child: _AisleSigns(
+                  sections: sections,
+                  current: aisle,
+                  onTap: (i) => _walkToAisle(i),
+                ),
+              ),
+            ],
             SliverToBoxAdapter(
               child: SizedBox(
-                height: _aisleHeight(books, sections),
+                key: _aisleBox,
+                height: _aislePaneHeight(context, books, sections),
                 child: PageView(
                   key: const ValueKey('aisles'),
                   controller: _pages,
                   onPageChanged: (i) => setState(() => aisle = i),
-                  children: [for (final s in sections) _Aisle(section: s, books: books.where((b) => b.category == s.id).toList(), gate: gate)],
+                  children: [
+                    for (final s in sections)
+                      _Aisle(
+                        section: s,
+                        books: books.where((b) => b.category == s.id).toList(),
+                        gate: gate,
+                        scrollShelves: _aisleNeedsInnerScroll(context, books, sections),
+                      ),
+                  ],
                 ),
               ),
             ),
@@ -113,14 +143,52 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
     );
   }
 
-  static const _shelfH = 168.0;
-  double _aisleHeight(List<Book> books, List<LibraryCategory> sections) {
+  void _walkToAisle(int i) {
+    final d = libraryMotion(context);
+    // animateTo / ensureVisible assert duration > Duration.zero.
+    if (d == Duration.zero) {
+      _pages.jumpToPage(i);
+    } else {
+      _pages.animateToPage(i, duration: d, curve: Curves.easeOutCubic);
+    }
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final ctx = _aisleBox.currentContext;
+      if (ctx != null && ctx.mounted) {
+        if (d == Duration.zero) {
+          Scrollable.ensureVisible(ctx, alignment: 0.08);
+        } else {
+          Scrollable.ensureVisible(ctx, duration: d, curve: Curves.easeOutCubic, alignment: 0.08);
+        }
+      }
+    });
+  }
+
+  int _shelfCount(List<Book> books, List<LibraryCategory> sections) {
     var most = 1;
     for (final s in sections) {
       final n = Library.levels.where((l) => books.any((b) => b.category == s.id && b.level == l.code)).length;
       if (n > most) most = n;
     }
-    return 64 + most * _shelfH + 26;
+    return most;
+  }
+
+  double _aisleContentHeight(BuildContext context, List<Book> books, List<LibraryCategory> sections) {
+    final scale = MediaQuery.textScalerOf(context).scale(1).clamp(1.0, 1.4);
+    return 64 * scale + _shelfCount(books, sections) * libraryShelfHeight(context) + 26;
+  }
+
+  /// On short (usually landscape) screens, cap the aisle and scroll the shelves inside it.
+  bool _aisleNeedsInnerScroll(BuildContext context, List<Book> books, List<LibraryCategory> sections) {
+    final h = MediaQuery.sizeOf(context).height;
+    return h < 520 && _aisleContentHeight(context, books, sections) > h * 0.85;
+  }
+
+  double _aislePaneHeight(BuildContext context, List<Book> books, List<LibraryCategory> sections) {
+    final content = _aisleContentHeight(context, books, sections);
+    if (_aisleNeedsInnerScroll(context, books, sections)) {
+      return (MediaQuery.sizeOf(context).height * 0.85).clamp(200.0, content);
+    }
+    return content;
   }
 
   Widget _filters(List<LibraryCategory> sections) {
@@ -225,26 +293,32 @@ class _Facade extends StatelessWidget {
   final int booksDone, total;
   const _Facade({required this.booksDone, required this.total});
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+  Widget build(BuildContext context) {
+    final short = MediaQuery.sizeOf(context).height < 500;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+      child: Semantics(
+        label: 'New Life Public Library, $total books, $booksDone finished',
         child: SizedBox(
-          height: 128,
+          height: short ? 88 : 128,
           child: CustomPaint(
             painter: _FacadePainter(),
             child: Center(
               child: Padding(
-                padding: const EdgeInsets.only(top: 22),
+                padding: EdgeInsets.only(top: short ? 12 : 22, left: 12, right: 12),
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
-                  Text('NEW LIFE PUBLIC LIBRARY', style: BL.display(17, color: const Color(0xFFF7E7C1), w: FontWeight.w700).copyWith(letterSpacing: 1.2)),
-                  Text(hl('کتابخانهٔ عمومی'), textDirection: helperDir, style: BL.fa(12.5, color: const Color(0xFFF7E7C1))),
+                  Text('NEW LIFE PUBLIC LIBRARY', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(short ? 14 : 17, color: const Color(0xFFF7E7C1), w: FontWeight.w700).copyWith(letterSpacing: 1.2)),
+                  Text(hl('کتابخانهٔ عمومی'), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(short ? 11 : 12.5, color: const Color(0xFFF7E7C1))),
                   const SizedBox(height: 6),
-                  Text(hl('$total books · $booksDone finished'), key: const ValueKey('library-count'), style: const TextStyle(color: Color(0xFFEBD9B4), fontSize: 11.5, fontWeight: FontWeight.w700)),
+                  Text(hl('$total books · $booksDone finished'), key: const ValueKey('library-count'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFEBD9B4), fontSize: 11.5, fontWeight: FontWeight.w700)),
                 ]),
               ),
             ),
           ),
         ),
-      );
+      ),
+    );
+  }
 }
 
 class _FacadePainter extends CustomPainter {
@@ -288,7 +362,8 @@ class _FacadePainter extends CustomPainter {
 /// Front desk: continue reading, new arrivals, your loans (in progress + finished).
 class _FrontDesk extends ConsumerWidget {
   final List<Book> books;
-  const _FrontDesk({required this.books});
+  final bool compact;
+  const _FrontDesk({required this.books, this.compact = false});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ctrl = ref.read(progressProvider.notifier);
@@ -308,7 +383,7 @@ class _FrontDesk extends ConsumerWidget {
         Row(children: [
           const Icon(Icons.room_service_rounded, color: Color(0xFFF7E7C1), size: 18),
           const SizedBox(width: 6),
-          Text(hl('Front desk · میز امانت'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, letterSpacing: .4)),
+          Expanded(child: Text(hl('Front desk · میز امانت'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, letterSpacing: .4))),
         ]),
         const SizedBox(height: 8),
         if (last != null)
@@ -320,7 +395,7 @@ class _FrontDesk extends ConsumerWidget {
             onTap: () => context.push('/read/${last.id}'),
           )
         else
-          Text(hl('Pick any book from the shelves below — your place is kept automatically · هر کتابی را از قفسه‌ها بردار؛ جایت خودکار نگه داشته می‌شود'), style: const TextStyle(color: Color(0xFFF7E7C1), fontSize: 12.5)),
+          Text(hl('Pick any book from the shelves below — your place is kept automatically · هر کتابی را از قفسه‌ها بردار؛ جایت خودکار نگه داشته می‌شود'), maxLines: compact ? 2 : 4, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFF7E7C1), fontSize: 12.5)),
         if (arrivals.isNotEmpty) ...[
           const SizedBox(height: 10),
           Text(hl('New arrivals · تازه‌ها'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w700, fontSize: 12.5)),
@@ -398,8 +473,10 @@ class _AisleSigns extends StatelessWidget {
   final ValueChanged<int> onTap;
   const _AisleSigns({required this.sections, required this.current, required this.onTap});
   @override
-  Widget build(BuildContext context) => SizedBox(
-        height: 74,
+  Widget build(BuildContext context) {
+    final scale = MediaQuery.textScalerOf(context).scale(1).clamp(1.0, 1.6);
+    return SizedBox(
+        height: (74 * scale).clamp(74.0, 110.0),
         child: ListView(
           key: const ValueKey('aisle-map'),
           scrollDirection: Axis.horizontal,
@@ -411,12 +488,12 @@ class _AisleSigns extends StatelessWidget {
                 child: Semantics(
                   button: true,
                   selected: i == current,
-                  label: 'Aisle ${i + 1}: ${sections[i].name}',
+                  label: 'Aisle ${i + 1}: ${sections[i].name}. ${sections[i].nameFa}',
                   child: GestureDetector(
                     key: ValueKey('sign-${sections[i].id}'),
                     onTap: () => onTap(i),
                     child: AnimatedContainer(
-                      duration: const Duration(milliseconds: 250),
+                      duration: libraryMotion(context, 250),
                       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                       decoration: BoxDecoration(
                         color: i == current ? const Color(0xFF1F3B2E) : const Color(0xFF2F4F40).withValues(alpha: .75),
@@ -425,8 +502,8 @@ class _AisleSigns extends StatelessWidget {
                         boxShadow: i == current ? [BoxShadow(color: Colors.black.withValues(alpha: .25), blurRadius: 6, offset: const Offset(0, 3))] : null,
                       ),
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
-                        Text(hl('${Library.dewey[sections[i].id] ?? ''}  ${sections[i].name}'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, fontSize: 12)),
-                        Text(hl(sections[i].nameFa), textDirection: helperDir, style: BL.fa(10.5, color: const Color(0xFFEBD9B4))),
+                        Text(hl('${Library.dewey[sections[i].id] ?? ''}  ${sections[i].name}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, fontSize: 12)),
+                        Text(hl(sections[i].nameFa), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(10.5, color: const Color(0xFFEBD9B4))),
                       ]),
                     ),
                   ),
@@ -435,6 +512,7 @@ class _AisleSigns extends StatelessWidget {
           ],
         ),
       );
+  }
 }
 
 /// One aisle: the section's bookcase, one shelf per level (colour-coded label plate), books as spines.
@@ -442,25 +520,14 @@ class _Aisle extends ConsumerWidget {
   final LibraryCategory section;
   final List<Book> books;
   final LibraryGate gate;
-  const _Aisle({required this.section, required this.books, required this.gate});
+  final bool scrollShelves;
+  const _Aisle({required this.section, required this.books, required this.gate, this.scrollShelves = false});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ctrl = ref.read(progressProvider.notifier);
     final levels = [for (final l in Library.levels) if (books.any((b) => b.level == l.code)) l];
-    return Padding(
-      key: ValueKey('aisle-${section.id}'),
-      padding: const EdgeInsets.symmetric(horizontal: 12),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(14),
-          gradient: const LinearGradient(colors: [_woodDark, _wood, _woodDark], stops: [0, .5, 1]),
-          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 12, offset: const Offset(0, 6))],
-        ),
-        padding: const EdgeInsets.fromLTRB(8, 8, 8, 10),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          // brass section plate
-          Container(
-            height: 44,
+    final plate = Container(
+            height: (44 * MediaQuery.textScalerOf(context).scale(1).clamp(1.0, 1.4)).clamp(44.0, 64.0),
             alignment: Alignment.center,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
@@ -472,13 +539,38 @@ class _Aisle extends ConsumerWidget {
                 const TextSpan(text: '   '),
                 TextSpan(text: hl(section.nameFa), style: BL.fa(13, color: _woodDark, w: FontWeight.w700)),
               ]),
-              maxLines: 1,
+              maxLines: 2,
               overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
             ),
-          ),
-          for (final l in levels) _Shelf(level: l, books: books.where((b) => b.level == l.code).toList(), gate: gate, ctrl: ctrl),
-        ]),
+          );
+    final shelves = [for (final l in levels) _Shelf(level: l, books: books.where((b) => b.level == l.code).toList(), gate: gate, ctrl: ctrl)];
+    return Semantics(
+      label: '${section.name} aisle, ${section.nameFa}',
+      child: Padding(
+      key: ValueKey('aisle-${section.id}'),
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(14),
+          gradient: const LinearGradient(colors: [_woodDark, _wood, _woodDark], stops: [0, .5, 1]),
+          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 12, offset: const Offset(0, 6))],
+        ),
+        padding: const EdgeInsets.fromLTRB(8, 8, 8, 10),
+        child: scrollShelves
+            ? Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                plate,
+                Expanded(
+                  child: ListView(
+                    key: ValueKey('aisle-scroll-${section.id}'),
+                    padding: EdgeInsets.zero,
+                    children: shelves,
+                  ),
+                ),
+              ])
+            : Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [plate, ...shelves]),
       ),
+    ),
     );
   }
 }
@@ -494,7 +586,7 @@ class _Shelf extends ConsumerWidget {
     final above = !gate.shelfOpen(level.code);
     return SizedBox(
       key: ValueKey('shelf-${books.first.category}-${level.code}'),
-      height: _LibraryScreenState._shelfH,
+      height: libraryShelfHeight(context),
       child: Stack(children: [
         // back panel
         Positioned.fill(top: 8, bottom: 14, child: DecoratedBox(decoration: BoxDecoration(color: const Color(0xFF3E2714), borderRadius: BorderRadius.circular(4)))),
@@ -701,14 +793,16 @@ class BookCover extends StatelessWidget {
 /// Tap a spine: the book slides out of the shelf (pull-out with a turn), showing its cover, blurb, level,
 /// length, progress and new words; then open it to read.
 Future<void> showBookPullOut(BuildContext context, WidgetRef ref, Book b) {
+  final reduce = MediaQuery.disableAnimationsOf(context);
   return showGeneralDialog<void>(
     context: context,
     barrierDismissible: true,
     barrierLabel: 'Close',
     barrierColor: Colors.black.withValues(alpha: .45),
-    transitionDuration: const Duration(milliseconds: 420),
+    transitionDuration: reduce ? Duration.zero : const Duration(milliseconds: 420),
     pageBuilder: (ctx, _, _) => _PullOut(book: b),
     transitionBuilder: (ctx, anim, _, child) {
+      if (reduce) return child;
       final t = CurvedAnimation(parent: anim, curve: Curves.easeOutCubic, reverseCurve: Curves.easeInCubic);
       return AnimatedBuilder(
         animation: t,
@@ -752,7 +846,7 @@ class _PullOut extends ConsumerWidget {
           clipBehavior: Clip.antiAlias,
           child: Container(
             width: media.width.clamp(0, 520) - 28,
-            constraints: BoxConstraints(maxHeight: media.height * .86),
+            constraints: BoxConstraints(maxHeight: media.height * (media.height < 500 ? .94 : .86)),
             child: SingleChildScrollView(
               padding: const EdgeInsets.fromLTRB(18, 18, 18, 14),
               child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
@@ -761,8 +855,8 @@ class _PullOut extends ConsumerWidget {
                   const SizedBox(width: 14),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text(hl(b.title), style: BL.display(21)),
-                      Text(hl(b.titleFa), textDirection: helperDir, style: BL.fa(14)),
+                      Text(hl(b.title), style: BL.display(21), maxLines: 3, overflow: TextOverflow.ellipsis),
+                      Text(hl(b.titleFa), textDirection: helperDir, style: BL.fa(14), maxLines: 2, overflow: TextOverflow.ellipsis),
                       if (b.author.isNotEmpty) Text(hl(b.author), key: const ValueKey('book-author'), style: const TextStyle(fontSize: 12.5, color: BL.muted, fontWeight: FontWeight.w600)),
                       const SizedBox(height: 6),
                       Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
