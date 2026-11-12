@@ -16,17 +16,21 @@ app/tool/brand/icon_master.png (and icon_1024.png), then resizes every
 Android mipmap and web icon in place. If the source is already the
 1024 master, the frame crop is skipped and the master is left untouched.
 
-Android adaptive foreground: the master is scaled to the central 72dp
-of the 108dp canvas (ADAPTIVE_SCALE = 72/108) so the launcher circle
-and squircle show the same framing as the legacy icons — the black
-door, the bay window with the family, and the framed flag. The 18dp
-bleed is filled by stretching and blurring the master's edge pixels,
-so parallax and mask antialiasing have no hard empty edge. Web
-maskable icons stay full-bleed (the 80% safe zone already shows the
-same scene). Legacy square/round icons are a straight resize of the
-master. File names are unchanged so manifests do not need editing. No
-pub dependencies are added; Pillow is only used on the machine that
-runs this script.
+Android adaptive foreground: the master is scaled to the central 48dp
+of the 108dp canvas (ADAPTIVE_SCALE = 48/108). The launcher then
+masks the inner 72dp viewport. 48dp is the largest 4-aligned size
+that fits the whole square — black door, fanlight, steps, cornice,
+bay window, family, and framed flag — inside a 72dp circle (the
+inscribed square is ~50.9dp; 48dp leaves ~1.5dp for antialiasing)
+and therefore also inside squircle and rounded-square masks. The
+ring around the picture (12dp visible in the viewport, plus the
+18dp outer bleed) is filled with a solid colour sampled from the
+master's 4px edge so the mat matches the dusk brick and parallax
+has no hard empty edge. Web maskable icons stay full-bleed (the
+80% safe zone already shows the same scene). Legacy square/round
+icons are a straight resize of the master. File names are unchanged
+so manifests do not need editing. No pub dependencies are added;
+Pillow is only used on the machine that runs this script.
 """
 
 from __future__ import annotations
@@ -41,19 +45,21 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps
 # Inclusive pixels 86–937 on both axes; 852×852, no frame / rounded-corner remnant.
 DEFAULT_CROP = (86, 86, 938, 938)
 MASTER_SIZE = 1024
-# Dark dusk brick, mean of the master pixels that sit in the 18dp adaptive
-# bleed ring (outside the 72/108 viewport). Replaces navy #061A42 so a
-# parallax peek matches the house instead of a blue halo.
-BG_COLOR = (0x3F, 0x32, 0x2A)  # #3F322A
+# Dark dusk brick / shadow, mean of the master's outer 4px ring, so
+# the visible mat around the shrunken adaptive picture (and the 18dp
+# parallax bleed) blends with the house instead of a navy or stretched
+# edge halo. Recomputed by sample_edge_color() when the generator runs.
+BG_COLOR = (0x36, 0x2D, 0x29)  # #362D29
 ANDROID_VIEWPORT = 72 / 108  # launcher mask shows the central 72dp of 108dp
 ANDROID_SAFE = ANDROID_VIEWPORT  # kept as an alias for older call sites
 WEB_MASKABLE_SAFE = 80 / 100  # typical maskable safe zone (subject must fit)
 
 # Adaptive foreground (and monochrome): scale the master into the
-# central 72dp of the 108dp canvas so the launcher mask matches the
-# legacy framing. offset is a fraction of the canvas; +x is right, +y
-# is down. Web maskable stays full-bleed (scale=1).
-ADAPTIVE_SCALE = 72 / 108
+# central 48dp of the 108dp canvas so the whole square fits inside
+# the 72dp circle mask (and therefore squircle / rounded-square too).
+# offset is a fraction of the canvas; +x is right, +y is down. Web
+# maskable stays full-bleed (scale=1).
+ADAPTIVE_SCALE = 48 / 108
 ADAPTIVE_OFFSET = (0.0, 0.0)
 WEB_MASKABLE_SCALE = 1.0
 WEB_MASKABLE_OFFSET = (0.0, 0.0)
@@ -86,6 +92,27 @@ def parse_crop(text: str) -> tuple[int, int, int, int]:
     if len(parts) != 4:
         raise argparse.ArgumentTypeError("crop must be left,top,right,bottom")
     return tuple(parts)  # type: ignore[return-value]
+
+
+def sample_edge_color(im: Image.Image, border: int = 4) -> tuple[int, int, int]:
+    """Mean RGB of the outer `border` pixels, used as the adaptive mat."""
+    im = im.convert("RGB")
+    w, h = im.size
+    b = max(1, min(border, min(w, h) // 2))
+    total = [0, 0, 0]
+    n = 0
+    px = im.load()
+    for y in range(h):
+        for x in range(w):
+            if x < b or y < b or x >= w - b or y >= h - b:
+                r, g, bch = px[x, y]
+                total[0] += r
+                total[1] += g
+                total[2] += bch
+                n += 1
+    if n == 0:
+        return BG_COLOR
+    return (round(total[0] / n), round(total[1] / n), round(total[2] / n))
 
 
 def resample(im: Image.Image, size: tuple[int, int]) -> Image.Image:
@@ -197,19 +224,34 @@ def full_bleed(
     """Place the master on a square canvas.
 
     scale >= 1 covers the canvas (zoom/crop). scale < 1 shrinks the
-    master into the centre (scale=72/108 fills the launcher viewport)
-    and edge-extends the remainder so the bleed has no hard empty edge.
+    master into the centre (scale=48/108 fits the 72dp circle). When
+    background is set, the ring is that solid colour so the visible
+    mat and the 18dp bleed match the house. When it is omitted, the
+    ring is filled by stretching and blurring the master's edge.
     """
     if scale >= 1.0:
         scene = _cover_crop(master, canvas_size, scale, offset)
-    else:
-        scene = _fit_with_bleed(master, canvas_size, scale, offset)
+        if background is None:
+            if scene.mode != "RGBA":
+                return scene.convert("RGBA")
+            return scene
+        canvas = Image.new("RGB", (canvas_size, canvas_size), background[:3])
+        canvas.paste(scene.convert("RGB"), (0, 0))
+        return canvas
     if background is None:
-        if scene.mode != "RGBA":
-            return scene.convert("RGBA")
-        return scene
+        return _fit_with_bleed(master, canvas_size, scale, offset)
+    content = max(1, int(round(canvas_size * scale)))
+    if (canvas_size - content) % 2:
+        content -= 1
+        content = max(1, content)
+    pad = (canvas_size - content) // 2
+    ox = pad + int(round(offset[0] * canvas_size))
+    oy = pad + int(round(offset[1] * canvas_size))
+    ox = max(0, min(canvas_size - content, ox))
+    oy = max(0, min(canvas_size - content, oy))
+    scene = resample(master, (content, content))
     canvas = Image.new("RGB", (canvas_size, canvas_size), background[:3])
-    canvas.paste(scene.convert("RGB"), (0, 0))
+    canvas.paste(scene.convert("RGB"), (ox, oy))
     return canvas
 
 
@@ -259,7 +301,7 @@ def adaptive_visible(
     scale: float = ADAPTIVE_SCALE,
     offset: tuple[float, float] = ADAPTIVE_OFFSET,
 ) -> Image.Image:
-    """What an Android launcher shows: centre 72/108 of the 108dp layer."""
+    """What an Android launcher shows: centre 72/108 of the 108dp layer, with the master at ADAPTIVE_SCALE."""
     # Render the 108dp layer at a multiple of 108 so the 72dp crop is exact.
     layer_px = 108 * 10
     layer = full_bleed(master, layer_px, scale, offset, background=BG_COLOR)
@@ -285,7 +327,7 @@ def apply_circle(im: Image.Image) -> Image.Image:
 def make_monochrome(master: Image.Image, size: int) -> Image.Image:
     """White silhouette of the lit window and doorway, framed like the colour foreground.
 
-    The glyph uses the same central 72dp as the colour artwork. The bleed
+    The glyph uses the same central 48dp as the colour artwork. The bleed
     stays transparent: edge-extending a thresholded silhouette would leak
     white streaks into themed icons.
     """
@@ -333,7 +375,7 @@ def write_android(master: Image.Image, res: Path) -> list[Path]:
         written.append(round_path)
 
         fg_px = FOREGROUND_PX[density]
-        fg = full_bleed(master, fg_px, ADAPTIVE_SCALE, ADAPTIVE_OFFSET, background=None)
+        fg = full_bleed(master, fg_px, ADAPTIVE_SCALE, ADAPTIVE_OFFSET, background=BG_COLOR)
         if fg_px <= 192:
             fg = sharpen_small(fg, fg_px)
         fg_path = folder / "ic_launcher_foreground.png"
@@ -410,6 +452,16 @@ def squircle_mask(size: int, n: float = 5.0) -> Image.Image:
     return mask.resize((size, size), Image.Resampling.LANCZOS)
 
 
+def rounded_square_mask(size: int, radius_frac: float = 0.25) -> Image.Image:
+    """Rounded-square launcher mask; 0.25 of the side is ~18dp on a 72dp viewport."""
+    scale = 4
+    s = size * scale
+    rad = max(1, int(round(s * radius_frac)))
+    big = Image.new("L", (s, s), 0)
+    ImageDraw.Draw(big).rounded_rectangle((0, 0, s - 1, s - 1), radius=rad, fill=255)
+    return big.resize((size, size), Image.Resampling.LANCZOS)
+
+
 def apply_mask(im: Image.Image, mask: Image.Image, bg=(245, 245, 247)) -> Image.Image:
     base = Image.new("RGB", im.size, bg)
     rgba = im.convert("RGBA")
@@ -420,6 +472,10 @@ def apply_mask(im: Image.Image, mask: Image.Image, bg=(245, 245, 247)) -> Image.
     return out.convert("RGB")
 
 
+def _scale_tag() -> str:
+    return f"{int(round(ADAPTIVE_SCALE * 108))}/108"
+
+
 def write_preview(
     master: Image.Image,
     dest: Path,
@@ -427,20 +483,21 @@ def write_preview(
     web_maskable_192: Image.Image,
 ) -> None:
     # Adaptive compositing at each preview size: 108dp layer (master in
-    # the central 72dp, edge-extended bleed), then the launcher viewport
-    # (centre 72/108), then the shape mask.
+    # the central 48dp, solid sampled-colour mat), then the launcher
+    # viewport (centre 72/108), then the shape mask.
     sizes = (48, 96, 192)
-    tile_gap = 24
-    canvas = Image.new("RGB", (1200, 1180), (28, 30, 36))
+    scale_tag = _scale_tag()
+    canvas = Image.new("RGB", (1200, 1400), (28, 30, 36))
     draw = ImageDraw.Draw(canvas)
     draw.text(
         (24, 16),
-        "New Life UK icon preview  —  adaptive 72/108 framing + web maskable  (v7 master)",
+        f"New Life UK icon preview  —  adaptive {scale_tag} framing + web maskable  (v7 master)",
         fill=(230, 230, 230),
     )
     legend = (
-        f"Adaptive: master scaled to centre 72/108, edge-extended bleed  ·  "
-        f"web maskable: full-bleed, 80% safe  ·  bg #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}"
+        f"Adaptive: master scaled to centre {scale_tag} so the whole square fits "
+        f"the 72dp circle  ·  web maskable: full-bleed, 80% safe  ·  "
+        f"bg #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}"
     )
     draw.text((24, 36), legend, fill=(170, 176, 186))
 
@@ -451,19 +508,20 @@ def write_preview(
         return resample(master, (px, px))
 
     y = 70
-    for label, maker in [
-        ("Adaptive · circle (48 / 96 / 192)  —  master in centre 72/108 of the 108dp layer", adaptive_tile),
-        ("Adaptive · squircle (48 / 96 / 192)  —  master in centre 72/108 of the 108dp layer", adaptive_tile),
-        ("Legacy full-bleed · circle (48 / 96 / 192)", legacy_tile),
-        ("Legacy full-bleed · squircle (48 / 96 / 192)", legacy_tile),
-    ]:
+    rows = [
+        (f"Adaptive · circle (48 / 96 / 192)  —  master in centre {scale_tag} of the 108dp layer", adaptive_tile, circle_mask),
+        (f"Adaptive · squircle (48 / 96 / 192)  —  master in centre {scale_tag} of the 108dp layer", adaptive_tile, squircle_mask),
+        (f"Adaptive · rounded square (48 / 96 / 192)  —  master in centre {scale_tag} of the 108dp layer", adaptive_tile, rounded_square_mask),
+        ("Legacy full-bleed · circle (48 / 96 / 192)", legacy_tile, circle_mask),
+        ("Legacy full-bleed · squircle (48 / 96 / 192)", legacy_tile, squircle_mask),
+    ]
+    for label, maker, mask_fn in rows:
         draw.text((24, y), label, fill=(210, 214, 220))
         y += 22
-        is_circle = "circle" in label and "squircle" not in label
         x = 24
         for px in sizes:
             tile = maker(px)
-            mask = circle_mask(px) if is_circle else squircle_mask(px)
+            mask = mask_fn(px)
             plate = Image.new("RGB", (px + 16, px + 16), (42, 45, 54))
             masked = apply_mask(tile, mask, bg=(42, 45, 54))
             plate.paste(masked, (8, 8))
@@ -513,6 +571,34 @@ def verify(written: list[Path], expected: dict[Path, tuple[int, int]]) -> None:
         raise SystemExit("verification failed:\n  " + "\n  ".join(errors))
 
 
+def verify_adaptive_margin(res: Path) -> None:
+    """Foreground corners must be the sampled mat; the centre must be the picture."""
+    errors = []
+    for density, fg_px in FOREGROUND_PX.items():
+        path = res / f"mipmap-{density}" / "ic_launcher_foreground.png"
+        content = int(round(fg_px * ADAPTIVE_SCALE))
+        if (fg_px - content) % 2:
+            content -= 1
+        pad = (fg_px - content) // 2
+        with Image.open(path) as im:
+            im = im.convert("RGB")
+            for pt in ((0, 0), (fg_px - 1, 0), (0, fg_px - 1), (fg_px - 1, fg_px - 1)):
+                if im.getpixel(pt) != BG_COLOR:
+                    errors.append(f"{path} corner {pt} is {im.getpixel(pt)}, expected {BG_COLOR}")
+            mid = im.getpixel((fg_px // 2, fg_px // 2))
+            if mid == BG_COLOR:
+                errors.append(f"{path} centre {mid} should be the photograph, not the mat")
+            if pad < 1:
+                errors.append(f"{path} pad {pad} is too small for scale {ADAPTIVE_SCALE}")
+    bg_xml = res / "values" / "ic_launcher_background.xml"
+    text = bg_xml.read_text()
+    hex_bg = f"#{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}"
+    if hex_bg not in text:
+        errors.append(f"{bg_xml} missing {hex_bg}")
+    if errors:
+        raise SystemExit("adaptive margin check failed:\n  " + "\n  ".join(errors))
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--source", required=True, type=Path, help="Path to the approved source image")
@@ -551,6 +637,17 @@ def main(argv: list[str] | None = None) -> int:
         print(f"crop:   {crop}  ({crop[2]-crop[0]}x{crop[3]-crop[1]})  upscaled to {master.size}")
     else:
         print(f"crop:   none  master={master.size}")
+
+    global BG_COLOR
+    sampled = sample_edge_color(master, border=4)
+    if sampled != BG_COLOR:
+        print(
+            f"edge colour: sampled #{sampled[0]:02X}{sampled[1]:02X}{sampled[2]:02X} "
+            f"(constant was #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}); using sampled"
+        )
+        BG_COLOR = sampled
+    else:
+        print(f"edge colour: #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}  (matches 4px edge mean)")
 
     brand_dir = app / "tool" / "brand"
     master_path = brand_dir / "icon_master.png"
@@ -603,6 +700,7 @@ def main(argv: list[str] | None = None) -> int:
         )
     expected[res / "mipmap-xxxhdpi" / "ic_launcher_monochrome.png"] = (432, 432)
     verify(written, expected)
+    verify_adaptive_margin(res)
 
     if args.preview:
         write_preview(

@@ -14,7 +14,7 @@
          Delete this line before a paid build (betaFree false and a public RC_GOOGLE_KEY). -->
     <uses-permission android:name="com.android.vending.BILLING" tools:node="remove"/>
     <application
-        android:label="New Life UK"
+        android:label="New Life"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
