@@ -51,6 +51,7 @@ import '../features/library/reader_screen.dart';
 import '../features/motivation/progress_screen.dart';
 import '../features/premium/certificate_screen.dart';
 import '../features/premium/entry_gate.dart';
+import 'route_guard.dart';
 import '../features/diary/diary_screen.dart';
 import '../features/plan/plan_screen.dart';
 
@@ -110,6 +111,8 @@ class _Rise extends AnimatedWidget {
 }
 
 final router = GoRouter(
+  // Central entitlement guard for every navigation and deep link (see route_guard.dart).
+  redirect: RouteGuard.redirect,
   routes: [
     GoRoute(path: '/', pageBuilder: (_, s) => _fade(const MapHome(), s)),
     GoRoute(path: '/family', pageBuilder: (_, s) => _fade(const HomeScreen(), s)),
@@ -185,11 +188,11 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/chat/:id',
-      pageBuilder: (_, s) => _fade(ConversationScreen(key: ValueKey('chat-${s.pathParameters['id']}'), sceneId: s.pathParameters['id']!), s),
+      pageBuilder: (_, s) => _fade(GuardGate(uri: s.uri, child: ConversationScreen(key: ValueKey('chat-${s.pathParameters['id']}'), sceneId: s.pathParameters['id']!)), s),
     ),
     GoRoute(path: '/course', pageBuilder: (_, s) => _fade(CourseScreen(key: ValueKey('course-${s.uri.queryParameters['level']}'), level: int.tryParse(s.uri.queryParameters['level'] ?? '')), s)),
     GoRoute(path: '/pack/:id', pageBuilder: (_, s) => _fade(PackScreen(key: ValueKey('pack-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
-    GoRoute(path: '/lesson/:id', pageBuilder: (_, s) => _fade(LessonScreen(key: ValueKey('lesson-${s.pathParameters['id']}'), lessonId: s.pathParameters['id']!), s)),
-    GoRoute(path: '/practice/:id', pageBuilder: (_, s) => _fade(PracticeScreen(key: ValueKey('practice-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
+    GoRoute(path: '/lesson/:id', pageBuilder: (_, s) => _fade(GuardGate(uri: s.uri, child: LessonScreen(key: ValueKey('lesson-${s.pathParameters['id']}'), lessonId: s.pathParameters['id']!)), s)),
+    GoRoute(path: '/practice/:id', pageBuilder: (_, s) => _fade(GuardGate(uri: s.uri, child: PracticeScreen(key: ValueKey('practice-${s.pathParameters['id']}'), id: s.pathParameters['id']!)), s)),
   ],
 );

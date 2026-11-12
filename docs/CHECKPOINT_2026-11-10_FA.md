@@ -323,3 +323,4 @@ English: Re-rendered all 10,528 voice-sync clips (0 failed, ffprobe OK). Billabl
 - ۱۲ نوامبر ۲۰۲۶ — تست فشار چندنقشی: اصلاح‌ها در `5fd2b927`، گزارش `docs/qa/STRESS_TEST_2026-11-12_FA.md`؛ `flutter test` کامل +283 همه پاس. main/Pages/sw.js/Azure/PL/امضا دست نخورد.
 
 - ۱۲ نوامبر ۲۰۲۶ — درآمدزایی گزینه‌ی B در کد پیاده شد ولی خاموش است (`betaFree=true`، بدون BILLING و کلید RC، وب رایگان). سند: `docs/monetisation/MODEL_FA.md`. `flutter test` کامل: +302 همه پاس. main/Pages/Azure/PL/امضا دست نخورد. تأیید حقوقی یا آمادگی Play نیست.
+- ۱۲ نوامبر ۲۰۲۶ — سخت‌سازی درآمدزایی (t300 + t301): گارد مرکزی مسیر، سهمیه‌ی دستگاهی امضاشده با HMAC در secure storage، بسته شدن نشت دمو/pref وقتی محتوا محدود است، وب = همان ناحیه‌ی رایگان + سهمیه با paywall لینک Google Play (بدون پرداخت وب). هنوز خاموش (`betaFree=true`). `flutter test` کامل: +320 همه پاس؛ `flutter analyze` تمیز. مدل تهدید: `docs/monetisation/MODEL_FA.md` بخش ۴. main/Pages/Azure/PL دست نخورده.

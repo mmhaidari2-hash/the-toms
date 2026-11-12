@@ -20,6 +20,7 @@ import '../models/user_progress.dart';
 import 'progress_store.dart';
 import '../models/learner_profile.dart';
 import 'repository.dart';
+import '../billing/device_allowance.dart';
 import '../billing/entitlements.dart';
 import 'premium.dart';
 export 'premium.dart';
@@ -27,6 +28,8 @@ import '../security/owner_unlock.dart';
 
 final progressStoreProvider = Provider<ProgressStore>((_) => MemoryProgressStore());
 final clockProvider = Provider<DateTime Function()>((_) => DateTime.now);
+/// Device-wide, HMAC-signed daily allowance (one pool for all profiles). main() overrides it with the secure one.
+final deviceAllowanceProvider = Provider<DeviceAllowance>((_) => DeviceAllowance.memory());
 final contentProvider = FutureProvider<ContentBundle>((ref) async {
   // Each file already retries; one more whole-bundle pass covers a half-loaded first visit.
   try {
@@ -645,11 +648,12 @@ class ProgressController extends Notifier<UserProgress> {
   }
 
   // ---- Monetisation, Option B (owner-approved 2026-11-12; docs/monetisation/MODEL_FA.md).
-  // Nothing here locks while PremiumConfig.betaFree is true, or on the web (kIsWeb stays free until the owner decides).
-  /// Test seam for the web rule (kIsWeb cannot change inside a VM test).
-  static bool webFree = kIsWeb;
-  /// True when this build sells content at all (independent of what this learner owns).
-  bool get sellsContent => !PremiumConfig.betaFree && !webFree;
+  // Nothing here locks while PremiumConfig.betaFree is true. The web gets the same free zone and daily allowance
+  // (owner decision t301); its paywall links to Google Play instead of selling.
+  /// Test seam for the web (kIsWeb cannot change inside a VM test).
+  static bool isWeb = kIsWeb;
+  /// True when this build limits content at all (independent of what this learner owns).
+  bool get sellsContent => !PremiumConfig.betaFree;
   /// True when paid limits apply to this learner right now.
   bool get paywallOn => sellsContent && !hasPremium;
 
@@ -665,20 +669,16 @@ class ProgressController extends Notifier<UserProgress> {
 
   /// A lesson the learner already started (a scene finished, or today's/an earlier free claim) never locks again,
   /// so the paywall can never appear in the middle of a lesson or a conversation.
-  bool lessonStarted(Lesson l) =>
-      state.missionsDone.containsKey('quota:l:${l.id}') || l.sceneIds.any(state.completedScenes.contains) || practiceScore(l.id) != null;
+  /// On the web, profile progress sits in unencrypted browser storage, so only this device's signed claims count
+  /// there (t300 review: no premium decision may rest on a value the user can trivially edit).
+  bool lessonStarted(Lesson l) => _allowance.claimed(l.id) || (!isWeb && (l.sceneIds.any(state.completedScenes.contains) || practiceScore(l.id) != null));
+  bool _doneCounts(Lesson l) => !isWeb && lessonDone(l);
 
-  /// Local "today" for the daily allowance. Never earlier than the latest day a free lesson was claimed, so turning
-  /// the clock back cannot give the allowance again (turning it forward only spends future days). No network needed.
-  String get quotaDay {
-    final today = Motivation.day(_now);
-    final last = state.missionsDone['quota:last'] ?? '';
-    return last.compareTo(today) > 0 ? last : today;
-  }
-  int get freeLessonsUsedToday {
-    final d = quotaDay;
-    return state.missionsDone.entries.where((e) => e.key.startsWith('quota:l:') && e.value == d).length;
-  }
+  DeviceAllowance get _allowance => ref.read(deviceAllowanceProvider);
+  /// Local "today" for the daily allowance: never earlier than the latest moment this DEVICE has seen, so turning the
+  /// clock back cannot give the allowance again (turning it forward only spends future days). No network needed.
+  String get quotaDay => _allowance.quotaDay(_now);
+  int get freeLessonsUsedToday => _allowance.usedOn(quotaDay);
   int get freeLessonsLeftToday => (PremiumConfig.dailyFreeLessons - freeLessonsUsedToday).clamp(0, PremiumConfig.dailyFreeLessons);
 
   /// Payment side of a main-course lesson (the sequence rule is checked separately by [lessonLock]).
@@ -686,7 +686,7 @@ class ProgressController extends Notifier<UserProgress> {
     if (!paywallOn) return true;
     final u = c.unitOf(l.id);
     if (u == null || inFreeZone(c, u)) return true;
-    return lessonDone(l) || lessonStarted(l) || freeLessonsLeftToday > 0;
+    return _doneCounts(l) || lessonStarted(l) || freeLessonsLeftToday > 0;
   }
 
   /// True when opening [l] would spend today's free lesson.
@@ -694,16 +694,14 @@ class ProgressController extends Notifier<UserProgress> {
     if (!paywallOn) return false;
     final u = c.unitOf(l.id);
     if (u == null || !c.units.contains(u) || inFreeZone(c, u)) return false;
-    return !lessonDone(l) && !lessonStarted(l);
+    return !_doneCounts(l) && !lessonStarted(l);
   }
 
   /// Spends today's free lesson on [l] when the learner starts it. Returns false when nothing is left today.
   bool claimDailyLesson(Course c, Lesson l) {
     if (!needsDailyClaim(c, l)) return true;
-    if (freeLessonsLeftToday <= 0) return false;
-    final d = quotaDay;
-    state = state.copyWith(missionsDone: {...state.missionsDone, 'quota:l:${l.id}': d, 'quota:last': d});
-    _save();
+    if (!_allowance.claim(l.id, _now, PremiumConfig.dailyFreeLessons)) return false;
+    state = state.copyWith(); // notify listeners: the claimed lesson is now open
     return true;
   }
 
@@ -718,7 +716,7 @@ class ProgressController extends Notifier<UserProgress> {
 
   /// Exams ('lifeuk', 'theory'): Premium or the one-off pack. Free: chapter 1 and one mock test.
   bool examUnlocked(String exam) =>
-      hasPremium || Entitlements.packUnlocked(exam) || (!Entitlements.paidBuild && state.missionsDone['pack:$exam'] == 'owned');
+      hasPremium || Entitlements.packUnlocked(exam) || (!sellsContent && state.missionsDone['pack:$exam'] == 'owned');
   bool examChapterOpen(String exam, int index) => !sellsContent || index == 0 || examUnlocked(exam);
   int examMocks(String exam) => exam == 'theory' ? thyMocks : lukMocks;
   bool examMockOpen(String exam) => !sellsContent || examUnlocked(exam) || examMocks(exam) == 0;
@@ -740,11 +738,13 @@ class ProgressController extends Notifier<UserProgress> {
   // ---- Premium (display-only until real payments exist; see PremiumConfig).
   // In a paid build only server-verified entitlements count; demo/owner mode and local prefs are beta/dev aids only.
   bool get hasPremium =>
-      Entitlements.isPremium || (!Entitlements.paidBuild && (state.gatesOpen || state.missionsDone['pref:premium'] == 'on'));
+      // Hardened (t300): whenever content is limited, ONLY the server-verified entitlement counts. Demo mode, owner
+      // mode and saved prefs (user-editable, e.g. browser storage on the web) never open paid content.
+      Entitlements.isPremium || (!sellsContent && (state.gatesOpen || state.missionsDone['pref:premium'] == 'on'));
   /// Option B: when the build sells content every Career Pack is Premium (lesson 1 stays a free preview); a pack
   /// with its own one-off product ([PremiumConfig.oneOffPacks]) can also be bought alone.
   bool packOwned(Pack p) =>
-      (!p.premium && !sellsContent) || hasPremium || Entitlements.packUnlocked(p.id) || (!Entitlements.paidBuild && state.missionsDone['pack:${p.id}'] == 'owned');
+      (!p.premium && !sellsContent) || hasPremium || Entitlements.packUnlocked(p.id) || (!sellsContent && state.missionsDone['pack:${p.id}'] == 'owned');
 
   // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).
   List<Unit> levelUnits(Course c, int level) => c.units.where((u) => u.level == level).toList();

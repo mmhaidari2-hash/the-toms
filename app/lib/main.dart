@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'core/billing/billing.dart';
+import 'core/billing/device_allowance.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -50,9 +51,12 @@ Future<void> main() async {
     final raw = store.read();
     if (raw != null) await useHelperLang(UserProgress.decode(raw).lang);
   } catch (_) {}
+  // Device-wide, HMAC-signed daily allowance in secure storage (one pool for every profile; see device_allowance.dart).
+  final allowance = await DeviceAllowance.load(const SecureAllowanceVault(), now: DateTime.now())
+    ..observe(DateTime.now());
   runApp(
     ProviderScope(
-      overrides: [progressStoreProvider.overrideWithValue(store)],
+      overrides: [progressStoreProvider.overrideWithValue(store), deviceAllowanceProvider.overrideWithValue(allowance)],
       child: const BritishLifeApp(),
     ),
   );

@@ -5,6 +5,7 @@ import 'package:british_life/app/app.dart';
 import 'package:british_life/app/router.dart';
 import 'package:british_life/app/theme.dart';
 import 'package:british_life/core/billing/billing.dart';
+import 'package:british_life/core/billing/device_allowance.dart';
 import 'package:british_life/core/billing/entitlements.dart';
 import 'package:british_life/core/billing/offline_voices.dart';
 import 'package:british_life/core/data/progress_store.dart';
@@ -39,11 +40,14 @@ void main() {
     PremiumConfig.betaFree = true;
     Entitlements.paidBuild = false;
     Entitlements.applyServerState(premium: false, packs: {});
-    ProgressController.webFree = false;
+    ProgressController.isWeb = false;
     OfflineVoices.allowed = () => true;
   });
 
-  (ProgressController, ProviderContainer) ctrlWith({int tier = 0, Iterable<Lesson> done = const [], Map<String, String> extra = const {}, Iterable<String> scenes = const [], bool unlockAll = false, bool ownerMode = false}) {
+  (ProgressController, ProviderContainer) ctrlWith({int tier = 0, Iterable<Lesson> done = const [], Map<String, String> extra = const {}, Iterable<String> scenes = const [], bool unlockAll = false, bool ownerMode = false, bool spentToday = false, Map<String, DateTime> claimed = const {}, DeviceAllowance? allowance}) {
+    final dev = allowance ?? DeviceAllowance.memory();
+    claimed.forEach((id, at) => dev.claim(id, at, 99));
+    if (spentToday) dev.claim('zz_spent', now, 99);
     final p = UserProgress(
       onboarded: true,
       startTier: tier,
@@ -53,14 +57,14 @@ void main() {
       missionsDone: {for (final l in done) 'course:${l.id}': '100', ...extra},
     );
     final store = MemoryProgressStore()..data = p.encode();
-    final c = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(store), clockProvider.overrideWithValue(() => now)]);
+    final c = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(store), clockProvider.overrideWithValue(() => now), deviceAllowanceProvider.overrideWithValue(dev)]);
     addTearDown(c.dispose);
     return (c.read(progressProvider.notifier), c);
   }
 
   group('beta build (betaFree = true, as shipped)', () {
     test('nothing locks: no daily limit, certificates, offline voices, packs and exams all open', () {
-      final (c, _) = ctrlWith(done: core, extra: {'quota:l:x': Motivation.day(now), 'thy:mocks': '3', 'luk:mocks': '2'});
+      final (c, _) = ctrlWith(done: core, spentToday: true, extra: {'thy:mocks': '3', 'luk:mocks': '2'});
       expect(c.sellsContent, isFalse);
       expect(c.paywallOn, isFalse);
       expect(c.lessonOpen(course, unit('U51').lessons.first), isTrue);
@@ -81,9 +85,8 @@ void main() {
     });
 
     test('free-zone lessons never use the daily allowance, even when today\'s lesson is spent', () {
-      final today = Motivation.day(now);
       for (var k = 0; k < core.length; k++) {
-        final (c, _) = ctrlWith(done: core.take(k), extra: {'quota:l:l1_u51_1': today, 'quota:last': today});
+        final (c, _) = ctrlWith(done: core.take(k), spentToday: true);
         expect(c.freeLessonsLeftToday, 0);
         expect(c.lessonLock(course, core[k]), LessonLock.open, reason: core[k].id);
         expect(c.needsDailyClaim(course, core[k]), isFalse);
@@ -91,12 +94,11 @@ void main() {
     });
 
     test('placement at B1: the first unit of B1 is free; the second unit uses the daily allowance', () {
-      final today = Motivation.day(now);
-      final (c, _) = ctrlWith(tier: 2, extra: {'quota:l:other': today, 'quota:last': today});
+      final (c, _) = ctrlWith(tier: 2, spentToday: true);
       expect(c.currentLevel(course), 3);
       final u21 = unit('U21').lessons, u22 = unit('U22').lessons;
       expect(c.lessonLock(course, u21.first), LessonLock.open);
-      final (c2, _) = ctrlWith(tier: 2, done: u21, extra: {'quota:l:other': today, 'quota:last': today});
+      final (c2, _) = ctrlWith(tier: 2, done: u21, spentToday: true);
       expect(c2.lessonLock(course, u22.first), LessonLock.daily);
     });
 
@@ -130,15 +132,13 @@ void main() {
 
     test('no paywall mid-lesson: a started or claimed lesson stays open after the allowance is used', () {
       final u51 = unit('U51').lessons;
-      final yesterday = Motivation.day(now.subtract(const Duration(days: 1)));
-      final today = Motivation.day(now);
       // Claimed yesterday and half-played; today\'s free lesson already spent elsewhere.
-      final (c, _) = ctrlWith(done: core, extra: {'quota:l:${u51[0].id}': yesterday, 'quota:l:zz': today, 'quota:last': today});
+      final (c, _) = ctrlWith(done: core, claimed: {u51[0].id: now.subtract(const Duration(days: 1))}, spentToday: true);
       expect(c.freeLessonsLeftToday, 0);
       expect(c.lessonLock(course, u51[0]), LessonLock.open);
       // A lesson with a finished scene from before payments (beta users) never locks either.
       final u57 = unit('U57').lessons;
-      final (c2, _) = ctrlWith(done: [...core, ...u51], scenes: [u57.first.sceneIds.first], extra: {'quota:l:zz': today, 'quota:last': today});
+      final (c2, _) = ctrlWith(done: [...core, ...u51], scenes: [u57.first.sceneIds.first], spentToday: true);
       expect(c2.lessonStarted(u57.first), isTrue);
       expect(c2.dailyLessonOpen(course, u57.first), isTrue);
       // The conversation screen has no paywall code path at all.
@@ -146,12 +146,13 @@ void main() {
       expect(chat.contains('PremiumScreen') || chat.contains('/premium') || chat.contains('PaywallMomentCard'), isFalse);
     });
 
-    test('web stays free (kIsWeb) even with betaFree off', () {
-      ProgressController.webFree = true;
-      final (c, _) = ctrlWith(done: core, extra: {'quota:l:x': Motivation.day(now), 'quota:last': Motivation.day(now)});
-      expect(c.sellsContent, isFalse);
-      expect(c.lessonOpen(course, unit('U51').lessons.first), isTrue);
-      expect(c.certificatesUnlocked && c.offlineVoicesUnlocked, isTrue);
+    test('web: same free zone and daily allowance as Android (t301)', () {
+      ProgressController.isWeb = true;
+      final (c, _) = ctrlWith(done: core, spentToday: true);
+      expect(c.sellsContent, isTrue, reason: 't301: the web has the same free zone + allowance');
+      expect(c.lessonLock(course, unit('U51').lessons.first), LessonLock.daily);
+      expect(c.lessonLock(course, core.last), LessonLock.open);
+      expect(c.certificatesUnlocked || c.offlineVoicesUnlocked, isFalse);
     });
 
     test('without Premium: certificates, offline voices, packs past lesson 1 and exams past the free part are locked', () {
@@ -175,7 +176,7 @@ void main() {
 
     test('each entitlement unlocks exactly its content (server-verified only)', () {
       Entitlements.paidBuild = true;
-      final (c, _) = ctrlWith(done: core, extra: {'luk:mocks': '1', 'thy:mocks': '1', 'quota:l:x': Motivation.day(now), 'quota:last': Motivation.day(now)});
+      final (c, _) = ctrlWith(done: core, spentToday: true, extra: {'luk:mocks': '1', 'thy:mocks': '1'});
       final u51 = unit('U51').lessons.first;
       final nursery2 = course.pack('nursery')!.lessons.elementAt(1);
       final homes = course.pack('homes')!;
@@ -205,7 +206,7 @@ void main() {
 
     test('paid build: owner/demo mode still does not unlock paid content (rule unchanged)', () {
       Entitlements.paidBuild = true;
-      final (c, _) = ctrlWith(done: core, unlockAll: true, ownerMode: true, extra: {'pref:premium': 'on', 'quota:l:x': Motivation.day(now), 'quota:last': Motivation.day(now)});
+      final (c, _) = ctrlWith(done: core, unlockAll: true, ownerMode: true, spentToday: true, extra: {'pref:premium': 'on'});
       expect(c.hasPremium, isFalse);
       expect(c.paywallOn, isTrue);
       expect(c.lessonLock(course, unit('U51').lessons.first), LessonLock.daily);
@@ -283,12 +284,12 @@ void main() {
   });
 
   group('screens', () {
-    Future<void> boot(WidgetTester t, UserProgress p) async {
+    Future<void> boot(WidgetTester t, UserProgress p, {DeviceAllowance? allowance}) async {
       t.view.physicalSize = const Size(375, 1800) * 3;
       t.view.devicePixelRatio = 3;
       addTearDown(t.view.reset);
       final store = MemoryProgressStore()..data = p.encode();
-      await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
+      await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store), if (allowance != null) deviceAllowanceProvider.overrideWithValue(allowance)], child: const BritishLifeApp()));
       for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) {
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
         await t.pump(const Duration(milliseconds: 100));
@@ -370,9 +371,8 @@ void main() {
 
     testWidgets('daily limit: the lesson page becomes the paywall before anything starts; download needs Premium', (t) async {
       final done = {for (final l in core) 'course:${l.id}': '100'};
-      final today = Motivation.day(DateTime.now());
       final u51 = unit('U51').lessons;
-      await boot(t, UserProgress(onboarded: true, completedScenes: {for (final l in core) ...l.sceneIds}, missionsDone: {...done, 'quota:l:zz': today, 'quota:last': today}));
+      await boot(t, UserProgress(onboarded: true, completedScenes: {for (final l in core) ...l.sceneIds}, missionsDone: done), allowance: DeviceAllowance.memory()..claim('zz', DateTime.now(), 9));
       PremiumConfig.betaFree = false;
       Entitlements.paidBuild = true;
       await go(t, '/lesson/${u51.first.id}');

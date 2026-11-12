@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:british_life/core/billing/entitlements.dart';
 import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/models/course.dart';
@@ -137,7 +138,7 @@ void main() {
     expect(c.nextLesson(course)!.id, all.first.id);
   });
 
-  test('Career Packs after the beta: only the first lesson is a free preview; Premium, a one-off buy or demo mode open the rest', () {
+  test('Career Packs after the beta: only the first lesson is a free preview; only a verified Premium or one-off buy opens the rest', () {
     PremiumConfig.betaFree = false;
     addTearDown(() => PremiumConfig.betaFree = true);
     for (final pk in course.packs.where((p) => p.premium)) {
@@ -146,12 +147,15 @@ void main() {
       expect(free.lessonOpen(course, ls.first), isTrue, reason: '${pk.id}: first lesson is the free preview');
       expect(ls.skip(1).where((l) => free.lessonOpen(course, l)), isEmpty, reason: '${pk.id}: the rest is locked');
       expect(free.packOwned(pk), isFalse);
-      final bought = ctrlWith(extra: {'pack:${pk.id}': 'owned'});
-      expect(ls.every((l) => bought.lessonOpen(course, l)), isTrue);
-      final prem = ctrlWith(extra: {'pref:premium': 'on'});
-      expect(ls.every((l) => prem.lessonOpen(course, l)), isTrue);
-      final demo = ctrlWith()..setUnlockAll(true);
-      expect(ls.every((l) => demo.lessonOpen(course, l)), isTrue);
+      // t300: local flags (saved pack/premium prefs, demo mode) never open paid content once it is sold.
+      final local = ctrlWith(extra: {'pack:${pk.id}': 'owned', 'pref:premium': 'on'})..setUnlockAll(true);
+      expect(ls.skip(1).where((l) => local.lessonOpen(course, l)), isEmpty, reason: '${pk.id}: local flags grant nothing');
+      // Only server-verified entitlements do: the one-off pack, or Premium.
+      Entitlements.applyServerState(premium: false, packs: {pk.id});
+      expect(ls.every((l) => free.lessonOpen(course, l)), isTrue);
+      Entitlements.applyServerState(premium: true, packs: {});
+      expect(ls.every((l) => free.lessonOpen(course, l)), isTrue);
+      Entitlements.applyServerState(premium: false, packs: {});
       expect(regionOpen(free, course, mapRegions.firstWhere((r) => r.pack == pk.id)), isTrue, reason: 'region stays open for the preview');
     }
     // The main course is never behind the paywall.

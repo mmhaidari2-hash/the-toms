@@ -48,11 +48,19 @@ void main() {
     expect(Entitlements.packUnlocked('care'), isFalse);
   });
 
-  test('beta and unpaid builds keep demo mode working', () {
-    PremiumConfig.betaFree = false;
-    final c = container(const UserProgress(onboarded: true, unlockAll: true));
+  test('demo / owner / saved prefs open everything only in the free beta, never once content is sold (t300)', () {
+    // Before t300 an unpaid build with betaFree=false (and the web) let the demo toggle grant Premium.
+    const p = UserProgress(onboarded: true, unlockAll: true, ownerMode: true, missionsDone: {'pref:premium': 'on', 'pack:nursery': 'owned', 'pack:lifeuk': 'owned'});
+    final c = container(p);
     addTearDown(c.dispose);
-    expect(c.read(progressProvider.notifier).hasPremium, isTrue);
+    final ctrl = c.read(progressProvider.notifier);
+    expect(ctrl.hasPremium, isTrue, reason: 'betaFree: demo works');
+    PremiumConfig.betaFree = false; // selling, no billing key (web or unpaid build)
+    expect(ctrl.hasPremium, isFalse);
+    expect(ctrl.examUnlocked('lifeuk'), isFalse);
+    expect(ctrl.certificatesUnlocked || ctrl.offlineVoicesUnlocked, isFalse);
+    Entitlements.paidBuild = true;
+    expect(ctrl.hasPremium, isFalse);
   });
 
   testWidgets('paid paywall: pay stays disabled until the 14-day consent is ticked', (t) async {

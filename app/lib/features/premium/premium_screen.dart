@@ -62,6 +62,41 @@ abstract final class PaywallCopy {
   };
 }
 
+/// Web paywall (t301): Premium is sold only in the Android app through Google Play.
+class _GetOnPlay extends StatelessWidget {
+  const _GetOnPlay();
+  static final playUrl = Uri.parse('https://play.google.com/store/apps/details?id=app.thetoms.newlifeuk');
+  @override
+  Widget build(BuildContext context) => Padding(
+    padding: const EdgeInsets.only(bottom: 12),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          hl('Premium is available in the New Life UK Android app. There are no payments on the website.'),
+          key: const ValueKey('web-play-note'),
+          textAlign: TextAlign.center,
+          style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13.5),
+        ),
+        Text(
+          hl('اشتراک ویژه در اپ اندروید New Life UK در دسترس است. در وب‌سایت پرداختی انجام نمی‌شود.'),
+          textAlign: TextAlign.center,
+          textDirection: helperDir,
+          style: BL.fa(12, color: BL.muted),
+        ),
+        const SizedBox(height: 8),
+        FilledButton.icon(
+          key: const ValueKey('get-on-play'),
+          style: FilledButton.styleFrom(backgroundColor: BL.ink, minimumSize: const Size.fromHeight(50)),
+          onPressed: () => launchUrl(playUrl, mode: LaunchMode.externalApplication),
+          icon: const Icon(Icons.shop_rounded),
+          label: Text(hl('Get it on Google Play · دریافت از گوگل‌پلی')),
+        ),
+      ],
+    ),
+  );
+}
+
 /// Child profiles never see offers or prices: just a calm limit message.
 class _KidLimit extends StatelessWidget {
   final bool daily;
@@ -175,6 +210,7 @@ class _PremiumScreenState extends ConsumerState<PremiumScreen> {
     final pack = widget.pack;
     final pk = pack == null ? null : c?.course.pack(pack);
     final paid = Entitlements.paidBuild;
+    final web = ProgressController.isWeb;
     // Only packs with their own Play product get a one-off plan; other Career Packs come with Premium.
     final onePack = pack != null && PremiumConfig.oneOffPacks.contains(pack) ? pack : null;
     void say(String m) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text(hl(m))));
@@ -380,44 +416,50 @@ class _PremiumScreenState extends ConsumerState<PremiumScreen> {
               style: BL.fa(11, color: BL.muted),
             ),
             const SizedBox(height: 12),
-            _Plan(
-              key: const ValueKey('plan-yearly'),
-              title: 'Yearly',
-              fa: 'سالانه',
-              price: shown(Entitlements.premiumYearly, ' / year'),
-              note: trialDays == null ? 'Billed once a year · renews automatically' : '$trialDays-day free trial, then billed once a year · renews automatically',
-              best: true,
-              beta: beta,
-              onTap: () => tapPlan(Entitlements.premiumYearly),
-            ),
-            _Plan(
-              key: const ValueKey('plan-monthly'),
-              title: 'Monthly',
-              fa: 'ماهانه',
-              price: shown(Entitlements.premiumMonthly, ' / month'),
-              note: 'Billed every month · renews automatically · cancel any time',
-              beta: beta,
-              onTap: () => tapPlan(Entitlements.premiumMonthly),
-            ),
-            _Plan(
-              key: const ValueKey('plan-lifetime'),
-              title: 'Lifetime',
-              fa: 'مادام‌العمر، یک بار پرداخت',
-              price: '${shown(Entitlements.premiumLifetime, '')} once',
-              note: 'Premium for good · no subscription, no renewals',
-              beta: beta,
-              onTap: () => tapPlan(Entitlements.premiumLifetime),
-            ),
-            if (onePack != null)
+            // Web (owner decision t301): no web payments. After the free zone the web paywall shows the perks and a
+            // link to the Android app on Google Play instead of plans.
+            if (web && !beta)
+              const _GetOnPlay()
+            else ...[
               _Plan(
-                key: const ValueKey('plan-pack'),
-                title: PaywallCopy.packTitle(onePack, pk?.title),
-                fa: PaywallCopy.packNote(onePack).$2,
-                price: '${shown('${Entitlements.careerPackPrefix}$onePack', '')} once',
-                note: PaywallCopy.packNote(onePack).$1,
+                key: const ValueKey('plan-yearly'),
+                title: 'Yearly',
+                fa: 'سالانه',
+                price: shown(Entitlements.premiumYearly, ' / year'),
+                note: trialDays == null ? 'Billed once a year · renews automatically' : '$trialDays-day free trial, then billed once a year · renews automatically',
+                best: true,
                 beta: beta,
-                onTap: () => tapPlan('${Entitlements.careerPackPrefix}$onePack'),
+                onTap: () => tapPlan(Entitlements.premiumYearly),
               ),
+              _Plan(
+                key: const ValueKey('plan-monthly'),
+                title: 'Monthly',
+                fa: 'ماهانه',
+                price: shown(Entitlements.premiumMonthly, ' / month'),
+                note: 'Billed every month · renews automatically · cancel any time',
+                beta: beta,
+                onTap: () => tapPlan(Entitlements.premiumMonthly),
+              ),
+              _Plan(
+                key: const ValueKey('plan-lifetime'),
+                title: 'Lifetime',
+                fa: 'مادام‌العمر، یک بار پرداخت',
+                price: '${shown(Entitlements.premiumLifetime, '')} once',
+                note: 'Premium for good · no subscription, no renewals',
+                beta: beta,
+                onTap: () => tapPlan(Entitlements.premiumLifetime),
+              ),
+              if (onePack != null)
+                _Plan(
+                  key: const ValueKey('plan-pack'),
+                  title: PaywallCopy.packTitle(onePack, pk?.title),
+                  fa: PaywallCopy.packNote(onePack).$2,
+                  price: '${shown('${Entitlements.careerPackPrefix}$onePack', '')} once',
+                  note: PaywallCopy.packNote(onePack).$1,
+                  beta: beta,
+                  onTap: () => tapPlan('${Entitlements.careerPackPrefix}$onePack'),
+                ),
+            ],
             Text(
               hl(PaywallCopy.terms),
               key: const ValueKey('paywall-terms'),
@@ -485,7 +527,7 @@ class _PremiumScreenState extends ConsumerState<PremiumScreen> {
                 textDirection: helperDir,
                 style: BL.fa(11, color: BL.muted),
               ),
-            ] else ...[
+            ] else if (!web) ...[
               const SizedBox(height: 10),
               Text(
                 hl(
