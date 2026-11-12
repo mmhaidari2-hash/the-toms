@@ -293,3 +293,17 @@ English: The Android release note no longer says a missing key file falls back t
 آزمون فقط همین تمرکز، Flutter 3.47.8 / Dart 3.13.7. قبل از جابه‌جایی پوشه: `cd app && flutter test -j 1 test/arrival_cache_test.dart` نتیجهٔ `+0 -1`. انتظار `1`، نتیجهٔ `0`، چون فایلِ از قبل گذاشته‌شده در کش پخش‌کننده دیده نشد. بعد: `cd app && flutter test -j 1 test/arrival_cache_test.dart test/speech_io_test.dart` نتیجهٔ `+6`. لاگ: `arrival-cache-q29-2026-11-11.log`. مجموعهٔ کامل اجرا نشد. این نتیجه کلیپ غایب را نمی‌سازد و پخش آفلاین روی گوشی را ثابت نمی‌کند.
 
 English: The native Arrival warmer and the player now share `systemTemp/newlifeuk_audio/nl_audio_<ver>`. The focused test was `+0 -1` before and the two focused files were `+6` after. Missing clips and a device offline play were not tested.
+
+## صدای انگلیسی Azure — ۱۲ نوامبر ۲۰۲۶
+
+مالک ساخت هر ۲۲٬۰۳۰ کلیپ فهرست `docs/audio/missing-audio-manifest.jsonl` را با سقف ۵۰ پوند با مالیات تأیید کرد. منبع: `newlifeuk-speech`، uksouth، S1. همان SSML و صدای `tool/az_tts.py` استفاده شد. نتیجه: ۲۲٬۰۳۰ ساخته، ۰ خطا، ۰ ردشده به‌خاطر سقف. بررسی ffprobe روی هر شناسهٔ فهرست: هیچ فایل غایب یا نامعتبری نیست. `index.json` اکنون ۴۴٬۴۳۷ شناسه دارد.
+
+نویسه‌ها: مبنای صورتحساب Azure (SSML بدون `<speak>`/`<voice>`) ۱٬۷۰۶٬۸۱۲ در ۲۲٬۰۵۰ درخواست؛ جمع فهرست ۱٬۷۰۵٬۲۵۴ است و تفاوت از ۲۰ تلاش دوباره است. SSML کامل ۵٬۵۷۳٬۱۲۷. اجرای اول با سقف محافظه‌کارانهٔ SSML کامل پس از ۱۴٬۰۲۵ کلیپ متوقف شد و اجرای دوم با مبنای درست ۸٬۰۰۵ باقی را ساخت. یک اجرای تکراری در ۰۰:۵۷ به وقت لندن حدود ۴۵ ثانیه، حدود ۱۰۰ درخواست ثبت‌نشده فرستاد (تقریباً ۸ هزار نویسه).
+
+هزینهٔ برآوردی: ۱٬۷۰۶٬۸۱۲ × ۱۱٫۲۷۷۸ پوند در میلیون × ۱٫۲ = حدود ۲۳٫۱۰ پوند؛ با اجرای تکراری حدود ۲۳٫۲ پوند. نرخ از prices.azure.com (uksouth، «S1 Neural Text To Speech Characters»، GBP). این صورتحساب واقعی نیست و هزینهٔ ۱۱٫۶۲ پوند قبلی این ماه جداست.
+
+آزمون: `cd app && flutter test test/arrival_pack_test.dart test/audit_test.dart` با Flutter 3.47.7 / Dart 3.13.5 محلی (کف SDK فقط برای اجرا موقتاً پایین آمد و commit نشد). قبل: ۴ رد. بعد: `+13 -1`. ردِ باقی «audio sync» است: ۱۰٬۵۲۸ کلیپ قدیمی با امضای صدای قبلی ثبت شده‌اند (me/learner با Ryan -4%، tom با -4%، nicola، william). هیچ‌کدام از کلیپ‌های تازه نیست. بازسازی آن‌ها هزینهٔ جدا می‌خواهد و مجوز ندارد. مجموعهٔ کامل اجرا نشد.
+
+انتشار: کلیپ‌ها فقط روی `fix/offline-audio-content` هستند. GitHub Pages از `main` سرو می‌شود و عوض نشد؛ اپ زنده تا انتشار جداگانه این کلیپ‌ها را نمی‌بیند. انتشار مجوز ندارد.
+
+English: All 22,030 manifest clips were rendered (0 failed) and pass ffprobe. Billable characters (SSML minus speak/voice tags) were 1,706,812, about £23.10 incl. 20% VAT at £11.2778 per million (Azure retail price, uksouth). A duplicate run at 00:57 London sent about 100 untracked requests (~£0.10). This is an estimate, not an invoice. Focused tests: 13 pass, 1 fail (`audio sync`: 10,528 older clips carry a previous voice signature; none are new). Clips are on the fix branch only; the live host was not changed.
