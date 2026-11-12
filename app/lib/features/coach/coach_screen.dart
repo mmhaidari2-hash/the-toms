@@ -4,14 +4,21 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
+import '../../core/engine/practice_loop.dart';
 import '../../core/engine/pronunciation.dart';
 import '../../core/platform/speech.dart';
 import '../../core/platform/voice.dart';
 import '../shared/nav.dart';
 import '../speaking/speaking_widgets.dart';
 
-/// Pronunciation coach: hear the model (Azure clip), then speak; score via browser STT.
+/// Pronunciation coach: hear the model (Azure clip, normal or slow), then speak; the browser's or (Android) the
+/// phone's speech-to-text shows which words came through. A practice loop, not a phoneme score (owner t306 item 4).
 /// No Azure Pronunciation Assessment (keeps spend $0 and matches the privacy policy).
+/// Test seam: replaces the recognizer (alternatives for one try).
+abstract final class CoachScreenTest {
+  static Future<SpeechResult> Function()? listen;
+}
+
 class CoachScreen extends ConsumerStatefulWidget {
   final String? seed;
   const CoachScreen({super.key, this.seed});
@@ -35,6 +42,9 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
   PronResult? _result;
   bool _listening = false;
   String? _err;
+  String _partial = '';
+  late PracticeLoop _loop;
+
 
   @override
   void initState() {
@@ -42,31 +52,41 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
     final seed = widget.seed?.toLowerCase() ?? '';
     final hit = _lines.indexWhere((e) => e.$2.toLowerCase().contains(seed) && seed.isNotEmpty);
     _i = hit >= 0 ? hit : 0;
+    _loop = PracticeLoop(_cur.$2);
   }
+
+  void _go(int i) => setState(() {
+        _i = i % _lines.length;
+        _result = null;
+        _err = null;
+        _loop = PracticeLoop(_cur.$2);
+      });
 
   (String, String) get _cur => _lines[_i % _lines.length];
 
-  Future<void> _hear() async {
+  Future<void> _hear({bool slow = false}) async {
     final (v, t) = _cur;
-    await Voice.say(v, t);
+    await Voice.say(v, t, rate: slow ? Voice.rates.first : 1);
   }
 
   Future<void> _speak() async {
-    if (!SpeechInput.sttSupported) {
+    if (CoachScreenTest.listen == null && !SpeechInput.sttSupported) {
       setState(() { _listening = false; _err = 'unsupported'; _result = null; });
       return;
     }
-    setState(() { _listening = true; _err = null; _result = null; });
+    setState(() { _listening = true; _err = null; _partial = ''; });
     try {
-      final heard = await SpeechInput.listen();
+      final r = CoachScreenTest.listen != null ? await CoachScreenTest.listen!() : await SpeechInput.listenDetailed(onPartial: (p) {
+        if (mounted) setState(() => _partial = p);
+      });
       if (!mounted) return;
-      if (heard == null || heard.trim().isEmpty) {
-        setState(() { _listening = false; _err = 'mic'; });
+      if (!r.ok) {
+        setState(() { _listening = false; _err = r.permissionDenied || r.error == 'unsupported' ? r.error : 'mic'; });
         return;
       }
       setState(() {
         _listening = false;
-        _result = Pronunciation.score(_cur.$2, heard);
+        _result = _loop.add(r.alternatives);
       });
     } catch (_) {
       if (mounted) setState(() { _listening = false; _err = 'mic'; });
@@ -150,15 +170,42 @@ class _CoachScreenState extends ConsumerState<CoachScreen> {
                     label: Text(_err == 'unsupported' ? 'Why speaking is unavailable' : 'Microphone help — tap to see how to allow it'),
                   ),
                 ],
+                if (_listening && _partial.isNotEmpty) ...[
+                  const SizedBox(height: 10),
+                  Text(hl('Heard so far: $_partial'), key: const ValueKey('coach-partial'), style: const TextStyle(color: BL.muted, fontStyle: FontStyle.italic)),
+                ],
                 if (r != null) ...[
                   const SizedBox(height: 16),
-                  PronunciationCard(result: r, onRetry: _speak, onListen: _hear),
+                  PronunciationCard(result: r, dark: false, onRetry: _speak, onListen: _hear),
+                  const SizedBox(height: 10),
+                  Text(hl(_loop.tip.$1), key: const ValueKey('coach-tip'), style: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink)),
+                  Text(_loop.tip.$2, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+                  if (_loop.focusWords.isNotEmpty) ...[
+                    const SizedBox(height: 8),
+                    Wrap(spacing: 6, runSpacing: 6, key: const ValueKey('coach-focus'), children: [
+                      Text(hl('Focus:'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.red)),
+                      for (final w in _loop.focusWords) Chip(label: Text(w), visualDensity: VisualDensity.compact, backgroundColor: markClose.withValues(alpha: .15)),
+                    ]),
+                  ],
+                  const SizedBox(height: 8),
+                  Text(
+                    hl('Tries: ${[for (var k = 0; k < _loop.attempts.length; k++) '${k + 1}: ${_loop.attempts[k].score}%'].join(' · ')}   Best: ${_loop.bestScore}%'),
+                    key: const ValueKey('coach-history'),
+                    style: const TextStyle(fontSize: 12, color: BL.muted),
+                  ),
                 ],
+                const SizedBox(height: 10),
+                OutlinedButton.icon(
+                  key: const ValueKey('coach-slow'),
+                  onPressed: () => _hear(slow: true),
+                  icon: const Icon(Icons.slow_motion_video_rounded),
+                  label: Text(hl('Hear slowly · آهسته بشنو')),
+                ),
                 const SizedBox(height: 18),
                 Row(children: [
-                  TextButton(key: const ValueKey('coach-prev'), onPressed: () => setState(() { _i = (_i - 1) % _lines.length; _result = null; _err = null; }), child: Text(hl('Previous'))),
+                  TextButton(key: const ValueKey('coach-prev'), onPressed: () => _go(_i - 1), child: Text(hl('Previous'))),
                   const Spacer(),
-                  TextButton(key: const ValueKey('coach-next'), onPressed: () => setState(() { _i = (_i + 1) % _lines.length; _result = null; _err = null; }), child: Text(hl('Next line'))),
+                  TextButton(key: const ValueKey('coach-next'), onPressed: () => _go(_i + 1), child: Text(hl(_loop.passed ? 'Next line ✓' : 'Next line'))),
                 ]),
                 const SizedBox(height: 8),
                 TextButton(onPressed: () => context.go('/'), child: Text(hl('Back to the map'))),
