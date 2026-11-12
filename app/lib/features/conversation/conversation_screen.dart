@@ -1224,7 +1224,7 @@ class _ChatState extends ConsumerState<_Chat> {
               ),
           ])),
           Material(type: MaterialType.transparency, child: Column(mainAxisSize: MainAxisSize.min, children: [
-            IconButton(visualDensity: VisualDensity.compact, tooltip: tr(_lang, 'listen'), onPressed: () => _onPaintingTap(h, null), icon: const Icon(Icons.volume_up_rounded, color: gold, size: 20)),
+            IconButton(visualDensity: VisualDensity.compact, tooltip: hl(tr(_lang, 'listen')), onPressed: () => _onPaintingTap(h, null), icon: const Icon(Icons.volume_up_rounded, color: gold, size: 20)),
             IconButton(visualDensity: VisualDensity.compact, onPressed: () => setState(() => _tapped = null), icon: const Icon(Icons.close_rounded, color: Colors.white38, size: 18)),
           ])),
         ]),
@@ -1556,7 +1556,7 @@ class _ChatState extends ConsumerState<_Chat> {
           style: const TextStyle(fontSize: 16, color: Colors.white), // ≥16 avoids iOS zoom
           cursorColor: BL.gold,
           decoration: InputDecoration(
-            hintText: _ended ? tr(_lang, 'storyDone') : tr(_lang, 'replyHint'),
+            hintText: hl(_ended ? tr(_lang, 'storyDone') : tr(_lang, 'replyHint')),
             hintStyle: const TextStyle(color: Colors.white38),
             filled: true,
             fillColor: Colors.white.withValues(alpha: .08),

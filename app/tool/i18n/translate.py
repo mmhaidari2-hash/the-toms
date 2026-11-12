@@ -13,6 +13,11 @@ sp = spm.SentencePieceProcessor(model_file='/workspace/mt/nllb13/sentencepiece.b
 tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=int(os.environ.get('MT_THREADS','2')))
 src = json.load(open(os.path.join(HERE, 'sources.json')))
 FA_DIG = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+# Latin words a non-Latin translation may keep although the source spells them in Persian ("گوگل‌پلی" -> "Google Play"):
+# brands and acronyms the English sources themselves use. Anything else in Latin script is still treated as garbage.
+LATIN_OK = {'Google', 'Play', 'Apple', 'Stripe', 'Azure', 'GitHub', 'Pages', 'Chrome', 'Safari', 'Android', 'Microsoft', 'Flutter',
+            'RevenueCat', 'Premium', 'New', 'Life', 'UK'}
+LATIN_OK |= {w for v in src.values() for w in re.findall(r'\b[A-Z]{2,6}\b', v.get('en') or '')}
 def ok(out, srctext, code):
     sc = NLLB[code].split('_')[1]
     letters = re.findall(r'[^\W\d_]', out)
@@ -28,7 +33,7 @@ def ok(out, srctext, code):
     # Skip this for Latn targets — native words (pl/ro/tr/es/pt) are ASCII-letter sequences.
     if sc != 'Latn':
         for w in re.findall('[A-Za-z]{3,}', out):
-            if w.lower() not in srctext.lower(): return False
+            if w.lower() not in srctext.lower() and w not in LATIN_OK: return False
     if re.search(r'(\b\w+\b)(?:\W+\1\b){3,}', out): return False
     r = len(out) / max(1, len(srctext))
     return 0.25 < r < 3.5 or len(srctext) < 12
@@ -86,6 +91,15 @@ for code in sys.argv[1:]:
                         if ok(o, a, code): outs[j] = o
                     failed = [j for j in failed if not ok(outs[j], texts[j], code) and outs[j] is not None and not getattr(outs, 'x', 0)]
                     failed = [j for j in failed if j not in [jj for jj, a2 in zip(idx, ins) if ok(outs[jj], a2, code)]]
+        # Long lines NLLB truncates or loops on as a whole: translate sentence by sentence and join (same QA on the result).
+        for j in list(failed):
+            k = chunk[j]
+            for a, AL in ((src[k]['en'], 'eng_Latn'), (k, 'pes_Arab')):
+                if not a or len(a) < 100: continue
+                segs = [x for x in re.split(r'(?<=[.!?؟؛;])\s+', a) if x.strip()]
+                if len(segs) < 2: continue
+                o = fix(' '.join(fix(x, code) for x in run(segs, AL, tgt)), code)
+                if ok(o, a, code): outs[j] = o; failed.remove(j); break
         for j in failed: bad += 1; outs[j] = '\u0000' + outs[j]
         for j, k in enumerate(chunk): done[k] = outs[j]
         save(done, path)  # checkpoint after every chunk (atomic), so an interruption loses at most 96 lines

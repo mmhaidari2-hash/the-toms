@@ -25,6 +25,11 @@ def looped(out, en, code=''):
     # No English source (Persian-only lines): only a phrase repeated three times or more is a loop.
     if not en and grams and max(grams.count(g) for g in set(grams)) >= 3: return True
     if '{you}' in (en or '') and '{you}' not in out: return True  # the learner's name placeholder must survive
+    # NLLB language tags leaked into the output ("societatehin_Deva") and one-token camelCase non-words ("naJehovhajke")
+    # are machine garbage; the source English never has them.
+    if re.search(r'[a-z]{3}_[A-Z][a-z]{3}', out): return True
+    o = out.strip()
+    if re.fullmatch(r'[a-z][a-z0-9]*([A-Z_][A-Za-z0-9_]*)+', o) and o.lower() not in (en or '').lower(): return True
     if en and len(en) > 25 and len(out) < (0.12 if code.startswith('zh') else 0.3) * len(en): return True  # a long sentence collapsed to a fragment
     return bool(en) and len(out) > 3 * len(en) + 25
 def dump(name, d):
@@ -37,7 +42,12 @@ complete = set()  # every source line went through the translator (rejected ones
 # hold.json once its run has passed (e.g. /workspace/run31/robust_mt.passed) and its QA has been reviewed.
 BETA_HOLD = json.load(open(os.path.join(H, 'beta_hold.json'))) if os.path.exists(os.path.join(H, 'beta_hold.json')) else {}
 HOLD = set(json.load(open(os.path.join(H, 'hold.json')))) if os.path.exists(os.path.join(H, 'hold.json')) else set()
+# Frozen languages (tool/i18n/frozen.json, code -> reason): table, coverage and ready state are left exactly as the last
+# build wrote them (e.g. Polish: remediation is safety-blocked, so no build may rewrite its table).
+FROZEN = json.load(open(os.path.join(H, 'frozen.json'))) if os.path.exists(os.path.join(H, 'frozen.json')) else {}
 for c in CODES:
+    if c in FROZEN:
+        cov[c] = None; print('frozen (table left as is):', c); continue
     if c in HOLD:
         cov[c] = 0.0; print('hold (not shipped):', c)
         if os.path.exists(os.path.join(OUT, c + '.json')): os.remove(os.path.join(OUT, c + '.json'))
@@ -60,7 +70,9 @@ for c in CODES:
             for x, y in RENAMES: v = v.replace(x, y)
             mt[new] = v
         elif r.get('en') and src.get(new, {}).get('en') == r['en']: mt[new] = mt[r['old']]
-    t = {k: v for k, v in mt.items() if k in src and isinstance(v, str) and v and not v.startswith('\u0000') and not looped(v, src[k].get('en'), c)}
+    # The learner's name placeholder in the Persian line must survive too (lines with no English source).
+    t = {k: v for k, v in mt.items() if k in src and isinstance(v, str) and v and not v.startswith('\u0000') and not looped(v, src[k].get('en'), c)
+         and not ('{you}' in k and '{you}' not in v)}
     print(c, 'rejected as loops:', sum(1 for k, v in mt.items() if k in src and isinstance(v, str) and v and not v.startswith('\u0000') and looped(v, src[k].get('en'), c)))
     # One output reused for many unrelated, longer sources is a stock hallucination ("हयात" for "Theory test",
     # "Vocabulary", "My mistakes"...): drop it everywhere so those lines fall back to English.
@@ -86,7 +98,8 @@ for c in CODES:
         if isinstance(v, str):
             for x, y in RENAMES: v = v.replace(x, y)
             t[k] = v
-            if re.search(r'Twix|FIFA', v): t.pop(k)  # brand left in a machine translation: use the fallback instead
+            if re.search(r'Twix|FIFA', v): t.pop(k); continue  # brand left in a machine translation: use the fallback instead
+            if '{you}' in k and '{you}' not in v: t.pop(k)  # name placeholder lost (manual lines too)
     dump(c, t); cov[c] = round(len(t) / len(src), 4)
     # Ready needs the whole run finished AND quality from the QA (tool/qa/qa_translate.py -> quality.json): at most 10%
     # of practice prompts dropped as unreliable and at most 10% of sampled back-translations missing the answer.
