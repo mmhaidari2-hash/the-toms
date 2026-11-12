@@ -52,3 +52,7 @@ bool downloadFile(String name, String mime, String text) {
     return false;
   }
 }
+
+/// Web: reminders are browser notifications / the calendar file; nothing is scheduled in the background.
+Future<bool> syncReminder({required bool on, required String hhmm}) async => false;
+Future<void> startReminders() async {}

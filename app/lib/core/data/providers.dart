@@ -21,6 +21,7 @@ import 'progress_store.dart';
 import '../models/learner_profile.dart';
 import 'repository.dart';
 import '../billing/device_allowance.dart';
+import '../platform/remind.dart' show syncReminder;
 import '../billing/entitlements.dart';
 import 'premium.dart';
 export 'premium.dart';
@@ -548,6 +549,7 @@ class ProgressController extends Notifier<UserProgress> {
   void setReminder(String hhmm, bool on) {
     state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:remind': hhmm, 'pref:remindOn': on ? 'on' : 'off'});
     _save();
+    syncReminder(on: on, hhmm: hhmm); // Android: schedule / cancel the local daily notification
   }
   /// True once per day, after the reminder time, if today's goal isn't met yet (for an in-app / notification nudge).
   bool reminderDue() {
@@ -974,6 +976,7 @@ class ProgressController extends Notifier<UserProgress> {
     await store.switchTo(id);
     final raw = store.read();
     state = raw == null ? const UserProgress() : UserProgress.decode(raw);
+    syncReminder(on: reminderOn, hhmm: reminderTime); // each profile has its own (off by default) reminder
   }
 
   Future<LearnerProfile> addProfile({required String displayName, required ProfileKind kind}) async {

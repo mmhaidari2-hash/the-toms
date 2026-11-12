@@ -1,4 +1,5 @@
 import 'package:british_life/core/i18n/helper_text.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -225,8 +226,9 @@ class _Reminders extends ConsumerWidget {
           TextSpan(text: hl('   یادآور روزانه'), style: BL.fa(12, color: BL.muted)),
         ]))),
         Switch(key: const ValueKey('remind-switch'), value: ctrl.reminderOn, activeThumbColor: BL.green, onChanged: (v) async {
-          ctrl.setReminder(ctrl.reminderTime, v);
           if (v && status == 'default') await requestNotifications();
+          ctrl.setReminder(ctrl.reminderTime, v); // schedules the Android notification once allowed
+          if (v && notificationStatus() == 'denied') snack('Notifications are blocked. Allow them in Android settings, or use the calendar reminder.');
         }),
       ]),
       OutlinedButton.icon(
@@ -268,8 +270,15 @@ class _Reminders extends ConsumerWidget {
         ),
       ]),
       const SizedBox(height: 8),
-      const Text('On iPhone, web notifications only work after "Add to Home Screen" (iOS 16.4+). The calendar reminder works everywhere.',
-          style: TextStyle(fontSize: 11.5, color: BL.muted)),
+      if (kIsWeb)
+        const Text('On iPhone, web notifications only work after "Add to Home Screen" (iOS 16.4+). The calendar reminder works everywhere.',
+            style: TextStyle(fontSize: 11.5, color: BL.muted))
+      else ...[
+        const Text('One local reminder a day at the time you choose. It stays on this phone: no account, no server. Off unless you turn it on.',
+            key: ValueKey('remind-native-note'), style: TextStyle(fontSize: 11.5, color: BL.muted)),
+        Text(hl('یک یادآور محلی در روز، در ساعتی که انتخاب می‌کنید. روی همین گوشی می‌ماند: بدون حساب و سرور. تا روشنش نکنید خاموش است.'),
+            textDirection: helperDir, style: BL.fa(11, color: BL.muted)),
+      ],
     ]);
   }
 }

@@ -18,6 +18,8 @@ android {
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
+        // flutter_local_notifications (daily reminder, owner t306) needs core library desugaring.
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
@@ -77,4 +79,8 @@ gradle.taskGraph.whenReady {
     if (wantsRelease && !keyPropsFile.exists() && System.getenv("ALLOW_DEBUG_SIGNED_RELEASE") != "1") {
         throw GradleException("Release build needs the upload key (NEWLIFE_KEY_PROPERTIES). Set ALLOW_DEBUG_SIGNED_RELEASE=1 only for local tests.")
     }
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }

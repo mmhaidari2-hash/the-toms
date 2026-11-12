@@ -184,8 +184,8 @@ class _StreakSheet extends ConsumerWidget {
                   value: ctrl.reminderOn,
                   activeThumbColor: BL.green,
                   onChanged: (v) async {
-                    ctrl.setReminder(time, v);
                     if (v && notificationStatus() == 'default') await requestNotifications();
+                    ctrl.setReminder(time, v); // schedules the Android notification once allowed
                   },
                 ),
               ],

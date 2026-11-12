@@ -5,6 +5,10 @@
     <!-- Speaking practice (owner t306): Android's own speech recognizer, requested at runtime after an EN+FA
          explanation. The app never records, stores or uploads audio itself. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- Opt-in daily reminder (owner t306): local notification only, no server or FCM. Asked at runtime on Android 13+. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <!-- flutter_local_notifications declares VIBRATE; the reminder never vibrates, so it is removed. -->
+    <uses-permission android:name="android.permission.VIBRATE" tools:node="remove"/>
     <!-- Free build: purchases_flutter stays, but Play Billing is not used.
          Billing.available is false while PremiumConfig.betaFree is true and RC_GOOGLE_KEY is empty.
          Delete this line before a paid build (betaFree false and a public RC_GOOGLE_KEY). -->
@@ -40,6 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!-- Delivers the scheduled daily reminder. No boot receiver: the app reschedules it on every start. -->
+        <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

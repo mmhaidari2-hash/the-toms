@@ -6,6 +6,7 @@ import '../core/data/providers.dart';
 import '../core/i18n/helper_text.dart';
 import '../core/models/user_progress.dart';
 
+import '../core/platform/remind.dart' show startReminders, syncReminder;
 import '../core/platform/retry_bundle.dart';
 import '../core/platform/speech_result.dart';
 import '../features/speaking/speaking_widgets.dart' show showMicRationale;
@@ -61,6 +62,12 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
     super.initState();
     // Offline voices (Premium): read live per clip so a purchase/restore applies at once (see OfflineVoices).
     OfflineVoices.allowed = () => mounted ? ref.read(progressProvider.notifier).offlineVoicesUnlocked : false;
+    // Android daily reminder (t306): local notification, rescheduled on every start for the active profile.
+    startReminders().then((_) {
+      if (!mounted) return;
+      final c = ref.read(progressProvider.notifier);
+      syncReminder(on: c.reminderOn, hhmm: c.reminderTime);
+    });
     // Android speech recognition (t306): explain before the system microphone prompt.
     SpeechHooks.rationale = () async {
       final ctx = router.routerDelegate.navigatorKey.currentContext;
