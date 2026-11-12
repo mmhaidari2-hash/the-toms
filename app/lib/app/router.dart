@@ -51,6 +51,7 @@ import '../features/library/reader_screen.dart';
 import '../features/motivation/progress_screen.dart';
 import '../features/premium/certificate_screen.dart';
 import '../features/premium/entry_gate.dart';
+import '../features/progress_check/progress_check_screen.dart';
 import 'route_guard.dart';
 import '../features/diary/diary_screen.dart';
 import '../features/plan/plan_screen.dart';
@@ -145,6 +146,7 @@ final router = GoRouter(
     GoRoute(path: '/lifeuk', pageBuilder: (_, s) => _fade(const LukScreen(), s)),
     GoRoute(path: '/visa', pageBuilder: (_, s) => _fade(const VisaScreen(), s)),
     GoRoute(path: '/settlement', pageBuilder: (_, s) => _fade(const SettlementScreen(), s)),
+    GoRoute(path: '/check', pageBuilder: (_, s) => _fade(const ProgressCheckScreen(), s)),
     GoRoute(path: '/coach', pageBuilder: (_, s) => _fade(CoachScreen(seed: s.uri.queryParameters['q']), s)),
     GoRoute(path: '/lifeuk/mock', pageBuilder: (_, s) => _fade(EntryGate(key: ValueKey('gate-luk-mock-${s.uri.queryParameters['r']}'), exam: 'lifeuk', child: LukQuizScreen(key: ValueKey('luk-mock-${s.uri.queryParameters['r']}'))), s)),
     GoRoute(path: '/lifeuk/:ch', pageBuilder: (_, s) => _fade(EntryGate(key: ValueKey('gate-luk-${s.pathParameters['ch']}'), exam: 'lifeuk', chapter: s.pathParameters['ch']!, child: LukChapterScreen(id: s.pathParameters['ch']!)), s)),

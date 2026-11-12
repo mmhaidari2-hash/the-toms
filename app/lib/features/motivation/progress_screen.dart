@@ -201,6 +201,21 @@ class ProgressScreen extends ConsumerWidget {
               }),
             ]),
           ),
+          // Progress check (unofficial level estimate, repeatable)
+          card(
+            key: const ValueKey('progress-check-card'),
+            child: Row(children: [
+              const Icon(Icons.insights_rounded, color: BL.red),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(hl('Progress check'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
+                  Text(hl('Unofficial level estimate · تخمین غیررسمی سطح'), style: const TextStyle(fontSize: 12, color: BL.muted)),
+                ]),
+              ),
+              FilledButton(key: const ValueKey('open-check'), style: FilledButton.styleFrom(backgroundColor: BL.red), onPressed: () => context.push('/check'), child: Text(hl('Start'))),
+            ]),
+          ),
           // Reminders
           card(key: const ValueKey('reminders'), child: const _Reminders()),
         ],
