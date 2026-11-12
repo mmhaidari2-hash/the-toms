@@ -17,6 +17,7 @@ import '../arrival/arrival_prefetch.dart';
 import '../../core/data/repository.dart' show ContentBundle;
 import '../../core/models/course.dart';
 import '../../core/models/dialogue_node.dart';
+import '../../core/engine/role_switch.dart';
 
 /// One lesson: painting, what you'll learn, the words, then Story → Practice.
 class LessonScreen extends ConsumerWidget {
@@ -233,7 +234,7 @@ class LessonScreen extends ConsumerWidget {
                           label: Text(hl('Download audio for offline · دانلود صدا برای آفلاین')),
                         ),
                       ),
-                    if (c.variantsOf(l.sceneIds.first).isNotEmpty) ...[
+                    if (c.scenes[l.sceneIds.first] case final sc? when RoleSwitch.playable(sc, c).isNotEmpty) ...[
                       const SizedBox(height: 18),
                       _Card(
                         icon: Icons.theater_comedy_rounded,
@@ -241,99 +242,57 @@ class LessonScreen extends ConsumerWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+                            Text('هر کدام از شخصیت‌های این داستان را انتخاب کن؛ جمله‌های او مال توست و بقیه خودشان حرف می‌زنند.',
+                                textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted)),
+                            const SizedBox(height: 8),
                             Wrap(
+                              key: const ValueKey('role-picker'),
                               spacing: 8,
                               runSpacing: 8,
                               children: [
-                                for (final r in [
-                                  c.scenes[l.sceneIds.first]?.guest ?? 'learner',
-                                  ...c.variantsOf(l.sceneIds.first).keys,
-                                ])
-                                  if (c.characterOrNull(r) != null)
-                                    Pressable(
-                                      onTap: () {
-                                        ref
-                                            .read(progressProvider.notifier)
-                                            .setRole(
-                                              r ==
-                                                      c
-                                                          .scenes[l
-                                                              .sceneIds
-                                                              .first]
-                                                          ?.guest
-                                                  ? 'learner'
-                                                  : r,
-                                            );
-                                        start(
-                                          '/chat/${l.sceneIds.first}',
-                                        );
-                                      },
-                                      child: Container(
-                                        padding: const EdgeInsets.fromLTRB(
-                                          4,
-                                          4,
-                                          12,
-                                          4,
-                                        ),
-                                        decoration: BoxDecoration(
-                                          color:
-                                              ref
-                                                      .watch(progressProvider)
-                                                      .role ==
-                                                  (r ==
-                                                          c
-                                                              .scenes[l
-                                                                  .sceneIds
-                                                                  .first]
-                                                              ?.guest
-                                                      ? 'learner'
-                                                      : r)
-                                              ? BL.navy
-                                              : BL.mist,
-                                          borderRadius: BorderRadius.circular(
-                                            99,
+                                for (final o in RoleSwitch.optionsOf(sc, c))
+                                  if (o.playable && (o.id == 'learner' || c.characterOrNull(o.id) != null))
+                                    Builder(builder: (context) {
+                                      // Authored variants and the usual part keep the global role; any other part
+                                      // plays this scene with a live swap (?as=), without changing the global role.
+                                      final global = o.usual ? 'learner' : o.variant != null ? o.id : null;
+                                      final on = global != null && ref.watch(progressProvider).role == global;
+                                      final (best, runs) = RoleSwitch.readProgress(ctrl.pref(RoleSwitch.progressKey(sc, o.id)));
+                                      final name = o.usual ? (o.id == 'learner' ? 'Me (guest)' : c.character(o.id).name) : o.id == 'learner' ? 'Guest' : c.character(o.id).name;
+                                      return Pressable(
+                                        key: ValueKey('role-pick-${o.id}'),
+                                        onTap: () {
+                                          if (global != null) {
+                                            ref.read(progressProvider.notifier).setRole(global);
+                                            start('/chat/${sc.id}');
+                                          } else {
+                                            start('/chat/${sc.id}?as=${o.id}');
+                                          }
+                                        },
+                                        child: Container(
+                                          padding: const EdgeInsets.fromLTRB(4, 4, 12, 4),
+                                          decoration: BoxDecoration(color: on ? BL.navy : BL.mist, borderRadius: BorderRadius.circular(99)),
+                                          child: Row(
+                                            mainAxisSize: MainAxisSize.min,
+                                            children: [
+                                              Avatar(c.character(o.id), size: 26, ring: false),
+                                              const SizedBox(width: 6),
+                                              Text(
+                                                hl(runs > 0 ? '$name · $best%' : name),
+                                                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13, color: on ? Colors.white : BL.ink),
+                                              ),
+                                            ],
                                           ),
                                         ),
-                                        child: Row(
-                                          mainAxisSize: MainAxisSize.min,
-                                          children: [
-                                            Avatar(
-                                              c.character(r),
-                                              size: 26,
-                                              ring: false,
-                                            ),
-                                            const SizedBox(width: 6),
-                                            Text(
-                                              hl(r == 'learner'
-                                                  ? 'Me (guest)'
-                                                  : c.character(r).name),
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.w700,
-                                                fontSize: 13,
-                                                color:
-                                                    ref
-                                                            .watch(
-                                                              progressProvider,
-                                                            )
-                                                            .role ==
-                                                        (r ==
-                                                                c
-                                                                    .scenes[l
-                                                                        .sceneIds
-                                                                        .first]
-                                                                    ?.guest
-                                                            ? 'learner'
-                                                            : r)
-                                                    ? Colors.white
-                                                    : BL.ink,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
+                                      );
+                                    }),
                               ],
                             ),
+                            if (RoleSwitch.hiddenSummary(RoleSwitch.optionsOf(sc, c), c) case final h?) ...[
+                              const SizedBox(height: 8),
+                              Text(hl('${h.$1}.'), key: const ValueKey('role-hidden'), style: const TextStyle(fontSize: 11.5, color: BL.muted)),
+                              Text('${h.$2}.', textDirection: TextDirection.rtl, style: BL.fa(11, color: BL.muted)),
+                            ],
                             const SizedBox(height: 10),
                             Row(
                               children: [

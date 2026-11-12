@@ -28,13 +28,16 @@ import '../home/home_screen.dart' show ErrorState;
 import '../shared/widgets.dart';
 import '../speaking/speaking_widgets.dart';
 import '../../core/engine/pronunciation.dart';
+import '../../core/engine/role_switch.dart';
 import '../place/place_screen.dart' show hitTest;
 import '../../core/models/place.dart';
 import '../leitner/leitner_add.dart' show LeitnerWords;
 
 class ConversationScreen extends ConsumerWidget {
   final String sceneId;
-  const ConversationScreen({super.key, required this.sceneId});
+  /// Full role switching (t310): start this scene playing as this character (from the lesson's role picker).
+  final String? asRole;
+  const ConversationScreen({super.key, required this.sceneId, this.asRole});
   @override
   Widget build(BuildContext context, WidgetRef ref) => Scaffold(
     backgroundColor: const Color(0xFF140E0A),
@@ -46,12 +49,13 @@ class ConversationScreen extends ConsumerWidget {
           data: (c) {
             final role = ref.watch(progressProvider).role;
             // Full role switching: playing as a family member swaps in that member's version of the scene.
-            final s = c.scenes['${sceneId}__as_$role'] ?? c.scenes[sceneId];
+            // A role picked for this scene (?as=) plays the scene itself with a live swap; no authored variant then.
+            final s = (asRole == null ? c.scenes['${sceneId}__as_$role'] : null) ?? c.scenes[sceneId];
             if (s == null) return ErrorState(message: 'Story “$sceneId” not found.', onRetry: () => context.go('/'));
             if (!ref.read(progressProvider.notifier).canPlay(c.scenes[s.baseId ?? s.id] ?? s, c)) {
               return _Locked(c: c, s: s);
             }
-            return _Chat(c: c, s: s);
+            return _Chat(c: c, s: s, initialRole: asRole);
           },
         ),
   );
@@ -116,7 +120,8 @@ class _Feedback {
 class _Chat extends ConsumerStatefulWidget {
   final ContentBundle c;
   final Scene s;
-  const _Chat({required this.c, required this.s});
+  final String? initialRole;
+  const _Chat({required this.c, required this.s, this.initialRole});
   @override
   ConsumerState<_Chat> createState() => _ChatState();
 }
@@ -159,14 +164,24 @@ class _ChatState extends ConsumerState<_Chat> {
   // "Play as": false = the learner plays their usual part, true = they swap and play the story's character
   // (the other side is then voiced for them). Switching never restarts the scene: it carries on from the
   // current line in the new role.
-  bool _swap = false;
+  /// Who the learner plays instead of their usual part (null: the usual part). Any speaker in the scene (t310).
+  String? _as;
+  bool get _swap => _as != null;
+  /// Every part in this scene, playable or hidden with a reason (RoleSwitch).
+  late final List<RoleOption> _roles = RoleSwitch.optionsOf(widget.s, widget.c);
+  List<RoleOption> get _playable => [for (final o in _roles) if (o.playable && !o.usual) o];
+  /// Lines said well / lines said, per role, this run (per-role progress + trust on finish).
+  final _roleTally = <String, (int, int)>{};
+  /// The node the usual part has already answered (never answers twice).
+  String? _partnerFor;
   /// Profile that owns the unsent composer text. A switch must not leave that text for the next profile.
   String? _composerProfile;
   /// While swapped: the line the learner now has to say.
   DialogueNode? _mine;
   /// Who the learner usually is in this story (and who speaks the replies once they swap).
   String get _partnerId => widget.s.playAs ?? widget.s.guest ?? 'learner';
-  bool get _canSwap => widget.s.nodes.values.any((n) => n.speaker == ch.id) && ch.id != _partnerId;
+  bool get _canSwap => _playable.isNotEmpty;
+  Character get _asChar => _who(_as ?? _partnerId);
   /// What the learner can say now: the reply options, or (swapped) the character's line.
   List<(String, String?)> get _targets => _swap
       ? [if (_mine != null) (_t(_mine!.text), _tFa(lineTranslation(_mine!.translations, _lang)))]
@@ -193,6 +208,8 @@ class _ChatState extends ConsumerState<_Chat> {
   void initState() {
     super.initState();
     _composerProfile = ref.read(progressStoreProvider).activeId;
+    final r0 = widget.initialRole;
+    if (r0 != null && _playable.any((o) => o.id == r0)) _as = r0;
     _ctrl; // capture the notifier while ref is valid
     WidgetsBinding.instance.addPostFrameCallback((_) => _open());
   }
@@ -214,6 +231,7 @@ class _ChatState extends ConsumerState<_Chat> {
       await _show(ch.id, 'I’ve been practising your words, you know — ${mastered.take(3).map((w) => '“$w”').join(', ')}!', 'کلمه‌هایت را تمرین کرده‌ام — ${mastered.take(3).join('، ')}!', delay: 400);
       await Future.delayed(const Duration(milliseconds: 1200));
     }
+    if (_as != null) _roleOpening(_as!);
     if (mounted) _say(widget.s.nodes[widget.s.start]!, first: true);
   }
 
@@ -260,7 +278,8 @@ class _ChatState extends ConsumerState<_Chat> {
     await Future.delayed(Duration(milliseconds: first ? 450 : (_swap ? 350 : 600 + n.text.length * 10)));
     if (!mounted) return;
     ref.read(progressProvider.notifier).seeWords(n.newWords);
-    if (_swap && n.speaker != _partnerId) {
+    _partnerFor = null;
+    if (_swap && n.speaker == _as) {
       // Swapped: this line is the learner's to say.
       setState(() {
         _typing = false;
@@ -290,8 +309,16 @@ class _ChatState extends ConsumerState<_Chat> {
       _panel = _Panel.none;
       _myTake = null;
     });
-    Voice.say(n.speaker, n.text, rate: _autoRate, shown: _t(n.text));
-    if (n.isEnd) _finish();
+    final voiced = Voice.say(n.speaker, n.text, rate: _autoRate, shown: _t(n.text));
+    if (n.isEnd) {
+      _finish();
+      return;
+    }
+    // Playing someone else: this was another character's line, so the usual part answers it once it has been heard.
+    if (_swap && n.branches.isNotEmpty) {
+      await voiced;
+      if (mounted && _swap && !_ended && identical(_node, n) && _mine == null) _partnerReply(n);
+    }
   }
 
   Future<void> _send([String? preset]) async {
@@ -369,11 +396,13 @@ class _ChatState extends ConsumerState<_Chat> {
     _input.clear();
     _said++;
     final target = _t(n.text);
-    final score = Pronunciation.bestOf([target], [text])?.$2.score ?? 0;
+    final (ok, _) = RoleSwitch.judge(target, text);
     final name = _who(n.speaker).name;
+    final t0 = _roleTally[n.speaker] ?? (0, 0);
+    _roleTally[n.speaker] = (t0.$1 + (ok ? 1 : 0), t0.$2 + 1);
     setState(() {
       _msgs.add(_Msg('me', text, asName: name));
-      if (score >= 60) {
+      if (ok) {
         _correct++;
       } else {
         _slips++;
@@ -389,8 +418,11 @@ class _ChatState extends ConsumerState<_Chat> {
 
   /// The other side (the learner's usual part) answers [n] with its best reply, then the next line comes.
   Future<void> _partnerReply(DialogueNode n) async {
-    final b = n.branches.firstWhere((b) => b.success, orElse: () => n.branches.first);
-    await _show(_partnerId, b.suggestion, _tFa(b.suggestionFa), delay: 500);
+    if (_partnerFor == n.id || n.branches.isEmpty) return;
+    _partnerFor = n.id;
+    final b = RoleSwitch.partnerBranch(n)!;
+    // The usual part's reply plays its recorded clip where one exists (no new audio); otherwise it is text only.
+    await _show(_partnerId, b.suggestion, _tFa(b.suggestionFa), delay: 500, scripted: false);
     if (!mounted || _ended) return;
     final next = b.next == null ? null : widget.s.nodes[b.next];
     await Future.delayed(const Duration(milliseconds: 300));
@@ -402,33 +434,46 @@ class _ChatState extends ConsumerState<_Chat> {
     }
   }
 
-  /// Switch who the learner plays, mid-scene, without restarting.
-  void _setSwap(bool v) {
-    if (v == _swap || _ended) return;
+  /// Switch who the learner plays (null: the usual part), mid-scene, without restarting.
+  void _setRole(String? v) {
+    if (v == _as || _ended) return;
     HapticFeedback.selectionClick();
     Voice.stop();
     setState(() {
-      _swap = v;
+      _as = v;
       _pron = null;
       _pronIdx = null;
       _speakNote = null;
       _tapped = null;
-      _hints = v;
-      _msgs.add(_Msg('', '', system: v ? 'Now you are ${ch.name}  ·  نقش عوض شد' : 'Back to your part  ·  نقش عوض شد'));
+      _hints = v != null;
+      _msgs.add(_Msg('', '', system: v != null ? 'Now you are ${_who(v).name}  ·  نقش عوض شد' : 'Back to your part  ·  نقش عوض شد'));
     });
     // Mid-line (someone is typing): the next line simply arrives in the new role.
     if (_typing) return;
     final n = _node;
     if (n == null) return;
-    if (v) {
-      // The reply the learner owed is now spoken by the other side; then it's the learner's line.
-      if (!n.isEnd && n.branches.isNotEmpty) _partnerReply(n);
-    } else {
-      // Back to the usual part: the character says the line the learner was about to say.
-      final m = _mine;
-      _mine = null;
-      if (m != null) _say(m);
+    // The line the learner was about to say goes back to its owner (who may now be an NPC).
+    final m = _mine;
+    _mine = null;
+    if (m != null) {
+      _say(m);
+      return;
     }
+    // The reply the learner owed is now spoken by the usual part; then the story reaches the new role's line.
+    if (v != null && !n.isEnd && n.branches.isNotEmpty) _partnerReply(n);
+  }
+
+  /// Role-specific opening: who you are now, and (when you don't speak first) that the others start.
+  void _roleOpening(String role) {
+    final o = _roles.where((r) => r.id == role).firstOrNull;
+    final name = _who(role).name;
+    final (best, runs) = RoleSwitch.readProgress(ref.read(progressProvider.notifier).pref(RoleSwitch.progressKey(widget.s, role)));
+    final lines = o?.lines ?? 0;
+    final listen = (o?.before ?? 0) > 0;
+    final record = runs > 0 ? '  ·  Best as $name: $best% ($runs×) · بهترین: ٪$best' : '';
+    _msgs.add(_Msg('', '', system: 'You are $name: say $name’s $lines ${lines == 1 ? 'line' : 'lines'}; everyone else speaks for themselves.'
+        '${listen ? ' Listen first: ${o!.before} ${o.before == 1 ? 'line comes' : 'lines come'} before yours.' : ''}'
+        '  ·  تو $name هستی: $lines جملهٔ $name را بگو؛ بقیه خودشان حرف می‌زنند.${listen ? ' اول گوش کن: ${o!.before} جمله قبل از نوبت توست.' : ''}$record'));
   }
 
   String _short(String s) => s.length > 28 ? '${s.substring(0, 26)}…' : s;
@@ -556,6 +601,10 @@ class _ChatState extends ConsumerState<_Chat> {
         if (m.system == null) [m.speaker, m.text, m.node?.translations['fa'] ?? ''],
     ];
     final learned = [for (final m in _msgs) ...?m.node?.newWords];
+    final pc = ref.read(progressProvider.notifier);
+    for (final e in _roleTally.entries) {
+      RoleSwitch.record(widget.s, e.key, e.value.$1, e.value.$2, (k) => pc.pref(k), pc.setPref);
+    }
     ref.read(progressProvider.notifier).completeScene(widget.s, ch.accent, transcript: transcript, words: learned.map((w) => w.word).toList(), trustGained: _trustGained, slips: _slips, recasts: _recasts, learned: learned);
     await Future.delayed(const Duration(milliseconds: 1100));
     if (!mounted) return;
@@ -1077,6 +1126,11 @@ class _ChatState extends ConsumerState<_Chat> {
         ),
       ),
     );
+    final options = Row(mainAxisSize: MainAxisSize.min, children: [
+      opt(me, _partnerId == 'learner' ? 'You' : me.name, !_swap, () => _setRole(null), const ValueKey('playas-me')),
+      for (final o in _playable)
+        opt(_who(o.id), o.id == 'learner' ? 'Guest' : _who(o.id).name, _as == o.id, () => _setRole(o.id), ValueKey(o.id == ch.id ? 'playas-them' : 'playas-${o.id}')),
+    ]);
     return Container(
       key: const ValueKey('play-as'),
       padding: const EdgeInsets.fromLTRB(8, 3, 3, 3),
@@ -1087,8 +1141,10 @@ class _ChatState extends ConsumerState<_Chat> {
           Text(hl('در نقش'), textDirection: helperDir, style: BL.fa(10, color: Colors.white60).copyWith(height: 1.2)),
         ]),
         const SizedBox(width: 6),
-        opt(me, _partnerId == 'learner' ? 'You' : me.name, !_swap, () => _setSwap(false), const ValueKey('playas-me')),
-        opt(ch, ch.name, _swap, () => _setSwap(true), const ValueKey('playas-them')),
+        if (_playable.length > 1)
+          Flexible(child: SingleChildScrollView(key: const ValueKey('playas-roles'), scrollDirection: Axis.horizontal, child: options))
+        else
+          options,
       ]),
     );
   }
@@ -1105,7 +1161,7 @@ class _ChatState extends ConsumerState<_Chat> {
       padding: const EdgeInsets.fromLTRB(10, 5, 0, 5),
       decoration: const BoxDecoration(color: Color(0xF0140E0A), border: Border(bottom: BorderSide(color: Color(0x33C9A45C)))),
       child: Row(children: [
-        if (_canSwap) _playAs(),
+        if (_canSwap) (_playable.length > 1 ? Flexible(flex: showChips ? 3 : 1, child: _playAs()) : _playAs()),
         if (_canSwap && showChips) const SizedBox(width: 8),
         if (showChips) Expanded(child: _peopleChips(_tapHost(cover!, host))) else const Spacer(),
       ]),
@@ -1453,12 +1509,12 @@ class _ChatState extends ConsumerState<_Chat> {
           decoration: BoxDecoration(color: const Color(0x22E9B949), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xAAE9B949))),
           child: Row(children: [
             Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(hl('YOUR LINE AS ${ch.name.toUpperCase()}'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1, fontWeight: FontWeight.w800)),
+              Text(hl('YOUR LINE AS ${_asChar.name.toUpperCase()}'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 10.5, letterSpacing: 1, fontWeight: FontWeight.w800)),
               const SizedBox(height: 2),
               Text(hl(t.$1), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 14.5, height: 1.3)),
               if (t.$2 != null && t.$2!.isNotEmpty) SizedBox(width: double.infinity, child: Text(hl(t.$2!), textDirection: helperDir, style: BL.fa(11.5, color: Colors.white54))),
             ])),
-            IconButton(tooltip: 'Hear it', onPressed: () => Voice.say(ch.id, _mine?.text ?? t.$1, rate: _autoRate, shown: t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
+            IconButton(tooltip: 'Hear it', onPressed: () => Voice.say(_mine?.speaker ?? ch.id, _mine?.text ?? t.$1, rate: _autoRate, shown: t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
           ]),
         ),
       ),
@@ -1529,7 +1585,7 @@ class _ChatState extends ConsumerState<_Chat> {
               Icon(_listening ? Icons.graphic_eq_rounded : Icons.mic_rounded, color: Colors.white),
               const SizedBox(width: 10),
               Expanded(child: Text(
-                hl(_ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? (_swap ? 'Listening… say your line' : 'Listening… say one of the replies') : _partial) : (_swap ? 'Tap and say ${ch.name}’s line' : 'Tap and say your reply')),
+                hl(_ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? (_swap ? 'Listening… say your line' : 'Listening… say one of the replies') : _partial) : (_swap ? 'Tap and say ${_asChar.name}’s line' : 'Tap and say your reply')),
                 maxLines: 1, overflow: TextOverflow.ellipsis,
                 style: TextStyle(color: _listening ? Colors.white : Colors.white70, fontWeight: FontWeight.w700, fontSize: 15),
               )),

@@ -37,6 +37,13 @@ void main() {
     }
   });
 
+  test('course entry explains role switching (t310)', () {
+    final e = [for (final g in UserGuide.groups) ...g.$3].firstWhere((e) => e.route == '/course');
+    expect(e.how, contains('Swap roles'));
+    expect(e.how, contains('Play as'));
+    expect(e.howFa, contains('نقش هر شخصیت'));
+  });
+
   test('library entry matches the t310 library (hall, narrator, dictionary card, Leitner, any book opens)', () {
     final lib = [for (final g in UserGuide.groups) ...g.$3].firstWhere((e) => e.route == '/library');
     for (final w in ['front desk', 'sections', 'level-coloured shelves', 'Any book can be opened', 'narrator', 'dictionary card', 'Add to Leitner', 'new words', 'search']) {

@@ -194,7 +194,7 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/chat/:id',
-      pageBuilder: (_, s) => _fade(GuardGate(uri: s.uri, child: ConversationScreen(key: ValueKey('chat-${s.pathParameters['id']}'), sceneId: s.pathParameters['id']!)), s),
+      pageBuilder: (_, s) => _fade(GuardGate(uri: s.uri, child: ConversationScreen(key: ValueKey('chat-${s.pathParameters['id']}-${s.uri.queryParameters['as'] ?? ''}'), sceneId: s.pathParameters['id']!, asRole: s.uri.queryParameters['as'])), s),
     ),
     GoRoute(path: '/course', pageBuilder: (_, s) => _fade(CourseScreen(key: ValueKey('course-${s.uri.queryParameters['level']}'), level: int.tryParse(s.uri.queryParameters['level'] ?? '')), s)),
     GoRoute(path: '/pack/:id', pageBuilder: (_, s) => _fade(PackScreen(key: ValueKey('pack-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
