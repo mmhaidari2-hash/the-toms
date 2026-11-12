@@ -13,7 +13,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-/// Library shelf lock: locked shelves can't be opened, and the reader enforces it on deep links too.
+/// Library level notice (t310): a book above the learner's level opens with a notice, never a hard lock.
 void main() {
   group('library lock at 375x667', () {
     setUp(() => BL.useGoogleFonts = false);
@@ -27,7 +27,7 @@ void main() {
         await l.load();
       }
     });
-    testWidgets('locked shelf + locked deep link; unlocked B1 book shows voiced speaker labels', (t) async {
+    testWidgets('above-level book opens with a notice from a deep link and from the shelf; B1 book shows voiced speaker labels', (t) async {
       t.view.physicalSize = const Size(375, 667) * 3;
       t.view.devicePixelRatio = 3;
       addTearDown(t.view.reset);
@@ -49,31 +49,36 @@ void main() {
         expect(t.takeException(), isNull);
       }
 
-      // A deep link to a B1 book on a fresh learner: locked message, no text.
+      // t310: any book can be picked up. A deep link to a B1 book on a fresh learner opens the reader with an
+      // "above your level" notice instead of a lock.
       router.go('/read/b1_flood');
       await settle();
-      expect(find.byKey(const ValueKey('book-locked')), findsOneWidget);
-      expect(find.byKey(const ValueKey('reader-text')), findsNothing);
-      expect(find.textContaining('The B1 shelf opens at Level 3'), findsOneWidget);
-      await t.tap(find.byKey(const ValueKey('book-locked-library')));
-      await settle();
-      expect(find.byKey(const ValueKey('shelf-A1')), findsOneWidget);
-      expect(find.text('Locked · قفل'), findsWidgets);
-
-      // Tapping a locked cover explains why instead of opening it.
-      final list = find.byType(Scrollable).first;
-      await t.scrollUntilVisible(find.byKey(const ValueKey('book-b1_flood')), 300, scrollable: list);
+      expect(find.byKey(const ValueKey('book-locked')), findsNothing);
+      expect(find.byKey(const ValueKey('reader-text')), findsOneWidget);
+      expect(find.byKey(const ValueKey('above-level')), findsOneWidget);
+      expect(find.textContaining('above your current level (B1)'), findsOneWidget);
+      await t.tap(find.byKey(const ValueKey('above-level-close')));
       await t.pump(const Duration(milliseconds: 300));
-      expect(t.takeException(), isNull, reason: 'CP1 after scroll');
+      expect(find.byKey(const ValueKey('above-level')), findsNothing);
+
+      // On the shelf the B1 book is a normal spine: tapping it pulls the book out (no lock snack).
+      router.go('/library');
+      await settle();
+      await t.tap(find.byKey(const ValueKey('sign-fiction')));
+      await settle();
+      final aisles = find.byKey(const ValueKey('library-list'));
+      await t.scrollUntilVisible(find.byKey(const ValueKey('book-b1_flood')), 300, scrollable: find.descendant(of: aisles, matching: find.byType(Scrollable)).first);
+      await t.pump(const Duration(milliseconds: 300));
       await t.tap(find.byKey(const ValueKey('book-b1_flood')));
-      await t.pump(const Duration(milliseconds: 500));
-      expect(find.byKey(const ValueKey('shelf-locked-snack')), findsOneWidget);
-      expect(find.byKey(const ValueKey('booksheet-b1_flood')), findsNothing);
-      await t.pump(const Duration(seconds: 5));
-      expect(t.takeException(), isNull, reason: 'CP2 after snack');
+      await t.pump(const Duration(milliseconds: 600));
+      expect(find.byKey(const ValueKey('shelf-locked-snack')), findsNothing);
+      expect(find.byKey(const ValueKey('booksheet-b1_flood')), findsOneWidget);
+      await t.tapAt(const Offset(5, 5));
+      await t.pump(const Duration(milliseconds: 600));
+      expect(t.takeException(), isNull, reason: 'CP2 after pull-out');
 
       // Pass Grammar Classes A1 + A2 → B1 opens; the reader names each speaker.
-      final ctrl = ProviderScope.containerOf(t.element(find.byKey(const ValueKey('book-b1_flood')))).read(progressProvider.notifier);
+      final ctrl = ProviderScope.containerOf(t.element(find.byKey(const ValueKey('library-list')))).read(progressProvider.notifier);
       for (final id in ctrl.state.missionsDone.keys.toList()) {
         if (id.startsWith('gram:')) fail('fresh learner has grammar scores');
       }
@@ -83,7 +88,7 @@ void main() {
       }
       router.go('/read/b1_flood');
       await settle();
-      expect(find.byKey(const ValueKey('book-locked')), findsNothing);
+      expect(find.byKey(const ValueKey('above-level')), findsNothing, reason: 'B1 is now at the learner\'s level');
       expect(find.byKey(const ValueKey('reader-text')), findsOneWidget);
       expect(find.byKey(const ValueKey('spk-3')), findsOneWidget);
       expect(find.text('LESLIE'), findsOneWidget);

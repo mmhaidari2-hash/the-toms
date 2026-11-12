@@ -179,9 +179,13 @@ void main() {
 
       router.go('/library');
       await settle();
-      expect(find.byKey(const ValueKey('shelf-A1')), findsOneWidget);
-      expect(find.byKey(const ValueKey('shelf-A2')), findsOneWidget);
-      expect(find.byKey(const ValueKey('shelf-B1'), skipOffstage: false), findsOneWidget, reason: 'B1 shelf listed (locked)');
+      expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
+      expect(find.byKey(const ValueKey('aisle-map')), findsOneWidget);
+      await t.tap(find.byKey(const ValueKey('sign-children')));
+      await settle();
+      expect(find.byKey(const ValueKey('shelf-children-A1')), findsOneWidget);
+      await t.scrollUntilVisible(find.byKey(const ValueKey('book-a1_bus')), 300, scrollable: find.descendant(of: find.byKey(const ValueKey('library-list')), matching: find.byType(Scrollable)).first);
+      await t.pump(const Duration(milliseconds: 300));
       await t.tap(find.byKey(const ValueKey('book-a1_bus')));
       for (var i = 0; i < 6; i++) {
         await t.pump(const Duration(milliseconds: 200));
@@ -206,6 +210,8 @@ void main() {
       }
       expect(find.byKey(const ValueKey('word-sheet')), findsOneWidget);
       expect(find.text('سه'), findsOneWidget);
+      await t.ensureVisible(find.byKey(const ValueKey('word-save')));
+      await t.pump(const Duration(milliseconds: 200));
       await t.tap(find.byKey(const ValueKey('word-save')));
       for (var i = 0; i < 6; i++) {
         await t.pump(const Duration(milliseconds: 200));
@@ -223,6 +229,8 @@ void main() {
 
       Future<void> passQuiz() async {
         await t.scrollUntilVisible(find.byKey(const ValueKey('start-quiz')), 300, scrollable: find.descendant(of: find.byKey(const ValueKey('reader-text')), matching: find.byType(Scrollable)).first);
+        await t.pump(const Duration(milliseconds: 300));
+        await t.ensureVisible(find.byKey(const ValueKey('start-quiz'), skipOffstage: false));
         await t.pump(const Duration(milliseconds: 300));
         await t.tap(find.byKey(const ValueKey('start-quiz')));
         await t.pump(const Duration(milliseconds: 500));
@@ -247,7 +255,8 @@ void main() {
       expect(ctrl.badgesEarned, contains('book1'));
       router.go('/library');
       await settle();
-      expect(find.byKey(const ValueKey('finished-a1_bus')), findsOneWidget);
+      expect(find.byKey(const ValueKey('your-loans')), findsOneWidget, reason: 'finished book on the front desk');
+      expect(find.byKey(const ValueKey('finished-a1_bus')), findsWidgets);
       await t.pump(const Duration(seconds: 3));
     });
   });

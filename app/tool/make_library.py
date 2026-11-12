@@ -42,6 +42,9 @@ c=json.load(open(os.path.join(A,'data/course.json')))
 for u in c['units']+[u for p in c.get('packs',[]) for u in p['units']]:
   for l in u['lessons']:
     for w in l.get('words',[]): COURSE.setdefault(w['word'].lower(),w['fa'])
+# The app's own glossary (every word the course explains) is the last offline fallback.
+GLOSSARY={k.lower():v[1] for k,v in json.load(open(os.path.join(A,'data/glossary.json'))).items() if isinstance(v,list) and len(v)>1 and v[1]}
+for k,v in GLOSSARY.items(): COURSE.setdefault(k,v)
 TOK=re.compile(r"[A-Za-zÀ-ÿ]+(?:['’-][A-Za-zÀ-ÿ]+)*")
 def variants(w):
   out=[w]
@@ -67,6 +70,10 @@ for gf in glob.glob(os.path.join(H,'library','gloss_*.txt')):
     if not ln or ln.startswith('#'): continue
     for kv in ln.split(' ; '):
       k,v=kv.split('=',1); d[k.strip().lower()]=v.strip()
+# Library sections (lib/features/library/library_data.dart Library.categories). The 30 family stories:
+# A1 = Children's & Easy Reads; everyday-Britain stories = Travel & UK Life; the rest = Fiction.
+SECTIONS={'fiction','children','poetry','history','science','biography','uklife','reference'}
+CAT={'a2_driving':'uklife','b1_train':'uklife','b2_interview':'uklife','b2_ae':'uklife','b2_scam':'uklife','c1_inspection':'uklife','c1_postoffice':'uklife','a2_wallet':'uklife','c1_letters':'history'}
 SPK=re.compile(r'^([a-z]+)> (.*)$')
 books=[]; missing={}; bad=[]
 for f in sorted(g for g in glob.glob(os.path.join(H,'library','*.txt')) if not os.path.basename(g).startswith('gloss_')):
@@ -79,6 +86,13 @@ for f in sorted(g for g in glob.glob(os.path.join(H,'library','*.txt')) if not o
     elif ln.startswith('# '):
       t=[x.strip() for x in ln[2:].split('|')]
       bk={'id':t[0],'level':t[1],'title':t[2],'titleFa':t[3],'cover':t[4],'blurb':t[5],'blurbFa':t[6],'chapters':[],'gloss':{}}; books.append(bk)
+      bk['cat']=CAT.get(t[0],'children' if t[1]=='A1' else 'fiction')
+    elif ln.startswith('@ '):
+      # @ cat=history | author=… | src=… | audio=device | orig=1
+      for kv in ln[2:].split(' | '):
+        k,v=kv.split('=',1); k=k.strip(); v=v.strip()
+        if k not in ('cat','author','src','audio','orig'): bad.append(f"{bk['id']}: unknown @{k}")
+        bk[k]=(v=='1') if k=='orig' else v
     elif ln.startswith('Q:'):
       q,opts=[x.strip() for x in ln[2:].split('|')]; o=[x.strip() for x in opts.split(';')]
       ch['quiz'].append({'q':q,'options':o,'answer':0})
@@ -122,5 +136,27 @@ for bk in books:
 if missing:
   for k,v in missing.items(): print('MISSING',k,sorted(v))
   sys.exit(1)
+for bk in books:
+  if bk['cat'] not in SECTIONS: bad.append(f"{bk['id']}: unknown section {bk['cat']}")
+  if bk.get('audio','recorded') not in ('recorded','device'): bad.append(f"{bk['id']}: audio must be recorded|device")
+  if bk['cat']!='children' and bk['level']!='A1' and bk.get('orig') is None and bk.get('author') and not bk.get('src'): bad.append(f"{bk['id']}: classic without src")
+  # Words worth learning: content words (not grammar words, not names); the app subtracts the learner's own words.
+  bk['vocab']=sorted(k for k,v in bk['gloss'].items() if k not in BASE and v and not v.startswith('اسم:') and not v.startswith('مالِ ') and len(k)>2 and k.isascii())
+if bad: print('\n'.join(bad)); sys.exit(1)
+# Offline dictionary card (part of speech, simple English definition, example) from Open English WordNet 2025
+# (CC BY 4.0, https://github.com/globalwordnet/english-wordnet), compacted by /workspace/wordnet/build_min.py.
+# Only the words the books use are shipped. Without the compact file the previous dictionary asset is kept.
+WN=os.environ.get('OEWN_MIN','/workspace/wordnet/oewn_min.json')
+DPATH=os.path.join(A,'data/library_dict.json')
+if os.path.exists(WN):
+  wn=json.load(open(WN)); E=wn['entries']; F=wn['forms']; D={}
+  for bk in books:
+    for k in bk['gloss']:
+      if k in D or not k.isascii(): continue
+      for v in [k, F.get(k,'')]+variants(k):
+        if v and v in E: D[k]=E[v]; break
+  json.dump({'_source':'Open English WordNet 2025 (CC BY 4.0) https://github.com/globalwordnet/english-wordnet — definitions shortened to the first sense per part of speech','entries':D},open(DPATH,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
+  print('dictionary',len(D),'of',len({k for b in books for k in b['gloss']}),'words')
 json.dump({'books':books},open(os.path.join(A,'data/library.json'),'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
-for bk in books: print(bk['level'],bk['id'],len(bk['chapters']),'ch',bk['words'],'words')
+for bk in books: print(bk['level'],bk['cat'],bk['id'],len(bk['chapters']),'ch',bk['words'],'words')
+print('TOTAL',len(books),'books',sum(len(b['chapters']) for b in books),'chapters',sum(b['words'] for b in books),'words')

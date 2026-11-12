@@ -4,7 +4,10 @@ import '../grammar/grammar_data.dart';
 import '../grammar/school_screen.dart';
 import 'library_data.dart';
 
-/// Which Library shelves are open. Same rule as the Grammar School classes, so a learner meets
+/// Which Library shelves are at the learner's level. Since t310 a shelf above the level is NOT a hard lock:
+/// any book can be opened, with an "above your level" notice. (The Library is in the free area; no
+/// monetisation guard applies to it.)
+/// Original rule: which Library shelves are open. Same rule as the Grammar School classes, so a learner meets
 /// each level at the same time everywhere: A1 is always open; a higher shelf opens when the course
 /// reaches that level, or the previous Grammar class is passed — or when the previous shelf is
 /// finished, or a book on it was already started (nobody loses a book they're reading).
@@ -27,7 +30,19 @@ class LibraryGate {
     return grammar.classOpen(code);
   }
 
-  /// Why a shelf is shut (EN, FA).
+  /// Above the learner's current level: the book still opens (any book can be picked up), with a notice.
+  bool aboveLevel(Book b) => !shelfOpen(b.level);
+
+  /// The "above your level" notice (EN, FA).
+  static (String, String) aboveNotice(String code) {
+    final (en, fa) = why(code);
+    return (
+      'This book is above your current level ($code). You can still read it — tap any word for help. $en',
+      'این کتاب از سطح فعلی‌ات ($code) بالاتر است. باز هم می‌توانی بخوانی‌اش؛ برای کمک روی هر کلمه بزن. $fa',
+    );
+  }
+
+  /// Why a shelf is not yet at your level (EN, FA).
   static (String, String) why(String code) {
     final i = Library.levels.indexWhere((l) => l.code == code);
     final prev = i > 0 ? Library.levels[i - 1].code : 'A1';

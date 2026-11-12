@@ -5,18 +5,51 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
+import '../grammar/grammar_data.dart';
 import '../shared/nav.dart';
 import 'library_data.dart';
 import 'library_gate.dart';
-import '../grammar/grammar_data.dart';
+import 'reading_state.dart';
+import 'word_card.dart';
 
-const _wall = Color(0xFFF3E9D8), _wood = Color(0xFF8A5A2E), _woodDark = Color(0xFF5E3B1C);
+const _wall = Color(0xFFF3E9D8), _wood = Color(0xFF8A5A2E), _woodDark = Color(0xFF5E3B1C), _woodLight = Color(0xFFA9733F);
 
-/// The Library: painted wooden shelves, one per CEFR level; tap a book for its card, then read.
-class LibraryScreen extends ConsumerWidget {
+/// Spine-label colour per CEFR level (like the coloured dots on a public-library spine label).
+Color levelColor(String level) => switch (level) {
+      'A1' => const Color(0xFF2E8B57),
+      'A2' => const Color(0xFF14869A),
+      'B1' => const Color(0xFF2F5DA8),
+      'B2' => const Color(0xFF7A3FA0),
+      _ => const Color(0xFFB0283A),
+    };
+
+const _spineCols = [Color(0xFF7B2D26), Color(0xFF1F4E5F), Color(0xFF3D5A3A), Color(0xFF5B3A6B), Color(0xFF8C6A2F), Color(0xFF2C3E66), Color(0xFF6E3B2A), Color(0xFF34584F), Color(0xFF7A4B5E), Color(0xFF4A4A6A)];
+
+/// The Library: a British public library you walk through. Front desk (continue reading, new arrivals, your
+/// loans), section signs as a mini-map, one aisle per section (Dewey-style order) with a bookcase whose shelves
+/// are arranged by level; tap a spine and the book slides out. A plain searchable list is one tap away.
+/// Everything is data-driven: sections = [Library.categories], books = assets/data/library.json.
+class LibraryScreen extends ConsumerStatefulWidget {
   const LibraryScreen({super.key});
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<LibraryScreen> createState() => _LibraryScreenState();
+}
+
+class _LibraryScreenState extends ConsumerState<LibraryScreen> {
+  final _pages = PageController();
+  int aisle = 0;
+  // list view filters
+  String query = '', status = 'all', sort = 'level';
+  String? section, level;
+
+  @override
+  void dispose() {
+    _pages.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final lib = ref.watch(libraryProvider);
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
@@ -24,25 +57,427 @@ class LibraryScreen extends ConsumerWidget {
     final books = lib.value, topics = ref.watch(grammarProvider).value, content = ref.watch(contentProvider).value;
     if (books == null || topics == null || content == null) return const NavLoading();
     final gate = LibraryGate(ctrl, content, topics, books, unlockAll: ref.read(progressProvider).gatesOpen);
+    final listMode = ctrl.pref('libView', 'hall') == 'list';
+    final sections = [for (final s in Library.categories) if (books.any((b) => b.category == s.id)) s];
     return Scaffold(
       backgroundColor: _wall,
-      body: ListView(
+      body: CustomScrollView(
         key: const ValueKey('library-list'),
-        padding: EdgeInsets.fromLTRB(0, pad.top + 6, 0, pad.bottom + 32),
-        children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Row(children: [NavButtons(), SizedBox(width: 10), Text('THE LIBRARY', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))]),
-              const SizedBox(height: 10),
-              Text('Graded readers', style: BL.display(28)),
-              Text(hl('کتاب‌های درجه‌بندی‌شده · داستان‌های کوتاه بریتانیایی با صدای راوی'), textDirection: helperDir, style: BL.fa(13)),
-              const SizedBox(height: 6),
-              Text(hl('${ctrl.booksDone} of ${books.length} books finished  ·  tap any word for its meaning'), style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 12.5)),
+        slivers: [
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(20, pad.top + 6, 12, 0),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Row(children: [
+                  const NavButtons(),
+                  const SizedBox(width: 10),
+                  const Expanded(child: Text('THE LIBRARY', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))),
+                  IconButton(
+                    key: const ValueKey('library-view-toggle'),
+                    tooltip: listMode ? 'Walk the library' : 'List view (search & filter)',
+                    onPressed: () => ctrl.setPref('libView', listMode ? 'hall' : 'list'),
+                    icon: Icon(listMode ? Icons.account_balance_rounded : Icons.view_list_rounded, color: BL.ink),
+                  ),
+                ]),
+              ]),
+            ),
+          ),
+          SliverToBoxAdapter(child: _Facade(booksDone: ctrl.booksDone, total: books.length)),
+          if (!listMode) ...[
+            SliverToBoxAdapter(child: _FrontDesk(books: books)),
+            SliverToBoxAdapter(
+              child: _AisleSigns(
+                sections: sections,
+                current: aisle,
+                onTap: (i) => _pages.animateToPage(i, duration: const Duration(milliseconds: 420), curve: Curves.easeOutCubic),
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: SizedBox(
+                height: _aisleHeight(books, sections),
+                child: PageView(
+                  key: const ValueKey('aisles'),
+                  controller: _pages,
+                  onPageChanged: (i) => setState(() => aisle = i),
+                  children: [for (final s in sections) _Aisle(section: s, books: books.where((b) => b.category == s.id).toList(), gate: gate)],
+                ),
+              ),
+            ),
+            SliverToBoxAdapter(child: SizedBox(height: pad.bottom + 28)),
+          ] else ...[
+            SliverToBoxAdapter(child: _filters(sections)),
+            _results(books, gate, pad.bottom),
+          ],
+        ],
+      ),
+    );
+  }
+
+  static const _shelfH = 168.0;
+  double _aisleHeight(List<Book> books, List<LibraryCategory> sections) {
+    var most = 1;
+    for (final s in sections) {
+      final n = Library.levels.where((l) => books.any((b) => b.category == s.id && b.level == l.code)).length;
+      if (n > most) most = n;
+    }
+    return 64 + most * _shelfH + 26;
+  }
+
+  Widget _filters(List<LibraryCategory> sections) {
+    Widget chip(String label, bool on, VoidCallback tap, String key) => Padding(
+          padding: const EdgeInsetsDirectional.only(end: 6),
+          child: FilterChip(key: ValueKey(key), label: Text(hl(label)), selected: on, onSelected: (_) => tap(), showCheckmark: false, selectedColor: BL.navy.withValues(alpha: .15)),
+        );
+    return Padding(
+      key: const ValueKey('library-list-view'),
+      padding: const EdgeInsets.fromLTRB(16, 6, 16, 4),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        TextField(
+          key: const ValueKey('library-search'),
+          decoration: InputDecoration(
+            prefixIcon: const Icon(Icons.search_rounded),
+            hintText: hl('Search title, author or topic · جستجو'),
+            filled: true,
+            fillColor: BL.paper,
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: BorderSide.none),
+          ),
+          onChanged: (v) => setState(() => query = v.trim().toLowerCase()),
+        ),
+        const SizedBox(height: 8),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(children: [
+            chip('All levels · همه', level == null, () => setState(() => level = null), 'f-level-all'),
+            for (final l in Library.levels) chip(l.code, level == l.code, () => setState(() => level = level == l.code ? null : l.code), 'f-level-${l.code}'),
+          ]),
+        ),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(children: [
+            chip('All sections · همهٔ بخش‌ها', section == null, () => setState(() => section = null), 'f-sec-all'),
+            for (final s in sections) chip('${s.name} · ${s.nameFa}', section == s.id, () => setState(() => section = section == s.id ? null : s.id), 'f-sec-${s.id}'),
+          ]),
+        ),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(children: [
+            for (final (id, label) in const [('all', 'Any · همه'), ('unread', 'Unread · نخوانده'), ('reading', 'Reading · در حال خواندن'), ('finished', 'Finished · تمام‌شده')])
+              chip(label, status == id, () => setState(() => status = id), 'f-status-$id'),
+            const SizedBox(width: 6),
+            PopupMenuButton<String>(
+              key: const ValueKey('f-sort'),
+              initialValue: sort,
+              onSelected: (v) => setState(() => sort = v),
+              itemBuilder: (_) => [
+                for (final (id, label) in const [('level', 'Level · سطح'), ('short', 'Shortest · کوتاه‌ترین'), ('long', 'Longest · بلندترین'), ('title', 'A–Z · الفبا')]) PopupMenuItem(value: id, key: ValueKey('sort-$id'), child: Text(hl(label))),
+              ],
+              child: Chip(avatar: const Icon(Icons.sort_rounded, size: 18), label: Text(hl('Sort · مرتب‌سازی'))),
+            ),
+          ]),
+        ),
+      ]),
+    );
+  }
+
+  Widget _results(List<Book> books, LibraryGate gate, double bottom) {
+    final ctrl = ref.read(progressProvider.notifier);
+    final list = filterBooks(books, ctrl, query: query, level: level, section: section, status: status, sort: sort);
+    if (list.isEmpty) {
+      return SliverToBoxAdapter(
+        child: Padding(padding: const EdgeInsets.all(32), child: Text(hl('No books match · کتابی پیدا نشد'), key: const ValueKey('no-results'), textAlign: TextAlign.center)),
+      );
+    }
+    return SliverPadding(
+      padding: EdgeInsets.fromLTRB(16, 4, 16, bottom + 24),
+      sliver: SliverList.builder(
+        itemCount: list.length,
+        itemBuilder: (_, i) => _BookRow(book: list[i], above: gate.aboveLevel(list[i])),
+      ),
+    );
+  }
+}
+
+/// Search / filter / sort for the list view (pure, unit-tested).
+List<Book> filterBooks(List<Book> books, ProgressController ctrl, {String query = '', String? level, String? section, String status = 'all', String sort = 'level'}) {
+  final q = query.toLowerCase();
+  final out = books.where((b) {
+    if (level != null && b.level != level) return false;
+    if (section != null && b.category != section) return false;
+    if (q.isNotEmpty) {
+      final hay = '${b.title} ${b.titleFa} ${b.author} ${b.blurb} ${Library.category(b.category).name}'.toLowerCase();
+      if (!hay.contains(q)) return false;
+    }
+    final done = ctrl.bookDone(b.id), started = ctrl.bookStarted(b);
+    return switch (status) { 'unread' => !started, 'reading' => started && !done, 'finished' => done, _ => true };
+  }).toList();
+  int byLevel(Book a, Book b) => a.levelIndex.compareTo(b.levelIndex);
+  out.sort(switch (sort) {
+    'short' => (a, b) => a.words.compareTo(b.words),
+    'long' => (a, b) => b.words.compareTo(a.words),
+    'title' => (a, b) => a.title.toLowerCase().compareTo(b.title.toLowerCase()),
+    _ => (a, b) => byLevel(a, b) != 0 ? byLevel(a, b) : a.title.compareTo(b.title),
+  });
+  return out;
+}
+
+/// The library's painted front: a stone arch with lamps and the name board.
+class _Facade extends StatelessWidget {
+  final int booksDone, total;
+  const _Facade({required this.booksDone, required this.total});
+  @override
+  Widget build(BuildContext context) => Padding(
+        padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+        child: SizedBox(
+          height: 128,
+          child: CustomPaint(
+            painter: _FacadePainter(),
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.only(top: 22),
+                child: Column(mainAxisSize: MainAxisSize.min, children: [
+                  Text('NEW LIFE PUBLIC LIBRARY', style: BL.display(17, color: const Color(0xFFF7E7C1), w: FontWeight.w700).copyWith(letterSpacing: 1.2)),
+                  Text(hl('کتابخانهٔ عمومی'), textDirection: helperDir, style: BL.fa(12.5, color: const Color(0xFFF7E7C1))),
+                  const SizedBox(height: 6),
+                  Text(hl('$total books · $booksDone finished'), key: const ValueKey('library-count'), style: const TextStyle(color: Color(0xFFEBD9B4), fontSize: 11.5, fontWeight: FontWeight.w700)),
+                ]),
+              ),
+            ),
+          ),
+        ),
+      );
+}
+
+class _FacadePainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size s) {
+    final stone = Paint()..color = const Color(0xFFD9CBB0);
+    final r = RRect.fromRectAndRadius(Offset.zero & s, const Radius.circular(18));
+    canvas.drawRRect(r, stone);
+    // courses of stone
+    final line = Paint()
+      ..color = const Color(0xFFC4B392)
+      ..strokeWidth = 1;
+    for (var y = 14.0; y < s.height; y += 14) {
+      canvas.drawLine(Offset(8, y), Offset(s.width - 8, y), line);
+    }
+    // arch with a dark green board
+    final w = s.width * .78, x = (s.width - w) / 2;
+    final arch = Path()
+      ..moveTo(x, s.height)
+      ..lineTo(x, 40)
+      ..quadraticBezierTo(s.width / 2, -6, x + w, 40)
+      ..lineTo(x + w, s.height)
+      ..close();
+    canvas.drawPath(arch, Paint()..color = const Color(0xFF1F3B2E));
+    canvas.drawPath(arch, Paint()
+      ..color = const Color(0xFFB89B5E)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 3);
+    // lamps
+    for (final lx in [x / 2, s.width - x / 2]) {
+      canvas.drawCircle(Offset(lx, 34), 14, Paint()..color = const Color(0x55FFD680));
+      canvas.drawCircle(Offset(lx, 34), 6, Paint()..color = const Color(0xFFFFE3A0));
+      canvas.drawRect(Rect.fromLTWH(lx - 1.5, 40, 3, s.height - 44), Paint()..color = const Color(0xFF3B3B3B));
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+}
+
+/// Front desk: continue reading, new arrivals, your loans (in progress + finished).
+class _FrontDesk extends ConsumerWidget {
+  final List<Book> books;
+  const _FrontDesk({required this.books});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final ctrl = ref.read(progressProvider.notifier);
+    final last = books.where((b) => b.id == ctrl.lastBook).firstOrNull;
+    final arrivals = books.where((b) => b.audio == 'device' || b.category != 'fiction' && b.category != 'children' && b.category != 'uklife').take(10).toList();
+    final loans = books.where((b) => ctrl.bookStarted(b)).toList()..sort((a, b) => ctrl.bookDone(a.id) ? 1 : (ctrl.bookDone(b.id) ? -1 : 0));
+    return Container(
+      key: const ValueKey('front-desk'),
+      margin: const EdgeInsets.fromLTRB(16, 14, 16, 0),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(18),
+        gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [_woodLight, _wood]),
+        boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .22), blurRadius: 10, offset: const Offset(0, 5))],
+      ),
+      padding: const EdgeInsets.fromLTRB(14, 10, 14, 14),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Row(children: [
+          const Icon(Icons.room_service_rounded, color: Color(0xFFF7E7C1), size: 18),
+          const SizedBox(width: 6),
+          Text(hl('Front desk · میز امانت'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, letterSpacing: .4)),
+        ]),
+        const SizedBox(height: 8),
+        if (last != null)
+          _DeskCard(
+            key: const ValueKey('continue-reading'),
+            book: last,
+            label: 'Continue reading · ادامهٔ خواندن',
+            trailing: '${ctrl.readPercent(last)}%',
+            onTap: () => context.push('/read/${last.id}'),
+          )
+        else
+          Text(hl('Pick any book from the shelves below — your place is kept automatically · هر کتابی را از قفسه‌ها بردار؛ جایت خودکار نگه داشته می‌شود'), style: const TextStyle(color: Color(0xFFF7E7C1), fontSize: 12.5)),
+        if (arrivals.isNotEmpty) ...[
+          const SizedBox(height: 10),
+          Text(hl('New arrivals · تازه‌ها'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w700, fontSize: 12.5)),
+          const SizedBox(height: 6),
+          SizedBox(
+            height: 96,
+            child: ListView(key: const ValueKey('new-arrivals'), scrollDirection: Axis.horizontal, children: [
+              for (final b in arrivals) Padding(padding: const EdgeInsetsDirectional.only(end: 8), child: _MiniCover(book: b)),
             ]),
           ),
-          for (final lv in Library.levels) _Shelf(level: lv, books: books.where((b) => b.level == lv.code).toList(), open: gate.shelfOpen(lv.code)),
         ],
+        if (loans.isNotEmpty) ...[
+          const SizedBox(height: 10),
+          Text(hl('Your loans · امانت‌های تو (${loans.where((b) => ctrl.bookDone(b.id)).length} finished)'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w700, fontSize: 12.5)),
+          const SizedBox(height: 6),
+          SizedBox(
+            height: 96,
+            child: ListView(key: const ValueKey('your-loans'), scrollDirection: Axis.horizontal, children: [
+              for (final b in loans) Padding(padding: const EdgeInsetsDirectional.only(end: 8), child: _MiniCover(book: b, done: ctrl.bookDone(b.id), pct: ctrl.readPercent(b))),
+            ]),
+          ),
+        ],
+      ]),
+    );
+  }
+}
+
+class _DeskCard extends StatelessWidget {
+  final Book book;
+  final String label, trailing;
+  final VoidCallback onTap;
+  const _DeskCard({super.key, required this.book, required this.label, required this.trailing, required this.onTap});
+  @override
+  Widget build(BuildContext context) => Material(
+        color: const Color(0xFFFBF3E2),
+        borderRadius: BorderRadius.circular(14),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(14),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(8),
+            child: Row(children: [
+              BookCover(book, width: 40),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(hl(label), style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: BL.red)),
+                  Text(hl(book.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w800, color: BL.ink)),
+                ]),
+              ),
+              Text(hl(trailing), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.green)),
+              const Icon(Icons.play_arrow_rounded, color: BL.ink),
+            ]),
+          ),
+        ),
+      );
+}
+
+class _MiniCover extends ConsumerWidget {
+  final Book book;
+  final bool done;
+  final int? pct;
+  const _MiniCover({required this.book, this.done = false, this.pct});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) => Column(mainAxisSize: MainAxisSize.min, children: [
+        BookCover(book, width: 56, done: done, keyPrefix: 'desk', onTap: () => showBookPullOut(context, ref, book)),
+        if (pct != null && !done) SizedBox(width: 56, child: LinearProgressIndicator(value: pct! / 100, minHeight: 3, color: BL.gold, backgroundColor: Colors.white24)),
+      ]);
+}
+
+/// Hanging section signs: the mini-map of aisles. Tap one to walk to it.
+class _AisleSigns extends StatelessWidget {
+  final List<LibraryCategory> sections;
+  final int current;
+  final ValueChanged<int> onTap;
+  const _AisleSigns({required this.sections, required this.current, required this.onTap});
+  @override
+  Widget build(BuildContext context) => SizedBox(
+        height: 74,
+        child: ListView(
+          key: const ValueKey('aisle-map'),
+          scrollDirection: Axis.horizontal,
+          padding: const EdgeInsets.fromLTRB(16, 14, 16, 4),
+          children: [
+            for (var i = 0; i < sections.length; i++)
+              Padding(
+                padding: const EdgeInsetsDirectional.only(end: 8),
+                child: Semantics(
+                  button: true,
+                  selected: i == current,
+                  label: 'Aisle ${i + 1}: ${sections[i].name}',
+                  child: GestureDetector(
+                    key: ValueKey('sign-${sections[i].id}'),
+                    onTap: () => onTap(i),
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 250),
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: i == current ? const Color(0xFF1F3B2E) : const Color(0xFF2F4F40).withValues(alpha: .75),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: const Color(0xFFB89B5E), width: i == current ? 2 : 1),
+                        boxShadow: i == current ? [BoxShadow(color: Colors.black.withValues(alpha: .25), blurRadius: 6, offset: const Offset(0, 3))] : null,
+                      ),
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                        Text(hl('${Library.dewey[sections[i].id] ?? ''}  ${sections[i].name}'), style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, fontSize: 12)),
+                        Text(hl(sections[i].nameFa), textDirection: helperDir, style: BL.fa(10.5, color: const Color(0xFFEBD9B4))),
+                      ]),
+                    ),
+                  ),
+                ),
+              ),
+          ],
+        ),
+      );
+}
+
+/// One aisle: the section's bookcase, one shelf per level (colour-coded label plate), books as spines.
+class _Aisle extends ConsumerWidget {
+  final LibraryCategory section;
+  final List<Book> books;
+  final LibraryGate gate;
+  const _Aisle({required this.section, required this.books, required this.gate});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final ctrl = ref.read(progressProvider.notifier);
+    final levels = [for (final l in Library.levels) if (books.any((b) => b.level == l.code)) l];
+    return Padding(
+      key: ValueKey('aisle-${section.id}'),
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(14),
+          gradient: const LinearGradient(colors: [_woodDark, _wood, _woodDark], stops: [0, .5, 1]),
+          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 12, offset: const Offset(0, 6))],
+        ),
+        padding: const EdgeInsets.fromLTRB(8, 8, 8, 10),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          // brass section plate
+          Container(
+            height: 44,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
+              gradient: const LinearGradient(colors: [Color(0xFFCBA45A), Color(0xFFF1D58E), Color(0xFFB88C3A)]),
+            ),
+            child: Text.rich(
+              TextSpan(children: [
+                TextSpan(text: hl(section.name), style: BL.display(16, color: _woodDark, w: FontWeight.w800)),
+                const TextSpan(text: '   '),
+                TextSpan(text: hl(section.nameFa), style: BL.fa(13, color: _woodDark, w: FontWeight.w700)),
+              ]),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+          for (final l in levels) _Shelf(level: l, books: books.where((b) => b.level == l.code).toList(), gate: gate, ctrl: ctrl),
+        ]),
       ),
     );
   }
@@ -51,137 +486,190 @@ class LibraryScreen extends ConsumerWidget {
 class _Shelf extends ConsumerWidget {
   final LibraryLevel level;
   final List<Book> books;
-  final bool open;
-  const _Shelf({required this.level, required this.books, this.open = true});
-  void _locked(BuildContext context) => _shelfLockedSnack(context, level.code);
+  final LibraryGate gate;
+  final ProgressController ctrl;
+  const _Shelf({required this.level, required this.books, required this.gate, required this.ctrl});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final ctrl = ref.read(progressProvider.notifier);
-    final empty = books.isEmpty;
-    return Padding(
-      key: ValueKey('shelf-${level.code}'),
-      padding: const EdgeInsets.only(top: 22),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Row(children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
-              decoration: BoxDecoration(color: empty || !open ? BL.muted : BL.navy, borderRadius: BorderRadius.circular(8)),
-              child: Row(mainAxisSize: MainAxisSize.min, children: [
-                if (!open && !empty) const Padding(padding: EdgeInsets.only(right: 3), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white)),
-                Text(hl(level.code), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13)),
-              ]),
+    final above = !gate.shelfOpen(level.code);
+    return SizedBox(
+      key: ValueKey('shelf-${books.first.category}-${level.code}'),
+      height: _LibraryScreenState._shelfH,
+      child: Stack(children: [
+        // back panel
+        Positioned.fill(top: 8, bottom: 14, child: DecoratedBox(decoration: BoxDecoration(color: const Color(0xFF3E2714), borderRadius: BorderRadius.circular(4)))),
+        // plank
+        Positioned(
+          left: 0,
+          right: 0,
+          bottom: 0,
+          height: 16,
+          child: DecoratedBox(
+            decoration: BoxDecoration(
+              gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [_woodLight, _wood, _woodDark]),
+              boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 4, offset: const Offset(0, 3))],
             ),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text.rich(
-                TextSpan(children: [
-                  TextSpan(text: hl(level.name), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
-                  const TextSpan(text: '  '),
-                  TextSpan(text: hl(level.nameFa), style: BL.fa(13)),
-                ]),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ),
-            const SizedBox(width: 6),
-            Text(hl(empty ? 'Coming soon · به‌زودی' : !open ? 'Locked · قفل' : '${books.where((b) => ctrl.bookDone(b.id)).length}/${books.length}'), key: ValueKey('shelf-status-${level.code}'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
-          ]),
+          ),
         ),
-        const SizedBox(height: 10),
-        SizedBox(
-          height: 172,
-          child: Stack(children: [
-            // the plank the books stand on
-            Positioned(
-              left: 0,
-              right: 0,
-              bottom: 0,
-              height: 16,
-              child: DecoratedBox(
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFFA9733F), _wood, _woodDark]),
-                  boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .25), blurRadius: 8, offset: const Offset(0, 5))],
-                ),
-              ),
-            ),
-            ListView(
-              scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
-              children: [
-                if (empty)
-                  for (var i = 0; i < 6; i++) _Spine(i)
-                else
-                  for (final b in books)
-                    Padding(
-                      padding: const EdgeInsets.only(right: 12),
-                      child: open
-                          ? BookCover(b, done: ctrl.bookDone(b.id), onTap: () => showBookSheet(context, ref, b))
-                          : Stack(alignment: Alignment.center, children: [
-                              Opacity(opacity: .45, child: BookCover(b, onTap: () => _locked(context))),
-                              const IgnorePointer(child: Icon(Icons.lock_rounded, color: Colors.white, size: 30)),
-                            ]),
-                    ),
-              ],
-            ),
-          ]),
+        // level label plate on the plank edge
+        Positioned(
+          left: 6,
+          bottom: 1,
+          child: Container(
+            key: ValueKey('shelf-label-${books.first.category}-${level.code}'),
+            padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 1),
+            decoration: BoxDecoration(color: levelColor(level.code), borderRadius: BorderRadius.circular(4)),
+            child: Text(hl('${level.code} · ${level.name}${above ? '  ↑' : ''}'), style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w800)),
+          ),
+        ),
+        Positioned.fill(
+          bottom: 16,
+          child: ListView(
+            scrollDirection: Axis.horizontal,
+            padding: const EdgeInsets.fromLTRB(10, 12, 10, 0),
+            children: [for (final b in books) _Spine(book: b, done: ctrl.bookDone(b.id), started: ctrl.bookStarted(b))],
+          ),
         ),
       ]),
     );
   }
 }
 
-void _shelfLockedSnack(BuildContext context, String code) {
-  final (en, fa) = LibraryGate.why(code);
-  ScaffoldMessenger.of(context)
-    ..hideCurrentSnackBar()
-    ..showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, duration: const Duration(seconds: 4), content: Text(hl('$en\n$fa'), key: const ValueKey('shelf-locked-snack'))));
-}
-
-/// Placeholder spine for a shelf that is still being written.
-class _Spine extends StatelessWidget {
-  final int i;
-  const _Spine(this.i);
+/// A book spine on the shelf: width from length, colour from the id, a coloured level sticker at the foot.
+class _Spine extends ConsumerWidget {
+  final Book book;
+  final bool done, started;
+  const _Spine({required this.book, this.done = false, this.started = false});
   @override
-  Widget build(BuildContext context) {
-    const cols = [Color(0xFF9DB0A3), Color(0xFFC7A27C), Color(0xFF9AA4BF), Color(0xFFBF9A9A), Color(0xFFB8B08A), Color(0xFFA5A0B8)];
-    return Align(
-      alignment: Alignment.bottomCenter,
-      child: Container(
-        width: 30 + (i % 3) * 4.0,
-        height: 120 + (i * 7 % 30),
-        margin: const EdgeInsets.only(right: 4),
-        decoration: BoxDecoration(color: cols[i % cols.length].withValues(alpha: .55), borderRadius: BorderRadius.circular(3)),
+  Widget build(BuildContext context, WidgetRef ref) {
+    final h = book.id.hashCode.abs();
+    final w = (24 + book.chapters.length * 3.0 + book.words / 600).clamp(26.0, 48.0);
+    final ht = 112.0 + h % 22;
+    final col = _spineCols[h % _spineCols.length];
+    return Semantics(
+      button: true,
+      label: '${book.title}, ${book.level}, ${book.minutes} minutes${done ? ', finished' : ''}',
+      child: GestureDetector(
+        key: ValueKey('book-${book.id}'),
+        onTap: () => showBookPullOut(context, ref, book),
+        child: Align(
+          alignment: Alignment.bottomCenter,
+          child: Container(
+            width: w,
+            height: ht,
+            margin: const EdgeInsets.only(right: 3),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(3),
+              gradient: LinearGradient(colors: [Color.lerp(col, Colors.black, .25)!, col, Color.lerp(col, Colors.white, .12)!, col, Color.lerp(col, Colors.black, .3)!], stops: const [0, .15, .45, .8, 1]),
+              boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .35), blurRadius: 2, offset: const Offset(1, 1))],
+            ),
+            child: Column(children: [
+              Container(height: 5, margin: const EdgeInsets.only(top: 8), color: const Color(0xFFD4B26A).withValues(alpha: .8)),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 6),
+                  child: RotatedBox(
+                    quarterTurns: 3,
+                    child: Text(hl(book.title), maxLines: 1, overflow: TextOverflow.ellipsis, textAlign: TextAlign.center, style: BL.display(11.5, color: const Color(0xFFF7E7C1), w: FontWeight.w700)),
+                  ),
+                ),
+              ),
+              if (done) const Icon(Icons.check_circle_rounded, size: 13, color: Color(0xFF9BE3B5)) else if (started) Container(width: 6, height: 12, color: BL.gold),
+              // library spine label: white sticker with a coloured level band
+              Container(
+                margin: const EdgeInsets.fromLTRB(3, 4, 3, 6),
+                padding: const EdgeInsets.symmetric(vertical: 2),
+                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(2), border: Border(top: BorderSide(color: levelColor(book.level), width: 4))),
+                alignment: Alignment.center,
+                child: Text(hl(book.level), style: TextStyle(fontSize: 9, fontWeight: FontWeight.w900, color: levelColor(book.level))),
+              ),
+            ]),
+          ),
+        ),
       ),
     );
   }
 }
 
-/// A painted cover: a crop of a scene painting, the title on a band, a ribbon once finished.
+/// List-view row: cover, title, author, level, minutes, chapters, progress.
+class _BookRow extends ConsumerWidget {
+  final Book book;
+  final bool above;
+  const _BookRow({required this.book, required this.above});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final ctrl = ref.read(progressProvider.notifier);
+    final pct = ctrl.readPercent(book);
+    return Card(
+      key: ValueKey('row-${book.id}'),
+      margin: const EdgeInsets.only(bottom: 10),
+      color: BL.paper,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: () => showBookPullOut(context, ref, book),
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Row(children: [
+            BookCover(book, width: 56, done: ctrl.bookDone(book.id), keyPrefix: 'rowcover'),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(hl(book.title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15, color: BL.ink)),
+                if (book.author.isNotEmpty) Text(hl(book.author), style: const TextStyle(fontSize: 12, color: BL.muted)),
+                const SizedBox(height: 4),
+                Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                  _LevelBadge(book.level),
+                  Text(hl('${book.minutes} min · ${book.chapters.length} ch · ${Library.category(book.category).name}'), style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w700)),
+                  if (above) Text(hl('Above your level · بالاتر از سطح تو'), style: const TextStyle(fontSize: 11, color: BL.red, fontWeight: FontWeight.w700)),
+                ]),
+                if (pct > 0) ...[
+                  const SizedBox(height: 6),
+                  ClipRRect(borderRadius: BorderRadius.circular(3), child: LinearProgressIndicator(value: pct / 100, minHeight: 4, color: BL.green, backgroundColor: BL.mist)),
+                ],
+              ]),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+}
+
+class _LevelBadge extends StatelessWidget {
+  final String level;
+  const _LevelBadge(this.level);
+  @override
+  Widget build(BuildContext context) => Container(
+        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+        decoration: BoxDecoration(color: levelColor(level), borderRadius: BorderRadius.circular(5)),
+        child: Text(hl(level), style: const TextStyle(color: Colors.white, fontSize: 10.5, fontWeight: FontWeight.w800)),
+      );
+}
+
+/// A painted cover: a crop of a scene painting, the title on a band, the level, a tick once finished.
 class BookCover extends StatelessWidget {
   final Book book;
   final bool done;
   final VoidCallback? onTap;
   final double width;
-  const BookCover(this.book, {super.key, this.done = false, this.onTap, this.width = 106});
+  final String keyPrefix;
+  const BookCover(this.book, {super.key, this.done = false, this.onTap, this.width = 106, this.keyPrefix = 'cover'});
   @override
   Widget build(BuildContext context) {
     final h = width * 1.48;
-    return Align(
-      alignment: Alignment.bottomCenter,
-      child: GestureDetector(
-        key: ValueKey('book-${book.id}'),
-        onTap: onTap,
-        child: Container(
-          width: width,
-          height: h,
-          decoration: BoxDecoration(borderRadius: const BorderRadius.horizontal(left: Radius.circular(3), right: Radius.circular(8)), boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .28), blurRadius: 6, offset: const Offset(2, 3))]),
-          clipBehavior: Clip.antiAlias,
-          child: Stack(fit: StackFit.expand, children: [
-            Image.asset(book.coverAsset, fit: BoxFit.cover, alignment: Alignment.center, errorBuilder: (_, _, _) => Container(color: BL.navy)),
-            // spine shading
-            const Positioned(left: 0, top: 0, bottom: 0, width: 9, child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(colors: [Color(0x66000000), Color(0x00000000)])))),
+    return GestureDetector(
+      key: ValueKey('$keyPrefix-${book.id}'),
+      onTap: onTap,
+      child: Container(
+        width: width,
+        height: h,
+        decoration: BoxDecoration(borderRadius: const BorderRadius.horizontal(left: Radius.circular(3), right: Radius.circular(8)), boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .28), blurRadius: 6, offset: const Offset(2, 3))]),
+        clipBehavior: Clip.antiAlias,
+        child: Stack(fit: StackFit.expand, children: [
+          Image.asset(book.coverAsset, fit: BoxFit.cover, cacheWidth: (width * 3).round(), errorBuilder: (_, _, _) => Container(color: BL.navy)),
+          const Positioned(left: 0, top: 0, bottom: 0, width: 9, child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(colors: [Color(0x66000000), Color(0x00000000)])))),
+          if (width >= 70)
             Positioned(
               left: 0,
               right: 0,
@@ -192,99 +680,158 @@ class BookCover extends StatelessWidget {
                 child: Text(hl(book.title), maxLines: 3, overflow: TextOverflow.ellipsis, style: BL.display(width / 8.2, color: Colors.white, w: FontWeight.w700).copyWith(height: 1.1)),
               ),
             ),
+          Positioned(top: 4, left: 8, child: _LevelBadge(book.level)),
+          if (done)
             Positioned(
-              top: 6,
-              left: 12,
+              top: 4,
+              right: 4,
               child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
-                decoration: BoxDecoration(color: BL.cream.withValues(alpha: .92), borderRadius: BorderRadius.circular(5)),
-                child: Text(hl(book.level), style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: BL.navy)),
+                key: ValueKey('finished-${book.id}'),
+                padding: const EdgeInsets.all(2),
+                decoration: BoxDecoration(color: BL.green, shape: BoxShape.circle, border: Border.all(color: Colors.white, width: 1.5)),
+                child: const Icon(Icons.check_rounded, size: 11, color: Colors.white),
               ),
             ),
-            if (done)
-              Positioned(
-                top: 6,
-                right: 6,
-                child: Container(
-                  key: ValueKey('finished-${book.id}'),
-                  padding: const EdgeInsets.all(3),
-                  decoration: BoxDecoration(color: BL.green, shape: BoxShape.circle, border: Border.all(color: Colors.white, width: 1.5)),
-                  child: const Icon(Icons.check_rounded, size: 13, color: Colors.white),
-                ),
-              ),
-          ]),
-        ),
+        ]),
       ),
     );
   }
 }
 
-Future<void> showBookSheet(BuildContext context, WidgetRef ref, Book b) {
-  final ctrl = ref.read(progressProvider.notifier);
-  final next = ctrl.nextChapter(b.id, b.chapters.length);
-  final started = ctrl.readScore(b.id, 0) != null;
-  return showModalBottomSheet<void>(
+/// Tap a spine: the book slides out of the shelf (pull-out with a turn), showing its cover, blurb, level,
+/// length, progress and new words; then open it to read.
+Future<void> showBookPullOut(BuildContext context, WidgetRef ref, Book b) {
+  return showGeneralDialog<void>(
     context: context,
-    isScrollControlled: true,
-    backgroundColor: BL.cream,
-    showDragHandle: true,
-    shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(26))),
-    builder: (sheet) => SafeArea(
-      child: SingleChildScrollView(
-        key: ValueKey('booksheet-${b.id}'),
-        padding: const EdgeInsets.fromLTRB(20, 0, 20, 16),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            BookCover(b, width: 84, done: ctrl.bookDone(b.id)),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(hl(b.title), style: BL.display(21)),
-                Text(hl(b.titleFa), textDirection: helperDir, style: BL.fa(14)),
-                const SizedBox(height: 6),
-                Text(hl('${b.level}  ·  ${b.chapters.length} chapters  ·  ${b.words} words  ·  ~${(b.words / 60).ceil()} min'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+    barrierDismissible: true,
+    barrierLabel: 'Close',
+    barrierColor: Colors.black.withValues(alpha: .45),
+    transitionDuration: const Duration(milliseconds: 420),
+    pageBuilder: (ctx, _, _) => _PullOut(book: b),
+    transitionBuilder: (ctx, anim, _, child) {
+      final t = CurvedAnimation(parent: anim, curve: Curves.easeOutCubic, reverseCurve: Curves.easeInCubic);
+      return AnimatedBuilder(
+        animation: t,
+        builder: (_, _) => Opacity(
+          opacity: t.value.clamp(0, 1),
+          child: Transform(
+            alignment: Alignment.bottomCenter,
+            transform: Matrix4.identity()
+              ..setEntry(3, 2, .0012)
+              ..translateByDouble(0, (1 - t.value) * 160, 0, 1)
+              ..rotateY((1 - t.value) * 1.1)
+              ..scaleByDouble(.6 + .4 * t.value, .6 + .4 * t.value, 1, 1),
+            child: child,
+          ),
+        ),
+      );
+    },
+  );
+}
+
+class _PullOut extends ConsumerWidget {
+  final Book book;
+  const _PullOut({required this.book});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    ref.watch(progressProvider);
+    final b = book;
+    final ctrl = ref.read(progressProvider.notifier);
+    final pos = ctrl.readPos(b.id);
+    final started = ctrl.bookStarted(b), done = ctrl.bookDone(b.id);
+    final pct = ctrl.readPercent(b);
+    final media = MediaQuery.sizeOf(context);
+    return SafeArea(
+      child: Center(
+        child: Material(
+          key: ValueKey('booksheet-${b.id}'),
+          color: BL.cream,
+          elevation: 16,
+          shadowColor: Colors.black54,
+          borderRadius: BorderRadius.circular(24),
+          clipBehavior: Clip.antiAlias,
+          child: Container(
+            width: media.width.clamp(0, 520) - 28,
+            constraints: BoxConstraints(maxHeight: media.height * .86),
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(18, 18, 18, 14),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  BookCover(b, width: 92, done: done, keyPrefix: 'pull'),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text(hl(b.title), style: BL.display(21)),
+                      Text(hl(b.titleFa), textDirection: helperDir, style: BL.fa(14)),
+                      if (b.author.isNotEmpty) Text(hl(b.author), key: const ValueKey('book-author'), style: const TextStyle(fontSize: 12.5, color: BL.muted, fontWeight: FontWeight.w600)),
+                      const SizedBox(height: 6),
+                      Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                        _LevelBadge(b.level),
+                        Text(hl('${b.chapters.length} chapters · ${b.words} words · ~${b.minutes} min'), key: const ValueKey('book-meta'), style: const TextStyle(color: BL.muted, fontSize: 12, fontWeight: FontWeight.w700)),
+                      ]),
+                      const SizedBox(height: 4),
+                      Text(hl('${Library.category(b.category).name} · ${Library.category(b.category).nameFa}'), style: const TextStyle(fontSize: 11.5, color: BL.muted)),
+                      Text(
+                        hl(b.deviceVoice ? 'Audio: device voice · صدای دستگاه' : 'Audio: recorded British voices · صدای ضبط‌شده'),
+                        key: const ValueKey('book-audio'),
+                        style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w600),
+                      ),
+                    ]),
+                  ),
+                ]),
+                const SizedBox(height: 12),
+                Text(hl(b.blurb), style: const TextStyle(fontSize: 15, height: 1.35, color: BL.ink)),
+                const SizedBox(height: 4),
+                Text(hl(b.blurbFa), textDirection: helperDir, style: BL.fa(13.5)),
+                if (b.original || b.source.isNotEmpty) ...[
+                  const SizedBox(height: 6),
+                  Text(hl(b.original ? 'Original text (unabridged) · متن اصلی' : 'Graded adaptation · بازنویسی ساده‌شده'), style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700, color: BL.navy)),
+                ],
+                if (started) ...[
+                  const SizedBox(height: 10),
+                  Row(children: [
+                    Expanded(child: ClipRRect(borderRadius: BorderRadius.circular(3), child: LinearProgressIndicator(value: pct / 100, minHeight: 5, color: BL.green, backgroundColor: BL.mist))),
+                    const SizedBox(width: 8),
+                    Text(hl('$pct%'), key: const ValueKey('book-pct'), style: const TextStyle(fontWeight: FontWeight.w800, color: BL.green)),
+                  ]),
+                ],
+                const SizedBox(height: 10),
+                NewWordsCard(book: b),
+                FilledButton.icon(
+                  key: const ValueKey('book-read'),
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    context.push(done || pos == null ? '/read/${b.id}?ch=0' : '/read/${b.id}');
+                  },
+                  style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                  icon: const Icon(Icons.auto_stories_rounded),
+                  label: Text(hl(done ? 'Read again' : (pos != null ? 'Continue · chapter ${pos.$1 + 1}' : 'Start reading')), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                ),
+                const SizedBox(height: 8),
+                for (var i = 0; i < b.chapters.length; i++)
+                  ListTile(
+                    key: ValueKey('chapter-$i'),
+                    dense: true,
+                    contentPadding: EdgeInsets.zero,
+                    leading: CircleAvatar(radius: 14, backgroundColor: BL.mist, child: Text(hl('${i + 1}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: BL.ink))),
+                    title: Text(hl(b.chapters[i].title), style: const TextStyle(fontWeight: FontWeight.w700)),
+                    subtitle: Text(hl(b.chapters[i].titleFa), textDirection: helperDir, style: BL.fa(12)),
+                    trailing: Builder(builder: (_) {
+                      final s = ctrl.readScore(b.id, i);
+                      if (s == null) return const Icon(Icons.chevron_right_rounded, color: BL.muted);
+                      return Text(hl('$s%'), style: TextStyle(fontWeight: FontWeight.w800, color: s >= Library.pass ? BL.green : BL.red));
+                    }),
+                    onTap: () {
+                      Navigator.of(context).pop();
+                      context.push('/read/${b.id}?ch=$i');
+                    },
+                  ),
+                if (b.source.isNotEmpty) Text(hl('Source: ${b.source}'), key: const ValueKey('book-source'), style: const TextStyle(fontSize: 10.5, color: BL.muted)),
               ]),
             ),
-          ]),
-          const SizedBox(height: 12),
-          Text(hl(b.blurb), style: const TextStyle(fontSize: 15, height: 1.35, color: BL.ink)),
-          const SizedBox(height: 4),
-          Align(alignment: Alignment.centerRight, child: Text(hl(b.blurbFa), textDirection: helperDir, style: BL.fa(13.5))),
-          const SizedBox(height: 8),
-          SizedBox(
-            width: double.infinity,
-            child: FilledButton.icon(
-              key: const ValueKey('book-read'),
-              onPressed: () {
-                Navigator.of(sheet).pop();
-                context.push('/read/${b.id}?ch=$next');
-              },
-              style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
-              icon: const Icon(Icons.auto_stories_rounded),
-              label: Text(hl(ctrl.bookDone(b.id) ? 'Read again' : (started ? 'Continue · chapter ${next + 1}' : 'Start reading')), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
-            ),
           ),
-          const SizedBox(height: 10),
-          for (var i = 0; i < b.chapters.length; i++)
-            ListTile(
-              key: ValueKey('chapter-$i'),
-              dense: true,
-              contentPadding: EdgeInsets.zero,
-              leading: CircleAvatar(radius: 14, backgroundColor: BL.mist, child: Text(hl('${i + 1}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12, color: BL.ink))),
-              title: Text(hl(b.chapters[i].title), style: const TextStyle(fontWeight: FontWeight.w700)),
-              subtitle: Text(hl(b.chapters[i].titleFa), textDirection: helperDir, style: BL.fa(12)),
-              trailing: Builder(builder: (_) {
-                final s = ctrl.readScore(b.id, i);
-                if (s == null) return const Icon(Icons.chevron_right_rounded, color: BL.muted);
-                return Text(hl('$s%'), style: TextStyle(fontWeight: FontWeight.w800, color: s >= Library.pass ? BL.green : BL.red));
-              }),
-              onTap: () {
-                Navigator.of(sheet).pop();
-                context.push('/read/${b.id}?ch=$i');
-              },
-            ),
-        ]),
+        ),
       ),
-    ),
-  );
+    );
+  }
 }
