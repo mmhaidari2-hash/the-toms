@@ -307,3 +307,15 @@ English: The native Arrival warmer and the player now share `systemTemp/newlifeu
 انتشار: کلیپ‌ها فقط روی `fix/offline-audio-content` هستند. GitHub Pages از `main` سرو می‌شود و عوض نشد؛ اپ زنده تا انتشار جداگانه این کلیپ‌ها را نمی‌بیند. انتشار مجوز ندارد.
 
 English: All 22,030 manifest clips were rendered (0 failed) and pass ffprobe. Billable characters (SSML minus speak/voice tags) were 1,706,812, about £23.10 incl. 20% VAT at £11.2778 per million (Azure retail price, uksouth). A duplicate run at 00:57 London sent about 100 untracked requests (~£0.10). This is an estimate, not an invoice. Focused tests: 13 pass, 1 fail (`audio sync`: 10,528 older clips carry a previous voice signature; none are new). Clips are on the fix branch only; the live host was not changed.
+
+## ۱۲ نوامبر ۲۰۲۶ — بازسازی هم‌صدایی ۱۰٬۵۲۸ کلیپ قدیمی
+
+مجوز: مالک (t284) بازسازی کلیپ‌های قدیمی را با جمع کل جلسه زیر ۵۰ پوند تأیید کرد. سقف این اجرا ۲۴ پوند بود.
+
+نتیجه: هر ۱۰٬۵۲۸ شناسهٔ `docs/audio/rerender-voice-sync-manifest.jsonl` با صدای فعلی ساخته شد (۱۰٬۵۱۸ در این اجرا، ۱۰ پیش‌تر). ۰ خطا، توقف با سقف: خیر. ffprobe روی هر ۱۰٬۵۲۸ فایل: mp3 معتبر، ۰ خراب. `tool/audit/voice_manifest.json` ثبت شد؛ بررسی پایتون: هر ۴۴٬۴۳۷ کلیپ `index.json` امضای فعلی گوینده را دارد.
+
+هزینه: نویسهٔ قابل‌صورتحساب ۱٬۲۲۶٬۷۳۵ (SSML کامل ۳٬۰۵۹٬۰۳۹ فقط سقف محافظه‌کارانه)، ۱۰٬۵۴۲ درخواست. برآورد حدود ۱۶٫۶۰ پوند با مالیات؛ جمع جلسه حدود ۳۹٫۸۰ پوند. صورتحساب Azure خوانده نشد.
+
+آزمون: `cd app && flutter test test/arrival_pack_test.dart test/audit_test.dart` با Flutter 3.47.7 / Dart 3.13.5 (کف SDK موقتاً پایین آمد و برگشت): `+13 -1`. رد «audio sync» به‌خاطر regex آزمون است که `('voice','pitch','rate','style')` را نمی‌خواند، پس `me`/`learner` بی‌صدا شمرده می‌شوند. با regex اصلاح‌شدهٔ موقت (commit نشد): `+14`. اصلاح آزمون باز است.
+
+English: Re-rendered all 10,528 voice-sync clips (0 failed, ffprobe OK). Billable chars 1,226,735, about £16.60 incl. VAT; session estimate about £39.80 (< £50). Not an invoice. Tests 13 pass, 1 fail. The failure is the audit test regex ignoring the 4-tuple style voices (me/learner). With a temporary uncommitted regex fix, all 14 pass. Live host unchanged.
