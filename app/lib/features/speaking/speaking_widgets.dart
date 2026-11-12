@@ -165,7 +165,43 @@ class _Legend extends StatelessWidget {
   );
 }
 
-/// Android/native builds report both flags false. Do not promise OS recognition or in-app recording there.
+/// Privacy line for Android speech recognition (owner t306): honest about Google, nothing uploaded by the app.
+const androidSttPrivacy = "Android turns your speech into text with the phone's own speech recognizer (usually Google's). On phones with an offline English model it runs on the device; otherwise, depending on your Android settings, Google may process your voice on its servers. New Life UK does not record, store or upload your voice.";
+const androidSttPrivacyFa = 'اندروید گفتار شما را با تشخیص گفتار خود گوشی (معمولاً گوگل) به متن تبدیل می‌کند. اگر گوشی مدل آفلاین انگلیسی داشته باشد روی خود دستگاه انجام می‌شود؛ وگرنه بسته به تنظیمات اندروید، ممکن است گوگل صدایتان را روی سرورهایش پردازش کند. New Life UK صدای شما را ضبط، ذخیره یا ارسال نمی‌کند.';
+
+/// True on the installed Android app when the phone's speech recognizer is in use.
+bool nativeStt({bool? web, bool? sttSupported}) => !(web ?? kIsWeb) && (sttSupported ?? SpeechInput.sttSupported);
+
+/// Explanation shown once before Android's microphone prompt. Returns true when the learner continues.
+Future<bool> showMicRationale(BuildContext context) async {
+  final ok = await showDialog<bool>(
+    context: context,
+    builder: (d) => AlertDialog(
+      key: const ValueKey('mic-rationale'),
+      title: const Text('Use your voice?'),
+      content: SingleChildScrollView(
+        child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Text('To practise speaking, New Life UK needs the microphone. It only listens while the microphone button is red.'),
+          const SizedBox(height: 6),
+          Text('برای تمرین صحبت، New Life UK به میکروفون نیاز دارد. فقط وقتی دکمهٔ میکروفون قرمز است گوش می‌دهد.', textDirection: helperDir, style: BL.fa(12.5, color: BL.muted)),
+          const SizedBox(height: 10),
+          const Text(androidSttPrivacy, style: TextStyle(fontSize: 13)),
+          const SizedBox(height: 6),
+          Text(androidSttPrivacyFa, textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+          const SizedBox(height: 10),
+          const Text('You can always type instead. · همیشه می‌توانید به‌جایش بنویسید.', style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w700)),
+        ]),
+      ),
+      actions: [
+        TextButton(key: const ValueKey('mic-rationale-no'), onPressed: () => Navigator.pop(d, false), child: const Text('Type instead · نوشتن')),
+        FilledButton(key: const ValueKey('mic-rationale-yes'), style: FilledButton.styleFrom(backgroundColor: BL.red), onPressed: () => Navigator.pop(d, true), child: const Text('Continue · ادامه')),
+      ],
+    ),
+  );
+  return ok ?? false;
+}
+
+/// Native builds without a recognizer report both flags false. Do not promise OS recognition or in-app recording there.
 bool get nativeSpeechOff => !kIsWeb && !SpeechInput.sttSupported && !SpeechInput.recordSupported;
 
 /// Tooltip for the reply microphone. Web can still point at the keyboard mic; the installed app cannot.
@@ -190,6 +226,16 @@ MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? rec
   final stt = sttSupported ?? SpeechInput.sttSupported;
   final record = recordSupported ?? SpeechInput.recordSupported;
   final installed = !webOn && !stt && !record;
+  if (!webOn && stt) {
+    if (error == 'unsupported') {
+      return const MicHelpCopy(
+        "Speaking isn't available on this phone",
+        'This phone has no speech recognition service. Type a reply, or tap one of the answers.',
+        'این گوشی سرویس تشخیص گفتار ندارد. جواب را بنویس، یا یکی از پاسخ‌ها را بزن.',
+      );
+    }
+    return const MicHelpCopy('Allow the microphone', androidSttPrivacy, androidSttPrivacyFa);
+  }
   if (installed) {
     return const MicHelpCopy(
       "Speaking isn't available in this app",
@@ -226,6 +272,7 @@ MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? rec
 (String, String) scoreMicNote({bool? web, bool? sttSupported}) {
   final webOn = web ?? kIsWeb;
   final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && stt) return (androidSttPrivacy, androidSttPrivacyFa);
   if (!webOn && !stt) {
     return (
       'This installed app cannot turn your voice into text, and it does not record you. Type your answer instead.',
@@ -242,6 +289,12 @@ MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? rec
 (String, String) coachIntro({bool? web, bool? sttSupported}) {
   final webOn = web ?? kIsWeb;
   final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && stt) {
+    return (
+      'Hear the model, then say the same line. Your phone\'s speech recognizer turns it into text and the words it heard are highlighted. This checks words, not sounds — New Life UK does not record or upload your voice.',
+      'مدل را بشنو، بعد همان جمله را بگو. تشخیص گفتار گوشی آن را به متن تبدیل می‌کند و واژه‌های شنیده‌شده پررنگ می‌شوند. این واژه‌ها را می‌سنجد، نه صداها را — اپ صدایت را ضبط یا آپلود نمی‌کند.',
+    );
+  }
   if (!webOn && !stt) {
     return (
       'This installed app cannot score your voice and does not record you. Hear the model, then type the line if you want to practise the words.',
@@ -257,6 +310,12 @@ MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? rec
 (String, String) coachAiNote({bool? web, bool? sttSupported}) {
   final webOn = web ?? kIsWeb;
   final stt = sttSupported ?? SpeechInput.sttSupported;
+  if (!webOn && stt) {
+    return (
+      'AI aid: model audio is neural text-to-speech; the check uses your phone\'s speech-to-text — not a human teacher and not a phoneme score.',
+      'کمک هوش مصنوعی: صدای نمونه TTS است؛ سنجش با گفتار به متن گوشی — معلم انسان نیست و نمرهٔ واجی نیست.',
+    );
+  }
   if (!webOn && !stt) {
     return (
       'AI aid: the model audio is neural text-to-speech. This installed app does not turn your speech into text.',
@@ -274,6 +333,12 @@ MicHelpCopy micHelpCopy(String? error, {bool? web, bool? sttSupported, bool? rec
   final webOn = web ?? kIsWeb;
   final stt = sttSupported ?? SpeechInput.sttSupported;
   final record = recordSupported ?? SpeechInput.recordSupported;
+  if (!webOn && stt) {
+    return (
+      'Speech recognition didn\'t start on this phone. Type your reply, or tap one above.',
+      'تشخیص گفتار روی این گوشی شروع نشد. جوابت را بنویس، یا یکی از جواب‌های بالا را بزن.',
+    );
+  }
   if (!webOn && !stt && !record) {
     return (
       'This app cannot turn speech into text on this device, and it does not record you. Type your reply, or tap one above.',
@@ -320,7 +385,12 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
                 const SizedBox(height: 6),
                 const Text(key: ValueKey('mic-help-standalone'), 'Opened from your Home Screen? Apple may not allow speech there: open New Life UK in Safari to speak, or type / tap your reply.'),
               ],
-              if (!unsupported && !dictation) ...[
+              if (!unsupported && !dictation && nativeStt()) ...[
+                const SizedBox(height: 8),
+                const Text(key: ValueKey('mic-help-android'), 'Android: Settings › Apps › New Life UK › Permissions › Microphone › Allow. For speech without the internet, add English (UK) under Settings › System › Languages › On-device speech recognition (names vary by phone).'),
+                const SizedBox(height: 6),
+                Text('اندروید: تنظیمات › برنامه‌ها › New Life UK › مجوزها › میکروفون › اجازه. برای گفتار بدون اینترنت، انگلیسی (بریتانیا) را در «تشخیص گفتار روی دستگاه» اضافه کنید.', textDirection: helperDir, style: BL.fa(12, color: BL.muted)),
+              ] else if (!unsupported && !dictation) ...[
                 const SizedBox(height: 8),
                 const Text('iPhone (Safari): tap "aA" in the address bar › Website Settings › Microphone › Allow. Or Settings › Apps › Safari › Microphone.'),
                 const SizedBox(height: 6),

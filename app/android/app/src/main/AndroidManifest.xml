@@ -2,6 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- Voice clips stream from the app's own site (they are too big to pack in the APK). -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Speaking practice (owner t306): Android's own speech recognizer, requested at runtime after an EN+FA
+         explanation. The app never records, stores or uploads audio itself. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <!-- Free build: purchases_flutter stays, but Play Billing is not used.
          Billing.available is false while PremiumConfig.betaFree is true and RC_GOOGLE_KEY is empty.
          Delete this line before a paid build (betaFree false and a public RC_GOOGLE_KEY). -->
@@ -49,6 +52,10 @@
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
     <queries>
+        <!-- Android 11+ package visibility: find the device's speech recognition service. -->
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>

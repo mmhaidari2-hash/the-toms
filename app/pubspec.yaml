@@ -49,6 +49,7 @@ dependencies:
   path_provider: ^2.1.6 # imported directly by lib/core/data/progress_store.dart (was transitive only)
   purchases_flutter: ^11.0.1
   share_plus: ^12.0.2
+  speech_to_text: ^7.5.0
 
 dev_dependencies:
   flutter_test:

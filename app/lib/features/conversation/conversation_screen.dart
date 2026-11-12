@@ -472,7 +472,7 @@ class _ChatState extends ConsumerState<_Chat> {
     if (!r.ok) {
       if (r.permissionDenied && !SpeechInput.sttBroken) {
         showMicHelp(context, r.error, onType: () => _setSpeakMode(false));
-      } else if (SpeechInput.sttBroken) {
+      } else if (SpeechInput.sttBroken || r.error == 'unsupported') {
         // The speech service doesn't run here (often the iPhone Home Screen app): fall back to the keyboard's
         // own dictation mic, which works everywhere, and say so once.
         ref.read(progressProvider.notifier).setSpeakMode(false);

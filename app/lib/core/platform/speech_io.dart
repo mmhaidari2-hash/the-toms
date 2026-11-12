@@ -3,10 +3,12 @@ import 'dart:convert';
 import 'dart:io' show Directory, File, HttpClient, HttpHeaders, Platform;
 
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../billing/offline_voices.dart';
 import 'audio_ver.g.dart';
+import 'native_stt.dart';
 import 'speech_result.dart';
 import 'speech_stub.dart' as stub;
 export 'speech_result.dart';
@@ -23,18 +25,50 @@ class SpeechInput {
       'https://mmhaidari2-hash.github.io/the-toms/assets/';
   static final bool _native = Platform.isAndroid;
 
-  static bool get sttSupported => false;
+  // ---- Speech recognition (owner t306 item 1): Android's own SpeechRecognizer, on-device when the phone has an
+  // offline English model. The app never records or uploads audio itself. Other native platforms: typing only.
+  static NativeStt? _sttP;
+  static bool _sttForced = false;
+  static NativeStt get _stt => _sttP ??= NativeStt(PluginSttBackend());
+
+  /// Test seam: run the Android recognizer path on the test VM with a fake backend (null resets).
+  @visibleForTesting
+  static void debugUseStt(NativeStt? stt) {
+    _sttP = stt;
+    _sttForced = stt != null;
+  }
+
+  static bool get sttSupported => (_native || _sttForced) && !(_sttP?.unavailable ?? false);
   static bool get recordSupported => false;
   static bool get sttBroken => stub.SpeechInput.sttBroken;
   static void setBroken(bool v) => stub.SpeechInput.setBroken(v);
   static bool get isIos => false;
   static bool get isStandalone => false;
-  static Future<String?> listen() async => null;
+  static Future<String?> listen() async {
+    final r = await listenDetailed();
+    return r.ok ? r.best : null;
+  }
+
   static Future<SpeechResult> listenDetailed({
     void Function(String partial)? onPartial,
-  }) async => const SpeechResult(error: 'unsupported');
-  static void stop() {}
-  static Future<String> micPermission() async => 'unknown';
+  }) async {
+    if (!sttSupported) return const SpeechResult(error: 'unsupported');
+    stopClip(); // never transcribe our own voice clip
+    return _stt.listen(onPartial: onPartial);
+  }
+
+  static void stop() {
+    if (_native || _sttForced) _sttP?.stop();
+  }
+
+  static Future<String> micPermission() async {
+    if (!sttSupported) return 'unknown';
+    try {
+      return await _stt.backend.hasPermission() ? 'granted' : 'prompt';
+    } catch (_) {
+      return 'unknown';
+    }
+  }
   static Future<void> startRecording() async {}
   static Future<String?> stopRecording() async => null;
 

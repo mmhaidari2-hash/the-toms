@@ -7,6 +7,8 @@ import '../core/i18n/helper_text.dart';
 import '../core/models/user_progress.dart';
 
 import '../core/platform/retry_bundle.dart';
+import '../core/platform/speech_result.dart';
+import '../features/speaking/speaking_widgets.dart' show showMicRationale;
 import '../features/leitner/leitner_add.dart';
 import '../features/shared/voice_feedback.dart';
 import 'route_guard.dart';
@@ -59,6 +61,11 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
     super.initState();
     // Offline voices (Premium): read live per clip so a purchase/restore applies at once (see OfflineVoices).
     OfflineVoices.allowed = () => mounted ? ref.read(progressProvider.notifier).offlineVoicesUnlocked : false;
+    // Android speech recognition (t306): explain before the system microphone prompt.
+    SpeechHooks.rationale = () async {
+      final ctx = router.routerDelegate.navigatorKey.currentContext;
+      return ctx == null ? false : showMicRationale(ctx);
+    };
     // Central route guard (every navigation and deep link) with live progress and content.
     RouteGuard.check = (uri) => mounted ? guardLocation(uri, ref.read(progressProvider.notifier), ref.read(contentProvider).value?.course) : null;
   }
