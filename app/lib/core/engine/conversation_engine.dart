@@ -1,4 +1,5 @@
 import '../models/dialogue_node.dart';
+import 'understand.dart';
 
 class MatchResult {
   final Branch? branch;
@@ -95,7 +96,18 @@ class ConversationEngine {
     ];
   }
 
+  /// Matches a free reply. The original strict matcher runs first, unchanged, so every reply that matched before
+  /// still reaches the same branch; only when it finds nothing does the tolerant layer ([Understand]) try
+  /// contractions, spelling variants, synonyms, word endings, speech-recognition slips and the reply's own wording.
   static MatchResult match(DialogueNode node, String input, {List<String> vocab = const []}) {
+    final strict = matchStrict(node, input, vocab: vocab);
+    if (strict.branch != null) return strict;
+    final loose = Understand.match(node, input);
+    return loose.branch == null ? strict : MatchResult(loose.branch, loose.score, strict.matchedWords, specific: loose.specific);
+  }
+
+  /// The pre-t306 matcher (kept exactly; regression baseline).
+  static MatchResult matchStrict(DialogueNode node, String input, {List<String> vocab = const []}) {
     final norm = normalise(input);
     final tokens = _tokens(norm);
     final used = <String>[
@@ -138,23 +150,31 @@ class ConversationEngine {
   /// "Do you sell saffron?" at the help line continues with the aisle answer.
   /// A polite "yes please" still stops on the question it has not answered.
   static MatchResult route(Map<String, DialogueNode> nodes, DialogueNode current, String input, {List<String> vocab = const []}) {
-    final here = match(current, input, vocab: vocab);
-    if (here.branch != null) return _skipAnswered(nodes, here, input, vocab: vocab);
+    final strict = _route(nodes, current, input, vocab: vocab, m: matchStrict);
+    if (strict.branch != null) return strict;
+    return _route(nodes, current, input, vocab: vocab, m: match);
+  }
+
+  static MatchResult _route(Map<String, DialogueNode> nodes, DialogueNode current, String input,
+      {List<String> vocab = const [], required MatchResult Function(DialogueNode, String, {List<String> vocab}) m}) {
+    final here = m(current, input, vocab: vocab);
+    if (here.branch != null) return _skipAnswered(nodes, here, input, vocab: vocab, m: m);
     final seen = <String>{current.id};
     for (final b in current.branches) {
       final next = b.next == null ? null : nodes[b.next];
       if (next == null || !seen.add(next.id)) continue;
-      final hit = match(next, input, vocab: vocab);
-      if (hit.branch != null && hit.specific) return _skipAnswered(nodes, hit, input, vocab: vocab);
+      final hit = m(next, input, vocab: vocab);
+      if (hit.branch != null && hit.specific) return _skipAnswered(nodes, hit, input, vocab: vocab, m: m);
     }
     return here;
   }
 
-  static MatchResult _skipAnswered(Map<String, DialogueNode> nodes, MatchResult hit, String input, {List<String> vocab = const []}) {
+  static MatchResult _skipAnswered(Map<String, DialogueNode> nodes, MatchResult hit, String input,
+      {List<String> vocab = const [], required MatchResult Function(DialogueNode, String, {List<String> vocab}) m}) {
     if (!hit.specific || hit.branch?.next == null) return hit;
     final next = nodes[hit.branch!.next!];
     if (next == null) return hit;
-    final further = match(next, input, vocab: vocab);
+    final further = m(next, input, vocab: vocab);
     if (further.branch == null || !further.specific) return hit;
     return further;
   }
