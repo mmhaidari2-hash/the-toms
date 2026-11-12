@@ -28844,6 +28844,11 @@
 "kind": "text",
 "ui": false
 },
+"این صحنه دور خودش می‌چرخد": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "این صدا چی بود؟ آه… ماگ گربه‌ایم.": {
 "en": "What was that noise? Oh… my cat mug.",
 "kind": "text",
@@ -46194,6 +46199,11 @@
 "kind": "text",
 "ui": false
 },
+"بهترین: ٪": {
+"en": null,
+"kind": "text",
+"ui": false
+},
 "بهره": {
 "en": "interest",
 "kind": "word",
@@ -55064,6 +55074,11 @@
 "kind": "text",
 "ui": false
 },
+"تو": {
+"en": null,
+"kind": "text",
+"ui": false
+},
 "تو (شکل کهن)": {
 "en": null,
 "kind": "text",
@@ -59641,6 +59656,11 @@
 },
 "جمله گفتی": {
 "en": "sentences said",
+"kind": "text",
+"ui": true
+},
+"جملهٔ": {
+"en": null,
 "kind": "text",
 "ui": true
 },
@@ -72429,6 +72449,11 @@
 "kind": "text",
 "ui": false
 },
+"در اپ شخصیت نیست": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "در ایستگاه قطار": {
 "en": "At the train station",
 "kind": "text",
@@ -72438,6 +72463,16 @@
 "en": "There are too many cars on this road.",
 "kind": "text",
 "ui": false
+},
+"در این داستان نیستند:": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"در این صحنه نیست": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "در این عامیانه کلمه با عبارت هم‌قافیه جایگزین می‌شود.": {
 "en": "Cockney rhyming slang replaces a word with a phrase that rhymes with it, then often drops the rhyming part: \"stairs\" → \"apples and pears\" → \"apples\".",
@@ -74954,8 +74989,8 @@
 "kind": "text",
 "ui": false
 },
-"درس را باز کن، واژه‌ها را ببین، داستان را بازی کن (جواب را بزن، بنویس یا بگو)، بعد تمرین. با تمام کردن هر واحد، بعدی باز می‌شود.": {
-"en": "Open a lesson, read the words, play the Story (tap, type or say your replies), then do the Practice. Finish a unit to open the next.",
+"درس را باز کن، واژه‌ها را ببین، داستان را بازی کن (جواب را بزن، بنویس یا بگو)، بعد تمرین. با تمام کردن هر واحد، بعدی باز می‌شود. «Swap roles» در صفحهٔ درس (یا «Play as» بالای داستان) می‌گذارد نقش هر شخصیت آن داستان را بازی کنی: جمله‌های او مال توست و بقیه خودشان حرف می‌زنند؛ بهترین امتیازت در هر نقش ذخیره می‌شود.": {
+"en": "Open a lesson, read the words, play the Story (tap, type or say your replies), then do the Practice. Finish a unit to open the next. \"Swap roles\" on the lesson (or \"Play as\" at the top of a story) lets you play any character in that story: their lines become yours and everyone else speaks for themselves; your best score in each role is kept.",
 "kind": "text",
 "ui": true
 },
@@ -81463,6 +81498,11 @@
 "en": "bossy",
 "kind": "word",
 "ui": false
+},
+"را بگو؛ بقیه خودشان حرف می‌زنند.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "را تمام کنید یا در دوره به سطح": {
 "en": null,
@@ -108138,6 +108178,11 @@
 "en": "Only in the garden of the Selfish Giant it was still winter.",
 "kind": "text",
 "ui": false
+},
+"فقط در مسیری حرف می‌زند که در این نقش به آن نمی‌رسی": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "فقط دراز بکش و چشمات را استراحت بده.": {
 "en": "Just lie down and rest your eyes.",
@@ -141954,6 +141999,11 @@
 "kind": "word",
 "ui": false
 },
+"هر کدام از شخصیت‌های این داستان را انتخاب کن؛ جمله‌های او مال توست و بقیه خودشان حرف می‌زنند.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "هر کدام یک نگاه گذرا و رفته برای همیشه!": {
 "en": "Each a glimpse and gone for ever!",
 "kind": "text",
@@ -142328,6 +142378,11 @@
 "en": null,
 "kind": "text",
 "ui": false
+},
+"هستی:": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "هشت": {
 "en": "eight",
