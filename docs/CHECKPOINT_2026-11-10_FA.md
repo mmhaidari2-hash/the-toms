@@ -319,3 +319,5 @@ English: All 22,030 manifest clips were rendered (0 failed) and pass ffprobe. Bi
 آزمون: `cd app && flutter test test/arrival_pack_test.dart test/audit_test.dart` با Flutter 3.47.7 / Dart 3.13.5 (کف SDK موقتاً پایین آمد و برگشت): `+13 -1`. رد «audio sync» به‌خاطر regex آزمون است که `('voice','pitch','rate','style')` را نمی‌خواند، پس `me`/`learner` بی‌صدا شمرده می‌شوند. با regex اصلاح‌شدهٔ موقت (commit نشد): `+14`. اصلاح آزمون باز است.
 
 English: Re-rendered all 10,528 voice-sync clips (0 failed, ffprobe OK). Billable chars 1,226,735, about £16.60 incl. VAT; session estimate about £39.80 (< £50). Not an invoice. Tests 13 pass, 1 fail. The failure is the audit test regex ignoring the 4-tuple style voices (me/learner). With a temporary uncommitted regex fix, all 14 pass. Live host unchanged.
+
+- ۱۲ نوامبر ۲۰۲۶ — تست فشار چندنقشی: اصلاح‌ها در `5fd2b927`، گزارش `docs/qa/STRESS_TEST_2026-11-12_FA.md`؛ `flutter test` کامل +283 همه پاس. main/Pages/sw.js/Azure/PL/امضا دست نخورد.
