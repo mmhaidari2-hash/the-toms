@@ -47,7 +47,8 @@ void main() {
           for (final (w, k) in s.segs) {
             if (k.isNotEmpty) expect(b.gloss[k] ?? '', isNotEmpty, reason: '${b.id}: "$w" has no Persian');
           }
-          expect(audio.contains(Voice.key(s.voice, s.en)), isTrue, reason: '${s.voice} clip for "${s.en}"');
+          // Books without recorded clips are read by the device voice (labelled); recorded books need every clip.
+          if (!b.deviceVoice) expect(audio.contains(Voice.key(s.voice, s.en)), isTrue, reason: '${s.voice} clip for "${s.en}"');
         }
       }
     }
@@ -56,7 +57,7 @@ void main() {
   test('books are voiced per character (A1–C1): dialogue lines are pure quotes with a named, known speaker', () {
     final voices = RegExp(r"'([a-z]+)':\('en-").allMatches(File('tool/render_voices.py').readAsStringSync()).map((m) => m.group(1)!).toSet();
     var early = 0;
-    for (final b in books) {
+    for (final b in books.where((b) => !b.deviceVoice)) {
       final ss = [for (final c in b.chapters) ...c.sentences];
       final spoken = ss.where((s) => s.sp != null).toList();
       if (b.level.startsWith('A')) {
@@ -117,9 +118,10 @@ void main() {
       final lens = ss.map((s) => s.en.split(RegExp(r'\s+')).length).toList();
       final avg = lens.reduce((a, b) => a + b) / lens.length;
       final (maxAvg, maxOne, maxWords) = switch (b.level) { 'A1' => (8.5, 13, 160), 'A2' => (14.0, 20, 320), _ => (22.0, 34, 900) };
-      expect(avg, lessThanOrEqualTo(maxAvg), reason: '${b.id} avg sentence length $avg');
-      expect(lens.reduce((a, b) => a > b ? a : b), lessThanOrEqualTo(maxOne), reason: '${b.id} longest sentence');
-      expect(b.words, lessThanOrEqualTo(maxWords), reason: '${b.id} total words');
+      if (!b.original) expect(avg, lessThanOrEqualTo(maxAvg), reason: '${b.id} avg sentence length $avg');
+      // Unabridged originals keep their authors' sentences; longer books (device voice) are not capped in length.
+      if (!b.original) expect(lens.reduce((a, b) => a > b ? a : b), lessThanOrEqualTo(maxOne), reason: '${b.id} longest sentence');
+      if (!b.deviceVoice) expect(b.words, lessThanOrEqualTo(maxWords), reason: '${b.id} total words');
       for (final s in ss) {
         expect(us.hasMatch(s.en), isFalse, reason: 'American usage in "${s.en}"');
       }

@@ -109,7 +109,7 @@ for f in sorted(g for g in glob.glob(os.path.join(H,'library','*.txt')) if not o
       ch['sentences'].append(st)
 if bad: print('\n'.join(bad)); sys.exit(1)
 for bk in books:
-  bk['gloss']={**LEVELG.get(bk['level'],{}),**bk['gloss']}
+  bk['gloss']={**LEVELG.get('ALL',{}),**LEVELG.get(bk['level'],{}),**bk['gloss']}
   used={}
   phrases=sorted([k for k in list(bk['gloss'])+list(BASE) if ' ' in k],key=lambda k:-len(k.split()))
   for ch in bk['chapters']:
