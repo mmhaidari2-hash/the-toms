@@ -103,7 +103,9 @@ class _Msg {
   final _Feedback? fb;
   /// For the learner's bubbles: the role they spoke as (null = their usual name).
   final String? asName;
-  const _Msg(this.speaker, this.text, {this.node, this.system, this.fa, this.raw, this.fb, this.asName});
+  /// For the learner's bubbles that match a scripted line: whose recorded voice reads it back (tap to replay).
+  final String? voice;
+  const _Msg(this.speaker, this.text, {this.node, this.system, this.fa, this.raw, this.fb, this.asName, this.voice});
 }
 
 enum _Panel { none, xray, translate, culture, shadow }
@@ -253,7 +255,7 @@ class _ChatState extends ConsumerState<_Chat> {
 
   List<String> get _vocab => ref.read(progressProvider).leitnerBox.keys.toList();
 
-  Future<void> _show(String speaker, String text, String? fa, {int delay = 700, bool scripted = true}) async {
+  Future<void> _show(String speaker, String text, String? fa, {int delay = 700, bool scripted = true, bool deviceFallback = false}) async {
     setState(() => _typing = true);
     await Future.delayed(Duration(milliseconds: delay));
     if (!mounted) return;
@@ -269,7 +271,7 @@ class _ChatState extends ConsumerState<_Chat> {
       _msgs.add(_Msg(speaker, _t(text), fa: fa, raw: text));
     });
     // Wait for the whole clip so the next line never cuts this one off mid-sentence.
-    await Voice.say(speaker, text, rate: _autoRate, shown: _t(text), scripted: scripted);
+    await Voice.say(speaker, text, rate: _autoRate, shown: _t(text), scripted: scripted, deviceFallback: deviceFallback);
   }
 
   Future<void> _say(DialogueNode n0, {bool first = false}) async {
@@ -286,6 +288,11 @@ class _ChatState extends ConsumerState<_Chat> {
         _node = n;
         _mine = n;
         _lineSpeaker = n.speaker;
+        // Keep the current line in sync: tapping this character in the picture replays THEIR line (the one the
+        // learner now says), not the previous reply under the wrong voice (owner t338: "no recording" notice).
+        _line = _t(n.text);
+        _raw = n.text;
+        _lineFa = _tFa(lineTranslation(n.translations, _lang));
         _misses = 0;
         _hints = true;
         _panel = _Panel.none;
@@ -326,16 +333,27 @@ class _ChatState extends ConsumerState<_Chat> {
     _speakNote = null;
     final text = (preset ?? _input.text).trim();
     final node = _node;
-    if (text.isEmpty || _typing || _ended || node == null) return;
+    if (text.isEmpty || _typing || _echoing || _ended || node == null) return;
     // Close the keyboard once a reply is sent, so the conversation is visible again.
     _focus.unfocus();
     if (_swap && _mine != null) return _sendAsLine(text);
     HapticFeedback.lightImpact();
     _input.clear();
     _said++;
+    final model = _modelReply(node, text);
     setState(() {
-      _msgs.add(_Msg('me', text));
+      _msgs.add(_Msg('me', text, raw: model?.suggestion, voice: model == null ? null : _partnerId));
     });
+    // Owner t338: the learner's own line is read too, before the other side answers. A scripted reply plays its
+    // recorded clip (device British voice if it has none); the learner's own free words play only if recorded.
+    final role = _as;
+    _echoing = true;
+    try {
+      await _readMine(_partnerId, model?.suggestion ?? text, text, scripted: model != null);
+    } finally {
+      _echoing = false;
+    }
+    if (!mounted || _ended || _as != role || !identical(_node, node)) return;
     final r = brain is OfflineBrain
         ? (brain as OfflineBrain).respondSync(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab, nodes: widget.s.nodes))
         : await brain.respond(BrainRequest(sceneId: widget.s.id, characterId: node.speaker, node: node, userText: text, level: widget.s.level, vocab: _vocab, nodes: widget.s.nodes));
@@ -401,7 +419,7 @@ class _ChatState extends ConsumerState<_Chat> {
     final t0 = _roleTally[n.speaker] ?? (0, 0);
     _roleTally[n.speaker] = (t0.$1 + (ok ? 1 : 0), t0.$2 + 1);
     setState(() {
-      _msgs.add(_Msg('me', text, asName: name));
+      _msgs.add(_Msg('me', text, asName: name, raw: ok ? n.text : null, voice: ok ? n.speaker : null));
       if (ok) {
         _correct++;
       } else {
@@ -409,6 +427,16 @@ class _ChatState extends ConsumerState<_Chat> {
         _fb = _Feedback(_FbKind.recast, '$name’s line was:', target, _tFa(lineTranslation(n.translations, _lang)));
       }
     });
+    // Owner t338: the character's line is read in that character's recorded voice once the learner has said it
+    // (device British voice if the line has no recording), then the other side answers.
+    final role = _as;
+    _echoing = true;
+    try {
+      await _readMine(n.speaker, n.text, target);
+    } finally {
+      _echoing = false;
+    }
+    if (!mounted || _ended || _as != role) return;
     if (n.isEnd || n.branches.isEmpty) {
       _finish();
       return;
@@ -416,13 +444,31 @@ class _ChatState extends ConsumerState<_Chat> {
     await _partnerReply(n);
   }
 
+  /// True while the learner's own line is being read back (a second send waits for it).
+  bool _echoing = false;
+
+  /// The scripted reply the learner sent (a chip, or the same words typed), if any.
+  Branch? _modelReply(DialogueNode node, String text) {
+    String norm(String s) => s.toLowerCase().replaceAll(RegExp(r"[^a-z0-9' ]"), ' ').replaceAll('’', "'").replaceAll(RegExp(r'\s+'), ' ').trim();
+    final said = norm(text);
+    for (final b in node.branches) {
+      if (norm(_t(b.suggestion)) == said) return b;
+    }
+    return null;
+  }
+
+  /// Reads one learner line in [voice]: its recorded clip, else (scripted lines only) the device's British voice.
+  Future<bool> _readMine(String voice, String raw, String shown, {bool scripted = true}) =>
+      Voice.say(voice, raw, rate: _autoRate, shown: shown, scripted: scripted, deviceFallback: scripted);
+
   /// The other side (the learner's usual part) answers [n] with its best reply, then the next line comes.
   Future<void> _partnerReply(DialogueNode n) async {
     if (_partnerFor == n.id || n.branches.isEmpty) return;
     _partnerFor = n.id;
     final b = RoleSwitch.partnerBranch(n)!;
-    // The usual part's reply plays its recorded clip where one exists (no new audio); otherwise it is text only.
-    await _show(_partnerId, b.suggestion, _tFa(b.suggestionFa), delay: 500, scripted: false);
+    // The usual part's reply plays its recorded clip where one exists (no new audio); otherwise the device's
+    // British voice reads it (owner t338), and with no device voice it stays text only (no notice).
+    await _show(_partnerId, b.suggestion, _tFa(b.suggestionFa), delay: 500, scripted: false, deviceFallback: true);
     if (!mounted || _ended) return;
     final next = b.next == null ? null : widget.s.nodes[b.next];
     await Future.delayed(const Duration(milliseconds: 300));
@@ -981,7 +1027,12 @@ class _ChatState extends ConsumerState<_Chat> {
             constraints: BoxConstraints(maxWidth: maxW),
             child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
               Padding(padding: const EdgeInsets.only(right: 4, bottom: 2), child: Text(hl(m.asName ?? _meName), style: const TextStyle(color: Color(0xFF9FE0BC), fontSize: 11, fontWeight: FontWeight.w800))),
-              _bubbleBox(LeitnerWords(m.text, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
+              GestureDetector(
+                key: ValueKey('bubble-me-play-$i'),
+                behavior: HitTestBehavior.translucent,
+                onTap: () => _readMine(m.voice ?? _partnerId, m.raw ?? m.text, m.text, scripted: m.raw != null),
+                child: _bubbleBox(LeitnerWords(m.text, speaker: 'me', style: const TextStyle(color: Colors.white, fontSize: 15.5, height: 1.3)), const Color(0xFF2F6B5A), left: false),
+              ),
             ]),
           ),
         ),
@@ -1514,7 +1565,7 @@ class _ChatState extends ConsumerState<_Chat> {
               Text(hl(t.$1), style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 14.5, height: 1.3)),
               if (t.$2 != null && t.$2!.isNotEmpty) SizedBox(width: double.infinity, child: Text(hl(t.$2!), textDirection: helperDir, style: BL.fa(11.5, color: Colors.white54))),
             ])),
-            IconButton(tooltip: 'Hear it', onPressed: () => Voice.say(_mine?.speaker ?? ch.id, _mine?.text ?? t.$1, rate: _autoRate, shown: t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
+            IconButton(tooltip: 'Hear it', onPressed: () => _readMine(_mine?.speaker ?? ch.id, _mine?.text ?? t.$1, t.$1), icon: const Icon(Icons.volume_up_rounded, color: Color(0xFFE8C987), size: 20)),
           ]),
         ),
       ),

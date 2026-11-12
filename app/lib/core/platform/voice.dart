@@ -7,6 +7,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/scheduler.dart';
 
 import '../i18n/you.dart';
+import 'device_tts.dart';
 import 'speech.dart';
 
 enum VoiceFailureKind { missing, playback, notReady }
@@ -20,7 +21,11 @@ class VoiceFailure {
 }
 
 /// Natural British voices only: every authored line is pre-rendered (tool/render_voices.py) as an mp3,
-/// content-addressed by md5("speaker|text"). There is deliberately NO robotic TTS fallback — silent beats robotic.
+/// content-addressed by md5("speaker|text"). NPC lines never fall back to a robotic voice (silent beats robotic).
+/// The learner's OWN model line (the reply they say, or a character's line while they play that role) may opt in
+/// with `deviceFallback: true` (owner t338): with no recording, or when the clip cannot be played, the phone's own
+/// British TTS (DeviceTts, en-GB where installed) reads it, and the "no recording" notice only shows when the
+/// device has no voice either.
 class Voice {
   static Set<String> _index = {};
   static final failure = ValueNotifier<VoiceFailure?>(null);
@@ -117,9 +122,16 @@ class Voice {
     }
   }
 
+  /// True while the device voice is reading a learner line (so [stop] also stops it).
+  static bool _deviceSpeaking = false;
+
   static void stop() {
     _gen++;
     SpeechInput.stopClip();
+    if (_deviceSpeaking) {
+      _deviceSpeaking = false;
+      DeviceTts.stop();
+    }
     _publish(null);
   }
 
@@ -163,6 +175,7 @@ class Voice {
     double rate = 1,
     String? shown,
     bool scripted = true,
+    bool deviceFallback = false,
   }) async {
     final ticket = _gen;
     if (!_ready) await load();
@@ -174,6 +187,8 @@ class Voice {
         _find(speaker, text) ?? (shown == null ? null : _find(speaker, shown));
     if (k == null) {
       SpeechInput.stopClip();
+      if (g != _gen) return false;
+      if (deviceFallback && await _device(g, shown ?? text, safeRate)) return true;
       if (g != _gen) return false;
       // The learner's own unrecorded words are not a missing lesson line.
       if (!scripted) return false;
@@ -193,6 +208,10 @@ class Voice {
       ok = false;
     }
     if (g != _gen) return false;
+    if (!ok && deviceFallback) {
+      if (await _device(g, shown ?? text, safeRate)) return true;
+      if (g != _gen) return false;
+    }
     if (!ok) {
       _publish(VoiceFailure(
         VoiceFailureKind.playback,
@@ -203,5 +222,22 @@ class Voice {
       ));
     }
     return ok;
+  }
+
+  /// Reads [line] with the device's own voice for generation [g]; true only when the whole line was spoken.
+  static Future<bool> _device(int g, String line, double rate) async {
+    final words = line.replaceAll(RegExp(r'\{you\}'), '').trim();
+    if (words.isEmpty) return false;
+    try {
+      if (!await DeviceTts.available || g != _gen) return false;
+      _deviceSpeaking = true;
+      final spoke = await DeviceTts.speak(words, rate: rate);
+      if (g != _gen) return false;
+      _deviceSpeaking = false;
+      return spoke;
+    } catch (_) {
+      if (g == _gen) _deviceSpeaking = false;
+      return false;
+    }
   }
 }
