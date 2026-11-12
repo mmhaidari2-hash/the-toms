@@ -2,14 +2,26 @@
 """Generate Android and web launcher icons from a source image.
 
 Usage:
-  python3 app/tool/make_app_icons.py --source /path/to/icon.jpg \\
-      --repo /path/to/the-toms [--crop 86,86,938,938] \\
+  python3 app/tool/make_app_icons.py --source /path/to/icon.jpg \
+      --repo /path/to/the-toms [--crop 86,86,938,938] \
       [--preview /workspace/icon_preview_grid.png]
+
+  # Regenerate from the approved 1024 master (no frame crop):
+  python3 app/tool/make_app_icons.py --source app/tool/brand/icon_master.png \
+      --repo . --no-crop --preview /workspace/icon_preview_grid.png
 
 The approved v7 still has a baked-in rounded frame. By default this
 script crops inside that frame, upscales to 1024, writes
 app/tool/brand/icon_master.png (and icon_1024.png), then resizes every
-Android mipmap and web icon in place. File names are unchanged so
+Android mipmap and web icon in place. If the source is already the
+1024 master, the frame crop is skipped and the master is left untouched.
+
+Android adaptive foreground and web maskable icons are full-bleed: the
+master covers the whole 108dp / maskable canvas. Launchers then show
+the centre ~72dp (Android) or may crop to an 80% safe circle (web).
+Scale/offset are tuned so the door, the bay window with the family and
+the framed flag stay inside that viewport. Legacy square/round icons
+are a straight resize of the master. File names are unchanged so
 manifests do not need editing. No pub dependencies are added; Pillow
 is only used on the machine that runs this script.
 """
@@ -26,9 +38,23 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps
 # Inclusive pixels 86–937 on both axes; 852×852, no frame / rounded-corner remnant.
 DEFAULT_CROP = (86, 86, 938, 938)
 MASTER_SIZE = 1024
-BG_COLOR = (6, 26, 66)  # existing #061A42 in ic_launcher_background.xml
-ANDROID_SAFE = 66 / 100  # adaptive foreground safe zone (72/108 dp)
-WEB_MASKABLE_SAFE = 80 / 100  # typical maskable safe zone
+# Dark dusk brick, mean of the master pixels that sit in the 18dp adaptive
+# bleed ring (outside the 72/108 viewport). Replaces navy #061A42 so a
+# parallax peek matches the house instead of a blue halo.
+BG_COLOR = (0x3F, 0x32, 0x2A)  # #3F322A
+ANDROID_VIEWPORT = 72 / 108  # launcher mask shows the central 72dp of 108dp
+ANDROID_SAFE = ANDROID_VIEWPORT  # kept as an alias for older call sites
+WEB_MASKABLE_SAFE = 80 / 100  # typical maskable safe zone (subject must fit)
+
+# Full-bleed framing for the 108dp adaptive foreground (and monochrome).
+# scale=1, offset=(0,0) fills the canvas with the whole master; the mask
+# then reveals the centre 72/108, which still contains the door, the bay
+# window with the family, and the framed flag. Zooming in clips one of
+# those. offset is a fraction of the canvas; +x is right, +y is down.
+ADAPTIVE_SCALE = 1.0
+ADAPTIVE_OFFSET = (0.0, 0.0)
+WEB_MASKABLE_SCALE = 1.0
+WEB_MASKABLE_OFFSET = (0.0, 0.0)
 
 DENSITIES = {
     "mdpi": 1,
@@ -82,13 +108,56 @@ def make_master(source: Image.Image, crop: tuple[int, int, int, int] | None) -> 
     return im
 
 
+def _cover_crop(
+    master: Image.Image,
+    canvas_size: int,
+    scale: float,
+    offset: tuple[float, float],
+) -> Image.Image:
+    """Resize the master to cover the canvas at `scale`, then crop.
+
+    scale=1 and offset=(0, 0) is a straight edge-to-edge resize.
+    scale>1 zooms in; offset shifts the crop (fraction of canvas size).
+    """
+    src_size = max(canvas_size, int(round(canvas_size * max(scale, 1.0))))
+    scene = resample(master, (src_size, src_size))
+    extra = src_size - canvas_size
+    ox = int(round(extra / 2 + offset[0] * canvas_size))
+    oy = int(round(extra / 2 + offset[1] * canvas_size))
+    ox = max(0, min(extra, ox))
+    oy = max(0, min(extra, oy))
+    return scene.crop((ox, oy, ox + canvas_size, oy + canvas_size))
+
+
+def full_bleed(
+    master: Image.Image,
+    canvas_size: int,
+    scale: float,
+    offset: tuple[float, float],
+    background: tuple[int, ...] | None,
+) -> Image.Image:
+    """Place the master so it fills the square canvas edge to edge."""
+    scene = _cover_crop(master, canvas_size, scale, offset)
+    if background is None:
+        if scene.mode != "RGBA":
+            return scene.convert("RGBA")
+        return scene
+    canvas = Image.new("RGB", (canvas_size, canvas_size), background[:3])
+    canvas.paste(scene.convert("RGB"), (0, 0))
+    return canvas
+
+
 def place_in_safe_zone(
     master: Image.Image,
     canvas_size: int,
     safe_frac: float,
     background: tuple[int, ...] | None,
 ) -> Image.Image:
-    """Scale the full scene into the centre safe_frac of a square canvas."""
+    """Scale the full scene into the centre safe_frac of a square canvas.
+
+    Kept for previews of the old padded treatment; launcher icons no
+    longer use this for adaptive foreground or web maskable assets.
+    """
     content = max(1, int(round(canvas_size * safe_frac)))
     # Keep content even/odd matched to canvas so padding is symmetric.
     if (canvas_size - content) % 2:
@@ -107,6 +176,31 @@ def place_in_safe_zone(
     return canvas
 
 
+def viewport_crop(layer: Image.Image, viewport_frac: float) -> Image.Image:
+    """Centre-crop a 108dp layer to the 72dp (or other) launcher viewport."""
+    canvas_size = layer.size[0]
+    vis = max(1, int(round(canvas_size * viewport_frac)))
+    if (canvas_size - vis) % 2:
+        vis -= 1
+        vis = max(1, vis)
+    pad = (canvas_size - vis) // 2
+    return layer.crop((pad, pad, canvas_size - pad, canvas_size - pad))
+
+
+def adaptive_visible(
+    master: Image.Image,
+    display_px: int,
+    scale: float = ADAPTIVE_SCALE,
+    offset: tuple[float, float] = ADAPTIVE_OFFSET,
+) -> Image.Image:
+    """What an Android launcher shows: centre 72/108 of the full-bleed layer."""
+    # Render the 108dp layer at a multiple of 108 so the 72dp crop is exact.
+    layer_px = 108 * 10
+    layer = full_bleed(master, layer_px, scale, offset, background=BG_COLOR)
+    visible = viewport_crop(layer, ANDROID_VIEWPORT)
+    return resample(visible, (display_px, display_px))
+
+
 def circle_mask(size: int) -> Image.Image:
     # 4x supersample for a smooth edge, then downscale.
     scale = 4
@@ -123,17 +217,13 @@ def apply_circle(im: Image.Image) -> Image.Image:
 
 
 def make_monochrome(master: Image.Image, size: int) -> Image.Image:
-    """White silhouette of the lit window and doorway, in the 66% safe zone."""
-    from PIL import ImageChops
-
-    placed = place_in_safe_zone(master, size, ANDROID_SAFE, background=None)
+    """White silhouette of the lit window and doorway, full-bleed like the colour foreground."""
+    placed = full_bleed(master, size, ADAPTIVE_SCALE, ADAPTIVE_OFFSET, background=None)
     gray = ImageOps.autocontrast(placed.convert("L"), cutoff=1)
     # Slight blur before the threshold fills pane gaps without jagged speckles.
     soft = gray.filter(ImageFilter.GaussianBlur(1.2))
     glyph = soft.point(lambda p: 255 if p >= 80 else 0)
     glyph = glyph.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3))
-    safe = placed.split()[-1].point(lambda p: 255 if p > 128 else 0)
-    glyph = ImageChops.multiply(glyph, safe)
     out = Image.new("RGBA", (size, size), (255, 255, 255, 0))
     out.putalpha(glyph)
     return out
@@ -161,7 +251,9 @@ def write_android(master: Image.Image, res: Path) -> list[Path]:
         written.append(round_path)
 
         fg_px = FOREGROUND_PX[density]
-        fg = place_in_safe_zone(master, fg_px, ANDROID_SAFE, background=None)
+        fg = full_bleed(master, fg_px, ADAPTIVE_SCALE, ADAPTIVE_OFFSET, background=None)
+        if fg_px <= 192:
+            fg = sharpen_small(fg, fg_px)
         fg_path = folder / "ic_launcher_foreground.png"
         save_png(fg, fg_path)
         written.append(fg_path)
@@ -169,6 +261,15 @@ def write_android(master: Image.Image, res: Path) -> list[Path]:
     mono_path = res / "mipmap-xxxhdpi" / "ic_launcher_monochrome.png"
     save_png(make_monochrome(master, FOREGROUND_PX["xxxhdpi"]), mono_path)
     written.append(mono_path)
+
+    bg_xml = res / "values" / "ic_launcher_background.xml"
+    bg_xml.write_text(
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        "<resources>\n"
+        f'    <color name="ic_launcher_background">#{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}</color>\n'
+        "</resources>\n"
+    )
+    # XML is written above; it is not an image so it stays out of `written`.
     return written
 
 
@@ -180,7 +281,10 @@ def write_web(master: Image.Image, web: Path) -> list[Path]:
         return sharpen_small(resample(master, (size, size)), size).convert("RGB")
 
     def maskable(size: int) -> Image.Image:
-        return place_in_safe_zone(master, size, WEB_MASKABLE_SAFE, background=BG_COLOR).convert("RGB")
+        im = full_bleed(
+            master, size, WEB_MASKABLE_SCALE, WEB_MASKABLE_OFFSET, background=BG_COLOR
+        )
+        return sharpen_small(im, size).convert("RGB")
 
     mapping: list[tuple[Path, Image.Image]] = [
         (icons / "Icon-192.png", full(192)),
@@ -240,44 +344,36 @@ def write_preview(
     web_icon_192: Image.Image,
     web_maskable_192: Image.Image,
 ) -> None:
-    # Adaptive compositing at each preview size: navy bg + 66% scene, then mask.
+    # Adaptive compositing at each preview size: full-bleed 108dp layer,
+    # then the launcher viewport (centre 72/108), then the shape mask.
     sizes = (48, 96, 192)
     tile_gap = 24
-    label_h = 28
-    col_w = 192
-    # rows: adaptive circle, adaptive squircle, legacy circle, legacy squircle, web
-    rows_spec = [
-        "Adaptive · circle",
-        "Adaptive · squircle",
-        "Legacy full-bleed · circle",
-        "Legacy full-bleed · squircle",
-        "Web Icon-192 / maskable-192",
-    ]
-    width = 40 + (col_w + tile_gap) * 3 + 40 + 192 + tile_gap + 192 + 40
-    height = 60 + len(rows_spec) * (192 + label_h + tile_gap) + 40
-    # tighter: use row height based on 192
     canvas = Image.new("RGB", (1200, 1180), (28, 30, 36))
     draw = ImageDraw.Draw(canvas)
-    draw.text((24, 16), "New Life UK icon preview  —  adaptive + web  (v7 crop, full-bleed master)", fill=(230, 230, 230))
-    legend = "Safe zone: adaptive 66%  ·  web maskable 80%  ·  bg #061A42"
+    draw.text(
+        (24, 16),
+        "New Life UK icon preview  —  adaptive full-bleed + web maskable  (v7 master)",
+        fill=(230, 230, 230),
+    )
+    legend = (
+        f"Adaptive: full-bleed fg, launcher shows centre 72/108  ·  "
+        f"web maskable: full-bleed, 80% safe  ·  bg #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}"
+    )
     draw.text((24, 36), legend, fill=(170, 176, 186))
 
     def adaptive_tile(px: int) -> Image.Image:
-        return place_in_safe_zone(master, px, ANDROID_SAFE, background=BG_COLOR)
+        return adaptive_visible(master, px)
 
     def legacy_tile(px: int) -> Image.Image:
         return resample(master, (px, px))
 
     y = 70
-    # rows 1-2 adaptive, 3-4 legacy
-    for row_i, (label, maker) in enumerate(
-        [
-            ("Adaptive · circle (48 / 96 / 192)", lambda px: adaptive_tile(px)),
-            ("Adaptive · squircle (48 / 96 / 192)", lambda px: adaptive_tile(px)),
-            ("Legacy full-bleed · circle (48 / 96 / 192)", lambda px: legacy_tile(px)),
-            ("Legacy full-bleed · squircle (48 / 96 / 192)", lambda px: legacy_tile(px)),
-        ]
-    ):
+    for label, maker in [
+        ("Adaptive · circle (48 / 96 / 192)  —  centre 72/108 of the 108dp layer", adaptive_tile),
+        ("Adaptive · squircle (48 / 96 / 192)  —  centre 72/108 of the 108dp layer", adaptive_tile),
+        ("Legacy full-bleed · circle (48 / 96 / 192)", legacy_tile),
+        ("Legacy full-bleed · squircle (48 / 96 / 192)", legacy_tile),
+    ]:
         draw.text((24, y), label, fill=(210, 214, 220))
         y += 22
         is_circle = "circle" in label and "squircle" not in label
@@ -285,7 +381,6 @@ def write_preview(
         for px in sizes:
             tile = maker(px)
             mask = circle_mask(px) if is_circle else squircle_mask(px)
-            # paste onto a slightly lighter plate so the mask edge is visible
             plate = Image.new("RGB", (px + 16, px + 16), (42, 45, 54))
             masked = apply_mask(tile, mask, bg=(42, 45, 54))
             plate.paste(masked, (8, 8))
@@ -295,20 +390,21 @@ def write_preview(
             x += 192 + 36
         y += 192 + 16
 
-    draw.text((24, y), "Web · Icon-192 (any) and Icon-maskable-192 (80% pad, shown raw and under a circle)", fill=(210, 214, 220))
+    draw.text(
+        (24, y),
+        "Web · Icon-192 (any) and Icon-maskable-192 (full-bleed, shown raw and under a circle / squircle)",
+        fill=(210, 214, 220),
+    )
     y += 22
     x = 24
-    # web any
     any192 = web_icon_192.convert("RGB")
     canvas.paste(any192, (x, y))
     draw.text((x, y + 196), "Icon-192 / nl3-192", fill=(150, 154, 164))
     x += 192 + 36
-    # maskable raw (shows navy pad)
     mask192 = web_maskable_192.convert("RGB")
     canvas.paste(mask192, (x, y))
     draw.text((x, y + 196), "maskable-192 raw", fill=(150, 154, 164))
     x += 192 + 36
-    # maskable under circle (how some launchers crop)
     circled = apply_mask(mask192, circle_mask(192), bg=(42, 45, 54))
     canvas.paste(circled, (x, y))
     draw.text((x, y + 196), "maskable · circle crop", fill=(150, 154, 164))
@@ -359,7 +455,12 @@ def main(argv: list[str] | None = None) -> int:
     if not (app / "android").is_dir() or not (app / "web").is_dir():
         raise SystemExit(f"does not look like the app repo root: {repo}")
 
+    using_master = source_path.name in {"icon_master.png", "icon_1024.png"}
     crop = None if args.no_crop or args.crop == (0, 0, 0, 0) else args.crop
+    if crop and using_master and args.crop == DEFAULT_CROP:
+        print("source is the approved 1024 master; skipping the v7 frame crop")
+        crop = None
+
     with Image.open(source_path) as src:
         print(f"source: {source_path}  size={src.size} mode={src.mode}")
         master = make_master(src, crop)
@@ -371,8 +472,17 @@ def main(argv: list[str] | None = None) -> int:
     brand_dir = app / "tool" / "brand"
     master_path = brand_dir / "icon_master.png"
     icon_1024_path = brand_dir / "icon_1024.png"
-    save_png(master, master_path)
-    save_png(master, icon_1024_path)
+    # Do not recompress the approved master when it is the (uncropped) source.
+    rewrite_master = True
+    try:
+        src_resolved = source_path.resolve()
+        if crop is None and src_resolved in {master_path.resolve(), icon_1024_path.resolve()}:
+            rewrite_master = False
+    except FileNotFoundError:
+        rewrite_master = True
+    if rewrite_master:
+        save_png(master, master_path)
+        save_png(master, icon_1024_path)
 
     res = app / "android" / "app" / "src" / "main" / "res"
     web = app / "web"
@@ -425,6 +535,8 @@ def main(argv: list[str] | None = None) -> int:
         rel = path.relative_to(repo) if path.is_relative_to(repo) else path
         with Image.open(path) as im:
             print(f"  {im.size[0]}x{im.size[1]}  {im.mode:4s}  {path.stat().st_size:8d}  {rel}")
+    bg_xml = res / "values" / "ic_launcher_background.xml"
+    print(f"  background color  #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}  {bg_xml.relative_to(repo)}")
     return 0
 
 
