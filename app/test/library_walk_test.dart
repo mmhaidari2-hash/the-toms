@@ -28,6 +28,17 @@ void main() {
     }
   });
 
+  test('painted library art is on disk for the facade, hall, wood shelf and every section', () {
+    const files = [
+      'facade', 'hall', 'shelf_wood',
+      'aisle_fiction', 'aisle_children', 'aisle_poetry', 'aisle_history',
+      'aisle_science', 'aisle_biography', 'aisle_uklife', 'aisle_reference',
+    ];
+    for (final name in files) {
+      expect(File('assets/library/$name.webp').existsSync(), isTrue, reason: name);
+    }
+  });
+
   testWidgets('libraryMotion is zero when the OS asks for reduced motion', (t) async {
     late Duration d;
     late Duration normal;
@@ -133,6 +144,13 @@ void main() {
     expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
     await _tapSign(t, 'reference');
     await _settle(t);
+    expect(t.takeException(), isNull);
+  });
+
+  testWidgets('facade and hall illustrations are on the walk-in path', (t) async {
+    await openLibrary(t, const Size(390, 844));
+    expect(find.byKey(const ValueKey('library-facade-art')), findsOneWidget);
+    expect(find.byKey(const ValueKey('library-hall-art')), findsOneWidget);
     expect(t.takeException(), isNull);
   });
 

@@ -34,6 +34,16 @@ double libraryShelfHeight(BuildContext context) {
   return (168 * s).clamp(148.0, 250.0);
 }
 
+const libraryArt = 'assets/library';
+
+/// Painted aisle backdrop for a section (fiction, science, …).
+String libraryAisleArt(String sectionId) => '$libraryArt/aisle_$sectionId.webp';
+
+Alignment libraryParallax(BuildContext context, double pixels, {double factor = 0.00085}) {
+  if (MediaQuery.disableAnimationsOf(context)) return Alignment.center;
+  return Alignment(0, (pixels * factor).clamp(-0.42, 0.48));
+}
+
 /// The Library: a British public library you walk through. Front desk (continue reading, new arrivals, your
 /// loans), section signs as a mini-map, one aisle per section (Dewey-style order) with a bookcase whose shelves
 /// are arranged by level; tap a spine and the book slides out. A plain searchable list is one tap away.
@@ -47,6 +57,7 @@ class LibraryScreen extends ConsumerStatefulWidget {
 class _LibraryScreenState extends ConsumerState<LibraryScreen> {
   final _pages = PageController();
   final _aisleBox = GlobalKey();
+  final _scroll = ValueNotifier<double>(0);
   int aisle = 0;
   // list view filters
   String query = '', status = 'all', sort = 'level';
@@ -55,6 +66,7 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
   @override
   void dispose() {
     _pages.dispose();
+    _scroll.dispose();
     super.dispose();
   }
 
@@ -71,8 +83,14 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
     final sections = [for (final s in Library.categories) if (books.any((b) => b.category == s.id)) s];
     return Scaffold(
       backgroundColor: _wall,
-      body: CustomScrollView(
+      body: NotificationListener<ScrollNotification>(
+        onNotification: (n) {
+          if (n.depth == 0 && n.metrics.axis == Axis.vertical) _scroll.value = n.metrics.pixels;
+          return false;
+        },
+        child: CustomScrollView(
         key: const ValueKey('library-list'),
+        cacheExtent: 900,
         slivers: [
           SliverToBoxAdapter(
             child: Padding(
@@ -92,27 +110,17 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
               ]),
             ),
           ),
-          SliverToBoxAdapter(child: _Facade(booksDone: ctrl.booksDone, total: books.length)),
+          SliverToBoxAdapter(child: _Facade(booksDone: ctrl.booksDone, total: books.length, scroll: _scroll)),
           if (!listMode) ...[
-            if (MediaQuery.sizeOf(context).height < 520) ...[
-              SliverToBoxAdapter(
-                child: _AisleSigns(
-                  sections: sections,
-                  current: aisle,
-                  onTap: (i) => _walkToAisle(i),
-                ),
+            // Signs sit just after the street facade so the aisle map stays on a phone screen.
+            SliverToBoxAdapter(
+              child: _AisleSigns(
+                sections: sections,
+                current: aisle,
+                onTap: (i) => _walkToAisle(i),
               ),
-              SliverToBoxAdapter(child: _FrontDesk(books: books, compact: true)),
-            ] else ...[
-              SliverToBoxAdapter(child: _FrontDesk(books: books)),
-              SliverToBoxAdapter(
-                child: _AisleSigns(
-                  sections: sections,
-                  current: aisle,
-                  onTap: (i) => _walkToAisle(i),
-                ),
-              ),
-            ],
+            ),
+            SliverToBoxAdapter(child: _FrontDesk(books: books, compact: MediaQuery.sizeOf(context).height < 520, scroll: _scroll)),
             SliverToBoxAdapter(
               child: SizedBox(
                 key: _aisleBox,
@@ -139,6 +147,7 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
             _results(books, gate, pad.bottom),
           ],
         ],
+      ),
       ),
     );
   }
@@ -288,31 +297,42 @@ List<Book> filterBooks(List<Book> books, ProgressController ctrl, {String query 
   return out;
 }
 
-/// The library's painted front: a stone arch with lamps and the name board.
+/// The library's painted front: a generated Edwardian civic facade you walk up to.
 class _Facade extends StatelessWidget {
   final int booksDone, total;
-  const _Facade({required this.booksDone, required this.total});
+  final ValueNotifier<double> scroll;
+  const _Facade({required this.booksDone, required this.total, required this.scroll});
   @override
   Widget build(BuildContext context) {
     final short = MediaQuery.sizeOf(context).height < 500;
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
       child: Semantics(
-        label: 'New Life Public Library, $total books, $booksDone finished',
+        label: 'New Life Public Library, $total books, $booksDone finished. Walk in from the street.',
         child: SizedBox(
-          height: short ? 88 : 128,
-          child: CustomPaint(
-            painter: _FacadePainter(),
-            child: Center(
-              child: Padding(
-                padding: EdgeInsets.only(top: short ? 12 : 22, left: 12, right: 12),
-                child: Column(mainAxisSize: MainAxisSize.min, children: [
-                  Text('NEW LIFE PUBLIC LIBRARY', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(short ? 14 : 17, color: const Color(0xFFF7E7C1), w: FontWeight.w700).copyWith(letterSpacing: 1.2)),
-                  Text(hl('کتابخانهٔ عمومی'), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(short ? 11 : 12.5, color: const Color(0xFFF7E7C1))),
-                  const SizedBox(height: 6),
-                  Text(hl('$total books · $booksDone finished'), key: const ValueKey('library-count'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFEBD9B4), fontSize: 11.5, fontWeight: FontWeight.w700)),
-                ]),
-              ),
+          height: short ? 110 : (MediaQuery.sizeOf(context).height < 740 ? 168 : 220),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(18),
+            child: ValueListenableBuilder<double>(
+              valueListenable: scroll,
+              builder: (context, px, _) => Stack(fit: StackFit.expand, children: [
+                Image.asset('$libraryArt/facade.webp', key: const ValueKey('library-facade-art'), fit: BoxFit.cover, alignment: libraryParallax(context, px), filterQuality: FilterQuality.medium),
+                const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x33000000), Color(0x00000000), Color(0xCC2A1A10)]))),
+                Padding(
+                  padding: EdgeInsets.fromLTRB(16, short ? 8 : 16, 16, 10),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    const Spacer(),
+                    Text('NEW LIFE PUBLIC LIBRARY', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(short ? 15 : 20, color: const Color(0xFFF7E7C1), w: FontWeight.w700).copyWith(letterSpacing: 1.1, shadows: const [Shadow(color: Color(0xAA000000), blurRadius: 8)])),
+                    Text(hl('کتابخانهٔ عمومی'), maxLines: 1, overflow: TextOverflow.ellipsis, textDirection: helperDir, style: BL.fa(short ? 12 : 14, color: const Color(0xFFF7E7C1)).copyWith(shadows: const [Shadow(color: Color(0xAA000000), blurRadius: 6)])),
+                    const SizedBox(height: 4),
+                    Text(hl('$total books · $booksDone finished'), key: const ValueKey('library-count'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFEBD9B4), fontSize: 11.5, fontWeight: FontWeight.w700)),
+                    if (!short) ...[
+                      const SizedBox(height: 4),
+                      Text(hl('Walk in · بفرمایید داخل'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFF7E7C1), fontSize: 11, fontWeight: FontWeight.w600)),
+                    ],
+                  ]),
+                ),
+              ]),
             ),
           ),
         ),
@@ -321,55 +341,32 @@ class _Facade extends StatelessWidget {
   }
 }
 
-class _FacadePainter extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size s) {
-    final stone = Paint()..color = const Color(0xFFD9CBB0);
-    final r = RRect.fromRectAndRadius(Offset.zero & s, const Radius.circular(18));
-    canvas.drawRRect(r, stone);
-    // courses of stone
-    final line = Paint()
-      ..color = const Color(0xFFC4B392)
-      ..strokeWidth = 1;
-    for (var y = 14.0; y < s.height; y += 14) {
-      canvas.drawLine(Offset(8, y), Offset(s.width - 8, y), line);
-    }
-    // arch with a dark green board
-    final w = s.width * .78, x = (s.width - w) / 2;
-    final arch = Path()
-      ..moveTo(x, s.height)
-      ..lineTo(x, 40)
-      ..quadraticBezierTo(s.width / 2, -6, x + w, 40)
-      ..lineTo(x + w, s.height)
-      ..close();
-    canvas.drawPath(arch, Paint()..color = const Color(0xFF1F3B2E));
-    canvas.drawPath(arch, Paint()
-      ..color = const Color(0xFFB89B5E)
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 3);
-    // lamps
-    for (final lx in [x / 2, s.width - x / 2]) {
-      canvas.drawCircle(Offset(lx, 34), 14, Paint()..color = const Color(0x55FFD680));
-      canvas.drawCircle(Offset(lx, 34), 6, Paint()..color = const Color(0xFFFFE3A0));
-      canvas.drawRect(Rect.fromLTWH(lx - 1.5, 40, 3, s.height - 44), Paint()..color = const Color(0xFF3B3B3B));
-    }
-  }
-
-  @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
-}
-
 /// Front desk: continue reading, new arrivals, your loans (in progress + finished).
 class _FrontDesk extends ConsumerWidget {
   final List<Book> books;
   final bool compact;
-  const _FrontDesk({required this.books, this.compact = false});
+  final ValueNotifier<double> scroll;
+  const _FrontDesk({required this.books, required this.scroll, this.compact = false});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ctrl = ref.read(progressProvider.notifier);
     final last = books.where((b) => b.id == ctrl.lastBook).firstOrNull;
     final arrivals = books.where((b) => b.audio == 'device' || b.category != 'fiction' && b.category != 'children' && b.category != 'uklife').take(10).toList();
     final loans = books.where((b) => ctrl.bookStarted(b)).toList()..sort((a, b) => ctrl.bookDone(a.id) ? 1 : (ctrl.bookDone(b.id) ? -1 : 0));
+    final hall = SizedBox(
+      height: compact ? 88 : 120,
+      child: ClipRRect(
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(18)),
+        child: ValueListenableBuilder<double>(
+          valueListenable: scroll,
+          builder: (context, px, _) => Stack(fit: StackFit.expand, children: [
+            Image.asset('$libraryArt/hall.webp', key: const ValueKey('library-hall-art'), fit: BoxFit.cover, alignment: libraryParallax(context, px, factor: 0.0006), filterQuality: FilterQuality.medium),
+            const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x22000000), Color(0x66000000)]))),
+            Positioned(left: 14, bottom: 8, right: 14, child: Text(hl('Front hall · سرسرا'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Color(0xFFF7E7C1), fontWeight: FontWeight.w800, shadows: [Shadow(color: Color(0xAA000000), blurRadius: 6)]))),
+          ]),
+        ),
+      ),
+    );
     return Container(
       key: const ValueKey('front-desk'),
       margin: const EdgeInsets.fromLTRB(16, 14, 16, 0),
@@ -378,8 +375,12 @@ class _FrontDesk extends ConsumerWidget {
         gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [_woodLight, _wood]),
         boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .22), blurRadius: 10, offset: const Offset(0, 5))],
       ),
-      padding: const EdgeInsets.fromLTRB(14, 10, 14, 14),
+      clipBehavior: Clip.antiAlias,
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        hall,
+        Padding(
+          padding: const EdgeInsets.fromLTRB(14, 10, 14, 14),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         Row(children: [
           const Icon(Icons.room_service_rounded, color: Color(0xFFF7E7C1), size: 18),
           const SizedBox(width: 6),
@@ -418,6 +419,8 @@ class _FrontDesk extends ConsumerWidget {
             ]),
           ),
         ],
+          ]),
+        ),
       ]),
     );
   }
@@ -545,19 +548,7 @@ class _Aisle extends ConsumerWidget {
             ),
           );
     final shelves = [for (final l in levels) _Shelf(level: l, books: books.where((b) => b.level == l.code).toList(), gate: gate, ctrl: ctrl)];
-    return Semantics(
-      label: '${section.name} aisle, ${section.nameFa}',
-      child: Padding(
-      key: ValueKey('aisle-${section.id}'),
-      padding: const EdgeInsets.symmetric(horizontal: 12),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(14),
-          gradient: const LinearGradient(colors: [_woodDark, _wood, _woodDark], stops: [0, .5, 1]),
-          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 12, offset: const Offset(0, 6))],
-        ),
-        padding: const EdgeInsets.fromLTRB(8, 8, 8, 10),
-        child: scrollShelves
+    final caseBody = scrollShelves
             ? Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
                 plate,
                 Expanded(
@@ -568,7 +559,25 @@ class _Aisle extends ConsumerWidget {
                   ),
                 ),
               ])
-            : Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [plate, ...shelves]),
+            : Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [plate, ...shelves]);
+    return Semantics(
+      label: '${section.name} aisle, ${section.nameFa}. Walk between the shelves.',
+      child: Padding(
+      key: ValueKey('aisle-${section.id}'),
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(14),
+          boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 12, offset: const Offset(0, 6))],
+        ),
+        clipBehavior: Clip.antiAlias,
+        child: Stack(children: [
+          Positioned.fill(
+            child: Image.asset(libraryAisleArt(section.id), fit: BoxFit.cover, alignment: const Alignment(0, 0.15), filterQuality: FilterQuality.medium),
+          ),
+          const Positioned.fill(child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x33000000), Color(0x66000000), Color(0x99000000)])))),
+          Padding(padding: const EdgeInsets.fromLTRB(8, 8, 8, 10), child: caseBody),
+        ]),
       ),
     ),
     );
@@ -598,7 +607,7 @@ class _Shelf extends ConsumerWidget {
           height: 16,
           child: DecoratedBox(
             decoration: BoxDecoration(
-              gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [_woodLight, _wood, _woodDark]),
+              image: const DecorationImage(image: AssetImage('assets/library/shelf_wood.webp'), fit: BoxFit.cover, alignment: Alignment.center),
               boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .3), blurRadius: 4, offset: const Offset(0, 3))],
             ),
           ),
