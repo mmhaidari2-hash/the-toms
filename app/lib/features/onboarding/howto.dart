@@ -95,6 +95,15 @@ class _HowToState extends ConsumerState<HowToPages> {
       Row(mainAxisAlignment: MainAxisAlignment.center, children: [
         for (var k = 0; k < _pages.length; k++) AnimatedContainer(duration: const Duration(milliseconds: 250), margin: const EdgeInsets.all(3), width: k == _i ? 18 : 7, height: 7, decoration: BoxDecoration(color: k == _i ? BL.gold : Colors.white24, borderRadius: BorderRadius.circular(9))),
       ]),
+      // First-run tip (t306 item 6): where the full guide lives, visible on every page so skippers see it too.
+      Padding(
+        key: const ValueKey('howto-guide-tip'),
+        padding: const EdgeInsets.fromLTRB(24, 8, 24, 0),
+        child: Column(children: [
+          Text(hl('Tip: the full user guide is always in the menu ☰ → User guide & help.'), textAlign: TextAlign.center, style: const TextStyle(color: Colors.white70, fontSize: 12.5)),
+          Text('نکته: راهنمای کامل همیشه در منو ☰ ← راهنمای کاربر است.', textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: Colors.white54)),
+        ]),
+      ),
       Padding(
         padding: EdgeInsets.fromLTRB(24, 10, 24, 16 + MediaQuery.paddingOf(context).bottom),
         child: Row(children: [

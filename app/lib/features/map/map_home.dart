@@ -1240,6 +1240,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
           'پیشرفت و نشان‌ها',
           '/progress',
         ),
+        (Icons.insights_rounded, 'Progress check', 'سنجش پیشرفت', '/check'),
         (Icons.manage_accounts_rounded, 'Profiles', 'پروفایل‌ها', '/profiles'),
         (
           Icons.family_restroom_rounded,
@@ -1257,7 +1258,8 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.badge_rounded, 'Your name', 'نام شما', '#name'),
     (Icons.workspace_premium_outlined, 'Premium', 'اشتراک ویژه', '/premium'),
     (Icons.person_add_alt_1_rounded, 'Invite a friend', 'دعوت از دوست', '#invite'),
-    (Icons.help_outline_rounded, 'How it works', 'راهنما', '/howto'),
+    (Icons.menu_book_outlined, 'User guide & help', 'راهنمای کاربر', '/guide'),
+    (Icons.help_outline_rounded, 'Quick tour', 'تور کوتاه', '/howto'),
     (Icons.gavel_rounded, 'Privacy & terms', 'حریم خصوصی', '/legal'),
   ];
   void go(BuildContext sheet, String route) {
@@ -1473,7 +1475,9 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
         ),
       ),
     ),
-  ).whenComplete(search.dispose);
+  );
+  // No dispose on close: the sheet still rebuilds the field during its exit animation ("used after being
+  // disposed" when an entry is tapped). A listener-free controller is simply garbage-collected.
 }
 
 class _MenuTile extends StatelessWidget {
