@@ -16,14 +16,17 @@ app/tool/brand/icon_master.png (and icon_1024.png), then resizes every
 Android mipmap and web icon in place. If the source is already the
 1024 master, the frame crop is skipped and the master is left untouched.
 
-Android adaptive foreground and web maskable icons are full-bleed: the
-master covers the whole 108dp / maskable canvas. Launchers then show
-the centre ~72dp (Android) or may crop to an 80% safe circle (web).
-Scale/offset are tuned so the door, the bay window with the family and
-the framed flag stay inside that viewport. Legacy square/round icons
-are a straight resize of the master. File names are unchanged so
-manifests do not need editing. No pub dependencies are added; Pillow
-is only used on the machine that runs this script.
+Android adaptive foreground: the master is scaled to the central 72dp
+of the 108dp canvas (ADAPTIVE_SCALE = 72/108) so the launcher circle
+and squircle show the same framing as the legacy icons — the black
+door, the bay window with the family, and the framed flag. The 18dp
+bleed is filled by stretching and blurring the master's edge pixels,
+so parallax and mask antialiasing have no hard empty edge. Web
+maskable icons stay full-bleed (the 80% safe zone already shows the
+same scene). Legacy square/round icons are a straight resize of the
+master. File names are unchanged so manifests do not need editing. No
+pub dependencies are added; Pillow is only used on the machine that
+runs this script.
 """
 
 from __future__ import annotations
@@ -46,12 +49,11 @@ ANDROID_VIEWPORT = 72 / 108  # launcher mask shows the central 72dp of 108dp
 ANDROID_SAFE = ANDROID_VIEWPORT  # kept as an alias for older call sites
 WEB_MASKABLE_SAFE = 80 / 100  # typical maskable safe zone (subject must fit)
 
-# Full-bleed framing for the 108dp adaptive foreground (and monochrome).
-# scale=1, offset=(0,0) fills the canvas with the whole master; the mask
-# then reveals the centre 72/108, which still contains the door, the bay
-# window with the family, and the framed flag. Zooming in clips one of
-# those. offset is a fraction of the canvas; +x is right, +y is down.
-ADAPTIVE_SCALE = 1.0
+# Adaptive foreground (and monochrome): scale the master into the
+# central 72dp of the 108dp canvas so the launcher mask matches the
+# legacy framing. offset is a fraction of the canvas; +x is right, +y
+# is down. Web maskable stays full-bleed (scale=1).
+ADAPTIVE_SCALE = 72 / 108
 ADAPTIVE_OFFSET = (0.0, 0.0)
 WEB_MASKABLE_SCALE = 1.0
 WEB_MASKABLE_OFFSET = (0.0, 0.0)
@@ -129,6 +131,62 @@ def _cover_crop(
     return scene.crop((ox, oy, ox + canvas_size, oy + canvas_size))
 
 
+def _edge_extend(content: Image.Image, canvas_size: int, origin: tuple[int, int]) -> Image.Image:
+    """Paste content and fill the remaining ring by stretching edge pixels.
+
+    The bleed is lightly blurred, then the original content is pasted
+    back so the visible 72dp stays sharp and the join has no hard seam.
+    """
+    content = content.convert("RGB")
+    cw, ch = content.size
+    x0, y0 = origin
+    x1, y1 = x0 + cw, y0 + ch
+    if x0 < 0 or y0 < 0 or x1 > canvas_size or y1 > canvas_size:
+        raise ValueError("content does not fit on the canvas")
+    canvas = Image.new("RGB", (canvas_size, canvas_size))
+    canvas.paste(content, (x0, y0))
+    if y0 > 0:
+        top = content.crop((0, 0, cw, 1)).resize((cw, y0), Image.Resampling.BILINEAR)
+        canvas.paste(top, (x0, 0))
+    if y1 < canvas_size:
+        bot = content.crop((0, ch - 1, cw, ch)).resize((cw, canvas_size - y1), Image.Resampling.BILINEAR)
+        canvas.paste(bot, (x0, y1))
+    if x0 > 0:
+        left = canvas.crop((x0, 0, x0 + 1, canvas_size)).resize((x0, canvas_size), Image.Resampling.BILINEAR)
+        canvas.paste(left, (0, 0))
+    if x1 < canvas_size:
+        right = canvas.crop((x1 - 1, 0, x1, canvas_size)).resize(
+            (canvas_size - x1, canvas_size), Image.Resampling.BILINEAR
+        )
+        canvas.paste(right, (x1, 0))
+    pad = min(x0, y0, canvas_size - x1, canvas_size - y1)
+    if pad > 0:
+        radius = max(1.0, pad / 3.0)
+        canvas = canvas.filter(ImageFilter.GaussianBlur(radius=radius))
+        canvas.paste(content, (x0, y0))
+    return canvas
+
+
+def _fit_with_bleed(
+    master: Image.Image,
+    canvas_size: int,
+    scale: float,
+    offset: tuple[float, float],
+) -> Image.Image:
+    """Scale the master into the centre and fill the outer ring by edge extension."""
+    content = max(1, int(round(canvas_size * scale)))
+    if (canvas_size - content) % 2:
+        content -= 1
+        content = max(1, content)
+    pad = (canvas_size - content) // 2
+    ox = pad + int(round(offset[0] * canvas_size))
+    oy = pad + int(round(offset[1] * canvas_size))
+    ox = max(0, min(canvas_size - content, ox))
+    oy = max(0, min(canvas_size - content, oy))
+    scene = resample(master, (content, content))
+    return _edge_extend(scene, canvas_size, (ox, oy))
+
+
 def full_bleed(
     master: Image.Image,
     canvas_size: int,
@@ -136,8 +194,16 @@ def full_bleed(
     offset: tuple[float, float],
     background: tuple[int, ...] | None,
 ) -> Image.Image:
-    """Place the master so it fills the square canvas edge to edge."""
-    scene = _cover_crop(master, canvas_size, scale, offset)
+    """Place the master on a square canvas.
+
+    scale >= 1 covers the canvas (zoom/crop). scale < 1 shrinks the
+    master into the centre (scale=72/108 fills the launcher viewport)
+    and edge-extends the remainder so the bleed has no hard empty edge.
+    """
+    if scale >= 1.0:
+        scene = _cover_crop(master, canvas_size, scale, offset)
+    else:
+        scene = _fit_with_bleed(master, canvas_size, scale, offset)
     if background is None:
         if scene.mode != "RGBA":
             return scene.convert("RGBA")
@@ -193,7 +259,7 @@ def adaptive_visible(
     scale: float = ADAPTIVE_SCALE,
     offset: tuple[float, float] = ADAPTIVE_OFFSET,
 ) -> Image.Image:
-    """What an Android launcher shows: centre 72/108 of the full-bleed layer."""
+    """What an Android launcher shows: centre 72/108 of the 108dp layer."""
     # Render the 108dp layer at a multiple of 108 so the 72dp crop is exact.
     layer_px = 108 * 10
     layer = full_bleed(master, layer_px, scale, offset, background=BG_COLOR)
@@ -217,15 +283,31 @@ def apply_circle(im: Image.Image) -> Image.Image:
 
 
 def make_monochrome(master: Image.Image, size: int) -> Image.Image:
-    """White silhouette of the lit window and doorway, full-bleed like the colour foreground."""
-    placed = full_bleed(master, size, ADAPTIVE_SCALE, ADAPTIVE_OFFSET, background=None)
+    """White silhouette of the lit window and doorway, framed like the colour foreground.
+
+    The glyph uses the same central 72dp as the colour artwork. The bleed
+    stays transparent: edge-extending a thresholded silhouette would leak
+    white streaks into themed icons.
+    """
+    content = max(1, int(round(size * ADAPTIVE_SCALE)))
+    if (size - content) % 2:
+        content -= 1
+        content = max(1, content)
+    pad = (size - content) // 2
+    ox = pad + int(round(ADAPTIVE_OFFSET[0] * size))
+    oy = pad + int(round(ADAPTIVE_OFFSET[1] * size))
+    ox = max(0, min(size - content, ox))
+    oy = max(0, min(size - content, oy))
+    placed = resample(master, (content, content))
     gray = ImageOps.autocontrast(placed.convert("L"), cutoff=1)
     # Slight blur before the threshold fills pane gaps without jagged speckles.
     soft = gray.filter(ImageFilter.GaussianBlur(1.2))
     glyph = soft.point(lambda p: 255 if p >= 80 else 0)
     glyph = glyph.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3))
+    alpha = Image.new("L", (size, size), 0)
+    alpha.paste(glyph, (ox, oy))
     out = Image.new("RGBA", (size, size), (255, 255, 255, 0))
-    out.putalpha(glyph)
+    out.putalpha(alpha)
     return out
 
 
@@ -344,19 +426,20 @@ def write_preview(
     web_icon_192: Image.Image,
     web_maskable_192: Image.Image,
 ) -> None:
-    # Adaptive compositing at each preview size: full-bleed 108dp layer,
-    # then the launcher viewport (centre 72/108), then the shape mask.
+    # Adaptive compositing at each preview size: 108dp layer (master in
+    # the central 72dp, edge-extended bleed), then the launcher viewport
+    # (centre 72/108), then the shape mask.
     sizes = (48, 96, 192)
     tile_gap = 24
     canvas = Image.new("RGB", (1200, 1180), (28, 30, 36))
     draw = ImageDraw.Draw(canvas)
     draw.text(
         (24, 16),
-        "New Life UK icon preview  —  adaptive full-bleed + web maskable  (v7 master)",
+        "New Life UK icon preview  —  adaptive 72/108 framing + web maskable  (v7 master)",
         fill=(230, 230, 230),
     )
     legend = (
-        f"Adaptive: full-bleed fg, launcher shows centre 72/108  ·  "
+        f"Adaptive: master scaled to centre 72/108, edge-extended bleed  ·  "
         f"web maskable: full-bleed, 80% safe  ·  bg #{BG_COLOR[0]:02X}{BG_COLOR[1]:02X}{BG_COLOR[2]:02X}"
     )
     draw.text((24, 36), legend, fill=(170, 176, 186))
@@ -369,8 +452,8 @@ def write_preview(
 
     y = 70
     for label, maker in [
-        ("Adaptive · circle (48 / 96 / 192)  —  centre 72/108 of the 108dp layer", adaptive_tile),
-        ("Adaptive · squircle (48 / 96 / 192)  —  centre 72/108 of the 108dp layer", adaptive_tile),
+        ("Adaptive · circle (48 / 96 / 192)  —  master in centre 72/108 of the 108dp layer", adaptive_tile),
+        ("Adaptive · squircle (48 / 96 / 192)  —  master in centre 72/108 of the 108dp layer", adaptive_tile),
         ("Legacy full-bleed · circle (48 / 96 / 192)", legacy_tile),
         ("Legacy full-bleed · squircle (48 / 96 / 192)", legacy_tile),
     ]:
