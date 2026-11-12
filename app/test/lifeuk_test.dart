@@ -24,17 +24,9 @@ void main() {
       expect(c.cards.length, greaterThanOrEqualTo(8));
       for (final e in c.expl) {
         expect(e.fa.trim(), isNotEmpty);
-        // The 26 March 2027 settlement sentence was restored after Q12 dropped it.
-        // Its tutor clip is not in the index yet (free-tier render only). Every other line stays voiced.
-        final pendingSettlementAudio = e.en.contains('26 March 2027');
-        final voiced = audio.contains(Voice.key('tutor', e.en));
-        if (pendingSettlementAudio) {
-          expect(voiced, isFalse, reason: 'settlement-date line still needs an F0 clip');
-          expect(e.ms, 0);
-        } else {
-          expect(voiced, isTrue, reason: 'voiced: ${e.en}');
-          expect(e.ms, greaterThan(3000));
-        }
+        // Every explanation, including the restored 26 March 2027 settlement line, is voiced (tutor clip + length).
+        expect(audio.contains(Voice.key('tutor', e.en)), isTrue, reason: 'voiced: ${e.en}');
+        expect(e.ms, greaterThan(3000), reason: 'clip length: ${e.en}');
       }
       for (final q in c.qs) {
         expect(seen.add(q.id), isTrue);
