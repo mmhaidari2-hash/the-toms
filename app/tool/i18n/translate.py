@@ -7,10 +7,13 @@ import ctranslate2, sentencepiece as spm
 HERE = os.path.dirname(os.path.abspath(__file__))
 NLLB = {'hi': 'hin_Deva', 'bn': 'ben_Beng', 'pa': 'pan_Guru', 'zh': 'zho_Hans', 'zh-Hant': 'zho_Hant', 'ar': 'arb_Arab', 'uk': 'ukr_Cyrl', 'ps': 'pbt_Arab', 'ur': 'urd_Arab', 'ckb': 'ckb_Arab', 'tr': 'tur_Latn', 'es': 'spa_Latn',
         'prs': 'prs_Arab', 'pl': 'pol_Latn', 'ro': 'ron_Latn', 'pt': 'por_Latn', 'so': 'som_Latn', 'kmr': 'kmr_Latn', 'sq': 'als_Latn', 'ti': 'tir_Ethi'}
-SCRIPT = {'Arab': '\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200c\u200d', 'Cyrl': '\u0400-\u04FF', 'Latn': 'A-Za-z\u00C0-\u024F', 'Ethi': '\u1200-\u139F', 'Deva': '\u0900-\u097F\u200c\u200d', 'Beng': '\u0980-\u09FF', 'Guru': '\u0A00-\u0A7F', 'Hans': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF', 'Hant': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF'}
+SCRIPT = {'Arab': '\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200c\u200d', 'Cyrl': '\u0400-\u04FF', 'Latn': 'A-Za-z\u00C0-\u024F', 'Ethi': '\u1200-\u139F', 'Deva': '\u0900-\u097F\u200c\u200d', 'Beng': '\u0980-\u09FF\u0964\u0965\u200c\u200d', 'Guru': '\u0A00-\u0A7F\u0964\u0965', 'Hans': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF', 'Hant': '\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF'}
 MODEL = os.environ.get('NLLB', '/workspace/mt/onmt13')
 sp = spm.SentencePieceProcessor(model_file='/workspace/mt/nllb13/sentencepiece.bpe.model')
-tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=int(os.environ.get('MT_THREADS','2')))
+tr = ctranslate2.Translator(MODEL, device='cpu', compute_type='int8', inter_threads=2, intra_threads=min(2, int(os.environ.get('MT_THREADS', '2'))))
+# intra_threads > 2 makes CTranslate2 on this box return corrupted text ("Este Stalinismul" for "It's Sam."; checked
+# 12 Nov 2026 with 1/2/4/8 threads: 1 and 2 identical and correct, 4 and 8 garbage), so it is capped at 2.
+# Run one language per process: a long multi-language run on this box grew to 6GB+ and was OOM-killed (12 Nov 2026).
 src = json.load(open(os.path.join(HERE, 'sources.json')))
 FA_DIG = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
 # Latin words a non-Latin translation may keep although the source spells them in Persian ("گوگل‌پلی" -> "Google Play"):

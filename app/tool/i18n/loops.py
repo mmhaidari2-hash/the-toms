@@ -21,4 +21,7 @@ def looped(out, en, code=''):
     o = out.strip()
     if re.fullmatch(r'[a-z][a-z0-9]*([A-Z_][A-Za-z0-9_]*)+', o) and o.lower() not in (en or '').lower(): return True
     if en and len(en) > 25 and len(out) < (0.12 if code.startswith('zh') else 0.3) * len(en): return True  # a long sentence collapsed to a fragment
+    # Decoder corruption that slipped past length/script checks: a long dash run with almost no letters
+    # ("- ج - - - - ..."). Same box also returned this with intra_threads>2; keep the check anyway.
+    if len(re.findall(r'[-–—]', out)) >= 10 and len(re.findall(r'[^\W\d_]', out)) < 8: return True
     return bool(en) and len(out) > 3 * len(en) + 25
