@@ -4,6 +4,11 @@
 "kind": "text",
 "ui": false
 },
+"(تخمینی). چند هفته بعد دوباره بزن تا پیشرفتت را ببینی.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "(تماس": {
 "en": null,
 "kind": "text",
@@ -13,6 +18,11 @@
 "en": null,
 "kind": "text",
 "ui": false
+},
+"(در": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "(در نقش Leslie) (در نقش رایان) مامان، می‌شه…؟": {
 "en": "(As Leslie) (As Ryan) Mum, can I…?",
@@ -2369,6 +2379,11 @@
 "kind": "text",
 "ui": false
 },
+"(مثل": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "(مرغ) آزاد/محلی": {
 "en": "free-range",
 "kind": "word",
@@ -2385,6 +2400,21 @@
 "ui": false
 },
 ") است. با استفاده می‌پذیرید؛ وگرنه استفاده نکنید.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"). آزمون کوتاه نوسان دارد": {
+"en": null,
+"kind": "text",
+"ui": false
+},
+"). آزمون کوتاه نوسان دارد — ادامه بده و دوباره بسنج.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"). آفرین!": {
 "en": null,
 "kind": "text",
 "ui": true
@@ -4763,6 +4793,11 @@
 "en": "\"They're not there to catch you out. They want to see the children learning and happy. Show them that.\"",
 "kind": "text",
 "ui": false
+},
+"«آهسته بشنو» را بزن، بعد فقط واژه‌های رنگی را بگو.": {
+"en": "Try \"Hear slowly\", then say just the coloured words.",
+"kind": "text",
+"ui": true
 },
 "«آیس لالی» چیه؟": {
 "en": "What's an ice lolly?",
@@ -13639,6 +13674,11 @@
 "kind": "word",
 "ui": true
 },
+"آهسته بشنو": {
+"en": "Hear slowly",
+"kind": "text",
+"ui": false
+},
 "آهسته حرف می‌زنم و همه چیز را ساده نگه می‌دارم.": {
 "en": "I'll speak slowly and keep things simple.",
 "kind": "text",
@@ -15099,6 +15139,11 @@
 "kind": "text",
 "ui": false
 },
+"ادامه": {
+"en": "Continue",
+"kind": "text",
+"ui": false
+},
 "ادامه بده": {
 "en": "go on",
 "kind": "text",
@@ -15106,6 +15151,11 @@
 },
 "ادامه بده رایان! تلاش خوبی بود!": {
 "en": "Keep going, Ryan! Good effort!",
+"kind": "text",
+"ui": false
+},
+"ادامه بده و دوباره بسنج.": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -18459,6 +18509,11 @@
 "kind": "text",
 "ui": true
 },
+"اشتراک ویژه در اپ اندروید New Life UK در دسترس است. در وب‌سایت پرداختی انجام نمی‌شود.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "اشتراک ویژهٔ New Life UK": {
 "en": null,
 "kind": "text",
@@ -21037,7 +21092,7 @@
 "امروز": {
 "en": "today",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "امروز آدم زیادی این‌جا نیست.": {
 "en": "There aren't many people here today.",
@@ -22373,6 +22428,16 @@
 "en": "Sizes and amounts",
 "kind": "text",
 "ui": false
+},
+"اندروید گفتار شما را با تشخیص گفتار خود گوشی (معمولاً گوگل) به متن تبدیل می‌کند. اگر گوشی مدل آفلاین انگلیسی داشته باشد روی خود دستگاه انجام می‌شود؛ وگرنه بسته به تنظیمات اندروید، ممکن است گوگل صدایتان را روی سرورهایش پردازش کند. New Life UK صدای شما را ضبط، ذخیره یا ارسال نمی‌کند.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"اندروید: تنظیمات › برنامه‌ها › New Life UK › مجوزها › میکروفون › اجازه. برای گفتار بدون اینترنت، انگلیسی (بریتانیا) را در «تشخیص گفتار روی دستگاه» اضافه کنید.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "انرژی بادی": {
 "en": "wind energy",
@@ -23799,6 +23864,11 @@
 "kind": "text",
 "ui": false
 },
+"اولین سنجش:": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "اولین قدم": {
 "en": "First steps",
 "kind": "text",
@@ -25056,6 +25126,11 @@
 },
 "اپ را دانلود کن — رایگانه. اینجا اسکنش کن. عالی، ۲.۴۰ پوند صرفه‌جویی کردی. کارت یا نقد؟": {
 "en": "Download the app — it's free. Scan it here. Lovely, you saved £2.40. Card or cash?",
+"kind": "text",
+"ui": false
+},
+"اپ صدایت را ضبط یا آپلود نمی‌کند.": {
+"en": "New Life UK does not record or upload your voice.",
 "kind": "text",
 "ui": false
 },
@@ -27873,6 +27948,11 @@
 "en": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
 "kind": "text",
 "ui": false
+},
+"این گوشی سرویس تشخیص گفتار ندارد. جواب را بنویس، یا یکی از پاسخ‌ها را بزن.": {
+"en": "This phone has no speech recognition service. Type a reply, or tap one of the answers.",
+"kind": "text",
+"ui": true
 },
 "این گوشی مال کیه؟ کل عصر داره زنگ می‌خوره.": {
 "en": "Whose phone is this? It's been ringing all evening.",
@@ -36104,6 +36184,11 @@
 "kind": "text",
 "ui": false
 },
+"برای تمرین صحبت، New Life UK به میکروفون نیاز دارد. فقط وقتی دکمهٔ میکروفون قرمز است گوش می‌دهد.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "برای توئه سوفی. ممنون بابت همه‌چی.": {
 "en": "It's for you, Sophie. Thank you for everything.",
 "kind": "text",
@@ -41534,6 +41619,11 @@
 "kind": "text",
 "ui": false
 },
+"به": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "به New Life UK خوش آمدی": {
 "en": "Welcome to New Life UK",
 "kind": "text",
@@ -41683,6 +41773,16 @@
 "en": "close enough",
 "kind": "text",
 "ui": false
+},
+"به اندازهٔ کافی واضح. هر وقت آماده بودی جملهٔ بعد.": {
+"en": "clear enough. Next line when you are ready.",
+"kind": "text",
+"ui": false
+},
+"به اندازهٔ کافی واضح. یک بار دیگر برای همهٔ واژه‌ها، یا برو جلو.": {
+"en": "Clear enough. Try once more for every word, or go on.",
+"kind": "text",
+"ui": true
 },
 "به انگلیسی جواب بده…": {
 "en": "Reply in English…",
@@ -43179,6 +43279,16 @@
 "kind": "text",
 "ui": false
 },
+"بهتر از دفعهٔ قبل": {
+"en": "Better than last time",
+"kind": "text",
+"ui": false
+},
+"بهتر از دفعهٔ قبل — به اندازهٔ کافی واضح. هر وقت آماده بودی جملهٔ بعد.": {
+"en": "Better than last time — clear enough. Next line when you are ready.",
+"kind": "text",
+"ui": true
+},
 "بهتر از لندن؟": {
 "en": "Better than London?",
 "kind": "text",
@@ -43366,6 +43476,11 @@
 },
 "بهترین جمله دربارهٔ نقاط قوتتان": {
 "en": "Best sentence about your strengths",
+"kind": "text",
+"ui": false
+},
+"بهترین جواب را انتخاب کن": {
+"en": "Choose the best reply",
 "kind": "text",
 "ui": false
 },
@@ -49289,6 +49404,16 @@
 "kind": "word",
 "ui": false
 },
+"تخمین غیررسمی از یک آزمون کوتاه در همین اپ. گواهی CEFR نیست و معادل IELTS، آزمون انگلیسی وزارت کشور (SELT) یا Life in the UK نیست.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"تخمین غیررسمی سطح": {
+"en": "Unofficial level estimate",
+"kind": "text",
+"ui": false
+},
 "تخم‌مرغ": {
 "en": "egg",
 "kind": "word",
@@ -49961,6 +50086,11 @@
 },
 "تشخیص گفتار روی این دستگاه به اینترنت نیاز دارد.": {
 "en": "network",
+"kind": "text",
+"ui": true
+},
+"تشخیص گفتار روی این گوشی شروع نشد. جوابت را بنویس، یا یکی از جواب‌های بالا را بزن.": {
+"en": "Speech recognition didn't start on this phone. Type your reply, or tap one above.",
 "kind": "text",
 "ui": true
 },
@@ -54624,6 +54754,11 @@
 "kind": "word",
 "ui": false
 },
+"ثابت در": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "ثابت نگهش دار!": {
 "en": "Keep it steady!",
 "kind": "text",
@@ -56612,6 +56747,11 @@
 "جواب دادن": {
 "en": "answer",
 "kind": "word",
+"ui": false
+},
+"جواب درست را انتخاب کن": {
+"en": "Choose the right answer",
+"kind": "text",
 "ui": false
 },
 "جواب دست تکان دادن": {
@@ -59143,6 +59283,11 @@
 "en": "About an hour, if nothing's wrong. You can wait in the office with a cuppa.",
 "kind": "text",
 "ui": false
+},
+"حدود ۱۰ تا ۲۰ سؤال: بهترین جواب را در موقعیت‌های واقعی اپ انتخاب کن. هر بار سؤال تازه است، پس می‌توانی هر چند هفته تکرارش کنی و پیشرفتت را ببینی. سطح دوره‌ات عوض نمی‌شود.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "حدوداً": {
 "en": "around",
@@ -71204,6 +71349,11 @@
 "kind": "text",
 "ui": false
 },
+"دریافت از گوگل‌پلی": {
+"en": "Get it on Google Play",
+"kind": "text",
+"ui": false
+},
 "دریافت نقدی": {
 "en": "cash collection",
 "kind": "text",
@@ -78894,6 +79044,11 @@
 "kind": "word",
 "ui": false
 },
+"رسیدی (از": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "رسیدیم": {
 "en": "here we are",
 "kind": "text",
@@ -85709,6 +85864,11 @@
 "kind": "text",
 "ui": true
 },
+"سطح تخمینی (غیررسمی)": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "سطح تو": {
 "en": null,
 "kind": "text",
@@ -87808,6 +87968,11 @@
 "en": "pins",
 "kind": "word",
 "ui": false
+},
+"سنجش‌های تو": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "سنجیدن مزایا و معایب": {
 "en": "Weighing up: The upside is… / The downside is… / It depends on…",
@@ -112889,6 +113054,21 @@
 "kind": "word",
 "ui": false
 },
+"مدل را بشنو، بعد جمله را بگو.": {
+"en": "Hear the model, then say the line.",
+"kind": "text",
+"ui": true
+},
+"مدل را بشنو، بعد همان جمله را بگو. تشخیص گفتار گوشی آن را به متن تبدیل می‌کند و واژه‌های شنیده‌شده پررنگ می‌شوند. این واژه‌ها را می‌سنجد، نه صداها را": {
+"en": "Hear the model, then say the same line. Your phone's speech recognizer turns it into text and the words it heard are highlighted. This checks words, not sounds",
+"kind": "text",
+"ui": false
+},
+"مدل را بشنو، بعد همان جمله را بگو. تشخیص گفتار گوشی آن را به متن تبدیل می‌کند و واژه‌های شنیده‌شده پررنگ می‌شوند. این واژه‌ها را می‌سنجد، نه صداها را — اپ صدایت را ضبط یا آپلود نمی‌کند.": {
+"en": "Hear the model, then say the same line. Your phone's speech recognizer turns it into text and the words it heard are highlighted. This checks words, not sounds — New Life UK does not record or upload your voice.",
+"kind": "text",
+"ui": true
+},
 "مدل را بشنو، بعد همان جمله را بگو. مرورگر صدایت را به متن تبدیل می‌کند": {
 "en": "Hear the model, then say the same line. Your browser turns speech into text for the score",
 "kind": "text",
@@ -115561,6 +115741,11 @@
 },
 "معلم آمادگی، میپل گروو": {
 "en": "Reception teacher, Maple Grove",
+"kind": "text",
+"ui": false
+},
+"معلم انسان نیست و نمرهٔ واجی نیست.": {
+"en": "not a human teacher and not a phoneme score.",
 "kind": "text",
 "ui": false
 },
@@ -136334,6 +136519,11 @@
 "kind": "text",
 "ui": true
 },
+"همهٔ واژه‌ها واضح شنیده شد.": {
+"en": "Every word came through clearly.",
+"kind": "text",
+"ui": true
+},
 "همهٔ کارت‌ها را بلدی!": {
 "en": null,
 "kind": "text",
@@ -136791,6 +136981,11 @@
 },
 "همیشه موقع ورود و خروج کارت بزن. وگرنه بیشترین کرایه را میدی!": {
 "en": "Always tap in and tap out. Or you pay the maximum fare!",
+"kind": "text",
+"ui": false
+},
+"همیشه می‌توانید به‌جایش بنویسید.": {
+"en": "You can always type instead.",
 "kind": "text",
 "ui": false
 },
@@ -139814,6 +140009,11 @@
 "kind": "text",
 "ui": false
 },
+"واژه‌های رنگی را کمی واضح‌تر بگو، بعد کل جمله را.": {
+"en": "Say the coloured words a little more clearly, then the whole line.",
+"kind": "text",
+"ui": true
+},
 "واژه‌های صمیمی در نقاط مختلف بریتانیا.": {
 "en": "friendly words strangers use in different parts of Britain.",
 "kind": "text",
@@ -140946,6 +141146,11 @@
 },
 "وقت اضافه چیه؟": {
 "en": "What's added time?",
+"kind": "text",
+"ui": false
+},
+"وقت انگلیسی امروز است": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -146281,6 +146486,11 @@
 },
 "پنج دقیقه پیش، تو مغازهٔ اسباب‌بازی.": {
 "en": "Five minutes ago, at the toy shop.",
+"kind": "text",
+"ui": false
+},
+"پنج دقیقه کافی است.": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -157379,6 +157589,16 @@
 "kind": "text",
 "ui": true
 },
+"کمک هوش مصنوعی: صدای نمونه TTS است؛ سنجش با گفتار به متن گوشی": {
+"en": "AI aid: model audio is neural text-to-speech; the check uses your phone's speech-to-text",
+"kind": "text",
+"ui": false
+},
+"کمک هوش مصنوعی: صدای نمونه TTS است؛ سنجش با گفتار به متن گوشی — معلم انسان نیست و نمرهٔ واجی نیست.": {
+"en": "AI aid: model audio is neural text-to-speech; the check uses your phone's speech-to-text — not a human teacher and not a phoneme score.",
+"kind": "text",
+"ui": true
+},
 "کمک هوش مصنوعی: صدای نمونه با TTS ساخته شده است. این نسخهٔ نصب‌شده گفتار را به متن تبدیل نمی‌کند.": {
 "en": "AI aid: the model audio is neural text-to-speech. This installed app does not turn your speech into text.",
 "kind": "text",
@@ -165613,6 +165833,11 @@
 "en": "A difficult conversation",
 "kind": "text",
 "ui": false
+},
+"یک یادآور محلی در روز، در ساعتی که انتخاب می‌کنید. روی همین گوشی می‌ماند: بدون حساب و سرور. تا روشنش نکنید خاموش است.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "یک … در باغ است! / دارد … می‌خورد / نزدیکش نرو / کجا زندگی می‌کند؟": {
 "en": "There's a… in the garden! / It's eating… / Don't go near it / Where does it live?",
