@@ -216,7 +216,7 @@ void main() {
   test('audio sync: every spoken line is ONE clip in ONE voice, its speaker\'s current voice', () {
     // Voices as configured in tool/render_voices.py; the manifest records which voice rendered each clip.
     final cfg = File('tool/render_voices.py').readAsStringSync();
-    final v = {for (final m in RegExp(r"'([a-z]+)':\('(en-[A-Za-z-]+)','([+-]\d+Hz)','([+-]\d+%)'\)").allMatches(cfg)) m[1]!: '${m[2]}|${m[3]}|${m[4]}'};
+    final v = {for (final m in RegExp(r"'([a-z]+)':\('(en-[A-Za-z-]+)','([+-]\d+Hz)','([+-]\d+%)'(?:,'([a-z-]+)')?\)").allMatches(cfg)) m[1]!: '${m[2]}|${m[3]}|${m[4]}${m[5] == null ? '' : '|${m[5]}'}'};
     final man = (jsonDecode(File('tool/audit/voice_manifest.json').readAsStringSync()) as Map<String, dynamic>);
     final have = (jsonDecode(File('assets/audio/index.json').readAsStringSync()) as List).cast<String>().toSet();
     String k(String a, String b) => md5.convert(utf8.encode('$a|$b')).toString().substring(0, 16);

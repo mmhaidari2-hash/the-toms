@@ -4,6 +4,8 @@
 مخزن: https://github.com/mmhaidari2-hash/the-toms
 شاخهٔ کار: `fix/offline-audio-content` — **همیشه روی همین شاخه کار کنید.**
 
+> **۱۲ نوامبر ۲۰۲۶، ۰۸:۰۰ لندن — اصلاح تست audio sync:** regex در `app/test/audit_test.dart` تنظیمات صدای چهاربخشی (با style، مثل `me`/`learner` = Ryan + `chat`) را نمی‌خواند و همهٔ خط‌های آن‌ها را اشتباهاً drift گزارش می‌کرد. گروه اختیاری style اضافه شد تا با امضای `voice_manifest.json` (`'|'.join(V[sp])`) یکی باشد. نتیجهٔ واقعی `flutter test test/arrival_pack_test.dart test/audit_test.dart` (Flutter 3.47.7 روی box، کف SDK فقط موقتاً پایین آمد و برگردانده شد): **+14، همه پاس**. مجموعهٔ کامل تست اجرا نشد. انتشار روی Pages/main هنوز مجاز نیست.
+
 ## از اینجا ادامه دهید — ۶ نوامبر ۲۰۲۶، بعد از جواب پریا و وضعیت صدا
 
 رکورد معتبر ادامه این است، نه جست‌وجوی دوبارهٔ کار تمام‌شده:
