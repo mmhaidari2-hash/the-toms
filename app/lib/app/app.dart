@@ -14,6 +14,7 @@ import '../features/leitner/leitner_add.dart';
 import '../features/shared/voice_feedback.dart';
 import 'route_guard.dart';
 import 'router.dart';
+import '../features/feedback/feedback_screen.dart';
 import 'theme.dart';
 
 class BritishLifeApp extends StatelessWidget {
@@ -33,11 +34,11 @@ class BritishLifeApp extends StatelessWidget {
         child: Center(
           child: ConstrainedBox(
             constraints: const BoxConstraints(maxWidth: 520),
-            child: HelperLangScope(
+            child: RepaintBoundary(key: screenBoundaryKey, child: HelperLangScope(
               child: VoiceFeedback(
                 child: LeitnerSelect(child: kPreviewUnlock ? Banner(message: 'PREVIEW', location: BannerLocation.topEnd, color: const Color(0xFF1F3A5F), child: child ?? const SizedBox()) : child ?? const SizedBox()),
               ),
-            ),
+            )),
           ),
         ),
       ),

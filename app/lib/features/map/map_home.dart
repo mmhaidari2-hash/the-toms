@@ -9,6 +9,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/models/learner_profile.dart';
 import '../../core/data/repository.dart';
+import '../feedback/feedback_screen.dart';
 import '../shared/share.dart';
 import '../shared/widgets.dart';
 import '../motivation/motivation_widgets.dart';
@@ -1259,6 +1260,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.workspace_premium_outlined, 'Premium', 'اشتراک ویژه', '/premium'),
     (Icons.person_add_alt_1_rounded, 'Invite a friend', 'دعوت از دوست', '#invite'),
     (Icons.menu_book_outlined, 'User guide & help', 'راهنمای کاربر', '/guide'),
+    (Icons.feedback_outlined, 'Feedback & bug report', 'بازخورد و گزارش خطا', '#feedback'),
     (Icons.help_outline_rounded, 'Quick tour', 'تور کوتاه', '/howto'),
     (Icons.gavel_rounded, 'Privacy & terms', 'حریم خصوصی', '/legal'),
   ];
@@ -1268,6 +1270,13 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
       showNameDialog(context, ref);
     } else if (route == '#invite') {
       shareInvite(context);
+    } else if (route == '#feedback') {
+      // Remember the screen under the menu and grab it (after the sheet has gone) for the optional screenshot.
+      final from = GoRouter.of(context).routerDelegate.currentConfiguration.last.matchedLocation;
+      Future.delayed(const Duration(milliseconds: 350), () async {
+        await FeedbackCapture.grab(from);
+        if (context.mounted) context.push('/feedback?from=${Uri.encodeComponent(from)}');
+      });
     } else {
       context.push(route);
     }

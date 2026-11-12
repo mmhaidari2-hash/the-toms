@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:british_life/core/legal/publisher_config.dart';
 import 'package:flutter/material.dart';
+
+import '../../core/app_info.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -522,7 +524,7 @@ class _LegalScreenState extends ConsumerState<LegalScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      hl('Version 1.1.0 (5)'),
+                      hl('Version ${AppInfo.label}'),
                       style: const TextStyle(
                         fontSize: 13,
                         color: BL.muted,

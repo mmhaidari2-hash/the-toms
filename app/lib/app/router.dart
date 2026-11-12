@@ -51,6 +51,7 @@ import '../features/library/reader_screen.dart';
 import '../features/motivation/progress_screen.dart';
 import '../features/premium/certificate_screen.dart';
 import '../features/premium/entry_gate.dart';
+import '../features/feedback/feedback_screen.dart';
 import '../features/guide/user_guide.dart';
 import '../features/progress_check/progress_check_screen.dart';
 import 'route_guard.dart';
@@ -147,6 +148,7 @@ final router = GoRouter(
     GoRoute(path: '/lifeuk', pageBuilder: (_, s) => _fade(const LukScreen(), s)),
     GoRoute(path: '/visa', pageBuilder: (_, s) => _fade(const VisaScreen(), s)),
     GoRoute(path: '/settlement', pageBuilder: (_, s) => _fade(const SettlementScreen(), s)),
+    GoRoute(path: '/feedback', pageBuilder: (_, s) => _fade(FeedbackScreen(from: s.uri.queryParameters['from']), s)),
     GoRoute(path: '/guide', pageBuilder: (_, s) => _fade(const UserGuideScreen(), s)),
     GoRoute(path: '/check', pageBuilder: (_, s) => _fade(const ProgressCheckScreen(), s)),
     GoRoute(path: '/coach', pageBuilder: (_, s) => _fade(CoachScreen(seed: s.uri.queryParameters['q']), s)),
