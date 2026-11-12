@@ -62,7 +62,14 @@ void main() {
         expect(b.blurbFa, isNotEmpty, reason: b.id);
       }
     }
-    expect(books.length, greaterThanOrEqualTo(53));
+    expect(books.length, greaterThanOrEqualTo(70));
+    expect(books.where((b) => b.category == 'history').length, greaterThanOrEqualTo(4), reason: 'history shelf');
+    expect(books.where((b) => b.category == 'poetry').length, greaterThanOrEqualTo(4), reason: 'poetry shelf');
+    expect(books.any((b) => b.category == 'science' && b.level == 'C1'), isTrue, reason: 'C1 science');
+    expect(books.any((b) => b.category == 'children' && b.level == 'A2'), isTrue, reason: 'A2 children');
+    expect(books.any((b) => b.category == 'biography' && b.level == 'A1'), isTrue, reason: 'A1 biography');
+    expect(books.any((b) => b.category == 'reference' && b.level == 'A1'), isTrue, reason: 'A1 reference');
+    expect(books.any((b) => b.category == 'uklife' && b.level == 'A1'), isTrue, reason: 'A1 UK life');
   });
 
   test('every book is shelved in a known section; every section has books; new books carry sources', () {
