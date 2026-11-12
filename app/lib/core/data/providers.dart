@@ -21,6 +21,7 @@ import 'progress_store.dart';
 import '../models/learner_profile.dart';
 import 'repository.dart';
 import '../billing/entitlements.dart';
+import 'premium.dart';
 export 'premium.dart';
 import '../security/owner_unlock.dart';
 
@@ -46,6 +47,9 @@ class TurnOutcome {
 }
 
 String _day(DateTime d) => '${d.year}-${d.month}-${d.day}';
+
+/// Why a lesson cannot be opened ([open] when it can).
+enum LessonLock { open, sequence, daily, pack }
 
 class ProgressController extends Notifier<UserProgress> {
   @override
@@ -625,16 +629,106 @@ class ProgressController extends Notifier<UserProgress> {
     final i = seq.indexWhere((l) => l.id == id);
     return i >= 0 && i + 1 < seq.length ? seq[i + 1] : null;
   }
-  bool lessonOpen(Course c, Lesson l) {
+  bool lessonOpen(Course c, Lesson l) => lessonLock(c, l) == LessonLock.open;
+
+  /// Why a lesson is closed, or [LessonLock.open]. Order: course sequence / level first, then payment.
+  LessonLock lessonLock(Course c, Lesson l) {
     final u = c.unitOf(l.id)!;
     final ui = c.units.indexOf(u), li = u.lessons.indexOf(l);
     if (ui < 0) { // Career Pack lessons: free order; the first lesson is a free preview, the rest need the pack
       final pk = c.packOf(u);
-      if (pk != null && pk.gated && !packUnitLevelOpen(c, u)) return false;
-      return pk == null || packOwned(pk) || pk.lessons.first.id == l.id;
+      if (pk != null && pk.gated && !packUnitLevelOpen(c, u)) return LessonLock.sequence;
+      return pk == null || packOwned(pk) || pk.lessons.first.id == l.id ? LessonLock.open : LessonLock.pack;
     }
-    return unitOpen(c, ui) && (state.gatesOpen || li == 0 || lessonDone(u.lessons[li - 1]));
+    if (!(unitOpen(c, ui) && (state.gatesOpen || li == 0 || lessonDone(u.lessons[li - 1])))) return LessonLock.sequence;
+    return dailyLessonOpen(c, l) ? LessonLock.open : LessonLock.daily;
   }
+
+  // ---- Monetisation, Option B (owner-approved 2026-11-12; docs/monetisation/MODEL_FA.md).
+  // Nothing here locks while PremiumConfig.betaFree is true, or on the web (kIsWeb stays free until the owner decides).
+  /// Test seam for the web rule (kIsWeb cannot change inside a VM test).
+  static bool webFree = kIsWeb;
+  /// True when this build sells content at all (independent of what this learner owns).
+  bool get sellsContent => !PremiumConfig.betaFree && !webFree;
+  /// True when paid limits apply to this learner right now.
+  bool get paywallOn => sellsContent && !hasPremium;
+
+  /// Free zone of the main course: Units 1–10 and the first unit of every level (so a learner placed at a higher
+  /// level still starts free there).
+  bool inFreeZone(Course c, Unit u) {
+    final i = c.units.indexOf(u);
+    if (i < 0) return false;
+    final n = int.tryParse(u.id.startsWith('U') ? u.id.substring(1) : '');
+    if (n != null && n >= 1 && n <= PremiumConfig.freeCoreUnits) return true;
+    return c.units.indexWhere((x) => x.level == u.level) == i;
+  }
+
+  /// A lesson the learner already started (a scene finished, or today's/an earlier free claim) never locks again,
+  /// so the paywall can never appear in the middle of a lesson or a conversation.
+  bool lessonStarted(Lesson l) =>
+      state.missionsDone.containsKey('quota:l:${l.id}') || l.sceneIds.any(state.completedScenes.contains) || practiceScore(l.id) != null;
+
+  /// Local "today" for the daily allowance. Never earlier than the latest day a free lesson was claimed, so turning
+  /// the clock back cannot give the allowance again (turning it forward only spends future days). No network needed.
+  String get quotaDay {
+    final today = Motivation.day(_now);
+    final last = state.missionsDone['quota:last'] ?? '';
+    return last.compareTo(today) > 0 ? last : today;
+  }
+  int get freeLessonsUsedToday {
+    final d = quotaDay;
+    return state.missionsDone.entries.where((e) => e.key.startsWith('quota:l:') && e.value == d).length;
+  }
+  int get freeLessonsLeftToday => (PremiumConfig.dailyFreeLessons - freeLessonsUsedToday).clamp(0, PremiumConfig.dailyFreeLessons);
+
+  /// Payment side of a main-course lesson (the sequence rule is checked separately by [lessonLock]).
+  bool dailyLessonOpen(Course c, Lesson l) {
+    if (!paywallOn) return true;
+    final u = c.unitOf(l.id);
+    if (u == null || inFreeZone(c, u)) return true;
+    return lessonDone(l) || lessonStarted(l) || freeLessonsLeftToday > 0;
+  }
+
+  /// True when opening [l] would spend today's free lesson.
+  bool needsDailyClaim(Course c, Lesson l) {
+    if (!paywallOn) return false;
+    final u = c.unitOf(l.id);
+    if (u == null || !c.units.contains(u) || inFreeZone(c, u)) return false;
+    return !lessonDone(l) && !lessonStarted(l);
+  }
+
+  /// Spends today's free lesson on [l] when the learner starts it. Returns false when nothing is left today.
+  bool claimDailyLesson(Course c, Lesson l) {
+    if (!needsDailyClaim(c, l)) return true;
+    if (freeLessonsLeftToday <= 0) return false;
+    final d = quotaDay;
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'quota:l:${l.id}': d, 'quota:last': d});
+    _save();
+    return true;
+  }
+
+  /// The free core (Units 1–10) is finished: the strongest paywall moment (end-of-core celebration).
+  bool freeCoreDone(Course c) {
+    final core = c.units.where((u) {
+      final n = int.tryParse(u.id.startsWith('U') ? u.id.substring(1) : '');
+      return n != null && n >= 1 && n <= PremiumConfig.freeCoreUnits;
+    }).toList();
+    return core.isNotEmpty && core.every((u) => unitPassed(u) || u.lessons.every(lessonDone));
+  }
+
+  /// Exams ('lifeuk', 'theory'): Premium or the one-off pack. Free: chapter 1 and one mock test.
+  bool examUnlocked(String exam) =>
+      hasPremium || Entitlements.packUnlocked(exam) || (!Entitlements.paidBuild && state.missionsDone['pack:$exam'] == 'owned');
+  bool examChapterOpen(String exam, int index) => !sellsContent || index == 0 || examUnlocked(exam);
+  int examMocks(String exam) => exam == 'theory' ? thyMocks : lukMocks;
+  bool examMockOpen(String exam) => !sellsContent || examUnlocked(exam) || examMocks(exam) == 0;
+  /// Driving English lessons come with the Theory pack; the first one is a free preview.
+  bool drivingLessonOpen(int index) => !sellsContent || index == 0 || examUnlocked('theory');
+
+  /// Certificates for every level (t298): Premium. Progress towards them stays visible to everyone.
+  bool get certificatesUnlocked => !sellsContent || hasPremium;
+  /// Offline voices (t298): Premium. Online playback, the 419 bundled clips and the Arrival pack download stay free.
+  bool get offlineVoicesUnlocked => !sellsContent || hasPremium;
 
   /// A gated pack unit opens once the learner's course level reaches its CEFR level (A2 = Level 2 …).
   bool packUnitLevelOpen(Course c, Unit u) {
@@ -647,8 +741,10 @@ class ProgressController extends Notifier<UserProgress> {
   // In a paid build only server-verified entitlements count; demo/owner mode and local prefs are beta/dev aids only.
   bool get hasPremium =>
       Entitlements.isPremium || (!Entitlements.paidBuild && (state.gatesOpen || state.missionsDone['pref:premium'] == 'on'));
+  /// Option B: when the build sells content every Career Pack is Premium (lesson 1 stays a free preview); a pack
+  /// with its own one-off product ([PremiumConfig.oneOffPacks]) can also be bought alone.
   bool packOwned(Pack p) =>
-      !p.premium || hasPremium || Entitlements.packUnlocked(p.id) || (!Entitlements.paidBuild && state.missionsDone['pack:${p.id}'] == 'owned');
+      (!p.premium && !sellsContent) || hasPremium || Entitlements.packUnlocked(p.id) || (!Entitlements.paidBuild && state.missionsDone['pack:${p.id}'] == 'owned');
 
   // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).
   List<Unit> levelUnits(Course c, int level) => c.units.where((u) => u.level == level).toList();

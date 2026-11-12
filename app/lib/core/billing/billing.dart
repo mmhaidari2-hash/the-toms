@@ -7,6 +7,13 @@ import 'entitlements.dart';
 
 enum BillingOutcome { success, cancelled, pending, unavailable, failed }
 
+/// A price exactly as Google Play formats it (currency, VAT-inclusive), plus the free-trial length if any.
+class StorePrice {
+  final String text;
+  final int? trialDays;
+  const StorePrice(this.text, {this.trialDays});
+}
+
 /// RevenueCat + Google Play Billing (OPEN_QUESTIONS_FA.md Q42).
 ///
 /// OFF unless all three hold: [PremiumConfig.betaFree] is false, the build was made with
@@ -37,14 +44,55 @@ abstract final class Billing {
     }
   }
 
-  static void _apply(CustomerInfo info) => Entitlements.applyServerState(
-        premium: info.entitlements.active.containsKey(entitlementId),
-        packs: {
-          for (final t in info.nonSubscriptionTransactions)
-            if (t.productIdentifier.startsWith(Entitlements.careerPackPrefix))
-              t.productIdentifier.substring(Entitlements.careerPackPrefix.length),
-        },
-      );
+  static void _apply(CustomerInfo info) {
+    final ent = info.entitlements.active[entitlementId];
+    Entitlements.applyServerState(
+      // premium_lifetime should be attached to the "premium" entitlement in RevenueCat; the transaction check is
+      // a fallback that still only trusts RevenueCat's verified CustomerInfo.
+      premium: ent != null || info.nonSubscriptionTransactions.any((t) => t.productIdentifier == Entitlements.premiumLifetime),
+      packs: {
+        for (final t in info.nonSubscriptionTransactions)
+          if (t.productIdentifier.startsWith(Entitlements.careerPackPrefix))
+            t.productIdentifier.substring(Entitlements.careerPackPrefix.length),
+      },
+      trialEndsAt: ent != null && ent.periodType == PeriodType.trial ? DateTime.tryParse(ent.expirationDate ?? '')?.toLocal() : null,
+    );
+  }
+
+  /// Store prices for [Entitlements.allProducts], read from Google Play through RevenueCat. Empty when billing
+  /// is off or the store is unreachable: callers must then NOT sell (no hard-coded charged amounts).
+  static Future<Map<String, StorePrice>> prices() async {
+    if (!available) return const {};
+    if (!_ready) await init();
+    if (!_ready) return const {};
+    final out = <String, StorePrice>{};
+    try {
+      final offerings = await Purchases.getOfferings();
+      for (final o in offerings.all.values) {
+        for (final p in o.availablePackages) {
+          final sp = p.storeProduct;
+          out.putIfAbsent(sp.identifier.split(':').first, () => StorePrice(sp.priceString, trialDays: periodDays(sp.defaultOption?.freePhase?.billingPeriod?.iso8601)));
+        }
+      }
+      final missing = Entitlements.allProducts.where((id) => !out.containsKey(id)).toList();
+      if (missing.isNotEmpty) {
+        for (final sp in await Purchases.getProducts(missing, productCategory: ProductCategory.nonSubscription)) {
+          out.putIfAbsent(sp.identifier.split(':').first, () => StorePrice(sp.priceString));
+        }
+      }
+    } catch (e) {
+      debugPrint('Billing prices failed: $e');
+    }
+    return out;
+  }
+
+  /// Days in an ISO-8601 period such as P7D / P1W / P1M (approximate for months). Null when absent.
+  static int? periodDays(String? iso) {
+    final m = RegExp(r'^P(\d+)([DWMY])$').firstMatch(iso ?? '');
+    if (m == null) return null;
+    final n = int.parse(m.group(1)!);
+    return switch (m.group(2)) { 'D' => n, 'W' => n * 7, 'M' => n * 30, _ => n * 365 };
+  }
 
   /// Buys [productId] (one of the [Entitlements] product ids). The caller must already have shown the
   /// price, renewal terms and the UK 14-day cancellation consent.

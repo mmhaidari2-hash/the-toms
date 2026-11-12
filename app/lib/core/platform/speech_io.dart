@@ -5,6 +5,7 @@ import 'dart:io' show Directory, File, HttpClient, HttpHeaders, Platform;
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+import '../billing/offline_voices.dart';
 import 'audio_ver.g.dart';
 import 'speech_result.dart';
 import 'speech_stub.dart' as stub;
@@ -96,6 +97,11 @@ class SpeechInput {
       }
     } catch (_) {}
     try {
+      // Online-only clips from the last session (no offline voices entitlement) are not kept.
+      final session = await sessionDirectory();
+      await session.delete(recursive: true);
+    } catch (_) {}
+    try {
       final dir = await clipCacheDirectory();
       // Drop caches from older voice casts.
       await for (final e in dir.parent.list()) {
@@ -118,6 +124,24 @@ class SpeechInput {
     await dir.create(recursive: true);
     _cacheDir = dir;
     return dir;
+  }
+
+  /// Per-session folder for clips played online without the offline voices entitlement. Wiped at start-up.
+  static Future<Directory> sessionDirectory() async {
+    final base = await _cacheRoot();
+    final dir = Directory('${base.path}/nl_session');
+    await dir.create(recursive: true);
+    return dir;
+  }
+
+  /// Where a freshly downloaded clip goes: the persistent cache (offline voices: Premium, beta, web-free builds)
+  /// or the session folder (online playback only). See [OfflineVoices].
+  static Future<File> downloadTarget(String name) async {
+    if (OfflineVoices.allowed()) {
+      final dir = _cacheDir ?? await clipCacheDirectory();
+      return File('${dir.path}/$name');
+    }
+    return File('${(await sessionDirectory()).path}/$name');
   }
 
   static Future<Directory> _cacheRoot() async {
@@ -153,10 +177,14 @@ class SpeechInput {
       }
       final url = remoteUrlFor(asset);
       try {
+        final target = await downloadTarget(name);
+        if (target.path != file.path && await target.exists() && await target.length() > 64) {
+          return DeviceFileSource(target.path, mimeType: 'audio/mpeg');
+        }
         final bytes = await _download(url);
         if (bytes.length > 64) {
-          await file.writeAsBytes(bytes, flush: true);
-          return DeviceFileSource(file.path, mimeType: 'audio/mpeg');
+          await target.writeAsBytes(bytes, flush: true);
+          return DeviceFileSource(target.path, mimeType: 'audio/mpeg');
         }
       } catch (_) {}
       // Last resort: stream with explicit MPEG mime + cache buster (still Azure clip, never TTS).

@@ -10,6 +10,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
+import '../premium/premium_screen.dart';
 import '../../core/data/repository.dart';
 import '../../core/models/dialogue_node.dart';
 import '../../core/models/place.dart';
@@ -579,8 +580,14 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
     final ctrl = ref.read(progressProvider.notifier);
     final next = ProgressController.nextAfter(c.course, widget.id);
     final canNext = pass && next != null && ctrl.lessonOpen(c.course, next);
+    // Paywall moments (Option B): after the free core (Units 1–10) or when today's free lesson is used.
+    // Shown as a card on the finished-lesson screen only; nothing opens by itself.
+    final unit = c.course.unit(widget.id) ?? c.course.unitOf(widget.id);
+    final coreMoment = pass && ctrl.paywallOn && unit != null && ctrl.inFreeZone(c.course, unit) && c.course.units.indexOf(unit) < PremiumConfig.freeCoreUnits && ctrl.freeCoreDone(c.course);
+    final dailyMoment = pass && !coreMoment && next != null && ctrl.lessonLock(c.course, next) == LessonLock.daily;
     return Celebration(
       key: const ValueKey('practice-celebrate'),
+      extra: coreMoment || dailyMoment ? PaywallMomentCard(reason: coreMoment ? 'core' : 'daily') : null,
       onNext: canNext ? () => context.go('/lesson/${next.id}') : null,
       nextLabel: 'Next lesson',
       titleFa: pass && !canNext && next != null ? 'آفرین! درس بعدی هنوز قفل است.' : null,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../core/billing/offline_voices.dart';
 import '../core/data/providers.dart';
 import '../core/i18n/helper_text.dart';
 import '../core/models/user_progress.dart';
@@ -51,6 +52,13 @@ class HelperLangScope extends ConsumerStatefulWidget {
 
 class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
   String? _want;
+
+  @override
+  void initState() {
+    super.initState();
+    // Offline voices (Premium): read live per clip so a purchase/restore applies at once (see OfflineVoices).
+    OfflineVoices.allowed = () => mounted ? ref.read(progressProvider.notifier).offlineVoicesUnlocked : true;
+  }
 
   void _rebuildAll(Element e) {
     e.markNeedsBuild();

@@ -5,6 +5,7 @@ import 'package:british_life/core/billing/billing.dart';
 import 'package:british_life/core/billing/entitlements.dart';
 import 'package:british_life/core/data/progress_store.dart';
 import 'package:british_life/core/data/providers.dart';
+import 'package:british_life/features/premium/premium_screen.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -57,6 +58,10 @@ void main() {
   testWidgets('paid paywall: pay stays disabled until the 14-day consent is ticked', (t) async {
     PremiumConfig.betaFree = false;
     Entitlements.paidBuild = true;
+    // Store prices come from Google Play at runtime; a fake store answers here.
+    final load = PremiumScreen.loadPrices;
+    PremiumScreen.loadPrices = () async => {Entitlements.premiumYearly: const StorePrice('£29.99', trialDays: 7)};
+    addTearDown(() => PremiumScreen.loadPrices = load);
     t.view.physicalSize = const Size(375, 1800) * 3; // tall enough that the whole paywall list is built
     t.view.devicePixelRatio = 3;
     addTearDown(t.view.reset);

@@ -7,6 +7,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 import '../shared/share.dart';
+import 'premium_screen.dart';
 
 const certLevels = {1: ('Home', 'خانه', 'A1'), 2: ('Neighbourhood', 'محله', 'A2'), 3: ('High Street', 'خیابان اصلی', 'B1'), 4: ('Town centre', 'مرکز شهر', 'B2'), 5: ('The city', 'شهر', 'C1')};
 
@@ -43,7 +44,9 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
     if (c == null) return const NavLoading();
     final lv = widget.level.clamp(1, 5);
     final (name, nameFa, cefr) = certLevels[lv]!;
-    final done = ctrl.levelComplete(c.course, lv) || p.gatesOpen;
+    final earned = ctrl.levelComplete(c.course, lv) || p.gatesOpen;
+    // Certificates are Premium (t298) when the build sells content; progress stays visible to everyone.
+    final done = earned && ctrl.certificatesUnlocked;
     final prog = ctrl.levelProgress(c.course, lv);
     final units = ctrl.levelUnits(c.course, lv);
     final pad = MediaQuery.paddingOf(context);
@@ -186,7 +189,16 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
             CertificateShareRow(boundary: _certKey, text: 'I finished Level $lv ($name) of New Life UK. British English for everyday life. $inviteUrl\nسطح $lv دورهٔ New Life UK را تمام کردم.'),
             const SizedBox(height: 14),
           ],
-          if (!done) ...[
+          if (earned && !done) ...[
+            Text(
+              hl('Level $lv complete. Well done!'),
+              key: const ValueKey('cert-earned'),
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 8),
+            const PaywallMomentCard(reason: 'cert'),
+          ] else if (!done) ...[
             Text(
               hl('${(prog * 100).round()}% of Level $lv done. Finish every unit to earn this certificate.'),
               textAlign: TextAlign.center,

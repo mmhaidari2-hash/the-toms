@@ -10,6 +10,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../shared/nav.dart';
 import 'theory_data.dart';
+import '../premium/premium_screen.dart';
 import 'theory_screen.dart';
 
 const _good = Color(0xFF2E7D5B);
@@ -322,6 +323,9 @@ class _ThyQuizState extends ConsumerState<ThyQuizScreen> {
               style: const TextStyle(fontWeight: FontWeight.w900, color: BL.gold, fontSize: 16),
             ),
           ),
+        // Paywall moment (Option B): after the first mock result, a calm offer for the full test pack.
+        if (mock && ref.read(progressProvider.notifier).sellsContent && !ref.read(progressProvider.notifier).examUnlocked('theory'))
+          const Padding(padding: EdgeInsets.only(top: 12), child: PaywallMomentCard(reason: 'mock', pack: 'theory')),
         if (mock)
           const Padding(
             padding: EdgeInsets.only(top: 6),

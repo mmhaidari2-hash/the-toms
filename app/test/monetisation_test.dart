@@ -32,7 +32,9 @@ void main() {
     expect(PremiumConfig.yearly, lessThan(PremiumConfig.monthly * 12));
     expect(PremiumConfig.yearlySaving, inInclusiveRange(1, 90));
     expect(PremiumConfig.price(4.99), '£4.99');
-    expect([PremiumConfig.monthly, PremiumConfig.yearly, PremiumConfig.foundingYear, PremiumConfig.careerPack], [6.99, 44.99, 29.99, 7.99]);
+    // Owner decision t299 (Option B): documented GBP placeholders only; charged prices come from Google Play.
+    expect([PremiumConfig.monthly, PremiumConfig.yearly, PremiumConfig.lifetime, PremiumConfig.careerPack, PremiumConfig.examPack, PremiumConfig.foundingYear], [4.99, 29.99, 59.99, 7.99, 4.99, 19.99]);
+    expect(PremiumConfig.trialDays, 7);
     expect(PremiumConfig.foundingYear, lessThan(PremiumConfig.yearly));
   });
 
@@ -84,7 +86,6 @@ void main() {
     expect(find.text('Coming soon', skipOffstage: false), findsNothing);
     expect(find.textContaining('not switched on', skipOffstage: false), findsNothing);
     expect(find.text('Unlock every Career Pack', skipOffstage: false), findsOneWidget);
-    await t.dragUntilVisible(find.byKey(const ValueKey('restore-purchases')), find.byType(Scrollable).first, const Offset(0, -300));
     expect(find.byKey(const ValueKey('restore-purchases'), skipOffstage: false), findsOneWidget);
     expect(find.byKey(const ValueKey('manage-subscription'), skipOffstage: false), findsOneWidget);
     Entitlements.paidBuild = false;

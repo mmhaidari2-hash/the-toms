@@ -298,7 +298,8 @@ class _Stones extends ConsumerWidget {
                                   ..hideCurrentSnackBar()
                                   ..showSnackBar(SnackBar(content: Text(hl('Opens at ${u.cefr}: keep going with the main course. · با پیشرفت در دورهٔ اصلی در سطح ${u.cefr} باز می‌شود.'))))
                                 : () => context.push('/premium?pack=${pack?.id ?? ''}'))
-                            : null),
+                            // Today's free lesson is used: show the paywall (between lessons, never inside one).
+                            : (!check && ctrl.lessonLock(course, l) == LessonLock.daily ? () => context.push('/premium?reason=daily') : null)),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: Column(

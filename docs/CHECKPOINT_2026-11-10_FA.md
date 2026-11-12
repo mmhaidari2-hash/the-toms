@@ -321,3 +321,5 @@ English: All 22,030 manifest clips were rendered (0 failed) and pass ffprobe. Bi
 English: Re-rendered all 10,528 voice-sync clips (0 failed, ffprobe OK). Billable chars 1,226,735, about £16.60 incl. VAT; session estimate about £39.80 (< £50). Not an invoice. Tests 13 pass, 1 fail. The failure is the audit test regex ignoring the 4-tuple style voices (me/learner). With a temporary uncommitted regex fix, all 14 pass. Live host unchanged.
 
 - ۱۲ نوامبر ۲۰۲۶ — تست فشار چندنقشی: اصلاح‌ها در `5fd2b927`، گزارش `docs/qa/STRESS_TEST_2026-11-12_FA.md`؛ `flutter test` کامل +283 همه پاس. main/Pages/sw.js/Azure/PL/امضا دست نخورد.
+
+- ۱۲ نوامبر ۲۰۲۶ — درآمدزایی گزینه‌ی B در کد پیاده شد ولی خاموش است (`betaFree=true`، بدون BILLING و کلید RC، وب رایگان). سند: `docs/monetisation/MODEL_FA.md`. `flutter test` کامل: +302 همه پاس. main/Pages/Azure/PL/امضا دست نخورد. تأیید حقوقی یا آمادگی Play نیست.

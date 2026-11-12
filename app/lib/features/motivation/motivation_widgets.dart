@@ -126,7 +126,9 @@ class Celebration extends StatefulWidget {
   final String? title, titleFa;
   /// Tests can switch the timed auto-advance off.
   static bool autoAdvance = true;
-  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry, this.scoreLabel = 'Score', this.onNext, this.nextLabel = 'Next lesson', this.autoNext = 3});
+  /// Optional card under the stats (e.g. a calm Premium offer after the free core). Never auto-opens anything.
+  final Widget? extra;
+  const Celebration({super.key, this.extra, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry, this.scoreLabel = 'Score', this.onNext, this.nextLabel = 'Next lesson', this.autoNext = 3});
   /// Label under the percentage stat (e.g. 'Phrases' for a mission check-in).
   final String scoreLabel;
   @override
@@ -220,6 +222,7 @@ class _CelebrationState extends State<Celebration> {
                   Column(key: ValueKey('new-badge-${b.id}'), children: [BadgeMedal(b, earned: true, size: 60), const SizedBox(height: 4), Text(hl(b.title), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5))]),
               ]),
             ],
+            if (widget.extra != null) ...[const SizedBox(height: 14), widget.extra!],
             const SizedBox(height: 20),
             if (_hasNext) ...[
               FilledButton(

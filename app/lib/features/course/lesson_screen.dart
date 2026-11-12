@@ -12,11 +12,25 @@ import '../../core/data/providers.dart';
 import '../../core/platform/voice.dart';
 import '../shared/widgets.dart';
 import '../premium/premium_screen.dart';
+import '../arrival/arrival_pack_screen.dart' show ArrivalAudioWarmer;
+import '../arrival/arrival_prefetch.dart';
+import '../../core/data/repository.dart' show ContentBundle;
+import '../../core/models/course.dart';
+import '../../core/models/dialogue_node.dart';
 
 /// One lesson: painting, what you'll learn, the words, then Story → Practice.
 class LessonScreen extends ConsumerWidget {
   final String lessonId;
   const LessonScreen({super.key, required this.lessonId});
+  /// Test seam for the offline download (defaults to the same downloader the Arrival pack uses).
+  static ArrivalAudioWarmer? warmer;
+  /// Voice clip keys (KEY of assets/audio/KEY.mp3) of every line in this lesson's stories.
+  static List<String> audioKeys(ContentBundle c, Lesson l) => {
+        for (final id in l.sceneIds)
+          for (final n in c.scenes[id]?.nodes.values ?? const <DialogueNode>[])
+            for (final a in n.audioBySpeed.values)
+              if (a.startsWith('assets/audio/') && !a.endsWith('silence.mp3')) a.split('/').last.replaceAll('.mp3', ''),
+      }.toList();
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final c = ref.watch(contentProvider).value;
@@ -30,6 +44,29 @@ class LessonScreen extends ConsumerWidget {
     final pk = c.course.packOf(u);
     if (pk != null && pk.gated && !ctrl.packUnitLevelOpen(c.course, u)) return _LevelLocked(cefr: u.cefr ?? 'A2'); // same level gate as everywhere
     if (pk != null && !ctrl.lessonOpen(c.course, l)) return PremiumScreen(pack: pk.id); // Career Pack beyond the free first lesson
+    // Today's free lesson is used: the paywall replaces the lesson page, before anything starts (never mid-lesson).
+    if (pk == null && ctrl.lessonLock(c.course, l) == LessonLock.daily) return const PremiumScreen(reason: 'daily');
+    // Opening the story or practice of a new lesson outside the free zone spends today's free lesson.
+    void start(String route) {
+      if (!ctrl.claimDailyLesson(c.course, l)) {
+        context.push('/premium?reason=daily');
+        return;
+      }
+      context.push(route);
+    }
+    Future<void> download() async {
+      if (!ctrl.offlineVoicesUnlocked) {
+        context.push('/premium?reason=download');
+        return;
+      }
+      final keys = audioKeys(c, l);
+      final messenger = ScaffoldMessenger.of(context);
+      messenger.showSnackBar(SnackBar(content: Text(hl('Downloading lesson audio… · در حال دانلود صدای درس…'))));
+      final n = await (warmer ?? warmArrivalAudio)(keys);
+      messenger
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(hl(n >= keys.length ? 'Lesson audio saved for offline. · صدای درس برای آفلاین ذخیره شد.' : 'Saved $n of ${keys.length} clips. Try again on Wi‑Fi. · $n از ${keys.length} ذخیره شد.'))));
+    }
     // Same picture rule as the conversation: a painting of this setting with no main character who isn't in it,
     // else the setting's blurred (people-free) painting.
     final art = l.sceneIds.isEmpty ? null : c.artOf(l.sceneIds.first);
@@ -174,7 +211,7 @@ class LessonScreen extends ConsumerWidget {
                       title: 'Story',
                       sub: '${l.turns} turns with ${c.character(l.lead).name}',
                       done: storyDone,
-                      onTap: () => context.push('/chat/${l.sceneIds.first}'),
+                      onTap: () => start('/chat/${l.sceneIds.first}'),
                     ),
                     const SizedBox(height: 10),
                     _Step(
@@ -184,8 +221,18 @@ class LessonScreen extends ConsumerWidget {
                           ? 'Listen, build, tap & fill — about 4 minutes'
                           : 'Best score $score%',
                       done: (score ?? 0) >= 60,
-                      onTap: () => context.push('/practice/${l.id}'),
+                      onTap: () => start('/practice/${l.id}'),
                     ),
+                    if (l.sceneIds.isNotEmpty)
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: TextButton.icon(
+                          key: const ValueKey('lesson-download'),
+                          onPressed: download,
+                          icon: Icon(ctrl.offlineVoicesUnlocked ? Icons.download_rounded : Icons.workspace_premium_outlined, size: 18),
+                          label: Text(hl('Download audio for offline · دانلود صدا برای آفلاین')),
+                        ),
+                      ),
                     if (c.variantsOf(l.sceneIds.first).isNotEmpty) ...[
                       const SizedBox(height: 18),
                       _Card(
@@ -217,7 +264,7 @@ class LessonScreen extends ConsumerWidget {
                                                   ? 'learner'
                                                   : r,
                                             );
-                                        context.push(
+                                        start(
                                           '/chat/${l.sceneIds.first}',
                                         );
                                       },
@@ -343,8 +390,8 @@ class LessonScreen extends ConsumerWidget {
               child: FilledButton.icon(
                 key: const ValueKey('lesson-start'),
                 onPressed: () => storyDone
-                    ? context.push('/practice/${l.id}')
-                    : context.push('/chat/${l.sceneIds.first}'),
+                    ? start('/practice/${l.id}')
+                    : start('/chat/${l.sceneIds.first}'),
                 style: FilledButton.styleFrom(
                   backgroundColor: BL.red,
                   minimumSize: const Size.fromHeight(52),
@@ -397,13 +444,16 @@ class _Card extends StatelessWidget {
           children: [
             Icon(icon, size: 17, color: BL.green),
             const SizedBox(width: 6),
-            Text(
-              hl(title),
-              style: const TextStyle(
-                fontSize: 12.5,
-                fontWeight: FontWeight.w800,
-                color: BL.green,
-                letterSpacing: .3,
+            // Flexible: long card titles wrap on narrow phones instead of overflowing.
+            Flexible(
+              child: Text(
+                hl(title),
+                style: const TextStyle(
+                  fontSize: 12.5,
+                  fontWeight: FontWeight.w800,
+                  color: BL.green,
+                  letterSpacing: .3,
+                ),
               ),
             ),
           ],
