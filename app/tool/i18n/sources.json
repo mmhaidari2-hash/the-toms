@@ -2404,6 +2404,11 @@
 "kind": "text",
 "ui": true
 },
+") بالاتر است. باز هم می‌توانی بخوانی‌اش؛ برای کمک روی هر کلمه بزن.": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "). آزمون کوتاه نوسان دارد": {
 "en": null,
 "kind": "text",
@@ -2903,6 +2908,11 @@
 "en": "\"Should\" replaces \"if\" for a possible future: Should you need help, just call.",
 "kind": "text",
 "ui": false
+},
+"Speak را بزن و جمله را بگو. روی واژه‌های Focus دوباره تلاش کن تا قبول شوی، بعد جملهٔ بعدی. اجازهٔ میکروفون لازم است.": {
+"en": "Tap Speak and say the line. Try again on the focus words until you pass, then go to the next line. Needs the microphone permission.",
+"kind": "text",
+"ui": true
 },
 "Spot on!  عالی!": {
 "en": null,
@@ -11549,6 +11559,11 @@
 "kind": "text",
 "ui": true
 },
+"آزمایشگاه فرم‌ها": {
+"en": "UK Forms Practice Lab",
+"kind": "text",
+"ui": true
+},
 "آزمایشگاه فرم‌های بریتانیا": {
 "en": "UK Forms Practice Lab",
 "kind": "text",
@@ -11594,6 +11609,11 @@
 "kind": "text",
 "ui": true
 },
+"آزمون تئوری و آموزشگاه رانندگی": {
+"en": "Driving theory & Driving School",
+"kind": "text",
+"ui": true
+},
 "آزمون تطبیقی از A1 تا C1. از A2 شروع می‌شود؛ اگر خوب جواب بدهی بالا می‌رود، وگرنه پایه‌ها را می‌سنجد. حدود ۵ تا ۸ دقیقه.": {
 "en": null,
 "kind": "text",
@@ -11603,6 +11623,11 @@
 "en": "Placement quiz",
 "kind": "text",
 "ui": true
+},
+"آزمون رسمی نیست.": {
+"en": "not the official test.",
+"kind": "text",
+"ui": false
 },
 "آزمون زندگی در بریتانیا": {
 "en": "Life in the UK test",
@@ -11631,6 +11656,16 @@
 },
 "آزمون کلاس": {
 "en": null,
+"kind": "text",
+"ui": true
+},
+"آزمون کوتاه تطبیقی (A1 تا C1) که نقطهٔ شروع دوره‌ات را انتخاب می‌کند.": {
+"en": "A short adaptive test (A1–C1) that chooses where your course starts.",
+"kind": "text",
+"ui": true
+},
+"آزمون کوتاه قابل تکرار با تخمین غیررسمی سطح و نمودار تاریخچه. گواهی CEFR یا آزمون رسمی نیست.": {
+"en": "A short repeatable quiz that gives an unofficial level estimate and a history chart. Not a CEFR certificate or official test.",
 "kind": "text",
 "ui": true
 },
@@ -15234,6 +15269,11 @@
 "kind": "text",
 "ui": false
 },
+"ادامهٔ خواندن": {
+"en": "Continue reading",
+"kind": "text",
+"ui": false
+},
 "ادب": {
 "en": "manners",
 "kind": "word",
@@ -15931,6 +15971,11 @@
 },
 "از این چرندیات رمزارز نه.": {
 "en": "no crypto nonsense.",
+"kind": "text",
+"ui": false
+},
+"از اینجا بخوان": {
+"en": "Read from here",
 "kind": "text",
 "ui": false
 },
@@ -18449,6 +18494,11 @@
 "kind": "text",
 "ui": false
 },
+"اشتباه محتوا (انگلیسی، ترجمه یا صدا)": {
+"en": "Content error (wrong English, translation or audio)",
+"kind": "text",
+"ui": true
+},
 "اشتباه کردن": {
 "en": "get it wrong",
 "kind": "text",
@@ -19144,6 +19194,11 @@
 "kind": "text",
 "ui": false
 },
+"اطلاعات عمومی و راهنمایی به GOV.UK و مشاوران مجاز. مشاورهٔ حقوقی یا مهاجرتی برای پروندهٔ تو نیست.": {
+"en": "General information and signposts to GOV.UK and regulated advisers. Not legal or immigration advice for your case.",
+"kind": "text",
+"ui": true
+},
 "اطلاعات عمومی ویزا": {
 "en": null,
 "kind": "text",
@@ -19622,6 +19677,11 @@
 "افزایش حقوق": {
 "en": "rise",
 "kind": "word",
+"ui": false
+},
+"افزودن به جعبهٔ لایتنر": {
+"en": "Add to Leitner box",
+"kind": "text",
 "ui": false
 },
 "افزودن فرهنگی": {
@@ -20872,6 +20932,11 @@
 "امانت گرفتن": {
 "en": "borrow",
 "kind": "word",
+"ui": false
+},
+"امانت‌های تو (": {
+"en": "Your loans",
+"kind": "text",
 "ui": false
 },
 "امتحان": {
@@ -22399,6 +22464,11 @@
 "kind": "word",
 "ui": false
 },
+"اندازهٔ متن": {
+"en": "Text size",
+"kind": "text",
+"ui": false
+},
 "اندازهٔ نمونه": {
 "en": "sample size",
 "kind": "text",
@@ -23309,10 +23379,20 @@
 "kind": "text",
 "ui": false
 },
+"اول ببین، بعد جمله‌های شخصیت را بگو (بازشناسی گفتار واژه‌ها را می‌سنجد)، بعد سؤال‌ها.": {
+"en": "Watch first, then say the character's lines (speech recognition scores the words), then the questions.",
+"kind": "text",
+"ui": true
+},
 "اول ببینیم سرویس شامله یا نه.": {
 "en": "First, let's check if service is included.",
 "kind": "text",
 "ui": false
+},
+"اول بدون متن گوش کن، اگر لازم شد متن و فارسی را باز کن، بعد به سؤال‌ها جواب بده.": {
+"en": "Listen without text first, then open the transcript with Persian if you need it, then answer the questions.",
+"kind": "text",
+"ui": true
 },
 "اول بدون متن گوش کن، بعد جواب بده.": {
 "en": null,
@@ -25554,6 +25634,11 @@
 "kind": "text",
 "ui": false
 },
+"اگر یادآور می‌خواهی روشنش کن و ساعت را انتخاب کن (اندروید اجازهٔ اعلان می‌خواهد). پیش‌فرض خاموش است.": {
+"en": "Turn on the reminder and choose a time if you want one (Android asks for notification permission). It is off by default.",
+"kind": "text",
+"ui": true
+},
 "اگر یخ را گرم کنید، ذوب می‌شود. اگر شب قهوه بخورم، خوابم نمی‌برد.": {
 "en": "If you heat ice, it melts. If I drink coffee at night, I can't sleep.",
 "kind": "text",
@@ -27174,6 +27259,11 @@
 "kind": "text",
 "ui": false
 },
+"این دستگاه صدای متن‌خوان ندارد": {
+"en": "No device voice on this device",
+"kind": "text",
+"ui": false
+},
 "این دفعه خیلی خیلی داغ.": {
 "en": "extra, extra hot this time.",
 "kind": "text",
@@ -27886,6 +27976,16 @@
 },
 "این کافیه؟": {
 "en": "Will that do?",
+"kind": "text",
+"ui": false
+},
+"این کتاب از سطح فعلی‌ات (": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"این کتاب صدای ضبط‌شده ندارد و این دستگاه صدای متن‌خوان ندارد": {
+"en": "This book has no recorded voice and this device has no text-to-speech voice",
 "kind": "text",
 "ui": false
 },
@@ -30869,6 +30969,11 @@
 "kind": "text",
 "ui": false
 },
+"باز کردن ایمیل": {
+"en": "Open my email app",
+"kind": "text",
+"ui": false
+},
 "باز کردن حساب بانکی": {
 "en": "Open a bank account",
 "kind": "text",
@@ -30964,6 +31069,11 @@
 "kind": "word",
 "ui": false
 },
+"بازبینی قبل از ارسال": {
+"en": "Review before sending",
+"kind": "text",
+"ui": false
+},
 "بازبینی کردن": {
 "en": "revisit",
 "kind": "word",
@@ -30993,6 +31103,11 @@
 "en": "Specific feedback: He built… / A next step is…",
 "kind": "text",
 "ui": false
+},
+"بازخورد و گزارش خطا": {
+"en": "Feedback & bug report",
+"kind": "text",
+"ui": true
 },
 "بازداشت مدرسه": {
 "en": "detention",
@@ -31146,6 +31261,11 @@
 },
 "بازنشستگی محل کار": {
 "en": "Workplace pensions",
+"kind": "text",
+"ui": false
+},
+"بازنویسی ساده‌شده": {
+"en": "Graded adaptation",
 "kind": "text",
 "ui": false
 },
@@ -32972,6 +33092,11 @@
 "بالاتر": {
 "en": "higher",
 "kind": "word",
+"ui": false
+},
+"بالاتر از سطح تو": {
+"en": "Above your level",
+"kind": "text",
 "ui": false
 },
 "بالاتر یا پایین‌تر؟": {
@@ -34894,10 +35019,20 @@
 "kind": "text",
 "ui": false
 },
+"بخشی رایگان": {
+"en": "Partly free",
+"kind": "text",
+"ui": true
+},
 "بخشی پیدا نشد؛ واژهٔ دیگری امتحان کن.": {
 "en": "No sections found. Try another word.",
 "kind": "text",
 "ui": false
+},
+"بخش‌ها را به ترتیب برو. هر قانون را در GOV.UK یا با مشاور تحت نظارت IAA چک کن.": {
+"en": "Work through the modules in order. Confirm every rule on GOV.UK or with an IAA-regulated adviser.",
+"kind": "text",
+"ui": true
 },
 "بخوان و جواب بده": {
 "en": "Read, then answer",
@@ -36164,6 +36299,11 @@
 "kind": "text",
 "ui": false
 },
+"برای ترجمه جمله را نگه دار": {
+"en": null,
+"kind": "text",
+"ui": false
+},
 "برای تعطیلات تمام‌شده از گذشتهٔ ساده استفاده کنید؛ بسیاری از فعل‌ها بی‌قاعده‌اند.": {
 "en": "Past simple for finished holidays: we went, we stayed, it was. Many verbs are irregular: go → went, eat → ate, swim → swam.",
 "kind": "text",
@@ -36358,6 +36498,11 @@
 "en": "Do we pay for the medicines?",
 "kind": "text",
 "ui": false
+},
+"برای درس بعدی «Continue» را بزن. روی محله یا ساختمان بزن تا باز شود. منوی ☰ همهٔ بخش‌ها را دارد.": {
+"en": "Tap \"Continue\" for your next lesson. Tap an area or building to open it. The ☰ menu lists every section.",
+"kind": "text",
+"ui": true
 },
 "برای درست کردنش چی لازمه؟": {
 "en": "What do you need to make them?",
@@ -36614,8 +36759,8 @@
 "kind": "text",
 "ui": false
 },
-"برای معنی روی هر کلمه بزن": {
-"en": "Tap a word for its meaning",
+"برای معنی روی کلمه بزن": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -37588,6 +37733,21 @@
 "en": "open mic",
 "kind": "text",
 "ui": false
+},
+"برنامهٔ ایمیل باز شد؛ آن‌جا بررسی کن و ارسال را بزن.": {
+"en": null,
+"kind": "text",
+"ui": false
+},
+"برنامهٔ ایمیل پیدا نشد؛ «Copy report» را بزن و به": {
+"en": null,
+"kind": "text",
+"ui": false
+},
+"برنامهٔ ایمیلت با همین پیام باز می‌شود. تا خودت آن‌جا ارسال را نزنی چیزی فرستاده نمی‌شود.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "برنامهٔ تلفنی": {
 "en": "Phone-in",
@@ -39384,6 +39544,11 @@
 "kind": "text",
 "ui": false
 },
+"بعد از درس‌ها بازش کن و اشتباه‌ها را دوباره امتحان کن تا یاد بگیری.": {
+"en": "Open it after lessons to try your mistakes again until they stick.",
+"kind": "text",
+"ui": true
+},
 "بعد از دستشویی و قبل از آشپزی.": {
 "en": "After the toilet and before cooking.",
 "kind": "text",
@@ -39849,6 +40014,11 @@
 "kind": "text",
 "ui": false
 },
+"بعضی بخش‌ها اشتراک ویژه یا بسته لازم دارند. قیمت‌ها از گوگل‌پلی می‌آید.": {
+"en": "Some sections need Premium or a pack. Prices come from Google Play.",
+"kind": "text",
+"ui": true
+},
 "بعضی بچه‌ها هنوز پوشک دارن و بعضی دارن دستشویی رفتن یاد می‌گیرن. زیاد ازشون می‌پرسیم: «دستشویی داری؟»": {
 "en": "Some children are still in nappies, and some are toilet training. We ask them often: \"Do you need the toilet?\"",
 "kind": "text",
@@ -40003,6 +40173,11 @@
 "en": "sides",
 "kind": "word",
 "ui": false
+},
+"بفرست.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "بفرما": {
 "en": "here you go",
@@ -42353,6 +42528,11 @@
 "en": "Answer the safety question",
 "kind": "text",
 "ui": false
+},
+"به سؤال‌های دستور، واژه، خواندن و شنیدن جواب بده. نتیجه سطح دوره را تعیین می‌کند؛ سطح‌های قبلی همچنان باز می‌مانند.": {
+"en": "Answer grammar, vocabulary, reading and listening questions. Your result sets your course level; you can still go back to earlier levels.",
+"kind": "text",
+"ui": true
 },
 "به سبک بریتانیایی بگو: «": {
 "en": null,
@@ -44813,6 +44993,11 @@
 "en": "Say what you're sending",
 "kind": "text",
 "ui": false
+},
+"بگو چه چیزی بهتر شود یا چه مشکلی پیش آمد. قبل از ارسال کل پیام را می‌بینی و خود برنامهٔ ایمیلت آن را می‌فرستد.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "بگو یه دانش‌آموزی که به انرژی تجدیدپذیر علاقه داره. درسته دیگه؟": {
 "en": "Say you're a student interested in renewable energy. That's true, isn't it?",
@@ -48012,7 +48197,7 @@
 "تاریخ": {
 "en": "date",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "تاریخ اسباب‌کشی": {
 "en": "Date you moved",
@@ -48156,6 +48341,11 @@
 },
 "تازه کار نزدیک اینجا را شروع کردم.": {
 "en": "I've just started working nearby.",
+"kind": "text",
+"ui": false
+},
+"تازه‌ها": {
+"en": "New arrivals",
 "kind": "text",
 "ui": false
 },
@@ -49627,6 +49817,11 @@
 "ترجمهٔ شفاهی": {
 "en": "interpreting",
 "kind": "word",
+"ui": false
+},
+"ترجمهٔ فارسی زیر همهٔ جمله‌ها": {
+"en": "Show Persian under every sentence",
+"kind": "text",
 "ui": false
 },
 "ترجمہ جلد آ رہا ہے": {
@@ -51582,12 +51777,17 @@
 "تمرین": {
 "en": "practice",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "تمرین ؛ تجربه": {
 "en": "practice",
 "kind": "word",
 "ui": false
+},
+"تمرین آزمون زندگی در بریتانیا": {
+"en": "Life in the UK test practice",
+"kind": "text",
+"ui": true
 },
 "تمرین خوبی بود!": {
 "en": null,
@@ -51653,6 +51853,11 @@
 "en": "Practise what to say when you need medical help that is not a 999 emergency.",
 "kind": "text",
 "ui": false
+},
+"تمرینی از سؤال‌هایی که اشتباه جواب دادی.": {
+"en": "Practice built from the questions you got wrong.",
+"kind": "text",
+"ui": true
 },
 "تمرین‌ها": {
 "en": "exercises",
@@ -51942,6 +52147,11 @@
 "تنظیم کردن": {
 "en": "set",
 "kind": "word",
+"ui": false
+},
+"تنظیمات خواندن": {
+"en": "Reading settings",
+"kind": "text",
 "ui": false
 },
 "تنقلات": {
@@ -53334,6 +53544,11 @@
 "kind": "text",
 "ui": false
 },
+"تو و پیشرفتت": {
+"en": "You & your progress",
+"kind": "text",
+"ui": true
+},
 "تو ورزش و علوم کامپیوتر خیلی خوب پیش میره. پیش‌بینی نمره‌اش تو کامپیوتر ۷ ـه. نمرهٔ قوی‌ایه.": {
 "en": "He's doing very well in PE and Computer Science. He's predicted a 7 in Computing. That's a strong grade.",
 "kind": "text",
@@ -53773,6 +53988,11 @@
 "en": "reserved",
 "kind": "word",
 "ui": false
+},
+"تور کوتاه": {
+"en": "Replay the quick tour",
+"kind": "text",
+"ui": true
 },
 "توستر": {
 "en": "toaster",
@@ -54325,7 +54545,7 @@
 "ui": false
 },
 "تکرار": {
-"en": "Retries",
+"en": "Replay",
 "kind": "text",
 "ui": true
 },
@@ -54582,7 +54802,7 @@
 "تیره": {
 "en": "dark",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "تیز": {
 "en": "sharp",
@@ -55789,6 +56009,11 @@
 "kind": "text",
 "ui": true
 },
+"جشن‌های بریتانیا در طول سال، با صحنهٔ خانوادگی، واژه‌ها و کوییز کوتاه.": {
+"en": "British celebrations through the year, with a family scene, words and a short quiz.",
+"kind": "text",
+"ui": true
+},
 "جعبه": {
 "en": "box",
 "kind": "word",
@@ -55860,7 +56085,7 @@
 "ui": false
 },
 "جعبهٔ لایتنر": {
-"en": "LEITNER BOX",
+"en": "Leitner box",
 "kind": "text",
 "ui": true
 },
@@ -56499,6 +56724,16 @@
 "kind": "text",
 "ui": false
 },
+"جملهٔ نمونه را (عادی یا آهسته) بشنو، بگو و ببین کدام واژه‌ها درست شنیده شد. واژه‌ها را می‌سنجد نه صداها": {
+"en": "Hear a model sentence (normal or slow), say it, and see which words came through. It checks words, not sounds",
+"kind": "text",
+"ui": false
+},
+"جملهٔ نمونه را (عادی یا آهسته) بشنو، بگو و ببین کدام واژه‌ها درست شنیده شد. واژه‌ها را می‌سنجد نه صداها — نمرهٔ واجی نیست.": {
+"en": "Hear a model sentence (normal or slow), say it, and see which words came through. It checks words, not sounds — not a phoneme score.",
+"kind": "text",
+"ui": true
+},
 "جملهٔ یادآور رنگ‌ها.": {
 "en": "British children learn \"Richard Of York Gave Battle In Vain\" to remember the rainbow colours.",
 "kind": "text",
@@ -56511,6 +56746,11 @@
 },
 "جمله‌سازی": {
 "en": "Phrase builder",
+"kind": "text",
+"ui": true
+},
+"جمله‌ها را آماده کن، نقش‌آفرینی را تمرین کن، برو انجامش بده، بعد ثبت کن چطور گذشت.": {
+"en": "Prepare the phrases, practise the role-play, go and do it, then check in on how it went.",
 "kind": "text",
 "ui": true
 },
@@ -56533,6 +56773,11 @@
 "en": "Relative clauses: who / which / that / where",
 "kind": "text",
 "ui": false
+},
+"جمله‌های کوتاه به انگلیسی بنویس و از خانواده بازخورد دوستانه بگیر (مربی آفلاین، بدون سرور هوش مصنوعی).": {
+"en": "Write short entries in English and get friendly feedback from the family (an offline coach, no AI server).",
+"kind": "text",
+"ui": true
 },
 "جمله‌های کوتاه: «آب‌میوه می‌خوام!» «ببین، اتوبوس!»": {
 "en": "Short sentences: \"I want juice!\" \"Look, a bus!\"",
@@ -60769,6 +61014,11 @@
 "kind": "text",
 "ui": false
 },
+"خانم الیس دستور زبان را سطح به سطح درس می‌دهد، با توضیح فارسی، تمرین، آزمونک و امتحان کلاس.": {
+"en": "Mrs Ellis teaches grammar topics by level, with Persian explanations, practice, mini tests and a class exam.",
+"kind": "text",
+"ui": true
+},
 "خانم الیس دیگه چی میگه؟": {
 "en": "What else does Miss Ellis say?",
 "kind": "text",
@@ -62824,6 +63074,11 @@
 "kind": "word",
 "ui": false
 },
+"خطا / چیزی خراب است": {
+"en": "Bug / something broken",
+"kind": "text",
+"ui": true
+},
 "خطا بود!": {
 "en": "That was a foul!",
 "kind": "text",
@@ -63230,6 +63485,11 @@
 "ui": false
 },
 "خواندند": {
+"en": null,
+"kind": "text",
+"ui": false
+},
+"خوانش با صدای دستگاه؛ صدای ضبط‌شدهٔ بریتانیایی نیست": {
 "en": null,
 "kind": "text",
 "ui": false
@@ -67779,6 +68039,11 @@
 "kind": "text",
 "ui": false
 },
+"داستان": {
+"en": "Fiction",
+"kind": "text",
+"ui": true
+},
 "داستان ؛ ماجرا": {
 "en": null,
 "kind": "text",
@@ -67821,11 +68086,6 @@
 },
 "داستان‌های جنایی! بیشتر آگاتا کریستی. حالا، می‌خوای عکس‌های بیشتری ببینی؟": {
 "en": "Murder mysteries! Agatha Christie, mostly. Now, would you like to see more photos?",
-"kind": "text",
-"ui": false
-},
-"داستان‌های کوتاه بریتانیایی با صدای راوی": {
-"en": null,
 "kind": "text",
 "ui": false
 },
@@ -68919,6 +69179,11 @@
 "kind": "text",
 "ui": false
 },
+"در جعبهٔ لایتنر هست": {
+"en": "Already in your Leitner box",
+"kind": "text",
+"ui": false
+},
 "در جلسهٔ تیم شرکت کنی، مشاهده بنویسی، گام بعدی را برنامه‌ریزی کنی و بچهٔ جدید را جا بیندازی": {
 "en": "Take part in a team huddle, write observations, plan next steps and settle a new child",
 "kind": "text",
@@ -68966,6 +69231,11 @@
 },
 "در حال حاضر": {
 "en": "at the moment",
+"kind": "text",
+"ui": false
+},
+"در حال خواندن": {
+"en": "Reading",
 "kind": "text",
 "ui": false
 },
@@ -69151,6 +69421,11 @@
 },
 "در دور موسیقی، رایان تک‌تک آهنگ‌ها را می‌دانست، حتی قدیمی‌های دههٔ هشتاد را.": {
 "en": "In the music round, Ryan knew every single song, even the old ones from the eighties.",
+"kind": "text",
+"ui": false
+},
+"در دورهٔ آزمایشی رایگان": {
+"en": "Free during the beta",
 "kind": "text",
 "ui": false
 },
@@ -70769,6 +71044,11 @@
 "kind": "text",
 "ui": false
 },
+"درس را باز کن، واژه‌ها را ببین، داستان را بازی کن (جواب را بزن، بنویس یا بگو)، بعد تمرین. با تمام کردن هر واحد، بعدی باز می‌شود.": {
+"en": "Open a lesson, read the words, play the Story (tap, type or say your replies), then do the Practice. Finish a unit to open the next.",
+"kind": "text",
+"ui": true
+},
 "درس رایگان امروز تمام شد. فردا یک درس رایگان دیگر باز می‌شود و مرور درس‌های تمام‌شده همیشه آزاد است. با اشتراک ویژه درس جدید نامحدود دارید.": {
 "en": "Today’s free lesson is done. Another free lesson opens tomorrow, and you can review lessons you finished any time. Premium gives you unlimited new lessons.",
 "kind": "text",
@@ -71121,6 +71401,11 @@
 },
 "درس‌های رانندگی": {
 "en": null,
+"kind": "text",
+"ui": true
+},
+"درس‌های هفتهٔ اول، فرم‌ها و جمله‌های اضطراری که برای کم‌اینترنتی یا آفلاین دانلود می‌شوند.": {
+"en": "Week-one lessons, forms and emergency phrases you can download for low-data or offline use.",
 "kind": "text",
 "ui": true
 },
@@ -71835,7 +72120,7 @@
 "ui": false
 },
 "دستور زبان": {
-"en": "Grammar",
+"en": "Grammar school",
 "kind": "text",
 "ui": true
 },
@@ -72596,6 +72881,11 @@
 },
 "دقیقاً همون‌طوری. اگه گم شدی برگرد — همین میز، زیر تابلوی بزرگ «خدمات مشتریان». موفق باشی!": {
 "en": "Exactly like that. Come back if you get lost — this desk, under the big \"Customer Services\" sign. Good luck!",
+"kind": "text",
+"ui": false
+},
+"دقیقاً همین ارسال می‌شود": {
+"en": "This is exactly what will be sent",
 "kind": "text",
 "ui": false
 },
@@ -75344,6 +75634,11 @@
 "kind": "text",
 "ui": false
 },
+"دورهٔ اصلی: واحدهایی از درس‌های کوتاه، هر کدام با یک داستان (گفتگو با خانوادهٔ تامسون و همسایه‌ها) و تمرین.": {
+"en": "The main course: units of short lessons, each with a story (a conversation with the Thompson family and neighbours) and practice.",
+"kind": "text",
+"ui": true
+},
 "دورهٔ درمان": {
 "en": "course",
 "kind": "word",
@@ -77119,6 +77414,11 @@
 "kind": "text",
 "ui": false
 },
+"رادیو هکنی هام: برنامه‌های کوتاه هر سطح برای تمرین شنیدن.": {
+"en": "Hackney Hum: short programmes per level for listening practice.",
+"kind": "text",
+"ui": true
+},
 "راز": {
 "en": "secret",
 "kind": "word",
@@ -77909,6 +78209,11 @@
 "kind": "text",
 "ui": false
 },
+"راهنمای کاربر": {
+"en": "User guide & help",
+"kind": "text",
+"ui": true
+},
 "راهنمای کمک رایگان یا کم‌هزینه": {
 "en": "Free / low-cost help signposts",
 "kind": "text",
@@ -77986,6 +78291,11 @@
 },
 "راه‌راه! مثل زمین فوتبال.": {
 "en": "Stripes! Like a football pitch.",
+"kind": "text",
+"ui": false
+},
+"راوی کل کتاب را بخواند": {
+"en": "Narrator reads the whole book",
 "kind": "text",
 "ui": false
 },
@@ -78507,17 +78817,37 @@
 "رایگان": {
 "en": "free",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "رایگان نیست؟ فکر می‌کردم NHS رایگانه.": {
 "en": "Not free? I thought the NHS was free.",
 "kind": "text",
 "ui": false
 },
+"رایگان و ویژه": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "رایگان — عالیه. کیوآرکد را نشونم بده تا اسکنش کنم. برچسب همین‌جا چاپ میشه. چاپگر لازم نیست.": {
 "en": "Free — lovely. Show me the QR code and I'll scan it. The label prints here. No printer needed.",
 "kind": "text",
 "ui": false
+},
+"رایگان: فصل اول و اولین آزمون آزمایشی. ویژه یا بستهٔ Life in the UK: همه.": {
+"en": "Free: the first chapter and the first mock test. Premium or the Life in the UK pack: everything.",
+"kind": "text",
+"ui": true
+},
+"رایگان: فصل اول، اولین آزمون آزمایشی و اولین درس آموزشگاه. ویژه یا بستهٔ تئوری: همه.": {
+"en": "Free: the first chapter, the first mock test and the first Driving School lesson. Premium or the Theory pack: everything.",
+"kind": "text",
+"ui": true
+},
+"رایگان: واحدهای ۱ تا ۱۰، واحد اول هر سطح، بعد روزی یک درس جدید و مرور درس‌های تمام‌شده. ویژه: درس جدید نامحدود.": {
+"en": "Free: Units 1–10, the first unit of every level, then one new lesson a day and reviewing finished lessons. Premium: unlimited new lessons.",
+"kind": "text",
+"ui": true
 },
 "رایگان؟ تو همهٔ اتوبوس‌ها؟": {
 "en": "Free? On every bus?",
@@ -80602,7 +80932,7 @@
 "روشن": {
 "en": "bright",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "روشن ؛ در حال سوختن": {
 "en": "burning",
@@ -80958,6 +81288,11 @@
 "en": "on top",
 "kind": "text",
 "ui": false
+},
+"روی واژه بزن تا فارسی‌اش را ببینی و ذخیره کنی، سرعت را تغییر بده، ترجمه را روشن/خاموش کن و بعد از هر فصل به کوییز جواب بده.": {
+"en": "Tap a word for Persian and save it, change speed, turn translation on/off, and answer the quiz after each chapter.",
+"kind": "text",
+"ui": true
 },
 "روی پله‌برقی لندن سمت راست بایستید.": {
 "en": "On London escalators, always stand on the right. People in a hurry walk up on the left.",
@@ -82149,6 +82484,11 @@
 "kind": "word",
 "ui": false
 },
+"زنجیرهٔ روزها، هدف روزانه، نشان‌ها، سنجش پیشرفت و یادآور روزانهٔ اختیاری.": {
+"en": "Streak, daily goal, badges, the progress check and an optional daily reminder.",
+"kind": "text",
+"ui": true
+},
 "زنجیره‌ای در کار نیست. خبر خوب: با دویست و پنج جواب دادن. می‌تونید روی اون توافق کنید؟": {
 "en": "no chain. Good news: they've come back at two hundred and five. Can you meet them there?",
 "kind": "text",
@@ -82253,6 +82593,11 @@
 "en": "changed my life",
 "kind": "text",
 "ui": false
+},
+"زندگی‌نامه": {
+"en": "Biography",
+"kind": "text",
+"ui": true
 },
 "زندگی‌نامه‌ها": {
 "en": "biographies",
@@ -85860,7 +86205,7 @@
 "ui": false
 },
 "سطح": {
-"en": null,
+"en": "Level",
 "kind": "text",
 "ui": true
 },
@@ -85879,6 +86224,11 @@
 "kind": "text",
 "ui": false
 },
+"سطح را تمام کن تا گواهی‌اش باز شود؛ سطح‌های قفل پیشرفتت را نشان می‌دهند.": {
+"en": "Finish a level to unlock its certificate; locked levels show your progress.",
+"kind": "text",
+"ui": true
+},
 "سطح شیب‌دار": {
 "en": "ramp",
 "kind": "word",
@@ -85886,6 +86236,16 @@
 },
 "سطح هدف": {
 "en": "Goal level",
+"kind": "text",
+"ui": true
+},
+"سطح هدف، دقیقه در روز و تاریخ هدف را تعیین کن و سرعت لازم را ببین.": {
+"en": "Set a goal level, minutes a day and a target date, and see the pace you need.",
+"kind": "text",
+"ui": true
+},
+"سطح و بازی را انتخاب کن؛ هر بار ترتیب عوض می‌شود و بهترین امتیازت ذخیره می‌شود.": {
+"en": "Pick a level and a game; rounds are shuffled each time and your best score is kept.",
 "kind": "text",
 "ui": true
 },
@@ -86218,6 +86578,11 @@
 "en": "Free travel for old ducks like me! Do you drive, dear?",
 "kind": "text",
 "ui": false
+},
+"سفر و زندگی در بریتانیا": {
+"en": "Travel & UK Life",
+"kind": "text",
+"ui": true
 },
 "سفر کردن": {
 "en": "travel",
@@ -87969,6 +88334,11 @@
 "kind": "word",
 "ui": false
 },
+"سنجش پیشرفت": {
+"en": "Progress check",
+"kind": "text",
+"ui": true
+},
 "سنجش‌های تو": {
 "en": null,
 "kind": "text",
@@ -89331,6 +89701,11 @@
 },
 "سیاست حریم خصوصی": {
 "en": "Privacy Policy",
+"kind": "text",
+"ui": true
+},
+"سیاست حریم خصوصی، شرایط، مجوزها و ابزار خروجی یا حذف داده‌ها روی همین دستگاه.": {
+"en": "Privacy policy, terms, licences, and tools to export or delete your data on this device.",
 "kind": "text",
 "ui": true
 },
@@ -91702,7 +92077,7 @@
 "شعر": {
 "en": "poetry",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "شعر ؛ قافیه": {
 "en": "rhyme",
@@ -92608,6 +92983,11 @@
 "en": "hear",
 "kind": "word",
 "ui": true
+},
+"شنیدن جمله": {
+"en": "Hear the sentence",
+"kind": "text",
+"ui": false
 },
 "شنیدن دربارهٔ": {
 "en": "heard of",
@@ -94859,6 +95239,11 @@
 "kind": "text",
 "ui": true
 },
+"صحنه‌های کوتاه برای دیدن با زیرنویس، دوبله کردن یک شخصیت و جواب به سؤال‌ها.": {
+"en": "Short scenes to watch with subtitles, dub a character and answer questions.",
+"kind": "text",
+"ui": true
+},
 "صحنه‌های کوتاه بریتانیایی؛ تماشا کن، بعد خودت دوبله کن": {
 "en": null,
 "kind": "text",
@@ -95109,6 +95494,11 @@
 "kind": "text",
 "ui": false
 },
+"صدای دستگاه": {
+"en": "Audio: device voice",
+"kind": "text",
+"ui": false
+},
 "صدای زنگ دره؟": {
 "en": "is that the doorbell?",
 "kind": "text",
@@ -95293,6 +95683,11 @@
 "en": "screen",
 "kind": "word",
 "ui": false
+},
+"صفحهٔ اصلی: نقشهٔ نقاشی‌شدهٔ هکنی. هر محله یک سطح است (خانه A1 تا شهر C1) و ساختمان‌ها بخش‌های اپ را باز می‌کنند.": {
+"en": "Your home screen: a painted map of Hackney. Each area is a level (Home A1 → The city C1) and the buildings open sections of the app.",
+"kind": "text",
+"ui": true
 },
 "صفحهٔ شکسته": {
 "en": "A cracked screen",
@@ -95563,6 +95958,11 @@
 "en": "Runs the kiosk at the petrol station on the A10. Knows everyone's car before he knows their name.",
 "kind": "text",
 "ui": false
+},
+"صندوق پیام یک گوشی خیالی: پیامک و پیام صوتی از خانواده و دوستان، با توضیح زبان پیامکی.": {
+"en": "A pretend phone inbox: texts and voice notes from the family and friends, with texting talk explained.",
+"kind": "text",
+"ui": true
 },
 "صندوقدار فروشگاه محله": {
 "en": "Cashier at the corner shop",
@@ -99589,6 +99989,11 @@
 "kind": "word",
 "ui": false
 },
+"علم": {
+"en": "Science",
+"kind": "text",
+"ui": true
+},
 "علوم": {
 "en": "science",
 "kind": "word",
@@ -100694,6 +101099,11 @@
 "kind": "text",
 "ui": false
 },
+"فاصلهٔ خطوط": {
+"en": "Line spacing",
+"kind": "text",
+"ui": false
+},
 "فامیل": {
 "en": "relative",
 "kind": "word",
@@ -101644,6 +102054,11 @@
 "kind": "text",
 "ui": false
 },
+"فصل را بخوان، کارت‌ها را برگردان، کوییز بده، بعد آزمون آزمایشی بزن و اشتباه‌ها را مرور کن.": {
+"en": "Read a chapter, flip the cards, take the quiz, then try a mock test and review your mistakes.",
+"kind": "text",
+"ui": true
+},
 "فصل را دوباره بخوان و دوباره امتحان کن.": {
 "en": null,
 "kind": "text",
@@ -101678,6 +102093,11 @@
 "en": "seasons",
 "kind": "word",
 "ui": false
+},
+"فصل‌ها را برو، بعد آزمون آزمایشی؛ برای انگلیسی لازم در جلسه‌های رانندگی، آموزشگاه را باز کن.": {
+"en": "Work through the chapters, then the mock test; open Driving School for the English you need in lessons.",
+"kind": "text",
+"ui": true
 },
 "فضا": {
 "en": "space",
@@ -109644,6 +110064,11 @@
 "kind": "text",
 "ui": true
 },
+"مأموریت‌ها و نقش‌آفرینی": {
+"en": "Missions & role-plays",
+"kind": "text",
+"ui": true
+},
 "مأموریت‌های": {
 "en": null,
 "kind": "text",
@@ -111654,6 +112079,11 @@
 "kind": "word",
 "ui": false
 },
+"متن اصلی": {
+"en": "Original text (unabridged)",
+"kind": "text",
+"ui": false
+},
 "متنفر است": {
 "en": "hates",
 "kind": "word",
@@ -113024,6 +113454,11 @@
 "kind": "text",
 "ui": false
 },
+"مدرک رسمی نیست.": {
+"en": "not an official qualification.",
+"kind": "text",
+"ui": false
+},
 "مدرک شناسایی": {
 "en": "ID",
 "kind": "word",
@@ -113438,6 +113873,16 @@
 "en": null,
 "kind": "text",
 "ui": false
+},
+"مرتب‌سازی": {
+"en": "Sort",
+"kind": "text",
+"ui": false
+},
+"مرجع": {
+"en": "Reference",
+"kind": "text",
+"ui": true
 },
 "مرجوعی و سفارش آنلاین": {
 "en": "Returns and click & collect",
@@ -113913,6 +114358,11 @@
 "en": null,
 "kind": "text",
 "ui": false
+},
+"مرور فاصله‌دار واژه‌های ذخیره‌شده: پنج خانه؛ کارت‌ها بعد از ۰، ۱، ۳، ۷ و ۱۴ روز برمی‌گردند.": {
+"en": "Spaced review of words you saved: five boxes, cards come back after 0, 1, 3, 7 and 14 days.",
+"kind": "text",
+"ui": true
 },
 "مرور کرد": {
 "en": "revised",
@@ -114459,6 +114909,16 @@
 "kind": "text",
 "ui": false
 },
+"مسیر مطالعهٔ B2: بخش‌هایی دربارهٔ انگلیسی و دانسته‌هایی که در مسیر اقامت معمولاً لازم است. فقط مطالعهٔ عمومی": {
+"en": "A B2 study pathway: modules on the English and knowledge often needed on the way to settlement. General study only",
+"kind": "text",
+"ui": false
+},
+"مسیر مطالعهٔ B2: بخش‌هایی دربارهٔ انگلیسی و دانسته‌هایی که در مسیر اقامت معمولاً لازم است. فقط مطالعهٔ عمومی — مشاورهٔ مهاجرتی نیست.": {
+"en": "A B2 study pathway: modules on the English and knowledge often needed on the way to settlement. General study only — not immigration advice.",
+"kind": "text",
+"ui": true
+},
 "مسیر من": {
 "en": "My path",
 "kind": "text",
@@ -114576,6 +115036,11 @@
 },
 "مشاوره در داروخانه": {
 "en": "Advice at the pharmacy",
+"kind": "text",
+"ui": false
+},
+"مشاورهٔ مهاجرتی نیست.": {
+"en": "not immigration advice.",
 "kind": "text",
 "ui": false
 },
@@ -120234,6 +120699,11 @@
 "kind": "text",
 "ui": false
 },
+"منو ☰ ← بازخورد و گزارش خطا. نوع را انتخاب کن، پیامت را بنویس، اگر خواستی تصویر صفحه را پیوست کن، بازبینی کن؛ بعد خود برنامهٔ ایمیلت آن را می‌فرستد. بدون تو چیزی ارسال نمی‌شود.": {
+"en": "Menu ☰ → Feedback & bug report. Pick a category, write your message, optionally attach a screenshot, review it, then your own email app sends it. Nothing is sent without you.",
+"kind": "text",
+"ui": true
+},
 "منوط به قرارداد": {
 "en": "subject to contract",
 "kind": "text",
@@ -120243,6 +120713,11 @@
 "en": "phone menus",
 "kind": "text",
 "ui": false
+},
+"منوی اشتراک با تصویر پیوست باز می‌شود؛ برنامهٔ ایمیل را انتخاب کن. نشانی پشتیبانی بالای متن است.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "منوی بچه‌ها می‌خواد؟ با یه دسر میاد.": {
 "en": "would she like the kids' menu? It comes with a pudding.",
@@ -121034,6 +121509,11 @@
 "kind": "text",
 "ui": false
 },
+"موضوع لازم را بخوان و لینک‌های رسمی را دنبال کن. برای پروندهٔ خودت با مشاور مجاز صحبت کن.": {
+"en": "Read the topic you need and follow the official links. For your own case, speak to a regulated adviser.",
+"kind": "text",
+"ui": true
+},
 "موضوع مناظره": {
 "en": "motion",
 "kind": "word",
@@ -121601,6 +122081,11 @@
 },
 "میز اتو": {
 "en": "ironing board",
+"kind": "text",
+"ui": false
+},
+"میز امانت": {
+"en": "Front desk",
 "kind": "text",
 "ui": false
 },
@@ -126244,6 +126729,11 @@
 "kind": "text",
 "ui": false
 },
+"نخوانده": {
+"en": "Unread",
+"kind": "text",
+"ui": false
+},
 "نخواهد": {
 "en": "won't",
 "kind": "word",
@@ -126634,6 +127124,11 @@
 "kind": "text",
 "ui": false
 },
+"نزدیک‌ترین مناسبت بالای صفحه است؛ هر کدام را باز کن.": {
+"en": "The nearest celebration is at the top; open any one to learn about it.",
+"kind": "text",
+"ui": true
+},
 "نسبت": {
 "en": "ratio",
 "kind": "word",
@@ -126748,6 +127243,16 @@
 "en": "How much is a prescription?",
 "kind": "text",
 "ui": false
+},
+"نسخهٔ آزمایشی عمومی: فعلاً همه‌چیز در اپ رایگان است، حتی امکانات ویژه. وقتی طرح‌های پولی شروع شود، بخش‌های رایگان زیر همچنان رایگان می‌مانند.": {
+"en": "Public beta: right now everything in the app is free, including Premium features. When paid plans start, the free parts below stay free.",
+"kind": "text",
+"ui": true
+},
+"نسخهٔ تمرینی فرم‌های رایج بریتانیا. آنچه می‌نویسی فقط در حافظه می‌ماند و هرگز ارسال نمی‌شود.": {
+"en": "Practice versions of common UK forms. What you type stays in memory only and is never uploaded.",
+"kind": "text",
+"ui": true
 },
 "نسخهٔ تکراری": {
 "en": "repeat prescription",
@@ -126872,6 +127377,11 @@
 "نشانی": {
 "en": "address",
 "kind": "word",
+"ui": false
+},
+"نشانی ایمیل پشتیبانی هنوز در این نسخه تنظیم نشده؛ می‌توانی گزارش را کپی کنی.": {
+"en": "The support email address has not been set up in this version yet. You can copy the report for later.",
+"kind": "text",
 "ui": false
 },
 "نشان‌ها": {
@@ -127399,6 +127909,11 @@
 "kind": "text",
 "ui": false
 },
+"نقشهٔ شهر": {
+"en": "The town map",
+"kind": "text",
+"ui": true
+},
 "نقشهٔ مترو": {
 "en": "Tube map",
 "kind": "text",
@@ -127587,6 +128102,11 @@
 "نمرهٔ تشویقی": {
 "en": "merit",
 "kind": "word",
+"ui": false
+},
+"نمرهٔ واجی نیست.": {
+"en": "not a phoneme score.",
+"kind": "text",
 "ui": false
 },
 "نمره‌های جی‌سی‌اس‌ای از ۹ تا ۱ است؛ ۴ قبولی معمولی و ۵ قبولی قوی است. امتحان آزمایشی تمرین امتحان اصلی در خرداد است.": {
@@ -130678,6 +131198,11 @@
 "en": "That's the point — you can't forget. Open your app. Payments, then \"New standing order\". You need my sort code and account number.",
 "kind": "text",
 "ui": false
+},
+"نکته: راهنمای کامل همیشه در منو ☰ ← راهنمای کاربر است.": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "نکته: قبل از گفتن فکر کنید مرد است یا زن، بعد کلمه را انتخاب کنید.": {
 "en": "Tip: before you say it, think — man or woman? Then pick the word.",
@@ -133819,6 +134344,11 @@
 "kind": "text",
 "ui": true
 },
+"هدف و تاریخ را انتخاب کن؛ کارت برنامه در مسیرت نشان می‌دهد این هفته طبق برنامه هستی یا نه.": {
+"en": "Pick your goal and date; the plan card on your path shows if you are on track this week.",
+"kind": "text",
+"ui": true
+},
 "هدف گذاشتن": {
 "en": "aim for",
 "kind": "text",
@@ -133963,6 +134493,11 @@
 "en": "every time. Nicola waves like mad. Ryan pretends he doesn't know me.",
 "kind": "text",
 "ui": false
+},
+"هر بخش New Life UK برای چیست و چطور از آن استفاده کنی. روی هر بخش بزن تا جزئیات را ببینی، بعد «Open».": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "هر بخش بریتانیا یک قدیس حامی دارد: سنت جرج برای انگلستان، سنت اندرو اسکاتلند، سنت دیوید ولز و سنت پاتریک ایرلند.": {
 "en": "Each part of the UK has a patron saint: St George (England, 23 April), St Andrew (Scotland), St David (Wales). St Patrick is for Ireland.",
@@ -134684,6 +135219,11 @@
 "kind": "text",
 "ui": false
 },
+"هر وقت خواستی بازش کن؛ خروجی یا حذف روی همین دستگاه و بدون حساب کار می‌کند.": {
+"en": "Open it any time; export or delete works on this device without an account.",
+"kind": "text",
+"ui": true
+},
 "هر وقت خواستی، رفیق.": {
 "en": "Any time, mate.",
 "kind": "text",
@@ -134738,6 +135278,11 @@
 "en": "It keeps turning off every few minutes.",
 "kind": "text",
 "ui": false
+},
+"هر چند هفته یک بار بزن؛ هر بار سؤال تازه است. سطح دوره‌ات را عوض نمی‌کند.": {
+"en": "Take it every few weeks; each time the questions are new. It never changes your course level.",
+"kind": "text",
+"ui": true
 },
 "هر چند وقت": {
 "en": "how often",
@@ -134831,6 +135376,11 @@
 },
 "هر کاری می‌کنید، هیچ پولی منتقل نکنید. بانک‌ها هیچ‌وقت چنین چیزی نمی‌خوان.": {
 "en": "Whatever you do, don't move any money. Banks never ask you to do that.",
+"kind": "text",
+"ui": false
+},
+"هر کتابی را از قفسه‌ها بردار؛ جایت خودکار نگه داشته می‌شود": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -136084,6 +136634,11 @@
 "kind": "text",
 "ui": false
 },
+"همه به جعبهٔ لایتنر": {
+"en": "Send all to Leitner box",
+"kind": "text",
+"ui": false
+},
 "همه به هم ریخته‌اند (خودمانی)": {
 "en": "everyone is panicking (informal)",
 "kind": "text",
@@ -136439,6 +136994,11 @@
 "kind": "text",
 "ui": false
 },
+"همهٔ بخش‌ها": {
+"en": "All sections",
+"kind": "text",
+"ui": false
+},
 "همهٔ بسته‌های شغلی (مهدکودک، املاک و بسته‌های بعدی)": {
 "en": "Every Career Pack (Nursery, Homes and more to come)",
 "kind": "text",
@@ -136521,6 +137081,11 @@
 },
 "همهٔ واژه‌ها واضح شنیده شد.": {
 "en": "Every word came through clearly.",
+"kind": "text",
+"ui": true
+},
+"همهٔ واژه‌های این کتاب در جعبهٔ لایتنر توست": {
+"en": null,
 "kind": "text",
 "ui": true
 },
@@ -137404,6 +137969,11 @@
 "kind": "text",
 "ui": false
 },
+"هنوز تنظیم نشده": {
+"en": "Not configured yet",
+"kind": "text",
+"ui": false
+},
 "هنوز ثبت‌نام نکردم. دندون‌درد دارم.": {
 "en": "I'm not registered yet. I've got toothache.",
 "kind": "text",
@@ -137668,6 +138238,11 @@
 "en": "Ask for sizes and amounts when you shop",
 "kind": "text",
 "ui": false
+},
+"هنگام خواندن یا در درس‌ها واژه ذخیره کن، بعد کارت‌های امروز را مرور کن. درست = خانهٔ بالاتر؛ غلط = برگشت به خانهٔ ۱.": {
+"en": "Save words while reading or in lessons, then review today's cards. Right moves a card up; wrong sends it back to box 1.",
+"kind": "text",
+"ui": true
 },
 "هنگام رزرو تعداد نفرات، روز و ساعت را بگویید؛ رستوران‌ها اغلب شماره تلفن هم می‌خواهند.": {
 "en": "When you book, say the number of people, the day and the time. Restaurants often ask for a phone number too.",
@@ -139994,8 +140569,28 @@
 "kind": "text",
 "ui": true
 },
+"واژه به جعبهٔ لایتنر رفت": {
+"en": null,
+"kind": "text",
+"ui": true
+},
+"واژهٔ تازه یاد می‌گیری": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "واژه‌ها، لهجه‌ها و اصطلاحات محلی را بفهمی": {
 "en": "Understand regional words, accents and northern expressions",
+"kind": "text",
+"ui": false
+},
+"واژه‌های این کتاب در جعبهٔ لایتنر تو:": {
+"en": null,
+"kind": "text",
+"ui": false
+},
+"واژه‌های تازهٔ کتاب": {
+"en": null,
 "kind": "text",
 "ui": false
 },
@@ -142324,6 +142919,11 @@
 "kind": "text",
 "ui": false
 },
+"ویرایش": {
+"en": "Edit",
+"kind": "text",
+"ui": false
+},
 "ویروس": {
 "en": "virus",
 "kind": "word",
@@ -142748,6 +143348,11 @@
 "en": "Winston Churchill became Prime Minister in 1940 and led Britain through most of the war.",
 "kind": "text",
 "ui": false
+},
+"ویژه": {
+"en": "Premium",
+"kind": "text",
+"ui": true
 },
 "ویژگی‌ها": {
 "en": "qualities",
@@ -144569,6 +145174,11 @@
 "kind": "word",
 "ui": false
 },
+"پروفایل اضافه کن و بینشان جابه‌جا شو؛ هر کدام پیشرفت و تنظیمات خودش را دارد.": {
+"en": "Add a profile and switch between them; each keeps its own progress and settings.",
+"kind": "text",
+"ui": true
+},
 "پروفایل کودکی که از قبل روی این دستگاه است نام و پیشرفت خودش را نگه می‌دارد. حساب یادگیرنده نمی‌سازیم و این برنامه آن پروفایل را به سرور ما نمی‌فرستد. دانلود صدای درس هنوز می‌تواند به میزبان صدا وصل شود. عوض کردن پروفایل قفل والد یا بررسی سن نیست. محدودیت حالت کودک همان می‌ماند.": {
 "en": null,
 "kind": "text",
@@ -146369,6 +146979,11 @@
 "kind": "text",
 "ui": false
 },
+"پنج بازی سریع واژه در هر سطح (مثلاً جفت‌کردن واژه با زمان، بشنو و بزن).": {
+"en": "Five quick word games per level (for example word match against the clock, listen & tap).",
+"kind": "text",
+"ui": true
+},
 "پنج برای کرامپته! خب، دوباره امتحان کن. دو تا برش دیگه. این دفعه حواسم هست!": {
 "en": "Five is for crumpets! Right, try again. Two more slices. I'm watching this time!",
 "kind": "text",
@@ -147729,6 +148344,11 @@
 "kind": "word",
 "ui": false
 },
+"پیام تو": {
+"en": "Your message",
+"kind": "text",
+"ui": false
+},
 "پیام دادن": {
 "en": "text",
 "kind": "word",
@@ -148204,6 +148824,11 @@
 "kind": "word",
 "ui": false
 },
+"پیشرفت جدا برای هر بزرگسالی که از این گوشی استفاده می‌کند.": {
+"en": "Separate progress for each adult using this phone.",
+"kind": "text",
+"ui": true
+},
 "پیشرفت ذخیره‌شده هنوز روی این دستگاه است، اما کلید رمز آن خوانده نشد. هیچ چیز پاک نشده است.": {
 "en": null,
 "kind": "text",
@@ -148220,7 +148845,7 @@
 "ui": true
 },
 "پیشرفت و نشان‌ها": {
-"en": null,
+"en": "Progress",
 "kind": "text",
 "ui": true
 },
@@ -148247,7 +148872,7 @@
 "پیشنهاد": {
 "en": "Offering: Do you want…? / Here's…",
 "kind": "text",
-"ui": false
+"ui": true
 },
 "پیشنهاد امتحان کردن": {
 "en": "recommend trying",
@@ -148258,6 +148883,11 @@
 "en": "Make suggestions: \"Shall we…?\", \"Why don't we…?\", \"How about…?\", \"Let's…\"",
 "kind": "text",
 "ui": false
+},
+"پیشنهاد بفرست، یا خطا و اشتباه محتوا (انگلیسی، ترجمه یا صدا) را گزارش بده.": {
+"en": "Send a suggestion, report a bug or a content error (wrong English, translation or audio).",
+"kind": "text",
+"ui": true
 },
 "پیشنهاد خرید بدهی، تأییدیهٔ اولیهٔ وام بگیری، وکیل بگیری و ارزیابی و مالیات تمبر را بفهمی": {
 "en": "Make an offer, get a mortgage in principle, instruct a solicitor and understand surveys and stamp duty",
@@ -148538,6 +149168,11 @@
 "en": "enclosed",
 "kind": "word",
 "ui": false
+},
+"پیوست تصویر صفحه‌ای که در آن بودم (اختیاری)": {
+"en": null,
+"kind": "text",
+"ui": true
 },
 "پیوستن": {
 "en": "join",
@@ -150648,6 +151283,11 @@
 "en": "How many…? I eat… every day",
 "kind": "text",
 "ui": false
+},
+"چند جمله دربارهٔ روزت بنویس و نظرها را بخوان.": {
+"en": "Write a few sentences about your day and read the comments.",
+"kind": "text",
+"ui": true
 },
 "چند روزه گلودرد و سرفه دارم.": {
 "en": "I've had a sore throat and a cough for a few days.",
@@ -153899,6 +154539,11 @@
 "kind": "text",
 "ui": false
 },
+"کارهای واقعی برای امتحان بیرون (مثلاً مغازه یا پزشک عمومی)، با نقش‌آفرینی برای تمرین قبلی در اپ.": {
+"en": "Real-life tasks to try outside (for example at a shop or GP), with role-plays to practise first in the app.",
+"kind": "text",
+"ui": true
+},
 "کارواش": {
 "en": "car wash",
 "kind": "text",
@@ -154122,7 +154767,7 @@
 "کاغذی": {
 "en": "paper",
 "kind": "word",
-"ui": false
+"ui": true
 },
 "کافئین‌زدایی‌شده امتحان کن. همون طعم را داره.": {
 "en": "Try decaf. It tastes the same.",
@@ -154899,6 +155544,11 @@
 "kind": "text",
 "ui": false
 },
+"کتابخانهٔ عمومی": {
+"en": null,
+"kind": "text",
+"ui": true
+},
 "کتابخانهٔ مرکزی هاکنی": {
 "en": "Hackney Central Library",
 "kind": "text",
@@ -154974,6 +155624,11 @@
 "kind": "word",
 "ui": false
 },
+"کتابی پیدا نشد": {
+"en": "No books match",
+"kind": "text",
+"ui": false
+},
 "کتاب‌خوان": {
 "en": "Bookworm",
 "kind": "text",
@@ -155004,13 +155659,8 @@
 "kind": "word",
 "ui": false
 },
-"کتاب‌های درجه‌بندی‌شده": {
-"en": null,
-"kind": "text",
-"ui": false
-},
-"کتاب‌های درجه‌بندی‌شده · داستان‌های کوتاه بریتانیایی با صدای راوی": {
-"en": null,
+"کتاب‌های درجه‌بندی‌شده در قفسه‌های هر سطح، با خواندن بلند و نشانه‌گذاری جمله.": {
+"en": "Graded books on shelves by level, read aloud with sentence highlighting.",
 "kind": "text",
 "ui": true
 },
@@ -158294,6 +158944,11 @@
 "kind": "word",
 "ui": false
 },
+"کوتاه‌ترین": {
+"en": "Shortest",
+"kind": "text",
+"ui": false
+},
 "کوتاه‌شدهٔ": {
 "en": "short for",
 "kind": "text",
@@ -158328,6 +158983,11 @@
 "en": "In England, children start school in \"Reception\" at age 4–5. Universal free school meals cover Reception to Year 2.",
 "kind": "text",
 "ui": false
+},
+"کودکان و خواندنی‌های آسان": {
+"en": "Children's & Easy Reads",
+"kind": "text",
+"ui": true
 },
 "کودکی که مشکل دارد": {
 "en": "A child who's struggling",
@@ -158626,6 +159286,11 @@
 },
 "کپی نگه داشتن": {
 "en": "keep a copy",
+"kind": "text",
+"ui": false
+},
+"کپی گزارش": {
+"en": "Copy report",
 "kind": "text",
 "ui": false
 },
@@ -160714,6 +161379,11 @@
 "kind": "text",
 "ui": false
 },
+"گفتگو را باز کن، پیام صوتی را گوش کن (در صورت نیاز متن را ببین)، تمرین کوتاه را انجام بده، بعد با انتخاب، نوشتن یا گفتن جواب بده.": {
+"en": "Open a chat, listen to voice notes (show the transcript if needed), do the quick check, then reply by picking, typing or saying it.",
+"kind": "text",
+"ui": true
+},
 "گفتگو و متن‌های مفصل دربارهٔ کار، مسکن و محله را می‌فهمی و از نظرت دفاع می‌کنی.": {
 "en": "You can follow detailed talk and texts on work, housing and the community, and argue a point.",
 "kind": "text",
@@ -161101,6 +161771,16 @@
 },
 "گواهی پایان هر سطح (مدرک رسمی نیست)": {
 "en": "Certificates for every level (not an official qualification)",
+"kind": "text",
+"ui": true
+},
+"گواهی پایان هر سطح دوره. فقط نشان پیشرفت در این اپ": {
+"en": "A completion certificate for each course level. A record of progress in this app only",
+"kind": "text",
+"ui": false
+},
+"گواهی پایان هر سطح دوره. فقط نشان پیشرفت در این اپ — مدرک رسمی نیست.": {
+"en": "A completion certificate for each course level. A record of progress in this app only — not an official qualification.",
 "kind": "text",
 "ui": true
 },
@@ -162283,6 +162963,21 @@
 "en": "write down",
 "kind": "text",
 "ui": false
+},
+"یادداشت، فلش‌کارت، کوییز فصل و آزمون آزمایشی زمان‌دار برای آزمون Life in the UK. فقط تمرین": {
+"en": "Notes, flashcards, chapter quizzes and timed mock tests for the Life in the UK test. Practice only",
+"kind": "text",
+"ui": false
+},
+"یادداشت، فلش‌کارت، کوییز فصل و آزمون آزمایشی زمان‌دار برای آزمون Life in the UK. فقط تمرین — آزمون رسمی نیست.": {
+"en": "Notes, flashcards, chapter quizzes and timed mock tests for the Life in the UK test. Practice only — not the official test.",
+"kind": "text",
+"ui": true
+},
+"یادداشت، فلش‌کارت، کوییز و آزمون آزمایشی تئوری رانندگی، به‌علاوهٔ گفتگوهای آموزشگاه با مربی.": {
+"en": "Theory test notes, flashcards, quizzes and mock tests, plus Driving School dialogues with an instructor.",
+"kind": "text",
+"ui": true
 },
 "یادداشتش می‌کنم. چند وقت یک‌بار دندون‌هاتون را مسواک می‌زنید؟ صادق باشید": {
 "en": "I'll write that down. How often do you brush your teeth? Be honest",
@@ -165219,6 +165914,11 @@
 "kind": "word",
 "ui": true
 },
+"یک بار با وای‌فای دانلود را بزن؛ بعد بدون اینترنت کار می‌کند.": {
+"en": "Tap download once while on Wi-Fi; the pack then works without internet.",
+"kind": "text",
+"ui": true
+},
 "یک بار دیگر": {
 "en": "one more time",
 "kind": "text",
@@ -165559,6 +166259,11 @@
 "kind": "text",
 "ui": false
 },
+"یک فرم انتخاب کن و با راهنمای هر خانه پرش کن؛ برای فرم واقعی لینک سایت رسمی هست.": {
+"en": "Pick a form and fill it in with help on each field; links go to the official sites for the real thing.",
+"kind": "text",
+"ui": true
+},
 "یک فرم شغلی سادهٔ بریتانیایی و انگلیسی مورد انتظار کارفرما را تمرین کنید.": {
 "en": "Practise a simple UK job form and the English employers expect.",
 "kind": "text",
@@ -165808,6 +166513,11 @@
 "en": "A new coat",
 "kind": "text",
 "ui": false
+},
+"یک کلاس را باز کن و موضوع‌ها را به ترتیب برو؛ با قبولی در آزمونک، موضوع بعدی باز می‌شود. مرور ترکیبی موضوع‌های گذرانده را تکرار می‌کند.": {
+"en": "Open a class and do the topics in order; pass a mini test to open the next topic. Mixed review revisits passed topics.",
+"kind": "text",
+"ui": true
 },
 "یک کمی (مایع)": {
 "en": "a splash of",
