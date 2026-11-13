@@ -10,6 +10,10 @@ import 'package:british_life/core/models/course.dart';
 import 'package:british_life/core/models/user_progress.dart';
 import 'package:british_life/features/course/lesson_screen.dart';
 import 'package:british_life/features/map/map_spots.dart';
+import 'package:british_life/core/data/repository.dart';
+import 'package:british_life/core/models/character.dart';
+import 'package:british_life/features/shared/sheets.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -219,5 +223,93 @@ void main() {
   test('British English lint passes on every authored line (tool/check_british.py)', () {
     final r = Process.runSync('python3', ['tool/check_british.py']);
     expect(r.exitCode, 0, reason: '${r.stdout}${r.stderr}');
+  });
+
+  testWidgets('nursery sheet Start CTA is not truncated and list clears a 48dp nav inset', (t) async {
+    const size = Size(360, 780);
+    const inset = 48.0;
+    const scale = 1.6;
+    t.view.physicalSize = size * 3;
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
+
+    final spots = jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List;
+    final nursery = MapSpot.fromJson(
+      Map<String, dynamic>.from(spots.firstWhere((s) => s['id'] == 'nursery') as Map),
+    );
+    final chars = [
+      for (final c in jsonDecode(File('assets/data/characters.json').readAsStringSync()) as List)
+        Character.fromJson(Map<String, dynamic>.from(c as Map)),
+    ];
+    final course = Course.fromJson(
+      jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map<String, dynamic>,
+    );
+    final bundle = ContentBundle(chars, const {}, const {}, const [], const [], const [], course);
+
+    await t.pumpWidget(
+      ProviderScope(
+        overrides: [
+          progressStoreProvider.overrideWithValue(
+            MemoryProgressStore()
+              ..data = const UserProgress(onboarded: true, unlockAll: true).encode(),
+          ),
+        ],
+        child: MaterialApp(
+          theme: ThemeData(useMaterial3: true),
+          builder: (context, child) => MediaQuery(
+            data: MediaQuery.of(context).copyWith(
+              size: size,
+              textScaler: const TextScaler.linear(scale),
+              padding: const EdgeInsets.only(bottom: inset),
+              viewPadding: const EdgeInsets.only(bottom: inset),
+              viewInsets: EdgeInsets.zero,
+            ),
+            child: child!,
+          ),
+          // SafeArea consumes padding so a bug that reads the opener's padding.bottom would pad 0.
+          home: SafeArea(
+            child: Scaffold(
+              body: Consumer(
+                builder: (context, ref, _) => TextButton(
+                  key: const ValueKey('open-nursery'),
+                  onPressed: () => showSpotSheet(context, ref, nursery, bundle),
+                  child: const Text('open'),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    await t.tap(find.byKey(const ValueKey('open-nursery')));
+    await t.pumpAndSettle();
+
+    expect(find.byKey(const ValueKey('spotsheet-nursery')), findsOneWidget);
+    expect(find.byType(SpotStartCta), findsOneWidget);
+    expect(find.textContaining('Start:'), findsOneWidget);
+    expect(find.textContaining('The nursery interview'), findsWidgets);
+
+    final list = t.widget<ListView>(find.byKey(const ValueKey('safe-sheet-list')));
+    expect(list.padding, isA<EdgeInsets>());
+    final pad = list.padding! as EdgeInsets;
+    expect(
+      pad.bottom,
+      greaterThanOrEqualTo(inset),
+      reason: 'sheet list padding ${pad.bottom} < system inset $inset; must use viewPadding of the sheet, not a parent SafeArea',
+    );
+
+    bool exceeded(Finder f) {
+      for (final e in f.evaluate()) {
+        final ro = e.renderObject;
+        if (ro is RenderParagraph && ro.didExceedMaxLines) return true;
+      }
+      return false;
+    }
+
+    expect(
+      exceeded(find.textContaining('The nursery interview')),
+      isFalse,
+      reason: 'Start: The nursery interview was truncated',
+    );
   });
 }

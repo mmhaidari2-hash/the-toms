@@ -13,6 +13,7 @@ import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../seasons/seasons_data.dart';
 import '../roleplay/roleplay_data.dart';
+import '../shared/sheets.dart';
 import '../shared/widgets.dart';
 
 /// A building / object on the town map and the lessons set there (index built by tool/make_spots.py).
@@ -459,14 +460,8 @@ Future<void> showSpotSheet(
       initialChildSize: .66,
       maxChildSize: .92,
       minChildSize: .35,
-      builder: (_, sc) => ListView(
+      builder: (_, sc) => SafeSheetList(
         controller: sc,
-        padding: EdgeInsets.fromLTRB(
-          18,
-          0,
-          18,
-          MediaQuery.paddingOf(context).bottom + 18,
-        ),
         children: [
           Row(
             children: [
@@ -1090,27 +1085,9 @@ Future<void> showSpotSheet(
             ),
           ),
           const SizedBox(height: 12),
-          FilledButton.icon(
-            key: const ValueKey('spot-start'),
+          SpotStartCta(
+            lessonTitle: next?.title,
             onPressed: next == null ? null : () => open(sheet, next),
-            style: FilledButton.styleFrom(
-              backgroundColor: BL.red,
-              padding: const EdgeInsets.symmetric(vertical: 14),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(18),
-              ),
-            ),
-            icon: const Icon(Icons.play_arrow_rounded),
-            label: Text(
-              hl(
-                next == null
-                    ? 'Locked for now — keep going on the course'
-                    : 'Start: ${next.title}',
-              ),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
-            ),
           ),
           const SizedBox(height: 10),
           for (final l in ls)
