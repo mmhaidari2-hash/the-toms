@@ -21,7 +21,7 @@ const helperLanguages = [
   Lang('uk', 'Ukrainian', 'Українська'),
   Lang('fa', 'Persian', 'فارسی', rtl: true),
   Lang('prs', 'Dari', 'دری', rtl: true),
-  Lang('ps', 'Pashto', 'پښتو', rtl: true),
+  Lang('ps', 'Pashto', 'پشتو', rtl: true),
   Lang('bn', 'Bengali', 'বাংলা'),
   Lang('pa', 'Punjabi', 'ਪੰਜਾਬੀ'),
   Lang('ro', 'Romanian', 'Română'),
