@@ -89,14 +89,20 @@ void main() {
     expect(dir(), TextDirection.rtl);
     await t.ensureVisible(find.byKey(const ValueKey('lang-hi')));
     await t.tap(find.byKey(const ValueKey('lang-hi')));
-    await t.pump();
-    await t.pump();
+    // Switching to FA evicts other tables (t345). The first pick of Hindi reloads
+    // assets/i18n/hi.json asynchronously via HelperLangScope; flush that load.
+    for (var i = 0; i < 20 && probe() == 'مسیر من'; i++) {
+      await t.runAsync(() => Future.delayed(const Duration(milliseconds: 20)));
+      await t.pump();
+    }
     expect(probe(), table('hi')['مسیر من']);
     expect(dir(), TextDirection.ltr);
     await t.ensureVisible(find.byKey(const ValueKey('lang-fa')));
     await t.tap(find.byKey(const ValueKey('lang-fa')));
-    await t.pump();
-    await t.pump();
+    for (var i = 0; i < 20 && probe() != 'مسیر من'; i++) {
+      await t.runAsync(() => Future.delayed(const Duration(milliseconds: 20)));
+      await t.pump();
+    }
     expect(probe(), 'مسیر من');
     expect(dir(), TextDirection.rtl);
   });

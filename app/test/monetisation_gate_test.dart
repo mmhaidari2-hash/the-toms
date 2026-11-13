@@ -349,7 +349,12 @@ void main() {
         expect(find.byKey(ValueKey(k)), findsOneWidget, reason: k);
       }
       // Yearly consent shows the full price, trial length and the date the trial would end.
-      await t.tap(find.byKey(const ValueKey('plan-yearly')));
+      // The paywall is a SingleChildScrollView; the yearly plan can sit just below a tall
+      // 1800px frame (centre was at y=1803), so scroll it into view like a real phone would.
+      final yearly = find.byKey(const ValueKey('plan-yearly'));
+      await t.ensureVisible(yearly);
+      await t.pumpAndSettle();
+      await t.tap(yearly);
       await t.pumpAndSettle();
       expect(find.textContaining('7-day free trial, then £31.00 a year'), findsOneWidget);
       expect(find.textContaining('the trial ends on ${PaywallCopy.date(DateTime.now().add(const Duration(days: 7)))}'), findsOneWidget);

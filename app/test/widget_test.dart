@@ -14,6 +14,11 @@ import 'package:british_life/app/router.dart';
 void main() {
   setUp(() => BL.useGoogleFonts = false);
   testWidgets('home renders family and locked birthday story', (t) async {
+    // Portrait phone frame: the default 800x600 test surface is landscape, and since t340
+    // the level pins sit behind the CEFR toggle in landscape.
+    t.view.physicalSize = const Size(375, 667) * 3;
+    t.view.devicePixelRatio = 3;
+    addTearDown(t.view.reset);
     await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore()..data = const UserProgress(onboarded: true).encode())], child: const BritishLifeApp()));
     for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250))); await t.pump(const Duration(milliseconds: 100)); }
     await t.pump(const Duration(milliseconds: 500));

@@ -103,7 +103,15 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
             Row(children: [
               const Icon(Icons.inventory_2_rounded, color: BL.green, size: 18),
               const SizedBox(width: 6),
-              BilingualText(hl('LEITNER BOX · جعبهٔ لایتنر'), stackMixed: false, style: BL.fa(11.5, color: BL.green, w: FontWeight.w800)),
+              Flexible(
+                child: BilingualText(
+                  hl('LEITNER BOX · جعبهٔ لایتنر'),
+                  stackMixed: false,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: BL.fa(11.5, color: BL.green, w: FontWeight.w800),
+                ),
+              ),
             ]),
             const SizedBox(height: 8),
             Row(children: [
