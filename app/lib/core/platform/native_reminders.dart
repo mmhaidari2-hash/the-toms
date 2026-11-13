@@ -18,6 +18,9 @@ abstract class ReminderBackend {
   Future<void> scheduleDaily(int hour, int minute);
   Future<void> cancel();
   Future<void> showNow();
+  /// One-shot local notification. Default is a no-op so daily-only fakes keep working.
+  Future<void> scheduleAt(int id, DateTime when, {required String title, required String body}) async {}
+  Future<void> cancelId(int id) async {}
 }
 
 /// flutter_local_notifications on Android. Local only: no server, no FCM, no account. Inexact daily alarm, so no
@@ -75,6 +78,33 @@ class PluginReminderBackend implements ReminderBackend {
   Future<void> cancel() => _p.cancel(id: _id);
   @override
   Future<void> showNow() => _p.show(id: _id + 1, title: reminderTitle, body: reminderBody, notificationDetails: _details);
+
+  @override
+  Future<void> scheduleAt(int id, DateTime when, {required String title, required String body}) async {
+    final at = tz.TZDateTime.from(when, tz.local);
+    if (!at.isAfter(tz.TZDateTime.now(tz.local))) return;
+    await _p.zonedSchedule(
+      id: id,
+      scheduledDate: at,
+      notificationDetails: NotificationDetails(
+        android: AndroidNotificationDetails(
+          'trial_reminder',
+          'Trial reminder',
+          channelDescription: 'A one-time reminder two days before a Premium trial ends.',
+          importance: Importance.defaultImportance,
+          priority: Priority.defaultPriority,
+          enableVibration: false,
+          styleInformation: BigTextStyleInformation(body),
+        ),
+      ),
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      title: title,
+      body: body,
+    );
+  }
+
+  @override
+  Future<void> cancelId(int id) => _p.cancel(id: id);
 }
 
 /// Daily reminder notifications for the installed Android app (owner t306 item 3). Opt-in (off by default for every
@@ -144,5 +174,25 @@ abstract final class NativeReminders {
     } catch (_) {
       return false;
     }
+  }
+
+  /// One-shot schedule. Returns false when notifications are not granted or scheduling fails.
+  static Future<bool> scheduleAt({required int id, required DateTime when, required String title, required String body}) async {
+    final b = _backend;
+    if (b == null || _status != 'granted') return false;
+    try {
+      await b.scheduleAt(id, when, title: title, body: body);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  static Future<void> cancelId(int id) async {
+    final b = _backend;
+    if (b == null) return;
+    try {
+      await b.cancelId(id);
+    } catch (_) {}
   }
 }

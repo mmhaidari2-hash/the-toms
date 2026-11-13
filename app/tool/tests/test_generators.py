@@ -65,6 +65,35 @@ class Generators(unittest.TestCase):
             scenes.generate(data)
             scenes.generate(data, check=True)
 
+    def test_source_audio_ver_matches_pack(self):
+        """ver.json and kAudioCacheVer must equal the source pack (web-layout names)."""
+        sw.check_source_audio_ver()
+
+    def test_sw_audio_cache_name_follows_source_ver_not_build_subset(self):
+        """A web build with a handful of clips must still stamp the source pack version."""
+        expected = sw.committed_audio_version()
+        self.assertEqual(expected, sw.source_audio_version())
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name in ["index.html", "main.dart.js", "assets/assets/audio/a.mp3"]:
+                target = root / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text("test")
+            source_before = (sw.APP / "assets" / "audio" / "ver.json").read_bytes()
+            dart_before = (sw.APP / "lib" / "core" / "platform" / "audio_ver.g.dart").read_bytes()
+            sw.generate(root, sync_source=False)
+            worker = (root / "sw.js").read_text()
+            self.assertIn("audio:" + expected, worker)
+            subset = sw.audio_version(root, ["assets/assets/audio/a.mp3"])
+            self.assertNotEqual(subset, expected)
+            self.assertNotIn("audio:" + subset, worker)
+            self.assertEqual(
+                json.loads((root / "assets" / "assets" / "audio" / "ver.json").read_text())["v"],
+                expected,
+            )
+            self.assertEqual(source_before, (sw.APP / "assets" / "audio" / "ver.json").read_bytes())
+            self.assertEqual(dart_before, (sw.APP / "lib" / "core" / "platform" / "audio_ver.g.dart").read_bytes())
+
     def test_bad_course_reference_does_not_replace_existing_bundle(self):
         with tempfile.TemporaryDirectory() as directory:
             data = Path(directory)

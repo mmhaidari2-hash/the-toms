@@ -1,9 +1,11 @@
+import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 
 import '../data/premium.dart';
 import 'entitlements.dart';
+import 'trial_reminder.dart';
 
 enum BillingOutcome { success, cancelled, pending, unavailable, failed }
 
@@ -57,6 +59,7 @@ abstract final class Billing {
       },
       trialEndsAt: ent != null && ent.periodType == PeriodType.trial ? DateTime.tryParse(ent.expirationDate ?? '')?.toLocal() : null,
     );
+    unawaited(TrialReminder.sync());
   }
 
   /// Store prices for [Entitlements.allProducts], read from Google Play through RevenueCat. Empty when billing

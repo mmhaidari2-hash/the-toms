@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/billing/offline_voices.dart';
+import '../core/billing/trial_reminder.dart';
 import '../core/data/providers.dart';
 import '../features/library/library_data.dart';
 import '../core/i18n/helper_text.dart';
@@ -40,14 +41,16 @@ class BritishLifeApp extends StatelessWidget {
               child: HelperLangScope(
                 child: VoiceFeedback(
                   child: LeitnerSelect(
-                    child: kPreviewUnlock
-                        ? Banner(
-                            message: 'PREVIEW',
-                            location: BannerLocation.topEnd,
-                            color: const Color(0xFF1F3A5F),
-                            child: child ?? const SizedBox(),
-                          )
-                        : child ?? const SizedBox(),
+                    child: TrialReminderScope(
+                      child: kPreviewUnlock
+                          ? Banner(
+                              message: 'PREVIEW',
+                              location: BannerLocation.topEnd,
+                              color: const Color(0xFF1F3A5F),
+                              child: child ?? const SizedBox(),
+                            )
+                          : child ?? const SizedBox(),
+                    ),
                   ),
                 ),
               ),
@@ -79,10 +82,11 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
         ? ref.read(progressProvider.notifier).offlineVoicesUnlocked
         : false;
     // Android daily reminder (t306): local notification, rescheduled on every start for the active profile.
-    startReminders().then((_) {
+    startReminders().then((_) async {
       if (!mounted) return;
       final c = ref.read(progressProvider.notifier);
       syncReminder(on: c.reminderOn, hhmm: c.reminderTime);
+      await TrialReminder.sync();
     });
     // Android speech recognition (t306): explain before the system microphone prompt.
     SpeechHooks.rationale = () async {
