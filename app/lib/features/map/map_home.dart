@@ -1,6 +1,7 @@
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -42,6 +43,153 @@ class MapRegion {
 
 const mapImage = 'assets/places/map.webp';
 const mapAspect = 1280 / 720;
+
+/// Chrome and zoom numbers for the town map. The map covers the safe rectangle
+/// between the top bar and the Continue control so no spot sits under the chrome
+/// at scale 1, and so a landscape screen is filled width-first (no side gutter).
+class TownMapLayout {
+  static const minScale = 1.0;
+  static const maxScale = 3.0;
+  static const doubleTapScale = 2.0;
+  static const labelPadX = SpotMarker.width / 2;
+  static const portraitTopBar = 114.0;
+  static const landscapeTopBar = 56.0;
+  static const portraitBottom = 90.0;
+  static const landscapeBottom = 56.0;
+
+  static bool isLandscape(double w, double h) => w > h;
+
+  static double topSafe(double paddingTop, {required bool landscape}) =>
+      paddingTop + (landscape ? landscapeTopBar : portraitTopBar);
+
+  static double bottomSafe({required bool landscape}) =>
+      landscape ? landscapeBottom : portraitBottom;
+
+  /// Smallest size of the painted map that covers [safeW] × [safeH] at the map's aspect.
+  static Size cover(double safeW, double safeH) {
+    final safeHClamped = safeH < 80 ? 80.0 : safeH;
+    if (safeW / safeHClamped >= mapAspect) {
+      return Size(safeW, safeW / mapAspect);
+    }
+    return Size(safeHClamped * mapAspect, safeHClamped);
+  }
+
+  static Matrix4 clamped(
+    double scale,
+    Offset translation,
+    Size view,
+    Size child,
+  ) {
+    final s = scale.clamp(minScale, maxScale);
+    final minX = view.width - child.width * s;
+    final minY = view.height - child.height * s;
+    const maxX = 0.0;
+    const maxY = 0.0;
+    final tx = minX > maxX
+        ? (minX + maxX) / 2
+        : translation.dx.clamp(minX, maxX);
+    final ty = minY > maxY
+        ? (minY + maxY) / 2
+        : translation.dy.clamp(minY, maxY);
+    return Matrix4.identity()
+      ..translateByDouble(tx, ty, 0, 1)
+      ..scaleByDouble(s, s, s, 1);
+  }
+}
+
+/// Where a spot's name sits, in map pixels from the default place under the orb.
+class MapLabelLayout {
+  final bool show;
+  final Offset offset;
+  const MapLabelLayout({this.show = true, this.offset = Offset.zero});
+}
+
+/// Offsets tried, in order, so a name slides beside or below a neighbour instead of sitting under it.
+const mapLabelNudge = <Offset>[
+  Offset.zero,
+  Offset(-48, 0),
+  Offset(48, 0),
+  Offset(-64, 12),
+  Offset(64, 12),
+  Offset(0, 22),
+  Offset(-48, 22),
+  Offset(48, 22),
+  Offset(0, 36),
+  Offset(-70, 0),
+  Offset(70, 0),
+  Offset(-70, 28),
+  Offset(70, 28),
+];
+
+/// Pure layout used by the map and by tests: [priority] 0 is placed first (focused / open).
+Map<String, MapLabelLayout> layoutMapLabelsForPins(
+  List<(String id, Offset pin, int priority)> items,
+  double w,
+  double h,
+) {
+  final ranked = [...items]
+    ..sort((a, b) {
+      final c = a.$3.compareTo(b.$3);
+      return c != 0 ? c : a.$2.dx.compareTo(b.$2.dx);
+    });
+  final orbs = {
+    for (final it in items)
+      it.$1: Rect.fromCircle(
+        center: Offset(it.$2.dx * w, it.$2.dy * h),
+        radius: 24,
+      ),
+  };
+  final placed = <String, MapLabelLayout>{};
+  final taken = <Rect>[];
+  bool hits(Rect r, String id) {
+    final box = r.deflate(1);
+    for (final e in orbs.entries) {
+      if (e.key == id) continue;
+      if (box.overlaps(e.value)) return true;
+    }
+    return taken.any((t) => box.overlaps(t));
+  }
+
+  for (final it in ranked) {
+    final pin = Offset(it.$2.dx * w, it.$2.dy * h);
+    var laid = const MapLabelLayout(show: false);
+    for (final nudge in mapLabelNudge) {
+      final rect = SpotMapLabel.rectFor(pin.dx, pin.dy, nudge);
+      if (hits(rect, it.$1)) continue;
+      laid = MapLabelLayout(offset: nudge);
+      taken.add(rect);
+      break;
+    }
+    placed[it.$1] = laid;
+  }
+  return placed;
+}
+
+/// Focused and open spots win the space; every shown label stays clear of every other orb.
+Map<String, MapLabelLayout> layoutMapLabels(
+  List<MapSpot> spots,
+  double w,
+  double h,
+  ProgressController ctrl,
+  Course course,
+) {
+  bool openOf(MapSpot s) =>
+      featureSpots.contains(s.id) ||
+      spotLessons(course, s).any((l) => ctrl.lessonOpen(course, l));
+  final items = [
+    for (final s in spots)
+      (
+        s.id,
+        Offset(s.x, s.y),
+        spotFocus(ctrl, course, s)
+            ? 0
+            : openOf(s)
+            ? 1
+            : 2,
+      ),
+  ];
+  return layoutMapLabelsForPins(items, w, h);
+}
 
 const mapRegions = [
   MapRegion('home', 'Home', 'خانه', 'A1 · Level 1', Offset(.48, .58), [
@@ -126,9 +274,13 @@ class MapHome extends ConsumerStatefulWidget {
   ConsumerState<MapHome> createState() => _MapHomeState();
 }
 
-class _MapHomeState extends ConsumerState<MapHome> {
-  final _scroll = ScrollController();
-  bool _centred = false, _celebrating = false;
+class _MapHomeState extends ConsumerState<MapHome>
+    with TickerProviderStateMixin {
+  final _transform = TransformationController();
+  AnimationController? _zoomAnim;
+  bool _centred = false, _celebrating = false, _levelsOpen = false;
+  Size? _lastView;
+  Offset? _doubleTapAt;
 
   /// Glass loupe: the finger / mouse point on the map (null = no lens) and the spot under it.
   Offset? _lens;
@@ -138,19 +290,20 @@ class _MapHomeState extends ConsumerState<MapHome> {
   @override
   void initState() {
     super.initState();
-    _scroll.addListener(_onScroll);
+    _transform.addListener(_onTransform);
   }
 
   @override
   void dispose() {
-    _scroll.removeListener(_onScroll);
-    _scroll.dispose();
+    _zoomAnim?.dispose();
+    _transform.removeListener(_onTransform);
+    _transform.dispose();
     super.dispose();
   }
 
-  /// Run 22: the lens is drawn in screen space, so it must follow the scroll offset. A mouse-hover lens
-  /// simply goes away while the map scrolls (wheel / trackpad / drag); a press-and-hold lens repaints in place.
-  void _onScroll() {
+  /// The lens is drawn in screen space, so it must follow pan / zoom. A mouse-hover lens
+  /// goes away while the map moves; a press-and-hold lens repaints in place.
+  void _onTransform() {
     if (_lens == null) return;
     setState(() {
       if (!_lensTouch) {
@@ -158,6 +311,75 @@ class _MapHomeState extends ConsumerState<MapHome> {
         _lensSpot = null;
       }
     });
+  }
+
+  void _centerOnPin({
+    required Size view,
+    required Size child,
+    required double mapW,
+    required double mapH,
+    required double originX,
+    required double originY,
+    required Offset pin,
+  }) {
+    if (_lastView == view && _centred) return;
+    _lastView = view;
+    _centred = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final pinChild = Offset(originX + pin.dx * mapW, originY + pin.dy * mapH);
+      // Horizontal centre on the current district; keep ty = 0 so the painted map
+      // starts just below the top bar and no pin is hidden under the chrome.
+      _transform.value = TownMapLayout.clamped(
+        TownMapLayout.minScale,
+        Offset(view.width / 2 - pinChild.dx, 0),
+        view,
+        child,
+      );
+    });
+  }
+
+  void _onDoubleTap(Offset viewPoint, Size view, Size child) {
+    final reduce = MediaQuery.disableAnimationsOf(context);
+    final current = _transform.value;
+    final scale = current.getMaxScaleOnAxis();
+    final destScale =
+        scale < (TownMapLayout.minScale + TownMapLayout.doubleTapScale) / 2
+        ? TownMapLayout.doubleTapScale
+        : TownMapLayout.minScale;
+    final childPoint = MatrixUtils.transformPoint(
+      Matrix4.inverted(current),
+      viewPoint,
+    );
+    final dest = TownMapLayout.clamped(
+      destScale,
+      viewPoint - childPoint * destScale,
+      view,
+      child,
+    );
+    _zoomAnim?.dispose();
+    if (reduce) {
+      _transform.value = dest;
+      return;
+    }
+    final anim = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 220),
+    );
+    _zoomAnim = anim;
+    final tween = Matrix4Tween(
+      begin: current,
+      end: dest,
+    ).animate(CurvedAnimation(parent: anim, curve: Curves.easeOutCubic));
+    tween.addListener(() => _transform.value = tween.value);
+    anim.addStatusListener((status) {
+      if (status == AnimationStatus.completed ||
+          status == AnimationStatus.dismissed) {
+        anim.dispose();
+        if (_zoomAnim == anim) _zoomAnim = null;
+      }
+    });
+    anim.forward();
   }
 
   void _moveLens(Offset? at, List<MapSpot> spots, double w, double h) {
@@ -335,183 +557,481 @@ class _MapHomeState extends ConsumerState<MapHome> {
       ),
       body: LayoutBuilder(
         builder: (context, box) {
-          final h = box.maxHeight, w = h * mapAspect;
-          if (!_centred) {
-            _centred = true;
-            final lv = cur;
-            final r = mapRegions.firstWhere((r) => r.level == lv);
-            WidgetsBinding.instance.addPostFrameCallback((_) {
-              if (_scroll.hasClients) {
-                _scroll.jumpTo(
-                  (r.pin.dx * w - box.maxWidth / 2).clamp(
-                    0,
-                    _scroll.position.maxScrollExtent,
-                  ),
-                );
-              }
+          final landscape = TownMapLayout.isLandscape(
+            box.maxWidth,
+            box.maxHeight,
+          );
+          final topSafe = TownMapLayout.topSafe(pad.top, landscape: landscape);
+          final bottomSafe = TownMapLayout.bottomSafe(landscape: landscape);
+          final safeH = (box.maxHeight - topSafe - bottomSafe).clamp(
+            80.0,
+            box.maxHeight,
+          );
+          final mapSize = TownMapLayout.cover(box.maxWidth, safeH);
+          final w = mapSize.width, h = mapSize.height;
+          const originX = TownMapLayout.labelPadX;
+          final originY = topSafe;
+          final childSize = Size(w + originX * 2, originY + h + bottomSafe);
+          final view = Size(box.maxWidth, box.maxHeight);
+          final reduce = MediaQuery.disableAnimationsOf(context);
+          final here = mapRegions.firstWhere((r) => r.level == cur);
+          _centerOnPin(
+            view: view,
+            child: childSize,
+            mapW: w,
+            mapH: h,
+            originX: originX,
+            originY: originY,
+            pin: here.pin,
+          );
+          final labels = layoutMapLabels(spots, w, h, ctrl, c.course);
+          final orbOrder = [...spots]
+            ..sort((a, b) {
+              final fa = spotFocus(ctrl, c.course, a) ? 1 : 0;
+              final fb = spotFocus(ctrl, c.course, b) ? 1 : 0;
+              if (fa != fb) return fa - fb; // focused orbs paint last, on top
+              return a.x.compareTo(b.x);
             });
-          }
+          final continueChild = Pressable(
+            key: const ValueKey('continue'),
+            onTap: () {
+              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+              context.push(next == null ? '/course' : '/lesson/${next.id}');
+            },
+            child: Container(
+              padding: landscape
+                  ? const EdgeInsets.fromLTRB(10, 6, 8, 6)
+                  : const EdgeInsets.fromLTRB(16, 12, 12, 12),
+              decoration: BoxDecoration(
+                color: BL.red,
+                borderRadius: BorderRadius.circular(landscape ? 22 : 26),
+                boxShadow: BL.shadow(.35),
+              ),
+              child: Row(
+                mainAxisSize: landscape ? MainAxisSize.min : MainAxisSize.max,
+                children: [
+                  if (next != null)
+                    Avatar(
+                      c.character(next.lead),
+                      size: landscape ? 32 : 46,
+                      ring: false,
+                    ),
+                  SizedBox(width: landscape ? 8 : 12),
+                  if (landscape)
+                    Flexible(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              hl(
+                                nu == null
+                                    ? 'ALL DONE'
+                                    : 'CONTINUE · ${ProgressController.cefrOf(nu.level)} · UNIT ${c.course.numberInLevel(nu)}',
+                              ),
+                              maxLines: 1,
+                              softWrap: false,
+                              style: const TextStyle(
+                                color: Color(0xFFFBF3E4),
+                                fontSize: 12,
+                                letterSpacing: .5,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ),
+                          FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              hl(next?.title ?? 'Continue lesson'),
+                              maxLines: 1,
+                              softWrap: false,
+                              style: BL.display(15, color: Colors.white),
+                            ),
+                          ),
+                        ],
+                      ),
+                    )
+                  else
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              hl(
+                                nu == null
+                                    ? 'ALL DONE'
+                                    : 'CONTINUE · ${ProgressController.cefrOf(nu.level)} · UNIT ${c.course.numberInLevel(nu)}',
+                              ),
+                              maxLines: 1,
+                              softWrap: false,
+                              style: const TextStyle(
+                                color: Color(0xFFFFD9A0),
+                                fontSize: 10.5,
+                                letterSpacing: 1.3,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ),
+                          FittedBox(
+                            fit: BoxFit.scaleDown,
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              hl(next?.title ?? 'Continue lesson'),
+                              maxLines: 1,
+                              softWrap: false,
+                              style: BL.display(19, color: Colors.white),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  SizedBox(width: landscape ? 8 : 0),
+                  Container(
+                    width: landscape ? 36 : 46,
+                    height: landscape ? 36 : 46,
+                    decoration: const BoxDecoration(
+                      color: Color(0xFFFBF3E4),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Icon(
+                      Icons.play_arrow_rounded,
+                      color: BL.ink,
+                      size: landscape ? 22 : 28,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          );
           return Stack(
             children: [
-              SingleChildScrollView(
-                key: const ValueKey('map-scroll'),
-                controller: _scroll,
-                scrollDirection: Axis.horizontal,
-                physics: const ClampingScrollPhysics(),
-                child: MouseRegion(
-                  onHover: (e) {
-                    if (e.kind == PointerDeviceKind.mouse) {
-                      _moveLens(e.localPosition, spots, w, h);
-                    }
-                  },
-                  onExit: (_) {
-                    if (!_lensTouch) _moveLens(null, spots, w, h);
-                  },
-                  child: RawGestureDetector(
-                    gestures: {
-                      // Press, hold for a moment, then slide: the loupe follows the finger (a quick swipe still scrolls).
-                      LongPressGestureRecognizer:
-                          GestureRecognizerFactoryWithHandlers<
-                            LongPressGestureRecognizer
-                          >(
-                            () => LongPressGestureRecognizer(
-                              duration: const Duration(milliseconds: 260),
-                            ),
-                            (g) => g
-                              ..onLongPressStart = (d) {
-                                _lensTouch = true;
-                                HapticFeedback.lightImpact();
-                                _moveLens(d.localPosition, spots, w, h);
-                              }
-                              ..onLongPressMoveUpdate = (d) {
-                                _moveLens(d.localPosition, spots, w, h);
-                              }
-                              ..onLongPressEnd = (_) {
-                                // Let go on a place: open it.
-                                final s = _lensSpot;
-                                _lensTouch = false;
-                                _moveLens(null, spots, w, h);
-                                if (s != null) {
-                                  ScaffoldMessenger.of(context)
-                                      .hideCurrentSnackBar();
-                                  showSpotSheet(context, ref, s, c);
-                                }
-                              }
-                              ..onLongPressCancel = () {
-                                _lensTouch = false;
-                                if (_lens != null) _moveLens(null, spots, w, h);
-                              },
-                          ),
-                    },
-                    child: SizedBox(
-                      width: w,
-                      height: h,
-                      child: Stack(
-                        clipBehavior: Clip.none,
-                        children: [
-                          Positioned.fill(
-                            child: Image.asset(mapImage, fit: BoxFit.cover),
-                          ),
-                          for (final r in mapRegions)
-                            for (final rc in r.rects)
-                              Positioned(
-                                left: rc[0] * w,
-                                top: rc[1] * h,
-                                width: rc[2] * w,
-                                height: rc[3] * h,
-                                child: GestureDetector(
-                                  key: ValueKey(
-                                    'region-${r.id}-${r.rects.indexOf(rc)}',
-                                  ),
-                                  behavior: HitTestBehavior.opaque,
-                                  onTap: () => _open(r, c),
-                                ),
-                              ),
-                          // Level zones (A1 … C1): locked districts are dimmed, the current one glows gold, each carries its badge.
-                          for (final r in mapRegions.where(
-                            (r) => r.level != null,
-                          ))
-                            for (final rc in r.rects)
-                              Positioned(
-                                left: rc[0] * w,
-                                top: rc[1] * h,
-                                width: rc[2] * w,
-                                height: rc[3] * h,
-                                child: IgnorePointer(
-                                  child: _Zone(
-                                    open: regionOpen(ctrl, c.course, r),
-                                    current: r.level == cur,
-                                  ),
-                                ),
-                              ),
-                          for (final r in mapRegions.where(
-                            (r) => r.level != null,
-                          ))
-                            Positioned(
-                              left: r.pin.dx * w - 30,
-                              top: (r.pin.dy < .11 ? .11 : r.pin.dy) * h - 14, // keep the top district's badge clear of the title bar
-                              child: IgnorePointer(
-                                child: _ZoneBadge(
-                                  level: r.level!,
-                                  open: regionOpen(ctrl, c.course, r),
-                                  current: r.level == cur,
-                                  passed:
-                                      ctrl.levelPassed(c.course, r.level!) ||
-                                      ctrl.levelSkipped(c.course, r.level!),
-                                  progress: ctrl.levelProgress(
-                                    c.course,
-                                    r.level!,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          // The living town: every building / object opens the lessons set there.
-                          for (final s in spots)
-                            Positioned(
-                              left: s.x * w - SpotMarker.width / 2,
-                              top: s.y * h - 22,
-                              child: AnimatedScale(
-                                scale: _lensScale(s, w, h),
-                                duration: const Duration(milliseconds: 160),
-                                curve: Curves.easeOutCubic,
-                                alignment: const Alignment(0, -.45),
-                                child: SpotMarker(
-                                  s: s,
-                                  open:
-                                      featureSpots.contains(s.id) ||
-                                      spotLessons(c.course, s).any(
-                                        (l) => ctrl.lessonOpen(c.course, l),
-                                      ),
-                                  visited: spotLessons(
-                                    c.course,
-                                    s,
-                                  ).any(ctrl.lessonDone),
-                                  focus: spotFocus(ctrl, c.course, s),
-                                  levelTag: s.pack == null
-                                      ? null
-                                      : spotLessons(c.course, s)
-                                            .map(
-                                              (l) =>
-                                                  c.course.unitOf(l.id)?.cefr,
-                                            )
-                                            .whereType<String>()
-                                            .fold<String?>(
-                                              null,
-                                              (a, b) =>
-                                                  a == null ||
-                                                      b.compareTo(a) < 0
-                                                  ? b
-                                                  : a,
+              Positioned.fill(
+                child: Scrollable(
+                  physics: const NeverScrollableScrollPhysics(),
+                  viewportBuilder: (context, offset) => SizedBox.expand(
+                    key: const ValueKey('map-viewport'),
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.deferToChild,
+                      onDoubleTapDown: (d) => _doubleTapAt = d.localPosition,
+                      onDoubleTap: () {
+                        final at = _doubleTapAt;
+                        if (at != null) _onDoubleTap(at, view, childSize);
+                      },
+                      child: InteractiveViewer(
+                        key: const ValueKey('map-scroll'),
+                        transformationController: _transform,
+                        constrained: false,
+                        minScale: TownMapLayout.minScale,
+                        maxScale: TownMapLayout.maxScale,
+                        panEnabled: !_lensTouch,
+                        scaleEnabled: !_lensTouch,
+                        clipBehavior: Clip.hardEdge,
+                        onInteractionStart: (_) {
+                          if (_levelsOpen) {
+                            setState(() => _levelsOpen = false);
+                          }
+                        },
+                        child: _MapShowOnScreen(
+                          controller: _transform,
+                          viewSize: view,
+                          childSize: childSize,
+                          topSafe: topSafe,
+                          bottomSafe: bottomSafe,
+                          offset: offset,
+                          child: SizedBox(
+                            width: childSize.width,
+                            height: childSize.height,
+                            child: Stack(
+                              clipBehavior: Clip.none,
+                              children: [
+                                Positioned(
+                                  left: originX,
+                                  top: originY,
+                                  width: w,
+                                  height: h,
+                                  child: MouseRegion(
+                                    onHover: (e) {
+                                      if (e.kind == PointerDeviceKind.mouse) {
+                                        _moveLens(e.localPosition, spots, w, h);
+                                      }
+                                    },
+                                    onExit: (_) {
+                                      if (!_lensTouch) {
+                                        _moveLens(null, spots, w, h);
+                                      }
+                                    },
+                                    child: RawGestureDetector(
+                                      gestures: {
+                                        // Press, hold, then slide: the loupe follows. A quick swipe still pans the map.
+                                        LongPressGestureRecognizer:
+                                            GestureRecognizerFactoryWithHandlers<
+                                              LongPressGestureRecognizer
+                                            >(
+                                              () => LongPressGestureRecognizer(
+                                                duration: const Duration(
+                                                  milliseconds: 260,
+                                                ),
+                                              ),
+                                              (g) => g
+                                                ..onLongPressStart = (d) {
+                                                  setState(
+                                                    () => _lensTouch = true,
+                                                  );
+                                                  HapticFeedback.lightImpact();
+                                                  _moveLens(
+                                                    d.localPosition,
+                                                    spots,
+                                                    w,
+                                                    h,
+                                                  );
+                                                }
+                                                ..onLongPressMoveUpdate = (d) {
+                                                  _moveLens(
+                                                    d.localPosition,
+                                                    spots,
+                                                    w,
+                                                    h,
+                                                  );
+                                                }
+                                                ..onLongPressEnd = (_) {
+                                                  final s = _lensSpot;
+                                                  setState(
+                                                    () => _lensTouch = false,
+                                                  );
+                                                  _moveLens(null, spots, w, h);
+                                                  if (s != null) {
+                                                    ScaffoldMessenger.of(
+                                                      context,
+                                                    ).hideCurrentSnackBar();
+                                                    showSpotSheet(
+                                                      context,
+                                                      ref,
+                                                      s,
+                                                      c,
+                                                    );
+                                                  }
+                                                }
+                                                ..onLongPressCancel = () {
+                                                  setState(
+                                                    () => _lensTouch = false,
+                                                  );
+                                                  if (_lens != null) {
+                                                    _moveLens(
+                                                      null,
+                                                      spots,
+                                                      w,
+                                                      h,
+                                                    );
+                                                  }
+                                                },
                                             ),
-                                  onTap: () {
-                                    ScaffoldMessenger.of(context)
-                                        .hideCurrentSnackBar();
-                                    showSpotSheet(context, ref, s, c);
-                                  },
+                                      },
+                                      child: Stack(
+                                        clipBehavior: Clip.none,
+                                        children: [
+                                          Positioned.fill(
+                                            child: Image.asset(
+                                              mapImage,
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                          for (final r in mapRegions)
+                                            for (final rc in r.rects)
+                                              Positioned(
+                                                left: rc[0] * w,
+                                                top: rc[1] * h,
+                                                width: rc[2] * w,
+                                                height: rc[3] * h,
+                                                child: GestureDetector(
+                                                  key: ValueKey(
+                                                    'region-${r.id}-${r.rects.indexOf(rc)}',
+                                                  ),
+                                                  behavior:
+                                                      HitTestBehavior.opaque,
+                                                  onTap: () => _open(r, c),
+                                                ),
+                                              ),
+                                          // Level zones (A1 … C1): locked districts are dimmed, the current one glows gold.
+                                          for (final r in mapRegions.where(
+                                            (r) => r.level != null,
+                                          ))
+                                            for (final rc in r.rects)
+                                              Positioned(
+                                                left: rc[0] * w,
+                                                top: rc[1] * h,
+                                                width: rc[2] * w,
+                                                height: rc[3] * h,
+                                                child: IgnorePointer(
+                                                  child: _Zone(
+                                                    open: regionOpen(
+                                                      ctrl,
+                                                      c.course,
+                                                      r,
+                                                    ),
+                                                    current: r.level == cur,
+                                                  ),
+                                                ),
+                                              ),
+                                          for (final r in mapRegions.where(
+                                            (r) => r.level != null,
+                                          ))
+                                            Positioned(
+                                              left: r.pin.dx * w - 30,
+                                              top: r.pin.dy * h - 14,
+                                              child: IgnorePointer(
+                                                child: _ZoneBadge(
+                                                  level: r.level!,
+                                                  open: regionOpen(
+                                                    ctrl,
+                                                    c.course,
+                                                    r,
+                                                  ),
+                                                  current: r.level == cur,
+                                                  passed:
+                                                      ctrl.levelPassed(
+                                                        c.course,
+                                                        r.level!,
+                                                      ) ||
+                                                      ctrl.levelSkipped(
+                                                        c.course,
+                                                        r.level!,
+                                                      ),
+                                                  progress: ctrl.levelProgress(
+                                                    c.course,
+                                                    r.level!,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          // Orbs first (focused last), then names in a second pass so a label is never under a neighbour.
+                                          for (final s in orbOrder)
+                                            Positioned(
+                                              left:
+                                                  s.x * w -
+                                                  SpotMarker.width / 2,
+                                              top: s.y * h - 22,
+                                              child: AnimatedScale(
+                                                scale: _lensScale(s, w, h),
+                                                duration: Duration(
+                                                  milliseconds: reduce
+                                                      ? 0
+                                                      : 160,
+                                                ),
+                                                curve: Curves.easeOutCubic,
+                                                alignment: const Alignment(
+                                                  0,
+                                                  -.45,
+                                                ),
+                                                child: SpotMarker(
+                                                  s: s,
+                                                  showLabel: false,
+                                                  open:
+                                                      featureSpots.contains(
+                                                        s.id,
+                                                      ) ||
+                                                      spotLessons(
+                                                        c.course,
+                                                        s,
+                                                      ).any(
+                                                        (l) => ctrl.lessonOpen(
+                                                          c.course,
+                                                          l,
+                                                        ),
+                                                      ),
+                                                  visited: spotLessons(
+                                                    c.course,
+                                                    s,
+                                                  ).any(ctrl.lessonDone),
+                                                  focus: spotFocus(
+                                                    ctrl,
+                                                    c.course,
+                                                    s,
+                                                  ),
+                                                  levelTag: s.pack == null
+                                                      ? null
+                                                      : spotLessons(c.course, s)
+                                                            .map(
+                                                              (l) => c.course
+                                                                  .unitOf(l.id)
+                                                                  ?.cefr,
+                                                            )
+                                                            .whereType<String>()
+                                                            .fold<String?>(
+                                                              null,
+                                                              (a, b) =>
+                                                                  a == null ||
+                                                                      b.compareTo(
+                                                                            a,
+                                                                          ) <
+                                                                          0
+                                                                  ? b
+                                                                  : a,
+                                                            ),
+                                                  onTap: () {
+                                                    ScaffoldMessenger.of(
+                                                      context,
+                                                    ).hideCurrentSnackBar();
+                                                    showSpotSheet(
+                                                      context,
+                                                      ref,
+                                                      s,
+                                                      c,
+                                                    );
+                                                  },
+                                                ),
+                                              ),
+                                            ),
+                                          for (final s in spots)
+                                            if (labels[s.id]?.show ?? false)
+                                              Positioned(
+                                                left:
+                                                    s.x * w -
+                                                    SpotMapLabel.boxWidth / 2 +
+                                                    (labels[s.id]?.offset.dx ??
+                                                        0),
+                                                top:
+                                                    s.y * h -
+                                                    SpotMapLabel.markerTop +
+                                                    SpotMapLabel.belowOrb +
+                                                    (labels[s.id]?.offset.dy ??
+                                                        0),
+                                                child: IgnorePointer(
+                                                  child: SpotMapLabel(
+                                                    s: s,
+                                                    open:
+                                                        featureSpots.contains(
+                                                          s.id,
+                                                        ) ||
+                                                        spotLessons(
+                                                          c.course,
+                                                          s,
+                                                        ).any(
+                                                          (l) =>
+                                                              ctrl.lessonOpen(
+                                                                c.course,
+                                                                l,
+                                                              ),
+                                                        ),
+                                                  ),
+                                                ),
+                                              ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
                                 ),
-                              ),
+                              ],
                             ),
-                        ],
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -525,7 +1045,9 @@ class _MapHomeState extends ConsumerState<MapHome> {
                       focal: _lensSpot == null
                           ? _lens!
                           : Offset(_lensSpot!.x * w, _lensSpot!.y * h),
-                      scrollX: _scroll.hasClients ? _scroll.offset : 0,
+                      scrollX: 0,
+                      transform: _transform.value,
+                      origin: Offset(originX, originY),
                       mapW: w,
                       mapH: h,
                       mapImage: mapImage,
@@ -534,7 +1056,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                           ? null
                           : _spotLevel(_lensSpot!, c),
                       viewWidth: box.maxWidth,
-                      topSafe: pad.top + 120,
+                      topSafe: topSafe,
                       open:
                           _lensSpot == null ||
                           featureSpots.contains(_lensSpot!.id) ||
@@ -552,7 +1074,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
                 top: 0,
                 child: IgnorePointer(
                   child: Container(
-                    height: pad.top + 130,
+                    height: topSafe + 16,
                     decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         begin: Alignment.topCenter,
@@ -564,26 +1086,41 @@ class _MapHomeState extends ConsumerState<MapHome> {
                 ),
               ),
               Positioned(
-                left: 20,
+                key: const ValueKey('map-top-bar'),
+                left: 16,
                 right: 10,
-                top: pad.top + 10,
+                top: pad.top + (landscape ? 6 : 10),
                 child: Row(
                   children: [
                     Expanded(
-                      child: Text(
-                        'New Life UK',
-                        key: const ValueKey('app-title'),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: BL
-                            .display(25, color: Colors.white)
-                            .copyWith(
-                              shadows: const [
-                                Shadow(blurRadius: 8, color: Colors.black54),
-                              ],
-                            ),
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        alignment: AlignmentDirectional.centerStart,
+                        child: Text(
+                          'New Life UK',
+                          key: const ValueKey('app-title'),
+                          maxLines: 1,
+                          softWrap: false,
+                          style: BL
+                              .display(landscape ? 20 : 25, color: Colors.white)
+                              .copyWith(
+                                shadows: const [
+                                  Shadow(blurRadius: 8, color: Colors.black54),
+                                ],
+                              ),
+                        ),
                       ),
                     ),
+                    if (landscape) ...[
+                      const SizedBox(width: 8),
+                      _LevelToggle(
+                        key: const ValueKey('level-strip-toggle'),
+                        cefr: ProgressController.cefrOf(cur),
+                        open: _levelsOpen,
+                        onTap: () => setState(() => _levelsOpen = !_levelsOpen),
+                      ),
+                    ],
+                    const SizedBox(width: 8),
                     const _StatsChip(),
                     const SizedBox(width: 8),
                     _RoundBtn(
@@ -597,44 +1134,46 @@ class _MapHomeState extends ConsumerState<MapHome> {
                   ],
                 ),
               ),
-              // Level areas: one chip per level (and pack), tap to open that level's path.
-              Positioned(
-                left: 0,
-                right: 0,
-                top: pad.top + 58,
-                height: 56,
-                child: ListView(
-                  key: const ValueKey('level-strip'),
-                  scrollDirection: Axis.horizontal,
-                  padding: const EdgeInsets.symmetric(horizontal: 14),
-                  children: [
-                    for (final r in mapRegions)
-                      Padding(
-                        padding: const EdgeInsets.only(right: 8),
-                        child: _Pin(
-                          r: r,
-                          open: regionOpen(ctrl, c.course, r),
-                          here: r.level != null && r.level == cur,
-                          passed:
-                              r.level != null &&
-                              ctrl.levelPassed(c.course, r.level!),
-                          skipped:
-                              r.level != null &&
-                              ctrl.levelSkipped(c.course, r.level!),
-                          progress: r.level == null
-                              ? null
-                              : ctrl.levelProgress(c.course, r.level!),
-                          onTap: () => _open(r, c),
+              // Level areas: always on in portrait; in landscape a toggle opens the same strip.
+              if (!landscape || _levelsOpen)
+                Positioned(
+                  left: 0,
+                  right: 0,
+                  top: landscape ? pad.top + 56 : pad.top + 58,
+                  height: landscape ? 48 : 56,
+                  child: ListView(
+                    key: const ValueKey('level-strip'),
+                    scrollDirection: Axis.horizontal,
+                    padding: const EdgeInsets.fromLTRB(14, 0, 28, 0),
+                    children: [
+                      for (final r in mapRegions)
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8),
+                          child: _Pin(
+                            r: r,
+                            open: regionOpen(ctrl, c.course, r),
+                            here: r.level != null && r.level == cur,
+                            passed:
+                                r.level != null &&
+                                ctrl.levelPassed(c.course, r.level!),
+                            skipped:
+                                r.level != null &&
+                                ctrl.levelSkipped(c.course, r.level!),
+                            progress: r.level == null
+                                ? null
+                                : ctrl.levelProgress(c.course, r.level!),
+                            compact: landscape,
+                            onTap: () => _open(r, c),
+                          ),
                         ),
-                      ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
 
               if (ref.watch(progressProvider).ownerMode)
                 Positioned(
                   left: 16,
-                  bottom: 88,
+                  bottom: landscape ? 12 : 88,
                   child: Material(
                     color: const Color(0xE6C9A04C),
                     borderRadius: BorderRadius.circular(20),
@@ -687,81 +1226,166 @@ class _MapHomeState extends ConsumerState<MapHome> {
                     ),
                   ),
                 ),
-              // One big Continue button
               Positioned(
-                left: 16,
+                left: landscape ? null : 16,
                 right: 16,
                 bottom: 12,
-                child: Pressable(
-                  key: const ValueKey('continue'),
-                  onTap: () {
-                    ScaffoldMessenger.of(context).hideCurrentSnackBar();
-                    context.push(
-                      next == null ? '/course' : '/lesson/${next.id}',
-                    );
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(16, 12, 12, 12),
-                    decoration: BoxDecoration(
-                      color: BL.red,
-                      borderRadius: BorderRadius.circular(26),
-                      boxShadow: BL.shadow(.35),
-                    ),
-                    child: Row(
-                      children: [
-                        if (next != null)
-                          Avatar(c.character(next.lead), size: 46, ring: false),
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Text(
-                                hl(
-                                  nu == null
-                                      ? 'ALL DONE'
-                                      : 'CONTINUE · ${ProgressController.cefrOf(nu.level)} · UNIT ${c.course.numberInLevel(nu)}',
-                                ),
-                                style: const TextStyle(
-                                  color: Color(0xFFFFD9A0),
-                                  fontSize: 10.5,
-                                  letterSpacing: 1.3,
-                                  fontWeight: FontWeight.w800,
-                                ),
-                              ),
-                              Text(
-                                hl(next?.title ?? 'Continue lesson'),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: BL.display(19, color: Colors.white),
-                              ),
-                            ],
-                          ),
+                child: landscape
+                    ? ConstrainedBox(
+                        constraints: BoxConstraints(
+                          maxWidth: (view.width * .58).clamp(200, 460),
                         ),
-                        Container(
-                          width: 46,
-                          height: 46,
-                          decoration: const BoxDecoration(
-                            color: Color(0xFFFBF3E4),
-                            shape: BoxShape.circle,
-                          ),
-                          child: const Icon(
-                            Icons.play_arrow_rounded,
-                            color: BL.ink,
-                            size: 28,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+                        child: continueChild,
+                      )
+                    : continueChild,
               ),
             ],
           );
         },
       ),
     );
+  }
+}
+
+/// Pans the [InteractiveViewer] when a descendant asks to be shown (tests and accessibility).
+class _MapShowOnScreen extends SingleChildRenderObjectWidget {
+  final TransformationController controller;
+  final Size viewSize;
+  final Size childSize;
+  final double topSafe;
+  final double bottomSafe;
+  final ViewportOffset offset;
+  const _MapShowOnScreen({
+    required this.controller,
+    required this.viewSize,
+    required this.childSize,
+    required this.topSafe,
+    required this.bottomSafe,
+    required this.offset,
+    required super.child,
+  });
+  @override
+  RenderObject createRenderObject(BuildContext context) =>
+      _RenderMapShowOnScreen(
+        controller: controller,
+        viewSize: viewSize,
+        childSize: childSize,
+        topSafe: topSafe,
+        bottomSafe: bottomSafe,
+        offset: offset,
+      );
+  @override
+  void updateRenderObject(
+    BuildContext context,
+    _RenderMapShowOnScreen renderObject,
+  ) {
+    renderObject
+      ..controller = controller
+      ..viewSize = viewSize
+      ..childSize = childSize
+      ..topSafe = topSafe
+      ..bottomSafe = bottomSafe
+      ..offset = offset;
+  }
+}
+
+class _RenderMapShowOnScreen extends RenderProxyBox
+    implements RenderAbstractViewport {
+  _RenderMapShowOnScreen({
+    required this.controller,
+    required this.viewSize,
+    required this.childSize,
+    required this.topSafe,
+    required this.bottomSafe,
+    required this._offset,
+  });
+  TransformationController controller;
+  Size viewSize;
+  Size childSize;
+  double topSafe;
+  double bottomSafe;
+  ViewportOffset _offset;
+  ViewportOffset get offset => _offset;
+  set offset(ViewportOffset value) {
+    if (_offset == value) return;
+    if (attached) _offset.removeListener(markNeedsPaint);
+    _offset = value;
+    if (attached) _offset.addListener(markNeedsPaint);
+    markNeedsLayout();
+  }
+
+  @override
+  void attach(PipelineOwner owner) {
+    super.attach(owner);
+    _offset.addListener(markNeedsPaint);
+  }
+
+  @override
+  void detach() {
+    _offset.removeListener(markNeedsPaint);
+    super.detach();
+  }
+
+  @override
+  void performLayout() {
+    super.performLayout();
+    _offset.applyViewportDimension(size.height);
+    _offset.applyContentDimensions(0, 0);
+  }
+
+  @override
+  void showOnScreen({
+    RenderObject? descendant,
+    Rect? rect,
+    Duration duration = Duration.zero,
+    Curve curve = Curves.ease,
+  }) {
+    final target = descendant;
+    if (target is RenderBox && attached) {
+      final boxRect = rect ?? Offset.zero & target.size;
+      final local = target.localToGlobal(boxRect.center, ancestor: this);
+      final matrix = controller.value;
+      final screen = MatrixUtils.transformPoint(matrix, local);
+      var tx = matrix.storage[12];
+      var ty = matrix.storage[13];
+      const m = 40.0;
+      final left = m;
+      final right = viewSize.width - m;
+      final top = topSafe + m;
+      final bottom = viewSize.height - bottomSafe - m;
+      if (screen.dx < left) tx += left - screen.dx;
+      if (screen.dx > right) tx -= screen.dx - right;
+      if (screen.dy < top) ty += top - screen.dy;
+      if (screen.dy > bottom) ty -= screen.dy - bottom;
+      controller.value = TownMapLayout.clamped(
+        matrix.getMaxScaleOnAxis(),
+        Offset(tx, ty),
+        viewSize,
+        childSize,
+      );
+    }
+    super.showOnScreen(
+      descendant: descendant,
+      rect: rect,
+      duration: duration,
+      curve: curve,
+    );
+  }
+
+  @override
+  RevealedOffset getOffsetToReveal(
+    RenderObject target,
+    double alignment, {
+    Rect? rect,
+    Axis? axis,
+  }) {
+    // WidgetTester.ensureVisible walks a Scrollable + viewport; do the same pan
+    // as showOnScreen and report a no-op scroll offset.
+    if (target is RenderBox && attached) {
+      showOnScreen(descendant: target, rect: rect);
+    }
+    final box = Rect.fromLTWH(0, 0, viewSize.width, viewSize.height);
+    return RevealedOffset(offset: 0, rect: rect ?? box);
   }
 }
 
@@ -856,12 +1480,60 @@ class _RoundBtn extends StatelessWidget {
   );
 }
 
+/// Landscape-only control that opens the level chip strip.
+class _LevelToggle extends StatelessWidget {
+  final String cefr;
+  final bool open;
+  final VoidCallback onTap;
+  const _LevelToggle({
+    super.key,
+    required this.cefr,
+    required this.open,
+    required this.onTap,
+  });
+  @override
+  Widget build(BuildContext context) => Material(
+    color: Colors.white.withValues(alpha: .92),
+    shape: const StadiumBorder(),
+    child: InkWell(
+      customBorder: const StadiumBorder(),
+      onTap: onTap,
+      child: Semantics(
+        button: true,
+        label: hl('Levels'),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(10, 6, 8, 6),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                hl(cefr),
+                style: const TextStyle(
+                  fontWeight: FontWeight.w900,
+                  fontSize: 13,
+                  color: BL.ink,
+                ),
+              ),
+              Icon(
+                open ? Icons.expand_less_rounded : Icons.expand_more_rounded,
+                color: BL.ink,
+                size: 18,
+              ),
+            ],
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
 class _Pin extends StatelessWidget {
   final MapRegion r;
   final bool open, here, skipped;
   final bool passed0;
   final double? progress;
   final VoidCallback onTap;
+  final bool compact;
   const _Pin({
     required this.r,
     required this.open,
@@ -869,6 +1541,7 @@ class _Pin extends StatelessWidget {
     bool passed = false,
     this.skipped = false,
     this.progress,
+    this.compact = false,
     required this.onTap,
   }) : passed0 = passed;
   bool get passed => passed0 || skipped;
@@ -890,7 +1563,9 @@ class _Pin extends StatelessWidget {
       key: ValueKey('pin-${r.id}'),
       onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.fromLTRB(6, 4, 10, 4),
+        padding: compact
+            ? const EdgeInsets.fromLTRB(6, 2, 10, 2)
+            : const EdgeInsets.fromLTRB(6, 4, 10, 4),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
@@ -919,8 +1594,8 @@ class _Pin extends StatelessWidget {
           children: [
             if (lv != null)
               Container(
-                width: 34,
-                height: 34,
+                width: compact ? 28 : 34,
+                height: compact ? 28 : 34,
                 alignment: Alignment.center,
                 margin: const EdgeInsets.only(right: 7),
                 decoration: BoxDecoration(
@@ -969,6 +1644,9 @@ class _Pin extends StatelessWidget {
                       ),
                     Text(
                       hl(r.title),
+                      maxLines: 1,
+                      softWrap: false,
+                      overflow: TextOverflow.visible,
                       style: TextStyle(
                         fontWeight: FontWeight.w800,
                         fontSize: 12.5,
@@ -989,7 +1667,7 @@ class _Pin extends StatelessWidget {
                         : Colors.white60,
                   ),
                 ),
-                if (lv != null && open)
+                if (lv != null && open && !compact)
                   Padding(
                     padding: const EdgeInsets.only(top: 2),
                     child: SizedBox(
@@ -1258,9 +1936,19 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
   final more = <_MI>[
     (Icons.badge_rounded, 'Your name', 'نام شما', '#name'),
     (Icons.workspace_premium_outlined, 'Premium', 'اشتراک ویژه', '/premium'),
-    (Icons.person_add_alt_1_rounded, 'Invite a friend', 'دعوت از دوست', '#invite'),
+    (
+      Icons.person_add_alt_1_rounded,
+      'Invite a friend',
+      'دعوت از دوست',
+      '#invite',
+    ),
     (Icons.menu_book_outlined, 'User guide & help', 'راهنمای کاربر', '/guide'),
-    (Icons.feedback_outlined, 'Feedback & bug report', 'بازخورد و گزارش خطا', '#feedback'),
+    (
+      Icons.feedback_outlined,
+      'Feedback & bug report',
+      'بازخورد و گزارش خطا',
+      '#feedback',
+    ),
     (Icons.help_outline_rounded, 'Quick tour', 'تور کوتاه', '/howto'),
     (Icons.gavel_rounded, 'Privacy & terms', 'حریم خصوصی', '/legal'),
   ];
@@ -1272,10 +1960,16 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
       shareInvite(context);
     } else if (route == '#feedback') {
       // Remember the screen under the menu and grab it (after the sheet has gone) for the optional screenshot.
-      final from = GoRouter.of(context).routerDelegate.currentConfiguration.last.matchedLocation;
+      final from = GoRouter.of(context)
+          .routerDelegate
+          .currentConfiguration
+          .last
+          .matchedLocation;
       Future.delayed(const Duration(milliseconds: 350), () async {
         await FeedbackCapture.grab(from);
-        if (context.mounted) context.push('/feedback?from=${Uri.encodeComponent(from)}');
+        if (context.mounted) {
+          context.push('/feedback?from=${Uri.encodeComponent(from)}');
+        }
       });
     } else {
       context.push(route);

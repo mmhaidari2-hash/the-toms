@@ -145,6 +145,9 @@ class SpotMarker extends StatelessWidget {
 
   /// Career-pack buildings: the level they open at ("A2"), shown as a badge while the building is still locked.
   final String? levelTag;
+
+  /// When false, only the orb is drawn (used to de-overlap crowded labels). Semantics stay on the orb.
+  final bool showLabel;
   const SpotMarker({
     super.key,
     required this.s,
@@ -152,6 +155,7 @@ class SpotMarker extends StatelessWidget {
     this.visited = false,
     this.focus = false,
     this.levelTag,
+    this.showLabel = true,
     required this.onTap,
   });
   static const width = 100.0;
@@ -296,41 +300,42 @@ class SpotMarker extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 3),
+          if (showLabel) const SizedBox(height: 3),
           // Frosted-glass label (faux frost: translucent gradient + hairline, no per-label blur so phones stay fast).
-          IgnorePointer(
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(9),
-                gradient: const LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [Color(0xC72E241D), Color(0xE0140E0A)],
-                ),
-                border: Border.all(color: const Color(0x40FFFFFF), width: .7),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0x40000000),
-                    blurRadius: 4,
-                    offset: Offset(0, 2),
+          if (showLabel)
+            IgnorePointer(
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(9),
+                  gradient: const LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [Color(0xC72E241D), Color(0xE0140E0A)],
                   ),
-                ],
-              ),
-              child: Text(
-                hl(label(s.title)),
-                maxLines: 2,
-                softWrap: true,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 10,
-                  height: 1.15,
-                  fontWeight: FontWeight.w700,
+                  border: Border.all(color: const Color(0x40FFFFFF), width: .7),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0x40000000),
+                      blurRadius: 4,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Text(
+                  hl(label(s.title)),
+                  maxLines: 2,
+                  softWrap: true,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 10,
+                    height: 1.15,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             ),
-          ),
         ],
       ),
     ),
@@ -339,6 +344,68 @@ class SpotMarker extends StatelessWidget {
   static String label(String t) => t.startsWith('Hartley & Wren')
       ? 'Estate Agent\nHartley & Wren'
       : t.split(' — ').first.split(' & ').first;
+}
+
+/// Label drawn in a second pass, above every orb, so a name is never buried under a neighbour.
+class SpotMapLabel extends StatelessWidget {
+  final MapSpot s;
+  final bool open;
+  const SpotMapLabel({super.key, required this.s, required this.open});
+
+  /// Label box in map pixels, relative to the pin, after [offset].
+  static const boxWidth = SpotMarker.width;
+  static const boxHeight = 28.0;
+  static const belowOrb = 44.0 + 3; // orb + gap
+  static const markerTop = 22.0;
+
+  static Rect rectFor(double pinX, double pinY, Offset offset) => Rect.fromLTWH(
+    pinX - boxWidth / 2 + offset.dx,
+    pinY - markerTop + belowOrb + offset.dy,
+    boxWidth,
+    boxHeight,
+  );
+
+  @override
+  Widget build(BuildContext context) => Opacity(
+    opacity: open ? 1 : .62,
+    child: SizedBox(
+      width: boxWidth,
+      child: IgnorePointer(
+        child: Container(
+          key: ValueKey('spot-label-${s.id}'),
+          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(9),
+            gradient: const LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Color(0xC72E241D), Color(0xE0140E0A)],
+            ),
+            border: Border.all(color: const Color(0x40FFFFFF), width: .7),
+            boxShadow: const [
+              BoxShadow(
+                color: Color(0x40000000),
+                blurRadius: 4,
+                offset: Offset(0, 2),
+              ),
+            ],
+          ),
+          child: Text(
+            hl(SpotMarker.label(s.title)),
+            maxLines: 2,
+            softWrap: true,
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 10,
+              height: 1.15,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
 }
 
 class _Badge extends StatelessWidget {
@@ -611,7 +678,10 @@ Future<void> showSpotSheet(
                   context.push('/visa');
                 },
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 14,
+                  ),
                   child: Row(
                     children: [
                       const Icon(Icons.badge_rounded, color: BL.gold),
@@ -636,7 +706,10 @@ Future<void> showSpotSheet(
                           ],
                         ),
                       ),
-                      const Icon(Icons.chevron_right_rounded, color: Colors.white),
+                      const Icon(
+                        Icons.chevron_right_rounded,
+                        color: Colors.white,
+                      ),
                     ],
                   ),
                 ),
@@ -652,7 +725,9 @@ Future<void> showSpotSheet(
               ),
             ),
             Text(
-              hl('مشاورهٔ مهاجرتی نیست. برای پروندهٔ خودتان از GOV.UK و مشاور تحت نظارت IAA (نام پیشین OISC) استفاده کنید.'),
+              hl(
+                'مشاورهٔ مهاجرتی نیست. برای پروندهٔ خودتان از GOV.UK و مشاور تحت نظارت IAA (نام پیشین OISC) استفاده کنید.',
+              ),
               textDirection: helperDir,
               style: BL.fa(12, color: BL.muted),
             ),

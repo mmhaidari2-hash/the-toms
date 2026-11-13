@@ -27,23 +27,41 @@ class BritishLifeApp extends StatelessWidget {
     debugShowCheckedModeBanner: false,
     theme: BL.theme(),
     routerConfig: router,
-    builder: (context, child) => DefaultAssetBundle(
-      bundle: bundle,
-      child: ColoredBox(
-        color: const Color(0xFFE9E2D6),
-        // Keep a phone-width column on tablets/desktop browsers.
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 520),
-            child: RepaintBoundary(key: screenBoundaryKey, child: HelperLangScope(
-              child: VoiceFeedback(
-                child: LeitnerSelect(child: kPreviewUnlock ? Banner(message: 'PREVIEW', location: BannerLocation.topEnd, color: const Color(0xFF1F3A5F), child: child ?? const SizedBox()) : child ?? const SizedBox()),
+    builder: (context, child) {
+      final size = MediaQuery.sizeOf(context);
+      final landscape = size.width > size.height;
+      return DefaultAssetBundle(
+        bundle: bundle,
+        child: ColoredBox(
+          color: const Color(0xFFE9E2D6),
+          // Phone-width column on portrait tablets/desktop; landscape uses the full screen so the town map has no side gutter.
+          child: Center(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(
+                maxWidth: landscape ? size.width : 520,
               ),
-            )),
+              child: RepaintBoundary(
+                key: screenBoundaryKey,
+                child: HelperLangScope(
+                  child: VoiceFeedback(
+                    child: LeitnerSelect(
+                      child: kPreviewUnlock
+                          ? Banner(
+                              message: 'PREVIEW',
+                              location: BannerLocation.topEnd,
+                              color: const Color(0xFF1F3A5F),
+                              child: child ?? const SizedBox(),
+                            )
+                          : child ?? const SizedBox(),
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ),
         ),
-      ),
-    ),
+      );
+    },
   );
 }
 
@@ -63,7 +81,9 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
   void initState() {
     super.initState();
     // Offline voices (Premium): read live per clip so a purchase/restore applies at once (see OfflineVoices).
-    OfflineVoices.allowed = () => mounted ? ref.read(progressProvider.notifier).offlineVoicesUnlocked : false;
+    OfflineVoices.allowed = () => mounted
+        ? ref.read(progressProvider.notifier).offlineVoicesUnlocked
+        : false;
     // Android daily reminder (t306): local notification, rescheduled on every start for the active profile.
     startReminders().then((_) {
       if (!mounted) return;
@@ -76,7 +96,14 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
       return ctx == null ? false : showMicRationale(ctx);
     };
     // Central route guard (every navigation and deep link) with live progress and content.
-    RouteGuard.check = (uri) => mounted ? guardLocation(uri, ref.read(progressProvider.notifier), ref.read(contentProvider).value?.course, books: ref.read(libraryProvider).value) : null;
+    RouteGuard.check = (uri) => mounted
+        ? guardLocation(
+            uri,
+            ref.read(progressProvider.notifier),
+            ref.read(contentProvider).value?.course,
+            books: ref.read(libraryProvider).value,
+          )
+        : null;
   }
 
   void _rebuildAll(Element e) {
