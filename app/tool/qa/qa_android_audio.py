@@ -13,14 +13,18 @@ def main():
         issues.append(('block', 'android-audio', 'flutter_tts dependency present', 'pubspec.yaml', 'device TTS is forbidden'))
     io_path = os.path.join(APP, 'lib/core/platform/speech_io.dart')
     io = open(io_path).read()
+    cdn_path = os.path.join(APP, 'lib/core/platform/audio_cdn.dart')
+    cdn = open(cdn_path).read() if os.path.exists(cdn_path) else ''
+    src = io + '\n' + cdn
     for needle, msg in [
-        ("remoteBase = 'https://mmhaidari2-hash.github.io/the-toms/assets/'", 'remoteBase missing or wrong'),
+        ("https://mmhaidari2-hash.github.io/the-toms/assets/", 'remoteBase default host missing or wrong'),
+        ('AUDIO_CDN_BASE_URL', 'AUDIO_CDN_BASE_URL dart-define missing'),
         ('mimeType: \'audio/mpeg\'', 'audio/mpeg mimeType missing (MediaPlayer may reject audio/mp3)'),
         ('kAudioCacheVer', 'cache-buster audio ver missing'),
         ('DeviceFileSource', 'on-device file cache missing'),
         ('bundled.json', 'bundled early-lesson list missing'),
     ]:
-        if needle not in io:
+        if needle not in src:
             issues.append(('block', 'android-audio', msg, 'speech_io.dart', needle))
     # No TTS API calls
     if re.search(r'FlutterTts|TextToSpeech|speechSynthesis', io):

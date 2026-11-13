@@ -12,6 +12,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
+import '../shared/sheets.dart';
 import '../plan/plan_screen.dart';
 
 /// The Level 1 path: calm storybook pages, one unit per painting, lessons as stepping stones.
@@ -426,7 +427,7 @@ class _LevelHeader extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(hl(info?.$2 ?? ''), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
+                AdaptiveTitle(hl(info?.$2 ?? ''), style: BL.display(19), maxLines: 2),
                 Text(hl(info?.$3 ?? ''), textDirection: helperDir, style: BL.fa(12)),
               ],
             ),
@@ -498,7 +499,7 @@ class PackCard extends ConsumerWidget {
                     ],
                   ),
                   const SizedBox(height: 2),
-                  Text(hl(pack.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
+                  AdaptiveTitle(hl(pack.title), style: BL.display(18), maxLines: 2),
                   Text(hl('${all.length} lessons · ${pack.levels} · $done done'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                 ],
               ),

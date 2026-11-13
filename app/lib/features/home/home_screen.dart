@@ -18,6 +18,7 @@ import '../../core/models/place.dart';
 import '../place/place_widgets.dart';
 import '../../core/models/user_progress.dart';
 import '../shared/widgets.dart';
+import '../shared/sheets.dart';
 import '../shared/nav.dart';
 import 'home_extras.dart';
 import '../course/course_screen.dart' show PackCard;
@@ -445,9 +446,9 @@ class CharacterCard extends ConsumerWidget {
     context: context,
     backgroundColor: BL.cream,
     showDragHandle: true,
-    builder: (_) => SafeArea(
+    builder: (sheet) => SheetSafeArea(
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(24, 0, 24, 24),
+        padding: EdgeInsets.fromLTRB(24, 0, 24, 24 + sheetBottomInset(sheet)),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [

@@ -1,5 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:british_life/core/platform/audio_ver.g.dart';
+import 'package:british_life/core/platform/audio_cdn.dart';
 import 'package:british_life/core/platform/speech_io.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -46,5 +47,12 @@ void main() {
       SpeechInput.remoteUrlFor('assets/audio/deadbeef.mp3'),
       'https://mmhaidari2-hash.github.io/the-toms/assets/assets/audio/deadbeef.mp3?v=abc123',
     );
+  });
+
+  test('AUDIO_CDN_BASE_URL default is unchanged', () {
+    const host = 'https://mmhaidari2-hash.github.io/the-toms/assets/';
+    expect(kAudioCdnBaseUrl, host);
+    expect(SpeechInput.remoteBase, host);
+    expect(SpeechInput.remoteBase, endsWith('/'));
   });
 }

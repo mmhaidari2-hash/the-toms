@@ -1,6 +1,7 @@
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import '../shared/sheets.dart';
 
 import '../../app/theme.dart';
 import '../../core/engine/pronunciation.dart';
@@ -361,7 +362,7 @@ Future<void> showMicHelp(BuildContext context, String? error, {VoidCallback? onT
     backgroundColor: BL.cream,
     showDragHandle: true,
     isScrollControlled: true,
-    builder: (sheet) => SafeArea(
+    builder: (sheet) => SheetSafeArea(
       child: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(22, 0, 22, 18),

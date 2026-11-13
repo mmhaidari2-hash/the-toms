@@ -11,6 +11,7 @@ import '../../core/models/character.dart';
 import '../../core/models/user_progress.dart';
 import 'home_screen.dart';
 import '../shared/widgets.dart';
+import '../shared/sheets.dart';
 
 /// Chapter 1 — four painted episodes through one British day.
 class ChapterStrip extends ConsumerWidget {
@@ -391,8 +392,8 @@ class FamilyRow extends ConsumerWidget {
                 onTap: () => showModalBottomSheet(
                   context: context,
                   backgroundColor: Colors.transparent,
-                  builder: (_) => Padding(
-                    padding: EdgeInsets.fromLTRB(14, 0, 14, 14 + MediaQuery.paddingOf(context).bottom),
+                  builder: (sheet) => Padding(
+                    padding: EdgeInsets.fromLTRB(14, 0, 14, 14 + sheetBottomInset(sheet)),
                     child: CharacterCard(c: c, ch: ch, p: p),
                   ),
                 ),
@@ -455,7 +456,7 @@ class CourseCard extends ConsumerWidget {
                 children: [
                   Text(hl('LEVEL ${next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level} COURSE  ·  ${Course.levelInfo[next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level]!.$1}'), style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
                   const SizedBox(height: 2),
-                  Text(hl(next == null ? 'All lessons done!' : 'Next: ${next.title}'), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
+                  AdaptiveTitle(hl(next == null ? 'All lessons done!' : 'Next: ${next.title}'), style: BL.display(19), maxLines: 2),
                   Text(hl('${c.course.units.map((u) => u.level).toSet().length} levels · ${c.course.units.length} units · ${all.length} lessons'), style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                 ],
               ),
@@ -570,7 +571,7 @@ Future<void> showTimePasses(BuildContext context, ContentBundle c, int i) {
       margin: const EdgeInsets.all(12),
       padding: const EdgeInsets.fromLTRB(22, 22, 22, 18),
       decoration: BoxDecoration(color: const Color(0xFF1E1610), borderRadius: BorderRadius.circular(28)),
-      child: SafeArea(
+      child: SheetSafeArea(
         top: false,
         child: Column(
           mainAxisSize: MainAxisSize.min,

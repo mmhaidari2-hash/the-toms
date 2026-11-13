@@ -26,6 +26,8 @@ import '../../core/models/character.dart';
 import '../../core/models/dialogue_node.dart';
 import '../home/home_screen.dart' show ErrorState;
 import '../shared/widgets.dart';
+import '../shared/bilingual_text.dart';
+import '../shared/sheets.dart';
 import '../speaking/speaking_widgets.dart';
 import '../../core/engine/pronunciation.dart';
 import '../../core/engine/role_switch.dart';
@@ -734,9 +736,9 @@ class _ChatState extends ConsumerState<_Chat> {
       isScrollControlled: true,
       backgroundColor: BL.cream,
       showDragHandle: true,
-      builder: (ctx) => SafeArea(
+      builder: (ctx) => SheetSafeArea(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.fromLTRB(22, 0, 22, 20),
+          padding: EdgeInsets.fromLTRB(22, 0, 22, 20 + sheetBottomInset(ctx)),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -811,18 +813,18 @@ class _ChatState extends ConsumerState<_Chat> {
     isScrollControlled: true,
     backgroundColor: BL.cream,
     showDragHandle: true,
-    builder: (_) => DraggableScrollableSheet(
+    builder: (sheet) => DraggableScrollableSheet(
       expand: false,
       initialChildSize: .7,
       builder: (_, sc) => ListView(
         controller: sc,
-        padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
+        padding: sheetScrollPadding(sheet, extra: 24, left: 20, right: 20),
         children: [
-          Text(hl(widget.s.title), style: BL.display(22)),
+          AdaptiveTitle(hl(widget.s.title), style: BL.display(22), maxLines: 2),
           const SizedBox(height: 10),
           for (final m in _msgs)
             if (m.system != null)
-              Padding(padding: const EdgeInsets.symmetric(vertical: 6), child: Text(hl('🌱 ${m.system}'), style: const TextStyle(fontWeight: FontWeight.w700)))
+              Padding(padding: const EdgeInsets.symmetric(vertical: 6), child: BilingualText(hl('🌱 ${m.system}'), style: const TextStyle(fontWeight: FontWeight.w700)))
             else
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 5),
@@ -933,8 +935,8 @@ class _ChatState extends ConsumerState<_Chat> {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(hl(widget.s.title), maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
-                        Text(hl(_canSwap ? '${widget.s.level}  ·  ${widget.s.setting}' : '${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName'), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+                        AdaptiveTitle(hl(widget.s.title), style: BL.display(17, color: Colors.white), maxLines: 2, minScale: 0.75),
+                        AdaptiveTitle(hl(_canSwap ? '${widget.s.level}  ·  ${widget.s.setting}' : '${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName'), style: const TextStyle(color: Colors.white70, fontSize: 11.5, fontWeight: FontWeight.w600), maxLines: 2, minScale: 0.8),
                       ]),
                     ),
                     IconButton(
@@ -968,7 +970,7 @@ class _ChatState extends ConsumerState<_Chat> {
             ),
             ?strip,
             Expanded(child: _chatList()),
-            _bottom(pad, bottomMax),
+            _bottom(bottomMax),
           ]),
           if (_tapped != null) Positioned(left: 12, right: 12, top: bannerH + (strip == null ? 6 : 50), child: _tapCard(_tapped!)),
         ]),
@@ -987,7 +989,26 @@ class _ChatState extends ConsumerState<_Chat> {
       if (_typing) Align(key: const ValueKey('typing'), alignment: Alignment.centerLeft, child: Padding(padding: const EdgeInsets.only(left: 42, top: 4, bottom: 4), child: _bubbleBox(const _Dots(), const Color(0xFFFBF3E4), left: true))),
       for (var i = _msgs.length - 1; i >= 0; i--) _row(i),
     ];
-    return ListView(key: const ValueKey('chat-list'), controller: _scroll, reverse: true, keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag, padding: const EdgeInsets.fromLTRB(10, 10, 10, 8), children: items);
+    // Top fade + padding so a previous bubble is never sliced through a letter at the banner edge.
+    return ShaderMask(
+      key: const ValueKey('chat-list-fade'),
+      blendMode: BlendMode.dstOut,
+      shaderCallback: (rect) => const LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [Color(0xFF000000), Color(0x00000000)],
+        stops: [0.0, 0.08],
+      ).createShader(rect),
+      child: ListView(
+        key: const ValueKey('chat-list'),
+        controller: _scroll,
+        reverse: true,
+        clipBehavior: Clip.hardEdge,
+        keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+        padding: const EdgeInsets.fromLTRB(10, 14, 10, 20),
+        children: items,
+      ),
+    );
   }
 
   Widget _bubbleBox(Widget child, Color color, {required bool left}) => Container(
@@ -1012,8 +1033,8 @@ class _ChatState extends ConsumerState<_Chat> {
           key: ValueKey('sys-$i'),
           margin: const EdgeInsets.symmetric(vertical: 6),
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-          decoration: BoxDecoration(color: const Color(0x33E9B949), borderRadius: BorderRadius.circular(99)),
-          child: Text(hl(m.system!), textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFF2D891), fontSize: 12, fontWeight: FontWeight.w700)),
+          decoration: BoxDecoration(color: const Color(0x33E9B949), borderRadius: BorderRadius.circular(16)),
+          child: BilingualText(hl(m.system!), textAlign: TextAlign.center, style: const TextStyle(color: Color(0xFFF2D891), fontSize: 12, fontWeight: FontWeight.w700)),
         ),
       );
     }
@@ -1074,13 +1095,13 @@ class _ChatState extends ConsumerState<_Chat> {
   }
 
   /// The fixed bottom: hints, pronunciation result, notes and the composer.
-  Widget _bottom(EdgeInsets pad, double maxHeight) => ConstrainedBox(
+  Widget _bottom(double maxHeight) => ConstrainedBox(
     constraints: BoxConstraints(maxHeight: maxHeight < 1 ? 1 : maxHeight),
     child: DecoratedBox(
       decoration: const BoxDecoration(color: Color(0xF5140E0A), border: Border(top: BorderSide(color: Color(0x55C9A45C)))),
       child: SingleChildScrollView(
         key: const ValueKey('chat-bottom'),
-        padding: EdgeInsets.fromLTRB(14, 6, 14, pad.bottom + 10),
+        padding: EdgeInsets.fromLTRB(14, 6, 14, MediaQuery.viewPaddingOf(context).bottom + 10),
         child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
           if ((_hints || _speaking) && !_ended && _pron == null) _hintChips(),
           if (_pron != null)
@@ -1599,7 +1620,7 @@ class _ChatState extends ConsumerState<_Chat> {
             _focus.requestFocus();
           },
           icon: Icon(_dictate && !nativeSpeechOff ? Icons.keyboard_voice_rounded : Icons.keyboard_rounded, size: 16),
-          label: Text(hl(_dictate && !nativeSpeechOff ? 'Keyboard mic' : 'Type it · بنویس')),
+          label: BilingualText(hl(_dictate && !nativeSpeechOff ? 'Keyboard mic' : 'Type it · بنویس'), stackMixed: false, style: const TextStyle(fontWeight: FontWeight.w600)),
         ),
         if (_dictate && !nativeSpeechOff)
           TextButton(
@@ -1613,7 +1634,7 @@ class _ChatState extends ConsumerState<_Chat> {
             child: const Text('Try app mic again'),
           )
         else
-          Text(hl('or tap a reply above · یا یک جواب را بزن'), style: TextStyle(color: Colors.white60, fontSize: 11.5)),
+          BilingualText(hl('or tap a reply above · یا یک جواب را بزن'), stackMixed: false, style: const TextStyle(color: Colors.white60, fontSize: 11.5)),
       ]),
     ]),
   );
@@ -1661,13 +1682,17 @@ class _ChatState extends ConsumerState<_Chat> {
           onSubmitted: (_) => _send(),
           onTapOutside: (_) => _focus.unfocus(),
           style: const TextStyle(fontSize: 16, color: Colors.white), // ≥16 avoids iOS zoom
+          // Replies are in English (LTR). The hint follows the helper-language script so a
+          // Persian/Urdu/Arabic/Pashto hint is not ellipsized on the wrong side.
+          textDirection: TextDirection.ltr,
           cursorColor: BL.gold,
           decoration: InputDecoration(
-            hintText: hl(_ended ? tr(_lang, 'storyDone') : tr(_lang, 'replyHint')),
-            hintStyle: const TextStyle(color: Colors.white38),
+            hintText: hl(_ended ? tr(_lang, 'storyDone') : tr(_lang, 'replyHintShort')),
+            hintStyle: const TextStyle(color: Colors.white38, fontSize: 13, height: 1.2),
+            hintTextDirection: scriptDirection(hl(_ended ? tr(_lang, 'storyDone') : tr(_lang, 'replyHintShort'))) ?? helperDir,
             filled: true,
             fillColor: Colors.white.withValues(alpha: .08),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(99), borderSide: BorderSide.none),
           ),
         ),

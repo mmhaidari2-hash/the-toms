@@ -7,6 +7,7 @@ import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../billing/offline_voices.dart';
+import 'audio_cdn.dart';
 import 'audio_ver.g.dart';
 import 'native_stt.dart';
 import 'speech_result.dart';
@@ -19,10 +20,10 @@ export 'speech_result.dart';
 /// 1. Early-lesson clips listed in assets/audio/bundled.json play from the APK (offline).
 /// 2. Everything else downloads once to a versioned on-device cache, then plays as a local file.
 /// 3. URLs carry ?v=`audioCacheVer` so a re-voice never returns a stale HTTP/MediaPlayer cache.
+///    The host is [remoteBase] / [kAudioCdnBaseUrl] (override with --dart-define=AUDIO_CDN_BASE_URL).
 /// 4. mimeType is always audio/mpeg (GitHub Pages sends audio/mp3, which some MediaPlayers reject).
 class SpeechInput {
-  static const remoteBase =
-      'https://mmhaidari2-hash.github.io/the-toms/assets/';
+  static const remoteBase = kAudioCdnBaseUrl;
   static final bool _native = Platform.isAndroid;
 
   // ---- Speech recognition (owner t306 item 1): Android's own SpeechRecognizer, on-device when the phone has an

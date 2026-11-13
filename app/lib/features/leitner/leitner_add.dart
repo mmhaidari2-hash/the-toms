@@ -1,6 +1,8 @@
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import '../shared/sheets.dart';
+import '../shared/bilingual_text.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -94,14 +96,14 @@ Future<void> showLeitnerSheet(BuildContext context, String text, {String ex = ''
     shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(24))),
     builder: (sheet) => Consumer(builder: (sheet, ref, _) {
       final have = ref.watch(progressProvider).leitnerBox[word];
-      return SafeArea(
+      return SheetSafeArea(
         child: Padding(
           padding: EdgeInsets.fromLTRB(20, 0, 20, 16 + MediaQuery.viewInsetsOf(sheet).bottom),
           child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
             Row(children: [
               const Icon(Icons.inventory_2_rounded, color: BL.green, size: 18),
               const SizedBox(width: 6),
-              Text(hl('LEITNER BOX · جعبهٔ لایتنر'), style: BL.fa(11.5, color: BL.green, w: FontWeight.w800)),
+              BilingualText(hl('LEITNER BOX · جعبهٔ لایتنر'), stackMixed: false, style: BL.fa(11.5, color: BL.green, w: FontWeight.w800)),
             ]),
             const SizedBox(height: 8),
             Row(children: [

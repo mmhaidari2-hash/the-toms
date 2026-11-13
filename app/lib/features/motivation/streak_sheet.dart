@@ -1,5 +1,6 @@
 import 'package:british_life/core/i18n/helper_text.dart';
 import 'package:flutter/material.dart';
+import '../shared/sheets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -19,7 +20,6 @@ class _StreakSheet extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final streak = ctrl.currentStreak, done = ctrl.practisedToday, fr = ctrl.freezes;
     final days = ctrl.streakDays(14);
-    final pad = MediaQuery.paddingOf(context);
     final atRisk = streak > 0 && !done;
     final (msg, msgFa) = done
         ? ('Done for today. Come back tomorrow to make it ${streak + 1}.', 'امروز انجام شد. فردا برگرد تا ${streak + 1} روز شود.')
@@ -35,7 +35,7 @@ class _StreakSheet extends ConsumerWidget {
       ),
       constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * .92),
       child: SingleChildScrollView(
-        padding: EdgeInsets.fromLTRB(20, 10, 20, pad.bottom + 18),
+        padding: EdgeInsets.fromLTRB(20, 10, 20, sheetBottomInset(context) + 18),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,

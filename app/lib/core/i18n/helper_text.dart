@@ -33,20 +33,35 @@ Future<Map<String, String>> _read(String code) async {
   }
 }
 
-/// Loads (once) and activates a helper language table. Persian needs none: the source text is Persian.
+/// Loads and activates one helper-language table. Only the active language and the English
+/// fallback stay in memory; other tables are dropped so a six-language install does not
+/// load every JSON at startup or keep them all after a language switch. Persian needs no
+/// table: the source text is Persian.
 Future<void> useHelperLang(String code) async {
   if (code == 'fa') {
     helperLang = code;
     _table = const {};
+    _loaded.removeWhere((k, _) => k != 'en');
     return;
   }
   if (!_enLoaded) {
     _en = await _read('en');
     _enLoaded = true;
   }
-  final t = code == 'en' ? _en : (_loaded[code] ??= await _read(code));
+  final t = code == 'en' ? _en : (_loaded[code] ?? await _read(code));
+  _loaded
+    ..removeWhere((k, _) => k != 'en' && k != code)
+    ..[code] = t;
   helperLang = code;
   _table = t;
+}
+
+/// Language codes whose tables are currently held in RAM (English lives in [_en] as well).
+Set<String> get loadedHelperLangs {
+  final s = {..._loaded.keys};
+  if (_enLoaded) s.add('en');
+  if (helperLang == 'fa') s.add('fa');
+  return s;
 }
 
 /// For tests: activate a table directly.
