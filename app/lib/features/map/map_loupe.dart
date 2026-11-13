@@ -16,11 +16,10 @@ class MapLoupe extends StatelessWidget {
   final Offset focal;
 
   /// Map scroll offset and painted map size, to turn map coordinates into screen ones.
-  /// [transform] + [origin] are preferred when the map is inside an InteractiveViewer:
-  /// the lens centre is [transform] applied to [origin] + focal (map space).
-  final double scrollX, scrollY, scale, mapW, mapH;
+  /// [transform] is preferred when the map is inside an InteractiveViewer:
+  /// screen position = transform × focal. [scrollX] remains for the identity/pan-only case.
+  final double scrollX, mapW, mapH;
   final Matrix4? transform;
-  final Offset origin;
   final String mapImage;
   final MapSpot? spot;
   final String? level;
@@ -31,7 +30,8 @@ class MapLoupe extends StatelessWidget {
   const MapLoupe({
     super.key,
     required this.focal,
-    required this.scrollX,
+    this.scrollX = 0,
+    this.transform,
     required this.mapW,
     required this.mapH,
     required this.mapImage,
@@ -40,41 +40,27 @@ class MapLoupe extends StatelessWidget {
     this.open = true,
     required this.viewWidth,
     this.topSafe = 96,
-    this.scrollY = 0,
-    this.scale = 1,
-    this.transform,
-    this.origin = Offset.zero,
   });
 
   static const size = 124.0;
   static const zoom = 1.9;
   @override
-  Widget build(BuildContext context) {
-    final reduce = MediaQuery.disableAnimationsOf(context);
-    return TweenAnimationBuilder<Offset>(
-      tween: Tween(end: focal),
-      duration: Duration(milliseconds: reduce ? 0 : 110),
-      curve: Curves.easeOutCubic,
-      builder: (context, f, _) => _lens(context, f),
-    );
-  }
+  Widget build(BuildContext context) => TweenAnimationBuilder<Offset>(
+    tween: Tween(end: focal),
+    duration: const Duration(milliseconds: 110),
+    curve: Curves.easeOutCubic,
+    builder: (context, f, _) => _lens(f),
+  );
 
-  Offset screenCentre(Offset f) {
-    if (transform != null) {
-      return MatrixUtils.transformPoint(transform!, origin + f);
-    }
-    return Offset(
-      origin.dx + f.dx * scale - scrollX,
-      origin.dy + f.dy * scale - scrollY,
-    );
-  }
-
-  Widget _lens(BuildContext context, Offset f) {
+  Widget _lens(Offset f) {
     // Run 26: the glass sits exactly on the point it magnifies (a pin centre when snapped), in both axes,
     // at any scroll offset and even at a screen edge, so the enlarged icon is where the real icon is.
-    final centre = screenCentre(
-      f,
-    ); // screen position of the focal point = lens centre
+    final centre = transform != null
+        ? MatrixUtils.transformPoint(transform!, f)
+        : Offset(
+            f.dx - scrollX,
+            f.dy,
+          ); // screen position of the focal point = lens centre
     final title = spot?.title;
     // The name tag goes above the glass, or below it when the title bar is in the way.
     final below = centre.dy - size / 2 - 58 < topSafe;
@@ -89,9 +75,7 @@ class MapLoupe extends StatelessWidget {
           height: size,
           child: TweenAnimationBuilder<double>(
             tween: Tween(begin: .55, end: 1),
-            duration: Duration(
-              milliseconds: MediaQuery.disableAnimationsOf(context) ? 0 : 220,
-            ),
+            duration: const Duration(milliseconds: 220),
             curve: Curves.easeOutBack,
             builder: (_, k, child) => Transform.scale(
               scale: k,

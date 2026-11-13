@@ -200,19 +200,27 @@ void main() {
         reason:
             'lens centred on the hovered pin: lens ${lens.center} vs orb $orb',
       );
-      // Pan the map: the hover lens goes away rather than drifting off its pin.
+      // Scroll the map with the wheel: the hover lens goes away rather than drifting off its pin.
       await mouse.moveTo(orb);
       await t.pump();
-      final iv = t.widget<InteractiveViewer>(
+      final viewer = t.widget<InteractiveViewer>(
         find.byKey(const ValueKey('map-scroll')),
       );
-      iv.transformationController!.value = Matrix4.identity()
-        ..translateByDouble(-200.0, 0, 0, 1);
+      await t.sendEventToBinding(
+        PointerScrollEvent(
+          position: orb,
+          scrollDelta: const Offset(120, 0),
+          kind: PointerDeviceKind.mouse,
+        ),
+      );
+      // Pan the InteractiveViewer (the map is no longer a Scrollable).
+      viewer.transformationController!.value = Matrix4.identity()
+        ..translateByDouble(-200, 0, 0, 1);
       await t.pump(const Duration(milliseconds: 300));
       expect(
         find.byType(MapLoupe),
         findsNothing,
-        reason: 'panning hides the hover lens',
+        reason: 'scrolling hides the hover lens',
       );
       await mouse.removePointer();
       expect(t.takeException(), isNull);
@@ -276,9 +284,8 @@ void main() {
         await t.pump(const Duration(milliseconds: 300));
         await t.pump(const Duration(milliseconds: 300));
         final loupe = find.byType(MapLoupe);
-        if (loupe.evaluate().isEmpty) {
+        if (loupe.evaluate().isEmpty)
           continue; // covered by another pin's hit area
-        }
         final lens = t.getRect(find.byKey(const ValueKey('loupe-lens')));
         final id = t.widget<MapLoupe>(loupe).spot?.id;
         final o = orbs['spot-$id'] ?? e.value;

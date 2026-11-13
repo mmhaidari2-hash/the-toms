@@ -137,10 +137,26 @@ void main() {
     }
     final spots =
         jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List;
+    void reveal(Finder f) {
+      final box = t.getRect(find.byKey(const ValueKey('map-scroll')));
+      final r = t.getRect(f);
+      var dx = 0.0, dy = 0.0;
+      if (r.left < box.left + 24) dx = box.left + 24 - r.left;
+      if (r.right > box.right - 24) dx = box.right - 24 - r.right;
+      if (r.top < box.top + 24) dy = box.top + 24 - r.top;
+      if (r.bottom > box.bottom - 24) dy = box.bottom - 24 - r.bottom;
+      if (dx == 0 && dy == 0) return;
+      final tc = t
+          .widget<InteractiveViewer>(find.byKey(const ValueKey('map-scroll')))
+          .transformationController!;
+      tc.value = Matrix4.translationValues(dx, dy, 0) * tc.value;
+    }
+
     for (final s in spots) {
       final f = find.byKey(ValueKey('spot-${s['id']}'));
       expect(f, findsOneWidget, reason: 'spot ${s['id']} not on the map');
-      await t.ensureVisible(f);
+      reveal(f);
+      await t.pump();
       await t.pump(const Duration(milliseconds: 300));
       await t.tap(f, warnIfMissed: false);
       for (var i = 0; i < 8; i++) {
@@ -174,7 +190,8 @@ void main() {
       await t.pump(const Duration(milliseconds: 600));
     }
     // Start opens a lesson.
-    await t.ensureVisible(find.byKey(const ValueKey('spot-home')));
+    reveal(find.byKey(const ValueKey('spot-home')));
+    await t.pump();
     await t.pump(const Duration(milliseconds: 300));
     await t.tap(find.byKey(const ValueKey('spot-home')), warnIfMissed: false);
     await t.pump(const Duration(milliseconds: 700));
@@ -225,91 +242,115 @@ void main() {
     expect(r.exitCode, 0, reason: '${r.stdout}${r.stderr}');
   });
 
-  testWidgets('nursery sheet Start CTA is not truncated and list clears a 48dp nav inset', (t) async {
-    const size = Size(360, 780);
-    const inset = 48.0;
-    const scale = 1.6;
-    t.view.physicalSize = size * 3;
-    t.view.devicePixelRatio = 3;
-    addTearDown(t.view.reset);
+  testWidgets(
+    'nursery sheet Start CTA is not truncated and list clears a 48dp nav inset',
+    (t) async {
+      const size = Size(360, 780);
+      const inset = 48.0;
+      const scale = 1.6;
+      t.view.physicalSize = size * 3;
+      t.view.devicePixelRatio = 3;
+      addTearDown(t.view.reset);
 
-    final spots = jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List;
-    final nursery = MapSpot.fromJson(
-      Map<String, dynamic>.from(spots.firstWhere((s) => s['id'] == 'nursery') as Map),
-    );
-    final chars = [
-      for (final c in jsonDecode(File('assets/data/characters.json').readAsStringSync()) as List)
-        Character.fromJson(Map<String, dynamic>.from(c as Map)),
-    ];
-    final course = Course.fromJson(
-      jsonDecode(File('assets/data/course.json').readAsStringSync()) as Map<String, dynamic>,
-    );
-    final bundle = ContentBundle(chars, const {}, const {}, const [], const [], const [], course);
+      final spots =
+          jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List;
+      final nursery = MapSpot.fromJson(
+        Map<String, dynamic>.from(
+          spots.firstWhere((s) => s['id'] == 'nursery') as Map,
+        ),
+      );
+      final chars = [
+        for (final c in jsonDecode(
+          File('assets/data/characters.json').readAsStringSync(),
+        ) as List)
+          Character.fromJson(Map<String, dynamic>.from(c as Map)),
+      ];
+      final course = Course.fromJson(
+        jsonDecode(File('assets/data/course.json').readAsStringSync())
+            as Map<String, dynamic>,
+      );
+      final bundle = ContentBundle(
+        chars,
+        const {},
+        const {},
+        const [],
+        const [],
+        const [],
+        course,
+      );
 
-    await t.pumpWidget(
-      ProviderScope(
-        overrides: [
-          progressStoreProvider.overrideWithValue(
-            MemoryProgressStore()
-              ..data = const UserProgress(onboarded: true, unlockAll: true).encode(),
-          ),
-        ],
-        child: MaterialApp(
-          theme: ThemeData(useMaterial3: true),
-          builder: (context, child) => MediaQuery(
-            data: MediaQuery.of(context).copyWith(
-              size: size,
-              textScaler: const TextScaler.linear(scale),
-              padding: const EdgeInsets.only(bottom: inset),
-              viewPadding: const EdgeInsets.only(bottom: inset),
-              viewInsets: EdgeInsets.zero,
+      await t.pumpWidget(
+        ProviderScope(
+          overrides: [
+            progressStoreProvider.overrideWithValue(
+              MemoryProgressStore()
+                ..data = const UserProgress(
+                  onboarded: true,
+                  unlockAll: true,
+                ).encode(),
             ),
-            child: child!,
-          ),
-          // SafeArea consumes padding so a bug that reads the opener's padding.bottom would pad 0.
-          home: SafeArea(
-            child: Scaffold(
-              body: Consumer(
-                builder: (context, ref, _) => TextButton(
-                  key: const ValueKey('open-nursery'),
-                  onPressed: () => showSpotSheet(context, ref, nursery, bundle),
-                  child: const Text('open'),
+          ],
+          child: MaterialApp(
+            theme: ThemeData(useMaterial3: true),
+            builder: (context, child) => MediaQuery(
+              data: MediaQuery.of(context).copyWith(
+                size: size,
+                textScaler: const TextScaler.linear(scale),
+                padding: const EdgeInsets.only(bottom: inset),
+                viewPadding: const EdgeInsets.only(bottom: inset),
+                viewInsets: EdgeInsets.zero,
+              ),
+              child: child!,
+            ),
+            // SafeArea consumes padding so a bug that reads the opener's padding.bottom would pad 0.
+            home: SafeArea(
+              child: Scaffold(
+                body: Consumer(
+                  builder: (context, ref, _) => TextButton(
+                    key: const ValueKey('open-nursery'),
+                    onPressed: () =>
+                        showSpotSheet(context, ref, nursery, bundle),
+                    child: const Text('open'),
+                  ),
                 ),
               ),
             ),
           ),
         ),
-      ),
-    );
-    await t.tap(find.byKey(const ValueKey('open-nursery')));
-    await t.pumpAndSettle();
+      );
+      await t.tap(find.byKey(const ValueKey('open-nursery')));
+      await t.pumpAndSettle();
 
-    expect(find.byKey(const ValueKey('spotsheet-nursery')), findsOneWidget);
-    expect(find.byType(SpotStartCta), findsOneWidget);
-    expect(find.textContaining('Start:'), findsOneWidget);
-    expect(find.textContaining('The nursery interview'), findsWidgets);
+      expect(find.byKey(const ValueKey('spotsheet-nursery')), findsOneWidget);
+      expect(find.byType(SpotStartCta), findsOneWidget);
+      expect(find.textContaining('Start:'), findsOneWidget);
+      expect(find.textContaining('The nursery interview'), findsWidgets);
 
-    final list = t.widget<ListView>(find.byKey(const ValueKey('safe-sheet-list')));
-    expect(list.padding, isA<EdgeInsets>());
-    final pad = list.padding! as EdgeInsets;
-    expect(
-      pad.bottom,
-      greaterThanOrEqualTo(inset),
-      reason: 'sheet list padding ${pad.bottom} < system inset $inset; must use viewPadding of the sheet, not a parent SafeArea',
-    );
+      final list = t.widget<ListView>(
+        find.byKey(const ValueKey('safe-sheet-list')),
+      );
+      expect(list.padding, isA<EdgeInsets>());
+      final pad = list.padding! as EdgeInsets;
+      expect(
+        pad.bottom,
+        greaterThanOrEqualTo(inset),
+        reason:
+            'sheet list padding ${pad.bottom} < system inset $inset; must use viewPadding of the sheet, not a parent SafeArea',
+      );
 
-    bool exceeded(Finder f) {
-      for (final e in f.evaluate()) {
-        final ro = e.renderObject;
-        if (ro is RenderParagraph && ro.didExceedMaxLines) return true;
+      bool exceeded(Finder f) {
+        for (final e in f.evaluate()) {
+          final ro = e.renderObject;
+          if (ro is RenderParagraph && ro.didExceedMaxLines) return true;
+        }
+        return false;
       }
-      return false;
-    }
 
-    expect(
-      exceeded(find.textContaining('The nursery interview')),
-      isFalse,
-      reason: 'Start: The nursery interview was truncated',
-    );
-  });
+      expect(
+        exceeded(find.textContaining('The nursery interview')),
+        isFalse,
+        reason: 'Start: The nursery interview was truncated',
+      );
+    },
+  );
 }
