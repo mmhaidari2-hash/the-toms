@@ -14,16 +14,35 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'map_tap.dart';
+
 /// Life in the UK prep flow: library sheet → notes → chapter (audio, Persian) → flashcards → quiz with review → timed mock.
 void main() {
   group('lifeuk at 375x667', () {
     setUp(() => BL.useGoogleFonts = false);
     setUpAll(() async {
       for (final fam in ['Roboto', 'Inter', 'Fraunces', 'Vazirmatn']) {
-        final file = {'Roboto': 'Inter', 'Inter': 'Inter', 'Fraunces': 'Fraunces', 'Vazirmatn': 'Vazirmatn'}[fam]!;
+        final file = {
+          'Roboto': 'Inter',
+          'Inter': 'Inter',
+          'Fraunces': 'Fraunces',
+          'Vazirmatn': 'Vazirmatn',
+        }[fam]!;
         final l = FontLoader(fam);
-        for (final w in ['Regular', 'Medium', 'SemiBold', 'Bold', 'ExtraBold']) {
-          l.addFont(Future.value(ByteData.sublistView(File('assets/google_fonts/$file-$w.ttf').readAsBytesSync())));
+        for (final w in [
+          'Regular',
+          'Medium',
+          'SemiBold',
+          'Bold',
+          'ExtraBold',
+        ]) {
+          l.addFont(
+            Future.value(
+              ByteData.sublistView(
+                File('assets/google_fonts/$file-$w.ttf').readAsBytesSync(),
+              ),
+            ),
+          );
         }
         await l.load();
       }
@@ -32,19 +51,46 @@ void main() {
       t.view.physicalSize = const Size(375, 667) * 3;
       t.view.devicePixelRatio = 3;
       addTearDown(t.view.reset);
-      final store = MemoryProgressStore()..data = const UserProgress(onboarded: true, missionsDone: {'pref:chapter': '99'}).encode();
-      await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(store)], child: const BritishLifeApp()));
-      for (var i = 0; i < 40 && find.text('New Life UK').evaluate().isEmpty; i++) {
-        await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
+      final store = MemoryProgressStore()
+        ..data = const UserProgress(
+          onboarded: true,
+          missionsDone: {'pref:chapter': '99'},
+        ).encode();
+      await t.pumpWidget(
+        ProviderScope(
+          overrides: [progressStoreProvider.overrideWithValue(store)],
+          child: const BritishLifeApp(),
+        ),
+      );
+      for (
+        var i = 0;
+        i < 40 && find.text('New Life UK').evaluate().isEmpty;
+        i++
+      ) {
+        await t.runAsync(
+          () => Future.delayed(const Duration(milliseconds: 250)),
+        );
         await t.pump(const Duration(milliseconds: 100));
       }
       Future<void> settle() async {
-        await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
+        await t.runAsync(
+          () => Future.delayed(const Duration(milliseconds: 300)),
+        );
         for (var i = 0; i < 4; i++) {
           await t.pump(const Duration(milliseconds: 400));
         }
-        for (var i = 0; i < 40 && find.byType(NavLoading, skipOffstage: false).evaluate().isNotEmpty; i++) {
-          await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250)));
+        for (
+          var i = 0;
+          i < 40 &&
+              find
+                  .byType(NavLoading, skipOffstage: false)
+                  .evaluate()
+                  .isNotEmpty;
+          i++
+        ) {
+          await t.runAsync(
+            () => Future.delayed(const Duration(milliseconds: 250)),
+          );
           await t.pump(const Duration(milliseconds: 200));
         }
         expect(t.takeException(), isNull);
@@ -52,7 +98,15 @@ void main() {
 
       Future<void> tapKey(String k) async {
         final f = find.byKey(ValueKey(k));
-        await t.scrollUntilVisible(f, 200, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first);
+        await t.scrollUntilVisible(
+          f,
+          200,
+          scrollable: find
+              .byWidgetPredicate(
+                (w) => w is Scrollable && w.axisDirection == AxisDirection.down,
+              )
+              .first,
+        );
         Voice.failure.value = null; // no audio in tests: hide the 'voice unavailable' note so it never covers buttons
         await t.pump(const Duration(milliseconds: 100));
         await t.pump(const Duration(milliseconds: 100));
@@ -66,17 +120,18 @@ void main() {
 
       router.go('/');
       await settle();
-      await t.ensureVisible(find.byKey(const ValueKey('spot-library')));
-      await t.pump(const Duration(milliseconds: 300));
-      await t.tap(find.byKey(const ValueKey('spot-library')), warnIfMissed: false);
-      await t.pump(const Duration(milliseconds: 800));
+      await tapMapSpot(t, 'library');
       await t.ensureVisible(find.byKey(const ValueKey('spot-open-lifeuk')));
       await t.pump(const Duration(milliseconds: 300));
       await t.tap(find.byKey(const ValueKey('spot-open-lifeuk')));
       await settle();
       expect(find.byKey(const ValueKey('luk-hub')), findsOneWidget);
       expect(find.byKey(const ValueKey('luk-disclaimer')), findsOneWidget);
-      expect(find.byKey(const ValueKey('luk-level-note')), findsOneWidget, reason: 'open to all, B1+ recommended');
+      expect(
+        find.byKey(const ValueKey('luk-level-note')),
+        findsOneWidget,
+        reason: 'open to all, B1+ recommended',
+      );
 
       // A chapter: voiced explanations; Persian on request.
       await tapKey('luk-ch-history');
@@ -107,9 +162,16 @@ void main() {
       await t.tap(find.byKey(const ValueKey('luk-cards-quiz')));
       await settle();
       for (var k = 0; k < 10; k++) {
-        final wrong = find.byWidgetPredicate((w) => w.key is ValueKey && '${(w.key as ValueKey).value}'.startsWith('luk-opt-') && (w.key as ValueKey).value != 'luk-opt-0');
+        final wrong = find.byWidgetPredicate(
+          (w) =>
+              w.key is ValueKey &&
+              '${(w.key as ValueKey).value}'.startsWith('luk-opt-') &&
+              (w.key as ValueKey).value != 'luk-opt-0',
+        );
         if (k < 2) {
-          await tapKey('${((wrong.evaluate().first.widget.key as ValueKey).value)}');
+          await tapKey(
+            '${((wrong.evaluate().first.widget.key as ValueKey).value)}',
+          );
         } else {
           await tapKey('luk-opt-0');
         }
@@ -156,7 +218,15 @@ void main() {
       router.go('/lifeuk');
       await settle();
       expect(txt('luk-mock-best').data, '100%');
-      await t.scrollUntilVisible(find.byKey(const ValueKey('luk-ch-best-history')), 200, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first);
+      await t.scrollUntilVisible(
+        find.byKey(const ValueKey('luk-ch-best-history')),
+        200,
+        scrollable: find
+            .byWidgetPredicate(
+              (w) => w is Scrollable && w.axisDirection == AxisDirection.down,
+            )
+            .first,
+      );
       expect(txt('luk-ch-best-history').data, '80%');
     });
   });

@@ -487,7 +487,12 @@ class _HallDesk extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final ctrl = ref.read(progressProvider.notifier);
+    ref.watch(progressProvider);
     final last = books.where((b) => b.id == ctrl.lastBook).firstOrNull;
+    final loans = books.where(ctrl.bookStarted).toList()
+      ..sort(
+        (a, b) => ctrl.bookDone(a.id) ? 1 : (ctrl.bookDone(b.id) ? -1 : 0),
+      );
     return Material(
       key: const ValueKey('front-desk'),
       color: const Color(0xE22A1A10),
@@ -534,6 +539,74 @@ class _HallDesk extends ConsumerWidget {
                   fontSize: 12.5,
                 ),
               ),
+            if (loans.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              Text(
+                hl(
+                  'Your loans · امانت‌های تو (${loans.where((b) => ctrl.bookDone(b.id)).length} finished)',
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
+                  color: Color(0xFFF7E7C1),
+                  fontWeight: FontWeight.w700,
+                  fontSize: 12,
+                ),
+              ),
+              const SizedBox(height: 6),
+              SizedBox(
+                height: 64,
+                child: ListView(
+                  key: const ValueKey('your-loans'),
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    for (final b in loans)
+                      Padding(
+                        padding: const EdgeInsetsDirectional.only(end: 8),
+                        child: InkWell(
+                          onTap: () => onOpenBook(b),
+                          child: Stack(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(6),
+                                child: Image.asset(
+                                  b.coverAsset,
+                                  width: 44,
+                                  height: 64,
+                                  fit: BoxFit.cover,
+                                  errorBuilder: (_, _, _) => Container(
+                                    width: 44,
+                                    height: 64,
+                                    color: const Color(0xFF3B2A1A),
+                                  ),
+                                ),
+                              ),
+                              if (ctrl.bookDone(b.id))
+                                Positioned(
+                                  top: 2,
+                                  right: 2,
+                                  child: Container(
+                                    key: ValueKey('finished-${b.id}'),
+                                    padding: const EdgeInsets.all(1),
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xFF2E8B57),
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: const Icon(
+                                      Icons.check_rounded,
+                                      size: 10,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+            ],
           ],
         ),
       ),
