@@ -397,9 +397,6 @@ class SpeechInput {
 
 /// Review builds only: [kPreviewAudioBase] streams voice clips from that base
 /// (the branch's files), so a preview can ship without its mp3 files. Empty unless the define is set.
-/// Production Android streaming uses AUDIO_CDN_BASE_URL (same as Android SpeechInput.remoteBase); this web path
-/// does not have a separate production host. A future web stream of the same clips should use
-/// that same define, not a second hardcoded URL.
 String _voiceUrl(String asset) => kPreviewAudioBase.isNotEmpty && asset.startsWith('assets/audio/') && asset.endsWith('.mp3') && !asset.endsWith('/silence.mp3')
     ? '$kPreviewAudioBase${asset.substring('assets/audio/'.length)}'
     : ui_web.assetManager.getAssetUrl(asset);

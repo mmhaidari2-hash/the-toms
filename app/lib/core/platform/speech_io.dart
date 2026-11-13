@@ -7,7 +7,6 @@ import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../billing/offline_voices.dart';
-import 'audio_cdn.dart';
 import 'audio_ver.g.dart';
 import 'native_stt.dart';
 import 'speech_result.dart';
@@ -20,10 +19,10 @@ export 'speech_result.dart';
 /// 1. Early-lesson clips listed in assets/audio/bundled.json play from the APK (offline).
 /// 2. Everything else downloads once to a versioned on-device cache, then plays as a local file.
 /// 3. URLs carry ?v=`audioCacheVer` so a re-voice never returns a stale HTTP/MediaPlayer cache.
-///    The host is [remoteBase] / [kAudioCdnBaseUrl] (override with --dart-define=AUDIO_CDN_BASE_URL).
 /// 4. mimeType is always audio/mpeg (GitHub Pages sends audio/mp3, which some MediaPlayers reject).
 class SpeechInput {
-  static const remoteBase = kAudioCdnBaseUrl;
+  static const remoteBase =
+      'https://mmhaidari2-hash.github.io/the-toms/assets/';
   static final bool _native = Platform.isAndroid;
 
   // ---- Speech recognition (owner t306 item 1): Android's own SpeechRecognizer, on-device when the phone has an
@@ -179,6 +178,31 @@ class SpeechInput {
     return File('${(await sessionDirectory()).path}/$name');
   }
 
+  /// Write a finished clip to [target] via a sibling `.part` file, then rename.
+  /// A non-200, exception, or short body never reaches here; a crash mid-write
+  /// leaves only the `.part`, which is deleted and never played from the cache.
+  @visibleForTesting
+  static Future<void> commitDownload(File target, List<int> bytes) async {
+    if (bytes.length <= 64) {
+      throw StateError('short body ${bytes.length}');
+    }
+    final part = File('${target.path}.part');
+    try {
+      if (await part.exists()) await part.delete();
+      await part.writeAsBytes(bytes, flush: true);
+      if (await part.length() != bytes.length) {
+        throw StateError('short write ${await part.length()} != ${bytes.length}');
+      }
+      if (await target.exists()) await target.delete();
+      await part.rename(target.path);
+    } catch (_) {
+      try {
+        if (await part.exists()) await part.delete();
+      } catch (_) {}
+      rethrow;
+    }
+  }
+
   static Future<Directory> _cacheRoot() async {
     // path_provider is a transitive dep of audioplayers; avoid a hard import by using the same temp pattern.
     final tmp = Directory.systemTemp;
@@ -207,6 +231,10 @@ class SpeechInput {
     final dir = _cacheDir;
     if (dir != null) {
       final file = File('${dir.path}/$name');
+      final leftover = File('${file.path}.part');
+      try {
+        if (await leftover.exists()) await leftover.delete();
+      } catch (_) {}
       if (await file.exists() && await file.length() > 64) {
         return DeviceFileSource(file.path, mimeType: 'audio/mpeg');
       }
@@ -218,7 +246,7 @@ class SpeechInput {
         }
         final bytes = await _download(url);
         if (bytes.length > 64) {
-          await target.writeAsBytes(bytes, flush: true);
+          await commitDownload(target, bytes);
           return DeviceFileSource(target.path, mimeType: 'audio/mpeg');
         }
       } catch (_) {}
@@ -238,9 +266,16 @@ class SpeechInput {
       if (res.statusCode < 200 || res.statusCode >= 300) {
         throw StateError('HTTP ${res.statusCode} for $url');
       }
+      final expected = res.contentLength;
       final bytes = <int>[];
       await for (final chunk in res) {
         bytes.addAll(chunk);
+      }
+      if (expected >= 0 && bytes.length != expected) {
+        throw StateError('short body ${bytes.length} != $expected for $url');
+      }
+      if (bytes.length <= 64) {
+        throw StateError('short body ${bytes.length} for $url');
       }
       return bytes;
     }

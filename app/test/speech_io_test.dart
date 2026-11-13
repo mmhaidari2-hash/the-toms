@@ -1,6 +1,7 @@
+import 'dart:io';
+
 import 'package:audioplayers/audioplayers.dart';
 import 'package:british_life/core/platform/audio_ver.g.dart';
-import 'package:british_life/core/platform/audio_cdn.dart';
 import 'package:british_life/core/platform/speech_io.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -49,10 +50,17 @@ void main() {
     );
   });
 
-  test('AUDIO_CDN_BASE_URL default is unchanged', () {
-    const host = 'https://mmhaidari2-hash.github.io/the-toms/assets/';
-    expect(kAudioCdnBaseUrl, host);
-    expect(SpeechInput.remoteBase, host);
-    expect(SpeechInput.remoteBase, endsWith('/'));
+  test('commitDownload writes atomically and leaves no file for a short body', () async {
+    final dir = Directory.systemTemp.createTempSync('nl-audio-cache-');
+    addTearDown(() => dir.deleteSync(recursive: true));
+    final target = File('${dir.path}/clip.mp3');
+    await SpeechInput.commitDownload(target, List<int>.filled(80, 1));
+    expect(target.existsSync(), isTrue);
+    expect(target.lengthSync(), 80);
+    expect(File('${target.path}.part').existsSync(), isFalse);
+
+    await expectLater(SpeechInput.commitDownload(target, List<int>.filled(20, 1)), throwsStateError);
+    expect(target.lengthSync(), 80, reason: 'failed short write must not replace a good clip');
+    expect(File('${target.path}.part').existsSync(), isFalse);
   });
 }
