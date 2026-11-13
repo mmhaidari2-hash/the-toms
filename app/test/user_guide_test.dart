@@ -44,9 +44,9 @@ void main() {
     expect(e.howFa, contains('نقش هر شخصیت'));
   });
 
-  test('library entry matches the t310 library (hall, narrator, dictionary card, Leitner, any book opens)', () {
+  test('library entry matches the library (hall, narrator, dictionary card, Leitner, Option B free shelves)', () {
     final lib = [for (final g in UserGuide.groups) ...g.$3].firstWhere((e) => e.route == '/library');
-    for (final w in ['front desk', 'sections', 'level-coloured shelves', 'Any book can be opened', 'narrator', 'dictionary card', 'Add to Leitner', 'new words', 'search']) {
+    for (final w in ['front desk', 'sections', 'level-coloured shelves', 'A1 and A2 shelves stay free', 'first book of every section', 'narrator', 'dictionary card', 'Add to Leitner', 'new words', 'search']) {
       expect('${lib.what} ${lib.how}'.contains(w), isTrue, reason: w);
     }
     for (final w in ['راوی', 'دیکشنری', 'لایتنر', 'میز امانت']) {
@@ -73,7 +73,7 @@ void main() {
     // Premium-only parts in a paid build: certificates; partly free: course, Life in the UK, theory.
     GuideAccess of(String r) => all.firstWhere((e) => e.route == r).access;
     expect(of('/certificate/1'), GuideAccess.premium);
-    for (final r in ['/course', '/lifeuk', '/theory']) {
+    for (final r in ['/course', '/lifeuk', '/theory', '/library']) {
       expect(of(r), GuideAccess.mixed);
     }
     for (final r in ['/arrival', '/forms', '/visa', '/settlement', '/coach', '/leitner', '/check']) {

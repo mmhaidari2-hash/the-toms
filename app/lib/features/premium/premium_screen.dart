@@ -36,6 +36,10 @@ abstract final class PaywallCopy {
       'صدای آفلاین بخشی از اشتراک ویژه است. درس‌ها به‌صورت آنلاین رایگان پخش می‌شوند و دانلود بستهٔ ورود و اضطراری همیشه رایگان است.',
     ),
     'cert': ('You earned this certificate. Premium lets you add your name and share it.', 'این گواهی را به دست آوردید. با اشتراک ویژه می‌توانید نامتان را رویش بنویسید و آن را به اشتراک بگذارید.'),
+    'library': (
+      'A1 and A2 shelves, and the first book of every section, stay free. Premium unlocks the rest of the Library. A book you have already started stays open.',
+      'قفسه‌های A1 و A2، و نخستین کتاب هر بخش، رایگان می‌مانند. اشتراک ویژه بقیهٔ کتابخانه را باز می‌کند. کتابی که شروع کرده‌ای باز می‌ماند.',
+    ),
   };
 
   static const terms =

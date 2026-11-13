@@ -647,9 +647,11 @@ class _Spine extends ConsumerWidget {
     final w = (24 + book.chapters.length * 3.0 + book.words / 600).clamp(26.0, 48.0);
     final ht = 112.0 + h % 22;
     final col = _spineCols[h % _spineCols.length];
+    final all = ref.watch(libraryProvider).value ?? const <Book>[];
+    final locked = all.isNotEmpty && LibraryGate.isPremiumLocked(ref.read(progressProvider.notifier), book, all);
     return Semantics(
       button: true,
-      label: '${book.title}, ${book.level}, ${book.minutes} minutes${done ? ', finished' : ''}',
+      label: '${book.title}, ${book.level}, ${book.minutes} minutes${done ? ', finished' : ''}${locked ? ', Premium' : ''}',
       child: GestureDetector(
         key: ValueKey('book-${book.id}'),
         onTap: () => showBookPullOut(context, ref, book),
@@ -665,7 +667,16 @@ class _Spine extends ConsumerWidget {
               boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: .35), blurRadius: 2, offset: const Offset(1, 1))],
             ),
             child: Column(children: [
-              Container(height: 5, margin: const EdgeInsets.only(top: 8), color: const Color(0xFFD4B26A).withValues(alpha: .8)),
+              if (locked)
+                Container(
+                  key: ValueKey('lock-${book.id}'),
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(vertical: 2),
+                  decoration: const BoxDecoration(color: Color(0xFFC9A44A), borderRadius: BorderRadius.vertical(top: Radius.circular(3))),
+                  child: const Icon(Icons.lock_rounded, size: 9, color: Color(0xFF1A1630)),
+                )
+              else
+                Container(height: 5, margin: const EdgeInsets.only(top: 8), color: const Color(0xFFD4B26A).withValues(alpha: .8)),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 6),
@@ -723,6 +734,8 @@ class _BookRow extends ConsumerWidget {
                   _LevelBadge(book.level),
                   Text(hl('${book.minutes} min · ${book.chapters.length} ch · ${Library.category(book.category).name}'), style: const TextStyle(fontSize: 11.5, color: BL.muted, fontWeight: FontWeight.w700)),
                   if (above) Text(hl('Above your level · بالاتر از سطح تو'), style: const TextStyle(fontSize: 11, color: BL.red, fontWeight: FontWeight.w700)),
+                  if (LibraryGate.isPremiumLocked(ctrl, book, ref.watch(libraryProvider).value ?? const <Book>[]))
+                    Text(key: ValueKey('row-lock-${book.id}'), hl('${LibraryGate.premiumRibbon.$1} · ${LibraryGate.premiumRibbon.$2}'), style: const TextStyle(fontSize: 11, color: Color(0xFF8C6A2F), fontWeight: FontWeight.w800)),
                 ]),
                 if (pct > 0) ...[
                   const SizedBox(height: 6),
@@ -843,6 +856,8 @@ class _PullOut extends ConsumerWidget {
     final pos = ctrl.readPos(b.id);
     final started = ctrl.bookStarted(b), done = ctrl.bookDone(b.id);
     final pct = ctrl.readPercent(b);
+    final all = ref.watch(libraryProvider).value ?? const <Book>[];
+    final locked = all.isNotEmpty && LibraryGate.isPremiumLocked(ctrl, b, all);
     final media = MediaQuery.sizeOf(context);
     return SafeArea(
       child: Center(
@@ -900,6 +915,22 @@ class _PullOut extends ConsumerWidget {
                 ],
                 const SizedBox(height: 10),
                 NewWordsCard(book: b),
+                if (locked) ...[
+                  Text(key: const ValueKey('premium-notice'), hl(LibraryGate.premiumNotice.$1), style: const TextStyle(fontSize: 13, height: 1.35, fontWeight: FontWeight.w600, color: BL.ink)),
+                  const SizedBox(height: 6),
+                  Text(hl(LibraryGate.premiumNotice.$2), textDirection: helperDir, style: BL.fa(13)),
+                  const SizedBox(height: 12),
+                  FilledButton.icon(
+                    key: const ValueKey('premium-cta'),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      context.push('/premium?reason=library');
+                    },
+                    style: FilledButton.styleFrom(backgroundColor: const Color(0xFFC9A44A), foregroundColor: const Color(0xFF1A1630), padding: const EdgeInsets.symmetric(vertical: 14), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+                    icon: const Icon(Icons.lock_rounded),
+                    label: Text(hl('${LibraryGate.premiumRibbon.$1} · ${LibraryGate.premiumRibbon.$2}'), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 15)),
+                  ),
+                ] else ...[
                 FilledButton.icon(
                   key: const ValueKey('book-read'),
                   onPressed: () {
@@ -929,6 +960,7 @@ class _PullOut extends ConsumerWidget {
                       context.push('/read/${b.id}?ch=$i');
                     },
                   ),
+                ],
                 if (b.source.isNotEmpty) Text(hl('Source: ${b.source}'), key: const ValueKey('book-source'), style: const TextStyle(fontSize: 10.5, color: BL.muted)),
               ]),
             ),

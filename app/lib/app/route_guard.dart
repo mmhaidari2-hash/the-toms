@@ -5,6 +5,8 @@ import 'package:go_router/go_router.dart';
 import '../core/data/providers.dart';
 import '../core/models/course.dart';
 import '../features/shared/nav.dart';
+import '../features/library/library_data.dart';
+import '../features/library/library_gate.dart';
 
 /// Central entitlement guard for every content route (monetisation Option B, hardened t300/t301).
 ///
@@ -24,7 +26,7 @@ abstract final class RouteGuard {
 
 /// Where [uri] must go instead, or null when it may open. Spends today's free lesson when a story or practice of a
 /// new lesson outside the free zone actually starts (idempotent per lesson).
-String? guardLocation(Uri uri, ProgressController ctrl, Course? c) {
+String? guardLocation(Uri uri, ProgressController ctrl, Course? c, {List<Book>? books}) {
   if (!ctrl.sellsContent) return null;
   final seg = uri.pathSegments;
   if (seg.isEmpty) return null;
@@ -71,6 +73,11 @@ String? guardLocation(Uri uri, ProgressController ctrl, Course? c) {
       return ctrl.examChapterOpen(exam, seg[1] == free ? 0 : 1) ? null : '/premium?pack=$exam&reason=exam';
     case 'driving' when seg.length == 2:
       return ctrl.drivingLessonOpen(seg[1] == RouteGuard.drivingFree ? 0 : 1) ? null : '/premium?pack=theory&reason=exam';
+    case 'read' when seg.length == 2:
+      if (books == null) return null; // GuardGate waits until the library has loaded
+      final b = books.where((x) => x.id == seg[1]).firstOrNull;
+      if (b == null) return null;
+      return LibraryGate.isPremiumLocked(ctrl, b, books) ? '/premium?reason=library' : null;
   }
   return null;
 }
@@ -94,7 +101,12 @@ class _GuardGateState extends ConsumerState<GuardGate> {
       if (ctrl.sellsContent) {
         final c = ref.watch(contentProvider).value;
         if (c == null) return const NavLoading();
-        final to = guardLocation(widget.uri, ctrl, c.course);
+        List<Book>? books;
+        if (widget.uri.pathSegments.isNotEmpty && widget.uri.pathSegments.first == 'read') {
+          books = ref.watch(libraryProvider).value;
+          if (books == null) return const NavLoading();
+        }
+        final to = guardLocation(widget.uri, ctrl, c.course, books: books);
         if (to != null) {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             if (mounted) context.go(to);

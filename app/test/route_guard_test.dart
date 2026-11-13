@@ -12,6 +12,7 @@ import 'package:british_life/core/data/providers.dart';
 import 'package:british_life/core/models/course.dart';
 import 'package:british_life/core/models/learner_profile.dart';
 import 'package:british_life/core/models/user_progress.dart';
+import 'package:british_life/features/library/library_data.dart';
 import 'package:british_life/features/premium/premium_screen.dart';
 import 'package:british_life/features/shared/nav.dart';
 import 'package:flutter/material.dart';
@@ -23,6 +24,7 @@ import 'package:flutter_test/flutter_test.dart';
 /// Every case runs with PremiumConfig.betaFree = false; shipped builds keep betaFree = true.
 void main() {
   final course = Course.fromJson(jsonDecode(File('assets/data/course.json').readAsStringSync()));
+  final books = Library.parse(File('assets/data/library.json').readAsStringSync());
   Unit unit(String id) => course.units.firstWhere((u) => u.id == id);
   final core = [for (var i = 1; i <= 10; i++) ...unit('U$i').lessons];
   final u51 = unit('U51').lessons;
@@ -61,12 +63,12 @@ void main() {
     return (c.read(progressProvider.notifier), c, a);
   }
 
-  String? guard(ProgressController c, String path) => guardLocation(Uri.parse(path), c, course);
+  String? guard(ProgressController c, String path) => guardLocation(Uri.parse(path), c, course, books: books);
 
   group('central route guard (betaFree = false)', () {
     test('betaFree = true: nothing is redirected', () {
       final (c, _, _) = ctrlWith();
-      for (final r in ['/lesson/${u51[1].id}', '/chat/${u51[1].sceneIds.first}', '/lifeuk/mock', '/theory/speed', '/driving/petrol', '/practice/U51']) {
+      for (final r in ['/lesson/${u51[1].id}', '/chat/${u51[1].sceneIds.first}', '/lifeuk/mock', '/theory/speed', '/driving/petrol', '/practice/U51', '/library', '/read/b1_flood']) {
         expect(guard(c, r), isNull, reason: r);
       }
     });
@@ -138,6 +140,14 @@ void main() {
         expect(guard(c, '/lesson/${nur.lessons.elementAt(1).id}'), isNull);
       });
     }
+
+    test('library: A1/A2 and /library stay open; a later B1 book is sent to the paywall', () {
+      PremiumConfig.betaFree = false;
+      final (c, _, _) = ctrlWith();
+      expect(guard(c, '/library'), isNull);
+      expect(guard(c, '/read/a1_bus'), isNull);
+      expect(guard(c, '/read/b1_flood'), '/premium?reason=library');
+    });
 
     test('free first chapters / lesson in the guard match the data files', () {
       final luk = jsonDecode(File('assets/data/lifeuk.json').readAsStringSync()) as Map;

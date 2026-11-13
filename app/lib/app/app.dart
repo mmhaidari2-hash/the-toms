@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/billing/offline_voices.dart';
 import '../core/data/providers.dart';
+import '../features/library/library_data.dart';
 import '../core/i18n/helper_text.dart';
 import '../core/models/user_progress.dart';
 
@@ -75,7 +76,7 @@ class _HelperLangScopeState extends ConsumerState<HelperLangScope> {
       return ctx == null ? false : showMicRationale(ctx);
     };
     // Central route guard (every navigation and deep link) with live progress and content.
-    RouteGuard.check = (uri) => mounted ? guardLocation(uri, ref.read(progressProvider.notifier), ref.read(contentProvider).value?.course) : null;
+    RouteGuard.check = (uri) => mounted ? guardLocation(uri, ref.read(progressProvider.notifier), ref.read(contentProvider).value?.course, books: ref.read(libraryProvider).value) : null;
   }
 
   void _rebuildAll(Element e) {

@@ -43,6 +43,7 @@ class PremiumConfig {
     ('Units 1–10 and the first unit of every level', 'واحدهای ۱ تا ۱۰ و واحد اول هر سطح'),
     ('Then one new lesson every day, and reviewing lessons you finished', 'بعد از آن روزی یک درس جدید، و مرور درس‌های تمام‌شده'),
     ('Online audio, Leitner and the pronunciation coach', 'صدای آنلاین، لایتنر و مربی تلفظ'),
+    ('Library: A1 and A2 shelves, and the first book of every section', 'کتابخانه: قفسه‌های A1 و A2، و نخستین کتاب هر بخش'),
   ];
   static String price(double v) => '$currency${v.toStringAsFixed(2)}';
   /// Yearly saving against twelve monthly payments, in whole percent (placeholders only).
@@ -55,6 +56,7 @@ class PremiumConfig {
     ('Certificates for every level (not an official qualification)', 'گواهی پایان هر سطح (مدرک رسمی نیست)'),
     ('Every Career Pack (Nursery, Homes and more to come)', 'همهٔ بسته‌های شغلی (مهدکودک، املاک و بسته‌های بعدی)'),
     ('All Life in the UK and Theory test practice and mock tests', 'همهٔ تمرین‌ها و آزمون‌های آزمایشی Life in the UK و تئوری رانندگی'),
+    ('The rest of the Library (B1–C1 books after the first in each section)', 'بقیهٔ کتابخانه (کتاب‌های B1 تا C1 بعد از نخستین کتاب هر بخش)'),
   ];
 
   /// Certificates are not a qualification (shown on the paywall and on every certificate).

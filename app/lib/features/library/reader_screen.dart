@@ -20,7 +20,7 @@ import 'reading_state.dart';
 import 'word_card.dart';
 import '../grammar/grammar_data.dart';
 
-/// The reader. Any book opens (a book above the learner's level shows a notice, never a lock).
+/// The reader. A book above the learner's level shows a notice, never a level lock. A Premium-locked book (Option B, only when the paywall is on) is sent to the paywall.
 /// Resumes at the exact sentence; narrator reads the chapter or the whole book with sentence + word highlight
 /// (recorded British clips where they exist, otherwise the device's own voice, labelled); every word opens a
 /// dictionary card (Persian, part of speech, English definition, example, pronunciation, Leitner); long-press
@@ -47,6 +47,27 @@ class ReaderScreen extends ConsumerWidget {
     }
     final ctrl = ref.read(progressProvider.notifier);
     final gate = LibraryGate(ctrl, content, topics, books, unlockAll: ref.read(progressProvider).gatesOpen);
+    if (gate.premiumLocked(b)) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (context.mounted) context.go('/premium?reason=library');
+      });
+      return Scaffold(
+        key: const ValueKey('book-locked'),
+        backgroundColor: BL.cream,
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              Text(hl(LibraryGate.premiumNotice.$1), textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16, height: 1.35)),
+              const SizedBox(height: 8),
+              Text(hl(LibraryGate.premiumNotice.$2), textAlign: TextAlign.center, textDirection: helperDir, style: BL.fa(15)),
+              const SizedBox(height: 16),
+              FilledButton(onPressed: () => context.go('/premium?reason=library'), child: Text(hl('${LibraryGate.premiumRibbon.$1} · ${LibraryGate.premiumRibbon.$2}'))),
+            ]),
+          ),
+        ),
+      );
+    }
     final pos = ctrl.readPos(b.id);
     final ch = (chapter ?? pos?.$1 ?? 0).clamp(0, b.chapters.length - 1);
     final start = pos != null && pos.$1 == ch ? pos.$2.clamp(0, b.chapters[ch].sentences.length - 1) : 0;
