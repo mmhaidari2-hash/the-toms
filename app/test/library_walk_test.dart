@@ -172,6 +172,21 @@ void main() {
     expect(t.takeException(), isNull);
   }
 
+  Future<void> writePreview(WidgetTester t, String path) async {
+    try {
+      final ro = screenBoundaryKey.currentContext?.findRenderObject();
+      if (ro is RenderRepaintBoundary) {
+        final img = await t.runAsync(() => ro.toImage(pixelRatio: 1.5));
+        if (img != null) {
+          final bd = await t.runAsync(
+            () => img.toByteData(format: ui.ImageByteFormat.png),
+          );
+          if (bd != null) File(path).writeAsBytesSync(bd.buffer.asUint8List());
+        }
+      }
+    } catch (_) {}
+  }
+
   for (final size in [
     const Size(375, 667),
     const Size(390, 844),
@@ -181,132 +196,62 @@ void main() {
       'no overflow walking the library at ${size.width}x${size.height}',
       (t) async {
         await openLibrary(t, size);
-        expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
-        expect(find.byKey(const ValueKey('aisle-map')), findsOneWidget);
-        await _tapSign(t, 'science');
-        await _settle(t);
+        expect(find.byKey(const ValueKey('library-street')), findsOneWidget);
         expect(
-          t.takeException(),
-          isNull,
-          reason: 'after walking to science at $size',
-        );
-        expect(find.byKey(const ValueKey('aisle-science')), findsWidgets);
-        await t.scrollUntilVisible(
-          find.byKey(const ValueKey('book-a1_animals')),
-          240,
-          scrollable: _libraryScroll(t, size),
-        );
-        await t.pump(const Duration(milliseconds: 300));
-        await t.tap(find.byKey(const ValueKey('book-a1_animals')));
-        for (var i = 0; i < 6; i++) {
-          await t.pump(const Duration(milliseconds: 200));
-        }
-        expect(
-          find.byKey(const ValueKey('booksheet-a1_animals')),
+          find.byKey(const ValueKey('library-facade-art')),
           findsOneWidget,
         );
-        expect(t.takeException(), isNull, reason: 'pull-out at $size');
+        await t.tap(find.byKey(const ValueKey('library-enter')));
+        await _settle(t);
+        expect(find.byKey(const ValueKey('library-hall')), findsOneWidget);
+        expect(find.byKey(const ValueKey('library-hall-art')), findsOneWidget);
+        expect(t.takeException(), isNull, reason: 'after walking in at $size');
+        await t.tap(find.byKey(const ValueKey('walk-forward')));
+        await _settle(t);
+        expect(find.byKey(const ValueKey('aisle-fiction')), findsWidgets);
+        await t.tap(find.byKey(const ValueKey('walk-right')));
+        await _settle(t);
+        expect(find.byKey(const ValueKey('aisle-children')), findsWidgets);
+        await t.tap(find.byKey(const ValueKey('aisle-shelves')));
+        await _settle(t);
+        expect(find.byKey(const ValueKey('shelf-panel')), findsOneWidget);
+        expect(t.takeException(), isNull, reason: 'shelves at $size');
       },
     );
   }
 
   testWidgets(
-    'reduced motion still opens the book without the 3D drawer animation',
-    (t) async {
-      await openLibrary(t, const Size(375, 667), reduceMotion: true);
-      await _tapSign(t, 'children');
-      await _settle(t);
-      final childrenScroll = find.byKey(
-        const ValueKey('aisle-scroll-children'),
-      );
-      final scrollable = childrenScroll.evaluate().isNotEmpty
-          ? find
-                .descendant(
-                  of: childrenScroll,
-                  matching: find.byType(Scrollable),
-                )
-                .first
-          : find
-                .descendant(
-                  of: find.byKey(const ValueKey('library-list')),
-                  matching: find.byType(Scrollable),
-                )
-                .first;
-      await t.scrollUntilVisible(
-        find.byKey(const ValueKey('book-a1_bus')),
-        300,
-        scrollable: scrollable,
-      );
-      await t.pump(const Duration(milliseconds: 100));
-      await t.tap(find.byKey(const ValueKey('book-a1_bus')));
-      await t.pump(); // zero-duration transition should already show the sheet
-      expect(find.byKey(const ValueKey('booksheet-a1_bus')), findsOneWidget);
-      expect(t.takeException(), isNull);
-    },
-  );
-
-  testWidgets('large text does not overflow the library at 375x667', (t) async {
-    await openLibrary(t, const Size(375, 667), textScale: 1.5);
-    expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
-    await _tapSign(t, 'reference');
-    await _settle(t);
-    expect(t.takeException(), isNull);
-  });
-
-  testWidgets('facade and hall illustrations are on the walk-in path', (
-    t,
-  ) async {
-    await openLibrary(t, const Size(390, 844));
-    expect(find.byKey(const ValueKey('library-facade-art')), findsOneWidget);
-    expect(find.byKey(const ValueKey('library-hall-art')), findsOneWidget);
-    expect(t.takeException(), isNull);
-  });
-
-  testWidgets('aisle signs expose EN+FA semantics labels', (t) async {
-    await openLibrary(t, const Size(390, 844));
-    await _tapSign(t, 'science', tap: false);
-    final science = t.getSemantics(find.byKey(const ValueKey('sign-science')));
-    expect(science.label, contains('Science'));
-    expect(science.label, contains('علم'));
-    expect(science.flagsCollection.isButton, isTrue);
-  });
-
-  testWidgets(
-    'left/right/enter buttons walk aisles and open a book on a phone',
+    'arrows and swipe walk hall to aisle and open a book on a phone',
     (t) async {
       await openLibrary(t, const Size(390, 844));
-      expect(find.byKey(const ValueKey('library-enter')), findsOneWidget);
-      await t.tap(find.byKey(const ValueKey('library-enter')));
+      expect(find.byKey(const ValueKey('walk-forward')), findsOneWidget);
+      expect(find.byKey(const ValueKey('walk-back')), findsOneWidget);
+      expect(find.byKey(const ValueKey('walk-left')), findsOneWidget);
+      expect(find.byKey(const ValueKey('walk-right')), findsOneWidget);
+
+      await t.tap(find.byKey(const ValueKey('walk-forward')));
+      await _settle(t);
+      expect(find.byKey(const ValueKey('library-hall')), findsOneWidget);
+      expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
+      await writePreview(t, '/workspace/library_interior_preview.png');
+
+      await t.tap(find.byKey(const ValueKey('walk-forward')));
       await _settle(t);
       expect(find.byKey(const ValueKey('aisle-fiction')), findsWidgets);
-      expect(find.byKey(const ValueKey('aisle-prev')), findsOneWidget);
-      expect(find.byKey(const ValueKey('aisle-next')), findsOneWidget);
-      expect(find.byKey(const ValueKey('aisle-enter')), findsOneWidget);
+      expect(find.byKey(const ValueKey('library-aisle-art')), findsOneWidget);
+      await writePreview(t, '/workspace/library_aisle_preview.png');
 
-      await t.tap(find.byKey(const ValueKey('aisle-next')));
+      await t.tap(find.byKey(const ValueKey('walk-right')));
       await _settle(t);
       expect(find.byKey(const ValueKey('aisle-children')), findsWidgets);
 
-      await t.tap(find.byKey(const ValueKey('aisle-prev')));
+      await t.tap(find.byKey(const ValueKey('walk-left')));
       await _settle(t);
       expect(find.byKey(const ValueKey('aisle-fiction')), findsWidgets);
 
-      try {
-        final ro = screenBoundaryKey.currentContext?.findRenderObject();
-        if (ro is RenderRepaintBoundary) {
-          final img = await t.runAsync(() => ro.toImage(pixelRatio: 1.5));
-          if (img != null) {
-            final bd = await t.runAsync(
-              () => img.toByteData(format: ui.ImageByteFormat.png),
-            );
-            if (bd != null) {
-              File('/workspace/library_walk_preview.png')
-                  .writeAsBytesSync(bd.buffer.asUint8List());
-            }
-          }
-        }
-      } catch (_) {}
-
+      await t.tap(find.byKey(const ValueKey('aisle-shelves')));
+      await _settle(t);
+      expect(find.byKey(const ValueKey('shelf-panel')), findsOneWidget);
       await t.tap(find.byKey(const ValueKey('aisle-enter')));
       for (var i = 0; i < 8; i++) {
         await t.pump(const Duration(milliseconds: 200));
@@ -318,37 +263,45 @@ void main() {
       expect(t.takeException(), isNull);
     },
   );
-}
 
-/// Bring an aisle sign on-screen (vertical then horizontal) and optionally tap it.
-Future<void> _tapSign(WidgetTester t, String id, {bool tap = true}) async {
-  final map = find.byKey(const ValueKey('aisle-map'), skipOffstage: false);
-  await t.ensureVisible(map);
-  await t.pump(const Duration(milliseconds: 300));
-  final sign = find.byKey(ValueKey('sign-$id'), skipOffstage: false);
-  final signsScroll = find
-      .descendant(
-        of: find.byKey(const ValueKey('aisle-map')),
-        matching: find.byType(Scrollable),
-      )
-      .first;
-  await t.scrollUntilVisible(sign, 200, scrollable: signsScroll);
-  await t.pump(const Duration(milliseconds: 200));
-  if (tap) await t.tap(find.byKey(ValueKey('sign-$id')));
-}
+  testWidgets(
+    'reduced motion still opens the book without the 3D drawer animation',
+    (t) async {
+      await openLibrary(t, const Size(375, 667), reduceMotion: true);
+      await t.tap(find.byKey(const ValueKey('walk-forward')));
+      await _settle(t);
+      await t.tap(find.byKey(const ValueKey('walk-forward')));
+      await _settle(t);
+      await t.tap(find.byKey(const ValueKey('walk-right'))); // children
+      await _settle(t);
+      await t.tap(find.byKey(const ValueKey('aisle-shelves')));
+      await _settle(t);
+      await t.tap(find.byKey(const ValueKey('book-a1_bus')));
+      await t.pump();
+      expect(find.byKey(const ValueKey('booksheet-a1_bus')), findsOneWidget);
+      expect(t.takeException(), isNull);
+    },
+  );
 
-Finder _libraryScroll(WidgetTester t, Size size) {
-  // The bookcase is capped to the phone viewport, so shelves often scroll inside the aisle.
-  final inner = find.byKey(const ValueKey('aisle-scroll-science'));
-  if (inner.evaluate().isNotEmpty) {
-    return find.descendant(of: inner, matching: find.byType(Scrollable)).first;
-  }
-  return find
-      .descendant(
-        of: find.byKey(const ValueKey('library-list')),
-        matching: find.byType(Scrollable),
-      )
-      .first;
+  testWidgets('large text does not overflow the library at 375x667', (t) async {
+    await openLibrary(t, const Size(375, 667), textScale: 1.5);
+    await t.tap(find.byKey(const ValueKey('library-enter')));
+    await _settle(t);
+    await t.tap(find.byKey(const ValueKey('walk-forward')));
+    await _settle(t);
+    expect(t.takeException(), isNull);
+  });
+
+  testWidgets('facade and hall illustrations are on the walk-in path', (
+    t,
+  ) async {
+    await openLibrary(t, const Size(390, 844));
+    expect(find.byKey(const ValueKey('library-facade-art')), findsOneWidget);
+    await t.tap(find.byKey(const ValueKey('library-enter')));
+    await _settle(t);
+    expect(find.byKey(const ValueKey('library-hall-art')), findsOneWidget);
+    expect(t.takeException(), isNull);
+  });
 }
 
 Future<void> _settle(WidgetTester t) async {

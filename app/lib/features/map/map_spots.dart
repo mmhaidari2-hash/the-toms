@@ -146,12 +146,6 @@ class SpotMarker extends StatelessWidget {
 
   /// Career-pack buildings: the level they open at ("A2"), shown as a badge while the building is still locked.
   final String? levelTag;
-
-  /// When false, only the orb is shown (dense street names appear on zoom).
-  final bool showLabel;
-
-  /// Counter-scale for the name chip so a feature place stays readable at fit.
-  final double labelScale;
   const SpotMarker({
     super.key,
     required this.s,
@@ -159,8 +153,6 @@ class SpotMarker extends StatelessWidget {
     this.visited = false,
     this.focus = false,
     this.levelTag,
-    this.showLabel = true,
-    this.labelScale = 1,
     required this.onTap,
   });
   static const width = 100.0;
@@ -305,53 +297,41 @@ class SpotMarker extends StatelessWidget {
               ),
             ),
           ),
-          if (showLabel) ...[
-            const SizedBox(height: 3),
-            // Frosted-glass label (faux frost: translucent gradient + hairline, no per-label blur so phones stay fast).
-            IgnorePointer(
-              child: Transform.scale(
-                scale: labelScale,
-                alignment: Alignment.topCenter,
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 7,
-                    vertical: 3,
+          const SizedBox(height: 3),
+          // Frosted-glass label (faux frost: translucent gradient + hairline, no per-label blur so phones stay fast).
+          IgnorePointer(
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(9),
+                gradient: const LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [Color(0xC72E241D), Color(0xE0140E0A)],
+                ),
+                border: Border.all(color: const Color(0x40FFFFFF), width: .7),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x40000000),
+                    blurRadius: 4,
+                    offset: Offset(0, 2),
                   ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(9),
-                    gradient: const LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [Color(0xC72E241D), Color(0xE0140E0A)],
-                    ),
-                    border: Border.all(
-                      color: const Color(0x40FFFFFF),
-                      width: .7,
-                    ),
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Color(0x40000000),
-                        blurRadius: 4,
-                        offset: Offset(0, 2),
-                      ),
-                    ],
-                  ),
-                  child: Text(
-                    hl(label(s.title)),
-                    maxLines: 2,
-                    softWrap: true,
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 10,
-                      height: 1.15,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
+                ],
+              ),
+              child: Text(
+                hl(label(s.title)),
+                maxLines: 2,
+                softWrap: true,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 10,
+                  height: 1.15,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
             ),
-          ],
+          ),
         ],
       ),
     ),

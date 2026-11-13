@@ -43,27 +43,12 @@ class MapRegion {
 const mapImage = 'assets/places/map.webp';
 const mapAspect = 1280 / 720;
 
-/// Pinch-zoom numbers for the town map. The painted map is still sized to the
-/// pre-t340 height-fill frame (body height × 16:9). On open, the scale is the
-/// fit that shows the whole town in the viewport; pinch / double-tap still go
-/// up to 3× that height-fill size.
+/// Pinch-zoom numbers for the town map. Default scale is 1, so the map still
+/// fills the body height and overflows the width exactly as it did before zoom.
 class TownMapZoom {
-  /// Height-fill scale (the pre-t340 default size of the painting).
-  static const fillScale = 1.0;
+  static const minScale = 1.0;
   static const maxScale = 3.0;
   static const doubleTapScale = 2.0;
-
-  /// Scale at which dense street labels are shown (they appear on zoom).
-  static const labelsAppearAt = 0.9;
-
-  /// Largest scale that still shows the whole painting in [view].
-  static double fitScale(Size view, Size child) {
-    if (child.width <= 0 || child.height <= 0) return fillScale;
-    final sx = view.width / child.width;
-    final sy = view.height / child.height;
-    final fit = sx < sy ? sx : sy;
-    return fit.clamp(0.15, fillScale);
-  }
 
   static Matrix4 clamped(
     double scale,
@@ -71,7 +56,7 @@ class TownMapZoom {
     Size view,
     Size child,
   ) {
-    final s = scale.clamp(fitScale(view, child), maxScale);
+    final s = scale.clamp(minScale, maxScale);
     final minX = view.width - child.width * s;
     final minY = view.height - child.height * s;
     const maxX = 0.0;
@@ -175,7 +160,7 @@ class _MapHomeState extends ConsumerState<MapHome>
     with TickerProviderStateMixin {
   final _transform = TransformationController();
   AnimationController? _zoomAnim;
-  bool _framed = false, _celebrating = false;
+  bool _centred = false, _celebrating = false;
   Size? _lastView;
   Offset? _doubleTapAt;
 
@@ -210,31 +195,25 @@ class _MapHomeState extends ConsumerState<MapHome>
     });
   }
 
-  void _frameToFit({required Size view, required Size child}) {
-    if (_lastView == view && _framed) return;
+  void _centerOnLevel({
+    required Size view,
+    required Size child,
+    required Offset pin,
+  }) {
+    if (_lastView == view && _centred) return;
     _lastView = view;
-    _framed = true;
-    // Set immediately so the first frame already shows the whole town
-    // (a post-frame jump would flash the old height-fill crop).
-    _transform.value = TownMapZoom.clamped(
-      TownMapZoom.fitScale(view, child),
-      Offset.zero,
-      view,
-      child,
-    );
-  }
-
-  void _clampTransform(Size view, Size child) {
-    final m = _transform.value;
-    final s = m.getMaxScaleOnAxis();
-    final tx = m.storage[12];
-    final ty = m.storage[13];
-    final dest = TownMapZoom.clamped(s, Offset(tx, ty), view, child);
-    if (dest.storage[12] != tx ||
-        dest.storage[13] != ty ||
-        dest.getMaxScaleOnAxis() != s) {
-      _transform.value = dest;
-    }
+    _centred = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      // Same default framing as the old horizontal scroll: centre the current
+      // district, keep ty = 0 so the painted map fills the body height.
+      _transform.value = TownMapZoom.clamped(
+        TownMapZoom.minScale,
+        Offset(view.width / 2 - pin.dx * child.width, 0),
+        view,
+        child,
+      );
+    });
   }
 
   void _onDoubleTap(Offset viewPoint, Size view, Size child) {
@@ -242,10 +221,9 @@ class _MapHomeState extends ConsumerState<MapHome>
     final current = _transform.value;
     final scale = current.getMaxScaleOnAxis();
     final destScale =
-        scale <
-            (TownMapZoom.fitScale(view, child) + TownMapZoom.doubleTapScale) / 2
+        scale < (TownMapZoom.minScale + TownMapZoom.doubleTapScale) / 2
         ? TownMapZoom.doubleTapScale
-        : TownMapZoom.fitScale(view, child);
+        : TownMapZoom.minScale;
     final childPoint = MatrixUtils.transformPoint(
       Matrix4.inverted(current),
       viewPoint,
@@ -459,21 +437,10 @@ class _MapHomeState extends ConsumerState<MapHome>
           final h = box.maxHeight, w = h * mapAspect;
           final view = Size(box.maxWidth, box.maxHeight);
           final childSize = Size(w, h);
-          _frameToFit(view: view, child: childSize);
+          final here = mapRegions.firstWhere((r) => r.level == cur);
+          _centerOnLevel(view: view, child: childSize, pin: here.pin);
           return Stack(
             children: [
-              // Same painting, cover-fitted, so a zoomed-out map has no empty colour bands.
-              Positioned.fill(
-                child: IgnorePointer(
-                  child: ColorFiltered(
-                    colorFilter: const ColorFilter.mode(
-                      Color(0x662A2118),
-                      BlendMode.srcATop,
-                    ),
-                    child: Image.asset(mapImage, fit: BoxFit.cover),
-                  ),
-                ),
-              ),
               Positioned.fill(
                 child: GestureDetector(
                   behavior: HitTestBehavior.deferToChild,
@@ -487,14 +454,11 @@ class _MapHomeState extends ConsumerState<MapHome>
                     transformationController: _transform,
                     constrained: false,
                     alignment: Alignment.topLeft,
-                    minScale: TownMapZoom.fitScale(view, childSize),
+                    minScale: TownMapZoom.minScale,
                     maxScale: TownMapZoom.maxScale,
                     panEnabled: !_lensTouch,
                     scaleEnabled: !_lensTouch,
                     clipBehavior: Clip.hardEdge,
-                    onInteractionUpdate: (_) =>
-                        _clampTransform(view, childSize),
-                    onInteractionEnd: (_) => _clampTransform(view, childSize),
                     child: MouseRegion(
                       onHover: (e) {
                         if (e.kind == PointerDeviceKind.mouse) {
@@ -548,11 +512,7 @@ class _MapHomeState extends ConsumerState<MapHome>
                             clipBehavior: Clip.none,
                             children: [
                               Positioned.fill(
-                                child: Image.asset(
-                                  mapImage,
-                                  key: const ValueKey('map-art'),
-                                  fit: BoxFit.cover,
-                                ),
+                                child: Image.asset(mapImage, fit: BoxFit.cover),
                               ),
                               for (final r in mapRegions)
                                 for (final rc in r.rects)
@@ -612,107 +572,52 @@ class _MapHomeState extends ConsumerState<MapHome>
                                   ),
                                 ),
                               // The living town: every building / object opens the lessons set there.
-                              // Dense street names appear once the map is zoomed in; feature
-                              // places (Library, …) stay labelled and readable at fit scale.
-                              Positioned.fill(
-                                child: ListenableBuilder(
-                                  listenable: _transform,
-                                  builder: (context, _) {
-                                    final zoom = _transform.value
-                                        .getMaxScaleOnAxis();
-                                    final showAll =
-                                        zoom >= TownMapZoom.labelsAppearAt;
-                                    final labelBoost = showAll
-                                        ? 1.0
-                                        : (TownMapZoom.labelsAppearAt / zoom)
-                                              .clamp(1.0, 2.6);
-                                    return Stack(
-                                      clipBehavior: Clip.none,
-                                      children: [
-                                        for (final s in spots)
-                                          Positioned(
-                                            left:
-                                                s.x * w - SpotMarker.width / 2,
-                                            top: s.y * h - 22,
-                                            child: AnimatedScale(
-                                              scale: _lensScale(s, w, h),
-                                              duration: const Duration(
-                                                milliseconds: 160,
-                                              ),
-                                              curve: Curves.easeOutCubic,
-                                              alignment: const Alignment(
-                                                0,
-                                                -.45,
-                                              ),
-                                              child: SpotMarker(
-                                                s: s,
-                                                open:
-                                                    featureSpots.contains(
-                                                      s.id,
-                                                    ) ||
-                                                    spotLessons(
-                                                      c.course,
-                                                      s,
-                                                    ).any(
-                                                      (l) => ctrl.lessonOpen(
-                                                        c.course,
-                                                        l,
-                                                      ),
-                                                    ),
-                                                visited: spotLessons(
-                                                  c.course,
-                                                  s,
-                                                ).any(ctrl.lessonDone),
-                                                focus: spotFocus(
-                                                  ctrl,
-                                                  c.course,
-                                                  s,
-                                                ),
-                                                showLabel:
-                                                    showAll ||
-                                                    featureSpots.contains(s.id),
-                                                labelScale:
-                                                    featureSpots.contains(s.id)
-                                                    ? labelBoost
-                                                    : 1,
-                                                levelTag: s.pack == null
-                                                    ? null
-                                                    : spotLessons(c.course, s)
-                                                          .map(
-                                                            (l) => c.course
-                                                                .unitOf(l.id)
-                                                                ?.cefr,
-                                                          )
-                                                          .whereType<String>()
-                                                          .fold<String?>(
-                                                            null,
-                                                            (a, b) =>
-                                                                a == null ||
-                                                                    b.compareTo(
-                                                                          a,
-                                                                        ) <
-                                                                        0
-                                                                ? b
-                                                                : a,
-                                                          ),
-                                                onTap: () {
-                                                  ScaffoldMessenger.of(context)
-                                                      .hideCurrentSnackBar();
-                                                  showSpotSheet(
-                                                    context,
-                                                    ref,
-                                                    s,
-                                                    c,
-                                                  );
-                                                },
-                                              ),
-                                            ),
+                              for (final s in spots)
+                                Positioned(
+                                  left: s.x * w - SpotMarker.width / 2,
+                                  top: s.y * h - 22,
+                                  child: AnimatedScale(
+                                    scale: _lensScale(s, w, h),
+                                    duration: const Duration(milliseconds: 160),
+                                    curve: Curves.easeOutCubic,
+                                    alignment: const Alignment(0, -.45),
+                                    child: SpotMarker(
+                                      s: s,
+                                      open:
+                                          featureSpots.contains(s.id) ||
+                                          spotLessons(c.course, s).any(
+                                            (l) => ctrl.lessonOpen(c.course, l),
                                           ),
-                                      ],
-                                    );
-                                  },
+                                      visited: spotLessons(
+                                        c.course,
+                                        s,
+                                      ).any(ctrl.lessonDone),
+                                      focus: spotFocus(ctrl, c.course, s),
+                                      levelTag: s.pack == null
+                                          ? null
+                                          : spotLessons(c.course, s)
+                                                .map(
+                                                  (l) => c.course
+                                                      .unitOf(l.id)
+                                                      ?.cefr,
+                                                )
+                                                .whereType<String>()
+                                                .fold<String?>(
+                                                  null,
+                                                  (a, b) =>
+                                                      a == null ||
+                                                          b.compareTo(a) < 0
+                                                      ? b
+                                                      : a,
+                                                ),
+                                      onTap: () {
+                                        ScaffoldMessenger.of(context)
+                                            .hideCurrentSnackBar();
+                                        showSpotSheet(context, ref, s, c);
+                                      },
+                                    ),
+                                  ),
                                 ),
-                              ),
                             ],
                           ),
                         ),

@@ -181,9 +181,16 @@ void main() {
 
       router.go('/library');
       await settle();
+      expect(find.byKey(const ValueKey('library-street')), findsOneWidget);
+      await t.tap(find.byKey(const ValueKey('library-enter')));
+      await settle();
+      expect(find.byKey(const ValueKey('library-hall')), findsOneWidget);
       expect(find.byKey(const ValueKey('front-desk')), findsOneWidget);
-      expect(find.byKey(const ValueKey('aisle-map')), findsOneWidget);
-      await t.tap(find.byKey(const ValueKey('sign-children')));
+      await t.tap(find.byKey(const ValueKey('walk-forward')));
+      await settle();
+      await t.tap(find.byKey(const ValueKey('walk-right')));
+      await settle();
+      await t.tap(find.byKey(const ValueKey('aisle-shelves')));
       await settle();
       expect(find.byKey(const ValueKey('shelf-children-A1')), findsOneWidget);
       await t.scrollUntilVisible(find.byKey(const ValueKey('book-a1_bus')), 300, scrollable: find.descendant(of: find.byKey(const ValueKey('library-list')), matching: find.byType(Scrollable)).first);

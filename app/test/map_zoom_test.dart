@@ -94,18 +94,61 @@ InteractiveViewer _viewer(WidgetTester t) =>
 double _scale(WidgetTester t) =>
     _viewer(t).transformationController!.value.getMaxScaleOnAxis();
 
-({Size view, Size child, double fit}) _fitOf(WidgetTester t) {
-  final map = t.getRect(find.byKey(const ValueKey('map-scroll')));
-  final view = map.size;
-  final child = Size(view.height * mapAspect, view.height);
-  return (view: view, child: child, fit: TownMapZoom.fitScale(view, child));
-}
-
-/// Screen rectangle of the interactive painted map (not the cover-fit backdrop).
+/// Screen rectangle of the painted map image (map.webp).
 Rect _mapImageRect(WidgetTester t) {
-  final img = find.byKey(const ValueKey('map-art'));
+  final img = find.byWidgetPredicate(
+    (w) =>
+        w is Image &&
+        w.image is AssetImage &&
+        (w.image as AssetImage).assetName.contains('places/map'),
+  );
   expect(img, findsOneWidget, reason: 'painted town map is on screen');
   return t.getRect(img);
+}
+
+Future<void> _writePreview(WidgetTester t, String path) async {
+  try {
+    final ro = screenBoundaryKey.currentContext?.findRenderObject();
+    if (ro is RenderRepaintBoundary) {
+      final img = await t.runAsync(() => ro.toImage(pixelRatio: 1.5));
+      if (img != null) {
+        final bd = await t.runAsync(
+          () => img.toByteData(format: ui.ImageByteFormat.png),
+        );
+        if (bd != null) {
+          File(path).writeAsBytesSync(bd.buffer.asUint8List());
+        }
+      }
+    }
+  } catch (_) {}
+}
+
+void _expectDefaultFill(WidgetTester t, Size size) {
+  expect(_scale(t), closeTo(TownMapZoom.minScale, .02));
+  final painted = _mapImageRect(t);
+  final map = t.getRect(find.byKey(const ValueKey('map-scroll')));
+  expect(
+    painted.left,
+    lessThanOrEqualTo(map.left + 1),
+    reason: 'left gutter: ${painted.left}',
+  );
+  expect(
+    painted.right,
+    greaterThanOrEqualTo(map.right - 1),
+    reason: 'right gutter: ${painted.right}',
+  );
+  expect(
+    painted.top,
+    lessThanOrEqualTo(map.top + 1),
+    reason: 'top gap: ${painted.top}',
+  );
+  expect(
+    painted.bottom,
+    greaterThanOrEqualTo(map.bottom - 1),
+    reason: 'bottom gap: ${painted.bottom}',
+  );
+  expect(find.byKey(const ValueKey('spot-library')), findsOneWidget);
+  expect(find.text('Library'), findsWidgets);
 }
 
 void main() {
@@ -127,97 +170,54 @@ void main() {
     }
   });
 
-  test(
-    'TownMapZoom fit shows the whole town and clamp keeps side gutters away',
-    () {
-      const view = Size(412, 915);
-      final child = Size(view.height * mapAspect, view.height);
-      final fit = TownMapZoom.fitScale(view, child);
-      expect(fit, lessThan(TownMapZoom.fillScale));
-      expect(child.width * fit, closeTo(view.width, .01));
-      expect(child.height * fit, lessThanOrEqualTo(view.height));
-      final fitted = TownMapZoom.clamped(fit, Offset.zero, view, child);
-      expect(fitted.getMaxScaleOnAxis(), closeTo(fit, .001));
-      final imageLeft = fitted.getTranslation().x;
-      final imageRight = imageLeft + child.width * fit;
-      expect(
-        imageLeft,
-        closeTo(0, .5),
-        reason: 'no left gutter at fit: left=$imageLeft',
-      );
-      expect(
-        imageRight,
-        closeTo(view.width, .5),
-        reason: 'no right gutter at fit: right=$imageRight',
-      );
-
-      final fill = TownMapZoom.clamped(
-        TownMapZoom.fillScale,
-        Offset(view.width / 2 - 0.48 * child.width, 0),
-        view,
-        child,
-      );
-      expect(fill.getMaxScaleOnAxis(), closeTo(TownMapZoom.fillScale, .001));
-      final fillLeft = fill.getTranslation().x;
-      final fillRight = fillLeft + child.width;
-      expect(
-        fillLeft,
-        lessThanOrEqualTo(0.5),
-        reason: 'no left gutter at fill: left=$fillLeft',
-      );
-      expect(
-        fillRight,
-        greaterThanOrEqualTo(view.width - 0.5),
-        reason: 'no right gutter at fill: right=$fillRight',
-      );
-    },
-  );
+  test('TownMapZoom clamp keeps scale 1 from panning into a side gutter', () {
+    const view = Size(412, 915);
+    final child = Size(view.height * mapAspect, view.height);
+    final centred = TownMapZoom.clamped(
+      1,
+      Offset(view.width / 2 - 0.48 * child.width, 0),
+      view,
+      child,
+    );
+    expect(centred.getMaxScaleOnAxis(), closeTo(1, .001));
+    final imageLeft = centred.getTranslation().x;
+    final imageRight = imageLeft + child.width;
+    expect(
+      imageLeft,
+      lessThanOrEqualTo(0.5),
+      reason: 'no left gutter: left=$imageLeft',
+    );
+    expect(
+      imageRight,
+      greaterThanOrEqualTo(view.width - 0.5),
+      reason: 'no right gutter: right=$imageRight',
+    );
+  });
 
   for (final size in const [Size(412, 915), Size(360, 780)]) {
     testWidgets(
-      'on open the whole town fits, Library is labelled, at ${size.width.toInt()}x${size.height.toInt()}',
+      'default zoom fills the width, Library is labelled, at ${size.width.toInt()}x${size.height.toInt()}',
       (t) async {
         await _boot(t, size);
 
         expect(find.byType(InteractiveViewer), findsOneWidget);
-        final fit = _fitOf(t);
-        expect(
-          _scale(t),
-          closeTo(fit.fit, .02),
-          reason: 'initial scale should be fit-to-screen',
-        );
+        expect(_scale(t), closeTo(TownMapZoom.minScale, .02));
 
         final painted = _mapImageRect(t);
-        final map = t.getRect(find.byKey(const ValueKey('map-scroll')));
         expect(
           painted.left,
-          lessThanOrEqualTo(map.left + 1),
+          lessThanOrEqualTo(1),
           reason: 'left dark gutter: map starts at ${painted.left}',
         );
         expect(
           painted.right,
-          greaterThanOrEqualTo(map.right - 1),
+          greaterThanOrEqualTo(size.width - 1),
           reason:
-              'right dark gutter: map ends at ${painted.right} of ${map.right}',
-        );
-        expect(
-          painted.top,
-          greaterThanOrEqualTo(map.top - 1),
-          reason: 'top clipped: ${painted.top}',
-        );
-        expect(
-          painted.bottom,
-          lessThanOrEqualTo(map.bottom + 1),
-          reason: 'bottom clipped: ${painted.bottom}',
-        );
-        expect(
-          painted.width,
-          closeTo(map.width, 2),
-          reason: 'fitted map should fill the width',
+              'right dark gutter: map ends at ${painted.right} of ${size.width}',
         );
 
         expect(find.byKey(const ValueKey('spot-library')), findsOneWidget);
-        // Feature place names stay readable at fit (street names appear on zoom).
+        // The orb still carries the short English name, as it did before t340.
         expect(find.text('Library'), findsWidgets);
 
         if (size == const Size(412, 915)) {
@@ -230,7 +230,7 @@ void main() {
                   () => img.toByteData(format: ui.ImageByteFormat.png),
                 );
                 if (bd != null) {
-                  File('/workspace/map_fit_preview.png')
+                  File('/workspace/map_preview.png')
                       .writeAsBytesSync(bd.buffer.asUint8List());
                 }
               }
@@ -246,12 +246,11 @@ void main() {
   testWidgets('pinch and double-tap zoom the town map', (t) async {
     const size = Size(412, 915);
     await _boot(t, size);
-    final fit = _fitOf(t);
-    expect(_scale(t), closeTo(fit.fit, .02));
+    expect(_scale(t), closeTo(TownMapZoom.minScale, .02));
 
     final map = t.getRect(find.byKey(const ValueKey('map-scroll')));
-    await _pinch(t, map.center, startSpan: 70, endSpan: 200);
-    expect(_scale(t), greaterThan(fit.fit + 0.15));
+    await _pinch(t, map.center, startSpan: 70, endSpan: 160);
+    expect(_scale(t), greaterThan(1.15));
     expect(_scale(t), lessThanOrEqualTo(TownMapZoom.maxScale + .01));
 
     final targets = _spotOrbs().hitTestable();
@@ -266,12 +265,34 @@ void main() {
     }
 
     final at = map.center;
-    // From a mid / fit zoom, double-tap goes to 2x; from 2x it returns to fit.
-    if (_scale(t) < (fit.fit + TownMapZoom.doubleTapScale) / 2) {
+    // From a mid zoom, double-tap goes to 2x; from 2x it returns to 1x.
+    if (_scale(t) < (TownMapZoom.minScale + TownMapZoom.doubleTapScale) / 2) {
       await doubleTap(at);
     }
     expect(_scale(t), closeTo(TownMapZoom.doubleTapScale, .2));
     await doubleTap(at);
-    expect(_scale(t), closeTo(fit.fit, .15));
+    expect(_scale(t), closeTo(TownMapZoom.minScale, .15));
   });
+
+  testWidgets(
+    'at 390x844 the map fills the screen and pinch-out cannot shrink it',
+    (t) async {
+      const size = Size(390, 844);
+      await _boot(t, size);
+      _expectDefaultFill(t, size);
+      await _writePreview(t, '/workspace/map_default_preview.png');
+
+      final before = _scale(t);
+      final map = t.getRect(find.byKey(const ValueKey('map-scroll')));
+      await _pinch(t, map.center, startSpan: 180, endSpan: 50);
+      expect(
+        _scale(t),
+        closeTo(TownMapZoom.minScale, .02),
+        reason: 'pinch-out must not go below the full-screen default',
+      );
+      expect(_scale(t), closeTo(before, .02));
+      _expectDefaultFill(t, size);
+      await _writePreview(t, '/workspace/map_zoomout_attempt_preview.png');
+    },
+  );
 }
