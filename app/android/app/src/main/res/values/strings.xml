@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launcher name under the home-screen icon. "New Life UK" (11 chars) was
+         already in test-eff71583 as the application label, but Samsung/One UI
+         truncated it to "New Life …" (same as t331). "NewLife UK" keeps UK
+         visible. In-app titles stay "New Life UK". -->
+    <string name="app_name">NewLife UK</string>
+</resources>
