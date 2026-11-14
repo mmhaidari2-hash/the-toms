@@ -175,6 +175,61 @@ def index_page(lang: str, items: list[tuple[str, str, str]]) -> tuple[str, str]:
     return path, shell(lang, u["index_t"], u["index_d"], path, alt, body, ld)
 
 
+LIFE = {
+    "en": {"t": "Life in the UK test practice: {c} (free questions with answers)", "hub": "Free Life in the UK test practice, by topic",
+           "hubd": "Explanations, key facts and practice questions with answers for each part of the Life in the UK test, in English and Persian.",
+           "key": "Key facts", "qs": "Practice questions", "ans": "Answer", "src": "Official sources",
+           "about": "The test has {q} questions, you have {m} minutes, and you need {p}% to pass (at least {n} correct).",
+           "warn": "This is free practice made by New Life UK. It is not the official test or handbook and does not guarantee a pass. Study the official handbook and book the test only on GOV.UK."},
+    "fa": {"t": "تمرین آزمون Life in the UK به فارسی: {c} (سؤال رایگان با جواب)", "hub": "تمرین رایگان آزمون Life in the UK به فارسی، بخش به بخش",
+           "hubd": "توضیح، نکته‌های کلیدی و سؤال تمرینی با جواب برای هر بخش آزمون Life in the UK، به فارسی و انگلیسی.",
+           "key": "نکته‌های کلیدی", "qs": "سؤال‌های تمرینی", "ans": "جواب", "src": "منابع رسمی",
+           "about": "آزمون {q} سؤال دارد، {m} دقیقه وقت داری و برای قبولی {p}٪ لازم است (دست‌کم {n} جواب درست).",
+           "warn": "این تمرین رایگانِ New Life UK است. آزمون یا کتاب رسمی نیست و قبولی را تضمین نمی‌کند. کتاب رسمی را بخوان و آزمون را فقط از GOV.UK رزرو کن."},
+}
+
+
+def life_pages(lang: str) -> list[tuple[str, str, str]]:
+    d = json.loads((ROOT / "assets" / "assets" / "data" / "lifeuk.json").read_text(encoding="utf-8"))
+    L, u = LIFE[lang], UI[lang]
+    m = d.get("mock", {})
+    about = L["about"].format(q=m.get("questions", 24), m=m.get("minutes", 45), p=m.get("pass", 75),
+                              n=-(-m.get("questions", 24) * m.get("pass", 75) // 100))
+    other = "en" if lang == "fa" else "fa"
+    warn = f'<p class="lede" role="note"><strong>{e(L["warn"])}</strong></p>'
+    pages, items = [], []
+    for c in d["chapters"]:
+        cname = c.get("titleFa") if lang == "fa" else c["title"]
+        title = L["t"].format(c=cname)
+        tx = (lambda x, k="fa": x.get(k) or x.get("en", "")) if lang == "fa" else (lambda x, k="en": x.get("en", ""))
+        expl = "".join(f"<p>{mixed(tx(x)) if lang == 'fa' else e(tx(x))}</p>" for x in c.get("expl", []))
+        cards = "".join(f'<li><strong dir="ltr" lang="en">{e(k["front"])}</strong>: {e(k.get("fa") if lang == "fa" else k["back"])}</li>' for k in c.get("cards", []))
+        qs, faq = [], []
+        for q in c.get("qs", []):
+            qtext = q.get("fa") if lang == "fa" and q.get("fa") else q["q"]
+            right = q["options"][q["answer"]] if q.get("options") else ""
+            why = q.get("whyFa") if lang == "fa" and q.get("whyFa") else q.get("why", "")
+            opts = "".join(f'<li dir="ltr" lang="en">{e(o)}</li>' for o in q.get("options", []))
+            sub = f'<span dir="ltr" lang="en">{e(q["q"])}</span>' if lang == "fa" else ""
+            qs.append(f'<div class="turn"><p class="they">{e(qtext)}{sub}</p><ul class="opts">{opts}</ul>'
+                      f'<details><summary>{e(L["ans"])}</summary><p><strong dir="ltr" lang="en">{e(right)}</strong>. {mixed(why) if lang == "fa" else e(why)}</p></details></div>')
+            faq.append({"@type": "Question", "name": qtext, "acceptedAnswer": {"@type": "Answer", "text": f"{right}. {why}"}})
+        srcs = "".join(f'<li><a href="{e(x)}" rel="noopener" dir="ltr">{e(x)}</a></li>' for x in c.get("src", []))
+        path, alt = f"/learn/{lang}/life-in-the-uk-{c['id']}.html", f"/learn/{other}/life-in-the-uk-{c['id']}.html"
+        body = (f"<article><h1>{e(title)}</h1>{warn}<p>{e(about)}</p>{expl}<h2>{e(L['key'])}</h2><ul>{cards}</ul>"
+                f"<h2>{e(L['qs'])}</h2>{''.join(qs)}<h2>{e(L['src'])}</h2><ul>{srcs}</ul>{cta(lang)}</article>")
+        ld = [{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": lang, "mainEntity": faq},
+              {"@context": "https://schema.org", "@type": "LearningResource", "name": title, "inLanguage": lang, "isAccessibleForFree": True,
+               "url": f"{BASE}{path}", "about": "Life in the UK test", "provider": {"@type": "Organization", "name": "New Life UK", "url": APP}}]
+        pages.append((path, shell(lang, title, f"{about} {L['warn']}", path, alt, body, ld), title))
+        items.append((path, title, ""))
+    hub_lis = "".join(f'<li><a href="{BASE}{p}">{e(t)}</a></li>' for p, t, _ in items)
+    hpath, halt = f"/learn/{lang}/life-in-the-uk.html", f"/learn/{other}/life-in-the-uk.html"
+    hbody = f'<h1>{e(L["hub"])}</h1>{warn}<p class="lede">{e(L["hubd"])}</p><p>{e(about)}</p><ul class="grid">{hub_lis}</ul>{cta(lang)}'
+    pages.append((hpath, shell(lang, L["hub"], L["hubd"], hpath, halt, hbody, []), L["hub"]))
+    return pages
+
+
 def main() -> None:
     rps = json.loads(DATA.read_text(encoding="utf-8"))["roleplays"]
     out = ROOT / "learn"
@@ -190,6 +245,11 @@ def main() -> None:
             (ROOT / path.lstrip("/")).write_text(page, encoding="utf-8")
             items.append((path, title, rp.get("level", "")))
             urls.append(BASE + path)
+        for path, page, title in life_pages(lang):
+            (ROOT / path.lstrip("/")).write_text(page, encoding="utf-8")
+            urls.append(BASE + path)
+            if path.endswith("life-in-the-uk.html"):
+                items.append((path, title, ""))
         path, page = index_page(lang, items)
         (d / "index.html").write_text(page, encoding="utf-8")
         urls.append(BASE + path)
