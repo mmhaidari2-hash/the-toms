@@ -31,10 +31,12 @@
     #splash .dot{width:6px;height:6px;border-radius:50%;background:#C8102E;animation:p 1s infinite alternate}
     @keyframes p{to{opacity:.2;transform:scale(.6)}}
   </style>
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "New Life UK", "alternateName": "The Toms", "url": "https://mmhaidari2-hash.github.io/the-toms/", "applicationCategory": "EducationalApplication", "operatingSystem": "Web, Android, iOS", "inLanguage": ["en-GB", "fa"], "description": "Learn British English by living with a British family: real UK situations such as the GP, the pharmacy, the bank and renting a flat, offline, with British voices.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "GBP"}}</script>
 </head>
 <body>
   <div id="app"></div>
-  <div id="splash" style="background:#FBF7F0"><img src="icons/nl3-192.png?v=3" alt="" style="border-radius:22%"><div style="font-size:22px">New Life UK</div><div class="dot"></div></div>
+  <div id="splash" style="background:#FBF7F0"><img src="icons/nl3-192.png?v=3" alt="" style="border-radius:22%"><div style="font-size:22px">New Life UK</div><div class="dot"></div><nav aria-label="Everyday conversations" style="font:14px/1.6 system-ui,sans-serif;text-align:center;max-width:320px;opacity:.75"><a href="learn/en/" style="color:inherit">Everyday British English conversations</a> · <a href="learn/fa/" lang="fa" dir="rtl" style="color:inherit">مکالمه‌های روزمره به فارسی</a></nav></div>
   <script>
     window.addEventListener('flutter-first-frame', function(){var s=document.getElementById('splash');s.style.opacity=0;setTimeout(function(){s.remove()},450);});
   </script>

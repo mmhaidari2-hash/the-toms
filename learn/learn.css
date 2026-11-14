@@ -1,0 +1,25 @@
+
+:root{--ink:#1B2A4A;--paper:#FBF7F0;--red:#C8102E;--slate:#4a5568;--line:#e6dfd3;--ok:#1f7a4c;--warn:#9a5b00}
+*{box-sizing:border-box}html{background:var(--paper);color:var(--ink)}
+body{margin:0;font:17px/1.75 Vazirmatn,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:860px;margin:0 auto;padding:16px}
+.brand{font-family:Georgia,serif;font-weight:700;text-decoration:none}.top nav{display:flex;gap:16px;font-size:15px}
+main{max-width:860px;margin:0 auto;padding:8px 16px 56px}
+h1{font-size:clamp(26px,4.5vw,38px);line-height:1.25;margin:12px 0 16px;text-wrap:balance}
+h2{font-size:22px;margin:36px 0 12px}
+.lede{color:var(--slate);max-width:65ch}
+.level{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--ink);color:#fff;font-size:13px;font-weight:700}
+.turn{margin:20px 0;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.they{font-size:19px;font-weight:700}.they span,.opt span{display:block;font-weight:400;color:var(--slate);font-size:15px}
+.opts{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:10px}
+.opt{padding:10px 12px;border-radius:12px;border-inline-start:4px solid var(--line);background:var(--paper)}
+.opt.q2{border-color:var(--ok)}.opt.q1{border-color:var(--warn)}.opt.q0{border-color:var(--red)}
+.tag{font-size:13px;font-weight:700}.q2 .tag{color:var(--ok)}.q1 .tag{color:var(--warn)}.q0 .tag{color:var(--red)}
+.en{font-weight:700}.fb{font-size:15px;margin-top:4px}
+.cta{margin:40px 0;padding:22px;border-radius:18px;background:var(--ink);color:#fff}.cta p{margin:0 0 12px}
+.btn{display:inline-block;padding:11px 18px;border-radius:12px;background:var(--red);color:#fff;font-weight:800;text-decoration:none}
+.grid{list-style:none;padding:0;display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.grid a{display:block;height:100%;padding:16px;border:1px solid var(--line);border-radius:16px;background:#fff;text-decoration:none;font-weight:700}
+.grid small{display:block;font-weight:400;color:var(--slate);margin-top:4px}
+footer{max-width:860px;margin:0 auto;padding:24px 16px;color:var(--slate);font-size:14px;border-top:1px solid var(--line)}
